@@ -1,0 +1,44 @@
+{
+  "OldId": 1718903154,
+  "NewId": 1177563209,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1724",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Bladed Gauntlet"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_2298",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A pugilistic implement used to draw blood the blood of gods. Increases your strength by 12 and your damage by 80.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1726",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Bladed Gauntlet"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_2299",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "A pugilistic implement used to draw blood the blood of gods. Increases your strength by 12 and your damage by 80.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r"
+    }
+  ],
+  "_rawcode": "I00F",
+  "_base": "ratf",
+  "_name": "Bladed Gauntlet"
+}

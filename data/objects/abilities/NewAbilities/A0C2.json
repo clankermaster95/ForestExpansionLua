@@ -1,0 +1,120 @@
+{
+  "OldId": 2053260097,
+  "NewId": 843264065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 830104136,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Hbz1"
+    },
+    {
+      "Id": 863658568,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Hbz3"
+    },
+    {
+      "Id": 913990216,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 6,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "Hbz6"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "enemies",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1717986657,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aeff"
+    },
+    {
+      "Id": 880435784,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 4,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Hbz4"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 846881352,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "Hbz2"
+    }
+  ],
+  "_rawcode": "A0C2",
+  "_base": "ACbz",
+  "_name": "Lightning Strike"
+}

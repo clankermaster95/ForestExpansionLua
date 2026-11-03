@@ -1,0 +1,194 @@
+{
+  "OldId": 2004117352,
+  "NewId": 859058280,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 99,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 1.5,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1949393269,
+      "Type": "String",
+      "Value": "siege",
+      "SanityCheck": 0,
+      "_field": "ua1t"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "fort",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 3000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A07U",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1633840245,
+      "Type": "Int",
+      "Value": 2500,
+      "SanityCheck": 0,
+      "_field": "ulba"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1953654901,
+      "Type": "String",
+      "Value": "always",
+      "SanityCheck": 0,
+      "_field": "uhrt"
+    },
+    {
+      "Id": 1664246133,
+      "Type": "Unreal",
+      "Value": 1.5,
+      "SanityCheck": 0,
+      "_field": "ua2c"
+    },
+    {
+      "Id": 1647468917,
+      "Type": "Int",
+      "Value": 99,
+      "SanityCheck": 0,
+      "_field": "ua2b"
+    },
+    {
+      "Id": 1681023349,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua2d"
+    },
+    {
+      "Id": 1932681589,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua2s"
+    },
+    {
+      "Id": 1915904373,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "ua2r"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "nightelf",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1887007861,
+      "Type": "String",
+      "Value": "_",
+      "SanityCheck": 0,
+      "_field": "utyp"
+    }
+  ],
+  "_rawcode": "h043",
+  "_base": "hgtw",
+  "_name": "Ancient Protector"
+}

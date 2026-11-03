@@ -1,0 +1,159 @@
+{
+  "OldId": 1668244591,
+  "NewId": 858927215,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0C8,A0AV,A0C7,A09I",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1949393269,
+      "Type": "String",
+      "Value": "chaos",
+      "SanityCheck": 0,
+      "_field": "ua1t"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 99,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 320,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "medium",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 600,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1836084597,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "umpm"
+    },
+    {
+      "Id": 1919970677,
+      "Type": "Unreal",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "umpr"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R063",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "air,debris,ground,item,nonancient,structure,ward",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    }
+  ],
+  "_rawcode": "o023",
+  "_base": "odoc",
+  "_name": "Arcane Mage"
+}

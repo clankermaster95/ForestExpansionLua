@@ -1,0 +1,177 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1177628754,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2202",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Bow Training"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2205",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Bow Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2206",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Bow Training"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7985",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Bow Training - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7986",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Bow Training - [75.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7987",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Bow Training - [90.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8610",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of your Champions, Crowssbowmen, and Archers by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8611",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of your Champions, Crowssbowmen, and Archers by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8612",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of your Champions, Crowssbowmen, and Archers by 100."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5418",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5523",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5524",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R01F",
+  "_base": "Rhme",
+  "_name": "Bow Training"
+}

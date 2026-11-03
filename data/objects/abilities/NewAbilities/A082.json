@@ -1,0 +1,48 @@
+{
+  "OldId": 1684426305,
+  "NewId": 842543169,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 180,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1986818657,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "arlv"
+    },
+    {
+      "Id": 862217806,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 750,
+      "SanityCheck": 0,
+      "_field": "Nfd3"
+    }
+  ],
+  "_rawcode": "A082",
+  "_base": "ANfd",
+  "_name": "Mummify"
+}

@@ -1,0 +1,22 @@
+{
+  "OldId": 1986939201,
+  "NewId": 809578561,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5601",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Inventory (1 slot)"
+    }
+  ],
+  "_rawcode": "A0A0",
+  "_base": "AInv",
+  "_name": "Inventory (1 slot)"
+}

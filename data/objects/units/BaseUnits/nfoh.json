@@ -1,0 +1,26 @@
+{
+  "OldId": 1752131182,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 1752131182,
+      "_field": "usid"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 1752131182,
+      "_field": "usin"
+    }
+  ],
+  "_rawcode": "nfoh",
+  "_base": "nfoh",
+  "_name": "nfoh"
+}

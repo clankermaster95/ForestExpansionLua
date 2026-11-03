@@ -1,0 +1,65 @@
+{
+  "OldId": 2004121448,
+  "NewId": 808595560,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1513",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Centaur Wall"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\PigFarm\\PigFarm.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPigFarm.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_667",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4255",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Centaur Wall"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9930",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic wall, allows you to protect your base from the Defender.|n|n|cfffdca00Health:|r 250; 1/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h020",
+  "_base": "hwtw",
+  "_name": "Centaur Wall"
+}

@@ -1,0 +1,44 @@
+{
+  "OldId": 1819635571,
+  "NewId": 1295003721,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2072",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Orb of God"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2073",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Orb of God"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_2083",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Allows you to see the entire map for 3 seconds."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_2084",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Allows you to see the entire map for 3 seconds."
+    }
+  ],
+  "_rawcode": "I00M",
+  "_base": "soul",
+  "_name": "Orb of God"
+}

@@ -1,0 +1,75 @@
+{
+  "OldId": 1986090305,
+  "NewId": 1111830593,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 829841749,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.33,
+      "SanityCheck": 0,
+      "_field": "Uav1"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B014",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "self",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R07R",
+      "SanityCheck": 0,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "A0EB",
+  "_base": "AUav",
+  "_name": "Lifesteal"
+}

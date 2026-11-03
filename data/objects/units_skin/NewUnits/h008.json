@@ -1,0 +1,58 @@
+{
+  "OldId": 2004121448,
+  "NewId": 942682216,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_048",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Wall"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_049",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build |cffffcc00W|rall"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3082",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Wall to protect your base. Can be upgraded.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_068",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h008",
+  "_base": "hwtw",
+  "_name": "Wall"
+}

@@ -1,0 +1,71 @@
+{
+  "OldId": 1668440421,
+  "NewId": 875573349,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4167",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Avenger"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\other\\DalaranReject\\DalaranReject.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDalaranReject.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\WitchDoctorMissile\\WitchDoctorMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "DoomGuard",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4168",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00A|rvenger"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10152",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Avengers are military units that become invisible after 5 seconds out of combat. They are adept at hunting the Ancient.|n|n|cfffdca00Health:|r 800; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Attack:|r 50 (Chaos)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 0.01|n|cfffdca00Movement Speed:|r 300|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    }
+  ],
+  "_rawcode": "e004",
+  "_base": "earc",
+  "_name": "Avenger"
+}

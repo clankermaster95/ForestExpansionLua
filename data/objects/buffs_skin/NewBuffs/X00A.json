@@ -1,0 +1,27 @@
+{
+  "OldId": 1718575704,
+  "NewId": 1093677144,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952540006,
+      "Type": "String",
+      "Value": "war3mapImported\\SpiderToxin.mdl",
+      "SanityCheck": 0,
+      "_field": "feat"
+    },
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6222",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Sticky Venom (Effect)"
+    }
+  ],
+  "_rawcode": "X00A",
+  "_base": "Xbof",
+  "_name": "Sticky Venom (Effect)"
+}

@@ -1,0 +1,22 @@
+{
+  "OldId": 1718372673,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_594",
+      "SanityCheck": 1718372673,
+      "_field": "ansf",
+      "_resolvedText": "(150)"
+    }
+  ],
+  "_rawcode": "AIlf",
+  "_base": "AIlf",
+  "_name": "AIlf"
+}

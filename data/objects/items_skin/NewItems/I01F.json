@@ -1,0 +1,50 @@
+{
+  "OldId": 1919053164,
+  "NewId": 1177628745,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7252",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Dark Transmutation"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7253",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Dark Transmutation"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1923",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Converts 12 gold into 500 lumber. |n|cff7F7F7FThis philosopher's stone allows for a long forgotten alchemical technique to transmute gold into lumber.|r"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSacrificialSkull.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "Objects\\InventoryItems\\CrystalShard\\CrystalShard.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    }
+  ],
+  "_rawcode": "I01F",
+  "_base": "lmbr",
+  "_name": "Dark Transmutation"
+}

@@ -1,0 +1,42 @@
+{
+  "OldId": 1768910914,
+  "NewId": 1194405954,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_5099",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Dread"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShadowPact.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_5100",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Dread"
+    }
+  ],
+  "_rawcode": "B01G",
+  "_base": "Bpoi",
+  "_name": "Dread"
+}

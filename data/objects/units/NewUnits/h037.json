@@ -1,0 +1,117 @@
+{
+  "OldId": 2004121448,
+  "NewId": 926101608,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "fort",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "undead",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1953527157,
+      "Type": "String",
+      "Value": "h036",
+      "SanityCheck": 0,
+      "_field": "uupt"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h035",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 350,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    }
+  ],
+  "_rawcode": "h037",
+  "_base": "hwtw",
+  "_name": "Nerubian Wall"
+}

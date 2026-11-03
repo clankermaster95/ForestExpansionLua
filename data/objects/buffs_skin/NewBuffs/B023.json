@@ -1,0 +1,43 @@
+{
+  "OldId": 1802981186,
+  "NewId": 858927170,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6350",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Agility"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAmbush.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6351",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Agility"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6352",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is invisible and moves faster."
+    }
+  ],
+  "_rawcode": "B023",
+  "_base": "BOwk",
+  "_name": "Agility"
+}

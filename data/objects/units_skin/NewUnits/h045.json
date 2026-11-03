@@ -1,0 +1,113 @@
+{
+  "OldId": 2004117352,
+  "NewId": 892612712,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\BlackHole.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNInnerFire.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "war3mapImported\\MegaBlast.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "InfernalMachine",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5064",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00G|ramma Ray"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10188",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "The Gamma Ray is the most powerful tower of all the races. It's very expensive but has the highest health, damage, and strongest abilities against the ancient.|n|n|cfffdca00Health:|r 9001|n|cfffdca00Armor:|r 75 (Hero)|n|cfffdca00Attack:|r 6500 (Chaos)|n|cfffdca00Attack Range:|r 1250|n|cfffdca00Attack Cooldown:|r 4|n|cfffdca00Build Time:|r 10|n|cffff0000Feed Value:|r |cffffdd00150|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5063",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Gamma Ray"
+    }
+  ],
+  "_rawcode": "h045",
+  "_base": "hgtw",
+  "_name": "Gamma Ray"
+}

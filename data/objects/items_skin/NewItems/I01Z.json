@@ -1,0 +1,51 @@
+{
+  "OldId": 1752459378,
+  "NewId": 1513173065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_576",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Armor Plates"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_577",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Armor Plates"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_578",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your hit points by <AIl1,DataA1>"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_579",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases your hit points by <AIl1,DataA1>"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMoonArmor.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    }
+  ],
+  "_rawcode": "I01Z",
+  "_base": "rhth",
+  "_name": "Armor Plates"
+}

@@ -1,0 +1,79 @@
+{
+  "OldId": 1752384833,
+  "NewId": 808726593,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3902",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Gnaw"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStampede.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStampede.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5050",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3904",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gnaw"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2526",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gnaws on the target, turning their insides out. Deals 600 damage and slows their movement speed while dealing another 20 damage a second for 5 seconds. 100 second cooldown."
+    }
+  ],
+  "_rawcode": "A040",
+  "_base": "AEsh",
+  "_name": "Gnaw"
+}

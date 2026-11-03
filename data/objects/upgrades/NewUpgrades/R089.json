@@ -1,0 +1,39 @@
+{
+  "OldId": 1818650706,
+  "NewId": 959983698,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651338343,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2000,
+      "SanityCheck": 0,
+      "_field": "glmb"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "R086",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 1651271527,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 12,
+      "SanityCheck": 0,
+      "_field": "gglb"
+    }
+  ],
+  "_rawcode": "R089",
+  "_base": "Rhfl",
+  "_name": "Elite Eagle"
+}

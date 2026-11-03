@@ -1,0 +1,78 @@
+{
+  "OldId": 1701668946,
+  "NewId": 943009874,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7786",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Natural Vigil"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ghk1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10345",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Natural Vigil - [20.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7788",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows your Wildkin to use Natural Vigil."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R058",
+  "_base": "Rhme",
+  "_name": "Natural Vigil"
+}

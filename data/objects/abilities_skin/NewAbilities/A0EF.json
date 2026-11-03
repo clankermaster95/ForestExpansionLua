@@ -1,0 +1,149 @@
+{
+  "OldId": 1835615553,
+  "NewId": 1178939457,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8696",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Flesh Stampede"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3071",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3093",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3186",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8725",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Flesh Stampede"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8779",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Amalgamation starts charging, increasing it's speed by 25%. While active, Amalgamation's health drains by 4% of max health per second"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8727",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Activate Flesh Stampede"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8780",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Amalgamation starts charging, increasing it's speed by 25%. While active, Amalgamation's health drains by 4% of max health per second"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8729",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Flesh Stampede"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8730",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Amalgamation stops charging."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNInvisibility.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8937",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Cultist) - Macko"
+    }
+  ],
+  "_rawcode": "A0EF",
+  "_base": "AEim",
+  "_name": "Flesh Stampede"
+}

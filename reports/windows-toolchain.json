@@ -1,0 +1,27 @@
+{
+  "platform": "Windows x64",
+  "dotnet_sdk": "10.0.403",
+  "stormlib_release": "9.40, official Unicode Windows DLL",
+  "lua_source_sha256": "fc5fd69bb8736323f026672b1b7235da613d7177e72558893a0bdcd320466d60",
+  "compiler": "GCC 16.2.0, w64devkit 2.9.1",
+  "compiler_archive_sha256": "9208c19755cd4964b7915b9afcf02c66d493a4c870c4b3e83f6c538d9c1237a5",
+  "local_binaries": {
+    ".NET SDK": {
+      "path": ".tools/dotnet/dotnet.exe",
+      "sha256": "1e881ec1786c31ba712d052258b4ad4202ac155df5965794030037878abb822f"
+    },
+    "StormLib": {
+      "path": ".tools/stormlib-win/x64/StormLib.dll",
+      "sha256": "93321f6f030be5d7d79eb4cbf433d6ef7e83ce20d47d8963717f207d54afbe16"
+    },
+    "Lua 5.3.6": {
+      "path": ".tools/lua-5.3.6/src/lua.exe",
+      "sha256": "3e3ec1f53127504e3230af20b9cad7bb3967408709c4d2272e75773f5c0d8942"
+    },
+    "Lua 5.3.6 LUA_32BITS": {
+      "path": ".tools/lua-5.3.6-32/src/lua.exe",
+      "sha256": "623953f39025bedb5e59863570d8d45d1af00dda2439ab0542453fb27de320df"
+    }
+  },
+  "fresh_windows_bootstrap_automated": false
+}

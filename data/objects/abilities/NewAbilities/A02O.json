@@ -1,0 +1,75 @@
+{
+  "OldId": 1936084801,
+  "NewId": 1328689217,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1500,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    }
+  ],
+  "_rawcode": "A02O",
+  "_base": "AOfs",
+  "_name": "Observe"
+}

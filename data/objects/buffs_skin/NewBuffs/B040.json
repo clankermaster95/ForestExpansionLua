@@ -1,0 +1,64 @@
+{
+  "OldId": 1717782850,
+  "NewId": 808726594,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\Unsummon\\UnsummonTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAmuletOftheWild.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\ManaFlare\\ManaFlareBoltImpact.mdl",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_9463",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Hatred"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_9464",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Nearby units will take heavy damage. Works on structures."
+    },
+    {
+      "Id": 1953526630,
+      "Type": "String",
+      "Value": "foot",
+      "SanityCheck": 0,
+      "_field": "fspt"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_9465",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": "(VS BUILDING EXTRA)"
+    }
+  ],
+  "_rawcode": "B040",
+  "_base": "BIcf",
+  "_name": "B040"
+}

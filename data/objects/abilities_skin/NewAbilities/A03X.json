@@ -1,0 +1,80 @@
+{
+  "OldId": 1936876353,
+  "NewId": 1479749697,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3892",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Worgen's Curse"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3893",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Worgen's |cffffcc00C|rurse"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1928",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The Worgen lays a curse on a target, causing it to have a 30% chance to miss on attack for 20 seconds. 60 second cooldown."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3895",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Worgen's |cffffcc00C|rurse"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1945",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "The Worgen lays a curse on a target, causing it to have a 30% chance to miss on attack for 20 seconds. 60 second cooldown."
+    }
+  ],
+  "_rawcode": "A03X",
+  "_base": "Acrs",
+  "_name": "Worgen's Curse"
+}

@@ -1,0 +1,50 @@
+{
+  "OldId": 1700876098,
+  "NewId": 926101570,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_9133",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Sun Aura"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_9134",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Sun Aura"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_9135",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has increased attack speed, move speed and healing."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Doom\\DoomDeath.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSunburst3.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B037",
+  "_base": "BOae",
+  "_name": "Sun Aura"
+}

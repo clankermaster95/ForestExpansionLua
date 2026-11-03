@@ -1,0 +1,84 @@
+{
+  "OldId": 1952539969,
+  "NewId": 1497575489,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 846487877,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "Eat2"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1684562785,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "achd"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 863265093,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Eat3"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 829710661,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "Eat1"
+    }
+  ],
+  "_rawcode": "A0CY",
+  "_base": "Aeat",
+  "_name": "Tree Cut"
+}

@@ -1,0 +1,42 @@
+{
+  "OldId": 1918986305,
+  "NewId": 843132993,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_485",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Night elf)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9557",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Harvests lumber from trees."
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8273",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    }
+  ],
+  "_rawcode": "A0A2",
+  "_base": "Ahar",
+  "_name": "A0A2"
+}

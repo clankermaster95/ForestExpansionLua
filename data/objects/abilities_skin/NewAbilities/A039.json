@@ -1,0 +1,60 @@
+{
+  "OldId": 1650740801,
+  "NewId": 959656001,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3061",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Cheap Combat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3062",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Cheap Combat"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3063",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives you a 10% chance to get a critical hit for 2x damage, and a 10% chance to evade an attack."
+    }
+  ],
+  "_rawcode": "A039",
+  "_base": "ANdb",
+  "_name": "Cheap Combat"
+}

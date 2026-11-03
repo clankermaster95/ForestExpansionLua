@@ -1,0 +1,26 @@
+{
+  "OldId": 1667330658,
+  "NewId": 1445998665,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "igol"
+    }
+  ],
+  "_rawcode": "I00V",
+  "_base": "brac",
+  "_name": "Majestic Sapphire"
+}

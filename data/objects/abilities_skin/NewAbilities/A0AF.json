@@ -1,0 +1,31 @@
+{
+  "OldId": 1952662337,
+  "NewId": 1178677313,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_851",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Ents)"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNEnt Rage.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A0AF",
+  "_base": "ACct",
+  "_name": "A0AF"
+}

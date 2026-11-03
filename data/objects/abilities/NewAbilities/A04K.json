@@ -1,0 +1,48 @@
+{
+  "OldId": 1717782849,
+  "NewId": 1261711425,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B019",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "enemies,ground,neutral,structure",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1684431689,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "Icfd"
+    }
+  ],
+  "_rawcode": "A04K",
+  "_base": "AIcf",
+  "_name": "Hatred"
+}

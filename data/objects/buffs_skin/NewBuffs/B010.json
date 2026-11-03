@@ -1,0 +1,50 @@
+{
+  "OldId": 1919239490,
+  "NewId": 808529986,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_3426",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Grasp"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_3427",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Grasp"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_3428",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is grasped, it is unable to move and is taking damage."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Orc\\Ensnare\\ensnareTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    }
+  ],
+  "_rawcode": "B010",
+  "_base": "BEer",
+  "_name": "Grasp"
+}

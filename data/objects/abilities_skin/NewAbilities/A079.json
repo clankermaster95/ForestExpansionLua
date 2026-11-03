@@ -1,0 +1,79 @@
+{
+  "OldId": 1700876097,
+  "NewId": 959918145,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6012",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Surge of Darkness"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6134",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Surge of Darkness"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7357",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Trigger Movespeed Penalty)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7368",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "If you're seeing this in game, pls report. -Moose"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 811693153,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ata0"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A079",
+  "_base": "AOae",
+  "_name": "Surge of Darkness"
+}

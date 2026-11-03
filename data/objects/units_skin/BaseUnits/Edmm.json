@@ -1,0 +1,19 @@
+{
+  "OldId": 1835885637,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "Objects\\Spawnmodels\\NightElf\\NightElfLargeDeathExplode\\NightElfLargeDeathExplode.mdl",
+      "SanityCheck": 1835885637,
+      "_field": "uspa"
+    }
+  ],
+  "_rawcode": "Edmm",
+  "_base": "Edmm",
+  "_name": "Edmm"
+}

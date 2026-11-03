@@ -1,0 +1,99 @@
+{
+  "OldId": 1935951937,
+  "NewId": 1261449281,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3140",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Huddle"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNThornShield.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNThornShield.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNThornShield.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5243",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Huddl|cffffcc00e|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9297",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Huddle into an impenetrable shield, rendering you immune to all damage for 7 seconds. 1 minute cooldown."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3141",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Huddle"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1061",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1062",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "E"
+    }
+  ],
+  "_rawcode": "A00K",
+  "_base": "AHds",
+  "_name": "Huddle"
+}

@@ -1,0 +1,47 @@
+{
+  "OldId": 1668246645,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 1668246645,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1680957813,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 1668246645,
+      "_field": "ua1d"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 1668246645,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1915838837,
+      "Type": "Int",
+      "Value": 600,
+      "SanityCheck": 1668246645,
+      "_field": "ua1r"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "air,debris,enemies,ground,item,structure",
+      "SanityCheck": 1668246645,
+      "_field": "ua1g"
+    }
+  ],
+  "_rawcode": "uloc",
+  "_base": "uloc",
+  "_name": "uloc"
+}

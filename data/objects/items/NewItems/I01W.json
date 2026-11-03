@@ -1,0 +1,26 @@
+{
+  "OldId": 1818455152,
+  "NewId": 1462841417,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A0B8",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    }
+  ],
+  "_rawcode": "I01W",
+  "_base": "plcl",
+  "_name": "Clarity Potion"
+}

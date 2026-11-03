@@ -1,0 +1,22 @@
+{
+  "OldId": 1802728257,
+  "NewId": 960049217,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9670",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Hardened Skin (Firelord's Cape)"
+    }
+  ],
+  "_rawcode": "A099",
+  "_base": "Assk",
+  "_name": "Hardened Skin (Firelord's Cape)"
+}

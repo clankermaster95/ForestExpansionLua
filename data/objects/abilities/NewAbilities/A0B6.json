@@ -1,0 +1,30 @@
+{
+  "OldId": 1769163073,
+  "NewId": 910307393,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651077961,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": -400,
+      "SanityCheck": 0,
+      "_field": "Isib"
+    },
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    }
+  ],
+  "_rawcode": "A0B6",
+  "_base": "AIsi",
+  "_name": "Paranoia's vision reduction"
+}

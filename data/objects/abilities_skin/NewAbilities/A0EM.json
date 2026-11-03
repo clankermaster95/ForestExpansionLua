@@ -1,0 +1,32 @@
+{
+  "OldId": 1668899649,
+  "NewId": 1296379969,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8946",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Tosses a target non-mechanical unit into the air, rendering it unable to move, attack or cast spells, and stopping others from attacking or casting on it. |nLasts <A0EM,Dur1> seconds."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1962",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Spellbringer)"
+    }
+  ],
+  "_rawcode": "A0EM",
+  "_base": "Acyc",
+  "_name": "A0EM"
+}

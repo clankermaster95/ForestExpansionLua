@@ -1,0 +1,75 @@
+{
+  "OldId": 1751205185,
+  "NewId": 1211379777,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 828924229,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 37.5,
+      "SanityCheck": 0,
+      "_field": "Eah1"
+    },
+    {
+      "Id": 845701445,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Eah2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,friend,ground,invulnerable,self,structure,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    }
+  ],
+  "_rawcode": "A04H",
+  "_base": "AEah",
+  "_name": "Spikey"
+}

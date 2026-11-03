@@ -1,0 +1,52 @@
+{
+  "OldId": 1634225729,
+  "NewId": 1345531969,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3684",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Harvests lumber from trees."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3688",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Harvests lumber from trees."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3487",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Squid)"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5049",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    }
+  ],
+  "_rawcode": "A03P",
+  "_base": "ANha",
+  "_name": "A03P"
+}

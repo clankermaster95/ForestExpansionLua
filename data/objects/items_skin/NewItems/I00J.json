@@ -1,0 +1,59 @@
+{
+  "OldId": 1919906419,
+  "NewId": 1244672073,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5442",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Tome of Power"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5443",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Tome of Power"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7504",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Purchasing this tome will instantly grant you one level."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_7505",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Purchasing this tome will instantly grant you one level."
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTomeRed.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1908",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    }
+  ],
+  "_rawcode": "I00J",
+  "_base": "sror",
+  "_name": "Tome of Power"
+}

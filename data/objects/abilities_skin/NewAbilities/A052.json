@@ -1,0 +1,88 @@
+{
+  "OldId": 1818379585,
+  "NewId": 842346561,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3748",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Underground Travel"
+    },
+    {
+      "Id": 1634034017,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\Impale\\ImpaleMissTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "aaea"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCryptFiendBurrow.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCryptFiendBurrow.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\Impale\\ImpaleMissTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2783",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3751",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Underground |cffffcc00T|rravel"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6628",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Take a quick route underground, instantly porting you to a targeted area. 90 second cooldown. Max range: 1200"
+    }
+  ],
+  "_rawcode": "A052",
+  "_base": "AEbl",
+  "_name": "Underground Travel"
+}

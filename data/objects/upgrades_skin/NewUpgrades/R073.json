@@ -1,0 +1,471 @@
+{
+  "OldId": 1634887762,
+  "NewId": 859254866,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3513",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Legwork I"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4390",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpTwo.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpTwo.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpTwo.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpTwo.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWirtsOtherLeg.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBoots.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBoots.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBootsOfSpeed.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4481",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80d780Legwork I|r [20]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2582",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff80af80Bounty Hunter's adaptability lets him move around quicker. Movement speed is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2583",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff80af80Bounty Hunter's adaptability lets him move around quicker. Movement speed is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2584",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff80af80Bounty Hunter's adaptability lets him move around quicker. Movement speed is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2585",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff80af80Bounty Hunter's adaptability lets him move around quicker. Movement speed is increased by|r 20.|n|nThis is the last upgrade."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2591",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff80af80Bounty Hunter's adaptability lets him move around quicker. Movement speed is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2007",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2008",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2009",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2012",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2443",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade."
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4482",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80d780Legwork II|r [23]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4484",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80d780Legwork III|r [26]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4485",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80d780Legwork IV|r [29]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4486",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80d780Legwork V|r [32]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2273",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff8080b9Rich Gunpowder VI|r [20]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2274",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff8080b9Rich Gunpowder VII|r [23]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2275",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff8080b9Rich Gunpowder VIII|r [26]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2305",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff8080b9Rich Gunpowder IX|r [29]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2306",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff8080b9Rich Gunpowder X|r [32]"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3516",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Legwork II"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4029",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Legwork III"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4053",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Legwork IV"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4054",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Legwork V"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1979",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rich Gunpowder"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2335",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rich Gunpowder"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2340",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rich Gunpowder"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2341",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rich Gunpowder"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2342",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rich Gunpowder"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWirtsOtherLeg.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8220",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8221",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8690",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8691",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8693",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R073",
+  "_base": "Rhra",
+  "_name": "Rich Gunpowder"
+}

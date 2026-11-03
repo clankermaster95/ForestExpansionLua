@@ -1,0 +1,100 @@
+{
+  "OldId": 1701990209,
+  "NewId": 875573313,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_151",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Rebirth"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Items\\TomeOfRetraining\\TomeOfRetrainingCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5908",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cff4c9900Rebirth|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5909",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff4c9900Rebirth|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_274",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When killed, the Ancient will come back to life. Rebirth has a 15 minute cooldown."
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1693",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 2037412449,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "arpy"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5654",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Ancient of Fire)"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_275",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "When killed, the Ancient will come back to life. Rebirth has a 15 minute cooldown."
+    }
+  ],
+  "_rawcode": "A004",
+  "_base": "AOre",
+  "_name": "Rebirth"
+}

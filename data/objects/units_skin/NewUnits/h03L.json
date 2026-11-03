@@ -1,0 +1,93 @@
+{
+  "OldId": 2004117352,
+  "NewId": 1278423144,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3517",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Tidal Tower"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSummonWaterElemental.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\human\\WaterElemental\\WaterElemental.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\LichMissile\\LichMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1434",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_3518",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Ti|cffffcc00d|ral Tower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10137",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Your basic defensive structure, can be upgraded.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 40 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": ".mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h03L",
+  "_base": "hgtw",
+  "_name": "Tidal Tower"
+}

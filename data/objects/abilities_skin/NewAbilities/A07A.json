@@ -1,0 +1,158 @@
+{
+  "OldId": 1919110977,
+  "NewId": 1094135873,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7436",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Burnstrike"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNOrbOfFire.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2316",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5706",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffd32121Burnstrike|r |cffd35858[Passive]|r |cffe99090[Level 1]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5711",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffd32121Burnstrike|r |cffd35858[Passive]|r |cffe99090[Level 2]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5712",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffd32121Burnstrike|r |cffd35858[Passive]|r |cffe99090[Level 3]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5713",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffe92121Damage against units is increased by |r50%|r.|n|nDoes not apply to structures."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5714",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffe92121Damage against units is increased by |r100%|r.|n|nDoes not apply to structures."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5715",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffe92121Damage against units is increased by |r150%|r.|n|nDoes not apply to structures."
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5762",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cffd32121Burnstrike|r |cffd35858[Passive]|r"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5721",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Ancient of Fire)"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5744",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cffe92121Increases your damage against units by|r |n50% / 100% / 150%.|n|nDoes not apply to structures."
+    }
+  ],
+  "_rawcode": "A07A",
+  "_base": "AOcr",
+  "_name": "Burnstrike"
+}

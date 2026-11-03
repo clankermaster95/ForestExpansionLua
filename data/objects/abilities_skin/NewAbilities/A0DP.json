@@ -1,0 +1,40 @@
+{
+  "OldId": 1869498689,
+  "NewId": 1346646081,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2106",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "IE-27 bleeding (Orb of Slow New)"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Objects\\Spawnmodels\\Orc\\OrcLargeDeathExplode\\OrcLargeDeathExplode.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "acat"
+    }
+  ],
+  "_rawcode": "A0DP",
+  "_base": "AIno",
+  "_name": "IE-27 bleeding (Orb of Slow New)"
+}

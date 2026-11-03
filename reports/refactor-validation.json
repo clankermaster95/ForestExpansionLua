@@ -1,0 +1,143 @@
+{
+  "result": "passed",
+  "version": "3.2.0",
+  "revision": "r7",
+  "archive_sha256": "ff03e1b190b76925957400fee8c18460002ccd09999062b9fde918c7fff47a10",
+  "unchanged_original_payload_files": 510,
+  "intentional_noncode_payload_changes": [
+    {
+      "file": "war3map.wts",
+      "before_sha256": "e09e20c1f9c9908daae0f5169963630a65a6f1f70e2fc5a9a61629747d57f05e",
+      "after_sha256": "0f61e5f6bb16e50d67142d2e1f45003dd18649191defab3751a2d389ba7da7ff"
+    },
+    {
+      "file": "war3map.w3t",
+      "before_sha256": "64472c951e1958b2eb40dc319ba0477f55e1bc64f6269159efde1a49d885285e",
+      "after_sha256": "da0e5c71de4ca7271f0ceb2fec7af476f1ec570afe5f242a446e7ca3278f6b97"
+    },
+    {
+      "file": "war3mapSkin.w3t",
+      "before_sha256": "ede1bfafbdc64e287cd28605de2651391f369ac3b03115a1f468ab9ea15baf9b",
+      "after_sha256": "e53bd933581169257987e347c8c408d50fc2782bc2b25d7a41cd9470401dc43e"
+    },
+    {
+      "file": "war3map.w3u",
+      "before_sha256": "5f62d69ff7b85ec722c04721e6eedd5b6dc066cb80e7a15bc06db5f66f322fe0",
+      "after_sha256": "5a13fce2f35102be1bc527c55db73e58065cdf5f2e99f928d0aee06b641d9927"
+    }
+  ],
+  "source_modules": 103,
+  "lua_chunks_per_numeric_configuration": 105,
+  "event_initializers_tested": 34,
+  "regressions": [
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "roles",
+      "result": "Ancient role regression checks passed: 8058 assertions; 34 event initializers"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "shopping",
+      "result": "Shopping regression checks passed: 1883 assertions; 385 purchases; 3 local-client traces"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "bugfixes",
+      "result": "Bug regression checks passed: 59 assertions; overlapping waits, roster, rebirth, index integrity, sync ownership"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "solo_test",
+      "result": "Solo test checks passed: 81 assertions; registered chat/selection callbacks and start-time human gate"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "solo_startup",
+      "result": "Solo startup integration passed: 440 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "roles",
+      "result": "Ancient role regression checks passed: 8058 assertions; 34 event initializers"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "shopping",
+      "result": "Shopping regression checks passed: 1883 assertions; 385 purchases; 3 local-client traces"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "bugfixes",
+      "result": "Bug regression checks passed: 59 assertions; overlapping waits, roster, rebirth, index integrity, sync ownership"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "solo_test",
+      "result": "Solo test checks passed: 81 assertions; registered chat/selection callbacks and start-time human gate"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "solo_startup",
+      "result": "Solo startup integration passed: 440 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+    }
+  ],
+  "costs": {
+    "manual_recipe_totals": 12,
+    "packed_item_prices_checked": 76,
+    "generated_scroll_tooltips_checked": 11,
+    "all_shop_item_count": 64,
+    "shops_checked": 21,
+    "ancient_native_shop_profiles_checked": 3,
+    "ai_purchase_prices_from_catalog": 7,
+    "map_version_strings": "3.2.0"
+  },
+  "synchronization_review": {
+    "active_modules_scanned": 77,
+    "local_player_functions": {
+      "Hardmode_PlayActivationIndicator": {
+        "module": "src/commands/player.lua",
+        "review": "Local player is only the text recipient; sound runs for all clients."
+      },
+      "Ancient_ClearMessagesForPlayer": {
+        "module": "src/commands/player.lua",
+        "review": "Local text clearing only."
+      },
+      "FeedRate_SaveForPlayer": {
+        "module": "src/economy/feed.lua",
+        "review": "Local file output only, escaped JASS payload. No local gameplay mutation."
+      },
+      "FeedRate_TryLoadForPlayer": {
+        "module": "src/economy/feed.lua",
+        "review": "Local Preloader sends sync payloads; only synchronized receivers apply feed settings."
+      },
+      "Trig_ClearMessagesOnEsc_Actions": {
+        "module": "src/ui/hints.lua",
+        "review": "Local text clearing only."
+      },
+      "Trig_Lackey_Respawn_Actions": {
+        "module": "src/players/lackeys.lua",
+        "review": "Timer/dialog allocation and timer start are synchronized; only visibility is local."
+      },
+      "SpawnLackey_PanCameraToFountainForPlayer": {
+        "module": "src/players/lackeys.lua",
+        "review": "Local camera movement only."
+      },
+      "SpawnLackey_StartDelayedTimer": {
+        "module": "src/players/lackeys.lua",
+        "review": "Timer/dialog allocation and timer start are synchronized; only visibility is local."
+      }
+    },
+    "wait_functions_checked": 39,
+    "unit_index_single_writer": true,
+    "limit": "Static review guards, not proof of multiplayer synchronization. Native shop UI, preload and gameplay still require live testing."
+  },
+  "editor_categories": 19,
+  "archive_roundtrip": true,
+  "source_editor_synchronized": true,
+  "initialization_order_preserved": true,
+  "legacy_sections_preserved": 375,
+  "consolidated_gameplay_modules": 60,
+  "live_engine_test": false,
+  "multiplayer_test": false,
+  "scope": "Role, shopping and bug regression doubles; reviewed local-player functions; module hashes, native binary codecs, MPQ readback and WCT regeneration syntax. No claim of full engine behavior or unchanged JASS gameplay after intentional fixes."
+}

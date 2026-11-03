@@ -1,0 +1,91 @@
+{
+  "OldId": 1919110977,
+  "NewId": 825700417,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7132",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Hookstrike"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4765",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Hookstrike [Passive]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4783",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Hookstrike [Passive]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4940",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Abomination has a 25% chance to deal twice as much damage."
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4967",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Abomination has a 25% chance to deal twice as much damage."
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1290",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4786",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Abomination)"
+    }
+  ],
+  "_rawcode": "A071",
+  "_base": "AOcr",
+  "_name": "Hookstrike"
+}

@@ -1,0 +1,58 @@
+{
+  "OldId": 1935767649,
+  "NewId": 1211183177,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7490",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ancient Artifact"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPeriapt.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7491",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Ancient Artifact"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6586",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "When used, 50% of your max health is instantly healed. 120 seconds cooldown.|n|cff7F7F7FA stone from simpler times that has been passed down from generation to generation.|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_6588",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "When used, 50% of your max health is instantly healed. 120 seconds cooldown.|n|cff7F7F7FA stone from simpler times that has been passed down from generation to generation.|r"
+    }
+  ],
+  "_rawcode": "I01H",
+  "_base": "axas",
+  "_name": "Ancient Artifact"
+}

@@ -1,0 +1,79 @@
+{
+  "OldId": 1818379585,
+  "NewId": 1395732545,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8814",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Void Warp"
+    },
+    {
+      "Id": 1634034017,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BlackHole2.mdx",
+      "SanityCheck": 0,
+      "_field": "aaea"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8815",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00V|roid Warp"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5340",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8952",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Teleports you instantly to any spot on the map. This ability has a 45 second cooldown."
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BlackHole2.mdx",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A01S",
+  "_base": "AEbl",
+  "_name": "Void Warp"
+}

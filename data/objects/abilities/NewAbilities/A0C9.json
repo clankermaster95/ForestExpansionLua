@@ -1,0 +1,39 @@
+{
+  "OldId": 1634881601,
+  "NewId": 960704577,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1936747849,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "Imps"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,friend,ground,invulnerable,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    }
+  ],
+  "_rawcode": "A0C9",
+  "_base": "APra",
+  "_name": "Rune Biscuit"
+}

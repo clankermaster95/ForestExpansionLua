@@ -1,0 +1,79 @@
+{
+  "OldId": 2004117352,
+  "NewId": 1362178152,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_103",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Meat Wagon"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\undead\\MeatWagon\\MeatWagon.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMeatWagon.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "USMA",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "units\\undead\\AbominationCIN\\AbominationCIN.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_601",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1240",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Meat Wagon"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9918",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A great tower that deals chaos damage and is very fast.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 50 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h01Q",
+  "_base": "hgtw",
+  "_name": "Meat Wagon"
+}

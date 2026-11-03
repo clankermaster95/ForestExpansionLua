@@ -1,0 +1,116 @@
+{
+  "OldId": 1886798657,
+  "NewId": 926298177,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6005",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Essence Theft"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6006",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Essence Theft"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3365",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You gain a 30% lifesteal on your basic attacks. |n|cff7F7F7FYour strikes siphon part of the target's essence, mending your wounds.|r"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNSpellShadowRequiem.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNSpellShadowRequiem.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6183",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Essence Theft"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6965",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your lifesteal is empowered, healing for 70% of damage dealt."
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    }
+  ],
+  "_rawcode": "A067",
+  "_base": "ACvp",
+  "_name": "Essence Theft"
+}

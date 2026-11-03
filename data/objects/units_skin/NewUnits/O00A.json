@@ -1,0 +1,94 @@
+{
+  "OldId": 1751348303,
+  "NewId": 1093677135,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3113",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ancient of Darkness"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\SoulDevourer.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Vengeance",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_5073",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cff52085AParanoia|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7153",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff000000Paranoia|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9496",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r\n|cffFF8040Strong Against:|r Bases & Militaries\n|cffFF8040Weak Against:|r Solos\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r\n\nThis ancient is a powerful summoner. He is very strong in the early game and will dominate the map with his towers and stalkers. His ultimate summons a Dark Figure which can very helpful. "
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2.75,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_6218",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Paranoia)"
+    }
+  ],
+  "_rawcode": "O00A",
+  "_base": "Otch",
+  "_name": "Ancient of Darkness"
+}

@@ -1,0 +1,40 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1379086440,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Avul,Awrp",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    }
+  ],
+  "_rawcode": "h03R",
+  "_base": "hwtw",
+  "_name": "Suspicious Bush"
+}

@@ -1,0 +1,288 @@
+{
+  "OldId": 1700881985,
+  "NewId": 1110978625,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9049",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Explosive Shot"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7769",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "X"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9083",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "E|cffffcc00x|rplosive Shot"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9084",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "E|cffffcc00x|rplosive Shot"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9085",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "E|cffffcc00x|rplosive Shot"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9086",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "E|cffffcc00x|rplosive Shot"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9087",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "E|cffffcc00x|rplosive Shot"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9411",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Reduces the target's armor by 10 and gives vision of it for 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9056",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Reduces the target's armor by 20 and gives vision of it for 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9057",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Reduces the target's armor by 30 and gives vision of it for 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9058",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Reduces the target's armor by 40 and gives vision of it for 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9059",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Reduces the target's armor by 50 and gives vision of it for 3 seconds."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9060",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "|cffc3dbffRight-click to activate auto-casting.|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9061",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "|cffc3dbffRight-click to activate auto-casting.|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9062",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "|cffc3dbffRight-click to activate auto-casting.|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9063",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "|cffc3dbffRight-click to activate auto-casting.|r"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9064",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "|cffc3dbffRight-click to deactivate auto-casting.|r"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9065",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "|cffc3dbffRight-click to deactivate auto-casting.|r"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9066",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "|cffc3dbffRight-click to deactivate auto-casting.|r"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9067",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "|cffc3dbffRight-click to deactivate auto-casting.|r"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9050",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffffcc00E|rxplosive Shot"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9069",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Reduces the target's armor by 10 and gives vision of it for 3 seconds. Leveling this ability increases the armor reduction by 10."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Weapons\\CannonTowerMissile\\CannonTowerMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9076",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "X"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9077",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "X"
+    }
+  ],
+  "_rawcode": "A08B",
+  "_base": "Afae",
+  "_name": "Explosive Shot"
+}

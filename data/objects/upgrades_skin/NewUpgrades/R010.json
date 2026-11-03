@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 808530002,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1575",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced Centaur Walls"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7789",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Advanced Centaur Walls [C] - [100.0]"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5599",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1578",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to build Advanced Centaur Walls."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSmash.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R010",
+  "_base": "Rhme",
+  "_name": "Advanced Centaur Walls"
+}

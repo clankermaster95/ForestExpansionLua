@@ -1,0 +1,36 @@
+{
+  "OldId": 1667321666,
+  "NewId": 1412444226,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_3065",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Berserk Aura"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_3066",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Berserk Aura"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_3067",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under a Berserk Aura, it's damage is increased by 25%."
+    }
+  ],
+  "_rawcode": "B00T",
+  "_base": "BOac",
+  "_name": "Berserk Aura"
+}

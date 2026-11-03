@@ -1,0 +1,71 @@
+{
+  "OldId": 1920295489,
+  "NewId": 1160785985,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_356",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Dig"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_357",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dig"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_511",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Dig underground, being unseen by all things. 200 second cooldown."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_359",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Dig out"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_512",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Dig out."
+    }
+  ],
+  "_rawcode": "A00E",
+  "_base": "Abur",
+  "_name": "Dig"
+}

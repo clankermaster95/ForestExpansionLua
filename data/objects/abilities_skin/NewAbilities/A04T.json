@@ -1,0 +1,32 @@
+{
+  "OldId": 1702314817,
+  "NewId": 1412706369,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4824",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Enraged Root"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4362",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a powerful Sea Elemental with <nsel,realHP> hit points that does <nsel,mindmg1> - <nsel,maxdmg1> damage. |nLasts <ACwe,Dur1> seconds. 30 second cooldown."
+    }
+  ],
+  "_rawcode": "A04T",
+  "_base": "ACwe",
+  "_name": "Summon Enraged Root"
+}

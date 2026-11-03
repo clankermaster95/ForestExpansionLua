@@ -1,0 +1,42 @@
+{
+  "OldId": 1819566657,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_060",
+      "SanityCheck": 1819566657,
+      "_field": "aub1",
+      "_resolvedText": "Tell the Magmide to Enflame this building."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_061",
+      "SanityCheck": 1819566657,
+      "_field": "atp1",
+      "_resolvedText": "Enflame"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_062",
+      "SanityCheck": 1819566657,
+      "_field": "anam",
+      "_resolvedText": "Enflame"
+    }
+  ],
+  "_rawcode": "Abtl",
+  "_base": "Abtl",
+  "_name": "Enflame"
+}

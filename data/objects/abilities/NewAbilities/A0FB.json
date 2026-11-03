@@ -1,0 +1,39 @@
+{
+  "OldId": 1835295041,
+  "NewId": 1111896129,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 846029889,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "Adm2"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "A0FB",
+  "_base": "Aadm",
+  "_name": "A0FB"
+}

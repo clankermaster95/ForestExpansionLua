@@ -1,0 +1,30 @@
+{
+  "OldId": 1986086977,
+  "NewId": 1093742657,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986818657,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "arlv"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 360,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    }
+  ],
+  "_rawcode": "A01A",
+  "_base": "AHav",
+  "_name": "Avatar of Vengance"
+}

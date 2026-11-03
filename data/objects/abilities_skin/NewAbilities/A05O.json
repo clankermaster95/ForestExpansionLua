@@ -1,0 +1,97 @@
+{
+  "OldId": 1667519809,
+  "NewId": 1328885825,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5996",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Soul Strike"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6940",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 300 damage and heals for 200. 5 second cooldown. |n|cff7F7F7FA swift slam that shaves off a sliver of the target's soul.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6146",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|roul Strike"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2236",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "slam",
+      "SanityCheck": 0,
+      "_field": "aani"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_OLDGODS.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_OLDGODS.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    }
+  ],
+  "_rawcode": "A05O",
+  "_base": "AUdc",
+  "_name": "Soul Strike"
+}

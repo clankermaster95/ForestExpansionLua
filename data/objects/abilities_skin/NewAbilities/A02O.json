@@ -1,0 +1,60 @@
+{
+  "OldId": 1936084801,
+  "NewId": 1328689217,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2524",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Observe"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReveal.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReveal.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2525",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Observe"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3479",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Observe an area, revealing it for 5 seconds and uncovering invisible units. 60 second cooldown."
+    }
+  ],
+  "_rawcode": "A02O",
+  "_base": "AOfs",
+  "_name": "Observe"
+}

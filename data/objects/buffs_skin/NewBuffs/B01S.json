@@ -1,0 +1,50 @@
+{
+  "OldId": 1919239490,
+  "NewId": 1395732546,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6381",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Binding Shadows"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6382",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Binding Shadows"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_5420",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is snared and is taking damage over time."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Environment\\LargeBuildingFire\\LargeBuildingFire1.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_ChillTouch.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B01S",
+  "_base": "BEer",
+  "_name": "Binding Shadows"
+}

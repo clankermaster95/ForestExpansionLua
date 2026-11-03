@@ -1,0 +1,20 @@
+{
+  "OldId": 1869640514,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_019",
+      "SanityCheck": 1869640514,
+      "_field": "fube",
+      "_resolvedText": "This unit was hit by Slow Poison; its movement speed have been reduced, and it will take damage over time."
+    }
+  ],
+  "_rawcode": "Bspo",
+  "_base": "Bspo",
+  "_name": "Bspo"
+}

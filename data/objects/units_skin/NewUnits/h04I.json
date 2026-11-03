@@ -1,0 +1,100 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1228157032,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7308",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Wildkin's Den"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\GnollHut\\GnollHut.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2193",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7309",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Wildkin's |cffffcc00D|ren"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10211",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "This den allows you to create workers and return lumber.|n|cff7F7F7FThe main hovel of the Wildkin, a place to call home.|r|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h04I",
+  "_base": "hwtw",
+  "_name": "Wildkin's Den"
+}

@@ -1,0 +1,199 @@
+{
+  "OldId": 1635021633,
+  "NewId": 843198529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDisenchant.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2959",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8215",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00Q|ruicksand Trap"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8216",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00Q|ruicksand Trap"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8217",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00Q|ruicksand Trap"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1717",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Applies a trap onto a target area, which grants vision. If an enemy walks onto that trap, it will explode and stun them for 1 (+1 per level) seconds. The traps last for 5 minutes and have an 8 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1721",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Applies a trap onto a target area, which grants vision. If an enemy walks onto that trap, it will explode and stun them for 1 (+1 per level) seconds. The traps last for 5 minutes and have an 8 second cooldown."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1729",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Applies a trap onto a target area, which grants vision. If an enemy walks onto that trap, it will explode and stun them for 1 (+1 per level) seconds. The traps last for 5 minutes and have an 8 second cooldown."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1730",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Applies a trap onto a target area, which grants vision. If an enemy walks onto that trap, it will explode and stun them for 1 (+1 per level) seconds. The traps last for 5 minutes and have an 8 second cooldown."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1731",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Applies a trap onto a target area, which grants vision. If an enemy walks onto that trap, it will explode and stun them for 1 (+1 per level) seconds. The traps last for 5 minutes and have an 8 second cooldown."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6629",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Applies a trap onto a target area, which grants vision. If an enemy walks onto that trap, it will explode and stun them for 1 (+1 per level) seconds. The traps last for 5 minutes and have an 8 second cooldown."
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1737",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Applies a trap onto a target area, which grants vision. If an enemy walks onto that trap, it will explode and stun them for 3 (+1 per level) seconds. The traps last for 5 minutes and have an 8 second cooldown."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8229",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffffcc00Q|ruicksand Trap"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDisenchant.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2960",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1741",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Spellbringer)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4242",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Applies a trap onto a target area, which grants vision. If an enemy walks onto that trap, it will explode and stun them for 1 second. The traps last for 5 minutes. 8 second cooldown."
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8218",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Quicksand Trap"
+    }
+  ],
+  "_rawcode": "A0B2",
+  "_base": "Asta",
+  "_name": "Quicksand Trap"
+}

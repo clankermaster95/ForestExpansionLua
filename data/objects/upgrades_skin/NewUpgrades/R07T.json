@@ -1,0 +1,276 @@
+{
+  "OldId": 1634891090,
+  "NewId": 1412902994,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7868",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flesh Endurance I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7900",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7890",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flesh Endurance I [10.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7896",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor of all husks by 2."
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7910",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7911",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9272",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9273",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8246",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Cultist)"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7913",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flesh Endurance II [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7914",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flesh Endurance III [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7915",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flesh Endurance IV [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7916",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flesh Endurance V [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8011",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor of all husks by 2."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8013",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor of all husks by 2."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8072",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor of all husks by 2."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8073",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor of all husks by 2.|n|nThis is the last armor upgrade."
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7934",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flesh Endurance II"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7937",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flesh Endurance III"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7949",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flesh Endurance IV"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7950",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flesh Endurance V"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R07T",
+  "_base": "Rura",
+  "_name": "Flesh Endurance V"
+}

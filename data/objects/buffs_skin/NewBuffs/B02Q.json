@@ -1,0 +1,72 @@
+{
+  "OldId": 1869374018,
+  "NewId": 1362243650,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7882",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Berserk"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7883",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Berserk"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_7884",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has increased attack and movement speed."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\ImmolationRed\\ImmolationRedTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 811693158,
+      "Type": "String",
+      "Value": "chest",
+      "SanityCheck": 0,
+      "_field": "fta0"
+    },
+    {
+      "Id": 828470374,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "fta1"
+    },
+    {
+      "Id": 1667331174,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ftac"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_7885",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": " Wildkin"
+    }
+  ],
+  "_rawcode": "B02Q",
+  "_base": "Bblo",
+  "_name": "Berserk"
+}

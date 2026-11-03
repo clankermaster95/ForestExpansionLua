@@ -1,0 +1,51 @@
+{
+  "OldId": 2003321665,
+  "NewId": 1496461377,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2998",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Totem of Life"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5461",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Totem of Lif|cffffcc00e|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4335",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a totem that regenerates 2% of life every 2 seconds. Lasts 20 seconds. 45 second cooldown."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    }
+  ],
+  "_rawcode": "A02Y",
+  "_base": "AChw",
+  "_name": "Totem of Life"
+}

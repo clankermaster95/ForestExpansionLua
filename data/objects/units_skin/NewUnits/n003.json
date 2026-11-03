@@ -1,0 +1,43 @@
+{
+  "OldId": 1919510382,
+  "NewId": 858796142,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2357",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Goblin Worker Mech"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2358",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build |cffffcc00G|roblin Worker Mech"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10049",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Gathers your precious machine making materials.|n|n|cfffdca00Health:|r 1000|n|cfffdca00Armor:|r 3 (Heavy)|n|cfffdca00Movement Speed:|r 380|n|cffff0000Feed Value:|r |cffffdd00160|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "n003",
+  "_base": "ngir",
+  "_name": "Goblin Worker Mech"
+}

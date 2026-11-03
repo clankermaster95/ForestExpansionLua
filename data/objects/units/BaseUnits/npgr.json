@@ -1,0 +1,19 @@
+{
+  "OldId": 1919381614,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1633772661,
+      "Type": "String",
+      "Value": "A0BW",
+      "SanityCheck": 1919381614,
+      "_field": "udaa"
+    }
+  ],
+  "_rawcode": "npgr",
+  "_base": "npgr",
+  "_name": "npgr"
+}

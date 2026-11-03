@@ -1,0 +1,50 @@
+{
+  "OldId": 1785033282,
+  "NewId": 909193282,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_4621",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Regrowth"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUproot.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_4622",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Regrowth"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_4623",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has Regrowth; it has much higher health regeneration."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\Tranquility\\TranquilityTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    }
+  ],
+  "_rawcode": "B016",
+  "_base": "Brej",
+  "_name": "Regrowth"
+}

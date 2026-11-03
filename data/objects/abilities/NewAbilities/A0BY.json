@@ -1,0 +1,57 @@
+{
+  "OldId": 1818379585,
+  "NewId": 1497509953,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 45,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R06F",
+      "SanityCheck": 0,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "A0BY",
+  "_base": "AEbl",
+  "_name": "Teched Jump Shoes"
+}

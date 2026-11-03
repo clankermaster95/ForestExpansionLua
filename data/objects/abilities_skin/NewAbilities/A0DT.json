@@ -1,0 +1,31 @@
+{
+  "OldId": 1969637697,
+  "NewId": 1413754945,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4898",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Item Summon Eagle"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWarEagle.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A0DT",
+  "_base": "AIfu",
+  "_name": "Item Summon Eagle"
+}

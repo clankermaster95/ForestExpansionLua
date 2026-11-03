@@ -1,0 +1,136 @@
+{
+  "OldId": 1751348303,
+  "NewId": 959590479,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1569",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ancient of Forest"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMountainGiant.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\nightelf\\MountainGiant\\MountainGiant.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "MountainGiant",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_1570",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cff2d891fStone Giant|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1571",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff2d891fStone Giant|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1576",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff10ad06Difficulty:|r |cff56e349Easy|r\n|cffFF8040Strong Against:|r Everything\n|cffFF8040Weak Against:|r Nothing|n\nThis ancient does not have any precise speciality, he is a very versatile ancient. Eternity has improved health regeneration, and wards to allow him to secure locations. This ancient is powerful against all types of opponents and is an easy ancient to play."
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.65,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_818",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 1970434165,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "upru"
+    },
+    {
+      "Id": 1953980789,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uawt"
+    },
+    {
+      "Id": 1919972469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "utpr"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1769173877,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMountainGiant.blp",
+      "SanityCheck": 0,
+      "_field": "ussi"
+    },
+    {
+      "Id": 1935763573,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhas"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 2.4,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    }
+  ],
+  "_rawcode": "O029",
+  "_base": "Otch",
+  "_name": "Ancient of Forest"
+}

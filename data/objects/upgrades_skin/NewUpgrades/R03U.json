@@ -1,0 +1,51 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1429418066,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4897",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Spiked Back"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9883",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Spiked Back - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4899",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows your Razormane to use Spiked Back."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNThornShield.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R03U",
+  "_base": "Rhme",
+  "_name": "Spiked Back"
+}

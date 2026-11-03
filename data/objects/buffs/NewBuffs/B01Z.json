@@ -1,0 +1,19 @@
+{
+  "OldId": 1869640514,
+  "NewId": 1513173058,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1667330662,
+      "Type": "String",
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "frac"
+    }
+  ],
+  "_rawcode": "B01Z",
+  "_base": "Bspo",
+  "_name": "Titanic Strikes"
+}

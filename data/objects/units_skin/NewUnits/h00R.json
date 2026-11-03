@@ -1,0 +1,71 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1378889832,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3769",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff737373Worgen|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\Werewolf 71.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDireWolf.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_3770",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff737373Worgen|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7162",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter or Support|n\n|cff8080FFDifficulty|r: |cff80ffffVery Easy|r|n\n|cffFF8F40Move Speed|r: 350\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Worgen is a stealthy race that can be played two ways. As a supportive and team-friendly unit, who pools plenty of resources over to the races that require it more. You also help the team by keeping the ancient busy, helping the other races by walling for them, and being a overall disruptor that the ancient needs to pay attention to. Or, you can choose to play this race as a carry. A carry requires many resources and a long time of upgrading in order to become stronger, but pays off. Worgens have many upgrades, all of which the assets of a carry.|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.65,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    }
+  ],
+  "_rawcode": "h00R",
+  "_base": "hpea",
+  "_name": "|cff737373Worgen|r"
+}

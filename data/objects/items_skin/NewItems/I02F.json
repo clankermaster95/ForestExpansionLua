@@ -1,0 +1,49 @@
+{
+  "OldId": 1734439522,
+  "NewId": 1177694281,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_085",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Boosts Agility by 10."
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_465",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases the Agility of the Hero by 10 when worn."
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "Bracer of Agility",
+      "SanityCheck": 0,
+      "_field": "unam"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "Bracer of Agility",
+      "SanityCheck": 0,
+      "_field": "utip"
+    }
+  ],
+  "_rawcode": "I02F",
+  "_base": "brag",
+  "_name": "Bracer of Agility"
+}

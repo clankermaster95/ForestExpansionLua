@@ -1,0 +1,71 @@
+{
+  "OldId": 1634037864,
+  "NewId": 808464488,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6252",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff0000FFKraken|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6253",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff0000FFKraken|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3267",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Baser|n\n|cff008000Off Role|r: None|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Krakens are an easy and simple race. Very similar to the humans, they have a strong blink and a calm early game. Can rush a base very fast to keep your allies safe. Requires a lot of gold pool to sustain later in the game.|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSeaGiant.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Creeps\\SeaGiant\\SeaGiant.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "h000",
+  "_base": "hpea",
+  "_name": "|cff0000FFKraken|r"
+}

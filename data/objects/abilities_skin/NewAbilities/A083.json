@@ -1,0 +1,71 @@
+{
+  "OldId": 1852132929,
+  "NewId": 859320385,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8379",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Net Trap"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8380",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "N|cffffcc00e|rt Trap"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3677",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Traps a target, snaring them in place for 3 seconds. 15 second cooldown."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8382",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "N|cffffcc00e|rt Trap"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3678",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Traps a target, snaring them in place for 3 seconds. 15 second cooldown."
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    }
+  ],
+  "_rawcode": "A083",
+  "_base": "ANen",
+  "_name": "Net Trap"
+}

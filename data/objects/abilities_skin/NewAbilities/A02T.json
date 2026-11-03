@@ -1,0 +1,115 @@
+{
+  "OldId": 845562689,
+  "NewId": 1412575297,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_495",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ion Armor"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_225",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2762",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Ion Armor"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_494",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Creates an ionic force of energy around a unit or structure, increasing it's armor by 10 for 10 seconds. Any unit who attacks ionized target will have its movement and attack speed slowed for 3 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2019718497,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aubx"
+    },
+    {
+      "Id": 2036495713,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "auby"
+    }
+  ],
+  "_rawcode": "A02T",
+  "_base": "ACf2",
+  "_name": "Ion Armor"
+}

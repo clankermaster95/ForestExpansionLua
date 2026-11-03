@@ -1,0 +1,65 @@
+{
+  "OldId": 1969321071,
+  "NewId": 1328558191,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1667",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Lava Warrior"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\human\\phoenix\\phoenix.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Vengeance",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1668",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Lava warrior"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_697",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "L"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9971",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A mighty warrior. |n|n|cffffcc00Attacks land units.|r|n|n|cfffdca00Health:|r 2000; 0.25/s|n|cfffdca00Armor:|r 3 (Heavy)|n|cfffdca00Attack:|r 200 (Normal)|n|cfffdca00Attack Range:|r 100|n|cfffdca00Attack Cooldown:|r 2|n|cfffdca00Movement Speed:|r 300|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    }
+  ],
+  "_rawcode": "o00O",
+  "_base": "otau",
+  "_name": "Lava Warrior"
+}

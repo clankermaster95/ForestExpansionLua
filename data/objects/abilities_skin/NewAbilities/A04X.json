@@ -1,0 +1,42 @@
+{
+  "OldId": 1937003841,
+  "NewId": 1479815233,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4889",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Spiked Back"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4890",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Spiked Back"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4891",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases your armor by 15, and returns 40% of all damage taken."
+    }
+  ],
+  "_rawcode": "A04X",
+  "_base": "AUts",
+  "_name": "Spiked Back"
+}

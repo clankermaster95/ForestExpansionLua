@@ -1,0 +1,66 @@
+{
+  "OldId": 1969321025,
+  "NewId": 1111765057,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R07E",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1685221217,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aord"
+    },
+    {
+      "Id": 829776212,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Tau1"
+    }
+  ],
+  "_rawcode": "A0DB",
+  "_base": "Atau",
+  "_name": "Harvest Wild Grapes"
+}

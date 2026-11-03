@@ -1,0 +1,106 @@
+{
+  "OldId": 1919903343,
+  "NewId": 1211183215,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4605",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Thick Razorvine"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOTMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Barrens\\Rocks\\Geyser\\Geyser2.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4606",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Thick Razorvine"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10182",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Allows you to take the role of tanking and defense. This tree will allow you to get defensive abilties, and create bases to defend your allies.|n|n|cfffdca00Health:|r 700|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "Objects\\Spawnmodels\\Human\\HCancelDeath\\HCancelDeath.mdl",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2.25,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 70,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 70,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o01H",
+  "_base": "ofor",
+  "_name": "Thick Razorvine"
+}

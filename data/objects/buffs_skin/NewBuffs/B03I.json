@@ -1,0 +1,27 @@
+{
+  "OldId": 1869378370,
+  "NewId": 1228091458,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_5911",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Slow"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNSlow.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B03I",
+  "_base": "Bslo",
+  "_name": "Slow"
+}

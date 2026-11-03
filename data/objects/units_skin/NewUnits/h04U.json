@@ -1,0 +1,121 @@
+{
+  "OldId": 1919906664,
+  "NewId": 1429483624,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1635083125,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucua"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWyvernRider.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\Owlbear\\Owlbear.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1.2,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\FarseerMissile\\FarseerMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Chimaera",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1853186933,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucun"
+    },
+    {
+      "Id": 1953850229,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucut"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_042",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "H"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1975",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Wildkin S|cffffcc00h|raman"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10220",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Powerful spellcasters with many abilities to support in battle or deal high damage to the ancient. |n|cff7F7F7FThe forest rages, and the shamans gather to abuse their powers.|r|n|n|cfffdca00Health:|r 750; 1/s|n|cfffdca00Mana:|r 500; 3/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Attack:|r 90 (Magic)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7861",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Wildkin Shaman"
+    }
+  ],
+  "_rawcode": "h04U",
+  "_base": "hsor",
+  "_name": "Wildkin Shaman"
+}

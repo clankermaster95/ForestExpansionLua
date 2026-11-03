@@ -1,0 +1,219 @@
+{
+  "OldId": 1650542657,
+  "NewId": 1295462465,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 828531016,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "Hab1"
+    },
+    {
+      "Id": 828531016,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 0.02,
+      "SanityCheck": 0,
+      "_field": "Hab1"
+    },
+    {
+      "Id": 828531016,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 0.03,
+      "SanityCheck": 0,
+      "_field": "Hab1"
+    },
+    {
+      "Id": 828531016,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 1,
+      "Value": 0.04,
+      "SanityCheck": 0,
+      "_field": "Hab1"
+    },
+    {
+      "Id": 828531016,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 1,
+      "Value": 0.05,
+      "SanityCheck": 0,
+      "_field": "Hab1"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B02N",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "B02N",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "B02N",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "B02N",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "B02N",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R058",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 845308232,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Hab2"
+    },
+    {
+      "Id": 845308232,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 2,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Hab2"
+    },
+    {
+      "Id": 845308232,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 2,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Hab2"
+    },
+    {
+      "Id": 845308232,
+      "Type": "Int",
+      "Level": 5,
+      "Pointer": 2,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Hab2"
+    },
+    {
+      "Id": 845308232,
+      "Type": "Int",
+      "Level": 4,
+      "Pointer": 2,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Hab2"
+    }
+  ],
+  "_rawcode": "A07M",
+  "_base": "AHab",
+  "_name": "Natural Vigil"
+}

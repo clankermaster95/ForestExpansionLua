@@ -1,0 +1,70 @@
+{
+  "OldId": 1650544193,
+  "NewId": 1396912193,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6380",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Venomous Acid"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5042",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Hurls a flask of acid at a target, decreasing armor by <A0CS,DataC1> and magic resist by 50%.|nLasts <A0CS,Dur1> seconds. 1 minute cooldown."
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6387",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Venomous Acid"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Weapons\\GreenDragonMissile\\GreenDragonMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNCorrosiveBreath.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_300",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "A"
+    }
+  ],
+  "_rawcode": "A0CS",
+  "_base": "ANab",
+  "_name": "Venomous Acid"
+}

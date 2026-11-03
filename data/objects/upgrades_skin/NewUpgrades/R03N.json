@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1311977554,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4745",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Bloom"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9771",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Bloom - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4747",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to cast Bloom."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBearBlink.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4769",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    }
+  ],
+  "_rawcode": "R03N",
+  "_base": "Rhme",
+  "_name": "Bloom"
+}

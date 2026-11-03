@@ -1,0 +1,43 @@
+{
+  "OldId": 1885698670,
+  "NewId": 959459438,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2514",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Transport Zeppelin"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3076",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A transport that can carry your units across the map. Very fragile.|n|n|cfffdca00Health:|r 400; 0/s|n|cfffdca00Armor:|r 0 (Light)|n|cfffdca00Movement Speed:|r 270|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3085",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Transport Zeppelin"
+    }
+  ],
+  "_rawcode": "n009",
+  "_base": "nzep",
+  "_name": "Transport Zeppelin"
+}

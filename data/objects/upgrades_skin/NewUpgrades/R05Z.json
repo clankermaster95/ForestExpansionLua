@@ -1,0 +1,511 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1513435218,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1185",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane Mastery"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNarcanemastery.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNarcanemastery.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNarcanemastery.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNManaweave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNManaweave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNManaweave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNManaweave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNManaweave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNManaweave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNManaweave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1186",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane Mastery"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1187",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane Mastery"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_261",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Manaweave Enhancement"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_268",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Manaweave Enhancement"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_269",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Manaweave Enhancement"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_270",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Manaweave Enhancement"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_278",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Manaweave Enhancement"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_279",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Manaweave Enhancement"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_280",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Manaweave Enhancement"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10539",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Arcane Mastery - [5.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10540",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Arcane Mastery - [10.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10541",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Arcane Mastery - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10482",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Manaweave Enhancement - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10543",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Manaweave Enhancement - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10544",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Manaweave Enhancement - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10545",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Manaweave Enhancement - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10546",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Manaweave Enhancement - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10547",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Manaweave Enhancement - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10548",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Manaweave Enhancement - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1433",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase mana and health of shadowdancer by 200"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1435",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase mana and health of shadowdancer by 200"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1436",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase mana and health of shadowdancer by 200"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1223",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase Mana of Maexxna by 10"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1231",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase Mana of Maexxna by 10"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1238",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase Mana of Maexxna by 10"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1241",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase Mana of Maexxna by 10"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1244",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase Mana of Maexxna by 10"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1245",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase Mana of Maexxna by 10"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1246",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase Mana of Maexxna by 10"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5464",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5465",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5520",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5575",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5576",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5983",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6199",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6202",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6203",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6204",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R05Z",
+  "_base": "Rhar",
+  "_name": "Manaweave Enhancement"
+}

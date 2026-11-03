@@ -1,0 +1,207 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1395732562,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2559",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rocket Boosters"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2561",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rocket Boosters"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2562",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rocket Boosters"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2563",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rocket Boosters"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2564",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rocket Boosters"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8279",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Rocket Boosters - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8284",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Rocket Boosters - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8288",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Rocket Boosters - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8289",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Rocket Boosters - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8290",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Rocket Boosters - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2570",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your Mecha-Wrecker by 15."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2571",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your Mecha-Wrecker by 15."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2572",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your Mecha-Wrecker by 15."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2573",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your Mecha-Wrecker by 15."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2574",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your Mecha-Wrecker by 15."
+    }
+  ],
+  "_rawcode": "R01S",
+  "_base": "Rhme",
+  "_name": "Rocket Boosters"
+}

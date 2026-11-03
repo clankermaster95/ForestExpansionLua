@@ -1,0 +1,39 @@
+{
+  "OldId": 1667318593,
+  "NewId": 892416065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828596547,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.2,
+      "SanityCheck": 0,
+      "_field": "Cac1"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,friend,ground,invulnerable,self,structure,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B003",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    }
+  ],
+  "_rawcode": "A015",
+  "_base": "ACac",
+  "_name": "Spirit Aura: Offense"
+}

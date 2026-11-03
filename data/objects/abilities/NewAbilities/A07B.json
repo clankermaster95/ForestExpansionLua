@@ -1,0 +1,165 @@
+{
+  "OldId": 1936084801,
+  "NewId": 1110913089,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 2000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 3000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1986818657,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "arlv"
+    },
+    {
+      "Id": 1717986657,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "X003",
+      "SanityCheck": 0,
+      "_field": "aeff"
+    },
+    {
+      "Id": 1717986657,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "X003",
+      "SanityCheck": 0,
+      "_field": "aeff"
+    },
+    {
+      "Id": 1717986657,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "X003",
+      "SanityCheck": 0,
+      "_field": "aeff"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    }
+  ],
+  "_rawcode": "A07B",
+  "_base": "AOfs",
+  "_name": "Electrical Surge"
+}

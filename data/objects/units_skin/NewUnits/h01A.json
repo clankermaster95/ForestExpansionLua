@@ -1,0 +1,93 @@
+{
+  "OldId": 1970235496,
+  "NewId": 1093742696,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_794",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Spirit Tree: Defense"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "ESMA",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\nightelf\\AncientOfWonder\\AncientOfWonder.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1819501173,
+      "Type": "String",
+      "Value": "NightElfGrowingLoop",
+      "SanityCheck": 0,
+      "_field": "ubsl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2623",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Grow Spirit Tree: |cffffcc00D|refense"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9698",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Your first Spirit Tree. It allows you to research defensive upgrades. You must create this in order to sucesfully make a base.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "AncientProtector",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_382",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h01A",
+  "_base": "hhou",
+  "_name": "Spirit Tree: Defense"
+}

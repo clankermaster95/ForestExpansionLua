@@ -1,0 +1,85 @@
+{
+  "OldId": 1970235496,
+  "NewId": 1513304168,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4196",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Solar Flare"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\AerialShackles\\AerialShacklesTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFireForTheCannon.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4197",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Solar |cffffcc00F|rlare"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10155",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An advanced structure. This will allow you to create towers and other defensive buildings. Suggested only if you're basing.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h03Z",
+  "_base": "hhou",
+  "_name": "Solar Flare"
+}

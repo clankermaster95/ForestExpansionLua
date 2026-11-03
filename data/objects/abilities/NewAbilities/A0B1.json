@@ -1,0 +1,66 @@
+{
+  "OldId": 1735553089,
+  "NewId": 826421313,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 862417488,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Prg3"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 250,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    }
+  ],
+  "_rawcode": "A0B1",
+  "_base": "Aprg",
+  "_name": "A0B1"
+}

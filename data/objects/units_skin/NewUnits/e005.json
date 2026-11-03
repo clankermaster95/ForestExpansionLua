@@ -1,0 +1,100 @@
+{
+  "OldId": 1668244581,
+  "NewId": 892350565,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4182",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Vampiric Wyrm"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\FelstalkerPurple\\FelstalkerPurple.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPurpleFelhound.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1635083125,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDestroyer.blp",
+      "SanityCheck": 0,
+      "_field": "ucua"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "CryptFiend",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "unsf"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_346",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4184",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00V|rampiric Wyrm"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10153",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An ultimate unit. These giant beasts have enormous health, enormous damage and vampirism, but lose health during the day. They are adept at protecting infront of bases or ambushing ancients.|n|n|cfffdca00Health:|r 4000; -25/s|n|cfffdca00Armor:|r 1 (Fortified)|n|cfffdca00Attack:|r 500 (Chaos)|n|cfffdca00Attack Range:|r 100|n|cfffdca00Attack Cooldown:|r 2|n|cfffdca00Movement Speed:|r 450|n|cffff0000Feed Value:|r |cffffdd00150|r"
+    },
+    {
+      "Id": 1953850229,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucut"
+    },
+    {
+      "Id": 1853186933,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucun"
+    }
+  ],
+  "_rawcode": "e005",
+  "_base": "edoc",
+  "_name": "Vampiric Wyrm"
+}

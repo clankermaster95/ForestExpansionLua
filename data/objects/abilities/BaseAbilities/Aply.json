@@ -1,0 +1,84 @@
+{
+  "OldId": 2037149761,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 2037149761,
+      "_field": "aran"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 2037149761,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 2037149761,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 2037149761,
+      "_field": "adur"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 2037149761,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 2037149761,
+      "_field": "areq"
+    },
+    {
+      "Id": 1634824801,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 2037149761,
+      "_field": "arqa"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,enemies,ground,hero,neutral,nonhero,organic",
+      "SanityCheck": 2037149761,
+      "_field": "atar"
+    }
+  ],
+  "_rawcode": "Aply",
+  "_base": "Aply",
+  "_name": "Aply"
+}

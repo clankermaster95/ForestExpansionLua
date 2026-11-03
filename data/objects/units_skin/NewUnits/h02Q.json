@@ -1,0 +1,72 @@
+{
+  "OldId": 1918984808,
+  "NewId": 1362243688,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2384",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Teleporter"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWaygate.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\Waygate\\Waygate.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2641",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Construct Tele|cffffcc00p|rorter"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10067",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A teleporter designed to warp in Goblins from Kezan to aid you in battle. (Does not actually teleport you to places, similar to your Factory.)|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0060|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_668",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "P"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h02Q",
+  "_base": "hbar",
+  "_name": "Teleporter"
+}

@@ -1,0 +1,56 @@
+{
+  "OldId": 1936028274,
+  "NewId": 825372745,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_009",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Magical Biscuit"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_053",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Restores <A0C9,DataA1> hit points and <A0C9,DataB1> mana to a unit on pick-up."
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "war3mapImported\\SEMooncakeItem.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    },
+    {
+      "Id": 1633907561,
+      "Type": "Real",
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "isca"
+    },
+    {
+      "Id": 1919705961,
+      "Type": "Int",
+      "Value": 192,
+      "SanityCheck": 0,
+      "_field": "iclr"
+    },
+    {
+      "Id": 1735156585,
+      "Type": "Int",
+      "Value": 192,
+      "SanityCheck": 0,
+      "_field": "iclg"
+    }
+  ],
+  "_rawcode": "I021",
+  "_base": "rres",
+  "_name": "Magical Biscuit"
+}

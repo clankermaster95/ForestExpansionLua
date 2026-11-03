@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1227894866,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1116",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Healing Heat"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7421",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Healing Heat - [50.0]"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_047",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "H"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8926",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows your Magma Lord to use Healing Heat. Healing heat heals any non enemy unit for 500 Health."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R00I",
+  "_base": "Rhme",
+  "_name": "Healing Heat"
+}

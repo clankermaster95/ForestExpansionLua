@@ -1,0 +1,55 @@
+{
+  "OldId": 1919906419,
+  "NewId": 1211117641,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "[Recipe] Valorous Helmet (500)",
+      "SanityCheck": 0,
+      "_field": "unam"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "|cff00d200[Recipe]|r Valorous Helmet |cffdcb900[500 gold total]|r",
+      "SanityCheck": 0,
+      "_field": "utip"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "|cffffcc00Full recipe: 500 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Helm of Devotion (100 gold)|n- Valor Armor (100 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 25, your armor by 10, and your movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r|r",
+      "SanityCheck": 0,
+      "_field": "utub"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "|cffffcc00Full recipe: 500 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Helm of Devotion (100 gold)|n- Valor Armor (100 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 25, your armor by 10, and your movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r|r",
+      "SanityCheck": 0,
+      "_field": "ides"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_3179",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    }
+  ],
+  "_rawcode": "I00H",
+  "_base": "sror",
+  "_name": "[Recipe] Valorous Helmet (500)"
+}

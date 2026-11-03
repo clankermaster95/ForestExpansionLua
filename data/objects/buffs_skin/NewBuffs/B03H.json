@@ -1,0 +1,51 @@
+{
+  "OldId": 1785033282,
+  "NewId": 1211314242,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_3022",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Rejuvenation"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_1920",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": "(Observatory)"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_2200",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under effect of Energy Refill. It restores mana over time."
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_2201",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Energy Refill"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNManaRestoration.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B03H",
+  "_base": "Brej",
+  "_name": "Rejuvenation"
+}

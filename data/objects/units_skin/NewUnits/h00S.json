@@ -1,0 +1,92 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1395667048,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_454",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Tunnel"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCryptFiendBurrow.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Barrens\\Rocks\\Crator\\Crator1.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.55,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2615",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00T|runnel"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_8849",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A quick Tunnel to return gold/lumber, Can also train Jippy.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Light)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h00S",
+  "_base": "hwtw",
+  "_name": "Tunnel"
+}

@@ -1,0 +1,69 @@
+{
+  "OldId": 1769105473,
+  "NewId": 893595713,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5952",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ghost Fleet"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5955",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases damage of Flying Dutchman by 1 per each gold coin in player's possession."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASCoin.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5953",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Ghost Fleet"
+    }
+  ],
+  "_rawcode": "A0C5",
+  "_base": "Ahri",
+  "_name": "Ghost Fleet"
+}

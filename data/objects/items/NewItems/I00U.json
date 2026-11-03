@@ -1,0 +1,61 @@
+{
+  "OldId": 1836413796,
+  "NewId": 1429221449,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 1500,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1869902697,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "isto"
+    },
+    {
+      "Id": 1919250537,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "iper"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "AUds,AId7",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    }
+  ],
+  "_rawcode": "I00U",
+  "_base": "dsum",
+  "_name": "Nerubian-Alchemy Gem"
+}

@@ -1,0 +1,40 @@
+{
+  "OldId": 1869768303,
+  "NewId": 1362112585,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A0DM",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 45,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    }
+  ],
+  "_rawcode": "I00Q",
+  "_base": "ofro",
+  "_name": "IE-27 Mech Blaster"
+}

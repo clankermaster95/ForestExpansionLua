@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1412444242,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1298",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Tower Haste"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7605",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Tower Haste - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5915",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases attack speed of towers by 20%|n|cff808080Doesn't apply to War Tower|r"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5197",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedBurrows.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R00T",
+  "_base": "Rhme",
+  "_name": "Tower Haste"
+}

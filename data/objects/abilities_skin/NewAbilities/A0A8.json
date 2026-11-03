@@ -1,0 +1,71 @@
+{
+  "OldId": 1651536705,
+  "NewId": 943796289,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6087",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Abilities"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUrnOfKelThuzad.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6101",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Abiliti|cffffcc00e|rs"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_755",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Every ability your Druid has learned."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_758",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Druid)"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1331",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    }
+  ],
+  "_rawcode": "A0A8",
+  "_base": "Aspb",
+  "_name": "Abilities"
+}

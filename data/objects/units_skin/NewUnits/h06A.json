@@ -1,0 +1,115 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1094070376,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6107",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Shrine"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\undead\\Slaughterhouse\\Slaughterhouse.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSlaughterhouse.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "SlaughterHouse",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1468",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6108",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Shrine"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10353",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Contains upgrades for towers and walls.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_6120",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Cultist) - Macko"
+    },
+    {
+      "Id": 1819501173,
+      "Type": "String",
+      "Value": "UndeadBuildingConstructionLoop",
+      "SanityCheck": 0,
+      "_field": "ubsl"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    }
+  ],
+  "_rawcode": "h06A",
+  "_base": "hwtw",
+  "_name": "Shrine"
+}

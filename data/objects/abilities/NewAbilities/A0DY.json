@@ -1,0 +1,48 @@
+{
+  "OldId": 1937262913,
+  "NewId": 1497641025,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,ground",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "adur"
+    }
+  ],
+  "_rawcode": "A0DY",
+  "_base": "AIxs",
+  "_name": "Ledger Anti-Magic"
+}

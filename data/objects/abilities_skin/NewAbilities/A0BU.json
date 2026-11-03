@@ -1,0 +1,22 @@
+{
+  "OldId": 846022977,
+  "NewId": 1430401089,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_596",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(500)"
+    }
+  ],
+  "_rawcode": "A0BU",
+  "_base": "AIm2",
+  "_name": "A0BU"
+}

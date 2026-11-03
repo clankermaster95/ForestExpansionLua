@@ -1,0 +1,369 @@
+{
+  "backup": "C:\\Users\\aless\\Documents\\Codex\\2026-11-01\\i-h\\outputs\\ForestExpansionLua-main\\backups\\20261101-224425-hdo7u_tn",
+  "changed_modules": [
+    {
+      "module": "src/initialization.lua",
+      "before_sha256": "135af7798e7cfbc2077920ee64a02971ca412c5222cd7ef20398ced054da7f15",
+      "after_sha256": "263a37da55c249174710c5634996b25627017e21c1bcad5837150455920ba74a"
+    },
+    {
+      "module": "src/commands/trade/011_Tradeoff_Detection.lua",
+      "before_sha256": "3b6cedd95de8e938d93ef5cf74fbe9e7861467271e94f6bb591c17255b44d7b5",
+      "after_sha256": "74a57cbc4bf362cd07b2ddaea9c8ffc5679a87db0037ca956154d984421ff1be"
+    },
+    {
+      "module": "src/game/tree_chopper/012_TreeChopper_Detection.lua",
+      "before_sha256": "e85aeb9c0c664bd0279cb8a5bd801db023bb76bcf6b3b5caa6f48ec6e092b0aa",
+      "after_sha256": "909233649b66d999bb15f818547638c431ef42cc6eaf43daab18fb1230639809"
+    },
+    {
+      "module": "src/players/013_Takeover.lua",
+      "before_sha256": "d2c867f2d0c70bbbeb4735fbbe1658e62c8b140bd2aa54ef31d05c38ae49df8e",
+      "after_sha256": "db0c8c950504f03d7fb9a206d57dd951fa8eb0dc36d704062abc5e151bdda266"
+    },
+    {
+      "module": "src/commands/017_Hardmode.lua",
+      "before_sha256": "dc4bb20b2c98d790c8e8e8c774a9356f4492d89ab98f0de480d32d99c692885b",
+      "after_sha256": "ff2a8a29f955bfd0b4e384cafea5a2f4bd64fd32dae2dc172bdd96fccf77346d"
+    },
+    {
+      "module": "src/game/fountain/019_Fountain_Heal.lua",
+      "before_sha256": "767e1873a9761536fd7179f8554e12d7e2d63ae4c6ea9eb3f741211910d67887",
+      "after_sha256": "284794283e0b12a8d3b163e726558e77e814d4fbbfb1e6c9fc41d9c45a07bad4"
+    },
+    {
+      "module": "src/economy/feed/024_FeedReduction.lua",
+      "before_sha256": "40f0c323640061728b93dc42f2ef833caf436fa9ae1f861e337fc6ec1df971b8",
+      "after_sha256": "c2eb6f0c87fc1fa8351fb70d15fa9c8b9ff1efc9013a6d8b2bbff105a9a1b5e8"
+    },
+    {
+      "module": "src/combat/028_Expander_Hero_XP.lua",
+      "before_sha256": "98dc2c11ec3d74c135ff2f9cf535da69198fb49b655257c77bf36864591d76b7",
+      "after_sha256": "4f704c7cf145c5897527e7678c436e22f8a4bca6107e9c5fb74fac61942e9aa6"
+    },
+    {
+      "module": "src/races/forgotten/executioner/067_Focused_Anger_1.lua",
+      "before_sha256": "79c872fa47a245b4d1ce145e3dc57a69d912617edf72337eb301895f84d56ab4",
+      "after_sha256": "1a9f6cbc4d6948c0841fec40464ed1fda1b61fd9a5e75cda2981ac6a603c0241"
+    },
+    {
+      "module": "src/races/forgotten/executioner/068_Focused_Anger_2.lua",
+      "before_sha256": "fe3fe306fb967711bef634cb670b0c4f368d77a60659f4d9be3fa93fb44327be",
+      "after_sha256": "533732c482071bb77826e25041753ab4404a34b994476af1447ae90546d93eb8"
+    },
+    {
+      "module": "src/races/forgotten/executioner/069_Focused_Anger_3.lua",
+      "before_sha256": "2f074ca56f4c3aa8727a8ab502cf55d48f159d8a720dc3a7e48fd319ae8a3246",
+      "after_sha256": "5150cd1ce6e5b93ddce17cca841ab3725785949f14da85d6cc315e99e003eed1"
+    },
+    {
+      "module": "src/races/forgotten/executioner/070_Focused_Anger_4.lua",
+      "before_sha256": "196112ce14cbc2c255e5014f29cbe5e4de5979534bbefa257c274a82417af816",
+      "after_sha256": "9c134e3efeb14cb870a350e18347cb44fd2a54f26bf7a858ee3f8a1f3894a7a2"
+    },
+    {
+      "module": "src/races/forgotten/executioner/071_Focused_Anger_5.lua",
+      "before_sha256": "d3107ddf8d85a50a96697f4f541058bada337c09ba8b103074a53bdc3194ae75",
+      "after_sha256": "50d6ef857736bfe845437b6e9b224ab0251a8c0a40e1e128c4051a8acbe2f310"
+    },
+    {
+      "module": "src/races/forgotten/executioner/072_Focused_Anger_6.lua",
+      "before_sha256": "8bd8a31dcedf3e62daabd391e2830e700f4f9ade66a4313fc2e61556fb9af53c",
+      "after_sha256": "538a941a51368b4f4a6f6caa8e52bf46ca6af5b3d78b9b29964dc7bd7c971085"
+    },
+    {
+      "module": "src/races/forgotten/executioner/073_Focused_Anger_7.lua",
+      "before_sha256": "eef7b6741e4bffde61674ed44ded9b40943fab1cc1736d537477ca8f87070496",
+      "after_sha256": "cd1ec9d583db7b38777ec7b10621b2f2ae66bca70d5e1f10447131606e29ab0e"
+    },
+    {
+      "module": "src/races/forgotten/executioner/074_Focused_Anger_8.lua",
+      "before_sha256": "d1e2a11090e734b4610ecdb88aa1888c133f08f1de5197f11a8f35b5f6cd9835",
+      "after_sha256": "a225ec51673e0c6e3184de5779acad5b0110282310118ab6f0e98da6fb5c0d84"
+    },
+    {
+      "module": "src/races/forgotten/executioner/075_Focused_Anger_9.lua",
+      "before_sha256": "5654ded7a52b6fffeac468614586fe848826c803686ffed6347f4ec8387bcb82",
+      "after_sha256": "eae93c46e78df172c5ba0c3894ec43b90fa2f5f334cf1bf53765877b849d5731"
+    },
+    {
+      "module": "src/races/forgotten/executioner/076_Focused_Anger_10.lua",
+      "before_sha256": "73ecf2c61ea2a66564c4a3830d7de51d87822516874c6c3c2a662ae60886ced5",
+      "after_sha256": "312103f6477df132e8f8f3f8763ea01baa620467fe98ed32c56fcd5f0668d094"
+    },
+    {
+      "module": "src/races/wisp/136_SeedOfRebirth.lua",
+      "before_sha256": "b3543d1cd4d19b963bef8180335b07644498be80e9bb9adc81a58b617667683b",
+      "after_sha256": "b18985f1f4cf68acc3d2d66e488ecf97cd4fce20cee4d7f4fc53cf004bfa6d21"
+    },
+    {
+      "module": "src/ancients/paranoia/156_Realm_of_darkness.lua",
+      "before_sha256": "734e404b3f521b31c7fbac08678f7928f2828d9bb203788df409b0ccd4f6243d",
+      "after_sha256": "85721c86674c0602b790463c5fb1312d072ffcda09d9e3f843d50f7144aa8adb"
+    },
+    {
+      "module": "src/ancients/paranoia/157_Realm_of_darkness_2.lua",
+      "before_sha256": "adb271cf6a8b7c838ce29757928a5c77507cce2503dc11992436e3354640c967",
+      "after_sha256": "3d066b78ca961f7625f0be5680ec50d34ad587c3f1f569e78f1e999506a8ad7f"
+    },
+    {
+      "module": "src/ui/hints/194_InitialText.lua",
+      "before_sha256": "f02a9f86135cfa36484ca93d6410154fbd693cc1399f9fb3045ae52ac639505e",
+      "after_sha256": "d302e4b8adeeb003487cddc19a50832e26c0ca72d25765435e7e81eb39183b82"
+    },
+    {
+      "module": "src/ui/hints/198_Ping_Hint.lua",
+      "before_sha256": "e4606736834d55ab2a104dbab3db358911c96c284f73d0f56ccb7366501f77e5",
+      "after_sha256": "b79ce871ec1d3a3e1fdfc9da044a911272542988ff30728ff6279844eae64e8b"
+    },
+    {
+      "module": "src/ui/hints/199_Hint2x2.lua",
+      "before_sha256": "b110d2eefe043029674d6d95ccc93106de6a5e4cc38bbd342cb2415859c0ad50",
+      "after_sha256": "cb2951ea368cf06f6f2b9b49529813ac00a2ab73a66019af39946b9fd760820b"
+    },
+    {
+      "module": "src/ui/hints/200_HintInvisibility.lua",
+      "before_sha256": "fef5ec031c2021b25f3debfbbafa27c623d35e6167a793f342e6676ed46522db",
+      "after_sha256": "644ecc23134bbf6dfa6ac72ef5aa654ce99f2156fe5b80229fa4b86ada28954b"
+    },
+    {
+      "module": "src/ui/hints/201_HintFeed.lua",
+      "before_sha256": "698f2b06ce36bbba58e0bd00fcdd0d4e01860a5d3e9bd16d3e16c7585e82a40f",
+      "after_sha256": "ef928f711b547b196a9363857a1b40bf66766d37efa19625bad93e013731f5c2"
+    },
+    {
+      "module": "src/ui/hints/204_PingForAncient.lua",
+      "before_sha256": "0ce5821ba9e7575bd2bb3c7b3cf06a88230d0ce865bdbe7f0a0455bf8bc32f52",
+      "after_sha256": "d5d48cce956c050d11c06f138851f26a64f6df0de576291803e1cb15dacc7873"
+    },
+    {
+      "module": "src/commands/205_AncientSpells.lua",
+      "before_sha256": "b5c3b17756acb5cc1c6b081c88d5653b452c0385cd10d05d1d9f544d87dd9356",
+      "after_sha256": "eb286491ed9db4bd324e0bac62121671451b2cfc502d272530cbc6d1d0f659ba"
+    },
+    {
+      "module": "src/ai/206_Start.lua",
+      "before_sha256": "542b8b15f8cdd4d32edabfbcb04b3b634f73a39b77bc4da0d4606a8b95c777cf",
+      "after_sha256": "5d660d2c1ab2cdbc62a555541c6ba562aad6bab749067b3255fa86f8b23b2163"
+    },
+    {
+      "module": "src/ai/208_Hard_Attack.lua",
+      "before_sha256": "ed00abf42a20e13082b5d1d9fbbfc9ef199b22622512c16559e061d6655243aa",
+      "after_sha256": "be45a3cc7376f9870c18142a5c6874cd36c580509ce9e3f462529625e372f820"
+    },
+    {
+      "module": "src/ai/209_Hard_Attack_Cont.lua",
+      "before_sha256": "d0040fd8ff51dbf1f4b2a9d96d98a30f46ac765c5a78ed837bdaa07b5e943197",
+      "after_sha256": "5e4ec96473ca1cd29a0172f8ce5869f0f8a87c3526b0a77fa9993ea01f084c30"
+    },
+    {
+      "module": "src/ai/210_Hard_attack_2.lua",
+      "before_sha256": "bd80aa0f0d33648295f26c3c315c692a5086ab4c3cdc1191b404302a1f69b804",
+      "after_sha256": "93a20a0f53e5fc11258770efe651401a2b465d62f2a14ab01c42f15bd7deb16b"
+    },
+    {
+      "module": "src/ai/211_Select.lua",
+      "before_sha256": "53577be6d7596bd7b00a0be252273b0e188d0be645b66331362bcf95fddbf600",
+      "after_sha256": "a6939c2c33106aec5e35b860f4afc6c434aa72bb6dec207cb4f4f3911fcd0da8"
+    },
+    {
+      "module": "src/ai/212_Attack.lua",
+      "before_sha256": "b0df77c8c8af88ba7f3861c6dc80d3f9cd12f8e79acf9fabe24f71e486b3651b",
+      "after_sha256": "1e6a9864030808b526ef60a1b82e228b6a35a133d3d63180e1cf4d72d9cef2ca"
+    },
+    {
+      "module": "src/ai/214_Slot1_Righteous_Armor.lua",
+      "before_sha256": "94372b2fc590ae293c306ca847e032de0e9a75a3abcb43e183a2f411196a0eec",
+      "after_sha256": "a4b4218f1d3bac8ee6c4ecf02674bb9dc1f316b2dc996371c2d705ae90efe4e9"
+    },
+    {
+      "module": "src/ai/215_Slot2_Valor_Helmet.lua",
+      "before_sha256": "b8cc078dd3dd3cde1fbfdae50987592013fba8ebc757b52107c15fa725e889f9",
+      "after_sha256": "41100b303aa15abdfffca2f1d698f78fa7b2b438805f666ad8c2e9d49591ee17"
+    },
+    {
+      "module": "src/ai/216_Slot3_Bladed_Gauntlet.lua",
+      "before_sha256": "6cd2bc82df859f89f6c938170383a2be57d40554b78457b72e7556fa17b07ce2",
+      "after_sha256": "f868fe477d5d6ff2f9fc67315caa685dee7b93bbc7885018fbec28748a699047"
+    },
+    {
+      "module": "src/ai/217_Slot4_Bladed_Gauntlet.lua",
+      "before_sha256": "34eb0967c0e338b4c78caa9cd0842974335c704f3022d021a1033728c03d72cd",
+      "after_sha256": "a18517192e8123ed8cdf79032ff1f2fbf949cab98f7918d0d524971adcd9cbdf"
+    },
+    {
+      "module": "src/ai/218_Slot5_Bladed_Gauntlet.lua",
+      "before_sha256": "458f4f7bb88891ad52beeb7d2e28032df9edc6d2541fecd3a492b5a4c5ca37ba",
+      "after_sha256": "fa493116bf61ae9c3288c376f48ce3f6d0b80674b5859f9d6b23e331f3cdf865"
+    },
+    {
+      "module": "src/ai/219_Slot6_Bladed_Gauntlet.lua",
+      "before_sha256": "8a920129415ee6ed2dca25d3a6218e2d1a372484ab1fe7e7741c705aafce75ff",
+      "after_sha256": "a6a42d21f823e0fda1ce3cd34a777e93f1f30bbd9a77f9a2f1bf32a40d7e7667"
+    },
+    {
+      "module": "src/ai/220_Level_Up_Tomes.lua",
+      "before_sha256": "73d51fd6aa170596d4a052524c68a4028b8ed02f4b16cdddf3bbf4fd54e3cd7a",
+      "after_sha256": "08a45a0e8eabde819beeb716cdd7305af679cbaf76803421a8e4d413730ccf20"
+    },
+    {
+      "module": "src/items/245_Level_up.lua",
+      "before_sha256": "62ab840fa879473834001b5a008b9ab2fd9150fcd5cbfc962a41cc4949a064b6",
+      "after_sha256": "de97c6efff08be8d76692b6877d7c40c47489e816d0fd7f2385c0b2a0e09da36"
+    },
+    {
+      "module": "src/economy/246_Deliver_Gold.lua",
+      "before_sha256": "2b89c9d9b54bc768d36ea1dc3df3c7aeca91ee627979067fd0bddb7ff5faecb7",
+      "after_sha256": "0727100dd4b92442085feae2b4fd4002dfd3a80b72b31583e7e7155407401391"
+    },
+    {
+      "module": "src/economy/249_Remove_Ancient_Lumber.lua",
+      "before_sha256": "47b3e32f486f59faa30dba929780e000d00b5f3f890ea71374f6eacf296feb06",
+      "after_sha256": "880b71e2c30721a3c8d9a1c16f7381f22df3dba83cc152fd272abfb87c4f1d31"
+    },
+    {
+      "module": "src/economy/250_Ancient_Gold_income.lua",
+      "before_sha256": "f9bfbf32bd130cee6676e87ceeb6e0161a58e382828f554e904461d8f8918f7d",
+      "after_sha256": "39d0aa32446eef0f23ea94ffc5271edbd73dc512a55fab428b5244486d47f3b0"
+    },
+    {
+      "module": "src/ui/names/260_Name_Change_III.lua",
+      "before_sha256": "bc7ae60cab6fee238a781b4891587483808bf567ac801faba1dbfd00467dc223",
+      "after_sha256": "dd7cf28f37e63e2f5cf98014f886704d402b8fa612bbca11270e6e19ed11c19c"
+    },
+    {
+      "module": "src/game/selection/264_Remove_Selection.lua",
+      "before_sha256": "f3b8877fd891f06003d161da49b1d7261b1fbc33046247457cfc5fd8deddc241",
+      "after_sha256": "91a92da47f68ffef5396c3acb4a68a2359dececbf63e54cc3b4db01909aedfdb"
+    },
+    {
+      "module": "src/commands/trade/267_Trade_enabled.lua",
+      "before_sha256": "9cc0a28006db8201e8960bb92c3493c8a69919f34ac6eae06b17e1a339e5cca5",
+      "after_sha256": "f0832ddf788bad0e78c5db59d4319bc995a5d709dc3f4b96c759616ebd09ee1e"
+    },
+    {
+      "module": "src/players/alliances/308_Ally_neutral.lua",
+      "before_sha256": "5339a02a43900d6f482def630306285b731d9955eb9741eaf042e9b252864d14",
+      "after_sha256": "5eaa80515206422a884f2a32d6899b0bd60cb8f1cf8609e65121f78e01f2a445"
+    },
+    {
+      "module": "src/players/316_Player_group.lua",
+      "before_sha256": "8b479c1c707569ddba8709da99d37ab10161a411f5dddeb54263d6925d72b30c",
+      "after_sha256": "481e4ade98071b3a904dab358d4aafd08d4dfe40cda9ea88cf9abb792cce92b6"
+    },
+    {
+      "module": "src/players/lackeys/318_Death_start.lua",
+      "before_sha256": "f3579642f78617873e161f04da46d52207dbae54724fe379a6a521875f2e550e",
+      "after_sha256": "d6b7aa8325d383312de0b95f2abddc7de49f648631bc311759566ac262256a6f"
+    },
+    {
+      "module": "src/players/lackeys/320_MiniMinis.lua",
+      "before_sha256": "f47333c256d1125bab3d204b42fb002443d782a574068a36531b4bc08729bf78",
+      "after_sha256": "fa7a3c06ab5f101cc2a5f11bc400ba2aee8f3f4b3c8f11caaf3a5d80b83deab7"
+    },
+    {
+      "module": "src/players/leaving/321_Player_Leaves.lua",
+      "before_sha256": "2a5116daf800a7670775fab294d610b8356eabfe0b84aeb3b261155a0276e3ec",
+      "after_sha256": "f5211dd51e1487fa3d55f552ad6c7b50c574b6efb440de8f443faa9112ea05d3"
+    },
+    {
+      "module": "src/players/leaving/322_Ancient_Leaves.lua",
+      "before_sha256": "73644b9f079188fda9702aa312a515aa657735ba2e575e4fa41811c69954fb06",
+      "after_sha256": "a065c374b644e023a2bac1af81f6728015b839becd387b9966f815c3fd38055e"
+    },
+    {
+      "module": "src/game/victory/351_Ignite_Dies.lua",
+      "before_sha256": "696ba20baad1f30fb1f5cfad1aa3d674a61700d8ef04613015a16dd408b1a6bf",
+      "after_sha256": "4c8e08b3ed6817648498e7e913068f8fee85dacc6350c5d83f6ef2fcad277a71"
+    },
+    {
+      "module": "src/game/victory/352_Avalanche_Dies.lua",
+      "before_sha256": "5283b5fa09081f0d9b7603455b8d82695f6dd37b25aabef107480bb0340b43af",
+      "after_sha256": "9bb6c45941af1332997af94392896c45d0ed6f45787567e6256dd32803d64f6e"
+    },
+    {
+      "module": "src/game/victory/353_Paranoia_Dies.lua",
+      "before_sha256": "fea5ca3b389de3e709b28f773dd2cf0c9118df35d8b0554ba395817345e736f1",
+      "after_sha256": "7bf7c635c1afeed053f15f8326d58a39c0366b3a2c9dd3b820ea62dc815dae5d"
+    },
+    {
+      "module": "src/game/victory/354_Eternity_Dies.lua",
+      "before_sha256": "50dff06b80c4214a5d5808d24e2967aabfeea772df67da49abce4dc250a87b9f",
+      "after_sha256": "4172d91660141819870a8f6ab7ef4db6ea713d78a49bfcebbb053f3212b2de86"
+    },
+    {
+      "module": "src/game/victory/355_Dragos_Dies.lua",
+      "before_sha256": "0c98830c62883b375d9dc8e0a5fc7045cb7778808340e75bfd5e2cdb73eaed80",
+      "after_sha256": "581f0db6efc8440b54ce9162959895137831e5e3176b51088707832ac8227b54"
+    },
+    {
+      "module": "src/game/victory/356_Tremor_Dies.lua",
+      "before_sha256": "e711d63b956f8b29b5b1a946dd3cb6da7b6974149b842f647f64ca320ad3442f",
+      "after_sha256": "7684be47af0f2b5769e5880966e1a2795fc92c39276117693bdc9a0478b80f3a"
+    },
+    {
+      "module": "src/game/victory/357_Zalxon_Dies.lua",
+      "before_sha256": "87e058b48a2c9e2ae82b49f8debd3d0d1f562fc2e69b3e413d8ab91492ee191f",
+      "after_sha256": "08fb75b0d33daa1f471138ec88eacdfa81019f67f01d2f0198e41347543f9833"
+    },
+    {
+      "module": "src/game/victory/358_Divinity_Dies.lua",
+      "before_sha256": "0d58f894ac55bfd9863f65bfa1de9cce177a2704196dd3cc8ac70a448acd7bbc",
+      "after_sha256": "a162d561ba6b69f8e572e862e6ab399fb21487cfa5b42e899b0db50e83020211"
+    },
+    {
+      "module": "src/game/victory/359_Pharoah_Dies.lua",
+      "before_sha256": "c92afea0453bffe1316bf2ade8b6a6b48119d6227eb56aad56fd573a85f8c5e9",
+      "after_sha256": "ede7606edef12eaa3d454e6711d52ccad5964ff4dfa206fea661b361221d71b9"
+    },
+    {
+      "module": "src/game/victory/360_Nebula_Dies.lua",
+      "before_sha256": "d1e1a9cdc48c0bdcda7564b5a9e05cf4e4e90043b56d3b92c247acade8307011",
+      "after_sha256": "befc6fd38389ae81da4d9a35d0ecee9200c72f7cf3ef3c2133c2b8e6f9a57630"
+    },
+    {
+      "module": "src/game/victory/361_Wispari_Dies.lua",
+      "before_sha256": "155c4885bdf52edaa9a5574c8ce8f092bf945f53461f7682faec3a49df29ff12",
+      "after_sha256": "5db0610b0df8a64b99e3e0fa4f2f249e459ee0ff314a494043c847025b64021e"
+    },
+    {
+      "module": "src/game/victory/362_Remove_Resources_new.lua",
+      "before_sha256": "40544236f103dc4caf788165fcb716cdbb176edc3c68d6494d088711a6bcbf75",
+      "after_sha256": "0af68cda5d604b36ee1aa76f22a1cea49f73dc57ac21f4c05dfbef7a09e4aa4e"
+    },
+    {
+      "module": "src/game/victory/363_DVIC_1.lua",
+      "before_sha256": "6d419f37b197b8e23816fa74539a549c78763d848e45d3b6732f454306f96383",
+      "after_sha256": "ef883243f859c8e1c00f7b40cd263a17327ca3f7a2a05a05ff9312a0c6681211"
+    },
+    {
+      "module": "src/game/victory/365_Extermination.lua",
+      "before_sha256": "8bb2677d609c524090859f09ad3223e6370a379b361ac50cd3511724367b97c4",
+      "after_sha256": "de20cd5f5d352b4c8197a78bcab110c451da680969fbcd22b9c9a891889c0f19"
+    },
+    {
+      "module": "src/economy/base_flags/369_NewFlag.lua",
+      "before_sha256": "803b4337858440e1012a7cea56df92988bc76efd7705cc8def47a631a9bd7d45",
+      "after_sha256": "7fd0f7d3be081e070c0be3403137bccdf55c832c2b48234a65c1a85633daebe1"
+    },
+    {
+      "module": "src/economy/base_flags/371_NewFlag3.lua",
+      "before_sha256": "8b7814c11124d9c9ef1eba1ccdce1a610b8fba19dffbf249570db16c8284566e",
+      "after_sha256": "f4bc6c0994cfcd9b6e958bf14f5dc2a1816633f098c406792dba1d500f4bd2ac"
+    },
+    {
+      "module": "src/economy/base_flags/373_NewFlag5.lua",
+      "before_sha256": "359df7ac7a8c807b478eb2ec4a39b9706310a124a9466e172e27e26e251bafa3",
+      "after_sha256": "d54bcfa505c3020bd1df9e81b1f42e17e6a9868e737e41d40d7cdbb4a9210457"
+    }
+  ],
+  "intentional_changes": [
+    "Ancient identity follows udg_AncientPlayer through a single role API.",
+    "Ancient-only events subscribe to all eleven participants and filter the current role.",
+    "Resource cleanup compares player identity instead of color.",
+    "Income, victory/defeat, and leaving logic follow a takeover.",
+    "Victory/defeat includes slot 11, omitted by four original Ancient death triggers."
+  ],
+  "original_differential_suite": "Applicable to the layout-only baseline; the role change intentionally changes original behavior.",
+  "live_engine_test": false
+}

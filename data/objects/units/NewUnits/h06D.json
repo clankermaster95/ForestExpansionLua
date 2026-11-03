@@ -1,0 +1,145 @@
+{
+  "OldId": 1634493032,
+  "NewId": 1144402024,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h065,h06A,u00L",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R080,R081,R082,R083",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "undead",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1952542837,
+      "Type": "String",
+      "Value": "PathTextures\\6x6SimpleSolid.tga",
+      "SanityCheck": 0,
+      "_field": "upat"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 800,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1986359925,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "urev"
+    },
+    {
+      "Id": 1634890869,
+      "Type": "String",
+      "Value": "H064",
+      "SanityCheck": 0,
+      "_field": "utra"
+    }
+  ],
+  "_rawcode": "h06D",
+  "_base": "hbla",
+  "_name": "Altar of the Thing"
+}

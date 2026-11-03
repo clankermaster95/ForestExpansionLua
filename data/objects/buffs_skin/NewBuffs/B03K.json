@@ -1,0 +1,43 @@
+{
+  "OldId": 1902464834,
+  "NewId": 1261645890,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6175",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Sticky Glue"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6213",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Sticky Glue"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6228",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is in an Sticky Glue; its movement speed is greatly reduced."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "war3mapImported\\SpiderToxin.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    }
+  ],
+  "_rawcode": "B03K",
+  "_base": "BOeq",
+  "_name": "Sticky Glue"
+}

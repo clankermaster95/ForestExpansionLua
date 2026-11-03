@@ -1,0 +1,58 @@
+{
+  "OldId": 2004121448,
+  "NewId": 959459432,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_051",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Upgraded Wall"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_052",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Upgrade to |cffffcc00U|rpgraded Wall"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1950",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Stronger wall, more life.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_069",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "U"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h009",
+  "_base": "hwtw",
+  "_name": "Upgraded Wall"
+}

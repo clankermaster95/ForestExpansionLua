@@ -1,0 +1,93 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1160982632,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3478",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Cove"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "ESMA",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Ruins\\Water\\CoralArch\\CoralArch0.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.26,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2011",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_3482",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00C|rove"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10109",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic building that allows you to return lumber and produce workers to aid you.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h03E",
+  "_base": "hwtw",
+  "_name": "Cove"
+}

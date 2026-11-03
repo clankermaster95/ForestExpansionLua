@@ -1,0 +1,54 @@
+{
+  "OldId": 2004119412,
+  "NewId": 808595529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1635021673,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ista"
+    },
+    {
+      "Id": 1702065513,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "iuse"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A0BQ",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1919250537,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "iper"
+    }
+  ],
+  "_rawcode": "I020",
+  "_base": "totw",
+  "_name": "Repair Bot"
+}

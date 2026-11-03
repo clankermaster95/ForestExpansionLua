@@ -1,0 +1,149 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1513435218,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828794215,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5028",
+      "SanityCheck": 0,
+      "_field": "gef1",
+      "_resolvedText": "rmnx"
+    },
+    {
+      "Id": 828465767,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "gba1"
+    },
+    {
+      "Id": 829386087,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "gmo1"
+    },
+    {
+      "Id": 1651271527,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "gglb"
+    },
+    {
+      "Id": 1835820903,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "gglm"
+    },
+    {
+      "Id": 1651338343,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 250,
+      "SanityCheck": 0,
+      "_field": "glmb"
+    },
+    {
+      "Id": 1835887719,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 250,
+      "SanityCheck": 0,
+      "_field": "glmm"
+    },
+    {
+      "Id": 1651078247,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "gtib"
+    },
+    {
+      "Id": 1835627623,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "gtim"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 1936483175,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "gcls"
+    },
+    {
+      "Id": 845571431,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5695",
+      "SanityCheck": 0,
+      "_field": "gef2",
+      "_resolvedText": "rhpx"
+    },
+    {
+      "Id": 846163303,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "gmo2"
+    },
+    {
+      "Id": 845242983,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "gba2"
+    }
+  ],
+  "_rawcode": "R05Z",
+  "_base": "Rhar",
+  "_name": "Manaweave Enhancement"
+}

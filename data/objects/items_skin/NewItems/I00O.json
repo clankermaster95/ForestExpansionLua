@@ -1,0 +1,51 @@
+{
+  "OldId": 863265138,
+  "NewId": 1328558153,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2323",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Deadly Axe"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2324",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Deadly Axe"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_5225",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "When held, your damage is increased by 100."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_5226",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "When held, your damage is increased by 100."
+    }
+  ],
+  "_rawcode": "I00O",
+  "_base": "rat3",
+  "_name": "Deadly Axe"
+}

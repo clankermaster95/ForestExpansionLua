@@ -1,0 +1,86 @@
+{
+  "OldId": 1970431855,
+  "NewId": 842018927,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_091",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Fire Sprite"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNInfernal.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\RedDragonBreath\\RedDragonMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2688",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00F|rire Sprite"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_5661",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Fire Sprites are health based hunters that can easily surround the ancient and trap them in. They soak up a lot of damage and can deal a lot of damage when left unchecked.|n|n|cfffdca00Health:|r 400; 10/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Normal)|n|cfffdca00Attack Range:|r 100|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 325|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_320",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    }
+  ],
+  "_rawcode": "o002",
+  "_base": "ogru",
+  "_name": "Fire Sprite"
+}

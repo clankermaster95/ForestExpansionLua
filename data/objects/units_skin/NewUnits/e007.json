@@ -1,0 +1,85 @@
+{
+  "OldId": 1919182437,
+  "NewId": 925904997,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9847",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Dragon Whelp"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\RedDragonWelp\\RedDragonWelp.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\RedDragonBreath\\RedDragonMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Felhound",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2325",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9848",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Dragon Whelp"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "utub"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.7,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 2053927797,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uslz"
+    }
+  ],
+  "_rawcode": "e007",
+  "_base": "efdr",
+  "_name": "Dragon Whelp"
+}

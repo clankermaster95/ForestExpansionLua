@@ -1,0 +1,160 @@
+{
+  "OldId": 1869827649,
+  "NewId": 1228353601,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7673",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Lunar Assault"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNManaFlare.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNManaFlare.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_230",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_231",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7674",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lun|cffffcc00a|rr Assault - [|cffffcc00Level 1|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7675",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lun|cffffcc00a|rr Assault - [|cffffcc00Level 2|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7676",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lun|cffffcc00a|rr Assault - [|cffffcc00Level 3|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7677",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lun|cffffcc00a|rr Assault - [|cffffcc00Level 4|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7678",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lun|cffffcc00a|rr Assault - [|cffffcc00Level 5|r]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1758",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Initially deals (20% of your maximum mana) damage, followed by silencing the target for 3 seconds and dealing 60 damage per second. 40 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the mana to damage ratio of Lunar Assault by 10%.|r|n|cff7F7F7FThe Moon's power knows no bounds.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1796",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Initially deals (30% of your maximum mana) damage, followed by silencing the target for 3 seconds and dealing 60 damage per second. 40 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the mana to damage ratio of Lunar Assault by 10%.|r|n|cff7F7F7FThe Moon's power knows no bounds.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1797",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Initially deals (40% of your maximum mana) damage, followed by silencing the target for 3 seconds and dealing 60 damage per second. 40 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the mana to damage ratio of Lunar Assault by 10%.|r|n|cff7F7F7FThe Moon's power knows no bounds.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1883",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Initially deals (50% of your maximum mana) damage, followed by silencing the target for 3 seconds and dealing 60 damage per second. 40 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the mana to damage ratio of Lunar Assault by 10%.|r|n|cff7F7F7FThe Moon's power knows no bounds.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1891",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Initially deals (60% of your maximum mana) damage, followed by silencing the target for 3 seconds and dealing 60 damage per second. 40 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the mana to damage ratio of Lunar Assault by 10%.|r|n|cff7F7F7FThe Moon's power knows no bounds.|r"
+    }
+  ],
+  "_rawcode": "A07I",
+  "_base": "ANso",
+  "_name": "Lunar Assault"
+}

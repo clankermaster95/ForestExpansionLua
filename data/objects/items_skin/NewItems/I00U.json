@@ -1,0 +1,51 @@
+{
+  "OldId": 1836413796,
+  "NewId": 1429221449,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3471",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Nerubian-Alchemy Gem"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPhilosophersStone.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_3472",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Nerubian-Alchemy Gem"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_868",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Passively increases armor by 7. Active: Teleports 24 units from the targeted area"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9659",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Passively increases armor by 7. Active: Teleports 12 unit from the targeted area"
+    }
+  ],
+  "_rawcode": "I00U",
+  "_base": "dsum",
+  "_name": "Nerubian-Alchemy Gem"
+}

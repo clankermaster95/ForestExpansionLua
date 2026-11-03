@@ -1,0 +1,39 @@
+{
+  "OldId": 1717848385,
+  "NewId": 1194930241,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 1969385289,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "A09F",
+      "SanityCheck": 0,
+      "_field": "Iobu"
+    },
+    {
+      "Id": 1835099209,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Idam"
+    }
+  ],
+  "_rawcode": "A09G",
+  "_base": "AIdf",
+  "_name": "Earth Lackey"
+}

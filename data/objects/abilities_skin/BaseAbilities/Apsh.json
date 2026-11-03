@@ -1,0 +1,22 @@
+{
+  "OldId": 1752395841,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6177",
+      "SanityCheck": 1752395841,
+      "_field": "ansf",
+      "_resolvedText": "(Old)"
+    }
+  ],
+  "_rawcode": "Apsh",
+  "_base": "Apsh",
+  "_name": "Apsh"
+}

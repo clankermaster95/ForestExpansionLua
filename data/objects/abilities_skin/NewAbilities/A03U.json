@@ -1,0 +1,198 @@
+{
+  "OldId": 1919176257,
+  "NewId": 1429418049,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3429",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "N"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3749",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "N"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9384",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffb4ffffNeutralize|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4336",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Neutralize the target, draining 75 (+50 per level) health every second. Can also target buildings. Lasts 5 seconds. 12 (-1 per level) second cooldown."
+    },
+    {
+      "Id": 1818649953,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ManaFlareLoop",
+      "SanityCheck": 0,
+      "_field": "aefl"
+    },
+    {
+      "Id": 1734962273,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "MBUR,CHIM,CHIM",
+      "SanityCheck": 0,
+      "_field": "alig"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLightning_Ball_02.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLightning_Ball_02.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3750",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00N|reutralize"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3752",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00N|reutralize"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3753",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00N|reutralize"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3754",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00N|reutralize"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3755",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00N|reutralize"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4337",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Neutralize the target, draining 75 health every second. Can also target buildings. Lasts 5 seconds. 12 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4339",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Neutralize the target, draining 125 health every second. Can also target buildings. Lasts 5 seconds. 11 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4345",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Neutralize the target, draining 175 health every second. Can also target buildings. Lasts 5 seconds. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4351",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Neutralize the target, draining 225 health every second. Can also target buildings. Lasts 5 seconds. 9 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4352",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Neutralize the target, draining 275 health every second. Can also target buildings. Lasts 5 seconds. 8 second cooldown."
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9385",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "|cffb4ffffNeutralize|r"
+    }
+  ],
+  "_rawcode": "A03U",
+  "_base": "ANdr",
+  "_name": "|cffb4ffffNeutralize|r"
+}

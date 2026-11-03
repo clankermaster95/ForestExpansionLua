@@ -1,0 +1,19 @@
+{
+  "OldId": 1953256534,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1936746594,
+      "Type": "Unreal",
+      "Value": 99999,
+      "SanityCheck": 1953256534,
+      "_field": "bhps"
+    }
+  ],
+  "_rawcode": "VTlt",
+  "_base": "VTlt",
+  "_name": "VTlt"
+}

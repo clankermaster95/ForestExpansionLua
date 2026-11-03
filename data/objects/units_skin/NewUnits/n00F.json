@@ -1,0 +1,49 @@
+{
+  "OldId": 1819637358,
+  "NewId": 1177563246,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4349",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cffE67B21Meerkatking|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4350",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffE67B21Meerkatking|r"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\nightelf\\Chimaera\\Chimaera.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "PitLord",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    }
+  ],
+  "_rawcode": "n00F",
+  "_base": "nvul",
+  "_name": "|cffE67B21Meerkatking|r"
+}

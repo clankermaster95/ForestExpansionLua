@@ -1,0 +1,89 @@
+{
+  "OldId": 1668563777,
+  "NewId": 1095053377,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4205",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4923",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7053",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Thunderslam"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7054",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff63c7ffThunderslam|r [35]"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7631",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff42b1ffBounty Hunter slams the ground, dealing|r 500 |cff42b1ffdamage and slowing nearby enemies' movement by|r 25% |cff42b1ffand attack speed by|r 30%.|r|n|n|cff42b1ffLasts for |r3 seconds|cff42b1ff, cooldown is|r 35 seconds."
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    }
+  ],
+  "_rawcode": "A0EA",
+  "_base": "ACtc",
+  "_name": "Thunderslam"
+}

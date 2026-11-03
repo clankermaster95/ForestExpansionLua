@@ -1,0 +1,65 @@
+{
+  "OldId": 1869113205,
+  "NewId": 808464501,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1842",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Centaur Militia"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCentaurArcher.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\Centaur\\Centaur.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Furbolg",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1843",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Centaur Militia"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_023",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10016",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic, weak unit for attacking and hunting down enemies.|n|n|cfffdca00Health:|r 800; 1/s|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 50 (Piercing)|n|cfffdca00Attack Range:|r 90|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 310|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    }
+  ],
+  "_rawcode": "u000",
+  "_base": "ugho",
+  "_name": "Centaur Militia"
+}

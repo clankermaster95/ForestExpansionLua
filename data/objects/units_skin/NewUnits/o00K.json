@@ -1,0 +1,27 @@
+{
+  "OldId": 1701996399,
+  "NewId": 1261449327,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_8640",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "You may only train one hero"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o00K",
+  "_base": "ogre",
+  "_name": "You may only train one hero"
+}

@@ -1,0 +1,61 @@
+{
+  "OldId": 828733294,
+  "NewId": 875638894,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    }
+  ],
+  "_rawcode": "n014",
+  "_base": "nwe1",
+  "_name": "Eagle"
+}

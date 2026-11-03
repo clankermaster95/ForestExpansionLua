@@ -1,0 +1,88 @@
+{
+  "OldId": 1869378369,
+  "NewId": 1380069441,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_573",
+      "SanityCheck": 1869378369,
+      "_field": "aub1",
+      "_resolvedText": "Slows a target enemy unit's attack rate by 20% and movement speed by 30%. |nLasts 5 seconds for the Ancient and 10 seconds for minions. |n|cff80808050 seconds cooldown|r"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4818",
+      "SanityCheck": 1869378369,
+      "_field": "ansf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2036495713,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "auby"
+    },
+    {
+      "Id": 2019718497,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "aubx"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2486",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2487",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "A0BR",
+  "_base": "Aslo",
+  "_name": "A0BR"
+}

@@ -1,0 +1,95 @@
+{
+  "OldId": 1835361349,
+  "NewId": 808464453,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2108",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cffFF9429Centaur Warcaller|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNcentaur.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\CentaurKhan\\CentaurKhan.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "HeroPitLord",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_6364",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cffFF9429Hoof Breaker|r,|cffFF9429War Song|r,|cffFF9429Relentless|r,|cffFF9429Death Chaser|r,|cffFF9429Skull Chewer|r,|cffFF9429Crusher|r,|cffFF9429Rampage|r"
+    },
+    {
+      "Id": 1953980789,
+      "Type": "String",
+      "Value": "TRIGSTR_2110",
+      "SanityCheck": 0,
+      "_field": "uawt",
+      "_resolvedText": "Revive |cffFF9429Centaur Warcaller|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2111",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffFF9429Centaur Warcaller|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10024",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A strong hero for the centaur. Can blink in and out of battles while leading his troops to victory. Can be revived. |n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r"
+    },
+    {
+      "Id": 1919972469,
+      "Type": "String",
+      "Value": "TRIGSTR_2113",
+      "SanityCheck": 0,
+      "_field": "utpr",
+      "_resolvedText": "Revive |cffFF9429Centaur Warcaller|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "E000",
+  "_base": "Edem",
+  "_name": "|cffFF9429Centaur Warcaller|r"
+}

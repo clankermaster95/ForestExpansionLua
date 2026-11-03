@@ -1,0 +1,168 @@
+{
+  "OldId": 1802723905,
+  "NewId": 1397043265,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4247",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Refreshing Breeze"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9336",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "For 3 seconds, the hero heals for 50% of spell damage dealt and gets 50% attack speed bonus."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9337",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "For 6 seconds, the hero heals for 50% of spell damage dealt and gets 50% attack speed bonus."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9338",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "For 9 seconds, the hero heals for 50% of spell damage dealt and gets 50% attack speed bonus."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9688",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Refreshing Breeze - [|cfaaffcffLevel %d|r]"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9360",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(new)"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3555",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4058",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCyclone.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCyclone.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9301",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "For 3 seconds, the hero heals for 50% of spell damage dealt and gets 50% attack speed bonus. Duration increases by 3 seconds per level."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9339",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Refreshing Breeze - [|cfaaffcffLevel 1|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9358",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Refreshing Breeze - [|cfaaffcffLevel 2|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9359",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Refreshing Breeze - [|cfaaffcffLevel 3|r]"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A0ES",
+  "_base": "Absk",
+  "_name": "Refreshing Breeze"
+}

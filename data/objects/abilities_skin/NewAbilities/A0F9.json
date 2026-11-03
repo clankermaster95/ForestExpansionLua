@@ -1,0 +1,41 @@
+{
+  "OldId": 1651787841,
+  "NewId": 960901185,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9705",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Snipe Shot"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9718",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Stun)"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    }
+  ],
+  "_rawcode": "A0F9",
+  "_base": "AHtb",
+  "_name": "Snipe Shot"
+}

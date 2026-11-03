@@ -1,0 +1,50 @@
+{
+  "OldId": 1634236225,
+  "NewId": 859058241,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4140",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harvest (Aethyr Warp)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4141",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Harvests lumber from trees."
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    }
+  ],
+  "_rawcode": "A043",
+  "_base": "Awha",
+  "_name": "Harvest (Aethyr Warp)"
+}

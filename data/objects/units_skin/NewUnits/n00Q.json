@@ -1,0 +1,72 @@
+{
+  "OldId": 1835427182,
+  "NewId": 1362112622,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\human\\HumanLumbermill\\HumanLumbermill.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6411",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Elven Lumbermill"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6412",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Elven Lumbermill"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10305",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Drop point for your wood harvesters.|n|n|cfffdca00Health:|r 150|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanLumberMill.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.55,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_043",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "H"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    }
+  ],
+  "_rawcode": "n00Q",
+  "_base": "nefm",
+  "_name": "Elven Lumbermill"
+}

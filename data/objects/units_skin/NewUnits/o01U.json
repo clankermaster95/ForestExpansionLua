@@ -1,0 +1,107 @@
+{
+  "OldId": 1919903343,
+  "NewId": 1429287023,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6530",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Forgotten Vault"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNObsidianStatue.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "doodads\\cinematic\\IcecrownObelisk\\IcecrownObelisk.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6676",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Forgotten |cffffcc00V|rault"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10209",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "This building sells unique items for the Forgotten One, as well as other items. |n|cff7F7F7FSealed away within long buried obelisks are the relics of the Old Gods.|r|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_827",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o01U",
+  "_base": "ofor",
+  "_name": "Forgotten Vault"
+}

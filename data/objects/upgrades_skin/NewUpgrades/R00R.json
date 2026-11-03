@@ -1,0 +1,70 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1378889810,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1277",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Skeleton Archers"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletonArcher.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7563",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Skeleton Archers - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1279",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to build Skeleton Archers."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4095",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R00R",
+  "_base": "Rhme",
+  "_name": "Skeleton Archers"
+}

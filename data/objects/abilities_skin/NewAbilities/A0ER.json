@@ -1,0 +1,42 @@
+{
+  "OldId": 1936614721,
+  "NewId": 1380266049,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3423",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Grasp"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9408",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(New)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9409",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Ensnare the target, making it be unable to move for 2.5 seconds. 20 second cooldown."
+    }
+  ],
+  "_rawcode": "A0ER",
+  "_base": "Aens",
+  "_name": "Grasp"
+}

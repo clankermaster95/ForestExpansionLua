@@ -1,0 +1,32 @@
+{
+  "OldId": 1735674177,
+  "NewId": 1412968513,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9092",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Hammer of Might Dmg"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9093",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(+100)"
+    }
+  ],
+  "_rawcode": "A08T",
+  "_base": "AItg",
+  "_name": "Hammer of Might Dmg"
+}

@@ -1,0 +1,19 @@
+{
+  "OldId": 1634693698,
+  "NewId": 1446064194,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1667330662,
+      "Type": "String",
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "frac"
+    }
+  ],
+  "_rawcode": "B01V",
+  "_base": "Broa",
+  "_name": "B01V"
+}

@@ -1,0 +1,117 @@
+{
+  "OldId": 1835427182,
+  "NewId": 1345335406,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885433973,
+      "Type": "String",
+      "Value": "unbuildable",
+      "SanityCheck": 0,
+      "_field": "upap"
+    },
+    {
+      "Id": 1634890869,
+      "Type": "String",
+      "Value": "O024",
+      "SanityCheck": 0,
+      "_field": "utra"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 2000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1634559605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufma"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1986359925,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "urev"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R068,R069",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "n00N",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    }
+  ],
+  "_rawcode": "n00P",
+  "_base": "nefm",
+  "_name": "Altar of Technologies"
+}

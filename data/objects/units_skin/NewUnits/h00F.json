@@ -1,0 +1,72 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1177563240,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_185",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff7B3108Ogre|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_550",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff7B3108Ogre|r"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\OgreWarlord.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOgreLord.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_332",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "O"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7161",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Baser|n\n|cff008000Off Role|r: Hunter|n\n|cff8080FFDifficulty|r: |cffc00040Very Hard|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.5|n\n|cffC0C0C0\nOgres are a very rough race to play in the early game. With no escapes, but similar worker styles as other basers, the ogre can be extremely difficult early game. Ogres also require a lot of gold and lumber pool. However, this race is very powerful later on in the game with one of the strongest armies in the game, and sturdiest bases around.|r"
+    }
+  ],
+  "_rawcode": "h00F",
+  "_base": "hpea",
+  "_name": "|cff7B3108Ogre|r"
+}

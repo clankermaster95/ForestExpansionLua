@@ -1,0 +1,110 @@
+{
+  "OldId": 1852601967,
+  "NewId": 1429221487,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Aall,Apit",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1768648053,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "umki"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h02Q",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1768256373,
+      "Type": "String",
+      "Value": "I020,I00P,I00Q,I00D",
+      "SanityCheck": 0,
+      "_field": "usei"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R01O",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1952542837,
+      "Type": "String",
+      "Value": "PathTextures\\8x8SimpleSolid.tga",
+      "SanityCheck": 0,
+      "_field": "upat"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    }
+  ],
+  "_rawcode": "o00U",
+  "_base": "ovln",
+  "_name": "Merchant"
+}

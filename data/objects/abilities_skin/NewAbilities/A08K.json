@@ -1,0 +1,140 @@
+{
+  "OldId": 2003321665,
+  "NewId": 1261973569,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9000",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Sun"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSunburst3.BLP",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5557",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "N"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9001",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summo|cffffcc00n|r Sun"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9002",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summo|cffffcc00n|r Sun"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9003",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summo|cffffcc00n|r Sun"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4444",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Sun over an area with a lot of health that heals you for 1% of your health every second and increases attack and movement speed by 20%. Lasts 60 seconds. 90 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4445",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Sun over an area with a lot of health that heals you for 2% of your health every second and increases attack and movement speed by 30%. Lasts 60 seconds. 90 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4446",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Sun over an area with a lot of health that heals you for 3% of your health every second and increases attack and movement speed by 40%. Lasts 60 seconds. 90 second cooldown."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9007",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Summon Su|cffffcc00n|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4451",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Summons a Sun over an area with a lot of health that heals you for 1% (+1% per level) of your health every second and increases attack and movement speed by 20% (+10% per level). Lasts 60 seconds. 90 second cooldown."
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSunburst3.BLP",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5558",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "N"
+    }
+  ],
+  "_rawcode": "A08K",
+  "_base": "AChw",
+  "_name": "Summon Sun"
+}

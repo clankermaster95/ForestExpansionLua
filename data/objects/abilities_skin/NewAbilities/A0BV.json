@@ -1,0 +1,50 @@
+{
+  "OldId": 1635010625,
+  "NewId": 1447178305,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5202",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Reveals an area of the map. |nDetects invisible units. |nLasts <A0BV,Dur1> seconds.|n|cff8080ffCan be casted during others spells channeling time without cancelling it.|r"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1333",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    }
+  ],
+  "_rawcode": "A0BV",
+  "_base": "AHta",
+  "_name": "A0BV"
+}

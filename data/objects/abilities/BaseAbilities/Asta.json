@@ -1,0 +1,30 @@
+{
+  "OldId": 1635021633,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1684562785,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 1635021633,
+      "_field": "achd"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 1635021633,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "Asta",
+  "_base": "Asta",
+  "_name": "Asta"
+}

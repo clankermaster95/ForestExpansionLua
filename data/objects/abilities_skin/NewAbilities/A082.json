@@ -1,0 +1,107 @@
+{
+  "OldId": 1684426305,
+  "NewId": 842543169,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShadowPact.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShadowPact.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8333",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Mummi|cffffcc00f|ry"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8346",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Mummi|cffffcc00f|ry"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8335",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Instantly deal 750 damage to any target unit in your melee range. 3 minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8336",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Instantly deal 750 damage to any target unit in your melee range. 3 minute cooldown."
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1734962273,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "LEAS",
+      "SanityCheck": 0,
+      "_field": "alig"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8332",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Mummify"
+    }
+  ],
+  "_rawcode": "A082",
+  "_base": "ANfd",
+  "_name": "Mummify"
+}

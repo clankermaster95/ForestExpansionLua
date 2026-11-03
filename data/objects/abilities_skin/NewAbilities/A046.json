@@ -1,0 +1,178 @@
+{
+  "OldId": 1719169089,
+  "NewId": 909389889,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4264",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Gale Winds"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\Tornado\\TornadoElemental.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3150",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gale winds burst around you, doing 10 damage to all nearby enemies every second."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4266",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4267",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4268",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4269",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3152",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gale winds burst around you, doing 15 damage to all nearby enemies every second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3153",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gale winds burst around you, doing 20 damage to all nearby enemies every second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3156",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gale winds burst around you, doing 25 damage to all nearby enemies every second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3167",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gale winds burst around you, doing 30 damage to all nearby enemies every second."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4270",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Gale Winds"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3198",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Gale winds burst around you, doing 10 (+5 per level) damage to all nearby enemies every second."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4275",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds"
+    }
+  ],
+  "_rawcode": "A046",
+  "_base": "Apxf",
+  "_name": "Gale Winds"
+}

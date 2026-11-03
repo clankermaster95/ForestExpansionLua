@@ -1,0 +1,88 @@
+{
+  "OldId": 1818447425,
+  "NewId": 1195520065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1422",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Blur"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEvasion.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4514",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "By moving very fast, you dodge all basic attacks inflicted on you for a short period. Lasts |cff8080ff(0.1% of max mana)|r seconds. |n|cff808080CD: 5 seconds.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1836",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffcb4fffBlur|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2760",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "A0BG",
+  "_base": "ANcl",
+  "_name": "Blur"
+}

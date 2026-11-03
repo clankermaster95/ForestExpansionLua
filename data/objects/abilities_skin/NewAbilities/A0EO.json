@@ -1,0 +1,88 @@
+{
+  "OldId": 1802981185,
+  "NewId": 1329934401,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4998",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "After 0.25s Wisperi becomes invisible, allowing her to move through units and move faster for 15 seconds, increasing your movement speed by 30% and making you leave a fog cloud everywhere you go. Fog cloud slows enemies move and attack speed in it by 20%.|nCD:180s"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5224",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "After 0.25s Wisperi becomes invisible, allowing her to move through units and move faster for 15 seconds, increasing your movement speed by 30% and making you leave a fog cloud everywhere you go. Fog cloud slows enemies move and attack speed in it by 20%.|nCD:180s"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9302",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cfaaffcffWind Walk|r"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9335",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cfaaffcffLearn Wind Walk|r"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    }
+  ],
+  "_rawcode": "A0EO",
+  "_base": "AOwk",
+  "_name": "A0EO"
+}

@@ -1,0 +1,70 @@
+{
+  "OldId": 1651001409,
+  "NewId": 959590465,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1072",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Healing Heat"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Objects\\Spawnmodels\\Human\\HCancelDeath\\HCancelDeath.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8954",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Healin|cffffcc00g|r Heat"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3777",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2893",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A healing heat that heals a target for 500 health. 20 second cooldown."
+    }
+  ],
+  "_rawcode": "A029",
+  "_base": "AHhb",
+  "_name": "Healing Heat"
+}

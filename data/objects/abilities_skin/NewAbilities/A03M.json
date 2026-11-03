@@ -1,0 +1,70 @@
+{
+  "OldId": 1919239489,
+  "NewId": 1295200321,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8801",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00G|rrasp"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5643",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Ensnare the target, causing it to take 250 damage and be unable to move for 2.5 seconds. 20 second cooldown."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4771",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3422",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Grasp"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A03M",
+  "_base": "AEer",
+  "_name": "Grasp"
+}

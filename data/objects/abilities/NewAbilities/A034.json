@@ -1,0 +1,102 @@
+{
+  "OldId": 1852200257,
+  "NewId": 875769921,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 846095957,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "Ufn2"
+    },
+    {
+      "Id": 829318741,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ufn1"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R02D",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    }
+  ],
+  "_rawcode": "A034",
+  "_base": "AUfn",
+  "_name": "Frost Blast"
+}

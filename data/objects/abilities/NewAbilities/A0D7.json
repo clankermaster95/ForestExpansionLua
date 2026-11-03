@@ -1,0 +1,84 @@
+{
+  "OldId": 2004044097,
+  "NewId": 927215681,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 90,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 90,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 350,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 1969518440,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "nwad",
+      "SanityCheck": 0,
+      "_field": "hwdu"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1684562785,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "achd"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R07C",
+      "SanityCheck": 0,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "A0D7",
+  "_base": "AIsw",
+  "_name": "Watchful Eye"
+}

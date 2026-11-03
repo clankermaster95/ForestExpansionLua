@@ -1,0 +1,93 @@
+{
+  "OldId": 2004117352,
+  "NewId": 925905000,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7427",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Missile Tower"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\AmmoDump\\AmmoDump.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAmmoDump.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\TinkerRocket\\TinkerRocketMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7428",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Upgrade to |cffffcc00M|rissile Tower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6273",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases the tower's attack damage and attack speed.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_030",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "M"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h007",
+  "_base": "hgtw",
+  "_name": "Missile Tower"
+}

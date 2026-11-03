@@ -1,0 +1,52 @@
+{
+  "OldId": 1852200257,
+  "NewId": 875769921,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3045",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Frost Blast"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5459",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00F|rrost Blast"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1735",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Blast your target with a force of frost. Slows them for 3 seconds and deals 400 damage. 15 second cooldown."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1190",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "F"
+    }
+  ],
+  "_rawcode": "A034",
+  "_base": "AUfn",
+  "_name": "Frost Blast"
+}

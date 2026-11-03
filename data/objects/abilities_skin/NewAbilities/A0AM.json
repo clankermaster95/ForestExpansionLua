@@ -1,0 +1,32 @@
+{
+  "OldId": 1919304513,
+  "NewId": 1296117825,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1139",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Force of Nature (Neutral Hostile)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4504",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Converts a small area of trees into <ACfr,DataA1> Treants. |nLasts <ACfr,Dur1> seconds. 20 second cooldown.|n|n|cffffcc00Attacks land units.|r"
+    }
+  ],
+  "_rawcode": "A0AM",
+  "_base": "ACfr",
+  "_name": "Force of Nature (Neutral Hostile)"
+}

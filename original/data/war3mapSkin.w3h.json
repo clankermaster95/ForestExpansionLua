@@ -1,0 +1,5644 @@
+{
+  "FormatVersion": "v3",
+  "BaseBuffs": [
+    {
+      "OldId": 1802981186,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_126",
+          "SanityCheck": 1802981186
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_138",
+          "SanityCheck": 1802981186
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNUnstableConcoction.blp",
+          "SanityCheck": 1802981186
+        }
+      ]
+    },
+    {
+      "OldId": 1902464856,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\Starfall\\StarfallCaster.mdl",
+          "SanityCheck": 1902464856
+        }
+      ]
+    },
+    {
+      "OldId": 1902464834,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp",
+          "SanityCheck": 1902464834
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\Curse\\CurseTarget.mdl",
+          "SanityCheck": 1902464834
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_276",
+          "SanityCheck": 1902464834
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_271",
+          "SanityCheck": 1902464834
+        }
+      ]
+    },
+    {
+      "OldId": 1819304258,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Drain\\DrainCaster.mdl",
+          "SanityCheck": 1819304258
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_535",
+          "SanityCheck": 1819304258
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_536",
+          "SanityCheck": 1819304258
+        }
+      ]
+    },
+    {
+      "OldId": 1936083032,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Weapons\\Bolt\\BoltImpact.mdl",
+          "SanityCheck": 1936083032
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_1904",
+          "SanityCheck": 1936083032
+        }
+      ]
+    },
+    {
+      "OldId": 1684297048,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\LightningShield\\LightningShieldBuff.mdl",
+          "SanityCheck": 1684297048
+        }
+      ]
+    },
+    {
+      "OldId": 1719169090,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7159",
+          "SanityCheck": 1719169090
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 1719169090
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\GeneralAuraTarget\\GeneralAuraTarget.mdl",
+          "SanityCheck": 1719169090
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp",
+          "SanityCheck": 1719169090
+        }
+      ]
+    },
+    {
+      "OldId": 1953788738,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_2814",
+          "SanityCheck": 1953788738
+        }
+      ]
+    },
+    {
+      "OldId": 1986086978,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_8720",
+          "SanityCheck": 1986086978
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_019",
+          "SanityCheck": 1869640514
+        }
+      ]
+    }
+  ],
+  "NewBuffs": [
+    {
+      "OldId": 1869640514,
+      "NewId": 808464450,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_349",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\LiquidFire\\Liquidfire.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiritLink.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_413",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_354",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 825241666,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6258",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9293",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_756",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNWandOfShadowSight.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1684097090,
+      "NewId": 842018882,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_791",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\FaerieFire\\FaerieFireTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_792",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_793",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNDispelMagic.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1667321666,
+      "NewId": 858796098,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_801",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_802",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_803",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\BreathOfFire\\BreathOfFireDamage.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNControlMagic.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 875573314,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1136",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNMagicLariet.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1137",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7251",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869378370,
+      "NewId": 892350530,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1153",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1154",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1155",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\EntanglingRoots\\EntanglingRootsTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNRoot.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700876098,
+      "NewId": 909127746,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1156",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Parasite\\ParasiteTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNSmash.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1157",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1158",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 925904962,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1268",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1269",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1270",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Units\\Undead\\PlagueCloud\\PlagueCloudtarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNPlagueCloud.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1684097090,
+      "NewId": 942682178,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1451",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1452",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1453",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNHardenedSkin.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1668565058,
+      "NewId": 959459394,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1440",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1445",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1456",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNVolcano.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\Impale\\ImpaleHitTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 811693158,
+          "Type": "String",
+          "Value": "origin",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 1093677122,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1467",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Doom\\DoomDeath.mdl,Abilities\\Spells\\Orc\\Bloodlust\\BloodlustSpecial.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1472",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1474",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1935951938,
+      "NewId": 1110454338,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1498",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNHardenedSkin.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\EarthQuake\\EarthQuakeTarget.mdl,Abilities\\Spells\\Undead\\Unsummon\\UnsummonTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1501",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1506",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 1127231554,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_9419",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNBootsOfSpeed.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Items\\AIsp\\SpeedTarget.mdl,Abilities\\Spells\\Orc\\Bloodlust\\BloodlustSpecial.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9420",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1523",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718832962,
+      "NewId": 1144008770,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1607",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\Impale\\ImpaleMissTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNKoboldGeomancer.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1608",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1609",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1717782850,
+      "NewId": 1160785986,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1701",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\ImmolationRed\\ImmolationRedTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\LiquidFire\\Liquidfire.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1702",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1703",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700881986,
+      "NewId": 1177563202,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1752",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1753",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1754",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\shadowstrike\\shadowstrike.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1701868354,
+      "NewId": 1194340418,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1775",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1785",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1789",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNDarkSummoning.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\ManaShield\\ManaShieldCaster.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1768967746,
+      "NewId": 1211117634,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6141",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\SoulBurn\\SoulBurnbuff.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Environment\\LargeBuildingFire\\LargeBuildingFire1.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952867686,
+          "Type": "String",
+          "Value": "origin",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1667321666,
+      "NewId": 1227894850,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2129",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_2130",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_2131",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNDevour.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869768258,
+      "NewId": 1244672066,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2454",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Objects\\Spawnmodels\\Human\\HumanLargeDeathExplode\\HumanLargeDeathExplode.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_2455",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_2456",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNSlowPoison.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1952992834,
+      "NewId": 1261449282,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2498",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\StasisTrap\\StasisTotemTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_2500",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_2502",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 1278226498,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2759",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_2768",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_2770",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Items\\AIsp\\SpeedTarget.mdl,Abilities\\Spells\\Orc\\Bloodlust\\BloodlustSpecial.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNBasicStruct.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634096450,
+      "NewId": 1295003714,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2771",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_2772",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_2773",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_2774",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\Voodoo\\VoodooAura.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869768258,
+      "NewId": 1311780930,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2775",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\slow\\slowtarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_2776",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_2777",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1667321666,
+      "NewId": 1328558146,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2778",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_2779",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_2780",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685547074,
+      "NewId": 1345335362,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2999",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3008",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1918988098,
+      "NewId": 1362112578,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3010",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3011",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685540674,
+      "NewId": 1378889794,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3006",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3012",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1785033282,
+      "NewId": 1395667010,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2198",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_3064",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1667321666,
+      "NewId": 1412444226,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3065",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3066",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3067",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1429221442,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3135",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNPotionOfVampirism.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3136",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3137",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1935951938,
+      "NewId": 1445998658,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3143",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNThornShield.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\FeralSpirit\\feralspiritdone.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3144",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3146",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718832962,
+      "NewId": 1462775874,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3182",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\WarStomp\\WarStompCaster.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3183",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3184",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNHeroCryptLord.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700876098,
+      "NewId": 1479553090,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3208",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNPoisonSting.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3209",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3210",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1684097090,
+      "NewId": 1496330306,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3211",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNHardenedSkin.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3212",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3213",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1751205186,
+      "NewId": 1513107522,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3214",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3215",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3216",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919239490,
+      "NewId": 808529986,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3426",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3427",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3428",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\Ensnare\\ensnareTarget.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936876354,
+      "NewId": 825307202,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3908",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3909",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3910",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Demon\\DarkConversion\\ZombifyTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1734962278,
+          "Type": "String",
+          "Value": "AFOD",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700881986,
+      "NewId": 842084418,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1761",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1762",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3913",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSpy.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\AerialShackles\\AerialShacklesTarget.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1752384834,
+      "NewId": 858861634,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3914",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNStampede.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_3915",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3916",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1986090306,
+      "NewId": 875638850,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_4357",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5058",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_4358",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Stampede\\StampedeMissileDeath.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNVampiricAura.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 892416066,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8092",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNVampiricAura.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Objects\\Spawnmodels\\Human\\HumanLargeDeathExplode\\HumanLargeDeathExplode.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_8093",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_4375",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1785033282,
+      "NewId": 909193282,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_4621",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNUproot.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_4622",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_4623",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\Tranquility\\TranquilityTarget.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1969313090,
+      "NewId": 925970498,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_4754",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\Heal\\HealTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_4755",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_4756",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNHornOfFog.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835814466,
+      "NewId": 942747714,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_4833",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952542054,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\EntanglingRoots\\EntanglingRootsTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_4834",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_4835",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1717782850,
+      "NewId": 959524930,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_4858",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\Unsummon\\UnsummonTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNAmuletOftheWild.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\ManaFlare\\ManaFlareBoltImpact.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9462",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_4859",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953526630,
+          "Type": "String",
+          "Value": "foot",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936543298,
+      "NewId": 1093742658,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_4870",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNMassTeleport.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\Cripple\\CrippleTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_4871",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_4876",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1937003842,
+      "NewId": 1110519874,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_4892",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1127297090,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5004",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5005",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5006",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869768258,
+      "NewId": 1144074306,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5055",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Parasite\\ParasiteTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5056",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5057",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1986090306,
+      "NewId": 1160851522,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5060",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_5059",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7483",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5061",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNBerserkForTrolls.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919045186,
+      "NewId": 1177628738,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5069",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNFireBolt.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\FlameStrike\\FlameStrike1.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5070",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5071",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1768910914,
+      "NewId": 1194405954,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5099",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNShadowPact.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5100",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718832962,
+      "NewId": 1211183170,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5101",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_5102",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5103",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5104",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Items\\AIma\\AImaTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNDemoness.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953713730,
+      "NewId": 1227960386,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5111",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1920222529,
+      "NewId": 1244737602,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5117",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Drain\\DrainTarget.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1903445336,
+      "NewId": 808464472,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5118",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\Voodoo\\VoodooAura.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818649958,
+          "Type": "String",
+          "Value": "PowerupSound",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718832962,
+      "NewId": 1261514818,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5134",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\DeathPact\\DeathPactTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5135",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5136",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1735609922,
+      "NewId": 1278292034,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5156",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\Taunt\\TauntCaster.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNTempleOfTheDamned.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5157",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5158",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1935887938,
+      "NewId": 1295069250,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5182",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNStarfall.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\Thunderclap\\ThunderclapTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5183",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5184",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1935887960,
+      "NewId": 825241688,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5185",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1852395074,
+      "NewId": 1311846466,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_9730",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9731",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700876098,
+      "NewId": 1328623682,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5213",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNExhumeCorpses.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5214",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5215",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1345400898,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5316",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5317",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1650544194,
+      "NewId": 1362178114,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5394",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Objects\\Spawnmodels\\Undead\\UndeadLargeDeathExplode\\UndeadLargeDeathExplode.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5395",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6194",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "war3mapImported\\BTNgreenblood.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919239490,
+      "NewId": 1395732546,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6381",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6382",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5420",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Environment\\LargeBuildingFire\\LargeBuildingFire1.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_ChillTouch.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1818453058,
+      "NewId": 1378955330,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5433",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\slow\\slowtarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_5435",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1819567170,
+      "NewId": 1412509762,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5434",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\Rejuvenation\\RejuvenationTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_5437",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936876354,
+      "NewId": 1429286978,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6015",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6081",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6092",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "war3mapImported\\BlackCloudOfFog.mdx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTN_cr_Nightmare Surge.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1734962278,
+          "Type": "String",
+          "Value": "AFOD",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634693698,
+      "NewId": 1446064194,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6137",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7369",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNEradication.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1986090306,
+      "NewId": 1462841410,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_Requiem.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6184",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6187",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1769164354,
+      "NewId": 1479618626,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "war3mapImported\\BTNblueblood.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6195",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 1496395842,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6036",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNPoisonSting.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6037",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6196",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 1513173058,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6034",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyStrength.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6035",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6197",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1851934786,
+      "NewId": 808595522,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6471",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "war3mapImported\\BTN_manaburn.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6472",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6249",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 825372738,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6296",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNpurpleblood.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6297",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6298",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936543298,
+      "NewId": 842149954,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6347",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6348",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6349",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "war3mapImported\\EarthShell.mdx",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 858927170,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6350",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNAmbush.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6351",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6352",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1650544194,
+      "NewId": 875704386,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6377",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6460",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6376",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1952992834,
+      "NewId": 892481602,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6431",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\EarthQuake\\EarthQuakeTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6432",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6433",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 909258818,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6764",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6765",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6766",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1969313090,
+      "NewId": 926036034,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6775",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNTranquility.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6776",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6784",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\Heal\\HealTarget.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1650542658,
+      "NewId": 942813250,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6778",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6780",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_6779",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6788",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\Rejuvenation\\RejuvenationTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNRune.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634096450,
+      "NewId": 959590466,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7040",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7041",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7042",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNResurrection.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\DivineShield\\DivineShieldTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 811693158,
+          "Type": "String",
+          "Value": "origin",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953526630,
+          "Type": "String",
+          "Value": "origin",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2004307778,
+      "NewId": 1093808194,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7072",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "war3mapImported\\HolyTornado.mdx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952867686,
+          "Type": "String",
+          "Value": "origin",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "war3mapImported\\HolyTornado.mdx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "war3mapImported\\HolyTornado.mdx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953526630,
+          "Type": "String",
+          "Value": "origin",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 811693158,
+          "Type": "String",
+          "Value": "origin",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1667331174,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1969313090,
+      "NewId": 1110585410,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7120",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNEnt.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7121",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7122",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1127362626,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7147",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNpurpleblood.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7148",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7149",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685547074,
+      "NewId": 1144139842,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7196",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7197",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNNightElfBuild.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1668565058,
+      "NewId": 1160917058,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7198",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNFrost.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\FreezingBreath\\FreezingBreathTargetArt.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 811693158,
+          "Type": "String",
+          "Value": "chest",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7199",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7200",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835615554,
+      "NewId": 1177694274,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7201",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNManaFlare.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\FrostArmor\\FrostArmorDamage.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "war3mapImported\\GlaciarAura.mdx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7202",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7203",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634288962,
+      "NewId": 1194471490,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7204",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1952735832,
+      "NewId": 842018904,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7454",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1952735832,
+      "NewId": 858796120,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_9300",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Doodads\\Cinematic\\Lightningbolt\\Lightningbolt",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1986090306,
+      "NewId": 1211248706,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7484",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7485",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7486",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1668899650,
+      "NewId": 1228025922,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7517",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7518",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7519",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "war3mapImported\\Cyclone.mdx",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 846816066,
+      "NewId": 1244803138,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7520",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7521",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7522",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "war3mapImported\\Cyclone.mdx",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869827650,
+      "NewId": 1261580354,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7684",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNManaFlare.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "war3mapImported\\IonCannonBeam.mdx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7685",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7686",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 811693158,
+          "Type": "String",
+          "Value": "origin",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835615554,
+      "NewId": 1278357570,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7709",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\FaerieDragonInvis\\FaerieDragon_Invis.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\Starfall\\StarfallCaster.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7710",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7718",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634288962,
+      "NewId": 1295134786,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7712",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_7719",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1650542658,
+      "NewId": 1311912002,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7783",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7784",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7785",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNNightElfBuild.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1903445336,
+      "NewId": 875573336,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7805",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1920222529,
+      "NewId": 1328689218,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7806",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "war3mapImported\\Healing Surge.mdx",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 1345466434,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7879",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7880",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7881",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Parasite\\ParasiteTarget.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 1362243650,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7882",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7883",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7884",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\ImmolationRed\\ImmolationRedTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 811693158,
+          "Type": "String",
+          "Value": "chest",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 828470374,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1667331174,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_7885",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634693698,
+      "NewId": 1379020866,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7886",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7887",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7888",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\FlameStrike\\FlameStrikeEmbers.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_7889",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1684162626,
+      "NewId": 1395798082,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7961",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7974",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7976",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Objects\\Spawnmodels\\Human\\HCancelDeath\\HCancelDeath.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNFireBolt.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2053261378,
+      "NewId": 1412575298,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7975",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_7978",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2053261400,
+      "NewId": 892350552,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_7977",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Units\\Demon\\Infernal\\InfernalBirth.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936090470,
+          "Type": "String",
+          "Value": "ImpaleCast",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818649958,
+          "Type": "String",
+          "Value": "ImpaleCast",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634693698,
+      "NewId": 1429352514,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8120",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNRedDragonDevour.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_8121",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_8122",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718830424,
+      "NewId": 909127768,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8178",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\Tranquility\\Tranquility.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953788738,
+      "NewId": 1446129730,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8230",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_8231",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNDisenchant.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_8304",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936083032,
+      "NewId": 925904984,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8252",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "war3mapImported\\SandExplosion.mdx",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869827650,
+      "NewId": 1462906946,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8281",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSandBlast.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 811693158,
+          "Type": "String",
+          "Value": "origin",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "war3mapImported\\SandAura.MDX,war3mapImported\\SandExplosion.mdx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_8291",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_8282",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "war3mapImported\\SandExplosion.mdx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952867686,
+          "Type": "String",
+          "Value": "origin",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936083010,
+      "NewId": 1479684162,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8386",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSandstorm3.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_8387",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_8388",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835615554,
+      "NewId": 1496461378,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8752",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7715",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7716",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNFireBolt.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\SpiritLink\\SpiritLinkTarget.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634288962,
+      "NewId": 1513238594,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8753",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_8754",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1650673986,
+      "NewId": 808661058,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2320",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNBarbarian Brutal Slasher.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_8794",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_8795",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 825438274,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8910",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_8914",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_8916",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_8917",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1768967746,
+      "NewId": 875769922,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_9037",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Items\\AIil\\AIilTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953526630,
+          "Type": "String",
+          "Value": "chest",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634693698,
+      "NewId": 942878786,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_9039",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "war3mapImported\\btnspellpower.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\Banish\\BanishTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9040",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 811693158,
+          "Type": "String",
+          "Value": "weapon",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9041",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1668565058,
+      "NewId": 858992706,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_9045",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9046",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9047",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "war3mapImported\\btnswirlyblast.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700881986,
+      "NewId": 842215490,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_9089",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9090",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9091",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Objects\\Spawnmodels\\Human\\HCancelDeath\\HCancelDeath.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 811693158,
+          "Type": "String",
+          "Value": "chest",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700876098,
+      "NewId": 926101570,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_9133",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9134",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9135",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Doom\\DoomDeath.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSunburst3.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 892547138,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_9436",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNRune.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Items\\AIsp\\SpeedTarget.mdl,Abilities\\Spells\\Orc\\Bloodlust\\BloodlustSpecial.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9437",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9439",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700876098,
+      "NewId": 909324354,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_003",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_012",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_014",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNIcecrownTower.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1752384834,
+      "NewId": 1110650946,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_180",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_181",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718121794,
+      "NewId": 1144205378,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_188",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_363",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNnerubianSpiderLord.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\Web\\Web_AirTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 811693158,
+          "Type": "String",
+          "Value": "chest",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_191",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 959656002,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_414",
+          "SanityCheck": 1802981186
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_415",
+          "SanityCheck": 1802981186
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "war3mapImported\\BTNSpiderRetreat.blp",
+          "SanityCheck": 1802981186
+        }
+      ]
+    },
+    {
+      "OldId": 1667321666,
+      "NewId": 1093873730,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_646",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_649",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_650",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNFrostClash.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1969313090,
+      "NewId": 1127428162,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_908",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_909",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_911",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNSpell_Nature_ProtectionformNature.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835615554,
+      "NewId": 1160982594,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1311",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_1318",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634288962,
+      "NewId": 1177759810,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_1417",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1194537026,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1430",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1431",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1463",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNEvasion.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936083032,
+      "NewId": 942682200,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1727",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Orc\\LightningShield\\LightningShieldBuff.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1785033282,
+      "NewId": 1211314242,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_3022",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_1920",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_2200",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_2201",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "war3mapImported\\BTNManaRestoration.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869378370,
+      "NewId": 1228091458,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_5911",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "war3mapImported\\BTNSlow.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936083032,
+      "NewId": 959459416,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_509",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\DeathPact\\DeathPactTarget.mdl,Abilities\\Weapons\\Bolt\\BoltImpact.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1819500866,
+      "NewId": 1244868674,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\AcidBomb\\BottleImpact.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "war3mapImported\\BTNgreenblood.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6174",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6173",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718575704,
+      "NewId": 1093677144,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "war3mapImported\\SpiderToxin.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6222",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1902464834,
+      "NewId": 1261645890,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_6175",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6213",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6228",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "war3mapImported\\SpiderToxin.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 1295200322,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_2824",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Objects\\Spawnmodels\\Human\\HumanLargeDeathExplode\\HumanLargeDeathExplode.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_3197",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_3290",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6317",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 1311977538,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_353",
+          "SanityCheck": 1869640514
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Volcano\\VolcanoDeath.mdl",
+          "SanityCheck": 1869640514
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSoulBurn.blp",
+          "SanityCheck": 1869640514
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_6477",
+          "SanityCheck": 1869640514
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6336",
+          "SanityCheck": 1869640514
+        }
+      ]
+    },
+    {
+      "OldId": 1650544194,
+      "NewId": 1328754754,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_6388",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6438",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNCorrosiveBreath.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919110722,
+      "NewId": 1345531970,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_6064",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1684097090,
+      "NewId": 1362309186,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_1527",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_1118",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_1530",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_1038",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1701868354,
+      "NewId": 1278423106,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_4550",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5707",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\StrongDrink\\BrewmasterTarget.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1734561346,
+      "NewId": 1379086402,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_5679",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_5705",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1969313090,
+      "NewId": 1395863618,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_7262",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_7270",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835615554,
+      "NewId": 1412640834,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_8732",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_8733",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\NightElf\\Immolation\\ImmolationTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_8734",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8735",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634288962,
+      "NewId": 1429418050,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_8737",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_7770",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1702316098,
+      "NewId": 1446195266,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9106",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101798,
+          "Type": "String",
+          "Value": "TRIGSTR_9107",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_7791",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835619650,
+      "NewId": 1462972482,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1952540006,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Tornado\\TornadoElementalSmall.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNTornado.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\Thunderclap\\ThunderclapTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9172",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9192",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_9193",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1479749698,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9252",
+          "SanityCheck": 1802981186
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9253",
+          "SanityCheck": 1802981186
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNUnstableConcoction.blp",
+          "SanityCheck": 1802981186
+        }
+      ]
+    },
+    {
+      "OldId": 1819500866,
+      "NewId": 1496526914,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Other\\Tornado\\Tornado_Target.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9254",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9707",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802723906,
+      "NewId": 1513304130,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9260",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9271",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNCyclone.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1717782850,
+      "NewId": 808726594,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Undead\\Unsummon\\UnsummonTarget.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNAmuletOftheWild.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1952543590,
+          "Type": "String",
+          "Value": "Abilities\\Spells\\Human\\ManaFlare\\ManaFlareBoltImpact.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9463",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9464",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953526630,
+          "Type": "String",
+          "Value": "foot",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1718840934,
+          "Type": "String",
+          "Value": "TRIGSTR_9465",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1819500866,
+      "NewId": 825503810,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1952543846,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953653094,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959270,
+          "Type": "String",
+          "Value": "TRIGSTR_9733",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1700951398,
+          "Type": "String",
+          "Value": "TRIGSTR_9735",
+          "SanityCheck": 0
+        }
+      ]
+    }
+  ]
+}

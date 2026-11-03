@@ -1,0 +1,40 @@
+{
+  "OldId": 1919837552,
+  "NewId": 1295069257,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    }
+  ],
+  "_rawcode": "I01M",
+  "_base": "penr",
+  "_name": "[Recipe] Hammer of Might (1550)"
+}

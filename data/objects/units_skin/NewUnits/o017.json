@@ -1,0 +1,114 @@
+{
+  "OldId": 2004121455,
+  "NewId": 925970543,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6110",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Gilnean House"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Village\\Structures\\VillageBuilding\\VillageBuilding1.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFarm.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 828468597,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uma1"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Marketplace",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6111",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00G|rilnean House"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10142",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A structure that allows you to return wood and get basic upgrades.|n|n|cfffdca00Health:|r 50|n|cfffdca00Armor:|r 0 (Heavy)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_562",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o017",
+  "_base": "owtw",
+  "_name": "Gilnean House"
+}

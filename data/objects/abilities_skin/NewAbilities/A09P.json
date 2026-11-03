@@ -1,0 +1,42 @@
+{
+  "OldId": 1852200257,
+  "NewId": 1345925185,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9974",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Minion)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9983",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Frost Nova"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4281",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Blasts enemy units with a wave of frost that deals <A09P,DataB1> damage to the target, and <A09P,DataA1> nova damage. Cold damage slows units' movement and attack speed for <A09P,Dur1> seconds. 8 second cooldown."
+    }
+  ],
+  "_rawcode": "A09P",
+  "_base": "AUfn",
+  "_name": "A09P"
+}

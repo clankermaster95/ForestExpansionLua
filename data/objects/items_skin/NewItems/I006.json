@@ -1,0 +1,57 @@
+{
+  "OldId": 1718903154,
+  "NewId": 909127753,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "Gauntlet of Might",
+      "SanityCheck": 0,
+      "_field": "unam"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedUnholyStrength.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_2038",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Adds 20 Damage and 12 strength."
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "Gauntlet of Might",
+      "SanityCheck": 0,
+      "_field": "utip"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_2039",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Adds 20 Damage and 12 strength."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1469",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "I006",
+  "_base": "ratf",
+  "_name": "Gauntlet of Might"
+}

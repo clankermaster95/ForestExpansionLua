@@ -1,0 +1,80 @@
+{
+  "OldId": 1802981185,
+  "NewId": 1244999745,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5313",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Stalk"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2796",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2939",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6452",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "S|cffffcc00t|ralk"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4069",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The stalker turns invisible for 20 seconds and has 20% increased movement speed. 5 second cooldown."
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "WispLoad",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A05J",
+  "_base": "AOwk",
+  "_name": "Stalk"
+}

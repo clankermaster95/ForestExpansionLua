@@ -1,0 +1,60 @@
+{
+  "OldId": 1701668946,
+  "NewId": 808726610,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6383",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Binding Shadows"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9976",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Binding Shadows - [35.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6552",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "This upgrade is required to cast Binding Shadows. Roots the target for 1.5 seconds and deals 350 damage. 15 second cooldown. |n|cffFF8080This ability costs 200 health|r |n|cff7F7F7FThis ancient Erudaxian techinique holds the target in place briefly, allowing for an escape or easier pursuit.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_ChillTouch.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R040",
+  "_base": "Rhme",
+  "_name": "Binding Shadows"
+}

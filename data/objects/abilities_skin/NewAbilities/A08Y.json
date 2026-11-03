@@ -1,0 +1,141 @@
+{
+  "OldId": 1918986305,
+  "NewId": 1496854593,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9541",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harvest Ghoul"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9514",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Return the carried resources."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9543",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gather"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9544",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gather"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9534",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Harvests lumber from trees."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9542",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Return the carried resources."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9546",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Return the carried resources."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9548",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Return Resources"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9549",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Return Resources"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9535",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Harvests lumber from trees."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9536",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Harvests lumber from trees."
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8012",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    }
+  ],
+  "_rawcode": "A08Y",
+  "_base": "Ahar",
+  "_name": "Harvest Ghoul"
+}

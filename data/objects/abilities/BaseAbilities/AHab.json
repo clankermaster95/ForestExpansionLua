@@ -1,0 +1,21 @@
+{
+  "OldId": 1650542657,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 1650542657,
+      "_field": "alev"
+    }
+  ],
+  "_rawcode": "AHab",
+  "_base": "AHab",
+  "_name": "AHab"
+}

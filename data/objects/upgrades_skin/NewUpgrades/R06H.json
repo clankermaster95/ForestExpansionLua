@@ -1,0 +1,315 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1211510866,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10844",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lava Flow"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6796",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10845",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lava Flow - [15.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_817",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of all of Magmide units by 15. Doesn't apply to your hero or Magmide itself."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNLavaWave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10846",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lava Flow"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10847",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lava Flow"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10848",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lava Flow"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10849",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lava Flow"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10850",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lava Flow"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10851",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lava Flow - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10852",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lava Flow - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10853",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lava Flow - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10854",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lava Flow - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10855",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lava Flow - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1093",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of all of Magmide units by 15. Doesn't apply to your hero or Magmide itself."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1184",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of all of Magmide units by 15. Doesn't apply to your hero or Magmide itself."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1193",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of all of Magmide units by 15. Doesn't apply to your hero or Magmide itself."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1199",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of all of Magmide units by 15. Doesn't apply to your hero or Magmide itself."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1200",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of all of Magmide units by 15. Doesn't apply to your hero or Magmide itself."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNLavaWave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNLavaWave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNLavaWave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNLavaWave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNLavaWave.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7060",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7205",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7206",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8123",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8526",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R06H",
+  "_base": "Rhme",
+  "_name": "Lava Flow"
+}

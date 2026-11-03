@@ -1,0 +1,51 @@
+{
+  "OldId": 846488942,
+  "NewId": 1445998702,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1017",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Lightning Tower"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1612",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Lightning Tower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10319",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Tower with a global range nuke.|n|n|cfffdca00Health:|r 300|n|cfffdca00Mana:|r 100; 0.2/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 40 (Normal)|n|cfffdca00Attack Range:|r 1200|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1537",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "T"
+    }
+  ],
+  "_rawcode": "n00V",
+  "_base": "net2",
+  "_name": "Lightning Tower"
+}

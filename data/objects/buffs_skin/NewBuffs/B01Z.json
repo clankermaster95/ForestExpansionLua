@@ -1,0 +1,57 @@
+{
+  "OldId": 1869640514,
+  "NewId": 1513173058,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6034",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Titanic Strikes"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyStrength.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6035",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Titanic Strikes"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6197",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has been slowed by an Soulreaper."
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "fnsf"
+    }
+  ],
+  "_rawcode": "B01Z",
+  "_base": "Bspo",
+  "_name": "Titanic Strikes"
+}

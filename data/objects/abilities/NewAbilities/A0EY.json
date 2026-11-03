@@ -1,0 +1,30 @@
+{
+  "OldId": 2020821313,
+  "NewId": 1497706561,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829977417,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": -0.75,
+      "SanityCheck": 0,
+      "_field": "Isx1"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B02E",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    }
+  ],
+  "_rawcode": "A0EY",
+  "_base": "AIsx",
+  "_name": "Attack Speed Debuff"
+}

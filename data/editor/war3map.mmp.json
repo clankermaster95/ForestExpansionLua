@@ -1,0 +1,159 @@
+{
+  "FormatVersion": "v0",
+  "Icons": [
+    {
+      "IconType": "NeutralBuilding",
+      "X": 237,
+      "Y": 8,
+      "Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "NeutralBuilding",
+      "X": 248,
+      "Y": 8,
+      "Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "NeutralBuilding",
+      "X": 232,
+      "Y": 8,
+      "Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 248,
+      "Y": 7,
+      "Color": {
+        "R": 33,
+        "G": 192,
+        "B": 0,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 238,
+      "Y": 7,
+      "Color": {
+        "R": 27,
+        "G": 231,
+        "B": 186,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 238,
+      "Y": 7,
+      "Color": {
+        "R": 85,
+        "G": 0,
+        "B": 129,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 238,
+      "Y": 7,
+      "Color": {
+        "R": 255,
+        "G": 252,
+        "B": 0,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 238,
+      "Y": 7,
+      "Color": {
+        "R": 255,
+        "G": 138,
+        "B": 13,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 238,
+      "Y": 7,
+      "Color": {
+        "R": 16,
+        "G": 98,
+        "B": 71,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 238,
+      "Y": 7,
+      "Color": {
+        "R": 126,
+        "G": 192,
+        "B": 242,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 238,
+      "Y": 7,
+      "Color": {
+        "R": 148,
+        "G": 150,
+        "B": 151,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 238,
+      "Y": 7,
+      "Color": {
+        "R": 228,
+        "G": 92,
+        "B": 176,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 238,
+      "Y": 7,
+      "Color": {
+        "R": 255,
+        "G": 3,
+        "B": 3,
+        "A": 255
+      }
+    },
+    {
+      "IconType": "PlayerStartLocation",
+      "X": 238,
+      "Y": 7,
+      "Color": {
+        "R": 0,
+        "G": 66,
+        "B": 255,
+        "A": 255
+      }
+    }
+  ]
+}

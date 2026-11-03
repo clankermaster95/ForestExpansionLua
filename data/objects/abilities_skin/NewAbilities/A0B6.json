@@ -1,0 +1,22 @@
+{
+  "OldId": 1769163073,
+  "NewId": 910307393,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1805",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Paranoia's vision reduction"
+    }
+  ],
+  "_rawcode": "A0B6",
+  "_base": "AIsi",
+  "_name": "Paranoia's vision reduction"
+}

@@ -1,0 +1,59 @@
+{
+  "OldId": 2004119412,
+  "NewId": 808595529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_856",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Summons a Repair Bot to repair damaged structures. The Repair Bot lasts <A0BQ,Dur1> seconds."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_873",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Summons Repair Bot."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1692",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_887",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Repair Bot"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_965",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Repair Bot"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNClockWerkGoblin.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    }
+  ],
+  "_rawcode": "I020",
+  "_base": "totw",
+  "_name": "Repair Bot"
+}

@@ -1,0 +1,100 @@
+{
+  "OldId": 2004121448,
+  "NewId": 926101608,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3163",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Nerubian Wall"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\NerubianZiggurat\\NerubianZiggurat.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNerubianZiggurat.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.65,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1213",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_3164",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Nerubian |cffffcc00W|rall"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10093",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic wall to protect you from the Ancient. Can be upgraded.|n|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h037",
+  "_base": "hwtw",
+  "_name": "Nerubian Wall"
+}

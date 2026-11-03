@@ -1,0 +1,89 @@
+{
+  "OldId": 2004121455,
+  "NewId": 875638895,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "o00Q",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 99,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    }
+  ],
+  "_rawcode": "o014",
+  "_base": "owtw",
+  "_name": "Frost Tower"
+}

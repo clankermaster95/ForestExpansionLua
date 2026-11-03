@@ -1,0 +1,25 @@
+{
+  "FormatVersion": "v12",
+  "Tileset": "SunkenRuins",
+  "IsCustomTileset": true,
+  "TerrainTypes": [
+    "Z_Dirt",
+    "Z_RoughDirt",
+    "Z_GrassyDirt",
+    "Z_SmallBricks",
+    "Z_Sand",
+    "Z_LargeBricks",
+    "Z_RoundTiles",
+    "Z_Grass",
+    "Z_DarkGrass",
+    "C_Leaves"
+  ],
+  "CliffTypes": [
+    "Z_Dirt",
+    "Z_LargeBricks"
+  ],
+  "Width": 129,
+  "Height": 129,
+  "Left": -8192,
+  "Bottom": -8704
+}

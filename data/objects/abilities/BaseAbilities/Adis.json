@@ -1,0 +1,30 @@
+{
+  "OldId": 1936286785,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 1936286785,
+      "_field": "aran"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1200,
+      "SanityCheck": 1936286785,
+      "_field": "aare"
+    }
+  ],
+  "_rawcode": "Adis",
+  "_base": "Adis",
+  "_name": "Adis"
+}

@@ -1,0 +1,502 @@
+{
+  "OldId": 1851877458,
+  "NewId": 1244737618,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2286",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Iron Hoove"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2288",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Iron Hoove"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2289",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Iron Hoove"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2290",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Iron Hoove"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2291",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Iron Hoove"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2292",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Iron Hoove"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2293",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Iron Hoove"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2294",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Iron Hoove"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2295",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Iron Hoove"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2296",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Iron Hoove"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8101",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Iron Hoove - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8102",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Iron Hoove - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8103",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Iron Hoove - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8104",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Iron Hoove - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8105",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Iron Hoove - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8106",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Iron Hoove - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8107",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Iron Hoove - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8108",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Iron Hoove - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8109",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Iron Hoove - [55.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8110",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Iron Hoove - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6514",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your main centaur by 5 and duration of sprint by 1s"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6515",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your main centaur by 5 and duration of sprint by 1s"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6516",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your main centaur by 5 and duration of sprint by 1s"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6519",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your main centaur by 5 and duration of sprint by 1s"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6520",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your main centaur by 5 and duration of sprint by 1s"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6524",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your main centaur by 5 and duration of sprint by 1s"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6525",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your main centaur by 5 and duration of sprint by 1s"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6527",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your main centaur by 5 and duration of sprint by 1s"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6529",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your main centaur by 5 and duration of sprint by 1s"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6531",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of your main centaur by 5 and duration of sprint by 1s"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5341",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5342",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5345",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5348",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5356",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5357",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5358",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5359",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5360",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6244",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R01J",
+  "_base": "Rhan",
+  "_name": "Iron Hoove"
+}

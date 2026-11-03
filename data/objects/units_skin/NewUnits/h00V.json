@@ -1,0 +1,71 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1445998696,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_464",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Strong Barricade"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\LordaeronSummer\\Terrain\\Barricade\\Barricade1.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2658",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "S|cffffcc00t|rrong Barricade"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9249",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Strong wall.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h00V",
+  "_base": "hwtw",
+  "_name": "Strong Barricade"
+}

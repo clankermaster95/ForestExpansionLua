@@ -1,0 +1,100 @@
+{
+  "OldId": 1818379585,
+  "NewId": 1227960385,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3723",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Blink"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2330",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Allows you to teleport a short distance."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4406",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Blink"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_518",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Teleport a short distance. 20 second cooldown."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4746",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Abomination)"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1596",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1770",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A01I",
+  "_base": "AEbl",
+  "_name": "A01I"
+}

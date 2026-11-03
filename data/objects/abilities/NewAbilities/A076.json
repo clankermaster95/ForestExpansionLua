@@ -1,0 +1,21 @@
+{
+  "OldId": 1970030913,
+  "NewId": 909586497,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1836411977,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "Ilum"
+    }
+  ],
+  "_rawcode": "A076",
+  "_base": "AIlu",
+  "_name": "Dark Conversion"
+}

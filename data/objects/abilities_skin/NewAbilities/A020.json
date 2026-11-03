@@ -1,0 +1,52 @@
+{
+  "OldId": 1937198913,
+  "NewId": 808595521,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1620",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Stomp"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1661",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5235",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rtomp"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3054",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slam the ground, stunning everything in a 500 AoE for 2 seconds and dealing 400 damage. 20 second cooldown."
+    }
+  ],
+  "_rawcode": "A020",
+  "_base": "AOws",
+  "_name": "Stomp"
+}

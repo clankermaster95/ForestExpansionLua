@@ -1,0 +1,129 @@
+{
+  "OldId": 1852200257,
+  "NewId": 1496330305,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_946",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Requiem"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\RaiseSkeletonWarrior\\RaiseSkeleton.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNInvisibility.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNInvisibility.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_947",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Requiem"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_948",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Blasts an enemy with the vengance of lost souls."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_949",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Blasts an enemy with the vengance of lost souls. 100 Damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_950",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Blasts an enemy with the vengance of lost souls. 140 Damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_951",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Blasts an enemy with the vengance of lost souls. 160 Damage."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_959",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Requiem [N]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_960",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Requiem [N]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_961",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Requiem [N]"
+    }
+  ],
+  "_rawcode": "A00Y",
+  "_base": "AUfn",
+  "_name": "Requiem"
+}

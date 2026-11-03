@@ -1,0 +1,57 @@
+{
+  "OldId": 1868918895,
+  "NewId": 909258863,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_735",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff8F60cARatling Stalker|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNratling.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\ratling_hero.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3165",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter|n\n|cff8080FFDifficulty|r: |cff00Ff00Easy|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.75|n\n|cffC0C0C0Stalker is a very straight-forward carry hero, with lots of slows and controls. Similar to worgen, he is very hard to catch, but has even more damage and ranged attack. However, unlike worgen, he has to manage his workers, which can feed a lot. On top of that, he also has long cooldowns, which may result in him not having enough fire power when its needed the most, in case they are used carelessly.|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_933",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff8F60cARatling Stalker|r"
+    }
+  ],
+  "_rawcode": "o026",
+  "_base": "opeo",
+  "_name": "|cff8F60cARatling Stalker|r"
+}

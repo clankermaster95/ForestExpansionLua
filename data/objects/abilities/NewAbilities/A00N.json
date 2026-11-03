@@ -1,0 +1,57 @@
+{
+  "OldId": 829448513,
+  "NewId": 1311780929,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R005",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 845967425,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "Apl2"
+    },
+    {
+      "Id": 862744641,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "Apl3"
+    },
+    {
+      "Id": 829190209,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "Apl1"
+    }
+  ],
+  "_rawcode": "A00N",
+  "_base": "Aap1",
+  "_name": "Poison Aura"
+}

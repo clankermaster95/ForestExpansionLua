@@ -1,0 +1,42 @@
+{
+  "OldId": 1819500866,
+  "NewId": 825503810,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_9733",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Dusted"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_9735",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit gets slowed by being invisible during dust effect. Its MS is temporarily decreased."
+    }
+  ],
+  "_rawcode": "B041",
+  "_base": "Basl",
+  "_name": "B041"
+}

@@ -1,0 +1,207 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1496461394,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3610",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Empowered Water"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3612",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Empowered Water"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3613",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Empowered Water"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3614",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Empowered Water"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3615",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Empowered Water"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8951",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Empowered Water - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8960",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Empowered Water - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8961",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Empowered Water - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8962",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Empowered Water - [35.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3620",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of your towers 50."
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8963",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Empowered Water - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3622",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of your towers 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3623",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of your towers 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3624",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of your towers 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3625",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of your towers 50."
+    }
+  ],
+  "_rawcode": "R02Y",
+  "_base": "Rhme",
+  "_name": "Empowered Water"
+}

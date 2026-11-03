@@ -1,0 +1,512 @@
+{
+  "OldId": 1701668946,
+  "NewId": 959852626,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4535",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Combat Mechanisms"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4536",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Combat Mechanisms"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4537",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Combat Mechanisms"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4538",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Combat Mechanisms"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4539",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Combat Mechanisms"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4540",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Combat Mechanisms"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4541",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Combat Mechanisms"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4542",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Combat Mechanisms"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4543",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Combat Mechanisms"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10613",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Combat Mechanisms - [5.0]"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4544",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Combat Mechanisms"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10614",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Combat Mechanisms - [10.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10615",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Combat Mechanisms - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10616",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Combat Mechanisms - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10617",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Combat Mechanisms - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10618",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Combat Mechanisms - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10619",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Combat Mechanisms - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10620",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Combat Mechanisms - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10621",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Combat Mechanisms - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10623",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Combat Mechanisms - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4555",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of the Arcane Golem by 12%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4556",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of the Arcane Golem by 12%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4557",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of the Arcane Golem by 12%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4558",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of the Arcane Golem by 12%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4559",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of the Arcane Golem by 12%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4560",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of the Arcane Golem by 12%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4561",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of the Arcane Golem by 12%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4562",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of the Arcane Golem by 12%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4563",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of the Arcane Golem by 12%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4564",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of the Arcane Golem by 12%."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5450",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5451",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5651",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5652",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6083",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6084",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6215",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7215",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7216",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7512",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4575",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "Arcane Golem"
+    }
+  ],
+  "_rawcode": "R069",
+  "_base": "Rhme",
+  "_name": "Combat Mechanisms"
+}

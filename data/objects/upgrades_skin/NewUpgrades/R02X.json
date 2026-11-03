@@ -1,0 +1,227 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1479684178,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3594",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Strengthened Fissure"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSmash.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSmash.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSmash.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSmash.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSmash.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3596",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Strengthened Fissure"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3597",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Strengthened Fissure"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3598",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Strengthened Fissure"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3599",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Strengthened Fissure"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8940",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Strengthened Fissure - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8941",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Strengthened Fissure - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8942",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Strengthened Fissure - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8943",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Strengthened Fissure - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8944",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Strengthened Fissure - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3605",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your walls by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3606",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your walls by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3607",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your walls by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3608",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your walls by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3609",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your walls by 50."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5940",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5946",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "R02X",
+  "_base": "Rhme",
+  "_name": "Strengthened Fissure"
+}

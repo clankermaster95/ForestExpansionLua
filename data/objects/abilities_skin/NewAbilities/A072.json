@@ -1,0 +1,89 @@
+{
+  "OldId": 1719169089,
+  "NewId": 842477633,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7137",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Cannon Barrage"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Weapons\\CannonTowerMissile\\CannonTowerMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7138",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Cannon Barrage"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7139",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Cannon balls come down and strike any hostiles in the area, dealing 100 damage per second."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7380",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Cannon Barrage"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7381",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Cannon balls come down and strike any hostiles in the area, dealing 100 damage per second."
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCannonTower.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCannonTower.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A072",
+  "_base": "Apxf",
+  "_name": "Cannon Barrage"
+}

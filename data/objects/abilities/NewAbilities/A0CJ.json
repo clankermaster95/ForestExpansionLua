@@ -1,0 +1,75 @@
+{
+  "OldId": 2038064705,
+  "NewId": 1245917249,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R06J",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 846163010,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Blo2"
+    },
+    {
+      "Id": 829385794,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Blo1"
+    },
+    {
+      "Id": 1684562785,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "achd"
+    }
+  ],
+  "_rawcode": "A0CJ",
+  "_base": "Afzy",
+  "_name": "Bullet Time!"
+}

@@ -1,0 +1,98 @@
+{
+  "OldId": 1702314817,
+  "NewId": 1212493889,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8939",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Shinigami"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8945",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Shinigami"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9145",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Cultist attempts to summon a Shinigami, managing to partially bring it's soul into this realm.|n|nLasts for 30 seconds, cooldown is 90 seconds.|n|n|nHarvests gold, has a lower sight radius.|n|n|cfffdca00Health:|r 200; 2.5/s (Mechanical)|n|cfffdca00Armor:|r 1 (Fortified)|n|cfffdca00Attack Cooldown:|r 4|n|cfffdca00Movement Speed:|r 200|n|cffff0000Feed Value:|r |cffffdd003|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3187",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1802728801,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "h06E",
+      "SanityCheck": 0,
+      "_field": "ausk"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGargoyle.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\FlameStrike\\FlameStrikeTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8947",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Cultist) - Macko"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A0EH",
+  "_base": "ACwe",
+  "_name": "Summon Shinigami"
+}

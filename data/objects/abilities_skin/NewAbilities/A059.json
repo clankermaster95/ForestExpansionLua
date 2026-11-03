@@ -1,0 +1,106 @@
+{
+  "OldId": 1953713729,
+  "NewId": 959787073,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5108",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "March of the Dead"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimateDead.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimateDead.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "AcolyteMining",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 1818649953,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "BanishLoop",
+      "SanityCheck": 0,
+      "_field": "aefl"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2239",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5109",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Ma|cffffcc00r|rch of the Dead"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "units\\creeps\\Zombie\\Zombie.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Objects\\Spawnmodels\\Human\\HumanLargeDeathExplode\\HumanLargeDeathExplode.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4474",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The Necromancer summons dozens of zombies to swarm a nearby area, causing massive damage. Each zombie deals 20 damage on impact. Lasts for 10 seconds. 35 second cooldown."
+    }
+  ],
+  "_rawcode": "A059",
+  "_base": "ANst",
+  "_name": "March of the Dead"
+}

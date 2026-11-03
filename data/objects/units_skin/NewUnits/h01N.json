@@ -1,0 +1,114 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1311846504,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1140",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Spirit Tree: Speed"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\nightelf\\AncientOfWar\\AncientOfWar.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "ESMB",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAncientOfTheEarth.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1819501173,
+      "Type": "String",
+      "Value": "NightElfGrowingLoop",
+      "SanityCheck": 0,
+      "_field": "ubsl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "AncientProtector",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_8189",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Grow |cffffcc0dS|rpirit Tree: Speed"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9915",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An advanced building that allows you to research heavy upgrades and allows you to build special towers.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_233",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h01N",
+  "_base": "hwtw",
+  "_name": "Spirit Tree: Speed"
+}

@@ -1,0 +1,30 @@
+{
+  "OldId": 863135809,
+  "NewId": 926363713,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829579592,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "Har1"
+    },
+    {
+      "Id": 846356808,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "Har2"
+    }
+  ],
+  "_rawcode": "A077",
+  "_base": "Ahr3",
+  "_name": "A077"
+}

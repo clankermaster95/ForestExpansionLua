@@ -1,0 +1,31 @@
+{
+  "OldId": 1852393793,
+  "NewId": 825372737,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1673",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Lava Warrior"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    }
+  ],
+  "_rawcode": "A021",
+  "_base": "AIin",
+  "_name": "Summon Lava Warrior"
+}

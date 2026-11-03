@@ -1,0 +1,199 @@
+{
+  "OldId": 1651001409,
+  "NewId": 1446391873,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7048",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Resolve"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\Resurrect\\ResurrectTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2548",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7288",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cffe99b9bResolve|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7289",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cffd39090A beam of light heals you for |r250 (+50 * level) |cffd39090hitpoints and has a cooldown of|r 3 seconds."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7290",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffe99b9bResolve|r |cffca6f90[Level 1]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7296",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffe99b9bResolve|r |cffca6f90[Level 2]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7297",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffe99b9bResolve|r |cffca6f90[Level 3]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7299",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffe99b9bResolve|r |cffca6f90[Level 4]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7300",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffe99b9bResolve|r |cffca6f90[Level 5]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7301",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffd39090A beam of light heals you for |r250 |cffd39090hitpoints and has a cooldown of|r 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7302",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffd39090A beam of light heals you for |r300 |cffd39090hitpoints and has a cooldown of|r 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7303",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffd39090A beam of light heals you for |r350 |cffd39090hitpoints and has a cooldown of|r 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7306",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffd39090A beam of light heals you for |r400 |cffd39090hitpoints and has a cooldown of|r 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7307",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffd39090A beam of light heals you for |r450 |cffd39090hitpoints and has a cooldown of|r 3 seconds."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1987",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Ancient of Light)"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2565",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    }
+  ],
+  "_rawcode": "A06V",
+  "_base": "AHhb",
+  "_name": "Resolve"
+}

@@ -1,0 +1,51 @@
+{
+  "OldId": 2053260097,
+  "NewId": 1296183361,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5916",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Calls down <A0BM,DataA1> freezing ice shard waves; each wave deals <A0BM,DataB1> damage to units in area.|n|cff00ffffDoes not deal damage to allied units and structures.|nDeals 50% damage to enemy buildings|r"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_299",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4814",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Elf Engineer)"
+    }
+  ],
+  "_rawcode": "A0BM",
+  "_base": "ACbz",
+  "_name": "A0BM"
+}

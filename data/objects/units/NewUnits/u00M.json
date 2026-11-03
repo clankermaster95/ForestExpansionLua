@@ -1,0 +1,54 @@
+{
+  "OldId": 1668246645,
+  "NewId": 1295003765,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "air,debris,ground,item,structure",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0EQ,Aloc",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1902338421,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uacq"
+    }
+  ],
+  "_rawcode": "u00M",
+  "_base": "uloc",
+  "_name": "Wind Trail"
+}

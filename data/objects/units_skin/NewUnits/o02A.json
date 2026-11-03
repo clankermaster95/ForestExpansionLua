@@ -1,0 +1,35 @@
+{
+  "OldId": 1868918895,
+  "NewId": 1093808239,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4937",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Dmg Test Dummy"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_4938",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Test) - Macko"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHex.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    }
+  ],
+  "_rawcode": "o02A",
+  "_base": "opeo",
+  "_name": "Dmg Test Dummy"
+}

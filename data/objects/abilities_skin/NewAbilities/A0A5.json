@@ -1,0 +1,96 @@
+{
+  "OldId": 1718772289,
+  "NewId": 893464641,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4286",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Embrace Magic"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNArcaneEye.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4295",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Embrace Magic"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4296",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Become a Shadow Dancer with strong arcane abilities."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aut1"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "auu1"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "auhk"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ahky"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNArcaneEye.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A0A5",
+  "_base": "Abrf",
+  "_name": "Embrace Magic"
+}

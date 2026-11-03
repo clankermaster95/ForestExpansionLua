@@ -1,0 +1,71 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1379283026,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6360",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Poisoned Bullets"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10785",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Poisoned Bullets - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6368",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Makes your auto attacks apply a stackable poison."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNSlowSpellGreen.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6099",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Rat)"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6371",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "U"
+    }
+  ],
+  "_rawcode": "R06R",
+  "_base": "Rhme",
+  "_name": "Poisoned Bullets"
+}

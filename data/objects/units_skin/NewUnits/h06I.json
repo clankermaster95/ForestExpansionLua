@@ -1,0 +1,69 @@
+{
+  "OldId": 1869571688,
+  "NewId": 1228288104,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1496",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Worgen Lumber Counter"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 2020111221,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ushx"
+    },
+    {
+      "Id": 2036888437,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ushy"
+    },
+    {
+      "Id": 1751675765,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ushh"
+    },
+    {
+      "Id": 2003334005,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ushw"
+    },
+    {
+      "Id": 1969779573,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushu"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": " .mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    }
+  ],
+  "_rawcode": "h06I",
+  "_base": "hfoo",
+  "_name": "Worgen Lumber Counter"
+}

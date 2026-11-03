@@ -1,0 +1,42 @@
+{
+  "OldId": 1819437121,
+  "NewId": 1228222529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5310",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Pri Ooze)"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6095",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2826",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Return the harvested lumber to a nearby shelter."
+    }
+  ],
+  "_rawcode": "A05I",
+  "_base": "Ahrl",
+  "_name": "A05I"
+}

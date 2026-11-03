@@ -1,0 +1,134 @@
+{
+  "OldId": 1902464833,
+  "NewId": 1279471681,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6226",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "V4"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6170",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sticky Glue"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6172",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Sticky Glue"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6232",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Spawns a sticky puddle, slowing down enemy units that get into it by 40%.|nDuration: 6 seconds|nCooldown: 40 seconds|nCast range: 600"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\SpiderToxin.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNgreenblood.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\WidowPoison.mdx",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1667329377,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0.2,
+      "SanityCheck": 0,
+      "_field": "amac"
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "channel,spell,looping",
+      "SanityCheck": 0,
+      "_field": "aani"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\SpiderToxin.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2496",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "A0CL",
+  "_base": "AOeq",
+  "_name": "Sticky Glue"
+}

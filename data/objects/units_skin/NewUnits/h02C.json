@@ -1,0 +1,93 @@
+{
+  "OldId": 1634493032,
+  "NewId": 1127362664,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_8182",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ancient of Corruption"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\demon\\CorruptedTreeofLife\\CorruptedTreeofLife.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "ESMA",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_8183",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00A|rncient of Corruption"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9979",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A very powerful building that sells items, has upgrades, and allows you to build better walls.|n|n|cfffdca00Health:|r 1200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1479",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "AzureDragon",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1885430133,
+      "Type": "String",
+      "Value": "large",
+      "SanityCheck": 0,
+      "_field": "uaap"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h02C",
+  "_base": "hbla",
+  "_name": "Ancient of Corruption"
+}

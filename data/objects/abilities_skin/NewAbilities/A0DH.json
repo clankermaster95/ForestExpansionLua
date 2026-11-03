@@ -1,0 +1,203 @@
+{
+  "OldId": 1635141953,
+  "NewId": 1212428353,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4788",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Devour Flesh"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNVampiricAura.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNVampiricAura.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\VampiricAura\\VampiricAura.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 811693153,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "ata0"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4926",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "OLD Abomination"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2905",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4790",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffa62c2cDevour Flesh|r |cffbc5858[Passive]|r |cffc8906f[Level 1]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4791",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffa62c2cDevour Flesh|r |cffbc5858[Passive]|r |cffc8906f[Level 2]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4793",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffa62c2cDevour Flesh|r |cffbc5858[Passive]|r |cffc8906f[Level 3]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4809",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffeb4242Abomination consumes flesh of it's foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 5% |cffeb4242of it's current|r damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4810",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffeb4242Abomination consumes flesh of it's foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 10% |cffeb4242of it's current|r damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4811",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffeb4242Abomination consumes flesh of it's foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 15% |cffeb4242of it's current|r damage."
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4812",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffa62c2cDevour Flesh|r |cffbc5858[Passive]|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4813",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cffeb4242Abomination consumes flesh of it's foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 5/10/15% |cffeb4242of it's current|r damage."
+    }
+  ],
+  "_rawcode": "A0DH",
+  "_base": "AIva",
+  "_name": "Devour Flesh"
+}

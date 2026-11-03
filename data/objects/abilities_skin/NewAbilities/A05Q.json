@@ -1,0 +1,267 @@
+{
+  "OldId": 1936543297,
+  "NewId": 1362440257,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNThornShield.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNThornShield.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNThornyShieldOff.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "RainOfFireWave",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5676",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5684",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5685",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5456",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6328",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Activate Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6329",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Activate Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6330",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Activate Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6331",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Activate Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6332",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Activate Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7000",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activates a shield that absorbs 1 damage per 1.7 points of mana."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7001",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activates a shield that absorbs 1 damage per 1.4 points of mana."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7002",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activates a shield that absorbs 1 damage per 1.1 points of mana."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7003",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activates a shield that absorbs 1 damage per 0.8 points of mana."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6337",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6338",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6339",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6340",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6341",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Clay Shiel|cffffcc00d|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4417",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Creates a shield that absorbs damage by using the Ancient's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Absorbs 5 damage per point of mana.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8950",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Creates a shield that absorbs damage by using the Ancient's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Absorbs 5 damage per point of mana.|r"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5453",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Clay Shield"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    }
+  ],
+  "_rawcode": "A05Q",
+  "_base": "ANms",
+  "_name": "Clay Shield"
+}

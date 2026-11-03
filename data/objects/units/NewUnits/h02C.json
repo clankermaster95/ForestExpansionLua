@@ -1,0 +1,110 @@
+{
+  "OldId": 1634493032,
+  "NewId": 1127362664,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 90,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 5000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h01D,h01A,h01N",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R019,R01A",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1768256373,
+      "Type": "String",
+      "Value": "I00K,I026,I00O",
+      "SanityCheck": 0,
+      "_field": "usei"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Aall,Apit",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 900,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    }
+  ],
+  "_rawcode": "h02C",
+  "_base": "hbla",
+  "_name": "Ancient of Corruption"
+}

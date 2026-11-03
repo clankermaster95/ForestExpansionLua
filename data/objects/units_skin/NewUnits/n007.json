@@ -1,0 +1,71 @@
+{
+  "OldId": 1818388334,
+  "NewId": 925905006,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2378",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ogre-Rider"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.95,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2379",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Call for Ogre-Rider"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10066",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Send a message through the teleporter for an Ogre-Rider.|n|n|cfffdca00Health:|r 1500; 5/s|n|cfffdca00Armor:|r 10 (Heavy)|n|cfffdca00Attack:|r 30 (Chaos)|n|cfffdca00Attack Range:|r 150|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Movement Speed:|r 350|n|cffff0000Feed Value:|r |cffffdd00100|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHeroAlchemist.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Creeps\\HeroGoblinAlchemist\\HeroGoblinAlchemist.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "n007",
+  "_base": "ngbl",
+  "_name": "Ogre-Rider"
+}

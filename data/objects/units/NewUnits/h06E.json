@@ -1,0 +1,264 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1161179240,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1769300597,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ubui"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 2.5,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1634562933,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "usma"
+    },
+    {
+      "Id": 1735553909,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "usrg"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "invulnerable,structure",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1853190773,
+      "Type": "Real",
+      "Value": 210,
+      "SanityCheck": 0,
+      "_field": "urun"
+    },
+    {
+      "Id": 1818326901,
+      "Type": "Real",
+      "Value": 210,
+      "SanityCheck": 0,
+      "_field": "uwal"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "fort",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1886741621,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udup"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "undead",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1852137845,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "uaen"
+    },
+    {
+      "Id": 1949393269,
+      "Type": "String",
+      "Value": "chaos",
+      "SanityCheck": 0,
+      "_field": "ua1t"
+    },
+    {
+      "Id": 1868788853,
+      "Type": "Int",
+      "Value": 24,
+      "SanityCheck": 0,
+      "_field": "utco"
+    },
+    {
+      "Id": 829645685,
+      "Type": "String",
+      "Value": "MetalMediumBash",
+      "SanityCheck": 0,
+      "_field": "ucs1"
+    },
+    {
+      "Id": 1999724917,
+      "Type": "String",
+      "Value": "missile",
+      "SanityCheck": 0,
+      "_field": "ua1w"
+    },
+    {
+      "Id": 1915838837,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "ua1r"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1953918325,
+      "Type": "String",
+      "Value": "hover",
+      "SanityCheck": 0,
+      "_field": "umvt"
+    },
+    {
+      "Id": 1752591733,
+      "Type": "Unreal",
+      "Value": 160,
+      "SanityCheck": 0,
+      "_field": "umvh"
+    },
+    {
+      "Id": 1918989429,
+      "Type": "String",
+      "Value": "mechanical",
+      "SanityCheck": 0,
+      "_field": "utar"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "udef"
+    }
+  ],
+  "_rawcode": "h06E",
+  "_base": "hpea",
+  "_name": "Partial Shinigami Manifestation"
+}

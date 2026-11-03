@@ -1,0 +1,57 @@
+{
+  "OldId": 1936876354,
+  "NewId": 1429286978,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6015",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Blinding Shade"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6081",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Blinding Shade"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6092",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is is blinded by a shade causing attacks to miss."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "war3mapImported\\BlackCloudOfFog.mdx",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTN_cr_Nightmare Surge.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1734962278,
+      "Type": "String",
+      "Value": "AFOD",
+      "SanityCheck": 0,
+      "_field": "flig"
+    }
+  ],
+  "_rawcode": "B01U",
+  "_base": "Bcrs",
+  "_name": "Blinding Shade"
+}

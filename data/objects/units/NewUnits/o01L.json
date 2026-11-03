@@ -1,0 +1,166 @@
+{
+  "OldId": 1835561839,
+  "NewId": 1278292079,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A05B",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 315,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 89,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 2.5,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 2050056565,
+      "Type": "Int",
+      "Value": 850,
+      "SanityCheck": 0,
+      "_field": "ua1z"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "small",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1886741621,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udup"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 14,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1768975733,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "umpi"
+    },
+    {
+      "Id": 1836084597,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "umpm"
+    },
+    {
+      "Id": 1919970677,
+      "Type": "Unreal",
+      "Value": 2.5,
+      "SanityCheck": 0,
+      "_field": "umpr"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 1400,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1633772661,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "udaa"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    }
+  ],
+  "_rawcode": "o01L",
+  "_base": "oshm",
+  "_name": "Deathly Necromancer"
+}

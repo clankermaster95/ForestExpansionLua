@@ -1,0 +1,65 @@
+{
+  "OldId": 1970431855,
+  "NewId": 1244737647,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4760",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Razormane Brute"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\RazorMane\\RazorMane.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRazorManeChief.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Centaur",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1111",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4761",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Razormane |cffffcc00B|rrute"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10184",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "The brute is the backbone of a Razormane army. They excell at tanking and dealing heavy melee damage. Can be upgraded.|n|n|cfffdca00Health:|r 800; 1/s|n|cfffdca00Armor:|r 10 (Medium)|n|cfffdca00Attack:|r 35 (Piercing)|n|cfffdca00Attack Range:|r 100|n|cfffdca00Attack Cooldown:|r 2|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    }
+  ],
+  "_rawcode": "o01J",
+  "_base": "ogru",
+  "_name": "Razormane Brute"
+}

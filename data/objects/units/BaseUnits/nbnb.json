@@ -1,0 +1,47 @@
+{
+  "OldId": 1651401326,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Abu5,Amim",
+      "SanityCheck": 1651401326,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 16,
+      "SanityCheck": 1651401326,
+      "_field": "ucol"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 1651401326,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 1651401326,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 1651401326,
+      "_field": "ubsi"
+    }
+  ],
+  "_rawcode": "nbnb",
+  "_base": "nbnb",
+  "_name": "Burrowed Nerubian Harvester"
+}

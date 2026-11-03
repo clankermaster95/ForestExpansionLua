@@ -1,0 +1,116 @@
+{
+  "OldId": 1634947137,
+  "NewId": 1128542273,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2727",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Panic"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2764",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- BH Silvester Macko"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2786",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Panic"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2790",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Silvester moves 50% faster for 12 seconds.|n|nCooldown - 42 seconds."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHex.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3259",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1667326817,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acac"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Objects\\RandomObject\\RandomObject",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1885430625,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "head",
+      "SanityCheck": 0,
+      "_field": "acap"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A0DC",
+  "_base": "APsa",
+  "_name": "Panic"
+}

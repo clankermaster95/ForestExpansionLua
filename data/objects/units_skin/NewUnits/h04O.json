@@ -1,0 +1,100 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1328820328,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7523",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Spirit Shrine"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\nightelf\\ChimaeraRoost\\ChimaeraRoost.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNChimaeraRoost.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7524",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Spi|cffffcc00r|rit Shrine"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_212",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10215",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic structure that allows you to research simple upgrades and begin your spellcasting tech. |n|cff7F7F7FShrines are abundant amongst Wildkin as their powers grow stronger.|r|n|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h04O",
+  "_base": "hwtw",
+  "_name": "Spirit Shrine"
+}

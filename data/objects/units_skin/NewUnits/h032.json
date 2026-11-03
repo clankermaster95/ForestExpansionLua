@@ -1,0 +1,86 @@
+{
+  "OldId": 1634493032,
+  "NewId": 842215528,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2117",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Centaur Base"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNcentaurbase.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\CentaurTent Camp2.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Beastiary",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2637",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Centaur |cffffcc00B|rase"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10088",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "The Arsenal for all centaur's abilities. Also serves as a shop|n|n|cfffdca00Health:|r 450|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_471",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h032",
+  "_base": "hbla",
+  "_name": "Centaur Base"
+}

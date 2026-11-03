@@ -1,0 +1,502 @@
+{
+  "OldId": 1701668946,
+  "NewId": 842018898,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_319",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flaming Boulders"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4580",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6158",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flaming Boulders - [5.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_347",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4581",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4582",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4832",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5126",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5133",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5308",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5373",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5374",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5375",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8525",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flaming Boulders"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8531",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flaming Boulders"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8532",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flaming Boulders"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8533",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flaming Boulders"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8534",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flaming Boulders"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8535",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flaming Boulders"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8536",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flaming Boulders"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8537",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flaming Boulders"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8538",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flaming Boulders"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6242",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flaming Boulders - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6241",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flaming Boulders - [10.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6243",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flaming Boulders - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6250",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flaming Boulders - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6467",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flaming Boulders - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6547",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flaming Boulders - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6548",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flaming Boulders - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6549",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flaming Boulders - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6550",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flaming Boulders - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8549",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8550",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8551",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8552",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8553",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8554",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8555",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8556",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8557",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+    }
+  ],
+  "_rawcode": "R002",
+  "_base": "Rhme",
+  "_name": "Flaming Boulders"
+}

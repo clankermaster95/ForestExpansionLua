@@ -1,0 +1,89 @@
+{
+  "OldId": 1919116654,
+  "NewId": 858861678,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0D2,Aloc,Avul",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1633772661,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "udaa"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "divine",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1936289141,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umis"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    },
+    {
+      "Id": 1953918325,
+      "Type": "String",
+      "Value": "fly",
+      "SanityCheck": 0,
+      "_field": "umvt"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    }
+  ],
+  "_rawcode": "n013",
+  "_base": "necr",
+  "_name": "Flag Aura Dummy"
+}

@@ -1,0 +1,61 @@
+{
+  "OldId": 1701670738,
+  "NewId": 1462841426,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2789",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ion Armor"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8340",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ion Armor - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2791",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to cast Ion Armor."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2784",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R01W",
+  "_base": "Rome",
+  "_name": "Ion Armor"
+}

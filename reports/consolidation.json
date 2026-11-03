@@ -1,0 +1,3288 @@
+{
+  "backup": "backups/20261102-205055-u7thfrhu",
+  "source_before": 375,
+  "source_after": 60,
+  "sections": [
+    {
+      "id": 1,
+      "name": "Damage_Engine_Config",
+      "from": "src/combat/damage/001_Damage_Engine_Config.lua",
+      "to": "src/combat/damage.lua",
+      "before_sha256": "995821d104807d7c995444f15d42e3a0307aa3c45b692d6595afc0f762231cae",
+      "body_sha256": "995821d104807d7c995444f15d42e3a0307aa3c45b692d6595afc0f762231cae"
+    },
+    {
+      "id": 2,
+      "name": "Damage_Engine",
+      "from": "src/combat/damage/002_Damage_Engine.lua",
+      "to": "src/combat/damage.lua",
+      "before_sha256": "4366ed01d4c72de254e8d1d15f06d267258e52edee3afd01c88694b599ed8d0f",
+      "body_sha256": "4366ed01d4c72de254e8d1d15f06d267258e52edee3afd01c88694b599ed8d0f"
+    },
+    {
+      "id": 3,
+      "name": "TSEConfig",
+      "from": "src/effects/timed/003_TSEConfig.lua",
+      "to": "src/effects/timed.lua",
+      "before_sha256": "51d1a74aab2c041ccfaa7058048ab984dc7e6598b3b8c50ac7e1a20af6c10885",
+      "body_sha256": "51d1a74aab2c041ccfaa7058048ab984dc7e6598b3b8c50ac7e1a20af6c10885"
+    },
+    {
+      "id": 4,
+      "name": "TSERegister",
+      "from": "src/effects/timed/004_TSERegister.lua",
+      "to": "src/effects/timed.lua",
+      "before_sha256": "f674a5b0bf9a45ee9750c2e2d1bd92a7edcd42a8c4157fc428aa318811b39bee",
+      "body_sha256": "f674a5b0bf9a45ee9750c2e2d1bd92a7edcd42a8c4157fc428aa318811b39bee"
+    },
+    {
+      "id": 5,
+      "name": "TSELoop",
+      "from": "src/effects/timed/005_TSELoop.lua",
+      "to": "src/effects/timed.lua",
+      "before_sha256": "bf819b2b6efd6c91b81accc2c2f57008f1317ebde54a5a0573639ce5e05e5f14",
+      "body_sha256": "bf819b2b6efd6c91b81accc2c2f57008f1317ebde54a5a0573639ce5e05e5f14"
+    },
+    {
+      "id": 6,
+      "name": "TSEEmptyEvent",
+      "from": "src/effects/timed/006_TSEEmptyEvent.lua",
+      "to": "src/effects/timed.lua",
+      "before_sha256": "b7266d684629770a39af97097dad14c7c7f71de1dd9e6769fff51c333a97ccd3",
+      "body_sha256": "b7266d684629770a39af97097dad14c7c7f71de1dd9e6769fff51c333a97ccd3"
+    },
+    {
+      "id": 7,
+      "name": "Map_Ini_Testing",
+      "from": "src/game/clock/007_Map_Ini_Testing.lua",
+      "to": "src/game/clock.lua",
+      "before_sha256": "08f55e7628ea508e4846db33eedaba43a40dc1af7eb042a6fd4337d08596a0e7",
+      "body_sha256": "08f55e7628ea508e4846db33eedaba43a40dc1af7eb042a6fd4337d08596a0e7"
+    },
+    {
+      "id": 8,
+      "name": "Counter_Testing",
+      "from": "src/game/clock/008_Counter_Testing.lua",
+      "to": "src/game/clock.lua",
+      "before_sha256": "a76f9c0cebd964a16e18221ad6ad43c8b6fd81ff411ba22f663b548c9b149576",
+      "body_sha256": "a76f9c0cebd964a16e18221ad6ad43c8b6fd81ff411ba22f663b548c9b149576"
+    },
+    {
+      "id": 9,
+      "name": "Start_Counter",
+      "from": "src/game/clock/009_Start_Counter.lua",
+      "to": "src/game/clock.lua",
+      "before_sha256": "a3315bbda440e52a260ad9e9dd80b5f91af2537e5f9413ed2a6f7ad5b5a3dc40",
+      "body_sha256": "a3315bbda440e52a260ad9e9dd80b5f91af2537e5f9413ed2a6f7ad5b5a3dc40"
+    },
+    {
+      "id": 10,
+      "name": "Counter",
+      "from": "src/game/clock/010_Counter.lua",
+      "to": "src/game/clock.lua",
+      "before_sha256": "39b335c52b7e7c2f22c8ab47e8cc203805c142fa62e4a61ee7daa18aac636484",
+      "body_sha256": "39b335c52b7e7c2f22c8ab47e8cc203805c142fa62e4a61ee7daa18aac636484"
+    },
+    {
+      "id": 11,
+      "name": "Tradeoff_Detection",
+      "from": "src/commands/trade/011_Tradeoff_Detection.lua",
+      "to": "src/commands/trade.lua",
+      "before_sha256": "74a57cbc4bf362cd07b2ddaea9c8ffc5679a87db0037ca956154d984421ff1be",
+      "body_sha256": "74a57cbc4bf362cd07b2ddaea9c8ffc5679a87db0037ca956154d984421ff1be"
+    },
+    {
+      "id": 12,
+      "name": "TreeChopper_Detection",
+      "from": "src/game/tree_chopper/012_TreeChopper_Detection.lua",
+      "to": "src/game/tree_chopper.lua",
+      "before_sha256": "909233649b66d999bb15f818547638c431ef42cc6eaf43daab18fb1230639809",
+      "body_sha256": "909233649b66d999bb15f818547638c431ef42cc6eaf43daab18fb1230639809"
+    },
+    {
+      "id": 13,
+      "name": "Takeover",
+      "from": "src/players/013_Takeover.lua",
+      "to": "src/players/participation.lua",
+      "before_sha256": "db0c8c950504f03d7fb9a206d57dd951fa8eb0dc36d704062abc5e151bdda266",
+      "body_sha256": "db0c8c950504f03d7fb9a206d57dd951fa8eb0dc36d704062abc5e151bdda266"
+    },
+    {
+      "id": 14,
+      "name": "Enable_Overdrive",
+      "from": "src/game/overdrive/014_Enable_Overdrive.lua",
+      "to": "src/game/overdrive.lua",
+      "before_sha256": "e2eca5d6b2fa78f8f5e05ccf80bd77fb2cdd5d38cee74f4d57a0927dae371cd7",
+      "body_sha256": "e2eca5d6b2fa78f8f5e05ccf80bd77fb2cdd5d38cee74f4d57a0927dae371cd7"
+    },
+    {
+      "id": 15,
+      "name": "Disable_Overdrive",
+      "from": "src/game/overdrive/015_Disable_Overdrive.lua",
+      "to": "src/game/overdrive.lua",
+      "before_sha256": "188662a3fcef393a7e863ae0c55a23779d24ea1ddcdabff291cb6d6ef6fd9acc",
+      "body_sha256": "188662a3fcef393a7e863ae0c55a23779d24ea1ddcdabff291cb6d6ef6fd9acc"
+    },
+    {
+      "id": 16,
+      "name": "Death",
+      "from": "src/game/overdrive/016_Death.lua",
+      "to": "src/game/overdrive.lua",
+      "before_sha256": "03ce48412b228fbcb8b7c922b1d029c1d26c1e1229f3791747e5f64b3cc4a19a",
+      "body_sha256": "03ce48412b228fbcb8b7c922b1d029c1d26c1e1229f3791747e5f64b3cc4a19a"
+    },
+    {
+      "id": 17,
+      "name": "Hardmode",
+      "from": "src/commands/017_Hardmode.lua",
+      "to": "src/commands/player.lua",
+      "before_sha256": "ff2a8a29f955bfd0b4e384cafea5a2f4bd64fd32dae2dc172bdd96fccf77346d",
+      "body_sha256": "ff2a8a29f955bfd0b4e384cafea5a2f4bd64fd32dae2dc172bdd96fccf77346d"
+    },
+    {
+      "id": 18,
+      "name": "Categorization",
+      "from": "src/game/selection/018_Categorization.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "7515502873b07bd98f059a55f7505f1d003f1b979f12297ab350328535b1e5ce",
+      "body_sha256": "7515502873b07bd98f059a55f7505f1d003f1b979f12297ab350328535b1e5ce"
+    },
+    {
+      "id": 19,
+      "name": "Fountain_Heal",
+      "from": "src/game/fountain/019_Fountain_Heal.lua",
+      "to": "src/game/fountain.lua",
+      "before_sha256": "284794283e0b12a8d3b163e726558e77e814d4fbbfb1e6c9fc41d9c45a07bad4",
+      "body_sha256": "284794283e0b12a8d3b163e726558e77e814d4fbbfb1e6c9fc41d9c45a07bad4"
+    },
+    {
+      "id": 20,
+      "name": "Ancient_In_Combat",
+      "from": "src/combat/020_Ancient_In_Combat.lua",
+      "to": "src/combat/common.lua",
+      "before_sha256": "ab9113d6904c6709b3ce9e7ae5b32dbf92860ec0bc868a231a75dc0f2d58486e",
+      "body_sha256": "ab9113d6904c6709b3ce9e7ae5b32dbf92860ec0bc868a231a75dc0f2d58486e"
+    },
+    {
+      "id": 21,
+      "name": "AutoFeedRate",
+      "from": "src/economy/feed/021_AutoFeedRate.lua",
+      "to": "src/economy/feed.lua",
+      "before_sha256": "3a6edaf591a1f8306e2b390050c5d7209b6dc1d9349fe8a0998f604c43fc86c9",
+      "body_sha256": "3a6edaf591a1f8306e2b390050c5d7209b6dc1d9349fe8a0998f604c43fc86c9"
+    },
+    {
+      "id": 22,
+      "name": "TimeToAncientSpawn_Copy",
+      "from": "src/economy/feed/022_TimeToAncientSpawn_Copy.lua",
+      "to": "src/economy/feed.lua",
+      "before_sha256": "54aade8ee2e7bc832791f8c926e45cbcefb2fc9e2e2143d7ed000dc378f46919",
+      "body_sha256": "54aade8ee2e7bc832791f8c926e45cbcefb2fc9e2e2143d7ed000dc378f46919"
+    },
+    {
+      "id": 23,
+      "name": "HandleSetRate",
+      "from": "src/economy/feed/023_HandleSetRate.lua",
+      "to": "src/economy/feed.lua",
+      "before_sha256": "5c68992dcde943de7d82261d5fea0f6843d2c268d257a5cc4c4c5140aa524892",
+      "body_sha256": "5c68992dcde943de7d82261d5fea0f6843d2c268d257a5cc4c4c5140aa524892"
+    },
+    {
+      "id": 24,
+      "name": "FeedReduction",
+      "from": "src/economy/feed/024_FeedReduction.lua",
+      "to": "src/economy/feed.lua",
+      "before_sha256": "c2eb6f0c87fc1fa8351fb70d15fa9c8b9ff1efc9013a6d8b2bbff105a9a1b5e8",
+      "body_sha256": "c2eb6f0c87fc1fa8351fb70d15fa9c8b9ff1efc9013a6d8b2bbff105a9a1b5e8"
+    },
+    {
+      "id": 25,
+      "name": "SetFeed",
+      "from": "src/economy/feed/025_SetFeed.lua",
+      "to": "src/economy/feed.lua",
+      "before_sha256": "60b5c62a68218e285f39a8d2fe686bd0671a244c11e8caa62c928911c889af02",
+      "body_sha256": "60b5c62a68218e285f39a8d2fe686bd0671a244c11e8caa62c928911c889af02"
+    },
+    {
+      "id": 26,
+      "name": "CheckFeedRates",
+      "from": "src/economy/feed/026_CheckFeedRates.lua",
+      "to": "src/economy/feed.lua",
+      "before_sha256": "25f492561688138e568b3621f24d4451e369db4838e2cfd10a7d7d78dd053d36",
+      "body_sha256": "25f492561688138e568b3621f24d4451e369db4838e2cfd10a7d7d78dd053d36"
+    },
+    {
+      "id": 27,
+      "name": "Detonate",
+      "from": "src/combat/027_Detonate.lua",
+      "to": "src/combat/common.lua",
+      "before_sha256": "a13799f3a4948c57e9b31f22f822a19eb42348fcd181d287bff0246c20718d7d",
+      "body_sha256": "a13799f3a4948c57e9b31f22f822a19eb42348fcd181d287bff0246c20718d7d"
+    },
+    {
+      "id": 28,
+      "name": "Expander_Hero_XP",
+      "from": "src/combat/028_Expander_Hero_XP.lua",
+      "to": "src/combat/common.lua",
+      "before_sha256": "4f704c7cf145c5897527e7678c436e22f8a4bca6107e9c5fb74fac61942e9aa6",
+      "body_sha256": "4f704c7cf145c5897527e7678c436e22f8a4bca6107e9c5fb74fac61942e9aa6"
+    },
+    {
+      "id": 29,
+      "name": "Snipe_Shot",
+      "from": "src/races/bounty_hunter/029_Snipe_Shot.lua",
+      "to": "src/races/bounty_hunter.lua",
+      "before_sha256": "34255acffb8fd117f20d17953eadab3a3b971353fbbd079c98c8b8f9e79554c5",
+      "body_sha256": "34255acffb8fd117f20d17953eadab3a3b971353fbbd079c98c8b8f9e79554c5"
+    },
+    {
+      "id": 30,
+      "name": "Dash",
+      "from": "src/races/bounty_hunter/030_Dash.lua",
+      "to": "src/races/bounty_hunter.lua",
+      "before_sha256": "656203d506999ae55af3869d7218e3f1c1af8ff3963ec1c460d184b0de8a1fba",
+      "body_sha256": "656203d506999ae55af3869d7218e3f1c1af8ff3963ec1c460d184b0de8a1fba"
+    },
+    {
+      "id": 31,
+      "name": "Rome",
+      "from": "src/races/bounty_hunter/031_Rome.lua",
+      "to": "src/races/bounty_hunter.lua",
+      "before_sha256": "3f3643148a1228b221882017ea88600ff23c8c8e5c512312f6af570c0b788abc",
+      "body_sha256": "3f3643148a1228b221882017ea88600ff23c8c8e5c512312f6af570c0b788abc"
+    },
+    {
+      "id": 32,
+      "name": "Basic_Bounty_Hit",
+      "from": "src/races/bounty_hunter/032_Basic_Bounty_Hit.lua",
+      "to": "src/races/bounty_hunter.lua",
+      "before_sha256": "28815aff39378f1f6d3f0a80ede478c2c5b9a180d9ba9102bc2c27c506ca87fa",
+      "body_sha256": "28815aff39378f1f6d3f0a80ede478c2c5b9a180d9ba9102bc2c27c506ca87fa"
+    },
+    {
+      "id": 33,
+      "name": "Improved_Bounty_Hit",
+      "from": "src/races/bounty_hunter/033_Improved_Bounty_Hit.lua",
+      "to": "src/races/bounty_hunter.lua",
+      "before_sha256": "289c82f1dd2fc7b883b1fa0f01deb792697169399f911096083adade8a159034",
+      "body_sha256": "289c82f1dd2fc7b883b1fa0f01deb792697169399f911096083adade8a159034"
+    },
+    {
+      "id": 34,
+      "name": "Harvest_Grapes",
+      "from": "src/races/bounty_hunter/034_Harvest_Grapes.lua",
+      "to": "src/races/bounty_hunter.lua",
+      "before_sha256": "7073c8cbd7a587779d587e4ca3fec3f694a20f4f84d949aa4338efdcc48c4586",
+      "body_sha256": "7073c8cbd7a587779d587e4ca3fec3f694a20f4f84d949aa4338efdcc48c4586"
+    },
+    {
+      "id": 35,
+      "name": "Bullets_Switch",
+      "from": "src/races/bounty_hunter/035_Bullets_Switch.lua",
+      "to": "src/races/bounty_hunter.lua",
+      "before_sha256": "dd0c6de20314783608d6981de3d7ea56900e9004a9fdff5ed4a992f5c4180bc3",
+      "body_sha256": "dd0c6de20314783608d6981de3d7ea56900e9004a9fdff5ed4a992f5c4180bc3"
+    },
+    {
+      "id": 36,
+      "name": "Limb_Throw",
+      "from": "src/races/cultist/036_Limb_Throw.lua",
+      "to": "src/races/cultist.lua",
+      "before_sha256": "c680bd37ff4621e2e98e533067cd801108ed8c9d1da667b7760dd61d29c4c94a",
+      "body_sha256": "c680bd37ff4621e2e98e533067cd801108ed8c9d1da667b7760dd61d29c4c94a"
+    },
+    {
+      "id": 37,
+      "name": "Flesh_Stampede",
+      "from": "src/races/cultist/037_Flesh_Stampede.lua",
+      "to": "src/races/cultist.lua",
+      "before_sha256": "a9fb305ea4b9618a09c0f103dd5f5b765f5b0c02c44f3e8f12b48ebb04ce56e6",
+      "body_sha256": "a9fb305ea4b9618a09c0f103dd5f5b765f5b0c02c44f3e8f12b48ebb04ce56e6"
+    },
+    {
+      "id": 38,
+      "name": "Amalgamation",
+      "from": "src/races/cultist/038_Amalgamation.lua",
+      "to": "src/races/cultist.lua",
+      "before_sha256": "292f6c55465a54f0e641e5edaec98f392e5a5a4ed9399d7d44e3ace4cf382a83",
+      "body_sha256": "292f6c55465a54f0e641e5edaec98f392e5a5a4ed9399d7d44e3ace4cf382a83"
+    },
+    {
+      "id": 39,
+      "name": "Merge",
+      "from": "src/races/cultist/039_Merge.lua",
+      "to": "src/races/cultist.lua",
+      "before_sha256": "3f79aa1a49bdee5830f20c4e7bbc49bbc986d7ef82c4493c60eca3946a84a3b8",
+      "body_sha256": "3f79aa1a49bdee5830f20c4e7bbc49bbc986d7ef82c4493c60eca3946a84a3b8"
+    },
+    {
+      "id": 40,
+      "name": "Husk_Detection",
+      "from": "src/races/cultist/040_Husk_Detection.lua",
+      "to": "src/races/cultist.lua",
+      "before_sha256": "401b05934cd1906b3768f3a8d66a33df7a4fad5f920eac5cffd5dda592d16d34",
+      "body_sha256": "401b05934cd1906b3768f3a8d66a33df7a4fad5f920eac5cffd5dda592d16d34"
+    },
+    {
+      "id": 41,
+      "name": "Death_Jump",
+      "from": "src/races/cultist/041_Death_Jump.lua",
+      "to": "src/races/cultist.lua",
+      "before_sha256": "28f1e60e6df821cd6cfe92a3164fd28a1a53a37f21c74cefd21d1164e3918c8f",
+      "body_sha256": "28f1e60e6df821cd6cfe92a3164fd28a1a53a37f21c74cefd21d1164e3918c8f"
+    },
+    {
+      "id": 42,
+      "name": "Map_Start",
+      "from": "src/races/cultist/042_Map_Start.lua",
+      "to": "src/races/cultist.lua",
+      "before_sha256": "07c6635033f67e51905ee729bd6b798cf2e6bfa6e01aa8cd0fb846db003470ae",
+      "body_sha256": "07c6635033f67e51905ee729bd6b798cf2e6bfa6e01aa8cd0fb846db003470ae"
+    },
+    {
+      "id": 43,
+      "name": "Day",
+      "from": "src/races/cultist/043_Day.lua",
+      "to": "src/races/cultist.lua",
+      "before_sha256": "c7c6dc4d87d21f0a37a9f5903e4fdd16a63d6a6178f00445dac2f01dfd688706",
+      "body_sha256": "c7c6dc4d87d21f0a37a9f5903e4fdd16a63d6a6178f00445dac2f01dfd688706"
+    },
+    {
+      "id": 44,
+      "name": "Night",
+      "from": "src/races/cultist/044_Night.lua",
+      "to": "src/races/cultist.lua",
+      "before_sha256": "98344924b411ae810b02618e15605962078f04a0e8a1db79130d95bfa125e054",
+      "body_sha256": "98344924b411ae810b02618e15605962078f04a0e8a1db79130d95bfa125e054"
+    },
+    {
+      "id": 45,
+      "name": "Iron_Hoove",
+      "from": "src/races/centaur/045_Iron_Hoove.lua",
+      "to": "src/races/centaur.lua",
+      "before_sha256": "5ef1e8fdb2cff48c0ff354d8fe7b8a7b8cb16bb2d9c9e5c136f8220e48cfcc69",
+      "body_sha256": "5ef1e8fdb2cff48c0ff354d8fe7b8a7b8cb16bb2d9c9e5c136f8220e48cfcc69"
+    },
+    {
+      "id": 46,
+      "name": "Lightning_Strike_TowerVers",
+      "from": "src/races/elf_engineer/046_Lightning_Strike_TowerVers.lua",
+      "to": "src/races/elf_engineer.lua",
+      "before_sha256": "7e6c8874c6f860970ff8bb0f844b42f5299eff5f758f74716bf9676026f80e76",
+      "body_sha256": "7e6c8874c6f860970ff8bb0f844b42f5299eff5f758f74716bf9676026f80e76"
+    },
+    {
+      "id": 47,
+      "name": "Blizzard",
+      "from": "src/races/elf_engineer/047_Blizzard.lua",
+      "to": "src/races/elf_engineer.lua",
+      "before_sha256": "2a5a6307c475a5e41347cbdd8b597c0a2b00830047d5b697be752b67d602b5e3",
+      "body_sha256": "2a5a6307c475a5e41347cbdd8b597c0a2b00830047d5b697be752b67d602b5e3"
+    },
+    {
+      "id": 48,
+      "name": "ShovelStrikelevelup",
+      "from": "src/races/kobold/048_ShovelStrikelevelup.lua",
+      "to": "src/races/kobold.lua",
+      "before_sha256": "2a3a3fb6c1c7c169ae847c061a734335ac2a41aadba8a8fb75873d58ba3bd5dc",
+      "body_sha256": "2a3a3fb6c1c7c169ae847c061a734335ac2a41aadba8a8fb75873d58ba3bd5dc"
+    },
+    {
+      "id": 49,
+      "name": "Deepwater_1",
+      "from": "src/races/night_elf/049_Deepwater_1.lua",
+      "to": "src/races/night_elf.lua",
+      "before_sha256": "a25c8d756d0b295f33f916a0961c6e27cda7ddfd773c47bf8821ccacdb24a6d3",
+      "body_sha256": "a25c8d756d0b295f33f916a0961c6e27cda7ddfd773c47bf8821ccacdb24a6d3"
+    },
+    {
+      "id": 50,
+      "name": "Deepwater_2",
+      "from": "src/races/night_elf/050_Deepwater_2.lua",
+      "to": "src/races/night_elf.lua",
+      "before_sha256": "b58c86e81230a990a9a13d6005f11ab0566a7d9d2bf2ef07395e75639d88f65c",
+      "body_sha256": "b58c86e81230a990a9a13d6005f11ab0566a7d9d2bf2ef07395e75639d88f65c"
+    },
+    {
+      "id": 51,
+      "name": "Genesis",
+      "from": "src/races/night_elf/arch_druid/051_Genesis.lua",
+      "to": "src/races/night_elf/arch_druid.lua",
+      "before_sha256": "dc5371bfeeab91b0d173a9755dcccb58746d2156f5f6fd08772b38a483dae3da",
+      "body_sha256": "dc5371bfeeab91b0d173a9755dcccb58746d2156f5f6fd08772b38a483dae3da"
+    },
+    {
+      "id": 52,
+      "name": "ConjureRefreshment",
+      "from": "src/races/night_elf/shadow_dancer/052_ConjureRefreshment.lua",
+      "to": "src/races/night_elf/shadow_dancer.lua",
+      "before_sha256": "8ebef0c91f6bec3a7bb1334bce037561da0130ad070e97c0995379c5a7c57692",
+      "body_sha256": "8ebef0c91f6bec3a7bb1334bce037561da0130ad070e97c0995379c5a7c57692"
+    },
+    {
+      "id": 53,
+      "name": "ShadowDancers",
+      "from": "src/races/night_elf/shadow_dancer/053_ShadowDancers.lua",
+      "to": "src/races/night_elf/shadow_dancer.lua",
+      "before_sha256": "eb684db76123574ce145f4aa96d3d308f4ae88a7acbb1b6d6647b9da15414164",
+      "body_sha256": "eb684db76123574ce145f4aa96d3d308f4ae88a7acbb1b6d6647b9da15414164"
+    },
+    {
+      "id": 54,
+      "name": "Mana_Burn",
+      "from": "src/races/night_elf/shadow_dancer/054_Mana_Burn.lua",
+      "to": "src/races/night_elf/shadow_dancer.lua",
+      "before_sha256": "f66922b8699d17359b5f3b71963b3f1ce43f29b807047c22ec41ce16208bf57e",
+      "body_sha256": "f66922b8699d17359b5f3b71963b3f1ce43f29b807047c22ec41ce16208bf57e"
+    },
+    {
+      "id": 55,
+      "name": "Mana_Steal_Dancer",
+      "from": "src/races/night_elf/shadow_dancer/055_Mana_Steal_Dancer.lua",
+      "to": "src/races/night_elf/shadow_dancer.lua",
+      "before_sha256": "61518f8f1eb7b635133bd62342f5be2bed81f997816ece3ec456100739e02bff",
+      "body_sha256": "61518f8f1eb7b635133bd62342f5be2bed81f997816ece3ec456100739e02bff"
+    },
+    {
+      "id": 56,
+      "name": "Mana_Steal_Mages",
+      "from": "src/races/night_elf/shadow_dancer/056_Mana_Steal_Mages.lua",
+      "to": "src/races/night_elf/shadow_dancer.lua",
+      "before_sha256": "9735fc7ccc6fa204f3a420a65b239e12b7c1a0ea3b4c3f095db28979dc622a21",
+      "body_sha256": "9735fc7ccc6fa204f3a420a65b239e12b7c1a0ea3b4c3f095db28979dc622a21"
+    },
+    {
+      "id": 57,
+      "name": "ConjureMana",
+      "from": "src/races/night_elf/shadow_dancer/057_ConjureMana.lua",
+      "to": "src/races/night_elf/shadow_dancer.lua",
+      "before_sha256": "0306cea4ac125f2bff7a169beae1540c08fa34ea7da3102005131a2b94ed716a",
+      "body_sha256": "0306cea4ac125f2bff7a169beae1540c08fa34ea7da3102005131a2b94ed716a"
+    },
+    {
+      "id": 58,
+      "name": "Blur",
+      "from": "src/races/night_elf/shadow_dancer/058_Blur.lua",
+      "to": "src/races/night_elf/shadow_dancer.lua",
+      "before_sha256": "3b6c6439d5f9466e09e9cc51c13b0e5f0f402b563d4aa2169f3087803bfc3396",
+      "body_sha256": "3b6c6439d5f9466e09e9cc51c13b0e5f0f402b563d4aa2169f3087803bfc3396"
+    },
+    {
+      "id": 59,
+      "name": "Ghoul_Units",
+      "from": "src/races/ghoul/059_Ghoul_Units.lua",
+      "to": "src/races/ghoul.lua",
+      "before_sha256": "1c5a6f0bcd3341b4e99ff07effcbe306a175fb88402950e8396bf9318a5c8549",
+      "body_sha256": "1c5a6f0bcd3341b4e99ff07effcbe306a175fb88402950e8396bf9318a5c8549"
+    },
+    {
+      "id": 60,
+      "name": "Ghoul_lumber",
+      "from": "src/races/ghoul/060_Ghoul_lumber.lua",
+      "to": "src/races/ghoul.lua",
+      "before_sha256": "8b145694fd4ea582d679c53a3c0e251d5dcf61587845afafc38e1eaf78226124",
+      "body_sha256": "8b145694fd4ea582d679c53a3c0e251d5dcf61587845afafc38e1eaf78226124"
+    },
+    {
+      "id": 61,
+      "name": "Dutchmen_Trained",
+      "from": "src/races/kraken/061_Dutchmen_Trained.lua",
+      "to": "src/races/kraken.lua",
+      "before_sha256": "38da45abb748aef139c38f274bdc48ac4595ce3f294ddfcb70f273aee98579b2",
+      "body_sha256": "38da45abb748aef139c38f274bdc48ac4595ce3f294ddfcb70f273aee98579b2"
+    },
+    {
+      "id": 62,
+      "name": "Dutchmen",
+      "from": "src/races/kraken/062_Dutchmen.lua",
+      "to": "src/races/kraken.lua",
+      "before_sha256": "803f3b74bb91af3575d658911bd43020ae745cdf751e6c410f6360091aae16a4",
+      "body_sha256": "803f3b74bb91af3575d658911bd43020ae745cdf751e6c410f6360091aae16a4"
+    },
+    {
+      "id": 63,
+      "name": "Vampiric_Wyrm",
+      "from": "src/races/aethyr/063_Vampiric_Wyrm.lua",
+      "to": "src/races/aethyr.lua",
+      "before_sha256": "71914e9710f9e141b8f1bb7cdeaa80eb6adf0c63767dc75e0a6267bfd75b522e",
+      "body_sha256": "71914e9710f9e141b8f1bb7cdeaa80eb6adf0c63767dc75e0a6267bfd75b522e"
+    },
+    {
+      "id": 64,
+      "name": "Soul_Hammer",
+      "from": "src/races/forgotten/064_Soul_Hammer.lua",
+      "to": "src/races/forgotten.lua",
+      "before_sha256": "7c07603ede347b06da09f825d233cd16aeb348e9003b6acd00b22c5a1d20867e",
+      "body_sha256": "7c07603ede347b06da09f825d233cd16aeb348e9003b6acd00b22c5a1d20867e"
+    },
+    {
+      "id": 65,
+      "name": "Coup_de_grace",
+      "from": "src/races/forgotten/executioner/065_Coup_de_grace.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "7a40be4f4e053faa4e4e9c45be65a570420f7e223d9d41034bc2a57bff2bd343",
+      "body_sha256": "7a40be4f4e053faa4e4e9c45be65a570420f7e223d9d41034bc2a57bff2bd343"
+    },
+    {
+      "id": 66,
+      "name": "Surge_of_Darkness",
+      "from": "src/races/forgotten/executioner/066_Surge_of_Darkness.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "3d011450db21883f11aaec71b79ea78fc7f4b1f692923a37de791fab4a395b1c",
+      "body_sha256": "3d011450db21883f11aaec71b79ea78fc7f4b1f692923a37de791fab4a395b1c"
+    },
+    {
+      "id": 67,
+      "name": "Focused_Anger_1",
+      "from": "src/races/forgotten/executioner/067_Focused_Anger_1.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "25f81c81f53a692779ab8da6a35e52d78189a90f1175cb8fcc12802d0766d2cb",
+      "body_sha256": "25f81c81f53a692779ab8da6a35e52d78189a90f1175cb8fcc12802d0766d2cb"
+    },
+    {
+      "id": 68,
+      "name": "Focused_Anger_2",
+      "from": "src/races/forgotten/executioner/068_Focused_Anger_2.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "9b119573f65816fdf2d54f563514cecd2a9103bb76b0e184f06e75b0da4f0f5b",
+      "body_sha256": "9b119573f65816fdf2d54f563514cecd2a9103bb76b0e184f06e75b0da4f0f5b"
+    },
+    {
+      "id": 69,
+      "name": "Focused_Anger_3",
+      "from": "src/races/forgotten/executioner/069_Focused_Anger_3.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "adb08a6f4e295d97b6b1e886ccb97f6a09019ec338c062c9c98f5a67e7324a1d",
+      "body_sha256": "adb08a6f4e295d97b6b1e886ccb97f6a09019ec338c062c9c98f5a67e7324a1d"
+    },
+    {
+      "id": 70,
+      "name": "Focused_Anger_4",
+      "from": "src/races/forgotten/executioner/070_Focused_Anger_4.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "2fd0a1e52012e18e4bb80b1aee1bc5c82d529c706ab6502f1650c788112c98be",
+      "body_sha256": "2fd0a1e52012e18e4bb80b1aee1bc5c82d529c706ab6502f1650c788112c98be"
+    },
+    {
+      "id": 71,
+      "name": "Focused_Anger_5",
+      "from": "src/races/forgotten/executioner/071_Focused_Anger_5.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "abd031c6d25540c48d2cda63ddd9599bdbb06332d3c524d14674117718f58a1f",
+      "body_sha256": "abd031c6d25540c48d2cda63ddd9599bdbb06332d3c524d14674117718f58a1f"
+    },
+    {
+      "id": 72,
+      "name": "Focused_Anger_6",
+      "from": "src/races/forgotten/executioner/072_Focused_Anger_6.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "975cadf2502d289fee6ed23cf32714768168077f81886b33f135264fa51d9ebb",
+      "body_sha256": "975cadf2502d289fee6ed23cf32714768168077f81886b33f135264fa51d9ebb"
+    },
+    {
+      "id": 73,
+      "name": "Focused_Anger_7",
+      "from": "src/races/forgotten/executioner/073_Focused_Anger_7.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "59013b3ed80917727aa091989b9395a956dfa382a3f1bf770a83d7f7de0f8b49",
+      "body_sha256": "59013b3ed80917727aa091989b9395a956dfa382a3f1bf770a83d7f7de0f8b49"
+    },
+    {
+      "id": 74,
+      "name": "Focused_Anger_8",
+      "from": "src/races/forgotten/executioner/074_Focused_Anger_8.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "1e3cbb51c0d520dae426bb31a1cd3139974c29c3bfa8ea4b15fe5110fc7e78ee",
+      "body_sha256": "1e3cbb51c0d520dae426bb31a1cd3139974c29c3bfa8ea4b15fe5110fc7e78ee"
+    },
+    {
+      "id": 75,
+      "name": "Focused_Anger_9",
+      "from": "src/races/forgotten/executioner/075_Focused_Anger_9.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "378f831a09817532982ec8cc5937d64feecf02896dce5f5c2080ec580445e52a",
+      "body_sha256": "378f831a09817532982ec8cc5937d64feecf02896dce5f5c2080ec580445e52a"
+    },
+    {
+      "id": 76,
+      "name": "Focused_Anger_10",
+      "from": "src/races/forgotten/executioner/076_Focused_Anger_10.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "1dd18dc13a9a1fc251126fe4412e99734b86a9754b1bed78e09d96f98986f972",
+      "body_sha256": "1dd18dc13a9a1fc251126fe4412e99734b86a9754b1bed78e09d96f98986f972"
+    },
+    {
+      "id": 77,
+      "name": "Focused_Anger_Trigger",
+      "from": "src/races/forgotten/executioner/077_Focused_Anger_Trigger.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "a121ac553b3c43b6fd1e2411fb15368b0d5704b57f0b1544fb0a2b0c5e4ecae0",
+      "body_sha256": "a121ac553b3c43b6fd1e2411fb15368b0d5704b57f0b1544fb0a2b0c5e4ecae0"
+    },
+    {
+      "id": 78,
+      "name": "Focused_Anger_Trigger_Copy",
+      "from": "src/races/forgotten/executioner/078_Focused_Anger_Trigger_Copy.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "87c965dd93877f5307dd341c93751055f94dd3c30379c2d0438bc5bd9efea32e",
+      "body_sha256": "87c965dd93877f5307dd341c93751055f94dd3c30379c2d0438bc5bd9efea32e"
+    },
+    {
+      "id": 79,
+      "name": "Focused_Anger_Trigger_Copy_2",
+      "from": "src/races/forgotten/executioner/079_Focused_Anger_Trigger_Copy_2.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "4db443b06859209b01defdfde932cbe77ff2fa227a65ed41176e1f93036a4713",
+      "body_sha256": "4db443b06859209b01defdfde932cbe77ff2fa227a65ed41176e1f93036a4713"
+    },
+    {
+      "id": 80,
+      "name": "Focused_Anger_Trigger_Copy_3",
+      "from": "src/races/forgotten/executioner/080_Focused_Anger_Trigger_Copy_3.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "23c1ceea28fb56caccce0a96970c8e1441bfa500d5e9cc06489ab458b37066f9",
+      "body_sha256": "23c1ceea28fb56caccce0a96970c8e1441bfa500d5e9cc06489ab458b37066f9"
+    },
+    {
+      "id": 81,
+      "name": "Focused_Anger_Trigger_Copy_4",
+      "from": "src/races/forgotten/executioner/081_Focused_Anger_Trigger_Copy_4.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "ed0b101c2c3d51a3774cd486bb839cc1527e3aead87254837dfa634f5df5cffd",
+      "body_sha256": "ed0b101c2c3d51a3774cd486bb839cc1527e3aead87254837dfa634f5df5cffd"
+    },
+    {
+      "id": 82,
+      "name": "Focused_Anger_Trigger_Copy_5",
+      "from": "src/races/forgotten/executioner/082_Focused_Anger_Trigger_Copy_5.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "083a1de436aae23adfde30bf064f280ca3f441333cd64e3168f415f5a64d65fe",
+      "body_sha256": "083a1de436aae23adfde30bf064f280ca3f441333cd64e3168f415f5a64d65fe"
+    },
+    {
+      "id": 83,
+      "name": "Focused_Anger_Trigger_Copy_6",
+      "from": "src/races/forgotten/executioner/083_Focused_Anger_Trigger_Copy_6.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "0138d6669e98dc62fc257ea2ed7fddc1b6c19a468287735dd50ce8b678f4cfc7",
+      "body_sha256": "0138d6669e98dc62fc257ea2ed7fddc1b6c19a468287735dd50ce8b678f4cfc7"
+    },
+    {
+      "id": 84,
+      "name": "Focused_Anger_Trigger_Copy_7",
+      "from": "src/races/forgotten/executioner/084_Focused_Anger_Trigger_Copy_7.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "ad4155831c649fcf068ef3daec3090cb3995a62132078cec9d6652fdd1b5bf23",
+      "body_sha256": "ad4155831c649fcf068ef3daec3090cb3995a62132078cec9d6652fdd1b5bf23"
+    },
+    {
+      "id": 85,
+      "name": "Focused_Anger_Trigger_Copy_8",
+      "from": "src/races/forgotten/executioner/085_Focused_Anger_Trigger_Copy_8.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "b6a9b882c8ff484a4658f753f12d15669d940bd3261b11486e514951dcc2facc",
+      "body_sha256": "b6a9b882c8ff484a4658f753f12d15669d940bd3261b11486e514951dcc2facc"
+    },
+    {
+      "id": 86,
+      "name": "Focused_Anger_Trigger_Copy_9",
+      "from": "src/races/forgotten/executioner/086_Focused_Anger_Trigger_Copy_9.lua",
+      "to": "src/races/forgotten/executioner.lua",
+      "before_sha256": "71aa8bf891574ddf127e6a9b39dd90f85c9957ccf19f7c24bb6c97d7813dc332",
+      "body_sha256": "71aa8bf891574ddf127e6a9b39dd90f85c9957ccf19f7c24bb6c97d7813dc332"
+    },
+    {
+      "id": 87,
+      "name": "Feast_of_Souls",
+      "from": "src/races/forgotten/soulreaper/087_Feast_of_Souls.lua",
+      "to": "src/races/forgotten/soulreaper.lua",
+      "before_sha256": "fc0c916ca4bfc2924a353e084547b3e4c5be0fd0500cf5536ba9a4dc0ea12a65",
+      "body_sha256": "fc0c916ca4bfc2924a353e084547b3e4c5be0fd0500cf5536ba9a4dc0ea12a65"
+    },
+    {
+      "id": 88,
+      "name": "Soul_Strike",
+      "from": "src/races/forgotten/soulreaper/088_Soul_Strike.lua",
+      "to": "src/races/forgotten/soulreaper.lua",
+      "before_sha256": "09d31ff61c54a1be2a8a51389c470e47781b9d3cd904886cd8b2ecd623797b89",
+      "body_sha256": "09d31ff61c54a1be2a8a51389c470e47781b9d3cd904886cd8b2ecd623797b89"
+    },
+    {
+      "id": 89,
+      "name": "Avatar",
+      "from": "src/races/forgotten/soulreaper/089_Avatar.lua",
+      "to": "src/races/forgotten/soulreaper.lua",
+      "before_sha256": "bccdebc170cab36301d3c7a07d0d563766a0a290ce9a74d35445a1274d2116db",
+      "body_sha256": "bccdebc170cab36301d3c7a07d0d563766a0a290ce9a74d35445a1274d2116db"
+    },
+    {
+      "id": 90,
+      "name": "Acidic_Blood",
+      "from": "src/races/forgotten/bloodmage/090_Acidic_Blood.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "4c52c139ae986122c4b6b026a1d6305ff21aaefb71980ac6ce4131a918f524ed",
+      "body_sha256": "4c52c139ae986122c4b6b026a1d6305ff21aaefb71980ac6ce4131a918f524ed"
+    },
+    {
+      "id": 91,
+      "name": "Binding_Shadows",
+      "from": "src/races/forgotten/bloodmage/091_Binding_Shadows.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "5421d8ab8800dbb8992976d6bfa1ededdba98646b4205a6619a42db11877ad71",
+      "body_sha256": "5421d8ab8800dbb8992976d6bfa1ededdba98646b4205a6619a42db11877ad71"
+    },
+    {
+      "id": 92,
+      "name": "Cobalt_Blood",
+      "from": "src/races/forgotten/bloodmage/092_Cobalt_Blood.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "0dcb52fb1f5f895d7c97b6c066894fa217e4c1d7e2e5083be350fe2d42a6dba8",
+      "body_sha256": "0dcb52fb1f5f895d7c97b6c066894fa217e4c1d7e2e5083be350fe2d42a6dba8"
+    },
+    {
+      "id": 93,
+      "name": "Glowing_Blood",
+      "from": "src/races/forgotten/bloodmage/093_Glowing_Blood.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "35768642c7a8a10d38c05bf9a06220e894c0ab25eeb00e286c82327dd3ac1e37",
+      "body_sha256": "35768642c7a8a10d38c05bf9a06220e894c0ab25eeb00e286c82327dd3ac1e37"
+    },
+    {
+      "id": 94,
+      "name": "Psychic_Slam",
+      "from": "src/races/forgotten/bloodmage/094_Psychic_Slam.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "ca41053a9f9d3e950bad5075d2426096a941fbfbbe679a099f2141d3b9161240",
+      "body_sha256": "ca41053a9f9d3e950bad5075d2426096a941fbfbbe679a099f2141d3b9161240"
+    },
+    {
+      "id": 95,
+      "name": "Soul_Rend",
+      "from": "src/races/forgotten/bloodmage/095_Soul_Rend.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "e03b0e41ec2e9eda73c81838bc47c2d7117e5a2e5968dbef8cc8663fce2eeed4",
+      "body_sha256": "e03b0e41ec2e9eda73c81838bc47c2d7117e5a2e5968dbef8cc8663fce2eeed4"
+    },
+    {
+      "id": 96,
+      "name": "Dark_Blood",
+      "from": "src/races/forgotten/bloodmage/096_Dark_Blood.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "d7a491b0b02cb490033fa9e46f595f40192e77c730d63513e98544f599e35145",
+      "body_sha256": "d7a491b0b02cb490033fa9e46f595f40192e77c730d63513e98544f599e35145"
+    },
+    {
+      "id": 97,
+      "name": "Shadowlings",
+      "from": "src/races/forgotten/bloodmage/097_Shadowlings.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "d801071298ac5a196c83100255d873bb7e2ca7523cb4c0b72a41c6caafb42ce0",
+      "body_sha256": "d801071298ac5a196c83100255d873bb7e2ca7523cb4c0b72a41c6caafb42ce0"
+    },
+    {
+      "id": 98,
+      "name": "Levelled_Drain",
+      "from": "src/races/forgotten/bloodmage/098_Levelled_Drain.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "0c8674e14972c1afe3c29bcb17067ca7f5425d777466da71cd73cffdf2b36db6",
+      "body_sha256": "0c8674e14972c1afe3c29bcb17067ca7f5425d777466da71cd73cffdf2b36db6"
+    },
+    {
+      "id": 99,
+      "name": "Levelled_Drain_Copy",
+      "from": "src/races/forgotten/bloodmage/099_Levelled_Drain_Copy.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "9201eee7e56b668669a9741eb20f900b99ef9f06cd59a3e33cb8a1cf2751e0e7",
+      "body_sha256": "9201eee7e56b668669a9741eb20f900b99ef9f06cd59a3e33cb8a1cf2751e0e7"
+    },
+    {
+      "id": 100,
+      "name": "Levelled_Drain_Copy_2",
+      "from": "src/races/forgotten/bloodmage/100_Levelled_Drain_Copy_2.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "5bff8ad7a1c83349ea9c8bf743da386424f20d6521b4482ea2ef7cb49f8d3c91",
+      "body_sha256": "5bff8ad7a1c83349ea9c8bf743da386424f20d6521b4482ea2ef7cb49f8d3c91"
+    },
+    {
+      "id": 101,
+      "name": "Levelled_Drain_Copy_3",
+      "from": "src/races/forgotten/bloodmage/101_Levelled_Drain_Copy_3.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "b1b7c1de1c2d7915fd384567df0573ac0164bf7b617a09213a8c6ea6552ac7c5",
+      "body_sha256": "b1b7c1de1c2d7915fd384567df0573ac0164bf7b617a09213a8c6ea6552ac7c5"
+    },
+    {
+      "id": 102,
+      "name": "Levelled_Drain_Copy_4",
+      "from": "src/races/forgotten/bloodmage/102_Levelled_Drain_Copy_4.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "f2f8e3f797093d6a16eb8dea4eeae2db245568fa7ca8e5636d641412c61b7112",
+      "body_sha256": "f2f8e3f797093d6a16eb8dea4eeae2db245568fa7ca8e5636d641412c61b7112"
+    },
+    {
+      "id": 103,
+      "name": "Levelled_Drain_Copy_5",
+      "from": "src/races/forgotten/bloodmage/103_Levelled_Drain_Copy_5.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "583a2481af77315a5f0682d3dcaeaa3b2033c9f2cc304ac453fbaaeff578d30d",
+      "body_sha256": "583a2481af77315a5f0682d3dcaeaa3b2033c9f2cc304ac453fbaaeff578d30d"
+    },
+    {
+      "id": 104,
+      "name": "Levelled_Drain_Copy_6",
+      "from": "src/races/forgotten/bloodmage/104_Levelled_Drain_Copy_6.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "606c3c107036a9eb318389b8db9f86c79dbe08989d97fafdaf01179eb3daa6fe",
+      "body_sha256": "606c3c107036a9eb318389b8db9f86c79dbe08989d97fafdaf01179eb3daa6fe"
+    },
+    {
+      "id": 105,
+      "name": "Levelled_Drain_Copy_7",
+      "from": "src/races/forgotten/bloodmage/105_Levelled_Drain_Copy_7.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "fc908e2586f98d5f2cffd6fd06c72d9be110f3ebc7e9a1a2516a9eef2fa71039",
+      "body_sha256": "fc908e2586f98d5f2cffd6fd06c72d9be110f3ebc7e9a1a2516a9eef2fa71039"
+    },
+    {
+      "id": 106,
+      "name": "Levelled_Drain_Copy_8",
+      "from": "src/races/forgotten/bloodmage/106_Levelled_Drain_Copy_8.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "47af0c86721f1c2c0a3a6e6f757c765abbbee492f2dee505cb6f072ec5df7aee",
+      "body_sha256": "47af0c86721f1c2c0a3a6e6f757c765abbbee492f2dee505cb6f072ec5df7aee"
+    },
+    {
+      "id": 107,
+      "name": "Levelled_Drain_Copy_9",
+      "from": "src/races/forgotten/bloodmage/107_Levelled_Drain_Copy_9.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "f5ae6712e6c3f82cf7af5e1864b07bb60d7375102e20eb6c703227427cc5c5a5",
+      "body_sha256": "f5ae6712e6c3f82cf7af5e1864b07bb60d7375102e20eb6c703227427cc5c5a5"
+    },
+    {
+      "id": 108,
+      "name": "Drain_Setup",
+      "from": "src/races/forgotten/bloodmage/108_Drain_Setup.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "420bce2ad75ed7e4960035c50a94dd1bdbfa2536e902c789b45c1d8871c42854",
+      "body_sha256": "420bce2ad75ed7e4960035c50a94dd1bdbfa2536e902c789b45c1d8871c42854"
+    },
+    {
+      "id": 109,
+      "name": "Drain_Cast",
+      "from": "src/races/forgotten/bloodmage/109_Drain_Cast.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "445d2e45dc29058351f04ac7d2e6a6fee2f4f66a0eb633a9c59313d57c1c70db",
+      "body_sha256": "445d2e45dc29058351f04ac7d2e6a6fee2f4f66a0eb633a9c59313d57c1c70db"
+    },
+    {
+      "id": 110,
+      "name": "Drain_Loop",
+      "from": "src/races/forgotten/bloodmage/110_Drain_Loop.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "730fd3d1b9985d7024d2fbea9d980f80765046666cb9d00f98dd5cc0483f97a9",
+      "body_sha256": "730fd3d1b9985d7024d2fbea9d980f80765046666cb9d00f98dd5cc0483f97a9"
+    },
+    {
+      "id": 111,
+      "name": "Levelled_Slam",
+      "from": "src/races/forgotten/bloodmage/111_Levelled_Slam.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "7d8d536d1cb769b50c7333394811ac2278eef3b841e6a4ddbd1544d8db8ae094",
+      "body_sha256": "7d8d536d1cb769b50c7333394811ac2278eef3b841e6a4ddbd1544d8db8ae094"
+    },
+    {
+      "id": 112,
+      "name": "Levelled_Slam_Copy",
+      "from": "src/races/forgotten/bloodmage/112_Levelled_Slam_Copy.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "8cd8f1e54631ebc8a6b4fe7517ffdb70b8030bb1e18c65ee2d8beceb354061db",
+      "body_sha256": "8cd8f1e54631ebc8a6b4fe7517ffdb70b8030bb1e18c65ee2d8beceb354061db"
+    },
+    {
+      "id": 113,
+      "name": "Levelled_Slam_Copy_2",
+      "from": "src/races/forgotten/bloodmage/113_Levelled_Slam_Copy_2.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "de9cbdc4388671aa18c5f610be0ce6e231c6990c75c3a4b6690e4297e938a5b5",
+      "body_sha256": "de9cbdc4388671aa18c5f610be0ce6e231c6990c75c3a4b6690e4297e938a5b5"
+    },
+    {
+      "id": 114,
+      "name": "Levelled_Slam_Copy_3",
+      "from": "src/races/forgotten/bloodmage/114_Levelled_Slam_Copy_3.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "c5195adc6cf72d1d5b7b39383a4654b57c5eb16cfb34ea72bdd7406ecc6101f8",
+      "body_sha256": "c5195adc6cf72d1d5b7b39383a4654b57c5eb16cfb34ea72bdd7406ecc6101f8"
+    },
+    {
+      "id": 115,
+      "name": "Levelled_Slam_Copy_4",
+      "from": "src/races/forgotten/bloodmage/115_Levelled_Slam_Copy_4.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "1582e376fed9e53b38d9f10eb945a7266c0c0a5384bfbb0a7bf1833ff16e2f35",
+      "body_sha256": "1582e376fed9e53b38d9f10eb945a7266c0c0a5384bfbb0a7bf1833ff16e2f35"
+    },
+    {
+      "id": 116,
+      "name": "Levelled_Slam_Copy_5",
+      "from": "src/races/forgotten/bloodmage/116_Levelled_Slam_Copy_5.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "dd153975e916b5f0f211961c687d85d068a98ab66574c6a0dde79efcbee14bc4",
+      "body_sha256": "dd153975e916b5f0f211961c687d85d068a98ab66574c6a0dde79efcbee14bc4"
+    },
+    {
+      "id": 117,
+      "name": "Levelled_Slam_Copy_6",
+      "from": "src/races/forgotten/bloodmage/117_Levelled_Slam_Copy_6.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "d6d4bbceffc4bec57582d7f50188e481fc1d4ceb26e73b9d1863fb9225871558",
+      "body_sha256": "d6d4bbceffc4bec57582d7f50188e481fc1d4ceb26e73b9d1863fb9225871558"
+    },
+    {
+      "id": 118,
+      "name": "Levelled_Slam_Copy_7",
+      "from": "src/races/forgotten/bloodmage/118_Levelled_Slam_Copy_7.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "e589f3083b920a2ca9455a79c7b43866f0c5367894bf3148b40fdf196e213391",
+      "body_sha256": "e589f3083b920a2ca9455a79c7b43866f0c5367894bf3148b40fdf196e213391"
+    },
+    {
+      "id": 119,
+      "name": "Levelled_Slam_Copy_8",
+      "from": "src/races/forgotten/bloodmage/119_Levelled_Slam_Copy_8.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "334d215205e52e9ed18853531c22e788871e5df023fa8aa64d41917c66d7da54",
+      "body_sha256": "334d215205e52e9ed18853531c22e788871e5df023fa8aa64d41917c66d7da54"
+    },
+    {
+      "id": 120,
+      "name": "Levelled_Slam_Copy_9",
+      "from": "src/races/forgotten/bloodmage/120_Levelled_Slam_Copy_9.lua",
+      "to": "src/races/forgotten/bloodmage.lua",
+      "before_sha256": "847532150050d78185a0cc8527f876a7ac499df017c984a7ab28b5d5c87f079d",
+      "body_sha256": "847532150050d78185a0cc8527f876a7ac499df017c984a7ab28b5d5c87f079d"
+    },
+    {
+      "id": 121,
+      "name": "LevelUpAura",
+      "from": "src/races/nerubian/121_LevelUpAura.lua",
+      "to": "src/races/nerubian.lua",
+      "before_sha256": "02a745b9b71c9397835698610cab801ed61e14024579b641945b190a0a26d2dd",
+      "body_sha256": "02a745b9b71c9397835698610cab801ed61e14024579b641945b190a0a26d2dd"
+    },
+    {
+      "id": 122,
+      "name": "DowngradeAura",
+      "from": "src/races/nerubian/122_DowngradeAura.lua",
+      "to": "src/races/nerubian.lua",
+      "before_sha256": "0f1b9e3a3d4e452c351b4949d6edc52b97709dfce580bea4a7fb4c13b63dd0a8",
+      "body_sha256": "0f1b9e3a3d4e452c351b4949d6edc52b97709dfce580bea4a7fb4c13b63dd0a8"
+    },
+    {
+      "id": 123,
+      "name": "NerubianSpires",
+      "from": "src/races/nerubian/123_NerubianSpires.lua",
+      "to": "src/races/nerubian.lua",
+      "before_sha256": "3d5fb7746079b36e393eecf331c43f891c6d97861cb450ddb3278deebb7f2496",
+      "body_sha256": "3d5fb7746079b36e393eecf331c43f891c6d97861cb450ddb3278deebb7f2496"
+    },
+    {
+      "id": 124,
+      "name": "Frenzy",
+      "from": "src/races/nerubian/124_Frenzy.lua",
+      "to": "src/races/nerubian.lua",
+      "before_sha256": "697f4b11deb2c5349aafc3fd4567f393916e1091896b3381e06af5ffd647c372",
+      "body_sha256": "697f4b11deb2c5349aafc3fd4567f393916e1091896b3381e06af5ffd647c372"
+    },
+    {
+      "id": 125,
+      "name": "Chemical_Rage",
+      "from": "src/races/ratling/125_Chemical_Rage.lua",
+      "to": "src/races/ratling.lua",
+      "before_sha256": "069768752306c7a514e62004ac4f92aa7dfab2b5a674426564658550c6c5b0da",
+      "body_sha256": "069768752306c7a514e62004ac4f92aa7dfab2b5a674426564658550c6c5b0da"
+    },
+    {
+      "id": 126,
+      "name": "ReduceMagicResist",
+      "from": "src/races/ratling/126_ReduceMagicResist.lua",
+      "to": "src/races/ratling.lua",
+      "before_sha256": "bffdc11f491489220581c094639f2ab85e73466607b20a6e816f94a98ce82065",
+      "body_sha256": "bffdc11f491489220581c094639f2ab85e73466607b20a6e816f94a98ce82065"
+    },
+    {
+      "id": 127,
+      "name": "ReduceMagicResist2",
+      "from": "src/races/ratling/127_ReduceMagicResist2.lua",
+      "to": "src/races/ratling.lua",
+      "before_sha256": "8c1eb936c0aa9cc2b4eab4541341026e6bc4308ca94a5525eb468950b468b75c",
+      "body_sha256": "8c1eb936c0aa9cc2b4eab4541341026e6bc4308ca94a5525eb468950b468b75c"
+    },
+    {
+      "id": 128,
+      "name": "TargetAcquired",
+      "from": "src/races/ratling/128_TargetAcquired.lua",
+      "to": "src/races/ratling.lua",
+      "before_sha256": "057d22852a878da283b264fa13cc9295d0c614e6e5e383c052b90aa29f2c700b",
+      "body_sha256": "057d22852a878da283b264fa13cc9295d0c614e6e5e383c052b90aa29f2c700b"
+    },
+    {
+      "id": 129,
+      "name": "Poisoned_Bullets2",
+      "from": "src/races/ratling/129_Poisoned_Bullets2.lua",
+      "to": "src/races/ratling.lua",
+      "before_sha256": "4f66c268b7edcdd5b808e66e3482d78ac5561b26f304ed22c7ab41e165a73819",
+      "body_sha256": "4f66c268b7edcdd5b808e66e3482d78ac5561b26f304ed22c7ab41e165a73819"
+    },
+    {
+      "id": 130,
+      "name": "Poisoned_Bullets",
+      "from": "src/races/ratling/130_Poisoned_Bullets.lua",
+      "to": "src/races/ratling.lua",
+      "before_sha256": "c9909c16e6944d0ce0bebd75c9372040b4af4b65f66be56d2f08e1b9dcc481eb",
+      "body_sha256": "c9909c16e6944d0ce0bebd75c9372040b4af4b65f66be56d2f08e1b9dcc481eb"
+    },
+    {
+      "id": 131,
+      "name": "Permanent_Invisibility",
+      "from": "src/races/ratling/131_Permanent_Invisibility.lua",
+      "to": "src/races/ratling.lua",
+      "before_sha256": "c3ceded0c5230ec484f80ee5701346883e00247269427202e9bbe95d9f471ced",
+      "body_sha256": "c3ceded0c5230ec484f80ee5701346883e00247269427202e9bbe95d9f471ced"
+    },
+    {
+      "id": 132,
+      "name": "Permanent_Invisibility_2",
+      "from": "src/races/ratling/132_Permanent_Invisibility_2.lua",
+      "to": "src/races/ratling.lua",
+      "before_sha256": "820f86d0e64c4a3dfa43773f0e316fcd5f4f20a40d857230e5f5cce2f517d75b",
+      "body_sha256": "820f86d0e64c4a3dfa43773f0e316fcd5f4f20a40d857230e5f5cce2f517d75b"
+    },
+    {
+      "id": 133,
+      "name": "Sticky_Glue",
+      "from": "src/races/ratling/133_Sticky_Glue.lua",
+      "to": "src/races/ratling.lua",
+      "before_sha256": "228232518b171cdcb52e1813567f964bb27b258f87b5f091bed7102d15e51f94",
+      "body_sha256": "228232518b171cdcb52e1813567f964bb27b258f87b5f091bed7102d15e51f94"
+    },
+    {
+      "id": 134,
+      "name": "Wood_Income",
+      "from": "src/races/razormane/134_Wood_Income.lua",
+      "to": "src/races/razormane.lua",
+      "before_sha256": "2de5812e5ba7d4e0cdd0404a41616cecef12b160e58d73fd2b8ebda6c1aaad31",
+      "body_sha256": "2de5812e5ba7d4e0cdd0404a41616cecef12b160e58d73fd2b8ebda6c1aaad31"
+    },
+    {
+      "id": 135,
+      "name": "Enter_Wood_Income",
+      "from": "src/races/razormane/135_Enter_Wood_Income.lua",
+      "to": "src/races/razormane.lua",
+      "before_sha256": "693c6affe14ac8b974402ea72f551823876e027607155f8678e8bdd8458e32f3",
+      "body_sha256": "693c6affe14ac8b974402ea72f551823876e027607155f8678e8bdd8458e32f3"
+    },
+    {
+      "id": 136,
+      "name": "SeedOfRebirth",
+      "from": "src/races/wisp/136_SeedOfRebirth.lua",
+      "to": "src/races/wisp.lua",
+      "before_sha256": "7c4e38a8a2ba77fe9dcd612ec675479c0341616cc55c1c2e77ffe382151b3bf7",
+      "body_sha256": "7c4e38a8a2ba77fe9dcd612ec675479c0341616cc55c1c2e77ffe382151b3bf7"
+    },
+    {
+      "id": 137,
+      "name": "Ancient_Artifact",
+      "from": "src/races/wildkin/137_Ancient_Artifact.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "2f4ba761431f8fab38190c6c8e8946db46fc9f512969be2a6d4b1eac227e089b",
+      "body_sha256": "2f4ba761431f8fab38190c6c8e8946db46fc9f512969be2a6d4b1eac227e089b"
+    },
+    {
+      "id": 138,
+      "name": "Moonstrike",
+      "from": "src/races/wildkin/138_Moonstrike.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "70c44e8b41331574b7bfc88403a5b6b648ab96549d63f929fed7e2c91d4657dc",
+      "body_sha256": "70c44e8b41331574b7bfc88403a5b6b648ab96549d63f929fed7e2c91d4657dc"
+    },
+    {
+      "id": 139,
+      "name": "Moonstrike_Leveled",
+      "from": "src/races/wildkin/139_Moonstrike_Leveled.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "6f03fa14619ef62fff3293a1d2a04d4300ba163384ac7025ee387cd25ff5a806",
+      "body_sha256": "6f03fa14619ef62fff3293a1d2a04d4300ba163384ac7025ee387cd25ff5a806"
+    },
+    {
+      "id": 140,
+      "name": "Moonblast",
+      "from": "src/races/wildkin/140_Moonblast.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "895eb8c7d2624f510b0352e6135dbb5637f0c0dbcc0b465400dce41ac0cd3d33",
+      "body_sha256": "895eb8c7d2624f510b0352e6135dbb5637f0c0dbcc0b465400dce41ac0cd3d33"
+    },
+    {
+      "id": 141,
+      "name": "Moonblast_Leveled",
+      "from": "src/races/wildkin/141_Moonblast_Leveled.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "d39fb06c121caa72d6f6e67e8a49abc6c2e53dc69b6358b60cc55fd68d429de3",
+      "body_sha256": "d39fb06c121caa72d6f6e67e8a49abc6c2e53dc69b6358b60cc55fd68d429de3"
+    },
+    {
+      "id": 142,
+      "name": "Lunar_Assault",
+      "from": "src/races/wildkin/142_Lunar_Assault.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "beec5d52de392a83541bd6abf63f8eeadb8660495510178de5201f7cc41d8df1",
+      "body_sha256": "beec5d52de392a83541bd6abf63f8eeadb8660495510178de5201f7cc41d8df1"
+    },
+    {
+      "id": 143,
+      "name": "Lunar_Assault_Leveled",
+      "from": "src/races/wildkin/143_Lunar_Assault_Leveled.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "bf44cb2e7dbf2304847cc4cc19bd5ad00255ed56ad90be43962be711f79cf2d2",
+      "body_sha256": "bf44cb2e7dbf2304847cc4cc19bd5ad00255ed56ad90be43962be711f79cf2d2"
+    },
+    {
+      "id": 144,
+      "name": "Cascade_Leveled",
+      "from": "src/races/wildkin/144_Cascade_Leveled.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "f71d28de3208a08f5d817c336c4538f4dc19b330b1373009b48936d64a573964",
+      "body_sha256": "f71d28de3208a08f5d817c336c4538f4dc19b330b1373009b48936d64a573964"
+    },
+    {
+      "id": 145,
+      "name": "Nourish",
+      "from": "src/races/wildkin/145_Nourish.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "bf1c2f8de2b76ae43b97b6a7b0ff759be0264df01ab2a8e23ef15a0df7ae9f4d",
+      "body_sha256": "bf1c2f8de2b76ae43b97b6a7b0ff759be0264df01ab2a8e23ef15a0df7ae9f4d"
+    },
+    {
+      "id": 146,
+      "name": "Nourish_Leveled",
+      "from": "src/races/wildkin/146_Nourish_Leveled.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "37f87d344b8413af8866929fbe5b1f5eeae98e4271c4817bbf4d60854ff5b2c9",
+      "body_sha256": "37f87d344b8413af8866929fbe5b1f5eeae98e4271c4817bbf4d60854ff5b2c9"
+    },
+    {
+      "id": 147,
+      "name": "Solar_Blast",
+      "from": "src/races/wildkin/147_Solar_Blast.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "d3830c1da934e7b573b41e293d8d6156b18c027908e9407f17e22e6f4314998a",
+      "body_sha256": "d3830c1da934e7b573b41e293d8d6156b18c027908e9407f17e22e6f4314998a"
+    },
+    {
+      "id": 148,
+      "name": "Natural_Vigil_Leveled",
+      "from": "src/races/wildkin/148_Natural_Vigil_Leveled.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "796869487d5a669430eff54f9912f599ab84a3c95ddc31f1a0c160d975eec164",
+      "body_sha256": "796869487d5a669430eff54f9912f599ab84a3c95ddc31f1a0c160d975eec164"
+    },
+    {
+      "id": 149,
+      "name": "Lifebloom_Leveled",
+      "from": "src/races/wildkin/149_Lifebloom_Leveled.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "f55832f10dd21110175b9f628d3ccbcd96ee826837a7886c7cf4a9f703e591e9",
+      "body_sha256": "f55832f10dd21110175b9f628d3ccbcd96ee826837a7886c7cf4a9f703e591e9"
+    },
+    {
+      "id": 150,
+      "name": "Suns_Fury",
+      "from": "src/races/wildkin/150_Suns_Fury.lua",
+      "to": "src/races/wildkin.lua",
+      "before_sha256": "d3d5c2fdb472aeb3333a06ef7fd961b032a02969beeef8cec252779592f9cd11",
+      "body_sha256": "d3d5c2fdb472aeb3333a06ef7fd961b032a02969beeef8cec252779592f9cd11"
+    },
+    {
+      "id": 151,
+      "name": "Return_lumber",
+      "from": "src/races/worgen/151_Return_lumber.lua",
+      "to": "src/races/worgen.lua",
+      "before_sha256": "cb75461a45f2980a0c2a15a2337ec9f222e5f7e9d5dc3b80978c4159c90b699e",
+      "body_sha256": "cb75461a45f2980a0c2a15a2337ec9f222e5f7e9d5dc3b80978c4159c90b699e"
+    },
+    {
+      "id": 152,
+      "name": "Slash_Leveled",
+      "from": "src/races/worgen/152_Slash_Leveled.lua",
+      "to": "src/races/worgen.lua",
+      "before_sha256": "1ec205b2311f8bc43b15384163e8e284865ba6e452f8f80d1954411cf38a1d1c",
+      "body_sha256": "1ec205b2311f8bc43b15384163e8e284865ba6e452f8f80d1954411cf38a1d1c"
+    },
+    {
+      "id": 153,
+      "name": "Bleed_Leveled",
+      "from": "src/races/worgen/153_Bleed_Leveled.lua",
+      "to": "src/races/worgen.lua",
+      "before_sha256": "cfcd3ed11a0ccfd5c129258c8b4681bdeb9746f6151b3fc7946cd13e0db7291f",
+      "body_sha256": "cfcd3ed11a0ccfd5c129258c8b4681bdeb9746f6151b3fc7946cd13e0db7291f"
+    },
+    {
+      "id": 154,
+      "name": "Focused_Strike",
+      "from": "src/races/worgen/154_Focused_Strike.lua",
+      "to": "src/races/worgen.lua",
+      "before_sha256": "737c998fc1dd59715428e20104dc49a3f08fcca0030230af7d68a64034854fd4",
+      "body_sha256": "737c998fc1dd59715428e20104dc49a3f08fcca0030230af7d68a64034854fd4"
+    },
+    {
+      "id": 155,
+      "name": "FanOfKnivesBasedSpells",
+      "from": "src/combat/spells/155_FanOfKnivesBasedSpells.lua",
+      "to": "src/combat/spells.lua",
+      "before_sha256": "b1e7decdf7d75b6bb7fed6babb6d3bbc4c2d32b53af008722b8d2b09c0eed300",
+      "body_sha256": "b1e7decdf7d75b6bb7fed6babb6d3bbc4c2d32b53af008722b8d2b09c0eed300"
+    },
+    {
+      "id": 156,
+      "name": "Realm_of_darkness",
+      "from": "src/ancients/paranoia/156_Realm_of_darkness.lua",
+      "to": "src/ancients/paranoia.lua",
+      "before_sha256": "15c81bb760cb068366c855be3bf006b03ece5501ff90cc9af4adf058169131a8",
+      "body_sha256": "15c81bb760cb068366c855be3bf006b03ece5501ff90cc9af4adf058169131a8"
+    },
+    {
+      "id": 157,
+      "name": "Realm_of_darkness_2",
+      "from": "src/ancients/paranoia/157_Realm_of_darkness_2.lua",
+      "to": "src/ancients/paranoia.lua",
+      "before_sha256": "6b28472fd606488dc4eb77cf3f9b454b6d4ec4227f17c48a7f4d7ef924b4b88a",
+      "body_sha256": "6b28472fd606488dc4eb77cf3f9b454b6d4ec4227f17c48a7f4d7ef924b4b88a"
+    },
+    {
+      "id": 158,
+      "name": "Thunderstruck",
+      "from": "src/ancients/zalxon/158_Thunderstruck.lua",
+      "to": "src/ancients/zalxon.lua",
+      "before_sha256": "05138838b7cba72365dff2a54d9a7910d46308beb8a2439da40895578d004682",
+      "body_sha256": "05138838b7cba72365dff2a54d9a7910d46308beb8a2439da40895578d004682"
+    },
+    {
+      "id": 159,
+      "name": "Lightning_Strike",
+      "from": "src/ancients/zalxon/159_Lightning_Strike.lua",
+      "to": "src/ancients/zalxon.lua",
+      "before_sha256": "f55a082c62e7e732b0fdde5b72a554acd00ca9f16fbf321f4d0cd17679c8cc5c",
+      "body_sha256": "f55a082c62e7e732b0fdde5b72a554acd00ca9f16fbf321f4d0cd17679c8cc5c"
+    },
+    {
+      "id": 160,
+      "name": "RecallStart",
+      "from": "src/ancients/nebula/160_RecallStart.lua",
+      "to": "src/ancients/nebula.lua",
+      "before_sha256": "d15b8c96306b3c3d102b91566a918b7c05e1a3bd71529f83364ca30ab686d881",
+      "body_sha256": "d15b8c96306b3c3d102b91566a918b7c05e1a3bd71529f83364ca30ab686d881"
+    },
+    {
+      "id": 161,
+      "name": "Recall",
+      "from": "src/ancients/nebula/161_Recall.lua",
+      "to": "src/ancients/nebula.lua",
+      "before_sha256": "a59bfec3fa785d19d3c430c988b12605f5c3f6846db25789dfffde2a08411bb0",
+      "body_sha256": "a59bfec3fa785d19d3c430c988b12605f5c3f6846db25789dfffde2a08411bb0"
+    },
+    {
+      "id": 162,
+      "name": "Time_warp",
+      "from": "src/ancients/nebula/162_Time_warp.lua",
+      "to": "src/ancients/nebula.lua",
+      "before_sha256": "15d554160872310c048726c9a6b1a1805e435130cc3181dd4b293774edbacda4",
+      "body_sha256": "15d554160872310c048726c9a6b1a1805e435130cc3181dd4b293774edbacda4"
+    },
+    {
+      "id": 163,
+      "name": "Galactic_Fury",
+      "from": "src/ancients/nebula/163_Galactic_Fury.lua",
+      "to": "src/ancients/nebula.lua",
+      "before_sha256": "bfc553e8cc42491108014e900d5b58edb800e03ec9171c82b1cf8b7dc1d66db2",
+      "body_sha256": "bfc553e8cc42491108014e900d5b58edb800e03ec9171c82b1cf8b7dc1d66db2"
+    },
+    {
+      "id": 164,
+      "name": "Galactic_Fury_2",
+      "from": "src/ancients/nebula/164_Galactic_Fury_2.lua",
+      "to": "src/ancients/nebula.lua",
+      "before_sha256": "15d0af017108c3212a99c5f81cb7d38c5a1492fe182bd50a3a289995cf8dfacc",
+      "body_sha256": "15d0af017108c3212a99c5f81cb7d38c5a1492fe182bd50a3a289995cf8dfacc"
+    },
+    {
+      "id": 165,
+      "name": "Galactic_Fury_3",
+      "from": "src/ancients/nebula/165_Galactic_Fury_3.lua",
+      "to": "src/ancients/nebula.lua",
+      "before_sha256": "01a6aa52a2873315e3edec6ad4abd66cf780fb6b2e7b65663e61aa6f5a6d3cb1",
+      "body_sha256": "01a6aa52a2873315e3edec6ad4abd66cf780fb6b2e7b65663e61aa6f5a6d3cb1"
+    },
+    {
+      "id": 166,
+      "name": "Cosmic_Strike",
+      "from": "src/ancients/nebula/166_Cosmic_Strike.lua",
+      "to": "src/ancients/nebula.lua",
+      "before_sha256": "80d7d3823dd58d26d577149dfa44b2eb59f62c69b1e1c5d5100128fc12bb4036",
+      "body_sha256": "80d7d3823dd58d26d577149dfa44b2eb59f62c69b1e1c5d5100128fc12bb4036"
+    },
+    {
+      "id": 167,
+      "name": "Cosmic_Strike_2",
+      "from": "src/ancients/nebula/167_Cosmic_Strike_2.lua",
+      "to": "src/ancients/nebula.lua",
+      "before_sha256": "9f34f7086da8ed08ca1854cf9c0e5233f3b3f259d05f7d249fe4de659bf4f715",
+      "body_sha256": "9f34f7086da8ed08ca1854cf9c0e5233f3b3f259d05f7d249fe4de659bf4f715"
+    },
+    {
+      "id": 168,
+      "name": "Cosmic_Strike_3",
+      "from": "src/ancients/nebula/168_Cosmic_Strike_3.lua",
+      "to": "src/ancients/nebula.lua",
+      "before_sha256": "7ff934d8ad6035fead0c2245fe62093d18deefea58b5404234f6b9ae42390e15",
+      "body_sha256": "7ff934d8ad6035fead0c2245fe62093d18deefea58b5404234f6b9ae42390e15"
+    },
+    {
+      "id": 169,
+      "name": "Resillience",
+      "from": "src/ancients/tremor/169_Resillience.lua",
+      "to": "src/ancients/tremor.lua",
+      "before_sha256": "00759110cdaa11c4654f1376cb0125d5a8385e7dda06cf8fa5bf1347d923b932",
+      "body_sha256": "00759110cdaa11c4654f1376cb0125d5a8385e7dda06cf8fa5bf1347d923b932"
+    },
+    {
+      "id": 170,
+      "name": "Resillience_2",
+      "from": "src/ancients/tremor/170_Resillience_2.lua",
+      "to": "src/ancients/tremor.lua",
+      "before_sha256": "9d84916d90bd29f4b8b08d558b505471f6a8fcaaeed494f1e36ff64d1f669ab4",
+      "body_sha256": "9d84916d90bd29f4b8b08d558b505471f6a8fcaaeed494f1e36ff64d1f669ab4"
+    },
+    {
+      "id": 171,
+      "name": "Resillience_3",
+      "from": "src/ancients/tremor/171_Resillience_3.lua",
+      "to": "src/ancients/tremor.lua",
+      "before_sha256": "172f02322e5cfff33c653b1dc1c1591041c082e0f7a19c8b9f0a7b20c631f38c",
+      "body_sha256": "172f02322e5cfff33c653b1dc1c1591041c082e0f7a19c8b9f0a7b20c631f38c"
+    },
+    {
+      "id": 172,
+      "name": "Sandstorm",
+      "from": "src/ancients/pharaoh/172_Sandstorm.lua",
+      "to": "src/ancients/pharaoh.lua",
+      "before_sha256": "be63a095f41f39ad0cd36a373abb6e76f5296bb9ff05f4f7ed8e9c226502b526",
+      "body_sha256": "be63a095f41f39ad0cd36a373abb6e76f5296bb9ff05f4f7ed8e9c226502b526"
+    },
+    {
+      "id": 173,
+      "name": "Sandstorm_2",
+      "from": "src/ancients/pharaoh/173_Sandstorm_2.lua",
+      "to": "src/ancients/pharaoh.lua",
+      "before_sha256": "bb3902854e7a052b0786ffea108c2d56b41dec735a9bd533fddc42c2b039b1b5",
+      "body_sha256": "bb3902854e7a052b0786ffea108c2d56b41dec735a9bd533fddc42c2b039b1b5"
+    },
+    {
+      "id": 174,
+      "name": "Ancient_Grasp",
+      "from": "src/ancients/pharaoh/174_Ancient_Grasp.lua",
+      "to": "src/ancients/pharaoh.lua",
+      "before_sha256": "24e942529aa960ad261906df9c5cda92901ab40593a4544e52fe2afeda0aa3ba",
+      "body_sha256": "24e942529aa960ad261906df9c5cda92901ab40593a4544e52fe2afeda0aa3ba"
+    },
+    {
+      "id": 175,
+      "name": "Deserts_Veil",
+      "from": "src/ancients/pharaoh/175_Deserts_Veil.lua",
+      "to": "src/ancients/pharaoh.lua",
+      "before_sha256": "cf81f59573ebf3d98102c06a1f1836cd12d58a213defd1d66ecc57bb07e04942",
+      "body_sha256": "cf81f59573ebf3d98102c06a1f1836cd12d58a213defd1d66ecc57bb07e04942"
+    },
+    {
+      "id": 176,
+      "name": "Chill",
+      "from": "src/ancients/avalanche/176_Chill.lua",
+      "to": "src/ancients/avalanche.lua",
+      "before_sha256": "c415d9f28cb22c5007293937340818a05595da765f7274d044ec90c931f88f7c",
+      "body_sha256": "c415d9f28cb22c5007293937340818a05595da765f7274d044ec90c931f88f7c"
+    },
+    {
+      "id": 177,
+      "name": "Freeze_Zone",
+      "from": "src/ancients/avalanche/177_Freeze_Zone.lua",
+      "to": "src/ancients/avalanche.lua",
+      "before_sha256": "bb54cba14deb6dd6de2ce2e24dedf191c9bf07093e2fd3028f4ea4f24e6604de",
+      "body_sha256": "bb54cba14deb6dd6de2ce2e24dedf191c9bf07093e2fd3028f4ea4f24e6604de"
+    },
+    {
+      "id": 178,
+      "name": "Freeze_Zone_V2",
+      "from": "src/ancients/avalanche/178_Freeze_Zone_V2.lua",
+      "to": "src/ancients/avalanche.lua",
+      "before_sha256": "1e38fa62524d0da224ec5a7baa42e01834b62379a7048d73ed6313590fb03ddd",
+      "body_sha256": "1e38fa62524d0da224ec5a7baa42e01834b62379a7048d73ed6313590fb03ddd"
+    },
+    {
+      "id": 179,
+      "name": "Sadism",
+      "from": "src/ancients/divinity/179_Sadism.lua",
+      "to": "src/ancients/divinity.lua",
+      "before_sha256": "a5f45aaea90e37aba10876a96be66946bbd8ea08c942dd6a8da13363b80e35ac",
+      "body_sha256": "a5f45aaea90e37aba10876a96be66946bbd8ea08c942dd6a8da13363b80e35ac"
+    },
+    {
+      "id": 180,
+      "name": "Reckoning",
+      "from": "src/ancients/divinity/180_Reckoning.lua",
+      "to": "src/ancients/divinity.lua",
+      "before_sha256": "721ab906f6a7af18d027ab9b1a0f0c14be0dd86f40d5566dff13a213c7dc14f6",
+      "body_sha256": "721ab906f6a7af18d027ab9b1a0f0c14be0dd86f40d5566dff13a213c7dc14f6"
+    },
+    {
+      "id": 181,
+      "name": "Vanguard_Initial",
+      "from": "src/ancients/divinity/181_Vanguard_Initial.lua",
+      "to": "src/ancients/divinity.lua",
+      "before_sha256": "746b3fc0d17a9b83a94bd65bc072305edfb92b9ea735e4fd9d4a9b79b8af0e96",
+      "body_sha256": "746b3fc0d17a9b83a94bd65bc072305edfb92b9ea735e4fd9d4a9b79b8af0e96"
+    },
+    {
+      "id": 182,
+      "name": "Vanguard_Future_Levels",
+      "from": "src/ancients/divinity/182_Vanguard_Future_Levels.lua",
+      "to": "src/ancients/divinity.lua",
+      "before_sha256": "f4e69dc4b7baae3edb856e8aa3a8cf0cdeb7b395b895f799d5426700a91de60e",
+      "body_sha256": "f4e69dc4b7baae3edb856e8aa3a8cf0cdeb7b395b895f799d5426700a91de60e"
+    },
+    {
+      "id": 183,
+      "name": "Vanguard",
+      "from": "src/ancients/divinity/183_Vanguard.lua",
+      "to": "src/ancients/divinity.lua",
+      "before_sha256": "caafe1b554db14984abf39dd01368c01478e084021460d181345be7a1f1952b9",
+      "body_sha256": "caafe1b554db14984abf39dd01368c01478e084021460d181345be7a1f1952b9"
+    },
+    {
+      "id": 184,
+      "name": "Omniscience_Initial",
+      "from": "src/ancients/divinity/184_Omniscience_Initial.lua",
+      "to": "src/ancients/divinity.lua",
+      "before_sha256": "87f6092eb3723bf992664c743ad5b02513a1216a2acf996b8db322b67b427262",
+      "body_sha256": "87f6092eb3723bf992664c743ad5b02513a1216a2acf996b8db322b67b427262"
+    },
+    {
+      "id": 185,
+      "name": "Omniscience_FL",
+      "from": "src/ancients/divinity/185_Omniscience_FL.lua",
+      "to": "src/ancients/divinity.lua",
+      "before_sha256": "465a3e505fb2248128c917b3b06c01880afdea802a3b81131864127d0db55527",
+      "body_sha256": "465a3e505fb2248128c917b3b06c01880afdea802a3b81131864127d0db55527"
+    },
+    {
+      "id": 186,
+      "name": "Omniscience",
+      "from": "src/ancients/divinity/186_Omniscience.lua",
+      "to": "src/ancients/divinity.lua",
+      "before_sha256": "b76d405c2340ab6175d32360ae14a258cd2a4f0d555172a968ae1bd0bc39eb85",
+      "body_sha256": "b76d405c2340ab6175d32360ae14a258cd2a4f0d555172a968ae1bd0bc39eb85"
+    },
+    {
+      "id": 187,
+      "name": "Redemption",
+      "from": "src/ancients/divinity/187_Redemption.lua",
+      "to": "src/ancients/divinity.lua",
+      "before_sha256": "e97048132ef21962ba964898252c996031b100d83b310346a5f39127415daf82",
+      "body_sha256": "e97048132ef21962ba964898252c996031b100d83b310346a5f39127415daf82"
+    },
+    {
+      "id": 188,
+      "name": "Refreshing_Breeze",
+      "from": "src/ancients/wispari/188_Refreshing_Breeze.lua",
+      "to": "src/ancients/wispari.lua",
+      "before_sha256": "4366ed01d4c72de254e8d1d15f06d267258e52edee3afd01c88694b599ed8d0f",
+      "body_sha256": "4366ed01d4c72de254e8d1d15f06d267258e52edee3afd01c88694b599ed8d0f"
+    },
+    {
+      "id": 189,
+      "name": "Gale_Winds",
+      "from": "src/ancients/wispari/189_Gale_Winds.lua",
+      "to": "src/ancients/wispari.lua",
+      "before_sha256": "4366ed01d4c72de254e8d1d15f06d267258e52edee3afd01c88694b599ed8d0f",
+      "body_sha256": "4366ed01d4c72de254e8d1d15f06d267258e52edee3afd01c88694b599ed8d0f"
+    },
+    {
+      "id": 190,
+      "name": "WindWalkWispari",
+      "from": "src/ancients/wispari/190_WindWalkWispari.lua",
+      "to": "src/ancients/wispari.lua",
+      "before_sha256": "f181667737c4178c7fbf47f029fc43413ff991074f9a61e93a29b410fcdfc741",
+      "body_sha256": "f181667737c4178c7fbf47f029fc43413ff991074f9a61e93a29b410fcdfc741"
+    },
+    {
+      "id": 191,
+      "name": "TornadoMove",
+      "from": "src/ancients/wispari/191_TornadoMove.lua",
+      "to": "src/ancients/wispari.lua",
+      "before_sha256": "2ca3ad50e5f58b099fa5e95c4fd1d0563e658e5dcb7a8194fa7a8759839d1ca8",
+      "body_sha256": "2ca3ad50e5f58b099fa5e95c4fd1d0563e658e5dcb7a8194fa7a8759839d1ca8"
+    },
+    {
+      "id": 192,
+      "name": "Sit_tight",
+      "from": "src/ui/hints/192_Sit_tight.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "ca228a4c96224de7d465561626883c12b4849c2cb79da39b6faf35174dd7b073",
+      "body_sha256": "ca228a4c96224de7d465561626883c12b4849c2cb79da39b6faf35174dd7b073"
+    },
+    {
+      "id": 193,
+      "name": "ClearOnEsc",
+      "from": "src/ui/hints/193_ClearOnEsc.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "fb6945ba00f1d16e6a6bbef9b335228de69be5df52da6808e3f61c1b67472299",
+      "body_sha256": "fb6945ba00f1d16e6a6bbef9b335228de69be5df52da6808e3f61c1b67472299"
+    },
+    {
+      "id": 194,
+      "name": "InitialText",
+      "from": "src/ui/hints/194_InitialText.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "d302e4b8adeeb003487cddc19a50832e26c0ca72d25765435e7e81eb39183b82",
+      "body_sha256": "d302e4b8adeeb003487cddc19a50832e26c0ca72d25765435e7e81eb39183b82"
+    },
+    {
+      "id": 195,
+      "name": "Welcome",
+      "from": "src/ui/hints/195_Welcome.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "7da0f52cc5fb40616e78a1a2cb83a857fd1b62007eaccc98ed04df2fdbf15ab6",
+      "body_sha256": "7da0f52cc5fb40616e78a1a2cb83a857fd1b62007eaccc98ed04df2fdbf15ab6"
+    },
+    {
+      "id": 196,
+      "name": "Info_Copy",
+      "from": "src/ui/hints/196_Info_Copy.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "d086a760bb3968dca9b550d0f52491f0922b7a92bf6b4da3215b7fd188904cf7",
+      "body_sha256": "d086a760bb3968dca9b550d0f52491f0922b7a92bf6b4da3215b7fd188904cf7"
+    },
+    {
+      "id": 197,
+      "name": "Info",
+      "from": "src/ui/hints/197_Info.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "f14b08d2e4d279578bc82f04095f2b27f5c6d4fecf6287634f9bc5d774b6e303",
+      "body_sha256": "f14b08d2e4d279578bc82f04095f2b27f5c6d4fecf6287634f9bc5d774b6e303"
+    },
+    {
+      "id": 198,
+      "name": "Ping_Hint",
+      "from": "src/ui/hints/198_Ping_Hint.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "b79ce871ec1d3a3e1fdfc9da044a911272542988ff30728ff6279844eae64e8b",
+      "body_sha256": "b79ce871ec1d3a3e1fdfc9da044a911272542988ff30728ff6279844eae64e8b"
+    },
+    {
+      "id": 199,
+      "name": "Hint2x2",
+      "from": "src/ui/hints/199_Hint2x2.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "cb2951ea368cf06f6f2b9b49529813ac00a2ab73a66019af39946b9fd760820b",
+      "body_sha256": "cb2951ea368cf06f6f2b9b49529813ac00a2ab73a66019af39946b9fd760820b"
+    },
+    {
+      "id": 200,
+      "name": "HintInvisibility",
+      "from": "src/ui/hints/200_HintInvisibility.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "644ecc23134bbf6dfa6ac72ef5aa654ce99f2156fe5b80229fa4b86ada28954b",
+      "body_sha256": "644ecc23134bbf6dfa6ac72ef5aa654ce99f2156fe5b80229fa4b86ada28954b"
+    },
+    {
+      "id": 201,
+      "name": "HintFeed",
+      "from": "src/ui/hints/201_HintFeed.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "ef928f711b547b196a9363857a1b40bf66766d37efa19625bad93e013731f5c2",
+      "body_sha256": "ef928f711b547b196a9363857a1b40bf66766d37efa19625bad93e013731f5c2"
+    },
+    {
+      "id": 202,
+      "name": "Resource_Hint",
+      "from": "src/ui/hints/202_Resource_Hint.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "b86ae48dde7ca2a0f905c329d3e28a5aa0634dab39815e346184b7b9b1a2051a",
+      "body_sha256": "b86ae48dde7ca2a0f905c329d3e28a5aa0634dab39815e346184b7b9b1a2051a"
+    },
+    {
+      "id": 203,
+      "name": "Ping",
+      "from": "src/ui/hints/203_Ping.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "58cecde0422a0a49b0eb29ce8e01be958523ebff17b703c5819c886d12d5b830",
+      "body_sha256": "58cecde0422a0a49b0eb29ce8e01be958523ebff17b703c5819c886d12d5b830"
+    },
+    {
+      "id": 204,
+      "name": "PingForAncient",
+      "from": "src/ui/hints/204_PingForAncient.lua",
+      "to": "src/ui/hints.lua",
+      "before_sha256": "d5d48cce956c050d11c06f138851f26a64f6df0de576291803e1cb15dacc7873",
+      "body_sha256": "d5d48cce956c050d11c06f138851f26a64f6df0de576291803e1cb15dacc7873"
+    },
+    {
+      "id": 205,
+      "name": "AncientSpells",
+      "from": "src/commands/205_AncientSpells.lua",
+      "to": "src/commands/player.lua",
+      "before_sha256": "eb286491ed9db4bd324e0bac62121671451b2cfc502d272530cbc6d1d0f659ba",
+      "body_sha256": "eb286491ed9db4bd324e0bac62121671451b2cfc502d272530cbc6d1d0f659ba"
+    },
+    {
+      "id": 206,
+      "name": "Start",
+      "from": "src/ai/206_Start.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "d94bb1ee9319faa298574ab8c6fb4254b619c7aa5a69ccd17da125f3a61a6c89",
+      "body_sha256": "d94bb1ee9319faa298574ab8c6fb4254b619c7aa5a69ccd17da125f3a61a6c89"
+    },
+    {
+      "id": 207,
+      "name": "Hard_mode_on",
+      "from": "src/ai/207_Hard_mode_on.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "49bf79ca29ef488c7d129f3d2266b8ec2f7156fa08562624774a9e7e35ec7ecf",
+      "body_sha256": "49bf79ca29ef488c7d129f3d2266b8ec2f7156fa08562624774a9e7e35ec7ecf"
+    },
+    {
+      "id": 208,
+      "name": "Hard_Attack",
+      "from": "src/ai/208_Hard_Attack.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "be45a3cc7376f9870c18142a5c6874cd36c580509ce9e3f462529625e372f820",
+      "body_sha256": "be45a3cc7376f9870c18142a5c6874cd36c580509ce9e3f462529625e372f820"
+    },
+    {
+      "id": 209,
+      "name": "Hard_Attack_Cont",
+      "from": "src/ai/209_Hard_Attack_Cont.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "5e4ec96473ca1cd29a0172f8ce5869f0f8a87c3526b0a77fa9993ea01f084c30",
+      "body_sha256": "5e4ec96473ca1cd29a0172f8ce5869f0f8a87c3526b0a77fa9993ea01f084c30"
+    },
+    {
+      "id": 210,
+      "name": "Hard_attack_2",
+      "from": "src/ai/210_Hard_attack_2.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "93a20a0f53e5fc11258770efe651401a2b465d62f2a14ab01c42f15bd7deb16b",
+      "body_sha256": "93a20a0f53e5fc11258770efe651401a2b465d62f2a14ab01c42f15bd7deb16b"
+    },
+    {
+      "id": 211,
+      "name": "Select",
+      "from": "src/ai/211_Select.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "a6939c2c33106aec5e35b860f4afc6c434aa72bb6dec207cb4f4f3911fcd0da8",
+      "body_sha256": "a6939c2c33106aec5e35b860f4afc6c434aa72bb6dec207cb4f4f3911fcd0da8"
+    },
+    {
+      "id": 212,
+      "name": "Attack",
+      "from": "src/ai/212_Attack.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "1e6a9864030808b526ef60a1b82e228b6a35a133d3d63180e1cf4d72d9cef2ca",
+      "body_sha256": "1e6a9864030808b526ef60a1b82e228b6a35a133d3d63180e1cf4d72d9cef2ca"
+    },
+    {
+      "id": 213,
+      "name": "Run_away",
+      "from": "src/ai/213_Run_away.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "d9257e2aa96149043411ef25055ca5392e5025a6b8da6283064ea3242730706d",
+      "body_sha256": "d9257e2aa96149043411ef25055ca5392e5025a6b8da6283064ea3242730706d"
+    },
+    {
+      "id": 214,
+      "name": "Slot1_Righteous_Armor",
+      "from": "src/ai/214_Slot1_Righteous_Armor.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "19698705ac8bfc6a57878fef81dad56a44d17e81547ba2f7cc04926796e2077b",
+      "body_sha256": "19698705ac8bfc6a57878fef81dad56a44d17e81547ba2f7cc04926796e2077b"
+    },
+    {
+      "id": 215,
+      "name": "Slot2_Valor_Helmet",
+      "from": "src/ai/215_Slot2_Valor_Helmet.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "6b9d255eb0f4d8f901d2980227ea811796b0a099b87d690438a393710097590f",
+      "body_sha256": "6b9d255eb0f4d8f901d2980227ea811796b0a099b87d690438a393710097590f"
+    },
+    {
+      "id": 216,
+      "name": "Slot3_Bladed_Gauntlet",
+      "from": "src/ai/216_Slot3_Bladed_Gauntlet.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "818c6dc614190da0cdbd991d566ec0eb254e2c467e251fa1f0ecb27db091c304",
+      "body_sha256": "818c6dc614190da0cdbd991d566ec0eb254e2c467e251fa1f0ecb27db091c304"
+    },
+    {
+      "id": 217,
+      "name": "Slot4_Bladed_Gauntlet",
+      "from": "src/ai/217_Slot4_Bladed_Gauntlet.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "0c9f90fa1ce92af7cccd1915e817f094ad0ddb5bd71f963d092166a25d796222",
+      "body_sha256": "0c9f90fa1ce92af7cccd1915e817f094ad0ddb5bd71f963d092166a25d796222"
+    },
+    {
+      "id": 218,
+      "name": "Slot5_Bladed_Gauntlet",
+      "from": "src/ai/218_Slot5_Bladed_Gauntlet.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "5ac0244da44a81c467e08c35cd607b5ca78e84b7524ec6d17ac69bce2c2b5489",
+      "body_sha256": "5ac0244da44a81c467e08c35cd607b5ca78e84b7524ec6d17ac69bce2c2b5489"
+    },
+    {
+      "id": 219,
+      "name": "Slot6_Bladed_Gauntlet",
+      "from": "src/ai/219_Slot6_Bladed_Gauntlet.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "39b4941f490787889756e349fa7019fa497ee9511f6399495b479b43d8cf96bf",
+      "body_sha256": "39b4941f490787889756e349fa7019fa497ee9511f6399495b479b43d8cf96bf"
+    },
+    {
+      "id": 220,
+      "name": "Level_Up_Tomes",
+      "from": "src/ai/220_Level_Up_Tomes.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "4d8d8a21f13edcee5f9f4b263435147b4be876d81f9f8c883c5a0677cde61986",
+      "body_sha256": "4d8d8a21f13edcee5f9f4b263435147b4be876d81f9f8c883c5a0677cde61986"
+    },
+    {
+      "id": 221,
+      "name": "Abilities",
+      "from": "src/ai/221_Abilities.lua",
+      "to": "src/ai/behavior.lua",
+      "before_sha256": "0b33884138c5f419dbb1522cc6a0f2b3eeadf3e013def4f19775e32b94109bb1",
+      "body_sha256": "0b33884138c5f419dbb1522cc6a0f2b3eeadf3e013def4f19775e32b94109bb1"
+    },
+    {
+      "id": 222,
+      "name": "Staff_of_insight_pickup",
+      "from": "src/items/222_Staff_of_insight_pickup.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "7162b18051eb470e145240fd22df643dc53e4530958d00c7be2d8986b2a6162c",
+      "body_sha256": "7162b18051eb470e145240fd22df643dc53e4530958d00c7be2d8986b2a6162c"
+    },
+    {
+      "id": 223,
+      "name": "Dusts_Slow",
+      "from": "src/items/223_Dusts_Slow.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "060e0162cca409457e1d5d8aaeedfa7865c8e200aa7600af4d0d12aca55fca7a",
+      "body_sha256": "060e0162cca409457e1d5d8aaeedfa7865c8e200aa7600af4d0d12aca55fca7a"
+    },
+    {
+      "id": 224,
+      "name": "Firelords_Cape_usage",
+      "from": "src/items/224_Firelords_Cape_usage.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "a5f8c119f631f066f134920a574c6ef3cb0966119977bed2bb313166f36eb8ff",
+      "body_sha256": "a5f8c119f631f066f134920a574c6ef3cb0966119977bed2bb313166f36eb8ff"
+    },
+    {
+      "id": 225,
+      "name": "Firelords_Cape_pickup",
+      "from": "src/items/225_Firelords_Cape_pickup.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "b1e9a70abb6ae4cc6d1487758576fee8190fb4e92e8fe311d348d8a0715b6044",
+      "body_sha256": "b1e9a70abb6ae4cc6d1487758576fee8190fb4e92e8fe311d348d8a0715b6044"
+    },
+    {
+      "id": 226,
+      "name": "Bladed_Gauntlet_vs_Hero",
+      "from": "src/items/226_Bladed_Gauntlet_vs_Hero.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "12c2dea53c1f359249a38e8251f8bda4b4bf2ca428a27fba1f485f45c44e1e81",
+      "body_sha256": "12c2dea53c1f359249a38e8251f8bda4b4bf2ca428a27fba1f485f45c44e1e81"
+    },
+    {
+      "id": 227,
+      "name": "Cast_CL_on_Banish",
+      "from": "src/items/227_Cast_CL_on_Banish.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "9619a6299c1ae5d72de30b3506b94ab37cda8b66473a484e2e505a426fa69b8b",
+      "body_sha256": "9619a6299c1ae5d72de30b3506b94ab37cda8b66473a484e2e505a426fa69b8b"
+    },
+    {
+      "id": 228,
+      "name": "Ledgers_XP",
+      "from": "src/items/228_Ledgers_XP.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "3109c232e4d2f318942b8b201b8c91b07c79ff774161d0b0565ad3420429b5e3",
+      "body_sha256": "3109c232e4d2f318942b8b201b8c91b07c79ff774161d0b0565ad3420429b5e3"
+    },
+    {
+      "id": 229,
+      "name": "Ledger_of_Clarity_pickup",
+      "from": "src/items/229_Ledger_of_Clarity_pickup.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "bde3716c1b694ff4a92acd209e078e2036a94d8cbfb8c6c054678cc1ec34392b",
+      "body_sha256": "bde3716c1b694ff4a92acd209e078e2036a94d8cbfb8c6c054678cc1ec34392b"
+    },
+    {
+      "id": 230,
+      "name": "Ledger_of_Clarity_lose",
+      "from": "src/items/230_Ledger_of_Clarity_lose.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "3f2e9ae89a4d13a6359d89199626083145a47a84b02cfb352033582e63295e6d",
+      "body_sha256": "3f2e9ae89a4d13a6359d89199626083145a47a84b02cfb352033582e63295e6d"
+    },
+    {
+      "id": 231,
+      "name": "Ledger_of_Enlightment_pickup",
+      "from": "src/items/231_Ledger_of_Enlightment_pickup.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "0a3fea9444fe2be148fd51164bda9161f6c08fe18479da8dc7431b31925b2a7d",
+      "body_sha256": "0a3fea9444fe2be148fd51164bda9161f6c08fe18479da8dc7431b31925b2a7d"
+    },
+    {
+      "id": 232,
+      "name": "Ledger_of_Enlightment_lose",
+      "from": "src/items/232_Ledger_of_Enlightment_lose.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "fb2c1e0fa6399cc772a2ae066a1575fa88f808c879ac934ded7447b285b5b1a6",
+      "body_sha256": "fb2c1e0fa6399cc772a2ae066a1575fa88f808c879ac934ded7447b285b5b1a6"
+    },
+    {
+      "id": 233,
+      "name": "Spellcasters_Cloak",
+      "from": "src/items/233_Spellcasters_Cloak.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "506d28afa1e8a127382c968809903728278559845968a21f3d87e0c6a3af5568",
+      "body_sha256": "506d28afa1e8a127382c968809903728278559845968a21f3d87e0c6a3af5568"
+    },
+    {
+      "id": 234,
+      "name": "Ethereal_Scepter",
+      "from": "src/items/234_Ethereal_Scepter.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "3495b5ae2ca25f735e5a32f1c610280a4934a2868bfe7520951c8e7ea4d951bc",
+      "body_sha256": "3495b5ae2ca25f735e5a32f1c610280a4934a2868bfe7520951c8e7ea4d951bc"
+    },
+    {
+      "id": 235,
+      "name": "Firelords_Cape",
+      "from": "src/items/235_Firelords_Cape.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "13f377d74eafb10a30bf88e7df3fe21f1f091b2907d1e710f98628184a5541fa",
+      "body_sha256": "13f377d74eafb10a30bf88e7df3fe21f1f091b2907d1e710f98628184a5541fa"
+    },
+    {
+      "id": 236,
+      "name": "Ledget_of_Enlightment",
+      "from": "src/items/236_Ledget_of_Enlightment.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "4cb22e4287a27b1c95731e0934989bc847be6fbef6f3e70824f1c123d37ad51e",
+      "body_sha256": "4cb22e4287a27b1c95731e0934989bc847be6fbef6f3e70824f1c123d37ad51e"
+    },
+    {
+      "id": 237,
+      "name": "Hammer_of_might",
+      "from": "src/items/237_Hammer_of_might.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "16f0b311171aca8018bbd196c13faabe7deaddf633f51033f7bbe117601685e3",
+      "body_sha256": "16f0b311171aca8018bbd196c13faabe7deaddf633f51033f7bbe117601685e3"
+    },
+    {
+      "id": 238,
+      "name": "Valorous_Helmet",
+      "from": "src/items/238_Valorous_Helmet.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "37535bbb5b26b8046ddad0597687ea535d24dc58c593d67c2e668530069170f1",
+      "body_sha256": "37535bbb5b26b8046ddad0597687ea535d24dc58c593d67c2e668530069170f1"
+    },
+    {
+      "id": 239,
+      "name": "Bladed_Gauntlet",
+      "from": "src/items/239_Bladed_Gauntlet.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "4111dfb25ace3eb40b596f428ed1fdc6ba60a99cf703c32ea489b9781680be97",
+      "body_sha256": "4111dfb25ace3eb40b596f428ed1fdc6ba60a99cf703c32ea489b9781680be97"
+    },
+    {
+      "id": 240,
+      "name": "Righteous_Armor",
+      "from": "src/items/240_Righteous_Armor.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "3725d74c40a9e26c4b7fd7486fee7a11b59d7875ace3d3b51053ccdd497eeb52",
+      "body_sha256": "3725d74c40a9e26c4b7fd7486fee7a11b59d7875ace3d3b51053ccdd497eeb52"
+    },
+    {
+      "id": 241,
+      "name": "Arcanum_of_Hatred",
+      "from": "src/items/241_Arcanum_of_Hatred.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "b5389684d99ee35ab0cbb54a41d2dafa35c7c1624d5cb20bc436ba507eb95b70",
+      "body_sha256": "b5389684d99ee35ab0cbb54a41d2dafa35c7c1624d5cb20bc436ba507eb95b70"
+    },
+    {
+      "id": 242,
+      "name": "Bleeding_Scythe",
+      "from": "src/items/242_Bleeding_Scythe.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "3dd9d3a4770c511f985dc74655a12054ee22d63a99058e348ee8d64b29f97c9f",
+      "body_sha256": "3dd9d3a4770c511f985dc74655a12054ee22d63a99058e348ee8d64b29f97c9f"
+    },
+    {
+      "id": 243,
+      "name": "Staff_of_Insight",
+      "from": "src/items/243_Staff_of_Insight.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "212c305b67ae3b33551f1c7d36f43f8e1388e410cd4a130a659e2f99adeb73ce",
+      "body_sha256": "212c305b67ae3b33551f1c7d36f43f8e1388e410cd4a130a659e2f99adeb73ce"
+    },
+    {
+      "id": 244,
+      "name": "Cosmic_Orb",
+      "from": "src/items/244_Cosmic_Orb.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "4a77c2f565ed4aede35056b7f0db500365e9d30b26dc15a4aec1576972e40cfe",
+      "body_sha256": "4a77c2f565ed4aede35056b7f0db500365e9d30b26dc15a4aec1576972e40cfe"
+    },
+    {
+      "id": 245,
+      "name": "Level_up",
+      "from": "src/items/245_Level_up.lua",
+      "to": "src/items/effects.lua",
+      "before_sha256": "de97c6efff08be8d76692b6877d7c40c47489e816d0fd7f2385c0b2a0e09da36",
+      "body_sha256": "de97c6efff08be8d76692b6877d7c40c47489e816d0fd7f2385c0b2a0e09da36"
+    },
+    {
+      "id": 246,
+      "name": "Deliver_Gold",
+      "from": "src/economy/246_Deliver_Gold.lua",
+      "to": "src/economy/income.lua",
+      "before_sha256": "0727100dd4b92442085feae2b4fd4002dfd3a80b72b31583e7e7155407401391",
+      "body_sha256": "0727100dd4b92442085feae2b4fd4002dfd3a80b72b31583e7e7155407401391"
+    },
+    {
+      "id": 247,
+      "name": "Worgens_gold",
+      "from": "src/economy/247_Worgens_gold.lua",
+      "to": "src/economy/income.lua",
+      "before_sha256": "cdeaa926129e81b8f7a1af676adfe3f96b1be55d7d1440c3f65a393ef1f50534",
+      "body_sha256": "cdeaa926129e81b8f7a1af676adfe3f96b1be55d7d1440c3f65a393ef1f50534"
+    },
+    {
+      "id": 248,
+      "name": "Bounty",
+      "from": "src/economy/248_Bounty.lua",
+      "to": "src/economy/income.lua",
+      "before_sha256": "2ab9d5ba29c2dfbbf7aba8102a2575c2e5ab2bc55a038f55d707643e6860fc79",
+      "body_sha256": "2ab9d5ba29c2dfbbf7aba8102a2575c2e5ab2bc55a038f55d707643e6860fc79"
+    },
+    {
+      "id": 249,
+      "name": "Remove_Ancient_Lumber",
+      "from": "src/economy/249_Remove_Ancient_Lumber.lua",
+      "to": "src/economy/income.lua",
+      "before_sha256": "880b71e2c30721a3c8d9a1c16f7381f22df3dba83cc152fd272abfb87c4f1d31",
+      "body_sha256": "880b71e2c30721a3c8d9a1c16f7381f22df3dba83cc152fd272abfb87c4f1d31"
+    },
+    {
+      "id": 250,
+      "name": "Ancient_Gold_income",
+      "from": "src/economy/250_Ancient_Gold_income.lua",
+      "to": "src/economy/income.lua",
+      "before_sha256": "39d0aa32446eef0f23ea94ffc5271edbd73dc512a55fab428b5244486d47f3b0",
+      "body_sha256": "39d0aa32446eef0f23ea94ffc5271edbd73dc512a55fab428b5244486d47f3b0"
+    },
+    {
+      "id": 251,
+      "name": "Initialization",
+      "from": "src/game/startup/251_Initialization.lua",
+      "to": "src/game/startup.lua",
+      "before_sha256": "c368eb15c6d486b5528d763157d66357bb1fa0e94299bd8a65c3d1ca018eb3fa",
+      "body_sha256": "c368eb15c6d486b5528d763157d66357bb1fa0e94299bd8a65c3d1ca018eb3fa"
+    },
+    {
+      "id": 252,
+      "name": "LimitedTraining",
+      "from": "src/game/startup/252_LimitedTraining.lua",
+      "to": "src/game/startup.lua",
+      "before_sha256": "d1ae76f444ac86270d119a06aada740a1161f176849f188521804a524cd312dd",
+      "body_sha256": "d1ae76f444ac86270d119a06aada740a1161f176849f188521804a524cd312dd"
+    },
+    {
+      "id": 253,
+      "name": "TimeToExpanderSpawn",
+      "from": "src/game/startup/253_TimeToExpanderSpawn.lua",
+      "to": "src/game/startup.lua",
+      "before_sha256": "a614911eb77bfc3d8dc6f6dbf1cb005387c7645b94fe297d629e4c0e938a94a9",
+      "body_sha256": "a614911eb77bfc3d8dc6f6dbf1cb005387c7645b94fe297d629e4c0e938a94a9"
+    },
+    {
+      "id": 254,
+      "name": "TimeToAncientSpawn",
+      "from": "src/game/startup/254_TimeToAncientSpawn.lua",
+      "to": "src/game/startup.lua",
+      "before_sha256": "79c120edeef7e7286bbd2ac44f0e54e08f1b26aeedbc432032d172cd56abb177",
+      "body_sha256": "79c120edeef7e7286bbd2ac44f0e54e08f1b26aeedbc432032d172cd56abb177"
+    },
+    {
+      "id": 255,
+      "name": "Unit_Indexer",
+      "from": "src/game/startup/255_Unit_Indexer.lua",
+      "to": "src/game/startup.lua",
+      "before_sha256": "9a2091bdb9b19e44d7f2a681213ffc12fa6e57afed245f417cbecc8e72fcd6c0",
+      "body_sha256": "9a2091bdb9b19e44d7f2a681213ffc12fa6e57afed245f417cbecc8e72fcd6c0"
+    },
+    {
+      "id": 256,
+      "name": "Spellbringers_spells",
+      "from": "src/game/selection/256_Spellbringers_spells.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "f8e5b1c3b6bbdd7ccc981da9df3719fabbf0bc0e31c62d1f1d48053176f7f166",
+      "body_sha256": "f8e5b1c3b6bbdd7ccc981da9df3719fabbf0bc0e31c62d1f1d48053176f7f166"
+    },
+    {
+      "id": 257,
+      "name": "Give_orb",
+      "from": "src/game/selection/257_Give_orb.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "0b3f97bfbd4fb02f5105afd90cdec879d975f3d43f6407c71bd8f0082d6afaab",
+      "body_sha256": "0b3f97bfbd4fb02f5105afd90cdec879d975f3d43f6407c71bd8f0082d6afaab"
+    },
+    {
+      "id": 258,
+      "name": "Colors",
+      "from": "src/ui/names/258_Colors.lua",
+      "to": "src/ui/names.lua",
+      "before_sha256": "a4417fa44b06942c661042bca34e695c5ecd1e8c233ade77699c01d6d944ed85",
+      "body_sha256": "a4417fa44b06942c661042bca34e695c5ecd1e8c233ade77699c01d6d944ed85"
+    },
+    {
+      "id": 259,
+      "name": "Name_Change",
+      "from": "src/ui/names/259_Name_Change.lua",
+      "to": "src/ui/names.lua",
+      "before_sha256": "d20af59670dc2572c127d5be52c9d5d04c98f97f5e4a1db7cf747de412e9cbf6",
+      "body_sha256": "d20af59670dc2572c127d5be52c9d5d04c98f97f5e4a1db7cf747de412e9cbf6"
+    },
+    {
+      "id": 260,
+      "name": "Name_Change_III",
+      "from": "src/ui/names/260_Name_Change_III.lua",
+      "to": "src/ui/names.lua",
+      "before_sha256": "dd7cf28f37e63e2f5cf98014f886704d402b8fa612bbca11270e6e19ed11c19c",
+      "body_sha256": "dd7cf28f37e63e2f5cf98014f886704d402b8fa612bbca11270e6e19ed11c19c"
+    },
+    {
+      "id": 261,
+      "name": "RandomExpander",
+      "from": "src/game/selection/261_RandomExpander.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "b0854daf909d9cd0df85d8d186c5caf598dd7470a56d53b0463ea5b565b382ae",
+      "body_sha256": "b0854daf909d9cd0df85d8d186c5caf598dd7470a56d53b0463ea5b565b382ae"
+    },
+    {
+      "id": 262,
+      "name": "RandomExpander2",
+      "from": "src/game/selection/262_RandomExpander2.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "3dc7801e2fda375c329b82dc3275fbbbdb3da0a52390f7acd296a5d90b7e75c6",
+      "body_sha256": "3dc7801e2fda375c329b82dc3275fbbbdb3da0a52390f7acd296a5d90b7e75c6"
+    },
+    {
+      "id": 263,
+      "name": "Random_Ancient",
+      "from": "src/game/selection/263_Random_Ancient.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "61bd69cd58d8691bf2844197dd96068b629390ed90e51811d7b134153c13e670",
+      "body_sha256": "61bd69cd58d8691bf2844197dd96068b629390ed90e51811d7b134153c13e670"
+    },
+    {
+      "id": 264,
+      "name": "Remove_Selection",
+      "from": "src/game/selection/264_Remove_Selection.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "91a92da47f68ffef5396c3acb4a68a2359dececbf63e54cc3b4db01909aedfdb",
+      "body_sha256": "91a92da47f68ffef5396c3acb4a68a2359dececbf63e54cc3b4db01909aedfdb"
+    },
+    {
+      "id": 265,
+      "name": "Remove_Selector",
+      "from": "src/game/selection/265_Remove_Selector.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "880b45403b1ea1ae24ed066827ffad90b839c08505418a019a594cdb2b888e06",
+      "body_sha256": "880b45403b1ea1ae24ed066827ffad90b839c08505418a019a594cdb2b888e06"
+    },
+    {
+      "id": 266,
+      "name": "Trade_disabled",
+      "from": "src/commands/trade/266_Trade_disabled.lua",
+      "to": "src/commands/trade.lua",
+      "before_sha256": "0eebad0df10d9e3c694000a9cd157ec28da827fded6673cecd332171e1bda8ac",
+      "body_sha256": "0eebad0df10d9e3c694000a9cd157ec28da827fded6673cecd332171e1bda8ac"
+    },
+    {
+      "id": 267,
+      "name": "Trade_enabled",
+      "from": "src/commands/trade/267_Trade_enabled.lua",
+      "to": "src/commands/trade.lua",
+      "before_sha256": "f0832ddf788bad0e78c5db59d4319bc995a5d709dc3f4b96c759616ebd09ee1e",
+      "body_sha256": "f0832ddf788bad0e78c5db59d4319bc995a5d709dc3f4b96c759616ebd09ee1e"
+    },
+    {
+      "id": 268,
+      "name": "Disable_trade_enabled",
+      "from": "src/commands/trade/268_Disable_trade_enabled.lua",
+      "to": "src/commands/trade.lua",
+      "before_sha256": "a3a7f5f303894bfee27b96e4100cca037f8488ee9b08c8b5856c5c67d065cefe",
+      "body_sha256": "a3a7f5f303894bfee27b96e4100cca037f8488ee9b08c8b5856c5c67d065cefe"
+    },
+    {
+      "id": 269,
+      "name": "Spawn_Races",
+      "from": "src/game/selection/269_Spawn_Races.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "db1c1300d1479af786635db97690707e3e071b09d169a9e3391f531ab65d7231",
+      "body_sha256": "db1c1300d1479af786635db97690707e3e071b09d169a9e3391f531ab65d7231"
+    },
+    {
+      "id": 270,
+      "name": "Spawn_Ancients",
+      "from": "src/game/selection/270_Spawn_Ancients.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "70adbd83d7f689ae03b93cdc02ce073ca0311f6543571617d88eb039b5be76e4",
+      "body_sha256": "70adbd83d7f689ae03b93cdc02ce073ca0311f6543571617d88eb039b5be76e4"
+    },
+    {
+      "id": 271,
+      "name": "DisableExpanderBans",
+      "from": "src/game/bans/expanders/271_DisableExpanderBans.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "743672ad65fdb00f0e819fb3c77b1ad0f741fd47046cc47e14c189ed851da556",
+      "body_sha256": "743672ad65fdb00f0e819fb3c77b1ad0f741fd47046cc47e14c189ed851da556"
+    },
+    {
+      "id": 272,
+      "name": "Worgen",
+      "from": "src/game/bans/expanders/272_Worgen.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "d87767f7de9a375b50793cdf3e3457955edcfdc8268dcce1c6ae4ffd30cda60e",
+      "body_sha256": "d87767f7de9a375b50793cdf3e3457955edcfdc8268dcce1c6ae4ffd30cda60e"
+    },
+    {
+      "id": 273,
+      "name": "Centaur",
+      "from": "src/game/bans/expanders/273_Centaur.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "7ebf4edeb4a0d62d1d9970454a029ddbc490422f95a715da714bfa7af6c167c9",
+      "body_sha256": "7ebf4edeb4a0d62d1d9970454a029ddbc490422f95a715da714bfa7af6c167c9"
+    },
+    {
+      "id": 274,
+      "name": "Wildkin",
+      "from": "src/game/bans/expanders/274_Wildkin.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "ff28abe64c89e87de7534040e8f3fe00b157720e70d56423772279dc797533ff",
+      "body_sha256": "ff28abe64c89e87de7534040e8f3fe00b157720e70d56423772279dc797533ff"
+    },
+    {
+      "id": 275,
+      "name": "Nerubian",
+      "from": "src/game/bans/expanders/275_Nerubian.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "fee618d2aefe9413c45ba571cccc5d0842d771795048bd7cd80cb9828ac810d2",
+      "body_sha256": "fee618d2aefe9413c45ba571cccc5d0842d771795048bd7cd80cb9828ac810d2"
+    },
+    {
+      "id": 276,
+      "name": "Human",
+      "from": "src/game/bans/expanders/276_Human.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "93ef2d5b9cececc4e85dd38ed08409415bd1d044960e1262df2153a5d9f7e976",
+      "body_sha256": "93ef2d5b9cececc4e85dd38ed08409415bd1d044960e1262df2153a5d9f7e976"
+    },
+    {
+      "id": 277,
+      "name": "Wisp",
+      "from": "src/game/bans/expanders/277_Wisp.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "f826388ba69bcca99a90df3094244433081822ea6bf4cd586eb1d7a335868cd9",
+      "body_sha256": "f826388ba69bcca99a90df3094244433081822ea6bf4cd586eb1d7a335868cd9"
+    },
+    {
+      "id": 278,
+      "name": "Kobold",
+      "from": "src/game/bans/expanders/278_Kobold.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "4bd2fdc0c5dadecb1fe10e665bf2261076fa5c720c2fc3ba0d5b3c535a65afd5",
+      "body_sha256": "4bd2fdc0c5dadecb1fe10e665bf2261076fa5c720c2fc3ba0d5b3c535a65afd5"
+    },
+    {
+      "id": 279,
+      "name": "Ghoul",
+      "from": "src/game/bans/expanders/279_Ghoul.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "302fbf65d80c5036e8ea3080cb20214a9fbb6a4a0499b1f34013b8dac35f1f11",
+      "body_sha256": "302fbf65d80c5036e8ea3080cb20214a9fbb6a4a0499b1f34013b8dac35f1f11"
+    },
+    {
+      "id": 280,
+      "name": "Kraken",
+      "from": "src/game/bans/expanders/280_Kraken.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "e42ec461dcf24cc1e91950e93b1143344c7493fcf41caf3942ec67c01abd3aa4",
+      "body_sha256": "e42ec461dcf24cc1e91950e93b1143344c7493fcf41caf3942ec67c01abd3aa4"
+    },
+    {
+      "id": 281,
+      "name": "Aethyr",
+      "from": "src/game/bans/expanders/281_Aethyr.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "88db089a3802c6e671ad74d7ea9183740f3d8d66a4e896bb96cfe27c8ba0059b",
+      "body_sha256": "88db089a3802c6e671ad74d7ea9183740f3d8d66a4e896bb96cfe27c8ba0059b"
+    },
+    {
+      "id": 282,
+      "name": "Forgotten",
+      "from": "src/game/bans/expanders/282_Forgotten.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "6b7dc0da893e44f0bd66db08fce135fe146242bf512f9dfba977c1149f05fcf2",
+      "body_sha256": "6b7dc0da893e44f0bd66db08fce135fe146242bf512f9dfba977c1149f05fcf2"
+    },
+    {
+      "id": 283,
+      "name": "Goblin",
+      "from": "src/game/bans/expanders/283_Goblin.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "ce8a0d655f7a80fc16a844b2c651f6931f4ea31a9b881d3cf0299c35b1a7bd2a",
+      "body_sha256": "ce8a0d655f7a80fc16a844b2c651f6931f4ea31a9b881d3cf0299c35b1a7bd2a"
+    },
+    {
+      "id": 284,
+      "name": "Ogre",
+      "from": "src/game/bans/expanders/284_Ogre.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "adaf2c5a06ec3ac82d4f94c522b4241351e221d6b7ffb85e660f6183f1fa4a64",
+      "body_sha256": "adaf2c5a06ec3ac82d4f94c522b4241351e221d6b7ffb85e660f6183f1fa4a64"
+    },
+    {
+      "id": 285,
+      "name": "Magmide",
+      "from": "src/game/bans/expanders/285_Magmide.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "3eb7cfd5d9ccd0a6d61ac1eb2c232c6dfa0504c81843f4d4b8675d661d998105",
+      "body_sha256": "3eb7cfd5d9ccd0a6d61ac1eb2c232c6dfa0504c81843f4d4b8675d661d998105"
+    },
+    {
+      "id": 286,
+      "name": "Furbolg",
+      "from": "src/game/bans/expanders/286_Furbolg.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "74336433dfb1bd22b54d378fde5fe9b3c7bb84b7fc8d2a67d5d920d99241ad36",
+      "body_sha256": "74336433dfb1bd22b54d378fde5fe9b3c7bb84b7fc8d2a67d5d920d99241ad36"
+    },
+    {
+      "id": 287,
+      "name": "Razormane",
+      "from": "src/game/bans/expanders/287_Razormane.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "ffeab400e0df20bb1323adcb262023655c59d96b0edab63a8b799dbcf22c3368",
+      "body_sha256": "ffeab400e0df20bb1323adcb262023655c59d96b0edab63a8b799dbcf22c3368"
+    },
+    {
+      "id": 288,
+      "name": "Elf",
+      "from": "src/game/bans/expanders/288_Elf.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "5d3797beb19f0208278463a14fe9bb467a05759361a4bb0d464336ed7f70d822",
+      "body_sha256": "5d3797beb19f0208278463a14fe9bb467a05759361a4bb0d464336ed7f70d822"
+    },
+    {
+      "id": 289,
+      "name": "HighElf",
+      "from": "src/game/bans/expanders/289_HighElf.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "51c10be2ca76334d25db6a8c846ecddf54700ea105826c94674474f629f85c7c",
+      "body_sha256": "51c10be2ca76334d25db6a8c846ecddf54700ea105826c94674474f629f85c7c"
+    },
+    {
+      "id": 290,
+      "name": "Ratling",
+      "from": "src/game/bans/expanders/290_Ratling.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "5e64fa4078d4c61084f9bf0d31a405fdd7b72d756e10cc41a8d7c5a2af54e2b5",
+      "body_sha256": "5e64fa4078d4c61084f9bf0d31a405fdd7b72d756e10cc41a8d7c5a2af54e2b5"
+    },
+    {
+      "id": 291,
+      "name": "Hunter",
+      "from": "src/game/bans/expanders/291_Hunter.lua",
+      "to": "src/game/bans/expanders.lua",
+      "before_sha256": "14bf52c6116c74adc7e47365469b4e3d610172b35b5e71352430462648fa8879",
+      "body_sha256": "14bf52c6116c74adc7e47365469b4e3d610172b35b5e71352430462648fa8879"
+    },
+    {
+      "id": 292,
+      "name": "AncientLight",
+      "from": "src/game/bans/ancients/292_AncientLight.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "010bbdbb2c51de6e0e9095a1cd4234baea82a82f635ad49b2e6a31667528c0ad",
+      "body_sha256": "010bbdbb2c51de6e0e9095a1cd4234baea82a82f635ad49b2e6a31667528c0ad"
+    },
+    {
+      "id": 293,
+      "name": "AncientLightning",
+      "from": "src/game/bans/ancients/293_AncientLightning.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "295bc870a82c201e125c5f22211ddc589f097e0115168a3938e29831f36a1110",
+      "body_sha256": "295bc870a82c201e125c5f22211ddc589f097e0115168a3938e29831f36a1110"
+    },
+    {
+      "id": 294,
+      "name": "AncientDragon",
+      "from": "src/game/bans/ancients/294_AncientDragon.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "b519032d648d53b9c71c93f8b17424882e2165e878bfcc87455947f54ab7b259",
+      "body_sha256": "b519032d648d53b9c71c93f8b17424882e2165e878bfcc87455947f54ab7b259"
+    },
+    {
+      "id": 295,
+      "name": "AncientEarth",
+      "from": "src/game/bans/ancients/295_AncientEarth.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "aeeaf66b9a2691a2a05d816a786e718939ccee2c2467b44369f4c53dbd29b4ec",
+      "body_sha256": "aeeaf66b9a2691a2a05d816a786e718939ccee2c2467b44369f4c53dbd29b4ec"
+    },
+    {
+      "id": 296,
+      "name": "AncientDarkness",
+      "from": "src/game/bans/ancients/296_AncientDarkness.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "367f2c353d045bb6b8c9fd367b56c2e6620a3ad185329cf82255ed597e6355eb",
+      "body_sha256": "367f2c353d045bb6b8c9fd367b56c2e6620a3ad185329cf82255ed597e6355eb"
+    },
+    {
+      "id": 297,
+      "name": "AncientIce",
+      "from": "src/game/bans/ancients/297_AncientIce.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "adc740405488886382f85b545e543e7b6f8df9c7c5a3ee7c97bdf2c702c4f90a",
+      "body_sha256": "adc740405488886382f85b545e543e7b6f8df9c7c5a3ee7c97bdf2c702c4f90a"
+    },
+    {
+      "id": 298,
+      "name": "AncientFire",
+      "from": "src/game/bans/ancients/298_AncientFire.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "d06e20a293df1c765a7e62f9d268edcf9e9ac3d1f373637509d28cf6d58f36de",
+      "body_sha256": "d06e20a293df1c765a7e62f9d268edcf9e9ac3d1f373637509d28cf6d58f36de"
+    },
+    {
+      "id": 299,
+      "name": "AncientNature",
+      "from": "src/game/bans/ancients/299_AncientNature.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "1a0e06e73b4b68bf944bc76c88d96d5ea7b4fcf0a3b42657cd25a109ad649879",
+      "body_sha256": "1a0e06e73b4b68bf944bc76c88d96d5ea7b4fcf0a3b42657cd25a109ad649879"
+    },
+    {
+      "id": 300,
+      "name": "AncientSand",
+      "from": "src/game/bans/ancients/300_AncientSand.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "aeadd92b3f9e182b3e888f1ac8e32cb8f43a40a061134954a73a943238467e48",
+      "body_sha256": "aeadd92b3f9e182b3e888f1ac8e32cb8f43a40a061134954a73a943238467e48"
+    },
+    {
+      "id": 301,
+      "name": "AncientSpace",
+      "from": "src/game/bans/ancients/301_AncientSpace.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "ff9bb3385f8e51e8f7801a1d2fe6d8828a5738e8d706b678744df64148664da5",
+      "body_sha256": "ff9bb3385f8e51e8f7801a1d2fe6d8828a5738e8d706b678744df64148664da5"
+    },
+    {
+      "id": 302,
+      "name": "AncientWind",
+      "from": "src/game/bans/ancients/302_AncientWind.lua",
+      "to": "src/game/bans/ancients.lua",
+      "before_sha256": "ced8832831cd2000067a354ccfa630b646499fa3cf329195390ec73fd9a76847",
+      "body_sha256": "ced8832831cd2000067a354ccfa630b646499fa3cf329195390ec73fd9a76847"
+    },
+    {
+      "id": 303,
+      "name": "Prevent_Attack",
+      "from": "src/combat/shop_protection/303_Prevent_Attack.lua",
+      "to": "src/combat/shop_protection.lua",
+      "before_sha256": "050d63dcfba4b51a055a5fe5cc584d4c039714e3337eb05a109fb06a5999f421",
+      "body_sha256": "050d63dcfba4b51a055a5fe5cc584d4c039714e3337eb05a109fb06a5999f421"
+    },
+    {
+      "id": 304,
+      "name": "No_Attacking_Shops_Copy_3",
+      "from": "src/combat/shop_protection/304_No_Attacking_Shops_Copy_3.lua",
+      "to": "src/combat/shop_protection.lua",
+      "before_sha256": "ae05ad4c1cf2a9e78a5e292bb0a5994092f98f14f5278202a88b306489c08100",
+      "body_sha256": "ae05ad4c1cf2a9e78a5e292bb0a5994092f98f14f5278202a88b306489c08100"
+    },
+    {
+      "id": 305,
+      "name": "No_Attacking_Shops_Copy_2",
+      "from": "src/combat/shop_protection/305_No_Attacking_Shops_Copy_2.lua",
+      "to": "src/combat/shop_protection.lua",
+      "before_sha256": "d38b9337aa4dbbd0d7e0629f930da1353e309d85cc314559ecb1cac3bc87464d",
+      "body_sha256": "d38b9337aa4dbbd0d7e0629f930da1353e309d85cc314559ecb1cac3bc87464d"
+    },
+    {
+      "id": 306,
+      "name": "No_Attacking_Shops_Copy",
+      "from": "src/combat/shop_protection/306_No_Attacking_Shops_Copy.lua",
+      "to": "src/combat/shop_protection.lua",
+      "before_sha256": "c8609f1d2044a58595af3f30f003d561a8f992e0711e0f269aa5fb715f85d1d3",
+      "body_sha256": "c8609f1d2044a58595af3f30f003d561a8f992e0711e0f269aa5fb715f85d1d3"
+    },
+    {
+      "id": 307,
+      "name": "No_Attacking_Shops",
+      "from": "src/combat/shop_protection/307_No_Attacking_Shops.lua",
+      "to": "src/combat/shop_protection.lua",
+      "before_sha256": "052fa686d890de4f78c7535b8a8e6ca2515980c2f0ba5ff98df1a145368912d6",
+      "body_sha256": "052fa686d890de4f78c7535b8a8e6ca2515980c2f0ba5ff98df1a145368912d6"
+    },
+    {
+      "id": 308,
+      "name": "Ally_neutral",
+      "from": "src/players/alliances/308_Ally_neutral.lua",
+      "to": "src/players/alliances.lua",
+      "before_sha256": "5eaa80515206422a884f2a32d6899b0bd60cb8f1cf8609e65121f78e01f2a445",
+      "body_sha256": "5eaa80515206422a884f2a32d6899b0bd60cb8f1cf8609e65121f78e01f2a445"
+    },
+    {
+      "id": 309,
+      "name": "Vision",
+      "from": "src/players/alliances/309_Vision.lua",
+      "to": "src/players/alliances.lua",
+      "before_sha256": "0d496cc664f037edab93b62a2ea7bf00c86a03048c69df8d97d7f18a57f16736",
+      "body_sha256": "0d496cc664f037edab93b62a2ea7bf00c86a03048c69df8d97d7f18a57f16736"
+    },
+    {
+      "id": 310,
+      "name": "Death_anim",
+      "from": "src/ui/310_Death_anim.lua",
+      "to": "src/ui/animations.lua",
+      "before_sha256": "496bdc8c49eed584cb202b883e0696e1ff2c9bcd16d54792ce96cc80c17035e0",
+      "body_sha256": "496bdc8c49eed584cb202b883e0696e1ff2c9bcd16d54792ce96cc80c17035e0"
+    },
+    {
+      "id": 311,
+      "name": "Quests",
+      "from": "src/ui/quests/311_Quests.lua",
+      "to": "src/ui/quests.lua",
+      "before_sha256": "503a6c893dd12c00d83064a505848a9592a299b07e10dba8c9d1a5d99b0397b0",
+      "body_sha256": "503a6c893dd12c00d83064a505848a9592a299b07e10dba8c9d1a5d99b0397b0"
+    },
+    {
+      "id": 312,
+      "name": "Warning_few_seconds",
+      "from": "src/game/selection/312_Warning_few_seconds.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "1a32f7c9dbbd2b457e91a7a3166a9c69f1b582304fd45e3f1eb478e539fcf672",
+      "body_sha256": "1a32f7c9dbbd2b457e91a7a3166a9c69f1b582304fd45e3f1eb478e539fcf672"
+    },
+    {
+      "id": 313,
+      "name": "Camera_Copy",
+      "from": "src/game/selection/313_Camera_Copy.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "80064944817da3f77c39cc2dee8a627dbf49aa49793c4dee5dd92170132abaca",
+      "body_sha256": "80064944817da3f77c39cc2dee8a627dbf49aa49793c4dee5dd92170132abaca"
+    },
+    {
+      "id": 314,
+      "name": "LatePickers",
+      "from": "src/game/selection/314_LatePickers.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "c4e2df238c64369f77b9b29f6d6ea625bf59c35c2b234983d321f14493a0ac10",
+      "body_sha256": "c4e2df238c64369f77b9b29f6d6ea625bf59c35c2b234983d321f14493a0ac10"
+    },
+    {
+      "id": 315,
+      "name": "AncientSpawnTele",
+      "from": "src/game/selection/315_AncientSpawnTele.lua",
+      "to": "src/game/selection.lua",
+      "before_sha256": "5538e2c933c20f066439c6c22168c05c296d9fbb5d626d80573930704a3d2dcd",
+      "body_sha256": "5538e2c933c20f066439c6c22168c05c296d9fbb5d626d80573930704a3d2dcd"
+    },
+    {
+      "id": 316,
+      "name": "Player_group",
+      "from": "src/players/316_Player_group.lua",
+      "to": "src/players/participation.lua",
+      "before_sha256": "6a3bd59e376a102843ca6c0ea9a68703c7487f33e9d166da19ac923843cc9c71",
+      "body_sha256": "6a3bd59e376a102843ca6c0ea9a68703c7487f33e9d166da19ac923843cc9c71"
+    },
+    {
+      "id": 317,
+      "name": "Lackey_Respawn",
+      "from": "src/players/lackeys/317_Lackey_Respawn.lua",
+      "to": "src/players/lackeys.lua",
+      "before_sha256": "44587838c102a0f1f139a5e45204db14da46824dcd215c8ab939942fb89cc757",
+      "body_sha256": "44587838c102a0f1f139a5e45204db14da46824dcd215c8ab939942fb89cc757"
+    },
+    {
+      "id": 318,
+      "name": "Death_start",
+      "from": "src/players/lackeys/318_Death_start.lua",
+      "to": "src/players/lackeys.lua",
+      "before_sha256": "54b4509693b273d962d34a31f7e149edf0392a8422a236188b393b5049ab8862",
+      "body_sha256": "54b4509693b273d962d34a31f7e149edf0392a8422a236188b393b5049ab8862"
+    },
+    {
+      "id": 319,
+      "name": "Spawn_Lackey",
+      "from": "src/players/lackeys/319_Spawn_Lackey.lua",
+      "to": "src/players/lackeys.lua",
+      "before_sha256": "ceacb786d7f10057a7cb7ae77cfab8b04b980aa5c3a2032b0365da4ffde9e8cf",
+      "body_sha256": "ceacb786d7f10057a7cb7ae77cfab8b04b980aa5c3a2032b0365da4ffde9e8cf"
+    },
+    {
+      "id": 320,
+      "name": "MiniMinis",
+      "from": "src/players/lackeys/320_MiniMinis.lua",
+      "to": "src/players/lackeys.lua",
+      "before_sha256": "fa7a3c06ab5f101cc2a5f11bc400ba2aee8f3f4b3c8f11caaf3a5d80b83deab7",
+      "body_sha256": "fa7a3c06ab5f101cc2a5f11bc400ba2aee8f3f4b3c8f11caaf3a5d80b83deab7"
+    },
+    {
+      "id": 321,
+      "name": "Player_Leaves",
+      "from": "src/players/leaving/321_Player_Leaves.lua",
+      "to": "src/players/leaving.lua",
+      "before_sha256": "5173ea15f4fcca7f7fb8c8d4255db3585e658190b81afffef4289afacde261ff",
+      "body_sha256": "5173ea15f4fcca7f7fb8c8d4255db3585e658190b81afffef4289afacde261ff"
+    },
+    {
+      "id": 322,
+      "name": "Ancient_Leaves",
+      "from": "src/players/leaving/322_Ancient_Leaves.lua",
+      "to": "src/players/leaving.lua",
+      "before_sha256": "a065c374b644e023a2bac1af81f6728015b839becd387b9966f815c3fd38055e",
+      "body_sha256": "a065c374b644e023a2bac1af81f6728015b839becd387b9966f815c3fd38055e"
+    },
+    {
+      "id": 323,
+      "name": "Human_Dies",
+      "from": "src/players/deaths/323_Human_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "d584218f5ec7ce7f4cc5d218d91fecc6b4a6a58a899c2cba73d59825638d507e",
+      "body_sha256": "d584218f5ec7ce7f4cc5d218d91fecc6b4a6a58a899c2cba73d59825638d507e"
+    },
+    {
+      "id": 324,
+      "name": "Wisp_Dies",
+      "from": "src/players/deaths/324_Wisp_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "aca7f4bfe39e37cf9314702b2f478cbeaf0564d99535bd505b15c4fb3f6a666d",
+      "body_sha256": "aca7f4bfe39e37cf9314702b2f478cbeaf0564d99535bd505b15c4fb3f6a666d"
+    },
+    {
+      "id": 325,
+      "name": "Centaur_Dies",
+      "from": "src/players/deaths/325_Centaur_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "3b67e0b6aba08835f4110f87d80152e87e926d10286aea1a37725c913a8a01f4",
+      "body_sha256": "3b67e0b6aba08835f4110f87d80152e87e926d10286aea1a37725c913a8a01f4"
+    },
+    {
+      "id": 326,
+      "name": "Ogre_Dies",
+      "from": "src/players/deaths/326_Ogre_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "c7771b11fae25c46131956a13b8d821024b6500a48a3c31b3d8ad8d430aafaa4",
+      "body_sha256": "c7771b11fae25c46131956a13b8d821024b6500a48a3c31b3d8ad8d430aafaa4"
+    },
+    {
+      "id": 327,
+      "name": "Worgen_Dies",
+      "from": "src/players/deaths/327_Worgen_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "b5ac3a0ea5d12c0ea30a9608696163edd46ca1db0b1d7edebe25a3dae413f78d",
+      "body_sha256": "b5ac3a0ea5d12c0ea30a9608696163edd46ca1db0b1d7edebe25a3dae413f78d"
+    },
+    {
+      "id": 328,
+      "name": "Night_Elf_Dies",
+      "from": "src/players/deaths/328_Night_Elf_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "2a2eba499b9f71ff53a0691af7a23156512e2a654c5424fa7eea32ecba54d396",
+      "body_sha256": "2a2eba499b9f71ff53a0691af7a23156512e2a654c5424fa7eea32ecba54d396"
+    },
+    {
+      "id": 329,
+      "name": "Shadow_Dancer_Dies",
+      "from": "src/players/deaths/329_Shadow_Dancer_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "c4e1841dfa69a7f6f4c3e58da6ba65cf6bf4ace7ca15e1faaba263d1e56e9c58",
+      "body_sha256": "c4e1841dfa69a7f6f4c3e58da6ba65cf6bf4ace7ca15e1faaba263d1e56e9c58"
+    },
+    {
+      "id": 330,
+      "name": "Archdruid_Dies",
+      "from": "src/players/deaths/330_Archdruid_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "dcdca63b6abf7252d88907c9afbfd377eecad30549a3b88ed0081fa38f50e32f",
+      "body_sha256": "dcdca63b6abf7252d88907c9afbfd377eecad30549a3b88ed0081fa38f50e32f"
+    },
+    {
+      "id": 331,
+      "name": "Engineer_Highelf_Dies",
+      "from": "src/players/deaths/331_Engineer_Highelf_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "7bc15c1c0eda84df46020246335ab8bace55c9215d02b231d6947ec038f5cf9e",
+      "body_sha256": "7bc15c1c0eda84df46020246335ab8bace55c9215d02b231d6947ec038f5cf9e"
+    },
+    {
+      "id": 332,
+      "name": "Bounty_Hunter_Dies",
+      "from": "src/players/deaths/332_Bounty_Hunter_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "86266b4577f105e2254effcd4b7fa3756d8003d8a9bd68332c7f8b580bbab527",
+      "body_sha256": "86266b4577f105e2254effcd4b7fa3756d8003d8a9bd68332c7f8b580bbab527"
+    },
+    {
+      "id": 333,
+      "name": "Ghoul_Dies",
+      "from": "src/players/deaths/333_Ghoul_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "f5c9d1be5768a901650650fa051002585bf6e778ac1092a5a3cbaa4e0360e70e",
+      "body_sha256": "f5c9d1be5768a901650650fa051002585bf6e778ac1092a5a3cbaa4e0360e70e"
+    },
+    {
+      "id": 334,
+      "name": "Magmide_Dies",
+      "from": "src/players/deaths/334_Magmide_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "193d15030f705d44bf78285e6cfc3a154f349ce7103f76daeae200e656cf2f08",
+      "body_sha256": "193d15030f705d44bf78285e6cfc3a154f349ce7103f76daeae200e656cf2f08"
+    },
+    {
+      "id": 335,
+      "name": "Goblin_Dies",
+      "from": "src/players/deaths/335_Goblin_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "b0449e7bb0ab0608b4651d9c046a277ab5adbc6c1da7f2241fdccc46d697adcf",
+      "body_sha256": "b0449e7bb0ab0608b4651d9c046a277ab5adbc6c1da7f2241fdccc46d697adcf"
+    },
+    {
+      "id": 336,
+      "name": "Ratling_Dies",
+      "from": "src/players/deaths/336_Ratling_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "ce689043c7ad780db00e8b9988616ee45a60ab4bd4b1cbe26c072db8c1ab44f0",
+      "body_sha256": "ce689043c7ad780db00e8b9988616ee45a60ab4bd4b1cbe26c072db8c1ab44f0"
+    },
+    {
+      "id": 337,
+      "name": "Goblin_Ultima_Dies",
+      "from": "src/players/deaths/337_Goblin_Ultima_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "145991c11b612674414a19e69729e6cdfca013ff968769d49d6c86688f050c5b",
+      "body_sha256": "145991c11b612674414a19e69729e6cdfca013ff968769d49d6c86688f050c5b"
+    },
+    {
+      "id": 338,
+      "name": "Furbolg_Shaman_Dies",
+      "from": "src/players/deaths/338_Furbolg_Shaman_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "f5e76e3a8e9aeab3c7354dbfcef2e7cd017b219b2a2c91088a5b71dadfca8da3",
+      "body_sha256": "f5e76e3a8e9aeab3c7354dbfcef2e7cd017b219b2a2c91088a5b71dadfca8da3"
+    },
+    {
+      "id": 339,
+      "name": "Furbolg_Warrior_Dies",
+      "from": "src/players/deaths/339_Furbolg_Warrior_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "76c2a6939b6e8c9fa6d5c857f5e4dbf945a216bd2393d60e463781d484bcdb33",
+      "body_sha256": "76c2a6939b6e8c9fa6d5c857f5e4dbf945a216bd2393d60e463781d484bcdb33"
+    },
+    {
+      "id": 340,
+      "name": "Furbolg_Dies",
+      "from": "src/players/deaths/340_Furbolg_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "d1a9c5a07271d297361630ac7af575a3958cc8c9c28807340bef0929a3959d0c",
+      "body_sha256": "d1a9c5a07271d297361630ac7af575a3958cc8c9c28807340bef0929a3959d0c"
+    },
+    {
+      "id": 341,
+      "name": "Nerubian_Dies",
+      "from": "src/players/deaths/341_Nerubian_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "d100ba08fd466b5d68f9cafbf7d9189d42830da7c83615d1da890036b2a9716f",
+      "body_sha256": "d100ba08fd466b5d68f9cafbf7d9189d42830da7c83615d1da890036b2a9716f"
+    },
+    {
+      "id": 342,
+      "name": "Kraken_Dies",
+      "from": "src/players/deaths/342_Kraken_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "e498ef36a16d5a87babb8815597c60beba67cd90a449d17f2caeda6867500455",
+      "body_sha256": "e498ef36a16d5a87babb8815597c60beba67cd90a449d17f2caeda6867500455"
+    },
+    {
+      "id": 343,
+      "name": "Aethyr_Warp_Dies",
+      "from": "src/players/deaths/343_Aethyr_Warp_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "2155892a36270920c55c05a26c3ae335e3e3243ec4701a73d65fb81a68b74d3e",
+      "body_sha256": "2155892a36270920c55c05a26c3ae335e3e3243ec4701a73d65fb81a68b74d3e"
+    },
+    {
+      "id": 344,
+      "name": "Kobold_Dies",
+      "from": "src/players/deaths/344_Kobold_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "1d533df6b8c822f81638724c3b57533581ebe83e02703e4fbf4b0ea909c2d678",
+      "body_sha256": "1d533df6b8c822f81638724c3b57533581ebe83e02703e4fbf4b0ea909c2d678"
+    },
+    {
+      "id": 345,
+      "name": "Razormane_Dies",
+      "from": "src/players/deaths/345_Razormane_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "9112a18f069610a84d766e25f963d567d281d9257268afe42af1bdf9cba3a402",
+      "body_sha256": "9112a18f069610a84d766e25f963d567d281d9257268afe42af1bdf9cba3a402"
+    },
+    {
+      "id": 346,
+      "name": "Wildkin_Dies",
+      "from": "src/players/deaths/346_Wildkin_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "dffc9d072f5ac2c4971a06f1696bc812778bdb78db2110c5b45e44aacbc6a026",
+      "body_sha256": "dffc9d072f5ac2c4971a06f1696bc812778bdb78db2110c5b45e44aacbc6a026"
+    },
+    {
+      "id": 347,
+      "name": "Forgotten_One_Dies",
+      "from": "src/players/deaths/347_Forgotten_One_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "51360ac301573aa994a76033351a6103909432c5c20e9421ea577147dc607f26",
+      "body_sha256": "51360ac301573aa994a76033351a6103909432c5c20e9421ea577147dc607f26"
+    },
+    {
+      "id": 348,
+      "name": "Forgotten_Bloodmage_Dies",
+      "from": "src/players/deaths/348_Forgotten_Bloodmage_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "c05d5984954a0f172626974b4c42f6f82125bfbfee25602fd4fa3f37619abbc2",
+      "body_sha256": "c05d5984954a0f172626974b4c42f6f82125bfbfee25602fd4fa3f37619abbc2"
+    },
+    {
+      "id": 349,
+      "name": "Forgotten_Executioner_Dies",
+      "from": "src/players/deaths/349_Forgotten_Executioner_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "9b161abb918f4109d880a3b26990026d79edf22b33cae1eb42cdd3ee9ec8d758",
+      "body_sha256": "9b161abb918f4109d880a3b26990026d79edf22b33cae1eb42cdd3ee9ec8d758"
+    },
+    {
+      "id": 350,
+      "name": "Forgotten_Soulreaper_Dies",
+      "from": "src/players/deaths/350_Forgotten_Soulreaper_Dies.lua",
+      "to": "src/players/deaths.lua",
+      "before_sha256": "2a36081765c8178ea6aa5ab4921415b9da8c7d6289021a4af9fbbf6d2889ead3",
+      "body_sha256": "2a36081765c8178ea6aa5ab4921415b9da8c7d6289021a4af9fbbf6d2889ead3"
+    },
+    {
+      "id": 351,
+      "name": "Ignite_Dies",
+      "from": "src/game/victory/351_Ignite_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "4c8e08b3ed6817648498e7e913068f8fee85dacc6350c5d83f6ef2fcad277a71",
+      "body_sha256": "4c8e08b3ed6817648498e7e913068f8fee85dacc6350c5d83f6ef2fcad277a71"
+    },
+    {
+      "id": 352,
+      "name": "Avalanche_Dies",
+      "from": "src/game/victory/352_Avalanche_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "9bb6c45941af1332997af94392896c45d0ed6f45787567e6256dd32803d64f6e",
+      "body_sha256": "9bb6c45941af1332997af94392896c45d0ed6f45787567e6256dd32803d64f6e"
+    },
+    {
+      "id": 353,
+      "name": "Paranoia_Dies",
+      "from": "src/game/victory/353_Paranoia_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "7bf7c635c1afeed053f15f8326d58a39c0366b3a2c9dd3b820ea62dc815dae5d",
+      "body_sha256": "7bf7c635c1afeed053f15f8326d58a39c0366b3a2c9dd3b820ea62dc815dae5d"
+    },
+    {
+      "id": 354,
+      "name": "Eternity_Dies",
+      "from": "src/game/victory/354_Eternity_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "4172d91660141819870a8f6ab7ef4db6ea713d78a49bfcebbb053f3212b2de86",
+      "body_sha256": "4172d91660141819870a8f6ab7ef4db6ea713d78a49bfcebbb053f3212b2de86"
+    },
+    {
+      "id": 355,
+      "name": "Dragos_Dies",
+      "from": "src/game/victory/355_Dragos_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "581f0db6efc8440b54ce9162959895137831e5e3176b51088707832ac8227b54",
+      "body_sha256": "581f0db6efc8440b54ce9162959895137831e5e3176b51088707832ac8227b54"
+    },
+    {
+      "id": 356,
+      "name": "Tremor_Dies",
+      "from": "src/game/victory/356_Tremor_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "7684be47af0f2b5769e5880966e1a2795fc92c39276117693bdc9a0478b80f3a",
+      "body_sha256": "7684be47af0f2b5769e5880966e1a2795fc92c39276117693bdc9a0478b80f3a"
+    },
+    {
+      "id": 357,
+      "name": "Zalxon_Dies",
+      "from": "src/game/victory/357_Zalxon_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "08fb75b0d33daa1f471138ec88eacdfa81019f67f01d2f0198e41347543f9833",
+      "body_sha256": "08fb75b0d33daa1f471138ec88eacdfa81019f67f01d2f0198e41347543f9833"
+    },
+    {
+      "id": 358,
+      "name": "Divinity_Dies",
+      "from": "src/game/victory/358_Divinity_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "a162d561ba6b69f8e572e862e6ab399fb21487cfa5b42e899b0db50e83020211",
+      "body_sha256": "a162d561ba6b69f8e572e862e6ab399fb21487cfa5b42e899b0db50e83020211"
+    },
+    {
+      "id": 359,
+      "name": "Pharoah_Dies",
+      "from": "src/game/victory/359_Pharoah_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "ede7606edef12eaa3d454e6711d52ccad5964ff4dfa206fea661b361221d71b9",
+      "body_sha256": "ede7606edef12eaa3d454e6711d52ccad5964ff4dfa206fea661b361221d71b9"
+    },
+    {
+      "id": 360,
+      "name": "Nebula_Dies",
+      "from": "src/game/victory/360_Nebula_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "befc6fd38389ae81da4d9a35d0ecee9200c72f7cf3ef3c2133c2b8e6f9a57630",
+      "body_sha256": "befc6fd38389ae81da4d9a35d0ecee9200c72f7cf3ef3c2133c2b8e6f9a57630"
+    },
+    {
+      "id": 361,
+      "name": "Wispari_Dies",
+      "from": "src/game/victory/361_Wispari_Dies.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "5db0610b0df8a64b99e3e0fa4f2f249e459ee0ff314a494043c847025b64021e",
+      "body_sha256": "5db0610b0df8a64b99e3e0fa4f2f249e459ee0ff314a494043c847025b64021e"
+    },
+    {
+      "id": 362,
+      "name": "Remove_Resources_new",
+      "from": "src/game/victory/362_Remove_Resources_new.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "0af68cda5d604b36ee1aa76f22a1cea49f73dc57ac21f4c05dfbef7a09e4aa4e",
+      "body_sha256": "0af68cda5d604b36ee1aa76f22a1cea49f73dc57ac21f4c05dfbef7a09e4aa4e"
+    },
+    {
+      "id": 363,
+      "name": "DVIC_1",
+      "from": "src/game/victory/363_DVIC_1.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "ef883243f859c8e1c00f7b40cd263a17327ca3f7a2a05a05ff9312a0c6681211",
+      "body_sha256": "ef883243f859c8e1c00f7b40cd263a17327ca3f7a2a05a05ff9312a0c6681211"
+    },
+    {
+      "id": 364,
+      "name": "Ext_On",
+      "from": "src/game/victory/364_Ext_On.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "7eac4a4f7ee05e15e583d0998d41465afdf96dcf6043ab9314d4adc27e2eac4f",
+      "body_sha256": "7eac4a4f7ee05e15e583d0998d41465afdf96dcf6043ab9314d4adc27e2eac4f"
+    },
+    {
+      "id": 365,
+      "name": "Extermination",
+      "from": "src/game/victory/365_Extermination.lua",
+      "to": "src/game/victory.lua",
+      "before_sha256": "de20cd5f5d352b4c8197a78bcab110c451da680969fbcd22b9c9a891889c0f19",
+      "body_sha256": "de20cd5f5d352b4c8197a78bcab110c451da680969fbcd22b9c9a891889c0f19"
+    },
+    {
+      "id": 366,
+      "name": "Base_List_Init",
+      "from": "src/economy/base_flags/366_Base_List_Init.lua",
+      "to": "src/economy/base_flags.lua",
+      "before_sha256": "ded7dbc2ea96075c3cebe476f1531977f78f7e6e073b12f7df326e8305a95505",
+      "body_sha256": "ded7dbc2ea96075c3cebe476f1531977f78f7e6e073b12f7df326e8305a95505"
+    },
+    {
+      "id": 367,
+      "name": "Flagstack_Deny",
+      "from": "src/economy/base_flags/367_Flagstack_Deny.lua",
+      "to": "src/economy/base_flags.lua",
+      "before_sha256": "c1cf2dc44c7452a17743a54c9239dcafaa7677a581a93b92e06e14cc10c221e7",
+      "body_sha256": "c1cf2dc44c7452a17743a54c9239dcafaa7677a581a93b92e06e14cc10c221e7"
+    },
+    {
+      "id": 368,
+      "name": "Flag_no_base_Deny",
+      "from": "src/economy/base_flags/368_Flag_no_base_Deny.lua",
+      "to": "src/economy/base_flags.lua",
+      "before_sha256": "90f15ac24906dc290e6a028501da157caf5ac3459a8f03520f82b04041d1216c",
+      "body_sha256": "90f15ac24906dc290e6a028501da157caf5ac3459a8f03520f82b04041d1216c"
+    },
+    {
+      "id": 369,
+      "name": "NewFlag",
+      "from": "src/economy/base_flags/369_NewFlag.lua",
+      "to": "src/economy/base_flags.lua",
+      "before_sha256": "7fd0f7d3be081e070c0be3403137bccdf55c832c2b48234a65c1a85633daebe1",
+      "body_sha256": "7fd0f7d3be081e070c0be3403137bccdf55c832c2b48234a65c1a85633daebe1"
+    },
+    {
+      "id": 370,
+      "name": "NewFlag2",
+      "from": "src/economy/base_flags/370_NewFlag2.lua",
+      "to": "src/economy/base_flags.lua",
+      "before_sha256": "0a25ac120c32b80919a2bea5f041c18f717109ee2294de6a8816dc43e8b727b3",
+      "body_sha256": "0a25ac120c32b80919a2bea5f041c18f717109ee2294de6a8816dc43e8b727b3"
+    },
+    {
+      "id": 371,
+      "name": "NewFlag3",
+      "from": "src/economy/base_flags/371_NewFlag3.lua",
+      "to": "src/economy/base_flags.lua",
+      "before_sha256": "f4bc6c0994cfcd9b6e958bf14f5dc2a1816633f098c406792dba1d500f4bd2ac",
+      "body_sha256": "f4bc6c0994cfcd9b6e958bf14f5dc2a1816633f098c406792dba1d500f4bd2ac"
+    },
+    {
+      "id": 372,
+      "name": "NewFlag4",
+      "from": "src/economy/base_flags/372_NewFlag4.lua",
+      "to": "src/economy/base_flags.lua",
+      "before_sha256": "a9974c17f829837725287f514b4ef55ec6236b14f69560be246873dc193631ec",
+      "body_sha256": "a9974c17f829837725287f514b4ef55ec6236b14f69560be246873dc193631ec"
+    },
+    {
+      "id": 373,
+      "name": "NewFlag5",
+      "from": "src/economy/base_flags/373_NewFlag5.lua",
+      "to": "src/economy/base_flags.lua",
+      "before_sha256": "d54bcfa505c3020bd1df9e81b1f42e17e6a9868e737e41d40d7cdbb4a9210457",
+      "body_sha256": "d54bcfa505c3020bd1df9e81b1f42e17e6a9868e737e41d40d7cdbb4a9210457"
+    },
+    {
+      "id": 374,
+      "name": "Gobo_Mech_Blaster_pickup",
+      "from": "src/items/mech_blaster/374_Gobo_Mech_Blaster_pickup.lua",
+      "to": "src/items/mech_blaster.lua",
+      "before_sha256": "03b46402ce9ad4318b31c41ce4489f59e7e3026340bd0a7feca0583e1772110a",
+      "body_sha256": "03b46402ce9ad4318b31c41ce4489f59e7e3026340bd0a7feca0583e1772110a"
+    },
+    {
+      "id": 375,
+      "name": "Gobo_Mech_Blaster_attack_check",
+      "from": "src/items/mech_blaster/375_Gobo_Mech_Blaster_attack_check.lua",
+      "to": "src/items/mech_blaster.lua",
+      "before_sha256": "fb3b9b53b8d61978dd4c2a5411462cf785b50c40fc336ca5f03dfc75901032f7",
+      "body_sha256": "fb3b9b53b8d61978dd4c2a5411462cf785b50c40fc336ca5f03dfc75901032f7"
+    }
+  ],
+  "modules": [
+    {
+      "module": "src/combat/damage.lua",
+      "sha256": "aa1b4a77e94b59ff90b15f15574c80d08989b8011593b7288086a09f2788c96d"
+    },
+    {
+      "module": "src/effects/timed.lua",
+      "sha256": "d149a9e94bc48a22e0887c8ef9245ae1680d6b6126333f697efca9e26694a51e"
+    },
+    {
+      "module": "src/game/clock.lua",
+      "sha256": "41f139024441fb2761239c027a00039966bb953ae6721cd749a0a8f9b477567d"
+    },
+    {
+      "module": "src/commands/trade.lua",
+      "sha256": "9a2d3bb497c8bac207934a1d27ef36bd8ac22a7bbdc6403cf203ae7f36ed6416"
+    },
+    {
+      "module": "src/game/tree_chopper.lua",
+      "sha256": "37b037e8a65345fa588ca33da8a62c696510ecd509280e23d6ca7dc9f8431586"
+    },
+    {
+      "module": "src/players/participation.lua",
+      "sha256": "b8827156879ab7931e8e8b2bc3324b55e5b7aba4caba0293a1d163dba0644806"
+    },
+    {
+      "module": "src/game/overdrive.lua",
+      "sha256": "94bb0893e0549551e81bce5f5bf5f68268888a12ee6d27f784036d1794ac64a6"
+    },
+    {
+      "module": "src/commands/player.lua",
+      "sha256": "7243b46fd7cab840e528e5bb29f1c24b20998cb5d4a51ba2164be0deb2420f27"
+    },
+    {
+      "module": "src/game/selection.lua",
+      "sha256": "9651991d5470d72e9fcc72cb366b2dea548f37f34d6328a1d7b99b741d2854e3"
+    },
+    {
+      "module": "src/game/fountain.lua",
+      "sha256": "4404473b5bcbf91e5139fbac2fa313da84a730015f12c1bef395182b1a2f1dbb"
+    },
+    {
+      "module": "src/combat/common.lua",
+      "sha256": "e45b17a01cfe7bb9201cdf05c3b4e5bf5fc86c83dba781d11bdb7a44943e9eea"
+    },
+    {
+      "module": "src/economy/feed.lua",
+      "sha256": "da11758056d1029c9f02d07b8c9fef76d543b75cfbcc0edbd901c9075781f45d"
+    },
+    {
+      "module": "src/races/bounty_hunter.lua",
+      "sha256": "37a200bb355211faeb44c39949c2f5ea545a975c37daa990c8d7696bec5052ed"
+    },
+    {
+      "module": "src/races/cultist.lua",
+      "sha256": "c997bd8b3c6bb17941038d6da995b09a440fa8d57a331cb58cc2e102ed6e8a14"
+    },
+    {
+      "module": "src/races/centaur.lua",
+      "sha256": "4853e132d9d8c658203fcb192a78746da58d3a55b8b2f3d286e8fb243fe7596c"
+    },
+    {
+      "module": "src/races/elf_engineer.lua",
+      "sha256": "c935301dcbb46d1c2715aba80595f1b29d6bf6558b0ccdb574aa164a36631d6f"
+    },
+    {
+      "module": "src/races/kobold.lua",
+      "sha256": "0e48ac6db0d77c83abe92e816f65337d0ccceaa7bdc736a7d8d292c85a1ba7a3"
+    },
+    {
+      "module": "src/races/night_elf.lua",
+      "sha256": "a2813009c175dc2290c95f17ee763867c5bb923e9d57e8d66ce8403a5fb3a73c"
+    },
+    {
+      "module": "src/races/night_elf/arch_druid.lua",
+      "sha256": "7da2cd9f266d7b879c9140b68243121ac3a01a6fe97a060ed835d30c41687b5b"
+    },
+    {
+      "module": "src/races/night_elf/shadow_dancer.lua",
+      "sha256": "490d85c2c214f3ad37506bcb096ab4a40d325b900cc78574d928a190d3772070"
+    },
+    {
+      "module": "src/races/ghoul.lua",
+      "sha256": "ebcec90e034c47e409d7b73766e56e3e6932d4f8e413c6fa0af1663a8b497d57"
+    },
+    {
+      "module": "src/races/kraken.lua",
+      "sha256": "4ba8ed5300a0b5e636d46c6d3073229e771108c29bb0867f224865295fe31b75"
+    },
+    {
+      "module": "src/races/aethyr.lua",
+      "sha256": "01c640766a225fb310d9e1b7b218d34131674af5f9a3a3a1bda27c436c400a45"
+    },
+    {
+      "module": "src/races/forgotten.lua",
+      "sha256": "7591eb8ab6e26e3abb5456b6696fbb1e1be979a978dbb5d105815f03a6b36f45"
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "sha256": "85aee1bd787daf7b027e34de2ad11817a76196cfebcdbb74c704c17e3e72ea72"
+    },
+    {
+      "module": "src/races/forgotten/soulreaper.lua",
+      "sha256": "ad60939ab3a12a6c25c23cae0cd851fbe27c0169bc7e1a7b6adff6a031dbf6e1"
+    },
+    {
+      "module": "src/races/forgotten/bloodmage.lua",
+      "sha256": "2de3742658a2e605e8ca9812c2b0a67bc5a9f8304eff3eba39964fb069591a2a"
+    },
+    {
+      "module": "src/races/nerubian.lua",
+      "sha256": "ef02b297b3449c2e46084ae7c6ef1501f91e1912816dc9967dd78b1f2dd1d360"
+    },
+    {
+      "module": "src/races/ratling.lua",
+      "sha256": "617d44dd2a0ca9a1f43e24c37b14d8e416f051f7e496a1bfbf4b56db88a546e7"
+    },
+    {
+      "module": "src/races/razormane.lua",
+      "sha256": "2fea8ae00f24a67bab52ef06a52149bcc1b1b210c88b852670ee4ef802d88fb3"
+    },
+    {
+      "module": "src/races/wisp.lua",
+      "sha256": "1e6967af3ee1bda92417af8fb6ef67b7502ebcf3b01c3a58abe30aa0f2a20856"
+    },
+    {
+      "module": "src/races/wildkin.lua",
+      "sha256": "40a30365488d508c9f664f1b2312c32e60ebf31d848a8c14d2bc3786041e0918"
+    },
+    {
+      "module": "src/races/worgen.lua",
+      "sha256": "0c237ecd9a9142263b11e48aa9111451beb19e003429c2444ad6a333683e8ec0"
+    },
+    {
+      "module": "src/combat/spells.lua",
+      "sha256": "2480399e22d32305365ba21836109e519aa5eb549559ba27174aee8d6e45bcd8"
+    },
+    {
+      "module": "src/ancients/paranoia.lua",
+      "sha256": "99eac2e8920b81aaca89022c3e8ac0edc91822be753ccca06750f1571ced1a73"
+    },
+    {
+      "module": "src/ancients/zalxon.lua",
+      "sha256": "6b5b13888566748a9e6f9abe45b88889e7a3a8f7b6b6ef909c3a0aa1e3e41422"
+    },
+    {
+      "module": "src/ancients/nebula.lua",
+      "sha256": "530c3fb14210c9f42f63b96139554f27cf721305f05abfa8141e87e4403f5a49"
+    },
+    {
+      "module": "src/ancients/tremor.lua",
+      "sha256": "2f69dff344ba53ff31bf4797bc973af1de0b0fed8f07702dc0b156d78e82843d"
+    },
+    {
+      "module": "src/ancients/pharaoh.lua",
+      "sha256": "20a290146c88d87502d5477adc8e80c00a5291395e1037475c9a9185bd5c08a7"
+    },
+    {
+      "module": "src/ancients/avalanche.lua",
+      "sha256": "a39f22fccef8fdddcdce4e4e71a63704981a0c38e7df73cbfc2be255a4a1a83e"
+    },
+    {
+      "module": "src/ancients/divinity.lua",
+      "sha256": "ff12d8b29bff3a4c56be03e63c7bc09256dc42f1fef03fdc3fbdb8b8abbe853d"
+    },
+    {
+      "module": "src/ancients/wispari.lua",
+      "sha256": "1d52ef3e2964e083117df86d32353ba06adbd4245203e69e04c3911c1f320fed"
+    },
+    {
+      "module": "src/ui/hints.lua",
+      "sha256": "d8152c78ba3948fe43844e36136034ffdbbaafe1a955f258269433f67c7467df"
+    },
+    {
+      "module": "src/ai/behavior.lua",
+      "sha256": "0df573479c60d0673cbe6611560a6be554a39e62857eff36b548adf4de446444"
+    },
+    {
+      "module": "src/items/effects.lua",
+      "sha256": "c865f6159142b85792d377ac82bd52f51e6b67acf254f7f8f3d5a92950700311"
+    },
+    {
+      "module": "src/economy/income.lua",
+      "sha256": "d675ddc4e8d2969249c005c083fd8ba0c96b262332bbde8ea6d895115e799302"
+    },
+    {
+      "module": "src/game/startup.lua",
+      "sha256": "a9e848639603a3ac77ab783bfb0dc686e9b8fdfec9e2cd735f9bda31fe89491c"
+    },
+    {
+      "module": "src/ui/names.lua",
+      "sha256": "4c2e20ef580c7d976df49ca44142d74e9a4f178e0d1abfa0de98e3bd44aeb602"
+    },
+    {
+      "module": "src/game/bans/expanders.lua",
+      "sha256": "e4e8331bf20f221aca806d9bf650cb33a79c91e8701bbd0af571dcba6372643a"
+    },
+    {
+      "module": "src/game/bans/ancients.lua",
+      "sha256": "19ff57f0f9242fade540280f46514ef02368eb42d7e7d5c6a0264118e302d7b5"
+    },
+    {
+      "module": "src/combat/shop_protection.lua",
+      "sha256": "719e18ef7edf955aea9dd9d23cd6d01cf443760385a213979623aa4493615137"
+    },
+    {
+      "module": "src/players/alliances.lua",
+      "sha256": "119590a15178c065b677045e58ba2c186accc8388b8bc74cd6bcbd3d800ca64f"
+    },
+    {
+      "module": "src/ui/animations.lua",
+      "sha256": "4dfe664680cf9bf818c49fd1734774d6fef59b3c83fde6d3537eb42deec32629"
+    },
+    {
+      "module": "src/ui/quests.lua",
+      "sha256": "0e423aa3dc1041e692001cb75c58435b39c62d74a000d96c45506ad1ea8ba022"
+    },
+    {
+      "module": "src/players/lackeys.lua",
+      "sha256": "662242b38aec58b941570eecdc28b8a91fc5e37ae5dfdad7d69eb589881f624c"
+    },
+    {
+      "module": "src/players/leaving.lua",
+      "sha256": "504eaeae7c5be7071a20c92be1e82448701794295801ee85595c0185a39b2d5b"
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "sha256": "add72cee6824a676e2fdd2d2117e420f0ba3100997678b059961fcfafd88a0ef"
+    },
+    {
+      "module": "src/game/victory.lua",
+      "sha256": "f667a014fcb6bcf4c012d412c9ff6fd10fa069ce4666cdedd77362442397f8d4"
+    },
+    {
+      "module": "src/economy/base_flags.lua",
+      "sha256": "50cfec13c3a6aafc082f0293a48519714667830989bbd1492b538b40955367c6"
+    },
+    {
+      "module": "src/items/mech_blaster.lua",
+      "sha256": "6fd9efb6ed621c0435d6ad5bbce48ce86b8d43ba5d5a585a0e6992da975120f2"
+    }
+  ],
+  "unchanged_initialization_sha256": "263a37da55c249174710c5634996b25627017e21c1bcad5837150455920ba74a",
+  "unchanged_bootstrap_sha256": "eb8807ef3452b9e24e2c6ecee4e086909a3fd27eb9563ed9c5b6dd12ff24d05b",
+  "bytecode_comparison": [
+    {
+      "runtime": "lua-5.3.6",
+      "result": "Consolidation passed: 1543 identical function bytecodes; no native calls or captured local state; initial feed table preserved"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "result": "Consolidation passed: 1543 identical function bytecodes; no native calls or captured local state; initial feed table preserved"
+    }
+  ],
+  "editor_source_verified": true,
+  "behavior_changes": [],
+  "changed_modules": [
+    {
+      "module": "src/commands/test_data.lua",
+      "before_sha256": "751cd1ed490bd711ecaba61f4dd0b43104fec1b7c3bb9e5ad0bb165e66f12dec",
+      "after_sha256": "568d6c1cd26051ff0c5064015be6ee4818ef28af5f625829b701818b1f11c486"
+    },
+    {
+      "module": "src/commands/solo_test.lua",
+      "before_sha256": "d239971cd775a6fa74ad54e0d66b75dccd30a80406f57b0576ceeaf8077caeeb",
+      "after_sha256": "9388e6570ed0d0a611548dc6a6959e3015bf0d1a0543e8bf35b09c50306f2441"
+    }
+  ],
+  "payload_changes": [
+    {
+      "file": "war3map.wts",
+      "before_sha256": "3ced9696dc102ca78d3cc3b1ce67bb238aa75a8c7eaa498341e3eda6ccd0aca2",
+      "after_sha256": "481be0e6393b081089f8bd6aadc42289c7f42773cf6cde225ae8d9955b5a4544"
+    }
+  ],
+  "release": {
+    "version": "3.2.0",
+    "revision": "r3",
+    "archive_sha256": "0b4e72c9e12065a6243c8dd6fc80637b430b497149c02673f2908ddf8c04f8cb",
+    "changes": "Centralized release label; no gameplay function changes during source consolidation."
+  }
+}

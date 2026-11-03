@@ -1,0 +1,21 @@
+{
+  "OldId": 1801603393,
+  "NewId": 1295528001,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 90,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    }
+  ],
+  "_rawcode": "A08M",
+  "_base": "AIbk",
+  "_name": "Wand of Escape"
+}

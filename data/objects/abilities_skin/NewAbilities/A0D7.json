@@ -1,0 +1,80 @@
+{
+  "OldId": 2004044097,
+  "NewId": 927215681,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4096",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Watchful Eye"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3393",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4097",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff4aad59Summons an invisible and immovable ward that provides|r vision|cff4aad59 in an area. |n|nCan see|r invisible |cff4aad59units. |n|nLasts|r 90 |cff4aad59seconds.|r |cff4aad59Cooldown|r 60 |cff4aad59seconds.|r"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2815",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4098",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff38a54bWatchful Eye|r [60]"
+    }
+  ],
+  "_rawcode": "A0D7",
+  "_base": "AIsw",
+  "_name": "Watchful Eye"
+}

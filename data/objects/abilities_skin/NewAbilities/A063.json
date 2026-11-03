@@ -1,0 +1,333 @@
+{
+  "OldId": 1818447681,
+  "NewId": 859189313,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5981",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Psychic Slam"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6967",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 1"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3353",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA1> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2153",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_MindRot.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_MindRot.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1734962273,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "alig"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\WarStomp\\WarStompCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "throw,spell",
+      "SanityCheck": 0,
+      "_field": "aani"
+    },
+    {
+      "Id": 811693153,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "ata0"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "RockHeavyBashStone",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5777",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 2"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5778",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 3"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5780",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 4"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5781",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 5"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5782",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 6"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5783",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 7"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5784",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 8"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5785",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 9"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5813",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 10"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5814",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic |cffffcc00S|rlam - Level 11"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3354",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA2> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3355",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA3> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3356",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA4> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3357",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA5> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3358",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA6> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3359",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA7> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3360",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA8> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3361",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA9> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3362",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA10> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3363",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal <A063,DataA11> damage. No cooldown. |n|cffFF8080This ability costs 300 health.|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\Monsoon\\MonsoonBoltTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    }
+  ],
+  "_rawcode": "A063",
+  "_base": "AOcl",
+  "_name": "Psychic Slam"
+}

@@ -1,0 +1,59 @@
+{
+  "OldId": 1818588275,
+  "NewId": 1496330313,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4323",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Teleportation Wand"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWandOfManaSteal.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4324",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Teleportation Wand"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_5229",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Teleports your Ancient back to any allied structure."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_5230",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Teleports your Ancient back to any allied structure."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1188",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "F"
+    }
+  ],
+  "_rawcode": "I00Y",
+  "_base": "stel",
+  "_name": "Teleportation Wand"
+}

@@ -1,0 +1,170 @@
+{
+  "OldId": 1986348353,
+  "NewId": 1479946305,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7075",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Omniscience"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9236",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cff647affGain passive|r +2 (+1 * level) |cff647affexperience|r per second."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7313",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cff7a90ffOmniscience|r"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNMagicalSentry.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNMagicalSentry.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7076",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Omniscience"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7078",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Omniscience"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7079",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Omniscience"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7080",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Omniscience"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7081",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Omniscience"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7404",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Grants two experience per second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7405",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Grants three experience per second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7406",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Grants four experience per second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7407",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Grants five experience per second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9237",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Grants six experience per second."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2100",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Ancient of Light)"
+    }
+  ],
+  "_rawcode": "A06X",
+  "_base": "AEev",
+  "_name": "Omniscience"
+}

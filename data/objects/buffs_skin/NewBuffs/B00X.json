@@ -1,0 +1,43 @@
+{
+  "OldId": 1700876098,
+  "NewId": 1479553090,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_3208",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Crawl Aura"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNPoisonSting.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_3209",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Crawl Aura"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_3210",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under crawl aura, it's movement and attack speed is increased."
+    }
+  ],
+  "_rawcode": "B00X",
+  "_base": "BOae",
+  "_name": "Crawl Aura"
+}

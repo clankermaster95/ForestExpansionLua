@@ -1,0 +1,118 @@
+{
+  "OldId": 1702316097,
+  "NewId": 1413034049,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_140",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Nerubian Swarm"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1328",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5559",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "N"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_141",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "N|cffffcc00e|rrubian Swarmer"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_143",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "N|cffffcc00e|rrubian Swarmer"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_145",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Summons 2 Nerubian Swarmers to aid you in combat. These Swarmers last 15 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3686",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 2 Nerubian Swarmers to aid you in combat. These Swarmers last 15 seconds. 1 second cooldown."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNArachnathid.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNArachnathid.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A09T",
+  "_base": "AHwe",
+  "_name": "Nerubian Swarm"
+}

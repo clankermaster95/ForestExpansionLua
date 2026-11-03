@@ -1,0 +1,22 @@
+{
+  "OldId": 1751935058,
+  "NewId": 1093873746,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9394",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the lumber gathered from your Warpling by 2."
+    }
+  ],
+  "_rawcode": "R03A",
+  "_base": "Rhlh",
+  "_name": "R03A"
+}

@@ -1,0 +1,65 @@
+{
+  "OldId": 2004117352,
+  "NewId": 892350568,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_157",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Arrow Tower"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2657",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffD6F73AA|rrrow Tower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3079",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Arrow tower, Level one tower.|n|n|cfffdca00Health:|r 150|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 30 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1.8|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_066",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h005",
+  "_base": "hgtw",
+  "_name": "Arrow Tower"
+}

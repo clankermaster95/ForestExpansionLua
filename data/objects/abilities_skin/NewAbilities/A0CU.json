@@ -1,0 +1,70 @@
+{
+  "OldId": 1818447425,
+  "NewId": 1430466625,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5045",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Chemical Rage"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5914",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Chemical Rage"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNChemicalRage.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6319",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Improves base attack cooldown to 1.25 and move speed by 30% for 20 seconds. Cooldown: 180 seconds"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2930",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "A0CU",
+  "_base": "ANcl",
+  "_name": "Chemical Rage"
+}

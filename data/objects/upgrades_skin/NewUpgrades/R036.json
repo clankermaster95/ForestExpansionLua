@@ -1,0 +1,51 @@
+{
+  "OldId": 1918986322,
+  "NewId": 909324370,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4001",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slash"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9259",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slash - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4006",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows your Worgen to cast Slash."
+    }
+  ],
+  "_rawcode": "R036",
+  "_base": "Rhar",
+  "_name": "Slash"
+}

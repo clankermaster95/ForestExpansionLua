@@ -1,0 +1,69 @@
+{
+  "OldId": 2004307778,
+  "NewId": 1093808194,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7072",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Reckoning"
+    },
+    {
+      "Id": 1952540006,
+      "Type": "String",
+      "Value": "war3mapImported\\HolyTornado.mdx",
+      "SanityCheck": 0,
+      "_field": "feat"
+    },
+    {
+      "Id": 1952867686,
+      "Type": "String",
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "feft"
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "war3mapImported\\HolyTornado.mdx",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "war3mapImported\\HolyTornado.mdx",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953526630,
+      "Type": "String",
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "fspt"
+    },
+    {
+      "Id": 811693158,
+      "Type": "String",
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "fta0"
+    },
+    {
+      "Id": 1667331174,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ftac"
+    }
+  ],
+  "_rawcode": "B02A",
+  "_base": "BOww",
+  "_name": "Reckoning"
+}

@@ -1,0 +1,33 @@
+{
+  "OldId": 1852993132,
+  "NewId": 1412444233,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "Arel,AId5",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    }
+  ],
+  "_rawcode": "I00T",
+  "_base": "lnrn",
+  "_name": "Lion Shield"
+}

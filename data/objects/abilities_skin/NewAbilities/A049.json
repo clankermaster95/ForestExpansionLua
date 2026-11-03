@@ -1,0 +1,60 @@
+{
+  "OldId": 1650615873,
+  "NewId": 959721537,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNMagicalSentry.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6752",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Ethereal Skin"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8902",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You take 65% reduced magic damage."
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6753",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ethereal Skin"
+    }
+  ],
+  "_rawcode": "A049",
+  "_base": "Afbb",
+  "_name": "Ethereal Skin"
+}

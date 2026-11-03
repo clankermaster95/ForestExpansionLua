@@ -1,0 +1,72 @@
+{
+  "OldId": 1970235496,
+  "NewId": 1462906984,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1980",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Tent"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\FurbolgHut2\\FurbolgHut2.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1769173877,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMercenaryCamp.blp",
+      "SanityCheck": 0,
+      "_field": "ussi"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1227",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2913",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00T|rent"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10083",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A tent that allows you to create workers and return lumber.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMercenaryCamp.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h02W",
+  "_base": "hhou",
+  "_name": "Tent"
+}

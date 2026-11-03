@@ -1,0 +1,72 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1144336488,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_409",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff08B59CArchdruid|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "HeroDemonHunter",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\DruidOfTheAntlersV2.01.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNDruid2.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_479",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff08B59CArchdruid|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7184",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Support|n\n|cff8080FFDifficulty|r: Very Hard|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.75|n\n|cffC0C0C0Night elf is a flexible solo character, that can either be a main damage dealer or strong backline support. Due to a large amount of workers, requires practice and can feed a lot if played unproperly.|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1407",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.3,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "h05D",
+  "_base": "hpea",
+  "_name": "|cff08B59CArchdruid|r"
+}

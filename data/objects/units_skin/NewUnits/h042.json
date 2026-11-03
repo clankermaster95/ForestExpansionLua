@@ -1,0 +1,114 @@
+{
+  "OldId": 2004117352,
+  "NewId": 842281064,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4208",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Solar Tower"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\TowerDefenseTower\\TowerDefenseTower.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNIceCrownObelisk.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\VoidWalkerMissile\\VoidWalkerMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1412",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4209",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Solar |cffffcc00T|rower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10178",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A powerful tower with even more damage and health. Can be upgraded at the Solar Flare.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 25 (Normal)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 0.01|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h042",
+  "_base": "hgtw",
+  "_name": "Solar Tower"
+}

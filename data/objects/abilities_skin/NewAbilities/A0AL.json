@@ -1,0 +1,60 @@
+{
+  "OldId": 1818447425,
+  "NewId": 1279340609,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1820",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Recall"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\MassTeleport\\MassTeleportTo.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4513",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "After 5 seconds of delay, the unit is teleported back to base. 30 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1822",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Recall"
+    }
+  ],
+  "_rawcode": "A0AL",
+  "_base": "ANcl",
+  "_name": "Recall"
+}

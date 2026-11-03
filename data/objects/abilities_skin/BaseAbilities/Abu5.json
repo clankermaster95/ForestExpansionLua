@@ -1,0 +1,61 @@
+{
+  "OldId": 896885313,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Morph",
+      "SanityCheck": 896885313,
+      "_field": "aani"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_026",
+      "SanityCheck": 896885313,
+      "_field": "aub1",
+      "_resolvedText": "Nerubian burrows underground, becoming invisible and invulnurable"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_028",
+      "SanityCheck": 896885313,
+      "_field": "auu1",
+      "_resolvedText": "Nerubian unburrows, becoming visible again."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1944",
+      "SanityCheck": 896885313,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2065",
+      "SanityCheck": 896885313,
+      "_field": "auhk",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "Abu5",
+  "_base": "Abu5",
+  "_name": "Abu5"
+}

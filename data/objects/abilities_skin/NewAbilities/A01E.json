@@ -1,0 +1,42 @@
+{
+  "OldId": 1818447681,
+  "NewId": 1160851521,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_995",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Lightning Strike"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_996",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lightning Strike [C]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1483",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Zaps a target with a burst of energy. Deals 100 damage. 20 second cooldown."
+    }
+  ],
+  "_rawcode": "A01E",
+  "_base": "AOcl",
+  "_name": "Lightning Strike"
+}

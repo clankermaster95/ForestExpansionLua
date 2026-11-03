@@ -1,0 +1,52 @@
+{
+  "OldId": 1835619649,
+  "NewId": 1278423105,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3302",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Quake"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8800",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00Q|uake"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9804",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slams the ground, shooting spikes into a straight line, dealing 400 damage and stunning for 2 seconds. 40 second cooldown."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2544",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    }
+  ],
+  "_rawcode": "A03L",
+  "_base": "AUim",
+  "_name": "Quake"
+}

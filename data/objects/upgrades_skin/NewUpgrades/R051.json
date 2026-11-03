@@ -1,0 +1,234 @@
+{
+  "OldId": 1701668946,
+  "NewId": 825569362,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7633",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lunar Power"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ghk1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ghk1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ghk1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7634",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lunar Power"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7635",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lunar Power"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7636",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lunar Power"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7637",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lunar Power"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10323",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lunar Power - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10324",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lunar Power - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10325",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lunar Power - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10326",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lunar Power - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10327",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lunar Power - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7644",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the level of your abilties that benefit from Lunar Power by 1. |n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7645",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the level of your abilties that benefit from Lunar Power by 1. |n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7646",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the level of your abilties that benefit from Lunar Power by 1. |n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7647",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the level of your abilties that benefit from Lunar Power by 1. |n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7668",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the level of your abilties that benefit from Lunar Power by 1. |n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
+    }
+  ],
+  "_rawcode": "R051",
+  "_base": "Rhme",
+  "_name": "Lunar Power"
+}

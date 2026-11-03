@@ -1,0 +1,62 @@
+{
+  "OldId": 1919239489,
+  "NewId": 1395929153,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4819",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Root Jail"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2222",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2223",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4822",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00R|root Jail"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4939",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Using the force of nature, you bend roots to form a prison around your target, disabling them for 4 seconds. 60 second cooldown."
+    }
+  ],
+  "_rawcode": "A04S",
+  "_base": "AEer",
+  "_name": "Root Jail"
+}

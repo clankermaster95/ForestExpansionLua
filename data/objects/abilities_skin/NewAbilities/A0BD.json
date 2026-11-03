@@ -1,0 +1,52 @@
+{
+  "OldId": 1634291265,
+  "NewId": 1145188417,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_481",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Incinerate (Firelord)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1924",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Each attack made is enhanced with living flames that cling to the target. These flames add <A0BD,DataA1> damage on the first attack, twice as much on the second attack, three times as much on the third attack, etc.|n|nIf a unit dies while under this effect, it is incinerated, causing up to <A0BD,DataB1> damage to all nearby hostile units."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1925",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Each attack made is enhanced with living flames that cling to the target. These flames add <A0BD,DataA2> damage on the first attack, twice as much on the second attack, three times as much on the third attack, etc.|n|nIf a unit dies while under this effect, it is incinerated, causing up to <A0BD,DataB2> damage to all nearby hostile units."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1926",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Each attack made is enhanced with living flames that cling to the target. These flames add <A0BD,DataA3> damage on the first attack, twice as much on the second attack, three times as much on the third attack, etc.|n|nIf a unit dies while under this effect, it is incinerated, causing up to <A0BD,DataB3> damage to all nearby hostile units."
+    }
+  ],
+  "_rawcode": "A0BD",
+  "_base": "ANia",
+  "_name": "Incinerate (Firelord)"
+}

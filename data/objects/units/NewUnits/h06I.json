@@ -1,0 +1,47 @@
+{
+  "OldId": 1869571688,
+  "NewId": 1228288104,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Aloc,Avul,Agho",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    }
+  ],
+  "_rawcode": "h06I",
+  "_base": "hfoo",
+  "_name": "Worgen Lumber Counter"
+}

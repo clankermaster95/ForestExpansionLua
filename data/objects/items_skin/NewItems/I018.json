@@ -1,0 +1,55 @@
+{
+  "OldId": 1668444787,
+  "NewId": 942747721,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "[Recipe] Bleeding Scythe (1200)",
+      "SanityCheck": 0,
+      "_field": "unam"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNScytheBackstab.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "|cffffcc00Full recipe: 1,200 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Iron Blade (500 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your attack damage by 60, agility by 10 and gives you a 40% lifesteal (life steal does not work on structures)",
+      "SanityCheck": 0,
+      "_field": "ides"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "|cffffcc00Full recipe: 1,200 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Iron Blade (500 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your attack damage by 60, agility by 10 and gives you a 40% lifesteal (life steal does not work on structures)",
+      "SanityCheck": 0,
+      "_field": "utub"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "|cff00d200[Recipe]|r Bleeding Scythe |cffdcb900[1,200 gold total]|r",
+      "SanityCheck": 0,
+      "_field": "utip"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_5107",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    }
+  ],
+  "_rawcode": "I018",
+  "_base": "srrc",
+  "_name": "[Recipe] Bleeding Scythe (1200)"
+}

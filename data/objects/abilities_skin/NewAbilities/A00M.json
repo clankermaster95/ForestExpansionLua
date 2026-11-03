@@ -1,0 +1,42 @@
+{
+  "OldId": 1819437121,
+  "NewId": 1295003713,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_472",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harvest Lumber Jippy's Lumber"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_513",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Return the harvested lumber to a nearby shelter."
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1226",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    }
+  ],
+  "_rawcode": "A00M",
+  "_base": "Ahrl",
+  "_name": "Harvest Lumber Jippy's Lumber"
+}

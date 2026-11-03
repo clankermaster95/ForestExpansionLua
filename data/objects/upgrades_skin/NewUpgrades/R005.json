@@ -1,0 +1,60 @@
+{
+  "OldId": 1668314450,
+  "NewId": 892350546,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_542",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Poison Aura"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7238",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Poison Aura - [5.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_539",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Gives an aura off, if any enemy comes near you, it will take Damage Over Time."
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R005",
+  "_base": "Rupc",
+  "_name": "Poison Aura"
+}

@@ -1,0 +1,42 @@
+{
+  "OldId": 1819500866,
+  "NewId": 1496526914,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Tornado\\Tornado_Target.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_9254",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Wind Trail"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_9707",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is stuck in fog; its movement and attack speed has been reduced temporarily."
+    }
+  ],
+  "_rawcode": "B03Y",
+  "_base": "Basl",
+  "_name": "B03Y"
+}

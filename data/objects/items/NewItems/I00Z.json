@@ -1,0 +1,33 @@
+{
+  "OldId": 1752459378,
+  "NewId": 1513107529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 350,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    }
+  ],
+  "_rawcode": "I00Z",
+  "_base": "rhth",
+  "_name": "Galiant Armor"
+}

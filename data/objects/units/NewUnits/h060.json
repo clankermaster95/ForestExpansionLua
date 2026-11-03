@@ -1,0 +1,110 @@
+{
+  "OldId": 1836212584,
+  "NewId": 808857704,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R07I,R06Y,R06Z",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1634890869,
+      "Type": "String",
+      "Value": "n011",
+      "SanityCheck": 0,
+      "_field": "utra"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 20000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1953654901,
+      "Type": "String",
+      "Value": "always",
+      "SanityCheck": 0,
+      "_field": "uhrt"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Avul,Abds",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 64,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    },
+    {
+      "Id": 1952542837,
+      "Type": "String",
+      "Value": "PathTextures\\4x4SimpleSolid.tga",
+      "SanityCheck": 0,
+      "_field": "upat"
+    },
+    {
+      "Id": 1634559605,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ufma"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "other",
+      "SanityCheck": 0,
+      "_field": "urac"
+    }
+  ],
+  "_rawcode": "h060",
+  "_base": "harm",
+  "_name": "Old Workshop"
+}

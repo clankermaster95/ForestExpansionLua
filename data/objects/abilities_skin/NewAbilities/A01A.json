@@ -1,0 +1,98 @@
+{
+  "OldId": 1986086977,
+  "NewId": 1093742657,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_968",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Avatar of Vengance"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBerserkForTrolls.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBerserkForTrolls.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBerserkForTrolls.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\Darksummoning\\DarkSummonTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_969",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Avatar of Vengence"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_970",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Avatar of Vengence [V]"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2878",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "When activated, you gain extra health, armor, and damage, and spell immunity for 60 seconds. 5 minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2890",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When activated, you gain extra health, armor, and damage, and spell immunity for 60 seconds. 5 minute cooldown."
+    }
+  ],
+  "_rawcode": "A01A",
+  "_base": "AHav",
+  "_name": "Avatar of Vengance"
+}

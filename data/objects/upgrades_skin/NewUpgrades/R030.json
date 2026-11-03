@@ -1,0 +1,1001 @@
+{
+  "OldId": 1918986322,
+  "NewId": 808661074,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3814",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOCMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3816",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3817",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3818",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3819",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3820",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3821",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3822",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3823",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3824",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3825",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3826",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3827",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3828",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3829",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3830",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3831",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3832",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3833",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3834",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Claws"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9052",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [5.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9053",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [8.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9054",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [11.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9055",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [14.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9068",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [17.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9070",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9071",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [23.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9074",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [26.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9075",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [29.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9079",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [32.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9080",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9081",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [38.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9082",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [41.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9088",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [44.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9097",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [47.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9099",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9100",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [53.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9101",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [56.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9102",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [59.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9103",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Claws - [62.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1880",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1921",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1927",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1948",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1970",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1971",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1986",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2005",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2022",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2093",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2095",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2101",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2107",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2116",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2119",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2182",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2183",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2184",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2185",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2339",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your worgen by 75, increases the damage of slash by 50, increases the damage per second of bleed by 5 and slow from bleed by 2%."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5947",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5971",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5974",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5989",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5995",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5998",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6004",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6007",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6010",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6019",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6020",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6021",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6022",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6025",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6028",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6133",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6144",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6145",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6147",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6148",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "R030",
+  "_base": "Rhar",
+  "_name": "Sharpened Claws"
+}

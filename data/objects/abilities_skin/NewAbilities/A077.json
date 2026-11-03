@@ -1,0 +1,31 @@
+{
+  "OldId": 863135809,
+  "NewId": 926363713,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7314",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Wildkin)"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "auhk"
+    }
+  ],
+  "_rawcode": "A077",
+  "_base": "Ahr3",
+  "_name": "A077"
+}

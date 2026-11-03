@@ -1,0 +1,271 @@
+{
+  "OldId": 1802723905,
+  "NewId": 1345859649,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1521",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2568",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBootsOfSpeed.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3875",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 10 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1522",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1829",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(new)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5097",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5656",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6231",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6235",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6476",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6478",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6479",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6482",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6487",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6488",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6491",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 11 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6494",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 12 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6495",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 13 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6496",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 14 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3882",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 15 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6498",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 16 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6503",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 17 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6506",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 18 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6509",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 19 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3883",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 20 seconds. 30 second cooldown."
+    }
+  ],
+  "_rawcode": "A08P",
+  "_base": "Absk",
+  "_name": "Sprint"
+}

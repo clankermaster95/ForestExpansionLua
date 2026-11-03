@@ -1,0 +1,65 @@
+{
+  "OldId": 1986090306,
+  "NewId": 1160851522,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_5060",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Hunger"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_5059",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": " (Scythe)"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7483",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Hunger"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_5061",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "You will regain health upon attack."
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\BattleRoar\\RoarCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBerserkForTrolls.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B01E",
+  "_base": "BUav",
+  "_name": "Hunger"
+}

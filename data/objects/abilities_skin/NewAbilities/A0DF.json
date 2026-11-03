@@ -1,0 +1,115 @@
+{
+  "OldId": 1919045185,
+  "NewId": 1178873921,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3068",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5646",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Bounty Hunter Macko)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3072",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Swap to AP Bullets - Chaos"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aub1"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "LoadUnload",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArtilleryUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aani"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\ReplenishHealth\\ReplenishHealthCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3386",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "AP Bullets"
+    }
+  ],
+  "_rawcode": "A0DF",
+  "_base": "ANbr",
+  "_name": "AP Bullets"
+}

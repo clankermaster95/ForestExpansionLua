@@ -1,0 +1,207 @@
+{
+  "OldId": 1918988114,
+  "NewId": 808595538,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10794",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Enhanced Dilatancy"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaArmorUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaArmorUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaArmorUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaArmorUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaArmorUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10795",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Enhanced Dilatancy"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10796",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Enhanced Dilatancy"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10797",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Enhanced Dilatancy"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10798",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Enhanced Dilatancy"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10799",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Enhanced Dilatancy - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10800",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Enhanced Dilatancy - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10801",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Enhanced Dilatancy - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10802",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Enhanced Dilatancy - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10803",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Enhanced Dilatancy - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10804",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your Molten Wall by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10805",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your Molten Wall by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10806",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your Molten Wall by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10807",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your Molten Wall by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10808",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your Molten Wall by 100."
+    }
+  ],
+  "_rawcode": "R020",
+  "_base": "Roar",
+  "_name": "Enhanced Dilatancy"
+}

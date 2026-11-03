@@ -1,0 +1,58 @@
+{
+  "OldId": 1718832962,
+  "NewId": 1211183170,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_5101",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Summoned"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_5102",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": "(Stalker)"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_5103",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Summoned"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_5104",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Has a limited duration."
+    },
+    {
+      "Id": 1952540006,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Items\\AIma\\AImaTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "feat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDemoness.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B01H",
+  "_base": "BOsf",
+  "_name": "Summoned"
+}

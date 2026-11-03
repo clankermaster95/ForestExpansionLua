@@ -1,0 +1,278 @@
+{
+  "OldId": 1869571688,
+  "NewId": 842346600,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A084",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 2000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 3000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1953918325,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "umvt"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "fort",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1886741621,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udup"
+    },
+    {
+      "Id": 828535413,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "urb1"
+    },
+    {
+      "Id": 1915838837,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1r"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "none",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    },
+    {
+      "Id": 829645685,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucs1"
+    },
+    {
+      "Id": 1999724917,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ua1w"
+    },
+    {
+      "Id": 828601461,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "utc1"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1680957813,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1d"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1949393269,
+      "Type": "String",
+      "Value": "unknown",
+      "SanityCheck": 0,
+      "_field": "ua1t"
+    },
+    {
+      "Id": 1634034805,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udea"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1734632053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubdg"
+    },
+    {
+      "Id": 1887007861,
+      "Type": "String",
+      "Value": "mechanical",
+      "SanityCheck": 0,
+      "_field": "utyp"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h01D",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 180,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1885433973,
+      "Type": "String",
+      "Value": "unbuildable",
+      "SanityCheck": 0,
+      "_field": "upap"
+    },
+    {
+      "Id": 1952542837,
+      "Type": "String",
+      "Value": "PathTextures\\4x4SimpleSolid.tga",
+      "SanityCheck": 0,
+      "_field": "upat"
+    }
+  ],
+  "_rawcode": "h052",
+  "_base": "hfoo",
+  "_name": "Base Flag"
+}

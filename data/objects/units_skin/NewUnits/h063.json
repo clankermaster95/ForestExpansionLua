@@ -1,0 +1,79 @@
+{
+  "OldId": 1634037864,
+  "NewId": 859189352,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_399",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Cultist"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1305",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Cultist"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7248",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Baser, Army maker, 300 ms, no hp regen without upgrades, huge regen boost at night (15), ms boost at night (300->430)"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_1895",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Expander) - Macko"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\undead\\Acolyte\\Acolyte.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1935827317,
+      "Type": "String",
+      "Value": "A0EI,Ahar,Amil,Ahrp,Ahlh",
+      "SanityCheck": 0,
+      "_field": "uabs"
+    }
+  ],
+  "_rawcode": "h063",
+  "_base": "hpea",
+  "_name": "Cultist"
+}

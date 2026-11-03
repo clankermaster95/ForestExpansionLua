@@ -1,0 +1,14 @@
+# Tool provenance
+
+The solo command vocabulary and purchase behavior were compared with [Island Defense Lua DebugCheatPack](https://github.com/Rogoeu/Island-Defense-Lua/blob/cbc987c39e3151a1968830ec15fe4af7910bab05/Systems/DebugCheatPack.lua) and [ShopSystemAutoBuy](https://github.com/Rogoeu/Island-Defense-Lua/blob/cbc987c39e3151a1968830ec15fe4af7910bab05/items/ShopSystemAutoBuy.lua). Forest's implementation uses its own object catalog, role API and single-human gate. Price-reference provenance is recorded in `tools/reference-api/item-prices.json`. Lua hidden API names were checked against [Eikonium's API reference](https://www.hiveworkshop.com/threads/a-comprehensive-guide-to-mapping-in-lua.341880/).
+
+The original map and its imported content retain their original ownership and notices. This document does not relicense the map.
+
+- **StormLib**, commit `116135c27e8c0dcf8ea0a0c549a6d737ce10fc73`, version 9.40: [upstream](https://github.com/ladislav-zezula/StormLib). Used for MPQ extraction, compression, packing, and readback. MIT license. One local CMake fix changes the macOS linker option from `"-framework Carbon"` to `"SHELL:-framework Carbon"`.
+- **War3Net.Build / Build.Core 6.1.2**, **War3Net.CodeAnalysis.Jass 6.0.2**, dependencies locked in `tools/MapTool/packages.lock.json`: [upstream](https://github.com/Drake53/War3Net). MIT license. Used for the JASS AST and lossless map codecs. Source consulted at commit `5f6f7bac26ed7ce7d0db83ceb4fb9ce59f918ff8`.
+- `tools/MapTool/Vendor/TriggerRenderer/` contains the War3Net trigger renderer under its included MIT license, with namespace changes and implementations of its four unfinished loop-rendering methods. This renderer is used only to recover originally disabled GUI triggers; active behavior is ported from the original executable map script.
+- `tools/reference-api/` contains the common.j and Blizzard.j fixtures from that War3Net checkout's `TestData/Jass/1.32.9`. They are type/reference-test inputs, not an in-map runtime. Existing Blizzard notices are retained.
+- **Lua 5.3.6**: [upstream source](https://www.lua.org/ftp/lua-5.3.6.tar.gz), MIT license included in the downloaded source. SHA-256: `fc5fd69bb8736323f026672b1b7235da613d7177e72558893a0bdcd320466d60`. Built twice: the standard 64-bit integer/double configuration and `MYCFLAGS=-DLUA_32BITS` for 32-bit integers/floats.
+- **.NET SDK 10.0.403**: installed with Microsoft's [official installer](https://dot.net/v1/dotnet-install.sh). **CMake 4.4.4** is installed in `.venv`. These are build tools, not map payloads.
+
+The typed Lua emitter, migration assembler, project synchronizer, JSON views, and verification harness were written for this port. They fail on unsupported syntax/data instead of silently discarding it. Files in `.tools/` and `.venv/` are local dependency caches.

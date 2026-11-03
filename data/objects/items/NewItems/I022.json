@@ -1,0 +1,40 @@
+{
+  "OldId": 1936028272,
+  "NewId": 842149961,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A0CA",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1953723241,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "isst"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    }
+  ],
+  "_rawcode": "I022",
+  "_base": "pres",
+  "_name": "Cheese"
+}

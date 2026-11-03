@@ -1,0 +1,35 @@
+{
+  "OldId": 1650544194,
+  "NewId": 1328754754,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6388",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Venomous Acid"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6438",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under effect of Venomous Acid. It has reduced armor and magic resist."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCorrosiveBreath.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B03O",
+  "_base": "BNab",
+  "_name": "B03O"
+}

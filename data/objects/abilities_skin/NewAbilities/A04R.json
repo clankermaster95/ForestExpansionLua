@@ -1,0 +1,70 @@
+{
+  "OldId": 1802981185,
+  "NewId": 1379151937,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4766",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Agility"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5325",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAmbush.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5370",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Agility (G)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3712",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The scout moves with such speed, he cannot be seen. When attacking out of this, you will deal 100 extra damage."
+    }
+  ],
+  "_rawcode": "A04R",
+  "_base": "AOwk",
+  "_name": "Agility"
+}

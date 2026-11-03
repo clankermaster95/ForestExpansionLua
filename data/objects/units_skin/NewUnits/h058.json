@@ -1,0 +1,93 @@
+{
+  "OldId": 2004121448,
+  "NewId": 943009896,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\ZigguratUndeadZuldrakV1.03.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNIceRuinsZigguratA0.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.65,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "ZigguratUpgrade",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_477",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Nerubian Ziggurat"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10255",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Provides 1 food. Can become either a tower that no longer provides food or Spire, that increase movement speed of your units by 1% and attack speed by 5%|n|cff8080ffHint: Your race doesn't need a lot of food.|r|n|cff808080Spires can't be upgraded into if there is another spire in a 2500 range.|r|n|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1004",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "Z"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_478",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Nerubian Ziggurat"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "none.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h058",
+  "_base": "hwtw",
+  "_name": "Nerubian Ziggurat"
+}

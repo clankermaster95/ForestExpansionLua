@@ -1,0 +1,22 @@
+{
+  "OldId": 1835157825,
+  "NewId": 1161179201,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6448",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Orb of Mana"
+    }
+  ],
+  "_rawcode": "A06E",
+  "_base": "AIbm",
+  "_name": "Orb of Mana"
+}

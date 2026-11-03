@@ -1,0 +1,75 @@
+{
+  "OldId": 1700881985,
+  "NewId": 1513304129,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828727622,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Fae1"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 45,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R033",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B00F",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    }
+  ],
+  "_rawcode": "A03Z",
+  "_base": "Afae",
+  "_name": "Track"
+}

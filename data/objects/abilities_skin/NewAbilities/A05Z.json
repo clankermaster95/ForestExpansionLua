@@ -1,0 +1,106 @@
+{
+  "OldId": 1818447681,
+  "NewId": 1513435201,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5990",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Feast of Souls"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6126",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00F|reast of Souls"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3350",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You deal 350 damage and heal for 700. 20 second cooldown. |n|cff7F7F7FYour strike tears away a chunk of the target's soul, and you devour it.|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1659",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 1734962273,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "alig"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_IMPALE.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_IMPALE.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "slam",
+      "SanityCheck": 0,
+      "_field": "aani"
+    }
+  ],
+  "_rawcode": "A05Z",
+  "_base": "AOcl",
+  "_name": "Feast of Souls"
+}

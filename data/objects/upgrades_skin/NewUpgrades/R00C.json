@@ -1,0 +1,129 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1127231570,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_779",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Hard Bark"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSmash.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpikedBarricades.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNatureTouchGrow.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_781",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Imbued Bark"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_782",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Spirit Bark"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7244",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade to Hard Bark - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5938",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade to Imbued Bark - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6268",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade to Spirit Bark - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1508",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases hit points of walls by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1947",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases hit points of walls by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2297",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases hit points of walls by 100."
+    }
+  ],
+  "_rawcode": "R00C",
+  "_base": "Rhar",
+  "_name": "Spirit Bark"
+}

@@ -1,0 +1,54 @@
+{
+  "OldId": 1718903154,
+  "NewId": 1479553097,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1869902697,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "isto"
+    },
+    {
+      "Id": 1953723241,
+      "Type": "Int",
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "isst"
+    }
+  ],
+  "_rawcode": "I00X",
+  "_base": "ratf",
+  "_name": "Random (A)"
+}

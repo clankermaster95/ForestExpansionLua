@@ -1,0 +1,52 @@
+{
+  "OldId": 1819437121,
+  "NewId": 1194668097,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5267",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harvest Lumber"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5268",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Forgotten Lumber)"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6073",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2761",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Return the harvested lumber to a nearby shelter."
+    }
+  ],
+  "_rawcode": "A05G",
+  "_base": "Ahrl",
+  "_name": "Harvest Lumber"
+}

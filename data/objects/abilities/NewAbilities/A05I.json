@@ -1,0 +1,30 @@
+{
+  "OldId": 1819437121,
+  "NewId": 1228222529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829579592,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Har1"
+    },
+    {
+      "Id": 846356808,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Har2"
+    }
+  ],
+  "_rawcode": "A05I",
+  "_base": "Ahrl",
+  "_name": "A05I"
+}

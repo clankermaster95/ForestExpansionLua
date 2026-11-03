@@ -1,0 +1,33 @@
+{
+  "OldId": 1819637358,
+  "NewId": 1177563246,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Avul,Awan",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    }
+  ],
+  "_rawcode": "n00F",
+  "_base": "nvul",
+  "_name": "|cffE67B21Meerkatking|r"
+}

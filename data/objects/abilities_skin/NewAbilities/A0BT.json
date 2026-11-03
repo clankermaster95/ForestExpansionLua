@@ -1,0 +1,61 @@
+{
+  "OldId": 1935887937,
+  "NewId": 1413623873,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9879",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Cluster Rockets"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5917",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Bombards an area with rockets, dealing up to 500 damage to nearby enemy land units and interrupting spells. |n|cff808080Has initial cast time of 5 seconds.|r|n|cff00ffffDeals 33% damage to enemy buildings|r"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4843",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5569",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A0BT",
+  "_base": "ANcs",
+  "_name": "A0BT"
+}

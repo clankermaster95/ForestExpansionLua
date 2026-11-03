@@ -1,0 +1,51 @@
+{
+  "OldId": 1852143169,
+  "NewId": 926232641,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5094",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Dread"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShadowPact.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5095",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dread"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5096",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Basic attacks deal 20 damage per second and slow the target by 35%. This effect lasts 3 seconds."
+    }
+  ],
+  "_rawcode": "A057",
+  "_base": "Aven",
+  "_name": "Dread"
+}

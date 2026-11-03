@@ -1,0 +1,756 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1362243666,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3367",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNShamanMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3369",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3370",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3371",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3372",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3373",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3374",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3375",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3376",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3377",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3378",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3379",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3380",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8809",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [10.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8813",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [15.0]"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3381",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3382",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpened Puncturers"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8810",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8811",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8816",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8817",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8818",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8819",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8820",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8822",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8823",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [65.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8824",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [70.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8821",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [55.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8828",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [75.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8827",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpened Puncturers - [80.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3398",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3399",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3400",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3401",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3402",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3403",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3404",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3405",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3406",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3407",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3408",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3409",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3410",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3411",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3412",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your crypt lord by 50."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1849",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2075",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2078",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2079",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2080",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2081",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2133",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2196",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2207",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2634",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2649",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2731",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2781",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3185",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3795",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R02Q",
+  "_base": "Rhar",
+  "_name": "Sharpened Puncturers"
+}

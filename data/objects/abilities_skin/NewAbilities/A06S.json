@@ -1,0 +1,22 @@
+{
+  "OldId": 1919828801,
+  "NewId": 1396060225,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6795",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Forgotten Regen"
+    }
+  ],
+  "_rawcode": "A06S",
+  "_base": "ACnr",
+  "_name": "Forgotten Regen"
+}

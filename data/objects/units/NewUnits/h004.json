@@ -1,0 +1,117 @@
+{
+  "OldId": 1936875880,
+  "NewId": 875573352,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 1500,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1634890869,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "utra"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R05H,R000",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1769107573,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "upri"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1952542837,
+      "Type": "String",
+      "Value": "PathTextures\\8x8SimpleSolid.tga",
+      "SanityCheck": 0,
+      "_field": "upat"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    }
+  ],
+  "_rawcode": "h004",
+  "_base": "hars",
+  "_name": "Blacksmith"
+}

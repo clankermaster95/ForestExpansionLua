@@ -1,0 +1,58 @@
+{
+  "OldId": 1650542658,
+  "NewId": 942813250,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6778",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Ancient's Base"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6780",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Ancient's Base"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_6779",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": " Mana"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6788",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Your ancient is restoring mana."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\Rejuvenation\\RejuvenationTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRune.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B028",
+  "_base": "BHab",
+  "_name": "Ancient's Base"
+}

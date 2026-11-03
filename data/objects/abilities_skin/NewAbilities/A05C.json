@@ -1,0 +1,189 @@
+{
+  "OldId": 1735609921,
+  "NewId": 1127559233,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5142",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon: Dark Tower"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTempleOfTheDamned.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTempleOfTheDamned.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\Thunderclap\\ThunderClapCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2244",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2266",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5144",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Summon Da|cffffcc00r|rk Tower"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4407",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Summons a powerful tower to watch over a location for 2 minutes. Each level of this ability increases the tower's damage and health. 1 minute cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9765",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Dark Tower"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9766",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Dark Tower"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9767",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Dark Tower"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9768",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Dark Tower"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9769",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Dark Tower"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4408",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a powerful tower to watch over a location for 2 minutes. Each level of this ability increases the tower's damage and health. 1 minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4409",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a powerful tower to watch over a location for 2 minutes. Each level of this ability increases the tower's damage and health. 1 minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4410",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a powerful tower to watch over a location for 2 minutes. Each level of this ability increases the tower's damage and health. 1 minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4411",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a powerful tower to watch over a location for 2 minutes. Each level of this ability increases the tower's damage and health. 1 minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4412",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a powerful tower to watch over a location for 2 minutes. Each level of this ability increases the tower's damage and health. 1 minute cooldown."
+    }
+  ],
+  "_rawcode": "A05C",
+  "_base": "ANsg",
+  "_name": "Summon: Dark Tower"
+}

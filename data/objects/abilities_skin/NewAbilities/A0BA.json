@@ -1,0 +1,22 @@
+{
+  "OldId": 1986621505,
+  "NewId": 1094856769,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1222",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Dark Templar)"
+    }
+  ],
+  "_rawcode": "A0BA",
+  "_base": "Apiv",
+  "_name": "A0BA"
+}

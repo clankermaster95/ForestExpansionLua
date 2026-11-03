@@ -1,0 +1,61 @@
+{
+  "OldId": 1919902575,
+  "NewId": 1261514825,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A023,AItf,A01R",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1769107561,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ipri"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    }
+  ],
+  "_rawcode": "I01K",
+  "_base": "ocor",
+  "_name": "Rending Blade"
+}

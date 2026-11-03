@@ -1,0 +1,42 @@
+{
+  "OldId": 1751935058,
+  "NewId": 825372754,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2860",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Lumber"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8405",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Improved |cffffcc00L|rumber - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5021",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Your Seedling's now harvest 65 wood."
+    }
+  ],
+  "_rawcode": "R021",
+  "_base": "Rhlh",
+  "_name": "Improved Lumber"
+}

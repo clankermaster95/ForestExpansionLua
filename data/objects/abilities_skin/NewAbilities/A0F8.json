@@ -1,0 +1,52 @@
+{
+  "OldId": 2004045377,
+  "NewId": 944123969,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9699",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Elite Eagle"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2235",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9700",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Elite Eagle"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9701",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a proud eagle to spy on your enemies with 420 move speed, 1000 sight range and True Sight ability. |nLasts <A0F8,Dur1> seconds."
+    }
+  ],
+  "_rawcode": "A0F8",
+  "_base": "ANsw",
+  "_name": "Summon Elite Eagle"
+}

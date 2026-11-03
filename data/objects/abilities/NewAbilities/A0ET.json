@@ -1,0 +1,21 @@
+{
+  "OldId": 1936542017,
+  "NewId": 1413820481,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651928393,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "Imvb"
+    }
+  ],
+  "_rawcode": "A0ET",
+  "_base": "AIms",
+  "_name": "A0ET"
+}

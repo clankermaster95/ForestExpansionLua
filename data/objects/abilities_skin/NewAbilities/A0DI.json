@@ -1,0 +1,140 @@
+{
+  "OldId": 1886798657,
+  "NewId": 1229205569,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4927",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Devour Flesh"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2938",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4789",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Abomination) - Macko"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNVampiricAura.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4928",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffa62c2cDevour Flesh|r |cffbc5858[Passive]|r |cffc8906f[Level 1]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4929",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffa62c2cDevour Flesh|r |cffbc5858[Passive]|r |cffc8906f[Level 2]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4930",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffa62c2cDevour Flesh|r |cffbc5858[Passive]|r |cffc8906f[Level 3]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4065",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffeb4242Abomination consumes flesh of its foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 5% |cffeb4242of its current|r damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4066",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffeb4242Abomination consumes flesh of its foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 10% |cffeb4242of its current|r damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4067",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffeb4242Abomination consumes flesh of its foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 15% |cffeb4242of its current|r damage."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4934",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffa62c2cDevour Flesh|r |cffbc5858[Passive]|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4068",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cffeb4242Abomination consumes flesh of its foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 15% |cffeb4242of its current|r damage."
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    }
+  ],
+  "_rawcode": "A0DI",
+  "_base": "ACvp",
+  "_name": "Devour Flesh"
+}

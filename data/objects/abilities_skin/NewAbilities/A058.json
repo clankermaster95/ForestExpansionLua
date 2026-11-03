@@ -1,0 +1,159 @@
+{
+  "OldId": 1718832961,
+  "NewId": 943009857,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5454",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5455",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5098",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Summon: |cffffcc00D|reathly Necromancer"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5127",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: |cffffcc00D|reathly Necromancer"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5128",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: |cffffcc00D|reathly Necromancer"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5129",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: |cffffcc00D|reathly Necromancer"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4470",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Summons a Deathly Necromancer, a powerful spellcaster who can manipulate the battlefield. Lasts for 40 seconds. Each extra level in this ability grants the Necromancer a new ability. 15 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4471",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Deathly Necromancer, a powerful spellcaster who can manipulate the battlefield. Lasts for 40 seconds. Each extra level in this ability grants the Necromancer a new ability. 15 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4472",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Deathly Necromancer, a powerful spellcaster who can manipulate the battlefield. Lasts for 40 seconds. Each extra level in this ability grants the Necromancer a new ability. 15 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4473",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Deathly Necromancer, a powerful spellcaster who can manipulate the battlefield. Lasts for 40 seconds. Each extra level in this ability grants the Necromancer a new ability. 15 second cooldown."
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6221",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Paranoia)"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6219",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Necromancer"
+    }
+  ],
+  "_rawcode": "A058",
+  "_base": "AOsf",
+  "_name": "Summon Necromancer"
+}

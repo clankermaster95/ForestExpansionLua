@@ -1,0 +1,31 @@
+{
+  "OldId": 811878721,
+  "NewId": 1228288065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6451",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Item Armor Bonus (+15)"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    }
+  ],
+  "_rawcode": "A06I",
+  "_base": "AId0",
+  "_name": "Item Armor Bonus (+15)"
+}

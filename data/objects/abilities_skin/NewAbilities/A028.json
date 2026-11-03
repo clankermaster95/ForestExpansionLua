@@ -1,0 +1,31 @@
+{
+  "OldId": 1717717313,
+  "NewId": 942813249,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1256",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Seed of Destruction"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPurpleFelhound.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A028",
+  "_base": "AIbf",
+  "_name": "Seed of Destruction"
+}

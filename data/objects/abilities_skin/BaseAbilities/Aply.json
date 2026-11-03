@@ -1,0 +1,60 @@
+{
+  "OldId": 2037149761,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_683",
+      "SanityCheck": 2037149761,
+      "_field": "aub1",
+      "_resolvedText": "Turns a target enemy unit into a sheep. The targeted unit retains its hit points and armor, but cannot attack. Lasts 2 seconds on heroes.|n|cff80808060 seconds cooldown|r"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4768",
+      "SanityCheck": 2037149761,
+      "_field": "ansf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2066",
+      "SanityCheck": 2037149761,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 2037149761,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 2037149761,
+      "_field": "abpy"
+    }
+  ],
+  "_rawcode": "Aply",
+  "_base": "Aply",
+  "_name": "Aply"
+}

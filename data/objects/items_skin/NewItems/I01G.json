@@ -1,0 +1,51 @@
+{
+  "OldId": 1751343731,
+  "NewId": 1194405961,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7479",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Hungering Blade"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBlood Stinger.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7480",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Hungering Blade"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6394",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "When held, grants you 30% lifesteal and an additional 60 damage. The lifesteal bonus of this item does not stack.|n|cff7F7F7FA cursed sword found by a wandering Wildkin is now sold to whoever is brave enough to wield it.|r|cffff80ff|nDifferent orb effects coming from 1 unit do not stack.|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_7488",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "When held, grants you 30% lifesteal and an additional 60 damage. The lifesteal bonus of this item does not stack.|n|cff7F7F7FA cursed sword found by a wandering Wildkin is now sold to whoever is brave enough to wield it.|r"
+    }
+  ],
+  "_rawcode": "I01G",
+  "_base": "sbch",
+  "_name": "Hungering Blade"
+}

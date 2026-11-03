@@ -1,0 +1,89 @@
+{
+  "OldId": 1651402066,
+  "NewId": 1211576402,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4102",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Booby Trap"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4607",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff009b00Booby Trap|r [25]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2512",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff4aad59Allows Bounty Hunter to set up hidden booby traps that stun enemies who step on it.|r"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6797",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStasisTrap.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9322",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R07H",
+  "_base": "Renb",
+  "_name": "Booby Trap"
+}

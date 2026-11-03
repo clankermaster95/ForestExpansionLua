@@ -1,0 +1,39 @@
+{
+  "version": "3.2.0",
+  "revision": "r6",
+  "backup": "backups\\20261102-225920-wlp92zg6",
+  "changed_modules": [
+    {
+      "module": "src/items/shops.lua",
+      "before_sha256": "ffc0be1ed3d9b97925a018c57e98ae1849da04d1b68f2bcfba00e42845be7e8e",
+      "after_sha256": "dfe6430148f0ac3e09db6f98d083f016d5cb5a66f00e577465d514bd1b4e89c7"
+    },
+    {
+      "module": "src/commands/test_data.lua",
+      "before_sha256": "ded880c4ab4500b2b12356d2c5c0fb820d78f187b209b9307eec275442f49ac0",
+      "after_sha256": "03d061709f30168f7fe9dd632b9ac861cf85a1e366ea05bd5d40132dee01ebce"
+    },
+    {
+      "module": "src/commands/solo_test.lua",
+      "before_sha256": "5845fa777c9669c160211a6f59435a2e005b9d0f099828c86f36975ebdf13a23",
+      "after_sha256": "4b8dbbaa9de50487ba9c50c2f7f7f3ed9f0c167ee26eccfae0ac573e5c3dc4f3"
+    }
+  ],
+  "payload_changes": [
+    {
+      "file": "war3map.wts",
+      "before_sha256": "fb42091784bd9556c111e40625b80e1b821213192c0fa366cb8fe52435457f93",
+      "after_sha256": "150f14be14a22bb6ca791063383a32863d1d25578281c4c975d3471adaa6431a"
+    }
+  ],
+  "changes": [
+    "Disable automatic shop diagnostic messages by default.",
+    "Keep explicit solo-only troubleshooting via -test shop on/off.",
+    "Update F9 help to describe opt-in diagnostics.",
+    "Add a player-facing community changelog and shareable map package."
+  ],
+  "repository_visibility": "Keep private, explicitly requested by user.",
+  "native_game_test": false,
+  "multiplayer_test": false,
+  "archive_sha256": "35f147ecc8267008507485fb5b69e8b96c6e01094305d806a065065d3ef8afcd"
+}

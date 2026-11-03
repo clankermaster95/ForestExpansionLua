@@ -1,0 +1,66 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1379020882,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828794215,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "gef1"
+    },
+    {
+      "Id": 1819700327,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "glvl"
+    },
+    {
+      "Id": 1651271527,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "gglb"
+    },
+    {
+      "Id": 1835820903,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gglm"
+    },
+    {
+      "Id": 1651338343,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "glmb"
+    },
+    {
+      "Id": 1835887719,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "glmm"
+    }
+  ],
+  "_rawcode": "R02R",
+  "_base": "Rhar",
+  "_name": "Puncture"
+}

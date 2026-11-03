@@ -1,0 +1,70 @@
+{
+  "OldId": 1634693697,
+  "NewId": 808857665,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2152",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6011",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Surge of Darkness"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6131",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rurge of Darkness"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3351",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You gain 50% bonus damage but have heavily reduced movement speed for 5 seconds. 6 second cooldown. |n|cff7F7F7FYour muscles surge with dark energy, empowering your strikes, but making movement difficult.|r"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEradication.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNEradication.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    }
+  ],
+  "_rawcode": "A060",
+  "_base": "Aroa",
+  "_name": "Surge of Darkness"
+}

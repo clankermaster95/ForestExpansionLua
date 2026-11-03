@@ -1,0 +1,57 @@
+{
+  "OldId": 1869640514,
+  "NewId": 925904962,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_1268",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Plague"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_1269",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Plague"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_1270",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is plagued, it is slowed by 30% and takes 10 damage per second."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Units\\Undead\\PlagueCloud\\PlagueCloudtarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "fnsf"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPlagueCloud.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B007",
+  "_base": "Bspo",
+  "_name": "Plague"
+}

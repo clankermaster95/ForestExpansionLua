@@ -1,0 +1,51 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1261842514,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4146",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Shadow Strider"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10689",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Shadow Strider - [45.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3493",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Makes you permanently invisible out of combat and increases your movement speed by 35. |NFade delay: 2s."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNStrider.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R06K",
+  "_base": "Rhme",
+  "_name": "Shadow Strider"
+}

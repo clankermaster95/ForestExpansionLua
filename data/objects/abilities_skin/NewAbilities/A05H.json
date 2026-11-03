@@ -1,0 +1,78 @@
+{
+  "OldId": 1802981185,
+  "NewId": 1211445313,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5805",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Shadow Blood"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNpurpleblood.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNpurpleblood.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ShadowMeld",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5269",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Shado|cffffcc00w|r Blood"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3559",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases your movement speed by 50% and removes your unit collision for 8 seconds. 45 second cooldown. |n|cff7F7F7FThe blood of Y'Shaarj disperses the Forgotten into shadows, phasing through his enemies easily.|r"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    }
+  ],
+  "_rawcode": "A05H",
+  "_base": "AOwk",
+  "_name": "Shadow Blood"
+}

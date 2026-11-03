@@ -1,0 +1,72 @@
+{
+  "OldId": 1835427182,
+  "NewId": 1311780974,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNArcaneSanctum.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\human\\ArcaneSanctum\\ArcaneSanctum.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5116",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Research Center"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_570",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Research center"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10292",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Further your development with strong and useful upgrades for your towers, walls and Observatory that you can do in this building.|n|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "ArcaneSanctum",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_215",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "n00N",
+  "_base": "nefm",
+  "_name": "Research Center"
+}

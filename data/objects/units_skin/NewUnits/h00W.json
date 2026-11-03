@@ -1,0 +1,34 @@
+{
+  "OldId": 1702391912,
+  "NewId": 1462775912,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\nightelf\\Wisp\\Wisp.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWisp.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_589",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Tree Spirit"
+    }
+  ],
+  "_rawcode": "h00W",
+  "_base": "hpxe",
+  "_name": "Tree Spirit"
+}

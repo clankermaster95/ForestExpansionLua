@@ -1,0 +1,60 @@
+{
+  "OldId": 829448513,
+  "NewId": 1311780929,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_537",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Poison Aura"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_540",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Poison Aura"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_514",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Enemies around you will take damage over time."
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\UndeadMine\\UndeadMineCircle.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    }
+  ],
+  "_rawcode": "A00N",
+  "_base": "Aap1",
+  "_name": "Poison Aura"
+}

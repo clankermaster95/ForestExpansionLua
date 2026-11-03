@@ -1,0 +1,89 @@
+{
+  "OldId": 1634947137,
+  "NewId": 1514352705,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9425",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Overdrive"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1044",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1087",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffc86900Overdrive|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1088",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Tree Chopper uses fresh tree as fuel for it's overdrive. While in overdrive, the machine moves increadibly fast.|n|n|cff23a01eMovement speed is increased by 100% for 30 seconds. Uses up the entire tree.|r"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2653",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    }
+  ],
+  "_rawcode": "A0CZ",
+  "_base": "APsa",
+  "_name": "Overdrive"
+}

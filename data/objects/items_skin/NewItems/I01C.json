@@ -1,0 +1,58 @@
+{
+  "OldId": 1735289699,
+  "NewId": 1127297097,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6440",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Staff of Insight"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPriestMaster.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6441",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Staff of Insight"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_2109",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff8080ffActive: Silence. Duration: 5 seconds|r |nAlso increases your armor by 15, strength by 30, and mana by 1000 and move speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r|n|n|cff808080CD:30s|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_2145",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "|cff8080ffActive: Silence. Duration: 5 seconds|r |nAlso increases your armor by 15, strength by 30, and mana by 1000 and move speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r|n|n|cff808080CD:30s|r"
+    }
+  ],
+  "_rawcode": "I01C",
+  "_base": "ckng",
+  "_name": "Staff of Insight"
+}

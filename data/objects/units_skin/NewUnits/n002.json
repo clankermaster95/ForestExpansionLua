@@ -1,0 +1,43 @@
+{
+  "OldId": 1835429486,
+  "NewId": 842018926,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_660",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Coral Research Center"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_661",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build |cffffcc00C|roral Research Center"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9397",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Researches Upgrades for the Water Sprite and buildings.|n|n|cfffdca00Health:|r 130|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "n002",
+  "_base": "nnfm",
+  "_name": "Coral Research Center"
+}

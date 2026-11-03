@@ -1,0 +1,20 @@
+{
+  "OldId": 1634288962,
+  "NewId": 1194471490,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7204",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Absolute Zero"
+    }
+  ],
+  "_rawcode": "B02G",
+  "_base": "BEia",
+  "_name": "Absolute Zero"
+}

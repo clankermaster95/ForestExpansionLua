@@ -1,0 +1,68 @@
+{
+  "OldId": 1952674676,
+  "NewId": 808529993,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1869902697,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "isto"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A04A",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1635021673,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ista"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    }
+  ],
+  "_rawcode": "I010",
+  "_base": "tsct",
+  "_name": "Protector Seed"
+}

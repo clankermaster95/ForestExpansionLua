@@ -1,0 +1,117 @@
+{
+  "OldId": 1634493032,
+  "NewId": 1144270952,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 1250,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "u00A",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R04K,R04L,R04M,R04N",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1836212597,
+      "Type": "String",
+      "Value": "Metal",
+      "SanityCheck": 0,
+      "_field": "uarm"
+    }
+  ],
+  "_rawcode": "h04D",
+  "_base": "hbla",
+  "_name": "Pit of Endless Ravening"
+}

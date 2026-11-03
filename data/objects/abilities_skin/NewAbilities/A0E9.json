@@ -1,0 +1,208 @@
+{
+  "OldId": 1702316097,
+  "NewId": 960835649,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1802728801,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "osw1,osw2,osw3,osw3",
+      "SanityCheck": 0,
+      "_field": "ausk"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDemoness.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDemoness.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\FlameStrike\\FlameStrikeTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9413",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Paranoia)"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1591",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1592",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6229",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Stalker"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5088",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3714",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Summons 3 (+1 per level) Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Lasts 45 seconds. 60 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9950",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9951",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9953",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9954",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9955",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3715",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 3 Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Lasts 45 seconds. 60 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3716",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 4 Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Lasts 45 seconds. 60 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3717",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 5 Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Lasts 45 seconds. 60 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3718",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 6 Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Lasts 45 seconds. 60 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3719",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 7 Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Lasts 45 seconds. 60 second cooldown."
+    }
+  ],
+  "_rawcode": "A0E9",
+  "_base": "AHwe",
+  "_name": "Summon Stalker"
+}

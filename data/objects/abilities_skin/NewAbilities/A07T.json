@@ -1,0 +1,97 @@
+{
+  "OldId": 1650542657,
+  "NewId": 1412902977,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNShadeTrueSight.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNShadeTrueSight.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6654",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The Worgen is permanently invisible and gathers double the normal amount of gold per attack. Additionally, you gain one gold every time you return lumber."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8125",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Worgen's Bane"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 811693153,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ata0"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6237",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Actual)"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8127",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Worgen's Bane"
+    }
+  ],
+  "_rawcode": "A07T",
+  "_base": "AHab",
+  "_name": "Worgen's Bane"
+}

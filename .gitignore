@@ -1,0 +1,10 @@
+.tools/
+.venv/
+build/
+backups/
+tools/MapTool/bin/
+tools/MapTool/obj/
+**/__pycache__/
+.DS_Store
+*.core
+local-build.json

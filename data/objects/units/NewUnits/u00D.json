@@ -1,0 +1,54 @@
+{
+  "OldId": 1684566901,
+  "NewId": 1144008821,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1953654901,
+      "Type": "String",
+      "Value": "always",
+      "SanityCheck": 0,
+      "_field": "uhrt"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 800,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    }
+  ],
+  "_rawcode": "u00D",
+  "_base": "ushd",
+  "_name": "u00D"
+}

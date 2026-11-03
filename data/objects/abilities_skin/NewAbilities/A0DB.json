@@ -1,0 +1,98 @@
+{
+  "OldId": 1969321025,
+  "NewId": 1111765057,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_301",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Items\\TomeOfRetraining\\TomeOfRetrainingCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSirenMaster.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3971",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff86cb82Harvest Wild Grapes|r [60]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2602",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff70ad80Bounty Hunter harvests native forest grapes for consumption.|r|n|n|cff70ad80Harvest cooldown is|r 60 |cff70ad80seconds.|r"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3577",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4154",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harvest Wild Grapes"
+    }
+  ],
+  "_rawcode": "A0DB",
+  "_base": "Atau",
+  "_name": "Harvest Wild Grapes"
+}

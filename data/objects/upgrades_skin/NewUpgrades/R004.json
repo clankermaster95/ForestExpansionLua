@@ -1,0 +1,472 @@
+{
+  "OldId": 1701668946,
+  "NewId": 875573330,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6847",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Axe Upgrade"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6848",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Axe Upgrade"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6849",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Axe Upgrade"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6850",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Axe Upgrade"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6851",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Axe Upgrade"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6741",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Axe Upgrade - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6954",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Axe Upgrade - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6955",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Axe Upgrade - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6956",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Axe Upgrade - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6963",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Axe Upgrade - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2632",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your attack damage and shovel strike by 60"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2650",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your attack damage and shovel strike by 60"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2651",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your attack damage and shovel strike by 60"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2667",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your attack damage and shovel strike by 60"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2674",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your attack damage and shovel strike by 60"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6852",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Axe Upgrade"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6853",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Axe Upgrade"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6854",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Axe Upgrade"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6855",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Axe Upgrade"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6856",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Axe Upgrade"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7225",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Axe Upgrade - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7226",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Axe Upgrade - [55.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7230",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Axe Upgrade - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7228",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Axe Upgrade - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7229",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Axe Upgrade - [65.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2675",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your attack damage and shovel strike by 60"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2689",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your attack damage and shovel strike by 60"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2712",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your attack damage and shovel strike by 60"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2713",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your attack damage and shovel strike by 60"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2730",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your attack damage and shovel strike by 60"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2505",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2508",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2513",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2519",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2520",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2522",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2592",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R004",
+  "_base": "Rhme",
+  "_name": "Axe Upgrade"
+}

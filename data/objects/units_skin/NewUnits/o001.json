@@ -1,0 +1,93 @@
+{
+  "OldId": 1919903343,
+  "NewId": 825241711,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_075",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Volcano"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_076",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build |cffffcc00V|rolcano"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_077",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3096",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Allows you to create units to hunt down the ancient. This building also provides upgrades and opens further tech trees.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Volcano\\Volcano.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.6,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o001",
+  "_base": "ofor",
+  "_name": "Volcano"
+}

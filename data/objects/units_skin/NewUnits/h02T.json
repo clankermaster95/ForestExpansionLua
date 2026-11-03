@@ -1,0 +1,93 @@
+{
+  "OldId": 2004117352,
+  "NewId": 1412575336,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2898",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Centaur Haste Tower"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\HarpyNest\\HarpyNest.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\SentinelMissile\\SentinelMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_425",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2899",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Centaur Haste Tower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_5751",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Further increases attack speed of the tower by 20%.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 0.2|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.25,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h02T",
+  "_base": "hgtw",
+  "_name": "Centaur Haste Tower"
+}

@@ -1,0 +1,256 @@
+{
+  "FormatVersion": "v33",
+  "MapVersion": 5826,
+  "EditorVersion": "v6117",
+  "GameVersion": "2.0.4.23745",
+  "MapName": "TRIGSTR_116",
+  "MapAuthor": "TRIGSTR_119",
+  "MapDescription": "TRIGSTR_118",
+  "RecommendedPlayers": "TRIGSTR_117",
+  "CameraBounds": {
+    "BottomLeft": {
+      "X": -7680,
+      "Y": -8448
+    },
+    "TopRight": {
+      "X": 7680,
+      "Y": 7424
+    },
+    "TopLeft": {
+      "X": -7680,
+      "Y": 7424
+    },
+    "BottomRight": {
+      "X": 7680,
+      "Y": -8448
+    }
+  },
+  "CameraBoundsComplements": {
+    "Left": 0,
+    "Right": 0,
+    "Bottom": 0,
+    "Top": 0
+  },
+  "PlayableMapAreaWidth": 128,
+  "PlayableMapAreaHeight": 128,
+  "MapFlags": "PlayableMapSizeWasLarge, MaskedAreasArePartiallyVisible, FixedPlayerSettingsForCustomForces, UseCustomForces, HasMapPropertiesMenuBeenOpened, ShowWaterWavesOnCliffShores, ShowWaterWavesOnRollingShores, RequiresExpansion, UseItemClassificationSystem",
+  "Tileset": "SunkenRuins",
+  "LoadingScreenBackgroundNumber": -1,
+  "LoadingScreenPath": "war3mapImported\\LoadingScreen.mdx",
+  "LoadingScreenText": "TRIGSTR_122",
+  "LoadingScreenTitle": "TRIGSTR_120",
+  "LoadingScreenSubtitle": "TRIGSTR_121",
+  "GameDataSet": "Default",
+  "PrologueScreenPath": "",
+  "PrologueScreenText": "",
+  "PrologueScreenTitle": "",
+  "PrologueScreenSubtitle": "",
+  "FogStyle": "Linear",
+  "FogStartZ": 3000,
+  "FogEndZ": 5000,
+  "FogDensity": 0.5,
+  "FogColor": {
+    "R": 0,
+    "G": 0,
+    "B": 0,
+    "A": 255
+  },
+  "GlobalWeather": "None",
+  "SoundEnvironment": "",
+  "LightEnvironment": "Unspecified",
+  "WaterTintingColor": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "A": 255
+  },
+  "ScriptLanguage": "Jass",
+  "SupportedModes": "SD",
+  "GameDataVersion": "TFT",
+  "ForceDefaultCameraZoom": 1250,
+  "ForceMaxCameraZoom": 1250,
+  "ForceMinCameraZoom": 1250,
+  "Players": [
+    {
+      "Id": 0,
+      "Controller": "User",
+      "Race": "Human",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_001",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1982,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 1,
+      "Controller": "User",
+      "Race": "Human",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_106",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1981,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 2,
+      "Controller": "User",
+      "Race": "Human",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_107",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1979,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 3,
+      "Controller": "User",
+      "Race": "Human",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_108",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1975,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 4,
+      "Controller": "User",
+      "Race": "Human",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_109",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1967,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 5,
+      "Controller": "User",
+      "Race": "Human",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_110",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1951,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 6,
+      "Controller": "User",
+      "Race": "NightElf",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_111",
+      "StartPosition": {
+        "X": 7680,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1983,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 7,
+      "Controller": "User",
+      "Race": "Human",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_1294",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1855,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 8,
+      "Controller": "User",
+      "Race": "Human",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_1295",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1727,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 9,
+      "Controller": "User",
+      "Race": "Human",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_1296",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1471,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 10,
+      "Controller": "User",
+      "Race": "Human",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_1297",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 959,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    }
+  ],
+  "Forces": [
+    {
+      "Flags": "Allied, ShareVision",
+      "Players": -65,
+      "Name": "TRIGSTR_5446"
+    },
+    {
+      "Flags": "Allied, ShareVision",
+      "Players": 64,
+      "Name": "TRIGSTR_5447"
+    }
+  ],
+  "UpgradeData": [],
+  "TechData": [],
+  "RandomUnitTables": [],
+  "RandomItemTables": []
+}

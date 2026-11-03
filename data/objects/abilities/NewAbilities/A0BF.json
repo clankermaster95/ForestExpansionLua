@@ -1,0 +1,93 @@
+{
+  "OldId": 1986544449,
+  "NewId": 1178742849,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "arac"
+    },
+    {
+      "Id": 845964111,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Ocl2"
+    },
+    {
+      "Id": 829186895,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "Ocl1"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,friend,ground,invulnerable,neutral,self,structure,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935762273,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acas"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 180,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R03N",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    }
+  ],
+  "_rawcode": "A0BF",
+  "_base": "AChv",
+  "_name": "Bloom"
+}

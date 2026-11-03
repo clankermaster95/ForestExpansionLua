@@ -1,0 +1,42 @@
+{
+  "OldId": 1902464834,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp",
+      "SanityCheck": 1902464834,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\Curse\\CurseTarget.mdl",
+      "SanityCheck": 1902464834,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_276",
+      "SanityCheck": 1902464834,
+      "_field": "fube",
+      "_resolvedText": "This unit is under a frozen Seige, It is Severially slowed."
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_271",
+      "SanityCheck": 1902464834,
+      "_field": "ftip",
+      "_resolvedText": "Frozen Seige"
+    }
+  ],
+  "_rawcode": "BOeq",
+  "_base": "BOeq",
+  "_name": "BOeq"
+}

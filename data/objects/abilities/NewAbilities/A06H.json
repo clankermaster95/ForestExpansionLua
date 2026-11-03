@@ -1,0 +1,21 @@
+{
+  "OldId": 829638977,
+  "NewId": 1211510849,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1920234313,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "Istr"
+    }
+  ],
+  "_rawcode": "A06H",
+  "_base": "AIs1",
+  "_name": "Item Hero Stat Bonus (+30 Strength)"
+}

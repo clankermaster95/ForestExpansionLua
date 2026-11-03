@@ -1,0 +1,693 @@
+{
+  "FormatVersion": "v5",
+  "Regions": [
+    {
+      "Left": 7744,
+      "Bottom": 7136,
+      "Right": 7872,
+      "Top": 7264,
+      "Name": "SpawnDefender",
+      "CreationNumber": 0,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 7360,
+      "Bottom": 6752,
+      "Right": 7936,
+      "Top": 7552,
+      "Name": "Tele out D",
+      "CreationNumber": 1,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 6240,
+      "Bottom": 6784,
+      "Right": 7296,
+      "Top": 7552,
+      "Name": "Tele out E",
+      "CreationNumber": 2,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -704,
+      "Bottom": -64,
+      "Right": -96,
+      "Top": 480,
+      "Name": "Spawn all",
+      "CreationNumber": 3,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -640,
+      "Bottom": -96,
+      "Right": -160,
+      "Top": 480,
+      "Name": "Alarm",
+      "CreationNumber": 4,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -512,
+      "Bottom": 64,
+      "Right": -288,
+      "Top": 320,
+      "Name": "Spawner",
+      "CreationNumber": 5,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 128,
+        "A": 255
+      }
+    },
+    {
+      "Left": 6528,
+      "Bottom": 6944,
+      "Right": 7936,
+      "Top": 7424,
+      "Name": "Camera 1",
+      "CreationNumber": 8,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 6720,
+      "Bottom": 7200,
+      "Right": 8032,
+      "Top": 7392,
+      "Name": "Respawn",
+      "CreationNumber": 6,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -4640,
+      "Bottom": 2688,
+      "Right": -4320,
+      "Top": 2976,
+      "Name": "Ping1",
+      "CreationNumber": 7,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -4224,
+      "Bottom": 5888,
+      "Right": -4000,
+      "Top": 6112,
+      "Name": "Ping2",
+      "CreationNumber": 9,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 672,
+      "Bottom": 6144,
+      "Right": 960,
+      "Top": 6368,
+      "Name": "Ping3",
+      "CreationNumber": 10,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 6592,
+      "Bottom": 4256,
+      "Right": 6912,
+      "Top": 4416,
+      "Name": "Ping4",
+      "CreationNumber": 11,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 7488,
+      "Bottom": -7968,
+      "Right": 7712,
+      "Top": -7776,
+      "Name": "Ping5",
+      "CreationNumber": 12,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -8192,
+      "Bottom": -8704,
+      "Right": 8160,
+      "Top": 7680,
+      "Name": "Rest of Map",
+      "CreationNumber": 13,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -3744,
+      "Bottom": -4256,
+      "Right": -3456,
+      "Top": -4064,
+      "Name": "Ping6",
+      "CreationNumber": 14,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -6784,
+      "Bottom": 6176,
+      "Right": -6560,
+      "Top": 6368,
+      "Name": "AI Move 1",
+      "CreationNumber": 15,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -4800,
+      "Bottom": 4384,
+      "Right": -4704,
+      "Top": 4512,
+      "Name": "AI Move 2",
+      "CreationNumber": 16,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -4384,
+      "Bottom": 1248,
+      "Right": -4288,
+      "Top": 1344,
+      "Name": "AI Move 3",
+      "CreationNumber": 17,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -7008,
+      "Bottom": -5856,
+      "Right": -6912,
+      "Top": -5760,
+      "Name": "AI Move 4",
+      "CreationNumber": 18,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -4224,
+      "Bottom": -6080,
+      "Right": -3872,
+      "Top": -5920,
+      "Name": "AI Move 5",
+      "CreationNumber": 19,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 3936,
+      "Bottom": -4896,
+      "Right": 4128,
+      "Top": -4736,
+      "Name": "AI Move 6",
+      "CreationNumber": 20,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 6048,
+      "Bottom": -7072,
+      "Right": 6272,
+      "Top": -6912,
+      "Name": "AI Move 7",
+      "CreationNumber": 21,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 6464,
+      "Bottom": -224,
+      "Right": 6656,
+      "Top": -64,
+      "Name": "AI Move 8",
+      "CreationNumber": 22,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 3392,
+      "Bottom": -288,
+      "Right": 3552,
+      "Top": -128,
+      "Name": "AI Move 9",
+      "CreationNumber": 23,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 4992,
+      "Bottom": 3136,
+      "Right": 5152,
+      "Top": 3328,
+      "Name": "AI Move 10",
+      "CreationNumber": 24,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -3360,
+      "Bottom": -480,
+      "Right": -3200,
+      "Top": -352,
+      "Name": "Suspicious Bush 1",
+      "CreationNumber": 25,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -4768,
+      "Bottom": 896,
+      "Right": -4608,
+      "Top": 1024,
+      "Name": "Suspicious Bush 2",
+      "CreationNumber": 26,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 6240,
+      "Bottom": 6784,
+      "Right": 7936,
+      "Top": 7552,
+      "Name": "Remove Selection",
+      "CreationNumber": 27,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 4768,
+      "Bottom": -1056,
+      "Right": 4960,
+      "Top": -832,
+      "Name": "Ping7",
+      "CreationNumber": 28,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -1440,
+      "Bottom": -544,
+      "Right": 320,
+      "Top": 1088,
+      "Name": "Fountain",
+      "CreationNumber": 30,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 255,
+        "G": 0,
+        "B": 0,
+        "A": 255
+      }
+    },
+    {
+      "Left": -8192,
+      "Bottom": -8704,
+      "Right": -8000,
+      "Top": -8512,
+      "Name": "SeedofR",
+      "CreationNumber": 31,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -7872,
+      "Bottom": 5344,
+      "Right": -5216,
+      "Top": 7136,
+      "Name": "Base 1",
+      "CreationNumber": 29,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -5408,
+      "Bottom": 3552,
+      "Right": -3648,
+      "Top": 4960,
+      "Name": "Base 2",
+      "CreationNumber": 32,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -4896,
+      "Bottom": 416,
+      "Right": -3424,
+      "Top": 1920,
+      "Name": "Base 3",
+      "CreationNumber": 33,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -3680,
+      "Bottom": -928,
+      "Right": -2656,
+      "Top": 288,
+      "Name": "rawr",
+      "CreationNumber": 34,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -7584,
+      "Bottom": -6176,
+      "Right": -6240,
+      "Top": -3520,
+      "Name": "Base 4",
+      "CreationNumber": 35,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -4992,
+      "Bottom": -7776,
+      "Right": -3200,
+      "Top": -5568,
+      "Name": "Base 5",
+      "CreationNumber": 36,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 3936,
+      "Bottom": 2784,
+      "Right": 5920,
+      "Top": 5408,
+      "Name": "Base 6",
+      "CreationNumber": 37,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 2336,
+      "Bottom": -1120,
+      "Right": 4160,
+      "Top": 896,
+      "Name": "Base 7",
+      "CreationNumber": 38,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 5856,
+      "Bottom": -1440,
+      "Right": 7360,
+      "Top": 512,
+      "Name": "Base 8",
+      "CreationNumber": 39,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 3136,
+      "Bottom": -5696,
+      "Right": 4896,
+      "Top": -3136,
+      "Name": "Base 9",
+      "CreationNumber": 40,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": 4736,
+      "Bottom": -7552,
+      "Right": 7104,
+      "Top": -5888,
+      "Name": "Base 10",
+      "CreationNumber": 41,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    },
+    {
+      "Left": -160,
+      "Bottom": 2080,
+      "Right": 128,
+      "Top": 2400,
+      "Name": "ChopChop",
+      "CreationNumber": 42,
+      "WeatherType": "None",
+      "AmbientSound": "",
+      "Color": {
+        "R": 128,
+        "G": 128,
+        "B": 255,
+        "A": 255
+      }
+    }
+  ]
+}

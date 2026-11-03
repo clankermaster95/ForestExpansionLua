@@ -1,0 +1,41 @@
+{
+  "OldId": 1634693697,
+  "NewId": 1513369665,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5172",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Black Aura"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\Awaken\\Awaken.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2862",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives nearby friendly units a <Aroa,DataA1,%>% bonus to damage. |nLasts <Aroa,Dur1> seconds. No cooldown."
+    }
+  ],
+  "_rawcode": "A04Z",
+  "_base": "Aroa",
+  "_name": "Black Aura"
+}

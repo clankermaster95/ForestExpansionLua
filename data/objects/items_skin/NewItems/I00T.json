@@ -1,0 +1,59 @@
+{
+  "OldId": 1852993132,
+  "NewId": 1412444233,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2710",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Lion Shield"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNThoriumArmor.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2711",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Lion Shield"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9140",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases your armor by 5 and health regeneration by 2."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_9141",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your armor by 5 and health regeneration by 2."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1470",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "I00T",
+  "_base": "lnrn",
+  "_name": "Lion Shield"
+}

@@ -1,0 +1,57 @@
+{
+  "OldId": 1718121794,
+  "NewId": 1144205378,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_188",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Arachnid Frenzy"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_363",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Arachnid Frenzy"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNnerubianSpiderLord.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\Web\\Web_AirTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 811693158,
+      "Type": "String",
+      "Value": "chest",
+      "SanityCheck": 0,
+      "_field": "fta0"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_191",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is taking damage, but attacks twice as fast."
+    }
+  ],
+  "_rawcode": "B03D",
+  "_base": "Buhf",
+  "_name": "Arachnid Frenzy"
+}

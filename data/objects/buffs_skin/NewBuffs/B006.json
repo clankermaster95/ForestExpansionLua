@@ -1,0 +1,50 @@
+{
+  "OldId": 1700876098,
+  "NewId": 909127746,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_1156",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Spirit Aura: Speed"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Parasite\\ParasiteTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNSmash.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_1157",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Spirit Aura: Speed"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_1158",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under Spirit Aura: Speed. Its movement and attack speed is increased by 20%."
+    }
+  ],
+  "_rawcode": "B006",
+  "_base": "BOae",
+  "_name": "Spirit Aura: Speed"
+}

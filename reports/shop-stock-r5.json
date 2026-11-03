@@ -1,0 +1,104 @@
+{
+  "version": "3.2.0",
+  "revision": "r5",
+  "backup": "backups\\20261102-215236-o4lgvcnx",
+  "changed_modules": [
+    {
+      "module": "src/commands/test_data.lua",
+      "before_sha256": "ab0ccd74be97dc353d25b69294421a4053a916ff3b6dacc78b4aacc2b400b8c2",
+      "after_sha256": "ded880c4ab4500b2b12356d2c5c0fb820d78f187b209b9307eec275442f49ac0"
+    }
+  ],
+  "changed_object_files": [
+    "data/objects/items/NewItems/I010.json",
+    "data/objects/units/NewUnits/h02B.json",
+    "data/objects/units/NewUnits/n000.json",
+    "data/objects/units/NewUnits/n00A.json"
+  ],
+  "shop_changes": [
+    {
+      "rawcode": "h02B",
+      "before": {
+        "uabi": "Avul,Aall,Apit",
+        "usei": "I01O,I01Q,I01S,I01M,I01A,I01D,I018,I016,I011,I00G,I00H",
+        "umki": ""
+      },
+      "after": {
+        "uabi": "Avul,Aall,Apit",
+        "usei": "",
+        "umki": "I01O,I01Q,I01S,I01M,I01A,I01D,I018,I016,I011,I00G,I00H"
+      }
+    },
+    {
+      "rawcode": "n000",
+      "before": {
+        "uabi": "Adtg,Aall,Avul,Apit",
+        "usei": "I02E,I01J,I014,I010,I00Z,I00Y,I02F,I00S",
+        "umki": ""
+      },
+      "after": {
+        "uabi": "Adtg,Aall,Avul,Apit",
+        "usei": "",
+        "umki": "I02E,I01J,I014,I010,I00Z,I00Y,I02F,I00S"
+      }
+    },
+    {
+      "rawcode": "n00A",
+      "before": {
+        "uabi": "Aall,Adtg,Avul,Apit",
+        "usei": "I01U,I00J,I01B,I006,I004,I002,I001,I000,I006",
+        "umki": ""
+      },
+      "after": {
+        "uabi": "Aall,Adtg,Avul,Apit",
+        "usei": "",
+        "umki": "I01U,I00J,I01B,I006,I004,I002,I001,I000,I006"
+      }
+    }
+  ],
+  "payload_changes": [
+    {
+      "file": "war3map.wts",
+      "before_sha256": "70935228fc3ae28acf4dd3f0f6f50bc447e42e2bb0033b6cde4ac6d5ec8d2caa",
+      "after_sha256": "fb42091784bd9556c111e40625b80e1b821213192c0fa366cb8fe52435457f93"
+    },
+    {
+      "file": "war3map.w3u",
+      "before_sha256": "5f62d69ff7b85ec722c04721e6eedd5b6dc066cb80e7a15bc06db5f66f322fe0",
+      "after_sha256": "5a13fce2f35102be1bc527c55db73e58065cdf5f2e99f928d0aee06b641d9927"
+    },
+    {
+      "file": "war3map.w3t",
+      "before_sha256": "0260b655d1c725e80c0ab4517d9eb2cf44a9a13586e0ce6a0f5916c851389540",
+      "after_sha256": "da0e5c71de4ca7271f0ceb2fec7af476f1ec570afe5f242a446e7ca3278f6b97"
+    }
+  ],
+  "user_evidence": {
+    "source": "codex-clipboard-1a43a102-4d31-4c6a-a4cd-393bb6ae15ca.png",
+    "shop": "h02B",
+    "hero": "O004",
+    "distance": 214,
+    "activation_radius": 600,
+    "inventory": "1/6",
+    "buyer_order_accepted": true,
+    "purchased_item": "I01Q",
+    "gold_before": 1050,
+    "gold_after": 700,
+    "sale_count_before": 0,
+    "sale_count_after": 0
+  },
+  "finding": "All three Ancient-owned Aall/Apit shops used Items Sold (usei), not Items Made (umki). The screenshot demonstrates a charged order without an observed sale; published reproductions associate that behavior with this mismatched native configuration.",
+  "correction": "Move each exact stock string to umki and explicitly clear usei. Keep shop abilities/ownership/range, stock ordering, item prices and Lua transaction handlers unchanged. Clear I010 inherited Human Keep requirement to preserve access under Items Made.",
+  "reference_sources": [
+    "https://www.hiveworkshop.com/threads/mobile-racial-shop-and-sell-unit.254411/",
+    "https://www.hiveworkshop.com/threads/shops-dropping-items-on-the-floor-cant-use-unit-sells-an-item-event.308842/",
+    "https://github.com/sumneko/w3x2lni/tree/82916514a12b7edb15252d42225cd8cc8ce61cfd/data/zhCN-1.32.8/prebuilt/Custom"
+  ],
+  "island_comparison": "Rechecked Island ShopSystemAutoBuy.lua at cbc987c39e3151a1968830ec15fe4af7910bab05: same SELL_ITEM event and buyer/seller getters. The public repository tree contains Lua scripts, not native map object definitions; its object configuration cannot be claimed as independently verified.",
+  "why_r4_missed_it": "The native-data review checked abilities and stock existence independently, not their compatibility. The Lua double emitted sale events by construction. Post-sale recovery cannot run without a sale event.",
+  "build_guards": "Validate owned-shop abilities/stock field and inherited requirements before building. Keep all-shop price audit and generated diagnostic stock inclusive of both native stock fields.",
+  "archive_sha256": "707f69ae70318372412ca846068d09bbb931c44f00fd20aa688b2b4a0105b50e",
+  "native_game_test": false,
+  "multiplayer_test": false,
+  "remaining": "User retest needed to confirm actual delivery and auto-completion on r5. The agent did not launch or control Warcraft."
+}

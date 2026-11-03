@@ -1,0 +1,48 @@
+{
+  "OldId": 1768967746,
+  "NewId": 1211117634,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6141",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Draconic Outburst"
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\SoulBurn\\SoulBurnbuff.mdl",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "fnsf"
+    },
+    {
+      "Id": 1952540006,
+      "Type": "String",
+      "Value": "Environment\\LargeBuildingFire\\LargeBuildingFire1.mdl",
+      "SanityCheck": 0,
+      "_field": "feat"
+    },
+    {
+      "Id": 1952867686,
+      "Type": "String",
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "feft"
+    }
+  ],
+  "_rawcode": "B00H",
+  "_base": "BNpi",
+  "_name": "Draconic Outburst"
+}

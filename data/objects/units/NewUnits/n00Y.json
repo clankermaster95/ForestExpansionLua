@@ -1,0 +1,61 @@
+{
+  "OldId": 862413678,
+  "NewId": 1496330350,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1680957813,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1d"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 828601461,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "utc1"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0CM,Ahrp",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 16,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    }
+  ],
+  "_rawcode": "n00Y",
+  "_base": "ncg3",
+  "_name": "Repair Bot"
+}

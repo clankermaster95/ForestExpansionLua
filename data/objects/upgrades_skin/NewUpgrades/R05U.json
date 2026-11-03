@@ -1,0 +1,32 @@
+{
+  "OldId": 1751935058,
+  "NewId": 1429549138,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_838",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the lumber gathered from your Souls by 2."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_839",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Further increases the amount of lumber that Souls harvest can carry by 2."
+    }
+  ],
+  "_rawcode": "R05U",
+  "_base": "Rhlh",
+  "_name": "R05U"
+}

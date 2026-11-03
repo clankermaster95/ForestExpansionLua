@@ -1,0 +1,60 @@
+{
+  "OldId": 1685022273,
+  "NewId": 893530177,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1784",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Landslide"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4509",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Instantly deals 500 damage to a targeted building. 15 second cooldown."
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\EarthQuake\\EarthQuakeTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1788",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Tremor)"
+    }
+  ],
+  "_rawcode": "A0B5",
+  "_base": "Afod",
+  "_name": "Landslide"
+}

@@ -1,0 +1,32 @@
+{
+  "OldId": 2004045633,
+  "NewId": 1194405953,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_999",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Serpent Ward [W]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1722",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Serpent Ward that deals heavy damage and lasts for 10 seconds. 10 second cooldown."
+    }
+  ],
+  "_rawcode": "A01G",
+  "_base": "AOsw",
+  "_name": "A01G"
+}

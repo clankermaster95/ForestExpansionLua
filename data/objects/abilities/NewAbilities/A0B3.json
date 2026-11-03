@@ -1,0 +1,93 @@
+{
+  "OldId": 1852393793,
+  "NewId": 859975745,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 846096725,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "Uin2"
+    },
+    {
+      "Id": 829319509,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "Uin1"
+    },
+    {
+      "Id": 879651157,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "o00O",
+      "SanityCheck": 0,
+      "_field": "Uin4"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 600,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "adur"
+    }
+  ],
+  "_rawcode": "A0B3",
+  "_base": "AIin",
+  "_name": "Summon Lava Warrior"
+}

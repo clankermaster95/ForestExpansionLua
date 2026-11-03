@@ -1,0 +1,39 @@
+{
+  "OldId": 1769105473,
+  "NewId": 1246048321,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1684562785,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "achd"
+    },
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "undead",
+      "SanityCheck": 0,
+      "_field": "arac"
+    }
+  ],
+  "_rawcode": "A0EJ",
+  "_base": "Ahri",
+  "_name": "Magical Cloak"
+}

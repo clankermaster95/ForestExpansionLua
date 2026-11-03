@@ -1,0 +1,42 @@
+{
+  "OldId": 1919174721,
+  "NewId": 809709633,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5338",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Drains <A0C0,DataB1> mana per second from an enemy to the caster, can also be cast on allied unit or structure to replenish mana at cost of caster's own"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5879",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5675",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Siphon Mana"
+    }
+  ],
+  "_rawcode": "A0C0",
+  "_base": "AHdr",
+  "_name": "A0C0"
+}

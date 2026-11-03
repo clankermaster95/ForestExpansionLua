@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 875769938,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3936",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Gnaw"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9164",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Gnaw - [30.0]"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9580",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3939",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows your Worgen to cast Gnaw."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStampede.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R034",
+  "_base": "Rhme",
+  "_name": "Gnaw"
+}

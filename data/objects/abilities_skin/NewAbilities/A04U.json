@@ -1,0 +1,71 @@
+{
+  "OldId": 1717717313,
+  "NewId": 1429483585,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1421",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Seed of Destruction"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPurpleFelhound.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1067",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Cenarius)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1776",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Seed of Destruction"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10865",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Plant a Seed of Destruction, creating a Growth of Destruction, tower with 450 HP, 40 chaos damage, and a Feed Value of 2."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2483",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "A04U",
+  "_base": "AIbf",
+  "_name": "Seed of Destruction"
+}

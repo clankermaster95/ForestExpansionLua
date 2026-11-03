@@ -1,0 +1,80 @@
+{
+  "OldId": 1919110977,
+  "NewId": 1110847553,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6342",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Slamstrike"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6343",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Slamstrike"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6344",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Slamstrike"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6345",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "All of your basic attacks now deal 3x their normal damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6346",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "All of your basic attacks now deal 3x their normal damage."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNSmash.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNSmash.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    }
+  ],
+  "_rawcode": "A06B",
+  "_base": "AOcr",
+  "_name": "Slamstrike"
+}

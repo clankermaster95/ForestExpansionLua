@@ -1,0 +1,88 @@
+{
+  "OldId": 1650871873,
+  "NewId": 927150145,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5967",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Arcane Explosion"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5968",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Arcane Explosion"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5992",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Conjures a magical bolt at a target, dealing 250 damage and briefly interrupting any spell casts. |n5 second cooldown."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Weapons\\FarseerMissile\\FarseerMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1334",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNArcaneBlast.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A0C7",
+  "_base": "ANfb",
+  "_name": "Arcane Explosion"
+}

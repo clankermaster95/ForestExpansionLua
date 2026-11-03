@@ -1,0 +1,21 @@
+{
+  "OldId": 913525057,
+  "NewId": 1429745729,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1920234313,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "Istr"
+    }
+  ],
+  "_rawcode": "A08U",
+  "_base": "AIs6",
+  "_name": "Hammer of Might Str"
+}

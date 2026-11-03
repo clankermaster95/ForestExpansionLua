@@ -1,0 +1,188 @@
+{
+  "OldId": 1986348353,
+  "NewId": 943206465,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9377",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Resilience"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9378",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffb4ffffLearn Resilience|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4997",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Gives you a 15% chance to dodge an attack and regenerates 1% of your mana every second. Each level increases the chance to dodge an attack by 5% and your mana per second by 0.25%."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9379",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffb4ffffResilience|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9380",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffb4ffffResilience|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9381",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffb4ffffResilience|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9382",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffb4ffffResilience|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9383",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffb4ffffResilience|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4425",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives you a 15% chance to dodge an attack and regenerates 1% of your mana every second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4431",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives you a 20% chance to dodge an attack and regenerates 1.5% of your mana every second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_582",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives you a 25% chance to dodge an attack and regenerates 2% of your mana every second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_604",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives you a 30% chance to dodge an attack and regenerates 2.5% of your mana every second."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4311",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives you a 35% chance to dodge an attack and regenerates 3% of your mana every second."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNresilience.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNblackblood.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2318",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A088",
+  "_base": "AEev",
+  "_name": "Resilience"
+}

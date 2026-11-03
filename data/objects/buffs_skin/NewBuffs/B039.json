@@ -1,0 +1,35 @@
+{
+  "OldId": 1802981186,
+  "NewId": 959656002,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_414",
+      "SanityCheck": 1802981186,
+      "_field": "ftip",
+      "_resolvedText": "|cff195ABDCrawling|r"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_415",
+      "SanityCheck": 1802981186,
+      "_field": "fube",
+      "_resolvedText": "This unit is invisible, moves slower, and the first attack it makes while invisible will apply poison."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNSpiderRetreat.blp",
+      "SanityCheck": 1802981186,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B039",
+  "_base": "BOwk",
+  "_name": "B039"
+}

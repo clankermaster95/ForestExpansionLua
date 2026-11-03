@@ -1,0 +1,61 @@
+{
+  "OldId": 1952662337,
+  "NewId": 943992897,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4099",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Critical Hit"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3395",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4100",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffbc3737Critical Hit|r |cff835b83[Passive]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4101",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cfff54d4dBounty Hunter has|r 12% |cfff54d4dchance to deal|r 2x |cfff54d4ddamage.|r"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    }
+  ],
+  "_rawcode": "A0D8",
+  "_base": "ACct",
+  "_name": "Critical Hit"
+}

@@ -1,0 +1,41 @@
+{
+  "OldId": 1937262913,
+  "NewId": 1497641025,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5960",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ledger Anti-Magic"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1095",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTemp.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A0DY",
+  "_base": "AIxs",
+  "_name": "Ledger Anti-Magic"
+}

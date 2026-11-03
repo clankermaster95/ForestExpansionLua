@@ -1,0 +1,179 @@
+{
+  "OldId": 2003321665,
+  "NewId": 1295069249,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1130",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Growth Ward"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNightElfBuild.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1131",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Growth Ward [W]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4319",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Growth Ward that heals you in a 800 AoE. 50 second cooldown."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1133",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Growth Ward [W]"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2000",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cff8080ffSummons a Growth Ward that heals you in a 800 AoE. Each level decreases cooldown by 10 seconds and increases duration by 5. Has global cast range.|r"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2211",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1963",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Growth Ward [W]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1964",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Growth Ward [W]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1965",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Growth Ward [W]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1966",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Growth Ward [W]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4321",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Growth Ward that heals you in a 800 AoE. 40 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4322",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Growth Ward that heals you in a 800 AoE. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1132",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Growth ward that heals you in a 800 AoE."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1134",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Growth ward that heals you in a 800 AoE."
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNightElfBuild.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    }
+  ],
+  "_rawcode": "A01M",
+  "_base": "AChw",
+  "_name": "Growth Ward"
+}

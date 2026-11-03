@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1328558162,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1233",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ancient of Destruction Haste"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7508",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ancient of Destruction Haste - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5044",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack speed of your Ancient of Destruction to maximum (1 hit per 1.4 seconds)."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_308",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStrengthOfTheWild.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R00O",
+  "_base": "Rhme",
+  "_name": "Ancient of Destruction Haste"
+}

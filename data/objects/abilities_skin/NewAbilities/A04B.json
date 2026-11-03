@@ -1,0 +1,51 @@
+{
+  "OldId": 1986090305,
+  "NewId": 1110716481,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4353",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Hunger"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2618",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your Vampiric Wyrms leech health for 100% of damage done on attack."
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4354",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Hunger"
+    }
+  ],
+  "_rawcode": "A04B",
+  "_base": "AUav",
+  "_name": "Hunger"
+}

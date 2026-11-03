@@ -1,0 +1,79 @@
+{
+  "OldId": 1634493032,
+  "NewId": 1429287016,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1303",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Factory"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\MageTower\\MageTower.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTinyCastle.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_672",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1304",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Factory [F]"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9924",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Contains heavy researches for your Mortar Teams. This building should only be constructed if you have a very big surplus of lumber.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h01U",
+  "_base": "hbla",
+  "_name": "Factory"
+}

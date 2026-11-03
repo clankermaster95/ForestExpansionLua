@@ -1,0 +1,472 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1227960402,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2255",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "War Training"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2257",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "War Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2258",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "War Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2259",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "War Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2260",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "War Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2261",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "War Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2262",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "War Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2263",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "War Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2264",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "War Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2265",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "War Training"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8078",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "War Training - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8079",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "War Training - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8080",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "War Training - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8081",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "War Training - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8082",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "War Training - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8083",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "War Training - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8084",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "War Training - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8085",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "War Training - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8087",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "War Training - [55.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8088",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "War Training - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2276",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your main centaur by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2277",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your main centaur by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2278",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your main centaur by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2279",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your main centaur by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2280",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your main centaur by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2281",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your main centaur by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2282",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your main centaur by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2283",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your main centaur by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2284",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your main centaur by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2285",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your main centaur by 200."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5011",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5016",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5147",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5179",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5180",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5181",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5189",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "R01I",
+  "_base": "Rhme",
+  "_name": "War Training"
+}

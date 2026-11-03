@@ -1,0 +1,58 @@
+{
+  "OldId": 2004115816,
+  "NewId": 1496330344,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_602",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Light House"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_603",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "L"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2659",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00L|right house"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_605",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Fast but weak attack tower."
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Orc\\HealingWave\\HealingWaveTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h00Y",
+  "_base": "hatw",
+  "_name": "Light House"
+}

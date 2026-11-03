@@ -1,0 +1,32 @@
+{
+  "OldId": 1818650706,
+  "NewId": 926429266,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9722",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flare [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9693",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Provides Bounty Hunter with the Flare ability. Flares can be used to reveal any area of the map. |nCan see invisible units."
+    }
+  ],
+  "_rawcode": "R087",
+  "_base": "Rhfl",
+  "_name": "R087"
+}

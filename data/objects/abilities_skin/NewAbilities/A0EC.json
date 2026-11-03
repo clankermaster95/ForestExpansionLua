@@ -1,0 +1,51 @@
+{
+  "OldId": 846095169,
+  "NewId": 1128607809,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3070",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7983",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Consumes a nearby corpse to heal 25 hit points per second, lasts up to 12 seconds.|n|nCooldown is 35 seconds."
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7764",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Cultist)"
+    }
+  ],
+  "_rawcode": "A0EC",
+  "_base": "Acn2",
+  "_name": "A0EC"
+}

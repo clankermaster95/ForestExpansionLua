@@ -1,0 +1,120 @@
+{
+  "OldId": 1835619649,
+  "NewId": 1278423105,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1200,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 829253973,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1200,
+      "SanityCheck": 0,
+      "_field": "Uim1"
+    },
+    {
+      "Id": 862808405,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "Uim3"
+    },
+    {
+      "Id": 879585621,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 4,
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "Uim4"
+    },
+    {
+      "Id": 846031189,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "Uim2"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R02S",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    }
+  ],
+  "_rawcode": "A03L",
+  "_base": "AUim",
+  "_name": "Quake"
+}

@@ -1,0 +1,717 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1228091474,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4685",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4686",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4687",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4688",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4689",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4690",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4691",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4692",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4693",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4694",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4695",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4696",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4697",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4698",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4699",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sharpen Weapon"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9664",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9667",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9668",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9672",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9673",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9674",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9675",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9676",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [55.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9678",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [65.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9677",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9679",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [70.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9680",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [75.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9686",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [80.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9687",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [85.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9694",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sharpen Weapon - [90.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4715",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4716",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4717",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4718",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4719",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4720",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4721",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4722",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4723",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4724",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4725",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4726",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4727",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4728",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4729",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Razormane's damage by 50."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6152",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6154",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6227",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6359",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6877",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6879",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6880",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6881",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6882",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6883",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6884",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7612",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "R03I",
+  "_base": "Rhme",
+  "_name": "Sharpen Weapon"
+}

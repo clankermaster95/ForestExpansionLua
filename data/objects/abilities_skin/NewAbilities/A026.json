@@ -1,0 +1,100 @@
+{
+  "OldId": 1700881985,
+  "NewId": 909258817,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1747",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Track"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRazorback.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRazorback.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1748",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": " -"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1749",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": " -"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5245",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00T|rrack"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_521",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Track a target, reducing their armor by 15 and gives you vision of them. Lasts 60 seconds. 45 second cooldown."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1756",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1764",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "T"
+    }
+  ],
+  "_rawcode": "A026",
+  "_base": "Afae",
+  "_name": "Track"
+}

@@ -1,0 +1,58 @@
+{
+  "OldId": 1937338979,
+  "NewId": 959524937,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_8890",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Cosmic Orb"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9223",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases your mana by 1500 and adds 20 to all stats. Reveals a target area on the map. 20 second cooldown."
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbofSlowness.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_9224",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your mana by 1500 and adds 20 to all stats. Reveals a target area on the map. 20 second cooldown."
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_8891",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Cosmic Orb"
+    }
+  ],
+  "_rawcode": "I019",
+  "_base": "crys",
+  "_name": "Cosmic Orb"
+}

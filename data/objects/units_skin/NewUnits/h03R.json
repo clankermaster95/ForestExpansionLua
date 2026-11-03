@@ -1,0 +1,56 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1379086440,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Ashenvale\\Plants\\AshenBush0\\AshenBush0.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4009",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Suspicious Bush"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4010",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Suspicious Bush"
+    }
+  ],
+  "_rawcode": "h03R",
+  "_base": "hwtw",
+  "_name": "Suspicious Bush"
+}

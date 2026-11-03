@@ -1,0 +1,50 @@
+{
+  "OldId": 1869374018,
+  "NewId": 1127231554,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_9419",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBootsOfSpeed.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Items\\AIsp\\SpeedTarget.mdl,Abilities\\Spells\\Orc\\Bloodlust\\BloodlustSpecial.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_9420",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Sprint"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_1523",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is Sprinting, it's faster."
+    }
+  ],
+  "_rawcode": "B00C",
+  "_base": "Bblo",
+  "_name": "Sprint"
+}

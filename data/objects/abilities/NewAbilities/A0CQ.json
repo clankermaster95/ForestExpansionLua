@@ -1,0 +1,30 @@
+{
+  "OldId": 1735674177,
+  "NewId": 1363357761,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953784137,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Iatt"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "alev"
+    }
+  ],
+  "_rawcode": "A0CQ",
+  "_base": "AItg",
+  "_name": "Poisoned Bullets level"
+}

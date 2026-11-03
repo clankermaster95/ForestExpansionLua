@@ -1,0 +1,85 @@
+{
+  "OldId": 1718186600,
+  "NewId": 1127624808,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6862",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff909090Combat Hunter|r"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_3794",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "- Bounty Hunter COMBAT"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6864",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Combat"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1935827317,
+      "Type": "String",
+      "Value": "Amil,Ahrp",
+      "SanityCheck": 0,
+      "_field": "uabs"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "utub"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMarine.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Critters\\Marine\\Marine.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.1,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "h06C",
+  "_base": "hrif",
+  "_name": "|cff909090Combat Hunter|r"
+}

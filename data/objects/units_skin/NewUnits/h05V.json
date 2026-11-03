@@ -1,0 +1,86 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1446326376,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_759",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Even Cheesier Wall"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_762",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Make Wall Cheesier"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10330",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Make your wall look cheesier, smell cheesier, and, ultimately, being cheesier.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_5198",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "U"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\CheeseOre1.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTN_cheese.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    }
+  ],
+  "_rawcode": "h05V",
+  "_base": "hwtw",
+  "_name": "Even Cheesier Wall"
+}

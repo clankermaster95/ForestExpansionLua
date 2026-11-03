@@ -1,0 +1,97 @@
+{
+  "OldId": 1651328321,
+  "NewId": 943075393,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5987",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Cobalt Blood"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Items\\AIre\\AIreTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6189",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|robalt Blood"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3593",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Burns 500 mana from the target. 20 second cooldown. |n|cffFF8080This ability costs 200 health.|r |n|cff7F7F7FThe blood of Shu'ma sears away mana.|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4435",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1734962273,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "alig"
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "spell",
+      "SanityCheck": 0,
+      "_field": "aani"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNblueblood.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNblueblood.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A068",
+  "_base": "AEmb",
+  "_name": "Cobalt Blood"
+}

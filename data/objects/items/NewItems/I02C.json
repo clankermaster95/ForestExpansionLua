@@ -1,0 +1,26 @@
+{
+  "OldId": 1700952674,
+  "NewId": 1127362633,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 111111112,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "igol"
+    }
+  ],
+  "_rawcode": "I02C",
+  "_base": "bzbe",
+  "_name": "Message Of The Day - 3.1.0"
+}

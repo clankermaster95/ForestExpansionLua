@@ -1,0 +1,22 @@
+{
+  "OldId": 1835354433,
+  "NewId": 942747713,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_914",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Tome"
+    }
+  ],
+  "_rawcode": "A018",
+  "_base": "AIem",
+  "_name": "Tome"
+}

@@ -1,0 +1,100 @@
+{
+  "OldId": 1919903343,
+  "NewId": 909127791,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7419",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Mind Controller"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSentryWard.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_177",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build |cffffcc00M|rind Controller"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_5860",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Oversees all undead units. Provides 50 supply to create workers and other various units.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\orc\\WatcherWard\\WatcherWard.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_192",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "C"
+    }
+  ],
+  "_rawcode": "o006",
+  "_base": "ofor",
+  "_name": "Mind Controller"
+}

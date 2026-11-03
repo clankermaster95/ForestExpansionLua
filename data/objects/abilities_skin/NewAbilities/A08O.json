@@ -1,0 +1,32 @@
+{
+  "OldId": 1970686273,
+  "NewId": 1329082433,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9186",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Hammer of might"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9187",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Invulnerability)"
+    }
+  ],
+  "_rawcode": "A08O",
+  "_base": "AIvu",
+  "_name": "Hammer of might"
+}

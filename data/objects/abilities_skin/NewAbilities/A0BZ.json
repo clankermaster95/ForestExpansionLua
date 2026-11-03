@@ -1,0 +1,32 @@
+{
+  "OldId": 1634943809,
+  "NewId": 1514287169,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5295",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Fire Towers)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5296",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Adds <A0BZ,DataA1> bonus fire damage to an attack against enemies, but drains mana with each shot fired."
+    }
+  ],
+  "_rawcode": "A0BZ",
+  "_base": "ACsa",
+  "_name": "A0BZ"
+}

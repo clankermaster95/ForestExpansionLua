@@ -1,0 +1,79 @@
+{
+  "OldId": 1634493032,
+  "NewId": 825372776,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1526",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Defense Center"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\orc\\GreatHall\\GreatHall.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFortress.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2629",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Defense Cent|cffffcc00e|rr"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9933",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic Defense center, that focuses the centaur on creating unsiegable bases. Building this allows you to create better walls, better towers, and more upgrades for them.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_422",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h021",
+  "_base": "hbla",
+  "_name": "Defense Center"
+}

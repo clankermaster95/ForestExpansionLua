@@ -1,0 +1,99 @@
+{
+  "OldId": 1868918895,
+  "NewId": 1160851567,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4429",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cffA57308Razormane|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\RazorManeChief\\RazorManeChief.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRazorManeChief.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4430",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffA57308Razormane|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1911",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Hybrid|n\n|cff008000Off Role|r: None|n\n|cff8080FFDifficulty|r: |cffff0000Hard|r|n\n|cffFF8F40Move Speed|r: 290\n|cffFF8Fa0Attack Cooldown|r: 1.5|n\n|cffC0C0C0Razormanes are a powerful race that excels at everything, but are easily caught off-guard, due to their finnicky workers, to the glee of the Ancient. Razormanes can create an army, a base, or play like a carry.|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.1,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 2020111221,
+      "Type": "Real",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ushx"
+    },
+    {
+      "Id": 2036888437,
+      "Type": "Real",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ushy"
+    },
+    {
+      "Id": 1751675765,
+      "Type": "Real",
+      "Value": 65,
+      "SanityCheck": 0,
+      "_field": "ushh"
+    },
+    {
+      "Id": 2003334005,
+      "Type": "Real",
+      "Value": 65,
+      "SanityCheck": 0,
+      "_field": "ushw"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    }
+  ],
+  "_rawcode": "o01E",
+  "_base": "opeo",
+  "_name": "|cffA57308Razormane|r"
+}

@@ -1,0 +1,63 @@
+{
+  "OldId": 1685547119,
+  "NewId": 842149999,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9118",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Sun"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\Sun.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSunburst3.BLP",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_9119",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Level 3)"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o022",
+  "_base": "ohwd",
+  "_name": "Sun"
+}

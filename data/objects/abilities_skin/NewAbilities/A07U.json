@@ -1,0 +1,70 @@
+{
+  "OldId": 1936084801,
+  "NewId": 1429680193,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8158",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ancient Sight"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6182",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnt.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8159",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Ancient Si|cffffcc00g|rht"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1643",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The Ancient of Protection draws on the eyes and ears of the wilds, revealing a nearby small area for 10 seconds. Doesn't reveal invisible units. 12 second cooldown."
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A07U",
+  "_base": "AOfs",
+  "_name": "Ancient Sight"
+}

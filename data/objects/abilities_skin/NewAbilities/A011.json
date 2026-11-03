@@ -1,0 +1,71 @@
+{
+  "OldId": 1869640513,
+  "NewId": 825307201,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_720",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Poison Ivy"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRavenForm.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1897",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffAD2194Poison|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1898",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffAD2194A poison hidden in the leaves to slow units down and damage them.|r"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1899",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffAD2194Poison|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1900",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cffAD2194A poison hidden in the leaves to slow units down and damage them.|r"
+    }
+  ],
+  "_rawcode": "A011",
+  "_base": "Aspo",
+  "_name": "Poison Ivy"
+}

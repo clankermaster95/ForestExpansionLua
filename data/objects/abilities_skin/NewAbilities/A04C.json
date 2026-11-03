@@ -1,0 +1,451 @@
+{
+  "OldId": 1869640513,
+  "NewId": 1127493697,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\PASClaw.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4367",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1622",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 10% and will take 25 damage over 3 seconds."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4368",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4373",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4374",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4426",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4427",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8056",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8057",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8058",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8059",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8060",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8061",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8062",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8063",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8064",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8065",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8066",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8067",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8068",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8069",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 21,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8070",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bleed"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1652",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 12% and will take 30 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1655",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 14% and will take 35 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1658",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 16% and will take 40 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1665",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 18% and will take 45 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1666",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 20% and will take 50 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1698",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 22% and will take 55 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1744",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 24% and will take 60 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1767",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 26% and will take 65 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1771",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 28% and will take 70 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1841",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 30% and will take 75 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1844",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 32% and will take 80 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1847",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 34% and will take 85 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1857",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 36% and will take 90 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1858",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 38% and will take 95 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8086",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 40% and will take 100 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1859",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 42% and will take 105 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1870",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 44% and will take 110 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1871",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 46% and will take 115 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1872",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 48% and will take 120 damage over 3 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 21,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1873",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a target, they are slowed by 50% and will take 125 damage over 3 seconds."
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8071",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Bleed"
+    }
+  ],
+  "_rawcode": "A04C",
+  "_base": "Aspo",
+  "_name": "Bleed"
+}

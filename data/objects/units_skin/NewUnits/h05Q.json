@@ -1,0 +1,80 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1362440296,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4986",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ceramic Wall"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10308",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A wall designed by the Engineer to protect your base. Can be upgraded once.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_599",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Elf engineer)"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Cityscape\\Structures\\City_LowWall_ShortEndCap\\City_LowWall_ShortEndCap.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4988",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Ceramic Wall"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1535",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    }
+  ],
+  "_rawcode": "h05Q",
+  "_base": "hwtw",
+  "_name": "Ceramic Wall"
+}

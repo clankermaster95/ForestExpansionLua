@@ -1,0 +1,100 @@
+{
+  "OldId": 1918990190,
+  "NewId": 825307246,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_202",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_958",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff239b14Tree Chopper|r"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 66,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 66,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 188,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.875,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 2.4,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1935827317,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabs"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4971",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff239b14Tree Chopper|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_4980",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Even though it defies principles of the Ancients, this creature of steel can prove useful at catching outside vermin off guard.|n|nAble to cut down trees."
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    }
+  ],
+  "_rawcode": "n011",
+  "_base": "nwar",
+  "_name": "|cff239b14Tree Chopper|r"
+}

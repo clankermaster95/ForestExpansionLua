@@ -1,0 +1,21 @@
+{
+  "OldId": 1935955265,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829645909,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 24,
+      "SanityCheck": 1935955265,
+      "_field": "Uds1"
+    }
+  ],
+  "_rawcode": "AUds",
+  "_base": "AUds",
+  "_name": "AUds"
+}

@@ -1,0 +1,33 @@
+{
+  "OldId": 1869507444,
+  "NewId": 858796105,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "istr"
+    }
+  ],
+  "_rawcode": "I003",
+  "_base": "tkno",
+  "_name": "Training Lesson"
+}

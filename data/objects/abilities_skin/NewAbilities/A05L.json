@@ -1,0 +1,79 @@
+{
+  "OldId": 1650544193,
+  "NewId": 1278554177,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5391",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Acidic Blood"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Weapons\\ChimaeraAcidMissile\\ChimaeraAcidMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6220",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00A|rcidic Blood"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3297",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 50 damage per second to the target for 15 seconds and reduces armor by 20. 20 second cooldown. |n|cffFF8080This ability costs 150 health.|r |n|cff7F7F7FThe blood of Iso'rath corrodes the target's defenses & eats away at their flesh.|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_227",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNgreenblood.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNgreenblood.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    }
+  ],
+  "_rawcode": "A05L",
+  "_base": "ANab",
+  "_name": "Acidic Blood"
+}

@@ -1,0 +1,34 @@
+{
+  "OldId": 1768967746,
+  "NewId": 875769922,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_9037",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Event Horizon"
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Items\\AIil\\AIilTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1953526630,
+      "Type": "String",
+      "Value": "chest",
+      "SanityCheck": 0,
+      "_field": "fspt"
+    }
+  ],
+  "_rawcode": "B034",
+  "_base": "BNpi",
+  "_name": "Event Horizon"
+}

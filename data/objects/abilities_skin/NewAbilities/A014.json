@@ -1,0 +1,59 @@
+{
+  "OldId": 1986085697,
+  "NewId": 875638849,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_789",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Spirit Aura: Defense"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDevourMagic.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_790",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Spirit Aura: Defense"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    }
+  ],
+  "_rawcode": "A014",
+  "_base": "ACav",
+  "_name": "Spirit Aura: Defense"
+}

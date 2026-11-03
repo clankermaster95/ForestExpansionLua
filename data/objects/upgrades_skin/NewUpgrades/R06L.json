@@ -1,0 +1,275 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1278619730,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2380",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced Optics"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTN_cr_GOBgogles.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTN_cr_GOBgogles.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTN_cr_GOBgogles.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTN_cr_GOBgogles.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTN_cr_GOBgogles.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2792",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced Optics"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2903",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced Optics"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2917",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced Optics"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3474",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced Optics"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6393",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6677",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7033",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7034",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7337",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10691",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Advanced Optics - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10692",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Advanced Optics - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10693",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Advanced Optics - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10694",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Advanced Optics - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10695",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Advanced Optics - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3522",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack range of Ratling Stalker by 50"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3546",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack range of Ratling Stalker by 50"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3549",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack range of Ratling Stalker by 50"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3631",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack range of Ratling Stalker by 50"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3683",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the attack range of Ratling Stalker by 50"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R06L",
+  "_base": "Rhme",
+  "_name": "Advanced Optics"
+}

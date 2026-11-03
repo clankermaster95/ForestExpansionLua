@@ -1,0 +1,207 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1446129746,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3528",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Imbued Reef"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSirenAdept.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSirenAdept.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSirenAdept.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSirenAdept.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSirenAdept.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3530",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Imbued Reef"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3531",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Imbued Reef"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3532",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Imbued Reef"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3533",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Imbued Reef"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8886",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Imbued Reef - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8887",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Imbued Reef - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8892",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Imbued Reef - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8893",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Imbued Reef - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8894",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Imbued Reef - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3539",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the armor of your walls by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3540",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the armor of your walls by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3541",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the armor of your walls by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3542",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the armor of your walls by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3543",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the armor of your walls by 1."
+    }
+  ],
+  "_rawcode": "R02V",
+  "_base": "Rhme",
+  "_name": "Imbued Reef"
+}

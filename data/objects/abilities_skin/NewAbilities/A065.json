@@ -1,0 +1,269 @@
+{
+  "OldId": 1919173441,
+  "NewId": 892743745,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5432",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Psychic Drain"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6909",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 1"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8707",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 200 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_Requiem.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_Requiem.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6910",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 2"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6911",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 3"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8708",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 250 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8709",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 300 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6912",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 4"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6913",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 5"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6914",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 6"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6915",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 7"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6916",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 8"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6917",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 9"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6918",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 10"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6919",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Psychic D|cffffcc00r|rain - Level 11"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8710",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 350 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8711",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 400 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8712",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 450 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8713",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 500 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8714",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 550 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8715",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 600 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8716",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 650 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8717",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a drain for 700 health. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    }
+  ],
+  "_rawcode": "A065",
+  "_base": "ACdr",
+  "_name": "Psychic Drain"
+}

@@ -1,0 +1,40 @@
+{
+  "OldId": 1953461359,
+  "NewId": 1496395887,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Avul,Aeth",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 450,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 450,
+      "SanityCheck": 0,
+      "_field": "usin"
+    }
+  ],
+  "_rawcode": "o01Y",
+  "_base": "otot",
+  "_name": "Quicksand Trap"
+}

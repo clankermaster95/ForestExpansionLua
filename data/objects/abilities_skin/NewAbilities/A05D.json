@@ -1,0 +1,129 @@
+{
+  "OldId": 1935887937,
+  "NewId": 1144336449,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5173",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Dark Barrage"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\Web\\Webmissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNCorrosiveBreath.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5174",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Dark Ba[r]rage"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4413",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Bombard an area with dark bombs dealing 350 damage per second and stunning all targets in the area for 3 seconds. 15 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5176",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Ba[r]rage"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5177",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Ba[r]rage"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5178",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Ba[r]rage"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4414",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Bombard an area with dark bombs dealing 350 damage per second and stunning all targets in the area for 3 seconds. 15 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4415",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Bombard an area with dark bombs dealing 350 damage per second and stunning all targets in the area for 3 seconds. 15 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4416",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Bombard an area with dark bombs dealing 350 damage per second and stunning all targets in the area for 3 seconds. 15 second cooldown."
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNCorrosiveBreath.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    }
+  ],
+  "_rawcode": "A05D",
+  "_base": "ANcs",
+  "_name": "Dark Barrage"
+}

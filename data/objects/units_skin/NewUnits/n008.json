@@ -1,0 +1,64 @@
+{
+  "OldId": 1818388334,
+  "NewId": 942682222,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.95,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2382",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Upgrade to the Goblin Battle Mech Ultima"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7166",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Upgrade the basic Goblin Scout into the Ultima version of the Goblin Battle Mech.|n\n|cffFF8F40Move Speed|r: 375 (+55)\n|cffFF8Fa0Attack Cooldown|r: 1.25 (-0.75)|n"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNROBOGOBLIN.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Creeps\\HeroTinker\\HeroTinker.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2381",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Goblin Battle Mech Ultima"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "n008",
+  "_base": "ngbl",
+  "_name": "Goblin Battle Mech Ultima"
+}

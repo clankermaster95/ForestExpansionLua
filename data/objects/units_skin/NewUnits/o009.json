@@ -1,0 +1,93 @@
+{
+  "OldId": 1919903343,
+  "NewId": 959459439,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_306",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Fire Pit"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUndeadShrine.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Northrend\\Props\\FirePit\\FirePit.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_307",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build |cffffcc00F|rire"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6807",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Provides 50 supply to create workers and units.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1819501173,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ubsl"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_369",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o009",
+  "_base": "ofor",
+  "_name": "Fire Pit"
+}

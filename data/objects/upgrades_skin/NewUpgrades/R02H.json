@@ -1,0 +1,70 @@
+{
+  "OldId": 1918988114,
+  "NewId": 1211248722,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3090",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Cheap Combat"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8661",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Cheap Combat - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3092",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to use Cheap Combat."
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5789",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "C"
+    }
+  ],
+  "_rawcode": "R02H",
+  "_base": "Roar",
+  "_name": "Cheap Combat"
+}

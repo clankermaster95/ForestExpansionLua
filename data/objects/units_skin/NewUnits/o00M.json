@@ -1,0 +1,51 @@
+{
+  "OldId": 1651668079,
+  "NewId": 1295003759,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2751",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Centaur Burrow"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9929",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic centaurian burrow, provides 100 supply. Can also attack at a good range.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 2 (Heavy)|n|cfffdca00Attack:|r 20 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_888",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1493",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Centaur Burrow"
+    }
+  ],
+  "_rawcode": "o00M",
+  "_base": "otrb",
+  "_name": "Centaur Burrow"
+}

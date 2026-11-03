@@ -1,0 +1,93 @@
+{
+  "OldId": 1634037864,
+  "NewId": 909455464,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9990",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Nerubian Harvester"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNerubian.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\BurrowableNerubian.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Nerubian",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9991",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Nerubian Harvester"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1319",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10245",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Basic unit to gather Wood and build new shelters/ziggurats. Can burrow to become invulnurable.|n|n|cfffdca00Health:|r 100; 5/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Movement Speed:|r 250|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "war3mapImported\\NerubianWorker_Portrait.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 110,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    }
+  ],
+  "_rawcode": "h056",
+  "_base": "hpea",
+  "_name": "Nerubian Harvester"
+}

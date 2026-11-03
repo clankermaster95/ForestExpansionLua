@@ -1,0 +1,44 @@
+{
+  "OldId": 1953721448,
+  "NewId": 858861641,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4448",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Thriving Razorvine Seed"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_4449",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Plant this seed to grow thriving razorvine."
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4450",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Create Thriving Razorvine Seed"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_4459",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A seed that will grow into razorvines when planted. They will grow and collect lumber."
+    }
+  ],
+  "_rawcode": "I013",
+  "_base": "hlst",
+  "_name": "Thriving Razorvine Seed"
+}

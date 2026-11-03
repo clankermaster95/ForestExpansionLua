@@ -1,0 +1,1263 @@
+{
+  "OldId": 1700876097,
+  "NewId": 1396256833,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 21,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 22,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 23,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 25,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 24,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 26,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 27,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 28,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 29,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 30,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 31,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 32,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 33,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 34,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 35,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 36,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 37,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 38,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 39,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 40,
+      "Pointer": 0,
+      "Value": "B036",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 21,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 22,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 23,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 24,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 25,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,player,self,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 21,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 22,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 23,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 24,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 25,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.005,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 0.015,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 1,
+      "Value": 0.02,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 1,
+      "Value": 0.025,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 1,
+      "Value": 0.035,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 1,
+      "Value": 0.03,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 8,
+      "Pointer": 1,
+      "Value": 0.04,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 9,
+      "Pointer": 1,
+      "Value": 0.045,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 10,
+      "Pointer": 1,
+      "Value": 0.05,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 11,
+      "Pointer": 1,
+      "Value": 0.055,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 12,
+      "Pointer": 1,
+      "Value": 0.06,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 13,
+      "Pointer": 1,
+      "Value": 0.065,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 14,
+      "Pointer": 1,
+      "Value": 0.07,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 15,
+      "Pointer": 1,
+      "Value": 0.075,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 16,
+      "Pointer": 1,
+      "Value": 0.08,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 17,
+      "Pointer": 1,
+      "Value": 0.085,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 18,
+      "Pointer": 1,
+      "Value": 0.09,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 19,
+      "Pointer": 1,
+      "Value": 0.095,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 20,
+      "Pointer": 1,
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 21,
+      "Pointer": 1,
+      "Value": 0.105,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 22,
+      "Pointer": 1,
+      "Value": 0.11,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 23,
+      "Pointer": 1,
+      "Value": 0.115,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 24,
+      "Pointer": 1,
+      "Value": 0.12,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 25,
+      "Pointer": 1,
+      "Value": 0.125,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 2,
+      "Value": 0.2,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 2,
+      "Value": 0.25,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 2,
+      "Value": 0.35,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 8,
+      "Pointer": 2,
+      "Value": 0.4,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 9,
+      "Pointer": 2,
+      "Value": 0.45,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 10,
+      "Pointer": 2,
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 11,
+      "Pointer": 2,
+      "Value": 0.55,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 12,
+      "Pointer": 2,
+      "Value": 0.6,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 13,
+      "Pointer": 2,
+      "Value": 0.65,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 14,
+      "Pointer": 2,
+      "Value": 0.7,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 15,
+      "Pointer": 2,
+      "Value": 0.75,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 16,
+      "Pointer": 2,
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 17,
+      "Pointer": 2,
+      "Value": 0.85,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 18,
+      "Pointer": 2,
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 19,
+      "Pointer": 2,
+      "Value": 0.95,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 20,
+      "Pointer": 2,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 21,
+      "Pointer": 2,
+      "Value": 1.05,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 22,
+      "Pointer": 2,
+      "Value": 1.1,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 23,
+      "Pointer": 2,
+      "Value": 1.15,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 24,
+      "Pointer": 2,
+      "Value": 1.2,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 25,
+      "Pointer": 2,
+      "Value": 1.25,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 2,
+      "Value": 0.3,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    }
+  ],
+  "_rawcode": "A09S",
+  "_base": "AOae",
+  "_name": "Ancestors Might"
+}

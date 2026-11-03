@@ -1,0 +1,79 @@
+{
+  "OldId": 1936028272,
+  "NewId": 842149961,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_671",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Cheese"
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "war3mapImported\\CheeseItem.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_692",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Cheeseeeee!"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCheese.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1919705961,
+      "Type": "Int",
+      "Value": 192,
+      "SanityCheck": 0,
+      "_field": "iclr"
+    },
+    {
+      "Id": 1735156585,
+      "Type": "Int",
+      "Value": 192,
+      "SanityCheck": 0,
+      "_field": "iclg"
+    },
+    {
+      "Id": 1651270505,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "iclb"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_676",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Cheese"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_975",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff87ceebConsumable|r|nRestores <A0CA,DataA1> hit points and <A0CA,DataB1> mana of the Hero when used.|n|cff808080Smells Cheesy@|nCheese Cheese Cheese Cheese!!|r"
+    }
+  ],
+  "_rawcode": "I022",
+  "_base": "pres",
+  "_name": "Cheese"
+}

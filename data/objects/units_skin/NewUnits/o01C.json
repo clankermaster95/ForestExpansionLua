@@ -1,0 +1,106 @@
+{
+  "OldId": 1919903343,
+  "NewId": 1127297135,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4599",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Soft Razorvine"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOTMasterTraining.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\Web\\Web_AirTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4600",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Soft Razorvine"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10180",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Allows you to take up the role of Healing and Support. This tree is full of spells that will allow you to heal walls or units, and provide health/damage upgrades to you.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "Objects\\Spawnmodels\\Human\\HCancelDeath\\HCancelDeath.mdl",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o01C",
+  "_base": "ofor",
+  "_name": "Soft Razorvine"
+}

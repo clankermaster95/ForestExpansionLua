@@ -1,0 +1,66 @@
+{
+  "OldId": 1651536705,
+  "NewId": 927019073,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828534899,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": "A0AQ,A0AU,A0AR,A0AP",
+      "SanityCheck": 0,
+      "_field": "spb1"
+    },
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 845312115,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "spb2"
+    },
+    {
+      "Id": 895643763,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 5,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "spb5"
+    },
+    {
+      "Id": 878866547,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 4,
+      "Value": 8,
+      "SanityCheck": 0,
+      "_field": "spb4"
+    },
+    {
+      "Id": 862089331,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 8,
+      "SanityCheck": 0,
+      "_field": "spb3"
+    }
+  ],
+  "_rawcode": "A0A7",
+  "_base": "Aspb",
+  "_name": "Abilities"
+}

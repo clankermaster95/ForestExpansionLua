@@ -1,0 +1,69 @@
+{
+  "OldId": 1718830401,
+  "NewId": 1446457409,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "arhk"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ahky"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1830",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Seed of Rebirth"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1828",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Revive the selected teammate."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfVenom.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1831",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Seed of Rebirth"
+    }
+  ],
+  "_rawcode": "A07V",
+  "_base": "AEsf",
+  "_name": "Seed of Rebirth"
+}

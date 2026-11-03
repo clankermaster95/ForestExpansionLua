@@ -1,0 +1,267 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1462775890,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7496",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Long Cannons I"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7499",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Long Cannons II"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7507",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Long Cannons III"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7511",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Long Cannons IV"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7525",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Long Cannons V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1374",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "L"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1375",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "L"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1376",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "L"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1594",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "L"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1674",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "L"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7550",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Long Cannons I - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7551",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Long Cannons II - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7552",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Long Cannons III - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7553",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Long Cannons IV - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7554",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Long Cannons V - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7555",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of mortar teams by 40."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7556",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of mortar teams by 40."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7557",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of mortar teams by 40."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7558",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of mortar teams by 40."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7559",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the range of mortar teams by 40.|n|nThis is the last range upgrade."
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7560",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Human)"
+    }
+  ],
+  "_rawcode": "R00W",
+  "_base": "Rhme",
+  "_name": "Long Cannons V"
+}

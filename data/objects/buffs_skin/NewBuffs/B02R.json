@@ -1,0 +1,51 @@
+{
+  "OldId": 1634693698,
+  "NewId": 1379020866,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7886",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Battle Roar"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7887",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Battle Roar"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_7888",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has increased attack damage."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\FlameStrike\\FlameStrikeEmbers.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_7889",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": " Wildkin"
+    }
+  ],
+  "_rawcode": "B02R",
+  "_base": "Broa",
+  "_name": "Battle Roar"
+}

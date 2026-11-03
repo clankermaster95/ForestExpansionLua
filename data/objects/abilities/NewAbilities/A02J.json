@@ -1,0 +1,39 @@
+{
+  "OldId": 1702256961,
+  "NewId": 1244803137,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "n007,n005,n004,n006",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 828730693,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": "h016",
+      "SanityCheck": 0,
+      "_field": "Eme1"
+    },
+    {
+      "Id": 1969581381,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "n008",
+      "SanityCheck": 0,
+      "_field": "Emeu"
+    }
+  ],
+  "_rawcode": "A02J",
+  "_base": "Aave",
+  "_name": "Upgrade "
+}

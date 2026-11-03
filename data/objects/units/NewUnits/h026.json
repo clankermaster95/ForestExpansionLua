@@ -1,0 +1,103 @@
+{
+  "OldId": 1869571688,
+  "NewId": 909258856,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1949393269,
+      "Type": "String",
+      "Value": "chaos",
+      "SanityCheck": 0,
+      "_field": "ua1t"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 149,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "air,debris,ground,item,nonancient,structure,ward",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 16,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    }
+  ],
+  "_rawcode": "h026",
+  "_base": "hfoo",
+  "_name": "Kobold Warrior"
+}

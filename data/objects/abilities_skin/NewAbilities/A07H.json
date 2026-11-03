@@ -1,0 +1,150 @@
+{
+  "OldId": 1651787841,
+  "NewId": 1211576385,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7656",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Moonblast"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2412",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7657",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Moon|cffffcc00b|rlast - [|cffffcc00Level 1|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7658",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Moon|cffffcc00b|rlast - [|cffffcc00Level 2|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7659",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Moon|cffffcc00b|rlast - [|cffffcc00Level 3|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7660",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Moon|cffffcc00b|rlast - [|cffffcc00Level 4|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7661",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Moon|cffffcc00b|rlast - [|cffffcc00Level 5|r]"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPurge.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\StarfallMissle.mdx",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3643",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 300 (+25% of your maximum mana) in damage to your target and stuns the target for 1 second. 24 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage of Moonblast by 100, and the stun duration by 0.25 seconds.|r|n|cff7F7F7FA quaint power, but not when unrestrained.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3648",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 400 (+25% of your maximum mana) in damage to your target and stuns the target for 1.25 seconds. 24 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage of Moonblast by 100, and the stun duration by 0.25 seconds.|r|n|cff7F7F7FA quaint power, but not when unrestrained.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3649",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 500 (+25% of your maximum mana) in damage to your target and stuns the target for 1.5 seconds. 24 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage of Moonblast by 100, and the stun duration by 0.25 seconds.|r|n|cff7F7F7FA quaint power, but not when unrestrained.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3650",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 600 (+25% of your maximum mana) in damage to your target and stuns the target for 1.75 seconds. 24 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage of Moonblast by 100, and the stun duration by 0.25 seconds.|r|n|cff7F7F7FA quaint power, but not when unrestrained.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3655",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 700 (+25% of your maximum mana) in damage to your target and stuns the target for 2 seconds. 24 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage of Moonblast by 100, and the stun duration by 0.25 seconds.|r|n|cff7F7F7FA quaint power, but not when unrestrained.|r"
+    }
+  ],
+  "_rawcode": "A07H",
+  "_base": "AHtb",
+  "_name": "Moonblast"
+}

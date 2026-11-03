@@ -1,0 +1,69 @@
+{
+  "OldId": 1918988114,
+  "NewId": 1379217490,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6453",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Nature's Call"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ghk1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10513",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Nature's Call - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1486",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to embrace the nature. After transformation, increases amount of food you have by default from 50 to 100. |n|cfffff000Warning: you can choose only 1 path|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNSpell_Nature_Regeneration.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R05R",
+  "_base": "Roar",
+  "_name": "Nature's Call"
+}

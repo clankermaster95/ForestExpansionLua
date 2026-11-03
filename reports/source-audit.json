@@ -1,0 +1,8 @@
+{
+  "function_bodies_matched": 1662,
+  "global_declarations_matched": true,
+  "startup_split_matched": true,
+  "potential_reads_of_uninitialized_locals": [],
+  "scope": "checks assembly completeness against fresh typed translation; dynamic tests independently evaluate the original JASS AST",
+  "revision_scope": "Original preservation baseline. Current Ancient-role changes are covered by refactor-validation.json; layout-only archive checks are in layout-only-validation.json."
+}

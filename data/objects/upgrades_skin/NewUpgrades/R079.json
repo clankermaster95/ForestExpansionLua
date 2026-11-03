@@ -1,0 +1,480 @@
+{
+  "OldId": 1634887762,
+  "NewId": 959918162,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4713",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Efficiency I"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4589",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpTwo.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpTwo.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpTwo.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpTwo.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGatherGold.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGatherGold.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGatherGold.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGatherGold.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4022",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cffc7c742Efficiency I|r [18]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3918",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cffe1e142Increases Silvester's mining speed by|r 15%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3926",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cffe1e142Increases Silvester's mining speed by|r 15%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3930",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cffe1e142Increases Silvester's mining speed by|r 15%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3937",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cffe1e142Increases Silvester's mining speed by|r 15%.|n|nThis is the last upgrade."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3970",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cffe1e142Increases Silvester's mining speed by|r 15%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2429",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2430",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2431",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2432",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3975",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade."
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4023",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cffc7c742Efficiency II|r [21]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4024",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cffc7c742Efficiency III|r [24]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4025",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cffc7c742Efficiency IV|r [27]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4026",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cffc7c742Efficiency V|r [30]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2808",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff8080b9Rich Gunpowder VI|r [20]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2809",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff8080b9Rich Gunpowder VII|r [23]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2810",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff8080b9Rich Gunpowder VIII|r [26]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2811",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff8080b9Rich Gunpowder IX|r [29]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2812",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff8080b9Rich Gunpowder X|r [32]"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4714",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Efficiency II"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4732",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Efficiency III"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4735",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Efficiency IV"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4738",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Efficiency V"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2539",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rich Gunpowder"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2540",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rich Gunpowder"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2541",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rich Gunpowder"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2542",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rich Gunpowder"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2543",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rich Gunpowder"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGatherGold.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8528",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8529",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8530",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8585",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8586",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R079",
+  "_base": "Rhra",
+  "_name": "Rich Gunpowder"
+}

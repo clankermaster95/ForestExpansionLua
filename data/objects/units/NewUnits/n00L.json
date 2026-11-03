@@ -1,0 +1,96 @@
+{
+  "OldId": 1952933486,
+  "NewId": 1278226542,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "fort",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1949393269,
+      "Type": "String",
+      "Value": "chaos",
+      "SanityCheck": 0,
+      "_field": "ua1t"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 99,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "air,debris,ground,item,nonancient,structure,ward",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    }
+  ],
+  "_rawcode": "n00L",
+  "_base": "nfgt",
+  "_name": "Raging Growth"
+}

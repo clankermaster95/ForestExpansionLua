@@ -1,0 +1,51 @@
+{
+  "OldId": 1751271489,
+  "NewId": 1278488641,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4863",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Concussive Strike"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNFragmentationBombs.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4864",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Concussive Strike"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3247",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives a 10% chance to stun your target for 3 seconds and deal an extra 200 damage on your basic attacks."
+    }
+  ],
+  "_rawcode": "A04L",
+  "_base": "AHbh",
+  "_name": "Concussive Strike"
+}

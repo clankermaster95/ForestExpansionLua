@@ -1,0 +1,100 @@
+{
+  "OldId": 1869374017,
+  "NewId": 1479618625,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNClockWerkGoblin.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBootsOfSpeed.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1773",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1819",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5335",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Over-Drive (Q)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2734",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The Goblin Scout enters Over-Drive, causing it to move very quickly for 10 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_475",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": " "
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1519",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": " "
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2388",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Over-Drive"
+    }
+  ],
+  "_rawcode": "A01X",
+  "_base": "Ablo",
+  "_name": "Over-Drive"
+}

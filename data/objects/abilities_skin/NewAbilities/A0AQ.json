@@ -1,0 +1,79 @@
+{
+  "OldId": 1802723905,
+  "NewId": 1363226689,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4505",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "|cffcb4fffAbjure Mana|r"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\AbsorbMana\\AbsorbManaBirthMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\AbsorbMana\\AbsorbManaBirthMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1236",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Consumes half of your mana, increasing damage based on amount of (mana consumed)*2 for 60 seconds. |n|cff808080CD: 60 seconds.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4507",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffcb4fffAbjure Mana|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5440",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNManaBreak.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A0AQ",
+  "_base": "Absk",
+  "_name": "|cffcb4fffAbjure Mana|r"
+}

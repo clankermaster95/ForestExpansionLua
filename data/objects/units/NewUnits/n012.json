@@ -1,0 +1,61 @@
+{
+  "OldId": 1651468142,
+  "NewId": 842084462,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R06Y,R06Z",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 800,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1835167349,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "unbm"
+    },
+    {
+      "Id": 1835098997,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucam"
+    },
+    {
+      "Id": 1818850421,
+      "Type": "String",
+      "Value": "A,L,F,W,V,Q,X,J,Y",
+      "SanityCheck": 0,
+      "_field": "util"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Asid",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    }
+  ],
+  "_rawcode": "n012",
+  "_base": "ngob",
+  "_name": "Testing Station"
+}

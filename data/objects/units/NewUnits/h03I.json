@@ -1,0 +1,110 @@
+{
+  "OldId": 1634493032,
+  "NewId": 1228091496,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "undead",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h03E",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R05H,R02Y,R02X,R02W,R02V",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    }
+  ],
+  "_rawcode": "h03I",
+  "_base": "hbla",
+  "_name": "Temple of Tides"
+}

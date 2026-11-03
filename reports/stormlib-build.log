@@ -1,0 +1,8 @@
+-- Using bundled libtommath sources
+-- Using bundled libtomcrypt sources
+-- Linking against dependent libraries dynamically
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/amazzetto/Projects/ForestExpansionLua/.tools/StormLib/build
+[  1%] Linking CXX shared library storm.framework/storm
+[100%] Built target storm

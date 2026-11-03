@@ -1,0 +1,35 @@
+{
+  "OldId": 1802981186,
+  "NewId": 1479749698,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_9252",
+      "SanityCheck": 1802981186,
+      "_field": "ftip",
+      "_resolvedText": "|cff195ABDWind Walk|r"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_9253",
+      "SanityCheck": 1802981186,
+      "_field": "fube",
+      "_resolvedText": "This unit is invisible, moves faster, and spawn wind trail"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnstableConcoction.blp",
+      "SanityCheck": 1802981186,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B03X",
+  "_base": "BOwk",
+  "_name": "B03X"
+}

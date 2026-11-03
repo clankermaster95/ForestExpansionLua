@@ -1,0 +1,47 @@
+{
+  "OldId": 1684109166,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 750,
+      "SanityCheck": 1684109166,
+      "_field": "usin"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 750,
+      "SanityCheck": 1684109166,
+      "_field": "usid"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 1684109166,
+      "_field": "ucol"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 25,
+      "SanityCheck": 1684109166,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1701734773,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 1684109166,
+      "_field": "uine"
+    }
+  ],
+  "_rawcode": "nwad",
+  "_base": "nwad",
+  "_name": "Watchful Eye"
+}

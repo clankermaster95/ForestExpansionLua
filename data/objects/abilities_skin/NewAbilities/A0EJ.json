@@ -1,0 +1,79 @@
+{
+  "OldId": 1769105473,
+  "NewId": 1246048321,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9051",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Magical Cloak"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9098",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(UI Icon) - Cultist"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9104",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff0b7921Magical Cloak|r |cff16b12c[Passive]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9105",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff0b9b42Cultist ignores|r 75% |cff0b9b42of incoming magic damage.|r"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCloak.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A0EJ",
+  "_base": "Ahri",
+  "_name": "Magical Cloak"
+}

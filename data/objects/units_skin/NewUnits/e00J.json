@@ -1,0 +1,107 @@
+{
+  "OldId": 1919182437,
+  "NewId": 1244672101,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9943",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Lightning Revenant"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\Revenant\\Revenant.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNThunderKnight.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": ".mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "RockGolem",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2645",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9836",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Lackey with moderate damage and slowing attacks"
+    },
+    {
+      "Id": 1969779573,
+      "Type": "String",
+      "Value": "Shadow",
+      "SanityCheck": 0,
+      "_field": "ushu"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 2053927797,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uslz"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 164,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9944",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Lightning Revenant"
+    },
+    {
+      "Id": 828468597,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uma1"
+    }
+  ],
+  "_rawcode": "e00J",
+  "_base": "efdr",
+  "_name": "Lightning Revenant"
+}

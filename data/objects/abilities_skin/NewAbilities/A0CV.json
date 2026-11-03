@@ -1,0 +1,22 @@
+{
+  "OldId": 1869374017,
+  "NewId": 1447243841,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6320",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Chemical Rage (Dummy)"
+    }
+  ],
+  "_rawcode": "A0CV",
+  "_base": "Ablo",
+  "_name": "Chemical Rage (Dummy)"
+}

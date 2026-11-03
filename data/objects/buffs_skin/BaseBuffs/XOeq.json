@@ -1,0 +1,19 @@
+{
+  "OldId": 1902464856,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952540006,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\Starfall\\StarfallCaster.mdl",
+      "SanityCheck": 1902464856,
+      "_field": "feat"
+    }
+  ],
+  "_rawcode": "XOeq",
+  "_base": "XOeq",
+  "_name": "XOeq"
+}

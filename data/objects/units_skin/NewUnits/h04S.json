@@ -1,0 +1,107 @@
+{
+  "OldId": 1634493032,
+  "NewId": 1395929192,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7820",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "War Center"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\DraneiHut1\\DraneiHut1.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDranaiHut.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.1,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7821",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "War |cffffcc00C|renter"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10218",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Your main technological center for all military purposes. |n|cff7F7F7FWildkin are put through vigorous training before they are ready for battle.|r|n|n|cfffdca00Health:|r 750|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Build Time:|r 4|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2135",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h04S",
+  "_base": "hbla",
+  "_name": "War Center"
+}

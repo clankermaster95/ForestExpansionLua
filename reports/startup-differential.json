@@ -1,0 +1,9 @@
+{
+  "startup_calls_compared": 4068,
+  "behavior_cases": 300,
+  "total_calls_compared": 4900,
+  "result": "exact match",
+  "scope": "deterministic engine double; config/main, trigger registration and initial actions; waits suspend; timers are registered but not advanced",
+  "engine_test": false,
+  "revision_scope": "Original preservation baseline. Current Ancient-role changes are covered by refactor-validation.json; layout-only archive checks are in layout-only-validation.json."
+}

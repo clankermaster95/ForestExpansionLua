@@ -1,0 +1,79 @@
+{
+  "OldId": 2004117352,
+  "NewId": 808726632,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4202",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Nether Tower"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\TowerDefenseTower\\TowerDefenseTower.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNIceCrownObelisk.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\VoidWalkerMissile\\VoidWalkerMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1410",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4203",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Ne|cffffcc00t|rher Tower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10176",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Your primary defensive tower. Can be upgraded. Make sure you build this behind Nether Rips.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 10 (Normal)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 0.01|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h040",
+  "_base": "hgtw",
+  "_name": "Nether Tower"
+}

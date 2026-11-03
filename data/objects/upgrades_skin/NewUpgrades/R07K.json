@@ -1,0 +1,285 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1261908050,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNControlMagic.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedMoonArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9647",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Old) - Bounty Hunter Macko"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7899",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9589",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9590",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9591",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9592",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6803",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Tactical Gear II"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6804",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Tactical Gear III"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6805",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Chainlink-layered Coat IV"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6806",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Chainlink-layered Coat V"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9639",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff379b37Advanced hunter training|r [60]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6808",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80b980Tactical Gear II|r [45]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6809",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80b980Tactical Gear III|r [60]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6810",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80b980Chainlink-layered Coat IV|r [35]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6811",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80b980Chainlink-layered Coat V|r [40]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9640",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Bounty Hunter improves his senses, improving fading time from 1.0 to 0.2, increasing his vision range from 800 to 1400 and allows him to use flash, 5 min CD blink."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6813",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cBounty Hunter tinkers with available materials, producing harder armor plating for his suit.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6814",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis is the last upgrade."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6270",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6782",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|r|n|nThis is the last armor upgrade."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcRallyPoint.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrcRallyPoint.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9648",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced hunter training"
+    }
+  ],
+  "_rawcode": "R07K",
+  "_base": "Rhar",
+  "_name": "Advanced hunter training"
+}

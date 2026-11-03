@@ -1,0 +1,144 @@
+{
+  "OldId": 1986086977,
+  "NewId": 926429249,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8746",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Sun's Fury"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\FlameStrike\\FlameStrike1.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8747",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sun's Fur|cffffcc00y|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3680",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Upon casting, all the cooldowns of your abilities are reset, and you gain 1000 health and are immune to spells for 5 seconds. This ability has a 5 minute cooldown.|n|cff00FFFFThis ability does not benefit from Lunar Power.|r|n|cff7F7F7FAncients fear this formidable power.|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8749",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Sun's Fury"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5603",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "Y"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8750",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Y"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2019718497,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "aubx"
+    },
+    {
+      "Id": 2036495713,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "auby"
+    }
+  ],
+  "_rawcode": "A087",
+  "_base": "AHav",
+  "_name": "Sun's Fury"
+}

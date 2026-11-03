@@ -1,0 +1,57 @@
+{
+  "OldId": 1869827650,
+  "NewId": 1261580354,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7684",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Lunar Assault"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNManaFlare.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "war3mapImported\\IonCannonBeam.mdx",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7685",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Lunar Assault"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_7686",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under a Lunar Assault, it is silenced and taking damage."
+    },
+    {
+      "Id": 811693158,
+      "Type": "String",
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "fta0"
+    }
+  ],
+  "_rawcode": "B02K",
+  "_base": "BNso",
+  "_name": "Lunar Assault"
+}

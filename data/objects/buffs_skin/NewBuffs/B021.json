@@ -1,0 +1,43 @@
+{
+  "OldId": 1802981186,
+  "NewId": 825372738,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6296",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Pure Shadow Blood"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNpurpleblood.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6297",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Pure Shadow Blood"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6298",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is invisble and has increased movement speed for the duration."
+    }
+  ],
+  "_rawcode": "B021",
+  "_base": "BOwk",
+  "_name": "Pure Shadow Blood"
+}

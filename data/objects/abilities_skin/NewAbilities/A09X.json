@@ -1,0 +1,71 @@
+{
+  "OldId": 1818447425,
+  "NewId": 1480142913,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNSpell_Shadow_LifeDrain.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7336",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Dummy)"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2167",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4283",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the attack speed of Maexxna by 100%, but drains 50 health per second for 5 seconds. 20 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_161",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Arachnid Frenzy"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_171",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Arachnid Frenzy"
+    }
+  ],
+  "_rawcode": "A09X",
+  "_base": "ANcl",
+  "_name": "Arachnid Frenzy"
+}

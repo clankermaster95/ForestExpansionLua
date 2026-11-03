@@ -1,0 +1,108 @@
+{
+  "OldId": 2004121448,
+  "NewId": 909521000,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5965",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Skull Pile"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\LordaeronSummer\\Props\\SkullPile\\SkullPile1.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFelHound.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1549",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5966",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Skull Pile"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10349",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A primitive wall that is used to keep the Ancient out and your base safe. This wall can be upgraded several times.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_6016",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Cultist) - Macko"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 2.2,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    }
+  ],
+  "_rawcode": "h066",
+  "_base": "hwtw",
+  "_name": "Skull Pile"
+}

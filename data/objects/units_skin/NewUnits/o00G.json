@@ -1,0 +1,41 @@
+{
+  "OldId": 1835561839,
+  "NewId": 1194340463,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Orc\\Shockwave\\ShockwaveMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1853186933,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucun"
+    },
+    {
+      "Id": 1953850229,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucut"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9911",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Shamans are used as high damage casters to hunt the Ancient.|n|n|cfffdca00Health:|r 600; 5/s|n|cfffdca00Mana:|r 500; 5/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 45 (Chaos)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd00110|r"
+    }
+  ],
+  "_rawcode": "o00G",
+  "_base": "oshm",
+  "_name": "o00G"
+}

@@ -1,0 +1,187 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1378889832,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R035,R02Z,R030",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1769300597,
+      "Type": "String",
+      "Value": "o017,o018,o01A,o019",
+      "SanityCheck": 0,
+      "_field": "ubui"
+    },
+    {
+      "Id": 1887007861,
+      "Type": "String",
+      "Value": "ancient,peon",
+      "SanityCheck": 0,
+      "_field": "utyp"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 7.5,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1634559605,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ufma"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 350,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "air,debris,ground,invulnerable,item,nonancient,structure,vulnerable,ward",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 199,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A03V,A03W,A041,A07T,AInv",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 600,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "none",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1634562933,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "usma"
+    },
+    {
+      "Id": 1953723253,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "usst"
+    },
+    {
+      "Id": 1735553909,
+      "Type": "Int",
+      "Value": 3600,
+      "SanityCheck": 0,
+      "_field": "usrg"
+    },
+    {
+      "Id": 1949393269,
+      "Type": "String",
+      "Value": "pierce",
+      "SanityCheck": 0,
+      "_field": "ua1t"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "orc",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 800,
+      "SanityCheck": 0,
+      "_field": "usin"
+    }
+  ],
+  "_rawcode": "h00R",
+  "_base": "hpea",
+  "_name": "|cff737373Worgen|r"
+}

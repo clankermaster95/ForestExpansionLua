@@ -1,0 +1,89 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1362571346,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7766",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Necrotic Materialization II"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7767",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff0b85b1Necrotic Materialization II|r [45.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7830",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to research medium-level husk upgrades.|n|nUnlocks |cff9b3388Cannibalize|r and |cff9b3388Greater Husk.|r"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9078",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "X"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathCoil.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7843",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Cultist)"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R07Q",
+  "_base": "Rhme",
+  "_name": "Necrotic Materialization II"
+}

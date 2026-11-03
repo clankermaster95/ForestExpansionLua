@@ -1,0 +1,79 @@
+{
+  "OldId": 1969313089,
+  "NewId": 876949569,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "arhk"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7249",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Darkness Vigor"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7250",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Cultist Macko"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7260",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff166fb1Darkness Vigor|r |cff2190d3[Passive]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6334",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff2190d3Cultist embraces the night, gaining|r +15 |cff2190d3health regeneration and|r +40% |cff2190d3increased movement speed.|r|n|nLasts until dawn."
+    }
+  ],
+  "_rawcode": "A0E4",
+  "_base": "AUau",
+  "_name": "Darkness Vigor"
+}

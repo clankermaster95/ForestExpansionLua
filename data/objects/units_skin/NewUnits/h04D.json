@@ -1,0 +1,114 @@
+{
+  "OldId": 1634493032,
+  "NewId": 1144270952,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6097",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Pit of Endless Ravening"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDevourMagic.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Creeps\\ForgottenOne\\ForgottenOne.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1819501173,
+      "Type": "String",
+      "Value": "AmbientSoundRain",
+      "SanityCheck": 0,
+      "_field": "ubsl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6486",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Pi|cffffcc00t|r of Endless Ravening"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10195",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Forgotten Soulreaper Tier 2 Tech Building. |n|cff7F7F7FAn unholy maw with a thirst for souls that can never be sated. The greatest knowledge of soul manipulation lies within.|r|n|n|cfffdca00Health:|r 1000|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1414",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h04D",
+  "_base": "hbla",
+  "_name": "Pit of Endless Ravening"
+}

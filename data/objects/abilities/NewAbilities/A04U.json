@@ -1,0 +1,66 @@
+{
+  "OldId": 1717717313,
+  "NewId": 1429483585,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1684562785,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "achd"
+    },
+    {
+      "Id": 829186633,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "h02D,h02D,h02D,h02D",
+      "SanityCheck": 0,
+      "_field": "Ibl1"
+    }
+  ],
+  "_rawcode": "A04U",
+  "_base": "AIbf",
+  "_name": "Seed of Destruction"
+}

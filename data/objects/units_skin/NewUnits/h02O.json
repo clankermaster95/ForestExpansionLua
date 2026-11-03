@@ -1,0 +1,78 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1328689256,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2490",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Metalic Pile"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2639",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Me|cffffcc00t|ralic Pile"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10051",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A more advanced wall, higher health & armor.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\LordaeronSummer\\Terrain\\LoardaeronRockChunks\\LoardaeronRockChunks1.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedSpikedBarricades.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h02O",
+  "_base": "hwtw",
+  "_name": "Metalic Pile"
+}

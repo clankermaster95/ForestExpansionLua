@@ -1,0 +1,51 @@
+{
+  "OldId": 1651402066,
+  "NewId": 1479946322,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1042",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Fresh Tree"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1043",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Fresh Tree"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "gub1"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4192",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Tree Chopper"
+    }
+  ],
+  "_rawcode": "R06X",
+  "_base": "Renb",
+  "_name": "Fresh Tree"
+}

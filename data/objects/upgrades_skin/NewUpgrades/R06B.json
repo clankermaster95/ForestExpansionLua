@@ -1,0 +1,198 @@
+{
+  "OldId": 1702062162,
+  "NewId": 1110847570,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4854",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane enhancement"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4860",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane enhancement"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4862",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane enhancement"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7690",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7692",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10648",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Arcane enhancement - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10649",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Arcane enhancement - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10650",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Arcane enhancement - [50.0]"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4979",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4996",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5024",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1524",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage of |cff8080ffelemental towers|r by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2004",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage of |cff8080ffelemental towers|r by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2683",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage of |cff8080ffelemental towers|r by 10."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMagicalSentry.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMagicalSentry.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8094",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    }
+  ],
+  "_rawcode": "R06B",
+  "_base": "Rhse",
+  "_name": "Arcane enhancement"
+}

@@ -1,0 +1,57 @@
+{
+  "OldId": 1987070273,
+  "NewId": 1145253953,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 829845609,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "ipv1"
+    },
+    {
+      "Id": 846622825,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0.3,
+      "SanityCheck": 0,
+      "_field": "ipv2"
+    }
+  ],
+  "_rawcode": "A0CD",
+  "_base": "AIpv",
+  "_name": "A0CD"
+}

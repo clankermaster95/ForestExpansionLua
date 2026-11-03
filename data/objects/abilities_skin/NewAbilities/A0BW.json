@@ -1,0 +1,60 @@
+{
+  "OldId": 1952607553,
+  "NewId": 1463955521,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_020",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Replenish Energy"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_417",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Replenish Energy"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5337",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Replenish the mana of a targetted friendly building or mechanical unit"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWispHealOn.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWispHealOff.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    }
+  ],
+  "_rawcode": "A0BW",
+  "_base": "Ambt",
+  "_name": "Replenish Energy"
+}

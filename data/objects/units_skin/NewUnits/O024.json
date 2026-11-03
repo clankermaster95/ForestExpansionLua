@@ -1,0 +1,88 @@
+{
+  "OldId": 1751348303,
+  "NewId": 875704399,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1960",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff08D69CArcane Golem|r"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\ArcaneGuardian.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNArcaneGuardian.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "RockGolem",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953980789,
+      "Type": "String",
+      "Value": "TRIGSTR_5149",
+      "SanityCheck": 0,
+      "_field": "uawt",
+      "_resolvedText": "|cff08D69CArcane Golem|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5150",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff08D69CArcane Golem|r"
+    },
+    {
+      "Id": 1919972469,
+      "Type": "String",
+      "Value": "TRIGSTR_5151",
+      "SanityCheck": 0,
+      "_field": "utpr",
+      "_resolvedText": "|cff08D69CArcane Golem|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10321",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A powerful hero that grows to become very tough to kill. This hero can be upgraded even more at the Altar of Technologies.|n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_5810",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cff08D69CDMYTRO|r,|cff08D69CIron Servant|r,|cff08D69CMagical Guardian|r"
+    }
+  ],
+  "_rawcode": "O024",
+  "_base": "Otch",
+  "_name": "|cff08D69CArcane Golem|r"
+}

@@ -1,0 +1,129 @@
+{
+  "OldId": 1886613330,
+  "NewId": 1463169106,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp",
+      "SanityCheck": 1886613330,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp",
+      "SanityCheck": 1886613330,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp",
+      "SanityCheck": 1886613330,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_331",
+      "SanityCheck": 1886613330,
+      "_field": "gnam",
+      "_resolvedText": "Radiation"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_083",
+      "SanityCheck": 1886613330,
+      "_field": "gnam",
+      "_resolvedText": "Empowered Radiation"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_084",
+      "SanityCheck": 1886613330,
+      "_field": "gnam",
+      "_resolvedText": "Nuclear Radiation"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10856",
+      "SanityCheck": 1886613330,
+      "_field": "gtp1",
+      "_resolvedText": "Radiation - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10857",
+      "SanityCheck": 1886613330,
+      "_field": "gtp1",
+      "_resolvedText": "Empowered Radiation - [75.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10858",
+      "SanityCheck": 1886613330,
+      "_field": "gtp1",
+      "_resolvedText": "Nuclear Radiation - [90.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10859",
+      "SanityCheck": 1886613330,
+      "_field": "gub1",
+      "_resolvedText": "Any damage done to Flaming and Molten Walls, will deliver back 20 damage."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10860",
+      "SanityCheck": 1886613330,
+      "_field": "gub1",
+      "_resolvedText": "Any damage done to Flaming and Molten Walls, will deliver back 60 damage."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10861",
+      "SanityCheck": 1886613330,
+      "_field": "gub1",
+      "_resolvedText": "Any damage done to Flaming and Molten Walls, will deliver back 100 damage."
+    }
+  ],
+  "_rawcode": "R06W",
+  "_base": "Rosp",
+  "_name": "Nuclear Radiation"
+}

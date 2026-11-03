@@ -1,0 +1,61 @@
+{
+  "OldId": 2037277505,
+  "NewId": 1161244737,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7513",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Twister"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3110",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7514",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00T|rwister"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3642",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Throw a quick twister at a target, knocking them into the air for 2 seconds, but rendering them invulnerable. This ability has a one minute cooldown. |n|cff7F7F7FWind is a powerful element; It controls your surroundings.|r"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A07E",
+  "_base": "Acny",
+  "_name": "Twister"
+}

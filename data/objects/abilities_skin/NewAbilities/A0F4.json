@@ -1,0 +1,71 @@
+{
+  "OldId": 1651536705,
+  "NewId": 877015105,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9643",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Abilities"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlakCannons.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9644",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffbcbc63Backpack|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9645",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Holds important abilities."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9646",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Elite Bounty Hunter)"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2219",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    }
+  ],
+  "_rawcode": "A0F4",
+  "_base": "Aspb",
+  "_name": "Abilities"
+}

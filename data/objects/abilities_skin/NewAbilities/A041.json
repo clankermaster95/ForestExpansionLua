@@ -1,0 +1,51 @@
+{
+  "OldId": 1634225729,
+  "NewId": 825503809,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3906",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harvest (Worgen)"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3907",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Mines gold from gold mines and harvests lumber from trees."
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5051",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    }
+  ],
+  "_rawcode": "A041",
+  "_base": "ANha",
+  "_name": "Harvest (Worgen)"
+}

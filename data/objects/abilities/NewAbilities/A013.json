@@ -1,0 +1,66 @@
+{
+  "OldId": 1986086977,
+  "NewId": 858861633,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986818657,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 13,
+      "SanityCheck": 0,
+      "_field": "arlv"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 360,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 846618952,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 2000,
+      "SanityCheck": 0,
+      "_field": "Hav2"
+    },
+    {
+      "Id": 829841736,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "Hav1"
+    },
+    {
+      "Id": 863396168,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "Hav3"
+    }
+  ],
+  "_rawcode": "A013",
+  "_base": "AHav",
+  "_name": "Overgrow"
+}

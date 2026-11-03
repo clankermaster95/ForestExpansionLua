@@ -1,0 +1,50 @@
+{
+  "OldId": 1986090306,
+  "NewId": 1211248706,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7484",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Hungering Blade"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7485",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Hungering Blade"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_7486",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit will gain health upon attacking."
+    }
+  ],
+  "_rawcode": "B02H",
+  "_base": "BUav",
+  "_name": "Hungering Blade"
+}

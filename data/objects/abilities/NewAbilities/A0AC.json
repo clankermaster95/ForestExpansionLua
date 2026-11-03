@@ -1,0 +1,39 @@
+{
+  "OldId": 1751205185,
+  "NewId": 1128345665,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828924229,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.2,
+      "SanityCheck": 0,
+      "_field": "Eah1"
+    },
+    {
+      "Id": 828924229,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 0.4,
+      "SanityCheck": 0,
+      "_field": "Eah1"
+    },
+    {
+      "Id": 828924229,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 0.6,
+      "SanityCheck": 0,
+      "_field": "Eah1"
+    }
+  ],
+  "_rawcode": "A0AC",
+  "_base": "AEah",
+  "_name": "A0AC"
+}

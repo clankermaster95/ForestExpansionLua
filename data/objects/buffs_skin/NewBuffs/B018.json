@@ -1,0 +1,43 @@
+{
+  "OldId": 1835814466,
+  "NewId": 942747714,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_4833",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Growth"
+    },
+    {
+      "Id": 1952542054,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\EntanglingRoots\\EntanglingRootsTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "fmat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_4834",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Growth"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_4835",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Growth"
+    }
+  ],
+  "_rawcode": "B018",
+  "_base": "BNlm",
+  "_name": "Growth"
+}

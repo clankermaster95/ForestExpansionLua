@@ -1,0 +1,21 @@
+{
+  "OldId": 1986621505,
+  "NewId": 1262694465,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R06K",
+      "SanityCheck": 0,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "A0CK",
+  "_base": "Apiv",
+  "_name": "A0CK"
+}

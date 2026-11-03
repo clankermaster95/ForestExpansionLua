@@ -1,0 +1,60 @@
+{
+  "OldId": 1919174721,
+  "NewId": 1480667201,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1718",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Power Transfer"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1719",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Power Transfer"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3702",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Transfers 50 mana per second from the caster to an ally. 6 second cooldown."
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNConjureBiscuit.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A0AX",
+  "_base": "AHdr",
+  "_name": "Power Transfer"
+}

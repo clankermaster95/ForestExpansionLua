@@ -1,0 +1,82 @@
+{
+  "OldId": 1819635571,
+  "NewId": 1295003721,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "AIrv",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1634956649,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "iusa"
+    },
+    {
+      "Id": 1869767785,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "idro"
+    },
+    {
+      "Id": 1818588009,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "isel"
+    },
+    {
+      "Id": 2002874473,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ipaw"
+    },
+    {
+      "Id": 1684628329,
+      "Type": "String",
+      "Value": "A017",
+      "SanityCheck": 0,
+      "_field": "icid"
+    },
+    {
+      "Id": 1702065513,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "iuse"
+    },
+    {
+      "Id": 1919250537,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "iper"
+    }
+  ],
+  "_rawcode": "I00M",
+  "_base": "soul",
+  "_name": "Orb of God"
+}

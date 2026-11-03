@@ -1,0 +1,40 @@
+{
+  "OldId": 1735683429,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 1735683429,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 10000,
+      "SanityCheck": 1735683429,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "large",
+      "SanityCheck": 1735683429,
+      "_field": "udty"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "AInv,Atau,Agra,Arsk,Assk",
+      "SanityCheck": 1735683429,
+      "_field": "uabi"
+    }
+  ],
+  "_rawcode": "emtg",
+  "_base": "emtg",
+  "_name": "Dummy"
+}

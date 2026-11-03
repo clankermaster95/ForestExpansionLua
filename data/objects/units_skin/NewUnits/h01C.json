@@ -1,0 +1,79 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1127297128,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_774",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Improved Nature Wall"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Ashenvale\\Props\\AshenHollowStump\\AshenHollowStump.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEatTree.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2624",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Improved |cffffcc00N|rature Wall"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9834",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Stronger wall.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_148",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "N"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h01C",
+  "_base": "hwtw",
+  "_name": "Improved Nature Wall"
+}

@@ -1,0 +1,51 @@
+{
+  "OldId": 1819437121,
+  "NewId": 909127745,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9508",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harvest Ghoul Worker"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_272",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Return the harvested lumber to a nearby shelter."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1141",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    }
+  ],
+  "_rawcode": "A006",
+  "_base": "Ahrl",
+  "_name": "Harvest Ghoul Worker"
+}

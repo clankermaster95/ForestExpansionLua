@@ -1,0 +1,96 @@
+{
+  "OldId": 1852794469,
+  "NewId": 1429221477,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 199,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 1.5,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 260,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1953654901,
+      "Type": "String",
+      "Value": "always",
+      "SanityCheck": 0,
+      "_field": "uhrt"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R05V",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0AF,Amim",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "air,debris,ground,item,nonancient,structure,ward",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    }
+  ],
+  "_rawcode": "e00U",
+  "_base": "efon",
+  "_name": "e00U"
+}

@@ -1,0 +1,59 @@
+{
+  "OldId": 1718903154,
+  "NewId": 875638857,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4844",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Monocle of Truth"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSentryWard.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_4845",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Monocle of Truth"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4846",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Monocle of Truth"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_2303",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Allows you to see invisible units."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1818",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    }
+  ],
+  "_rawcode": "I014",
+  "_base": "ratf",
+  "_name": "Monocle of Truth"
+}

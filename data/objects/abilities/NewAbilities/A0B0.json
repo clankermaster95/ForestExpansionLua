@@ -1,0 +1,39 @@
+{
+  "OldId": 1936286785,
+  "NewId": 809644097,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "A0B0",
+  "_base": "Adis",
+  "_name": "A0B0"
+}

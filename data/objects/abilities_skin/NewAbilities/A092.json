@@ -1,0 +1,31 @@
+{
+  "OldId": 846743873,
+  "NewId": 842608705,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9630",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Item Hero Stat bonus (+20 All Stats)"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    }
+  ],
+  "_rawcode": "A092",
+  "_base": "AIx2",
+  "_name": "Item Hero Stat bonus (+20 All Stats)"
+}

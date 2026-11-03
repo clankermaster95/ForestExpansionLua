@@ -1,0 +1,114 @@
+{
+  "OldId": 1919182437,
+  "NewId": 842018917,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9845",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Dragon's Lackey"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Creeps\\DragonSeaTurtle\\DragonSeaTurtle.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSeaTurtleRed.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\RedDragonBreath\\RedDragonMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "GiantSeaTurtle",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2195",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9846",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Dragon's Lackey"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_5638",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Ground lackeys with moderate damage"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1.2,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 2053927797,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uslz"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    }
+  ],
+  "_rawcode": "e002",
+  "_base": "efdr",
+  "_name": "Dragon's Lackey"
+}

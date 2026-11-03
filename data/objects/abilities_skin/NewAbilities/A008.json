@@ -1,0 +1,238 @@
+{
+  "OldId": 1801864513,
+  "NewId": 942682177,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_229",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Freezing Breath"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\FreezingBreath\\FreezingBreathMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFreezingBreath.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFreezingBreath.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_249",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cff08BDFFFreezing Breath|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_360",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Let out an icy chill dealing 100 (+25 per level) damage around you. This ability does not work on buildings. 10 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9772",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08BDFFFreezing Breath|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9773",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08BDFFFreezing Breath|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_367",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08BDFFLet out an icy chill dealing 100 damage around you. 10 second cooldown.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_374",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08BDFFLet out an icy chill dealing 125 damage around you. 10 second cooldown.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_541",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08BDFFLet out an icy chill dealing 150 damage around you. 10 second cooldown.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9774",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08BDFFFreezing Breath|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9775",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08BDFFFreezing Breath|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9776",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08BDFFFreezing Breath|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9777",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08BDFFFreezing Breath|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_696",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08BDFFLet out an icy chill dealing 175 damage around you. 10 second cooldown.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_705",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08BDFFLet out an icy chill dealing 200 damage around you. 10 second cooldown.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_707",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08BDFFLet out an icy chill dealing 225 damage around you. 10 second cooldown.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_710",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08BDFFLet out an icy chill dealing 250 damage around you. 10 second cooldown.|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1444",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1515",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9778",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08BDFFFreezing Breath|r"
+    }
+  ],
+  "_rawcode": "A008",
+  "_base": "AEfk",
+  "_name": "Freezing Breath"
+}

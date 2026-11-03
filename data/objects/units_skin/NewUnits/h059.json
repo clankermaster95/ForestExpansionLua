@@ -1,0 +1,107 @@
+{
+  "OldId": 2004121448,
+  "NewId": 959787112,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_486",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Nerubian Spire"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\ZigguratUndeadZuldrakV1.03.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNIceRuinsZigguratA1.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.65,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Ziggurat",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1176",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_487",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Nerubian Spire"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10257",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An upgraded ziggurat. Increases movement speed of your units by 1%, attack speed by 5%, and damage of Nerubian Towers by 10 and Nerubian Spires by 50. |n|cff808080Can't be upgraded into if there is another upgraded ziggurat in a 2500 range around it. |r|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Chaos)|n|cfffdca00Attack Range:|r 1000|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 15|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1768841589,
+      "Type": "String",
+      "Value": "upgrade,first",
+      "SanityCheck": 0,
+      "_field": "uani"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\ZigguratMissile\\ZigguratMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "none.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    }
+  ],
+  "_rawcode": "h059",
+  "_base": "hwtw",
+  "_name": "Nerubian Spire"
+}

@@ -1,0 +1,43 @@
+{
+  "OldId": 1936543298,
+  "NewId": 842149954,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6347",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Clay Shield"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6348",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Clay Shield"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6349",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has a Clay Shield; damage taken is is diverted to mana."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "war3mapImported\\EarthShell.mdx",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    }
+  ],
+  "_rawcode": "B022",
+  "_base": "BNms",
+  "_name": "Clay Shield"
+}

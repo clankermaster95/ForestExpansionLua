@@ -1,0 +1,131 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1144008808,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0F2,Ahrp,A006",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1680957813,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1d"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 828601461,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "utc1"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R05H",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1769300597,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ubui"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "debris,ground,item,nonancient,structure,ward",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 270,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    }
+  ],
+  "_rawcode": "h00D",
+  "_base": "hpea",
+  "_name": "Ghoul Worker"
+}

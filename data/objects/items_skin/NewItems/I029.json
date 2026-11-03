@@ -1,0 +1,20 @@
+{
+  "OldId": 1685091184,
+  "NewId": 959590473,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_4742",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases the movement speed by <A0DU,DataA1,%>% for <A0DU,Dur1> seconds."
+    }
+  ],
+  "_rawcode": "I029",
+  "_base": "pspd",
+  "_name": "I029"
+}

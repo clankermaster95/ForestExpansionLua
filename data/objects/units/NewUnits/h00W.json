@@ -1,0 +1,19 @@
+{
+  "OldId": 1702391912,
+  "NewId": 1462775912,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A00T,ACct,ACmi",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    }
+  ],
+  "_rawcode": "h00W",
+  "_base": "hpxe",
+  "_name": "Tree Spirit"
+}

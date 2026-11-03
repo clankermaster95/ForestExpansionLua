@@ -1,0 +1,78 @@
+{
+  "OldId": 1802981185,
+  "NewId": 1094070337,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNpurpleblood.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNpurpleblood.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ShadowMeld",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6295",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Pure Shado|cffffcc00w|r Blood"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3424",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You conceal yourself for 10 seconds, have 25% increased movement speed & your next attack will deal 100 extra damage. 20 second cooldown. |n|cff7F7F7FThe blood of Y'shaarj disperses you into the shadows, shrouding you from ordinary vision.|r"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6294",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Pure Shadow Blood"
+    }
+  ],
+  "_rawcode": "A06A",
+  "_base": "AOwk",
+  "_name": "Pure Shadow Blood"
+}

@@ -1,0 +1,43 @@
+{
+  "OldId": 1802981186,
+  "NewId": 1127362626,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7147",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Shadow Blood"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNpurpleblood.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7148",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Shadow Blood"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_7149",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has increased movement speed for the duration."
+    }
+  ],
+  "_rawcode": "B02C",
+  "_base": "BOwk",
+  "_name": "Shadow Blood"
+}

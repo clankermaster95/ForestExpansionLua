@@ -1,0 +1,68 @@
+{
+  "OldId": 1937338979,
+  "NewId": 909258825,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A0DG",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1635021673,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ista"
+    },
+    {
+      "Id": 1702065513,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "iuse"
+    },
+    {
+      "Id": 1634493289,
+      "Type": "String",
+      "Value": "Miscellaneous",
+      "SanityCheck": 0,
+      "_field": "icla"
+    },
+    {
+      "Id": 1986358377,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ilev"
+    },
+    {
+      "Id": 1870031977,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ilvo"
+    }
+  ],
+  "_rawcode": "I026",
+  "_base": "crys",
+  "_name": "Farseer Trinket"
+}

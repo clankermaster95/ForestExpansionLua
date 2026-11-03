@@ -1,0 +1,58 @@
+{
+  "OldId": 2004121455,
+  "NewId": 1177628783,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4432",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Camp"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2104",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4433",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00C|ramp"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6936",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A small camp that allows you to return lumber and create workers to help you.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd000|r"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o01F",
+  "_base": "owtw",
+  "_name": "Camp"
+}

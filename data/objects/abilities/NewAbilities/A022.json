@@ -1,0 +1,39 @@
+{
+  "OldId": 1717782849,
+  "NewId": 842149953,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1684431689,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "Icfd"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B00E",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    }
+  ],
+  "_rawcode": "A022",
+  "_base": "AIcf",
+  "_name": "Heated Armor"
+}

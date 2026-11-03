@@ -1,0 +1,40 @@
+{
+  "OldId": 1818850163,
+  "NewId": 1160785993,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "AIse,AItx,AItx,AItx",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 1500,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    }
+  ],
+  "_rawcode": "I00E",
+  "_base": "ssil",
+  "_name": "Flaming Staff"
+}

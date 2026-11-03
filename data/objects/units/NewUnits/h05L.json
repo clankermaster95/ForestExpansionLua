@@ -1,0 +1,173 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1278554216,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "orc",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0AK,A0AO,A04U,A0AI",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1953527157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uupt"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 10000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 2000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 750,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "fort",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1769107573,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "upri"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1952542837,
+      "Type": "String",
+      "Value": "PathTextures\\12x12TreeOfLife.tga",
+      "SanityCheck": 0,
+      "_field": "upat"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h05D,h05G",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1953654901,
+      "Type": "String",
+      "Value": "night",
+      "SanityCheck": 0,
+      "_field": "uhrt"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1634890869,
+      "Type": "String",
+      "Value": "E00T",
+      "SanityCheck": 0,
+      "_field": "utra"
+    },
+    {
+      "Id": 1836084597,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "umpm"
+    },
+    {
+      "Id": 1768975733,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "umpi"
+    },
+    {
+      "Id": 1919970677,
+      "Type": "Unreal",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "umpr"
+    },
+    {
+      "Id": 1986359925,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "urev"
+    }
+  ],
+  "_rawcode": "h05L",
+  "_base": "hwtw",
+  "_name": "Cenarius Grove"
+}

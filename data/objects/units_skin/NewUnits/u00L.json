@@ -1,0 +1,73 @@
+{
+  "OldId": 1987209077,
+  "NewId": 1278226549,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7953",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Husk Sanctuary"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10365",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Allows you to train offense units and holds essential upgrades for them.|n|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0040|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1449",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7966",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Husk Sanctuary"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_7841",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Cultist) - Macko"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.95,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "u00L",
+  "_base": "ugrv",
+  "_name": "Husk Sanctuary"
+}

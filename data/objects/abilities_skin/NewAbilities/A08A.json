@@ -1,0 +1,90 @@
+{
+  "OldId": 1869374017,
+  "NewId": 1094201409,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2165",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2166",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8924",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00F|rrenzy"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8912",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Doubles the attack speed and movement speed of any unit for 20 seconds. This ability has a one minute cooldown."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8913",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Kobold)"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_371",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Frenzy"
+    }
+  ],
+  "_rawcode": "A08A",
+  "_base": "Ablo",
+  "_name": "Frenzy"
+}

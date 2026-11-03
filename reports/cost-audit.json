@@ -1,0 +1,1052 @@
+{
+  "recipes": [
+    {
+      "result": "I00I",
+      "name": "Valorous Helmet",
+      "scroll": "I00H",
+      "scroll_price": [
+        300,
+        0
+      ],
+      "full_price": [
+        500,
+        0
+      ],
+      "finished_item_value": [
+        500,
+        0
+      ]
+    },
+    {
+      "result": "I00F",
+      "name": "Bladed Gauntlet",
+      "scroll": "I00G",
+      "scroll_price": [
+        50,
+        0
+      ],
+      "full_price": [
+        900,
+        0
+      ],
+      "finished_item_value": [
+        900,
+        0
+      ]
+    },
+    {
+      "result": "I01R",
+      "name": "Spellcaster's Cloak",
+      "scroll": "I01Q",
+      "scroll_price": [
+        350,
+        0
+      ],
+      "full_price": [
+        950,
+        0
+      ],
+      "finished_item_value": [
+        950,
+        0
+      ]
+    },
+    {
+      "result": "I01P",
+      "name": "Ethereal Scepter",
+      "scroll": "I01O",
+      "scroll_price": [
+        350,
+        0
+      ],
+      "full_price": [
+        700,
+        0
+      ],
+      "finished_item_value": [
+        700,
+        0
+      ]
+    },
+    {
+      "result": "I01T",
+      "name": "Firelord's Cape",
+      "scroll": "I01S",
+      "scroll_price": [
+        300,
+        0
+      ],
+      "full_price": [
+        1150,
+        0
+      ],
+      "finished_item_value": [
+        1150,
+        0
+      ]
+    },
+    {
+      "result": "I01L",
+      "name": "Hammer of Might",
+      "scroll": "I01M",
+      "scroll_price": [
+        300,
+        0
+      ],
+      "full_price": [
+        1550,
+        0
+      ],
+      "finished_item_value": [
+        1550,
+        0
+      ]
+    },
+    {
+      "result": "I012",
+      "name": "Righteous Armor",
+      "scroll": "I011",
+      "scroll_price": [
+        550,
+        0
+      ],
+      "full_price": [
+        1500,
+        0
+      ],
+      "finished_item_value": [
+        1500,
+        0
+      ]
+    },
+    {
+      "result": "I015",
+      "name": "Arcanum of Hatred",
+      "scroll": "I016",
+      "scroll_price": [
+        625,
+        0
+      ],
+      "full_price": [
+        1050,
+        0
+      ],
+      "finished_item_value": [
+        1050,
+        0
+      ]
+    },
+    {
+      "result": "I017",
+      "name": "Bleeding Scythe",
+      "scroll": "I018",
+      "scroll_price": [
+        625,
+        0
+      ],
+      "full_price": [
+        1200,
+        0
+      ],
+      "finished_item_value": [
+        1200,
+        0
+      ]
+    },
+    {
+      "result": "I01C",
+      "name": "Staff of Insight",
+      "scroll": "I01D",
+      "scroll_price": [
+        250,
+        0
+      ],
+      "full_price": [
+        950,
+        0
+      ],
+      "finished_item_value": [
+        950,
+        0
+      ]
+    },
+    {
+      "result": "I019",
+      "name": "Cosmic Orb",
+      "scroll": "I01A",
+      "scroll_price": [
+        200,
+        0
+      ],
+      "full_price": [
+        600,
+        0
+      ],
+      "finished_item_value": [
+        600,
+        0
+      ]
+    },
+    {
+      "result": "I01N",
+      "name": "Ledger of Enlightenment",
+      "scroll": null,
+      "scroll_price": [
+        0,
+        0
+      ],
+      "full_price": [
+        1400,
+        0
+      ],
+      "finished_item_value": [
+        1400,
+        0
+      ]
+    }
+  ],
+  "shops": [
+    {
+      "rawcode": "nmer",
+      "items": [
+        "I00W"
+      ]
+    },
+    {
+      "rawcode": "nmr2",
+      "items": [
+        "I00X"
+      ]
+    },
+    {
+      "rawcode": "n000",
+      "items": [
+        "I02E",
+        "I01J",
+        "I014",
+        "I010",
+        "I00Z",
+        "I00Y",
+        "I02F",
+        "I00S"
+      ]
+    },
+    {
+      "rawcode": "o00N",
+      "items": [
+        "I005",
+        "I00E",
+        "I00D",
+        "I00C",
+        "I00B"
+      ]
+    },
+    {
+      "rawcode": "h02B",
+      "items": [
+        "I01O",
+        "I01Q",
+        "I01S",
+        "I01M",
+        "I01A",
+        "I01D",
+        "I018",
+        "I016",
+        "I011",
+        "I00G",
+        "I00H"
+      ]
+    },
+    {
+      "rawcode": "h02C",
+      "items": [
+        "I00K",
+        "I026",
+        "I00O"
+      ]
+    },
+    {
+      "rawcode": "h02J",
+      "items": [
+        "I01X",
+        "I00D",
+        "I00P",
+        "I00O"
+      ]
+    },
+    {
+      "rawcode": "o00U",
+      "items": [
+        "I020",
+        "I00P",
+        "I00Q",
+        "I00D"
+      ]
+    },
+    {
+      "rawcode": "n00A",
+      "items": [
+        "I01U",
+        "I00J",
+        "I01B",
+        "I006",
+        "I004",
+        "I002",
+        "I001",
+        "I000"
+      ]
+    },
+    {
+      "rawcode": "h032",
+      "items": [
+        "I00D",
+        "I00P",
+        "I00O"
+      ]
+    },
+    {
+      "rawcode": "h03C",
+      "items": [
+        "I000",
+        "I00U",
+        "I00R",
+        "I00O",
+        "I00P"
+      ]
+    },
+    {
+      "rawcode": "h03N",
+      "items": [
+        "I00V",
+        "I00D",
+        "I00O"
+      ]
+    },
+    {
+      "rawcode": "n00G",
+      "items": [
+        "I00W"
+      ]
+    },
+    {
+      "rawcode": "o019",
+      "items": [
+        "I01K",
+        "I02D",
+        "I00O",
+        "I00R",
+        "I00T"
+      ]
+    },
+    {
+      "rawcode": "o01U",
+      "items": [
+        "I01F",
+        "I01E",
+        "I00O",
+        "I00R",
+        "I00D"
+      ]
+    },
+    {
+      "rawcode": "h04M",
+      "items": [
+        "I01I",
+        "I00R",
+        "I00P",
+        "I01H",
+        "I01G"
+      ]
+    },
+    {
+      "rawcode": "h053",
+      "items": [
+        "I01V",
+        "I00U",
+        "I00R",
+        "I00O",
+        "I00P"
+      ]
+    },
+    {
+      "rawcode": "h05H",
+      "items": [
+        "I01W",
+        "I00D",
+        "I01V",
+        "I00R",
+        "I02G"
+      ]
+    },
+    {
+      "rawcode": "n00R",
+      "items": [
+        "I020",
+        "I01Z",
+        "I01Y"
+      ]
+    },
+    {
+      "rawcode": "o025",
+      "items": [
+        "I024",
+        "I022",
+        "I023",
+        "I00R"
+      ]
+    },
+    {
+      "rawcode": "o02C",
+      "items": [
+        "I02B",
+        "I02A",
+        "I029",
+        "I028"
+      ]
+    }
+  ],
+  "sold_items": [
+    {
+      "rawcode": "I000",
+      "name": "Orb of Revealing",
+      "price": [
+        50,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I001",
+      "name": "Helm of Devotion",
+      "price": [
+        100,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I002",
+      "name": "Iron Blade",
+      "price": [
+        500,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I004",
+      "name": "Valor Armor",
+      "price": [
+        100,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I005",
+      "name": "Magmide Blood",
+      "price": [
+        5,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I006",
+      "name": "Gauntlet of Might",
+      "price": [
+        350,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00B",
+      "name": "Mystic Lava Rock",
+      "price": [
+        20,
+        1500
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I00C",
+      "name": "Heated Armor",
+      "price": [
+        15,
+        300
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I00D",
+      "name": "Gem of Life",
+      "price": [
+        35,
+        2000
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I00E",
+      "name": "Flaming Staff",
+      "price": [
+        20,
+        1500
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I00G",
+      "name": "[Recipe] Bladed Gauntlet (900)",
+      "price": [
+        50,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00H",
+      "name": "[Recipe] Valorous Helmet (500)",
+      "price": [
+        300,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00J",
+      "name": "Tome of Power",
+      "price": [
+        1250,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00K",
+      "name": "Seed of Destruction",
+      "price": [
+        5,
+        500
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I00O",
+      "name": "Deadly Axe",
+      "price": [
+        50,
+        2000
+      ],
+      "inherited_gold": true,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I00P",
+      "name": "Wand of Escape",
+      "price": [
+        45,
+        2000
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I00Q",
+      "name": "IE-27 Mech Blaster",
+      "price": [
+        45,
+        500
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I00R",
+      "name": "Horn of Speed",
+      "price": [
+        30,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00S",
+      "name": "Amulet of Dominance",
+      "price": [
+        150,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00T",
+      "name": "Lion Shield",
+      "price": [
+        20,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00U",
+      "name": "Nerubian-Alchemy Gem",
+      "price": [
+        40,
+        1500
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I00V",
+      "name": "Majestic Sapphire",
+      "price": [
+        25,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00W",
+      "name": "Random",
+      "price": [
+        1,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00X",
+      "name": "Random (A)",
+      "price": [
+        1000,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00Y",
+      "name": "Teleportation Wand",
+      "price": [
+        100,
+        0
+      ],
+      "inherited_gold": true,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I00Z",
+      "name": "Galiant Armor",
+      "price": [
+        350,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I010",
+      "name": "Protector Seed",
+      "price": [
+        120,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I011",
+      "name": "[Recipe] Righteous Armor (1500)",
+      "price": [
+        550,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I014",
+      "name": "Monocle of Truth",
+      "price": [
+        600,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I016",
+      "name": "[Recipe] Arcanum of Hatred (1050)",
+      "price": [
+        625,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I018",
+      "name": "[Recipe] Bleeding Scythe (1200)",
+      "price": [
+        625,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01A",
+      "name": "[Recipe] Cosmic Orb (600)",
+      "price": [
+        200,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01B",
+      "name": "Orb of Mana",
+      "price": [
+        200,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01D",
+      "name": "[Recipe] Staff of Insight (950)",
+      "price": [
+        250,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01E",
+      "name": "Soul Hammer",
+      "price": [
+        55,
+        1600
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I01F",
+      "name": "Dark Transmutation",
+      "price": [
+        12,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01G",
+      "name": "Hungering Blade",
+      "price": [
+        60,
+        2750
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I01H",
+      "name": "Ancient Artifact",
+      "price": [
+        45,
+        2000
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I01I",
+      "name": "Lunar Crystal",
+      "price": [
+        30,
+        1250
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I01J",
+      "name": "Ledger of Clarity",
+      "price": [
+        700,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01K",
+      "name": "Rending Blade",
+      "price": [
+        30,
+        1000
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I01M",
+      "name": "[Recipe] Hammer of Might (1550)",
+      "price": [
+        300,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01O",
+      "name": "[Recipe] Ethereal Scepter (700)",
+      "price": [
+        350,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01Q",
+      "name": "[Recipe] Spellcaster's Cloak (950)",
+      "price": [
+        350,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01S",
+      "name": "[Recipe] Firelord's Cape (1150)",
+      "price": [
+        300,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01U",
+      "name": "Potion of Invisibility",
+      "price": [
+        50,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01V",
+      "name": "I01V",
+      "price": [
+        10,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01W",
+      "name": "Clarity Potion",
+      "price": [
+        2,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01X",
+      "name": "I01X",
+      "price": [
+        15,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01Y",
+      "name": "Potion of Mana",
+      "price": [
+        5,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I01Z",
+      "name": "Armor Plates",
+      "price": [
+        6,
+        400
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I020",
+      "name": "Repair Bot",
+      "price": [
+        10,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I022",
+      "name": "Cheese",
+      "price": [
+        60,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I023",
+      "name": "I023",
+      "price": [
+        35,
+        750
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I024",
+      "name": "I024",
+      "price": [
+        15,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I026",
+      "name": "Farseer Trinket",
+      "price": [
+        5,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I028",
+      "name": "Scout Eagle",
+      "price": [
+        10,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I029",
+      "name": "I029",
+      "price": [
+        12,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I02A",
+      "name": "Rum",
+      "price": [
+        6,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I02B",
+      "name": "Barricade",
+      "price": [
+        2,
+        320
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": false
+    },
+    {
+      "rawcode": "I02D",
+      "name": "Gilnean Boots",
+      "price": [
+        10,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I02E",
+      "name": "I02E",
+      "price": [
+        600,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I02F",
+      "name": "Bracer of Agility",
+      "price": [
+        75,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    },
+    {
+      "rawcode": "I02G",
+      "name": "Potion of Greater Invisibility",
+      "price": [
+        5,
+        0
+      ],
+      "inherited_gold": false,
+      "inherited_lumber": true
+    }
+  ],
+  "scope": "All configured shop item prices, recursive crafting totals, crafted values and generated recipe tooltips. Economic consistency, not a complete race/unit balance assessment.",
+  "inherited_prices": "Verified against matching Custom-game 1.27.1 and 1.32.8 snapshots in tools/reference-api/item-prices.json; native current-engine validation remains a live check."
+}

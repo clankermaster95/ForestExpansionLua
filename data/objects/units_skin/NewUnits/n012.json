@@ -1,0 +1,28 @@
+{
+  "OldId": 1651468142,
+  "NewId": 842084462,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1492",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Testing Station"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_1494",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "- Macko, for Tree Chopper testing"
+    }
+  ],
+  "_rawcode": "n012",
+  "_base": "ngob",
+  "_name": "Testing Station"
+}

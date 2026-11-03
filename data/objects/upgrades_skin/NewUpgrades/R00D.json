@@ -1,0 +1,129 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1144008786,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_804",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Life"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedStrengthOfTheWild.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedStrengthOfTheWild.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedStrengthOfTheWild.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_806",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Life"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_807",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Life"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7254",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade Life - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7255",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade Life - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7256",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade Life - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6262",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases health of your wisp and Seedlings by 75."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6263",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases health of your wisp and Seedlings by 75."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6264",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases health of your wisp and Seedlings by 75."
+    }
+  ],
+  "_rawcode": "R00D",
+  "_base": "Rhar",
+  "_name": "Life"
+}

@@ -1,0 +1,21 @@
+{
+  "OldId": 1769105473,
+  "NewId": 1380200513,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "A0DR",
+  "_base": "Ahri",
+  "_name": "Basic Bounty"
+}

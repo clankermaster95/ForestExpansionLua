@@ -1,0 +1,86 @@
+{
+  "OldId": 1634493032,
+  "NewId": 1295265896,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7476",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Wildkin Hive"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\BETA_DenOfWonders.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHuntersHall.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7477",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Wildki|cffffcc00n|r Hive"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1192",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "N"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10213",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A shop that sells various items for the Wildkin. Also serves as a main technological center for the Wildkin's future upgrades. |n|cff7F7F7FA busy hive, the heart of all Wildkin civilizations.|r|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.4,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h04M",
+  "_base": "hbla",
+  "_name": "Wildkin Hive"
+}

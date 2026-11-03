@@ -1,0 +1,157 @@
+{
+  "OldId": 1634693697,
+  "NewId": 1145385025,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1599",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9043",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Amalgamation gives nearby Husks and itself 15% bonus damage for 20 seconds.|n|nCooldown is 75 seconds."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7793",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Call of the Hive [Level 1]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7809",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Call of the Hive [Level 2]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7811",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Amalgamation gives nearby Husks and itself 30% bonus damage for 20 seconds.|n|nCooldown is 75 seconds."
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7822",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Call of the Hive"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8731",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Cultist) - Macko"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1600",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7842",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Call of the Hive"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9044",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Amalgamation gives nearby Husks and itself 15% / 30% bonus damage for 20 seconds.|n|nCooldown is 75 seconds."
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    }
+  ],
+  "_rawcode": "A0ED",
+  "_base": "Aroa",
+  "_name": "Call of the Hive"
+}

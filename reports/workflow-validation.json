@@ -1,0 +1,19 @@
+{
+  "result": "passed",
+  "checks": [
+    "fresh work directory using installed tool dependencies reproduces archive without project build cache",
+    "mismatched visible/runtime release revisions reject build and preserve installed map",
+    "invalid Ancient shop stock mode rejects build and preserves installed map",
+    "installation retains only latest generated Forest map while preserving unrelated maps",
+    "deferred cleanup verifies old checksum and refuses to delete the current map",
+    "missing WTS BOM or structural CRLF rejects build and preserves installed map",
+    "local Lua edits build",
+    "object/terrain CLI edits compile; imports/exports reject pending JSON",
+    "disabled WCT Lua edits survive explicit adoption and rebuild",
+    "conflicting editor/local Lua rejected; explicit adoption backs up local changes",
+    "placement edits require regenerated creation code; regenerated code survives build",
+    "inconsistent editor archive rejected before replacing work folder",
+    "successful builds install matching archives into an isolated Maps folder; rejected builds retain the previous installed map"
+  ],
+  "actual_editor_used": false
+}

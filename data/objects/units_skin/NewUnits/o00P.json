@@ -1,0 +1,85 @@
+{
+  "OldId": 2004121455,
+  "NewId": 1345335407,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4880",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Hardened Root"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "ESMA",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\HarpyNest\\HarpyNest.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_8799",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Hardened Root (|cffffcc00W|r)"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10186",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A structure used to defend. Place infront of bases and towers to optimize your defenses.|n|n|cfffdca00Health:|r 750|n|cfffdca00Armor:|r 20 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o00P",
+  "_base": "owtw",
+  "_name": "Hardened Root"
+}

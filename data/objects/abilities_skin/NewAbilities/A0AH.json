@@ -1,0 +1,60 @@
+{
+  "OldId": 1635074881,
+  "NewId": 1212231745,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_905",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Feral Vitality"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_906",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Feral Vitality"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6002",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases nearby organic units' life regeneration rate by <A0AH,DataB1,%>% and move speed by <A0AH,DataA1,%>%."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNSpell_Nature_ProtectionformNature.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\HealingSpray\\HealBottleMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    }
+  ],
+  "_rawcode": "A0AH",
+  "_base": "ACua",
+  "_name": "Feral Vitality"
+}

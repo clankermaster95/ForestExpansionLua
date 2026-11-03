@@ -1,0 +1,68 @@
+{
+  "OldId": 1684955507,
+  "NewId": 1194340425,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1702065513,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "iuse"
+    },
+    {
+      "Id": 1953723241,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "isst"
+    },
+    {
+      "Id": 1635021673,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ista"
+    },
+    {
+      "Id": 1634956649,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "iusa"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    }
+  ],
+  "_rawcode": "I00G",
+  "_base": "sand",
+  "_name": "[Recipe] Bladed Gauntlet (900)"
+}

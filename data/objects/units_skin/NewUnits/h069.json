@@ -1,0 +1,115 @@
+{
+  "OldId": 2004121448,
+  "NewId": 959852648,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6060",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Tower of Death"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Ashenvale\\Props\\Brazier\\Brazier.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNWight.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Ziggurat",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_131",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6061",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Tower of Death"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10352",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Cultist's primary defense structure. Uses upgrades from the Shrine. |n|n|r|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Chaos)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1.2|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1768841589,
+      "Type": "String",
+      "Value": "upgrade,first",
+      "SanityCheck": 0,
+      "_field": "uani"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\NecromancerMissile\\NecromancerMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "none.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_6086",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Cultist) - Macko"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "h069",
+  "_base": "hwtw",
+  "_name": "Tower of Death"
+}

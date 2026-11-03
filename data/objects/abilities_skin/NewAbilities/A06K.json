@@ -1,0 +1,49 @@
+{
+  "OldId": 2020821313,
+  "NewId": 1261842497,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6026",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Focused Anger"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNfocusedanger.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNfocusedanger.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    }
+  ],
+  "_rawcode": "A06K",
+  "_base": "AIsx",
+  "_name": "Focused Anger"
+}

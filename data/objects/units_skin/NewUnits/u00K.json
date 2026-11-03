@@ -1,0 +1,93 @@
+{
+  "OldId": 1869113205,
+  "NewId": 1261449333,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_468",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Supreme Husk"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAbomination.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\undead\\Abomination\\Abomination.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 66,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_484",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Supreme Husk [20.0]"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10364",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "The best tanking husk unit. This unit is efficient at trapping and surrounding the ancient with high chaos damage.|n|n|cfffdca00Health:|r 1250; 2/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 150 (Chaos)|n|cfffdca00Attack Range:|r 90|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 310|n|cffff0000Feed Value:|r |cffffdd0040|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_725",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Abomination",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 66,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1.65,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    }
+  ],
+  "_rawcode": "u00K",
+  "_base": "ugho",
+  "_name": "Supreme Husk"
+}

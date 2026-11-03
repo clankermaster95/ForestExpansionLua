@@ -1,0 +1,107 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1328885864,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1878",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Empowered Spirit Totem"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNTotem (Night Elf).blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\TotemNightElfV1.00.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1879",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Upgrade Empowered Spirit Totem"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10290",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases hp and armor of your totem.|n|n|cfffdca00Health:|r 700|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "ShadowTaurenTotem",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1239",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "Objects\\Spawnmodels\\NightElf\\NECancelDeath\\NECancelDeath.mdl",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "ESMB",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.75,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "h05O",
+  "_base": "hwtw",
+  "_name": "Empowered Spirit Totem"
+}

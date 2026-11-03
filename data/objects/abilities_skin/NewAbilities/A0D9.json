@@ -1,0 +1,89 @@
+{
+  "OldId": 1635021633,
+  "NewId": 960770113,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2504",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Booby Trap"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3291",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3572",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4103",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff80a87aBooby Trap|r [30]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4129",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff86cb82Summons an invisible and immovable ward that|r stuns |cff86cb82enemy land units around it.|r |n|n|cff86cb82The trap lasts|r 120 |cff86cb82seconds. |nThe stun lasts|r 1.5 |cff86cb82seconds. |n|nSummon cooldown is |r30 |cff86cb82seconds.|r"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1802728801,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "nglm",
+      "SanityCheck": 0,
+      "_field": "ausk"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    }
+  ],
+  "_rawcode": "A0D9",
+  "_base": "Asta",
+  "_name": "Booby Trap"
+}

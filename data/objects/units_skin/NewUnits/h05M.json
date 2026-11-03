@@ -1,0 +1,107 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1295331432,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_769",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Druids Den"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBearDen.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\BarrowDens\\BarrowDens.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_770",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Druids Den"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10285",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Your main research center. |n|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "ShadowGreatHall",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_4157",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "Objects\\Spawnmodels\\NightElf\\NECancelDeath\\NECancelDeath.mdl",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 192,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "EMDB",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "BarrowDen",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    }
+  ],
+  "_rawcode": "h05M",
+  "_base": "hwtw",
+  "_name": "Druids Den"
+}

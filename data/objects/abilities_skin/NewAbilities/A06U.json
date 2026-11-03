@@ -1,0 +1,170 @@
+{
+  "OldId": 1634096449,
+  "NewId": 1429614657,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7032",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Vanguard"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNResurrection.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNResurrection.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2367",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2400",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7170",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cffd3d34dVanguard|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7277",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffd3d34dVanguard|r |cffe9e963[Level 1]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7278",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffd3d34dVanguard|r |cffe9e963[Level 2]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7281",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffd3d34dVanguard|r |cffe9e963[Level 3]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7282",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffd3d34dVanguard|r |cffe9e963[Level 4]|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7283",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cffbcbc6fCreates a shield around the Ancient, healing her for|r 100 (+50 * level)|cffbcbc6f hitpoints|r per second,|cffbcbc6f which also blesses her with|r 15 (+5 * level) |cffbcbc6farmor.|r|n|n|cffbcbc6fShield lasts for|r 6 seconds, |cffbcbc6fcooldown is|r 12 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7284",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffbcbc6fCreates a shield around the Ancient, healing her for|r 100|cffbcbc6f hitpoints|r per second,|cffbcbc6f which also blesses her with|r 15 |cffbcbc6farmor.|r|n|n|cffbcbc6fShield lasts for|r 6 seconds, |cffbcbc6fcooldown is|r 12 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7285",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffbcbc6fCreates a shield around the Ancient, healing her for|r 150|cffbcbc6f hitpoints|r per second,|cffbcbc6f which also blesses her with|r 20 |cffbcbc6farmor.|r|n|n|cffbcbc6fShield lasts for|r 6 seconds, |cffbcbc6fcooldown is|r 12 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7286",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffbcbc6fCreates a shield around the Ancient, healing her for|r 200|cffbcbc6f hitpoints|r per second,|cffbcbc6f which also blesses her with|r 25 |cffbcbc6farmor.|r|n|n|cffbcbc6fShield lasts for|r 6 seconds, |cffbcbc6fcooldown is|r 12 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7287",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffbcbc6fCreates a shield around the Ancient, healing her for|r 250|cffbcbc6f hitpoints|r per second,|cffbcbc6f which also blesses her with|r 30 |cffbcbc6farmor.|r|n|n|cffbcbc6fShield lasts for|r 6 seconds, |cffbcbc6fcooldown is|r 12 seconds."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1984",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Ancient of Light)"
+    }
+  ],
+  "_rawcode": "A06U",
+  "_base": "AUfa",
+  "_name": "Vanguard"
+}

@@ -1,0 +1,33 @@
+{
+  "OldId": 2019910772,
+  "NewId": 959459401,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1869902697,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "isto"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    }
+  ],
+  "_rawcode": "I009",
+  "_base": "tdex",
+  "_name": "Agility training"
+}

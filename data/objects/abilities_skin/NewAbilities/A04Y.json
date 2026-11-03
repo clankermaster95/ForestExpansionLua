@@ -1,0 +1,70 @@
+{
+  "OldId": 1802981185,
+  "NewId": 1496592449,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4990",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Dash of Death"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "StampedeCast",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5441",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4992",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00D|rash of Death"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3713",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your next attack will deal 350 more damage. Until your next attack, your movement speed is increased by 50%. Lasts 5 seconds. 7 second cooldown."
+    }
+  ],
+  "_rawcode": "A04Y",
+  "_base": "AOwk",
+  "_name": "Dash of Death"
+}

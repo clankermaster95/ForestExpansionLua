@@ -1,0 +1,530 @@
+{
+  "OldId": 1918986322,
+  "NewId": 909586514,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4663",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Distant Aim I"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTelescope.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTelescope.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTelescope.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTelescope.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTelescope.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStatUp.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStatUp.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStatUp.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStatUp.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStatUp.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4664",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Distant Aim II"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4700",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Distant Aim III"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4701",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Distant Aim IV"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4702",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Distant Aim V"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2844",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Strengthened Vitality"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2846",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Strengthened Vitality"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2847",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Strengthened Vitality"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2848",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Strengthened Vitality"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2849",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Strengthened Vitality"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3100",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cffaf5858Distant Aim I|r [15]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3101",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cffaf5858Distant Aim II|r [20]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3149",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cffaf5858Distant Aim III|r [25]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3162",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cffaf5858Distant Aim IV|r [30]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3192",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cffaf5858Distant Aim V|r [35]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3228",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff468246Strengthened Vitality VI|r [40]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3229",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff468246Strengthened Vitality VII|r [45]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3230",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff468246Strengthened Vitality VIII|r [50]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3231",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff468246Strengthened Vitality IX|r [55]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3232",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff468246Strengthened Vitality X|r [60]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2853",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cfff06464Increases Bounty Hunter's attack range by|r 65."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2854",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cfff06464Increases Bounty Hunter's attack range by|r 65."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5708",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cfff06464Increases Bounty Hunter's attack range by|r 65. |n|nThis is the last upgrade."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3000",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cfff06464Increases Bounty Hunter's attack range by|r 65."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3017",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cfff06464Increases Bounty Hunter's attack range by|r 65.|n|nThis is the last upgrade."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2887",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2888",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2889",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2951",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3263",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r|n|nThis is the last upgrade."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7090",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7377",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7378",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7399",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7411",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9723",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9724",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9754",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9755",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9762",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4546",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R076",
+  "_base": "Rhar",
+  "_name": "Strengthened Vitality"
+}

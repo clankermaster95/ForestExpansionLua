@@ -1,0 +1,27 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1379151976,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7697",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Test Dummy"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.6,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "h04R",
+  "_base": "hpea",
+  "_name": "Test Dummy"
+}

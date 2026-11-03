@@ -1,0 +1,34 @@
+{
+  "OldId": 1852794469,
+  "NewId": 825241701,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_588",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Tree of Life"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 2.25,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2.12,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "e001",
+  "_base": "efon",
+  "_name": "Tree of Life"
+}

@@ -1,0 +1,168 @@
+{
+  "OldId": 1818447681,
+  "NewId": 1178021953,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7596",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Moonstrike"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7597",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Moon|cffffcc00s|rtrike - [|cffffcc00Level 1|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7598",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Moon|cffffcc00s|rtrike - [|cffffcc00Level 2|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7599",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Moon|cffffcc00s|rtrike - [|cffffcc00Level 3|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7600",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Moon|cffffcc00s|rtrike - [|cffffcc00Level 4|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7601",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Moon|cffffcc00s|rtrike - [|cffffcc00Level 5|r]"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2237",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\NightElf\\Starfall\\StarfallTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\LightningBolt\\LightningBoltMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1734962273,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "alig"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStarfall.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1512",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 100 (+20% of your maximum mana) in damage to your target. 4 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage of Moonstrike by 25.|r|n|cff7F7F7FA chunk of the Moon's energy falls on your foe.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1633",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 125 (+20% of your maximum mana) in damage to your target. 4 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage of Moonstrike by 25.|r|n|cff7F7F7FA chunk of the Moon's energy falls on your foe.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1634",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 150 (+20% of your maximum mana) in damage to your target. 4 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage of Moonstrike by 25.|r|n|cff7F7F7FA chunk of the Moon's energy falls on your foe.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1656",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 175 (+20% of your maximum mana) in damage to your target. 4 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage of Moonstrike by 25.|r|n|cff7F7F7FA chunk of the Moon's energy falls on your foe.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1681",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 200 (+20% of your maximum mana) in damage to your target. 4 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage of Moonstrike by 25.|r|n|cff7F7F7FA chunk of the Moon's energy falls on your foe.|r"
+    }
+  ],
+  "_rawcode": "A07F",
+  "_base": "AOcl",
+  "_name": "Moonstrike"
+}

@@ -1,0 +1,101 @@
+{
+  "OldId": 1835427182,
+  "NewId": 1328558190,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPowerGenerator.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Cityscape\\Props\\CrystalShield\\CrystalShield.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5120",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Power Generator"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_575",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Power generator"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10303",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Supplies energy to your towers and observatory.|n|n|cfffdca00Health:|r 200|n|cfffdca00Mana:|r 25; 5/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "ArcaneTower",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_437",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_1915",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Capacitor)"
+    }
+  ],
+  "_rawcode": "n00O",
+  "_base": "nefm",
+  "_name": "Power Generator"
+}

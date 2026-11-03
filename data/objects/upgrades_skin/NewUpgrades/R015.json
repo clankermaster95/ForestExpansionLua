@@ -1,0 +1,257 @@
+{
+  "OldId": 1701668946,
+  "NewId": 892416082,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1675",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Tower Manosory"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1677",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Tower Manosory"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1678",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Tower Manosory"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1679",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Tower Manosory"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1680",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Tower Manosory"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7847",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Tower Manosory - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7848",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Tower Manosory - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7849",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Tower Manosory - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7850",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Tower Manosory - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7851",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Tower Manosory - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1686",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of all your towers by 5."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1687",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of all your towers by 5."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1688",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of all your towers by 5."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1689",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of all your towers by 5."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1690",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of all your towers by 5."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5232",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5253",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5297",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5318",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5319",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    }
+  ],
+  "_rawcode": "R015",
+  "_base": "Rhme",
+  "_name": "Tower Manosory"
+}

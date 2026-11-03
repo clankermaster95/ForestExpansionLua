@@ -1,0 +1,57 @@
+{
+  "OldId": 1634693698,
+  "NewId": 942878786,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_9039",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Cosmic Strike"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "war3mapImported\\btnspellpower.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\Banish\\BanishTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_9040",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Cosmic Strike"
+    },
+    {
+      "Id": 811693158,
+      "Type": "String",
+      "Value": "weapon",
+      "SanityCheck": 0,
+      "_field": "fta0"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_9041",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Your next attack will deal increased damage and restore 5% of your mana."
+    }
+  ],
+  "_rawcode": "B038",
+  "_base": "Broa",
+  "_name": "Cosmic Strike"
+}

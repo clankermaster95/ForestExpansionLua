@@ -1,0 +1,435 @@
+{
+  "OldId": 1785033281,
+  "NewId": 842084417,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 7,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 829056338,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "Rej1"
+    },
+    {
+      "Id": 829056338,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 450,
+      "SanityCheck": 0,
+      "_field": "Rej1"
+    },
+    {
+      "Id": 829056338,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 600,
+      "SanityCheck": 0,
+      "_field": "Rej1"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "Brej",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "Brej",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 5.5,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 175,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 829056338,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 1,
+      "Value": 750,
+      "SanityCheck": 0,
+      "_field": "Rej1"
+    },
+    {
+      "Id": 829056338,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 1,
+      "Value": 900,
+      "SanityCheck": 0,
+      "_field": "Rej1"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "Brej",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "Brej",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 4.5,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 175,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 175,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "air,ground,friend,vuln,invu,self,organic,neutral",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "air,ground,friend,vuln,invu,self,organic,neutral",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "air,ground,friend,vuln,invu,self,organic,neutral",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "air,ground,friend,vuln,invu,self,organic,neutral",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 829056338,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 1,
+      "Value": 1050,
+      "SanityCheck": 0,
+      "_field": "Rej1"
+    },
+    {
+      "Id": 829056338,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 1,
+      "Value": 1200,
+      "SanityCheck": 0,
+      "_field": "Rej1"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "Brej",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "Brej",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": 3.5,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": 175,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": 175,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "air,ground,friend,vuln,invu,self,organic,neutral",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "air,ground,friend,vuln,invu,self,organic,neutral",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    }
+  ],
+  "_rawcode": "A012",
+  "_base": "Arej",
+  "_name": "Regrow"
+}

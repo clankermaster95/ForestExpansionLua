@@ -1,0 +1,84 @@
+{
+  "OldId": 1700881985,
+  "NewId": 875966529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 800,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 828727622,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Fae1"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B00F",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R04B",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "arac"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "adur"
+    }
+  ],
+  "_rawcode": "A064",
+  "_base": "Afae",
+  "_name": "Glowing Blood"
+}

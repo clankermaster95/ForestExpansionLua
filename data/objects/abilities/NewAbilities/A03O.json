@@ -1,0 +1,39 @@
+{
+  "OldId": 1634225729,
+  "NewId": 1328754753,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829579592,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "Har1"
+    },
+    {
+      "Id": 863134024,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Har3"
+    },
+    {
+      "Id": 846356808,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "Har2"
+    }
+  ],
+  "_rawcode": "A03O",
+  "_base": "ANha",
+  "_name": "A03O"
+}

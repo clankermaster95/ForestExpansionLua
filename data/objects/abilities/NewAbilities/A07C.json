@@ -1,0 +1,39 @@
+{
+  "OldId": 1986087233,
+  "NewId": 1127690305,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B02H",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 829841749,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.3,
+      "SanityCheck": 0,
+      "_field": "Uav1"
+    }
+  ],
+  "_rawcode": "A07C",
+  "_base": "AIav",
+  "_name": "Hunger"
+}

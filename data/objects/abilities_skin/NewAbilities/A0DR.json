@@ -1,0 +1,70 @@
+{
+  "OldId": 1769105473,
+  "NewId": 1380200513,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4194",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3621",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffe9e900B|r|cffbadd00o|r|cff8cd200u|r|cff5dc700n|r|cff2fbc00t|r|cff00b100y|r |cffd3d300[Passive]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3636",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Every time Bounty Hunter hits an enemy, he receives |cfff4f400+1|r gold and |cff00b100+35|r lumber."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASCoin.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1385",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Basic Bounty"
+    }
+  ],
+  "_rawcode": "A0DR",
+  "_base": "Ahri",
+  "_name": "Basic Bounty"
+}

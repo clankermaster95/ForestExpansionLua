@@ -1,0 +1,22 @@
+{
+  "FormatVersion": "v3",
+  "BaseDestructables": [
+    {
+      "OldId": 1953256524,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1953256534,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    }
+  ],
+  "NewDestructables": []
+}

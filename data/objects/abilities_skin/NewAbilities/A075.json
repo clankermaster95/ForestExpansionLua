@@ -1,0 +1,154 @@
+{
+  "OldId": 1735609921,
+  "NewId": 892809281,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7220",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Sadism"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5688",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5689",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFrostArmor.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFrostArmor.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7223",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Sa|cffffcc00d|rism"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7224",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sa|cffffcc00d|rism"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4260",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "When casted, you initially lose 40% of your current health, however, you regenerate 10000 health over 10 seconds. 3 minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4261",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When casted, you initially lose 40% of your current health, however, you regenerate 10000 health over 10 seconds. 3 minute cooldown."
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\NightElf\\Starfall\\StarfallCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1885430625,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "acap"
+    },
+    {
+      "Id": 2037412449,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "arpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    }
+  ],
+  "_rawcode": "A075",
+  "_base": "ANsg",
+  "_name": "Sadism"
+}

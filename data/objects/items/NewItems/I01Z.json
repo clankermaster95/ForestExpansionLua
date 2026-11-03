@@ -1,0 +1,40 @@
+{
+  "OldId": 1752459378,
+  "NewId": 1513173065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "AIl1",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    }
+  ],
+  "_rawcode": "I01Z",
+  "_base": "rhth",
+  "_name": "Armor Plates"
+}

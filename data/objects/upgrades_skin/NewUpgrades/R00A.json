@@ -1,0 +1,69 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1093677138,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8757",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Sun's Fury"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10415",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Sun's Fury - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8759",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows your Wildkin to cast Sun's Fury"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R00A",
+  "_base": "Rhme",
+  "_name": "Sun's Fury"
+}

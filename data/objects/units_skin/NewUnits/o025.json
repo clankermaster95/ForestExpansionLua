@@ -1,0 +1,114 @@
+{
+  "OldId": 1919903343,
+  "NewId": 892481647,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_032",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Shady Vendor"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBlackMarket.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_102",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Shady Vendor"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10322",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An area where you can various items, from powerful potions up to orbs.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_828",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Shade",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.875,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 96,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 96,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 156,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\Marketplace\\Marketplace.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    }
+  ],
+  "_rawcode": "o025",
+  "_base": "ofor",
+  "_name": "Shady Vendor"
+}

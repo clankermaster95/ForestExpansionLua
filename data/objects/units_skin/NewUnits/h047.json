@@ -1,0 +1,106 @@
+{
+  "OldId": 1768844136,
+  "NewId": 926167144,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5186",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Dark Figure"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLichVersion2.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\undead\\HeroLich\\HeroLich_V1.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1819503989,
+      "Type": "String",
+      "Value": "LichKingDream",
+      "SanityCheck": 0,
+      "_field": "umsl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5187",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Dark Figure"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6544",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A dark figure.|n|n|cfffdca00Health:|r 3500; 1/s|n|cfffdca00Armor:|r 10 (Heavy)|n|cfffdca00Attack:|r 250 (Chaos)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 425|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\DeathCoil\\DeathCoilMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Necromancer",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "h047",
+  "_base": "hkni",
+  "_name": "Dark Figure"
+}

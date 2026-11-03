@@ -1,0 +1,51 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1177759826,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4199",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Solar Flaring"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9510",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Solar Flaring - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4201",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to create a Solar Flare."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R03F",
+  "_base": "Rhar",
+  "_name": "Solar Flaring"
+}

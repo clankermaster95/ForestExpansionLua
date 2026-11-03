@@ -1,0 +1,50 @@
+{
+  "OldId": 1718832962,
+  "NewId": 1261514818,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_5134",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Deathly Necromancer"
+    },
+    {
+      "Id": 1952540006,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\DeathPact\\DeathPactTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "feat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_5135",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Deathly Necromancer"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_5136",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Summoned units will disappear after a short duration."
+    }
+  ],
+  "_rawcode": "B01K",
+  "_base": "BOsf",
+  "_name": "Deathly Necromancer"
+}

@@ -1,0 +1,65 @@
+{
+  "OldId": 1634096450,
+  "NewId": 1295003714,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_2771",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Ion Armor"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_2772",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": " (Frost Armor)"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_2773",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Ion Armor"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_2774",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has Ion Armor, it's armor is increased and will slow enemies who attack it."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Orc\\Voodoo\\VoodooAura.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B00M",
+  "_base": "BUfa",
+  "_name": "Ion Armor"
+}

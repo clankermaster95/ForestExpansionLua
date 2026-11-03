@@ -1,0 +1,120 @@
+{
+  "OldId": 1937204562,
+  "NewId": 1194733650,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 845242983,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gba2"
+    },
+    {
+      "Id": 828465767,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "gba1"
+    },
+    {
+      "Id": 1651271527,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "gglb"
+    },
+    {
+      "Id": 1651338343,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "glmb"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 829386087,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "gmo1"
+    },
+    {
+      "Id": 1819700327,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "glvl"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "R06F",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 1835820903,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "gglm"
+    },
+    {
+      "Id": 1835887719,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "glmm"
+    },
+    {
+      "Id": 1835627623,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "gtim"
+    },
+    {
+      "Id": 845571431,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "gef2"
+    }
+  ],
+  "_rawcode": "R06G",
+  "_base": "Rews",
+  "_name": "Advanced Capacitors"
+}

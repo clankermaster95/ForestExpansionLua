@@ -1,0 +1,80 @@
+{
+  "OldId": 1700881985,
+  "NewId": 1429221441,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_694",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Light House Light"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_695",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Light House Light"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_515",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives vision of a target unit. |nLasts <Afae,Dur1> seconds. 18 second cooldown."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1372",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "L"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1373",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "L"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWindWalkOn.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWindWalkOn.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    }
+  ],
+  "_rawcode": "A00U",
+  "_base": "Afae",
+  "_name": "Light House Light"
+}

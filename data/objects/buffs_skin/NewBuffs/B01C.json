@@ -1,0 +1,43 @@
+{
+  "OldId": 1802981186,
+  "NewId": 1127297090,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_5004",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Dash of Death"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_5005",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Dash of Death"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_5006",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit's movement speed is increased by 50%, and their next attack will deal 350 more damage."
+    }
+  ],
+  "_rawcode": "B01C",
+  "_base": "BOwk",
+  "_name": "Dash of Death"
+}

@@ -1,0 +1,72 @@
+{
+  "OldId": 1919902575,
+  "NewId": 1261514825,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_8790",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Rending Blade"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBarbarian Brutal Slasher.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_8791",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Rending Blade"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6470",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "When held, your damage is increased by 75. Additionally, your attacks reduce the target's armor by 10.|n|cff7F7F7FA crafted sword that specializes in cutting an Ancient's skull open.|n|r|cffff00ffDifferent orb effects coming from 1 unit do not stack.|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_6473",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "When held, your damage is increased by 75. Additionally, your attacks reduce the target's armor by 10.|n|cff7F7F7FA crafted sword that specializes in cutting an Ancient's skull open.|r|n|r|cffff00ffDifferent orb effects coming from 1 unit do not stack.|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    }
+  ],
+  "_rawcode": "I01K",
+  "_base": "ocor",
+  "_name": "Rending Blade"
+}

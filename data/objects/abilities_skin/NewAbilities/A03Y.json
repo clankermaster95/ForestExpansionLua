@@ -1,0 +1,69 @@
+{
+  "OldId": 1952662337,
+  "NewId": 1496526913,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3897",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Open Wounds"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3898",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Open Wounds"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3899",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives a 15% chance to do 3x normal damage on attack."
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A03Y",
+  "_base": "ACct",
+  "_name": "Open Wounds"
+}

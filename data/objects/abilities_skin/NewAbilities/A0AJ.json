@@ -1,0 +1,71 @@
+{
+  "OldId": 1835814465,
+  "NewId": 1245786177,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4830",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Raging Growth"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2482",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4831",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rummon Raging Growth"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4503",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons an Angry Root from the ground that deals devastating damage and is extremely hard to kill. Lasts for 20 seconds. 32 second cooldown."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNatureTouchGrow.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1018",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Cenarius's Growth)"
+    }
+  ],
+  "_rawcode": "A0AJ",
+  "_base": "ANlm",
+  "_name": "Summon Raging Growth"
+}

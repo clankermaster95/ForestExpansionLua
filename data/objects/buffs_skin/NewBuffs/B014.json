@@ -1,0 +1,50 @@
+{
+  "OldId": 1986090306,
+  "NewId": 875638850,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_4357",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Hunger"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_5058",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Hunger"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_4358",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit will regenerate health on attack."
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Stampede\\StampedeMissileDeath.mdl",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNVampiricAura.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B014",
+  "_base": "BUav",
+  "_name": "Hunger"
+}

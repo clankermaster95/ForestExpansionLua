@@ -1,0 +1,51 @@
+{
+  "OldId": 2004121455,
+  "NewId": 875638895,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_966",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Frost Tower"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_3108",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Frost |cffffcc00T|rower"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1293",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3109",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A tower that is meant for defending bases. Slows targets and can be upgraded."
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o014",
+  "_base": "owtw",
+  "_name": "Frost Tower"
+}

@@ -1,0 +1,21 @@
+{
+  "OldId": 1835157825,
+  "NewId": 1161179201,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1851878729,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 750,
+      "SanityCheck": 0,
+      "_field": "Iman"
+    }
+  ],
+  "_rawcode": "A06E",
+  "_base": "AIbm",
+  "_name": "Orb of Mana"
+}

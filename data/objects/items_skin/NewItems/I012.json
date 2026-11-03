@@ -1,0 +1,51 @@
+{
+  "OldId": 1718903154,
+  "NewId": 842084425,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4363",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Righteous Armor"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDarkSummoning.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4364",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Righteous Armor"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_874",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases your health by 800, strength by 30, armor by 25, and give a 60 bonus movement speed.|n|n|cff808080Different sources of move speed bonus from items do not stack|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_1672",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your health by 800, strength by 30, armor by 25, and give a 60 bonus movement speed.|n|n|cff808080Different sources of move speed bonus from items do not stack|r"
+    }
+  ],
+  "_rawcode": "I012",
+  "_base": "ratf",
+  "_name": "Righteous Armor"
+}

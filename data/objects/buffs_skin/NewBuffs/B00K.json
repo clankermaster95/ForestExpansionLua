@@ -1,0 +1,50 @@
+{
+  "OldId": 1952992834,
+  "NewId": 1261449282,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_2498",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Screech"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Orc\\StasisTrap\\StasisTotemTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_2500",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Screech"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_2502",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is deaf and will deal less damage."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B00K",
+  "_base": "BNht",
+  "_name": "Screech"
+}

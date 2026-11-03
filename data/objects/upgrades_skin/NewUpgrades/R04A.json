@@ -1,0 +1,236 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1093939282,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1624",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Kobold Speed"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnchantedBears.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnchantedBears.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnchantedBears.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnchantedBears.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnchantedBears.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1626",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Kobold Speed"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1627",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Kobold Speed"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1628",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Kobold Speed"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1629",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Kobold Speed"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10221",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade Kobold Speed - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10222",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade Kobold Speed - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10223",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade Kobold Speed - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10224",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade Kobold Speed - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10225",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade Kobold Speed - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1635",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your movement speed by 15."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1636",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your movement speed by 15."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1637",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your movement speed by 15."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1638",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your movement speed by 15."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1639",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your movement speed by 15."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7679",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7680",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R04A",
+  "_base": "Rhme",
+  "_name": "Kobold Speed"
+}

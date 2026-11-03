@@ -1,0 +1,49 @@
+{
+  "OldId": 828733294,
+  "NewId": 892416110,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9695",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Elite Eagle"
+    },
+    {
+      "Id": 1935827317,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabs"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_9690",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": " (Level 2)"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.3,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    }
+  ],
+  "_rawcode": "n015",
+  "_base": "nwe1",
+  "_name": "Elite Eagle"
+}

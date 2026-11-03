@@ -1,0 +1,48 @@
+{
+  "OldId": 1918986305,
+  "NewId": 1379479617,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 863134024,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Har3"
+    },
+    {
+      "Id": 846356808,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Har2"
+    },
+    {
+      "Id": 829579592,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Har1"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "adur"
+    }
+  ],
+  "_rawcode": "A09R",
+  "_base": "Ahar",
+  "_name": "A09R"
+}

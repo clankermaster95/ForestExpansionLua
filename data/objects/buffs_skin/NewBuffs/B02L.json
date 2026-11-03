@@ -1,0 +1,57 @@
+{
+  "OldId": 1835615554,
+  "NewId": 1278357570,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7709",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Cascade"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\FaerieDragonInvis\\FaerieDragon_Invis.mdl",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\Starfall\\StarfallCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7710",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Cascade"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_7718",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under a Cascade, nearby enemy units take damage over time."
+    }
+  ],
+  "_rawcode": "B02L",
+  "_base": "BEim",
+  "_name": "Cascade"
+}

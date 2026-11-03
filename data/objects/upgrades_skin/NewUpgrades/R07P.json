@@ -1,0 +1,80 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1345794130,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7739",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Necrotic Materialization I"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7740",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff0b85b1Necrotic Materialization I|r [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7754",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to research low-level husk upgrades.|n|nUnlocks |cff9b3388Organic Merge.|r"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8974",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Z"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAnimateDead.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7832",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Cultist)"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R07P",
+  "_base": "Rhme",
+  "_name": "Necrotic Materialization I"
+}

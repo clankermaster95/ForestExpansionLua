@@ -1,0 +1,99 @@
+{
+  "OldId": 1718772289,
+  "NewId": 875835457,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4169",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Morph into Avenger"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDalaranReject.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDalaranReject.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_226",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "auhk"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4170",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Morph into Avenger"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4171",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Transforms the Warpling into an Avenger. Avengers are adepts at hunting, with high health and amazing speed."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4172",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Morph back into Warpling"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2527",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Changes your Avenger back into a Warpling."
+    }
+  ],
+  "_rawcode": "A044",
+  "_base": "Abrf",
+  "_name": "Morph into Avenger"
+}

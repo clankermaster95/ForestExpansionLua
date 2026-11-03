@@ -1,0 +1,50 @@
+{
+  "OldId": 1650544194,
+  "NewId": 875704386,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6377",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Focused Anger"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6460",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Focused Anger"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6376",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is gaining attack speed with successive strikes."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B024",
+  "_base": "BNab",
+  "_name": "Focused Anger"
+}

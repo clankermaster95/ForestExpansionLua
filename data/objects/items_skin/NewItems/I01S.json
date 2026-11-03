@@ -1,0 +1,55 @@
+{
+  "OldId": 1718903154,
+  "NewId": 1395732553,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "[Recipe] Firelord's Cape (1150)",
+      "SanityCheck": 0,
+      "_field": "unam"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "|cff00d200[Recipe]|r Firelord's Cape |cffdcb900[1,150 gold total]|r",
+      "SanityCheck": 0,
+      "_field": "utip"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "|cffffcc00Full recipe: 1,150 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Valorous Helmet (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases hp by 500, strength by 25, armor by 10 and move speed by 60.\n|cff8080ffUnique passive: decreases all damage taken by 10|r \n|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r",
+      "SanityCheck": 0,
+      "_field": "utub"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "|cffffcc00Full recipe: 1,150 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Valorous Helmet (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases hp by 500, strength by 25, armor by 10 and move speed by 60.\n|cff8080ffUnique passive: decreases all damage taken by 10|r \n|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r",
+      "SanityCheck": 0,
+      "_field": "ides"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNFireArmor.BLP",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_761",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    }
+  ],
+  "_rawcode": "I01S",
+  "_base": "ratf",
+  "_name": "[Recipe] Firelord's Cape (1150)"
+}

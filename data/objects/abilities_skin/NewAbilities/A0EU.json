@@ -1,0 +1,41 @@
+{
+  "OldId": 1717782849,
+  "NewId": 1430597697,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4857",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Hatred"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAmuletOftheWild.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9460",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Structure bonus)"
+    }
+  ],
+  "_rawcode": "A0EU",
+  "_base": "AIcf",
+  "_name": "Hatred"
+}

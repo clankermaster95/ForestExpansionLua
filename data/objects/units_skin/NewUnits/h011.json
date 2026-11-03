@@ -1,0 +1,79 @@
+{
+  "OldId": 2004121448,
+  "NewId": 825307240,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1619",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Waterfall of Defense"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfFrost.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Terrain\\CliffDoodad\\Waterfall\\Waterfall.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1.25,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2620",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00W|raterfall of Defense"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_635",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Upgraded Defense Waterfall"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_480",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h011",
+  "_base": "hwtw",
+  "_name": "Waterfall of Defense"
+}

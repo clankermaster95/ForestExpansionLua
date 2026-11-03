@@ -1,0 +1,80 @@
+{
+  "OldId": 1852393793,
+  "NewId": 859975745,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1743",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Lava Warrior"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1765",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Spellbringer)"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1823",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Lava Warrior"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3705",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Lava Warrior from Hell. When summoned, it impacts the area, destroying nearby trees and dealing 100 damage and stunning all targets for 2 seconds. No cooldown."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2485",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "A0B3",
+  "_base": "AIin",
+  "_name": "Summon Lava Warrior"
+}

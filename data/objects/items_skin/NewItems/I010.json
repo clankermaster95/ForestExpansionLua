@@ -1,0 +1,59 @@
+{
+  "OldId": 1952674676,
+  "NewId": 808529993,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4331",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Protector Seed"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4332",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Protector Seed"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6333",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Creates an Ancient Protector at a target location. Ancient Protectors are tower-like helpers that guard an area. They can prove to be weak in certain battles, however. Note they reward expanders with resources upon being killed by them."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_4333",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Creates an Ancient of Protection at a target location. Ancients of Protection are tower-like helpers that guard an area. They can prove to be weak in certain battles, however."
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBanish.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_5008",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    }
+  ],
+  "_rawcode": "I010",
+  "_base": "tsct",
+  "_name": "Protector Seed"
+}

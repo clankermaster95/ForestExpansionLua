@@ -1,0 +1,55 @@
+{
+  "OldId": 1684955507,
+  "NewId": 1194340425,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "[Recipe] Bladed Gauntlet (900)",
+      "SanityCheck": 0,
+      "_field": "unam"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "|cff00d200[Recipe]|r Bladed Gauntlet |cffdcb900[900 gold total]|r",
+      "SanityCheck": 0,
+      "_field": "utip"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "|cffffcc00Full recipe: 900 gold|r|nRecipe scroll: 50 gold.|n|n|cff00d200Requires:|r|n- Gauntlet of Might (350 gold)|n- Iron Blade (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nA pugilistic implement used to draw blood the blood of gods. Increases your strength by 12 and your damage by 80.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r",
+      "SanityCheck": 0,
+      "_field": "utub"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "|cffffcc00Full recipe: 900 gold|r|nRecipe scroll: 50 gold.|n|n|cff00d200Requires:|r|n- Gauntlet of Might (350 gold)|n- Iron Blade (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nA pugilistic implement used to draw blood the blood of gods. Increases your strength by 12 and your damage by 80.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r",
+      "SanityCheck": 0,
+      "_field": "ides"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_743",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "X"
+    }
+  ],
+  "_rawcode": "I00G",
+  "_base": "sand",
+  "_name": "[Recipe] Bladed Gauntlet (900)"
+}

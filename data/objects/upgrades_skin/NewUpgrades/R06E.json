@@ -1,0 +1,79 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1161179218,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5314",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lightning Elementalism"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9612",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10665",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lightning Elementalism - [20.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5336",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Unlocks Lightning Towers"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R06E",
+  "_base": "Rhme",
+  "_name": "Lightning Elementalism"
+}

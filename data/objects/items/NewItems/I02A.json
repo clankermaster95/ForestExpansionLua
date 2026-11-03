@@ -1,0 +1,54 @@
+{
+  "OldId": 1685091184,
+  "NewId": 1093808201,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A0DV",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1953723241,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "isst"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1684628329,
+      "Type": "String",
+      "Value": "A0DV",
+      "SanityCheck": 0,
+      "_field": "icid"
+    },
+    {
+      "Id": 1635021673,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ista"
+    }
+  ],
+  "_rawcode": "I02A",
+  "_base": "pspd",
+  "_name": "Rum"
+}

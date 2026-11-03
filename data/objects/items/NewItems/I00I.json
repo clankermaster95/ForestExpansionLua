@@ -1,0 +1,47 @@
+{
+  "OldId": 1735289699,
+  "NewId": 1227894857,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "AIms,A024,AId0",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    }
+  ],
+  "_rawcode": "I00I",
+  "_base": "ckng",
+  "_name": "Valorous Helmet"
+}

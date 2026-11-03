@@ -1,0 +1,79 @@
+{
+  "OldId": 1952992833,
+  "NewId": 1311912001,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2497",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Screech"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMaskOfDeath.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMaskOfDeath.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5449",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "S|cffffcc00c|rreech"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4326",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "You let loose a piercing scream, deafening all units and reducing their attack damage by 40% for 10 seconds. 50 second cooldown."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3488",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "C"
+    }
+  ],
+  "_rawcode": "A02N",
+  "_base": "ANht",
+  "_name": "Screech"
+}

@@ -1,0 +1,27 @@
+war3map.doo: byte-exact binary > JSON > binary
+war3map.imp: byte-exact binary > JSON > binary
+war3map.mmp: byte-exact binary > JSON > binary
+war3map.w3a: byte-exact binary > JSON > binary
+war3map.w3b: byte-exact binary > JSON > binary
+war3map.w3c: byte-exact binary > JSON > binary
+war3map.w3d: byte-exact binary > JSON > binary
+war3map.w3e: byte-exact binary > JSON > binary
+war3map.w3h: byte-exact binary > JSON > binary
+war3map.w3i: byte-exact binary > JSON > binary
+war3map.w3q: byte-exact binary > JSON > binary
+war3map.w3r: byte-exact binary > JSON > binary
+war3map.w3s: byte-exact binary > JSON > binary
+war3map.w3t: byte-exact binary > JSON > binary
+war3map.w3u: byte-exact binary > JSON > binary
+war3map.wct: byte-exact binary > JSON > binary
+war3map.wpm: byte-exact binary > JSON > binary
+war3map.wtg: byte-exact binary > JSON > binary
+war3mapSkin.w3a: byte-exact binary > JSON > binary
+war3mapSkin.w3b: byte-exact binary > JSON > binary
+war3mapSkin.w3d: byte-exact binary > JSON > binary
+war3mapSkin.w3h: byte-exact binary > JSON > binary
+war3mapSkin.w3q: byte-exact binary > JSON > binary
+war3mapSkin.w3t: byte-exact binary > JSON > binary
+war3mapSkin.w3u: byte-exact binary > JSON > binary
+war3mapUnits.doo: byte-exact binary > JSON > binary
+Exported lossless JSON views into data/.

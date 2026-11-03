@@ -1,0 +1,165 @@
+{
+  "OldId": 1702316097,
+  "NewId": 1195454529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 845510472,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "Hwe2"
+    },
+    {
+      "Id": 845510472,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "Hwe2"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 828733256,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "e00U",
+      "SanityCheck": 0,
+      "_field": "Hwe1"
+    },
+    {
+      "Id": 828733256,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "e00U",
+      "SanityCheck": 0,
+      "_field": "Hwe1"
+    },
+    {
+      "Id": 828733256,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "e00U",
+      "SanityCheck": 0,
+      "_field": "Hwe1"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "BEfn",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "BEfn",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "BEfn",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R05X",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    }
+  ],
+  "_rawcode": "A0AG",
+  "_base": "AHwe",
+  "_name": "Summon Treant"
+}

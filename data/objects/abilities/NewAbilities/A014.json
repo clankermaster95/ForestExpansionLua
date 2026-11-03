@@ -1,0 +1,39 @@
+{
+  "OldId": 1986085697,
+  "NewId": 875638849,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828662088,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Had1"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B002",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,friend,ground,invulnerable,self,structure,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    }
+  ],
+  "_rawcode": "A014",
+  "_base": "ACav",
+  "_name": "Spirit Aura: Defense"
+}

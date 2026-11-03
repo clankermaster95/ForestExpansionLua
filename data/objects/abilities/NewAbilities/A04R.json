@@ -1,0 +1,102 @@
+{
+  "OldId": 1802981185,
+  "NewId": 1379151937,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 862680911,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "Owk3"
+    },
+    {
+      "Id": 845903695,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "Owk2"
+    },
+    {
+      "Id": 829126479,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Owk1"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B023",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    }
+  ],
+  "_rawcode": "A04R",
+  "_base": "AOwk",
+  "_name": "Agility"
+}

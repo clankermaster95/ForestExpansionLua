@@ -1,0 +1,66 @@
+{
+  "OldId": 1986348353,
+  "NewId": 1479946305,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 829842757,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "Eev1"
+    },
+    {
+      "Id": 829842757,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "Eev1"
+    },
+    {
+      "Id": 829842757,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 1,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "Eev1"
+    },
+    {
+      "Id": 829842757,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 1,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "Eev1"
+    },
+    {
+      "Id": 829842757,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "Eev1"
+    }
+  ],
+  "_rawcode": "A06X",
+  "_base": "AEev",
+  "_name": "Omniscience"
+}

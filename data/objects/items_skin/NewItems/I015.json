@@ -1,0 +1,51 @@
+{
+  "OldId": 1835428963,
+  "NewId": 892416073,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4848",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Arcanum of Hatred"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4849",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Arcanum of Hatred"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_2304",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Engulfs you with an intense aura of Hatred. Nearby units will take 100 damage every second, this effect also works on buildings. This effect does not stack. Also increases health by 700 and agility by 10."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_9466",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Engulfs you with an intense aura of Hatred. Nearby units will take 100 damage every second, this effect also works on buildings. This effect does not stack. Also increases health by 700 and agility by 10."
+    }
+  ],
+  "_rawcode": "I015",
+  "_base": "clfm",
+  "_name": "Arcanum of Hatred"
+}

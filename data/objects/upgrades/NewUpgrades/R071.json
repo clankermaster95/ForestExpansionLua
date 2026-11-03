@@ -1,0 +1,40 @@
+{
+  "OldId": 1701668946,
+  "NewId": 825700434,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828794215,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5945",
+      "SanityCheck": 0,
+      "_field": "gef1",
+      "_resolvedText": "rmvx"
+    },
+    {
+      "Id": 828465767,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "gba1"
+    },
+    {
+      "Id": 829386087,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gmo1"
+    }
+  ],
+  "_rawcode": "R071",
+  "_base": "Rhme",
+  "_name": "Legwork"
+}

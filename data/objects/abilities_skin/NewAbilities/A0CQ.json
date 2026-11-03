@@ -1,0 +1,22 @@
+{
+  "OldId": 1735674177,
+  "NewId": 1363357761,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4165",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Poisoned Bullets level"
+    }
+  ],
+  "_rawcode": "A0CQ",
+  "_base": "AItg",
+  "_name": "Poisoned Bullets level"
+}

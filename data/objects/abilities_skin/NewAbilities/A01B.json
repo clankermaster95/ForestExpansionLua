@@ -1,0 +1,32 @@
+{
+  "OldId": 1835485505,
+  "NewId": 1110519873,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_985",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "A intel"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_986",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "4"
+    }
+  ],
+  "_rawcode": "A01B",
+  "_base": "AIgm",
+  "_name": "A intel"
+}

@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 842215506,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3928",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Open Wounds"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3929",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "O"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9159",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Open Wounds - [20.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3931",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows your Worgen to use Open Wounds."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCriticalStrike.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R032",
+  "_base": "Rhme",
+  "_name": "Open Wounds"
+}

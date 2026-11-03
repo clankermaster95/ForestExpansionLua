@@ -1,0 +1,257 @@
+{
+  "OldId": 1651001409,
+  "NewId": 858796097,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_142",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Blaze"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Units\\Demon\\Infernal\\InfernalBirth.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9715",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cffADA508Blaze|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_154",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cffcfc72aHeals for|r 300 (+150 * level) |cffcfc72ahitpoints and has a cooldown of|r 10 seconds."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5901",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffADA508Blaze|r |cffc3d42c[Level 1]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5902",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffADA508Blaze|r |cffc3d42c[Level 2]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5903",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffADA508Blaze|r |cffc3d42c[Level 3]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5764",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffcfc72aHeals for|r 300 |cffcfc72ahitpoints and has a cooldown of|r 10 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_238",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffcfc72aHeals for|r 450 |cffcfc72ahitpoints and has a cooldown of|r 10 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_239",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffcfc72aHeals for|r 600 |cffcfc72ahitpoints and has a cooldown of|r 10 seconds."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_765",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_819",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5904",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffADA508Blaze|r |cffc3d42c[Level 4]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5905",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffADA508Blaze|r |cffc3d42c[Level 5]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_240",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffcfc72aHeals for|r 750 |cffcfc72ahitpoints and has a cooldown of|r 10 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5767",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffcfc72aHeals for|r 900 |cffcfc72ahitpoints and has a cooldown of|r 10 seconds."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5906",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffADA508Blaze|r |cffc3d42c[Level 6]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5907",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffADA508Blaze|r |cffc3d42c[Level 7]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_241",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffcfc72aHeals for|r 1050 |cffcfc72ahitpoints and has a cooldown of|r 10 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_393",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffcfc72aHeals for|r 1200 |cffcfc72ahitpoints and has a cooldown of|r 10 seconds."
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5650",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Ancient of Fire)"
+    }
+  ],
+  "_rawcode": "A003",
+  "_base": "AHhb",
+  "_name": "Blaze"
+}

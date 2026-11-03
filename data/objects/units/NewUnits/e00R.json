@@ -1,0 +1,96 @@
+{
+  "OldId": 2003791205,
+  "NewId": 1378889829,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Abds,A0A4",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R05T",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1634559605,
+      "Type": "Int",
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "ufma"
+    },
+    {
+      "Id": 1902338421,
+      "Type": "Unreal",
+      "Value": 50000,
+      "SanityCheck": 0,
+      "_field": "uacq"
+    }
+  ],
+  "_rawcode": "e00R",
+  "_base": "emow",
+  "_name": "e00R"
+}

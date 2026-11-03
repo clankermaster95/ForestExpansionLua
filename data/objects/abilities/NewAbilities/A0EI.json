@@ -1,0 +1,39 @@
+{
+  "OldId": 1920158017,
+  "NewId": 1229271105,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "undead",
+      "SanityCheck": 0,
+      "_field": "arac"
+    },
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 846361449,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0.75,
+      "SanityCheck": 0,
+      "_field": "isr2"
+    }
+  ],
+  "_rawcode": "A0EI",
+  "_base": "AIsr",
+  "_name": "Magical Cloak"
+}

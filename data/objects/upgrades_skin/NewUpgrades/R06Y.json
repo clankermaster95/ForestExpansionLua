@@ -1,0 +1,316 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1496723538,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4983",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Reinforced Plating I"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNArcaniteArchitecture.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4987",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Tree Chopper) - Macko"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1166",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1167",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1415",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1416",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7123",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7276",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7324",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7374",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8219",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5009",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Reinforced Plating II"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5013",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Reinforced Plating III"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5015",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Reinforced Plating IV"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5027",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Reinforced Plating V"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1201",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80b980Reinforced Plating I|r [10]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1204",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80b980Reinforced Plating II|r [15]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1205",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80b980Reinforced Plating III|r [20]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1206",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80b980Reinforced Plating IV|r [25]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1207",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff80b980Reinforced Plating V|r [30]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1208",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cIncreases Tree Chopper's armor by |r3 |cff3cb93cpoints.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1209",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cIncreases Tree Chopper's armor by |r3 |cff3cb93cpoints.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1210",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cIncreases Tree Chopper's armor by |r3 |cff3cb93cpoints.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1217",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cIncreases Tree Chopper's armor by |r3 |cff3cb93cpoints.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1230",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff3cb93cIncreases Tree Chopper's armor by |r3 |cff3cb93cpoints.|r|n|nThis is the last armor upgrade."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNArcaniteArchitecture.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImbuedMasonry.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R06Y",
+  "_base": "Rhar",
+  "_name": "Reinforced Plating V"
+}

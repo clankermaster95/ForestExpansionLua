@@ -1,0 +1,31 @@
+{
+  "OldId": 1886603585,
+  "NewId": 926036033,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1772",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Haste Gem"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRune.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A027",
+  "_base": "AIsp",
+  "_name": "Haste Gem"
+}

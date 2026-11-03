@@ -1,0 +1,86 @@
+{
+  "OldId": 1970235496,
+  "NewId": 1395994728,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_845",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Sewers"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\SpawnerSewerSquare.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1769173877,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNSewers.blp",
+      "SanityCheck": 0,
+      "_field": "ussi"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1315",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_917",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Sewers"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10328",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Sewers which can train workers, allowing you to harvest lumber and serve as droppoint.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNSewers.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    }
+  ],
+  "_rawcode": "h05S",
+  "_base": "hhou",
+  "_name": "Sewers"
+}

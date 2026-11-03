@@ -1,0 +1,60 @@
+{
+  "OldId": 1869640513,
+  "NewId": 1412771905,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6023",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Crippling Toxin"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNPoisonSting.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6024",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Crippling Toxin"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7365",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Attacks slow movement speed by 60% for 1.5 seconds. |n|cff7F7F7FAn ancient technique that causes your arms to secrete virulent toxins.|r"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A05T",
+  "_base": "Aspo",
+  "_name": "Crippling Toxin"
+}

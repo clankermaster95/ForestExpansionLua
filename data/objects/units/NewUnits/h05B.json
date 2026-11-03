@@ -1,0 +1,26 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1110782056,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Avul,Abds,A0C6",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1953527157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uupt"
+    }
+  ],
+  "_rawcode": "h05B",
+  "_base": "hwtw",
+  "_name": "Stash"
+}

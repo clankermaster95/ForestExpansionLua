@@ -1,0 +1,50 @@
+{
+  "OldId": 1969313090,
+  "NewId": 926036034,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6775",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Ancient's Base"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTranquility.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6776",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Ancient's Base"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6784",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "While by your base, you regenerate health rapidly."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\Heal\\HealTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    }
+  ],
+  "_rawcode": "B027",
+  "_base": "BUau",
+  "_name": "Ancient's Base"
+}

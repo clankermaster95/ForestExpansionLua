@@ -1,0 +1,80 @@
+{
+  "OldId": 1902464833,
+  "NewId": 925904961,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_869",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Frozen Deluge"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNColdArrows.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNColdArrows.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_883",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cffFFFFF7Frozen Deluge|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_901",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffFFFFF7Frozen Deluge|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_902",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cffFFFFF7Send an enourmous deluge of ice everywhere, dealing massive damage to buildings. 42 minute cooldown.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_903",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffFFFFF7Send an enourmous deluge of ice everywhere, dealing massive damage to buildings. 42 minute cooldown.|r"
+    }
+  ],
+  "_rawcode": "A007",
+  "_base": "AOeq",
+  "_name": "Frozen Deluge"
+}

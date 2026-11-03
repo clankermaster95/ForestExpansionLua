@@ -1,0 +1,21 @@
+{
+  "OldId": 1819566657,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829191234,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "o000",
+      "SanityCheck": 1819566657,
+      "_field": "Btl1"
+    }
+  ],
+  "_rawcode": "Abtl",
+  "_base": "Abtl",
+  "_name": "Enflame"
+}

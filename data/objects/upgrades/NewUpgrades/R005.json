@@ -1,0 +1,48 @@
+{
+  "OldId": 1668314450,
+  "NewId": 892350546,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651338343,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "glmb"
+    },
+    {
+      "Id": 1651078247,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "gtib"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 1651271527,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "gglb"
+    }
+  ],
+  "_rawcode": "R005",
+  "_base": "Rupc",
+  "_name": "Poison Aura"
+}

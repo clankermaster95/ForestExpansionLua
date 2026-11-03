@@ -1,0 +1,28 @@
+{
+  "OldId": 1818455152,
+  "NewId": 1462841417,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1865",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Clarity Potion"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1866",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff87ceebNon-Combat Consumable|r|nRegenerates the Hero's mana by <A0B8,DataB1> over <A0B8,Dur1> seconds when used."
+    }
+  ],
+  "_rawcode": "I01W",
+  "_base": "plcl",
+  "_name": "Clarity Potion"
+}

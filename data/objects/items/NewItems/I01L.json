@@ -1,0 +1,54 @@
+{
+  "OldId": 1953721453,
+  "NewId": 1278292041,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A08O,A08T,A08U",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 1550,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1634956649,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "iusa"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    }
+  ],
+  "_rawcode": "I01L",
+  "_base": "mlst",
+  "_name": "Hammer of Might"
+}

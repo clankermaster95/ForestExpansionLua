@@ -1,0 +1,49 @@
+{
+  "OldId": 1852138309,
+  "NewId": 1412444229,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_840",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Summon Cenarius"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10286",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A living demigod, nature's incarnation. Can learn Entangling Roots, Force of Nature, Thorns Aura.|n|n|cffff0000Feed Value:|r |cffffdd001000|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.7,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    }
+  ],
+  "_rawcode": "E00T",
+  "_base": "Ecen",
+  "_name": "E00T"
+}

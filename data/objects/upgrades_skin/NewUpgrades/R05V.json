@@ -1,0 +1,109 @@
+{
+  "OldId": 1651402066,
+  "NewId": 1446326354,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_677",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Druid)"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10525",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Nature's Blessing - [60.0]"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_842",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Nature's Blessing"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNNature's blessing3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1946",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Further increases hit points of all Treants by 500 and armor by 5"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10821",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Upgrades all Treants' movement speed by 40 and armor by 5."
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7683",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7687",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    }
+  ],
+  "_rawcode": "R05V",
+  "_base": "Renb",
+  "_name": "Nature's Blessing"
+}

@@ -1,0 +1,69 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1312043090,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6198",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Titanic Strikes"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10248",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Titanic Strikes - [35.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6666",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "This upgrade is required to activate the passive ability Titanic Strikes. Your basic attacks slow the targets by 30% for 2 seconds. |n|cff7F7F7FYour strikes have such weight that they unbalance your foes briefly.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyStrength.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R04N",
+  "_base": "Rhme",
+  "_name": "Titanic Strikes"
+}

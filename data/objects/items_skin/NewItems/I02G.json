@@ -1,0 +1,58 @@
+{
+  "OldId": 1986947440,
+  "NewId": 1194471497,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_508",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff87ceebNon-Combat Consumable|r|nRenders a unit invisible for 15 seconds when used. An invisible unit is untargetable by the enemy unless detected. If the unit attacks, uses an ability, or casts a spell, the invisibility effect is lost."
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "war3mapImported\\PotionOfInvisibility.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1183",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_522",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Potion of Greater Invisibility"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_574",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Potion of Greater Invisibility"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGreaterInvisibility.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    }
+  ],
+  "_rawcode": "I02G",
+  "_base": "pinv",
+  "_name": "Potion of Greater Invisibility"
+}

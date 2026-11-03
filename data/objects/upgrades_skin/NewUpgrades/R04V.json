@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1446260818,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5976",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Blood"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10265",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Blood - [20.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6655",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "This upgrade is required to use Dark Blood. Summons three shadowlings that deal no damage, move slow, but have heavy armor and large hitboxes. Lasts 20 second duration. 30 second cooldown. |n|cffFF8080This ability costs 400 health|r |n|cff7F7F7FThe blood of Go'rath can manifest shadows into living creatures under your command.|r"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9815",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNblackblood.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R04V",
+  "_base": "Rhme",
+  "_name": "Dark Blood"
+}

@@ -1,0 +1,58 @@
+{
+  "OldId": 1818388334,
+  "NewId": 875573358,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2369",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Goblin Battle Mech Beta"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.85,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2697",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Goblin Battle Mech |cffffcc00B|reta"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10053",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Construct the Beta Version of the Goblin Battle Mech.|n|n|cfffdca00Health:|r 800|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 100 (Chaos)|n|cfffdca00Attack Range:|r 450|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Movement Speed:|r 350|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_248",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "n004",
+  "_base": "ngbl",
+  "_name": "Goblin Battle Mech Beta"
+}

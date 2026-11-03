@@ -1,0 +1,39 @@
+{
+  "OldId": 1801610817,
+  "NewId": 1447112769,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 862675558,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "fbk3"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R063",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1634824801,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "1",
+      "SanityCheck": 0,
+      "_field": "arqa"
+    }
+  ],
+  "_rawcode": "A0AV",
+  "_base": "Afbk",
+  "_name": "Mana Steal"
+}

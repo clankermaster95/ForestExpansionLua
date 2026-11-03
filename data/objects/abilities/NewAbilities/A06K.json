@@ -1,0 +1,120 @@
+{
+  "OldId": 2020821313,
+  "NewId": 1261842497,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1684562785,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "achd"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R04T",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "arac"
+    },
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 829977417,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Isx1"
+    },
+    {
+      "Id": 829977417,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 0.3,
+      "SanityCheck": 0,
+      "_field": "Isx1"
+    },
+    {
+      "Id": 829977417,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 0.6,
+      "SanityCheck": 0,
+      "_field": "Isx1"
+    },
+    {
+      "Id": 829977417,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 1,
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "Isx1"
+    },
+    {
+      "Id": 829977417,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 1,
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "Isx1"
+    },
+    {
+      "Id": 829977417,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 1,
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "Isx1"
+    },
+    {
+      "Id": 829977417,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 1,
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "Isx1"
+    }
+  ],
+  "_rawcode": "A06K",
+  "_base": "AIsx",
+  "_name": "Focused Anger"
+}

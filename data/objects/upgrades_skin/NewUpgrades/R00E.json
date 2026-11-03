@@ -1,0 +1,129 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1160786002,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6265",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Nature's Strength"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNBetrayer'sThirst.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNBetrayer'sThirst.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNBetrayer'sThirst.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6266",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Nature's Strength"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6267",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Nature's Strength"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7257",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Nature's Strength - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7258",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Nature's Strength - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7259",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Nature's Strength - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9811",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage of your towers by 10. (Does not work on speed tower)"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9812",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage of your towers by 10. (Does not work on speed tower)"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9813",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage of your towers by 10. (Does not work on speed tower)"
+    }
+  ],
+  "_rawcode": "R00E",
+  "_base": "Rhme",
+  "_name": "Nature's Strength"
+}

@@ -1,0 +1,44 @@
+{
+  "OldId": 1684097090,
+  "NewId": 1362309186,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_1527",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Flag Present"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_1118",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_1530",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Flag Present"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_1038",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Flag is already present nearby, can not build another flag."
+    }
+  ],
+  "_rawcode": "B03Q",
+  "_base": "BHad",
+  "_name": "Flag Present"
+}

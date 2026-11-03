@@ -1,0 +1,54 @@
+{
+  "OldId": 1869571688,
+  "NewId": 1177956456,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Aloc,AInv,A06C,Avul",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1852137845,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uaen"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "undead",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1768975733,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "umpi"
+    },
+    {
+      "Id": 1836084597,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "umpm"
+    }
+  ],
+  "_rawcode": "h06F",
+  "_base": "hfoo",
+  "_name": "Wind Burst Dummy"
+}

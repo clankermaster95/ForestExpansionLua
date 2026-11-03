@@ -1,0 +1,51 @@
+{
+  "OldId": 1718903154,
+  "NewId": 1412509769,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9665",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Firelord's Cape"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9666",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Firelord's Cape"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6594",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases hp by 500, strength by 25, armor by 10 and move speed by 60.\n|cff8080ffUnique passive: decreases all damage taken by 10|r \n|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_6626",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases hp by 500, strength by 25, armor by 10 and move speed by 60.\n|cff8080ffUnique passive: decreases all damage taken by 10|r \n|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNFireArmor.BLP",
+      "SanityCheck": 0,
+      "_field": "iico"
+    }
+  ],
+  "_rawcode": "I01T",
+  "_base": "ratf",
+  "_name": "Firelord's Cape"
+}

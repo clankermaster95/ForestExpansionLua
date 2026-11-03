@@ -1,0 +1,51 @@
+{
+  "OldId": 1718903154,
+  "NewId": 1378955337,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1998",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Spellcaster's Cloak"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1999",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Spellcaster's Cloak"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1972",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Provides 1500 mana, 1000 health and 20% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s. |n|cff808080CD:120s|r|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_1973",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Provides 1500 mana, 1000 health and 20% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s. |n|cff808080CD:120s|r|r"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNPlateOfPlaneswalker.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    }
+  ],
+  "_rawcode": "I01R",
+  "_base": "ratf",
+  "_name": "Spellcaster's Cloak"
+}

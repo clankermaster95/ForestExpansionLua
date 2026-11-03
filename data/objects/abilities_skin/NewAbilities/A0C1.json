@@ -1,0 +1,97 @@
+{
+  "OldId": 1650871873,
+  "NewId": 826486849,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4443",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Lightning Strike"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4578",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lightning Strike"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5020",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Calls down a lightning at a target unit, dealing 50 damage and applying 0.01s stun, interrupting spellcasts."
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5671",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Elf Engineer v3)"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNSpell_Nature_Lightning.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\Monsoon\\MonsoonBoltTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "spell,looping",
+      "SanityCheck": 0,
+      "_field": "aani"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\Monsoon\\MonsoonBoltTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    }
+  ],
+  "_rawcode": "A0C1",
+  "_base": "ANfb",
+  "_name": "Lightning Strike"
+}

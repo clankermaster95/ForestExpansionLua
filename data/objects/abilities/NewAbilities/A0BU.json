@@ -1,0 +1,21 @@
+{
+  "OldId": 846022977,
+  "NewId": 1430401089,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1735421257,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "Impg"
+    }
+  ],
+  "_rawcode": "A0BU",
+  "_base": "AIm2",
+  "_name": "A0BU"
+}

@@ -1,0 +1,86 @@
+{
+  "OldId": 1768844136,
+  "NewId": 1093873768,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3172",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff940821Crypt Lord|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHeroCryptLord.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\undead\\HeroCryptLord\\HeroCryptLord.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1819503989,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "umsl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "HeroCryptLord",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1894",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_3469",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff940821Crypt Lord|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10106",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A powerful Crypt Lord from the Depths. This is your most vital unit, and you may only create one of these. There are many upgrades for him, and is a great threat to the Ancient.|n|n|cffff0000Feed Value:|r |cffffdd00500|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.875,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    }
+  ],
+  "_rawcode": "h03A",
+  "_base": "hkni",
+  "_name": "|cff940821Crypt Lord|r"
+}

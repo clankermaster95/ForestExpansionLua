@@ -1,0 +1,57 @@
+{
+  "OldId": 1936876354,
+  "NewId": 825307202,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_3908",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Worgen's Curse"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_3909",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Worgen's Curse"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_3910",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is cursed by a worgen. It will miss 30% of attacks."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Demon\\DarkConversion\\ZombifyTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1734962278,
+      "Type": "String",
+      "Value": "AFOD",
+      "SanityCheck": 0,
+      "_field": "flig"
+    }
+  ],
+  "_rawcode": "B011",
+  "_base": "Bcrs",
+  "_name": "Worgen's Curse"
+}

@@ -1,0 +1,21 @@
+{
+  "OldId": 1819437121,
+  "NewId": 909127745,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829579592,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Har1"
+    }
+  ],
+  "_rawcode": "A006",
+  "_base": "Ahrl",
+  "_name": "Harvest Ghoul Worker"
+}

@@ -1,0 +1,30 @@
+{
+  "OldId": 846164545,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829386578,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1,
+      "SanityCheck": 846164545,
+      "_field": "Roo1"
+    },
+    {
+      "Id": 846163794,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 2,
+      "SanityCheck": 846164545,
+      "_field": "Roo2"
+    }
+  ],
+  "_rawcode": "Aro2",
+  "_base": "Aro2",
+  "_name": "Aro2"
+}

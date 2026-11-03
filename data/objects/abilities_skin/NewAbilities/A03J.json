@@ -1,0 +1,70 @@
+{
+  "OldId": 1919110977,
+  "NewId": 1244868673,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3295",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Puncture"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNDemolish.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNDemolish.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3296",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Puncture"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5244",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives you a 50% chance to hit 1.5x harder."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4758",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Crypt Lord)"
+    }
+  ],
+  "_rawcode": "A03J",
+  "_base": "AOcr",
+  "_name": "Puncture"
+}

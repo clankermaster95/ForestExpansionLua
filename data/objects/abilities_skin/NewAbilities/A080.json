@@ -1,0 +1,168 @@
+{
+  "OldId": 1986086977,
+  "NewId": 808988737,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8292",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Desert's Veil"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\SandAura.MDX,war3mapImported\\SandExplosion.mdx",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFarSight.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFarSight.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFarSight.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8293",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Desert's |cffffcc00V|reil"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8294",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Desert's |cffffcc00V|reil"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8295",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Desert's |cffffcc00V|reil"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8787",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Grants spell immunity for 5 seconds and heals you for 30% of your health. 40 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3674",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Grants spell immunity for 7 seconds and heals you for 30% of your health. 40 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3675",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Grants spell immunity for 9 seconds and heals you for 30% of your health. 40 second cooldown."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8299",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Desert's |cffffcc00V|reil"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8300",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Desert's |cffffcc00V|reil"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8301",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Desert's |cffffcc00V|reil"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8302",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Desert's |cffffcc00V|reil"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3676",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Grants spell immunity for 5 (+2 per level) seconds and heals you for 30% of your health. 40 second cooldown."
+    }
+  ],
+  "_rawcode": "A080",
+  "_base": "AHav",
+  "_name": "Desert's Veil"
+}

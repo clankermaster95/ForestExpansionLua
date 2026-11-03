@@ -1,0 +1,17 @@
+{
+  "status": "Preserved as disabled; repair references before enabling.",
+  "missing_integer_array": "udg_GARATHORflagCounters (type inferred from OperatorInt in Flag Destroyed)",
+  "unresolved_symbols": {
+    "ABILITY_RLF_MANA_COST": "abilityintegerlevelfield",
+    "gg_unit_h06I_0044": "unit",
+    "gg_unit_h06I_0046": "unit",
+    "gg_unit_h06I_0047": "unit",
+    "gg_unit_h06I_0048": "unit",
+    "gg_unit_h06I_0049": "unit",
+    "gg_unit_h06I_0050": "unit",
+    "gg_unit_h06I_0051": "unit",
+    "gg_unit_h06I_0052": "unit",
+    "gg_unit_h06I_0053": "unit",
+    "gg_unit_h06I_0054": "unit"
+  }
+}

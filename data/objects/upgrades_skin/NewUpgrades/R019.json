@@ -1,0 +1,119 @@
+{
+  "OldId": 1701668946,
+  "NewId": 959524946,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1793",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "New Weapons"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNSpineLauncher.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNSpineLauncher.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1795",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "New Weapons"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7866",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "New Weapons - [100.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7867",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "New Weapons - [100.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1798",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of all towers by 50."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1799",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of all towers by 50."
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3536",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3537",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    }
+  ],
+  "_rawcode": "R019",
+  "_base": "Rhme",
+  "_name": "New Weapons"
+}

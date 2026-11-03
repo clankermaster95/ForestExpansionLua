@@ -1,0 +1,47 @@
+{
+  "OldId": 1684501094,
+  "NewId": 1160851529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A023,A06M",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1684628329,
+      "Type": "String",
+      "Value": "AItg",
+      "SanityCheck": 0,
+      "_field": "icid"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 55,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 1600,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    }
+  ],
+  "_rawcode": "I01E",
+  "_base": "frgd",
+  "_name": "Soul Hammer"
+}

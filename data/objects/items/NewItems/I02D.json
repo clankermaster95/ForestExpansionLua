@@ -1,0 +1,40 @@
+{
+  "OldId": 1685091170,
+  "NewId": 1144139849,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A0ET",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    }
+  ],
+  "_rawcode": "I02D",
+  "_base": "bspd",
+  "_name": "Gilnean Boots"
+}

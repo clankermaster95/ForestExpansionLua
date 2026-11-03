@@ -1,0 +1,3231 @@
+{
+  "FormatVersion": "v3",
+  "BaseItems": [],
+  "NewItems": [
+    {
+      "OldId": 1937338979,
+      "NewId": 808464457,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 50,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A017",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685091170,
+      "NewId": 825241673,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 100,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 842018889,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A023",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 500,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869507444,
+      "NewId": 858796105,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 75,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 60,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1633840226,
+      "NewId": 875573321,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AId8",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 100,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1701341040,
+      "NewId": 892350537,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 5,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 909127753,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AItx,AIs6,AIs6",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 350,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2019910772,
+      "NewId": 942682185,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AIim",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 5,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 100,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2019910772,
+      "NewId": 959459401,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 5,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 100,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2019910772,
+      "NewId": 1093677129,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AIsm",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 5,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 100,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1886938484,
+      "NewId": 925904969,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A018",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 100,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936092777,
+      "NewId": 1110454345,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 20,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1702065513,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 1500,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A021",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835428963,
+      "NewId": 1127231561,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 15,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 300,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A022,AId3",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1752459378,
+      "NewId": 1144008777,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 35,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 2000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A098",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1818850163,
+      "NewId": 1160785993,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AIse,AItx,AItx,AItx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 20,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 1500,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1177563209,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AIs6,AIs6,A023,AItx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 900,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1684955507,
+      "NewId": 1194340425,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 50,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1702065513,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634956649,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919906419,
+      "NewId": 1211117641,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 300,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1702065513,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634956649,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1735289699,
+      "NewId": 1227894857,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AIms,A024,AId0",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 500,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1918985844,
+      "NewId": 1261449289,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 500,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 5,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A028",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 846492532,
+      "NewId": 1278226505,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AIsm",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 10,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 750,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 50,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1819635571,
+      "NewId": 1295003721,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 150,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AIrv",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634956649,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869767785,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818588009,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2002874473,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1684628329,
+          "Type": "String",
+          "Value": "A017",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1702065513,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1919250537,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1935763571,
+      "NewId": 1311780937,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1919250537,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1702065513,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 50,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 45,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 863265138,
+      "NewId": 1328558153,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A023,AItx,AItx",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 2000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1668506980,
+      "NewId": 1345335369,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 45,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 2000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A08M",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1684628329,
+          "Type": "String",
+          "Value": "A08M",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869768303,
+      "NewId": 1362112585,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0DM",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 45,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 500,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1818583911,
+      "NewId": 1378889801,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 30,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1651469923,
+      "NewId": 1395667017,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A02Q",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 150,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1852993132,
+      "NewId": 1412444233,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 20,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "Arel,AId5",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1836413796,
+      "NewId": 1429221449,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 40,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 1500,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1919250537,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AUds,AId7",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1667330658,
+      "NewId": 1445998665,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 25,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1462775881,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 10,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 20,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1479553097,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 1000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 10,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 60,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1818588275,
+      "NewId": 1496330313,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1752459378,
+      "NewId": 1513107529,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 350,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1952674676,
+      "NewId": 808529993,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 120,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A04A",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 3,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 825307209,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 550,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 842084425,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A04F,AIms,A04E,A0BC",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 1100,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953721448,
+      "NewId": 858861641,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A04I",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 2,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 875638857,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "Adt1",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 600,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835428963,
+      "NewId": 892416073,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A04K,AIaz,A0EV",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 1050,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835428963,
+      "NewId": 909193289,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 625,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1668571506,
+      "NewId": 925970505,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A054,A023,AIaz",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 1250,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1668444787,
+      "NewId": 942747721,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634493289,
+          "Type": "String",
+          "Value": "Permanent",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 625,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919906419,
+      "NewId": 1244672073,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AIlm",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 1250,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 180,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634626928,
+      "NewId": 1110519881,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A06E",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 200,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1769107561,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1735289699,
+      "NewId": 1127297097,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A08L,A06I,A04F,A06G",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 950,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634956649,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919837552,
+      "NewId": 1144074313,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 250,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1684501094,
+      "NewId": 1160851529,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A023,A06M",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1684628329,
+          "Type": "String",
+          "Value": "AItg",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 55,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 1600,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919053164,
+      "NewId": 1177628745,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 12,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 5,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 10,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A076",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1751343731,
+      "NewId": 1194405961,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A023,A07C",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 60,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 2750,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1935767649,
+      "NewId": 1211183177,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A07D",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 45,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 2000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634626928,
+      "NewId": 1227960393,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A07R",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 30,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 1250,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953326439,
+      "NewId": 1244737609,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 700,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 5,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919902575,
+      "NewId": 1261514825,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A023,AItf,A01R",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 30,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1769107561,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1902473845,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 1000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1937338979,
+      "NewId": 959524937,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A017,A02Q,A01U,A02Q",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 800,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1093742665,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 200,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953721453,
+      "NewId": 1278292041,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A08O,A08T,A08U",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 155,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634956649,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919837552,
+      "NewId": 1295069257,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 300,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953326439,
+      "NewId": 1311846473,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 1400,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 3600,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1328623689,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 350,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1345400905,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A094,A092,A091",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 700,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634956649,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1684628329,
+          "Type": "String",
+          "Value": "A094",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1362178121,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 350,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1378955337,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A09D,A01U,A097,A096",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 850,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634956649,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1684628329,
+          "Type": "String",
+          "Value": "A09D",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1395732553,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 300,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1412509769,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A09A,A098,A099,A024",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 1200,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634956649,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1684628329,
+          "Type": "String",
+          "Value": "A09A",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1986947440,
+      "NewId": 1429286985,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A09C",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 50,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 3,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953723748,
+      "NewId": 1446064201,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 10,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1818455152,
+      "NewId": 1462841417,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 2,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0B8",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2004119412,
+      "NewId": 1479618633,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1702065513,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 15,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0BI",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1919250537,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634559856,
+      "NewId": 1496395849,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 5,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0BU",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1752459378,
+      "NewId": 1513173065,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 6,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 400,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AIl1",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2004119412,
+      "NewId": 808595529,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1702065513,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 10,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0BQ",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1919250537,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936028274,
+      "NewId": 825372745,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0C9",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936028272,
+      "NewId": 842149961,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 60,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0CA",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1852143215,
+      "NewId": 858927177,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 35,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 750,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0CB,A0CC",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1886216566,
+      "NewId": 875704393,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 15,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0CD",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1769104237,
+      "NewId": 892481609,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 360,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0CX",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936028272,
+      "NewId": 926036041,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0DX",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1937338979,
+      "NewId": 909258825,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 5,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 20,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0DG",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 2,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1702065513,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634493289,
+          "Type": "String",
+          "Value": "Miscellaneous",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1986358377,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1870031977,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1769104237,
+      "NewId": 942813257,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 10,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0DT",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 2,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 3,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685091184,
+      "NewId": 959590473,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 12,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0DU",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 3,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685091184,
+      "NewId": 1093808201,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 6,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0DV",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1684628329,
+          "Type": "String",
+          "Value": "A0DV",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 3,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1952674676,
+      "NewId": 1110585417,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 2,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1836412009,
+          "Type": "Int",
+          "Value": 320,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0DW",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1902473845,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700952674,
+      "NewId": 1127362633,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 111111112,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685091170,
+      "NewId": 1144139849,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 10,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1886677097,
+          "Type": "Int",
+          "Value": 500000,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0ET",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802726503,
+      "NewId": 1160917065,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A0DY",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 600,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1869902697,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1634956649,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818588009,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2002874473,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1734439522,
+      "NewId": 1177694281,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 75,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "AIaz",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1986947440,
+      "NewId": 1194471497,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1768055145,
+          "Type": "String",
+          "Value": "A09D",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1819240297,
+          "Type": "Int",
+          "Value": 5,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953723241,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1635021673,
+          "Type": "Int",
+          "Value": 3,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1920234345,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    }
+  ]
+}

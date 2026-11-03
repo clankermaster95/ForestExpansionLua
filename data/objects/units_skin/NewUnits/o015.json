@@ -1,0 +1,114 @@
+{
+  "OldId": 1651668079,
+  "NewId": 892416111,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3500",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Seaweed Plant"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "EMDA",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Ruins\\Water\\Coral\\Coral7.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.85,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_3501",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Sea|cffffcc00w|reed Plant"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1214",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10113",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic structure that produces you 75 more food.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 1 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 828468597,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uma1"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o015",
+  "_base": "otrb",
+  "_name": "Seaweed Plant"
+}

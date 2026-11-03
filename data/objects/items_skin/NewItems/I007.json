@@ -1,0 +1,44 @@
+{
+  "OldId": 1886938484,
+  "NewId": 925904969,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_982",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Experience Point"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_983",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Exp Point [P]"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1276",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "P"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_984",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Give 5 EXP."
+    }
+  ],
+  "_rawcode": "I007",
+  "_base": "texp",
+  "_name": "Experience Point"
+}

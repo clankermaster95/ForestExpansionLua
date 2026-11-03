@@ -1,0 +1,500 @@
+{
+  "OldId": 1701672274,
+  "NewId": 1329016914,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7666",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Corpse Vitality I"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7831",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Cultist)"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7671",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases hitpoints of all husks by 100."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedUnholyStrength.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyStrength.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyStrength.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyStrength.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyStrength.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletalLongevity.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletalLongevity.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletalLongevity.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletalLongevity.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9323",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9324",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9325",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9326",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8416",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8420",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8421",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7693",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Corpse Vitality II"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7694",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Corpse Vitality III"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7695",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Corpse Vitality IV"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7696",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Corpse Vitality V"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7699",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Claw Strength VI"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7700",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Claw Strength VII"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7701",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Claw Strength VIII"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7702",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Claw Strength IX"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7703",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Claw Strength X"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7704",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Corpse Vitality I - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7705",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Corpse Vitality II - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7706",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Corpse Vitality III - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7707",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Corpse Vitality IV - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7708",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Corpse Vitality V - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7711",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Claw Strength VI - [70.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7713",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Claw Strength VII - [80.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7726",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Claw Strength VIII - [90.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7727",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Claw Strength IX - [100.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7728",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Claw Strength X - [110.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7729",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases hitpoints of all husks by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7730",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases hitpoints of all husks by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7731",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases hitpoints of all husks by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7732",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases hitpoints of all husks by 100.|n|nThis is the last health upgrade."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7733",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases attack damage of all husks by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7734",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases attack damage of all husks by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7735",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases attack damage of all husks by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7736",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases attack damage of all husks by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7737",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases attack damage of all husks by 10.|n|nThis is the last damage upgrade."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletalLongevity.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R07O",
+  "_base": "Rume",
+  "_name": "Claw Strength X"
+}

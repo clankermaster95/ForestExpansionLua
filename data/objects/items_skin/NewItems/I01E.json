@@ -1,0 +1,58 @@
+{
+  "OldId": 1684501094,
+  "NewId": 1160851529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6517",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Soul Hammer"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6518",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Soul Hammer"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6067",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases damage by 60, and has a 11% chance on attack to stun the target for 1 second & deal 200 damage. |n|cffFF0000This item can only be picked up by a Forgotten One|r |n|cff7F7F7FSouls periodically leap from the hammer, freezing enemies in fear.|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_6068",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases damage by 60, and has a 11% chance on attack to stun the target for 1 second & deal 200 damage. |n|cffFF0000This item can only be picked up by a Forgotten One|r |n|cff7F7F7FSouls periodically leap from the hammer, freezing enemies in fear.|r"
+    }
+  ],
+  "_rawcode": "I01E",
+  "_base": "frgd",
+  "_name": "Soul Hammer"
+}

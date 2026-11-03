@@ -1,0 +1,346 @@
+{
+  "active_modules": 77,
+  "disabled_modules": 26,
+  "function_definitions": 1692,
+  "reference_api_functions": 2527,
+  "unknown_direct_calls": {},
+  "literal_ExecuteFunc_targets": [
+    {
+      "target": "s__Damage_onInit",
+      "defined": true,
+      "module": "src/libraries/damage_engine.lua"
+    },
+    {
+      "target": "jasshelper__initstructs149790140",
+      "defined": true,
+      "module": "src/bootstrap.lua"
+    },
+    {
+      "target": "PassiveMissiles__Init",
+      "defined": true,
+      "module": "src/bootstrap.lua"
+    },
+    {
+      "target": "SpellLeech__Init",
+      "defined": true,
+      "module": "src/bootstrap.lua"
+    },
+    {
+      "target": "InitializeUnitIndexer",
+      "defined": true,
+      "module": "src/game/startup.lua#Unit_Indexer"
+    }
+  ],
+  "event_context_review_candidates": [],
+  "wait_review": [
+    {
+      "function": "Trig_Genesis_Actions",
+      "module": "src/races/night_elf/arch_druid.lua#Genesis",
+      "getters_after_wait": [
+        "GetDestructableLife",
+        "GetDestructableLoc",
+        "GetLastCreatedUnit",
+        "GetOwningPlayer"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Mana_Steal_Dancer_Actions",
+      "module": "src/races/night_elf/shadow_dancer.lua#Mana_Steal_Dancer",
+      "getters_after_wait": [
+        "GetUnitTypeId"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_ConjureMana_Actions",
+      "module": "src/races/night_elf/shadow_dancer.lua#ConjureMana",
+      "getters_after_wait": [
+        "GetTriggerUnit",
+        "GetUnitStateSwap"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Blur_Actions",
+      "module": "src/races/night_elf/shadow_dancer.lua#Blur",
+      "getters_after_wait": [
+        "GetTriggerUnit",
+        "GetUnitStateSwap"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Surge_of_Darkness_Actions",
+      "module": "src/races/forgotten/executioner.lua#Surge_of_Darkness",
+      "getters_after_wait": [
+        "GetTriggerUnit"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Avatar_Actions",
+      "module": "src/races/forgotten/soulreaper.lua#Avatar",
+      "getters_after_wait": [
+        "GetTriggerUnit"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Shadowlings_Actions",
+      "module": "src/races/forgotten/bloodmage.lua#Shadowlings",
+      "getters_after_wait": [
+        "GetUnitTypeId"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "OnConstructionStart",
+      "module": "src/races/nerubian.lua#NerubianSpires",
+      "getters_after_wait": [],
+      "globals_after_wait": []
+    },
+    {
+      "function": "ChemicalRageActions",
+      "module": "src/races/ratling.lua#Chemical_Rage",
+      "getters_after_wait": [],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_SeedOfRebirth_Actions",
+      "module": "src/races/wisp.lua#SeedOfRebirth",
+      "getters_after_wait": [
+        "GetOwningPlayer",
+        "GetPlayerSlotState",
+        "GetUnitTypeId",
+        "GetUnitX",
+        "GetUnitY",
+        "GetUnitsOfPlayerAll",
+        "GetWidgetLife"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Moonstrike_Actions",
+      "module": "src/races/wildkin.lua#Moonstrike",
+      "getters_after_wait": [
+        "GetUnitTypeId",
+        "GetWidgetLife"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Focused_Strike_Actions",
+      "module": "src/races/worgen.lua#Focused_Strike",
+      "getters_after_wait": [
+        "GetUnitTypeId"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Realm_of_darkness_Actions",
+      "module": "src/ancients/paranoia.lua#Realm_of_darkness",
+      "getters_after_wait": [
+        "GetPlayableMapRect",
+        "GetUnitsInRectMatching"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Lightning_Strike_Actions",
+      "module": "src/ancients/zalxon.lua#Lightning_Strike",
+      "getters_after_wait": [],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Sandstorm_2_Actions",
+      "module": "src/ancients/pharaoh.lua#Sandstorm_2",
+      "getters_after_wait": [],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Ancient_Grasp_Actions",
+      "module": "src/ancients/pharaoh.lua#Ancient_Grasp",
+      "getters_after_wait": [
+        "GetUnitLifePercent"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Chill_Actions",
+      "module": "src/ancients/avalanche.lua#Chill",
+      "getters_after_wait": [
+        "GetUnitStateSwap"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Freeze_Zone_Actions",
+      "module": "src/ancients/avalanche.lua#Freeze_Zone",
+      "getters_after_wait": [],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Sadism_Actions",
+      "module": "src/ancients/divinity.lua#Sadism",
+      "getters_after_wait": [
+        "GetUnitStateSwap"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Vanguard_Initial_Actions",
+      "module": "src/ancients/divinity.lua#Vanguard_Initial",
+      "getters_after_wait": [
+        "GetTriggeringTrigger"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Vanguard_Actions",
+      "module": "src/ancients/divinity.lua#Vanguard",
+      "getters_after_wait": [
+        "GetTriggerUnit",
+        "GetUnitStateSwap"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Start_Actions",
+      "module": "src/ai/behavior.lua#Start",
+      "getters_after_wait": [],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_TimeToExpanderSpawn_Actions",
+      "module": "src/game/startup.lua#TimeToExpanderSpawn",
+      "getters_after_wait": [],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_TimeToAncientSpawn_Actions",
+      "module": "src/game/startup.lua#TimeToAncientSpawn",
+      "getters_after_wait": [],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Spawn_Lackey_Actions",
+      "module": "src/players/lackeys.lua#Spawn_Lackey",
+      "getters_after_wait": [
+        "GetPlayerSlotState"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Ancient_Leaves_Actions",
+      "module": "src/players/leaving.lua#Ancient_Leaves",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Ignite_Dies_Actions",
+      "module": "src/game/victory.lua#Ignite_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Avalanche_Dies_Actions",
+      "module": "src/game/victory.lua#Avalanche_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Paranoia_Dies_Actions",
+      "module": "src/game/victory.lua#Paranoia_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Eternity_Dies_Actions",
+      "module": "src/game/victory.lua#Eternity_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Dragos_Dies_Actions",
+      "module": "src/game/victory.lua#Dragos_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Tremor_Dies_Actions",
+      "module": "src/game/victory.lua#Tremor_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Zalxon_Dies_Actions",
+      "module": "src/game/victory.lua#Zalxon_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Divinity_Dies_Actions",
+      "module": "src/game/victory.lua#Divinity_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Pharoah_Dies_Actions",
+      "module": "src/game/victory.lua#Pharoah_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Nebula_Dies_Actions",
+      "module": "src/game/victory.lua#Nebula_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Wispari_Dies_Actions",
+      "module": "src/game/victory.lua#Wispari_Dies",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_DVIC_1_Actions",
+      "module": "src/game/victory.lua#DVIC_1",
+      "getters_after_wait": [
+        "GetPlayersAll"
+      ],
+      "globals_after_wait": []
+    },
+    {
+      "function": "Trig_Extermination_Actions",
+      "module": "src/game/victory.lua#Extermination",
+      "getters_after_wait": [],
+      "globals_after_wait": []
+    }
+  ],
+  "limitations": "Lexical triage, not complete type/control-flow analysis. Current native engine behavior and multiplayer remain unverified."
+}

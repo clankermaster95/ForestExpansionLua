@@ -1,0 +1,85 @@
+{
+  "OldId": 1918986101,
+  "NewId": 909127797,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\GoblinZeppelin\\GoblinZeppelin.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNZiggurat.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\BoatMissile\\BoatMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6300",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Frigate Zeppelin"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10070",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A flying airship used for combat only. Much sturdier and deals heavy amounts of damage.|n|n|cfffdca00Health:|r 1000; 2/s|n|cfffdca00Armor:|r 3 (Unarmored)|n|cfffdca00Attack:|r 130 (Chaos)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 260|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6301",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Frigate Zeppelin"
+    }
+  ],
+  "_rawcode": "u006",
+  "_base": "ugar",
+  "_name": "Frigate Zeppelin"
+}

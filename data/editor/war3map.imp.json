@@ -1,0 +1,1941 @@
+{
+  "FormatVersion": "v1",
+  "Files": [
+    {
+      "Flags": "UNK8",
+      "FullPath": "GoldOre.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BTNShaftRats.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "Eyes.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "OgreWarlord.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "RedDragonFirePhalanx.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "Cannon.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "CentaurTent Camp2.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "FlamerGoblin.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "WCIIGoblinAlchemist.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "LoadingScreen.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "FullScreen.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "IceCrownOverlordX.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BlackSmoke1.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "OgreBeserker(Helmet).mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "WaterTotem.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "FireTotem.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "WaterCrumble.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "VoidLord.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapPreview.tga"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "ImpNecromancer.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNScytheBackstab.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "FacelessOneWorker.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "SoulDevourer.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "FacelessOneMastermind.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_BloodBoil.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_BloodBoil.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BTNgreenblood.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_Requiem.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_Requiem.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "FacelessOneMastermind_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "FacelessOneBerserker.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "FacelessNightmareWeaver.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_CORRUPTION.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_CORRUPTION.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNEradication.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNEradication.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNgreenblood.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_ChillTouch.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_ChillTouch.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "buildings\\human\\AssailantSpire.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_FRENZY.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_FRENZY.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_FORGOTENone.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_IMPALE.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_OLDGODS.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTN_cr_Nightmare Surge.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_MindRot.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_FORGOTENone.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_IMPALE.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_OLDGODS.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_cr_Nightmare Surge.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_MindRot.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BTNblackblood.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BTNblueblood.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BTNdeathsadvance.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNpurpleblood.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BTNyellowblood.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNblackblood.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNblueblood.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNdeathsadvance.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNyellowblood.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNpurpleblood.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BlackCloudOfFog.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "RedDragonFirePhalanx_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BluefireBolt.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "AncientOfStone(heavy)_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BTN_manaburn.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_manaburn.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNCRFacelessFORGOTENone.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNimprovedunholystrength.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNSpellShadowRequiem.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNSpellShadowBloodBoil.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNSpellShadowBloodBoil.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNCRFacelessFORGOTENone.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNSpellShadowRequiem.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNimprovedunholystrength.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNfocusedanger.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNfocusedanger.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNShaftRats.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_01.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_02.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_03.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_04.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_05.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_06.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_07.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_08.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_Ball_01.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_Ball_02.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_Ball_03.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_Ball_04.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Lightning_Ball_05.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "LightningElemental.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "LightningElemental.MDX"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "Archangel Female.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "Archangel Female_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Textures\\Tornado2b.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "HolyTornado.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "TreeGolem.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "TreeGolem_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "GlaciarAura.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTN_CR_BLOOD.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_BLOOD.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BETA_DenOfWonders.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNBlood Stinger.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBlood Stinger.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "Cyclone.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "HighborneCitadel V1.02.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "StarfallMissle.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\ATCSunburst3.BLP"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\ATTSunburst3.BLP"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNSunburst3.BLP"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISATCSunburst3.BLP"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSunburst3.BLP"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\UPGUPGSunburst3.BLP"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "MegaBlast.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "Healing Surge.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "IonCannonBeam.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "Werewolf 71.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_SummonVoidWalker.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_SummonVoidWalker.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "EarthLich.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "EarthLich_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "SandExplosion.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNSandstorm3.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSandstorm3.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNSandBlast.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSandBlast.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "SandAura.MDX"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BlackHole.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "BlackHoleSkin04-64.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNBarbarian Brutal Slasher.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBarbarian Brutal Slasher.blp"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "BlackHole2.mdx"
+    },
+    {
+      "Flags": "UNK8",
+      "FullPath": "FireElementalNew.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\btnswirlyblast.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\btnnebula.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Arbiter.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\btnspellpower.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNspellpower.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNswirlyblast.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNnebula.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNScytheBackstab.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNHornOfFog.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNHornOfFog.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNOrbOfFire.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNOrbOfFire.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNresilience.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNresilience.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNKoboldSenses.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNKoboldSenses.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNPhotosyntesis.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNPhotosyntesis.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNLightning_Ball_02.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNLightning_Ball_02.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTN_NerubianScepter.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_NerubianScepter.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNPlateOfPlaneswalker.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNPlateOfPlaneswalker.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNFireArmor.BLP"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNFireArmor.BLP"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\HeroEarthLord.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\ObsidianGolem.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNObsidianGolem.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNObsidianGolem.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNBTNHellstoneGolem.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBTNHellstoneGolem.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\HellstoneGolem.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\HellstoneGolem_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNFireTempleKeeper.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNFireTempleKeeper.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\FireTempleKeeperElemental.MDX"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Wight.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNWight.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNWight.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNDark.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDark.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\DarkTemplar_portrait.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\TeamGlow\\TeamGlow02.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\DarkTemplar.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Dark.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Dark.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\LightRevenant.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\DivineGolem.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\DivineGolem_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNDivineGolem.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDivineGolem.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\SandElem.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNHero Vizier of the Sands 64x64.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHero Vizier of the Sands 64x64.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNThunderKnight.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\LightningElemental2.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNLightingElemental.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNLightingElemental.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\RootElemental.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\IceFiend.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNThunderKnight.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNThunderKnight.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNThunderKnight.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\AncientWarrior.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\SSCHero Ancient Of Stome 64x64.blp.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNHero Ancient Of Stome 64x64.blp.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHero Ancient Of Stome 64x64.blp.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNAncient of Lore (Spring).blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNAncient of Lore (Spring).blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "units\\IceInfernal\\IceInfernal.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\IceInfernal_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\IceInfernal.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNCrystalInfernal.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNCrystalInfernal.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\NerubianWorker.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\NerubianWorker_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BurrowableNerubian.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\AltarOfDarknessZulDrakV1.02.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNIceRuinsAltarOfDarkness.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceRuinsAltarOfDarkness.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNIcecrownTower.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIcecrownTower.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\AltarOfTheSpider.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSpiderAltarIconNew2.BLP"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpiderAltarIconNew2.BLP"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNIceSpider.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceSpider.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNIceRuinsDimensionalGate.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceRuinsDimensionalGate.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\DimensionalGateZulDrakV1.01.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Dune Flyer.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSFW_Secret_Book_Of_Spiders.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSFW_Secret_Book_Of_Spiders.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNManaweave.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManaweave.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNToxicLongSword.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNToxicLongSword.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSpell_Nature_NullifyPoison_02.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Nature_NullifyPoison_02.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNLongfang Infusion.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNLongfang Infusion.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSpiderRetreat.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpiderRetreat.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNNerubPunch.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNNerubPunch.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSpell_Shadow_LifeDrain.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_LifeDrain.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNCaptainRevenant.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNCaptainRevenant.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNIceRuinsZigguratA0.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceRuinsZigguratA0.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNIceRuinsZigguratA2.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceRuinsZigguratA2.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\ZigguratUndeadZuldrakV1.03.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNIceRuinsZigguratA1.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceRuinsZigguratA1.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNFrostClash.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNFrostClash.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNIcecrownTower.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNIcecrownTower.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Furion V3.02.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\NEBlademaster_portrait.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Textures\\NEBMhead.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\NEBlademaster.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Textures\\NEBMbody.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNNightElfPriest.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNNightElfPriest.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\NEWarrior.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "NEWarrior.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\NEWarrior_portrait.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\DruidOfTheAntlersV2.01.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNDruidOfTheAntlersElk.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDruidOfTheAntlersElk.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNDruid2.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDruid2.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNShadowWarrior.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNShadowWarrior.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\ShadowWarrior.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\ShadowWarrior_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\TotemNightElfV1.00.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNTotem (Night Elf).blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNTotem (Night Elf).blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNWisp.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNWisp.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Wisp.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\GreatHallDarkTrollV1.00.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\StorageDenGilneasV1.00.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNNightElfGraveyard.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNNightElfGraveyard.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\TavernGilneasV1.00.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\MarketPlaceGilneasV1.12.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNGilneanMarketplace.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNGilneanMarketplace.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Textures\\BackGround.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Textures\\Elvenmerchant.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\ElvenMerchant.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Textures\\Elvenmerchant1.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNMerchant.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNMerchant.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\AltarOfWatchersV1.00.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNaltar.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNaltar.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSpell_Nature_Regeneration.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Nature_Regeneration.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNArcaneEye.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNArcaneEye.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\ArcaneAcademyGilneasV1.02.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNGilneanLibrary.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNGilneanLibrary.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\LibraryGilneasV2.00.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNGilneanArcaneAcademy.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNGilneanArcaneAcademy.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNBTNEternitysCrown.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBTNEternitysCrown.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Eternity's Crown 1537.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNMoonSkin.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNMoonSkin.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNNature's blessing3.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNNature's blessing3.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNEnt Rage.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNEnt Rage.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNEnt Rage.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNEnt Rage.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSpell_Nature_ProtectionformNature.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Nature_ProtectionformNature.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNSpell_Nature_ProtectionformNature.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNSpell_Nature_ProtectionformNature.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNLifeBurn.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNLifeBurn.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNarcanemastery.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNarcanemastery.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNarcanemastery.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNarcanemastery.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNManaBreak.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNManaBreak.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNManaBreak.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\PASManaBreak.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManaBreak.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNManaDrain.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManaDrain.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNHeroHighborneWarlockAlternate.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHeroHighborneWarlockAlternate.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\WarlockNightElfV1.04.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNManaReturn.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManaReturn.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNArcaneBlast.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNArcaneBlast.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNWarpling.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNWarpling.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNtruesight.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNtruesight.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNNatureSeed.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNNatureSeed.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASBTNManaDrain.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNManaDrain.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNCascadeTurnOff.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNCascadeTurnOff.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNAbsoluteZeroOn.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNAbsoluteZeroOff.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNAbsoluteZeroOn.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNAbsoluteZeroOff.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNManaRestoration.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSlow.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManaRestoration.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSlow.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Great Lightning.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSpell_Nature_Lightning.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Nature_Lightning.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNArcaneGuardian.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNArcaneGuardian.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\ArcaneGuardian.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNGoblinRocketBoots.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNGoblinRocketBoots.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNThornyShieldOff.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNThornyShieldOff.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASCoin.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\PassiveButtons\\PASCoin.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNLavaWave.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNLavaWave.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNtrollhut.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNtrollhut.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNcentaurbase.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNcentaurbase.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNConjureBiscuit.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNBiscuit.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBiscuit.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Item_Gem_Aquamarine.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Lava-Treasure-Chest.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\PotionOfInvisibility.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Items\\Potions1.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\PotionOfInvulnerability.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\MarketPlaceKobold.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\CheeseItem.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\SpawnerSewerSquare.MDX"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSewers.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSewers.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\CheeseOre0.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\CheeseOre1.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNbullettime.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNbullettime.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\ratling_hero.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ratling.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNratling.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNratling.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTN_cheese.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_cheese.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\SEMooncakeItem.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtons\\BTNMooncake.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\FlareBlack.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\flaresimple_bw.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\ImladrisGlow.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\smoke_bw.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\VisionStar.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\DreadLaboratory.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Manor.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNDreadLaboratory.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNManor.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDreadLaboratory.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManor.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\NecroGlow.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\NecroTail4Faded.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\spikebeambw.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\DarkGothicWindow04.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\dust3.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\GhostV5UltraWide.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\NecroStar.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\ATCbullettime.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISATCbullettime.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\PASClaw.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASClaw.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTN_cr_GOBgogles.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_cr_GOBgogles.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNImpactBolt.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNMana gloves.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNMana gloves.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNGiantRatWhite.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNGiantRatWhite.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\bubble.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\greenblobs.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\greensplat.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\SpiderToxin.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\EssenceGlow.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\groundcrack04.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\VerdantTail12.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\WidowPoison.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNImpactBolt.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\PASSlowSpellGreen.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASSlowSpellGreen.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSlowSpellGreen.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSlowSpellGreen.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNStrider.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNStrider.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\PASStrider.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASStrider.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNTarget.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNTarget.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\PASTarget.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASTarget.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNClaw.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNClaw.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Textures\\LeftBlank.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Textures\\STarget.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\SnipingTarget.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNCorrosiveBreath.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNCorrosiveBreath.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\DarkIronTavern.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNDarkIronTavern.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDarkIronTavern.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNlament.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNBreezerious.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBreezerious.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\Model_Unit_Titan_Breezerious.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\SilentTornadoElemental.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNHeroRiflemanElite.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHeroRiflemanElite.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "Textures\\RiflemanElite.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\RiflemanElite_Portrait.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\RiflemanElite.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNEyeofKilrogg.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNEyeofKilrogg.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNRingoftheLeech.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNRingoftheLeech.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNBetrayer'sThirst.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBetrayer'sThirst.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\BTNSpineLauncher.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpineLauncher.blp"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\EarthShell.mdx"
+    },
+    {
+      "Flags": "UNK1, UNK4, UNK8",
+      "FullPath": "war3mapImported\\AncientOfStone(heavy).mdx"
+    }
+  ]
+}

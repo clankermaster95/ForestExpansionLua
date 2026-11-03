@@ -1,0 +1,94 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1479553106,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819700327,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "glvl"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 828794215,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1299",
+      "SanityCheck": 0,
+      "_field": "gef1",
+      "_resolvedText": "rats"
+    },
+    {
+      "Id": 829386087,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "gmo1"
+    },
+    {
+      "Id": 828465767,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "gba1"
+    },
+    {
+      "Id": 1651271527,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gglb"
+    },
+    {
+      "Id": 1835820903,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gglm"
+    },
+    {
+      "Id": 1651078247,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 45,
+      "SanityCheck": 0,
+      "_field": "gtib"
+    }
+  ],
+  "_rawcode": "R00X",
+  "_base": "Rhme",
+  "_name": "Heated Gunpowder X"
+}

@@ -1,0 +1,276 @@
+{
+  "OldId": 1634891090,
+  "NewId": 1396125778,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7833",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dexterity I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9837",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7835",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dexterity I [20.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7836",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases movement speed of all husks by 20."
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCreatureAttack.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedCreatureAttack.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedCreatureAttack.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedCreatureAttack.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9838",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9839",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9840",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9841",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8075",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Cultist)"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7844",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dexterity II [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7845",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dexterity III [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7846",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dexterity IV [80.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7852",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dexterity V [100.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7853",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases movement speed of all husks by 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7854",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases movement speed of all husks by 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7855",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases movement speed of all husks by 20."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7856",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases movement speed of all husks by 20.|n|nThis is the last movement upgrade."
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7857",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dexterity II"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7858",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dexterity III"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7863",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dexterity IV"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7865",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dexterity V"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R07S",
+  "_base": "Rura",
+  "_name": "Dexterity V"
+}

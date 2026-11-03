@@ -1,0 +1,26 @@
+{
+  "OldId": 1869571688,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768975733,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 1869571688,
+      "_field": "umpi"
+    },
+    {
+      "Id": 1836084597,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 1869571688,
+      "_field": "umpm"
+    }
+  ],
+  "_rawcode": "hfoo",
+  "_base": "hfoo",
+  "_name": "hfoo"
+}

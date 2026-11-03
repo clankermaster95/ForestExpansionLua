@@ -1,0 +1,52 @@
+{
+  "OldId": 1785033281,
+  "NewId": 825438273,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1734",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals a target for 500 health over 10 seconds. Works on buildings. 20 second cooldown."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3021",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Furbolg Shaman)"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_829",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5346",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Reju|cffffcc00v|renation"
+    }
+  ],
+  "_rawcode": "A031",
+  "_base": "Arej",
+  "_name": "A031"
+}

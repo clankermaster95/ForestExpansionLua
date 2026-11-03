@@ -1,0 +1,79 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1462972520,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4132",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Nether Rip"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Orc\\Voodoo\\VoodooAura.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCharm.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_209",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4133",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Nethe|cffffcc00r|r Rip"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10150",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A rip in the space time continuum, it serves as a wall to protect you. Can be upgraded.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h03W",
+  "_base": "hwtw",
+  "_name": "Nether Rip"
+}

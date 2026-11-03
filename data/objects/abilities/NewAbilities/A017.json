@@ -1,0 +1,48 @@
+{
+  "OldId": 1635010881,
+  "NewId": 925970497,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 2700,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 7,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 7,
+      "SanityCheck": 0,
+      "_field": "adur"
+    }
+  ],
+  "_rawcode": "A017",
+  "_base": "AIta",
+  "_name": "Orb"
+}

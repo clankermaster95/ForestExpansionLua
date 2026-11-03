@@ -1,0 +1,44 @@
+{
+  "OldId": 1752459378,
+  "NewId": 1144008777,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1706",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Gem of Life"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1707",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Gem of Life"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_4932",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases your hit points by 500."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_5662",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your hit points by 500."
+    }
+  ],
+  "_rawcode": "I00D",
+  "_base": "rhth",
+  "_name": "Gem of Life"
+}

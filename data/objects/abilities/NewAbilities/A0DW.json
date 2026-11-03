@@ -1,0 +1,39 @@
+{
+  "OldId": 1952598337,
+  "NewId": 1464086593,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 829186633,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "h062",
+      "SanityCheck": 0,
+      "_field": "Ibl1"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    }
+  ],
+  "_rawcode": "A0DW",
+  "_base": "AIbt",
+  "_name": "Build Tiny Barricade"
+}

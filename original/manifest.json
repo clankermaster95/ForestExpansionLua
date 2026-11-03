@@ -1,0 +1,2074 @@
+{
+  "war3map.doo": {
+    "bytes": 266104,
+    "sha256": "b68db039caf77d7d0bdd628a59526991e967c7e65bfcfabda6b5a45dce59cb33"
+  },
+  "war3map.imp": {
+    "bytes": 22612,
+    "sha256": "6a58270f1de8d4802d7bf3f895ef7558e76da317c6239941c96178f16b8e6e27"
+  },
+  "war3map.j": {
+    "bytes": 877535,
+    "sha256": "610a7d94ae04a8529e2aac6641e8a254f2a31e1bf541cbec1e15ed91282f43c6"
+  },
+  "war3map.mmp": {
+    "bytes": 232,
+    "sha256": "d4ccd6cf62d94911b803e05a5a7261b81ff7d698504c1824b4bb4eed6e7c9f0a"
+  },
+  "war3map.shd": {
+    "bytes": 262144,
+    "sha256": "8a39d2abd3999ab73c34db2476849cddf303ce389b35826850f9a700589b4a90"
+  },
+  "war3map.w3a": {
+    "bytes": 170071,
+    "sha256": "20577a87d73b5039be915c282d1e45bddb6caae2f1fd2407775aa52106185057"
+  },
+  "war3map.w3b": {
+    "bytes": 84,
+    "sha256": "952cafe60c77169abf011fc7aa6c68cdea1f32b5d3382bd32699c97c364251ad"
+  },
+  "war3map.w3c": {
+    "bytes": 8,
+    "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+  },
+  "war3map.w3d": {
+    "bytes": 56,
+    "sha256": "742af83ee1478c18bd66e433cd4412e6b56c41b8069ff4006fad90f62d53e463"
+  },
+  "war3map.w3e": {
+    "bytes": 133213,
+    "sha256": "087c752f916305d40f5b3df9404bc35164aad9fe9d687dced022262d50f17401"
+  },
+  "war3map.w3h": {
+    "bytes": 3593,
+    "sha256": "2db7063a9dbe9b45a80bcad7f416b80bfb6e3082caae73f5db10763a6595cd0e"
+  },
+  "war3map.w3i": {
+    "bytes": 915,
+    "sha256": "e7aac40e5540a86965004bdce791e7de827cde88ef87faf5f8cfb29de806bd10"
+  },
+  "war3map.w3q": {
+    "bytes": 74705,
+    "sha256": "8afb040390f12f3e1a5cc6612c21d31a69aa689f623b7a45aa71daca1a2ad144"
+  },
+  "war3map.w3r": {
+    "bytes": 1642,
+    "sha256": "ba306bf840793231abb342d3e7c7a394c464084587d6dd3e90be4112c193f43c"
+  },
+  "war3map.w3s": {
+    "bytes": 6208,
+    "sha256": "a9bf32a0843e706cfc90b3ec1f78b9c11b679dec8edc882d60330f56a8e9f0c9"
+  },
+  "war3map.w3t": {
+    "bytes": 8503,
+    "sha256": "64472c951e1958b2eb40dc319ba0477f55e1bc64f6269159efde1a49d885285e"
+  },
+  "war3map.w3u": {
+    "bytes": 151787,
+    "sha256": "5f62d69ff7b85ec722c04721e6eedd5b6dc066cb80e7a15bc06db5f66f322fe0"
+  },
+  "war3map.wct": {
+    "bytes": 349767,
+    "sha256": "1781599b933dcc024e1458d83711ad00b19b094afbe767243b31d6f4779802d7"
+  },
+  "war3map.wpm": {
+    "bytes": 262160,
+    "sha256": "502f61194738f8af51b8b269b54d69be14aae317ab673caf8b447b84f3f8a8b0"
+  },
+  "war3map.wtg": {
+    "bytes": 396968,
+    "sha256": "71b3e8c3af309f0b0d5ca56c4f59071add49cb1c47bec05f10db88879fcd6a8a"
+  },
+  "war3map.wts": {
+    "bytes": 1486346,
+    "sha256": "e09e20c1f9c9908daae0f5169963630a65a6f1f70e2fc5a9a61629747d57f05e"
+  },
+  "war3mapExtra.txt": {
+    "bytes": 49,
+    "sha256": "50bd7614c6037b3b2b607c71e4937d24b934beee39cdc4427a15f693599cb9e4"
+  },
+  "war3mapMap.blp": {
+    "bytes": 18071,
+    "sha256": "cea57308bf86228f55525b675aadde8a966c5e493e8ab66fc51dad237122c530"
+  },
+  "war3mapMisc.txt": {
+    "bytes": 707,
+    "sha256": "d1d3b8bc0eb7b946f5b11328da29e1e61b3640bb5563a15683ad6247cbe7555e"
+  },
+  "war3mapSkin.txt": {
+    "bytes": 795,
+    "sha256": "14e434f07c0995cda256c58d9cbbbcff31b8c893e9281e3eba2679ccd374a673"
+  },
+  "war3mapSkin.w3a": {
+    "bytes": 177383,
+    "sha256": "bb231dc998ea9cfe253b7339be90f147569dff2a3d5eed7d5a2d1eb97bb16309"
+  },
+  "war3mapSkin.w3b": {
+    "bytes": 52,
+    "sha256": "ae2e69c47f3bbcc5a4d956c78c2dda59b5ef5a9d4aa9a95945b08ee14c6cc145"
+  },
+  "war3mapSkin.w3d": {
+    "bytes": 32,
+    "sha256": "0049f627ad824e1c80f0d01dfe3044acef74c4e775e3f2dfb35093946393e559"
+  },
+  "war3mapSkin.w3h": {
+    "bytes": 28990,
+    "sha256": "c9998b18956be800cdb7bf67afde5597a3ecf02d1056499fd0fdef55300cd12d"
+  },
+  "war3mapSkin.w3q": {
+    "bytes": 258972,
+    "sha256": "a84a9a593aee85bb703e3a9b501ea2110c624460ded1b89b570c0f468a7dac51"
+  },
+  "war3mapSkin.w3t": {
+    "bytes": 16376,
+    "sha256": "ede1bfafbdc64e287cd28605de2651391f369ac3b03115a1f468ab9ea15baf9b"
+  },
+  "war3mapSkin.w3u": {
+    "bytes": 127957,
+    "sha256": "9bae2f4195a198e264ccc4cbf21eeca3c76817194dfe7ccacef9c8abcb3189e7"
+  },
+  "war3mapUnits.doo": {
+    "bytes": 5191,
+    "sha256": "440d965192a2fad68b6bf58e9b157012116b47fc89aaed773547184499fd821a"
+  },
+  "conversation.json": {
+    "bytes": 64,
+    "sha256": "0b3d1bdf2b0e90a774b1e1278e038a670c5b3066019dd8e8849655a4cdea08cf"
+  },
+  "war3mapImported\\GoldOre.mdx": {
+    "bytes": 21259,
+    "sha256": "c1f6c8c7937a5e73016d69f320eb4993e35b457c2cde782c13598cabaeddb3ef"
+  },
+  "war3mapImported\\BTNShaftRats.blp": {
+    "bytes": 6300,
+    "sha256": "081c4b71d26a5a7918528f2f52412bc13b586c544d088a832975a961d162d3d5"
+  },
+  "war3mapImported\\Eyes.blp": {
+    "bytes": 1227,
+    "sha256": "661ce0624de75e1ee24b16f4555b3adf6d8a3ff85e0a3df7c40306ff12756b4a"
+  },
+  "war3mapImported\\OgreWarlord.mdx": {
+    "bytes": 121247,
+    "sha256": "cf78671714bb0224a2feb35ea73928e4dffaa1a938e9a8da450c1c6332562326"
+  },
+  "war3mapImported\\RedDragonFirePhalanx.mdx": {
+    "bytes": 224499,
+    "sha256": "c96150af60dd30c908a4542156b4927cbb9751b6accbe7eeb99fb95338715fbc"
+  },
+  "war3mapImported\\Cannon.mdx": {
+    "bytes": 50840,
+    "sha256": "09143b22b643f361046d09ab650696aaf390defffc1d6e24d67f18ec6c301700"
+  },
+  "war3mapImported\\CentaurTent Camp2.mdx": {
+    "bytes": 52614,
+    "sha256": "6208e520aa8c138c4f8c4cb30a94b8dd9603e4c184f6e9bf5cefe41d86216536"
+  },
+  "war3mapImported\\FlamerGoblin.mdx": {
+    "bytes": 73525,
+    "sha256": "f49320f3a0817f3c6204baf2fd90b24c1bae81df7c0835fae4c6a322038882b1"
+  },
+  "war3mapImported\\WCIIGoblinAlchemist.mdx": {
+    "bytes": 61561,
+    "sha256": "7028b19ef0d22f39a0f98c1b1454596a274a8f9814dcd8c47fda7d9a46805f51"
+  },
+  "war3mapImported\\LoadingScreen.mdx": {
+    "bytes": 1304,
+    "sha256": "404f45a52cfc09d22889e08074f24fb63ea26cf6b68c18d150c81482b372bdee"
+  },
+  "FullScreen.blp": {
+    "bytes": 288256,
+    "sha256": "3b8223a5fcad6705f364f13f88abd70236e25bda01ac9ce5dc6f3e0cb58e5758"
+  },
+  "war3mapImported\\IceCrownOverlordX.mdx": {
+    "bytes": 307264,
+    "sha256": "e0bd58ec2963ef1817da7ddd0ea3e35e5bf36eda2ae91984eafca24f272dd496"
+  },
+  "war3mapImported\\BlackSmoke1.blp": {
+    "bytes": 8684,
+    "sha256": "a27650f07e5555b3b6395cb7e2539223860ec9fb7192606f13f46d6c4542912e"
+  },
+  "war3mapImported\\OgreBeserker(Helmet).mdx": {
+    "bytes": 119382,
+    "sha256": "0532f2afc89a2cab347cc135764e619186afcdece9a615076b0aff50e91d81a7"
+  },
+  "war3mapImported\\WaterTotem.mdx": {
+    "bytes": 35000,
+    "sha256": "0e73e38026a8500cb7531532aa65bc9b582501f0bddeaedbe882ae6a5537b067"
+  },
+  "war3mapImported\\FireTotem.mdx": {
+    "bytes": 34968,
+    "sha256": "48944d54ef0cecd0fab3286e3ceab257ad05e95aa3bfcf3e5b04c5c4a30ba495"
+  },
+  "war3mapImported\\WaterCrumble.mdx": {
+    "bytes": 10930,
+    "sha256": "8a3a05bf1f2720bf52f4a959e767e16e89bb01ac767f253c8dc3fe6239c8764d"
+  },
+  "war3mapImported\\VoidLord.mdx": {
+    "bytes": 83254,
+    "sha256": "658cdcab188301a924e3ec116f16f9d95c52f92b5c8bff4eaec651b5f6b9616d"
+  },
+  "war3mapPreview.tga": {
+    "bytes": 196626,
+    "sha256": "dd041c32ee0edc19d4a54a7ad19018f127961c811d7966ac6b851ec2e6a9e3d0"
+  },
+  "war3mapImported\\ImpNecromancer.mdx": {
+    "bytes": 135943,
+    "sha256": "e2da88dd42f8f9e4d9d8ee663cf446731aae9797578efdb9533597860ebe19e7"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNScytheBackstab.blp": {
+    "bytes": 9110,
+    "sha256": "020738075efc070f2a19ed495cede6e954fe1226aa68ca39a5f67b037919ecc1"
+  },
+  "war3mapImported\\FacelessOneWorker.mdx": {
+    "bytes": 80512,
+    "sha256": "12187b7eb6bf4bcbd07e4512756a75015a950022995bed3abdff8f1bfd5b6167"
+  },
+  "war3mapImported\\SoulDevourer.mdx": {
+    "bytes": 122052,
+    "sha256": "dcaa328a86d64e1e95fc10f833c24654966ce6897c23123b490d654926fc4ab4"
+  },
+  "war3mapImported\\FacelessOneMastermind.mdx": {
+    "bytes": 116409,
+    "sha256": "f0770b0bcccf504e34fbbb1363446ed60b326d333550ea2a117b79cc0e02cb99"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_BloodBoil.blp": {
+    "bytes": 9457,
+    "sha256": "de2838bb094b4482a3dd224ce497621b69393eb31621332ac7e6219caae40d51"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_BloodBoil.blp": {
+    "bytes": 6467,
+    "sha256": "25148ced82c40673fb4810eea1947632de0da2510608d9858243b2490a659733"
+  },
+  "war3mapImported\\BTNgreenblood.blp": {
+    "bytes": 6641,
+    "sha256": "c5cfab39debd47431c4d8e43c180e35bb27ee8c97619225e9024650741deb949"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_Requiem.blp": {
+    "bytes": 9485,
+    "sha256": "4288bae039f7aecee2c7f84f5824cda67a4f9df0a1f3c32872b6ab76099f6ab5"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_Requiem.blp": {
+    "bytes": 6514,
+    "sha256": "14a72e92abfada69b39f290869384d1250b77f0b325859315e3348ec7bde944d"
+  },
+  "war3mapImported\\FacelessOneMastermind_Portrait.mdx": {
+    "bytes": 32418,
+    "sha256": "530bfd99ecae79422474cc5bd906a4ce5c3c5edd277cba66f03ae6f92f33cc8d"
+  },
+  "war3mapImported\\FacelessOneBerserker.mdx": {
+    "bytes": 87489,
+    "sha256": "6628833e2ca6586f0ea2752959c68c88cf9cce1a2f368c2579c8bb76056f0175"
+  },
+  "war3mapImported\\FacelessNightmareWeaver.mdx": {
+    "bytes": 74942,
+    "sha256": "49720d2dcc90a9de6b26f62ce0e8f66a88c3487ee14fad6fac4698743c0767fd"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_CORRUPTION.blp": {
+    "bytes": 6956,
+    "sha256": "9371a7ae9764622d8c34c2b6768737fe8a550560141f55eae4dbbded9a0182b6"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_CORRUPTION.blp": {
+    "bytes": 4048,
+    "sha256": "a77fb212524ccbecc94d92c2d2e80fe9afbf4a42a8e4ddeed5982afdac4623d0"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNEradication.blp": {
+    "bytes": 6300,
+    "sha256": "b52a721890157a995bca39ae2953d4e80785258440508f43e68f3dd640c41ff5"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNEradication.blp": {
+    "bytes": 6300,
+    "sha256": "db00402ad1f67967b4c075dec70c596a3e104acc1eff4f3d63cb1fa572180df6"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNgreenblood.blp": {
+    "bytes": 6641,
+    "sha256": "a3d74497afcd80a0622f527e0b472232d3a13044203b9749a3a7a0edca351355"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_ChillTouch.blp": {
+    "bytes": 8733,
+    "sha256": "98976551aa9abd94f94e03313b1de4f2b77e6ced33bc74d87a5b7a5d1f7aca20"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_ChillTouch.blp": {
+    "bytes": 5682,
+    "sha256": "73c32e1172180fef9e706ad45c9699bf2fed3aaeeeadcfdaa73205fbc01d324c"
+  },
+  "buildings\\human\\AssailantSpire.mdx": {
+    "bytes": 81087,
+    "sha256": "1b00dbad7741620e912b1c640ddd7392897e45a0a599bba1074eb3fbd7cef213"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_FRENZY.blp": {
+    "bytes": 7467,
+    "sha256": "fb1c8ef4c9dbde54a9a90e2dc13c9f85a2cfe93a522e0aa81490233282831a19"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_FRENZY.blp": {
+    "bytes": 4424,
+    "sha256": "8155dbf95b3389d80de34c706185047cc6bbbb5ed43452b95507936b5b0700da"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_FORGOTENone.blp": {
+    "bytes": 7961,
+    "sha256": "bb8042a0b80e1fb5e6fa433ab734a1e385a69cdaa80fdd0e3776ad7f2d9cbc87"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_IMPALE.blp": {
+    "bytes": 6720,
+    "sha256": "829ba81637439114a9a6301727f5f0eec0958727e14df19f198c5cda667b94fe"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_OLDGODS.blp": {
+    "bytes": 7665,
+    "sha256": "aa4b2d69608a738a9cd20c41b10d0d6614ecf2496e9cd4d6f987f7ab2b3026f4"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTN_cr_Nightmare Surge.blp": {
+    "bytes": 7266,
+    "sha256": "0023dd8c11a126bf4dca23f6999993ae234c4a80202612f8aeb8e4e38638a426"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_MindRot.blp": {
+    "bytes": 10567,
+    "sha256": "5de14cca61f16c418ac87f2883655880d88132163fb6efe6a30b02e215a8a360"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_FORGOTENone.blp": {
+    "bytes": 4694,
+    "sha256": "d65d74962a4288f1fb69b48ac26c8509ee27100eb17ccdd706386b4bfa835474"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_IMPALE.blp": {
+    "bytes": 3992,
+    "sha256": "f23e58a277f2f10f44dee482e0c338f720278821296aff17d425383d7cd9f9c7"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_Faceless_OLDGODS.blp": {
+    "bytes": 4591,
+    "sha256": "1b0e190c3e831be65f23b0ba4fce52bd1251886f60214731d7130018a7c6bfa9"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_cr_Nightmare Surge.blp": {
+    "bytes": 4281,
+    "sha256": "4e462c837c3f2ca01acb9a32f3ddf5f54cd3c6052eb1d12745b26f7b8def23fb"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_MindRot.blp": {
+    "bytes": 8109,
+    "sha256": "4f8e05cb85ac6e512334204436597347da6cda0332cdaf4bdb6c3194a3e4f9bf"
+  },
+  "war3mapImported\\BTNblackblood.blp": {
+    "bytes": 6641,
+    "sha256": "0b5516c548c919595a16f9328c4d44db62e73b955f64447af5a08fc2f51ba0d3"
+  },
+  "war3mapImported\\BTNblueblood.blp": {
+    "bytes": 6641,
+    "sha256": "b6c691858d7341fdbaba4a40a4d4b3f5286e459acf0a27ecd1886d8fae764572"
+  },
+  "war3mapImported\\BTNdeathsadvance.blp": {
+    "bytes": 6641,
+    "sha256": "803eee3f2d3fcd6bc31e3ecd436948b9d78433a3bb7da04cbf1c7bb85876ed09"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNpurpleblood.blp": {
+    "bytes": 6641,
+    "sha256": "52ddb47d4856edb1fb720d808f6d3ea0e3a9e9838bbdd5e6b81bea93315826ff"
+  },
+  "war3mapImported\\BTNyellowblood.blp": {
+    "bytes": 6641,
+    "sha256": "4cc40191afd8a99061a48d9e5617aeb1a86d6caf7b09b233e9f436bfdbd9df00"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNblackblood.blp": {
+    "bytes": 6641,
+    "sha256": "b2d794124cdf3a7db0b0c6bf8562853e1008f75bfd73e76d4061ff99bc8c1381"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNblueblood.blp": {
+    "bytes": 6641,
+    "sha256": "c9839f995dca7b7df1a6aa7a3e35a8e0a8ecd389bc23e79dd01d7e7bbf4865f3"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNdeathsadvance.blp": {
+    "bytes": 6641,
+    "sha256": "2e421f06a43a5119e3db91984693281e16ab9d1a279ec18e43742df770a6ff8e"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNyellowblood.blp": {
+    "bytes": 6641,
+    "sha256": "31bf634da9beedd1834fd0314e9a4e750c8cf3ef2289eeec0cac02157c521ec0"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNpurpleblood.blp": {
+    "bytes": 6641,
+    "sha256": "a060aa1c4d280036c08d81745af2c6d3de3c6c25e728bc9c380fde4e8968f876"
+  },
+  "war3mapImported\\BlackCloudOfFog.mdx": {
+    "bytes": 2014,
+    "sha256": "e36b768fec31c4ac80715ac4e4717e2f61c964fddb97d73b272de9e462788996"
+  },
+  "war3mapImported\\RedDragonFirePhalanx_Portrait.mdx": {
+    "bytes": 45769,
+    "sha256": "76707af07a393f07591c4ac3ac6badc4e4dda35d31ea12a563f4f7761f28ba9b"
+  },
+  "war3mapImported\\BluefireBolt.mdx": {
+    "bytes": 6662,
+    "sha256": "857f8440d8af7e617c615fe43d38d24a470baccc94c1a4b4e12d7aaf75779cea"
+  },
+  "war3mapImported\\AncientOfStone(heavy)_Portrait.mdx": {
+    "bytes": 19433,
+    "sha256": "d3fe7e5b7329e7eb6c459b2edc9349910c9f54f76a88e8cadc7cd62c5ff3ea6c"
+  },
+  "war3mapImported\\BTN_manaburn.blp": {
+    "bytes": 9486,
+    "sha256": "d20e714cadd34f257e4153ae7ebb02ef8c0fc222c5ea7bacbe978abe616ec94c"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_manaburn.blp": {
+    "bytes": 6939,
+    "sha256": "f0675abd4f168208dd851034c23f8fa0c82059cd2f5a4993dd0b8f1ec1044835"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNCRFacelessFORGOTENone.blp": {
+    "bytes": 6641,
+    "sha256": "9a69c60fffea0ce1a9391e173fc1d65861e2153bc56693f14c85f91e272352c5"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNimprovedunholystrength.blp": {
+    "bytes": 6641,
+    "sha256": "5fc3d9100bbbb409d8bea504f6a4efdb7b965506a67043539b25e65d7c49c4d8"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNSpellShadowRequiem.blp": {
+    "bytes": 6641,
+    "sha256": "5990aa455b153c1c542a8bd00757414dd6a9aaffcd69a3f3c79ad62dafe62640"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNSpellShadowBloodBoil.blp": {
+    "bytes": 6467,
+    "sha256": "25148ced82c40673fb4810eea1947632de0da2510608d9858243b2490a659733"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNSpellShadowBloodBoil.blp": {
+    "bytes": 6641,
+    "sha256": "2c970727ac0e75b04ec99412d668d2e5dc9566f6a98b368b911be8853f9267dd"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNCRFacelessFORGOTENone.blp": {
+    "bytes": 4694,
+    "sha256": "d65d74962a4288f1fb69b48ac26c8509ee27100eb17ccdd706386b4bfa835474"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNSpellShadowRequiem.blp": {
+    "bytes": 6514,
+    "sha256": "14a72e92abfada69b39f290869384d1250b77f0b325859315e3348ec7bde944d"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNimprovedunholystrength.blp": {
+    "bytes": 6641,
+    "sha256": "8351a87de55e715e02e080bcbb222eff2306a642927708a2515abd2b463d1981"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNfocusedanger.blp": {
+    "bytes": 6641,
+    "sha256": "da22a4f31a72ab1fd36b9806d17241c633b20c4dc69f83b8bcab234b2701c48e"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNfocusedanger.blp": {
+    "bytes": 6641,
+    "sha256": "87a547f89d4d2eedd2bcb4fbd46b633eb45724864f6293e6d8d6db5b69b0d8b3"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNShaftRats.blp": {
+    "bytes": 6641,
+    "sha256": "9b12de7efd73498a5aeb8895318b697f7e6c9c0d25cce96badd01a636b046573"
+  },
+  "Lightning_01.blp": {
+    "bytes": 5666,
+    "sha256": "665c23452b603ecef9d617173f2e35dcd0687ac11d09fbe646e5451e75e72f3e"
+  },
+  "Lightning_02.blp": {
+    "bytes": 5762,
+    "sha256": "37d875278b7914025954eb3588b55d7315f290f92afc43573c0233537e1efe8c"
+  },
+  "Lightning_03.blp": {
+    "bytes": 5772,
+    "sha256": "22da58896e05e0379261d14852c74984a29ee90f595cacc01cc5982bf1a0102d"
+  },
+  "Lightning_04.blp": {
+    "bytes": 5823,
+    "sha256": "c5132ca7f13086e496b3f8ada678f75d190b42426b22371332cf41b011c4040c"
+  },
+  "Lightning_05.blp": {
+    "bytes": 5676,
+    "sha256": "0577cd5fe4119d1c783f1bb19e4d7f3e1d01a12aefe6134e7cc8921e9f396eb7"
+  },
+  "Lightning_06.blp": {
+    "bytes": 5570,
+    "sha256": "e209db5d2fd63b835ad58eae2cde57fc311446e058415e3ee97b954cd0a0faf4"
+  },
+  "Lightning_07.blp": {
+    "bytes": 6025,
+    "sha256": "53b959c89f6a0259135e0b366224569ded0fafced34ab0b774b3a6f0ecd78818"
+  },
+  "Lightning_08.blp": {
+    "bytes": 5672,
+    "sha256": "28e51884508b9b38f7f15714cb00c1333f2593ba730e94bb0c085ee92b2af023"
+  },
+  "Lightning_Ball_01.blp": {
+    "bytes": 5881,
+    "sha256": "6e57841efd4ff965a8d8ba1b4abab7411ee6b8a0b1081012c1b1eb4dcf92a9d8"
+  },
+  "Lightning_Ball_02.blp": {
+    "bytes": 6335,
+    "sha256": "c6843a1718c49808da260393d7a5a4ab566e7d6dc7b5d1b87c45fbb04c80e61f"
+  },
+  "Lightning_Ball_03.blp": {
+    "bytes": 6057,
+    "sha256": "cfd9b6568ace85e9a587f15f1454be1af172d1a00623e32fc220538ad4e575a8"
+  },
+  "Lightning_Ball_04.blp": {
+    "bytes": 6313,
+    "sha256": "8a2034e26ef125ae68c71b0049cd65102bd440d93046dcc9456d4d554b050d07"
+  },
+  "Lightning_Ball_05.blp": {
+    "bytes": 6031,
+    "sha256": "bed9222fecbb91ad9472b4b823ab744e01e4e1d91880ce39d6b24c26cd29e6a3"
+  },
+  "LightningElemental.blp": {
+    "bytes": 40669,
+    "sha256": "a0b82c3fc7ec0749fa969390f5d8c5ee84d00334d4ee916dc5f8648cf13c0085"
+  },
+  "war3mapImported\\LightningElemental.MDX": {
+    "bytes": 262087,
+    "sha256": "098893f2a3ee66d4a62c26238ed8e8bc8cf5e4be6c2333b12b047e33984f2320"
+  },
+  "war3mapImported\\Archangel Female.mdx": {
+    "bytes": 136634,
+    "sha256": "9f881baf54a8029ac8902d63a5b7e7e142e657259b90f857152e82d1ed6e7f20"
+  },
+  "war3mapImported\\Archangel Female_Portrait.mdx": {
+    "bytes": 75725,
+    "sha256": "31d41e874d03a5143c9cf3827110e57af3b6b4d1975c3832b449e08a3fe8009e"
+  },
+  "Textures\\Tornado2b.blp": {
+    "bytes": 20690,
+    "sha256": "e67b46612d99de9807d7ea2bc2fd122db3bea54cd0ffc7e6a30f22c6a7e83619"
+  },
+  "war3mapImported\\HolyTornado.mdx": {
+    "bytes": 22150,
+    "sha256": "c82ad368ef8efc513c6d0604ce9aa2a9da4998c847d83cd09e300550c6d2726b"
+  },
+  "war3mapImported\\TreeGolem.mdx": {
+    "bytes": 66367,
+    "sha256": "53758e479bf929caf63471de2a0326343d719d34eae566272cd9c4def2c86fc2"
+  },
+  "war3mapImported\\TreeGolem_Portrait.mdx": {
+    "bytes": 67171,
+    "sha256": "db44feed0bce0afacff1411d988f0a6070927e1cec40ac5c10e9235ab805bdef"
+  },
+  "war3mapImported\\GlaciarAura.mdx": {
+    "bytes": 10365,
+    "sha256": "da01dc791cfa61e65e7b8ca6117bd3d85c582c524c64c60e77e5fe346b20b957"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTN_CR_BLOOD.blp": {
+    "bytes": 6057,
+    "sha256": "87067b94e49f0ea80e24cfecd8a9ad1737b66ea484e2b158d66df96b81469bb5"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_CR_BLOOD.blp": {
+    "bytes": 3205,
+    "sha256": "acc30ec5b6536d86340f45183abfc3d2402c49fc93833cc4a05206ee87ae342b"
+  },
+  "war3mapImported\\BETA_DenOfWonders.mdx": {
+    "bytes": 37178,
+    "sha256": "87b0df3468807fbebe46681bffde734855fb20f7d244e009657c5a993eec74c6"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNBlood Stinger.blp": {
+    "bytes": 15260,
+    "sha256": "fd5b9541ac51a91d9a78b0b649dbb57bdc444ff921f056910f9cc4c24cd06c26"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBlood Stinger.blp": {
+    "bytes": 6300,
+    "sha256": "b215cd43fb788a137e215e312199bd288704ba615b655ef90a0a793bc8805ce7"
+  },
+  "war3mapImported\\Cyclone.mdx": {
+    "bytes": 12077,
+    "sha256": "cc7d93e61c2cc9934163554de63d80c8114a9c8f78c39853cc69a519060922b5"
+  },
+  "war3mapImported\\HighborneCitadel V1.02.mdx": {
+    "bytes": 53790,
+    "sha256": "9ae4652683f170862480b52f3b6d3fc8b8677471f92253c306b99b565c26a092"
+  },
+  "war3mapImported\\StarfallMissle.mdx": {
+    "bytes": 16525,
+    "sha256": "498f315ee8bafeeaf20c87739fa2cf6db6eacb8d7a1f9c7820aff052a7dfe261"
+  },
+  "ReplaceableTextures\\CommandButtons\\ATCSunburst3.BLP": {
+    "bytes": 8905,
+    "sha256": "acc401dbe537ee17e6d5aa61a3e2eb6b6a7b194c55d0989699b911fecd0f977d"
+  },
+  "ReplaceableTextures\\ATTSunburst3.BLP": {
+    "bytes": 8128,
+    "sha256": "a151a87a13f3c59ad6e58d1b8aa415a80895a83aea042375d70990e98445c511"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNSunburst3.BLP": {
+    "bytes": 9013,
+    "sha256": "12772eec8a8c76c22020e5f28dce70343ec3e6a4f87f4cb738838ff54dcd0625"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISATCSunburst3.BLP": {
+    "bytes": 6449,
+    "sha256": "5115f8a20428fe6a97399620d169e46d8b0bf227f805842b274db9dfb654dda8"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSunburst3.BLP": {
+    "bytes": 6449,
+    "sha256": "5115f8a20428fe6a97399620d169e46d8b0bf227f805842b274db9dfb654dda8"
+  },
+  "ReplaceableTextures\\CommandButtons\\UPGUPGSunburst3.BLP": {
+    "bytes": 8611,
+    "sha256": "002e17d3a879eff0db3be9422ff989675f7da94f46ac527d97caade403160951"
+  },
+  "war3mapImported\\MegaBlast.mdx": {
+    "bytes": 20329,
+    "sha256": "52fab73608dba2ff612e61c141e5441d3137a97c66a57e32f2d72aebc4621a55"
+  },
+  "war3mapImported\\Healing Surge.mdx": {
+    "bytes": 15585,
+    "sha256": "9ff53f23660c5e52a70b5cdd45c7b86bf793979ac32c03da9939dc96aa24bb74"
+  },
+  "war3mapImported\\IonCannonBeam.mdx": {
+    "bytes": 9248,
+    "sha256": "500de4b8c85554f9776e688f9a42ae8eb130d074c209929d66450c162cb10993"
+  },
+  "war3mapImported\\Werewolf 71.mdx": {
+    "bytes": 140693,
+    "sha256": "9c104e04f972879990ccdd7e65f9b1f5d1ade281e55cd39705447e4216927ff7"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_SummonVoidWalker.blp": {
+    "bytes": 8911,
+    "sha256": "9c22c558eb3424807e13b57b6bba4ba5f0decefa5021af9493bddf6877881aa6"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_SummonVoidWalker.blp": {
+    "bytes": 5875,
+    "sha256": "331790bd9a02eb090ea5c4829b743291c28ff236fd2ecac1d4dea4ab07c146d6"
+  },
+  "war3mapImported\\EarthLich.mdx": {
+    "bytes": 90250,
+    "sha256": "7ff516ba95e9fc59fb65a4490093c3580fdf1318c45022b88cfb9e4c8b837116"
+  },
+  "war3mapImported\\EarthLich_Portrait.mdx": {
+    "bytes": 26515,
+    "sha256": "9bf9132aa67b17597743148acf5d7bce22205bced1c546b380912ae1883ba2ea"
+  },
+  "war3mapImported\\SandExplosion.mdx": {
+    "bytes": 11316,
+    "sha256": "fb28b1126c2891968bbd0d149d9b6b781096752e043a9cdaa74127f831a81dbc"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNSandstorm3.blp": {
+    "bytes": 8374,
+    "sha256": "2423d10fa9fa55db38e4c04cafea4a92ec04ae51c3bdb6fe6c68d24d320e586a"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSandstorm3.blp": {
+    "bytes": 6300,
+    "sha256": "34599dea467f15d342dc14a496fa6035c87e001c5536c4d426d5a0eb7fe75e96"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNSandBlast.blp": {
+    "bytes": 7239,
+    "sha256": "dfc907bcb14a2e143e385be6c1bd734ef5a5dc63e56357e5bc4d5da97eb8272e"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSandBlast.blp": {
+    "bytes": 4002,
+    "sha256": "fc77b9667a8c7700af06bdc2577d86fcb39b4825a9001292b26c888c6f5e7f58"
+  },
+  "war3mapImported\\SandAura.MDX": {
+    "bytes": 4456,
+    "sha256": "2d7eb530b2964c4993bfadf0826f19cf257e6359b89e84ce581ce840aa0ff619"
+  },
+  "war3mapImported\\BlackHole.mdx": {
+    "bytes": 8273,
+    "sha256": "d4c56c5598b2b816d6704f8b37b579af91274efac2a872de2c3afef7fc3f27c7"
+  },
+  "BlackHoleSkin04-64.blp": {
+    "bytes": 12102,
+    "sha256": "25d1758a17f72c13620bb4c54accb4d52abd3700f9fad5baec2edc96dccfb38c"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNBarbarian Brutal Slasher.blp": {
+    "bytes": 6300,
+    "sha256": "3828da3b6b15818dd8f4ca33a449240e18dc05869ad3e2854a7397d399fc7553"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBarbarian Brutal Slasher.blp": {
+    "bytes": 6300,
+    "sha256": "6a5515f373bc07870b59f8ce425161514387d6019435d811138c7a3d618f6c82"
+  },
+  "war3mapImported\\BlackHole2.mdx": {
+    "bytes": 12241,
+    "sha256": "b02686eb24ec4469850270e9baebd0c23cdd812ebd22f5e4ecf3c2cd0e7b9404"
+  },
+  "war3mapImported\\FireElementalNew.mdx": {
+    "bytes": 68608,
+    "sha256": "4ab3150893423164eafadf6b8e6966df3bb867d0b2ee1f810c1bb794e652df9e"
+  },
+  "war3mapImported\\btnswirlyblast.blp": {
+    "bytes": 15580,
+    "sha256": "aebe86b5a9bbd7fe6698055e0f06a7ecb1c41699beb60f504d3e3b0f5400629d"
+  },
+  "war3mapImported\\btnnebula.blp": {
+    "bytes": 11385,
+    "sha256": "20637279a25c3d28f630f0610821ea01ada85c2fc24f6d8dd2d09caaeef64a38"
+  },
+  "war3mapImported\\Arbiter.mdx": {
+    "bytes": 189500,
+    "sha256": "845d21f402abc14397924347c30993147b5fbf180800bf9134813304d2535c38"
+  },
+  "war3mapImported\\btnspellpower.blp": {
+    "bytes": 14080,
+    "sha256": "c6d5b1b96a4b00d715477821341e77e91060bc75c3810a763f9224d2aa3373da"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNspellpower.blp": {
+    "bytes": 3134,
+    "sha256": "d754306ac8e3beebf0a610eec91e48c2372586ad117609d1c5b70fbad1b12f2c"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNswirlyblast.blp": {
+    "bytes": 6300,
+    "sha256": "403149048172b7f08b25352f392a83fee1957223d4b83aeb1ba10714fbb7f387"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNnebula.blp": {
+    "bytes": 3848,
+    "sha256": "fdde032422fb5e75ac13ebcdd34c943bdfde55602b70e62b844db4fa87919e7b"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNScytheBackstab.blp": {
+    "bytes": 2297,
+    "sha256": "83518cd9a9aaed7ef83c9148d74feb635f0729ef8340ebc8a9ce21917591f9bf"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNHornOfFog.blp": {
+    "bytes": 5019,
+    "sha256": "2c036a1abd41103a2671bf2d6977406cb994c05d4115e3fad80364c6f548ef84"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNHornOfFog.blp": {
+    "bytes": 3498,
+    "sha256": "3402005afa356459e981850c5f416f7733f4bcc69f2f12e441f71d8e713b1acb"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNOrbOfFire.blp": {
+    "bytes": 3594,
+    "sha256": "46d26fcf9d786f84c2f4ad80a30478d0f6b7ea3238e1a1d2143141904931c712"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNOrbOfFire.blp": {
+    "bytes": 2673,
+    "sha256": "7fba5a99409c95ce1075fbec471869a1a4af4d8dfc21cf598cb998b36f65bbc6"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNresilience.blp": {
+    "bytes": 6300,
+    "sha256": "65d0720ff218a699f0f43bb10aea5db358281a2c2ffdd5207705ffd89be0f000"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNresilience.blp": {
+    "bytes": 6300,
+    "sha256": "dc7996d5a3d9149a89a573da91619383631e1762998d79a49af7173d8450e327"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNKoboldSenses.blp": {
+    "bytes": 3513,
+    "sha256": "2fc2863f84082942b245211a62d721b451f9af20093e2550a48d69516297dbfd"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNKoboldSenses.blp": {
+    "bytes": 2700,
+    "sha256": "ec485b6a3772040a934e34f8598d96bfb30df40f267fb81531d8569d097ea7ef"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNPhotosyntesis.blp": {
+    "bytes": 4073,
+    "sha256": "234d3b0037ab9d6852a6fb261bed35b437aaf803401c5b179e10e845d68fddeb"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNPhotosyntesis.blp": {
+    "bytes": 2830,
+    "sha256": "6c50f95e953a1f692e1c0c7217385753f2fc717f5f4f4d028b883683c92187e4"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNLightning_Ball_02.blp": {
+    "bytes": 4566,
+    "sha256": "9f6363e2904b79f49c16738a1e71d779fc92067cabcd51b233922d1e98db443e"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNLightning_Ball_02.blp": {
+    "bytes": 2918,
+    "sha256": "e4c3f88aaa5b23d5452ea90fc61e437ef089f25fe883914aaf25fca22f1be1e1"
+  },
+  "war3mapImported\\BTN_NerubianScepter.blp": {
+    "bytes": 10163,
+    "sha256": "077533fafe9f4806d4393d00ecedd30ddf207af090ce42c38dce8f5af26ccd59"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_NerubianScepter.blp": {
+    "bytes": 5840,
+    "sha256": "154385e9d437a6904f475815ca40bc86c6d605e1106cbc769098807809706877"
+  },
+  "war3mapImported\\BTNPlateOfPlaneswalker.blp": {
+    "bytes": 18575,
+    "sha256": "0cabf2d4fe4c22bb03feac28972b42f12e49754d1f4070d2aa931a078075648e"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNPlateOfPlaneswalker.blp": {
+    "bytes": 13002,
+    "sha256": "c600b5a41e7a161bdf83311a10bd40800646e0876afbafa6c4830ed3b8b8e336"
+  },
+  "war3mapImported\\BTNFireArmor.BLP": {
+    "bytes": 10500,
+    "sha256": "8c4b8505257d5cfbdba2c192684de8fbfa39d8efb581fd92a696c34522620180"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNFireArmor.BLP": {
+    "bytes": 7969,
+    "sha256": "b036e72adc2ddb29baa22a489c2c1a12221b63b29ab27ba96f132633435544f3"
+  },
+  "war3mapImported\\HeroEarthLord.mdx": {
+    "bytes": 292800,
+    "sha256": "733af9797f52e4481f2ffc1ed320664a465a8f2f3cc22f2f32ece37a8fa46073"
+  },
+  "war3mapImported\\ObsidianGolem.mdx": {
+    "bytes": 121839,
+    "sha256": "3b0bc976db8e3a129ad553fed4a8640d636341e5b8020d97e1fcadfb075d5af8"
+  },
+  "war3mapImported\\BTNObsidianGolem.blp": {
+    "bytes": 6641,
+    "sha256": "205f64b62d52de1ed23d5dc791c77f4050d5c232cd55ad2a0f99e1d913c9eaf8"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNObsidianGolem.blp": {
+    "bytes": 6300,
+    "sha256": "cd597f1c582c9b71d697705b34943cb96a0713a6061c76f70c3fc3bbf7f573b8"
+  },
+  "war3mapImported\\BTNBTNHellstoneGolem.blp": {
+    "bytes": 12102,
+    "sha256": "4a08565ee428e339e63a3b24d5d15663f6dad7d80c878b275376cc40ca822df3"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBTNHellstoneGolem.blp": {
+    "bytes": 12102,
+    "sha256": "e9973d85052a2d85ca995a8c9149673bd64acfe3fabbce231a06c78409ae9e37"
+  },
+  "war3mapImported\\HellstoneGolem.mdx": {
+    "bytes": 236244,
+    "sha256": "0ccaee0074c9f514ccadbceb38b271d155367b2dbebbd6774f3e75c17dfeecb6"
+  },
+  "war3mapImported\\HellstoneGolem_Portrait.mdx": {
+    "bytes": 55561,
+    "sha256": "9bc65546608d67d71ea52c6762a83b0733f9400440bdddb7423c82a3bc0a730b"
+  },
+  "war3mapImported\\BTNFireTempleKeeper.blp": {
+    "bytes": 4225,
+    "sha256": "6acf0d47adfdee61a4cdd5f0208e07839c954378ebeb1dc19e5e03a4bcb9e9ed"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNFireTempleKeeper.blp": {
+    "bytes": 6300,
+    "sha256": "3cf682c5fa030ba7329f4d471dad8c5dc3933f3ef7936881c33e60e00b6b1e7c"
+  },
+  "war3mapImported\\FireTempleKeeperElemental.MDX": {
+    "bytes": 143759,
+    "sha256": "cf2ed9217cdb8ff150252924e4ed5091ca469461f8d291f7472731a983694c72"
+  },
+  "war3mapImported\\Wight.mdx": {
+    "bytes": 673107,
+    "sha256": "d1c1cdbf801371fd5e0b906fdc588177b6a54def47174844ab68691ea439922a"
+  },
+  "war3mapImported\\BTNWight.blp": {
+    "bytes": 12102,
+    "sha256": "88eefb926c008f89a4906a018f2cec6fb976a947acf8651ce7329d230f64f90c"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNWight.blp": {
+    "bytes": 12102,
+    "sha256": "154871b0fddf180d2553fbd40ecbfa92a04864210c6e41b3450d4139c1eb31c9"
+  },
+  "war3mapImported\\BTNDark.blp": {
+    "bytes": 8200,
+    "sha256": "29cbedb1c596e3539be5480d23214e8f5f90effc16d32fb413aecdad035058fd"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDark.blp": {
+    "bytes": 6167,
+    "sha256": "d9f6d386642331aa0370dca69c17b45e88042b3cefd5a34f30dd93cd82ea355f"
+  },
+  "war3mapImported\\DarkTemplar_portrait.mdx": {
+    "bytes": 140209,
+    "sha256": "fb7febfc7fec11d7887d8674f610fe0a154f817bf2de748d3e693a2eee2baa1f"
+  },
+  "ReplaceableTextures\\TeamGlow\\TeamGlow02.blp": {
+    "bytes": 2624,
+    "sha256": "b916f00efbf13f73105ed732b8b56c5abf250598fce6773b809036ad77179abd"
+  },
+  "war3mapImported\\DarkTemplar.mdx": {
+    "bytes": 170431,
+    "sha256": "cf29db44d05584883ae3f2b74809860270b2b7586964566ad3a9264fc02985fe"
+  },
+  "Dark.blp": {
+    "bytes": 89686,
+    "sha256": "d4ef8c75cf6d33dea98302c3b19282f52d192bad90fe6119a2cb9684851f9e29"
+  },
+  "war3mapImported\\Dark.blp": {
+    "bytes": 89686,
+    "sha256": "d4ef8c75cf6d33dea98302c3b19282f52d192bad90fe6119a2cb9684851f9e29"
+  },
+  "war3mapImported\\LightRevenant.mdx": {
+    "bytes": 126440,
+    "sha256": "38fab1e62538ff3f004436804c49e940a4b01d49281bb87879c60d902bb4cb62"
+  },
+  "war3mapImported\\DivineGolem.mdx": {
+    "bytes": 182302,
+    "sha256": "4ea3daa15c41ebe9341686b5b3360371558402824e4a3ad5e0f5b27b084f7b26"
+  },
+  "war3mapImported\\DivineGolem_Portrait.mdx": {
+    "bytes": 55784,
+    "sha256": "52acb45e88b12c554dfd4306bb1cdd55506a3ac9621e0e76790aa76f38d8b93e"
+  },
+  "war3mapImported\\BTNDivineGolem.blp": {
+    "bytes": 12102,
+    "sha256": "d70653ae30027d7a47286c534d45103681ec2a04a1829c177c831d20e6095464"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDivineGolem.blp": {
+    "bytes": 12102,
+    "sha256": "f89c24918864906225a3cd2f31e3e68d2cca522e324ff29f2dfba3deac249ac9"
+  },
+  "war3mapImported\\SandElem.mdx": {
+    "bytes": 694806,
+    "sha256": "a95ca3d03220bfa2eaac3a769dccc252b269d769cc9a73458b78648ca459cfba"
+  },
+  "war3mapImported\\BTNHero Vizier of the Sands 64x64.blp": {
+    "bytes": 10889,
+    "sha256": "8d5c4cc97d1d056bb973f0ed39b27390e03fea371063f5466e3015d99b344ac8"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHero Vizier of the Sands 64x64.blp": {
+    "bytes": 7134,
+    "sha256": "8e5553e49a616ab2a5be7c6bc2d3812287cc51625561181d0d0434363b4f2910"
+  },
+  "war3mapImported\\BTNThunderKnight.blp": {
+    "bytes": 5900,
+    "sha256": "4fc6a0a7d0f3e6e1c9a10e8bdb5f9b961fe943aef4d09155de5fb042c499aaac"
+  },
+  "war3mapImported\\LightningElemental2.mdx": {
+    "bytes": 87767,
+    "sha256": "ec095df89d48ca09db850c4d9a9b95757204feb2dd94f4526e10f07518b0047b"
+  },
+  "war3mapImported\\BTNLightingElemental.blp": {
+    "bytes": 21843,
+    "sha256": "28ff50f78dce576f9ab3c472b9e83ba54059ddf6dc524e030055e93d06f3dc43"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNLightingElemental.blp": {
+    "bytes": 15798,
+    "sha256": "f8cb120382917679abf35182a16ade1c14316b665c5bc2b441ccedf93fdb5e2c"
+  },
+  "war3mapImported\\RootElemental.mdx": {
+    "bytes": 101863,
+    "sha256": "63932c5beb3ae3b130ec54de3b3240e0235fe3f0b310d90ef5ca44b982ec5e66"
+  },
+  "war3mapImported\\IceFiend.mdx": {
+    "bytes": 296441,
+    "sha256": "bcd676fac2397d5d3eae0532adf2699884effb50e4fd7a47e2e1d908ff8ef81c"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNThunderKnight.blp": {
+    "bytes": 3421,
+    "sha256": "6e074110a43ab23081d6f2007ae6a4bb90166c741c653df3104222e27fd7f19c"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNThunderKnight.blp": {
+    "bytes": 4960,
+    "sha256": "fcd9699a10bfdb18829e276d1338ad07381697ab2253d731e9a1c608f944db67"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNThunderKnight.blp": {
+    "bytes": 3538,
+    "sha256": "bb5dd14761362d548913d56267debf0e6087a3a6e0b54ee50b82cc1570e92b58"
+  },
+  "war3mapImported\\AncientWarrior.mdx": {
+    "bytes": 140369,
+    "sha256": "9263516a55e879e4f094e949234aa2bd2735a7e74c36935b1e681845b5bafab9"
+  },
+  "war3mapImported\\SSCHero Ancient Of Stome 64x64.blp.blp": {
+    "bytes": 7130,
+    "sha256": "6a182c7098fe500610a9bdb9153f2f8e4e3c90ea3f5bc6f4e8e9ffe0fcd7d2d6"
+  },
+  "war3mapImported\\BTNHero Ancient Of Stome 64x64.blp.blp": {
+    "bytes": 11043,
+    "sha256": "99fdb402028c8d3249bff95ba82707e993255f8970c022432ef7958ba90d2ac9"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHero Ancient Of Stome 64x64.blp.blp": {
+    "bytes": 7450,
+    "sha256": "f84413dfc662357f26167d18ece5bf262bfa1c74442fa1e2f3547a6d85187d81"
+  },
+  "war3mapImported\\BTNAncient of Lore (Spring).blp": {
+    "bytes": 5257,
+    "sha256": "847a34d78b7d91b3d77cb0fec9f70cfc6ad57d073c5cd04a700aa3820c05293b"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNAncient of Lore (Spring).blp": {
+    "bytes": 2923,
+    "sha256": "4f9a33aba0266fca4fe749bf3bfdfc1448cceb4a65d310dcc01fe06fadc37d86"
+  },
+  "units\\IceInfernal\\IceInfernal.blp": {
+    "bytes": 62679,
+    "sha256": "4b8debe59bc9d45e7ca24d3d9264cadaff9c074d6e66996e38757cad32fa638c"
+  },
+  "war3mapImported\\IceInfernal_Portrait.mdx": {
+    "bytes": 18276,
+    "sha256": "a8df1c9c1b793e862435a704c31e855499fbc91308766e593afe3ddb5213b324"
+  },
+  "war3mapImported\\IceInfernal.mdx": {
+    "bytes": 172310,
+    "sha256": "605a6a786988f8b32485550d36a892b5a29f680d0ba0fe7d993999d0a87ab534"
+  },
+  "war3mapImported\\BTNCrystalInfernal.blp": {
+    "bytes": 6351,
+    "sha256": "f4fcbcc7f86a254c55b44ed3c5fff7dcf81bb2fcf02a29a2a4a21213ba13d308"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNCrystalInfernal.blp": {
+    "bytes": 4575,
+    "sha256": "f8b87d08b511c0310e7a6ea3925b6d0f541812681735ba8b956d46805e120173"
+  },
+  "war3mapImported\\NerubianWorker.mdx": {
+    "bytes": 113084,
+    "sha256": "3eb0629e87f70aeaf03ec2186e383cc0881f63c585f6d0c9628292def11e7d8a"
+  },
+  "war3mapImported\\NerubianWorker_Portrait.mdx": {
+    "bytes": 23488,
+    "sha256": "9f2ba0033d4454fabc48f6a0d23ac8ea22fdc58cc89fd070991f14ca85ebc06d"
+  },
+  "war3mapImported\\BurrowableNerubian.mdx": {
+    "bytes": 117350,
+    "sha256": "e364815951dc76ae501ea91249e5a40ab280041deaa6ddfd8aff00816448999f"
+  },
+  "war3mapImported\\AltarOfDarknessZulDrakV1.02.mdx": {
+    "bytes": 43573,
+    "sha256": "4fae4524d7f6c50db0904e601ed66aa1563693f18e795463c946e67d47055f4c"
+  },
+  "war3mapImported\\BTNIceRuinsAltarOfDarkness.blp": {
+    "bytes": 21743,
+    "sha256": "392414c583a6bcf2265aabb8c7d75dab0e496e7568e781774f7d23ace4d9caad"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceRuinsAltarOfDarkness.blp": {
+    "bytes": 15076,
+    "sha256": "c2f755eba66529e47c55fef9265cdf543dcfd5853fdd756a98a17685eb44f240"
+  },
+  "war3mapImported\\BTNIcecrownTower.blp": {
+    "bytes": 16672,
+    "sha256": "f3c4199ed8e4c2a533002495d300b29d1a73e2fa25b0bb42917a6c062af1f18a"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIcecrownTower.blp": {
+    "bytes": 11409,
+    "sha256": "145af28d5b41218a0cb0933bd7c29b89e35778c641d5dbccdac41bef34a2bbe6"
+  },
+  "war3mapImported\\AltarOfTheSpider.mdx": {
+    "bytes": 76145,
+    "sha256": "a91bc90eb71506216f321d8a751d3e0a0dc2dc2013a3cf37ad0f7c056418a2d0"
+  },
+  "war3mapImported\\BTNSpiderAltarIconNew2.BLP": {
+    "bytes": 11662,
+    "sha256": "7946f3e63c254ccb831a9282d85a37c9e59bbd2d88844e40c2af45ebd5ab8511"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpiderAltarIconNew2.BLP": {
+    "bytes": 8539,
+    "sha256": "84604a3e8014dcfd33caaf553062c61486b43abb9fffe332a555d9067f7a0c22"
+  },
+  "war3mapImported\\BTNIceSpider.blp": {
+    "bytes": 4918,
+    "sha256": "9d086882d2cc180fb3c80b150ab89e57a36d8798c48e4f3496ccf60ddf93cc79"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceSpider.blp": {
+    "bytes": 2794,
+    "sha256": "737cd94df6e04d41544616f32815f7607064d30929d6f3b70fe92bb3207a6e45"
+  },
+  "war3mapImported\\BTNIceRuinsDimensionalGate.blp": {
+    "bytes": 21627,
+    "sha256": "2dc98329d4351370ee4e2f0b2e582000833425ecc4608cb8d8eea4de5bac3c57"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceRuinsDimensionalGate.blp": {
+    "bytes": 14836,
+    "sha256": "7d044b0f691fac20103bd07918db8d78b4ff10aeb9332136a9c5c61852ccc7f7"
+  },
+  "war3mapImported\\DimensionalGateZulDrakV1.01.mdx": {
+    "bytes": 70817,
+    "sha256": "00b2ff571e732fa493147f7f63d6e6aa3d387b8f4120205d4ea62f380a7c3c91"
+  },
+  "war3mapImported\\Dune Flyer.mdx": {
+    "bytes": 50462,
+    "sha256": "35aaae9a6e7109d5de705eeecc4eea9a262a44bcdf38b91f732dc601530dc22f"
+  },
+  "war3mapImported\\BTNSFW_Secret_Book_Of_Spiders.blp": {
+    "bytes": 6982,
+    "sha256": "0480ad3a3129a12e17cc15049004e36aa84359e2d60c6a82a9a82fcd9ecf401d"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSFW_Secret_Book_Of_Spiders.blp": {
+    "bytes": 4571,
+    "sha256": "c26cfd89f0ae5369ad3670f450a35425a3519eda58b430215b3db2d885cded55"
+  },
+  "war3mapImported\\BTNManaweave.blp": {
+    "bytes": 5426,
+    "sha256": "731b40f64895342e99c2fca57fb56cfe3616d049b43f05736e8077e0740e5ce2"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManaweave.blp": {
+    "bytes": 2973,
+    "sha256": "49590a47ac91b05e615b30a0569929d3d9620753b526450764dd2cc0f8cd6bc7"
+  },
+  "war3mapImported\\BTNToxicLongSword.blp": {
+    "bytes": 6641,
+    "sha256": "0f9356735a56eaa0467fa49a43200426d30b28dd45aeb7a3c1169162528f1a16"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNToxicLongSword.blp": {
+    "bytes": 6641,
+    "sha256": "4718049295363361212551c80be7adb392b04eec713a673891daffd0fdb36a0f"
+  },
+  "war3mapImported\\BTNSpell_Nature_NullifyPoison_02.blp": {
+    "bytes": 9755,
+    "sha256": "4f2fcb14d49c883291cc690ee65ebe41281d63f0dd8f72bbfb4166f6b317b73d"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Nature_NullifyPoison_02.blp": {
+    "bytes": 7205,
+    "sha256": "7cbce91f99b5a90af030fadf177c08ab06e6b0e4d720af8a6384443cd6a9b26a"
+  },
+  "war3mapImported\\BTNLongfang Infusion.blp": {
+    "bytes": 5230,
+    "sha256": "7a31e798ca76296c71004bf88b4f0d819887dc29d06f9ad21ee3fba873148f50"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNLongfang Infusion.blp": {
+    "bytes": 3330,
+    "sha256": "883f1f6e95326cd9a5c81dbff3c56a72786962b1e95a5959fb61d34c91413807"
+  },
+  "war3mapImported\\BTNSpiderRetreat.blp": {
+    "bytes": 12102,
+    "sha256": "4a88de2c1601ab9f0ad3b31ae36e1ce87db5358c96eeb46bbdf3615d7cb03ef2"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpiderRetreat.blp": {
+    "bytes": 12102,
+    "sha256": "20d38ead34c5b1e33b91d6bbf8836d833f5c1c423b4980b1c78a46f522fe9c8f"
+  },
+  "war3mapImported\\BTNNerubPunch.blp": {
+    "bytes": 6300,
+    "sha256": "57dd5dde14b368694951d28c3fa061be165d215e62cd815628dbb7442c8bdd19"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNNerubPunch.blp": {
+    "bytes": 6300,
+    "sha256": "7643d2f882c66890275eea3bdc5840f7b8983bd9fd846e0b893f1eadaae2bd82"
+  },
+  "war3mapImported\\BTNSpell_Shadow_LifeDrain.blp": {
+    "bytes": 7880,
+    "sha256": "aafbe590916e1b6bbcb70e6c6586e88f87f76a34e71d1b545e43600c90700e55"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Shadow_LifeDrain.blp": {
+    "bytes": 4382,
+    "sha256": "6865114b006fae79d828bd66a09d4394e14e32d100d1bb5a8d82c1a03ac588a4"
+  },
+  "war3mapImported\\BTNCaptainRevenant.blp": {
+    "bytes": 5868,
+    "sha256": "c294cff4d671512a0edbd5aef80dd9f5deebcd9da25fff8bfa8e0bcd4bc53e15"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNCaptainRevenant.blp": {
+    "bytes": 3438,
+    "sha256": "5d5ebb030c904f13a80331de9371e4b5eccee736ca2754d2ec0ce89c51e92372"
+  },
+  "war3mapImported\\BTNIceRuinsZigguratA0.blp": {
+    "bytes": 21473,
+    "sha256": "2245c53774f4495508107cc3f676a6e5e95b678994e32c8d4eafd2c6f997c266"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceRuinsZigguratA0.blp": {
+    "bytes": 14537,
+    "sha256": "440305a22d901a345e25bd7f796e1e89b5143dbe4d4d33aad71c44b49caa5be7"
+  },
+  "war3mapImported\\BTNIceRuinsZigguratA2.blp": {
+    "bytes": 21496,
+    "sha256": "02129cc2bf73826caeb2c0b887631f1de5f7f10776f4a62f4654b504867f8d1f"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceRuinsZigguratA2.blp": {
+    "bytes": 14509,
+    "sha256": "e2d3494427a73150a027615d228cdcb5d24e76b2309445db403a703bbea68f5c"
+  },
+  "war3mapImported\\ZigguratUndeadZuldrakV1.03.mdx": {
+    "bytes": 53948,
+    "sha256": "6df87d0d6f39743172fcbb18777b47507f0e97f5a0a45a6237967ea404ca4f06"
+  },
+  "war3mapImported\\BTNIceRuinsZigguratA1.blp": {
+    "bytes": 21076,
+    "sha256": "f253edd6e66fdf2e00eb4891d61d52526c2cc476ffc82d9dabf2c3640b75759b"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNIceRuinsZigguratA1.blp": {
+    "bytes": 14306,
+    "sha256": "fc7301d82e3853aa2d51d77cbe2179c2cb5fa3b84cd4af96602702fb5a286641"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNFrostClash.blp": {
+    "bytes": 3177,
+    "sha256": "f8cfa8460a9a473a0dd154bbdb21af13fd9a8f4a90c42c44e698cca48784a658"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNFrostClash.blp": {
+    "bytes": 4217,
+    "sha256": "3d1fa37885064186e608ceafaecfee586ad5de957b1006dbafa8b720f3b81bbb"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNIcecrownTower.blp": {
+    "bytes": 4401,
+    "sha256": "b665dba4c737c9bfd7d83a67c9781c7f896fb638cb982d87ac6db77183ada874"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNIcecrownTower.blp": {
+    "bytes": 3224,
+    "sha256": "7fb20a3a829a618e642c2213369d158c3aa6c22f912cfe73bd0a2e031dbf0e76"
+  },
+  "war3mapImported\\Furion V3.02.mdx": {
+    "bytes": 175143,
+    "sha256": "e94f3e32758bcbded96430f6ca28859800ce891260def4fa8986f93bb5063ffb"
+  },
+  "war3mapImported\\NEBlademaster_portrait.mdx": {
+    "bytes": 50864,
+    "sha256": "a5ab8a302c9f487659c62ff716252fbb12d789e4c5f53fda247d93e7f1451a89"
+  },
+  "Textures\\NEBMhead.blp": {
+    "bytes": 91628,
+    "sha256": "07113e2100e182d1a1f0b5949b424cb749936f020aae7389a841b84ad47c655b"
+  },
+  "war3mapImported\\NEBlademaster.mdx": {
+    "bytes": 181582,
+    "sha256": "77b231d55f51ff3dde8eae1d3185b7b0d6ada144cc0a919ee3867f48cb18343f"
+  },
+  "Textures\\NEBMbody.blp": {
+    "bytes": 98131,
+    "sha256": "9ecfea754a630f954a91382450eedcd8c0d8eb3dda14dbcb735c226585671c16"
+  },
+  "war3mapImported\\BTNNightElfPriest.blp": {
+    "bytes": 8922,
+    "sha256": "a428be82823184439fa10a9ec09838081be3139cb50489a2b4109881d1372e95"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNNightElfPriest.blp": {
+    "bytes": 6150,
+    "sha256": "537b7336b41b7ba9a5448811bfb142c015342d7349ec22daf503b2de1f822272"
+  },
+  "war3mapImported\\NEWarrior.mdx": {
+    "bytes": 81808,
+    "sha256": "1dd72ee746f2f0aa875459f4e89f1f520d9e6935064a365bccd591072415488b"
+  },
+  "NEWarrior.blp": {
+    "bytes": 54472,
+    "sha256": "97e4bb4b61e6da593ffafebc243d3c0ca4cd99ee98725d307e12f66baae93d0d"
+  },
+  "war3mapImported\\NEWarrior_portrait.mdx": {
+    "bytes": 48826,
+    "sha256": "2b9f806e2d77e12dffeaca1b564af05402459d3bf4f6c9cdca77176d8700a136"
+  },
+  "war3mapImported\\DruidOfTheAntlersV2.01.mdx": {
+    "bytes": 104923,
+    "sha256": "ec411c6d2bce7e715a3e074c34a7b854f874699c927d2c6ead315ccebbff87be"
+  },
+  "war3mapImported\\BTNDruidOfTheAntlersElk.blp": {
+    "bytes": 4911,
+    "sha256": "d8d7a882e1b388e8c4b479dad9ff48fe3b7bf5428d696ad7910383560c1ab714"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDruidOfTheAntlersElk.blp": {
+    "bytes": 3195,
+    "sha256": "b4211c32e44d3973c6324bf836b0dde5b5ff9d7092c309a4b0ba625613e9cac0"
+  },
+  "war3mapImported\\BTNDruid2.blp": {
+    "bytes": 5197,
+    "sha256": "f05da6dc4710c6f10795e7546f5685dcf6994971832b90f86bd9e97c48cf0898"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDruid2.blp": {
+    "bytes": 3210,
+    "sha256": "c1be45b2409c46ea114863e86e4334891841df5c8b736d0bf66c639b33996318"
+  },
+  "war3mapImported\\BTNShadowWarrior.blp": {
+    "bytes": 13777,
+    "sha256": "d85a56f1d68b77b2035b22a48b72b8186974152978b43a2973c2cf2c0535085f"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNShadowWarrior.blp": {
+    "bytes": 6300,
+    "sha256": "1957c6cf2a7775a344c4062500cc52d17f5f74ee0888e4f8fe08f39d80b83946"
+  },
+  "war3mapImported\\ShadowWarrior.mdx": {
+    "bytes": 69703,
+    "sha256": "761bde4b0368f8c9415cb6462ea568b740b44a4f4f15c9c8ba4aa6e39563fc08"
+  },
+  "war3mapImported\\ShadowWarrior_Portrait.mdx": {
+    "bytes": 19651,
+    "sha256": "14d785a6ac4d38a27344d279e27a39b8499e0d947578cebbc95d80d10d4d4d4e"
+  },
+  "war3mapImported\\TotemNightElfV1.00.mdx": {
+    "bytes": 46058,
+    "sha256": "51301930f473f8a566a46ccfd0c44fe7239f4c3ad6222cf9df8aa124bc96d2ee"
+  },
+  "war3mapImported\\BTNTotem (Night Elf).blp": {
+    "bytes": 5009,
+    "sha256": "780059850aa4a4bd318e5b619902bddea04c18a968cdb99133ba0af6b3250f53"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNTotem (Night Elf).blp": {
+    "bytes": 2622,
+    "sha256": "611d96268fb0da6484d7390735d3283566c9eb605c8caf514973d0b954cae7f7"
+  },
+  "war3mapImported\\BTNWisp.blp": {
+    "bytes": 3296,
+    "sha256": "74ed6d485590cfdbd5bdb0ddfe8d88aff9f0f8b00cdeeca566f3f2bf2829019e"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNWisp.blp": {
+    "bytes": 6300,
+    "sha256": "e653d0b08999980d3e98ab86943e903493ebf7aa571f4d939709678e2a41aca9"
+  },
+  "war3mapImported\\Wisp.mdx": {
+    "bytes": 14796,
+    "sha256": "a2fba4e31e494ee78c030c521b38cbbf7639f92a8f12f037d4e080be01169ada"
+  },
+  "war3mapImported\\GreatHallDarkTrollV1.00.mdx": {
+    "bytes": 161498,
+    "sha256": "93be67a572558408afee4099cc182c30ff83cf117b39ad0f795d4652bfb3e932"
+  },
+  "war3mapImported\\StorageDenGilneasV1.00.mdx": {
+    "bytes": 93118,
+    "sha256": "411f0ec14431cb27df51913e67095360b78645b96e4edd6b97e2607b68ec332a"
+  },
+  "war3mapImported\\BTNNightElfGraveyard.blp": {
+    "bytes": 6300,
+    "sha256": "02ab6513eb7c62074a733d725fad428c3459ff07796c30884db70a3d38ee10cd"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNNightElfGraveyard.blp": {
+    "bytes": 6300,
+    "sha256": "36c1c2f95538b2cad254da639a2beb37e67fe9f18b9b0f12b2cd8f8286817572"
+  },
+  "war3mapImported\\TavernGilneasV1.00.mdx": {
+    "bytes": 92359,
+    "sha256": "0d244f0ebf38cdfec0bdd43401d5a15f9707f415f50b3908a1ca9f2d6f094ed9"
+  },
+  "war3mapImported\\MarketPlaceGilneasV1.12.mdx": {
+    "bytes": 91414,
+    "sha256": "ec106b0bd9403e923a7fb92363cdf07cbf6956cc25b60f169fa09bfb2040fc76"
+  },
+  "war3mapImported\\BTNGilneanMarketplace.blp": {
+    "bytes": 6519,
+    "sha256": "07f108bbf4f0268130f427a11549550c816f13cbd504a21fd01dbbaec9cf1c5b"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNGilneanMarketplace.blp": {
+    "bytes": 4409,
+    "sha256": "9927cea36613c83f833e760afce4f7ba51c67ffacd576c440b86da2eb01ee109"
+  },
+  "Textures\\BackGround.blp": {
+    "bytes": 2155,
+    "sha256": "1adaaaa87415495541dcc047a56555b970f8be01a044c82b93cfbf6a2d6c89a6"
+  },
+  "Textures\\Elvenmerchant.blp": {
+    "bytes": 62510,
+    "sha256": "ba2c23357548679121546507e3291544c9c6e1b6ccacec3f54df25da82c3dc08"
+  },
+  "war3mapImported\\ElvenMerchant.mdx": {
+    "bytes": 136323,
+    "sha256": "419864b403d01159f71bf70088619bda0fa8bb4988190256b479399480a524f0"
+  },
+  "Textures\\Elvenmerchant1.blp": {
+    "bytes": 156392,
+    "sha256": "92ae1932359375187012a4198e8ab17c5ab27b870deff975dbce365e171a895e"
+  },
+  "war3mapImported\\BTNMerchant.blp": {
+    "bytes": 5801,
+    "sha256": "2f24fd478329c9760153d8df7566d12b9c4b886788a343f635697561d332917a"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNMerchant.blp": {
+    "bytes": 3238,
+    "sha256": "1977841c7982e42d62da8ed0dfc85a87ef12c44f0f24e08fc96008ac1c348e66"
+  },
+  "war3mapImported\\AltarOfWatchersV1.00.mdx": {
+    "bytes": 119256,
+    "sha256": "8e0cd864da5ea3cf477334e90b18941613349d9323fc05c8397421758963577d"
+  },
+  "war3mapImported\\BTNaltar.blp": {
+    "bytes": 5131,
+    "sha256": "51a99c65081b443e2e81f69dfd66255177c2b673ab237f57e372dae1cdfdfbd0"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNaltar.blp": {
+    "bytes": 2586,
+    "sha256": "2b8a4db7fa10b26fa847965be1956e1a1483ad3a670000380588f1aa0e744476"
+  },
+  "war3mapImported\\BTNSpell_Nature_Regeneration.blp": {
+    "bytes": 9738,
+    "sha256": "b74a13a45658c3b99c35418ff4496ae10c1d636b7ce28c6c279ee0c13c17b0e1"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Nature_Regeneration.blp": {
+    "bytes": 6939,
+    "sha256": "552295e9d08cfc7b41c3f3ee287669f56e7d54dc39743eba489277069d9c98f0"
+  },
+  "war3mapImported\\BTNArcaneEye.blp": {
+    "bytes": 4697,
+    "sha256": "2e145ac6046e344daa46b5aae4f7ec7ddf8cb8a7320b9a673045b1b32a1c9aa4"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNArcaneEye.blp": {
+    "bytes": 2943,
+    "sha256": "324b65e661e214cf9ce87b12141315dddd3881da129ca5c1300a904f0e725802"
+  },
+  "war3mapImported\\ArcaneAcademyGilneasV1.02.mdx": {
+    "bytes": 122495,
+    "sha256": "8f1bdd91592bde19cf2796b177b09647a1a967f220c8902ed547f31fc52558e2"
+  },
+  "war3mapImported\\BTNGilneanLibrary.blp": {
+    "bytes": 5801,
+    "sha256": "a1926856e888a163eb238c0c35dfd4d5bb2dc290f9cef2886a3a4fc4e07c419a"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNGilneanLibrary.blp": {
+    "bytes": 3905,
+    "sha256": "d2628adf6383cc407e60644d67adc91907047567ce9448ab8140042d6bd2452f"
+  },
+  "war3mapImported\\LibraryGilneasV2.00.mdx": {
+    "bytes": 82842,
+    "sha256": "ef4dc1f962b24f38922c87afc8ff3e74ba289177e4288594c2d79e881b9a2d26"
+  },
+  "war3mapImported\\BTNGilneanArcaneAcademy.blp": {
+    "bytes": 6183,
+    "sha256": "579eda0a8b7d5acc5f60cd5234ac01f747919d2ce4491dcb37ba9810969ba328"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNGilneanArcaneAcademy.blp": {
+    "bytes": 4203,
+    "sha256": "62066950444fbeb3e163939f710e0e9e31ee1e613477869e0b3cf9b2a8b60b6d"
+  },
+  "war3mapImported\\BTNBTNEternitysCrown.blp": {
+    "bytes": 12102,
+    "sha256": "19a95b3d5766f85e1fc35f89f1a767fed70f23190cef79b54bda55b85598f67b"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBTNEternitysCrown.blp": {
+    "bytes": 12102,
+    "sha256": "12878766f0fb3c251e7be39b7c9c7cfe328d4175cee6c0f0c986e65954dbaa02"
+  },
+  "war3mapImported\\Eternity's Crown 1537.mdx": {
+    "bytes": 887061,
+    "sha256": "41bd22d11327863e9551406819709093d3b96a4eff41d99863ba4842b4824a83"
+  },
+  "war3mapImported\\BTNMoonSkin.blp": {
+    "bytes": 5650,
+    "sha256": "45fa2762b132e968c9725ea5be13a393d033741d96b0753b96c903c86ead1459"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNMoonSkin.blp": {
+    "bytes": 3441,
+    "sha256": "5d2c3e1ef069b57dd45848e84e2450417228dd6c1e066240f39e65f328263235"
+  },
+  "war3mapImported\\BTNNature's blessing3.blp": {
+    "bytes": 6110,
+    "sha256": "4e20cd09dca1cfdeefede550ecfcbd3158dc785a7e3f9162bc2cca1ee6bd0761"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNNature's blessing3.blp": {
+    "bytes": 3831,
+    "sha256": "36d2ea002ea9e705b182c87987e446c5854b660067997cd8799a817e881f9c85"
+  },
+  "war3mapImported\\BTNEnt Rage.blp": {
+    "bytes": 15594,
+    "sha256": "6180d6ba293c891d96786328eee759de30bcdccadfc909254ac14daaf16c2d04"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNEnt Rage.blp": {
+    "bytes": 5660,
+    "sha256": "cd0b99e1dfe58bb6621aee930ae3b32f9d98c923faeb1dc99bfd452df2855709"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNEnt Rage.blp": {
+    "bytes": 6993,
+    "sha256": "03e742f0ef422b9fa0c9edb1e58eb244ba4104b259c04e2cf57ae60da4114490"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNEnt Rage.blp": {
+    "bytes": 5660,
+    "sha256": "cd0b99e1dfe58bb6621aee930ae3b32f9d98c923faeb1dc99bfd452df2855709"
+  },
+  "war3mapImported\\BTNSpell_Nature_ProtectionformNature.blp": {
+    "bytes": 9288,
+    "sha256": "19b4c7d1555ae1962743ab3d0436d0f6c5988ed7ed7a8fa50a3f6f881b5db6eb"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Nature_ProtectionformNature.blp": {
+    "bytes": 6370,
+    "sha256": "999787c4fbd1b29d9a6af0bec65ebdb4d59513212de81490dd62bb66488b3384"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNSpell_Nature_ProtectionformNature.blp": {
+    "bytes": 2662,
+    "sha256": "e1fb411afa8efc690bf3f0e89ddb0f03f39e7abb12d967491d97c66ad89d7253"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNSpell_Nature_ProtectionformNature.blp": {
+    "bytes": 3944,
+    "sha256": "aa9c0b315433df02e81ba55379795dbac0dde07cf8ab90f4a892d1623678f06f"
+  },
+  "war3mapImported\\BTNLifeBurn.blp": {
+    "bytes": 4149,
+    "sha256": "2acf1d98fe2202a8c2c067e55b974f9b2dba791fd9dc56b7952372ba516d071a"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNLifeBurn.blp": {
+    "bytes": 6300,
+    "sha256": "e76d592a7928ec3298aba4c13be45156e0a641f82c3e01b248957314241cc371"
+  },
+  "war3mapImported\\BTNarcanemastery.blp": {
+    "bytes": 4920,
+    "sha256": "339d3c3caee903f84fa71357530ae3cb02d88e7a802c63d7b912f7bd3d6a7cbf"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNarcanemastery.blp": {
+    "bytes": 6300,
+    "sha256": "9157059a1143e2e8415933606f432863f6091671d557ad6e584070ea05685cd8"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNarcanemastery.blp": {
+    "bytes": 3987,
+    "sha256": "e72fc7cc209c8e38684e97e53f56646f9bdc892e357298234d8f2af91f4e7f09"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNarcanemastery.blp": {
+    "bytes": 3187,
+    "sha256": "fccf5ae4e0e45140f88a76539e15463cf463dcc37364a9118859e35221227756"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNManaBreak.blp": {
+    "bytes": 3748,
+    "sha256": "f2b1afedfe4ec234af62f3966e409bd5eae02c6d4396393cdbc0f64ca0a3fcb8"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNManaBreak.blp": {
+    "bytes": 2779,
+    "sha256": "ba70d1cb502dbe958e6201b4e96e79f152ae30204c2cc75b093dc4c4b63cfd72"
+  },
+  "war3mapImported\\BTNManaBreak.blp": {
+    "bytes": 5029,
+    "sha256": "55097803a3f8f68b68670ceca2180e2dfa15620bf879ed9f9e84b00e87073237"
+  },
+  "war3mapImported\\PASManaBreak.blp": {
+    "bytes": 3748,
+    "sha256": "f2b1afedfe4ec234af62f3966e409bd5eae02c6d4396393cdbc0f64ca0a3fcb8"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManaBreak.blp": {
+    "bytes": 2779,
+    "sha256": "ba70d1cb502dbe958e6201b4e96e79f152ae30204c2cc75b093dc4c4b63cfd72"
+  },
+  "war3mapImported\\BTNManaDrain.blp": {
+    "bytes": 9808,
+    "sha256": "6af0294e43f18e6e5dccaf485116cd79c30d4d291904afa93341b16df5bad2af"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManaDrain.blp": {
+    "bytes": 6564,
+    "sha256": "af79b5683f6086a21c85c8180d0c38b9d856e3ff3cbf2600e661a3025137895e"
+  },
+  "war3mapImported\\BTNHeroHighborneWarlockAlternate.blp": {
+    "bytes": 6300,
+    "sha256": "260020d28ff2c80ef7d118b74681273a9e512c98b4e5eb4c6f0e864f848d54d3"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHeroHighborneWarlockAlternate.blp": {
+    "bytes": 6300,
+    "sha256": "0dbcafa9654d5083f585688e79c7a7c06eeb1b191e6ab6888fbf0fe47e52fd42"
+  },
+  "war3mapImported\\WarlockNightElfV1.04.mdx": {
+    "bytes": 239507,
+    "sha256": "66016dc56da0d668baa0c91f9ad9544d0acbda6a4e65491dda2c7c2bb10ef240"
+  },
+  "war3mapImported\\BTNManaReturn.blp": {
+    "bytes": 6641,
+    "sha256": "d72f38fded2c3a8606f9fa8c32842d2becf8adac1cd52a9f1e1508e6c10286f2"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManaReturn.blp": {
+    "bytes": 6300,
+    "sha256": "443c317e679d5273bcc412e0bb574223e13df6c54c8b14e45baa0f370ff59b1d"
+  },
+  "war3mapImported\\BTNArcaneBlast.blp": {
+    "bytes": 9135,
+    "sha256": "d2f22ba0cdc039547140330e9832c3711b3d4685af961789733c8b241c91c8ad"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNArcaneBlast.blp": {
+    "bytes": 5774,
+    "sha256": "e837f7a07e09fc7464229e58b6b1fc1fd48431482071d67a7c0d9ae9ef5f6486"
+  },
+  "war3mapImported\\BTNWarpling.blp": {
+    "bytes": 3732,
+    "sha256": "bfa188a1c2a2a77d9735bf2f81b31eafd3e4b9a8392ed5905db3a4d7101ebf73"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNWarpling.blp": {
+    "bytes": 1720,
+    "sha256": "e1124271b51816be60b016688ec149ac7c3c5fbd22119767824e12e97962743f"
+  },
+  "war3mapImported\\BTNtruesight.blp": {
+    "bytes": 5486,
+    "sha256": "d5bce1bd7b20514a3ccbdf756367d96278f7cb0bc2491ee39523c2f2530371e8"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNtruesight.blp": {
+    "bytes": 3553,
+    "sha256": "4a8f6e092a92ea549fd3ad4b2ac18bfef2761f191d156ae121e24e4110c7763d"
+  },
+  "war3mapImported\\BTNNatureSeed.blp": {
+    "bytes": 15262,
+    "sha256": "561ac12efd925c9a8af01c9f5170c0b944bd7b2a7538446bc4a8cd85d6b2d5ed"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNNatureSeed.blp": {
+    "bytes": 11815,
+    "sha256": "6798f2ba090d64158275701e9212e2ffd0da1b96a6ebd925602542a14a076091"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASBTNManaDrain.blp": {
+    "bytes": 8421,
+    "sha256": "d0e6db70fcbefcf9141e7a7287050c42ceb95e58cf707111627e448728664756"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNManaDrain.blp": {
+    "bytes": 6396,
+    "sha256": "34dca83faa2ff4167fca9f883d0e5e3c77bb6eeca8340a8c9baea1963d57332a"
+  },
+  "war3mapImported\\BTNCascadeTurnOff.blp": {
+    "bytes": 5995,
+    "sha256": "1547f5d5e77b4428054c6de11d4f924d1ff8cf69e1462fa886a5df0681f53d75"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNCascadeTurnOff.blp": {
+    "bytes": 3386,
+    "sha256": "68e70fe06a31533a351d0c3f2f3895b7019a7e3402f4566bdc68d93f3aec418d"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNAbsoluteZeroOn.blp": {
+    "bytes": 2315,
+    "sha256": "826b54b0773b19601264110c7ba3903180ae431bb86469f706c7a2aeefe2e876"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNAbsoluteZeroOff.blp": {
+    "bytes": 6300,
+    "sha256": "9314b8174a9a700599e1dcf822d056c24c7995326fae75c73c0c7c1443b9c510"
+  },
+  "war3mapImported\\BTNAbsoluteZeroOn.blp": {
+    "bytes": 4432,
+    "sha256": "83688d9760e8afbaa8edb2cce8e1e3a3a838e9de36aafc41555f302bb114e1e2"
+  },
+  "war3mapImported\\BTNAbsoluteZeroOff.blp": {
+    "bytes": 3973,
+    "sha256": "a0ea1f6833d6b468054649ac426338a5204b5924ffbb60f7221ed3bdf62edc68"
+  },
+  "war3mapImported\\BTNManaRestoration.blp": {
+    "bytes": 6129,
+    "sha256": "d63b8dc59117e16f82b03ca18ad26ed49bd302192299df7aaa6fb18b8e168045"
+  },
+  "war3mapImported\\BTNSlow.blp": {
+    "bytes": 4880,
+    "sha256": "80a6217d7815bb0c04380893246107c6924b1ad6076ac8765590c894948fe203"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManaRestoration.blp": {
+    "bytes": 3496,
+    "sha256": "8eddfcd483bf16ce6afff83d007f7098ed867f165d468988175c865a5534be72"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSlow.blp": {
+    "bytes": 6300,
+    "sha256": "0591a90cf249ad1f1336453ef1f8598e7a50d58146f0585905baca677ecb1874"
+  },
+  "war3mapImported\\Great Lightning.mdx": {
+    "bytes": 23934,
+    "sha256": "335e16ce10848335fd2c41b7a351655e7d90ba078c7ef1cb69f276be1a78d90d"
+  },
+  "war3mapImported\\BTNSpell_Nature_Lightning.blp": {
+    "bytes": 8739,
+    "sha256": "178dcb34ec666dc830fce964cacba6079b6ef2e05e4ac8dabb4750fd98a1cc56"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpell_Nature_Lightning.blp": {
+    "bytes": 5837,
+    "sha256": "eaf5d8fac08a5be9c66c4f5b24f5f2920d4fd007df1fa3ef749988866372c017"
+  },
+  "war3mapImported\\BTNArcaneGuardian.blp": {
+    "bytes": 14344,
+    "sha256": "f13a44283364fc002bfbe5860408ee4d9ae1b0531726f267c46316c9dd12b4a5"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNArcaneGuardian.blp": {
+    "bytes": 2999,
+    "sha256": "ebc12942d53254b980a554b21a236b3ea02ccabc0d4a66f57f90b592d9b67872"
+  },
+  "war3mapImported\\ArcaneGuardian.mdx": {
+    "bytes": 75571,
+    "sha256": "a9d094f9899044330a0f9df462a13cb91f96e734cb305615149ab6a99b0a5289"
+  },
+  "war3mapImported\\BTNGoblinRocketBoots.blp": {
+    "bytes": 9074,
+    "sha256": "7703353d91cd48ac50e8536d3c7ae854d1ce1b7f1cb3c5edab13a1237f133b96"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNGoblinRocketBoots.blp": {
+    "bytes": 6617,
+    "sha256": "cab08cf73cac85f90a707a580ca64f5eb8f498c9c2318d0080ebae79685242cc"
+  },
+  "war3mapImported\\BTNThornyShieldOff.blp": {
+    "bytes": 5747,
+    "sha256": "79de726a932f4cc8fcf13654c74f9f32a020efcc5ba6d865b7b6ca25a5f22c76"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNThornyShieldOff.blp": {
+    "bytes": 3091,
+    "sha256": "eb3e7f8a04a59a3a632a574168c32b0a4d5abd0ea94e0b844287d7ba3dbed843"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASCoin.blp": {
+    "bytes": 6300,
+    "sha256": "07c75aeff53037689230b8431b854f5c7915b87e1c2df7d66ccd20b2bda821c8"
+  },
+  "ReplaceableTextures\\PassiveButtons\\PASCoin.blp": {
+    "bytes": 6300,
+    "sha256": "6e8bf27bcb9db0d7c1871fddefa0cdf4acd362a501790d74d3c98e3eb5ca1f14"
+  },
+  "war3mapImported\\BTNLavaWave.blp": {
+    "bytes": 6641,
+    "sha256": "a7dcebcfdc63ac22f589a415e678f29ca9cff53ebf03af024e7f5fca93fc9d2c"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNLavaWave.blp": {
+    "bytes": 6641,
+    "sha256": "82195c481a7224d5c68e26259e824f9b918a89ec32962f741359f0517fbed155"
+  },
+  "war3mapImported\\BTNtrollhut.blp": {
+    "bytes": 4107,
+    "sha256": "3bcb79e30b2c06ee75621326fb016dac0c8be79eb3b6f53c857b471bd8e026d3"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNtrollhut.blp": {
+    "bytes": 2010,
+    "sha256": "2c3f0c33776851828897694e63109881b8a2d0b8880fe13cc41bb2595d8f7ebe"
+  },
+  "war3mapImported\\BTNcentaurbase.blp": {
+    "bytes": 6300,
+    "sha256": "6538afb093c9f30ff206877584aad7885cd4ad85e88e04469d4d746e92d2dcf6"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNcentaurbase.blp": {
+    "bytes": 6300,
+    "sha256": "89edb6fac056e8c599f00ae6a635b6508b430baecb68d1f984a0e3fced7f5450"
+  },
+  "war3mapImported\\BTNConjureBiscuit.blp": {
+    "bytes": 4464,
+    "sha256": "6e995039a81e595b156e5ffbd753e66ad7bd0dccf4d344c3659f6538195e9311"
+  },
+  "war3mapImported\\BTNBiscuit.blp": {
+    "bytes": 4456,
+    "sha256": "fd6b029255c16f89fe8c59d41359cfddde4b682c131e42bc071a7f926d8288bb"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBiscuit.blp": {
+    "bytes": 2934,
+    "sha256": "63238516f27532ab7a25060dae34733cc445f72308af3a1268a1e151dacb8d7b"
+  },
+  "war3mapImported\\Item_Gem_Aquamarine.mdx": {
+    "bytes": 12261,
+    "sha256": "8a532de4b6b6efd5d7f3daf4a5e08f7ac0092353ae367ef9f13b6f050c83cd14"
+  },
+  "war3mapImported\\Lava-Treasure-Chest.mdx": {
+    "bytes": 12284,
+    "sha256": "0a380d3eef3cd4f281d596684b88f7398460ffbff188ecbedd3e22c06bc87eeb"
+  },
+  "war3mapImported\\PotionOfInvisibility.mdx": {
+    "bytes": 15127,
+    "sha256": "8a85b6a8845e3e1617d11f442a15086e10d3e6bc6d17c0f61b32a81b59159aad"
+  },
+  "Items\\Potions1.blp": {
+    "bytes": 12102,
+    "sha256": "a195cf4617da09bbf26a47b07888d19fb9b66fed6ae2f566031beab54a4ad8e8"
+  },
+  "war3mapImported\\PotionOfInvulnerability.mdx": {
+    "bytes": 9179,
+    "sha256": "7945f9ec23c8ee116d373c1b8e40d19817ccf91333b85dfc0a8fc84cf0ee9c80"
+  },
+  "war3mapImported\\MarketPlaceKobold.mdx": {
+    "bytes": 93827,
+    "sha256": "31b3313325fd7b4fe67fc404858024f12c4c9224f30c1f9ee62bb54df83ab804"
+  },
+  "war3mapImported\\CheeseItem.mdx": {
+    "bytes": 12205,
+    "sha256": "59e0d269ce61a6f4b026a5221e49f9cf04d07993f1a5a3eb535dc9dfd0c4dfcb"
+  },
+  "war3mapImported\\SpawnerSewerSquare.MDX": {
+    "bytes": 37584,
+    "sha256": "40b16310b9e7915ead01b7f145e3a5cc029c451551597ce2c330f09ece7a75e8"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSewers.blp": {
+    "bytes": 6300,
+    "sha256": "a17979fc9bd140bca04c09c8581011300c078e2e6291805411e919f43eca8da5"
+  },
+  "war3mapImported\\BTNSewers.blp": {
+    "bytes": 4799,
+    "sha256": "773c7645f181f25efcce6e855bc690916fa1bfae14b67fa7a15dda8149d25608"
+  },
+  "war3mapImported\\CheeseOre0.mdx": {
+    "bytes": 8820,
+    "sha256": "7f7f452cac7491762c5110c73569c055a1328d163d71a4f79820e8d27d025c7f"
+  },
+  "war3mapImported\\CheeseOre1.mdx": {
+    "bytes": 8277,
+    "sha256": "09a8e295653622679e706720b9a7cdcaf7a017637792d56ce6014d4f21e9351f"
+  },
+  "war3mapImported\\BTNbullettime.blp": {
+    "bytes": 5808,
+    "sha256": "09f5654428d450c930bd64996604282316334bbd61e7224c2228476af7921f8d"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNbullettime.blp": {
+    "bytes": 3461,
+    "sha256": "6e1aaf02354ebaf796ae4711dbcb280fd1b166890f412121de2db14e0922e4b1"
+  },
+  "war3mapImported\\ratling_hero.mdx": {
+    "bytes": 276538,
+    "sha256": "329f31d10b3bf3dcd91b60c281f29ef484dfb0ae3e8e0fdb61458b1413047d13"
+  },
+  "ratling.blp": {
+    "bytes": 126297,
+    "sha256": "666a2517b177ad42b2ad83d0671cd37739bd7220f84f7d5769aacca69d584133"
+  },
+  "war3mapImported\\BTNratling.blp": {
+    "bytes": 5679,
+    "sha256": "c916e6bf3ce4392132a65237c0282b03e5307a196c695fa1cf95ecd0c261a310"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNratling.blp": {
+    "bytes": 3547,
+    "sha256": "ea0055b63e517e83e502819169bf2d882158f3f829e5a5d3f6b4c5ff4c799c21"
+  },
+  "war3mapImported\\BTN_cheese.blp": {
+    "bytes": 6300,
+    "sha256": "47de444a5d492b7cb1756ec14f7f24f35a3d5c1595dbf708e976000cc01a5c65"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_cheese.blp": {
+    "bytes": 6300,
+    "sha256": "c570e206cc45b9664e47fc4a9c2739e2b2256fadc5188650a81f731962182349"
+  },
+  "war3mapImported\\SEMooncakeItem.mdx": {
+    "bytes": 8769,
+    "sha256": "40c719976e12392b065b16b1b3beffb341f4e11cf8096b4de734bf0c29f91983"
+  },
+  "ReplaceableTextures\\CommandButtons\\BTNMooncake.blp": {
+    "bytes": 6300,
+    "sha256": "1195e2c4afb6930e21defb05dd736934a669d3d8f28694c2c2df1e93e77fa961"
+  },
+  "war3mapImported\\FlareBlack.blp": {
+    "bytes": 8279,
+    "sha256": "39435bfba6967b5e062fe514f8f27aa76e535e0fbc685f1294247c0d1115b471"
+  },
+  "war3mapImported\\flaresimple_bw.blp": {
+    "bytes": 4544,
+    "sha256": "23c0ff5e9bc733218f8d6d67bc309eb93c7070d9a5a91d19b0946e83f2cbdfd8"
+  },
+  "war3mapImported\\ImladrisGlow.blp": {
+    "bytes": 8302,
+    "sha256": "033306aa22b92ea1aecf0b03757592a7ba106b049f434e67e0d31a87ab093635"
+  },
+  "war3mapImported\\smoke_bw.blp": {
+    "bytes": 18088,
+    "sha256": "bb33e6aa0f67e9017b2c060beea65536917ef63a3f87775435b50618e4b05d54"
+  },
+  "war3mapImported\\VisionStar.blp": {
+    "bytes": 12367,
+    "sha256": "0ab08a5ec889615a3badb8bea4040165d232df40c50a13569c7751f5ffc7fae3"
+  },
+  "war3mapImported\\DreadLaboratory.mdx": {
+    "bytes": 202407,
+    "sha256": "213d960ac67facb02566c9b145e1cb34f6e853a7038b9b7207636cc8a366f7d5"
+  },
+  "war3mapImported\\Manor.mdx": {
+    "bytes": 690501,
+    "sha256": "d483edff4807d4f6ebd603a0ca283f53da06701ffc8a66c10e581d3096cea628"
+  },
+  "war3mapImported\\BTNDreadLaboratory.blp": {
+    "bytes": 12418,
+    "sha256": "00dd31656f22b4624fae512cc71db194c5709eac28d4291079ca2f2e30b5319a"
+  },
+  "war3mapImported\\BTNManor.blp": {
+    "bytes": 17574,
+    "sha256": "9243ea97f598efe37c48f62db765f42f728e46b0a3d60a86af367e4e948df88c"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDreadLaboratory.blp": {
+    "bytes": 8082,
+    "sha256": "e208cce8086a9e6d7b6dbbde69351424edc8668f64632fe87ab82c50c150f3ab"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNManor.blp": {
+    "bytes": 12720,
+    "sha256": "c274688668646e0d0e7e8c7f17db87ca4afb3f859c09caaf14141afbcaa24e2a"
+  },
+  "war3mapImported\\NecroGlow.blp": {
+    "bytes": 9372,
+    "sha256": "4a320e5a464b1b653608a19f48e201fb65089cfa2882d1508dbedafc8c57909d"
+  },
+  "war3mapImported\\NecroTail4Faded.blp": {
+    "bytes": 14497,
+    "sha256": "ee3300efd6a648ddbd78630571dec6873bd6fdb8b68b37dd85fbc1fdbc90fe36"
+  },
+  "war3mapImported\\spikebeambw.blp": {
+    "bytes": 10839,
+    "sha256": "84eb8b3651b8e2e87b746dc2a739a9a9fe72288a205112ae2c31442487f61d4e"
+  },
+  "war3mapImported\\DarkGothicWindow04.blp": {
+    "bytes": 24791,
+    "sha256": "0e093f56f19cd1965c3b7f29b7f29657b2419916479f1012ca8012b2b0511538"
+  },
+  "war3mapImported\\dust3.blp": {
+    "bytes": 187968,
+    "sha256": "2cc073e98924039d0cfc76dcf7508d802ebc49b6012da54f3634040147c1f818"
+  },
+  "war3mapImported\\GhostV5UltraWide.blp": {
+    "bytes": 8271,
+    "sha256": "42cd6fabc46a636e65d88f97d73274745ed1fbeebd4bad73baf952ab33e40c06"
+  },
+  "war3mapImported\\NecroStar.blp": {
+    "bytes": 12005,
+    "sha256": "4138cff43a1be8cf57aced8c2b830356406784ba4c90d1ad1320c7326e85ffab"
+  },
+  "war3mapImported\\ATCbullettime.blp": {
+    "bytes": 5925,
+    "sha256": "fba7161854f0f8fa0c8d05554fe53f6c0c71d368b89ef298bd22f9415ae0d66e"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISATCbullettime.blp": {
+    "bytes": 3982,
+    "sha256": "3a7ef56337cc48da821f053dda5abad02746f5416e4d741051e465dcaa3b0ad2"
+  },
+  "war3mapImported\\PASClaw.blp": {
+    "bytes": 6300,
+    "sha256": "fc7b7c0bef4bfbbdfdb9defe4d15451fcec8fd28ac6363347d6445da6433037d"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASClaw.blp": {
+    "bytes": 6300,
+    "sha256": "c2e3ad79417eefe1a5dccb39af989e9324939bba5e0f21faf9f41be0aed611b7"
+  },
+  "war3mapImported\\BTN_cr_GOBgogles.blp": {
+    "bytes": 8390,
+    "sha256": "86fd887ddae26ab9e93b47c9ca25e3600d556d8b0c49db3e21822f43675dd46f"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTN_cr_GOBgogles.blp": {
+    "bytes": 5165,
+    "sha256": "359cc951cd990b8cb4b5acde14257b7be55b8dad8c8ea1a76104aa35b25510a6"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNImpactBolt.blp": {
+    "bytes": 2364,
+    "sha256": "4d89f3e67d9610583643623f0b1ab78212f9645b308611cca8153b0a58ef8090"
+  },
+  "war3mapImported\\BTNMana gloves.blp": {
+    "bytes": 5315,
+    "sha256": "1d323095a1862f98695aa29c54e11b223b44c5d0fb5b14391ac931779b353c51"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNMana gloves.blp": {
+    "bytes": 2782,
+    "sha256": "cabb4397d5604edbc96b56ea1d506a43e2a6d9c2ffbe0a1e6f4346e04633dd69"
+  },
+  "war3mapImported\\BTNGiantRatWhite.blp": {
+    "bytes": 6106,
+    "sha256": "1de94cf0f0047645fc4020ffefba5ffc988ae9e38499c9fed9e492535646de14"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNGiantRatWhite.blp": {
+    "bytes": 6300,
+    "sha256": "1cc955933e48dda73e9e0da2046fe2962744f637d876323f33753b8709c0659e"
+  },
+  "war3mapImported\\bubble.blp": {
+    "bytes": 8555,
+    "sha256": "4ebab47e4674e9a9778e2409c3ce0d442f9be7a1300fe5c7a87b4bc3447a06d7"
+  },
+  "war3mapImported\\greenblobs.blp": {
+    "bytes": 11054,
+    "sha256": "fe5be5a1d99350833ddda563155fb2f7222859e037a7601e58670cbb672be242"
+  },
+  "war3mapImported\\greensplat.blp": {
+    "bytes": 16988,
+    "sha256": "f57df76fbe0f4645f94003dcdad6ea2346fae03eca079370a563b9781668a866"
+  },
+  "war3mapImported\\SpiderToxin.mdx": {
+    "bytes": 8544,
+    "sha256": "76f42304873648c7f23075909af7e91e4b3aa4a1d910514b17c5f39d13e1e436"
+  },
+  "war3mapImported\\EssenceGlow.blp": {
+    "bytes": 9522,
+    "sha256": "4d5097c59d50f676d529c7eacdb55c6e7500e0e433a38f4419e11967746537d8"
+  },
+  "war3mapImported\\groundcrack04.blp": {
+    "bytes": 27675,
+    "sha256": "7ee55b3cd9c67c090cc0e4e2cf1e15ab3c3c54e90217d8aab5e679a497a73159"
+  },
+  "war3mapImported\\VerdantTail12.blp": {
+    "bytes": 14099,
+    "sha256": "96e4836c0424bf1520918d1860ed15de26ed8a0ea772f6598f16f5e3e07cbe8d"
+  },
+  "war3mapImported\\WidowPoison.mdx": {
+    "bytes": 29014,
+    "sha256": "bd0b65f9a8f2f1f202f9a85b2875b2fb524bc22968107ced0d1865835c152030"
+  },
+  "war3mapImported\\BTNImpactBolt.blp": {
+    "bytes": 4334,
+    "sha256": "4ddd7d0d1cc77b59bb6b2e4ebe6fab2fee98c28ff8724e91fca9ec62b34f4120"
+  },
+  "war3mapImported\\PASSlowSpellGreen.blp": {
+    "bytes": 6300,
+    "sha256": "1638347a7b95cbd62deb6ce17935a820f6ec12f1823796249529f9dd46bfa8c7"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASSlowSpellGreen.blp": {
+    "bytes": 6300,
+    "sha256": "b62c186ab1eb2417d4cecd96a0de9e8f5506455b17196048601a69fa4b562c12"
+  },
+  "war3mapImported\\BTNSlowSpellGreen.blp": {
+    "bytes": 6300,
+    "sha256": "fad87806cfb9c0377e15ed2c61f34085403c5958aee9cede8b509792f862e0df"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSlowSpellGreen.blp": {
+    "bytes": 6300,
+    "sha256": "b62c186ab1eb2417d4cecd96a0de9e8f5506455b17196048601a69fa4b562c12"
+  },
+  "war3mapImported\\BTNStrider.blp": {
+    "bytes": 4999,
+    "sha256": "c1798177ad07879f0da9afc20ab6b5fb19e59c1adfa3f5b5dfad5ede05ed1c9f"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNStrider.blp": {
+    "bytes": 3003,
+    "sha256": "5dcb6956aed45ddaf3582aa3a28a7a9b33467e0aa0e7e58935e553b7c2177764"
+  },
+  "war3mapImported\\PASStrider.blp": {
+    "bytes": 4239,
+    "sha256": "a10c9fe8c0c3e32b1f8edc8e939ff6b1baf221e2a0d3500fc7825c89a0ba59fc"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASStrider.blp": {
+    "bytes": 3003,
+    "sha256": "5dcb6956aed45ddaf3582aa3a28a7a9b33467e0aa0e7e58935e553b7c2177764"
+  },
+  "war3mapImported\\BTNTarget.blp": {
+    "bytes": 8852,
+    "sha256": "3bd4a5cc95a79a08a4dd4e7ab1e82dd3d9c84545d773f74d8de7c1195c45b261"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNTarget.blp": {
+    "bytes": 5949,
+    "sha256": "1a40fd71b8b720da72a68a6f6d734e7dec1c43d91a214d325b9d7bb6945bac9e"
+  },
+  "war3mapImported\\PASTarget.blp": {
+    "bytes": 3454,
+    "sha256": "76152d5ac741af28b9d82ed8c5238f7298ee04c02a454503e11298c264faf1cb"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISPASTarget.blp": {
+    "bytes": 2374,
+    "sha256": "166553ef7cfb098cf767e7ed3577724e8d6b1a0f80d594471eb811fb2285731f"
+  },
+  "war3mapImported\\BTNClaw.blp": {
+    "bytes": 6300,
+    "sha256": "d50e5d9883f97f65b640882bd1f2fc7612ff7edabf88d65e9dc5ea12ef8862aa"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNClaw.blp": {
+    "bytes": 12102,
+    "sha256": "f7d5a4857ffb7f1dd34bc71874f6f4fcf3e4eece61f2b75374cbb0ea911bfe8e"
+  },
+  "Textures\\LeftBlank.blp": {
+    "bytes": 71551,
+    "sha256": "8ab7423eb6bb5d30af636a263b23677098d88193255dca7deaed0b4819aec94c"
+  },
+  "Textures\\STarget.blp": {
+    "bytes": 38634,
+    "sha256": "2ca7eaac6024d651cd980ac4ad05be55d31d993c5f5643b9f8a1b711fa9de4f2"
+  },
+  "war3mapImported\\SnipingTarget.mdx": {
+    "bytes": 3879,
+    "sha256": "f39ea5a006b14ebd75dd17c4f6c416430d09e3c213123dbe6f7e02496050c047"
+  },
+  "war3mapImported\\BTNCorrosiveBreath.blp": {
+    "bytes": 5866,
+    "sha256": "5ef78adee328f66a8b42311653ba0125542b0726e1a893bfab8087935f889a9b"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNCorrosiveBreath.blp": {
+    "bytes": 3337,
+    "sha256": "faedd8e97bdd67b457002894ce026bb0454329d5983792d713a9ea241a87110a"
+  },
+  "war3mapImported\\DarkIronTavern.mdx": {
+    "bytes": 140711,
+    "sha256": "903bb6e34518cf7a21c9c505a6cb08c7685eae3117c2a346cd5da90bf2048030"
+  },
+  "war3mapImported\\BTNDarkIronTavern.blp": {
+    "bytes": 4677,
+    "sha256": "5166773e99f765ee106ba0824bd4d8783ca49e532ab0bb723ab829a8bda6da36"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNDarkIronTavern.blp": {
+    "bytes": 2625,
+    "sha256": "2ccb422c5a2cb298404ae52eeb7ce7b5950b6722e07c0254369c131354084981"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNlament.blp": {
+    "bytes": 3573,
+    "sha256": "2b51c657900eeeaa84f61c268ab7dcb94f7f7a0cf9f9e499368f2680f75d8ff8"
+  },
+  "war3mapImported\\BTNBreezerious.blp": {
+    "bytes": 5133,
+    "sha256": "be20e6c8663d26cf4a69dfad6dd966b4cfa55c077dcb422102a1d313974c51b7"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBreezerious.blp": {
+    "bytes": 3507,
+    "sha256": "76e88e557ccc8ab4a6983829371f47fa38f62e86c19f4b8035b4bfd69017c385"
+  },
+  "war3mapImported\\Model_Unit_Titan_Breezerious.mdx": {
+    "bytes": 99948,
+    "sha256": "86a5c0cc1b903b8f635b4155796107d2e0e65a2458db61ced24a853ecf3d568a"
+  },
+  "war3mapImported\\SilentTornadoElemental.mdx": {
+    "bytes": 56309,
+    "sha256": "e60e7ad7748496a30868e2c13d6ac5dd0ce016aaebfd30760302f5a60e969367"
+  },
+  "war3mapImported\\BTNHeroRiflemanElite.blp": {
+    "bytes": 17999,
+    "sha256": "e44021ddb482727ca8048fac975cca43addecc8f6715bb8f4fa3044fc2d8e4c5"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNHeroRiflemanElite.blp": {
+    "bytes": 11300,
+    "sha256": "ac3b9522663e39c950be2a9888e14e356e43ccbde9dbfc7b98c5a47d9573b0d9"
+  },
+  "Textures\\RiflemanElite.blp": {
+    "bytes": 607420,
+    "sha256": "22cf6da1e0597813eadc1d3e0163416d594c37821a30802739678770caf6fc08"
+  },
+  "war3mapImported\\RiflemanElite_Portrait.mdx": {
+    "bytes": 57342,
+    "sha256": "f87fd03847780ed28eb2ea2a8487ea94e3e088beb4a437fa1917d42e412d8fe5"
+  },
+  "war3mapImported\\RiflemanElite.mdx": {
+    "bytes": 218322,
+    "sha256": "b84f1a988f5ee8c177f8041b58888756be254ee268d1de3c00244ff7603479ef"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNEyeofKilrogg.blp": {
+    "bytes": 2881,
+    "sha256": "76bf0035570b3abb6b3081f6c6e655e7c37feb92121d8568e66d9936f6014e62"
+  },
+  "war3mapImported\\BTNEyeofKilrogg.blp": {
+    "bytes": 4855,
+    "sha256": "9c8d8931cf1409d214f09c9b96172cf3de16e1647edf8dd9c4d3355436f81ece"
+  },
+  "war3mapImported\\BTNRingoftheLeech.blp": {
+    "bytes": 5010,
+    "sha256": "ec55603291df22b8803724457150ed6d6ddd3c86044d464548f6a57df7ff0514"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNRingoftheLeech.blp": {
+    "bytes": 2607,
+    "sha256": "5390e563adff078c1989f40e7d3783e23c2666a1e66b850137a75f2f9d898f1f"
+  },
+  "war3mapImported\\BTNBetrayer'sThirst.blp": {
+    "bytes": 4906,
+    "sha256": "5f407f737bc2d55f59aaae7ad4fc5146e234c4a3ae8297965d2b464ae10aa743"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNBetrayer'sThirst.blp": {
+    "bytes": 2622,
+    "sha256": "f48e515a2836c0f02a3154eb94e3d25beb93e2bb857aa54eac0f250e2c8d6427"
+  },
+  "war3mapImported\\BTNSpineLauncher.blp": {
+    "bytes": 4757,
+    "sha256": "ce9d0fb8b6fe2c8778f378368842f6965e63b9f21ac438e2f6afa5f33c3004d6"
+  },
+  "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNSpineLauncher.blp": {
+    "bytes": 2397,
+    "sha256": "8af98cc97b9073ff5bc3c7cabae6723652760947d5d40093c3a7e0361a44fbed"
+  },
+  "war3mapImported\\EarthShell.mdx": {
+    "bytes": 53316,
+    "sha256": "5c4b32c46bd125d62467c66384d81878657b0a521a2fc40a9ea3c7f40b1d7a7b"
+  },
+  "war3mapImported\\AncientOfStone(heavy).mdx": {
+    "bytes": 85580,
+    "sha256": "d4b8461db97af10faafc724bb04ee5464d927b199850d8a3a2831b4fe9df54fd"
+  }
+}

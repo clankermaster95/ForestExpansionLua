@@ -1,0 +1,72 @@
+{
+  "OldId": 1718186600,
+  "NewId": 1412509800,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletonArcher.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\SkeletonArcher\\SkeletonArcher.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "abilities\\weapons\\huntermissile\\huntermissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "SkeletonArcher",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_204",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_189",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Skeletal Archer"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9923",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A highly skilled Skeleton archer that has very high damage. Adept at hunting the ancient.|n|n|cfffdca00Health:|r 500; 5/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Attack:|r 60 (Chaos)|n|cfffdca00Attack Range:|r 400|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Movement Speed:|r 300|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4007",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Skeletal Archer"
+    }
+  ],
+  "_rawcode": "h01T",
+  "_base": "hrif",
+  "_name": "Skeletal Archer"
+}

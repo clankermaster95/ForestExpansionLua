@@ -1,0 +1,75 @@
+{
+  "OldId": 1869640513,
+  "NewId": 1345400897,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829386835,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "Spo1"
+    },
+    {
+      "Id": 862941267,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0.3,
+      "SanityCheck": 0,
+      "_field": "Spo3"
+    },
+    {
+      "Id": 846164051,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0.3,
+      "SanityCheck": 0,
+      "_field": "Spo2"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B007",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R00Q",
+      "SanityCheck": 0,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "A01P",
+  "_base": "Aspo",
+  "_name": "Plague"
+}

@@ -1,0 +1,69 @@
+{
+  "OldId": 1701668946,
+  "NewId": 842281042,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5492",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Shadow Augmentation"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9984",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Shadow Augmentation - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6557",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Morph into the Executioner, a swift melee assassin who can stealth & deal massive amounts of damage if left unchecked. |n|cffFF0000Cannot be combined with other augmentations.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEradication.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R042",
+  "_base": "Rhme",
+  "_name": "Shadow Augmentation"
+}

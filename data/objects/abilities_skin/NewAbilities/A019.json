@@ -1,0 +1,129 @@
+{
+  "OldId": 1936215617,
+  "NewId": 959524929,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_955",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Dark Spray"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\Possession\\PossessionMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_956",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Dark Spray"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4173",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Spray rays of darkness to heal you and your allies.for 300 (+200 per level) health. 10 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_962",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Spray [E]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_963",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Spray [E]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_964",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Spray [E]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4312",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Spray rays of darkness to heal you and your allies.for 300 health. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4313",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Spray rays of darkness to heal you and your allies.for 500 health. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4318",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Spray rays of darkness to heal you and your allies.for 700 health. 10 second cooldown."
+    }
+  ],
+  "_rawcode": "A019",
+  "_base": "ANhs",
+  "_name": "Dark Spray"
+}

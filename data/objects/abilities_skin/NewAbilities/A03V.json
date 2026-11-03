@@ -1,0 +1,80 @@
+{
+  "OldId": 1986621505,
+  "NewId": 1446195265,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3122",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The Worgen has spent many years training the dark art's of stealth and warlock sorcery. The Worgen cannot be seen by enemies unless revealed with magic."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3123",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "The Worgen has spent many years training the dark art's of stealth and warlock sorcery. The Worgen cannot be seen by enemies unless revealed with magic."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3778",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Worgen's Bane"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNRegenerationAura.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNRegenerationAura.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3779",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Worgen's Bane"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3782",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Worgen's Bane"
+    }
+  ],
+  "_rawcode": "A03V",
+  "_base": "Apiv",
+  "_name": "Worgen's Bane"
+}

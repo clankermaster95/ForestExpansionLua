@@ -1,0 +1,215 @@
+{
+  "OldId": 1868918895,
+  "NewId": 909258863,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0CG,AInv,Arep,A0CF,A0CI,A0CE",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1769300597,
+      "Type": "String",
+      "Value": "o028,o027,h05S,o025,h05U",
+      "SanityCheck": 0,
+      "_field": "ubui"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 249,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 1.75,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1915838837,
+      "Type": "Int",
+      "Value": 250,
+      "SanityCheck": 0,
+      "_field": "ua1r"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 320,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 7.5,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1634559605,
+      "Type": "Int",
+      "Value": 12,
+      "SanityCheck": 0,
+      "_field": "ufma"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "air,debris,ground,invulnerable,item,nonancient,structure,vulnerable,ward",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    },
+    {
+      "Id": 1887007861,
+      "Type": "String",
+      "Value": "ancient,peon",
+      "SanityCheck": 0,
+      "_field": "utyp"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 828927349,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "umh1"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "none",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1634562933,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "usma"
+    },
+    {
+      "Id": 2050056565,
+      "Type": "Int",
+      "Value": 10000,
+      "SanityCheck": 0,
+      "_field": "ua1z"
+    },
+    {
+      "Id": 1999724917,
+      "Type": "String",
+      "Value": "missile",
+      "SanityCheck": 0,
+      "_field": "ua1w"
+    },
+    {
+      "Id": 1953723253,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "usst"
+    },
+    {
+      "Id": 1735553909,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "usrg"
+    },
+    {
+      "Id": 1949393269,
+      "Type": "String",
+      "Value": "pierce",
+      "SanityCheck": 0,
+      "_field": "ua1t"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 800,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 829645685,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucs1"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R06O,R06N,R06M,R06L,R06K",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    }
+  ],
+  "_rawcode": "o026",
+  "_base": "opeo",
+  "_name": "|cff8F60cARatling Stalker|r"
+}

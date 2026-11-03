@@ -1,0 +1,124 @@
+{
+  "OldId": 1634493032,
+  "NewId": 1261711464,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 250,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h04I",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1634559605,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ufma"
+    },
+    {
+      "Id": 1952542837,
+      "Type": "String",
+      "Value": "PathTextures\\4x4SimpleSolid.tga",
+      "SanityCheck": 0,
+      "_field": "upat"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    }
+  ],
+  "_rawcode": "h04K",
+  "_base": "hbla",
+  "_name": "Totem"
+}

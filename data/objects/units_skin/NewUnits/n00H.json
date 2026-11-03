@@ -1,0 +1,72 @@
+{
+  "OldId": 1751344494,
+  "NewId": 1211117678,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4436",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Razorvine"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\EntanglingRoots\\EntanglingRootsTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_8786",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Razor|cffffcc00v|rine"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6937",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Razorvines are walls used to defend bases or camps. Will return damage, but is not very sturdy.|n|n|cfffdca00Health:|r 200; 1/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd000|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEntanglingRoots.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_666",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    }
+  ],
+  "_rawcode": "n00H",
+  "_base": "nech",
+  "_name": "Razorvine"
+}

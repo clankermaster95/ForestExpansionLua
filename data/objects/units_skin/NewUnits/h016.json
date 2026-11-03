@@ -1,0 +1,71 @@
+{
+  "OldId": 1634037864,
+  "NewId": 909193320,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2351",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff319C42Goblin|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGoblinSapper.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\FlamerGoblin.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2352",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff319C42Goblin|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7163",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Hunter|n\n|cff008000Off Role|r: None|n\n|cff8080FFDifficulty|r: |cffff0000Hard|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0A lightweight version of the Magmide, Goblins have an easier time in the early game with a speed boost and heavier lumber gain. Goblins can easily pool their team lumber to get them started, and rush beta mechs to keep the ancient busy. This race also has zeppelins to help your team get across the map without the risk of being caught. Goblins almost always have a better alternative at every stage of the game, however, they can be useful at any time and their scaling is pretty much infinite.|r"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\GyroCopter\\GyroCopterMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 828468597,
+      "Type": "Unreal",
+      "Value": 0.15,
+      "SanityCheck": 0,
+      "_field": "uma1"
+    }
+  ],
+  "_rawcode": "h016",
+  "_base": "hpea",
+  "_name": "|cff319C42Goblin|r"
+}

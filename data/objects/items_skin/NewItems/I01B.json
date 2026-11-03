@@ -1,0 +1,59 @@
+{
+  "OldId": 1634626928,
+  "NewId": 1110519881,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6436",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Orb of Mana"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6437",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Orb of Mana"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNManaStone.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9168",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases your maximum mana when worn by 750."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_9169",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your maximum mana when worn by 750."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_739",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    }
+  ],
+  "_rawcode": "I01B",
+  "_base": "pmna",
+  "_name": "Orb of Mana"
+}

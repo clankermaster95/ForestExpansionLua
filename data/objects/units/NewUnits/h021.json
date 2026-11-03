@@ -1,0 +1,89 @@
+{
+  "OldId": 1634493032,
+  "NewId": 825372776,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R05H,R00Y,R00Z",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "o00M,h01Y",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 2000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    }
+  ],
+  "_rawcode": "h021",
+  "_base": "hbla",
+  "_name": "Defense Center"
+}

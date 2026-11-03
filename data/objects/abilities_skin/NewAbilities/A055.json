@@ -1,0 +1,78 @@
+{
+  "OldId": 1919045185,
+  "NewId": 892678209,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\FlameStrike\\FlameStrikeTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5067",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gamma |cffffcc00R|ray Burst"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4366",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives your Gamma Ray tower an additional 12000 damage for 5 seconds. This ability has the potential to instantly kill the ancient - use it wisely. 30 second cooldown."
+    },
+    {
+      "Id": 1885430625,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "acap"
+    },
+    {
+      "Id": 1667326817,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acac"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5066",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Gamma Ray Burst"
+    }
+  ],
+  "_rawcode": "A055",
+  "_base": "ANbr",
+  "_name": "Gamma Ray Burst"
+}

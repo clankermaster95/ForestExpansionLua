@@ -1,0 +1,135 @@
+{
+  "OldId": 1919970664,
+  "NewId": 1412771944,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5859",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Engineer's Worker"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5919",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Train Engineer's Worker"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10320",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Train this unit to harvest lumber. Cannot harvest gold.|n|n|cfffdca00Health:|r 100; 0.25/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Movement Speed:|r 250|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 155,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.85,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1935827317,
+      "Type": "String",
+      "Value": "Ahlh",
+      "SanityCheck": 0,
+      "_field": "uabs"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2020111221,
+      "Type": "Real",
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "ushx"
+    },
+    {
+      "Id": 2036888437,
+      "Type": "Real",
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "ushy"
+    },
+    {
+      "Id": 1751675765,
+      "Type": "Real",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "ushh"
+    },
+    {
+      "Id": 2003334005,
+      "Type": "Real",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "ushw"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1853186933,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucun"
+    },
+    {
+      "Id": 1953850229,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucut"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1536",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1635083125,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucua"
+    }
+  ],
+  "_rawcode": "h05T",
+  "_base": "hmpr",
+  "_name": "Engineer's Worker"
+}

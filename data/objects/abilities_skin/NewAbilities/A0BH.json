@@ -1,0 +1,71 @@
+{
+  "OldId": 1717717313,
+  "NewId": 1212297281,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2445",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Rage From Within"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTentacle.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4968",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "DISABLED (Razormane)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2478",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Rage From Within"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4969",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Raging Thorn|n|cff808080Cast range: 800; CD: 0s|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_298",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "A"
+    }
+  ],
+  "_rawcode": "A0BH",
+  "_base": "AIbf",
+  "_name": "Rage From Within"
+}

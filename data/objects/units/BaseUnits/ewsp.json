@@ -1,0 +1,75 @@
+{
+  "OldId": 1886615397,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 1886615397,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 1886615397,
+      "_field": "ucol"
+    },
+    {
+      "Id": 1769300597,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 1886615397,
+      "_field": "ubui"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 1886615397,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 1886615397,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 1886615397,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 1886615397,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1887007861,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 1886615397,
+      "_field": "utyp"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Avul,AInv",
+      "SanityCheck": 1886615397,
+      "_field": "uabi"
+    }
+  ],
+  "_rawcode": "ewsp",
+  "_base": "ewsp",
+  "_name": "Selector"
+}

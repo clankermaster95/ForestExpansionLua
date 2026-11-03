@@ -1,0 +1,266 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1395994706,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10810",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Innate Vigor"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNMoonSkin.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNMoonSkin.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNMoonSkin.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNMoonSkin.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNMoonSkin.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10811",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Innate Vigor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10812",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Innate Vigor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10813",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Innate Vigor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10814",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Innate Vigor"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10815",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Innate Vigor - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10816",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Innate Vigor - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10817",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Innate Vigor - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10818",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Innate Vigor - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10819",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Innate Vigor - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_821",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your main elf's attack speed by 10% and move speed by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_823",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your main elf's attack speed by 10% and move speed by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_824",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your main elf's attack speed by 10% and move speed by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_825",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your main elf's attack speed by 10% and move speed by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_826",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your main elf's attack speed by 10% and move speed by 10."
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6247",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6248",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6361",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6362",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6392",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    }
+  ],
+  "_rawcode": "R05S",
+  "_base": "Rhme",
+  "_name": "Innate Vigor"
+}

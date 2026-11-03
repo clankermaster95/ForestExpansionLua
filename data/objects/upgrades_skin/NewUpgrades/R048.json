@@ -1,0 +1,911 @@
+{
+  "OldId": 1918986322,
+  "NewId": 942944338,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5817",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5819",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5820",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5821",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5822",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5823",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5824",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5825",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5826",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5827",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5838",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5839",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5840",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5841",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5842",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5843",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5844",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5845",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5846",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5847",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Slaughter from the Shadows"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10156",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [5.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10157",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [10.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10158",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10159",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10160",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10161",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10162",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10163",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10164",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10165",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10166",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [55.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10167",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10168",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [65.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10169",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [70.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10170",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [75.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10171",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [80.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10172",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [85.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10173",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [90.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10174",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [95.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10175",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Slaughter from the Shadows - [100.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6636",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6637",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6638",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6639",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6640",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6641",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6642",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6643",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6644",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6645",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6817",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6818",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6819",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6820",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6821",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6822",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6823",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6824",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6825",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6826",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases damage by 100. |n|cff7F7F7FYou infuse your arms with shadow energy, adding hidden weight to your attacks.|r"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8866",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9027",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9029",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9038",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9489",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9642",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9789",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9790",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9798",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9799",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9808",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    }
+  ],
+  "_rawcode": "R048",
+  "_base": "Rhar",
+  "_name": "Slaughter from the Shadows"
+}

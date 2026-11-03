@@ -1,0 +1,210 @@
+{
+  "OldId": 1785033281,
+  "NewId": 842084417,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_724",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Regrow"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUproot.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1902",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08DEC5Regrow|r (B)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2015",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08DEC5Regrow|r (B)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2395",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08DEC5Regrow|r (B)"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2396",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cff08DEC5Regrow|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2934",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 450 over 5.5 seconds. 1 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3020",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 300 over 6 seconds. 1 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3047",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 600 over 5 seconds. 1 second cooldown."
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3294",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cff8080ffHeals you for 300 (+150 per level) health over 6-(0.5 per level) seconds. 1 second cooldown.|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1993",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3304",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08DEC5Regrow|r (B)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3733",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08DEC5Regrow|r (B)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3734",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 750 over 4.5 seconds. 1 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3735",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 900 over 4 seconds. 1 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3736",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08DEC5Regrow|r (B)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3894",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08DEC5Regrow|r (B)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3896",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 1050 over 3.5 seconds. 1 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3905",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 1200 over 3 seconds. 1 second cooldown."
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUproot.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    }
+  ],
+  "_rawcode": "A012",
+  "_base": "Arej",
+  "_name": "Regrow"
+}

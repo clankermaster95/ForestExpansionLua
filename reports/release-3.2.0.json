@@ -1,0 +1,118 @@
+{
+  "version": "3.2.0",
+  "backup": "backups/20261102-193722-p6o109p_",
+  "changed_modules": [
+    {
+      "module": "src/players/roles.lua",
+      "before_sha256": "3c3b08ec5021d7b4f28c36800472fa1cff8f7cfb24436c7c974d333eb7dac511",
+      "after_sha256": "934c9e0097e71b24559f58aefa4e2aa1035cd1bbe4e0af1ef67353d2ebbaf7e6"
+    },
+    {
+      "module": "src/items/recipe_data.lua",
+      "before_sha256": "fa99212f4c2b5f951e08048bfcd0674ad7894028312847a72143b27e3350ecdf",
+      "after_sha256": "7f869733b0cdae6c3dee30bd2b04583e611f4872ec39fd16aa01a6d15bb7f5fe"
+    },
+    {
+      "module": "src/items/recipes.lua",
+      "before_sha256": "bc1f7f383bb66f95e5144780c85f1b83ac4c6db13c5ac633bc7d92ed3719fe6f",
+      "after_sha256": "aaef9a2aec480c6fc92aee5dacc08ea83bc2e37bc7c36a25544b6e7bd2d58442"
+    },
+    {
+      "module": "src/races/night_elf/arch_druid/051_Genesis.lua",
+      "before_sha256": "0fc7ab000dc922e9f0ef174574fd400764cc5ecca6b2763314b09ff72389e69e",
+      "after_sha256": "dc5371bfeeab91b0d173a9755dcccb58746d2156f5f6fd08772b38a483dae3da"
+    },
+    {
+      "module": "src/races/forgotten/bloodmage/097_Shadowlings.lua",
+      "before_sha256": "29db627643c28cc1b93a098c17deb9ddfefa4d7fe0bf53b24d4f055b04bd68f6",
+      "after_sha256": "d801071298ac5a196c83100255d873bb7e2ca7523cb4c0b72a41c6caafb42ce0"
+    },
+    {
+      "module": "src/ai/214_Slot1_Righteous_Armor.lua",
+      "before_sha256": "a4b4218f1d3bac8ee6c4ecf02674bb9dc1f316b2dc996371c2d705ae90efe4e9",
+      "after_sha256": "19698705ac8bfc6a57878fef81dad56a44d17e81547ba2f7cc04926796e2077b"
+    },
+    {
+      "module": "src/ai/215_Slot2_Valor_Helmet.lua",
+      "before_sha256": "41100b303aa15abdfffca2f1d698f78fa7b2b438805f666ad8c2e9d49591ee17",
+      "after_sha256": "6b9d255eb0f4d8f901d2980227ea811796b0a099b87d690438a393710097590f"
+    },
+    {
+      "module": "src/ai/216_Slot3_Bladed_Gauntlet.lua",
+      "before_sha256": "f868fe477d5d6ff2f9fc67315caa685dee7b93bbc7885018fbec28748a699047",
+      "after_sha256": "818c6dc614190da0cdbd991d566ec0eb254e2c467e251fa1f0ecb27db091c304"
+    },
+    {
+      "module": "src/ai/217_Slot4_Bladed_Gauntlet.lua",
+      "before_sha256": "a18517192e8123ed8cdf79032ff1f2fbf949cab98f7918d0d524971adcd9cbdf",
+      "after_sha256": "0c9f90fa1ce92af7cccd1915e817f094ad0ddb5bd71f963d092166a25d796222"
+    },
+    {
+      "module": "src/ai/218_Slot5_Bladed_Gauntlet.lua",
+      "before_sha256": "fa493116bf61ae9c3288c376f48ce3f6d0b80674b5859f9d6b23e331f3cdf865",
+      "after_sha256": "5ac0244da44a81c467e08c35cd607b5ca78e84b7524ec6d17ac69bce2c2b5489"
+    },
+    {
+      "module": "src/ai/219_Slot6_Bladed_Gauntlet.lua",
+      "before_sha256": "a6a42d21f823e0fda1ce3cd34a777e93f1f30bbd9a77f9a2f1bf32a40d7e7667",
+      "after_sha256": "39b4941f490787889756e349fa7019fa497ee9511f6399495b479b43d8cf96bf"
+    },
+    {
+      "module": "src/ai/220_Level_Up_Tomes.lua",
+      "before_sha256": "08a45a0e8eabde819beeb716cdd7305af679cbaf76803421a8e4d413730ccf20",
+      "after_sha256": "4d8d8a21f13edcee5f9f4b263435147b4be876d81f9f8c883c5a0677cde61986"
+    },
+    {
+      "module": "src/game/startup/253_TimeToExpanderSpawn.lua",
+      "before_sha256": "f7f04ecd6a2721c3e47bc12ea68d8ac0dee1bbaf2bf6f2ac399837c3222c6732",
+      "after_sha256": "a614911eb77bfc3d8dc6f6dbf1cb005387c7645b94fe297d629e4c0e938a94a9"
+    },
+    {
+      "module": "src/game/startup/254_TimeToAncientSpawn.lua",
+      "before_sha256": "cfa497bffb04f30e1d65f547a63042d6d65a011b9c221778323fc04097f15527",
+      "after_sha256": "79c120edeef7e7286bbd2ac44f0e54e08f1b26aeedbc432032d172cd56abb177"
+    },
+    {
+      "module": "src/game/selection/265_Remove_Selector.lua",
+      "before_sha256": "4c5ba983c7a98db1a79d9f71e0438715b218e42537bf45acf0a47aba0604e42a",
+      "after_sha256": "880b45403b1ea1ae24ed066827ffad90b839c08505418a019a594cdb2b888e06"
+    },
+    {
+      "module": "src/bootstrap.lua",
+      "before_sha256": "70f44ef79a1dd46865baaa16416b863d08f199dffdd0b2f44a1001b44eac0ad9",
+      "after_sha256": "eb8807ef3452b9e24e2c6ecee4e086909a3fd27eb9563ed9c5b6dd12ff24d05b"
+    }
+  ],
+  "new_modules": [
+    {
+      "module": "src/commands/test_data.lua",
+      "before_sha256": null,
+      "after_sha256": "751cd1ed490bd711ecaba61f4dd0b43104fec1b7c3bb9e5ad0bb165e66f12dec"
+    },
+    {
+      "module": "src/commands/solo_test.lua",
+      "before_sha256": null,
+      "after_sha256": "d239971cd775a6fa74ad54e0d66b75dccd30a80406f57b0576ceeaf8077caeeb"
+    }
+  ],
+  "payload_changes": [
+    {
+      "file": "war3map.wts",
+      "before_sha256": "e09e20c1f9c9908daae0f5169963630a65a6f1f70e2fc5a9a61629747d57f05e",
+      "after_sha256": "3ced9696dc102ca78d3cc3b1ce67bb238aa75a8c7eaa498341e3eda6ccd0aca2"
+    },
+    {
+      "file": "war3map.w3t",
+      "before_sha256": "64472c951e1958b2eb40dc319ba0477f55e1bc64f6269159efde1a49d885285e",
+      "after_sha256": "0260b655d1c725e80c0ab4517d9eb2cf44a9a13586e0ce6a0f5916c851389540"
+    },
+    {
+      "file": "war3mapSkin.w3t",
+      "before_sha256": "ede1bfafbdc64e287cd28605de2651391f369ac3b03115a1f468ab9ea15baf9b",
+      "after_sha256": "e53bd933581169257987e347c8c408d50fc2782bc2b25d7a41cd9470401dc43e"
+    }
+  ],
+  "output": "dist/Forest_Expansion_3.2.0_Lua.w3x",
+  "archive_sha256": "c419f108bb6db8148d9ecf58cf2dde5fd4619c68379d77083f74164b438a6c20",
+  "scope": "Intentional item values/tooltips, AI prices, native recipe delivery ordering, charged ingredients, WTS encoding/version, solo commands/F9 catalogs/skip, Shadowling wait capture, Genesis location cleanup and verified latest-only local installation. Historical original-parity reports remain unchanged."
+}

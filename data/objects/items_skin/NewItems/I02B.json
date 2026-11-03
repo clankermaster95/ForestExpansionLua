@@ -1,0 +1,66 @@
+{
+  "OldId": 1952674676,
+  "NewId": 1110585417,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4933",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Barricade"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_4935",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Constructs an upgraded barricade in a matter of a second. Upgraded barricade has 650 HP and 15 armor."
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedSpikedBarricades.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5645",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Barricade"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_5647",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Constructs an upgraded barricade in a matter of a second. Upgraded barricade has 650 HP and 15 armor."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_224",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    }
+  ],
+  "_rawcode": "I02B",
+  "_base": "tsct",
+  "_name": "Barricade"
+}

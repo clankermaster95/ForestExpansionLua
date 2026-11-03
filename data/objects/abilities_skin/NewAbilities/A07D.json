@@ -1,0 +1,40 @@
+{
+  "OldId": 1752385857,
+  "NewId": 1144467521,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\DeathPact\\DeathPactTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7494",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ancient Stone"
+    }
+  ],
+  "_rawcode": "A07D",
+  "_base": "AIsh",
+  "_name": "Ancient Stone"
+}

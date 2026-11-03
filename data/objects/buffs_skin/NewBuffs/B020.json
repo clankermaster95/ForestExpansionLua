@@ -1,0 +1,43 @@
+{
+  "OldId": 1851934786,
+  "NewId": 808595522,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6471",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Soul Rend"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "war3mapImported\\BTN_manaburn.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6472",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Soul Rend"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6249",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Cannot attack, but can cast spells and will take extra damage from Magic attacks and spells."
+    }
+  ],
+  "_rawcode": "B020",
+  "_base": "BHbn",
+  "_name": "Soul Rend"
+}

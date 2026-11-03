@@ -1,0 +1,59 @@
+{
+  "OldId": 1953326439,
+  "NewId": 1244737609,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_8328",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ledger of Clarity"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBookOfTheDead.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1169",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5766",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff80b1b1Ledger of Clarity|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9653",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff21b121On wearer:|r Grants 3 EXP per second. |n|n|cff21b121Combining|r 2 |cff21b121of these|r ledgers |cff21b121will create|r |cff2c9b9bLedger of Enlightenment|r|cff21b121, which grants|r 8 EXP per second.|r|n|n|cffde3737Multiple instances of same ledgers|r |cffde0000DO NOT|r |cffde3737stack.|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_9654",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "|cff21b121On wearer:|r Grants 3 EXP per second. |n|n|cff21b121Combining|r 2 |cff21b121of these|r ledgers |cff21b121will create|r |cff2c9b9bLedger of Enlightenment|r|cff21b121, which grants|r 8 EXP per second.|r|n|n|cffde3737Multiple instances of same ledgers|r |cffde0000DO NOT|r |cffde3737stack.|r"
+    }
+  ],
+  "_rawcode": "I01J",
+  "_base": "gemt",
+  "_name": "Ledger of Clarity"
+}

@@ -1,0 +1,107 @@
+{
+  "OldId": 2004121455,
+  "NewId": 1362112623,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4883",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Raging Thorn"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "ESMA",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTentacle.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Creeps\\ForgottenOne\\ForgottenOneTent.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\Impale\\ImpaleHitTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_210",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4884",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00R|raging Thorn"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10187",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A cheap structure that deals moderate damage, best built behind walls for they are vulnerable and feed much more than other towers.|n|n|cfffdca00Health:|r 350; 1/s|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Attack:|r 120 (Chaos)|n|cfffdca00Attack Range:|r 750|n|cfffdca00Attack Cooldown:|r 5|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o00Q",
+  "_base": "owtw",
+  "_name": "Raging Thorn"
+}

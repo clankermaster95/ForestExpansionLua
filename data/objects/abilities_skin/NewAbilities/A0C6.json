@@ -1,0 +1,22 @@
+{
+  "OldId": 1852336449,
+  "NewId": 910372929,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3159",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Stash)"
+    }
+  ],
+  "_rawcode": "A0C6",
+  "_base": "Aihn",
+  "_name": "A0C6"
+}

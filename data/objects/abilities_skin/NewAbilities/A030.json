@@ -1,0 +1,70 @@
+{
+  "OldId": 2004045633,
+  "NewId": 808661057,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3005",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Totem of Destruction"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMagicLariet.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMagicLariet.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5238",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00T|rotem of Destruction"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6658",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Totem of Destruction that deals 150 Chaos damage. Lasts 30 seconds. 40 second cooldown."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2070",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "T"
+    }
+  ],
+  "_rawcode": "A030",
+  "_base": "AOsw",
+  "_name": "Totem of Destruction"
+}

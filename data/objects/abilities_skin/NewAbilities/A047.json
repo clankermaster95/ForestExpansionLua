@@ -1,0 +1,209 @@
+{
+  "OldId": 1651787841,
+  "NewId": 926167105,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4278",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Wind Burst"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3199",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Fire a burst of wind at the target, dealing 100 (+50 per level) damage and knocking them down for 2 seconds. 20 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3238",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Fire a burst of wind at the target dealing 100 damage and knocking them down for 2 seconds. 20 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3239",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Fire a burst of wind at the target dealing 150 damage and knocking them down for 2 seconds. 20 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3240",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Fire a burst of wind at the target dealing 200 damage and knocking them down for 2 seconds. 20 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3241",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Fire a burst of wind at the target dealing 250 damage and knocking them down for 2 seconds. 20 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3242",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Fire a burst of wind at the target dealing 300 damage and knocking them down for 2 seconds. 20 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3243",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Fire a burst of wind at the target dealing 350 damage and knocking them down for 2 seconds. 20 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3244",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Fire a burst of wind at the target dealing 400 damage and knocking them down for 2 seconds. 20 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4277",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4287",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4288",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4289",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4290",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4291",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4292",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4293",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Wind Burst"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    }
+  ],
+  "_rawcode": "A047",
+  "_base": "AHtb",
+  "_name": "Wind Burst"
+}

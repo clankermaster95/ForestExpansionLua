@@ -1,0 +1,189 @@
+{
+  "OldId": 1700876097,
+  "NewId": 1177890881,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5200",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Dark Essence"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNExhumeCorpses.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNExhumeCorpses.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\Drain\\DrainCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1882",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5201",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Dark Essence"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3724",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Increases the attack speed of you and your summoned units by 40% (+15% per level)."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5203",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Essence"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5204",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Essence"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5205",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Essence"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5206",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Essence"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5207",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dark Essence"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3725",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the attack speed of you and your summoned units by 40%."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3726",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the attack speed of you and your summoned units by 55%."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3727",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the attack speed of you and your summoned units by 70%."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3728",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the attack speed of you and your summoned units by 85%."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3729",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the attack speed of you and your summoned units by 100%."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1995",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "A05F",
+  "_base": "AOae",
+  "_name": "Dark Essence"
+}

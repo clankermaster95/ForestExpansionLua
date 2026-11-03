@@ -1,0 +1,48 @@
+{
+  "OldId": 1885621825,
+  "NewId": 1194602561,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 829449294,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": "n00H",
+      "SanityCheck": 0,
+      "_field": "Ndp1"
+    },
+    {
+      "Id": 863003726,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "Ndp3"
+    }
+  ],
+  "_rawcode": "A04G",
+  "_base": "ANdp",
+  "_name": "Summon Razorvine"
+}

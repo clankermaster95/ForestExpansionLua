@@ -1,0 +1,34 @@
+{
+  "OldId": 1802726503,
+  "NewId": 1160917065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9829",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Skull of a once powerful Demonologist that still lingers with dark energy.|n|cff21b121On use:|r Creates a powerful barrier around the Ancient, shielding it from magic damage.|n|cff21b121Duration & Cooldown:|r 10 seconds & 120 seconds."
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    }
+  ],
+  "_rawcode": "I02E",
+  "_base": "glsk",
+  "_name": "I02E"
+}

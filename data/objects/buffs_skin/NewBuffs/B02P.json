@@ -1,0 +1,43 @@
+{
+  "OldId": 1869640514,
+  "NewId": 1345466434,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7879",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Slowing Venom"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7880",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Slowing Venom"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_7881",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "The movement speed of this unit is reduced."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Parasite\\ParasiteTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    }
+  ],
+  "_rawcode": "B02P",
+  "_base": "Bspo",
+  "_name": "Slowing Venom"
+}

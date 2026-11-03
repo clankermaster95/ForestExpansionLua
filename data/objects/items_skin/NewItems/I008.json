@@ -1,0 +1,51 @@
+{
+  "OldId": 2019910772,
+  "NewId": 942682185,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_936",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Intelligence Training"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWirtsOtherLeg.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_937",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Permanently increases Intelligence"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_938",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Intelligence Training"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_939",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Permanently increases the Intelligence of the Hero by <AIam,DataA1> when used."
+    }
+  ],
+  "_rawcode": "I008",
+  "_base": "tdex",
+  "_name": "Intelligence Training"
+}

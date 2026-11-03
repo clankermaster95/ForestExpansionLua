@@ -1,0 +1,57 @@
+{
+  "OldId": 1869640514,
+  "NewId": 1496395842,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6036",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Crippling Toxin"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPoisonSting.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6037",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Crippling Toxin"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6196",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has been slowed by an Executioner."
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "fnsf"
+    }
+  ],
+  "_rawcode": "B01Y",
+  "_base": "Bspo",
+  "_name": "Crippling Toxin"
+}

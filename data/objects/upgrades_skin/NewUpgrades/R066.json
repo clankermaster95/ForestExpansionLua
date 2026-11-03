@@ -1,0 +1,61 @@
+{
+  "OldId": 1937204562,
+  "NewId": 909520978,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2507",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the cast range of replenish mana to global."
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1890",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Deep Water"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHolyWater.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10592",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Deep Water - [30.0]"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9816",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    }
+  ],
+  "_rawcode": "R066",
+  "_base": "Rews",
+  "_name": "Deep Water"
+}

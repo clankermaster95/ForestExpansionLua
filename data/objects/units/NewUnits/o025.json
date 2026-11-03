@@ -1,0 +1,96 @@
+{
+  "OldId": 1919903343,
+  "NewId": 892481647,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Aall,Apit",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 750,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1768256373,
+      "Type": "String",
+      "Value": "I024,I022,I023,I00R",
+      "SanityCheck": 0,
+      "_field": "usei"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h05S",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    }
+  ],
+  "_rawcode": "o025",
+  "_base": "ofor",
+  "_name": "Shady Vendor"
+}

@@ -1,0 +1,72 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1194340456,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_187",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ogre Worker"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2612",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Ogre |cffffcc00W|rorker"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6630",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Used to harvest lumber.|n|n|cfffdca00Health:|r 50; 0.25/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Movement Speed:|r 270|n|cffff0000Feed Value:|r |cffffdd000|r"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\Ogre\\Ogre.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.7,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOgre.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_190",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Tauren",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    }
+  ],
+  "_rawcode": "h00G",
+  "_base": "hpea",
+  "_name": "Ogre Worker"
+}

@@ -1,0 +1,29 @@
+[HERO]
+DependencyOr=O00Z,O00W,H03P,H01V,H01P,H01R,H01M,E000,E00T,O024
+
+[Misc]
+AgiDefenseBonus=0.25
+BuildingKillsGiveExp=1
+DrainGivesBonusMana=1
+DrainTransfersMana=1
+FoodCeiling=200
+HeroReviveManaFactor=1.0
+ItemStackingEnabled=1
+MaxHeroLevel=20
+MaxUnitSpeed=522.0
+MinUnitSpeed=100.0
+NeedHeroXP=200,500,900,1400,2000,2700,3500,4400,5450,6650,8000,9500,11150,12950,14900,17000,19250,21650,24200
+NeedHeroXPFormulaC=125.0
+TradingIncLarge=100
+TradingIncSmall=5
+UpgradeRefundRate=1.0
+UpkeepGoldTax=0.00
+UpkeepLumberTax=0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+UpkeepUsage=10000,10000,10000,10000,10000,10000,10000,10000
+
+[TWN1]
+Name=You may only train one hero.
+
+[TWN2]
+Name=You may only train one hero.
+

@@ -1,0 +1,58 @@
+{
+  "OldId": 1936028272,
+  "NewId": 926036041,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4059",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Grapes"
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "Objects\\InventoryItems\\Shimmerweed\\Shimmerweed.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_4060",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Grapes... mmm®"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4061",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Eat Grapes"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_976",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff87ceebNon-Combat Consumable|r|nWhen used - restores 1000 hit points over a course of 5 seconds.|n|n|cff808080Grapes... mmm®"
+    }
+  ],
+  "_rawcode": "I027",
+  "_base": "pres",
+  "_name": "Grapes"
+}

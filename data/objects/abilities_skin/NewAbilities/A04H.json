@@ -1,0 +1,51 @@
+{
+  "OldId": 1751205185,
+  "NewId": 1211379777,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4441",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Spikey"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4442",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Spikey"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1855",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 66 magical damage when attacked."
+    }
+  ],
+  "_rawcode": "A04H",
+  "_base": "AEah",
+  "_name": "Spikey"
+}

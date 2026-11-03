@@ -1,0 +1,21 @@
+{
+  "OldId": 896885313,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828730693,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": "h056",
+      "SanityCheck": 896885313,
+      "_field": "Eme1"
+    }
+  ],
+  "_rawcode": "Abu5",
+  "_base": "Abu5",
+  "_name": "Abu5"
+}

@@ -1,0 +1,100 @@
+{
+  "OldId": 1869893185,
+  "NewId": 942944321,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4314",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cffffcc00H|rurricane"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9390",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Channels a hurricane damaging nearby buildings and slowing units, randomly tossing them into the air. 60 second cooldown. Additionally, hurricane also summons gale winds equal to your level of gale winds"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9392",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Channels a hurricane damaging nearby buildings and slowing units, randomly tossing them into the air. 60 second cooldown. Additionally, hurricane also summons gale winds equal to your level of gale winds"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4317",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00H|rurricane"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_045",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "H"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_046",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "H"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4294",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Hurricane"
+    }
+  ],
+  "_rawcode": "A048",
+  "_base": "ANto",
+  "_name": "Hurricane"
+}

@@ -1,0 +1,40 @@
+{
+  "OldId": 846359918,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1969582965,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 846359918,
+      "_field": "useu"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Ane2,Asud,Avul",
+      "SanityCheck": 846359918,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1768256373,
+      "Type": "String",
+      "Value": "I00X",
+      "SanityCheck": 846359918,
+      "_field": "usei"
+    },
+    {
+      "Id": 1952542837,
+      "Type": "String",
+      "Value": "PathTextures\\4x4SimpleSolid.tga",
+      "SanityCheck": 846359918,
+      "_field": "upat"
+    }
+  ],
+  "_rawcode": "nmr2",
+  "_base": "nmr2",
+  "_name": "Ancient Selection"
+}

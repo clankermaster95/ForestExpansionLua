@@ -1,0 +1,93 @@
+{
+  "OldId": 1818447425,
+  "NewId": 826683457,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 1818447425,
+      "_field": "alev"
+    },
+    {
+      "Id": 862741326,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 1,
+      "SanityCheck": 1818447425,
+      "_field": "Ncl3"
+    },
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "arac"
+    },
+    {
+      "Id": 829186894,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl1"
+    },
+    {
+      "Id": 896295758,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 5,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl5"
+    },
+    {
+      "Id": 1986818657,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "arlv"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "adur"
+    }
+  ],
+  "_rawcode": "A0F1",
+  "_base": "ANcl",
+  "_name": "Galactic Fury"
+}

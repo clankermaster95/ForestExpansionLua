@@ -1,0 +1,150 @@
+{
+  "OldId": 1635010881,
+  "NewId": 1211117633,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_390",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Shadow Sight"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\FeralSpirit\\feralspiritdone.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_400",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Shadow Sight"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_401",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Allows you to see enemy bases."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_402",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Shadow Sight"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_403",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Allows you to see enemy bases."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1930",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Shadow Sight"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1931",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Shadow Sight"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1932",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Shadow Sight"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1933",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Shadow Sight"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1934",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Allows you to see enemy bases."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1935",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Allows you to see enemy bases."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1936",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Allows you to see enemy bases."
+    }
+  ],
+  "_rawcode": "A00H",
+  "_base": "AIta",
+  "_name": "Shadow Sight"
+}

@@ -1,0 +1,50 @@
+{
+  "OldId": 1903445313,
+  "NewId": 1262563393,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1068",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Causes rains of healing energy to pour down in a large area, healing friendly allied units for <AEtq,DataA1> hit points per second. |nLasts <A0AK,Dur1> seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4306",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Starts a rain of healing energy, healing friendly allied units and structures for <A0AK,DataA1> hit points per second. |cff8080ff|nLasts <A0AK,Dur1> seconds.|r|n|cff808080CD: 60 seconds.|r"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "work,stand",
+      "SanityCheck": 0,
+      "_field": "aani"
+    }
+  ],
+  "_rawcode": "A0AK",
+  "_base": "AEtq",
+  "_name": "A0AK"
+}

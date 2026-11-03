@@ -1,0 +1,101 @@
+{
+  "OldId": 1751348303,
+  "NewId": 875573327,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3111",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ancient of Fire"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHeroAvatarOfFlame.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Creeps\\HeroFlameLord\\HeroFlameLord.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2.3,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_5072",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cffE61942Ignite|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7150",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffE61942Ignite|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9494",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r\n|cffFF8040Strong Against:|r Solos & Armies\n|cffFF8040Weak Against:|r Bases\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n\nThis ancient excels at hunting down and killing any expanders left in the open. Being one of the only ancients with a windwalk, you will passively apply pressure to any expanders that are out in the open. You can hunt down and kill them before they have an opportunity to set up any defenses."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_4733",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Ignite)"
+    },
+    {
+      "Id": 1769173877,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHeroAvatarOfFlame.blp",
+      "SanityCheck": 0,
+      "_field": "ussi"
+    }
+  ],
+  "_rawcode": "O004",
+  "_base": "Otch",
+  "_name": "Ancient of Fire"
+}

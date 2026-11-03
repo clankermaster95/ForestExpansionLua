@@ -1,0 +1,31 @@
+{
+  "OldId": 1717782849,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPhilosophersStone.blp",
+      "SanityCheck": 1717782849,
+      "_field": "aart"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_081",
+      "SanityCheck": 1717782849,
+      "_field": "anam",
+      "_resolvedText": "Flame"
+    }
+  ],
+  "_rawcode": "AIcf",
+  "_base": "AIcf",
+  "_name": "Flame"
+}

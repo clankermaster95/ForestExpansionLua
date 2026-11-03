@@ -1,0 +1,140 @@
+{
+  "OldId": 2004045633,
+  "NewId": 808923201,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7110",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Raging Ward"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEntanglingRoots.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEntanglingRoots.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2314",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2315",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7112",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffffcc00R|raging Ward"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3737",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Summons 3 (+1 per level) Raging Wards that deal 50 damage per second and have 500 health. They last for 20 seconds. 10 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7114",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00R|raging Ward"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7115",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00R|raging Ward"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7116",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00R|raging Ward"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3738",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 3 Raging Wards that deal 50 damage per second and have 500 health. They last for 20 seconds. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3739",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 4 Raging Wards that deal 50 damage per second and have 500 health. They last for 20 seconds. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3740",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 5 Raging Wards that deal 50 damage per second and have 500 health. They last for 20 seconds. 10 second cooldown."
+    }
+  ],
+  "_rawcode": "A070",
+  "_base": "AOsw",
+  "_name": "Raging Ward"
+}

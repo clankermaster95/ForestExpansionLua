@@ -1,0 +1,34 @@
+{
+  "OldId": 1953265256,
+  "NewId": 1110585448,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1723",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Recipe Shop"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\NerubianZiggurat\\NerubianZiggurat.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h02B",
+  "_base": "hvlt",
+  "_name": "Recipe Shop"
+}

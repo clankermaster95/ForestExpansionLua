@@ -1,0 +1,189 @@
+{
+  "OldId": 1668565057,
+  "NewId": 859254849,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1683",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Freeze Zone"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\FrostNova\\FrostNovaTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFrostBolt.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFrostBolt.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2115",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2118",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5959",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffffcc00F|rreeze Zone"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5717",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Lower the temperature of the map, freezing everyone's PC for quite a bit and dealing 100 (+50 per level) damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2438",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00F|rreeze Zone - Level 2"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4240",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00F|rreeze Zone - Level 3"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4245",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00F|rreeze Zone - Level 4"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4355",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00F|rreeze Zone - Level 5"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1682",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Lower the temperature of the map, dealing 100 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3935",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Lower the temperature of the map, freezing everyone's pc for quite a bit and dealing 150 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3990",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Lower the temperature of the map, freezing everyone's PC for quite a bit and dealing 200 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3991",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Lower the temperature of the map, freezing everyone's PC for quite a bit and dealing 250 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3992",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Lower the temperature of the map, freezing everyone's PC for quite a bit and dealing 300 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2436",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00F|rreeze Zone - Level 1"
+    }
+  ],
+  "_rawcode": "A073",
+  "_base": "AHtc",
+  "_name": "Freeze Zone"
+}

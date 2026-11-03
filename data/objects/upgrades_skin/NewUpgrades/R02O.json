@@ -1,0 +1,61 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1328689234,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3285",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Spike Aura"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8740",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Spike Aura - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3287",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to use Spike Aura."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNThornShield.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5912",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "R02O",
+  "_base": "Rhar",
+  "_name": "Spike Aura"
+}

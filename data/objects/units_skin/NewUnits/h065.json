@@ -1,0 +1,122 @@
+{
+  "OldId": 2004121448,
+  "NewId": 892743784,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5939",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Outpost"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\undead\\Necropolis\\Necropolis.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHallOfTheDead.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7275",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Outpost"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10348",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic building, allows you to return lumber and build more advanced structures.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_858",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_3634",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Cultist) - Macko"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 122,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 122,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 122,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    }
+  ],
+  "_rawcode": "h065",
+  "_base": "hwtw",
+  "_name": "Outpost"
+}

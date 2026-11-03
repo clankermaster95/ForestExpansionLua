@@ -1,0 +1,93 @@
+{
+  "OldId": 1718772289,
+  "NewId": 1379217473,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 845507909,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 9,
+      "SanityCheck": 0,
+      "_field": "Eme2"
+    },
+    {
+      "Id": 1634824801,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "1",
+      "SanityCheck": 0,
+      "_field": "arqa"
+    },
+    {
+      "Id": 1685221217,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aord"
+    },
+    {
+      "Id": 1970433889,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aoru"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 828730693,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": "u007",
+      "SanityCheck": 0,
+      "_field": "Eme1"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R041",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1969581381,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "u00A",
+      "SanityCheck": 0,
+      "_field": "Emeu"
+    },
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "arac"
+    }
+  ],
+  "_rawcode": "A05R",
+  "_base": "Abrf",
+  "_name": "Reaping Augmentation"
+}

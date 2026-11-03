@@ -1,0 +1,207 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1110454354,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4803",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Razormane Endurance"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAvatar.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAvatar.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAvatar.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAvatar.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAvatar.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4805",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Razormane Endurance"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4806",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Razormane Endurance"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4807",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Razormane Endurance"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4808",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Razormane Endurance"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9821",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Razormane Endurance - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9822",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Razormane Endurance - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9823",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Razormane Endurance - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9824",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Razormane Endurance - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9825",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Razormane Endurance - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_501",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of all Razormane units except your main one and workers by 20%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_502",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of all Razormane units except your main one and workers by 20%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_503",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of all Razormane units except your main one and workers by 20%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_504",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of all Razormane units except your main one and workers by 20%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_505",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of all Razormane units except your main one and workers by 20%."
+    }
+  ],
+  "_rawcode": "R00B",
+  "_base": "Rhar",
+  "_name": "Razormane Endurance"
+}

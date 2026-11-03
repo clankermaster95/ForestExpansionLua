@@ -1,0 +1,129 @@
+{
+  "OldId": 1751935058,
+  "NewId": 859320402,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8967",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Cultist)"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8906",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases Cultist's attack speed by 10%."
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8918",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Fast hands I [20.0]"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9814",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGlove.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8920",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Fast hands I"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9819",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8932",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Fast hands II"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8933",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Fast hands II [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8934",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases Cultist's attack speed by 10%.|n|nThis is the last attack speed upgrade."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGlove.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R083",
+  "_base": "Rhlh",
+  "_name": "Fast hands II"
+}

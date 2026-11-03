@@ -1,0 +1,88 @@
+{
+  "OldId": 1818379585,
+  "NewId": 1362309185,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3556",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Oc|cffffcc00e|ran Jump"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\WaterCrumble.mdx",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3557",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Oc|cffffcc00e|ran Jump"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5962",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Teleports you a short distance. 60 second cooldown."
+    },
+    {
+      "Id": 1634034017,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\WaterCrumble.mdx",
+      "SanityCheck": 0,
+      "_field": "aaea"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4189",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "C"
+    }
+  ],
+  "_rawcode": "A03Q",
+  "_base": "AEbl",
+  "_name": "Oc|cffffcc00e|ran Jump"
+}

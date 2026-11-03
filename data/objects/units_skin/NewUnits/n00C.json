@@ -1,0 +1,79 @@
+{
+  "OldId": 1818587758,
+  "NewId": 1127231598,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2918",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Furbolg Worker"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2919",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Furbolg |cffffcc00W|rorker"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10085",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A light melee unit. Mainly used for harvesting lumber.|n|n|cfffdca00Health:|r 400; 0.5/s|n|cfffdca00Armor:|r 2 (Medium)|n|cfffdca00Attack:|r 100 (Chaos)|n|cfffdca00Attack Range:|r 50|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Movement Speed:|r 300|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1041",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFurbolgShaman.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\FurbolgShaman\\FurbolgShaman.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "n00C",
+  "_base": "nrel",
+  "_name": "Furbolg Worker"
+}

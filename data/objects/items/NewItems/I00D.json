@@ -1,0 +1,40 @@
+{
+  "OldId": 1752459378,
+  "NewId": 1144008777,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 35,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 2000,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A098",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    }
+  ],
+  "_rawcode": "I00D",
+  "_base": "rhth",
+  "_name": "Gem of Life"
+}

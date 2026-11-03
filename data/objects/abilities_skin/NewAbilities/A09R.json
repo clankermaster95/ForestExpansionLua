@@ -1,0 +1,52 @@
+{
+  "OldId": 1918986305,
+  "NewId": 1379479617,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9993",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Nerubian workers)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9994",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Harvests lumber from trees. "
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9995",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Harvests lumber from trees. "
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8270",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    }
+  ],
+  "_rawcode": "A09R",
+  "_base": "Ahar",
+  "_name": "A09R"
+}

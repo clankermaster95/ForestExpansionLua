@@ -1,0 +1,402 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1378955346,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2528",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ionic Fists"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2530",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ionic Fists"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2531",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ionic Fists"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2532",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ionic Fists"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2533",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ionic Fists"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2534",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ionic Fists"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2535",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ionic Fists"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2536",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ionic Fists"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2537",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ionic Fists"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2538",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ionic Fists"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8257",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ionic Fists - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8258",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ionic Fists - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8259",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ionic Fists - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8260",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ionic Fists - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8261",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ionic Fists - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8262",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ionic Fists - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8263",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ionic Fists - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8264",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ionic Fists - [55.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8265",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ionic Fists - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8266",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Ionic Fists - [65.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2549",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your Mecha-Wrecker by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2550",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your Mecha-Wrecker by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2551",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your Mecha-Wrecker by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2552",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your Mecha-Wrecker by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2553",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your Mecha-Wrecker by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2554",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your Mecha-Wrecker by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2555",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your Mecha-Wrecker by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2556",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your Mecha-Wrecker by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2557",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your Mecha-Wrecker by 10."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2558",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the damage of your Mecha-Wrecker by 10."
+    }
+  ],
+  "_rawcode": "R01R",
+  "_base": "Rhme",
+  "_name": "Ionic Fists"
+}

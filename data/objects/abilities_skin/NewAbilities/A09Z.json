@@ -1,0 +1,32 @@
+{
+  "OldId": 1869640513,
+  "NewId": 1513697345,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_412",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Arachnid Poison"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4284",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A poison attack that deals <Aspo,DataA1> damage per second, and slows the target enemy's movement speed by <Aspo,DataB1,%>% and attack speed by <Aspo,DataC1,%>% for <Aspo,Dur1> seconds."
+    }
+  ],
+  "_rawcode": "A09Z",
+  "_base": "Aspo",
+  "_name": "Arachnid Poison"
+}

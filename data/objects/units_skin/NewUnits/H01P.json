@@ -1,0 +1,102 @@
+{
+  "OldId": 1818325064,
+  "NewId": 1345400904,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_738",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff08D673Ancient of Destruction|r"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\nightelf\\AncientOfLore\\AncientOfLore.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAncientOfLore.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1769173877,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAncientOfLore.blp",
+      "SanityCheck": 0,
+      "_field": "ussi"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "GrizzlyBear",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_6013",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cff08D673Tree Hugger|r,|cff08D673Forest Stalker|r,|cff08D673Nature|r,|cff08D673Fearless Forest|r,|cff08D673Hard Wood|r"
+    },
+    {
+      "Id": 1970434165,
+      "Type": "Int",
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "upru"
+    },
+    {
+      "Id": 1953980789,
+      "Type": "String",
+      "Value": "TRIGSTR_1221",
+      "SanityCheck": 0,
+      "_field": "uawt",
+      "_resolvedText": "Revive Ancient of Destruction"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_740",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Summon |cff08D673Ancient of Destruction|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9917",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Slow, but very powerful hero. This hero can be upgraded multiple times in certain tech buildings to improve it's weaknesses.|n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r"
+    },
+    {
+      "Id": 1919972469,
+      "Type": "String",
+      "Value": "TRIGSTR_1224",
+      "SanityCheck": 0,
+      "_field": "utpr",
+      "_resolvedText": "Revive |cff08D673Anicent of Destruction|r"
+    }
+  ],
+  "_rawcode": "H01P",
+  "_base": "Hpal",
+  "_name": "|cff08D673Ancient of Destruction|r"
+}

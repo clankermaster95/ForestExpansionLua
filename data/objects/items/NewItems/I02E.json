@@ -1,0 +1,61 @@
+{
+  "OldId": 1802726503,
+  "NewId": 1160917065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A0DY",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 600,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1869902697,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "isto"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1634956649,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "iusa"
+    },
+    {
+      "Id": 1818588009,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "isel"
+    },
+    {
+      "Id": 2002874473,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ipaw"
+    }
+  ],
+  "_rawcode": "I02E",
+  "_base": "glsk",
+  "_name": "I02E"
+}

@@ -1,0 +1,79 @@
+{
+  "OldId": 1651001409,
+  "NewId": 1345597505,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2002",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Bloom"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBearBlink.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHealthStone.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2047",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1992",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00B|rloom"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3246",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Instantly heal the target for 1000 health. Can be used on buildings. This effect has a cooldown of 3 minutes. Use it wisely."
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\AncestralSpirit\\AncestralSpiritCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    }
+  ],
+  "_rawcode": "A04P",
+  "_base": "AHhb",
+  "_name": "Bloom"
+}

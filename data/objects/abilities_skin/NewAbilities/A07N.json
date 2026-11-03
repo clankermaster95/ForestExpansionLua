@@ -1,0 +1,168 @@
+{
+  "OldId": 1903445313,
+  "NewId": 1312239681,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7794",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Lifebloom"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1323",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "M"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7795",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lifebloo|cffffcc00m|r - [|cffffcc00Level 1|r]"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7796",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lifebloo|cffffcc00m|r - [|cffffcc00Level 2|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7797",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lifebloo|cffffcc00m|r - [|cffffcc00Level 3|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7798",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lifebloo|cffffcc00m|r - [|cffffcc00Level 4|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7799",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lifebloo|cffffcc00m|r - [|cffffcc00Level 5|r]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7814",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals all allies on the map for 30 health per second. Lasts 5 seconds, 120 second cooldown. |n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7815",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals all allies on the map for 40 health per second. Lasts 5 seconds, 115 second cooldown. |n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7816",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals all allies on the map for 50 health per second. Lasts 5 seconds, 110 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7817",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals all allies on the map for 60 health per second. Lasts 5 seconds, 105 second cooldown. |n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7818",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals all allies on the map for 70 health per second. Lasts 5 seconds, 100 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r"
+    }
+  ],
+  "_rawcode": "A07N",
+  "_base": "AEtq",
+  "_name": "Lifebloom"
+}

@@ -1,0 +1,92 @@
+{
+  "OldId": 1835561839,
+  "NewId": 1311846511,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_787",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Deathly Necromancer III"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\ImpNecromancer.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_788",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Deathly Necromancer III"
+    },
+    {
+      "Id": 1953850229,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucut"
+    },
+    {
+      "Id": 1853186933,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucun"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Acolyte",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Items\\OrbCorruption\\OrbCorruptionMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 220,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 220,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_4469",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A deathly necromancer.|n|n|cfffdca00Health:|r 500; 10/s|n|cfffdca00Mana:|r 150; 2.5/s|n|cfffdca00Armor:|r 7 (Light)|n|cfffdca00Attack:|r 100 (Magic)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 2.3|n|cfffdca00Movement Speed:|r 315|n|cffff0000Feed Value:|r |cffffdd0015|r"
+    }
+  ],
+  "_rawcode": "o01N",
+  "_base": "oshm",
+  "_name": "Deathly Necromancer III"
+}

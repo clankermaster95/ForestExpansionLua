@@ -1,0 +1,170 @@
+{
+  "OldId": 1802723905,
+  "NewId": 809054273,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1861",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Overclock"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2957",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3879",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 5 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9708",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Overclock"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9516",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(hero)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9709",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Overclock"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9710",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Overclock"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9711",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Overclock"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3880",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 10 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6510",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 15 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6511",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sprints, increasing movement speed by 50% for 20 seconds. 30 second cooldown."
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2958",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9712",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Overclock"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3885",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Increases movement speed of Steam Wagon by 50%. |nDuration: 5/10/15/20 seconds.|nCooldown: 30 seconds."
+    }
+  ],
+  "_rawcode": "A090",
+  "_base": "Absk",
+  "_name": "Overclock"
+}

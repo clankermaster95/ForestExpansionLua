@@ -1,0 +1,51 @@
+{
+  "OldId": 1819437121,
+  "NewId": 1144205377,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3180",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harvest (Crypt Lord)"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1736",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Return the harvested lumber to a nearby shelter."
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4232",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    }
+  ],
+  "_rawcode": "A03D",
+  "_base": "Ahrl",
+  "_name": "Harvest (Crypt Lord)"
+}

@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1412640850,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4894",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Senses"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9880",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Senses - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4896",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows your Razormane to use Senses."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNExhumeCorpses.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4925",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    }
+  ],
+  "_rawcode": "R03T",
+  "_base": "Rhme",
+  "_name": "Senses"
+}

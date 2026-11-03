@@ -1,0 +1,21 @@
+{
+  "OldId": 2053982529,
+  "NewId": 825831489,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1851878729,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "Iman"
+    }
+  ],
+  "_rawcode": "A091",
+  "_base": "AImz",
+  "_name": "Item Mana Bonus"
+}

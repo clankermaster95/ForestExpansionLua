@@ -1,0 +1,50 @@
+{
+  "OldId": 1919045186,
+  "NewId": 1177628738,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_5069",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Planck Temperature Burst"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFireBolt.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\FlameStrike\\FlameStrike1.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_5070",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Planck Temperature Burst"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_5071",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has absurdly increased damage."
+    }
+  ],
+  "_rawcode": "B01F",
+  "_base": "BNbr",
+  "_name": "Planck Temperature Burst"
+}

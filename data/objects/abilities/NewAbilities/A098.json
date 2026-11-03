@@ -1,0 +1,21 @@
+{
+  "OldId": 1718372673,
+  "NewId": 943272001,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718185033,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "Ilif"
+    }
+  ],
+  "_rawcode": "A098",
+  "_base": "AIlf",
+  "_name": "Item Health Bonus (+500)"
+}

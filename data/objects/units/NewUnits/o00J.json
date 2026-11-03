@@ -1,0 +1,19 @@
+{
+  "OldId": 1685547119,
+  "NewId": 1244672111,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    }
+  ],
+  "_rawcode": "o00J",
+  "_base": "ohwd",
+  "_name": "Growth Ward"
+}

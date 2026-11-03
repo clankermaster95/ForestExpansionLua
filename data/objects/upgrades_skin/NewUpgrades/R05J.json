@@ -1,0 +1,811 @@
+{
+  "OldId": 1651074386,
+  "NewId": 1244999762,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9448",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTelescope.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10422",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9450",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9451",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9452",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9453",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9454",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9455",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9456",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9457",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9458",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9459",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10423",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10424",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10425",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10426",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10427",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10428",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10429",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10430",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10431",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9469",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9470",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9471",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9472",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9473",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9474",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9475",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9476",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9477",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9478",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9479",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9480",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9481",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9482",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9483",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9484",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9485",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9486",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9487",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Ballistic"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10451",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10452",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10453",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10454",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10455",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10456",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10457",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10458",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10459",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10460",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Improved Ballistic - [15.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9498",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9499",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9500",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9501",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9502",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9503",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9504",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9505",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9506",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9507",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the Steam Wagon's attack range by 100"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7334",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7996",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8007",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8639",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8642",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8688",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8694",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8695",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8722",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8723",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8726",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8728",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8741",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8785",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8793",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8806",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8807",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8812",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8829",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "I"
+    }
+  ],
+  "_rawcode": "R05J",
+  "_base": "Reib",
+  "_name": "Improved Ballistic"
+}

@@ -1,0 +1,30 @@
+{
+  "OldId": 1986348353,
+  "NewId": 1328558145,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 829842757,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.25,
+      "SanityCheck": 0,
+      "_field": "Eev1"
+    }
+  ],
+  "_rawcode": "A00O",
+  "_base": "AEev",
+  "_name": "Kobold Senses"
+}

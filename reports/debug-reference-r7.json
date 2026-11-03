@@ -1,0 +1,33 @@
+{
+  "version": "3.2.0",
+  "revision": "r7",
+  "backup": "backups\\20261102-231247-6d0v2k40",
+  "changed_modules": [
+    {
+      "module": "src/commands/test_data.lua",
+      "before_sha256": "03d061709f30168f7fe9dd632b9ac861cf85a1e366ea05bd5d40132dee01ebce",
+      "after_sha256": "e292a0142fc2b04cf9049aecdc8ab1a9c0703fb8ab2c47ebc2ef60abbdd6d804"
+    },
+    {
+      "module": "src/commands/solo_test.lua",
+      "before_sha256": "4b8dbbaa9de50487ba9c50c2f7f7f3ed9f0c167ee26eccfae0ac573e5c3dc4f3",
+      "after_sha256": "16c98df37d878f4cfe73d0ae36448776a9f62b946c02ca2c1e2b6aed941f8d1f"
+    }
+  ],
+  "payload_changes": [
+    {
+      "file": "war3map.wts",
+      "before_sha256": "150f14be14a22bb6ca791063383a32863d1d25578281c4c975d3471adaa6431a",
+      "after_sha256": "0f61e5f6bb16e50d67142d2e1f45003dd18649191defab3751a2d389ba7da7ff"
+    }
+  ],
+  "changes": [
+    "Remove generated Debug/Solo Testing and item/unit catalog pages from Information/F9.",
+    "Keep solo chat help and name/ID lookup commands.",
+    "Generate DEBUG_REFERENCE.md from the same catalog with all 524 item/unit entries and command instructions.",
+    "Publish only net 3.1.2a to 3.2.0 changes in CHANGELOG.md and the first commit description."
+  ],
+  "archive_sha256": "ff03e1b190b76925957400fee8c18460002ccd09999062b9fde918c7fff47a10",
+  "native_game_test": false,
+  "multiplayer_test": false
+}

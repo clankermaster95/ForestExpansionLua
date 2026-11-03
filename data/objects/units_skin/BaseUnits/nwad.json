@@ -1,0 +1,34 @@
+{
+  "OldId": 1684109166,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4056",
+      "SanityCheck": 1684109166,
+      "_field": "unam",
+      "_resolvedText": "Watchful Eye"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.7,
+      "SanityCheck": 1684109166,
+      "_field": "usca"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 0.65,
+      "SanityCheck": 1684109166,
+      "_field": "ussc"
+    }
+  ],
+  "_rawcode": "nwad",
+  "_base": "nwad",
+  "_name": "Watchful Eye"
+}

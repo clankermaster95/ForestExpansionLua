@@ -1,0 +1,28 @@
+{
+  "OldId": 1685540674,
+  "NewId": 1378889794,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_3006",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Totem of Destruction"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_3012",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Totem of Destruction"
+    }
+  ],
+  "_rawcode": "B00R",
+  "_base": "BOwd",
+  "_name": "Totem of Destruction"
+}

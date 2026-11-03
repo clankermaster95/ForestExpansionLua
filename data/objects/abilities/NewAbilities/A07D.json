@@ -1,0 +1,84 @@
+{
+  "OldId": 1752385857,
+  "NewId": 1144467521,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 845574991,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Osf2"
+    },
+    {
+      "Id": 828797775,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "nvlk",
+      "SanityCheck": 0,
+      "_field": "Osf1"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0.01,
+      "SanityCheck": 0,
+      "_field": "aran"
+    }
+  ],
+  "_rawcode": "A07D",
+  "_base": "AIsh",
+  "_name": "Ancient Stone"
+}

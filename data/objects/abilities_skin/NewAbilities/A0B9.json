@@ -1,0 +1,61 @@
+{
+  "OldId": 846426177,
+  "NewId": 960639041,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8162",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Seed of Rebirth"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9258",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(new)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8163",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Seed of Rebirth"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5986",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Stuns a target fallen expander and the Wisp for 2 seconds, during which the Wisp takes extra damage from attacks. If channeling was successful, the Expander is brought back to life."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNNatureSeed.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A0B9",
+  "_base": "Aps2",
+  "_name": "Seed of Rebirth"
+}

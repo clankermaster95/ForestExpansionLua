@@ -1,0 +1,32 @@
+{
+  "OldId": 1970686273,
+  "NewId": 1279537217,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3618",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Grape Invulnerability"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3803",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    }
+  ],
+  "_rawcode": "A0DL",
+  "_base": "AIvu",
+  "_name": "Grape Invulnerability"
+}

@@ -1,0 +1,18 @@
+*.lua text eol=lf
+*.py text eol=lf
+*.cs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.w3x binary
+*.w3e binary
+*.doo binary
+*.wct binary
+*.wtg binary
+*.blp binary
+*.mdx binary
+*.tga binary
+# Preserve every native map payload byte, including imported text files and the
+# original JASS script, when Git for Windows has core.autocrlf enabled.
+original/map/** -text
+map/** -text
+tools/reference-api/** -text

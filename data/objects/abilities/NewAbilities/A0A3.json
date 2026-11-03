@@ -1,0 +1,84 @@
+{
+  "OldId": 1802980929,
+  "NewId": 859910209,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 862680911,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Owk3"
+    },
+    {
+      "Id": 879458127,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 4,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Owk4"
+    },
+    {
+      "Id": 845903695,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "Owk2"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    }
+  ],
+  "_rawcode": "A0A3",
+  "_base": "ANwk",
+  "_name": "A0A3"
+}

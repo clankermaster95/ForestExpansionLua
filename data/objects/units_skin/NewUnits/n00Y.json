@@ -1,0 +1,43 @@
+{
+  "OldId": 862413678,
+  "NewId": 1496330350,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_723",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Repair Bot"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_734",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Summon Repair Bot"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7141",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Clockwerk bot designated at repairing your buildings.|n|n|cfffdca00Health:|r 125; 2/s|n|cfffdca00Armor:|r 1 (Heavy)|n|cfffdca00Movement Speed:|r 270|n|cffff0000Feed Value:|r |cffffdd000|r"
+    },
+    {
+      "Id": 1935827317,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabs"
+    }
+  ],
+  "_rawcode": "n00Y",
+  "_base": "ncg3",
+  "_name": "Repair Bot"
+}

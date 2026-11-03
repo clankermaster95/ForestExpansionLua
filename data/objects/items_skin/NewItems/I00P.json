@@ -1,0 +1,51 @@
+{
+  "OldId": 1668506980,
+  "NewId": 1345335369,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2327",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Wand of Escape"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2328",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Wand of Escape"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1069",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Allows you to teleport a short distance."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_2329",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Allows you to teleport a short distance."
+    }
+  ],
+  "_rawcode": "I00P",
+  "_base": "desc",
+  "_name": "Wand of Escape"
+}

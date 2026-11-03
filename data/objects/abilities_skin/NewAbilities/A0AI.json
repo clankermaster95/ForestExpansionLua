@@ -1,0 +1,49 @@
+{
+  "OldId": 1684297025,
+  "NewId": 1229008961,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4303",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Damages everything in its area of effect by <A0AI,DataA1,%>% of its max hit points per second and destroys trees. |nLasts <A0AI,Dur1> seconds. 150 second cooldown."
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "stand,work",
+      "SanityCheck": 0,
+      "_field": "aani"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    }
+  ],
+  "_rawcode": "A0AI",
+  "_base": "AUdd",
+  "_name": "A0AI"
+}

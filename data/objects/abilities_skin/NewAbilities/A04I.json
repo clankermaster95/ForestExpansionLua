@@ -1,0 +1,79 @@
+{
+  "OldId": 1885621825,
+  "NewId": 1228156993,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4452",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Thriving Razorvine"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_496",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Grow Young |cffffcc00R|razorvines"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6062",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Create a patch of Young Razorvines, who serve as drop-off points for lumber, and can grow into Thriving Razorvines, who can harvest lumber. 20 second cooldown.|n|cff8080ffCast range: 2500|r"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\Darksummoning\\DarkSummonTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2194",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "A04I",
+  "_base": "ANdp",
+  "_name": "Summon Thriving Razorvine"
+}

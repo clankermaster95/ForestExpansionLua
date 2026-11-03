@@ -1,0 +1,120 @@
+{
+  "OldId": 1852396865,
+  "NewId": 1161113665,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1986818657,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "arlv"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 240,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B01N",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 600,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 846096725,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 120,
+      "SanityCheck": 0,
+      "_field": "Uin2"
+    },
+    {
+      "Id": 829319509,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "Uin1"
+    },
+    {
+      "Id": 862873941,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0.75,
+      "SanityCheck": 0,
+      "_field": "Uin3"
+    },
+    {
+      "Id": 879651157,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "h047",
+      "SanityCheck": 0,
+      "_field": "Uin4"
+    }
+  ],
+  "_rawcode": "A05E",
+  "_base": "AUin",
+  "_name": "Unrestrained Evil"
+}

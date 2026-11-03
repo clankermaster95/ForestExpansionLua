@@ -1,0 +1,48 @@
+{
+  "OldId": 1919249774,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.7,
+      "SanityCheck": 1919249774,
+      "_field": "usca"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 5,
+      "SanityCheck": 1919249774,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6696",
+      "SanityCheck": 1919249774,
+      "_field": "unam",
+      "_resolvedText": "Beginner Races"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 1919249774,
+      "_field": "unsf"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 1919249774,
+      "_field": "uubs"
+    }
+  ],
+  "_rawcode": "nmer",
+  "_base": "nmer",
+  "_name": "Beginner Races"
+}

@@ -1,0 +1,78 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1496461416,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2921",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cffB5B508Furbolg Shaman|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2922",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffB5B508Furbolg Shaman|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_2911",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cffB5B508Furbolg - Healer/Tank - Support, a hard race to use, similar to Kobold. Later on can branch out into either a Healer or a Tank. Has a shop and moderate damage.|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\FurbolgElder\\FurbolgElder.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFurbolgElder.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.75,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\FrostWyrmMissile\\FrostWyrmMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    }
+  ],
+  "_rawcode": "h02Y",
+  "_base": "hpea",
+  "_name": "|cffB5B508Furbolg Shaman|r"
+}

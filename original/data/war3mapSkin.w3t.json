@@ -1,0 +1,3602 @@
+{
+  "FormatVersion": "v3",
+  "BaseItems": [],
+  "NewItems": [
+    {
+      "OldId": 1937338979,
+      "NewId": 808464457,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4984",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_506",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_507",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4985",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685091170,
+      "NewId": 825241673,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_379",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNRevenant.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_7433",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_9429",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_4991",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 842018889,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_383",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNThoriumMelee.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_219",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_2036",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_222",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1071",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869507444,
+      "NewId": 858796105,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_419",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1543",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_3637",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_910",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_3638",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1633840226,
+      "NewId": 875573321,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_424",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNTheCaptain.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_7501",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_426",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_3639",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1701341040,
+      "NewId": 892350537,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_427",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNGreaterInvulneralbility.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_7502",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_7503",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1610",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "war3mapImported\\PotionOfInvulnerability.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_10864",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 909127753,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_860",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedUnholyStrength.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_2038",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_862",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_2039",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1469",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2019910772,
+      "NewId": 942682185,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_936",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNWirtsOtherLeg.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_937",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_938",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_939",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2019910772,
+      "NewId": 959459401,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_940",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNWirtsOtherLeg.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_941",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2019910772,
+      "NewId": 1093677129,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_942",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNWirtsOtherLeg.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_943",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_944",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_945",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1886938484,
+      "NewId": 925904969,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_982",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_983",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1276",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_984",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936092777,
+      "NewId": 1110454345,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1670",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1671",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_771",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "war3mapImported\\Lava-Treasure-Chest.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1669",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835428963,
+      "NewId": 1127231561,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1696",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1697",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1860",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_8953",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "war3mapImported\\Lava-Treasure-Chest.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1752459378,
+      "NewId": 1144008777,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1706",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1707",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_4932",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_5662",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1818850163,
+      "NewId": 1160785993,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1710",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1711",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1712",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1713",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "war3mapImported\\Lava-Treasure-Chest.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1177563209,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1724",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_2298",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1726",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_2299",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1684955507,
+      "NewId": 1194340425,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_662",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_785",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_797",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_809",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_743",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919906419,
+      "NewId": 1211117641,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_866",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_923",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1142",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1242",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_3179",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1735289699,
+      "NewId": 1227894857,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1738",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1739",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_277",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_351",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1918985844,
+      "NewId": 1261449289,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1023",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1122",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1129",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1778",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1623",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNPurpleFelhound.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 846492532,
+      "NewId": 1278226505,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1780",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNRejuvenation.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1781",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1782",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1783",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "Objects\\InventoryItems\\Shimmerweed\\Shimmerweed.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1819635571,
+      "NewId": 1295003721,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_2072",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_2073",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_2083",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_2084",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1935763571,
+      "NewId": 1311780937,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_2076",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_2077",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_2300",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_2301",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 863265138,
+      "NewId": 1328558153,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_2323",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_2324",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_5225",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_5226",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1668506980,
+      "NewId": 1345335369,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_2327",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_2328",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1069",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_2329",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869768303,
+      "NewId": 1362112585,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_2449",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNFlakCannons.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_2450",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6546",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1278",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1818583911,
+      "NewId": 1378889801,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_2702",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNHornOfFog.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_2703",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_2704",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_2705",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1640",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1651469923,
+      "NewId": 1395667017,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_2706",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSpellShieldAmulet.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_2707",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_2708",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_2709",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_220",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1852993132,
+      "NewId": 1412444233,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_2710",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNThoriumArmor.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_2711",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_9140",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_9141",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1470",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1836413796,
+      "NewId": 1429221449,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_3471",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNPhilosophersStone.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_3472",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_868",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_9659",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1667330658,
+      "NewId": 1445998665,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_8888",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_8889",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_3553",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_3554",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfFrost.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1462775881,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_3644",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "war3mapImported\\FlakCannon.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_3645",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_3646",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_3647",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1479553097,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4243",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "war3mapImported\\FlakCannon.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4244",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_352",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_358",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1818588275,
+      "NewId": 1496330313,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4323",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNWandOfManaSteal.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4324",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_5229",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_5230",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1188",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1752459378,
+      "NewId": 1513107529,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4327",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4328",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_9155",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_9156",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNMantleOfIntelligence.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_737",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1952674676,
+      "NewId": 808529993,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4331",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4332",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6333",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_4333",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNBanish.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_5008",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 825307209,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1383",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNDarkSummoning.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1384",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_463",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_815",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_2179",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 842084425,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4363",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNDarkSummoning.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4364",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_874",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1672",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953721448,
+      "NewId": 858861641,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4448",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_4449",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4450",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_4459",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 875638857,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4844",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSentryWard.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_4845",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4846",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_2303",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1818",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835428963,
+      "NewId": 892416073,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4848",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4849",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_2304",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_9466",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835428963,
+      "NewId": 909193289,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1584",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1614",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1912",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1916",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1189",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1668571506,
+      "NewId": 925970505,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_5029",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNScytheBackstab.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_5030",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_397",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1039",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1668444787,
+      "NewId": 942747721,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_2181",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNScytheBackstab.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1497",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1499",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1802",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_5107",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919906419,
+      "NewId": 1244672073,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_5442",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_5443",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_7504",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_7505",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNTomeRed.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1908",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634626928,
+      "NewId": 1110519881,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_6436",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_6437",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNManaStone.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_9168",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_9169",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_739",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1735289699,
+      "NewId": 1127297097,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_6440",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNPriestMaster.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_6441",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_2109",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_2145",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919837552,
+      "NewId": 1144074313,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_2581",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNPriestMaster.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_2739",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_2146",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_6585",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1641",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1684501094,
+      "NewId": 1160851529,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_6517",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_6518",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6067",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_6068",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919053164,
+      "NewId": 1177628745,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_7252",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_7253",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1923",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSacrificialSkull.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "Objects\\InventoryItems\\CrystalShard\\CrystalShard.mdl",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1751343731,
+      "NewId": 1194405961,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_7479",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNBlood Stinger.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_7480",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6394",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_7488",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1935767649,
+      "NewId": 1211183177,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_7490",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNPeriapt.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_7491",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6586",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_6588",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634626928,
+      "NewId": 1227960393,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_7941",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_7942",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6589",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_6590",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2037408373,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2020631157,
+          "Type": "Int",
+          "Value": 3,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953326439,
+      "NewId": 1244737609,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_8328",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNBookOfTheDead.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1169",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_5766",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_9653",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_9654",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919902575,
+      "NewId": 1261514825,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_8790",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNBarbarian Brutal Slasher.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_8791",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6470",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_6473",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2037408373,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2020631157,
+          "Type": "Int",
+          "Value": 3,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1937338979,
+      "NewId": 959524937,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_8890",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_9223",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbofSlowness.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_9224",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_8891",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1093742665,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_3261",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_3288",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_3619",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_3878",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbofSlowness.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_221",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953721453,
+      "NewId": 1278292041,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_9072",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_9073",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1990",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1991",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919837552,
+      "NewId": 1295069257,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4027",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4502",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_4506",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_4591",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1528",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953326439,
+      "NewId": 1311846473,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_9144",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNNecromancerMaster.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_5770",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_10367",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_10368",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1328623689,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4596",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_5765",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_5928",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_5935",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "war3mapImported\\BTN_NerubianScepter.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1170",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1345400905,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_9624",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_3700",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_3993",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "war3mapImported\\BTN_NerubianScepter.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_9625",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1362178121,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_5936",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_5964",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_5972",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_6054",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "war3mapImported\\BTNPlateOfPlaneswalker.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_2134",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1378955337,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1998",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_1999",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1972",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_1973",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "war3mapImported\\BTNPlateOfPlaneswalker.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1395732553,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_6058",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_6123",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6592",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_6593",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "war3mapImported\\BTNFireArmor.BLP",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_761",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1718903154,
+      "NewId": 1412509769,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_9665",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_9666",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6594",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_6626",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "war3mapImported\\BTNFireArmor.BLP",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1986947440,
+      "NewId": 1429286985,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1974",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "war3mapImported\\PotionOfInvisibility.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1182",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1953723748,
+      "NewId": 1446064201,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1818455152,
+      "NewId": 1462841417,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_1865",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_1866",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2004119412,
+      "NewId": 1479618633,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_3994",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1691",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_855",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634559856,
+      "NewId": 1496395849,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_5153",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_5154",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1752459378,
+      "NewId": 1513173065,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_576",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_577",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_578",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_579",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNMoonArmor.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 2004119412,
+      "NewId": 808595529,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_856",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_873",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1692",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_887",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_965",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNClockWerkGoblin.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936028274,
+      "NewId": 825372745,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_009",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_053",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "war3mapImported\\SEMooncakeItem.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1633907561,
+          "Type": "Real",
+          "Value": 0.9,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1919705961,
+          "Type": "Int",
+          "Value": 192,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1735156585,
+          "Type": "Int",
+          "Value": 192,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936028272,
+      "NewId": 842149961,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_671",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "war3mapImported\\CheeseItem.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_692",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNCheese.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1919705961,
+          "Type": "Int",
+          "Value": 192,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1735156585,
+          "Type": "Int",
+          "Value": 192,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651270505,
+          "Type": "Int",
+          "Value": 128,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_676",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_975",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1852143215,
+      "NewId": 858927177,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6395",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_764",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1886216566,
+      "NewId": 875704393,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_6234",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1769104237,
+      "NewId": 892481609,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_820",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_926",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_932",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNSeigeEngine.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2037408373,
+          "Type": "Int",
+          "Value": 2,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1936028272,
+      "NewId": 926036041,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4059",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "Objects\\InventoryItems\\Shimmerweed\\Shimmerweed.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_4060",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4061",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_976",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1937338979,
+      "NewId": 909258825,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNFarSight.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_3721",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_3722",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_3741",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_3742",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1769104237,
+      "NewId": 942813257,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4704",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4705",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_4706",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_4707",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNWarEagle.blp",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685091184,
+      "NewId": 959590473,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_4742",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685091184,
+      "NewId": 1093808201,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_195",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_5657",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_5658",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_4361",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1834",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1952674676,
+      "NewId": 1110585417,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4933",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_4935",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedSpikedBarricades.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_5645",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_5647",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_224",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2020631157,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700952674,
+      "NewId": 1127362633,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_7440",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_7443",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_7444",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_7442",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\WorldEditUI\\Editor-Random-Item.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "Objects\\RandomObject\\RandomObject.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1735156585,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651270505,
+          "Type": "Int",
+          "Value": 0,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1633907561,
+          "Type": "Real",
+          "Value": 1.3,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1685091170,
+      "NewId": 1144139849,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_4248",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNBoots.blp",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_4477",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_9433",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1115",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1802726503,
+      "NewId": 1160917065,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_9829",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2020631157,
+          "Type": "Int",
+          "Value": 2,
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2037408373,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1734439522,
+      "NewId": 1177694281,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1936024681,
+          "Type": "String",
+          "Value": "TRIGSTR_085",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_465",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 2037408373,
+          "Type": "Int",
+          "Value": 1,
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1986947440,
+      "NewId": 1194471497,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1651864693,
+          "Type": "String",
+          "Value": "TRIGSTR_508",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1818846825,
+          "Type": "String",
+          "Value": "war3mapImported\\PotionOfInvisibility.mdl",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1953458293,
+          "Type": "String",
+          "Value": "TRIGSTR_1183",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1835101813,
+          "Type": "String",
+          "Value": "TRIGSTR_522",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1885959285,
+          "Type": "String",
+          "Value": "TRIGSTR_574",
+          "SanityCheck": 0
+        },
+        {
+          "Id": 1868786025,
+          "Type": "String",
+          "Value": "ReplaceableTextures\\CommandButtons\\BTNGreaterInvisibility.blp",
+          "SanityCheck": 0
+        }
+      ]
+    }
+  ]
+}

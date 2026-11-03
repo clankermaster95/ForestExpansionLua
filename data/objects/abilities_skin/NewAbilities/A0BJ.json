@@ -1,0 +1,41 @@
+{
+  "OldId": 1819437121,
+  "NewId": 1245851713,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_473",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harvest (Elf Engineers)"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2876",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Return the harvested lumber to a nearby shelter."
+    }
+  ],
+  "_rawcode": "A0BJ",
+  "_base": "Ahrl",
+  "_name": "Harvest (Elf Engineers)"
+}

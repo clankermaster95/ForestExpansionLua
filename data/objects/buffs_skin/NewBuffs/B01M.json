@@ -1,0 +1,50 @@
+{
+  "OldId": 1935887938,
+  "NewId": 1295069250,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_5182",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Dark Barrage"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStarfall.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\Thunderclap\\ThunderclapTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_5183",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Dark Barrage"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_5184",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Dark Barrage"
+    }
+  ],
+  "_rawcode": "B01M",
+  "_base": "BNcs",
+  "_name": "Dark Barrage"
+}

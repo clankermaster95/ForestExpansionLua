@@ -1,0 +1,209 @@
+{
+  "OldId": 1651001409,
+  "NewId": 1227894849,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_391",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Call of Darkness"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\RaiseSkeletonWarrior\\RaiseSkeleton.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_392",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cff8431ADCall of Darkness|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_904",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cff8431ADHeals you for 300 (+150 per level) health. 10 second cooldown.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_394",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff8431ADCall of Darkness|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_395",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff8431ADCall of Darkness|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_396",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff8431ADCall of Darkness|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_971",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8431ADHeals for 300 health, Increases by 150 each level. 10 second cooldown.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_972",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8431ADHeals for 450 health, 10 second cooldown.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1073",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8431ADHeals for 600 health, 10 second cooldown.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1813",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff8431ADCall of Darkness|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1814",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff8431ADCall of Darkness|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1074",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8431ADHeals for 750 health, 10 second cooldown.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1147",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8431ADHeals for 900 health, 10 second cooldown.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1937",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff8431ADCall of Darkness|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1938",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff8431ADCall of Darkness|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1174",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8431ADHeals for 1050 health, 10 second cooldown.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1314",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8431ADHeals for 1200 health, 10 second cooldown.|r"
+    }
+  ],
+  "_rawcode": "A00I",
+  "_base": "AHhb",
+  "_name": "Call of Darkness"
+}

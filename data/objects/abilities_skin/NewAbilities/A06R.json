@@ -1,0 +1,22 @@
+{
+  "OldId": 1701989953,
+  "NewId": 1379283009,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6790",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ancient Base Mana"
+    }
+  ],
+  "_rawcode": "A06R",
+  "_base": "ANre",
+  "_name": "Ancient Base Mana"
+}

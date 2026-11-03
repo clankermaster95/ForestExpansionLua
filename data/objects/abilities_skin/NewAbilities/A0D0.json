@@ -1,0 +1,79 @@
+{
+  "OldId": 1785033281,
+  "NewId": 809775169,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1089",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff239b14Tree Chopper releases nanomachines to mend some of it's damaged parts.|n|nHeals for |r1250|cff239b14 hitpoints over |r10 seconds|cff239b14 with a cooldown of |r60 seconds."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1092",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1090",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff4bafbeNanomachine Repair|r [60]"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1091",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Nanomachine Repair"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNResistantSkin.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A0D0",
+  "_base": "Arej",
+  "_name": "Nanomachine Repair"
+}

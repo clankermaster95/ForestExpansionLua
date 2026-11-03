@@ -1,0 +1,79 @@
+{
+  "OldId": 1651001409,
+  "NewId": 842215489,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3039",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Mend"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTranquility.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTranquility.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Items\\TomeOfRetraining\\TomeOfRetrainingCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5430",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Men|cffffcc00d|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3029",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Mend your target, healing 500 health instantly. Works on buildings. 30 second cooldown."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5382",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "D"
+    }
+  ],
+  "_rawcode": "A032",
+  "_base": "AHhb",
+  "_name": "Mend"
+}

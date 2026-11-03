@@ -1,0 +1,58 @@
+{
+  "OldId": 1937338979,
+  "NewId": 808464457,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4984",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Orb of Revealing"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_506",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Reveals a target area on the map, including invisible units. 20 second cooldown."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_507",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Reveals a target area on the map, including invisible units. 20 second cooldown."
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4985",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Orb of Revealing"
+    }
+  ],
+  "_rawcode": "I000",
+  "_base": "crys",
+  "_name": "Orb of Revealing"
+}

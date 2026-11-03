@@ -1,0 +1,42 @@
+{
+  "OldId": 1668246645,
+  "NewId": 1295003765,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_2631",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Wispari, Ancient of air)"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\CloudOfFog\\CloudOfFog.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3667",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Wind Trail"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "u00M",
+  "_base": "uloc",
+  "_name": "Wind Trail"
+}

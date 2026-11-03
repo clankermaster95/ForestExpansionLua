@@ -1,0 +1,129 @@
+{
+  "OldId": 2004121448,
+  "NewId": 943075432,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6056",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Towering Skull Pile"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\LordaeronSummer\\Props\\SkullPile\\SkullPile0.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFelHound.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1650",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6057",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Towering Skull Pile"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10351",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "One of the strongest walls, has a lot of health and armor. Can be upgraded at your research center.|n|n|cfffdca00Health:|r 1000|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_6059",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Cultist) - Macko"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 2.35,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.4,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 211,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 211,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 211,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    }
+  ],
+  "_rawcode": "h068",
+  "_base": "hwtw",
+  "_name": "Towering Skull Pile"
+}

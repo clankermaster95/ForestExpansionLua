@@ -1,0 +1,39 @@
+{
+  "OldId": 1818447425,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 1818447425,
+      "_field": "alev"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 1818447425,
+      "_field": "aher"
+    },
+    {
+      "Id": 862741326,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 1,
+      "SanityCheck": 1818447425,
+      "_field": "Ncl3"
+    }
+  ],
+  "_rawcode": "ANcl",
+  "_base": "ANcl",
+  "_name": "ANcl"
+}

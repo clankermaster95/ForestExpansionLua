@@ -1,0 +1,299 @@
+{
+  "OldId": 1835615553,
+  "NewId": 876032065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7173",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Absolute Zero"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNAbsoluteZeroOn.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNAbsoluteZeroOff.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNAbsoluteZeroOn.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7174",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2112",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Repel any and all energy away from you, freezing all your opponents. Deals 80 (+20 per level) damage per second around you, including structures. This ability drains 40 mana per second and has no cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7176",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7177",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7178",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7179",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7180",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2409",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Repel any and all energy away from you, freezing all your opponents. Deals 80 damage per second around you. This ability drains 40 mana per second and has no cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2435",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Repel any and all energy away from you, freezing all your opponents. Deals 100 damage per second around you. This ability drains 40 mana per second and has no cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3025",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Repel any and all energy away from you, freezing all your opponents. Deals 120 damage per second around you. This ability drains 40 mana per second and has no cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3073",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Repel any and all energy away from you, freezing all your opponents. Deals 140 damage per second around you. This ability drains 40 mana per second and has no cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3558",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Repel any and all energy away from you, freezing all your opponents. Deals 160 damage per second around you. This ability drains 40 mana per second and has no cooldown."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7186",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7187",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7188",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7189",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7190",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate A|cffffcc00b|rsolute Zero"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7191",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Absolute Zero to stop draining mana."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7192",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Absolute Zero to stop draining mana."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7193",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Absolute Zero to stop draining mana."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7194",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Absolute Zero to stop draining mana."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7195",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Absolute Zero to stop draining mana."
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2063",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2064",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2094",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "B"
+    }
+  ],
+  "_rawcode": "A074",
+  "_base": "AEim",
+  "_name": "Absolute Zero"
+}

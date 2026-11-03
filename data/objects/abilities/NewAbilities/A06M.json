@@ -1,0 +1,48 @@
+{
+  "OldId": 2019707201,
+  "NewId": 1295396929,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 862478920,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "Hbh3"
+    },
+    {
+      "Id": 828924488,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 11,
+      "SanityCheck": 0,
+      "_field": "Hbh1"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "adur"
+    }
+  ],
+  "_rawcode": "A06M",
+  "_base": "AIbx",
+  "_name": "Soul Hammer"
+}

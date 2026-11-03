@@ -1,0 +1,70 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1278292050,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8796",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Rend"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8160",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Rend - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2322",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to use rend."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSacrifice.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4455",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R01L",
+  "_base": "Rhme",
+  "_name": "Rend"
+}

@@ -1,0 +1,60 @@
+{
+  "OldId": 1751271489,
+  "NewId": 892874817,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8492",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Unstoppable Strength"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "arhk"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8493",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Unstoppable Strength"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3679",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your Ogre Overlord has a 30% chance to stun the target for 1 second and deal an additional 50 damage on attack."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNGnollCommandAura.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A085",
+  "_base": "AHbh",
+  "_name": "Unstoppable Strength"
+}

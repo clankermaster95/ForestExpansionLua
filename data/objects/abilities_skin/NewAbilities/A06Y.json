@@ -1,0 +1,173 @@
+{
+  "OldId": 1735609921,
+  "NewId": 1496723521,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBarkskin.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBarkskin.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\NightElf\\Tranquility\\Tranquility.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\NightElf\\Tranquility\\Tranquility.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1885430625,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "acap"
+    },
+    {
+      "Id": 1667326817,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acac"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3629",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cffb1ffe9Redemption|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5686",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5687",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3630",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffb1ffe9Redemption|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3698",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cff6fd3b1Restores|r all |cff6fd3b1of your |rhealth|cff6fd3b1 and|r mana |cff6fd3b1upon use.|n|nAbility cooldown is|r 6 minutes."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3797",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff6fd3b1Restores|r all |cff6fd3b1of your |rhealth|cff6fd3b1 and|r mana |cff6fd3b1upon use.|n|nAbility cooldown is|r 6 minutes."
+    },
+    {
+      "Id": 2037412449,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "arpy"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7088",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Redemption"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2479",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Ancient of Light)"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A06Y",
+  "_base": "ANsg",
+  "_name": "Redemption"
+}

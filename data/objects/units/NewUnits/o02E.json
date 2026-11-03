@@ -1,0 +1,117 @@
+{
+  "OldId": 1919903343,
+  "NewId": 1160917103,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 700,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R088,R089,R087,R06I,R000,R07G,R086",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h05X",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 650,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 1200,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1634824821,
+      "Type": "String",
+      "Value": "1",
+      "SanityCheck": 0,
+      "_field": "urqa"
+    }
+  ],
+  "_rawcode": "o02E",
+  "_base": "ofor",
+  "_name": "Workshop"
+}

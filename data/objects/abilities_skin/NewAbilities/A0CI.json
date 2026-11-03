@@ -1,0 +1,41 @@
+{
+  "OldId": 1802980929,
+  "NewId": 1229140033,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2769",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Ratling Stalker)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3996",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Allows the Ratling Stalker to become invisible, and move <A0CI,DataB1,%>% faster for 10 seconds. If the Rat attacks a unit to break the invisibility, the attack will do <A0CI,DataC1> bonus damage. 30 second cooldown."
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A0CI",
+  "_base": "ANwk",
+  "_name": "A0CI"
+}

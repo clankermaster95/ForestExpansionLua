@@ -1,0 +1,59 @@
+{
+  "OldId": 1918985844,
+  "NewId": 1261449289,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1023",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Seed of Destruction"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1122",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Seed of Destruction"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1129",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Plant a Seed of Destruction, creating a Growth of Destruction, dealing 40 chaos damage and has 450 health."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_1778",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Plant a Seed of Destruction, creating a Growth of Destruction, dealing 40 chaos damage and has 450 health."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1623",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPurpleFelhound.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    }
+  ],
+  "_rawcode": "I00K",
+  "_base": "tfar",
+  "_name": "Seed of Destruction"
+}

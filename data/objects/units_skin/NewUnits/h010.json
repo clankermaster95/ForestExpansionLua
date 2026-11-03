@@ -1,0 +1,71 @@
+{
+  "OldId": 1634037864,
+  "NewId": 808530024,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7304",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cffF8D71DWildkin|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\Owlbear\\Owlbear.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOwlBear.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7305",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffF8D71DWildkin|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7182",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter|n\n|cff8080FFDifficulty|r: |cffff0000Hard|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.75|n\n|cffC0C0C0Wildkins have extremely high damage later on in the game. They most likely have the most burst out of any other race with the correct items and upgrades. Since Wildkins scale with mana, the more they upgrade, the higher their damage becomes. Wildkins can also cast from a range, which makes them a safe carry. Wildkins can also choose to become a military race, building an army to hunt down the ancient on their own. With enough resources, the Wildkin becomes a very formidable race and a huge threat to the ancient.|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.65,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "h010",
+  "_base": "hpea",
+  "_name": "|cffF8D71DWildkin|r"
+}

@@ -1,0 +1,50 @@
+{
+  "OldId": 1952662337,
+  "NewId": 892481601,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1746",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives you a 15% chance to do 2x normal damage."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6902",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Kobold)"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A025",
+  "_base": "ACct",
+  "_name": "A025"
+}

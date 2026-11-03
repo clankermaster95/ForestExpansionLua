@@ -1,0 +1,490 @@
+{
+  "OldId": 1918986322,
+  "NewId": 858796114,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4376",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Endurance Training"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMoonArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRockGolem.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAncientOfWonders.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNChaosGrunt.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNInfernal.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanBattleShip.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUndeadShrine.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4377",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Endurance Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4378",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Endurance Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4379",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Endurance Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4380",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Endurance Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4381",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Endurance Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4382",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Endurance Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4383",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Endurance Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4384",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Endurance Training"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4385",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Endurance Training"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6565",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Endurance Training - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6566",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Endurance Training - [75.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6567",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Endurance Training - [90.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6568",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Endurance Training - [105.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6570",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Endurance Training - [120.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6571",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Endurance Training - [135.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6572",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Endurance Training - [150.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6573",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Endurance Training - [165.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6574",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Endurance Training - [180.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6575",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Endurance Training - [195.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4315",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Adds 250 Health."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4316",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Adds 250 Health."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4396",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Adds 250 Health."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4397",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Adds 250 Health."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4398",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Adds 250 Health."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4399",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Adds 250 Health."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4400",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Adds 250 Health."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4401",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Adds 250 Health."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4402",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Adds 250 Health."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4403",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Adds 250 Health."
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1919",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "P"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1959",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "P"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1967",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "P"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1968",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "P"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1969",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "P"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1978",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "P"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2132",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "P"
+    }
+  ],
+  "_rawcode": "R003",
+  "_base": "Rhar",
+  "_name": "Endurance Training"
+}

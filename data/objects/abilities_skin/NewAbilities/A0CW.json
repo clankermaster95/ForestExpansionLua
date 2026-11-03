@@ -1,0 +1,41 @@
+{
+  "OldId": 1651723841,
+  "NewId": 1464021057,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6063",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Mana Burn (Stun)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6065",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Mana Burn (Stun)"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    }
+  ],
+  "_rawcode": "A0CW",
+  "_base": "ANsb",
+  "_name": "Mana Burn (Stun)"
+}

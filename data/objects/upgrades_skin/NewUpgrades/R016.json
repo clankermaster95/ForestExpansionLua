@@ -1,0 +1,60 @@
+{
+  "OldId": 1701668946,
+  "NewId": 909193298,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8915",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Frenzy"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ghk1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10417",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Frenzy - [25.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8922",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows your Kobold to cast Frenzy."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R016",
+  "_base": "Rhme",
+  "_name": "Frenzy"
+}

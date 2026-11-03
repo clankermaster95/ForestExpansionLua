@@ -1,0 +1,85 @@
+{
+  "OldId": 1668244591,
+  "NewId": 858927215,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1646",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Arcane Mage"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\GlaiveMissile\\GlaiveMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1953850229,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucut"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10288",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A supportive spell caster. Has 2 item slots.|n|n|cfffdca00Health:|r 600; 5/s|n|cfffdca00Mana:|r 500; 5/s|n|cfffdca00Armor:|r 10 (Medium)|n|cfffdca00Attack:|r 100 (Chaos)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd0060|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Acolyte",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1654",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Arcane Mage"
+    },
+    {
+      "Id": 1635083125,
+      "Type": "String",
+      "Value": "UI\\Widgets\\Console\\Human\\infocard-sorceress.blp",
+      "SanityCheck": 0,
+      "_field": "ucua"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNHeroHighborneWarlockAlternate.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\WarlockNightElfV1.04.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    }
+  ],
+  "_rawcode": "o023",
+  "_base": "odoc",
+  "_name": "Arcane Mage"
+}

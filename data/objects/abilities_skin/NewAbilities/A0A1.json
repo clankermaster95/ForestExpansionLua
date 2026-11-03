@@ -1,0 +1,550 @@
+{
+  "OldId": 1667318593,
+  "NewId": 826355777,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6132",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Nerubian)"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNFrostClash.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1685",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2020",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2470",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2471",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2813",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2816",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2834",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2835",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2836",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2850",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2851",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3088",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3091",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3233",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3234",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3235",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3236",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3237",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3394",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 21,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3578",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 22,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3603",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 24,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3604",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 23,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3616",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 25,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3617",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_606",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 1]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_607",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 2]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_609",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 3]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_610",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 4]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_611",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 5]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_612",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 6]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_613",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 7]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_614",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 8]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_615",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 9]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_619",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 10]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_624",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 11]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_627",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 12]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_628",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 13]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_629",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 14]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_630",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 15]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_631",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 16]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_632",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 17]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_633",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 18]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_634",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 19]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_638",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 20]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 21,
+      "Pointer": 0,
+      "Value": "TRIGSTR_639",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 21]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 22,
+      "Pointer": 0,
+      "Value": "TRIGSTR_640",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 22]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 23,
+      "Pointer": 0,
+      "Value": "TRIGSTR_641",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 23]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 24,
+      "Pointer": 0,
+      "Value": "TRIGSTR_642",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 24]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 25,
+      "Pointer": 0,
+      "Value": "TRIGSTR_645",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Might of the Frozen Throne |cff8080ff[Level 25]|r"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_569",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Might of the Frozen Throne"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3802",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of all the Nerubian's towers by 7 and Nerubian Spires by 35 per level."
+    }
+  ],
+  "_rawcode": "A0A1",
+  "_base": "ACac",
+  "_name": "Might of the Frozen Throne"
+}

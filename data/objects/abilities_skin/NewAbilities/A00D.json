@@ -1,0 +1,51 @@
+{
+  "OldId": 1869640513,
+  "NewId": 1144008769,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_348",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Smog"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNGenericSpellImmunity.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_350",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Smog"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_510",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When you attack a unit, it will be smogged, dazing the unit, making it slower."
+    }
+  ],
+  "_rawcode": "A00D",
+  "_base": "Aspo",
+  "_name": "Smog"
+}

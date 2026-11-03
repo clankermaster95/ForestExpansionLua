@@ -1,0 +1,228 @@
+{
+  "OldId": 1936215617,
+  "NewId": 959524929,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 879977294,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 4,
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "Ncs4"
+    },
+    {
+      "Id": 879977294,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 4,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "Ncs4"
+    },
+    {
+      "Id": 879977294,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 4,
+      "Value": 700,
+      "SanityCheck": 0,
+      "_field": "Ncs4"
+    },
+    {
+      "Id": 913533006,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 6,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Nhs6"
+    },
+    {
+      "Id": 913533006,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 6,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Nhs6"
+    },
+    {
+      "Id": 913533006,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 6,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Nhs6"
+    },
+    {
+      "Id": 863200078,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Ncs3"
+    },
+    {
+      "Id": 863200078,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 3,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Ncs3"
+    },
+    {
+      "Id": 863200078,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 3,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Ncs3"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 829645646,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "Ncs1"
+    },
+    {
+      "Id": 829645646,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "Ncs1"
+    },
+    {
+      "Id": 829645646,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 700,
+      "SanityCheck": 0,
+      "_field": "Ncs1"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    }
+  ],
+  "_rawcode": "A019",
+  "_base": "ANhs",
+  "_name": "Dark Spray"
+}

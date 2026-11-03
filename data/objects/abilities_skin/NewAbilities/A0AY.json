@@ -1,0 +1,71 @@
+{
+  "OldId": 1717717313,
+  "NewId": 1497444417,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1777",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Seed of Destruction"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTreant.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1260",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Nature)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1786",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Seed of Destruction"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3703",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Plant a Seed of Destruction, creating Raging Ward."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2484",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    }
+  ],
+  "_rawcode": "A0AY",
+  "_base": "AIbf",
+  "_name": "Seed of Destruction"
+}

@@ -1,0 +1,96 @@
+{
+  "OldId": 1751344494,
+  "NewId": 1244672110,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Argl",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "orc",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1936289141,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umis"
+    },
+    {
+      "Id": 1920363893,
+      "Type": "Unreal",
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "umvr"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1953527157,
+      "Type": "String",
+      "Value": "n00K",
+      "SanityCheck": 0,
+      "_field": "uupt"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R05H",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1953918325,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "umvt"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    }
+  ],
+  "_rawcode": "n00J",
+  "_base": "nech",
+  "_name": "Young Razorvine"
+}

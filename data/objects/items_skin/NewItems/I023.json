@@ -1,0 +1,28 @@
+{
+  "OldId": 1852143215,
+  "NewId": 858927177,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6395",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Adds <A0CC,DataA1> bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and poison enemy units for <A0CB,Dur1> seconds, dealing <A0CB,DataA1> damage and slowing target's speed for <A0CB,DataB1,%>%.|n|n|cff8080ffOrb of venom debuff instances applied by different units stack|r|n|cffff00ffDifferent orb effects coming from 1 unit do not stack.|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_764",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    }
+  ],
+  "_rawcode": "I023",
+  "_base": "oven",
+  "_name": "I023"
+}

@@ -1,0 +1,65 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1513107560,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3484",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Squid Harvester"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Creeps\\FacelessOne\\FacelessOne.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Murloc",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_681",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_3489",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00S|rquid Harvester"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6887",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic worker unit to harvest lumber. Cannot harvest gold.|n|n|cfffdca00Health:|r 100; 3/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Movement Speed:|r 190|n|cffff0000Feed Value:|r |cffffdd000|r"
+    }
+  ],
+  "_rawcode": "h00Z",
+  "_base": "hpea",
+  "_name": "Squid Harvester"
+}

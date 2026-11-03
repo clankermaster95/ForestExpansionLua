@@ -1,0 +1,234 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1211445330,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8193",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Worker Endurance"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBattleStations.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBattleStations.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBattleStations.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBattleStations.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBattleStations.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ghk1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ghk1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ghk1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8195",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Worker Endurance"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8196",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Worker Endurance"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8197",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Worker Endurance"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8198",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Worker Endurance"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10399",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Worker Endurance - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10400",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Worker Endurance - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10401",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Worker Endurance - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10402",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Worker Endurance - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10403",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Worker Endurance - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1787",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of all your workers by 50. (Does not work on your main worker)"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1806",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of all your workers by 50. (Does not work on your main worker)"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1852",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of all your workers by 50. (Does not work on your main worker)"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1922",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of all your workers by 50. (Does not work on your main worker)"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2021",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of all your workers by 50. (Does not work on your main worker)"
+    }
+  ],
+  "_rawcode": "R05H",
+  "_base": "Rhme",
+  "_name": "Worker Endurance"
+}

@@ -1,0 +1,61 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1479749714,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5007",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dash of Death"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7316",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9962",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dash of Death - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4993",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Your next attack will deal 350 more damage. Until your next attack, your movement speed is increased by 50%. Lasts 5 seconds."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R03X",
+  "_base": "Rhar",
+  "_name": "Dash of Death"
+}

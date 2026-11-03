@@ -1,0 +1,55 @@
+{
+  "OldId": 1835428963,
+  "NewId": 909193289,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "[Recipe] Arcanum of Hatred (1050)",
+      "SanityCheck": 0,
+      "_field": "unam"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "|cff00d200[Recipe]|r Arcanum of Hatred |cffdcb900[1,050 gold total]|r",
+      "SanityCheck": 0,
+      "_field": "utip"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "|cffffcc00Full recipe: 1,050 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nEngulfs you with an intense aura of Hatred. Nearby units will take 100 damage every second, this effect also works on buildings. This effect does not stack. Also increases health by 700 and agility by 10.",
+      "SanityCheck": 0,
+      "_field": "utub"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "|cffffcc00Full recipe: 1,050 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nEngulfs you with an intense aura of Hatred. Nearby units will take 100 damage every second, this effect also works on buildings. This effect does not stack. Also increases health by 700 and agility by 10.",
+      "SanityCheck": 0,
+      "_field": "ides"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1189",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "F"
+    }
+  ],
+  "_rawcode": "I016",
+  "_base": "clfm",
+  "_name": "[Recipe] Arcanum of Hatred (1050)"
+}

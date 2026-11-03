@@ -1,0 +1,92 @@
+{
+  "OldId": 1953720402,
+  "NewId": 859189330,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1438",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Mages Adept Training"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1657",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases arcane mages mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Mana steal."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1663",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases arcane mages mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Arcane Explosion."
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10565",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Mages Adept Training - [30.0]"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1439",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Mages Master Training"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10567",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Mages Master Training - [45.0]"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4865",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "M"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4872",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "M"
+    }
+  ],
+  "_rawcode": "R063",
+  "_base": "Rhst",
+  "_name": "Mages Master Training"
+}

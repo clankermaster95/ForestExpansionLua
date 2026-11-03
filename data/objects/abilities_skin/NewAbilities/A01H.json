@@ -1,0 +1,70 @@
+{
+  "OldId": 2004045633,
+  "NewId": 1211183169,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1001",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Scout Ward"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUndeadUnLoad.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUndeadUnLoad.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1725",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Scout Ward that can see invisible units and lasts for 100 seconds. 10 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1003",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Scout Ward [Z]"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7762",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Z"
+    }
+  ],
+  "_rawcode": "A01H",
+  "_base": "AOsw",
+  "_name": "Scout Ward"
+}

@@ -1,0 +1,110 @@
+{
+  "OldId": 1919903343,
+  "NewId": 1429287023,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Aall,Apit",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 1500,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1768256373,
+      "Type": "String",
+      "Value": "I01F,I01E,I00O,I00R,I00D",
+      "SanityCheck": 0,
+      "_field": "usei"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h048",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1634034805,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udea"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    }
+  ],
+  "_rawcode": "o01U",
+  "_base": "ofor",
+  "_name": "Forgotten Vault"
+}

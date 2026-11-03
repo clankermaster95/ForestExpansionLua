@@ -1,0 +1,132 @@
+{
+  "OldId": 1667328082,
+  "NewId": 808464466,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_016",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Upgrade Walls"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_017",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Enhance Walls"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_018",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Fortify Walls"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_492",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgraded Walls - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2164",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Enhanced Walls - [90.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2176",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Fortified Walls - [120.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7208",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the armor and hit points of Walls."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7217",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Further increases the armor and hit points of Walls."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7218",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Further increases the armor and hit points of Walls."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3330",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3331",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3332",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    }
+  ],
+  "_rawcode": "R000",
+  "_base": "Rhac",
+  "_name": "Fortify Walls"
+}

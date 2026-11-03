@@ -1,0 +1,59 @@
+{
+  "OldId": 1718903154,
+  "NewId": 842018889,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_383",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Iron Blade"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNThoriumMelee.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_219",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your Damage by 60. This a basic item and can be upgraded with recipies."
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2036",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Iron Blade"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_222",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases your Damage by 60. This a basic item and can be upgraded with recipies."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1071",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "F"
+    }
+  ],
+  "_rawcode": "I002",
+  "_base": "ratf",
+  "_name": "Iron Blade"
+}

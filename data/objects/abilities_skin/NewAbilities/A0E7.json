@@ -1,0 +1,175 @@
+{
+  "OldId": 1818447681,
+  "NewId": 927281217,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1587",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1588",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7379",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "UNUSED (Ancient of Light)"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStormBolt.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStormBolt.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7343",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Hammer Hurl"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\StormBolt\\StormBoltMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1734962273,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "alig"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\StormBolt\\StormBoltMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7345",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cff4285ffHammer Hurl|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7346",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cff58b1ffHurls a hammer at the target, dealing|r 100 / 200 |cff58b1ffdamage on contact and stunning the target for|r 1.5 seconds.|cff58b1ff Can affect up to|r 4 |cff58b1ffadditional units nearby.|r|n|n|cff58b1ffHurl cooldown is|r 25 seconds."
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7349",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff4285ffHammer Hurl|r |cff58bcff[Level 1]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7350",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff4285ffHammer Hurl|r |cff58bcff[Level 2]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7360",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff58b1ffHurls a hammer at the target, dealing|r 100 |cff58b1ffdamage on contact and stunning the target for|r 1.5 seconds.|cff58b1ff Can affect up to|r 4 |cff58b1ffadditional units nearby.|r|n|n|cff58b1ffHurl cooldown is|r 25 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7367",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff58b1ffHurls a hammer at the target, dealing|r 200 |cff58b1ffdamage on contact and stunning the target for|r 1.5 seconds.|cff58b1ff Can affect up to|r 4 |cff58b1ffadditional units nearby.|r|n|n|cff58b1ffHurl cooldown is|r 25 seconds."
+    }
+  ],
+  "_rawcode": "A0E7",
+  "_base": "AOcl",
+  "_name": "Hammer Hurl"
+}

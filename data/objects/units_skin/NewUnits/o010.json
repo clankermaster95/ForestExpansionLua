@@ -1,0 +1,57 @@
+{
+  "OldId": 1970431855,
+  "NewId": 808530031,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2747",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ogre Head Smasher"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOgre.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\OgreLord\\OgreLord.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "HeroPitLord",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2748",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "O|cff844208g|rre head smasher"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1510",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A brutish ogre warrior. Deals high amounts of damage and has high health. Can be upgraded.|n|n|cfffdca00Health:|r 1000; 2/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 60 (Chaos)|n|cfffdca00Attack Range:|r 100|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    }
+  ],
+  "_rawcode": "o010",
+  "_base": "ogru",
+  "_name": "Ogre Head Smasher"
+}

@@ -1,0 +1,264 @@
+{
+  "OldId": 1818325064,
+  "NewId": 1345531976,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1650550901,
+      "Type": "String",
+      "Value": "A072,A01I",
+      "SanityCheck": 0,
+      "_field": "uhab"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 1.6,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1680957813,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1d"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 49,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1915838837,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "ua1r"
+    },
+    {
+      "Id": 2050056565,
+      "Type": "Int",
+      "Value": 800,
+      "SanityCheck": 0,
+      "_field": "ua1z"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "air,debris,ground,item,nonancient,structure,ward",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    },
+    {
+      "Id": 1999724917,
+      "Type": "String",
+      "Value": "missile",
+      "SanityCheck": 0,
+      "_field": "ua1w"
+    },
+    {
+      "Id": 829645685,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucs1"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 220,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1953918325,
+      "Type": "String",
+      "Value": "fly",
+      "SanityCheck": 0,
+      "_field": "umvt"
+    },
+    {
+      "Id": 1920363893,
+      "Type": "Unreal",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "umvr"
+    },
+    {
+      "Id": 1885823349,
+      "Type": "Unreal",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "uagp"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1886284149,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uinp"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 2000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1919970677,
+      "Type": "Unreal",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "umpr"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1768382837,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "uagi"
+    },
+    {
+      "Id": 1953393013,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "uint"
+    },
+    {
+      "Id": 1920234357,
+      "Type": "Int",
+      "Value": 45,
+      "SanityCheck": 0,
+      "_field": "ustr"
+    },
+    {
+      "Id": 1886679925,
+      "Type": "Unreal",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ustp"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1752591733,
+      "Type": "Unreal",
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "umvh"
+    },
+    {
+      "Id": 829518453,
+      "Type": "String",
+      "Value": "o00K",
+      "SanityCheck": 0,
+      "_field": "urq1"
+    },
+    {
+      "Id": 846295669,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "urq2"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0C5,AInv",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    }
+  ],
+  "_rawcode": "H03P",
+  "_base": "Hpal",
+  "_name": "Haunted Ship"
+}

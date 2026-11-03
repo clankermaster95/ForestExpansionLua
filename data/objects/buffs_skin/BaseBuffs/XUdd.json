@@ -1,0 +1,19 @@
+{
+  "OldId": 1684297048,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952540006,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Orc\\LightningShield\\LightningShieldBuff.mdl",
+      "SanityCheck": 1684297048,
+      "_field": "feat"
+    }
+  ],
+  "_rawcode": "XUdd",
+  "_base": "XUdd",
+  "_name": "XUdd"
+}

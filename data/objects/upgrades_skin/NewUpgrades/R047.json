@@ -1,0 +1,910 @@
+{
+  "OldId": 1918986322,
+  "NewId": 926167122,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5735",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Saronite Flesh"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedUnholyArmor.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5736",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Saronite Flesh"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5737",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Saronite Flesh"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5738",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Saronite Flesh"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5739",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Saronite Flesh"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5740",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Saronite Flesh"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5741",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Saronite Flesh"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5742",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Saronite Flesh"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5743",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Saronite Flesh"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3960",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5745",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Saronite Flesh"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3961",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3962",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3963",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3964",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3965",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3966",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3967",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3968",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3969",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Dark Armor"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10116",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Saronite Flesh - [3.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10117",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Saronite Flesh - [6.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10118",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Saronite Flesh - [9.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10119",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Saronite Flesh - [12.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10120",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Saronite Flesh - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10121",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Saronite Flesh - [18.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10126",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Saronite Flesh - [21.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10122",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Saronite Flesh - [24.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10123",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Saronite Flesh - [27.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10124",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Saronite Flesh - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10125",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Armor - [33.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10127",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Armor - [36.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10128",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Armor - [39.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10129",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Armor - [42.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10130",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Armor - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10131",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Armor - [48.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10132",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Armor - [51.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10133",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Armor - [54.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10134",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Armor - [57.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10135",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Dark Armor - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7459",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7460",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7461",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7462",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7463",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7464",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7465",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7466",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7467",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3980",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your worgen's armor by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7468",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3981",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your worgen's armor by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3982",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your worgen's armor by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3983",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your worgen's armor by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3984",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your worgen's armor by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3985",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your worgen's armor by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3986",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your worgen's armor by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3987",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your worgen's armor by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3988",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your worgen's armor by 1."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3989",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your worgen's armor by 1."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5648",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5786",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5787",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5788",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5795",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5796",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5797",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5798",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5799",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5800",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R047",
+  "_base": "Rhar",
+  "_name": "Dark Armor"
+}

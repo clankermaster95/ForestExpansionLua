@@ -1,0 +1,26 @@
+{
+  "OldId": 1818583911,
+  "NewId": 1378889801,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "igol"
+    }
+  ],
+  "_rawcode": "I00R",
+  "_base": "gcel",
+  "_name": "Horn of Speed"
+}

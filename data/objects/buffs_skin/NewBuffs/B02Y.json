@@ -1,0 +1,57 @@
+{
+  "OldId": 1835615554,
+  "NewId": 1496461378,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_8752",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Cascade Sun's Fury"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7715",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Cascade"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_7716",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Cascade"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFireBolt.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Incinerate\\FireLordDeathExplode.mdl",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Orc\\SpiritLink\\SpiritLinkTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    }
+  ],
+  "_rawcode": "B02Y",
+  "_base": "BEim",
+  "_name": "Cascade Sun's Fury"
+}

@@ -1,0 +1,50 @@
+{
+  "OldId": 1718832962,
+  "NewId": 1144008770,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_1607",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Kobold Warrior"
+    },
+    {
+      "Id": 1952540006,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\Impale\\ImpaleMissTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "feat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNKoboldGeomancer.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_1608",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Kobold Warrior"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_1609",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "A warrior to aid you in combat"
+    }
+  ],
+  "_rawcode": "B00D",
+  "_base": "BOsf",
+  "_name": "Kobold Warrior"
+}

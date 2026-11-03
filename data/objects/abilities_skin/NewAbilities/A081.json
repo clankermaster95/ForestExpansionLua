@@ -1,0 +1,52 @@
+{
+  "OldId": 1935889729,
+  "NewId": 825765953,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8305",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Dunestrike"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5691",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5692",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8306",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cffffcc00D|runestrike"
+    }
+  ],
+  "_rawcode": "A081",
+  "_base": "AUcs",
+  "_name": "Dunestrike"
+}

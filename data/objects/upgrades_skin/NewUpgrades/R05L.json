@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1278554194,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_364",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Venomous Strike"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6246",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10465",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Venomous Strike - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_366",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows Maexxna to cast Venomous Strike."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNNerubPunch.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R05L",
+  "_base": "Rhme",
+  "_name": "Venomous Strike"
+}

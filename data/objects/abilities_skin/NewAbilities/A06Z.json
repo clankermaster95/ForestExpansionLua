@@ -1,0 +1,169 @@
+{
+  "OldId": 1969313089,
+  "NewId": 1513500737,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7097",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Photosynthesis"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNPhotosyntesis.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnt.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7098",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Photosynthesis"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4246",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Increases life regeneration by 80% (+20% per level)."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7100",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Photosynthesis"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7101",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Photosynthesis"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7102",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Photosynthesis"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7103",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Photosynthesis"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7104",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Photosynthesis"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4249",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases life regeneration by 100%."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4250",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases life regeneration by 80%."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4251",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases life regeneration by 120%."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4252",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases life regeneration by 140%."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4253",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases life regeneration by 160%."
+    }
+  ],
+  "_rawcode": "A06Z",
+  "_base": "AUau",
+  "_name": "Photosynthesis"
+}

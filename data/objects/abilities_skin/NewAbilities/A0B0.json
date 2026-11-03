@@ -1,0 +1,22 @@
+{
+  "OldId": 1936286785,
+  "NewId": 809644097,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3704",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Removes all buffs from units in a large area. No cooldown. |n|cffffcc00Deals <A0B0,DataB1> damage to summoned units.|r"
+    }
+  ],
+  "_rawcode": "A0B0",
+  "_base": "Adis",
+  "_name": "A0B0"
+}

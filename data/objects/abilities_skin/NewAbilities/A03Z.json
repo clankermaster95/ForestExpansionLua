@@ -1,0 +1,90 @@
+{
+  "OldId": 1700881985,
+  "NewId": 1513304129,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1750",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Track"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpy.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpy.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2071",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2782",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6291",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00T|rrack"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2359",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Allows you to track a target. Reducing their armor by 5 and giving you vision of them for 30 seconds. 45 second cooldown."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3901",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Worgen)"
+    }
+  ],
+  "_rawcode": "A03Z",
+  "_base": "Afae",
+  "_name": "Track"
+}

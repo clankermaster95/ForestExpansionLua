@@ -1,0 +1,79 @@
+{
+  "OldId": 1885621825,
+  "NewId": 1194602561,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1977",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Razorvine"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4360",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Throw down a patch of razorvine to hold back the Ancient. 100 second cooldown."
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\AnimateDead\\AnimateDeadTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_831",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "V"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4437",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Razorvine"
+    }
+  ],
+  "_rawcode": "A04G",
+  "_base": "ANdp",
+  "_name": "Summon Razorvine"
+}

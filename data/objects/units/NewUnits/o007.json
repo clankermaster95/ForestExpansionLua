@@ -1,0 +1,96 @@
+{
+  "OldId": 1919903343,
+  "NewId": 925905007,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R05K,R039,R038,R037,R00R,R00S,R00Q,R00P,R000,R001",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1769107573,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "upri"
+    },
+    {
+      "Id": 1986359925,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "urev"
+    },
+    {
+      "Id": 1634890869,
+      "Type": "String",
+      "Value": "H01R",
+      "SanityCheck": 0,
+      "_field": "utra"
+    }
+  ],
+  "_rawcode": "o007",
+  "_base": "ofor",
+  "_name": "Graveyard"
+}

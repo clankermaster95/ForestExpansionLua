@@ -1,0 +1,61 @@
+{
+  "OldId": 1751935058,
+  "NewId": 1513566290,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8783",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Cultist) - Follower"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8784",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff58a058Increases the amount of lumber that Followers can carry by|r 15."
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9158",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff469146Improved Lumber Harvesting|r [30.0]"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9353",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    }
+  ],
+  "_rawcode": "R07Z",
+  "_base": "Rhlh",
+  "_name": "R07Z"
+}

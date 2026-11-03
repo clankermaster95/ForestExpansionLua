@@ -1,0 +1,30 @@
+{
+  "OldId": 1919828801,
+  "NewId": 1362505793,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829579599,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.02,
+      "SanityCheck": 0,
+      "_field": "Oar1"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,ground,invulnerable,nonancient,organic,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    }
+  ],
+  "_rawcode": "A06Q",
+  "_base": "ACnr",
+  "_name": "Ancient Base Life"
+}

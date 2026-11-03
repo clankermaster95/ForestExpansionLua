@@ -1,0 +1,345 @@
+{
+  "OldId": 1835615553,
+  "NewId": 1245130817,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7698",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Cascade"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNCascadeTurnOff.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5377",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5378",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2019718497,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aubx"
+    },
+    {
+      "Id": 2036495713,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "auby"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7721",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rascade - [|cffffcc00Level 1|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7723",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rascade - [|cffffcc00Level 3|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7724",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rascade - [|cffffcc00Level 4|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7725",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rascade - [|cffffcc00Level 5|r]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4262",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 100 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4263",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 150 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4265",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 200 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4271",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 250 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4272",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 300 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2028",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Cascade"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2031",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Cascade"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2032",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Cascade"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2033",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Cascade to stop draining mana."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2034",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Cascade to stop draining mana."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2035",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Cascade to stop draining mana."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2037",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Cascade to stop draining mana."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8742",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rascade - [|cffFF0000Empowered by Sun's Fury|r]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4273",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 750 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2040",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Cascade"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2041",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Cascade to stop draining mana."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7722",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rascade - [|cffffcc00Level 2|r]"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2044",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Cascade"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2045",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate Cascade to stop draining mana."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2046",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Cascade"
+    }
+  ],
+  "_rawcode": "A07J",
+  "_base": "AEim",
+  "_name": "Cascade"
+}

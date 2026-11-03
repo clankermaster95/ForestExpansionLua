@@ -1,0 +1,71 @@
+{
+  "OldId": 1937140033,
+  "NewId": 1313091649,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3697",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Ghost"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3069",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3800",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Makes a unit invisible. If the unit attacks, uses an ability or casts a spell, it will become visible. |n|nLasts 4 seconds. Cooldown is 150 seconds."
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3917",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ghost"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3798",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- BH Silvester Macko"
+    }
+  ],
+  "_rawcode": "A0DN",
+  "_base": "Aivs",
+  "_name": "Ghost"
+}

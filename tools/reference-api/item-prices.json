@@ -1,0 +1,565 @@
+{
+  "sources": [
+    {
+      "url": "https://github.com/sumneko/w3x2lni/blob/82916514a12b7edb15252d42225cd8cc8ce61cfd/data/enUS-1.27.1/prebuilt/Custom/item.ini",
+      "sha": "315e8a67dc96640d2498914d36d3f180dbe480f6"
+    },
+    {
+      "url": "https://github.com/sumneko/w3x2lni/blob/82916514a12b7edb15252d42225cd8cc8ce61cfd/data/zhCN-1.32.8/prebuilt/Custom/item.ini",
+      "sha": "e8706638051f6eda81d861b6ddb2f8783cdb7fe1"
+    }
+  ],
+  "note": "Reference defaults for cost audit; map overrides take priority. These snapshots are not proof of current native engine defaults.",
+  "items": {
+    "axas": {
+      "classic": {
+        "gold": 3000,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 3000,
+        "lumber": 0
+      }
+    },
+    "blba": {
+      "classic": {
+        "gold": 3500,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 3500,
+        "lumber": 0
+      }
+    },
+    "brac": {
+      "classic": {
+        "gold": 400,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 400,
+        "lumber": 0
+      }
+    },
+    "brag": {
+      "classic": {
+        "gold": 50,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 50,
+        "lumber": 0
+      }
+    },
+    "bspd": {
+      "classic": {
+        "gold": 150,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 150,
+        "lumber": 0
+      }
+    },
+    "bzbe": {
+      "classic": {
+        "gold": 200,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 200,
+        "lumber": 0
+      }
+    },
+    "ckng": {
+      "classic": {
+        "gold": 1000,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 1000,
+        "lumber": 0
+      }
+    },
+    "clfm": {
+      "classic": {
+        "gold": 600,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 600,
+        "lumber": 0
+      }
+    },
+    "cnob": {
+      "classic": {
+        "gold": 175,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 175,
+        "lumber": 0
+      }
+    },
+    "crys": {
+      "classic": {
+        "gold": 500,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 500,
+        "lumber": 0
+      }
+    },
+    "desc": {
+      "classic": {
+        "gold": 400,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 400,
+        "lumber": 0
+      }
+    },
+    "dsum": {
+      "classic": {
+        "gold": 400,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 400,
+        "lumber": 0
+      }
+    },
+    "dust": {
+      "classic": {
+        "gold": 75,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 75,
+        "lumber": 0
+      }
+    },
+    "frgd": {
+      "classic": {
+        "gold": 1400,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 1400,
+        "lumber": 0
+      }
+    },
+    "gcel": {
+      "classic": {
+        "gold": 100,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 100,
+        "lumber": 0
+      }
+    },
+    "gemt": {
+      "classic": {
+        "gold": 200,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 200,
+        "lumber": 0
+      }
+    },
+    "glsk": {
+      "classic": {
+        "gold": 200,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 200,
+        "lumber": 0
+      }
+    },
+    "hlst": {
+      "classic": {
+        "gold": 450,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 450,
+        "lumber": 0
+      }
+    },
+    "infs": {
+      "classic": {
+        "gold": 750,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 750,
+        "lumber": 0
+      }
+    },
+    "lmbr": {
+      "classic": {
+        "gold": 150,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 150,
+        "lumber": 0
+      }
+    },
+    "lnrn": {
+      "classic": {
+        "gold": 50,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 50,
+        "lumber": 0
+      }
+    },
+    "mcri": {
+      "classic": {
+        "gold": 50,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 50,
+        "lumber": 0
+      }
+    },
+    "mlst": {
+      "classic": {
+        "gold": 50,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 50,
+        "lumber": 0
+      }
+    },
+    "ocor": {
+      "classic": {
+        "gold": 400,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 400,
+        "lumber": 0
+      }
+    },
+    "ofro": {
+      "classic": {
+        "gold": 800,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 800,
+        "lumber": 0
+      }
+    },
+    "oven": {
+      "classic": {
+        "gold": 400,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 400,
+        "lumber": 0
+      }
+    },
+    "penr": {
+      "classic": {
+        "gold": 400,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 400,
+        "lumber": 0
+      }
+    },
+    "pghe": {
+      "classic": {
+        "gold": 400,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 400,
+        "lumber": 0
+      }
+    },
+    "pgma": {
+      "classic": {
+        "gold": 400,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 400,
+        "lumber": 0
+      }
+    },
+    "pinv": {
+      "classic": {
+        "gold": 100,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 100,
+        "lumber": 0
+      }
+    },
+    "plcl": {
+      "classic": {
+        "gold": 70,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 70,
+        "lumber": 0
+      }
+    },
+    "pmna": {
+      "classic": {
+        "gold": 500,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 500,
+        "lumber": 0
+      }
+    },
+    "pres": {
+      "classic": {
+        "gold": 600,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 600,
+        "lumber": 0
+      }
+    },
+    "pspd": {
+      "classic": {
+        "gold": 75,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 75,
+        "lumber": 0
+      }
+    },
+    "rat3": {
+      "classic": {
+        "gold": 50,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 50,
+        "lumber": 0
+      }
+    },
+    "ratc": {
+      "classic": {
+        "gold": 500,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 500,
+        "lumber": 0
+      }
+    },
+    "ratf": {
+      "classic": {
+        "gold": 800,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 800,
+        "lumber": 0
+      }
+    },
+    "rhth": {
+      "classic": {
+        "gold": 500,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 500,
+        "lumber": 0
+      }
+    },
+    "rres": {
+      "classic": {
+        "gold": 250,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 250,
+        "lumber": 0
+      }
+    },
+    "sand": {
+      "classic": {
+        "gold": 750,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 750,
+        "lumber": 0
+      }
+    },
+    "sbch": {
+      "classic": {
+        "gold": 450,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 450,
+        "lumber": 0
+      }
+    },
+    "shas": {
+      "classic": {
+        "gold": 50,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 50,
+        "lumber": 0
+      }
+    },
+    "soul": {
+      "classic": {
+        "gold": 1000,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 1000,
+        "lumber": 0
+      }
+    },
+    "sror": {
+      "classic": {
+        "gold": 400,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 400,
+        "lumber": 0
+      }
+    },
+    "srrc": {
+      "classic": {
+        "gold": 750,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 750,
+        "lumber": 0
+      }
+    },
+    "ssil": {
+      "classic": {
+        "gold": 500,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 500,
+        "lumber": 0
+      }
+    },
+    "stel": {
+      "classic": {
+        "gold": 100,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 100,
+        "lumber": 0
+      }
+    },
+    "tdex": {
+      "classic": {
+        "gold": 150,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 150,
+        "lumber": 0
+      }
+    },
+    "texp": {
+      "classic": {
+        "gold": 500,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 500,
+        "lumber": 0
+      }
+    },
+    "tfar": {
+      "classic": {
+        "gold": 75,
+        "lumber": 20
+      },
+      "reforged": {
+        "gold": 75,
+        "lumber": 20
+      }
+    },
+    "tkno": {
+      "classic": {
+        "gold": 1250,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 1250,
+        "lumber": 0
+      }
+    },
+    "totw": {
+      "classic": {
+        "gold": 450,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 450,
+        "lumber": 0
+      }
+    },
+    "tsct": {
+      "classic": {
+        "gold": 30,
+        "lumber": 20
+      },
+      "reforged": {
+        "gold": 30,
+        "lumber": 20
+      }
+    },
+    "tst2": {
+      "classic": {
+        "gold": 300,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 300,
+        "lumber": 0
+      }
+    },
+    "vamp": {
+      "classic": {
+        "gold": 75,
+        "lumber": 0
+      },
+      "reforged": {
+        "gold": 75,
+        "lumber": 0
+      }
+    }
+  }
+}

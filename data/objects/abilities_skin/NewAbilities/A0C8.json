@@ -1,0 +1,69 @@
+{
+  "OldId": 1818447425,
+  "NewId": 943927361,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_029",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Conjure Refreshment"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNBiscuit.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_038",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Spawns a consumable biscuit that can be eaten to restore 300 mana and hp. |n|nCooldown:20s"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_125",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Conjure Refreshment"
+    }
+  ],
+  "_rawcode": "A0C8",
+  "_base": "ANcl",
+  "_name": "Conjure Refreshment"
+}

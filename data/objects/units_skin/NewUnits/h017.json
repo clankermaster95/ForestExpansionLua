@@ -1,0 +1,93 @@
+{
+  "OldId": 2004121448,
+  "NewId": 925970536,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_757",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Growth"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Felwood\\Plants\\FelwoodBush\\FelwoodBush0.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2621",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00G|rrowth"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9398",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A Basic Building to create workers.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "EMDA",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1819501173,
+      "Type": "String",
+      "Value": "ExpansionNightElfGlueScreenLoop",
+      "SanityCheck": 0,
+      "_field": "ubsl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "TreeOfLife",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_164",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h017",
+  "_base": "hwtw",
+  "_name": "Growth"
+}

@@ -1,0 +1,50 @@
+{
+  "OldId": 1717782850,
+  "NewId": 1160785986,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_1701",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Heated Armor"
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\ImmolationRed\\ImmolationRedTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Orc\\LiquidFire\\Liquidfire.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_1702",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Heated Armor"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_1703",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has Heated Armor, units in a 300 AoE will take 50 damage every second."
+    }
+  ],
+  "_rawcode": "B00E",
+  "_base": "BIcf",
+  "_name": "Heated Armor"
+}

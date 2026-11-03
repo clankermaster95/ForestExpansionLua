@@ -1,0 +1,178 @@
+{
+  "OldId": 1651787841,
+  "NewId": 1144401985,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6386",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Boulderfist"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGolemThunderclap.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGolemThunderclap.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Weapons\\RockBoltMissile\\RockBoltMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6695",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Boulderfis|cffffcc00t|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_406",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Punch a target with incredible might, dealing 100 (+75 per level) damage and interrupting any spells channeled by the target. This ability has a very low cooldown and 150 (+25 per level) cast range."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8856",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Boulderfis|cffffcc00t|r - Level 1"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8857",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Boulderfis|cffffcc00t|r - Level 2"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8858",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Boulderfis|cffffcc00t|r - Level 3"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8859",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Boulderfis|cffffcc00t|r - Level 4"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8860",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Boulderfis|cffffcc00t|r - Level 5"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3475",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Punch a target with incredible might, dealing 100 damage and interrupting any spells channeled by the target. This ability has a very low cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3476",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Punch a target with incredible might, dealing 175 damage and interrupting any spells channeled by the target. This ability has a very low cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3477",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Punch a target with incredible might, dealing 250 damage and interrupting any spells channeled by the target. This ability has a very low cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3502",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Punch a target with incredible might, dealing 325 damage and interrupting any spells channeled by the target. This ability has a very low cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3547",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Punch a target with incredible might, dealing 400 damage and interrupting any spells channeled by the target. This ability has a very low cooldown."
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "attack",
+      "SanityCheck": 0,
+      "_field": "aani"
+    }
+  ],
+  "_rawcode": "A06D",
+  "_base": "AHtb",
+  "_name": "Boulderfist"
+}

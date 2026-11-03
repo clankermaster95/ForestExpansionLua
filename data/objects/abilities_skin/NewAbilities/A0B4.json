@@ -1,0 +1,51 @@
+{
+  "OldId": 2004045377,
+  "NewId": 876752961,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4508",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a squishy flying dragon whelp that excels at scouting. |nLasts <A0B4,Dur1> seconds. 10 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1808",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Whelp"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1809",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Whelp"
+    }
+  ],
+  "_rawcode": "A0B4",
+  "_base": "ANsw",
+  "_name": "Summon Whelp"
+}

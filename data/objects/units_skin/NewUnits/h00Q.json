@@ -1,0 +1,84 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1362112616,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_431",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Gold"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\GoldOre.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 250,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.7,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_5763",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Mound)"
+    }
+  ],
+  "_rawcode": "h00Q",
+  "_base": "hwtw",
+  "_name": "Gold"
+}

@@ -1,0 +1,48 @@
+{
+  "OldId": 1886603585,
+  "NewId": 1430532161,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 12,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 12,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 45,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1768977225,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.25,
+      "SanityCheck": 0,
+      "_field": "Ispi"
+    }
+  ],
+  "_rawcode": "A0DU",
+  "_base": "AIsp",
+  "_name": "A0DU"
+}

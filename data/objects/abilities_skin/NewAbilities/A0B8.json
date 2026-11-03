@@ -1,0 +1,32 @@
+{
+  "OldId": 1819298113,
+  "NewId": 943861825,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1868",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Clarity Potion"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1869",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Elf)"
+    }
+  ],
+  "_rawcode": "A0B8",
+  "_base": "AIpl",
+  "_name": "Clarity Potion"
+}

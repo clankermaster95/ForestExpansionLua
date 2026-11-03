@@ -1,0 +1,247 @@
+{
+  "OldId": 1936083009,
+  "NewId": 1395863617,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5040",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "|cFF00FFFFLightning Strike|r"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\Purge\\PurgeBuffTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5041",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cFF00FFFFLightning Strike|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5963",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cff8080ffChanneling|r|nAfter a second causes lightning to strike a target area of 200 (+25 per level), electrifying it, dealing 125 (+25 per level) damage. Has global range. 25 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7448",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nCauses lightning to strike a target area, electrifying it, dealing 150 damage. Has global range. 25 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7449",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nCauses lightning to strike a target area, electrifying it, dealing 175 damage. Has global range. 25 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9226",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nCauses lightning to strike a target area, electrifying it, dealing 200 damage. Has global range. 25 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9244",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nCauses lightning to strike a target area, electrifying it, dealing 225 damage. Has global range. 25 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9245",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nCauses lightning to strike a target area, electrifying it, dealing 250 damage. Has global range. 25 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9246",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nCauses lightning to strike a target area, electrifying it, dealing 275 damage. Has global range. 25 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5048",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cFF00FFFFLightning Strike|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9756",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cFF00FFFFLightning Strike|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9757",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cFF00FFFFLightning Strike|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9758",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cFF00FFFFLightning Strike|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9759",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cFF00FFFFLightning Strike|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9760",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cFF00FFFFLightning Strike|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9761",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cFF00FFFFLightning Strike|r"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Doodads\\Cinematic\\Lightningbolt\\Lightningbolt.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2545",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2546",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9247",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nCauses lightning to strike a target area, electrifying it, dealing 125 damage. Has global range. 25 second cooldown."
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "spell",
+      "SanityCheck": 0,
+      "_field": "aani"
+    }
+  ],
+  "_rawcode": "A03S",
+  "_base": "AHfs",
+  "_name": "|cFF00FFFFLightning Strike|r"
+}

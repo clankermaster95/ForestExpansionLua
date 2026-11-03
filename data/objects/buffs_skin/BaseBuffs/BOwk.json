@@ -1,0 +1,35 @@
+{
+  "OldId": 1802981186,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_126",
+      "SanityCheck": 1802981186,
+      "_field": "ftip",
+      "_resolvedText": "|cff195ABDSmoke Screen|r"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_138",
+      "SanityCheck": 1802981186,
+      "_field": "fube",
+      "_resolvedText": "This unit is invisible, moves faster, and the first attack it makes while invisible will deal bonus damage."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnstableConcoction.blp",
+      "SanityCheck": 1802981186,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "BOwk",
+  "_base": "BOwk",
+  "_name": "BOwk"
+}

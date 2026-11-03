@@ -1,0 +1,31 @@
+{
+  "OldId": 1718372673,
+  "NewId": 943272001,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9669",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Item Health Bonus (+500)"
+    }
+  ],
+  "_rawcode": "A098",
+  "_base": "AIlf",
+  "_name": "Item Health Bonus (+500)"
+}

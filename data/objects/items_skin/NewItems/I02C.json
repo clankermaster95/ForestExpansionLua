@@ -1,0 +1,79 @@
+{
+  "OldId": 1700952674,
+  "NewId": 1127362633,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_7440",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "If you're reading this I hope you have a wonderful day. |n|n-M"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7443",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Message Of The Day - 3.1.0"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7444",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Message Of The Day - 3.1.0"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7442",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "If you're reading this I hope you have a wonderful day. |n|n-M"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\WorldEditUI\\Editor-Random-Item.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "Objects\\RandomObject\\RandomObject.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    },
+    {
+      "Id": 1735156585,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "iclg"
+    },
+    {
+      "Id": 1651270505,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "iclb"
+    },
+    {
+      "Id": 1633907561,
+      "Type": "Real",
+      "Value": 1.3,
+      "SanityCheck": 0,
+      "_field": "isca"
+    }
+  ],
+  "_rawcode": "I02C",
+  "_base": "bzbe",
+  "_name": "Message Of The Day - 3.1.0"
+}

@@ -1,0 +1,39 @@
+{
+  "OldId": 1685022273,
+  "NewId": 893530177,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "structure",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 180,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    }
+  ],
+  "_rawcode": "A0B5",
+  "_base": "Afod",
+  "_name": "Landslide"
+}

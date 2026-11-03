@@ -1,0 +1,32 @@
+{
+  "OldId": 1735553089,
+  "NewId": 826421313,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1481",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Removes all buffs from a target unit, and slows its movement speed by a factor of <A0B1,DataA1>. Purged units will slowly regain their movement speed over <A0B1,Dur1> seconds."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1863",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Zalxon)"
+    }
+  ],
+  "_rawcode": "A0B1",
+  "_base": "Aprg",
+  "_name": "A0B1"
+}

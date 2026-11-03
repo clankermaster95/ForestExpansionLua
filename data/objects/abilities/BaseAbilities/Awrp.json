@@ -1,0 +1,30 @@
+{
+  "OldId": 1886549825,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829452887,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 150,
+      "SanityCheck": 1886549825,
+      "_field": "Wrp1"
+    },
+    {
+      "Id": 846230103,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 150,
+      "SanityCheck": 1886549825,
+      "_field": "Wrp2"
+    }
+  ],
+  "_rawcode": "Awrp",
+  "_base": "Awrp",
+  "_name": "Awrp"
+}

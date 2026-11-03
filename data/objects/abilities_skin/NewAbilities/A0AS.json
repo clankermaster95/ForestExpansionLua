@@ -1,0 +1,32 @@
+{
+  "OldId": 1986347841,
+  "NewId": 1396781121,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1465",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Shadow Dancer)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1466",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Has 100% percent chance to avoid an attack."
+    }
+  ],
+  "_rawcode": "A0AS",
+  "_base": "ACev",
+  "_name": "A0AS"
+}

@@ -1,0 +1,43 @@
+{
+  "OldId": 1802981186,
+  "NewId": 825241666,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6258",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Spirit Travel"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_9293",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Spirit Travel"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_756",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is travleing through the spirits, It is invisible, and is moving quicker."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWandOfShadowSight.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B001",
+  "_base": "BOwk",
+  "_name": "Spirit Travel"
+}

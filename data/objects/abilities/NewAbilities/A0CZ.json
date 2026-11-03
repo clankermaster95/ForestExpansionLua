@@ -1,0 +1,102 @@
+{
+  "OldId": 1634947137,
+  "NewId": 1514352705,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "self",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R06X",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1768977225,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Ispi"
+    },
+    {
+      "Id": 1684562785,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "achd"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1685221217,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "windwalk",
+      "SanityCheck": 0,
+      "_field": "aord"
+    }
+  ],
+  "_rawcode": "A0CZ",
+  "_base": "APsa",
+  "_name": "Overdrive"
+}

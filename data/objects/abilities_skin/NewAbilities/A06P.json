@@ -1,0 +1,138 @@
+{
+  "OldId": 1802981185,
+  "NewId": 1345728577,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6755",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Extreme Speed"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "CycloneLoop",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6756",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffffcc00E|rxtreme Speed"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_200",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "The Ancient moves so fast he is unable to be seen by his opponents. His movement speed is increased by 30% and he is invisible for 20 seconds."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6758",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00E|rxtreme Speed - Level 1"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6759",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00E|rxtreme Speed - Level 2"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6760",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00E|rxtreme Speed - Level 3"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2144",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The Ancient moves so fast he is unable to be seen by his opponents. His movement speed is increased by 30% and he is invisible for 20 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6771",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The Ancient moves so fast he is unable to be seen by his opponents. His movement speed is increased by 50%(+10% per level), and is stealthed for 20 seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6772",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The Ancient moves so fast he is unable to be seen by his opponents. His movement speed is increased by 50%(+10% per level), and is stealthed for 20 seconds."
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    }
+  ],
+  "_rawcode": "A06P",
+  "_base": "AOwk",
+  "_name": "Extreme Speed"
+}

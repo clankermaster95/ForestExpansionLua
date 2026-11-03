@@ -1,0 +1,127 @@
+{
+  "OldId": 1919182437,
+  "NewId": 1345335397,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\IceInfernal.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNCrystalInfernal.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\RedDragonBreath\\RedDragonMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "RockGolem",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_3525",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9938",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Ice Elemental"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "utub"
+    },
+    {
+      "Id": 1969779573,
+      "Type": "String",
+      "Value": "Shadow",
+      "SanityCheck": 0,
+      "_field": "ushu"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.6,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 2053927797,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uslz"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9939",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ice Elemental"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "war3mapImported\\IceInfernal_Portrait.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "e00P",
+  "_base": "efdr",
+  "_name": "Ice Elemental"
+}

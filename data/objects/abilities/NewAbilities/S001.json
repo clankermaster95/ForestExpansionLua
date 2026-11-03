@@ -1,0 +1,30 @@
+{
+  "OldId": 1802723923,
+  "NewId": 825241683,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R086",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 828467267,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "h06H",
+      "SanityCheck": 0,
+      "_field": "Cha1"
+    }
+  ],
+  "_rawcode": "S001",
+  "_base": "Sbsk",
+  "_name": "Elite Bounty Hunter"
+}

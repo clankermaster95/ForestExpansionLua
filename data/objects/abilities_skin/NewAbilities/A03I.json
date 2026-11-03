@@ -1,0 +1,79 @@
+{
+  "OldId": 1818379585,
+  "NewId": 1228091457,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3292",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ground Pounce"
+    },
+    {
+      "Id": 1634034017,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\Impale\\ImpaleMissTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "aaea"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMaskOfDeath.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\Impale\\ImpaleMissTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3293",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "G|cffDE1919r|round Pounce"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1862",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your Crypt Lord pounces a short distance, enabling him to move in and out of walls."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2089",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "A03I",
+  "_base": "AEbl",
+  "_name": "Ground Pounce"
+}

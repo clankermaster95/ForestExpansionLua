@@ -1,0 +1,79 @@
+{
+  "OldId": 1802981185,
+  "NewId": 1395667009,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_751",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Spirit Travel"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWandOfShadowSight.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWandOfShadowSight.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_752",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Spirit Travel"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2600",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Travel to the Spirit Realm, allowing you to move faster, and rendering you invisible for 10 seconds. 90 second cooldown."
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "DrainLoop",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1755",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "T"
+    }
+  ],
+  "_rawcode": "A00S",
+  "_base": "AOwk",
+  "_name": "Spirit Travel"
+}

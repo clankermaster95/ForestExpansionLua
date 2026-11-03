@@ -1,0 +1,70 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1110716498,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5970",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Glowing Blood"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9582",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10226",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Glowing Blood - [20.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6656",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "This upgrade is required to use Glowing Blood. You gain vision of the target for 20 seconds. |n|cffFF8080This ability costs 50 health|r |n|cff7F7F7FThe blood of C'Thun is imbued with the power of his all seeing eye.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNyellowblood.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R04B",
+  "_base": "Rhme",
+  "_name": "Glowing Blood"
+}

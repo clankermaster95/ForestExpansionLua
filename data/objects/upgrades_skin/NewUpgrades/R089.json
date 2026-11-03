@@ -1,0 +1,70 @@
+{
+  "OldId": 1818650706,
+  "NewId": 959983698,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9727",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Elite Eagle [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9713",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to summon elite eagle."
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9714",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Elite Eagle"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWarEagle.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9716",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R089",
+  "_base": "Rhfl",
+  "_name": "Elite Eagle"
+}

@@ -1,0 +1,22 @@
+{
+  "OldId": 1717979457,
+  "NewId": 1229074497,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_021",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Item Furbolg Worker Summon"
+    }
+  ],
+  "_rawcode": "A0BI",
+  "_base": "AIff",
+  "_name": "Item Furbolg Worker Summon"
+}

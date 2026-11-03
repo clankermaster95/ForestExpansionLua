@@ -1,0 +1,39 @@
+{
+  "OldId": 1634236225,
+  "NewId": 1378889793,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828467287,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "Wha1"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    }
+  ],
+  "_rawcode": "A00R",
+  "_base": "Awha",
+  "_name": "Harvest"
+}

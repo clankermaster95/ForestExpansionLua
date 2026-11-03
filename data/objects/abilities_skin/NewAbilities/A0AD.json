@@ -1,0 +1,52 @@
+{
+  "OldId": 1685475137,
+  "NewId": 1145122881,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4233",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Blessings of the Demigod"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4234",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Turns all friendly units invulnerable in an area around Cenarius. Cenarius does not turn invulnerable. |nLasts <A0AD,Dur1> seconds.|n|cff808080CD:180s|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4235",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Turns all friendly units invulnerable in an area around Cenarius. Cenarius does not turn invulnerable. |nLasts <A0AD,Dur1> seconds.|n|cff808080CD:180s|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4237",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Turns all friendly units invulnerable in an area around Cenarius. Cenarius does not turn invulnerable. |nLasts 5/15 second.|n|cff808080CD:180s|r"
+    }
+  ],
+  "_rawcode": "A0AD",
+  "_base": "AOvd",
+  "_name": "Blessings of the Demigod"
+}

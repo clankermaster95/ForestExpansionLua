@@ -1,0 +1,30 @@
+{
+  "OldId": 1819500865,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829385811,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": -1,
+      "SanityCheck": 1819500865,
+      "_field": "Slo1"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 1819500865,
+      "_field": "aare"
+    }
+  ],
+  "_rawcode": "Aasl",
+  "_base": "Aasl",
+  "_name": "Aasl"
+}

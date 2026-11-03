@@ -1,0 +1,70 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1412575314,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9424",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Grasp"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8855",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Grasp - [20.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3432",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows your Crypt Lord to cast Grasp."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9579",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R02T",
+  "_base": "Rhar",
+  "_name": "Grasp"
+}

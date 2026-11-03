@@ -1,0 +1,51 @@
+{
+  "OldId": 2019910772,
+  "NewId": 1093677129,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_942",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Strength Training"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWirtsOtherLeg.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_943",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Strength Training"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_944",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Permanently increases the Strength of the Hero by <AIam,DataA1> when used."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_945",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Permanently increases Strength."
+    }
+  ],
+  "_rawcode": "I00A",
+  "_base": "tdex",
+  "_name": "Strength Training"
+}

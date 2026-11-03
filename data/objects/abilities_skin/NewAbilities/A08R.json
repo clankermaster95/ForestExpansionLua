@@ -1,0 +1,198 @@
+{
+  "OldId": 1634693697,
+  "NewId": 1379414081,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5381",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\btnspellpower.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\btnspellpower.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\btnspellpower.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Items\\AIre\\AIreTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8980",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffffcc00C|rosmic Strike"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1885",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Increases the damage of your next attack by 30% and makes it deal chaos damage, restores 5% of your mana upon hit. This ability has a 8 second cooldown. Upon leveling this ability, the cooldown is shortened by 1 second and the damage bonus is increased by 20%."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8982",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rosmic Strike"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8983",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rosmic Strike"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8984",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rosmic Strike"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8985",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rosmic Strike"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8986",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00C|rosmic Strike"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1906",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of your next attack by 30% and makes it deal chaos damage, restores 5% of your mana upon impact. 8 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1913",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of your next attack by 50% and makes it deal chaos damage, restores 5% of your mana upon impact. 7 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3014",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of your next attack by 70% and makes it deal chaos damage, restores 5% of your mana upon impact. 6 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3262",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of your next attack by 90% and makes it deal chaos damage, restores 5% of your mana upon impact. 5 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3280",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the damage of your next attack by 110% and makes it deal chaos damage, restores 5% of your mana upon impact. 4 second cooldown."
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5397",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8979",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Cosmic Strike"
+    }
+  ],
+  "_rawcode": "A08R",
+  "_base": "Aroa",
+  "_name": "Cosmic Strike"
+}

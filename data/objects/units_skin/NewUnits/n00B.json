@@ -1,0 +1,27 @@
+{
+  "OldId": 1886283374,
+  "NewId": 1110454382,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1728",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Spellbringer"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "n00B",
+  "_base": "nfnp",
+  "_name": "Spellbringer"
+}

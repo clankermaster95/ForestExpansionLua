@@ -1,0 +1,51 @@
+{
+  "OldId": 1668571506,
+  "NewId": 925970505,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5029",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Bleeding Scythe"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNScytheBackstab.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5030",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Bleeding Scythe"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_397",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases your attack damage by 60, agility by 10 and gives you a 40% lifesteal (life steal does not work on structures)"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_1039",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your attack damage by 60, agility by 10 and gives you a 40% lifesteal (life steal does not work on structures)"
+    }
+  ],
+  "_rawcode": "I017",
+  "_base": "ratc",
+  "_name": "Bleeding Scythe"
+}

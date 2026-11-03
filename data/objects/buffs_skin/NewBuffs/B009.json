@@ -1,0 +1,57 @@
+{
+  "OldId": 1668565058,
+  "NewId": 959459394,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_1440",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "|cff943A08Quake|r"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_1445",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "|cff943A08Quake|r"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_1456",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has been hit by a Quake. Movement and attack speed is slowed."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNVolcano.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\Impale\\ImpaleHitTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 811693158,
+      "Type": "String",
+      "Value": "origin",
+      "SanityCheck": 0,
+      "_field": "fta0"
+    }
+  ],
+  "_rawcode": "B009",
+  "_base": "BHtc",
+  "_name": "|cff943A08Quake|r"
+}

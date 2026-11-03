@@ -1,0 +1,36 @@
+{
+  "FormatVersion": "v3",
+  "BaseDestructables": [
+    {
+      "OldId": 1953256524,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1936746594,
+          "Type": "Unreal",
+          "Value": 99999,
+          "SanityCheck": 1953256524
+        }
+      ]
+    },
+    {
+      "OldId": 1953256534,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1936746594,
+          "Type": "Unreal",
+          "Value": 99999,
+          "SanityCheck": 1953256534
+        }
+      ]
+    }
+  ],
+  "NewDestructables": []
+}

@@ -1,0 +1,89 @@
+{
+  "OldId": 1919903343,
+  "NewId": 825307247,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 35,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R06V,R020",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "h01L",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    }
+  ],
+  "_rawcode": "o011",
+  "_base": "ofor",
+  "_name": "Molten Core"
+}

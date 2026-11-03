@@ -1,0 +1,48 @@
+{
+  "OldId": 1886603585,
+  "NewId": 926036033,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1768977225,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "Ispi"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B00G",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    }
+  ],
+  "_rawcode": "A027",
+  "_base": "AIsp",
+  "_name": "Haste Gem"
+}

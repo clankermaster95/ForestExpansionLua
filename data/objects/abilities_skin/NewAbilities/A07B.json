@@ -1,0 +1,140 @@
+{
+  "OldId": 1936084801,
+  "NewId": 1110913089,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7455",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Electrical Surge"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9298",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Electri|cffffcc00c|ral Surge"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9299",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Reveals a 2000/3000/4000 area of the map for 10 seconds. This ability has a one minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9386",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Reveals a 2000 area of the map for 10 seconds. This ability has a one minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9387",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Reveals a 3000 area of the map for 10 seconds. This ability has a one minute cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9388",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Reveals a 4000 area of the map for 10 seconds. This ability has a one minute cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7446",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Elecetri|cffffcc00c|ral Surge"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7451",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Elecetri|cffffcc00c|ral Surge"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7452",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Elecetri|cffffcc00c|ral Surge"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5311",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5376",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "C"
+    }
+  ],
+  "_rawcode": "A07B",
+  "_base": "AOfs",
+  "_name": "Electrical Surge"
+}

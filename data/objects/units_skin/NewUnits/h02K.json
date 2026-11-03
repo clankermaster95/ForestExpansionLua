@@ -1,0 +1,72 @@
+{
+  "OldId": 2004117352,
+  "NewId": 1261580392,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2337",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Centaur Ultimate Tower"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\BridgeObelisk\\BridgeObelisk.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNIceCrownObelisk.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2685",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Centaur |cffffcc00U|rltimate Tower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_5746",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "The best Centaur Tower possible. Deals heavy amounts of damage with moderate speed.|n|n|cfffdca00Health:|r 600|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 300 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\CorrosiveBreath\\CorrosiveBreathMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1232",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "U"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h02K",
+  "_base": "hgtw",
+  "_name": "Centaur Ultimate Tower"
+}

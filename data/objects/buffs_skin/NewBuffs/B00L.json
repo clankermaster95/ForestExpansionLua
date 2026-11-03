@@ -1,0 +1,50 @@
+{
+  "OldId": 1869374018,
+  "NewId": 1278226498,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_2759",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Tower Efficieny"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_2768",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Tower Efficieny"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_2770",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This building has been upgraded, it's attack speed is increased."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Items\\AIsp\\SpeedTarget.mdl,Abilities\\Spells\\Orc\\Bloodlust\\BloodlustSpecial.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBasicStruct.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B00L",
+  "_base": "Bblo",
+  "_name": "Tower Efficieny"
+}

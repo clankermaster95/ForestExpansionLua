@@ -1,0 +1,58 @@
+{
+  "OldId": 1936092777,
+  "NewId": 1110454345,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_1670",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Summons a Lava Warrior"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1671",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Mystic Lava Rock"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_771",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Summons a Lava Warrior from hell. When summoned, it deals 100 damage and stuns all targets for 1.5 seconds.|n|cffffff00Warning: can break trees.|r"
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "war3mapImported\\Lava-Treasure-Chest.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1669",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Mystic Lava Rock"
+    }
+  ],
+  "_rawcode": "I00B",
+  "_base": "infs",
+  "_name": "Mystic Lava Rock"
+}

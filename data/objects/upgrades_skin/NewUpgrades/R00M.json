@@ -1,0 +1,267 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1295003730,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6278",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Wisp Spirit Travel"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOTAdeptTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOTAdeptTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOTAdeptTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOTAdeptTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDOTAdeptTraining.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6279",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Wisp Spirit Travel"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6280",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Wisp Spirit Travel"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6281",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Wisp Spirit Travel"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6282",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Wisp Spirit Travel"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7473",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Wisp Spirit Travel - [10.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7640",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Wisp Spirit Travel - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7641",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Wisp Spirit Travel - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6812",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Wisp Spirit Travel - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_365",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Wisp Spirit Travel - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_449",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of the wisp by 25."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_450",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of the wisp by 25."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_455",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of the wisp by 25."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_920",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of the wisp by 25."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1914",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the movement speed of the wisp by 25."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3333",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3334",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3335",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3336",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3337",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3283",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Wisp)"
+    }
+  ],
+  "_rawcode": "R00M",
+  "_base": "Rhme",
+  "_name": "Wisp Spirit Travel"
+}

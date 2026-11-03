@@ -1,0 +1,70 @@
+{
+  "OldId": 1818650706,
+  "NewId": 943206482,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9725",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Snipe Shot [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9704",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Provides Bounty Hunter with the snipe shot ability."
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9719",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Snipe Shot"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpThree.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9717",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R088",
+  "_base": "Rhfl",
+  "_name": "Snipe Shot"
+}

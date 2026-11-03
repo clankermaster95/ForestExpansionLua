@@ -1,0 +1,30 @@
+{
+  "OldId": 1717782849,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1684431689,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 50,
+      "SanityCheck": 1717782849,
+      "_field": "Icfd"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 1717782849,
+      "_field": "aare"
+    }
+  ],
+  "_rawcode": "AIcf",
+  "_base": "AIcf",
+  "_name": "Flame"
+}

@@ -1,0 +1,50 @@
+{
+  "OldId": 1869640514,
+  "NewId": 1311977538,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_353",
+      "SanityCheck": 1869640514,
+      "_field": "fube",
+      "_resolvedText": "This unit is Smogged, it is dazed and movement speed is impaired."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Volcano\\VolcanoDeath.mdl",
+      "SanityCheck": 1869640514,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSoulBurn.blp",
+      "SanityCheck": 1869640514,
+      "_field": "fart"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_6477",
+      "SanityCheck": 1869640514,
+      "_field": "fnsf",
+      "_resolvedText": "(Magmide)"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6336",
+      "SanityCheck": 1869640514,
+      "_field": "ftip",
+      "_resolvedText": "Smogged"
+    }
+  ],
+  "_rawcode": "B03N",
+  "_base": "Bspo",
+  "_name": "B03N"
+}

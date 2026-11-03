@@ -1,0 +1,26 @@
+{
+  "OldId": 1869573486,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 1869573486,
+      "_field": "usin"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 1869573486,
+      "_field": "usid"
+    }
+  ],
+  "_rawcode": "nmoo",
+  "_base": "nmoo",
+  "_name": "nmoo"
+}

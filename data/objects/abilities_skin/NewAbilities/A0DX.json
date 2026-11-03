@@ -1,0 +1,22 @@
+{
+  "OldId": 829442369,
+  "NewId": 1480863809,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1907",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Grapes Item-Rejuv Effect"
+    }
+  ],
+  "_rawcode": "A0DX",
+  "_base": "AIp1",
+  "_name": "Grapes Item-Rejuv Effect"
+}

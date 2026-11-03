@@ -1,0 +1,80 @@
+{
+  "OldId": 1953654382,
+  "NewId": 1395667054,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNArcaneObservatory.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\ArcaneObservatory\\ArcaneObservatory.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_586",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Observatory"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_587",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Observatory"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10307",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "The ultimate building. It provides you with powerful spells and useful auras that will help you in defeating the Ancient!|n|cff808080Limit - 1 per player|r|n|n|cfffdca00Health:|r 1400|n|cfffdca00Mana:|r 2000|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 30|n|cffff0000Feed Value:|r |cffffdd00500|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "ArcaneObservatory",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.75,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_728",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_5289",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "Y"
+    }
+  ],
+  "_rawcode": "n00S",
+  "_base": "nfrt",
+  "_name": "Observatory"
+}

@@ -1,0 +1,42 @@
+{
+  "OldId": 1986090306,
+  "NewId": 1462841410,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_Requiem.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6184",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Essence Theft"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6187",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit's attacks are stealing life."
+    }
+  ],
+  "_rawcode": "B01W",
+  "_base": "BUav",
+  "_name": "B01W"
+}

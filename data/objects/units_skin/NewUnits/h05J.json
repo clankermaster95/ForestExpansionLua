@@ -1,0 +1,107 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1244999784,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_656",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Arcane Library"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNGilneanLibrary.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\LibraryGilneasV2.00.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_665",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Arcane Library"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10272",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Your main research center. |n|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0060|r"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "ShadowGreatHall",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2208",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "Objects\\Spawnmodels\\NightElf\\NECancelDeath\\NECancelDeath.mdl",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 192,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "EMDB",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "BarrowDen",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    }
+  ],
+  "_rawcode": "h05J",
+  "_base": "hwtw",
+  "_name": "Arcane Library"
+}

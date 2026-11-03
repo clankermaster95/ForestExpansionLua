@@ -1,0 +1,32 @@
+{
+  "OldId": 1650544193,
+  "NewId": 1262039105,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9881",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Acid Bomb"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4460",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Hurls a flask of acid at a target. The flask breaks upon impact, splashing a powerful acid on nearby hostile units.|n|nDecreases armor by <A09K,DataC1>; Deals <A09K,DataD1> damage per second to the primary target and nearby enemies.|nLasts <A09K,Dur1> seconds. 1 minute cooldown."
+    }
+  ],
+  "_rawcode": "A09K",
+  "_base": "ANab",
+  "_name": "A09K"
+}

@@ -1,0 +1,57 @@
+{
+  "OldId": 1853121601,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 1853121601,
+      "_field": "aran"
+    },
+    {
+      "Id": 829322308,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 1853121601,
+      "_field": "Dtn1"
+    },
+    {
+      "Id": 846099524,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0,
+      "SanityCheck": 1853121601,
+      "_field": "Dtn2"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 1853121601,
+      "_field": "atar"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 250,
+      "SanityCheck": 1853121601,
+      "_field": "aare"
+    }
+  ],
+  "_rawcode": "Adtn",
+  "_base": "Adtn",
+  "_name": "Adtn"
+}

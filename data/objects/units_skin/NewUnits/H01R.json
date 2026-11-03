@@ -1,0 +1,96 @@
+{
+  "OldId": 1818325064,
+  "NewId": 1378955336,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1252",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff5A5A5AAbomination|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAbomination.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\undead\\Abomination\\Abomination.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Abomination",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_095",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_1253",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cff5A5A5APudge|r,|cff5A5A5ARip Meat|r,|cff5A5A5APlague Bringer|r,|cff5A5A5ADiseased|r"
+    },
+    {
+      "Id": 1970434165,
+      "Type": "Int",
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "upru"
+    },
+    {
+      "Id": 1953980789,
+      "Type": "String",
+      "Value": "TRIGSTR_1254",
+      "SanityCheck": 0,
+      "_field": "uawt",
+      "_resolvedText": "Revive |cff5A5A5AAbomination|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1255",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Summon |cff5A5A5AAbomination|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9919",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An all around powerful and balanced hero that can assist in hunting down the Ancient. This hero can use Plague when researched to slow on attack.|n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r"
+    },
+    {
+      "Id": 1919972469,
+      "Type": "String",
+      "Value": "TRIGSTR_1257",
+      "SanityCheck": 0,
+      "_field": "utpr",
+      "_resolvedText": "Revive |cff5A5A5AAbomination|r"
+    }
+  ],
+  "_rawcode": "H01R",
+  "_base": "Hpal",
+  "_name": "|cff5A5A5AAbomination|r"
+}

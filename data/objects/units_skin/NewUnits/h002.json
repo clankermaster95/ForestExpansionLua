@@ -1,0 +1,72 @@
+{
+  "OldId": 1634037864,
+  "NewId": 842018920,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_007",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Human Worker"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.75,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_008",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Human |cffffcc00W|rorker"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6583",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Worker to harvest Lumber, Cannot harvest gold.|n|n|cfffdca00Health:|r 75; 0.25/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Movement Speed:|r 350|n|cffff0000Feed Value:|r |cffffdd000|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_034",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    }
+  ],
+  "_rawcode": "h002",
+  "_base": "hpea",
+  "_name": "Human Worker"
+}

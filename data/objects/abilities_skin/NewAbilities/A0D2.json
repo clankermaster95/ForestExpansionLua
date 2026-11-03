@@ -1,0 +1,32 @@
+{
+  "OldId": 1684097089,
+  "NewId": 843329601,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1518",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Flag Base"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1094",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Macko"
+    }
+  ],
+  "_rawcode": "A0D2",
+  "_base": "AHad",
+  "_name": "Flag Base"
+}

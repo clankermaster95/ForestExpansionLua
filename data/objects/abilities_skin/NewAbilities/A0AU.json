@@ -1,0 +1,61 @@
+{
+  "OldId": 1801610817,
+  "NewId": 1430335553,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1477",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Shadow Dancer)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3699",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your attacks steal 20 mana from the target and deal damage equal to the mana stolen."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1602",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Mana Steal"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNManaDrain.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1606",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Mana Steal"
+    }
+  ],
+  "_rawcode": "A0AU",
+  "_base": "Afbk",
+  "_name": "Mana Steal"
+}

@@ -1,0 +1,393 @@
+{
+  "revision": "Ancient shopping and gameplay/synchronization audit, 2026-11-02",
+  "scope": "Intentional gameplay fixes after the role refactor, not a claim of JASS parity or exhaustive bug elimination.",
+  "backup": "backups/20261102-175141-m246pe90",
+  "changed_modules": [
+    {
+      "module": "src/players/roles.lua",
+      "after_sha256": "3c3b08ec5021d7b4f28c36800472fa1cff8f7cfb24436c7c974d333eb7dac511",
+      "before_sha256": "e1112dee595ff9d997d9ead5b2792598231ac1cc03f71c383e85a5379126157e"
+    },
+    {
+      "module": "src/libraries/prelude.lua",
+      "after_sha256": "fa262fbb55ed9759e98af52c9cf54e21ea899787d9059600f59cf66ec8d339eb",
+      "before_sha256": "4be12f05cf5110292573d6c7a3a73b1a59808451830f052ced1b7b3465f7e3d0"
+    },
+    {
+      "module": "src/economy/feed/021_AutoFeedRate.lua",
+      "after_sha256": "3a6edaf591a1f8306e2b390050c5d7209b6dc1d9349fe8a0998f604c43fc86c9",
+      "before_sha256": "2b4f308a94f9977a9456abd9dc73ab2cfd0c86eb3d4b5a98f67456229dd0b04b"
+    },
+    {
+      "module": "src/races/night_elf/shadow_dancer/055_Mana_Steal_Dancer.lua",
+      "after_sha256": "61518f8f1eb7b635133bd62342f5be2bed81f997816ece3ec456100739e02bff",
+      "before_sha256": "30d440d4e143b155a6009d85b629a5a29b59a7892a09e8bf16c15c7c2f283ac1"
+    },
+    {
+      "module": "src/races/night_elf/shadow_dancer/057_ConjureMana.lua",
+      "after_sha256": "0306cea4ac125f2bff7a169beae1540c08fa34ea7da3102005131a2b94ed716a",
+      "before_sha256": "6137fbc3683e55a5580b658429b6344724882e5224420ce3b1105e6d3f2f9a14"
+    },
+    {
+      "module": "src/races/forgotten/executioner/067_Focused_Anger_1.lua",
+      "after_sha256": "25f81c81f53a692779ab8da6a35e52d78189a90f1175cb8fcc12802d0766d2cb",
+      "before_sha256": "1a9f6cbc4d6948c0841fec40464ed1fda1b61fd9a5e75cda2981ac6a603c0241"
+    },
+    {
+      "module": "src/races/forgotten/executioner/068_Focused_Anger_2.lua",
+      "after_sha256": "9b119573f65816fdf2d54f563514cecd2a9103bb76b0e184f06e75b0da4f0f5b",
+      "before_sha256": "533732c482071bb77826e25041753ab4404a34b994476af1447ae90546d93eb8"
+    },
+    {
+      "module": "src/races/forgotten/executioner/069_Focused_Anger_3.lua",
+      "after_sha256": "adb08a6f4e295d97b6b1e886ccb97f6a09019ec338c062c9c98f5a67e7324a1d",
+      "before_sha256": "5150cd1ce6e5b93ddce17cca841ab3725785949f14da85d6cc315e99e003eed1"
+    },
+    {
+      "module": "src/races/forgotten/executioner/070_Focused_Anger_4.lua",
+      "after_sha256": "2fd0a1e52012e18e4bb80b1aee1bc5c82d529c706ab6502f1650c788112c98be",
+      "before_sha256": "9c134e3efeb14cb870a350e18347cb44fd2a54f26bf7a858ee3f8a1f3894a7a2"
+    },
+    {
+      "module": "src/races/forgotten/executioner/071_Focused_Anger_5.lua",
+      "after_sha256": "abd031c6d25540c48d2cda63ddd9599bdbb06332d3c524d14674117718f58a1f",
+      "before_sha256": "50d6ef857736bfe845437b6e9b224ab0251a8c0a40e1e128c4051a8acbe2f310"
+    },
+    {
+      "module": "src/races/forgotten/executioner/072_Focused_Anger_6.lua",
+      "after_sha256": "975cadf2502d289fee6ed23cf32714768168077f81886b33f135264fa51d9ebb",
+      "before_sha256": "538a941a51368b4f4a6f6caa8e52bf46ca6af5b3d78b9b29964dc7bd7c971085"
+    },
+    {
+      "module": "src/races/forgotten/executioner/073_Focused_Anger_7.lua",
+      "after_sha256": "59013b3ed80917727aa091989b9395a956dfa382a3f1bf770a83d7f7de0f8b49",
+      "before_sha256": "cd1ec9d583db7b38777ec7b10621b2f2ae66bca70d5e1f10447131606e29ab0e"
+    },
+    {
+      "module": "src/races/forgotten/executioner/074_Focused_Anger_8.lua",
+      "after_sha256": "1e3cbb51c0d520dae426bb31a1cd3139974c29c3bfa8ea4b15fe5110fc7e78ee",
+      "before_sha256": "a225ec51673e0c6e3184de5779acad5b0110282310118ab6f0e98da6fb5c0d84"
+    },
+    {
+      "module": "src/races/forgotten/executioner/075_Focused_Anger_9.lua",
+      "after_sha256": "378f831a09817532982ec8cc5937d64feecf02896dce5f5c2080ec580445e52a",
+      "before_sha256": "eae93c46e78df172c5ba0c3894ec43b90fa2f5f334cf1bf53765877b849d5731"
+    },
+    {
+      "module": "src/races/forgotten/executioner/076_Focused_Anger_10.lua",
+      "after_sha256": "1dd18dc13a9a1fc251126fe4412e99734b86a9754b1bed78e09d96f98986f972",
+      "before_sha256": "312103f6477df132e8f8f3f8763ea01baa620467fe98ed32c56fcd5f0668d094"
+    },
+    {
+      "module": "src/races/wisp/136_SeedOfRebirth.lua",
+      "after_sha256": "7c4e38a8a2ba77fe9dcd612ec675479c0341616cc55c1c2e77ffe382151b3bf7",
+      "before_sha256": "b18985f1f4cf68acc3d2d66e488ecf97cd4fce20cee4d7f4fc53cf004bfa6d21"
+    },
+    {
+      "module": "src/races/worgen/154_Focused_Strike.lua",
+      "after_sha256": "737c998fc1dd59715428e20104dc49a3f08fcca0030230af7d68a64034854fd4",
+      "before_sha256": "663064260d3b6025a9720cf13801c3f6865ef24195c1fc38232d4a4f02e99086"
+    },
+    {
+      "module": "src/ancients/paranoia/156_Realm_of_darkness.lua",
+      "after_sha256": "15c81bb760cb068366c855be3bf006b03ece5501ff90cc9af4adf058169131a8",
+      "before_sha256": "85721c86674c0602b790463c5fb1312d072ffcda09d9e3f843d50f7144aa8adb"
+    },
+    {
+      "module": "src/ancients/paranoia/157_Realm_of_darkness_2.lua",
+      "after_sha256": "6b28472fd606488dc4eb77cf3f9b454b6d4ec4227f17c48a7f4d7ef924b4b88a",
+      "before_sha256": "3d066b78ca961f7625f0be5680ec50d34ad587c3f1f569e78f1e999506a8ad7f"
+    },
+    {
+      "module": "src/ancients/zalxon/159_Lightning_Strike.lua",
+      "after_sha256": "f55a082c62e7e732b0fdde5b72a554acd00ca9f16fbf321f4d0cd17679c8cc5c",
+      "before_sha256": "ab1f89d17a168dee33fc7bb163718d8f843d57881ab67846e170bfbc38ef83cf"
+    },
+    {
+      "module": "src/ancients/pharaoh/173_Sandstorm_2.lua",
+      "after_sha256": "bb3902854e7a052b0786ffea108c2d56b41dec735a9bd533fddc42c2b039b1b5",
+      "before_sha256": "d8dad54a03e35d1ffaf88b0c58e40e89a92b7ff6369cfb18f6fe86de11f64356"
+    },
+    {
+      "module": "src/ancients/pharaoh/174_Ancient_Grasp.lua",
+      "after_sha256": "24e942529aa960ad261906df9c5cda92901ab40593a4544e52fe2afeda0aa3ba",
+      "before_sha256": "2198dc5525e58d9026611ab89542311ee32cc9b8d231d2bc9b7aac852d372e7d"
+    },
+    {
+      "module": "src/ancients/avalanche/176_Chill.lua",
+      "after_sha256": "c415d9f28cb22c5007293937340818a05595da765f7274d044ec90c931f88f7c",
+      "before_sha256": "7a492bf249b25e9199ce35513dd36a06b5cd10ef2401bcac24111b9c35d0ad6e"
+    },
+    {
+      "module": "src/ancients/avalanche/177_Freeze_Zone.lua",
+      "after_sha256": "bb54cba14deb6dd6de2ce2e24dedf191c9bf07093e2fd3028f4ea4f24e6604de",
+      "before_sha256": "50dfe106f26aec7b2e526dd329b7f2cdda5b3a411d32f401d011707f3137df60"
+    },
+    {
+      "module": "src/ancients/divinity/179_Sadism.lua",
+      "after_sha256": "a5f45aaea90e37aba10876a96be66946bbd8ea08c942dd6a8da13363b80e35ac",
+      "before_sha256": "a8383e0b9387989737f1eb7091b146747444aa163114896c0136faa1f27dd085"
+    },
+    {
+      "module": "src/ancients/divinity/183_Vanguard.lua",
+      "after_sha256": "caafe1b554db14984abf39dd01368c01478e084021460d181345be7a1f1952b9",
+      "before_sha256": "dbb4bac680de9bf07e8100c0829bf7f724e90c3a53f390d74c26be7e5464ac12"
+    },
+    {
+      "module": "src/ui/hints/202_Resource_Hint.lua",
+      "after_sha256": "b86ae48dde7ca2a0f905c329d3e28a5aa0634dab39815e346184b7b9b1a2051a",
+      "before_sha256": "080002c43eeec3f3167e206dba8022c7d6e267945144742589b0c9fed83eda10"
+    },
+    {
+      "module": "src/ai/206_Start.lua",
+      "after_sha256": "d94bb1ee9319faa298574ab8c6fb4254b619c7aa5a69ccd17da125f3a61a6c89",
+      "before_sha256": "5d660d2c1ab2cdbc62a555541c6ba562aad6bab749067b3255fa86f8b23b2163"
+    },
+    {
+      "module": "src/ai/207_Hard_mode_on.lua",
+      "after_sha256": "49bf79ca29ef488c7d129f3d2266b8ec2f7156fa08562624774a9e7e35ec7ecf",
+      "before_sha256": "3e8f9daf7ef0cee0ab80094f200a514a34a891d024c8ff80feb8f6fb673a6531"
+    },
+    {
+      "module": "src/items/228_Ledgers_XP.lua",
+      "after_sha256": "3109c232e4d2f318942b8b201b8c91b07c79ff774161d0b0565ad3420429b5e3",
+      "before_sha256": "d8f43dc29a9ee9949b53ef253b128da3b496d41193263469593792a352eb3723"
+    },
+    {
+      "module": "src/items/229_Ledger_of_Clarity_pickup.lua",
+      "after_sha256": "bde3716c1b694ff4a92acd209e078e2036a94d8cbfb8c6c054678cc1ec34392b",
+      "before_sha256": "3364b75038c5273e33d06ff2cca7638975f0a55e12fb51045ceef8444889a3f5"
+    },
+    {
+      "module": "src/items/230_Ledger_of_Clarity_lose.lua",
+      "after_sha256": "3f2e9ae89a4d13a6359d89199626083145a47a84b02cfb352033582e63295e6d",
+      "before_sha256": "605740a51e8860e6320e8ee5d62e79b887f2bcc96eff938b4ca38af2719d50cd"
+    },
+    {
+      "module": "src/items/231_Ledger_of_Enlightment_pickup.lua",
+      "after_sha256": "0a3fea9444fe2be148fd51164bda9161f6c08fe18479da8dc7431b31925b2a7d",
+      "before_sha256": "50d98b77e746219a1175342e18e4a26a1cb7b668b14b9a9e9029aa3ac4ce68f7"
+    },
+    {
+      "module": "src/items/232_Ledger_of_Enlightment_lose.lua",
+      "after_sha256": "fb2c1e0fa6399cc772a2ae066a1575fa88f808c879ac934ded7447b285b5b1a6",
+      "before_sha256": "9b9a9b8d59e768d7b881443550e84b342ccd523862e44871f65d76731b154b36"
+    },
+    {
+      "module": "src/items/233_Spellcasters_Cloak.lua",
+      "after_sha256": "506d28afa1e8a127382c968809903728278559845968a21f3d87e0c6a3af5568",
+      "before_sha256": "0c050ea56eaf97a0a50a110140a8a1dd3902c98aab627372a821fd58a7d2f292"
+    },
+    {
+      "module": "src/items/234_Ethereal_Scepter.lua",
+      "after_sha256": "3495b5ae2ca25f735e5a32f1c610280a4934a2868bfe7520951c8e7ea4d951bc",
+      "before_sha256": "74e8f3d6fcac8af1cd4e58674e738d5790aafddd8c12722636585677c46f4d4c"
+    },
+    {
+      "module": "src/items/235_Firelords_Cape.lua",
+      "after_sha256": "13f377d74eafb10a30bf88e7df3fe21f1f091b2907d1e710f98628184a5541fa",
+      "before_sha256": "7cd009f451f9fd679f12681e0b79cac7d36ad0012c9bdfd7fb2e2f334590ed9c"
+    },
+    {
+      "module": "src/items/236_Ledget_of_Enlightment.lua",
+      "after_sha256": "4cb22e4287a27b1c95731e0934989bc847be6fbef6f3e70824f1c123d37ad51e",
+      "before_sha256": "7b8459dce0216f71c7db244715a0df643da545daccbfcc802250de21686d7c11"
+    },
+    {
+      "module": "src/items/237_Hammer_of_might.lua",
+      "after_sha256": "16f0b311171aca8018bbd196c13faabe7deaddf633f51033f7bbe117601685e3",
+      "before_sha256": "9e1831d766c07cb33292f3fcc1cfb14590fee63904be1259109d90ce2819a149"
+    },
+    {
+      "module": "src/items/238_Valorous_Helmet.lua",
+      "after_sha256": "37535bbb5b26b8046ddad0597687ea535d24dc58c593d67c2e668530069170f1",
+      "before_sha256": "792d0a5600ab440b99e7a3714325ea75abe5bff30b13ef4e600fd543119d14f6"
+    },
+    {
+      "module": "src/items/239_Bladed_Gauntlet.lua",
+      "after_sha256": "4111dfb25ace3eb40b596f428ed1fdc6ba60a99cf703c32ea489b9781680be97",
+      "before_sha256": "f16b7c817cba56c7f7b38683ffd0499e45f499a226d83443d2e3686e1518a25f"
+    },
+    {
+      "module": "src/items/240_Righteous_Armor.lua",
+      "after_sha256": "3725d74c40a9e26c4b7fd7486fee7a11b59d7875ace3d3b51053ccdd497eeb52",
+      "before_sha256": "a4f695c514a8a05d42d74c9a0b9731eaca0799a80ec6ced45ac8afe0e9b1abea"
+    },
+    {
+      "module": "src/items/241_Arcanum_of_Hatred.lua",
+      "after_sha256": "b5389684d99ee35ab0cbb54a41d2dafa35c7c1624d5cb20bc436ba507eb95b70",
+      "before_sha256": "65db77315658e1199d9d07691a43988b3b9867b3b790e7d2cbb52971e528d382"
+    },
+    {
+      "module": "src/items/242_Bleeding_Scythe.lua",
+      "after_sha256": "3dd9d3a4770c511f985dc74655a12054ee22d63a99058e348ee8d64b29f97c9f",
+      "before_sha256": "0b4fe612b38b19dad9b6e60a9941bd7ae027be547e99dbbe6a417f71a7c2c65a"
+    },
+    {
+      "module": "src/items/243_Staff_of_Insight.lua",
+      "after_sha256": "212c305b67ae3b33551f1c7d36f43f8e1388e410cd4a130a659e2f99adeb73ce",
+      "before_sha256": "dfe6f628b141cee0c8cd8c81e9cb0fb013baedfc7c7540f3269a2b9e68ab0103"
+    },
+    {
+      "module": "src/items/244_Cosmic_Orb.lua",
+      "after_sha256": "4a77c2f565ed4aede35056b7f0db500365e9d30b26dc15a4aec1576972e40cfe",
+      "before_sha256": "5d9a79b2290baa6c5285f1690e484ca3f1eac75a9753680a495b14953f6250d6"
+    },
+    {
+      "module": "src/game/startup/253_TimeToExpanderSpawn.lua",
+      "after_sha256": "f7f04ecd6a2721c3e47bc12ea68d8ac0dee1bbaf2bf6f2ac399837c3222c6732",
+      "before_sha256": "6eb7a86b8af218796e1141b42d80b486061f2b04bf7d45086f1a26e7e33472d0"
+    },
+    {
+      "module": "src/game/startup/254_TimeToAncientSpawn.lua",
+      "after_sha256": "cfa497bffb04f30e1d65f547a63042d6d65a011b9c221778323fc04097f15527",
+      "before_sha256": "394ac467d52751d8db8cfb28a6e3cdc328e5cddcb77bc9b8d7060331ae179958"
+    },
+    {
+      "module": "src/game/bans/ancients/298_AncientFire.lua",
+      "after_sha256": "d06e20a293df1c765a7e62f9d268edcf9e9ac3d1f373637509d28cf6d58f36de",
+      "before_sha256": "a96a058209f047967c4ae8f3e3a5bc36d5c82efc4be5bb71f0769727aac26e07"
+    },
+    {
+      "module": "src/game/selection/314_LatePickers.lua",
+      "after_sha256": "c4e2df238c64369f77b9b29f6d6ea625bf59c35c2b234983d321f14493a0ac10",
+      "before_sha256": "858cab20a64a83cf547e9508cdb897745e4676be7c574881191094d701361424"
+    },
+    {
+      "module": "src/players/316_Player_group.lua",
+      "after_sha256": "6a3bd59e376a102843ca6c0ea9a68703c7487f33e9d166da19ac923843cc9c71",
+      "before_sha256": "481e4ade98071b3a904dab358d4aafd08d4dfe40cda9ea88cf9abb792cce92b6"
+    },
+    {
+      "module": "src/players/lackeys/317_Lackey_Respawn.lua",
+      "after_sha256": "44587838c102a0f1f139a5e45204db14da46824dcd215c8ab939942fb89cc757",
+      "before_sha256": "d2534f5ae5839f61868180d4c91bede684fd205122e0917d64edd49327e7c5a7"
+    },
+    {
+      "module": "src/players/lackeys/318_Death_start.lua",
+      "after_sha256": "54b4509693b273d962d34a31f7e149edf0392a8422a236188b393b5049ab8862",
+      "before_sha256": "d6b7aa8325d383312de0b95f2abddc7de49f648631bc311759566ac262256a6f"
+    },
+    {
+      "module": "src/players/lackeys/319_Spawn_Lackey.lua",
+      "after_sha256": "ceacb786d7f10057a7cb7ae77cfab8b04b980aa5c3a2032b0365da4ffde9e8cf",
+      "before_sha256": "8162b7461ca3bbe325a77146556093e3d129dca6eb00785648ce859615b47e84"
+    },
+    {
+      "module": "src/players/leaving/321_Player_Leaves.lua",
+      "after_sha256": "5173ea15f4fcca7f7fb8c8d4255db3585e658190b81afffef4289afacde261ff",
+      "before_sha256": "f5211dd51e1487fa3d55f552ad6c7b50c574b6efb440de8f443faa9112ea05d3"
+    },
+    {
+      "module": "src/bootstrap.lua",
+      "after_sha256": "70f44ef79a1dd46865baaa16416b863d08f199dffdd0b2f44a1001b44eac0ad9",
+      "before_sha256": "7be4f25fcde7f66e5e9a321a2e3bfbc417d0ff4542eb3841ea183c02d105326e"
+    }
+  ],
+  "new_modules": [
+    {
+      "module": "src/players/roster.lua",
+      "after_sha256": "caf38d1668e106dabb1c42fe1edcf5ad082d053e31c4f8ce2c3a3859350ac925"
+    },
+    {
+      "module": "src/items/recipe_data.lua",
+      "after_sha256": "fa99212f4c2b5f951e08048bfcd0674ad7894028312847a72143b27e3350ecdf"
+    },
+    {
+      "module": "src/items/recipes.lua",
+      "after_sha256": "bc1f7f383bb66f95e5144780c85f1b83ac4c6db13c5ac633bc7d92ed3719fe6f"
+    },
+    {
+      "module": "src/items/shops.lua",
+      "after_sha256": "34d777741084c9c6bfb71a0c4fa001b1f656789ffcb7ed5a7c14d82e7378b194"
+    },
+    {
+      "module": "src/items/ledgers.lua",
+      "after_sha256": "74febbf3263a5aab63a47a95796fa1ab0447cba504c5d3ed8dea28f913e8001d"
+    },
+    {
+      "module": "src/combat/focused_anger.lua",
+      "after_sha256": "2c1333edf786aea05f65b5d4d10d2a225254b52167c0ab7fdbdd9dff45d3bc2f"
+    }
+  ],
+  "features": [
+    "Ancient recipe sales buy only missing components, recursively, at current object-data prices; use owned ingredients first; refund the scroll on failure.",
+    "Shop range entry and shop selection assign the current Ancient as buyer for its owning player with a synchronized neutralinteract order.",
+    "One editable recipe catalog covers eleven sold recipes and the two-ledger combination; regular builds regenerate Lua prices."
+  ],
+  "fixes": [
+    {
+      "id": "unit-index-corruption",
+      "detail": "Focused Anger no longer overwrites the attacked unit custom value. Per-attacker capped stacks and timer closures preserve the index and attacker."
+    },
+    {
+      "id": "singleton-force-corruption",
+      "detail": "Expander membership uses a dedicated force, leaving Blizzard player-0 singleton intact for Damage Engine callbacks."
+    },
+    {
+      "id": "living-player-count",
+      "detail": "Count living expanders once per defeat/rebirth; account for leaves and takeovers; prevent stale lackey respawns after revival or takeover."
+    },
+    {
+      "id": "rebirth-state",
+      "detail": "Capture dead hero type before removal; seed resurrection captures caster/target/player, restores original type and joins living expanders."
+    },
+    {
+      "id": "death-spawn-context",
+      "detail": "Lackey spawn snapshots death coordinates/player before yielding, handles environmental deaths, and releases temporary handles."
+    },
+    {
+      "id": "delayed-spell-context",
+      "detail": "Conjure Mana, Ancient Grasp, Chill, Sadism and Worgen strike retain event handles; Vanguard retains its heal value."
+    },
+    {
+      "id": "countdown-ownership",
+      "detail": "Lightning Strike, Sandstorm, Freeze Zone and startup countdowns destroy only their own dialogs; spell countdowns have separate timers."
+    },
+    {
+      "id": "mana-conservation",
+      "detail": "Shadow Dancer removes stolen current mana, limits capacity theft to the amount available, and restores dead revivable units without inventing capacity."
+    },
+    {
+      "id": "ledger-combination",
+      "detail": "Distinct item handles replace shared loop counters; three or more ledgers can combine; unused legacy infinite crafting loop removed."
+    },
+    {
+      "id": "ledger-carriers",
+      "detail": "XP follows each actual carrier inventory, not the globally last picked unit."
+    },
+    {
+      "id": "late-picker-alliance",
+      "detail": "Late pick teleport requires an allied living non-structure Ancient unit."
+    },
+    {
+      "id": "darkness-event-response",
+      "detail": "Realm of Darkness uses filter/trigger units in their proper event contexts and releases enumeration groups."
+    },
+    {
+      "id": "fire-ban-window",
+      "detail": "Ancient Fire uses the same open ban-window rule as the other Ancient bans."
+    },
+    {
+      "id": "feed-sync-load",
+      "detail": "Wait for both synchronized fields, handle late and reversed arrival, validate integers, bind to sender, retain original lobby identity, escape preload text, preserve manual choices."
+    }
+  ],
+  "reviewed_remaining_wait_site": {
+    "function": "Trig_Genesis_Actions",
+    "reason": "GetLastCreatedUnit follows its own CreateNUnitsAtLoc immediately; not a stale pre-wait response."
+  },
+  "references": [
+    "https://github.com/Rogoeu/Island-Defense-Lua/blob/cbc987c39e3151a1968830ec15fe4af7910bab05/items/ShopSystemAutoBuy.lua",
+    "https://github.com/actboy168/YDWE/blob/a69c315ebf2886ec54d66200707ab6e38bd3484d/Development/Component/ui/ydwe/en-US/call.txt",
+    "https://www.hiveworkshop.com/threads/preloadgen.320673/"
+  ],
+  "validation_report": "reports/refactor-validation.json",
+  "remaining": [
+    "Real World Editor save/reopen and native game startup.",
+    "At least two real clients: shop buyer UI, purchase/event ordering, takeover, combat/spells, and late preload synchronization.",
+    "Long game stress and save/load; other map behavior may still contain unobserved bugs."
+  ],
+  "live_engine_test": false,
+  "multiplayer_test": false
+}

@@ -1,0 +1,39 @@
+{
+  "OldId": 1684425025,
+  "NewId": 1480798273,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829715273,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": "n011",
+      "SanityCheck": 0,
+      "_field": "Ist1"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    }
+  ],
+  "_rawcode": "A0CX",
+  "_base": "AIfd",
+  "_name": "Tree Chopper Summon"
+}

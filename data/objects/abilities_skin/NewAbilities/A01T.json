@@ -1,0 +1,236 @@
+{
+  "OldId": 2003324737,
+  "NewId": 1412509761,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1734962273,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "alig"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\Volcano\\VolcanoDeath.mdl,Abilities\\Spells\\Undead\\Impale\\ImpaleMissTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8832",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cff943A08E|rmpower"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1816",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Heals your ancient for 500 (+250 per level) health. 12 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8834",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff943A08E|rmpower"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8835",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff943A08E|rmpower"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8836",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff943A08E|rmpower"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1825",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 500 health. 12 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1939",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 750 health. 12 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1940",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 1000 health. 12 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8840",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff943A08E|rmpower"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8841",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff943A08E|rmpower"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1976",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 1250 health. 12 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2003",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 1500 health. 12 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8844",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff943A08E|rmpower"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8845",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff943A08E|rmpower"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2105",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 1750 health. 12 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2511",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 2000 health. 12 second cooldown."
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8831",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Empower"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A01T",
+  "_base": "AOhw",
+  "_name": "Empower"
+}

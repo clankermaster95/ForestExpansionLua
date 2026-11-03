@@ -1,0 +1,19 @@
+{
+  "OldId": 863137134,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Ane2,Asud,Avul",
+      "SanityCheck": 863137134,
+      "_field": "uabi"
+    }
+  ],
+  "_rawcode": "nmr3",
+  "_base": "nmr3",
+  "_name": "nmr3"
+}

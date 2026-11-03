@@ -1,0 +1,168 @@
+{
+  "OldId": 1937204562,
+  "NewId": 1194733650,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5681",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the amount of mana that can be stored in generators by 25."
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5682",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced Capacitors"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10670",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Advanced Capacitors - [30.0]"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7714",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7720",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5718",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced Capacitors"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5719",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced Capacitors"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10673",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Advanced Capacitors - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10674",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Research Advanced Capacitors - [90.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5722",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the amount of mana that can be stored in generators by 25."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5723",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the amount of mana that can be stored in generators by 25."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPendantOfEnergy.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPendantOfEnergy.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPendantOfEnergy.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7787",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "C"
+    }
+  ],
+  "_rawcode": "R06G",
+  "_base": "Rews",
+  "_name": "Advanced Capacitors"
+}

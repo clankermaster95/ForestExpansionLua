@@ -1,0 +1,60 @@
+{
+  "OldId": 1869640513,
+  "NewId": 1345400897,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1265",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Plague"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNCorrosiveBreath.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1266",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Plague"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_519",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The plague is imbued into each attack, slowing the target by 30% and dealing 10 damage per second. Lasts 2 seconds."
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\PlagueCloud\\PlagueCloudCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    }
+  ],
+  "_rawcode": "A01P",
+  "_base": "Aspo",
+  "_name": "Plague"
+}

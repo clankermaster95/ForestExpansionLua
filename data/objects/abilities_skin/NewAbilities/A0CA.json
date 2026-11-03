@@ -1,0 +1,22 @@
+{
+  "OldId": 1701988673,
+  "NewId": 1094922305,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_700",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Item Cheese Regain"
+    }
+  ],
+  "_rawcode": "A0CA",
+  "_base": "AIre",
+  "_name": "Item Cheese Regain"
+}

@@ -1,0 +1,100 @@
+{
+  "OldId": 2004117352,
+  "NewId": 825503848,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_255",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ethereal Tower"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\ElvenGuardFireTower\\ElvenGuardFireTower.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNIceCrownObelisk.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\VoidWalkerMissile\\VoidWalkerMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1411",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_273",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "E|cffffcc00t|rhereal Tower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10177",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An upgraded version of the Nether Tower. Has increased damage and health. Can still be upgraded.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 15 (Normal)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 0.01|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h041",
+  "_base": "hgtw",
+  "_name": "Ethereal Tower"
+}

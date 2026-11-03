@@ -1,0 +1,66 @@
+{
+  "OldId": 1818446145,
+  "NewId": 859385921,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 862741327,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ocl3"
+    },
+    {
+      "Id": 845964111,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 12,
+      "SanityCheck": 0,
+      "_field": "Ocl2"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 829186895,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "Ocl1"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1200,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,enemies,ground,mechanical,neutral,organic",
+      "SanityCheck": 0,
+      "_field": "atar"
+    }
+  ],
+  "_rawcode": "A093",
+  "_base": "AIcl",
+  "_name": "Item Chain lightning"
+}

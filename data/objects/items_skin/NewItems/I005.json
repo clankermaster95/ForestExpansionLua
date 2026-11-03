@@ -1,0 +1,66 @@
+{
+  "OldId": 1701341040,
+  "NewId": 892350537,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_427",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Magmide Blood"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGreaterInvulneralbility.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_7502",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Instantly restores 500 health."
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7503",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Magmide Blood"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1610",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "war3mapImported\\PotionOfInvulnerability.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10864",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Heals <AIh2,DataA1> hit points when used. 40 second cooldown."
+    }
+  ],
+  "_rawcode": "I005",
+  "_base": "pghe",
+  "_name": "Magmide Blood"
+}

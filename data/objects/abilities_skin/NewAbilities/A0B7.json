@@ -1,0 +1,70 @@
+{
+  "OldId": 1818447425,
+  "NewId": 927084609,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4510",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Realm of Darkness"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNtruesight.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4511",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Decreases the vision of all enemy units on the map by 400 for 60 seconds. 60 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4512",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Realm of Darkness"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2972",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    }
+  ],
+  "_rawcode": "A0B7",
+  "_base": "ANcl",
+  "_name": "Realm of Darkness"
+}

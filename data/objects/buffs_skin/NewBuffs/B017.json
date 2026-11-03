@@ -1,0 +1,50 @@
+{
+  "OldId": 1969313090,
+  "NewId": 925970498,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_4754",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Tranquility"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\Heal\\HealTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_4755",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Tranquility"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_4756",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is regeneration health twice as fast."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHornOfFog.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B017",
+  "_base": "BUau",
+  "_name": "Tranquility"
+}

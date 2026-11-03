@@ -1,0 +1,26 @@
+{
+  "OldId": 1818388334,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 1818388334,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 1818388334,
+      "_field": "ulum"
+    }
+  ],
+  "_rawcode": "ngbl",
+  "_base": "ngbl",
+  "_name": "ngbl"
+}

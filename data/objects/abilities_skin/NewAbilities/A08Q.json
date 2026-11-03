@@ -1,0 +1,41 @@
+{
+  "OldId": 1918988097,
+  "NewId": 1362636865,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9111",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Sun Aura"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSunburst3.BLP",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9122",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Healing Ward) (lvl3)"
+    }
+  ],
+  "_rawcode": "A08Q",
+  "_base": "Aoar",
+  "_name": "Sun Aura"
+}

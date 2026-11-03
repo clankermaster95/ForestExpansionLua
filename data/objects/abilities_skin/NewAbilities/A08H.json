@@ -1,0 +1,118 @@
+{
+  "OldId": 1668565057,
+  "NewId": 1211641921,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\ManaBurst.mdx",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\btnswirlyblast.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\btnswirlyblast.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7632",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8010",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7422",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffffcc00G|ralactic Fury"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3681",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Nebula concentrates power around him, creating a gravity shift, slowing the speed of the attack, movement, and PCs of all enemies in 3000 range by 90% for 8 seconds. Also dealing 75 damage and instantly healing Nebula for 25% of his health. \n\n|cffffcc0040 second cooldown.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8009",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00G|ralactic Fury"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3682",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Nebula concentrates power around him, creating a gravity shift, slowing the speed of the attack, movement, and PCs of all enemies in 3000 range by 90% for 8 seconds. Also dealing 75 damage and instantly healing Nebula for 25% of his health. \n\n|cffffcc0040 second cooldown.|r"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7326",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Galactic Fury"
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aani"
+    }
+  ],
+  "_rawcode": "A08H",
+  "_base": "AHtc",
+  "_name": "Galactic Fury"
+}

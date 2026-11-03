@@ -1,0 +1,99 @@
+{
+  "OldId": 2004121455,
+  "NewId": 1093742703,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6116",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Gilnean Wall"
+    },
+    {
+      "Id": 828468597,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uma1"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6117",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Gilnean |cffffcc00W|rall"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10145",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A light building that will protect you from the ancient.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanWatchTower.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\human\\HumanTower\\HumanTower.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o01A",
+  "_base": "owtw",
+  "_name": "Gilnean Wall"
+}

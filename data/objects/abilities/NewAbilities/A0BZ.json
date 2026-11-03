@@ -1,0 +1,30 @@
+{
+  "OldId": 1634943809,
+  "NewId": 1514287169,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828466760,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "Hfa1"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    }
+  ],
+  "_rawcode": "A0BZ",
+  "_base": "ACsa",
+  "_name": "A0BZ"
+}

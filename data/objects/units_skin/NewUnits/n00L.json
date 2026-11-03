@@ -1,0 +1,56 @@
+{
+  "OldId": 1952933486,
+  "NewId": 1278226542,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4829",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Raging Growth"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6949",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A raging growth. |n|n|cfffdca00Health:|r 1000; 5/s|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Attack:|r 100 (Chaos)|n|cfffdca00Attack Range:|r 180|n|cfffdca00Attack Cooldown:|r 0.8|n|cfffdca00Movement Speed:|r 0|n|cffff0000Feed Value:|r |cffffdd002|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.3,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 230,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    }
+  ],
+  "_rawcode": "n00L",
+  "_base": "nfgt",
+  "_name": "Raging Growth"
+}

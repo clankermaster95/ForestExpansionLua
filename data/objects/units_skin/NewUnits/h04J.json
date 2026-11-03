@@ -1,0 +1,93 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1244934248,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7311",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Wildkin Worker"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7312",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00W|rildkin Worker"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6990",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Workers that gather lumber but cannot gather gold. |n|cff7F7F7FWeaker Wildkin are enslaved to work for the Alpha Male.|r|n|n|cfffdca00Health:|r 50; 0.25/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Movement Speed:|r 280|n|cffff0000Feed Value:|r |cffffdd000|r"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\Owlbear\\Owlbear.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.45,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOwlBear.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1215",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Wendigo",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    }
+  ],
+  "_rawcode": "h04J",
+  "_base": "hpea",
+  "_name": "Wildkin Worker"
+}

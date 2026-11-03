@@ -1,0 +1,79 @@
+{
+  "OldId": 1869113205,
+  "NewId": 842018933,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2096",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Centaur Warrior"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCentaurArcher.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\Centaur\\Centaur.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2097",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Centaur Warrior"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10019",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A more powerful unit. Mainly used for tanking and hunting down the ancient.|n|n|cfffdca00Health:|r 1000; 2/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 75 (Piercing)|n|cfffdca00Attack Range:|r 90|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 310|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_024",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "ChaosGrunt",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    }
+  ],
+  "_rawcode": "u002",
+  "_base": "ugho",
+  "_name": "Centaur Warrior"
+}

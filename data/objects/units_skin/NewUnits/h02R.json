@@ -1,0 +1,71 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1379020904,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2753",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Molten Wall"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\DragonRoost\\DragonRoost.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDestroyer.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2754",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Mol|cff844208t|ren Wall"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10079",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "One of the most hazardous walls. Can be upgraded with Radiation and other upgrades at the Molten Core.|n|n|cfffdca00Health:|r 750|n|cfffdca00Armor:|r 20 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.7,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h02R",
+  "_base": "hwtw",
+  "_name": "Molten Wall"
+}

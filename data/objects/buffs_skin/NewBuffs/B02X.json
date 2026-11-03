@@ -1,0 +1,50 @@
+{
+  "OldId": 1936083010,
+  "NewId": 1479684162,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_8386",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Sandstorm"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSandstorm3.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_8387",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Sandstorm"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_8388",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is taking damage until it moves out of the sandstorm."
+    }
+  ],
+  "_rawcode": "B02X",
+  "_base": "BHfs",
+  "_name": "Sandstorm"
+}

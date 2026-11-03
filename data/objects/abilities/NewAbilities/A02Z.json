@@ -1,0 +1,66 @@
+{
+  "OldId": 1651536705,
+  "NewId": 1513238593,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828534899,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": "A08X,A06N,A033,A034,A032,A031,A02Y,A030",
+      "SanityCheck": 0,
+      "_field": "spb1"
+    },
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 845312115,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "spb2"
+    },
+    {
+      "Id": 895643763,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 5,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "spb5"
+    },
+    {
+      "Id": 878866547,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 4,
+      "Value": 11,
+      "SanityCheck": 0,
+      "_field": "spb4"
+    },
+    {
+      "Id": 862089331,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 11,
+      "SanityCheck": 0,
+      "_field": "spb3"
+    }
+  ],
+  "_rawcode": "A02Z",
+  "_base": "Aspb",
+  "_name": "Abilities"
+}

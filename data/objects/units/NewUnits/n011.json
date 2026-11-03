@@ -1,0 +1,222 @@
+{
+  "OldId": 1918990190,
+  "NewId": 825307246,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "other",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1835098997,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucam"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R06Z,R06Y",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 800,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1836084597,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "umpm"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1633840245,
+      "Type": "Int",
+      "Value": 499,
+      "SanityCheck": 0,
+      "_field": "ulba"
+    },
+    {
+      "Id": 1684171893,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ulbd"
+    },
+    {
+      "Id": 1935830133,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ulbs"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 2500,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 19,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1920363893,
+      "Type": "Unreal",
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "umvr"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 124,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "debris,ground,item,nonancient,structure,vulnerable,ward",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    },
+    {
+      "Id": 1886741621,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "udup"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1869767797,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udro"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 32,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0D0,A0CZ,A0CY",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1919970677,
+      "Type": "Unreal",
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "umpr"
+    },
+    {
+      "Id": 1768975733,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "umpi"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    }
+  ],
+  "_rawcode": "n011",
+  "_base": "nwar",
+  "_name": "|cff239b14Tree Chopper|r"
+}

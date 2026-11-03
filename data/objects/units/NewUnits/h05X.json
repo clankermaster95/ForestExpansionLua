@@ -1,0 +1,124 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1479880808,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Argl",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1953527157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uupt"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 40,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "fort",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1769107573,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "upri"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 700,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R078,R075,R072,R077,R07C,R07E",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1634890869,
+      "Type": "String",
+      "Value": "h05Y",
+      "SanityCheck": 0,
+      "_field": "utra"
+    }
+  ],
+  "_rawcode": "h05X",
+  "_base": "hwtw",
+  "_name": "Tent"
+}

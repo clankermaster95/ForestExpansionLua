@@ -1,0 +1,30 @@
+{
+  "OldId": 1717717313,
+  "NewId": 942813249,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829186633,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "h02D,h02D,h02D,h02D",
+      "SanityCheck": 0,
+      "_field": "Ibl1"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "aran"
+    }
+  ],
+  "_rawcode": "A028",
+  "_base": "AIbf",
+  "_name": "Seed of Destruction"
+}

@@ -1,0 +1,50 @@
+{
+  "OldId": 1936543298,
+  "NewId": 1093742658,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_4870",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Focus Shield"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMassTeleport.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\Cripple\\CrippleTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_4871",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Focus Shield"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_4876",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Has 1000 damage shield. Regenerates quickly."
+    }
+  ],
+  "_rawcode": "B01A",
+  "_base": "BNms",
+  "_name": "Focus Shield"
+}

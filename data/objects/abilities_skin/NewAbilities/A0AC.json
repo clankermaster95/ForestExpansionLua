@@ -1,0 +1,52 @@
+{
+  "OldId": 1751205185,
+  "NewId": 1128345665,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4499",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "An aura that gives friendly nearby units damage reflection, which deals <A0AC,DataA1,%>% of an enemy unit's melee attack damage back to it."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4500",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "An aura that gives friendly nearby units damage reflection, which deals <A0AC,DataA2,%>% of an enemy unit's melee attack damage back to it."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4501",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "An aura that gives friendly nearby units damage reflection, which deals <A0AC,DataA3,%>% of an enemy unit's melee attack damage back to it."
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_876",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "An aura that causes enemies to take a percentage of melee damage dealt to nearby friendly units. |n|n|cffffcc00Level 1|r - Returns <A0AC,DataA1,%>% damage. |n|cffffcc00Level 2|r - Returns <A0AC,DataA2,%>% damage. |n|cffffcc00Level 3|r - Returns <A0AC,DataA3,%>% damage."
+    }
+  ],
+  "_rawcode": "A0AC",
+  "_base": "AEah",
+  "_name": "A0AC"
+}

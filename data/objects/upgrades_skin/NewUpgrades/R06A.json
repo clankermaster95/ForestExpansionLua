@@ -1,0 +1,309 @@
+{
+  "OldId": 1667328082,
+  "NewId": 1094070354,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4583",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Improved Fortifications"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4585",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Advanced Fortifications"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4586",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Imbued Fortifications"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4587",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Robust Fortifications"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4588",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Durable Fortifications"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10638",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade to Robust Fortifications - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10639",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade to Improved Fortifications - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10640",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade to Durable Fortifications - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10641",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade to Advanced Fortifications - [75.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10642",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade to Imbued Fortifications - [90.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4597",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health points of walls by 150."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4598",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health points of walls by 150."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4613",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health points of walls by 150."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4615",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health points of walls by 150."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4616",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health points of walls by 150."
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4740",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Solid Fortifications"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10644",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Upgrade to Solid Fortifications - [105.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4743",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health points of walls by 150."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7807",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "M"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8957",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "M"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8958",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "M"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4850",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4851",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4852",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4853",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4977",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4978",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImbuedMasonry.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImbuedMasonry.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImbuedMasonry.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R06A",
+  "_base": "Rhac",
+  "_name": "Solid Fortifications"
+}

@@ -1,0 +1,59 @@
+{
+  "OldId": 1752459378,
+  "NewId": 1513107529,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4327",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Galiant Armor"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4328",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Galiant Armor"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9155",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases your health by 350."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_9156",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your health by 350."
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMantleOfIntelligence.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_737",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    }
+  ],
+  "_rawcode": "I00Z",
+  "_base": "rhth",
+  "_name": "Galiant Armor"
+}

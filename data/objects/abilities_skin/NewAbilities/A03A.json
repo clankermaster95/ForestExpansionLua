@@ -1,0 +1,109 @@
+{
+  "OldId": 1802981185,
+  "NewId": 1093873729,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3128",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Shadows"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnsummonBuilding.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnsummonBuilding.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "SoulPreservation",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3129",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Sha|cffffcc00d|rows"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3709",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Allows the Ancient to enter a shadowy form, becoming invisible and dealing an extra 200 damage when coming out. No cooldown. Lasts 60 seconds."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3131",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sha|cffffcc00d|rows"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3710",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Allows the Ancient to enter a shadowy form, becoming invisible and dealing an extra 200 damage when coming out. No cooldown. Lasts 60 seconds."
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5410",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5431",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "D"
+    }
+  ],
+  "_rawcode": "A03A",
+  "_base": "AOwk",
+  "_name": "Shadows"
+}

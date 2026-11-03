@@ -1,0 +1,20 @@
+{
+  "OldId": 1986086978,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_8720",
+      "SanityCheck": 1986086978,
+      "_field": "ftip",
+      "_resolvedText": "Duration"
+    }
+  ],
+  "_rawcode": "BHav",
+  "_base": "BHav",
+  "_name": "BHav"
+}

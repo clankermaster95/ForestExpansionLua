@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1345335378,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1248",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Meat Wagons"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7515",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Meat Wagons - [20.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1250",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to create Meat Wagons, a very powerful tower."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1450",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "M"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMeatWagon.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R00P",
+  "_base": "Rhme",
+  "_name": "Meat Wagons"
+}

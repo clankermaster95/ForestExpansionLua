@@ -1,0 +1,96 @@
+{
+  "OldId": 1751344494,
+  "NewId": 1261449326,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A04M,A0F2",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "orc",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1936289141,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umis"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 315,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R05H",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1887007861,
+      "Type": "String",
+      "Value": "peon",
+      "SanityCheck": 0,
+      "_field": "utyp"
+    },
+    {
+      "Id": 1920363893,
+      "Type": "Unreal",
+      "Value": 0.6,
+      "SanityCheck": 0,
+      "_field": "umvr"
+    }
+  ],
+  "_rawcode": "n00K",
+  "_base": "nech",
+  "_name": "Thriving Razorvine"
+}

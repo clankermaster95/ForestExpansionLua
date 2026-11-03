@@ -1,0 +1,30 @@
+{
+  "OldId": 1986939201,
+  "NewId": 860172353,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829845097,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "inv1"
+    },
+    {
+      "Id": 846622313,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "inv2"
+    }
+  ],
+  "_rawcode": "A0E3",
+  "_base": "AInv",
+  "_name": "Inventory (3 slot)"
+}

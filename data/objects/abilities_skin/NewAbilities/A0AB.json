@@ -1,0 +1,129 @@
+{
+  "OldId": 1702316097,
+  "NewId": 1111568449,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_852",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Treants"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_861",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Summon Treants - [|cffffcc00Level %d|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_863",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Treants - [|cffffcc00Level 1|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_864",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Treants - [|cffffcc00Level 2|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_865",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon Treants - [|cffffcc00Level 3|r] "
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3690",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 2 treants to fight for Cenarius. Each treant has <hwat,realHP> hit points and deals <hwat,mindmg1> - <hwat,maxdmg1> damage. |n<AHwe,Dur1> second duration. 5 second cooldown. |n|n|cffffcc00They attack only land units.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3691",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 3 treants to fight for Cenarius. Each treant has <hwat,realHP> hit points and deals <hwat,mindmg1> - <hwat,maxdmg1> damage. |n<AHwe,Dur1> second duration. 5 second cooldown. |n|n|cffffcc00They attack only land units.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3694",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 4 treants to fight for Cenarius. Each treant has <hwat,realHP> hit points and deals <hwat,mindmg1> - <hwat,maxdmg1> damage. |n<AHwe,Dur1> second duration. 5 second cooldown. |n|n|cffffcc00They attack only land units.|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3695",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Summons 2/3/4 treants to attack Cenarius' enemies. |n<AHwe,Dur1> second duration. 5 second cooldown. |n|n|cffffcc00They attack only land units.|r |n|n"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnt.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnt.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1802728801,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ausk"
+    }
+  ],
+  "_rawcode": "A0AB",
+  "_base": "AHwe",
+  "_name": "Summon Treants"
+}

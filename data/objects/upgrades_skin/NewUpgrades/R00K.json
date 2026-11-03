@@ -1,0 +1,159 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1261449298,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1178",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Far Sight"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMagicalSentry.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMagicalSentry.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMagicalSentry.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1180",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Far Sight"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1181",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Far Sight"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7441",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Far Sight - [10.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7445",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Far Sight - [10.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7447",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Far Sight - [10.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7474",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases range of the wisp and Nature towers by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7919",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases range of the wisp and Nature towers by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7995",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases range of the wisp and Nature towers by 100."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5409",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5419",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5468",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "F"
+    }
+  ],
+  "_rawcode": "R00K",
+  "_base": "Rhme",
+  "_name": "Far Sight"
+}

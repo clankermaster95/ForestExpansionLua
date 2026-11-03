@@ -1,0 +1,40 @@
+{
+  "OldId": 1868918895,
+  "NewId": 1093808239,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1852137845,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uaen"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 25000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    }
+  ],
+  "_rawcode": "o02A",
+  "_base": "opeo",
+  "_name": "Dmg Test Dummy"
+}

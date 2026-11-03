@@ -1,0 +1,217 @@
+{
+  "OldId": 1718832961,
+  "NewId": 1178153025,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6217",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Stalker"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1292",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1327",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5081",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5083",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Summons Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Each level of this ability increases the amount summoned by 1."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDemoness.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDemoness.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\FlameStrike\\FlameStrikeTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5082",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5084",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5085",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5086",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5087",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon: Stalk|cffffcc00e|rr"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3886",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons a Stalker, a lightweight unit that catches up to opponents and swarms them. Lasts 45 seconds. 60 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5089",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Each level of this ability increases the amount summoned by 1."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5090",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Each level of this ability increases the amount summoned by 1."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5091",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Each level of this ability increases the amount summoned by 1."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5092",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons Stalkers, lightweight units that catch up to opponents and swarm them. They are useful hunters and scouts, especially early in the game. Each level of this ability increases the amount summoned by 1."
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6230",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Paranoia)"
+    }
+  ],
+  "_rawcode": "A09F",
+  "_base": "AOsf",
+  "_name": "Summon Stalker"
+}

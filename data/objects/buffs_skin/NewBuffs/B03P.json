@@ -1,0 +1,20 @@
+{
+  "OldId": 1919110722,
+  "NewId": 1345531970,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6064",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is benefiting from Chemical Rage. It is having a better attack range and attacking more quickly."
+    }
+  ],
+  "_rawcode": "B03P",
+  "_base": "BNcr",
+  "_name": "B03P"
+}

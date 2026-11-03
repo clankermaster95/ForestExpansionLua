@@ -1,0 +1,51 @@
+{
+  "OldId": 1918988114,
+  "NewId": 1127362642,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5837",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Lightning Strike"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8636",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Lightning Strike - [65.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3077",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to cast Lightning Strike."
+    }
+  ],
+  "_rawcode": "R02C",
+  "_base": "Roar",
+  "_name": "Lightning Strike"
+}

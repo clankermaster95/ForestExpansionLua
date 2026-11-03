@@ -1,0 +1,127 @@
+{
+  "OldId": 1886615397,
+  "NewId": 858796133,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4125",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Warpling"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\ManaShield\\ManaShieldCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 2037410933,
+      "Type": "Unreal",
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "ulpy"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.1,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 2003334005,
+      "Type": "Real",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "ushw"
+    },
+    {
+      "Id": 1751675765,
+      "Type": "Real",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "ushh"
+    },
+    {
+      "Id": 2036888437,
+      "Type": "Real",
+      "Value": 80,
+      "SanityCheck": 0,
+      "_field": "ushy"
+    },
+    {
+      "Id": 2020111221,
+      "Type": "Real",
+      "Value": 80,
+      "SanityCheck": 0,
+      "_field": "ushx"
+    },
+    {
+      "Id": 2054188149,
+      "Type": "Unreal",
+      "Value": 80,
+      "SanityCheck": 0,
+      "_field": "ulpz"
+    },
+    {
+      "Id": 2054384757,
+      "Type": "Unreal",
+      "Value": 80,
+      "SanityCheck": 0,
+      "_field": "ulsz"
+    },
+    {
+      "Id": 2054383989,
+      "Type": "Unreal",
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "uisz"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4163",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00W|rarpling"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6923",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Your basic unit. Can be used to gather lumber from trees. This unit can also be upgraded later on to morph into units that can aid you in combat, or load your towers.|n|n|cfffdca00Health:|r 100; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd000|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNWarpling.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    }
+  ],
+  "_rawcode": "e003",
+  "_base": "ewsp",
+  "_name": "Warpling"
+}

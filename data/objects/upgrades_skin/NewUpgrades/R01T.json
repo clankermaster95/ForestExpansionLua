@@ -1,0 +1,207 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1412509778,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2575",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Increased Armor"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2577",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Increased Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2578",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Increased Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2579",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Increased Armor"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2580",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Increased Armor"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8311",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Increased Armor - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8312",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Increased Armor - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8313",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Increased Armor - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8314",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Increased Armor - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8315",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Increased Armor - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2586",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your Mecha-Wrecker by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2587",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your Mecha-Wrecker by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2588",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your Mecha-Wrecker by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2589",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your Mecha-Wrecker by 200."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2590",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit points of your Mecha-Wrecker by 200."
+    }
+  ],
+  "_rawcode": "R01T",
+  "_base": "Rhme",
+  "_name": "Increased Armor"
+}

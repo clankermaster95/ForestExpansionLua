@@ -1,0 +1,60 @@
+{
+  "OldId": 1869640513,
+  "NewId": 1429549121,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6008",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Titanic Strikes"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNimprovedunholystrength.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6009",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Titanic Strikes"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3347",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your basic attacks slow your targets by 30% for 2 seconds. |n|cff7F7F7FYour strikes have such weight that they unbalance your foes briefly.|r"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISPASBTNimprovedunholystrength.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    }
+  ],
+  "_rawcode": "A05U",
+  "_base": "Aspo",
+  "_name": "Titanic Strikes"
+}

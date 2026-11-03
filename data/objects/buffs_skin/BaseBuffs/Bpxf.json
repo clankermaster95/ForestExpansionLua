@@ -1,0 +1,41 @@
+{
+  "OldId": 1719169090,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7159",
+      "SanityCheck": 1719169090,
+      "_field": "ftip",
+      "_resolvedText": "Under Attack"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 1719169090,
+      "_field": "fube"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\GeneralAuraTarget\\GeneralAuraTarget.mdl",
+      "SanityCheck": 1719169090,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp",
+      "SanityCheck": 1719169090,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "Bpxf",
+  "_base": "Bpxf",
+  "_name": "Bpxf"
+}

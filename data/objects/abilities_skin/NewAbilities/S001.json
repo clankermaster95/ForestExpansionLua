@@ -1,0 +1,31 @@
+{
+  "OldId": 1802723923,
+  "NewId": 825241683,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9660",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Elite Bounty Hunter"
+    },
+    {
+      "Id": 1802728801,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "h06H",
+      "SanityCheck": 0,
+      "_field": "ausk"
+    }
+  ],
+  "_rawcode": "S001",
+  "_base": "Sbsk",
+  "_name": "Elite Bounty Hunter"
+}

@@ -1,0 +1,138 @@
+{
+  "OldId": 1986086977,
+  "NewId": 858861633,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_733",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Overgrow"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBanish.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBanish.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Objects\\InventoryItems\\Shimmerweed\\Shimmerweed.mdl,Doodads\\Felwood\\Plants\\FelwoodBush\\FelwoodBush1.mdl,Abilities\\Spells\\Orc\\Voodoo\\VoodooAuraTarget.mdl,buildings\\nightelf\\AncientOfWonder\\AncientOfWonder.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7124",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Overgrow"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7125",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Activate Overgrow (X)"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7129",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cffDE086BWhen casted, you are fully immune to spells, your health is increased by 2000, armor increased by 40, and damage is increased by 100 for one minute.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7130",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffDE086BWhen casted, you are fully immune to spells, your health is increased by 2000, armor increased by 40, and damage is increased by 100 for one minute.|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7131",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "|cffDE086BWhen casted, you are fully immune to spells, your health is increased by 2000, armor increased by 40, and damage is increased by 100 for one minute.|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_744",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "X"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_745",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "X"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2180",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "X"
+    }
+  ],
+  "_rawcode": "A013",
+  "_base": "AHav",
+  "_name": "Overgrow"
+}

@@ -1,0 +1,82 @@
+{
+  "OldId": 1835427182,
+  "NewId": 1311780974,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885433973,
+      "Type": "String",
+      "Value": "unbuildable",
+      "SanityCheck": 0,
+      "_field": "upap"
+    },
+    {
+      "Id": 1634559605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufma"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1936028277,
+      "Type": "String",
+      "Value": "R06C,R06F,R06E,R06D,R067,R06B,R06G,R06A",
+      "SanityCheck": 0,
+      "_field": "ures"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    }
+  ],
+  "_rawcode": "n00N",
+  "_base": "nefm",
+  "_name": "Research Center"
+}

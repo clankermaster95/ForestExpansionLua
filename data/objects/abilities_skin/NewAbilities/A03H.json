@@ -1,0 +1,51 @@
+{
+  "OldId": 1751205185,
+  "NewId": 1211314241,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3205",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Spike Aura"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\SpikeBarrier\\SpikeBarrier.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3206",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Spike Aura"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3207",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives off an aura that returns 15% of all damage taken."
+    }
+  ],
+  "_rawcode": "A03H",
+  "_base": "AEah",
+  "_name": "Spike Aura"
+}

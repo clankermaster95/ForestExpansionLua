@@ -1,0 +1,52 @@
+{
+  "OldId": 1952607553,
+  "NewId": 1111633985,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1886",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Replenish Mana"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1887",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Replenish Mana"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5806",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Replenish the mana of a target friendly unit. No cooldown.|n|cffb4ffffCast range: Global|r"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1889",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(lvl 2)"
+    }
+  ],
+  "_rawcode": "A0BB",
+  "_base": "Ambt",
+  "_name": "Replenish Mana"
+}

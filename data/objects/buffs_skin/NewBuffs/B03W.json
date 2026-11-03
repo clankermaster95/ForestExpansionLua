@@ -1,0 +1,57 @@
+{
+  "OldId": 1835619650,
+  "NewId": 1462972482,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952540006,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Tornado\\TornadoElementalSmall.mdl",
+      "SanityCheck": 0,
+      "_field": "feat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTornado.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\Thunderclap\\ThunderclapTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_9172",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit has been cycloned; it is in the stunned for a short duration."
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_9192",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Wind Burst"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_9193",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": "(Wind Burst)"
+    }
+  ],
+  "_rawcode": "B03W",
+  "_base": "BUim",
+  "_name": "B03W"
+}

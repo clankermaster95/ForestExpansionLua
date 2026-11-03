@@ -1,0 +1,47 @@
+{
+  "OldId": 1986947440,
+  "NewId": 1194471497,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A09D",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1953723241,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "isst"
+    },
+    {
+      "Id": 1635021673,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ista"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    }
+  ],
+  "_rawcode": "I02G",
+  "_base": "pinv",
+  "_name": "Potion of Greater Invisibility"
+}

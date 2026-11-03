@@ -1,0 +1,26 @@
+{
+  "OldId": 1668246645,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\AncientProtectorMissile\\AncientProtectorMissile.mdl",
+      "SanityCheck": 1668246645,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\AncientProtectorMissile\\AncientProtectorMissile.mdl",
+      "SanityCheck": 1668246645,
+      "_field": "ua1m"
+    }
+  ],
+  "_rawcode": "uloc",
+  "_base": "uloc",
+  "_name": "uloc"
+}

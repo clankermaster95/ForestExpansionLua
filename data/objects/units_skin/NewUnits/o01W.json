@@ -1,0 +1,48 @@
+{
+  "OldId": 829453167,
+  "NewId": 1462841455,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEntanglingRoots.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\nightelf\\AncientOfWind\\AncientOfWind.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\MakuraMissile\\MakuraMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "unsf"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7096",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Raging Ward"
+    }
+  ],
+  "_rawcode": "o01W",
+  "_base": "osp1",
+  "_name": "Raging Ward"
+}

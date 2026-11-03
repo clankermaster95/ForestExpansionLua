@@ -1,0 +1,111 @@
+{
+  "OldId": 845562689,
+  "NewId": 1412575297,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,friend,ground,neutral,self,structure",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B00M,B00N",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 845243989,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "Ufa2"
+    },
+    {
+      "Id": 828466773,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "Ufa1"
+    },
+    {
+      "Id": 1684562785,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "achd"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R01W",
+      "SanityCheck": 0,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "A02T",
+  "_base": "ACf2",
+  "_name": "Ion Armor"
+}

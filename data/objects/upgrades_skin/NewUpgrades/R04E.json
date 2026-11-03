@@ -1,0 +1,70 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1161048146,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6474",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Soul Rend"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7020",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10230",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Soul Rend - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6687",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "This upgrade is required to cast Soul Rend. Deals 500 damage and banishes the target, making it immune to physical damage but vulnerable to spells for three seconds. |n|cffFF8080This ability costs 350 health|r |n|cff7F7F7FYou rend soul from body, exposing their essence to the full brunt of magic attacks.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTN_manaburn.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R04E",
+  "_base": "Rhme",
+  "_name": "Soul Rend"
+}

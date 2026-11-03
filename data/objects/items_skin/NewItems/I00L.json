@@ -1,0 +1,58 @@
+{
+  "OldId": 846492532,
+  "NewId": 1278226505,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1780",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Nature's Leaf"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRejuvenation.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1781",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Nature's Leaf"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1782",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases the strength of the hero by 2."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_1783",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases the strength of the hero by 2."
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "Objects\\InventoryItems\\Shimmerweed\\Shimmerweed.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    }
+  ],
+  "_rawcode": "I00L",
+  "_base": "tst2",
+  "_name": "Nature's Leaf"
+}

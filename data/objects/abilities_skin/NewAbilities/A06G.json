@@ -1,0 +1,22 @@
+{
+  "OldId": 1835157825,
+  "NewId": 1194733633,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6449",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Helmet of Insight"
+    }
+  ],
+  "_rawcode": "A06G",
+  "_base": "AIbm",
+  "_name": "Helmet of Insight"
+}

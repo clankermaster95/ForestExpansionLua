@@ -1,0 +1,238 @@
+{
+  "OldId": 1801864513,
+  "NewId": 1110585409,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1884",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Dragon Burst"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBlackDragonRoost.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBlackDragonRoost.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Other\\BreathOfFire\\BreathOfFireMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9746",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Dragon Burst"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3799",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Hurl a burst of draconic energy dealing 100 (+25 per level) damage to every thing in 500 range (+50 per level) around you. 6 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9747",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9748",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9749",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9750",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9751",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9752",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Burst"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9753",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Burst"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_753",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Hurl a burst of draconic energy dealing 100 damage to every thing around you. 6 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_877",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Hurl a burst of draconic energy dealing 125 damage to every thing around you. 6 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_878",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Hurl a burst of draconic energy dealing 150 damage to every thing around you. 6 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_879",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Hurl a burst of draconic energy dealing 175 damage to every thing around you. 6 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_881",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Hurl a burst of draconic energy dealing 200 damage to every thing around you. 6 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_997",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Hurl a burst of draconic energy dealing 225 damage to every thing around you. 6 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_998",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Hurl a burst of draconic energy dealing 250 damage to every thing around you. 6 second cooldown."
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2241",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2242",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    }
+  ],
+  "_rawcode": "A02B",
+  "_base": "AEfk",
+  "_name": "Dragon Burst"
+}

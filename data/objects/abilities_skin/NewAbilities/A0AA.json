@@ -1,0 +1,52 @@
+{
+  "OldId": 1919239489,
+  "NewId": 1094791233,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4494",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Causes roots to burst from the ground, immobilizing and disarming a target enemy unit for <A0AA,Dur1> seconds |cff8080ff(3 for heroes)|r, and dealing <A0AA,DataA1> damage per second. 20 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4495",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Causes roots to burst from the ground, immobilizing and disarming a target enemy unit for <A0AA,Dur2> seconds |cff8080ff(4 for heroes)|r, and dealing <A0AA,DataA2> damage per second. 20 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4497",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Causes roots to burst from the ground, immobilizing and disarming a target enemy unit for <A0AA,Dur3> seconds |cff8080ff(5 for heroes)|r, and dealing <A0AA,DataA3> damage per second. 20 second cooldown."
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4498",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Causes roots to burst from the ground, immobilizing, disarming and damaging a target enemy temporarily. 20 second cooldown.|n|n|cffffcc00Level 1|r - <A0AA,DataA1> damage per second for <A0AA,Dur1> seconds. |n|cffffcc00Level 2|r - <A0AA,DataA2> damage per second for <A0AA,Dur2> seconds. |n|cffffcc00Level 3|r - <A0AA,DataA3> damage per second for <A0AA,Dur3> seconds.|N|cff8080ffHeroes are entangled for 3/4/5 seconds instead.|r"
+    }
+  ],
+  "_rawcode": "A0AA",
+  "_base": "AEer",
+  "_name": "A0AA"
+}

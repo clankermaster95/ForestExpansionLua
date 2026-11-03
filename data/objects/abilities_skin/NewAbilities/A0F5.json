@@ -1,0 +1,71 @@
+{
+  "OldId": 1818381889,
+  "NewId": 893792321,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2794",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Flash"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9661",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Stalker blinks up to a 900 units away, allowing it to move in and out of combat.|n|n|cff808080Cooldown:180s|nWhat for one is seen as a mere moment, for other is years of preparation.|r"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9662",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Bounty Hunter)"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9663",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Flash"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2209",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "F"
+    }
+  ],
+  "_rawcode": "A0F5",
+  "_base": "ANbl",
+  "_name": "Flash"
+}

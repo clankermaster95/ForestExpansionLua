@@ -1,0 +1,75 @@
+{
+  "OldId": 1818447425,
+  "NewId": 943927361,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 829186894,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0.05,
+      "SanityCheck": 0,
+      "_field": "Ncl1"
+    },
+    {
+      "Id": 862741326,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Ncl3"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 845964110,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "Ncl2"
+    }
+  ],
+  "_rawcode": "A0C8",
+  "_base": "ANcl",
+  "_name": "Conjure Refreshment"
+}

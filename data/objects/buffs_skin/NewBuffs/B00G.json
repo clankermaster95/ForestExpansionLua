@@ -1,0 +1,50 @@
+{
+  "OldId": 1701868354,
+  "NewId": 1194340418,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_1775",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Haste Gem"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_1785",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Haste Gem"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_1789",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under the influence of a Haste Gem, movement speed is increased by 50%."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDarkSummoning.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\ManaShield\\ManaShieldCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    }
+  ],
+  "_rawcode": "B00G",
+  "_base": "Bspe",
+  "_name": "Haste Gem"
+}

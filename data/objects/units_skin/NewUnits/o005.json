@@ -1,0 +1,64 @@
+{
+  "OldId": 1868918895,
+  "NewId": 892350575,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_159",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff941084Ghoul|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\undead\\Ghoul\\Ghoul.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGhoul.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_160",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff941084Ghoul|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7155",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Hunter|n\n|cff008000Off Role|r: Baser|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.5|n\n|cffC0C0C0Ghouls are your basic race, able to create a strong and viable army to take the ancient in the mid game. Ghouls have plenty of upgrades to make their base & army strong. Has a very good escape, which makes these guys hard to catch. Very little pool required to be powerful, but can be shut down if hunted down by the ancient vigorously.|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    }
+  ],
+  "_rawcode": "o005",
+  "_base": "opeo",
+  "_name": "|cff941084Ghoul|r"
+}

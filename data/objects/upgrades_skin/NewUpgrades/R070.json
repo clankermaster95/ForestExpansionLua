@@ -1,0 +1,60 @@
+{
+  "OldId": 1651402066,
+  "NewId": 808923218,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1503",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Flag-free Base"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1504",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Flag-free Base"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "gub1"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1502",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRallyPoint.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R070",
+  "_base": "Renb",
+  "_name": "Flag-free Base"
+}

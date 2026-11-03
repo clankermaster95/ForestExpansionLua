@@ -1,0 +1,69 @@
+{
+  "OldId": 1684097089,
+  "NewId": 1194537025,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3202",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harden Aura"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNHardenedSkin.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNHardenedSkin.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3203",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Harden Aura"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3204",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Adds 5 armor to all nearby units."
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Items\\OrbCorruption\\OrbCorruption.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    }
+  ],
+  "_rawcode": "A03G",
+  "_base": "AHad",
+  "_name": "Harden Aura"
+}

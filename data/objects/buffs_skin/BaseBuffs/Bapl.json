@@ -1,0 +1,35 @@
+{
+  "OldId": 1819304258,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Drain\\DrainCaster.mdl",
+      "SanityCheck": 1819304258,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_535",
+      "SanityCheck": 1819304258,
+      "_field": "ftip",
+      "_resolvedText": "Poisoned"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_536",
+      "SanityCheck": 1819304258,
+      "_field": "fube",
+      "_resolvedText": "This unit is poisoned and will lose health."
+    }
+  ],
+  "_rawcode": "Bapl",
+  "_base": "Bapl",
+  "_name": "Bapl"
+}

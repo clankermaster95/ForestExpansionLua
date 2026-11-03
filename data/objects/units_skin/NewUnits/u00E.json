@@ -1,0 +1,100 @@
+{
+  "OldId": 1869113205,
+  "NewId": 1160786037,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_000",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff800080Maexxna|r"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\SpiderBlack\\SpiderBlack.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpiderBlack.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\CryptFiendMissile\\CryptFiendMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Spider",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1320",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "M"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9999",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff800080Maexxna|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10247",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A powerful Spider Queen from the Depths. Maexxna is an adept at spewing high amounts of damage at the ancient and swarming the enemy with her summons.|n|n|cffff0000Feed Value:|r |cffffdd00300|r"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.8,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 192,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    }
+  ],
+  "_rawcode": "u00E",
+  "_base": "ugho",
+  "_name": "|cff800080Maexxna|r"
+}

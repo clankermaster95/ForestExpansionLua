@@ -1,0 +1,111 @@
+{
+  "OldId": 2003324737,
+  "NewId": 1346515009,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 845964111,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Ocl2"
+    },
+    {
+      "Id": 829186895,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "Ocl1"
+    },
+    {
+      "Id": 862741327,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "Ocl3"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10000,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "arac"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,friend,ground,invulnerable,mechanical,organic,self,structure,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    }
+  ],
+  "_rawcode": "A0BP",
+  "_base": "AOhw",
+  "_name": "A0BP"
+}

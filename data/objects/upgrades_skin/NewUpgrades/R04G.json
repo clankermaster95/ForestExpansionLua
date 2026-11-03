@@ -1,0 +1,70 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1194602578,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5988",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Cobalt Blood"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7074",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10234",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Cobalt Blood - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6962",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Burns 500 mana from the target. 20 second cooldown. |n|cffFF8080This ability costs 200 health|r |n|cff7F7F7FThe blood of Shu'ma sears away mana.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNblueblood.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R04G",
+  "_base": "Rhme",
+  "_name": "Cobalt Blood"
+}

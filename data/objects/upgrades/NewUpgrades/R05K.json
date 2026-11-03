@@ -1,0 +1,66 @@
+{
+  "OldId": 1651730514,
+  "NewId": 1261776978,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835627623,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "gtim"
+    },
+    {
+      "Id": 1835820903,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "gglm"
+    },
+    {
+      "Id": 1651338343,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "glmb"
+    },
+    {
+      "Id": 1651271527,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "gglb"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 1651078247,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "gtib"
+    }
+  ],
+  "_rawcode": "R05K",
+  "_base": "Rhsb",
+  "_name": "Improved lumber harvesting"
+}

@@ -1,0 +1,23 @@
+{
+  "FormatVersion": "v3",
+  "BaseDoodads": [
+    {
+      "OldId": 1886540354,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1936024676,
+          "Type": "Unreal",
+          "Variation": 0,
+          "Pointer": 0,
+          "Value": 1.5,
+          "SanityCheck": 1886540354
+        }
+      ]
+    }
+  ],
+  "NewDoodads": []
+}

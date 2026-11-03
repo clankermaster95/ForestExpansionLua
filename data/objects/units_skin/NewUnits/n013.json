@@ -1,0 +1,56 @@
+{
+  "OldId": 1919116654,
+  "NewId": 858861678,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_994",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Flag Aura Dummy"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "utip"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1969779573,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushu"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_811",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "- Macko"
+    },
+    {
+      "Id": 1935827317,
+      "Type": "String",
+      "Value": "A0D2",
+      "SanityCheck": 0,
+      "_field": "uabs"
+    }
+  ],
+  "_rawcode": "n013",
+  "_base": "necr",
+  "_name": "Flag Aura Dummy"
+}

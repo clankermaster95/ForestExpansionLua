@@ -1,0 +1,48 @@
+{
+  "OldId": 846359918,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 846359918,
+      "_field": "unsf"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_8174",
+      "SanityCheck": 846359918,
+      "_field": "unam",
+      "_resolvedText": "Ancient Selection"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.7,
+      "SanityCheck": 846359918,
+      "_field": "usca"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 5,
+      "SanityCheck": 846359918,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 846359918,
+      "_field": "uubs"
+    }
+  ],
+  "_rawcode": "nmr2",
+  "_base": "nmr2",
+  "_name": "Ancient Selection"
+}

@@ -1,0 +1,543 @@
+{
+  "OldId": 1818447425,
+  "NewId": 1480929345,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 1818447425,
+      "_field": "alev"
+    },
+    {
+      "Id": 862741326,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 1,
+      "SanityCheck": 1818447425,
+      "_field": "Ncl3"
+    },
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "arac"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 125,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 125,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 125,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 125,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 125,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 829186894,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl1"
+    },
+    {
+      "Id": 829186894,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl1"
+    },
+    {
+      "Id": 829186894,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl1"
+    },
+    {
+      "Id": 829186894,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl1"
+    },
+    {
+      "Id": 829186894,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl1"
+    },
+    {
+      "Id": 862741326,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 3,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Ncl3"
+    },
+    {
+      "Id": 862741326,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 3,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Ncl3"
+    },
+    {
+      "Id": 862741326,
+      "Type": "Int",
+      "Level": 4,
+      "Pointer": 3,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Ncl3"
+    },
+    {
+      "Id": 862741326,
+      "Type": "Int",
+      "Level": 5,
+      "Pointer": 3,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Ncl3"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B02E",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "B02E",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "B02E",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "B02E",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "B02E",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 4000,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 4000,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 4000,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 4000,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 4000,
+      "SanityCheck": 0,
+      "_field": "aran"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ground,neutral,organic",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ground,neutral,organic",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ground,neutral,organic",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ground,neutral,organic",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ground,neutral,organic",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 879518542,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 4,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl4"
+    },
+    {
+      "Id": 879518542,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 4,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl4"
+    },
+    {
+      "Id": 879518542,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 4,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl4"
+    },
+    {
+      "Id": 879518542,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 4,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl4"
+    },
+    {
+      "Id": 879518542,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 4,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl4"
+    },
+    {
+      "Id": 913072974,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 6,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "Ncl6"
+    },
+    {
+      "Id": 896295758,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 5,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl5"
+    },
+    {
+      "Id": 896295758,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 5,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl5"
+    },
+    {
+      "Id": 896295758,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 5,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl5"
+    },
+    {
+      "Id": 896295758,
+      "Type": "Int",
+      "Level": 4,
+      "Pointer": 5,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl5"
+    },
+    {
+      "Id": 896295758,
+      "Type": "Int",
+      "Level": 5,
+      "Pointer": 5,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl5"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1986818657,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "arlv"
+    }
+  ],
+  "_rawcode": "A0EX",
+  "_base": "ANcl",
+  "_name": "Freeze Zone"
+}

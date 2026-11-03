@@ -1,0 +1,61 @@
+{
+  "OldId": 1718903154,
+  "NewId": 1412509769,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A09A,A098,A099,A024",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 1150,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1634956649,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "iusa"
+    },
+    {
+      "Id": 1684628329,
+      "Type": "String",
+      "Value": "A09A",
+      "SanityCheck": 0,
+      "_field": "icid"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    }
+  ],
+  "_rawcode": "I01T",
+  "_base": "ratf",
+  "_name": "Firelord's Cape"
+}

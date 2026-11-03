@@ -1,0 +1,21 @@
+{
+  "OldId": 828655937,
+  "NewId": 1144270913,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1717920841,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "Idef"
+    }
+  ],
+  "_rawcode": "A04D",
+  "_base": "AId1",
+  "_name": "Item Armor Bonus (+30)"
+}

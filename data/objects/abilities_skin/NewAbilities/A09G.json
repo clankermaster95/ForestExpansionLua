@@ -1,0 +1,41 @@
+{
+  "OldId": 1717848385,
+  "NewId": 1194930241,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9805",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Earth Lackey"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9806",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Earth Lackey"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAbomination.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A09G",
+  "_base": "AIdf",
+  "_name": "Earth Lackey"
+}

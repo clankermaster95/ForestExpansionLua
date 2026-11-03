@@ -1,0 +1,52 @@
+{
+  "OldId": 1869374017,
+  "NewId": 1345794113,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7872",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Berserk"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7873",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00B|rerserk"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7874",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Wildkin Shaman)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3759",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases attack and movement speed of your target by 50%. Lasts 10 seconds. 5 second cooldown. |n|cff7F7F7FAn enraged Wildkin is a scary sight.|r"
+    }
+  ],
+  "_rawcode": "A07P",
+  "_base": "Ablo",
+  "_name": "Berserk"
+}

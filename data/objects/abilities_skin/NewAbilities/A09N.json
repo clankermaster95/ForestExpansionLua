@@ -1,0 +1,32 @@
+{
+  "OldId": 1651786561,
+  "NewId": 1312370753,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9975",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Tremor's Minion)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4461",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A magical boulder that is thrown at an enemy unit, causing <A09N,DataA1> points of damage and stunning the target for <A09N,Dur1> seconds. 8 second cooldown."
+    }
+  ],
+  "_rawcode": "A09N",
+  "_base": "ACtb",
+  "_name": "A09N"
+}

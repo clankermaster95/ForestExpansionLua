@@ -1,0 +1,26 @@
+{
+  "OldId": 1953461359,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\GoblinLandMine\\GoblinLandMine.mdl",
+      "SanityCheck": 1953461359,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "units\\creeps\\GoblinLandMine\\GoblinLandMine.mdl",
+      "SanityCheck": 1953461359,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "otot",
+  "_base": "otot",
+  "_name": "otot"
+}

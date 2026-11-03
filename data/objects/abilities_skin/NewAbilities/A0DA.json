@@ -1,0 +1,32 @@
+{
+  "OldId": 1701988673,
+  "NewId": 1094987841,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4130",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Grape regain"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4153",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Bounty Hunter Grapes"
+    }
+  ],
+  "_rawcode": "A0DA",
+  "_base": "AIre",
+  "_name": "Grape regain"
+}

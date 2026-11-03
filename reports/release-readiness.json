@@ -1,0 +1,87 @@
+{
+  "checked_at_utc": "2026-11-03T07:18:23.300050+00:00",
+  "version": "3.2.0",
+  "revision": "r7",
+  "archive_sha256": "ff03e1b190b76925957400fee8c18460002ccd09999062b9fde918c7fff47a10",
+  "installed_path": "C:\\Users\\aless\\Documents\\Warcraft III\\Maps\\Forest Expansion\\Forest_Expansion_3.2.0_Lua.w3x",
+  "installed_checksum_matches": true,
+  "managed_play_copies": 1,
+  "managed_play_paths": [
+    "C:\\Users\\aless\\Documents\\Warcraft III\\Maps\\Forest Expansion\\Forest_Expansion_3.2.0_Lua.w3x"
+  ],
+  "obsolete_copy_cleanup": "complete",
+  "cleanup": {
+    "removed": [
+      "C:\\Users\\aless\\Documents\\Warcraft III\\Maps\\Forest Expansion\\Forest_Expansion_3.2.0_Lua-build-35f147ecc826.w3x"
+    ],
+    "pending": []
+  },
+  "gameplay_modules": 60,
+  "active_modules": 77,
+  "behavior_regressions": [
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "roles",
+      "result": "Ancient role regression checks passed: 8058 assertions; 34 event initializers"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "shopping",
+      "result": "Shopping regression checks passed: 1883 assertions; 385 purchases; 3 local-client traces"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "bugfixes",
+      "result": "Bug regression checks passed: 59 assertions; overlapping waits, roster, rebirth, index integrity, sync ownership"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "solo_test",
+      "result": "Solo test checks passed: 81 assertions; registered chat/selection callbacks and start-time human gate"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "solo_startup",
+      "result": "Solo startup integration passed: 440 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "roles",
+      "result": "Ancient role regression checks passed: 8058 assertions; 34 event initializers"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "shopping",
+      "result": "Shopping regression checks passed: 1883 assertions; 385 purchases; 3 local-client traces"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "bugfixes",
+      "result": "Bug regression checks passed: 59 assertions; overlapping waits, roster, rebirth, index integrity, sync ownership"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "solo_test",
+      "result": "Solo test checks passed: 81 assertions; registered chat/selection callbacks and start-time human gate"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "solo_startup",
+      "result": "Solo startup integration passed: 440 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+    }
+  ],
+  "workflow_checks_passed": 13,
+  "workflow_last_run_revision": "r7",
+  "archive_payloads_verified": 518,
+  "native_editor_test": false,
+  "native_gameplay_test": false,
+  "multiplayer_test": false,
+  "user_instruction": "Never launch or control Warcraft III on this PC. The user supplies live results.",
+  "remaining": "Quiet shop diagnostics and no generated Information-menu pages passed offline checks. Live shop and multiplayer confirmation remain outstanding.",
+  "reports": {
+    "debug-reference-r7.json": "f06c86b983f34d5633014a933506f4302e7b4220aec8a0db57a3caea1b315e02",
+    "refactor-validation.json": "7f7aa34d7eeb50b63af44501a69210ef34464b55b3c7d7159224a0d099d14512",
+    "workflow-validation.json": "60576aca7499ad985c690a8430cbfdb7fdf90ea22de908455e624e8316d7e545",
+    "build.json": "2a50d10eec4b8e3205e1bf53397e6742b48ccf726a57c708c1c5ecefefbfcc45"
+  }
+}

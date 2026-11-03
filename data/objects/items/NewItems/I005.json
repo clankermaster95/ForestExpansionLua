@@ -1,0 +1,40 @@
+{
+  "OldId": 1701341040,
+  "NewId": 892350537,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1635021673,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ista"
+    }
+  ],
+  "_rawcode": "I005",
+  "_base": "pghe",
+  "_name": "Magmide Blood"
+}

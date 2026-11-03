@@ -1,0 +1,39 @@
+{
+  "OldId": 1701988673,
+  "NewId": 1094987841,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1936746569,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "Ihps"
+    },
+    {
+      "Id": 1936747849,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Imps"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 45,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    }
+  ],
+  "_rawcode": "A0DA",
+  "_base": "AIre",
+  "_name": "Grape regain"
+}

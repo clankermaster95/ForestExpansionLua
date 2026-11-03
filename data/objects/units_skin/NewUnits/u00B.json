@@ -1,0 +1,70 @@
+{
+  "OldId": 1868783989,
+  "NewId": 1110454389,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5385",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cffFF00FFForgotten Executioner|r"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\FacelessNightmareWeaver.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5405",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffFF00FFForgotten Executioner|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "utub"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.9,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "u00B",
+  "_base": "uaco",
+  "_name": "|cffFF00FFForgotten Executioner|r"
+}

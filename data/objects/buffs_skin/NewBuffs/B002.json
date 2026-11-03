@@ -1,0 +1,50 @@
+{
+  "OldId": 1684097090,
+  "NewId": 842018882,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_791",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Spirit Aura: Defense"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\FaerieFire\\FaerieFireTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_792",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Spirit Aura: Defense"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_793",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under the effects of Defense; it has increased armor."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDispelMagic.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B002",
+  "_base": "BHad",
+  "_name": "Spirit Aura: Defense"
+}

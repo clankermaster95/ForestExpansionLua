@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1311780946,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1228",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Uprooted Ancient"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7500",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Uprooted Ancient - [20.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9288",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases movement speed of your Ancient of Destruction by 50."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5324",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "U"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNaturesBlessing.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R00N",
+  "_base": "Rhme",
+  "_name": "Uprooted Ancient"
+}

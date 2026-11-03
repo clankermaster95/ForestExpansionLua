@@ -1,0 +1,51 @@
+{
+  "OldId": 1718903154,
+  "NewId": 1345400905,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9624",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Ethereal Scepter"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3700",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases mana by 1000 and gives +20 to all stats,\n|cff8080ffActive: Banishes the target enemy and starts a chain lighting that deals 150 damage to up to 12 targets.|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_3993",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases mana by 1000 and gives +20 to all stats,\n|cff8080ffActive: Banishes the target enemy and starts a chain lighting that deals 150 damage to up to 12 targets.|r"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "war3mapImported\\BTN_NerubianScepter.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9625",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ethereal Scepter"
+    }
+  ],
+  "_rawcode": "I01P",
+  "_base": "ratf",
+  "_name": "Ethereal Scepter"
+}

@@ -1,0 +1,39 @@
+{
+  "OldId": 1667845697,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828598606,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 2,
+      "SanityCheck": 1667845697,
+      "_field": "Nic1"
+    },
+    {
+      "Id": 828598606,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 4,
+      "SanityCheck": 1667845697,
+      "_field": "Nic1"
+    },
+    {
+      "Id": 828598606,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 6,
+      "SanityCheck": 1667845697,
+      "_field": "Nic1"
+    }
+  ],
+  "_rawcode": "ANic",
+  "_base": "ANic",
+  "_name": "ANic"
+}

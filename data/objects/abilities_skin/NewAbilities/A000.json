@@ -1,0 +1,179 @@
+{
+  "OldId": 1802981185,
+  "NewId": 808464449,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_123",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Smoke Screen"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnstableConcoction.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnstableConcoction.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "RainOfFireWave",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5771",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cff56b9ffSmoke Screen|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6353",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown starts at|r 150 seconds |cff2d97d3and gets decreased |nby|r -20 * Level.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5773",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff56b9ffSmoke Screen|r |cff4173d3[Level 1]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5223",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 150 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5794",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff56b9ffSmoke Screen|r |cff4173d3[Level 4]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5850",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff56b9ffSmoke Screen|r |cff4173d3[Level 5]|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6354",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 130 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6457",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 110 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6485",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 90 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5774",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 120 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5865",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff56b9ffSmoke Screen|r |cff4173d3[Level 2]|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5900",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff56b9ffSmoke Screen|r |cff4173d3[Level 3]|r"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2434",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Ancient of Fire)"
+    }
+  ],
+  "_rawcode": "A000",
+  "_base": "AOwk",
+  "_name": "Smoke Screen"
+}

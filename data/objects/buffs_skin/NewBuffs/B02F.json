@@ -1,0 +1,57 @@
+{
+  "OldId": 1835615554,
+  "NewId": 1177694274,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7201",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Absolute Zero"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNManaFlare.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Undead\\FrostArmor\\FrostArmorDamage.mdl",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "war3mapImported\\GlaciarAura.mdx",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_7202",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Absolute Zero"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_7203",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Units around the ancient will take damage over time."
+    }
+  ],
+  "_rawcode": "B02F",
+  "_base": "BEim",
+  "_name": "Absolute Zero"
+}

@@ -1,0 +1,30 @@
+{
+  "OldId": 1919304513,
+  "NewId": 1296117825,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829318725,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Efn1"
+    },
+    {
+      "Id": 1970169413,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "e00U",
+      "SanityCheck": 0,
+      "_field": "Efnu"
+    }
+  ],
+  "_rawcode": "A0AM",
+  "_base": "ACfr",
+  "_name": "Force of Nature (Neutral Hostile)"
+}

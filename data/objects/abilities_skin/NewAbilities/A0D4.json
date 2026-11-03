@@ -1,0 +1,40 @@
+{
+  "OldId": 1886545985,
+  "NewId": 876884033,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2825",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(UNUSED) - Bounty Hunter Macko"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": -11,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    }
+  ],
+  "_rawcode": "A0D4",
+  "_base": "Ahrp",
+  "_name": "A0D4"
+}

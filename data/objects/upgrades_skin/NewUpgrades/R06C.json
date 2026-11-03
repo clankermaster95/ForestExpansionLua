@@ -1,0 +1,261 @@
+{
+  "OldId": 1953654866,
+  "NewId": 1127624786,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10829",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane Conduction"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10830",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane Conduction"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10831",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane Conduction"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10832",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane Conduction"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10833",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Arcane Conduction - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10834",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Arcane Conduction - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10835",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Arcane Conduction - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10836",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Arcane Conduction - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10837",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Arcane Conduction - [45.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10838",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase the amount of mana your towers and Observatory can store by 20%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10839",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase the amount of mana your towers and Observatory can store by 20%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10840",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase the amount of mana your towers and Observatory can store by 20%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10841",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase the amount of mana your towers and Observatory can store by 20%."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10842",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increase the amount of mana your towers and Observatory can store by 20%."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9583",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9584",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9598",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9611",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5025",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5068",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5074",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5077",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5093",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10843",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Arcane Conduction"
+    }
+  ],
+  "_rawcode": "R06C",
+  "_base": "Rhrt",
+  "_name": "Arcane Conduction"
+}

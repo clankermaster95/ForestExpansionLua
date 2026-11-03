@@ -1,0 +1,87 @@
+{
+  "OldId": 1751348303,
+  "NewId": 1144008783,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3114",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ancient of Nature"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\TreeGolem.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Magnataur",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_5075",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cff08A54AEternity|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7154",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff08A54AEternity|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_5759",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cffFF8040Difficulty:|r |cff00FF00Easy|r\n|cffFF8040Strong Against:|r Everything\n|cffFF8040Weak Against:|r Nothing\n|cffFF8040Attributes:|r |cffff004070(+8)|r |cff00ff0060(+7)|r |cff0090ff50(+5)|r|n\nThis ancient does not have any precise speciality, he is a very versatile ancient. Eternity has improved health regeneration, and wards to allow him to secure locations. This ancient is powerful against all types of opponents and is an easy ancient to play."
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_5812",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Eternity)"
+    }
+  ],
+  "_rawcode": "O00D",
+  "_base": "Otch",
+  "_name": "Ancient of Nature"
+}

@@ -1,0 +1,60 @@
+{
+  "OldId": 1919110977,
+  "NewId": 959983681,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8899",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Fiery Strike"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNIncinerate.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNIncinerate.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8900",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Fiery Strike"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8901",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives a 20% chance to deal 2x normal damage on attack."
+    }
+  ],
+  "_rawcode": "A089",
+  "_base": "AOcr",
+  "_name": "Fiery Strike"
+}

@@ -1,0 +1,41 @@
+{
+  "OldId": 1937204562,
+  "NewId": 1412771922,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1881",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the amount of mana that can be stored in Moon Wells by 700, and their rate of mana regeneration by 100%."
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10820",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Well Spring - [30.0]"
+    }
+  ],
+  "_rawcode": "R05T",
+  "_base": "Rews",
+  "_name": "R05T"
+}

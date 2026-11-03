@@ -1,0 +1,21 @@
+{
+  "OldId": 1835354433,
+  "NewId": 942747713,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1735424073,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Ixpg"
+    }
+  ],
+  "_rawcode": "A018",
+  "_base": "AIem",
+  "_name": "Tome"
+}

@@ -1,0 +1,35 @@
+{
+  "OldId": 1634693698,
+  "NewId": 1446064194,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6137",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Surge of Darkness"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_7369",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Increased damage and reduced movement speed."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEradication.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B01V",
+  "_base": "Broa",
+  "_name": "B01V"
+}

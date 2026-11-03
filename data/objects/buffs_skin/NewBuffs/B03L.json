@@ -1,0 +1,35 @@
+{
+  "OldId": 1701868354,
+  "NewId": 1278423106,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_4550",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Drunk"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_5707",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Slowed, but takes reduced dmg."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\StrongDrink\\BrewmasterTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    }
+  ],
+  "_rawcode": "B03L",
+  "_base": "Bspe",
+  "_name": "B03L"
+}

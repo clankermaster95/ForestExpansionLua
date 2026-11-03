@@ -1,0 +1,22 @@
+{
+  "OldId": 1801603393,
+  "NewId": 1295528001,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9175",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Wand of Escape"
+    }
+  ],
+  "_rawcode": "A08M",
+  "_base": "AIbk",
+  "_name": "Wand of Escape"
+}

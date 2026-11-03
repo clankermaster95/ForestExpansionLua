@@ -1,0 +1,51 @@
+{
+  "OldId": 1701668946,
+  "NewId": 875638866,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1621",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Stomp"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7826",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Stomp - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1644",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to use a stomp, dealing 400 damage and stunning all targets for 3 seconds, 500 AoE."
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R014",
+  "_base": "Rhme",
+  "_name": "Stomp"
+}

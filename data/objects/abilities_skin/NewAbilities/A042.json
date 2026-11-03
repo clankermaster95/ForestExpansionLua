@@ -1,0 +1,488 @@
+{
+  "OldId": 1651787841,
+  "NewId": 842281025,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4000",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Slash"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRavenForm.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5246",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1826",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8016",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 300 damage."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8017",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8018",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8019",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8020",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8021",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8022",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8023",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8024",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8025",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8026",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8027",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8028",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8029",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8030",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8031",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8032",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8033",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8034",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8035",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 21,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8036",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00S|rlash"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8037",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 350 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8038",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 400 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8039",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 450 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8040",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 500 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8041",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 550 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4002",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 600 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8042",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 650 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8043",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 700 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8044",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 750 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 11,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8045",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 800 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 12,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8046",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 850 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 13,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8047",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 900 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 14,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8048",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 950 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 15,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8049",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 1000 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 16,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8050",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 1050 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 17,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8051",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 1100 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 18,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8052",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 1150 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 19,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8053",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 1200 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 20,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8054",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 1250 damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 21,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8055",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Slash the target, stunning it for 2 seconds and dealing 1300 damage."
+    },
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "attack",
+      "SanityCheck": 0,
+      "_field": "aani"
+    }
+  ],
+  "_rawcode": "A042",
+  "_base": "AHtb",
+  "_name": "Slash"
+}

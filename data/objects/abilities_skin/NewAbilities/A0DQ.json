@@ -1,0 +1,22 @@
+{
+  "OldId": 1651722561,
+  "NewId": 1363423297,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2433",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Item Attack Slow Bonus (IE-57)"
+    }
+  ],
+  "_rawcode": "A0DQ",
+  "_base": "AIsb",
+  "_name": "Item Attack Slow Bonus (IE-57)"
+}

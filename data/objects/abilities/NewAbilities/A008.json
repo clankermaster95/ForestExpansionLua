@@ -1,0 +1,282 @@
+{
+  "OldId": 1801864513,
+  "NewId": 942682177,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1886612833,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "amsp"
+    },
+    {
+      "Id": 829122117,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Efk1"
+    },
+    {
+      "Id": 829122117,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Efk1"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 7,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 829122117,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Efk1"
+    },
+    {
+      "Id": 829122117,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Efk1"
+    },
+    {
+      "Id": 829122117,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Efk1"
+    },
+    {
+      "Id": 829122117,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Efk1"
+    },
+    {
+      "Id": 845899333,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "Efk2"
+    },
+    {
+      "Id": 845899333,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 2,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "Efk2"
+    },
+    {
+      "Id": 845899333,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 2,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "Efk2"
+    },
+    {
+      "Id": 845899333,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 2,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "Efk2"
+    },
+    {
+      "Id": 845899333,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 2,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "Efk2"
+    },
+    {
+      "Id": 845899333,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 2,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "Efk2"
+    },
+    {
+      "Id": 845899333,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 2,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "Efk2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 829122117,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Efk1"
+    }
+  ],
+  "_rawcode": "A008",
+  "_base": "AEfk",
+  "_name": "Freezing Breath"
+}

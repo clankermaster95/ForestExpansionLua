@@ -1,0 +1,76 @@
+{
+  "OldId": 1651401326,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\BurrowableNerubian.mdl",
+      "SanityCheck": 1651401326,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "Units\\Creeps\\Nerubian\\Nerubian.mdl",
+      "SanityCheck": 1651401326,
+      "_field": "upor"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 120,
+      "SanityCheck": 1651401326,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Nerubian",
+      "SanityCheck": 1651401326,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNerubian.blp",
+      "SanityCheck": 1651401326,
+      "_field": "uico"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_031",
+      "SanityCheck": 1651401326,
+      "_field": "unam",
+      "_resolvedText": "Burrowed Nerubian Harvester"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 1651401326,
+      "_field": "utip"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 1651401326,
+      "_field": "utub"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 0.8,
+      "SanityCheck": 1651401326,
+      "_field": "ussc"
+    }
+  ],
+  "_rawcode": "nbnb",
+  "_base": "nbnb",
+  "_name": "Burrowed Nerubian Harvester"
+}

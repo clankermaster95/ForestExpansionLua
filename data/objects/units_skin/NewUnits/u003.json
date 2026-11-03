@@ -1,0 +1,93 @@
+{
+  "OldId": 1667591797,
+  "NewId": 858796149,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1845",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Centaur Archer"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCentaurKhan.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\CentaurArcher\\CentaurArcher.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\NagaArrowMissile\\NagaArrowMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1853186933,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucun"
+    },
+    {
+      "Id": 1953850229,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ucut"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1577",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1846",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Centaur Archer"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10020",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An essential ranged unit. Weaker but does more damage and is ranged.|n|n|cfffdca00Health:|r 350; 2/s|n|cfffdca00Armor:|r 5 (Medium)|n|cfffdca00Attack:|r 90 (Piercing)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 2|n|cfffdca00Movement Speed:|r 290|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Pig",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    }
+  ],
+  "_rawcode": "u003",
+  "_base": "unec",
+  "_name": "Centaur Archer"
+}

@@ -1,0 +1,138 @@
+{
+  "OldId": 1751344494,
+  "NewId": 1211117678,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A04H",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1936289141,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umis"
+    },
+    {
+      "Id": 1920363893,
+      "Type": "Unreal",
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "umvr"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "fort",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 1952542837,
+      "Type": "String",
+      "Value": "PathTextures\\4x4SimpleSolid.tga",
+      "SanityCheck": 0,
+      "_field": "upat"
+    },
+    {
+      "Id": 1885433973,
+      "Type": "String",
+      "Value": "unbuildable",
+      "SanityCheck": 0,
+      "_field": "upap"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1918989429,
+      "Type": "String",
+      "Value": "structure",
+      "SanityCheck": 0,
+      "_field": "utar"
+    },
+    {
+      "Id": 1887007861,
+      "Type": "String",
+      "Value": "mechanical",
+      "SanityCheck": 0,
+      "_field": "utyp"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 72,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    },
+    {
+      "Id": 1986358389,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ulev"
+    },
+    {
+      "Id": 1734632053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubdg"
+    }
+  ],
+  "_rawcode": "n00H",
+  "_base": "nech",
+  "_name": "Razorvine"
+}

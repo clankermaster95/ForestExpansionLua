@@ -1,0 +1,50 @@
+{
+  "OldId": 1935951938,
+  "NewId": 1445998658,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_3143",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Huddle"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNThornShield.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Orc\\FeralSpirit\\feralspiritdone.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_3144",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Huddle"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_3146",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is huddled, it will take no damage."
+    }
+  ],
+  "_rawcode": "B00V",
+  "_base": "BHds",
+  "_name": "Huddle"
+}

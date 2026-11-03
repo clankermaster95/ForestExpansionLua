@@ -1,0 +1,101 @@
+{
+  "OldId": 1751348303,
+  "NewId": 942682191,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3112",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ancient of Ice"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\IceCrownOverlordX.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFelGuardBlue.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "NagaRoyalGuard",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_5299",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cff08A5EFAvalanche|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7151",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff08A5EFAvalanche|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9495",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cffFF8040Difficulty:|r |cff80FFFFVery Easy|r\n|cffFF8040Strong Against:|r Everything\n|cffFF8040Weak Against:|r Nothing\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n\nThis ancient excels at mapwide pressure and strong presence. He has very powerful heals that scale with mana and health percentages. His damage can hit the entire map to grant him high amounts of experience and gold against weaker targets."
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_5811",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Avalanche)"
+    }
+  ],
+  "_rawcode": "O008",
+  "_base": "Otch",
+  "_name": "Ancient of Ice"
+}

@@ -1,0 +1,19 @@
+{
+  "OldId": 1936028274,
+  "NewId": 825372745,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A0C9",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    }
+  ],
+  "_rawcode": "I021",
+  "_base": "rres",
+  "_name": "Magical Biscuit"
+}

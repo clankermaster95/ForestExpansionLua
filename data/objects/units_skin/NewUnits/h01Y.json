@@ -1,0 +1,65 @@
+{
+  "OldId": 1970235496,
+  "NewId": 1496395880,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1482",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Tent"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\ForestTrollHut1\\ForestTrollHut1.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNtrollhut.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2627",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Te|cffffcc00n|rt"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9927",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A basic area to return wood and create workers.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 2 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_242",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "N"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h01Y",
+  "_base": "hhou",
+  "_name": "Tent"
+}

@@ -1,0 +1,70 @@
+{
+  "OldId": 1986544449,
+  "NewId": 1178742849,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4741",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Bloom"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\AncestralSpirit\\AncestralSpiritCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3706",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "After channeling for a second, heals the target for 1000 health. Can be used on buildings. This effect has a cooldown of 3 minutes. Use it wisely."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4749",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00B|rloom"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2729",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "B"
+    }
+  ],
+  "_rawcode": "A0BF",
+  "_base": "AChv",
+  "_name": "Bloom"
+}

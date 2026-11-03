@@ -1,0 +1,28 @@
+{
+  "OldId": 1734561346,
+  "NewId": 1379086402,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_5679",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Hawk"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_5705",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Hawk"
+    }
+  ],
+  "_rawcode": "B03R",
+  "_base": "BNcg",
+  "_name": "B03R"
+}

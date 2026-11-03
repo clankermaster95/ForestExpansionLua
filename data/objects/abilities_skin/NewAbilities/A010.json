@@ -1,0 +1,218 @@
+{
+  "OldId": 1852200257,
+  "NewId": 808529985,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_706",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Seed of Nature"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\NightElf\\Taunt\\TauntCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDryadDispelMagicOff.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDryadDispelMagicOff.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Weapons\\ChimaeraAcidMissile\\ChimaeraAcidMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_719",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cff08C563S|r|cff08C563e|r|cff08C563e|r|cff08C563d|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_708",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563n|r|cff08C563d|r|cff08C563s|r |cff08C563a|r |cff08C563s|r|cff08C563e|r|cff08C563e|r|cff08C563d|r |cff08C563i|r|cff08C563n|r|cff08C563t|r|cff08C563o|r |cff08C563a|r|cff08C563n|r |cff08C563e|r|cff08C563n|r|cff08C563e|r|cff08C563m|r|cff08C563y|r |cff08C563t|r|cff08C563o|r |cff08C563r|r|cff08C563o|r|cff08C563o|r|cff08C563t|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563a|r|cff08C563n|r|cff08C563d|r |cff08C563s|r|cff08C563l|r|cff08C563o|r|cff08C563w|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563d|r|cff08C563o|r|cff08C563w|r|cff08C563n|r|cff08C563.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_716",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563e|r|cff08C563d|r (N)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_717",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563e|r|cff08C563d|r (N)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_718",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563e|r|cff08C563d|r (N)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_712",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563n|r|cff08C563d|r|cff08C563s|r |cff08C563a|r |cff08C563s|r|cff08C563e|r|cff08C563e|r|cff08C563d|r |cff08C563i|r|cff08C563n|r|cff08C563t|r|cff08C563o|r |cff08C563a|r|cff08C563n|r |cff08C563e|r|cff08C563n|r|cff08C563e|r|cff08C563m|r|cff08C563y|r |cff08C563t|r|cff08C563o|r |cff08C563r|r|cff08C563o|r|cff08C563o|r|cff08C563t|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563a|r|cff08C563n|r|cff08C563d|r |cff08C563s|r|cff08C563l|r|cff08C563o|r|cff08C563w|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563d|r|cff08C563o|r|cff08C563w|r|cff08C563n|r|cff08C563.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_713",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563n|r|cff08C563d|r|cff08C563s|r |cff08C563a|r |cff08C563s|r|cff08C563e|r|cff08C563e|r|cff08C563d|r |cff08C563i|r|cff08C563n|r|cff08C563t|r|cff08C563o|r |cff08C563a|r|cff08C563n|r |cff08C563e|r|cff08C563n|r|cff08C563e|r|cff08C563m|r|cff08C563y|r |cff08C563t|r|cff08C563o|r |cff08C563r|r|cff08C563o|r|cff08C563o|r|cff08C563t|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563a|r|cff08C563n|r|cff08C563d|r |cff08C563s|r|cff08C563l|r|cff08C563o|r|cff08C563w|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563d|r|cff08C563o|r|cff08C563w|r|cff08C563n|r|cff08C563.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_714",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563n|r|cff08C563d|r|cff08C563s|r |cff08C563a|r |cff08C563s|r|cff08C563e|r|cff08C563e|r|cff08C563d|r |cff08C563i|r|cff08C563n|r|cff08C563t|r|cff08C563o|r |cff08C563a|r|cff08C563n|r |cff08C563e|r|cff08C563n|r|cff08C563e|r|cff08C563m|r|cff08C563y|r |cff08C563t|r|cff08C563o|r |cff08C563r|r|cff08C563o|r|cff08C563o|r|cff08C563t|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563a|r|cff08C563n|r|cff08C563d|r |cff08C563s|r|cff08C563l|r|cff08C563o|r|cff08C563w|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563d|r|cff08C563o|r|cff08C563w|r|cff08C563n|r|cff08C563.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1951",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563e|r|cff08C563d|r (N)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1952",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563e|r|cff08C563d|r (N)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1953",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563e|r|cff08C563d|r (N)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1954",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563e|r|cff08C563d|r (N)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1955",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563n|r|cff08C563d|r|cff08C563s|r |cff08C563a|r |cff08C563s|r|cff08C563e|r|cff08C563e|r|cff08C563d|r |cff08C563i|r|cff08C563n|r|cff08C563t|r|cff08C563o|r |cff08C563a|r|cff08C563n|r |cff08C563e|r|cff08C563n|r|cff08C563e|r|cff08C563m|r|cff08C563y|r |cff08C563t|r|cff08C563o|r |cff08C563r|r|cff08C563o|r|cff08C563o|r|cff08C563t|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563a|r|cff08C563n|r|cff08C563d|r |cff08C563s|r|cff08C563l|r|cff08C563o|r|cff08C563w|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563d|r|cff08C563o|r|cff08C563w|r|cff08C563n|r|cff08C563.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1956",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563n|r|cff08C563d|r|cff08C563s|r |cff08C563a|r |cff08C563s|r|cff08C563e|r|cff08C563e|r|cff08C563d|r |cff08C563i|r|cff08C563n|r|cff08C563t|r|cff08C563o|r |cff08C563a|r|cff08C563n|r |cff08C563e|r|cff08C563n|r|cff08C563e|r|cff08C563m|r|cff08C563y|r |cff08C563t|r|cff08C563o|r |cff08C563r|r|cff08C563o|r|cff08C563o|r|cff08C563t|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563a|r|cff08C563n|r|cff08C563d|r |cff08C563s|r|cff08C563l|r|cff08C563o|r|cff08C563w|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563d|r|cff08C563o|r|cff08C563w|r|cff08C563n|r|cff08C563.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1957",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563n|r|cff08C563d|r|cff08C563s|r |cff08C563a|r |cff08C563s|r|cff08C563e|r|cff08C563e|r|cff08C563d|r |cff08C563i|r|cff08C563n|r|cff08C563t|r|cff08C563o|r |cff08C563a|r|cff08C563n|r |cff08C563e|r|cff08C563n|r|cff08C563e|r|cff08C563m|r|cff08C563y|r |cff08C563t|r|cff08C563o|r |cff08C563r|r|cff08C563o|r|cff08C563o|r|cff08C563t|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563a|r|cff08C563n|r|cff08C563d|r |cff08C563s|r|cff08C563l|r|cff08C563o|r|cff08C563w|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563d|r|cff08C563o|r|cff08C563w|r|cff08C563n|r|cff08C563.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1958",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff08C563S|r|cff08C563e|r|cff08C563n|r|cff08C563d|r|cff08C563s|r |cff08C563a|r |cff08C563s|r|cff08C563e|r|cff08C563e|r|cff08C563d|r |cff08C563i|r|cff08C563n|r|cff08C563t|r|cff08C563o|r |cff08C563a|r|cff08C563n|r |cff08C563e|r|cff08C563n|r|cff08C563e|r|cff08C563m|r|cff08C563y|r |cff08C563t|r|cff08C563o|r |cff08C563r|r|cff08C563o|r|cff08C563o|r|cff08C563t|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563a|r|cff08C563n|r|cff08C563d|r |cff08C563s|r|cff08C563l|r|cff08C563o|r|cff08C563w|r |cff08C563t|r|cff08C563h|r|cff08C563e|r|cff08C563m|r |cff08C563d|r|cff08C563o|r|cff08C563w|r|cff08C563n|r|cff08C563.|r"
+    }
+  ],
+  "_rawcode": "A010",
+  "_base": "AUfn",
+  "_name": "Seed of Nature"
+}

@@ -1,0 +1,51 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1311912018,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3282",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Harden Aura"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNHardenedSkin.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8738",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Harden Aura - [15.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3284",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to use Harden Aura."
+    }
+  ],
+  "_rawcode": "R02N",
+  "_base": "Rhar",
+  "_name": "Harden Aura"
+}

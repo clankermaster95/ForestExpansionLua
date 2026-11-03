@@ -1,0 +1,247 @@
+{
+  "OldId": 1651001409,
+  "NewId": 892612673,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2617",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Refreshing Breeze"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6773",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Refreshing Breeze - [|cfaaffcffLevel %d|r]"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3124",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "A Refreshing Breeze healing 300 (+150 per level). 10 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5362",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Refreshing Breeze (R)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5363",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Refreshing Breeze (R)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5364",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Refreshing Breeze (R)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5365",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Refreshing Breeze (R)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5366",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Refreshing Breeze (R)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5367",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Refreshing Breeze (R)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5368",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Refreshing Breeze (R)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3125",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A Refreshing Breeze healing 300. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3126",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A Refreshing Breeze healing 450. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3127",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A Refreshing Breeze healing 600. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3138",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A Refreshing Breeze healing 750. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3142",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A Refreshing Breeze healing 900. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3147",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A Refreshing Breeze healing 1050. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3148",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A Refreshing Breeze healing 1200. 10 second cooldown."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCyclone.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCyclone.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\CloudOfFog\\CloudOfFog.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2090",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2192",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    }
+  ],
+  "_rawcode": "A045",
+  "_base": "AHhb",
+  "_name": "Refreshing Breeze"
+}

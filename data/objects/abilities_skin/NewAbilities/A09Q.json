@@ -1,0 +1,42 @@
+{
+  "OldId": 1651001409,
+  "NewId": 1362702401,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9985",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Holy Light"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3685",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "A holy light that can heal a friendly living unit for <A09Q,DataA1>. 5 second cooldown."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9988",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(minion)"
+    }
+  ],
+  "_rawcode": "A09Q",
+  "_base": "AHhb",
+  "_name": "A09Q"
+}

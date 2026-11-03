@@ -1,0 +1,103 @@
+{
+  "OldId": 1818325064,
+  "NewId": 1446064200,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1306",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff08B5FFSteam Wagon|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSeigeEngineWithMissles.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\human\\WarWagon\\WarWagon_V1.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\BoatMissile\\BoatMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Keep",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_1307",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cff08B5FFThe Trampler|r,|cff08B5FFSmoke|r,|cff08B5FFOverrunner|r,|cff08B5FFPlant Stomper|r"
+    },
+    {
+      "Id": 1970434165,
+      "Type": "Int",
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "upru"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_337",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "S"
+    },
+    {
+      "Id": 1953980789,
+      "Type": "String",
+      "Value": "TRIGSTR_1308",
+      "SanityCheck": 0,
+      "_field": "uawt",
+      "_resolvedText": "Revive |cff08B5FFSteam Wagon|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1309",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Summon |cff08B5FFSteam Wagon|r"
+    },
+    {
+      "Id": 1919972469,
+      "Type": "String",
+      "Value": "TRIGSTR_1310",
+      "SanityCheck": 0,
+      "_field": "utpr",
+      "_resolvedText": "Revive |cff08B5FFSteam Wagon|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9925",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A swift, yet flimsy hero that can attack the Ancient from a distance. Starts weak, but grows into a powerful attacker.|n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r"
+    }
+  ],
+  "_rawcode": "H01V",
+  "_base": "Hpal",
+  "_name": "|cff08B5FFSteam Wagon|r"
+}

@@ -1,0 +1,109 @@
+{
+  "OldId": 1936543297,
+  "NewId": 1446260801,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4869",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Focus Shield"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "PowerupSound",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMassTeleport.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMassTeleport.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8802",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00F|rocus Shield"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8803",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "|cffffcc00F|rocus Shield"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4365",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activate your Focus Shield, which protects you from 1000 damage. Your shield will regenerate quickly. No cooldown."
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4873",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Deactivate your shield."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1316",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "F"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1509",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "F"
+    }
+  ],
+  "_rawcode": "A04V",
+  "_base": "ANms",
+  "_name": "Focus Shield"
+}

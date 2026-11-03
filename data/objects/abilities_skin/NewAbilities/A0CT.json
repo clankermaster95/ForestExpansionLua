@@ -1,0 +1,22 @@
+{
+  "OldId": 1920158017,
+  "NewId": 1413689409,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6435",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(-50%)"
+    }
+  ],
+  "_rawcode": "A0CT",
+  "_base": "AIsr",
+  "_name": "A0CT"
+}

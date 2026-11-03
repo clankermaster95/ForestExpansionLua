@@ -1,0 +1,238 @@
+{
+  "OldId": 1835619649,
+  "NewId": 1279602753,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7325",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Wind Burst (new)"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_922",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cff8080ffChanneling|r|nFire a burst of wind at straight area, dealing 100 (+50 per level) damage and knocking them down for 0.5 (+0.25 per level) seconds. 20 second cooldown. Leveling up also increases area of effect by 25 and increases travel distance by 100, max channel time is 0.6+0.1 per level"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3671",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Wind Burst - [|cfaaffcffLevel %d|r]"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTornado.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9770",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nShoots a wind burst out in a straight line, dealing <A0EL,DataC1> damage and hurling enemy ground units into the air in their wake, stunning them for <A0EL,Dur1,.> seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9781",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nShoots a wind burst out in a straight line, dealing <A0EL,DataC2> damage and hurling enemy ground units into the air in their wake, stunning them for <A0EL,Dur2,.> seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9783",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nShoots a wind burst out in a straight line, dealing <A0EL,DataC3> damage and hurling enemy ground units into the air in their wake, stunning them for <A0EL,Dur3,.> seconds."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7331",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst - [|cfaaffcffLevel 1|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7332",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst - [|cfaaffcffLevel 2|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7333",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst - [|cfaaffcffLevel 3|r]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9785",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nShoots a wind burst out in a straight line, dealing <A0EL,DataC4> damage and hurling enemy ground units into the air in their wake, stunning them for <A0EL,Dur4,.> seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9800",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nShoots a wind burst out in a straight line, dealing <A0EL,DataC5> damage and hurling enemy ground units into the air in their wake, stunning them for <A0EL,Dur5,.> seconds."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9801",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nShoots a wind burst out in a straight line, dealing <A0EL,DataC6> damage and hurling enemy ground units into the air in their wake, stunning them for <A0EL,Dur6,.> seconds."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8854",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst - [|cfaaffcffLevel 4|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8865",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst - [|cfaaffcffLevel 5|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8867",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst - [|cfaaffcffLevel 6|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8919",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Wind Burst - [|cfaaffcffLevel 7|r]"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTornado.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 1936090465,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "CycloneLoop",
+      "SanityCheck": 0,
+      "_field": "aefs"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6186",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6286",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9803",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cff8080ffChanneling|r|nShoots a wind burst out in a straight line, dealing <A0EL,DataC7> damage and hurling enemy ground units into the air in their wake, stunning them for <A0EL,Dur7,.> seconds."
+    }
+  ],
+  "_rawcode": "A0EL",
+  "_base": "AUim",
+  "_name": "Wind Burst (new)"
+}

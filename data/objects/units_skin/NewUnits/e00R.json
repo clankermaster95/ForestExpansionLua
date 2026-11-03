@@ -1,0 +1,49 @@
+{
+  "OldId": 2003791205,
+  "NewId": 1378889829,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 192,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.075,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10268",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Provides food, has the Replenish Mana ability. Can gain the Well Spring upgrade. Regenerates mana at night.|n|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1409",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    }
+  ],
+  "_rawcode": "e00R",
+  "_base": "emow",
+  "_name": "e00R"
+}

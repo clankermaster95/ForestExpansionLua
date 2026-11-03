@@ -1,0 +1,160 @@
+{
+  "OldId": 1986348353,
+  "NewId": 959459393,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_257",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Frozen Senses"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPossession.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPossession.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_258",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn |cffA5F7ADFrozen Senses|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_259",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffA5F7ADFrozen Senses|r"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_711",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "|cffA5F7ADGives a 4% (+4% per level) chance to evade an attack.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_837",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffA5F7ADGives a 4% chance to evade an attack.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2055",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffA5F7ADFrozen Senses|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2056",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffA5F7ADFrozen Senses|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2057",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffA5F7ADFrozen Senses|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2058",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffA5F7ADFrozen Senses|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_849",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffA5F7ADGives a 8% chance to evade an attack.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1015",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffA5F7ADGives a 12% chance to evade an attack.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1070",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffA5F7ADGives a 16% chance to evade an attack.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1267",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|cffA5F7ADGives a 20% chance to evade an attack.|r"
+    }
+  ],
+  "_rawcode": "A009",
+  "_base": "AEev",
+  "_name": "Frozen Senses"
+}

@@ -1,0 +1,98 @@
+{
+  "source": "https://github.com/sumneko/w3x2lni/tree/82916514a12b7edb15252d42225cd8cc8ce61cfd/data/zhCN-1.32.8/prebuilt/Custom",
+  "unit_blob_sha": "fdbb91dc600d4d5c2970c5db1f88f5f7d682536c",
+  "item_blob_sha": "e8706638051f6eda81d861b6ddb2f8783cdb7fe1",
+  "note": "Pinned reference data; map overrides take priority. This is not current-engine execution.",
+  "shops": {
+    "hvlt": {
+      "abilities": [
+        "Abds",
+        "Aall",
+        "Apit"
+      ],
+      "stock_field": "umki"
+    },
+    "ngme": {
+      "abilities": [
+        "Aneu",
+        "Avul",
+        "Apit"
+      ],
+      "stock_field": "usei"
+    }
+  },
+  "items": {
+    "crys": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "bspd": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "ratf": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "blba": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "sand": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "sror": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "cnob": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "stel": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "rhth": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "tsct": {
+      "requires": "hkee",
+      "requiresamount": ""
+    },
+    "clfm": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "srrc": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "penr": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "pmna": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "gemt": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "pinv": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "glsk": {
+      "requires": "",
+      "requiresamount": ""
+    },
+    "brag": {
+      "requires": "",
+      "requiresamount": ""
+    }
+  }
+}

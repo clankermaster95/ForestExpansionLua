@@ -1,0 +1,207 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1462972498,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4961",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Harden"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4963",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Harden"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4964",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Harden"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4965",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Harden"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4966",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Harden"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9936",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Harden - [50.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9937",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Harden - [60.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9940",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Harden - [70.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9947",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Harden - [80.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9948",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Harden - [90.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4972",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of your Hardened Roots by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4973",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of your Hardened Roots by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4974",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of your Hardened Roots by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4975",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of your Hardened Roots by 100"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4976",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the health of your Hardened Roots by 100"
+    }
+  ],
+  "_rawcode": "R03W",
+  "_base": "Rhar",
+  "_name": "Harden"
+}

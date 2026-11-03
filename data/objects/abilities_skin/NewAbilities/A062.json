@@ -1,0 +1,88 @@
+{
+  "OldId": 1885621825,
+  "NewId": 842412097,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6224",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "The blood of Go'rath manifests three shadowlings which deal no damage, move slow, dissipate after 20 seconds, but have good health and large hitboxes. 35 second cooldown.|n|cffFF8080This ability costs 400 health|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6659",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons three Shadowlings that deal no damage, move slowly, but have heavy armor and large hitboxes. Lasts 20 seconds. 30 second cooldown. |n|cffFF8080This ability costs 400 health.|r |n|cff7F7F7FThe blood of Go'rath can manifest shadows into living creatures under your command.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6223",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00D|rark Blood"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\DeathCoil\\DeathCoilSpecialArt.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNblackblood.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtonsDisabled\\DISBTNblackblood.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5975",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Dark Blood"
+    }
+  ],
+  "_rawcode": "A062",
+  "_base": "ANdp",
+  "_name": "Dark Blood"
+}

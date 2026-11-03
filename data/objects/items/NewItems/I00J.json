@@ -1,0 +1,47 @@
+{
+  "OldId": 1919906419,
+  "NewId": 1244672073,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "AIlm",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 1250,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1953723241,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "isst"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 180,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    }
+  ],
+  "_rawcode": "I00J",
+  "_base": "sror",
+  "_name": "Tome of Power"
+}

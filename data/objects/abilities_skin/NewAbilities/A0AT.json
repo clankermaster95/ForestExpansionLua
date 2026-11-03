@@ -1,0 +1,88 @@
+{
+  "OldId": 1802723905,
+  "NewId": 1413558337,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\MirrorImage\\MirrorImageCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1446",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Can be activated to dodge attacks. Lasts |cff8080ff(0.1% of max mana)|r seconds. |n|cff808080CD 5s.|r"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEvasion.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1447",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffcb4fffBlur|r"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1420",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Blur"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9428",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(old)"
+    }
+  ],
+  "_rawcode": "A0AT",
+  "_base": "Absk",
+  "_name": "Blur"
+}

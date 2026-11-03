@@ -1,0 +1,15 @@
+{
+  "revision": "r7",
+  "file": "dist/Forest_Expansion_3.2.0_Community.zip",
+  "sha256": "c751d79db9809088fc2ddfd24338becaee0c7a9ab1516f60853a61e8d0d82cb5",
+  "map_sha256": "ff03e1b190b76925957400fee8c18460002ccd09999062b9fde918c7fff47a10",
+  "contents": [
+    "Forest_Expansion_3.2.0_Lua.w3x",
+    "CHANGELOG.md",
+    "SOLO_TESTING.md",
+    "DEBUG_REFERENCE.md",
+    "README.txt",
+    "SHA256.txt"
+  ],
+  "verified_readback": true
+}

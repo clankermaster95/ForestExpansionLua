@@ -1,0 +1,15 @@
+{
+  "FormatVersion": "v33",
+  "GameVersion": "2.0.4.23745",
+  "ScriptLanguage": "Lua",
+  "changedOffsets": []
+}
+{
+  "output": "dist/Forest_Expansion_3.1.2a_Lua.w3x",
+  "sha256": "2b5345d30e7079f04a5aa53ff5bfa903e02880612cbdb605315ef8d297aae1d6",
+  "archive_files": 518,
+  "lua_syntax": "passed",
+  "archive_roundtrip": "all payloads byte-identical to folder",
+  "data_edits": [],
+  "engine_test": "not run: Warcraft III and World Editor are not installed on this Mac"
+}

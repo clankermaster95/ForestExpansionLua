@@ -1,0 +1,72 @@
+{
+  "OldId": 2004117352,
+  "NewId": 1211183208,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1662",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Laser Tower"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\DalaranGuardTower\\DalaranGuardTower.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2672",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Upgrade to |cffffcc00L|raser Tower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9886",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A very powerful tower that hits hard and has long range.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 70 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\WingedSerpentMissile\\WingedSerpentMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_658",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "L"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h01H",
+  "_base": "hgtw",
+  "_name": "Laser Tower"
+}

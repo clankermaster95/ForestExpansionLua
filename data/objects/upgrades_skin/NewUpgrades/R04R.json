@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1379151954,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10809",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Coup de grÃƒÂ¢ce"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7456",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10256",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Coup de grÃƒÂ¢ce - [55.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10258",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "This upgrade is required to use Coup de grÃƒÂ¢ce. Deals 100 damage +10%  target's missing health. 120 second cooldown. |n|cff7F7F7FEnding the life of a wounded enemy is a great kindness.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTN_CR_BLOOD.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R04R",
+  "_base": "Rhme",
+  "_name": "Coup de grÃƒÂ¢ce"
+}

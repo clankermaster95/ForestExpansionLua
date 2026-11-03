@@ -1,0 +1,51 @@
+{
+  "OldId": 1835625793,
+  "NewId": 876097601,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8474",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Base Flag"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8475",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Base Flag"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4276",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "All allies are receiving 1 gold and 50 lumber every 6 seconds."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNFlyingMachineTrueSight.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A084",
+  "_base": "Amim",
+  "_name": "Base Flag"
+}

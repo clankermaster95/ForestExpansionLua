@@ -1,0 +1,139 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1127231570,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651271527,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gglb"
+    },
+    {
+      "Id": 1835820903,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gglm"
+    },
+    {
+      "Id": 1651338343,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "glmb"
+    },
+    {
+      "Id": 1835887719,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 500,
+      "SanityCheck": 0,
+      "_field": "glmm"
+    },
+    {
+      "Id": 1651078247,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "gtib"
+    },
+    {
+      "Id": 828794215,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_678",
+      "SanityCheck": 0,
+      "_field": "gef1",
+      "_resolvedText": "rhpx"
+    },
+    {
+      "Id": 828465767,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "gba1"
+    },
+    {
+      "Id": 829386087,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "gmo1"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 846163303,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "gmo2"
+    },
+    {
+      "Id": 845242983,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "gba2"
+    },
+    {
+      "Id": 862020199,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "gba3"
+    },
+    {
+      "Id": 862940519,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "gmo3"
+    }
+  ],
+  "_rawcode": "R00C",
+  "_base": "Rhar",
+  "_name": "Spirit Bark"
+}

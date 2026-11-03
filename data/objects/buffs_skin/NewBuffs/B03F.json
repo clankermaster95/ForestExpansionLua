@@ -1,0 +1,20 @@
+{
+  "OldId": 1634288962,
+  "NewId": 1177759810,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_1417",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": "shadow dancer"
+    }
+  ],
+  "_rawcode": "B03F",
+  "_base": "BEia",
+  "_name": "B03F"
+}

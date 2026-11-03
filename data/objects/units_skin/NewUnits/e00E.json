@@ -1,0 +1,107 @@
+{
+  "OldId": 1919182437,
+  "NewId": 1160786021,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9817",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Dark Templar"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\DarkTemplar.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNDark.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Illidan",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2362",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9818",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Dark Templar"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6069",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Invisible assassin, permanently cloaked out of combat and has a blink ability.|n|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1969779573,
+      "Type": "String",
+      "Value": "Shadow",
+      "SanityCheck": 0,
+      "_field": "ushu"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "war3mapImported\\DarkTemplar_portrait.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 2053927797,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uslz"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.15,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    }
+  ],
+  "_rawcode": "e00E",
+  "_base": "efdr",
+  "_name": "Dark Templar"
+}

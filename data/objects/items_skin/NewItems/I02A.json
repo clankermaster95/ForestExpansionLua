@@ -1,0 +1,59 @@
+{
+  "OldId": 1685091184,
+  "NewId": 1093808201,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_195",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Decreases damage taken by 40%, but also decreases move speed by 30% for 8 seconds."
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5657",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Rum"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5658",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Rum"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_4361",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Decreases damage taken by 40%, but also decreases move speed by 30% for 8 seconds."
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1834",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "I02A",
+  "_base": "pspd",
+  "_name": "Rum"
+}

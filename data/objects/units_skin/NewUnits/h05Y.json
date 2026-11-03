@@ -1,0 +1,80 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1496658024,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2468",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Silvester"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\Bandit\\Bandit.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBandit.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2469",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff588558Silvester|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10336",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Can harvest gold. Harvests 20 lumber.|n|n|cfffdca00Health:|r 500; 10/s|n|cfffdca00Armor:|r 4 (Light)|n|cfffdca00Movement Speed:|r 275|n|cffff0000Feed Value:|r |cffffdd00150|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Militia",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_2383",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_841",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "h05Y",
+  "_base": "hpea",
+  "_name": "Silvester"
+}

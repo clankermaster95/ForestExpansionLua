@@ -1,0 +1,32 @@
+{
+  "OldId": 2053982529,
+  "NewId": 825831489,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9656",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Item Mana Bonus"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9629",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(+1000)"
+    }
+  ],
+  "_rawcode": "A091",
+  "_base": "AImz",
+  "_name": "Item Mana Bonus"
+}

@@ -1,0 +1,43 @@
+{
+  "OldId": 1751205186,
+  "NewId": 1513107522,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_3214",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Spike Aura"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_3215",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Spike Aura"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_3216",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under the effects of Spike Aura, attackers will take damage."
+    },
+    {
+      "Id": 1952543590,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "fsat"
+    }
+  ],
+  "_rawcode": "B00Z",
+  "_base": "BEah",
+  "_name": "Spike Aura"
+}

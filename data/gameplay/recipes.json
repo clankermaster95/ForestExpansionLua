@@ -1,0 +1,111 @@
+{
+  "recipes": [
+    {
+      "scroll": "I00H",
+      "result": "I00I",
+      "components": [
+        "I001",
+        "I004"
+      ]
+    },
+    {
+      "scroll": "I00G",
+      "result": "I00F",
+      "components": [
+        "I006",
+        "I002"
+      ]
+    },
+    {
+      "scroll": "I01Q",
+      "result": "I01R",
+      "components": [
+        "I00Z",
+        "I01B",
+        "I01U"
+      ]
+    },
+    {
+      "scroll": "I01O",
+      "result": "I01P",
+      "components": [
+        "I00S",
+        "I01B"
+      ]
+    },
+    {
+      "scroll": "I01S",
+      "result": "I01T",
+      "components": [
+        "I00Z",
+        "I00I"
+      ]
+    },
+    {
+      "scroll": "I01M",
+      "result": "I01L",
+      "components": [
+        "I00F",
+        "I006"
+      ]
+    },
+    {
+      "scroll": "I011",
+      "result": "I012",
+      "components": [
+        "I00I",
+        "I00Z",
+        "I004"
+      ]
+    },
+    {
+      "scroll": "I016",
+      "result": "I015",
+      "components": [
+        "I00Z",
+        "I02F"
+      ]
+    },
+    {
+      "scroll": "I018",
+      "result": "I017",
+      "components": [
+        "I002",
+        "I02F"
+      ]
+    },
+    {
+      "scroll": "I01D",
+      "result": "I01C",
+      "components": [
+        "I00I",
+        "I01B"
+      ]
+    },
+    {
+      "scroll": "I01A",
+      "result": "I019",
+      "components": [
+        "I000",
+        "I01B",
+        "I00S"
+      ]
+    },
+    {
+      "result": "I01N",
+      "components": [
+        "I01J",
+        "I01J"
+      ]
+    }
+  ],
+  "shops": [
+    "h02B",
+    "n000",
+    "n00A"
+  ],
+  "notes": "Recipes mirror the original active crafting triggers. I00N is not sold by the Ancient recipe shop and has no active crafting handler; it is deliberately excluded. Item prices are generated from object records, not copied here.",
+  "additional_prices": [
+    "I00J"
+  ]
+}

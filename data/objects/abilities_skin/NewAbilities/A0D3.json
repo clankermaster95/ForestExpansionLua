@@ -1,0 +1,52 @@
+{
+  "OldId": 1819437121,
+  "NewId": 860106817,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8190",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Harvest Lumber"
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4279",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "_resolvedText": "Return the harvested lumber to a nearby shelter."
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8999",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "G"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2725",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- BH Silvester Macko"
+    }
+  ],
+  "_rawcode": "A0D3",
+  "_base": "Ahrl",
+  "_name": "Harvest Lumber"
+}

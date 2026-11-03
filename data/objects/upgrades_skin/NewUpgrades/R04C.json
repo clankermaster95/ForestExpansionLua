@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1127493714,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5436",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Psychic Drain"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9809",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10228",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Psychic Drain - [25.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6896",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "This upgrade is required to use Psychic Drain. Channels a 300 health per second drain. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_Requiem.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R04C",
+  "_base": "Rhme",
+  "_name": "Psychic Drain"
+}

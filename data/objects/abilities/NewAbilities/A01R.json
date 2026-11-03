@@ -1,0 +1,66 @@
+{
+  "OldId": 1650673985,
+  "NewId": 1378955329,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B030",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1886544201,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "Iarp"
+    },
+    {
+      "Id": 1667851337,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Idic"
+    },
+    {
+      "Id": 895643465,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 5,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Iob5"
+    }
+  ],
+  "_rawcode": "A01R",
+  "_base": "AIcb",
+  "_name": "Rend"
+}

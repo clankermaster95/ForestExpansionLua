@@ -1,0 +1,93 @@
+{
+  "OldId": 1919182437,
+  "NewId": 1227894885,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9867",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Dune Worm"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\critters\\DuneWorm\\DuneWorm.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDuneWorm.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\RedDragonBreath\\RedDragonMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "RockGolem",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2494",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9868",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Dune Worm"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9831",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Worm"
+    },
+    {
+      "Id": 1969779573,
+      "Type": "String",
+      "Value": "Shadow",
+      "SanityCheck": 0,
+      "_field": "ushu"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 2053927797,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uslz"
+    }
+  ],
+  "_rawcode": "e00I",
+  "_base": "efdr",
+  "_name": "Dune Worm"
+}

@@ -1,0 +1,20 @@
+{
+  "OldId": 1935887960,
+  "NewId": 825241688,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_5185",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Dark Barrage"
+    }
+  ],
+  "_rawcode": "X001",
+  "_base": "XNcs",
+  "_name": "Dark Barrage"
+}

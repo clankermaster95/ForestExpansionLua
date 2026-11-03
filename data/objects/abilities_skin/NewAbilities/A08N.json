@@ -1,0 +1,70 @@
+{
+  "OldId": 1700876097,
+  "NewId": 1312305217,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9120",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Sun Aura (Attack speed)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9110",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sun Aura"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3775",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases the attack and movement speed of nearby units by 20%."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSunburst3.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9121",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(lvl1)"
+    }
+  ],
+  "_rawcode": "A08N",
+  "_base": "AOae",
+  "_name": "Sun Aura (Attack speed)"
+}

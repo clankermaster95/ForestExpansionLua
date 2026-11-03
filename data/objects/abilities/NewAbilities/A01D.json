@@ -1,0 +1,21 @@
+{
+  "OldId": 1835485505,
+  "NewId": 1144074305,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768382793,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "Iagi"
+    }
+  ],
+  "_rawcode": "A01D",
+  "_base": "AIgm",
+  "_name": "A agil"
+}

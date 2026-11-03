@@ -1,0 +1,50 @@
+{
+  "OldId": 1650544194,
+  "NewId": 1362178114,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_5394",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Acidic Blood"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Objects\\Spawnmodels\\Undead\\UndeadLargeDeathExplode\\UndeadLargeDeathExplode.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_5395",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Acidic Blood"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6194",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is taking damage over time and has reduced armor."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNgreenblood.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B01Q",
+  "_base": "BNab",
+  "_name": "Acidic Blood"
+}

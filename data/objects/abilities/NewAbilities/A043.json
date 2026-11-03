@@ -1,0 +1,30 @@
+{
+  "OldId": 1634236225,
+  "NewId": 859058241,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "adur"
+    }
+  ],
+  "_rawcode": "A043",
+  "_base": "Awha",
+  "_name": "Harvest (Aethyr Warp)"
+}

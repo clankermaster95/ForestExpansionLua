@@ -1,0 +1,84 @@
+{
+  "OldId": 1852143169,
+  "NewId": 926232641,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B01G",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1684562785,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "achd"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 828993360,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "Poi1"
+    },
+    {
+      "Id": 862547792,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0.35,
+      "SanityCheck": 0,
+      "_field": "Poi3"
+    },
+    {
+      "Id": 879325008,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 4,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Poi4"
+    }
+  ],
+  "_rawcode": "A057",
+  "_base": "Aven",
+  "_name": "Dread"
+}

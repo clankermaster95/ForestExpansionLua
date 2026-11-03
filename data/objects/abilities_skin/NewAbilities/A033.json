@@ -1,0 +1,62 @@
+{
+  "OldId": 1818447681,
+  "NewId": 858992705,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3042",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Lightning Strike"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5240",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Lightning St|cffffcc00r|rike"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3708",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Call forth a bolt of lightning to strike your target. Deals 650 damage. 12 second cooldown."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3023",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Furbolg Shaman)"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2074",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "A033",
+  "_base": "AOcl",
+  "_name": "Lightning Strike"
+}

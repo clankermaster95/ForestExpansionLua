@@ -1,0 +1,40 @@
+{
+  "OldId": 1953265256,
+  "NewId": 1110585448,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Avul,Aall,Apit",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1768648053,
+      "Type": "String",
+      "Value": "I01O,I01Q,I01S,I01M,I01A,I01D,I018,I016,I011,I00G,I00H",
+      "SanityCheck": 0,
+      "_field": "umki"
+    },
+    {
+      "Id": 1768256373,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usei"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    }
+  ],
+  "_rawcode": "h02B",
+  "_base": "hvlt",
+  "_name": "Recipe Shop"
+}

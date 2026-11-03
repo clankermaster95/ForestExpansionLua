@@ -1,0 +1,51 @@
+{
+  "OldId": 1769104237,
+  "NewId": 942813257,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4704",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Scout Eagle"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4705",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Scout Eagle"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_4706",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Creates an eagle critter that can be used to scout enemies. Eagle does not have truesight, but fast. Lasts 75 seconds."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_4707",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Spawns an eagle to scout. Lasts 75 seconds"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWarEagle.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    }
+  ],
+  "_rawcode": "I028",
+  "_base": "mcri",
+  "_name": "Scout Eagle"
+}

@@ -1,0 +1,107 @@
+{
+  "OldId": 2004117352,
+  "NewId": 1328754792,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5438",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Davy Jones' Locker"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Dungeon\\Props\\IronMaiden\\IronMaiden.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHallOfTheDead.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\VoidWalkerMissile\\VoidWalkerMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5439",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Davy Jones' Locker"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10140",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An extremely strong tower which attacks fast with chaos damage.|n|n|cfffdca00Health:|r 750|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Attack:|r 130 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 0.5|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0040|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_3550",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "J"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h03O",
+  "_base": "hgtw",
+  "_name": "Davy Jones' Locker"
+}

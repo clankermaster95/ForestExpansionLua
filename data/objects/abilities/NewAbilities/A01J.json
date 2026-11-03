@@ -1,0 +1,138 @@
+{
+  "OldId": 1701072449,
+  "NewId": 1244737601,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 828728398,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "Nde1"
+    },
+    {
+      "Id": 828728398,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 45,
+      "SanityCheck": 0,
+      "_field": "Nde1"
+    },
+    {
+      "Id": 828728398,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "Nde1"
+    },
+    {
+      "Id": 828728398,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 1,
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "Nde1"
+    },
+    {
+      "Id": 828728398,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 1,
+      "Value": 90,
+      "SanityCheck": 0,
+      "_field": "Nde1"
+    },
+    {
+      "Id": 845505614,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 2,
+      "Value": 2.5,
+      "SanityCheck": 0,
+      "_field": "Nde2"
+    },
+    {
+      "Id": 845505614,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 2,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "Nde2"
+    },
+    {
+      "Id": 845505614,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 2,
+      "Value": 3.5,
+      "SanityCheck": 0,
+      "_field": "Nde2"
+    },
+    {
+      "Id": 845505614,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 2,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "Nde2"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "enemies,structure",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "enemies,structure",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "enemies,structure",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "enemies,structure",
+      "SanityCheck": 0,
+      "_field": "atar"
+    }
+  ],
+  "_rawcode": "A01J",
+  "_base": "ANde",
+  "_name": "Dragon Rage"
+}

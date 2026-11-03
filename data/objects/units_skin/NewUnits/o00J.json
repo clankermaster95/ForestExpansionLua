@@ -1,0 +1,64 @@
+{
+  "OldId": 1685547119,
+  "NewId": 1244672111,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1124",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Growth Ward"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\nightelf\\TreeofLife\\TreeofLife.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.6,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1125",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Growth Ward"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1126",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Heals you and all other heroes in a 800 AoE."
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRejuvenation.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o00J",
+  "_base": "ohwd",
+  "_name": "Growth Ward"
+}

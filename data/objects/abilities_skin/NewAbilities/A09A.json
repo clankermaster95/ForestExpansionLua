@@ -1,0 +1,22 @@
+{
+  "OldId": 1818447425,
+  "NewId": 1094266945,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9671",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Heal (Firelord's Cape)"
+    }
+  ],
+  "_rawcode": "A09A",
+  "_base": "ANcl",
+  "_name": "Heal (Firelord's Cape)"
+}

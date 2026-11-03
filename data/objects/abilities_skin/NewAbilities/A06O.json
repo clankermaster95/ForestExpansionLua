@@ -1,0 +1,22 @@
+{
+  "OldId": 1937198913,
+  "NewId": 1328951361,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6686",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Nature Strike"
+    }
+  ],
+  "_rawcode": "A06O",
+  "_base": "AOws",
+  "_name": "Nature Strike"
+}

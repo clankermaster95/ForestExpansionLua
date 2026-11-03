@@ -1,0 +1,182 @@
+{
+  "OldId": 1718436673,
+  "NewId": 1279406145,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4579",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Arcane Golem)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5604",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activates a shield that absorbs <A0BL,DataA2> damage per point of mana."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5605",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activates a shield that absorbs <A0BL,DataA3> damage per point of mana."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5606",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activates a shield that absorbs <A0BL,DataA4> damage per point of mana."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5607",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activates a shield that absorbs <A0BL,DataA5> damage per point of mana."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5618",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Mana Shield"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5621",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Mana Shield"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5663",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Mana Shield"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5664",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Mana Shield"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5665",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Mana Shield"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5666",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Mana Shield"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5667",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Mana Shield"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5668",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Mana Shield"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5669",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activates a shield that absorbs <A0BL,DataA1> damage per point of mana."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5670",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Mana Shield - [|cffffcc00Level %d|r]"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_814",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Creates a shield that absorbs damage by using the Arcane Golem's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Level 1|r - 2 damage per point of mana. |n|cffffcc00Level 2|r - 2.5 damage per point of mana. |n|cffffcc00Level 3|r - 3 damage per point of mana. |n|cffffcc00Level 4|r - 3.5 damage per point of mana. |n|cffffcc00Level 5|r - 4 damage per point of mana."
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5560",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "N"
+    }
+  ],
+  "_rawcode": "A0BL",
+  "_base": "ACmf",
+  "_name": "A0BL"
+}

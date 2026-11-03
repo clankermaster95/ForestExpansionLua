@@ -1,0 +1,60 @@
+{
+  "OldId": 1650871873,
+  "NewId": 1312174145,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5170",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ember"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5165",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Em|cffffcc00b|rer"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4439",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Hurl a flaming bolt at a target, dealing 125 damage and briefly interrupting any spell casts. 3 second cooldown."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 1952542049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Weapons\\RedDragonBreath\\RedDragonMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "amat"
+    }
+  ],
+  "_rawcode": "A06N",
+  "_base": "ANfb",
+  "_name": "Ember"
+}

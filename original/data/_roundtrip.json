@@ -1,0 +1,158 @@
+[
+  {
+    "file": "war3map.doo",
+    "type": "MapDoodads",
+    "bytes": 266104,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.imp",
+    "type": "ImportedFiles",
+    "bytes": 22612,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.mmp",
+    "type": "MapPreviewIcons",
+    "bytes": 232,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3a",
+    "type": "AbilityObjectData",
+    "bytes": 170071,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3b",
+    "type": "DestructableObjectData",
+    "bytes": 84,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3c",
+    "type": "MapCameras",
+    "bytes": 8,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3d",
+    "type": "DoodadObjectData",
+    "bytes": 56,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3e",
+    "type": "MapEnvironment",
+    "bytes": 133213,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3h",
+    "type": "BuffObjectData",
+    "bytes": 3593,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3i",
+    "type": "MapInfo",
+    "bytes": 915,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3q",
+    "type": "UpgradeObjectData",
+    "bytes": 74705,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3r",
+    "type": "MapRegions",
+    "bytes": 1642,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3s",
+    "type": "MapSounds",
+    "bytes": 6208,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3t",
+    "type": "ItemObjectData",
+    "bytes": 8503,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.w3u",
+    "type": "UnitObjectData",
+    "bytes": 151787,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.wct",
+    "type": "MapCustomTextTriggers",
+    "bytes": 349767,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.wpm",
+    "type": "MapPathingMap",
+    "bytes": 262160,
+    "byteExact": true
+  },
+  {
+    "file": "war3map.wtg",
+    "type": "MapTriggers",
+    "bytes": 396968,
+    "byteExact": true
+  },
+  {
+    "file": "war3mapSkin.w3a",
+    "type": "AbilityObjectData",
+    "bytes": 177383,
+    "byteExact": true
+  },
+  {
+    "file": "war3mapSkin.w3b",
+    "type": "DestructableObjectData",
+    "bytes": 52,
+    "byteExact": true
+  },
+  {
+    "file": "war3mapSkin.w3d",
+    "type": "DoodadObjectData",
+    "bytes": 32,
+    "byteExact": true
+  },
+  {
+    "file": "war3mapSkin.w3h",
+    "type": "BuffObjectData",
+    "bytes": 28990,
+    "byteExact": true
+  },
+  {
+    "file": "war3mapSkin.w3q",
+    "type": "UpgradeObjectData",
+    "bytes": 258972,
+    "byteExact": true
+  },
+  {
+    "file": "war3mapSkin.w3t",
+    "type": "ItemObjectData",
+    "bytes": 16376,
+    "byteExact": true
+  },
+  {
+    "file": "war3mapSkin.w3u",
+    "type": "UnitObjectData",
+    "bytes": 127957,
+    "byteExact": true
+  },
+  {
+    "file": "war3mapUnits.doo",
+    "type": "MapUnits",
+    "bytes": 5191,
+    "byteExact": true
+  }
+]

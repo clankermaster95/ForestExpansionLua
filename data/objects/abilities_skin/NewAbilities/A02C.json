@@ -1,0 +1,51 @@
+{
+  "OldId": 1768967745,
+  "NewId": 1127362625,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2087",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Flame"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2088",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Flame"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2937",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Deals 30 damage per second to all nearby units."
+    }
+  ],
+  "_rawcode": "A02C",
+  "_base": "ANpi",
+  "_name": "Flame"
+}

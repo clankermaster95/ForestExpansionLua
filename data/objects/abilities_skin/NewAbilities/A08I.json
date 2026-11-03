@@ -1,0 +1,180 @@
+{
+  "OldId": 1702316097,
+  "NewId": 1228419137,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9010",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Summon Black Hole"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTN_manaburn.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTN_manaburn.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2442",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2646",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9011",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Summon |cffffcc00B|rlack Hole - [|cffffcc00Level %d|r]"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6003",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Summons 1 (+1 per level) Black Hole to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. |cff808080This ability has a 60/55/50/45/40 seconds cooldown.|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9013",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon |cffffcc00B|rlack Hole"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9014",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon |cffffcc00B|rlack Hole"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9015",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon |cffffcc00B|rlack Hole"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9016",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon |cffffcc00B|rlack Hole"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9017",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Summon |cffffcc00B|rlack Hole"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9018",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 1 Black Hole to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 90 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9019",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 2 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 90 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9020",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 3 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 90 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9021",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 4 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 90 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9022",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Summons 5 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 90 second cooldown."
+    }
+  ],
+  "_rawcode": "A08I",
+  "_base": "AHwe",
+  "_name": "Summon Black Hole"
+}

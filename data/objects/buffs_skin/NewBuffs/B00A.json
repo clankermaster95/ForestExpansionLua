@@ -1,0 +1,50 @@
+{
+  "OldId": 1869374018,
+  "NewId": 1093677122,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_1467",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Rage"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\Doom\\DoomDeath.mdl,Abilities\\Spells\\Orc\\Bloodlust\\BloodlustSpecial.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_1472",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Rage"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_1474",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under Rage, it's movement and attack speed is dramatically increased."
+    }
+  ],
+  "_rawcode": "B00A",
+  "_base": "Bblo",
+  "_name": "Rage"
+}

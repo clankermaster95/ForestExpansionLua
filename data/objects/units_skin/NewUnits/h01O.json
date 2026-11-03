@@ -1,0 +1,93 @@
+{
+  "OldId": 2004117352,
+  "NewId": 1328623720,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1216",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Speed Tower"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "EMDA",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\demon\\CorruptedTreeofLife\\CorruptedTreeofLife.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\GargoyleMissile\\GargoyleMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLocustSwarm.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9296",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Speed Tower"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9916",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A very fast tower that deals great damage.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 10 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 0.3|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_158",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h01O",
+  "_base": "hgtw",
+  "_name": "Speed Tower"
+}

@@ -1,0 +1,43 @@
+{
+  "OldId": 1667321666,
+  "NewId": 1093873730,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_646",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Might of the Frozen Throne"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_649",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Might of the Frozen Throne"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_650",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This structure is under the Might of the Frozen Throne; it has increased attack damage."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNFrostClash.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B03A",
+  "_base": "BOac",
+  "_name": "Might of the Frozen Throne"
+}

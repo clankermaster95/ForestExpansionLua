@@ -1,0 +1,51 @@
+{
+  "OldId": 1667330658,
+  "NewId": 1445998665,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_8888",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Majestic Sapphire"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_8889",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Majestic Sapphire"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3553",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Reduces Magic damage dealt to the carrier by <AIsr,DataB1,%>%."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_3554",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Reduces Magic damage dealt to the carrier by <AIsr,DataB1,%>%."
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfFrost.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    }
+  ],
+  "_rawcode": "I00V",
+  "_base": "brac",
+  "_name": "Majestic Sapphire"
+}

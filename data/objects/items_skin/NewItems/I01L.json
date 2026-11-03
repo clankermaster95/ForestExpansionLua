@@ -1,0 +1,51 @@
+{
+  "OldId": 1953721453,
+  "NewId": 1278292041,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9072",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Hammer of Might"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9073",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Hammer of Might"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1990",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_1991",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    }
+  ],
+  "_rawcode": "I01L",
+  "_base": "mlst",
+  "_name": "Hammer of Might"
+}

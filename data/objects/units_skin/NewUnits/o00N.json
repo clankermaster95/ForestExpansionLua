@@ -1,0 +1,72 @@
+{
+  "OldId": 1852601967,
+  "NewId": 1311780975,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1664",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Lava Shop"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Outland\\Rocks\\Outland_Spires\\Outland_Spires8.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNVolcano.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_10793",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "L|cffffcc00a|rva Shop"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9965",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A shop with purchasable items. Items require gold and lumber. Items can be bought and used by your main builder.|n|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 10|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_097",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o00N",
+  "_base": "ovln",
+  "_name": "Lava Shop"
+}

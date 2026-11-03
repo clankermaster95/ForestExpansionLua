@@ -1,0 +1,54 @@
+{
+  "OldId": 1886283374,
+  "NewId": 1110454382,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Avul",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1836084597,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "umpm"
+    },
+    {
+      "Id": 1919970677,
+      "Type": "Unreal",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "umpr"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    },
+    {
+      "Id": 1887007861,
+      "Type": "String",
+      "Value": "mechanical,neutral",
+      "SanityCheck": 0,
+      "_field": "utyp"
+    },
+    {
+      "Id": 1918989429,
+      "Type": "String",
+      "Value": "ward",
+      "SanityCheck": 0,
+      "_field": "utar"
+    }
+  ],
+  "_rawcode": "n00B",
+  "_base": "nfnp",
+  "_name": "Spellbringer"
+}

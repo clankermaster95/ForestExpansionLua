@@ -1,0 +1,50 @@
+{
+  "OldId": 1752384834,
+  "NewId": 858861634,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_3914",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Gnaw"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNStampede.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_3915",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Gnaw"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_3916",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is gnawed. It moves slowly and is taking damage."
+    }
+  ],
+  "_rawcode": "B013",
+  "_base": "BEsh",
+  "_name": "Gnaw"
+}

@@ -1,0 +1,167 @@
+{
+  "OldId": 1650542657,
+  "NewId": 1295462465,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7776",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Natural Vigil"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNightElfBuild.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7777",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Natural Vigil - [|cffffcc00Level 1|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7778",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Natural Vigil - [|cffffcc00Level 2|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7779",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Natural Vigil - [|cffffcc00Level 3|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7780",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Natural Vigil - [|cffffcc00Level 4|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7781",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Natural Vigil - [|cffffcc00Level 5|r]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3658",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Regenerates 2% of your mana per second.|n|cff00FFFFEach level of Lunar Power increases the mana regeneration by 1%.|r|n|cff7F7F7FThe Wildkin have learned special traits that allow them to generate unbelievable power.|r"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3661",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Regenerates 3% of your mana per second.|n|cff00FFFFEach level of Lunar Power increases the mana regeneration by 1%.|r|n|cff7F7F7FThe Wildkin have learned special traits that allow them to generate unbelievable power.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3662",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Regenerates 4% of your mana per second.|n|cff00FFFFEach level of Lunar Power increases the mana regeneration by 1%.|r|n|cff7F7F7FThe Wildkin have learned special traits that allow them to generate unbelievable power.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3663",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Regenerates 5% of your mana per second.|n|cff00FFFFEach level of Lunar Power increases the mana regeneration by 1%.|r|n|cff7F7F7FThe Wildkin have learned special traits that allow them to generate unbelievable power.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3664",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Regenerates 6% of your mana per second.|n|cff00FFFFEach level of Lunar Power increases the mana regeneration by 1%.|r|n|cff7F7F7FThe Wildkin have learned special traits that allow them to generate unbelievable power.|r"
+    }
+  ],
+  "_rawcode": "A07M",
+  "_base": "AHab",
+  "_name": "Natural Vigil"
+}

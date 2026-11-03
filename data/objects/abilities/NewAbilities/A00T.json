@@ -1,0 +1,57 @@
+{
+  "OldId": 2020110401,
+  "NewId": 1412444225,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1969581381,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "h00W",
+      "SanityCheck": 0,
+      "_field": "Emeu"
+    },
+    {
+      "Id": 828730693,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": "e001",
+      "SanityCheck": 0,
+      "_field": "Eme1"
+    },
+    {
+      "Id": 1935762273,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 2.3,
+      "SanityCheck": 0,
+      "_field": "acas"
+    },
+    {
+      "Id": 862285125,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Eme3"
+    },
+    {
+      "Id": 879062341,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 4,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Eme4"
+    }
+  ],
+  "_rawcode": "A00T",
+  "_base": "Aphx",
+  "_name": "Tree Spirit"
+}

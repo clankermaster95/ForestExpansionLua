@@ -1,0 +1,93 @@
+{
+  "OldId": 1869571688,
+  "NewId": 1446260840,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_2997",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": " (Human)"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_591",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Base Flag"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10227",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "This flag should be constructed behind a full base with walls and towers. Constructing this flag will grant all allies on your team 1 gold and 50 lumber every 6 seconds, but this flag should be built in a safe place. |n|cffFF0000Warning: When this flag is constructed, it will alert the ancient of it's whereabouts! Additionally, when this flag is killed, the ancient will be granted 150 gold!|r|n|n|cfffdca00Health:|r 3000; 5/s|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd001000|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRallyPoint.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "UI\\Feedback\\RallyPoint\\RallyPoint.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_592",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Base Flag"
+    }
+  ],
+  "_rawcode": "h04V",
+  "_base": "hfoo",
+  "_name": "Base Flag"
+}

@@ -1,0 +1,75 @@
+{
+  "OldId": 1634096449,
+  "NewId": 1514221633,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828466773,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Ufa1"
+    },
+    {
+      "Id": 828466773,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 1,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Ufa1"
+    },
+    {
+      "Id": 828466773,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 1,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Ufa1"
+    },
+    {
+      "Id": 845243989,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "Ufa2"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1851880033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aran"
+    }
+  ],
+  "_rawcode": "A0AZ",
+  "_base": "AUfa",
+  "_name": "A0AZ"
+}

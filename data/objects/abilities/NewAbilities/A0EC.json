@@ -1,0 +1,57 @@
+{
+  "OldId": 846095169,
+  "NewId": 1128607809,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829317443,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "Can1"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 12,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 12,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R07Q",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 35,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    }
+  ],
+  "_rawcode": "A0EC",
+  "_base": "Acn2",
+  "_name": "A0EC"
+}

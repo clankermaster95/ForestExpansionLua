@@ -1,0 +1,32 @@
+{
+  "OldId": 1835295041,
+  "NewId": 1111896129,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8969",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Spellbringer)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2006",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Dispels most buffs from targeted unit. |n|cffffcc00Deals <A0FB,DataB1> damage to summoned units.|r"
+    }
+  ],
+  "_rawcode": "A0FB",
+  "_base": "Aadm",
+  "_name": "A0FB"
+}

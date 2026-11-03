@@ -1,0 +1,229 @@
+{
+  "OldId": 1651001409,
+  "NewId": 1412640833,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3692",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Energize"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPurge.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPurge.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\Purge\\PurgeBuffTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3693",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Energize"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3097",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Energize yourself with electrons from the atoms of gasses, in the air. Heals you for 500 (+250 per level)."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3098",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 750. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3099",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 1000. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3102",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 1250. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3103",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 1500. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3104",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 1750. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3105",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 2000. 10 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5349",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Energize (E)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5350",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Energize (E)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5351",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Energize (E)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5352",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Energize (E)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5353",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Energize (E)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5354",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Energize (E)"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5355",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Energize (E)"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1065",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1263",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3106",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals you for 500. 10 second cooldown."
+    }
+  ],
+  "_rawcode": "A03T",
+  "_base": "AHhb",
+  "_name": "Energize"
+}

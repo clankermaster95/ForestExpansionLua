@@ -1,0 +1,61 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1261711442,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6363",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Avatar of the Shath'Yar"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5801",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10242",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Avatar of the Shath'Yar - [60.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7344",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "For 10 seconds, doubles your size, increases attack speed, and increases lifesteal if Essence Theft is researched. 90 second cooldown. |n|cff7F7F7FYou herald the glory of the Old Gods with a brief show of their power.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_FRENZY.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    }
+  ],
+  "_rawcode": "R04K",
+  "_base": "Rhme",
+  "_name": "Avatar of the Shath'Yar"
+}

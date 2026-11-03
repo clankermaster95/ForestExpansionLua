@@ -1,0 +1,79 @@
+{
+  "OldId": 2003324737,
+  "NewId": 1346515009,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4817",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Elf Engineer)"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "arut"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5294",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Calls forth a wave of healing energy that bounces up to 5 times, healing 400 damage on the primary target. Each bounce restores 10% fewer hit points.|n|cff80808030 seconds cooldown|r|n|cff8080ffCan be casted on structures and mechanical units|r"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5164",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Healing Wave"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2652",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    }
+  ],
+  "_rawcode": "A0BP",
+  "_base": "AOhw",
+  "_name": "A0BP"
+}

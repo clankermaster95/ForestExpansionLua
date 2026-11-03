@@ -1,0 +1,107 @@
+{
+  "OldId": 1952539969,
+  "NewId": 1497575489,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4089",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cff28b428Tree Cut|r [10]"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNUpgradeMoonGlaive.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1011",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Tree Cut"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7450",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Once the saw fuel is added, Tree Chopper is ready to cut down a tree. This process takes up all of the fuel.|n|nCut tree is stored inside of Tree Chopper, acting as a source of fuel that allows the machine to go into overdrive.|n|n|cff288014Receive |cffffffff+10000|r|cff288014 lumber and temporarily unlock Tree Chopper's |cffffffffoverdrive|r|cff288014 ability.|r"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Weapons\\SentinelMissile\\SentinelMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    },
+    {
+      "Id": 1667326817,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "acac"
+    },
+    {
+      "Id": 1885430625,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "rear",
+      "SanityCheck": 0,
+      "_field": "acap"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2983",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4982",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Tree Chopper) - Macko"
+    },
+    {
+      "Id": 1634034017,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\CarrionSwarm\\CarrionSwarmDamage.mdl",
+      "SanityCheck": 0,
+      "_field": "aaea"
+    }
+  ],
+  "_rawcode": "A0CY",
+  "_base": "Aeat",
+  "_name": "Tree Cut"
+}

@@ -1,0 +1,98 @@
+{
+  "OldId": 2004121455,
+  "NewId": 1378955375,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5140",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Dark Tower V"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTempleOfTheDamned.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\undead\\ObsidianStatue\\ObsidianStatue.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\DemonHunterMissile\\DemonHunterMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "units\\undead\\ObsidianStatue\\ObsidianStatue.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6960",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A dark tower. |n|n|cfffdca00Health:|r 2500; 1/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 175 (Chaos)|n|cfffdca00Attack Range:|r 520|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r -|n|cffff0000Feed Value:|r |cffffdd0025|r"
+    }
+  ],
+  "_rawcode": "o01R",
+  "_base": "owtw",
+  "_name": "Dark Tower V"
+}

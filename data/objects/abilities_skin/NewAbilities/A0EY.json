@@ -1,0 +1,32 @@
+{
+  "OldId": 2020821313,
+  "NewId": 1497706561,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6143",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Attack Speed Debuff"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4359",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Freeze Zone)"
+    }
+  ],
+  "_rawcode": "A0EY",
+  "_base": "AIsx",
+  "_name": "Attack Speed Debuff"
+}

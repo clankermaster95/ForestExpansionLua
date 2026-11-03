@@ -1,0 +1,64 @@
+{
+  "OldId": 1751344494,
+  "NewId": 1261449326,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\EntangleMine\\Roots.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6942",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A Thriving Razorvine is used to gather lumber.|n|n|cfffdca00Health:|r 75|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Movement Speed:|r 315|n|cffff0000Feed Value:|r |cffffdd000|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNatureTouchGrow.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.4,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_4447",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Thriving Razorvine"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_4465",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Thrive"
+    }
+  ],
+  "_rawcode": "n00K",
+  "_base": "nech",
+  "_name": "Thriving Razorvine"
+}

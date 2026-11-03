@@ -1,0 +1,30 @@
+{
+  "OldId": 1852336449,
+  "NewId": 910372929,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 829845097,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "inv1"
+    }
+  ],
+  "_rawcode": "A0C6",
+  "_base": "Aihn",
+  "_name": "A0C6"
+}

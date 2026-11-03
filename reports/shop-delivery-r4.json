@@ -1,0 +1,65 @@
+{
+  "version": "3.2.0",
+  "revision": "r4",
+  "backup": "backups\\20261102-213333-l20to1kw",
+  "changed_modules": [
+    {
+      "module": "src/items/recipe_data.lua",
+      "before_sha256": "7f869733b0cdae6c3dee30bd2b04583e611f4872ec39fd16aa01a6d15bb7f5fe",
+      "after_sha256": "deae054a7f2f9eade2e36a02f4f9afe204f702d20c3a037ceb0347ab119b79cd"
+    },
+    {
+      "module": "src/items/recipes.lua",
+      "before_sha256": "aaef9a2aec480c6fc92aee5dacc08ea83bc2e37bc7c36a25544b6e7bd2d58442",
+      "after_sha256": "897e95369301957826f404baaf9ce65c6c0effc55966413ad1bdf48d534e1b53"
+    },
+    {
+      "module": "src/items/shops.lua",
+      "before_sha256": "34d777741084c9c6bfb71a0c4fa001b1f656789ffcb7ed5a7c14d82e7378b194",
+      "after_sha256": "ffc0be1ed3d9b97925a018c57e98ae1849da04d1b68f2bcfba00e42845be7e8e"
+    },
+    {
+      "module": "src/commands/test_data.lua",
+      "before_sha256": "568d6c1cd26051ff0c5064015be6ee4818ef28af5f625829b701818b1f11c486",
+      "after_sha256": "ab0ccd74be97dc353d25b69294421a4053a916ff3b6dacc78b4aacc2b400b8c2"
+    },
+    {
+      "module": "src/commands/solo_test.lua",
+      "before_sha256": "9388e6570ed0d0a611548dc6a6959e3015bf0d1a0543e8bf35b09c50306f2441",
+      "after_sha256": "5845fa777c9669c160211a6f59435a2e005b9d0f099828c86f36975ebdf13a23"
+    }
+  ],
+  "payload_changes": [
+    {
+      "file": "war3map.wts",
+      "before_sha256": "481be0e6393b081089f8bd6aadc42289c7f42773cf6cde225ae8d9955b5a4544",
+      "after_sha256": "70935228fc3ae28acf4dd3f0f6f50bc447e42e2bb0033b6cde4ac6d5ec8d2caa"
+    }
+  ],
+  "observations": [
+    "User reports visible shop recipient but items dropping next to shop.",
+    "Old diagnostic reported zero recipe operations; normal item sales were not counted."
+  ],
+  "object_review": {
+    "shops": [
+      "h02B",
+      "n000",
+      "n00A"
+    ],
+    "abilities": "All three carry Aall and Apit; configured sold-item lists retained.",
+    "hero": "O004 (Ignite) has AInv. No AInv/Aall override, broad forced-item-drop handler or shop-stock conversion was found.",
+    "changes": "None; no speculative ability, range, stock, owner, price or inventory-object changes."
+  },
+  "island_comparison": {
+    "source": "https://github.com/Rogoeu/Island-Defense-Lua/blob/cbc987c39e3151a1968830ec15fe4af7910bab05/items/ShopSystemAutoBuy.lua",
+    "buyer_selection": "Island uses IssueTargetOrderById(nextShop,OrderId(\"neutralinteract\"),buyer) on page switching. Forest now uses that owned-shop route, with explicit-player fallback/shared route. This is a source comparison, not proof that the prior native order always fails.",
+    "crafting": "Both consume owned ingredients, charge missing components and insert the crafted result. Island also guards a missing buyer; neither can craft from a sale event that never fired.",
+    "delivery": "Forest previously relied entirely on native delivery for ordinary items. r4 checks the paid sold handle after delivery and inserts an unowned ground item into the actual living buyer, with capacity checks."
+  },
+  "diagnostics": "Solo-only automatic order, sale, buyer, range, inventory, pickup/drop and delivery trace; all sales separate from recipe counters; on/off toggle. No ground scans or guessed payer.",
+  "native_shop_test": false,
+  "native_probe": "Prepared outside the release but never run. User revoked permission and forbids launching/controlling Warcraft.",
+  "multiplayer_test": false,
+  "remaining": "User must report r4 trace to confirm exact native cause and fix; offline checks cannot determine why the visible recipient did not receive the item.",
+  "archive_sha256": "59a4b9da07e93a98c2128fac13fe8d96695b84fbbc62cb1d98dd04f7ef835e8a"
+}

@@ -1,0 +1,69 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1479815250,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7498",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Clairvoyant Mystics"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ghk1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10271",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Clairvoyant Mystics - [30.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7506",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Allows you to construct |cffFF0000spellcasting|r technology centers. |n|cff7F7F7FAncient arts are practiced by Wildkin, and their teachings remain a mystery to those who are not blessed with powers that it is taught to. These ancient arts are capable of bringing entire kingdoms to their knees.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNEnchantedCrows.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R04X",
+  "_base": "Rhme",
+  "_name": "Clairvoyant Mystics"
+}

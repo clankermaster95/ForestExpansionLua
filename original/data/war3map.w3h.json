@@ -1,0 +1,1434 @@
+{
+  "FormatVersion": "v3",
+  "BaseBuffs": [
+    {
+      "OldId": 1802981186,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1902464856,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1902464834,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1819304258,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1936083032,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1684297048,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1719169090,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1953788738,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1986086978,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 0,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    }
+  ],
+  "NewBuffs": [
+    {
+      "OldId": 1869640514,
+      "NewId": 808464450,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 825241666,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1684097090,
+      "NewId": 842018882,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1667321666,
+      "NewId": 858796098,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 875573314,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869378370,
+      "NewId": 892350530,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1700876098,
+      "NewId": 909127746,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 925904962,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1684097090,
+      "NewId": 942682178,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1668565058,
+      "NewId": 959459394,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 1093677122,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1935951938,
+      "NewId": 1110454338,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 1127231554,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1718832962,
+      "NewId": 1144008770,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1717782850,
+      "NewId": 1160785986,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1700881986,
+      "NewId": 1177563202,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1701868354,
+      "NewId": 1194340418,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1768967746,
+      "NewId": 1211117634,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1667321666,
+      "NewId": 1227894850,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869768258,
+      "NewId": 1244672066,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1952992834,
+      "NewId": 1261449282,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 1278226498,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1634096450,
+      "NewId": 1295003714,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869768258,
+      "NewId": 1311780930,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1667321666,
+      "NewId": 1328558146,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1685547074,
+      "NewId": 1345335362,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1918988098,
+      "NewId": 1362112578,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1685540674,
+      "NewId": 1378889794,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1785033282,
+      "NewId": 1395667010,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1667321666,
+      "NewId": 1412444226,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1429221442,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1935951938,
+      "NewId": 1445998658,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1718832962,
+      "NewId": 1462775874,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "undead",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1700876098,
+      "NewId": 1479553090,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1684097090,
+      "NewId": 1496330306,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1751205186,
+      "NewId": 1513107522,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1919239490,
+      "NewId": 808529986,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1936876354,
+      "NewId": 825307202,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1700881986,
+      "NewId": 842084418,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1752384834,
+      "NewId": 858861634,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1986090306,
+      "NewId": 875638850,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 892416066,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1785033282,
+      "NewId": 909193282,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1969313090,
+      "NewId": 925970498,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1835814466,
+      "NewId": 942747714,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1717782850,
+      "NewId": 959524930,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1936543298,
+      "NewId": 1093742658,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1937003842,
+      "NewId": 1110519874,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1127297090,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869768258,
+      "NewId": 1144074306,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1986090306,
+      "NewId": 1160851522,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1919045186,
+      "NewId": 1177628738,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1768910914,
+      "NewId": 1194405954,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1718832962,
+      "NewId": 1211183170,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1953713730,
+      "NewId": 1227960386,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1920222529,
+      "NewId": 1244737602,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1903445336,
+      "NewId": 808464472,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1718832962,
+      "NewId": 1261514818,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1735609922,
+      "NewId": 1278292034,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1935887938,
+      "NewId": 1295069250,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1935887960,
+      "NewId": 825241688,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1852395074,
+      "NewId": 1311846466,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1700876098,
+      "NewId": 1328623682,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1345400898,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1650544194,
+      "NewId": 1362178114,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "human",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1919239490,
+      "NewId": 1395732546,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1818453058,
+      "NewId": 1378955330,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1819567170,
+      "NewId": 1412509762,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1936876354,
+      "NewId": 1429286978,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "human",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634693698,
+      "NewId": 1446064194,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "human",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1986090306,
+      "NewId": 1462841410,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "human",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1769164354,
+      "NewId": 1479618626,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "human",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 1496395842,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "human",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 1513173058,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "human",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1851934786,
+      "NewId": 808595522,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 825372738,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1936543298,
+      "NewId": 842149954,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 858927170,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1650544194,
+      "NewId": 875704386,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "human",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1952992834,
+      "NewId": 892481602,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 909258818,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1969313090,
+      "NewId": 926036034,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1650542658,
+      "NewId": 942813250,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1634096450,
+      "NewId": 959590466,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 2004307778,
+      "NewId": 1093808194,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1969313090,
+      "NewId": 1110585410,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1127362626,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1685547074,
+      "NewId": 1144139842,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1668565058,
+      "NewId": 1160917058,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1835615554,
+      "NewId": 1177694274,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1634288962,
+      "NewId": 1194471490,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1952735832,
+      "NewId": 842018904,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1952735832,
+      "NewId": 858796120,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1986090306,
+      "NewId": 1211248706,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1668899650,
+      "NewId": 1228025922,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 846816066,
+      "NewId": 1244803138,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869827650,
+      "NewId": 1261580354,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1835615554,
+      "NewId": 1278357570,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1634288962,
+      "NewId": 1295134786,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1650542658,
+      "NewId": 1311912002,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1903445336,
+      "NewId": 875573336,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1920222529,
+      "NewId": 1328689218,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 1345466434,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 1362243650,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1634693698,
+      "NewId": 1379020866,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1684162626,
+      "NewId": 1395798082,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 2053261378,
+      "NewId": 1412575298,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 2053261400,
+      "NewId": 892350552,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1634693698,
+      "NewId": 1429352514,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1718830424,
+      "NewId": 909127768,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1953788738,
+      "NewId": 1446129730,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1936083032,
+      "NewId": 925904984,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869827650,
+      "NewId": 1462906946,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1936083010,
+      "NewId": 1479684162,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1835615554,
+      "NewId": 1496461378,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1634288962,
+      "NewId": 1513238594,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1650673986,
+      "NewId": 808661058,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 825438274,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1768967746,
+      "NewId": 875769922,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1634693698,
+      "NewId": 942878786,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1668565058,
+      "NewId": 858992706,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1700881986,
+      "NewId": 842215490,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1700876098,
+      "NewId": 926101570,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869374018,
+      "NewId": 892547138,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1700876098,
+      "NewId": 909324354,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1752384834,
+      "NewId": 1110650946,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1718121794,
+      "NewId": 1144205378,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 959656002,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1667321666,
+      "NewId": 1093873730,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1969313090,
+      "NewId": 1127428162,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "nightelf",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835615554,
+      "NewId": 1160982594,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1634288962,
+      "NewId": 1177759810,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1194537026,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1936083032,
+      "NewId": 942682200,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1785033282,
+      "NewId": 1211314242,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869378370,
+      "NewId": 1228091458,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1936083032,
+      "NewId": 959459416,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1819500866,
+      "NewId": 1244868674,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1718575704,
+      "NewId": 1093677144,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1902464834,
+      "NewId": 1261645890,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 1295200322,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1869640514,
+      "NewId": 1311977538,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1650544194,
+      "NewId": 1328754754,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1919110722,
+      "NewId": 1345531970,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1684097090,
+      "NewId": 1362309186,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1701868354,
+      "NewId": 1278423106,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1734561346,
+      "NewId": 1379086402,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1969313090,
+      "NewId": 1395863618,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1835615554,
+      "NewId": 1412640834,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "undead",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1634288962,
+      "NewId": 1429418050,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "undead",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1702316098,
+      "NewId": 1446195266,
+      "Unk": [
+        0
+      ],
+      "Modifications": [
+        {
+          "Id": 1667330662,
+          "Type": "String",
+          "Value": "undead",
+          "SanityCheck": 0
+        }
+      ]
+    },
+    {
+      "OldId": 1835619650,
+      "NewId": 1462972482,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802981186,
+      "NewId": 1479749698,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1819500866,
+      "NewId": 1496526914,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1802723906,
+      "NewId": 1513304130,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1717782850,
+      "NewId": 808726594,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    },
+    {
+      "OldId": 1819500866,
+      "NewId": 825503810,
+      "Unk": [
+        0
+      ],
+      "Modifications": []
+    }
+  ]
+}

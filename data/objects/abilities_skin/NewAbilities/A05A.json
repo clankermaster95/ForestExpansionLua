@@ -1,0 +1,61 @@
+{
+  "OldId": 1903445313,
+  "NewId": 1094004801,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5114",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Well of Pain"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2243",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5115",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00W|rell of Pain"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPotionOfVampirism.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2827",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "The Necromancer stands still and channels a Well of Pain, healing all nearby units for 150 health every 3 seconds. This effect lasts 12 seconds. 25 second cooldown."
+    }
+  ],
+  "_rawcode": "A05A",
+  "_base": "AEtq",
+  "_name": "Well of Pain"
+}

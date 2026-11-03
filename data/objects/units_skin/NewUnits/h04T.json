@@ -1,0 +1,72 @@
+{
+  "OldId": 1869571688,
+  "NewId": 1412706408,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7823",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Enraged Ent"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\nightelf\\AncientProtector\\AncientProtector.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNTreant.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_433",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7825",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffffcc00E|rnraged Ent"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10219",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Mobile melee soldiers that are adepts at hunting and trapping the ancient. |n|cff7F7F7FNature answers to the call of the Wildkin.|r|n|n|cfffdca00Health:|r 800; 1/s|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 60 (Piercing)|n|cfffdca00Attack Range:|r 90|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 350|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Wendigo",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.55,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "h04T",
+  "_base": "hfoo",
+  "_name": "Enraged Ent"
+}

@@ -1,0 +1,48 @@
+{
+  "OldId": 1886614593,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 846230356,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 1,
+      "SanityCheck": 1886614593,
+      "_field": "Tsp2"
+    },
+    {
+      "Id": 829453140,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 30,
+      "SanityCheck": 1886614593,
+      "_field": "Tsp1"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 12,
+      "SanityCheck": 1886614593,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 600,
+      "SanityCheck": 1886614593,
+      "_field": "aare"
+    }
+  ],
+  "_rawcode": "Atsp",
+  "_base": "Atsp",
+  "_name": "Atsp"
+}

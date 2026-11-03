@@ -1,0 +1,58 @@
+{
+  "OldId": 1718903154,
+  "NewId": 1462775881,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3644",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Random"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSelectHeroOn.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "war3mapImported\\FlakCannon.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_3645",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Random"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3646",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Let the game pick your race. Any race will be selected at random."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_3647",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Let the game pick your race. Any race will be selected at random."
+    }
+  ],
+  "_rawcode": "I00W",
+  "_base": "ratf",
+  "_name": "Random"
+}

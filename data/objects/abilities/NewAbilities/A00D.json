@@ -1,0 +1,57 @@
+{
+  "OldId": 1869640513,
+  "NewId": 1144008769,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B03N",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 846164051,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 0.6,
+      "SanityCheck": 0,
+      "_field": "Spo2"
+    },
+    {
+      "Id": 829386835,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Spo1"
+    },
+    {
+      "Id": 862941267,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Spo3"
+    }
+  ],
+  "_rawcode": "A00D",
+  "_base": "Aspo",
+  "_name": "Smog"
+}

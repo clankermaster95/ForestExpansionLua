@@ -1,0 +1,107 @@
+{
+  "OldId": 1919182437,
+  "NewId": 1093677157,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9941",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ignite's Lackey"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\HellstoneGolem.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNBTNHellstoneGolem.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\RedDragonBreath\\RedDragonMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Infernal",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2338",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "D"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_9942",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Ignite's Lackey"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9802",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Lackey with devastating immolation ability."
+    },
+    {
+      "Id": 1969779573,
+      "Type": "String",
+      "Value": "Shadow",
+      "SanityCheck": 0,
+      "_field": "ushu"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "war3mapImported\\HellstoneGolem_Portrait.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 2053927797,
+      "Type": "Real",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uslz"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.75,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "e00A",
+  "_base": "efdr",
+  "_name": "Ignite's Lackey"
+}

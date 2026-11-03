@@ -1,0 +1,31 @@
+{
+  "OldId": 1969637697,
+  "NewId": 1363292225,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1617",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Item Summon Repair Bot"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNClockWerkGoblin.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A0BQ",
+  "_base": "AIfu",
+  "_name": "Item Summon Repair Bot"
+}

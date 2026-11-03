@@ -1,0 +1,229 @@
+{
+  "OldId": 1851877441,
+  "NewId": 1346711617,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9202",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Gale Winds"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNAnimalWarTraining.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2042",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Passively launches a storm missile every second at a random enemy within 400 range, dealing 60 damage.\n\nEach level increases the number of missiles launched per second by 1."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9227",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Gale Winds - [|cfaaffcffLevel %d|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9228",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds - [|cfaaffcffLevel 1|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9229",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds - [|cfaaffcffLevel 2|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9238",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds - [|cfaaffcffLevel 3|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9239",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds - [|cfaaffcffLevel 4|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9240",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds - [|cfaaffcffLevel 5|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9241",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds - [|cfaaffcffLevel 6|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9242",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Gale Winds - [|cfaaffcffLevel 7|r]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2043",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc001|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2161",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc002|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2272",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc003|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2755",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc004|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3057",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc005|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5849",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc006|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5856",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc007|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1601",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9393",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (New)"
+    }
+  ],
+  "_rawcode": "A0EP",
+  "_base": "Ahan",
+  "_name": "Gale Winds"
+}

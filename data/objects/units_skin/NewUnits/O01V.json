@@ -1,0 +1,87 @@
+{
+  "OldId": 1751348303,
+  "NewId": 1446064207,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_7026",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ancient of Light"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSorceress.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\Archangel Female.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "Naisha",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_7030",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cffFFFF00Divinity|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7031",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffFFFF00Divinity|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9522",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cffFF8040Difficulty:|r |cff00FF00Easy|r\n|cffFF8040Strong Against:|r Bases & Solos\n|cffFF8040Weak Against:|r Militaries\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r|n\nThis ancient is specialized in defense and passivity. She is granted passive experience per second, and has a huge arsenal of heals and protective abilities. The goal of this ancient is to survive until level 20, moreso than any other ancient. Her ultimate guarantees her safety, and an easy trip to level 20."
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2.5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_5957",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Divinity)"
+    }
+  ],
+  "_rawcode": "O01V",
+  "_base": "Otch",
+  "_name": "Ancient of Light"
+}

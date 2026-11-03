@@ -1,0 +1,58 @@
+{
+  "OldId": 1919903343,
+  "NewId": 1177563247,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_978",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Shaman Hub"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\orc\\SpiritLodge\\SpiritLodge.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5457",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Shaman Hub"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_039",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "H"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9910",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A hub used to build Shamans and Witch doctors that have supportful spells and can be used to hunt down the Ancient and his Minions of Vengance.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0040|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o00F",
+  "_base": "ofor",
+  "_name": "Shaman Hub"
+}

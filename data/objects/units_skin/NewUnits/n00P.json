@@ -1,0 +1,72 @@
+{
+  "OldId": 1835427182,
+  "NewId": 1345335406,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMageTower.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\other\\MageTower\\MageTower.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5130",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Altar of Technologies"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5460",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build Altar of Technologies"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10304",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "The golem hero can be created there to serve its master.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "AltarOfKings",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "HMED",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_130",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "A"
+    }
+  ],
+  "_rawcode": "n00P",
+  "_base": "nefm",
+  "_name": "Altar of Technologies"
+}

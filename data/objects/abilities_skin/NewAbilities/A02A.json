@@ -1,0 +1,238 @@
+{
+  "OldId": 1651001409,
+  "NewId": 1093808193,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9737",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Draconic Regeneration"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9738",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Draconic Regeneration"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2894",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "A quick burst of draconic regeneration healing 500 (+250 per level)."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9739",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Draconic Regeneration"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9740",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Draconic Regeneration"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9741",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Draconic Regeneration"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9742",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Draconic Regeneration"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9743",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Draconic Regeneration"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9744",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Draconic Regeneration"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9745",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Draconic Regeneration"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2900",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When casted, you are healed by 500 health. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2904",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When casted, you are healed by 750 health. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2906",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When casted, you are healed by 1000 health. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2908",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When casted, you are healed by 1250 health. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2915",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When casted, you are healed by 1500 health. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2923",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When casted, you are healed by 1750 health. 10 second cooldown."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2926",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When casted, you are healed by 2000 health. 10 second cooldown."
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "units\\creeps\\AzureDragonWelp\\AzureDragonWelp.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1014",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1056",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    },
+    {
+      "Id": 2020635233,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "arpx"
+    }
+  ],
+  "_rawcode": "A02A",
+  "_base": "AHhb",
+  "_name": "Draconic Regeneration"
+}

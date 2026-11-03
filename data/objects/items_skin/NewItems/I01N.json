@@ -1,0 +1,58 @@
+{
+  "OldId": 1953326439,
+  "NewId": 1311846473,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9144",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ledger of Enlightenment"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNNecromancerMaster.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_5770",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff2c9b9bLedger of Enlightenment|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10367",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff21b121On wearer:|r Grants 8 EXP per second.|n|n|cffde3737Multiple instances of same ledger|r |cffde0000DO NOT|r |cffde3737stack.|r"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_10368",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "|cff21b121On wearer:|r Grants 8 EXP per second.|n|n|cffde3737Multiple instances of same ledger|r |cffde0000DO NOT|r |cffde3737stack.|r"
+    }
+  ],
+  "_rawcode": "I01N",
+  "_base": "gemt",
+  "_name": "Ledger of Enlightenment"
+}

@@ -1,0 +1,42 @@
+{
+  "OldId": 1651328321,
+  "NewId": 960573505,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4302",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Sends a bolt of negative energy that burns up to <A0A9,DataA1> points of a target enemy unit's mana. The mana combusts, dealing damage equal to the amount of mana burned. 7 second cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1426",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Mana Burn"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2480",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "A0A9",
+  "_base": "AEmb",
+  "_name": "A0A9"
+}

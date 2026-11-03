@@ -1,0 +1,32 @@
+{
+  "OldId": 1802980929,
+  "NewId": 859910209,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_490",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(NE)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3995",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Allows the Night Elf to become invisible and move 50% faster for 10 seconds. 30 second cooldown."
+    }
+  ],
+  "_rawcode": "A0A3",
+  "_base": "ANwk",
+  "_name": "A0A3"
+}

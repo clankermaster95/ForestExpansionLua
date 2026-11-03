@@ -1,0 +1,146 @@
+{
+  "OldId": 1818325064,
+  "NewId": 875966536,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_137",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Amalgamation"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNForgottenOne.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Creeps\\ForgottenOne\\ForgottenOne.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_153",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "Fleshy Mass,Fused Meat,Growing Monstrosity"
+    },
+    {
+      "Id": 1970434165,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "upru"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_583",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1953980789,
+      "Type": "String",
+      "Value": "TRIGSTR_398",
+      "SanityCheck": 0,
+      "_field": "uawt",
+      "_resolvedText": "Revive Amalgamation"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_8781",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Create Amalgamation [35.0]"
+    },
+    {
+      "Id": 1919972469,
+      "Type": "String",
+      "Value": "TRIGSTR_459",
+      "SanityCheck": 0,
+      "_field": "utpr",
+      "_resolvedText": "Revive Amalgamation"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10346",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A gut-wrenching beast that should not even exist. Can grow from absorbing Husks, making it ever so frightening.|n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_1917",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "- Cultist Macko"
+    },
+    {
+      "Id": 1769173877,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNForgottenOne.blp",
+      "SanityCheck": 0,
+      "_field": "ussi"
+    },
+    {
+      "Id": 1935827317,
+      "Type": "String",
+      "Value": "A0C6",
+      "SanityCheck": 0,
+      "_field": "uabs"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.625,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 2.85,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    }
+  ],
+  "_rawcode": "H064",
+  "_base": "Hpal",
+  "_name": "Amalgamation"
+}

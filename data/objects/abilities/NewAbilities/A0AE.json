@@ -1,0 +1,39 @@
+{
+  "OldId": 1953319233,
+  "NewId": 1161900097,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 846490952,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "Hmt2"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ground,invulnerable,neutral,player,structure,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    }
+  ],
+  "_rawcode": "A0AE",
+  "_base": "AImt",
+  "_name": "Teleportation"
+}

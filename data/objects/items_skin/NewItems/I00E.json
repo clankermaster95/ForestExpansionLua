@@ -1,0 +1,51 @@
+{
+  "OldId": 1818850163,
+  "NewId": 1160785993,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1710",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Flaming Staff"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1711",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Flaming Staff"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1712",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An extremely powerful staff harvested from Flarith himself, allows you to silence all enemies in an AoE, and increases your damage by 60."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_1713",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "An extremely powerful staff harvested from Flarith himself, allows you to silence all enemies in an AoE, and increases your damage by 60."
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "war3mapImported\\Lava-Treasure-Chest.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    }
+  ],
+  "_rawcode": "I00E",
+  "_base": "ssil",
+  "_name": "Flaming Staff"
+}

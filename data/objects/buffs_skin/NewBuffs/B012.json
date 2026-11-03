@@ -1,0 +1,50 @@
+{
+  "OldId": 1700881986,
+  "NewId": 842084418,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_1761",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Track"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_1762",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Track"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_3913",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is tracked; it has reduced armor and can be seen by the enemy."
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpy.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Human\\AerialShackles\\AerialShacklesTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    }
+  ],
+  "_rawcode": "B012",
+  "_base": "Bfae",
+  "_name": "Track"
+}

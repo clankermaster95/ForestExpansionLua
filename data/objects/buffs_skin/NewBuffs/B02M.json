@@ -1,0 +1,28 @@
+{
+  "OldId": 1634288962,
+  "NewId": 1295134786,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_7712",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Cascade"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_7719",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": " (Cascade)"
+    }
+  ],
+  "_rawcode": "B02M",
+  "_base": "BEia",
+  "_name": "Cascade"
+}

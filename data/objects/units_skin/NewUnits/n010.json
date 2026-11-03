@@ -1,0 +1,48 @@
+{
+  "OldId": 1919906926,
+  "NewId": 808530030,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\SpiderToxin.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6155",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Sticky Glue"
+    },
+    {
+      "Id": 1935827317,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabs"
+    },
+    {
+      "Id": 1685218677,
+      "Type": "Real",
+      "Value": 600,
+      "SanityCheck": 0,
+      "_field": "uerd"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "n010",
+  "_base": "ntor",
+  "_name": "Sticky Glue"
+}

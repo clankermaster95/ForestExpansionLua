@@ -1,0 +1,89 @@
+{
+  "OldId": 1701990209,
+  "NewId": 808792129,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4999",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Unending Frost"
+    },
+    {
+      "Id": 1952540001,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Items\\TomeOfRetraining\\TomeOfRetrainingCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "aeat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNResistantSkin.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNResistantSkin.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5000",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Unending Frost"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5001",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "When dropped below 1 health, you will instantly return with full. This effect can only happen once every 5 minutes."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5002",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "When dropped below 1 health, you will instantly return with full. This effect can only happen once every 5 minutes."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5003",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Unending Frost"
+    }
+  ],
+  "_rawcode": "A050",
+  "_base": "AOre",
+  "_name": "Unending Frost"
+}

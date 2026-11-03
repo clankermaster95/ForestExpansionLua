@@ -1,0 +1,511 @@
+{
+  "OldId": 1918986322,
+  "NewId": 1513238610,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1300",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Thick Hide"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1322",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Thick Hide"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1346",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Thick Hide"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1347",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Thick Hide"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1348",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Thick Hide"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3783",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Thick Hide"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3785",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Thick Hide"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3786",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Thick Hide"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3787",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Thick Hide"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3788",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Thick Hide"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8972",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Thick Hide - [5.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8973",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Thick Hide - [10.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8978",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Thick Hide - [15.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8996",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Thick Hide - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8998",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Thick Hide - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1354",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Thick Hide - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1355",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Thick Hide - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1377",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Thick Hide - [40.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1378",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Thick Hide - [45.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1379",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Thick Hide - [50.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1400",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Worgen's health by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1401",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Worgen's health by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1402",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Worgen's health by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1403",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Worgen's health by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1404",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Worgen's health by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3804",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Worgen's health by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3805",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Worgen's health by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3806",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Worgen's health by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3807",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Worgen's health by 100."
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3808",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases your Worgen's health by 100."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5527",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5537",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5538",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5539",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5540",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5541",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5542",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5543",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5544",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 10,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5545",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "T"
+    }
+  ],
+  "_rawcode": "R02Z",
+  "_base": "Rhar",
+  "_name": "Thick Hide"
+}

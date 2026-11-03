@@ -1,0 +1,40 @@
+{
+  "OldId": 1768977217,
+  "NewId": 1127231553,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\SpiritLink\\SpiritLinkZapTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNAdvancedDeathTower.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_082",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Radiation"
+    }
+  ],
+  "_rawcode": "A00C",
+  "_base": "Aspi",
+  "_name": "Radiation"
+}

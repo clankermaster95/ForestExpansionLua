@@ -1,0 +1,60 @@
+{
+  "OldId": 1869378369,
+  "NewId": 1514483777,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6950",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Freeze Zone"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7160",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Freeze Zone"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7043",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Slow)"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNSlow.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\BTNSlow.blp",
+      "SanityCheck": 0,
+      "_field": "auar"
+    }
+  ],
+  "_rawcode": "A0EZ",
+  "_base": "Aslo",
+  "_name": "Freeze Zone"
+}

@@ -1,0 +1,22 @@
+{
+  "OldId": 1853121601,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_281",
+      "SanityCheck": 1853121601,
+      "_field": "aub1",
+      "_resolvedText": "Detonate, destroying this unit."
+    }
+  ],
+  "_rawcode": "Adtn",
+  "_base": "Adtn",
+  "_name": "Adtn"
+}

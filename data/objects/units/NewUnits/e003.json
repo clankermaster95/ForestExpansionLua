@@ -1,0 +1,103 @@
+{
+  "OldId": 1886615397,
+  "NewId": 858796133,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0F2,A043",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "none",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 320,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1769300597,
+      "Type": "String",
+      "Value": "e006,e005,e004",
+      "SanityCheck": 0,
+      "_field": "ubui"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R05H,R03A",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    }
+  ],
+  "_rawcode": "e003",
+  "_base": "ewsp",
+  "_name": "Warpling"
+}

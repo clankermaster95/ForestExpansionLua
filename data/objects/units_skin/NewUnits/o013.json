@@ -1,0 +1,34 @@
+{
+  "OldId": 829453167,
+  "NewId": 858861679,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2994",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Totem of Destruction"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\FireTotem.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "unsf"
+    }
+  ],
+  "_rawcode": "o013",
+  "_base": "osp1",
+  "_name": "Totem of Destruction"
+}

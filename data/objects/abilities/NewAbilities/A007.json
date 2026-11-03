@@ -1,0 +1,30 @@
+{
+  "OldId": 1902464833,
+  "NewId": 925904961,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 2500,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1986818657,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "arlv"
+    }
+  ],
+  "_rawcode": "A007",
+  "_base": "AOeq",
+  "_name": "Frozen Deluge"
+}

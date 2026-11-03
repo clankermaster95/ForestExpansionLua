@@ -1,0 +1,65 @@
+{
+  "OldId": 1868918895,
+  "NewId": 1479553135,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2521",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Goblin Observer"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\WCIIGoblinAlchemist.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGoblinSapper.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "GoblinSapper",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2642",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Goblin |cffffcc00O|rbserver"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10074",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An advanced unit that allows you to see one part of the map every 60 seconds.|n|n|cfffdca00Health:|r 250; 0.25/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_608",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "O"
+    }
+  ],
+  "_rawcode": "o00X",
+  "_base": "opeo",
+  "_name": "Goblin Observer"
+}

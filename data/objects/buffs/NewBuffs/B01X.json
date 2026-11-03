@@ -1,0 +1,19 @@
+{
+  "OldId": 1769164354,
+  "NewId": 1479618626,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1667330662,
+      "Type": "String",
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "frac"
+    }
+  ],
+  "_rawcode": "B01X",
+  "_base": "BNsi",
+  "_name": "B01X"
+}

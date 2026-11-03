@@ -1,0 +1,145 @@
+{
+  "OldId": 2004115816,
+  "NewId": 858861672,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "R00A",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 220,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 300,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1664180597,
+      "Type": "Unreal",
+      "Value": 0.25,
+      "SanityCheck": 0,
+      "_field": "ua1c"
+    },
+    {
+      "Id": 1915838837,
+      "Type": "Int",
+      "Value": 600,
+      "SanityCheck": 0,
+      "_field": "ua1r"
+    },
+    {
+      "Id": 1717920885,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "udef"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "fort",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 150,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1953527157,
+      "Type": "String",
+      "Value": "h014",
+      "SanityCheck": 0,
+      "_field": "uupt"
+    },
+    {
+      "Id": 1731289461,
+      "Type": "String",
+      "Value": "debris,ground,item,nonancient,structure,ward",
+      "SanityCheck": 0,
+      "_field": "ua1g"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1932616053,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1s"
+    },
+    {
+      "Id": 1647403381,
+      "Type": "Int",
+      "Value": 6,
+      "SanityCheck": 0,
+      "_field": "ua1b"
+    }
+  ],
+  "_rawcode": "h013",
+  "_base": "hatw",
+  "_name": "Light House"
+}

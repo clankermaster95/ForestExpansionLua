@@ -1,0 +1,32 @@
+{
+  "OldId": 1684425025,
+  "NewId": 1480798273,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_953",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Tree Chopper Summon"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1037",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "- Macko"
+    }
+  ],
+  "_rawcode": "A0CX",
+  "_base": "AIfd",
+  "_name": "Tree Chopper Summon"
+}

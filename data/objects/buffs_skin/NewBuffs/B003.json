@@ -1,0 +1,50 @@
+{
+  "OldId": 1667321666,
+  "NewId": 858796098,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_801",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Spirit Aura: Offense"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_802",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Spirit Aura: Offense"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_803",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit is under the effects of Offense; it has increased attack damage by 20%."
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\Other\\BreathOfFire\\BreathOfFireDamage.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1953653094,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNControlMagic.blp",
+      "SanityCheck": 0,
+      "_field": "fart"
+    }
+  ],
+  "_rawcode": "B003",
+  "_base": "BOac",
+  "_name": "Spirit Aura: Offense"
+}

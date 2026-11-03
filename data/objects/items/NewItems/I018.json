@@ -1,0 +1,54 @@
+{
+  "OldId": 1668444787,
+  "NewId": 942747721,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1634493289,
+      "Type": "String",
+      "Value": "Permanent",
+      "SanityCheck": 0,
+      "_field": "icla"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 625,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1953723241,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "isst"
+    }
+  ],
+  "_rawcode": "I018",
+  "_base": "srrc",
+  "_name": "[Recipe] Bleeding Scythe (1200)"
+}

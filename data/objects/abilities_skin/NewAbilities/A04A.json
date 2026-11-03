@@ -1,0 +1,31 @@
+{
+  "OldId": 1952598337,
+  "NewId": 1093939265,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4338",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Build Ancient of Protection"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNPowerGenerator.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A04A",
+  "_base": "AIbt",
+  "_name": "Build Ancient of Protection"
+}

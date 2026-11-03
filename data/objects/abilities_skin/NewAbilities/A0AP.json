@@ -1,0 +1,82 @@
+{
+  "OldId": 1835615041,
+  "NewId": 1346449473,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1301",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Shadow Dancer)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1874",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Activate Immolation to engulf this unit in flames, causing <A0AP,DataA1> damage per second to nearby enemy land units. |nDrains 25 mana/s until deactivated."
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1261",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "|cffffff00Immolation|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_296",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_297",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1172",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffff00Activate Immolation|r"
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1835",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "|cffffff00Deactivate Immolation|r"
+    }
+  ],
+  "_rawcode": "A0AP",
+  "_base": "ACim",
+  "_name": "|cffffff00Immolation|r"
+}

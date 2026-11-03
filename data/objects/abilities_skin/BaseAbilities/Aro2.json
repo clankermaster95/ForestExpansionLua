@@ -1,0 +1,22 @@
+{
+  "OldId": 846164545,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1282",
+      "SanityCheck": 846164545,
+      "_field": "aub1",
+      "_resolvedText": "Burrows the Ancient's roots into the ground, rendering it immobile, allowing it to hurl enormous rocks through the air to damage enemy units and gives the Ancient Fortified armor."
+    }
+  ],
+  "_rawcode": "Aro2",
+  "_base": "Aro2",
+  "_name": "Aro2"
+}

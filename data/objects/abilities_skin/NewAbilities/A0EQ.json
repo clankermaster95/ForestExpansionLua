@@ -1,0 +1,22 @@
+{
+  "OldId": 1819500865,
+  "NewId": 1363488833,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3669",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": " (Wind Trail)"
+    }
+  ],
+  "_rawcode": "A0EQ",
+  "_base": "Aasl",
+  "_name": "A0EQ"
+}

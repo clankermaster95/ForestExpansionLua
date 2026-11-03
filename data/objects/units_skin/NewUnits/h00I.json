@@ -1,0 +1,79 @@
+{
+  "OldId": 2004117352,
+  "NewId": 1227894888,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_5954",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Meat Tosser"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNInfernalCannon.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\InfernalCannonCannon\\InfernalCannonCannon.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\MeatwagonMissile\\MeatwagonMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_040",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_223",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Build a Meat |cffffcc00T|rosser"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_6391",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A scrappy tower that deals low damage designed for the early stage of the game.|n|n|cfffdca00Health:|r 230; 2/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 30 (Piercing)|n|cfffdca00Attack Range:|r 650|n|cfffdca00Attack Cooldown:|r 1.2|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0010|r"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h00I",
+  "_base": "hgtw",
+  "_name": "Meat Tosser"
+}

@@ -1,0 +1,69 @@
+{
+  "OldId": 1700876097,
+  "NewId": 1160982593,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3195",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Crawl Aura"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNPoisonSting.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNPoisonSting.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Items\\OrbVenom\\OrbVenom.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3196",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Crawl Aura"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3720",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases nearby friendly units' movement speed by <A03E,DataA1,%>% and attack rate by <A03E,DataB1,%>%."
+    }
+  ],
+  "_rawcode": "A03E",
+  "_base": "AOae",
+  "_name": "Crawl Aura"
+}

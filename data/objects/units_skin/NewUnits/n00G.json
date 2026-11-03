@@ -1,0 +1,48 @@
+{
+  "OldId": 1919249774,
+  "NewId": 1194340462,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "unsf"
+    },
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6700",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Intermediate Races"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 0.7,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    }
+  ],
+  "_rawcode": "n00G",
+  "_base": "nmer",
+  "_name": "Intermediate Races"
+}

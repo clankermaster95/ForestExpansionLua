@@ -1,0 +1,61 @@
+{
+  "OldId": 1718903154,
+  "NewId": 1378955337,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "A09D,A01U,A097,A096",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 950,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1886677097,
+      "Type": "Int",
+      "Value": 500000,
+      "SanityCheck": 0,
+      "_field": "ihtp"
+    },
+    {
+      "Id": 1634956649,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "iusa"
+    },
+    {
+      "Id": 1684628329,
+      "Type": "String",
+      "Value": "A09D",
+      "SanityCheck": 0,
+      "_field": "icid"
+    },
+    {
+      "Id": 1836412009,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ilum"
+    }
+  ],
+  "_rawcode": "I01R",
+  "_base": "ratf",
+  "_name": "Spellcaster's Cloak"
+}

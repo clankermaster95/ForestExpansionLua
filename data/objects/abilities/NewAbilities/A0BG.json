@@ -1,0 +1,111 @@
+{
+  "OldId": 1818447425,
+  "NewId": 1195520065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "adur"
+    },
+    {
+      "Id": 879518542,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 4,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl4"
+    },
+    {
+      "Id": 829186894,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl1"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R062",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 862741326,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Ncl3"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "B03G",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 896295758,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 5,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Ncl5"
+    }
+  ],
+  "_rawcode": "A0BG",
+  "_base": "ANcl",
+  "_name": "Blur"
+}

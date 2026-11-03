@@ -1,0 +1,70 @@
+{
+  "OldId": 1769104193,
+  "NewId": 909193281,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_847",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Mine Gold"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDisenchant.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_857",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Mine Gold (Q)"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_517",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Use this at the mound of gold to steal one of the defender's gold."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1516",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1952539489,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "UI\\Feedback\\GoldCredit\\GoldCredit.mdl",
+      "SanityCheck": 0,
+      "_field": "acat"
+    }
+  ],
+  "_rawcode": "A016",
+  "_base": "Acri",
+  "_name": "Mine Gold"
+}

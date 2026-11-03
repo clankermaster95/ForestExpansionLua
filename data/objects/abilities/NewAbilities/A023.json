@@ -1,0 +1,21 @@
+{
+  "OldId": 2020886849,
+  "NewId": 858927169,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953784137,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "Iatt"
+    }
+  ],
+  "_rawcode": "A023",
+  "_base": "AItx",
+  "_name": "Item Damage Bonus (+60)"
+}

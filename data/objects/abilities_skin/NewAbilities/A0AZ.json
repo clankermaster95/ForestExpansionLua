@@ -1,0 +1,32 @@
+{
+  "OldId": 1634096449,
+  "NewId": 1514221633,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4309",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Creates a shield of frost around a target friendly unit. The shield adds <A0AZ,DataB1> armor and slows melee units that attack it for <A0AZ,Dur1> seconds. |nLasts <A0AZ,DataA1> seconds. 2 second cooldown. Infinite range."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1473",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Frost Armor"
+    }
+  ],
+  "_rawcode": "A0AZ",
+  "_base": "AUfa",
+  "_name": "A0AZ"
+}

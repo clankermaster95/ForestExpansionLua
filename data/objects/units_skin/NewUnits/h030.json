@@ -1,0 +1,65 @@
+{
+  "OldId": 1634493032,
+  "NewId": 808661096,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3030",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Warrior Encampent"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBeastiary.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "buildings\\orc\\Beastiary\\Beastiary.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6885",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "W|cffffcc00a|rrrior Encampment"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10086",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "An arsenal for Furbolg Warrior upgrades and abilities.|n|n|cfffdca00Health:|r 450|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_101",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "A"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "h030",
+  "_base": "hbla",
+  "_name": "Warrior Encampent"
+}

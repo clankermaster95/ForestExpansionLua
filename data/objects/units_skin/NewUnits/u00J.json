@@ -1,0 +1,86 @@
+{
+  "OldId": 1869113205,
+  "NewId": 1244672117,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_377",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Greater Husk"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 199,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_462",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Greater Husk [14.0]"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10363",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A more powerful unit. Mainly used for tanking and hunting down the ancient.|n|n|cfffdca00Health:|r 800; 2/s|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 100 (Normal)|n|cfffdca00Attack Range:|r 90|n|cfffdca00Attack Cooldown:|r 1.1|n|cfffdca00Movement Speed:|r 310|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1745",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1668510581,
+      "Type": "Real",
+      "Value": 1.4,
+      "SanityCheck": 0,
+      "_field": "ussc"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1.1,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 166,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 133,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    }
+  ],
+  "_rawcode": "u00J",
+  "_base": "ugho",
+  "_name": "Greater Husk"
+}

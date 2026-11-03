@@ -1,0 +1,60 @@
+{
+  "OldId": 1667318593,
+  "NewId": 892416065,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_798",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Spirit Aura: Offense"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNControlMagic.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_799",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Spirit Aura: Offense"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_800",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Gives 20% more damage to nearby units."
+    }
+  ],
+  "_rawcode": "A015",
+  "_base": "ACac",
+  "_name": "Spirit Aura: Offense"
+}

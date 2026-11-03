@@ -1,0 +1,21 @@
+{
+  "OldId": 1986347841,
+  "NewId": 1396781121,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829842757,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "Eev1"
+    }
+  ],
+  "_rawcode": "A0AS",
+  "_base": "ACev",
+  "_name": "A0AS"
+}

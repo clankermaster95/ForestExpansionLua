@@ -1,0 +1,170 @@
+{
+  "OldId": 1701072449,
+  "NewId": 1244737601,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1856",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Dragon Rage"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\PassiveButtons\\PASBTNDemolish.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6710",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Rage - Level 1"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6711",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Rage - Level 2"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6712",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Rage - Level 3"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6713",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Rage - Level 4"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6714",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Dragon Rage - Level 5"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6715",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your attacks against buildings have a 30% chance to deal 2x damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6716",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your attacks against buildings have a 45% chance to deal 2.5x damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6717",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your attacks against buildings have a 60% chance to deal 3x damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6718",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your attacks against buildings have a 75% chance to deal 3.5x damage."
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6719",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Your attacks against buildings have a 90% chance to deal 4x damage."
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1867",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "Learn Dragon Rage"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6720",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Allows you to critically strike buildings.|nLevel 1 - 30% chance to deal 2x damage|nLevel 2 - 45% chance to deal 2.5x damage|nLevel 3 - 60% chance to deal 3x damage|nLevel 4 - 75% chance to deal 3.5x damage|nLevel 5 - 90% chance to deal 4x damage"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2067",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "R"
+    }
+  ],
+  "_rawcode": "A01J",
+  "_base": "ANde",
+  "_name": "Dragon Rage"
+}

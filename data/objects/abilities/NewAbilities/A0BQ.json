@@ -1,0 +1,48 @@
+{
+  "OldId": 1969637697,
+  "NewId": 1363292225,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829715273,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 3,
+      "Value": "n00Y",
+      "SanityCheck": 0,
+      "_field": "Ist1"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "BNcg",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 60,
+      "SanityCheck": 0,
+      "_field": "adur"
+    }
+  ],
+  "_rawcode": "A0BQ",
+  "_base": "AIfu",
+  "_name": "Item Summon Repair Bot"
+}

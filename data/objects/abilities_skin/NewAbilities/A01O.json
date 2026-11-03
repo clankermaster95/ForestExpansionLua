@@ -1,0 +1,51 @@
+{
+  "OldId": 1700876097,
+  "NewId": 1328623681,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1150",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Spirit Aura: Speed"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1151",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Spirit Aura: Speed"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Undead\\ReplenishMana\\ReplenishManaCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3496",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Increases nearby friendly units' movement speed by <A01O,DataA1,%>% and attack rate by <A01O,DataB1,%>%."
+    }
+  ],
+  "_rawcode": "A01O",
+  "_base": "AOae",
+  "_name": "Spirit Aura: Speed"
+}

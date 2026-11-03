@@ -1,0 +1,33 @@
+{
+  "OldId": 1734439522,
+  "NewId": 1177694281,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819240297,
+      "Type": "Int",
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "igol"
+    },
+    {
+      "Id": 1920234345,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "istr"
+    },
+    {
+      "Id": 1768055145,
+      "Type": "String",
+      "Value": "AIaz",
+      "SanityCheck": 0,
+      "_field": "iabi"
+    }
+  ],
+  "_rawcode": "I02F",
+  "_base": "brag",
+  "_name": "Bracer of Agility"
+}

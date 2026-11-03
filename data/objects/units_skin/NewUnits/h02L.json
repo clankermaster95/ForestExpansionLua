@@ -1,0 +1,64 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1278357608,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6255",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff00FF00Wisp|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWisp.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\nightelf\\Wisp\\Wisp.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_6256",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff00FF00Wisp|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_7165",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Support|n\n|cff008000Off Role|r: Baser|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0The Wisp is the most helpful fellow out there. Wisps are able to create bases and harvest massive amounts of lumber to pool over to their team and have a lot left over. Wisp bases are extremely sturdy and have multiple upgrades for a hero that you may get later on in the game, to assist your military races. With your upgrading centers also being aura placers, there should be a lot of room left after you have created your base, for your allies to construct important buildings in.|r"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\MurgulMagicMissile\\MurgulMagicMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    }
+  ],
+  "_rawcode": "h02L",
+  "_base": "hpea",
+  "_name": "|cff00FF00Wisp|r"
+}

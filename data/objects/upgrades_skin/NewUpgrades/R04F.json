@@ -1,0 +1,60 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1177825362,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5982",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Psychic Slam"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_10232",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Psychic Slam - [45.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7898",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "This upgrade is required to use Psychic Slam. You deal 400 (+40 per attack upgrade) damage. No cooldown. |n|cffFF8080This ability costs 300 health|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_MindRot.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    }
+  ],
+  "_rawcode": "R04F",
+  "_base": "Rhme",
+  "_name": "Psychic Slam"
+}

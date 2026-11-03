@@ -1,0 +1,118 @@
+{
+  "OldId": 1818379585,
+  "NewId": 1396191297,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9025",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Time Warp"
+    },
+    {
+      "Id": 1634034017,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "war3mapImported\\MegaBlast.mdx",
+      "SanityCheck": 0,
+      "_field": "aaea"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_CORRUPTION.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTN_CR_Faceless_CORRUPTION.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3919",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1802007137,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3921",
+      "SanityCheck": 0,
+      "_field": "arhk",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9026",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffffcc00T|rime Warp"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4453",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Teleport to any spot on the map instantly and deal 300 damage upon arrival to all nearby targets. This ability has a 5 minute cooldown."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9028",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00T|rime Warp"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4454",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Teleport to any spot on the map instantly and deal 300 damage upon arrival to all nearby targets. This ability has a 5 minute cooldown."
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\MassTeleport\\MassTeleportCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    }
+  ],
+  "_rawcode": "A08S",
+  "_base": "AEbl",
+  "_name": "Time Warp"
+}

@@ -1,0 +1,20 @@
+{
+  "OldId": 1735683429,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_9565",
+      "SanityCheck": 1735683429,
+      "_field": "unam",
+      "_resolvedText": "Dummy"
+    }
+  ],
+  "_rawcode": "emtg",
+  "_base": "emtg",
+  "_name": "Dummy"
+}

@@ -1,0 +1,117 @@
+{
+  "OldId": 1852601967,
+  "NewId": 1311780975,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Aall,Apit",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1684824693,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ubld"
+    },
+    {
+      "Id": 1836412021,
+      "Type": "Int",
+      "Value": 1000,
+      "SanityCheck": 0,
+      "_field": "ulum"
+    },
+    {
+      "Id": 1819240309,
+      "Type": "Int",
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "ugol"
+    },
+    {
+      "Id": 1836348021,
+      "Type": "Int",
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "urtm"
+    },
+    {
+      "Id": 1920298101,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ulur"
+    },
+    {
+      "Id": 1919903605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ugor"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 400,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1768648053,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "umki"
+    },
+    {
+      "Id": 1919381621,
+      "Type": "String",
+      "Value": "Rosp",
+      "SanityCheck": 0,
+      "_field": "upgr"
+    },
+    {
+      "Id": 1768256373,
+      "Type": "String",
+      "Value": "I005,I00E,I00D,I00C,I00B",
+      "SanityCheck": 0,
+      "_field": "usei"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "o001",
+      "SanityCheck": 0,
+      "_field": "ureq"
+    },
+    {
+      "Id": 1952542837,
+      "Type": "String",
+      "Value": "PathTextures\\8x8SimpleSolid.tga",
+      "SanityCheck": 0,
+      "_field": "upat"
+    },
+    {
+      "Id": 1634034805,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "udea"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    }
+  ],
+  "_rawcode": "o00N",
+  "_base": "ovln",
+  "_name": "Lava Shop"
+}

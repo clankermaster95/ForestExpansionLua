@@ -1,0 +1,30 @@
+{
+  "OldId": 1819437121,
+  "NewId": 1295265857,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 846356808,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 2,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "Har2"
+    },
+    {
+      "Id": 829579592,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "Har1"
+    }
+  ],
+  "_rawcode": "A04M",
+  "_base": "Ahrl",
+  "_name": "Harvest (Razormane)"
+}

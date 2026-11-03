@@ -1,0 +1,114 @@
+{
+  "OldId": 2004121448,
+  "NewId": 1278554216,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_766",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Cenarius Grove"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "war3mapImported\\BTNBTNEternitysCrown.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\Eternity's Crown 1537.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_767",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Cenarius Grove"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10284",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Elven spellbringer, allowing you to cast devastating spells globally. |nAlso allows you to train the ultimate hero - Cenarius. |n|cff808080Limit - 1 per player|r|n|n|cfffdca00Health:|r 2000; 25/s|n|cfffdca00Mana:|r 1000; 5/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 30|n|cffff0000Feed Value:|r |cffffdd00750|r"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "ShadowGreatHall",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_2654",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    },
+    {
+      "Id": 1634759541,
+      "Type": "String",
+      "Value": "Objects\\Spawnmodels\\NightElf\\NECancelDeath\\NECancelDeath.mdl",
+      "SanityCheck": 0,
+      "_field": "uspa"
+    },
+    {
+      "Id": 1935832437,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uubs"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "AltarOfDepths",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 192,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1919705973,
+      "Type": "Int",
+      "Value": 128,
+      "SanityCheck": 0,
+      "_field": "uclr"
+    }
+  ],
+  "_rawcode": "h05L",
+  "_base": "hwtw",
+  "_name": "Cenarius Grove"
+}

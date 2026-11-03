@@ -1,0 +1,58 @@
+{
+  "OldId": 1835428963,
+  "NewId": 1127231561,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1696",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Heated Armor"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_1697",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Purchase Heated Armor"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1860",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Engulf your self in flame, dealing 50dmg/s to nearby enemies, and increasing your armor by 3."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_8953",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Engulf your self in flame, dealing 50 damage per second to nearby enemies, and increasing your armor by 3."
+    },
+    {
+      "Id": 1818846825,
+      "Type": "String",
+      "Value": "war3mapImported\\Lava-Treasure-Chest.mdl",
+      "SanityCheck": 0,
+      "_field": "ifil"
+    }
+  ],
+  "_rawcode": "I00C",
+  "_base": "clfm",
+  "_name": "Heated Armor"
+}

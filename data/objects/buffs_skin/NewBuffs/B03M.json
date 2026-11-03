@@ -1,0 +1,51 @@
+{
+  "OldId": 1869640514,
+  "NewId": 1295200322,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_2824",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Slow Poison"
+    },
+    {
+      "Id": 1952543846,
+      "Type": "String",
+      "Value": "Objects\\Spawnmodels\\Human\\HumanLargeDeathExplode\\HumanLargeDeathExplode.mdl",
+      "SanityCheck": 0,
+      "_field": "ftat"
+    },
+    {
+      "Id": 1718840934,
+      "Type": "String",
+      "Value": "TRIGSTR_3197",
+      "SanityCheck": 0,
+      "_field": "fnsf",
+      "_resolvedText": " (Ratling)"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_3290",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "This unit was hit by Poisoned Bullets; its movement speed has been reduced, and it will take damage over time."
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6317",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Poisoned Bullets"
+    }
+  ],
+  "_rawcode": "B03M",
+  "_base": "Bspo",
+  "_name": "Slow Poison"
+}

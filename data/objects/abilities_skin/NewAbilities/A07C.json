@@ -1,0 +1,40 @@
+{
+  "OldId": 1986087233,
+  "NewId": 1127690305,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4356",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Hunger"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Environment\\NightElfBuildingFire\\ElfSmallBuildingFire2.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    }
+  ],
+  "_rawcode": "A07C",
+  "_base": "AIav",
+  "_name": "Hunger"
+}

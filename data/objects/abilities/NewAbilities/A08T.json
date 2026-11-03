@@ -1,0 +1,21 @@
+{
+  "OldId": 1735674177,
+  "NewId": 1412968513,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953784137,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 100,
+      "SanityCheck": 0,
+      "_field": "Iatt"
+    }
+  ],
+  "_rawcode": "A08T",
+  "_base": "AItg",
+  "_name": "Hammer of Might Dmg"
+}

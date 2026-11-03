@@ -1,0 +1,19 @@
+{
+  "OldId": 1936876354,
+  "NewId": 1429286978,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1667330662,
+      "Type": "String",
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "frac"
+    }
+  ],
+  "_rawcode": "B01U",
+  "_base": "Bcrs",
+  "_name": "Blinding Shade"
+}

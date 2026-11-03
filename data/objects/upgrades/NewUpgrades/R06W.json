@@ -1,0 +1,102 @@
+{
+  "OldId": 1886613330,
+  "NewId": 1463169106,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1651271527,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 1886613330,
+      "_field": "gglb"
+    },
+    {
+      "Id": 1835820903,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 1886613330,
+      "_field": "gglm"
+    },
+    {
+      "Id": 1651338343,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 200,
+      "SanityCheck": 1886613330,
+      "_field": "glmb"
+    },
+    {
+      "Id": 1835887719,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 300,
+      "SanityCheck": 1886613330,
+      "_field": "glmm"
+    },
+    {
+      "Id": 828465767,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 20,
+      "SanityCheck": 1886613330,
+      "_field": "gba1"
+    },
+    {
+      "Id": 829386087,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 40,
+      "SanityCheck": 1886613330,
+      "_field": "gmo1"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 1886613330,
+      "_field": "greq"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 1886613330,
+      "_field": "greq"
+    },
+    {
+      "Id": 846163303,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 1886613330,
+      "_field": "gmo2"
+    },
+    {
+      "Id": 845242983,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 1886613330,
+      "_field": "gba2"
+    }
+  ],
+  "_rawcode": "R06W",
+  "_base": "Rosp",
+  "_name": "Nuclear Radiation"
+}

@@ -1,0 +1,44 @@
+{
+  "OldId": 1935763571,
+  "NewId": 1311780937,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2076",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Orb of God Recipe"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2077",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Orb of God Recipe"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_2300",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Gather this and an Orb of Revealing, to create an Orb of God, which is used to reveal the whole map, but only has a single charge."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_2301",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Gather this and an Orb of Revealing, to create an Orb of God, which is used to reveal the whole map, but only has a single charge."
+    }
+  ],
+  "_rawcode": "I00N",
+  "_base": "shas",
+  "_name": "Orb of God Recipe"
+}

@@ -1,0 +1,39 @@
+{
+  "OldId": 1633829697,
+  "NewId": 1312960577,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 99999,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 828531016,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 1,
+      "Value": 2.5,
+      "SanityCheck": 0,
+      "_field": "Hab1"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "air,friend,ground,invulnerable,self,structure,vulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    }
+  ],
+  "_rawcode": "A0BN",
+  "_base": "ACba",
+  "_name": "A0BN"
+}

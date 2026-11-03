@@ -1,0 +1,33 @@
+{
+  "OldId": 1701668718,
+  "NewId": 808464494,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768256373,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usei"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Adtg,Aall,Avul,Apit",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1768648053,
+      "Type": "String",
+      "Value": "I02E,I01J,I014,I010,I00Z,I00Y,I02F,I00S",
+      "SanityCheck": 0,
+      "_field": "umki"
+    }
+  ],
+  "_rawcode": "n000",
+  "_base": "ngme",
+  "_name": "Awards II"
+}

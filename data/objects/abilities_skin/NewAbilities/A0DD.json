@@ -1,0 +1,71 @@
+{
+  "OldId": 1651536705,
+  "NewId": 1145319489,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6989",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Abilities"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFlakCannons.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2852",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffbcbc63Backpack|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3265",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Holds the ability to swap bullets alongside some other important abilities."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3974",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Bounty Hunter)"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1538",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "E"
+    }
+  ],
+  "_rawcode": "A0DD",
+  "_base": "Aspb",
+  "_name": "Abilities"
+}

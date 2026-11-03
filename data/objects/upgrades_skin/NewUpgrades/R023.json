@@ -1,0 +1,225 @@
+{
+  "OldId": 1701668946,
+  "NewId": 858927186,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2879",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Kobold Regeneration"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedStrengthOfTheWild.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedStrengthOfTheWild.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedStrengthOfTheWild.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedStrengthOfTheWild.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNImprovedStrengthOfTheWild.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2881",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Kobold Regeneration"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2882",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Kobold Regeneration"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2883",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Kobold Regeneration"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2884",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Kobold Regeneration"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8424",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Kobold Regeneration - [20.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8425",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Kobold Regeneration - [25.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8426",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Kobold Regeneration - [30.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8427",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Kobold Regeneration - [35.0]"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8428",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Kobold Regeneration - [40.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8631",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit point regeneration of your Kobold by 50%"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8632",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit point regeneration of your Kobold by 50%"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8633",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit point regeneration of your Kobold by 50%"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8634",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit point regeneration of your Kobold by 50%"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_8635",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Increases the hit point regeneration of your Kobold by 50%"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    }
+  ],
+  "_rawcode": "R023",
+  "_base": "Rhme",
+  "_name": "Kobold Regeneration"
+}

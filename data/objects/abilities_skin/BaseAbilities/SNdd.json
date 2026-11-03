@@ -1,0 +1,21 @@
+{
+  "OldId": 1684295251,
+  "NewId": 0,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768841569,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "stand,work",
+      "SanityCheck": 0,
+      "_field": "aani"
+    }
+  ],
+  "_rawcode": "SNdd",
+  "_base": "SNdd",
+  "_name": "SNdd"
+}

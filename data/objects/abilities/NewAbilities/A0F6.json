@@ -1,0 +1,30 @@
+{
+  "OldId": 1634494017,
+  "NewId": 910569537,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 90,
+      "SanityCheck": 0,
+      "_field": "acdn"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "R087",
+      "SanityCheck": 0,
+      "_field": "areq"
+    }
+  ],
+  "_rawcode": "A0F6",
+  "_base": "Afla",
+  "_name": "A0F6"
+}

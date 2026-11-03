@@ -1,0 +1,22 @@
+{
+  "OldId": 1852196161,
+  "NewId": 1312895041,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4307",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Converts a small area of trees into <AEfn,DataA1> Treants. Treants have <efon,realHP> hit points and deal <efon,mindmg1> - <efon,maxdmg1> damage, and can learn Nature's Blessing. |nLasts <AEfn,Dur1> seconds. 20 second cooldown. |n|n|cffffcc00Attacks land units.|r"
+    }
+  ],
+  "_rawcode": "A0AN",
+  "_base": "AEfn",
+  "_name": "A0AN"
+}

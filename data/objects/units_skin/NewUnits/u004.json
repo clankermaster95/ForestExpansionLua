@@ -1,0 +1,79 @@
+{
+  "OldId": 1869113205,
+  "NewId": 875573365,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2102",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Centaur Protector"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNCentaurArcher.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\Centaur\\Centaur.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2103",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Centaur Protector"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10022",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "The best tanking centaur unit. This unit is efficient at trapping and surrounding the ancient with high chaos damage.|n|n|cfffdca00Health:|r 1250; 2/s|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Attack:|r 150 (Chaos)|n|cfffdca00Attack Range:|r 90|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 340|n|cffff0000Feed Value:|r |cffffdd0040|r"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_033",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "Q"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "ChaosGrunt",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    }
+  ],
+  "_rawcode": "u004",
+  "_base": "ugho",
+  "_name": "Centaur Protector"
+}

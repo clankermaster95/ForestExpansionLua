@@ -1,0 +1,88 @@
+{
+  "OldId": 1751348303,
+  "NewId": 1462775887,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2515",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cff08D69CMecha-Wrecker|r"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "units\\creeps\\GolemStatue\\GolemStatue.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "GuardTower",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1953980789,
+      "Type": "String",
+      "Value": "TRIGSTR_2516",
+      "SanityCheck": 0,
+      "_field": "uawt",
+      "_resolvedText": "|cff08D69CMecha-Wrecker|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2517",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cff08D69CMecha-Wrecker|r"
+    },
+    {
+      "Id": 1919972469,
+      "Type": "String",
+      "Value": "TRIGSTR_2518",
+      "SanityCheck": 0,
+      "_field": "utpr",
+      "_resolvedText": "|cff08D69CMecha-Wrecker|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_10073",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A powerful hero that excels at everything. This hero can be upgraded even more at the Goblin Labratory.|n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_2049",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cff08D69CDrone #A27|r,|cff08D69CDrone #X55|r,|cff08D69CDrone #T22|r,|cff08D69CMecha Madness|r,|cff08D69CChaotic Circutries|r"
+    }
+  ],
+  "_rawcode": "O00W",
+  "_base": "Otch",
+  "_name": "|cff08D69CMecha-Wrecker|r"
+}

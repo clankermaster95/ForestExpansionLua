@@ -1,0 +1,30 @@
+{
+  "OldId": 1986621505,
+  "NewId": 1094856769,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "ahdu"
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 10,
+      "SanityCheck": 0,
+      "_field": "adur"
+    }
+  ],
+  "_rawcode": "A0BA",
+  "_base": "Apiv",
+  "_name": "A0BA"
+}

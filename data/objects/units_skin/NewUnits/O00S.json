@@ -1,0 +1,87 @@
+{
+  "OldId": 1751348303,
+  "NewId": 1395667023,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_3116",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Ancient of Dragons"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNGreenDragonSpawn.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\RedDragonFirePhalanx.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "DoomGuard",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1869770869,
+      "Type": "String",
+      "Value": "TRIGSTR_1853",
+      "SanityCheck": 0,
+      "_field": "upro",
+      "_resolvedText": "|cffE61942Dragos|r"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_7157",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffE61942Dragos|r"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9512",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cffFF8040Difficulty:|r |cffFF0000Hard|r\n|cffFF8040Strong Against:|r Bases\n|cffFF8040Weak Against:|r Solos & Militaries\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n\nThe Ancient of Dragons is the fastest, and most nimble Ancient. Can roam around the map and shut down bases before they get out of control. Very strong late game with high critical ratios and a good base destroying ultimate."
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Real",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "usca"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 1718840949,
+      "Type": "String",
+      "Value": "TRIGSTR_5918",
+      "SanityCheck": 0,
+      "_field": "unsf",
+      "_resolvedText": "(Dragos)"
+    }
+  ],
+  "_rawcode": "O00S",
+  "_base": "Otch",
+  "_name": "Ancient of Dragons"
+}

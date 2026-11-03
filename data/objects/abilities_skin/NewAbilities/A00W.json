@@ -1,0 +1,79 @@
+{
+  "OldId": 1818381889,
+  "NewId": 1462775873,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_623",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Ocean Travel"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ansf"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1695",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_625",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Ocean Travel"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_2877",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Teleports the Water Sprite a short distance, allowing it to move in and out of combat. 15 second cooldown."
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "units\\human\\WaterElemental\\WaterElemental.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    }
+  ],
+  "_rawcode": "A00W",
+  "_base": "ANbl",
+  "_name": "Ocean Travel"
+}

@@ -1,0 +1,54 @@
+{
+  "OldId": 1634037864,
+  "NewId": 1379151976,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 10000,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1919969397,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uhpr"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1836084597,
+      "Type": "Int",
+      "Value": 10000,
+      "SanityCheck": 0,
+      "_field": "umpm"
+    },
+    {
+      "Id": 1768975733,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "umpi"
+    },
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0DJ,Ahar,Amil,Ahrp",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    }
+  ],
+  "_rawcode": "h04R",
+  "_base": "hpea",
+  "_name": "Test Dummy"
+}

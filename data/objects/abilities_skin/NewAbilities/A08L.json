@@ -1,0 +1,22 @@
+{
+  "OldId": 1869827649,
+  "NewId": 1278750785,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9163",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Silence"
+    }
+  ],
+  "_rawcode": "A08L",
+  "_base": "ANso",
+  "_name": "Silence"
+}

@@ -1,0 +1,64 @@
+{
+  "OldId": 1868918895,
+  "NewId": 808464495,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_054",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "|cffFF214AMagmide|r"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNLavaSpawn.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Units\\Creeps\\LavaSpawn\\LavaSpawn.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_1647",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "|cff008000Role|r: Hunter|n\n|cff008000Off Role|r: Support|n\n|cff8080FFDifficulty|r: |cffff0000Hard|r|n\n|cffFF8F40Move Speed|r: 350\n|cffFF8Fa0Attack Cooldown|r: 1.5|n\n|cffC0C0C0Magmides are one of the only pure military races. Military races are tasked with making and upgrading a sizable army to take down the ancient. Magmides along with most other military races can be extremely tricky to play. The Magmide is not recommended for newer players, as it has no escape and can have a rough early game. Not only does the Magmide have a rough early game, but their late game can be punishing too. Flame Throwers - one of their core units are easily killed with nuking abilities, thus should not be created once the game has reached that late period. However, this race can really pay off to experienced players who know which units are a viable choice when the time calls for it, and an experienced Magmide is something the ancient should always look out for. Magmides can also support their basers by creating EXTREMELY powerful walls with return damage.|r"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1831952757,
+      "Type": "String",
+      "Value": "Abilities\\Weapons\\LavaSpawnMissile\\LavaSpawnMissile.mdl",
+      "SanityCheck": 0,
+      "_field": "ua1m"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_115",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "|cffFF214AMagmide|r"
+    }
+  ],
+  "_rawcode": "o000",
+  "_base": "opeo",
+  "_name": "|cffFF214AMagmide|r"
+}

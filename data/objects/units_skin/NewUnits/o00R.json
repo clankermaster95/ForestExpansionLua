@@ -1,0 +1,79 @@
+{
+  "OldId": 1868918895,
+  "NewId": 1378889839,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_1742",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Spark"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Abilities\\Spells\\NightElf\\Immolation\\ImmolationTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1868786037,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNFireBolt.blp",
+      "SanityCheck": 0,
+      "_field": "uico"
+    },
+    {
+      "Id": 1735156597,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uclg"
+    },
+    {
+      "Id": 1651270517,
+      "Type": "Int",
+      "Value": 50,
+      "SanityCheck": 0,
+      "_field": "uclb"
+    },
+    {
+      "Id": 1684960117,
+      "Type": "String",
+      "Value": "ObsidianDestroyer",
+      "SanityCheck": 0,
+      "_field": "usnd"
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_2408",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Spark"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_854",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "W"
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_9973",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "A worker unit for the Magmide. Its lumber and food capacity is very limited, use wisely.|n|n|cfffdca00Health:|r 500; 0.25/s|n|cfffdca00Armor:|r 0 (Heavy)|n|cfffdca00Attack:|r 40 (Chaos)|n|cfffdca00Attack Range:|r 90|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Movement Speed:|r 300|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    }
+  ],
+  "_rawcode": "o00R",
+  "_base": "opeo",
+  "_name": "Spark"
+}

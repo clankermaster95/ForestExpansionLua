@@ -1,0 +1,177 @@
+{
+  "OldId": 2003324737,
+  "NewId": 1261908033,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRejuvenation.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1918988897,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNRejuvenation.blp",
+      "SanityCheck": 0,
+      "_field": "arar"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3762",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "N"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7742",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00N|rourish - [|cffffcc00Level 1|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7743",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00N|rourish - [|cffffcc00Level 2|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7744",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00N|rourish - [|cffffcc00Level 3|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7745",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00N|rourish - [|cffffcc00Level 4|r]"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7746",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00N|rourish - [|cffffcc00Level 5|r]"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7747",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals a target for 150 (+50% of your maximum mana) instantly. 12 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the healing effect by 25 and reduces the cooldown by 1 second.|r|n|cff7F7F7FThe sensitive and caring side of a Wildkin.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7748",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals a target for 175 (+50% of your maximum mana) instantly. 11 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the healing effect by 25 and reduces the cooldown by 1 second.|r|n|cff7F7F7FThe sensitive and caring side of a Wildkin.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7749",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals a target for 200 (+50% of your maximum mana) instantly. 10 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the healing effect by 25 and reduces the cooldown by 1 second.|r|n|cff7F7F7FThe sensitive and caring side of a Wildkin.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7750",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals a target for 250 (+50% of your maximum mana) instantly. 8 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the healing effect by 25 and reduces the cooldown by 1 second.|r|n|cff7F7F7FThe sensitive and caring side of a Wildkin.|r"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7751",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Heals a target for 225 (+50% of your maximum mana) instantly. 9 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the healing effect by 25 and reduces the cooldown by 1 second.|r|n|cff7F7F7FThe sensitive and caring side of a Wildkin.|r"
+    },
+    {
+      "Id": 1734962273,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "alig"
+    },
+    {
+      "Id": 1952543841,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Items\\AIim\\AIimTarget.mdl",
+      "SanityCheck": 0,
+      "_field": "atat"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7741",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Nourish"
+    }
+  ],
+  "_rawcode": "A07K",
+  "_base": "AOhw",
+  "_name": "Nourish"
+}

@@ -1,0 +1,62 @@
+{
+  "OldId": 1818379585,
+  "NewId": 1295593537,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6163",
+      "SanityCheck": 0,
+      "_field": "aret",
+      "_resolvedText": "|cffffcc00B|rlink"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6164",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Allows you to teleport a short distance."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6165",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00B|rlink"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4280",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Teleports the unit up to 600 range. 20 second cooldown."
+    },
+    {
+      "Id": 1718840929,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6159",
+      "SanityCheck": 0,
+      "_field": "ansf",
+      "_resolvedText": "(Darktemplar)"
+    }
+  ],
+  "_rawcode": "A09M",
+  "_base": "AEbl",
+  "_name": "A09M"
+}

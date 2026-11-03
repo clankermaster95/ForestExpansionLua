@@ -1,0 +1,34 @@
+{
+  "OldId": 1685547119,
+  "NewId": 842084463,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_2993",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Totem of Life"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "war3mapImported\\WaterTotem.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1919905909,
+      "Type": "String",
+      "Value": "None.mdl",
+      "SanityCheck": 0,
+      "_field": "upor"
+    }
+  ],
+  "_rawcode": "o012",
+  "_base": "ohwd",
+  "_name": "Totem of Life"
+}

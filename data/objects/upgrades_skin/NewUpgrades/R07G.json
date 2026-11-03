@@ -1,0 +1,80 @@
+{
+  "OldId": 1651402066,
+  "NewId": 1194799186,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_4645",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "AP Bullets"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9720",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "|cff168716AP Bullets|r [35.0]"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_7118",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "|cff21a621Enables Bounty Hunter to swap to AP Bullets which changes damage type to|r chaos.|cff21a621 |n|nIncreases damage by |r120.|r"
+    },
+    {
+      "Id": 1718840935,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6561",
+      "SanityCheck": 0,
+      "_field": "gnsf",
+      "_resolvedText": "- Bounty Hunter Macko"
+    },
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNHumanArtilleryUpOne.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_9763",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "_resolvedText": "Q"
+    }
+  ],
+  "_rawcode": "R07G",
+  "_base": "Renb",
+  "_name": "AP Bullets"
+}

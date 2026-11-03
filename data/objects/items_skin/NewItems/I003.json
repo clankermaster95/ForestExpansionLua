@@ -1,0 +1,59 @@
+{
+  "OldId": 1869507444,
+  "NewId": 858796105,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_419",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Training Lesson"
+    },
+    {
+      "Id": 1868786025,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp",
+      "SanityCheck": 0,
+      "_field": "iico"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "TRIGSTR_1543",
+      "SanityCheck": 0,
+      "_field": "uhot",
+      "_resolvedText": "T"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "TRIGSTR_3637",
+      "SanityCheck": 0,
+      "_field": "ides",
+      "_resolvedText": "Increases your Ancient's Level by 1."
+    },
+    {
+      "Id": 1885959285,
+      "Type": "String",
+      "Value": "TRIGSTR_910",
+      "SanityCheck": 0,
+      "_field": "utip",
+      "_resolvedText": "Select a |cffffcc00T|rraining Lesson as A reward."
+    },
+    {
+      "Id": 1651864693,
+      "Type": "String",
+      "Value": "TRIGSTR_3638",
+      "SanityCheck": 0,
+      "_field": "utub",
+      "_resolvedText": "Increases the level of the Ancient by 1."
+    }
+  ],
+  "_rawcode": "I003",
+  "_base": "tkno",
+  "_name": "Training Lesson"
+}

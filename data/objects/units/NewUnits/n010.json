@@ -1,0 +1,19 @@
+{
+  "OldId": 1919906926,
+  "NewId": 808530030,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "A0CN,Aloc",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    }
+  ],
+  "_rawcode": "n010",
+  "_base": "ntor",
+  "_name": "Sticky Glue"
+}

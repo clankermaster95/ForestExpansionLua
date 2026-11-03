@@ -1,0 +1,98 @@
+{
+  "OldId": 1818379585,
+  "NewId": 1110454337,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5012",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Teched Jump Shoes"
+    },
+    {
+      "Id": 1634034017,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Orc\\FeralSpirit\\feralspirittarget.mdl",
+      "SanityCheck": 0,
+      "_field": "aaea"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNBootsOfSpeed.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 1952543585,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "Abilities\\Spells\\Human\\Flare\\FlareCaster.mdl",
+      "SanityCheck": 0,
+      "_field": "asat"
+    },
+    {
+      "Id": 1952805473,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "aret"
+    },
+    {
+      "Id": 1953854049,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_314",
+      "SanityCheck": 0,
+      "_field": "arut",
+      "_resolvedText": "Teched Jump shoes - Allows you to jump from place to place, 180 second cool down."
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5212",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "|cffffcc00T|reched Jump Shoes"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5760",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Teleport to a target area. 60 second cooldown.|n|cff8080ffCast range: 1000|r"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_1694",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "T"
+    }
+  ],
+  "_rawcode": "A00B",
+  "_base": "AEbl",
+  "_name": "Teched Jump Shoes"
+}
