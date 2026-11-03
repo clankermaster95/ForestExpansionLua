@@ -6,7 +6,7 @@
 
 **Latest revision: r8.** The readability refactor replaces repeated picker/ban and spell/research logic with shared data and named operations, centralizes command/Ancient metadata, and retires 238 generated helpers. `REFACTOR_PLAN.md` records the scope and remaining behavior questions. `reports/readability-refactor.json` describes the explicit migration from the immutable r7 fixture; full checks are in `reports/refactor-validation.json`. Do not rerun one-time migration scripts or replace the frozen baseline. Initialization/bootstrap order and gameplay semantics remain preserved except three documented temporary-handle cleanup fixes.
 
-Generated debug pages remain removed from Information/F9. DEBUG_REFERENCE.md contains all 524 spawn entries and commands. The public CHANGELOG.md is a net 3.1.2a to 3.2.0 comparison only. Shop diagnostic messages are off by default; `-test shop on` enables them only for solo troubleshooting. The private repository is `clankermaster95/ForestExpansionLua`; do not push to the old account. Current local changes are not published automatically.
+Generated debug pages remain removed from Information/F9. DEBUG_REFERENCE.md contains all 524 spawn entries and commands. The public CHANGELOG.md is a net 3.1.2a to 3.2.0 comparison only. Shop diagnostic messages are off by default; `-test shop on` enables them only for solo troubleshooting. The repository is now public at `clankermaster95/ForestExpansionLua` (November 3); historical privacy instructions below are superseded; do not push to the old account. Current local changes are not published automatically.
 
 **r5 shop fix.** The user supplied an r4 trace: in range, inventory 1/6, order accepted, gold deducted, no sale event. All three Aall shops used usei instead of umki. r5 moves exact stock lists to umki, clears usei, and clears Protector Seed's inherited Keep requirement. New build guards and packed-data regressions cover this mismatch. See `reports/shop-stock-r5.json`. Live r5 confirmation is still pending.
 
@@ -58,7 +58,7 @@ The repository is intended to be private. It includes the original map, the port
 - Editable native map folder: `map/ForestExpansion.w3x/`
 - Authoritative gameplay source: `src/`
 - Readable object/terrain data: `data/`
-- Full workflow: `README.md`
+- Full workflow: `LLM_GUIDE.md`; short overview: `README.md`
 - Checks and limits: `reports/validation.json`, `reports/event-differential.json`, `reports/source-audit.json`, `reports/workflow-validation.json`
 
 At this handoff, original archive SHA-256 is `0fb5a2b67cf9c126bdba91e14930946ea9ffb94a655920719da42a2dea9ac0a5`; port archive SHA-256 is `2b5345d30e7079f04a5aa53ff5bfa903e02880612cbdb605315ef8d297aae1d6`.
