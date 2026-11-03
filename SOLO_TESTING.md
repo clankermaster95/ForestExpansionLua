@@ -4,7 +4,7 @@ The separate [Testing reference](DEBUG_REFERENCE.md) contains the complete item 
 
 In-game, use `-test help`, `-test items <name>`, `-test units <name>` or `-test find <name>`. The Information/F9 menu does not contain generated debug pages.
 
-Start a **new match** with **Forest Expansion 3.2.0 Lua r7** in Warcraft III → Maps → Forest Expansion. Exactly one human must be present at match start; computer slots are allowed. Select the Ancient lobby slot for Ancient shopping. Red is an expander. The opening message must say **3.2.0 r7: SOLO TEST MODE ON. Victory timers OFF.** No command is needed to enable solo mode. The user runs these tests; the agent must not launch or control Warcraft.
+Start a **new match** with **Forest Expansion 3.2.0 Lua r8** in Warcraft III → Maps → Forest Expansion. Exactly one human must be present at match start; computer slots are allowed. Select the Ancient lobby slot for Ancient shopping. Red is an expander. The opening message must say **3.2.0 r8: SOLO TEST MODE ON. Victory timers OFF.** No command is needed to enable solo mode. The user runs these tests; the agent must not launch or control Warcraft.
 
 If using World Editor's Test Map, first reopen the latest `dist/Forest_Expansion_3.2.0_Lua.w3x`. An editor already holding an older map continues to test that older copy. Installing a new build does not update the editor's memory or a running match. If an old installed copy is still locked by Warcraft, the cleanup worker can remove it after Warcraft releases it; closing Warcraft releases that file.
 

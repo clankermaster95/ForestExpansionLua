@@ -2,22 +2,16 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 176 Chill
--- Original JASS function: Trig_Chill_Conditions (line 12003)
 function Trig_Chill_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A00A"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A00A")
 end
 
--- Original JASS function: Trig_Chill_Actions (line 12010)
 function Trig_Chill_Actions()
     local caster = GetSpellAbilityUnit()
     TriggerSleepAction(__jreal(0.80))
     SetUnitLifeBJ(caster, (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, caster) + (__jreal(__jreal(0.50) * GetUnitStateSwap(UNIT_STATE_MAX_MANA, caster))))))
 end
 
--- Original JASS function: InitTrig_Chill (line 12016)
 function InitTrig_Chill()
     gg_trg_Chill = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Chill, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -27,15 +21,10 @@ end
 -- END FOREST SECTION 176
 
 -- BEGIN FOREST SECTION 177 Freeze_Zone
--- Original JASS function: Trig_Freeze_Zone_Conditions (line 12026)
 function Trig_Freeze_Zone_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0EX"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0EX")
 end
 
--- Original JASS function: Trig_Freeze_Zone_Actions (line 12033)
 function Trig_Freeze_Zone_Actions()
     local timer = CreateTimer()
     TimerStart(timer, 60, false, nil)
@@ -47,7 +36,6 @@ function Trig_Freeze_Zone_Actions()
     DestroyTimer(timer)
 end
 
--- Original JASS function: InitTrig_Freeze_Zone (line 12041)
 function InitTrig_Freeze_Zone()
     gg_trg_Freeze_Zone = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Freeze_Zone, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -57,12 +45,10 @@ end
 -- END FOREST SECTION 177
 
 -- BEGIN FOREST SECTION 178 Freeze_Zone_V2
--- Original JASS function: TP_IsValidTarget (line 12054)
 function TP_IsValidTarget(caster, target)
-    do return (((((((target ~= nil) and (target ~= caster)) and (GetWidgetLife(target) > __jreal(0.405))) and IsUnitEnemy(target, GetOwningPlayer(caster))) and (not IsUnitType(target, UNIT_TYPE_DEAD))) and (not IsUnitType(target, UNIT_TYPE_STRUCTURE))) and (not IsUnitType(target, UNIT_TYPE_MAGIC_IMMUNE))) end
+    return (((((((target ~= nil) and (target ~= caster)) and (GetWidgetLife(target) > __jreal(0.405))) and IsUnitEnemy(target, GetOwningPlayer(caster))) and (not IsUnitType(target, UNIT_TYPE_DEAD))) and (not IsUnitType(target, UNIT_TYPE_STRUCTURE))) and (not IsUnitType(target, UNIT_TYPE_MAGIC_IMMUNE)))
 end
 
--- Original JASS function: TP_DummyCastDelayed (line 12058)
 function TP_DummyCastDelayed()
     local t = GetExpiredTimer()
     local tid = GetHandleId(t)
@@ -81,7 +67,6 @@ function TP_DummyCastDelayed()
     t = nil
 end
 
--- Original JASS function: TP_CastDebuff (line 12079)
 function TP_CastDebuff(target, level)
     local t = CreateTimer()
     local tid = GetHandleId(t)
@@ -90,7 +75,7 @@ function TP_CastDebuff(target, level)
         DestroyTimer(t)
         dummy = nil
         t = nil
-        do return end
+        return
     end
     UnitAddAbility(dummy, TP_DEBUFF_ID)
     SetUnitAbilityLevel(dummy, TP_DEBUFF_ID, level)
@@ -102,7 +87,6 @@ function TP_CastDebuff(target, level)
     t = nil
 end
 
--- Original JASS function: TP_OnCast (line 12104)
 function TP_OnCast()
     local caster = GetTriggerUnit()
     local g = CreateGroup()
@@ -129,12 +113,10 @@ function TP_OnCast()
     caster = nil
 end
 
--- Original JASS function: TP_Condition (line 12136)
 function TP_Condition()
-    do return (GetSpellAbilityId() == TP_SPELL_ID) end
+    return (GetSpellAbilityId() == TP_SPELL_ID)
 end
 
--- Original JASS function: InitTrig_Freeze_Zone_V2 (line 12140)
 function InitTrig_Freeze_Zone_V2()
     local t = CreateTrigger()
     local i = 0

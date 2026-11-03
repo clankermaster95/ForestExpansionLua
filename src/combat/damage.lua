@@ -2,7 +2,6 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 1 Damage_Engine_Config
--- Original JASS function: Trig_Damage_Engine_Config_Actions (line 4321)
 function Trig_Damage_Engine_Config_Actions()
     udg_DamageTypePureExplosive = __jint(-(2))
     udg_DamageTypeExplosive = __jint(-(1))
@@ -15,7 +14,6 @@ function Trig_Damage_Engine_Config_Actions()
     DamageEngine_DebugStr()
 end
 
--- Original JASS function: InitTrig_Damage_Engine_Config (line 4350)
 function InitTrig_Damage_Engine_Config()
     gg_trg_Damage_Engine_Config = CreateTrigger()
     TriggerAddAction(gg_trg_Damage_Engine_Config, Trig_Damage_Engine_Config_Actions)

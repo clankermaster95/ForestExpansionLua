@@ -2,13 +2,11 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 7 Map_Ini_Testing
--- Original JASS function: Trig_Map_Ini_Testing_Actions (line 4813)
 function Trig_Map_Ini_Testing_Actions()
     CreateMultiboardBJ(3, 11, "TRIGSTR_5709")
     MultiboardSetTitleText(GetLastCreatedMultiboard(), "TRIGSTR_5710")
 end
 
--- Original JASS function: InitTrig_Map_Ini_Testing (line 4819)
 function InitTrig_Map_Ini_Testing()
     gg_trg_Map_Ini_Testing = CreateTrigger()
     DisableTrigger(gg_trg_Map_Ini_Testing)
@@ -18,7 +16,6 @@ end
 -- END FOREST SECTION 7
 
 -- BEGIN FOREST SECTION 8 Counter_Testing
--- Original JASS function: Trig_Counter_Testing_Actions (line 4831)
 function Trig_Counter_Testing_Actions()
     MultiboardSetItemWidthBJ(GetLastCreatedMultiboard(), 1, 1, __jreal(15.00))
     MultiboardSetItemWidthBJ(GetLastCreatedMultiboard(), 2, 1, __jreal(15.00))
@@ -34,7 +31,6 @@ function Trig_Counter_Testing_Actions()
     MultiboardSetItemValueBJ(GetLastCreatedMultiboard(), 2, 3, I2S(GetPlayerState(Player(0), PLAYER_STATE_RESOURCE_GOLD)))
 end
 
--- Original JASS function: InitTrig_Counter_Testing (line 4847)
 function InitTrig_Counter_Testing()
     gg_trg_Counter_Testing = CreateTrigger()
     DisableTrigger(gg_trg_Counter_Testing)
@@ -44,13 +40,11 @@ end
 -- END FOREST SECTION 8
 
 -- BEGIN FOREST SECTION 9 Start_Counter
--- Original JASS function: Trig_Start_Counter_Actions (line 4859)
 function Trig_Start_Counter_Actions()
     DisableTrigger(gg_trg_Tradeoff_Detection)
     DisableTrigger(gg_trg_TreeChopper_Detection)
 end
 
--- Original JASS function: InitTrig_Start_Counter (line 4865)
 function InitTrig_Start_Counter()
     gg_trg_Start_Counter = CreateTrigger()
     DisableTrigger(gg_trg_Start_Counter)
@@ -60,39 +54,22 @@ end
 -- END FOREST SECTION 9
 
 -- BEGIN FOREST SECTION 10 Counter
--- Original JASS function: Trig_Counter_Func002Func003C (line 4875)
 function Trig_Counter_Func002Func003C()
-    if ((not ((udg_IntMinutes == 60)))) then
-        do return false end
-    end
-    do return true end
+    return udg_IntMinutes == 60
 end
 
--- Original JASS function: Trig_Counter_Func002C (line 4882)
 function Trig_Counter_Func002C()
-    if ((not ((udg_IntSeconds == 60)))) then
-        do return false end
-    end
-    do return true end
+    return udg_IntSeconds == 60
 end
 
--- Original JASS function: Trig_Counter_Func003C (line 4889)
 function Trig_Counter_Func003C()
-    if ((not ((udg_IntSeconds < 10)))) then
-        do return false end
-    end
-    do return true end
+    return udg_IntSeconds < 10
 end
 
--- Original JASS function: Trig_Counter_Func004C (line 4896)
 function Trig_Counter_Func004C()
-    if ((not ((udg_IntMinutes < 10)))) then
-        do return false end
-    end
-    do return true end
+    return udg_IntMinutes < 10
 end
 
--- Original JASS function: Trig_Counter_Actions (line 4903)
 function Trig_Counter_Actions()
     udg_IntSeconds = (__jint(udg_IntSeconds + 1))
     if (Trig_Counter_Func002C()) then
@@ -101,9 +78,7 @@ function Trig_Counter_Actions()
         if (Trig_Counter_Func002Func003C()) then
             udg_IntMinutes = 0
             udg_IntHours = (__jint(udg_IntHours + 1))
-        else
         end
-    else
     end
     if (Trig_Counter_Func003C()) then
         udg_StringSeconds = "0"
@@ -119,7 +94,6 @@ function Trig_Counter_Actions()
     CreateMultiboardBJ(1, 1, (__jconcat((__jconcat("Information  -  ", (__jconcat("|cffcdcd00[|r ", (__jconcat((__jconcat(udg_TreeChopper, " ")), (__jconcat(udg_Tradeoff, "|cffcdcd00 ]  -  |r")))))))), udg_Counterstring)))
 end
 
--- Original JASS function: InitTrig_Counter (line 4930)
 function InitTrig_Counter()
     gg_trg_Counter = CreateTrigger()
     DisableTrigger(gg_trg_Counter)

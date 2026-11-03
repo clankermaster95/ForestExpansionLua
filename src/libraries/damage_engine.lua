@@ -1,4 +1,3 @@
--- Original JASS function: sc___prototype2_execute (line 1307)
 function sc___prototype2_execute(i, a1, a2, a3, a4)
     f__arg_trigger1 = a1
     f__arg_string1 = a2
@@ -7,7 +6,6 @@ function sc___prototype2_execute(i, a1, a2, a3, a4)
     TriggerExecute(st___prototype2[i])
 end
 
--- Original JASS function: sc___prototype2_evaluate (line 1315)
 function sc___prototype2_evaluate(i, a1, a2, a3, a4)
     f__arg_trigger1 = a1
     f__arg_string1 = a2
@@ -16,13 +14,11 @@ function sc___prototype2_evaluate(i, a1, a2, a3, a4)
     TriggerEvaluate(st___prototype2[i])
 end
 
--- Original JASS function: h__TriggerRegisterVariableEvent (line 1324)
 function h__TriggerRegisterVariableEvent(a0, a1, a2, a3)
     sc___prototype2_evaluate(1, a0, a1, a2, a3)
-    do return TriggerRegisterVariableEvent(a0, a1, a2, a3) end
+    return TriggerRegisterVariableEvent(a0, a1, a2, a3)
 end
 
--- Original JASS function: s__DamageTrigger_checkItem (line 1338)
 function s__DamageTrigger_checkItem(u, id)
     local i = 0
     if IsUnitType(u, UNIT_TYPE_HERO) then
@@ -31,14 +27,13 @@ function s__DamageTrigger_checkItem(u, id)
             if (i <= 0) then break end
             i = __jint(i - 1)
             if (GetItemTypeId(UnitItemInSlot(u, i)) == id) then
-                do return true end
+                return true
             end
         end
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: s__DamageTrigger_checkConfig (line 1354)
 function s__DamageTrigger_checkConfig(this)
     if ((s__DamageTrigger_sourceType[this] ~= 0) and (GetUnitTypeId(udg_DamageEventSource) ~= s__DamageTrigger_sourceType[this])) then
     elseif ((s__DamageTrigger_targetType[this] ~= 0) and (GetUnitTypeId(udg_DamageEventTarget) ~= s__DamageTrigger_targetType[this])) then
@@ -55,22 +50,19 @@ function s__DamageTrigger_checkConfig(this)
     elseif ((s__DamageTrigger_sourceClass[this] >= 0) and (not IsUnitType(udg_DamageEventSource, ConvertUnitType(s__DamageTrigger_sourceClass[this])))) then
     elseif ((s__DamageTrigger_targetClass[this] >= 0) and (not IsUnitType(udg_DamageEventTarget, ConvertUnitType(s__DamageTrigger_targetClass[this])))) then
     elseif (udg_DamageEventAmount >= s__DamageTrigger_damageMin[this]) then
-        do return true end
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: s__DamageTrigger__get_runChance (line 1392)
 function s__DamageTrigger__get_runChance(this)
-    do return __jreal(__jreal(1.00) - s__DamageTrigger_failChance[this]) end
+    return __jreal(__jreal(1.00) - s__DamageTrigger_failChance[this])
 end
 
--- Original JASS function: s__DamageTrigger__set_runChance (line 1397)
 function s__DamageTrigger__set_runChance(this, chance)
     s__DamageTrigger_failChance[this] = __jreal(__jreal(1.00) - chance)
 end
 
--- Original JASS function: s__DamageTrigger_configure (line 1401)
 function s__DamageTrigger_configure(this)
     s__DamageTrigger_attackType[this] = udg_DamageFilterAttackT
     s__DamageTrigger_damageType[this] = udg_DamageFilterDamageT
@@ -116,7 +108,6 @@ function s__DamageTrigger_configure(this)
     s__DamageTrigger_configured[this] = true
 end
 
--- Original JASS function: s__DamageTrigger_setGUIFromStruct (line 1454)
 function s__DamageTrigger_setGUIFromStruct(full)
     udg_DamageEventAmount = s__Damage_damage[s__Damage_index]
     udg_DamageEventAttackT = GetHandleId(s__Damage_attackType[s__Damage_index])
@@ -138,7 +129,6 @@ function s__DamageTrigger_setGUIFromStruct(full)
     end
 end
 
--- Original JASS function: s__DamageTrigger_setStructFromGUI (line 1483)
 function s__DamageTrigger_setStructFromGUI()
     s__Damage_damage[s__Damage_index] = udg_DamageEventAmount
     s__Damage_attackType[s__Damage_index] = ConvertAttackType(udg_DamageEventAttackT)
@@ -150,22 +140,20 @@ function s__DamageTrigger_setStructFromGUI()
     s__Damage_defenseType[s__Damage_index] = udg_DamageEventDefenseT
 end
 
--- Original JASS function: s__DamageTrigger_getVerboseStr (line 1497)
 function s__DamageTrigger_getVerboseStr(eventName)
     if ((eventName == "Modifier") or (eventName == "Mod")) then
-        do return "udg_DamageModifierEvent" end
+        return "udg_DamageModifierEvent"
     end
-    do return __jconcat(__jconcat("udg_", eventName), "DamageEvent") end
+    return __jconcat(__jconcat("udg_", eventName), "DamageEvent")
 end
 
--- Original JASS function: s__DamageTrigger_getStrIndex (line 1504)
 function s__DamageTrigger_getStrIndex(var, lbs)
     local root = R2I(lbs)
-    if ((((var == "udg_DamageModifierEvent") and (root < 4))) or (var == "udg_PreDamageEvent")) then
+    if (((var == "udg_DamageModifierEvent") and (root < 4)) or (var == "udg_PreDamageEvent")) then
         root = s__DamageTrigger_MOD
     elseif ((var == "udg_DamageModifierEvent") or (var == "udg_ArmorDamageEvent")) then
         root = s__DamageTrigger_SHIELD
-    elseif (((((var == "udg_DamageEvent") and (root == 2)) or (root == 0))) or (var == "udg_ZeroDamageEvent")) then
+    elseif ((((var == "udg_DamageEvent") and (root == 2)) or (root == 0)) or (var == "udg_ZeroDamageEvent")) then
         root = s__DamageTrigger_ZERO
     elseif ((var == "udg_DamageEvent") or (var == "udg_OnDamageEvent")) then
         root = s__DamageTrigger_DAMAGE
@@ -178,10 +166,9 @@ function s__DamageTrigger_getStrIndex(var, lbs)
     else
         root = 0
     end
-    do return root end
+    return root
 end
 
--- Original JASS function: s__DamageTrigger_toggleAllFilters (line 1533)
 function s__DamageTrigger_toggleAllFilters(this, flag)
     s__DamageTrigger_filters[__jint(this + DamageEngine_FILTER_ATTACK)] = flag
     s__DamageTrigger_filters[__jint(this + DamageEngine_FILTER_MELEE)] = flag
@@ -191,7 +178,6 @@ function s__DamageTrigger_toggleAllFilters(this, flag)
     s__DamageTrigger_filters[__jint(this + DamageEngine_FILTER_CODE)] = flag
 end
 
--- Original JASS function: s__DamageTrigger__set_filter (line 1542)
 function s__DamageTrigger__set_filter(this, opId)
     this = __jint(this * DamageEngine_FILTER_MAX)
     if (opId == DamageEngine_FILTER_OTHER) then
@@ -207,16 +193,15 @@ function s__DamageTrigger__set_filter(this, opId)
     end
 end
 
--- Original JASS function: s__DamageTrigger_registerVerbose (line 1557)
 function s__DamageTrigger_registerVerbose(whichTrig, var, lbs, GUI, filt)
     local index = s__DamageTrigger_getStrIndex(var, lbs)
     local i = 0
     local id = 0
     if (index == 0) then
-        do return 0 end
+        return 0
     elseif ((s__DamageTrigger_rootTrig[s__DamageTrigger_lastRegistered] == whichTrig) and s__DamageTrigger_usingGUI[s__DamageTrigger_lastRegistered]) then
         s__DamageTrigger_filters[__jint(__jint(s__DamageTrigger_lastRegistered * DamageEngine_FILTER_MAX) + filt)] = true
-        do return 0 end
+        return 0
     end
     DamageEngine___atLeastOneLethalDamageEventRegistered = (DamageEngine___atLeastOneLethalDamageEventRegistered or (index == s__DamageTrigger_LETHAL))
     if (s__DamageTrigger_trigIndexStack[0] == 0) then
@@ -243,15 +228,13 @@ function s__DamageTrigger_registerVerbose(whichTrig, var, lbs, GUI, filt)
     end
     s__DamageTrigger_next[index] = id
     s__DamageTrigger_next[id] = i
-    do return s__DamageTrigger_lastRegistered end
+    return s__DamageTrigger_lastRegistered
 end
 
--- Original JASS function: s__DamageTrigger_registerTrigger (line 1607)
 function s__DamageTrigger_registerTrigger(t, var, lbs)
-    do return s__DamageTrigger_registerVerbose(t, s__DamageTrigger_getVerboseStr(var), lbs, false, DamageEngine_FILTER_OTHER) end
+    return s__DamageTrigger_registerVerbose(t, s__DamageTrigger_getVerboseStr(var), lbs, false, DamageEngine_FILTER_OTHER)
 end
 
--- Original JASS function: s__DamageTrigger_getIndex (line 1611)
 function s__DamageTrigger_getIndex(t, eventName, lbs)
     local index = s__DamageTrigger_getStrIndex(s__DamageTrigger_getVerboseStr(eventName), lbs)
     while true do
@@ -259,13 +242,12 @@ function s__DamageTrigger_getIndex(t, eventName, lbs)
         index = s__DamageTrigger_next[index]
         if ((index == 0) or (s__DamageTrigger_rootTrig[index] == t)) then break end
     end
-    do return index end
+    return index
 end
 
--- Original JASS function: s__DamageTrigger_unregisterByIndex (line 1621)
 function s__DamageTrigger_unregisterByIndex(this, reset)
     if (this == 0) then
-        do return false end
+        return false
     end
     s__DamageTrigger_next[s__DamageTrigger_prev] = s__DamageTrigger_next[this]
     s__DamageTrigger_trigIndexStack[this] = s__DamageTrigger_trigIndexStack[0]
@@ -275,15 +257,13 @@ function s__DamageTrigger_unregisterByIndex(this, reset)
         s__DamageTrigger_configured[this] = false
         s__DamageTrigger_toggleAllFilters((__jint(this * DamageEngine_FILTER_MAX)), false)
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: s__DamageTrigger_unregister (line 1638)
 function s__DamageTrigger_unregister(t, eventName, lbs, reset)
-    do return s__DamageTrigger_unregisterByIndex(s__DamageTrigger_getIndex(t, eventName, lbs), reset) end
+    return s__DamageTrigger_unregisterByIndex(s__DamageTrigger_getIndex(t, eventName, lbs), reset)
 end
 
--- Original JASS function: s__DamageTrigger_DamageEngine___run (line 1642)
 function s__DamageTrigger_DamageEngine___run(this)
     local cat = this
     local d = s__Damage_index
@@ -291,7 +271,7 @@ function s__DamageTrigger_DamageEngine___run(this)
     local guiUnset = false
     local mod = (cat <= s__DamageTrigger_DAMAGE)
     if DamageEngine___callbacksInProgress then
-        do return end
+        return
     end
     DamageEngine___callbacksInProgress = true
     DisableTrigger(DamageEngine___damagingTrigger)
@@ -300,11 +280,11 @@ function s__DamageTrigger_DamageEngine___run(this)
     while true do
         this = s__DamageTrigger_next[this]
         if (this == 0) then break end
-        if ((cat == s__DamageTrigger_MOD) and ((udg_DamageEventOverride or (udg_DamageEventType == DamageEngine_TYPE_PURE)))) then break end
+        if ((cat == s__DamageTrigger_MOD) and (udg_DamageEventOverride or (udg_DamageEventType == DamageEngine_TYPE_PURE))) then break end
         if ((cat == s__DamageTrigger_SHIELD) and (udg_DamageEventAmount <= __jreal(0.00))) then break end
         if ((cat == s__DamageTrigger_LETHAL) and (udg_LethalDamageHP > DamageEngine___DEATH_VAL)) then break end
         s__DamageTrigger_eventIndex = this
-        if ((((((not s__DamageTrigger_DamageEngine___trigFrozen[this])) and s__DamageTrigger_filters[__jint(__jint(this * DamageEngine_FILTER_MAX) + s__Damage_eFilter[d])]) and IsTriggerEnabled(s__DamageTrigger_rootTrig[this])) and ((((not s__DamageTrigger_configured[this])) or (s__DamageTrigger_checkConfig(this))))) and ((((cat ~= s__DamageTrigger_AOE) or (udg_DamageEventAOE > 1)) or (s__DamageTrigger_eventStr[this] == "udg_SourceDamageEvent")))) then
+        if (((((not s__DamageTrigger_DamageEngine___trigFrozen[this]) and s__DamageTrigger_filters[__jint(__jint(this * DamageEngine_FILTER_MAX) + s__Damage_eFilter[d])]) and IsTriggerEnabled(s__DamageTrigger_rootTrig[this])) and ((not s__DamageTrigger_configured[this]) or (s__DamageTrigger_checkConfig(this)))) and (((cat ~= s__DamageTrigger_AOE) or (udg_DamageEventAOE > 1)) or (s__DamageTrigger_eventStr[this] == "udg_SourceDamageEvent"))) then
             if mod then
                 if s__DamageTrigger_usingGUI[this] then
                     if guiUnset then
@@ -350,7 +330,6 @@ function s__DamageTrigger_DamageEngine___run(this)
     DamageEngine___callbacksInProgress = false
 end
 
--- Original JASS function: s__DamageTrigger__staticgetindex (line 1746)
 function s__DamageTrigger__staticgetindex(callback)
     local i = 0
     local b = Filter(callback)
@@ -364,30 +343,25 @@ function s__DamageTrigger__staticgetindex(callback)
         i = __jint(i + 1)
         if (b == s__DamageTrigger_autoFuncs[i]) then break end
     end
-    do return s__DamageTrigger_autoTriggers[i] end
+    return s__DamageTrigger_autoTriggers[i]
 end
 
--- Original JASS function: s__Damage__get_source (line 1782)
 function s__Damage__get_source()
-    do return udg_DamageEventSource end
+    return udg_DamageEventSource
 end
 
--- Original JASS function: s__Damage__get_target (line 1786)
 function s__Damage__get_target()
-    do return udg_DamageEventTarget end
+    return udg_DamageEventTarget
 end
 
--- Original JASS function: s__Damage__get_amount (line 1790)
 function s__Damage__get_amount()
-    do return s__Damage_damage[s__Damage_index] end
+    return s__Damage_damage[s__Damage_index]
 end
 
--- Original JASS function: s__Damage__set_amount (line 1794)
 function s__Damage__set_amount(r)
     s__Damage_damage[s__Damage_index] = r
 end
 
--- Original JASS function: s__Damage_setArmor (line 1799)
 function s__Damage_setArmor(this, reset)
     local pierce = 0.0
     local at = 0
@@ -403,7 +377,7 @@ function s__Damage_setArmor(this, reset)
         at = udg_DamageEventArmorT
         dt = udg_DamageEventDefenseT
     end
-    if (not ((pierce == __jreal(0.00)))) then
+    if (not (pierce == __jreal(0.00))) then
         BlzSetUnitArmor(udg_DamageEventTarget, __jreal(BlzGetUnitArmor(udg_DamageEventTarget) + pierce))
     end
     if (s__Damage_prevArmorT[s__Damage_index] ~= udg_DamageEventArmorT) then
@@ -414,7 +388,6 @@ function s__Damage_setArmor(this, reset)
     end
 end
 
--- Original JASS function: s__Damage_onAOEEnd (line 1830)
 function s__Damage_onAOEEnd()
     s__DamageTrigger_DamageEngine___run(s__DamageTrigger_AOE)
     udg_DamageEventAOE = 1
@@ -424,16 +397,14 @@ function s__Damage_onAOEEnd()
     GroupClear(udg_DamageEventAOEGroup)
 end
 
--- Original JASS function: s__Damage_afterDamage (line 1840)
 function s__Damage_afterDamage()
-    if ((udg_DamageEventDamageT ~= 0) and (not ((udg_DamageEventPrevAmt == __jreal(0.00))))) then
+    if ((udg_DamageEventDamageT ~= 0) and (not (udg_DamageEventPrevAmt == __jreal(0.00)))) then
         s__DamageTrigger_DamageEngine___run(s__DamageTrigger_AFTER)
         udg_DamageEventDamageT = 0
         udg_DamageEventPrevAmt = __jreal(0.00)
     end
 end
 
--- Original JASS function: s__Damage_runDamagingEvents (line 1848)
 function s__Damage_runDamagingEvents(this, natural)
     s__Damage_armorType[this] = BlzGetUnitIntegerField(s__Damage_targetUnit[this], UNIT_IF_ARMOR_TYPE)
     s__Damage_defenseType[this] = BlzGetUnitIntegerField(s__Damage_targetUnit[this], UNIT_IF_DEFENSE_TYPE)
@@ -444,7 +415,7 @@ function s__Damage_runDamagingEvents(this, natural)
     s__DamageTrigger_setGUIFromStruct(true)
     GroupAddUnit(DamageEngine___recursionSources, udg_DamageEventSource)
     GroupAddUnit(DamageEngine___recursionTargets, udg_DamageEventTarget)
-    if (not ((udg_DamageEventAmount == __jreal(0.00)))) then
+    if (not (udg_DamageEventAmount == __jreal(0.00))) then
         udg_DamageEventOverride = (udg_DamageEventDamageT == 0)
         s__DamageTrigger_DamageEngine___run(s__DamageTrigger_MOD)
         if natural then
@@ -454,12 +425,11 @@ function s__Damage_runDamagingEvents(this, natural)
             BlzSetEventDamage(udg_DamageEventAmount)
         end
         s__Damage_setArmor(this, false)
-        do return false end
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: s__Damage_unfreeze (line 1897)
 function s__Damage_unfreeze()
     local i = s__Damage_damageStack
     while true do
@@ -479,7 +449,6 @@ function s__Damage_unfreeze()
     GroupClear(DamageEngine___recursionTargets)
 end
 
--- Original JASS function: s__Damage_runAfterDamageEvents (line 1921)
 function s__Damage_runAfterDamageEvents()
     local i = 0
     local exit = 0
@@ -523,7 +492,6 @@ function s__Damage_runAfterDamageEvents()
     end
 end
 
--- Original JASS function: s__Damage_failsafeClear (line 1979)
 function s__Damage_failsafeClear()
     s__Damage_setArmor(s__Damage_index, true)
     DamageEngine___isNotNativeRecursiveDamage = true
@@ -536,7 +504,6 @@ function s__Damage_failsafeClear()
     s__Damage_runAfterDamageEvents()
 end
 
--- Original JASS function: s__Damage__set_enabled (line 1996)
 function s__Damage__set_enabled(b)
     if b then
         if DamageEngine___callbacksInProgress then
@@ -555,12 +522,10 @@ function s__Damage__set_enabled(b)
     end
 end
 
--- Original JASS function: s__Damage__get_enabled (line 2014)
 function s__Damage__get_enabled()
-    do return IsTriggerEnabled(DamageEngine___damagingTrigger) end
+    return IsTriggerEnabled(DamageEngine___damagingTrigger)
 end
 
--- Original JASS function: s__Damage_asyncCallbackSafeCallback (line 2019)
 function s__Damage_asyncCallbackSafeCallback()
     if DamageEngine___waitingForDamageEventToRun then
         s__Damage_failsafeClear()
@@ -573,7 +538,6 @@ function s__Damage_asyncCallbackSafeCallback()
     s__Damage_threadCompleted = true
 end
 
--- Original JASS function: s__Damage_asyncCallback (line 2036)
 function s__Damage_asyncCallback()
     DamageEngine___callbacksInProgress = false
     s__Damage__set_enabled(true)
@@ -588,10 +552,9 @@ function s__Damage_asyncCallback()
     DamageEngine___timerStarted = false
 end
 
--- Original JASS function: s__Damage_addRecursive (line 2056)
 function s__Damage_addRecursive(this)
     local currentIndex = 0
-    if (not ((s__Damage_damage[this] == __jreal(0.00)))) then
+    if (not (s__Damage_damage[this] == __jreal(0.00))) then
         currentIndex = s__DamageTrigger_eventIndex
         s__Damage_recursiveTrig[this] = currentIndex
         if (not s__Damage_isCode[this]) then
@@ -618,7 +581,6 @@ function s__Damage_addRecursive(this)
     DamageEngine_inception = false
 end
 
--- Original JASS function: s__Damage_clearNexts (line 2101)
 function s__Damage_clearNexts()
     udg_NextDamageIsAttack = false
     udg_NextDamageType = 0
@@ -627,7 +589,6 @@ function s__Damage_clearNexts()
     udg_NextDamageIsRanged = false
 end
 
--- Original JASS function: s__Damage_create (line 2112)
 function s__Damage_create(src, tgt, amt, isAttack, at, dt, wt)
     local d = __jint(s__Damage_count + 1)
     s__Damage_count = d
@@ -640,13 +601,12 @@ function s__Damage_create(src, tgt, amt, isAttack, at, dt, wt)
     s__Damage_weaponType[d] = wt
     s__Damage_isAttack[d] = (udg_NextDamageIsAttack or isAttack)
     s__Damage_isSpell[d] = ((s__Damage_attackType[d] == nil) and (not s__Damage_isAttack[d]))
-    do return d end
+    return d
 end
 
--- Original JASS function: s__Damage_createFromEvent (line 2130)
 function s__Damage_createFromEvent()
     local d = s__Damage_create(GetEventDamageSource(), GetTriggerUnit(), GetEventDamage(), BlzGetEventIsAttack(), BlzGetEventAttackType(), BlzGetEventDamageType(), BlzGetEventWeaponType())
-    s__Damage_isCode[d] = (((((((udg_NextDamageType ~= 0) or udg_NextDamageIsAttack) or udg_NextDamageIsRanged) or udg_NextDamageIsMelee) or (s__Damage_damageType[d] == DAMAGE_TYPE_MIND)) or (udg_NextDamageWeaponT ~= 0)) or (((s__Damage_damageType[d] == DAMAGE_TYPE_UNKNOWN) and (not ((s__Damage_damage[d] == __jreal(0.00)))))))
+    s__Damage_isCode[d] = (((((((udg_NextDamageType ~= 0) or udg_NextDamageIsAttack) or udg_NextDamageIsRanged) or udg_NextDamageIsMelee) or (s__Damage_damageType[d] == DAMAGE_TYPE_MIND)) or (udg_NextDamageWeaponT ~= 0)) or ((s__Damage_damageType[d] == DAMAGE_TYPE_UNKNOWN) and (not (s__Damage_damage[d] == __jreal(0.00)))))
     if s__Damage_isCode[d] then
         if (udg_NextDamageType ~= 0) then
             s__Damage_userType[d] = udg_NextDamageType
@@ -687,18 +647,16 @@ function s__Damage_createFromEvent()
         end
     end
     s__Damage_clearNexts()
-    do return d end
+    return d
 end
 
--- Original JASS function: s__Damage_onRecursiveDamageCallback (line 2204)
 function s__Damage_onRecursiveDamageCallback()
     local d = s__Damage_createFromEvent()
     s__Damage_addRecursive(d)
     BlzSetEventDamage(__jreal(0.00))
-    do return false end
+    return false
 end
 
--- Original JASS function: s__Damage_onDamagingCallback (line 2211)
 function s__Damage_onDamagingCallback()
     local d = s__Damage_createFromEvent()
     if DamageEngine___timerStarted then
@@ -735,17 +693,16 @@ function s__Damage_onDamagingCallback()
         s__Damage_runAfterDamageEvents()
     end
     DamageEngine___waitingForDamageEventToRun = ((((DamageEngine___lastInstance == 0) or DamageEngine___attacksImmune[udg_DamageEventAttackT]) or DamageEngine___damagesImmune[udg_DamageEventDamageT]) or (not IsUnitType(udg_DamageEventTarget, UNIT_TYPE_MAGIC_IMMUNE)))
-    do return false end
+    return false
 end
 
--- Original JASS function: s__Damage_onDamagedCallback (line 2271)
 function s__Damage_onDamagedCallback()
     local r = GetEventDamage()
     local d = s__Damage_index
     if (s__Damage_prepped > 0) then
         s__Damage_prepped = 0
     elseif (DamageEngine___callbacksInProgress or (s__Damage_prevAmt[d] == __jreal(0.00))) then
-        do return false end
+        return false
     elseif DamageEngine___waitingForDamageEventToRun then
         DamageEngine___waitingForDamageEventToRun = false
     else
@@ -757,7 +714,7 @@ function s__Damage_onDamagedCallback()
         s__DamageTrigger_setGUIFromStruct(true)
     end
     s__Damage_setArmor(d, true)
-    if ((not ((udg_DamageEventAmount == __jreal(0.00)))) and (not ((r == __jreal(0.00))))) then
+    if ((not (udg_DamageEventAmount == __jreal(0.00))) and (not (r == __jreal(0.00)))) then
         udg_DamageScalingWC3 = __jreal(r / udg_DamageEventAmount)
     elseif (udg_DamageEventAmount > __jreal(0.00)) then
         udg_DamageScalingWC3 = __jreal(0.00)
@@ -800,10 +757,9 @@ function s__Damage_onDamagedCallback()
     if (udg_DamageEventAmount == __jreal(0.00)) then
         s__Damage_runAfterDamageEvents()
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: s__Damage_apply (line 2377)
 function s__Damage_apply(src, tgt, amt, a, r, at, dt, wt)
     local d = 0
     if (udg_NextDamageType == 0) then
@@ -825,20 +781,17 @@ function s__Damage_apply(src, tgt, amt, a, r, at, dt, wt)
         s__Damage_runAfterDamageEvents()
     end
     s__Damage_clearNexts()
-    do return d end
+    return d
 end
 
--- Original JASS function: s__Damage_applySpell (line 2412)
 function s__Damage_applySpell(src, tgt, amt, dt)
-    do return s__Damage_apply(src, tgt, amt, false, false, nil, dt, nil) end
+    return s__Damage_apply(src, tgt, amt, false, false, nil, dt, nil)
 end
 
--- Original JASS function: s__Damage_applyAttack (line 2416)
 function s__Damage_applyAttack(src, tgt, amt, ranged, at, wt)
-    do return s__Damage_apply(src, tgt, amt, true, ranged, at, DAMAGE_TYPE_NORMAL, wt) end
+    return s__Damage_apply(src, tgt, amt, true, ranged, at, DAMAGE_TYPE_NORMAL, wt)
 end
 
--- Original JASS function: s__Damage_onInit (line 2421)
 function s__Damage_onInit()
     DamageEngine___async = CreateTimer()
     DamageEngine___recursionSources = CreateGroup()
@@ -884,7 +837,6 @@ function s__Damage_onInit()
     DamageEngine___damagesImmune[26] = true
 end
 
--- Original JASS function: DamageEngine_DebugStr (line 2484)
 function DamageEngine_DebugStr()
     local i = 0
     while true do
@@ -1068,38 +1020,31 @@ function DamageEngine_DebugStr()
     udg_DamageFilterRunChance = __jreal(1.00)
 end
 
--- Original JASS function: DamageEngine_RegisterFromHook (line 2699)
 function DamageEngine_RegisterFromHook(whichTrig, var, op, value)
     s__DamageTrigger_registerVerbose(whichTrig, var, value, true, GetHandleId(op))
 end
 
--- Original JASS function: TriggerRegisterDamageEngineEx (line 2704)
 function TriggerRegisterDamageEngineEx(whichTrig, eventName, value, opId)
-    do return s__DamageTrigger_registerVerbose(whichTrig, s__DamageTrigger_getVerboseStr(eventName), value, false, opId) end
+    return s__DamageTrigger_registerVerbose(whichTrig, s__DamageTrigger_getVerboseStr(eventName), value, false, opId)
 end
 
--- Original JASS function: TriggerRegisterDamageEngine (line 2708)
 function TriggerRegisterDamageEngine(whichTrig, eventName, value)
-    do return s__DamageTrigger_registerTrigger(whichTrig, eventName, value) end
+    return s__DamageTrigger_registerTrigger(whichTrig, eventName, value)
 end
 
--- Original JASS function: RegisterDamageEngineEx (line 2712)
 function RegisterDamageEngineEx(callback, eventName, value, opId)
-    do return TriggerRegisterDamageEngineEx(s__DamageTrigger__staticgetindex(callback), eventName, value, opId) end
+    return TriggerRegisterDamageEngineEx(s__DamageTrigger__staticgetindex(callback), eventName, value, opId)
 end
 
--- Original JASS function: RegisterDamageEngine (line 2717)
 function RegisterDamageEngine(callback, eventName, value)
-    do return RegisterDamageEngineEx(callback, eventName, value, DamageEngine_FILTER_OTHER) end
+    return RegisterDamageEngineEx(callback, eventName, value, DamageEngine_FILTER_OTHER)
 end
 
--- Original JASS function: sa___prototype2_DamageEngine_RegisterFromHook (line 21323)
 function sa___prototype2_DamageEngine_RegisterFromHook()
     DamageEngine_RegisterFromHook(f__arg_trigger1, f__arg_string1, f__arg_limitop1, f__arg_real1)
-    do return true end
+    return true
 end
 
--- Original JASS function: jasshelper__initstructs149790140 (line 21328)
 function jasshelper__initstructs149790140()
     st___prototype2[1] = CreateTrigger()
     TriggerAddAction(st___prototype2[1], sa___prototype2_DamageEngine_RegisterFromHook)

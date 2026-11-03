@@ -2,104 +2,92 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 155 FanOfKnivesBasedSpells
--- Original JASS function: BURST_IsSupportedAbility (line 11122)
 function BURST_IsSupportedAbility(abilId)
-    do return ((abilId == BURST_DRAGONIC_ABIL_ID) or (abilId == BURST_LICH_ABIL_ID)) end
+    return ((abilId == BURST_DRAGONIC_ABIL_ID) or (abilId == BURST_LICH_ABIL_ID))
 end
 
--- Original JASS function: BURST_GetMissileModel (line 11126)
 function BURST_GetMissileModel(abilId)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return "units\\creeps\\RedDragonWelp\\RedDragonWelp.mdl" end
+        return "units\\creeps\\RedDragonWelp\\RedDragonWelp.mdl"
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return "Abilities\\Weapons\\LichMissile\\LichMissile.mdl" end
+        return "Abilities\\Weapons\\LichMissile\\LichMissile.mdl"
     end
-    do return "" end
+    return ""
 end
 
--- Original JASS function: BURST_GetMissileSpeed (line 11138)
 function BURST_GetMissileSpeed(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(700.00) end
+        return __jreal(700.00)
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(500.00) end
+        return __jreal(500.00)
     end
-    do return __jreal(0.00) end
+    return __jreal(0.00)
 end
 
--- Original JASS function: BURST_GetMissileHeight (line 11150)
 function BURST_GetMissileHeight(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(200.00) end
+        return __jreal(200.00)
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(70.00) end
+        return __jreal(70.00)
     end
-    do return __jreal(70.00) end
+    return __jreal(70.00)
 end
 
--- Original JASS function: BURST_GetMissileScale (line 11162)
 function BURST_GetMissileScale(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(1.50) end
+        return __jreal(1.50)
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(1.00) end
+        return __jreal(1.00)
     end
-    do return __jreal(1.00) end
+    return __jreal(1.00)
 end
 
--- Original JASS function: BURST_GetHitRange (line 11174)
 function BURST_GetHitRange(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(30.00) end
+        return __jreal(30.00)
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(35.00) end
+        return __jreal(35.00)
     end
-    do return __jreal(35.00) end
+    return __jreal(35.00)
 end
 
--- Original JASS function: BURST_GetDamage (line 11186)
 function BURST_GetDamage(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(__jreal(100.00) + __jreal(__jreal(25.00) * I2R(__jint(level - 1)))) end
+        return __jreal(__jreal(100.00) + __jreal(__jreal(25.00) * I2R(__jint(level - 1))))
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(__jreal(100.00) + __jreal(__jreal(25.00) * I2R(__jint(level - 1)))) end
+        return __jreal(__jreal(100.00) + __jreal(__jreal(25.00) * I2R(__jint(level - 1))))
     end
-    do return __jreal(0.00) end
+    return __jreal(0.00)
 end
 
--- Original JASS function: BURST_GetAoE (line 11200)
 function BURST_GetAoE(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(__jreal(500.00) + __jreal(__jreal(50.00) * I2R(__jint(level - 1)))) end
+        return __jreal(__jreal(500.00) + __jreal(__jreal(50.00) * I2R(__jint(level - 1))))
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(800.00) end
+        return __jreal(800.00)
     end
-    do return __jreal(0.00) end
+    return __jreal(0.00)
 end
 
--- Original JASS function: BURST_UnitExists (line 11212)
 function BURST_UnitExists(u)
-    do return (GetUnitTypeId(u) ~= 0) end
+    return (GetUnitTypeId(u) ~= 0)
 end
 
--- Original JASS function: BURST_IsAlive (line 11216)
 function BURST_IsAlive(u)
-    do return ((GetUnitTypeId(u) ~= 0) and (GetWidgetLife(u) > __jreal(0.405))) end
+    return ((GetUnitTypeId(u) ~= 0) and (GetWidgetLife(u) > __jreal(0.405)))
 end
 
--- Original JASS function: BURST_IsValidTarget (line 11220)
 function BURST_IsValidTarget(caster, target)
-    do return (((BURST_IsAlive(target) and IsUnitEnemy(target, GetOwningPlayer(caster))) and (not IsUnitType(target, UNIT_TYPE_STRUCTURE))) and (not IsUnitType(target, UNIT_TYPE_MAGIC_IMMUNE))) end
+    return (((BURST_IsAlive(target) and IsUnitEnemy(target, GetOwningPlayer(caster))) and (not IsUnitType(target, UNIT_TYPE_STRUCTURE))) and (not IsUnitType(target, UNIT_TYPE_MAGIC_IMMUNE)))
 end
 
--- Original JASS function: BURST_RemoveMissile (line 11224)
 function BURST_RemoveMissile(i)
     DestroyEffect(BURST_MISSILE[i])
     BURST_CASTER[i] = BURST_CASTER[BURST_COUNT]
@@ -121,7 +109,6 @@ function BURST_RemoveMissile(i)
     BURST_COUNT = __jint(BURST_COUNT - 1)
 end
 
--- Original JASS function: BURST_Periodic (line 11248)
 function BURST_Periodic()
     local i = 1
     local tx = 0.0
@@ -133,7 +120,7 @@ function BURST_Periodic()
     local step = 0.0
     while true do
         if (i > BURST_COUNT) then break end
-        if ((not ((GetUnitTypeId((BURST_CASTER[i])) ~= 0))) or (not BURST_IsAlive(BURST_TARGET[i]))) then
+        if ((not (GetUnitTypeId((BURST_CASTER[i])) ~= 0)) or (not BURST_IsAlive(BURST_TARGET[i]))) then
             BURST_RemoveMissile(i)
         else
             tx = GetUnitX(BURST_TARGET[i])
@@ -162,7 +149,6 @@ function BURST_Periodic()
     end
 end
 
--- Original JASS function: BURST_StartMissile (line 11297)
 function BURST_StartMissile(caster, target, abilId, level)
     local x = GetUnitX(caster)
     local y = GetUnitY(caster)
@@ -187,7 +173,6 @@ function BURST_StartMissile(caster, target, abilId, level)
     e = nil
 end
 
--- Original JASS function: BURST_OnCast (line 11326)
 function BURST_OnCast()
     local caster = GetTriggerUnit()
     local abilId = GetSpellAbilityId()
@@ -198,7 +183,7 @@ function BURST_OnCast()
     local target = nil
     if (not BURST_IsSupportedAbility(abilId)) then
         caster = nil
-        do return end
+        return
     end
     level = GetUnitAbilityLevel(caster, abilId)
     x = GetUnitX(caster)
@@ -217,12 +202,10 @@ function BURST_OnCast()
     target = nil
 end
 
--- Original JASS function: BURST_Conditions (line 11362)
 function BURST_Conditions()
-    do return BURST_IsSupportedAbility(GetSpellAbilityId()) end
+    return BURST_IsSupportedAbility(GetSpellAbilityId())
 end
 
--- Original JASS function: InitTrig_FanOfKnivesBasedSpells (line 11366)
 function InitTrig_FanOfKnivesBasedSpells()
     local t = CreateTrigger()
     local i = 0

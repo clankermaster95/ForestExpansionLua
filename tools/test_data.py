@@ -2,6 +2,7 @@
 from pathlib import Path
 import json,re
 from item_costs import Catalog
+import faction_data
 ROOT=Path(__file__).resolve().parents[1]
 
 def render():
@@ -17,13 +18,10 @@ def render():
             lines.append('FE_TestData.'+kind+'['+json.dumps(raw)+'] = true')
             lines.append('FE_TestData.catalog[#FE_TestData.catalog+1] = {kind='+json.dumps(kind)+
                          ', raw='+json.dumps(raw)+', name='+json.dumps(name,ensure_ascii=False)+'}')
-    selection=(ROOT/'src/game/selection.lua').read_text()
-    for name,expected in (('Spawn_Races',20),('Spawn_Ancients',11)):
-        code=re.search(r'(?ms)^function Trig_'+name+r'_Actions\(\)\n(.*?)^end\s*$',selection)[1]
-        pattern=r'if \(\(\((udg_Banned\w+) == __jreal\(0\.00\)\)\)\) then\s+AddUnitToStockBJ\(FourCC\("(\w{4})"\), (gg_unit_\w+), \d+, \d+\)'
-        entries=re.findall(pattern,code)
-        assert len(entries)==expected,(name,len(entries))
-        for ban,raw,shop in entries:
+    factions=faction_data.load()
+    for kind in ('expanders','ancients'):
+        for entry in factions[kind]:
+            ban,raw,shop=entry['ban'],entry['raw'],entry['shop']
             lines.append('FE_TestData.pickers[#FE_TestData.pickers+1] = {raw='+json.dumps(raw)+', shop='+json.dumps(shop)+', ban='+json.dumps(ban)+'}')
     return '\n'.join(lines)+'\n'
 

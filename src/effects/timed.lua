@@ -2,7 +2,38 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 3 TSEConfig
--- Original JASS function: Trig_TSEConfig_Actions (line 4366)
+-- Preserve the legacy callback globals: callbacks may change ActiveIndex or
+-- RemainingDuration, and callers deliberately read those globals afterwards.
+local function TSEPublishInstance(index)
+    udg_TSE__ActiveIndex = index
+    udg_TSE__RemainingDuration = udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex]
+    udg_TSE__SourceUnit = udg_TSE_I_SourceUnit[udg_TSE__ActiveIndex]
+    udg_TSE__TargetUnit = udg_TSE_I_TargetUnit[udg_TSE__ActiveIndex]
+    udg_TSE__Point = udg_TSE_I_Point[udg_TSE__ActiveIndex]
+    udg_TSE__SpecialEffect = udg_TSE_I_Effect[udg_TSE__ActiveIndex]
+end
+
+-- Keep the field-copy order, locked slots and same-cycle replacement processing.
+local function TSEMoveInstance(index, replacement)
+    udg_TSE_I_Point[index] = udg_TSE_I_Point[replacement]
+    udg_TSE_I_RemainingDuration[index] = udg_TSE_I_RemainingDuration[replacement]
+    udg_TSE_I_Effect[index] = udg_TSE_I_Effect[replacement]
+    udg_TSE_I_ChanneledOrderID[index] = udg_TSE_I_ChanneledOrderID[replacement]
+    udg_TSE_I_IsChanneling[index] = udg_TSE_I_IsChanneling[replacement]
+    udg_TSE_I_SourceUnit[index] = udg_TSE_I_SourceUnit[replacement]
+    udg_TSE_I_SourceUnitAliveCheck[index] = udg_TSE_I_SourceUnitAliveCheck[replacement]
+    udg_TSE_I_TargetUnitAliveCheck[index] = udg_TSE_I_TargetUnitAliveCheck[replacement]
+    udg_TSE_I_TargetUnit[index] = udg_TSE_I_TargetUnit[replacement]
+    udg_TSE_I_OnLoopEvent[index] = udg_TSE_I_OnLoopEvent[replacement]
+    udg_TSE_I_OnLoopTimer[index] = udg_TSE_I_OnLoopTimer[replacement]
+    udg_TSE_I_LoopDuration[index] = udg_TSE_I_LoopDuration[replacement]
+    udg_TSE_I_OnEndEvent[index] = udg_TSE_I_OnEndEvent[replacement]
+    udg_TSE_I_LockInstance[index] = udg_TSE_I_LockInstance[replacement]
+    udg_TSE_I_LockInstance[replacement] = false
+    udg_TSE_I_ActiveInstance[index] = udg_TSE_I_ActiveInstance[replacement]
+    udg_TSE_I_ActiveInstance[replacement] = false
+end
+
 function Trig_TSEConfig_Actions()
     udg_TSE_LoopTrigger = gg_trg_TSELoop
     udg_TSE_RegisterTrigger = gg_trg_TSERegister
@@ -12,7 +43,6 @@ function Trig_TSEConfig_Actions()
     udg_TSEScale = __jreal(1.00)
 end
 
--- Original JASS function: InitTrig_TSEConfig (line 4392)
 function InitTrig_TSEConfig()
     gg_trg_TSEConfig = CreateTrigger()
     TriggerAddAction(gg_trg_TSEConfig, Trig_TSEConfig_Actions)
@@ -20,93 +50,60 @@ end
 -- END FOREST SECTION 3
 
 -- BEGIN FOREST SECTION 4 TSERegister
--- Original JASS function: Trig_TSERegister_Func002C (line 4400)
 function Trig_TSERegister_Func002C()
-    if ((not ((udg_TSEUnit ~= nil)))) then
-        do return false end
+    if (not (udg_TSEUnit ~= nil)) then
+        return false
     end
-    if ((not ((udg_TSETargetUnit == nil)))) then
-        do return false end
+    if (not (udg_TSETargetUnit == nil)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TSERegister_Func003Func001C (line 4410)
 function Trig_TSERegister_Func003Func001C()
-    if (((udg_TSETargetUnitAliveCheck == true))) then
-        do return true end
+    if (udg_TSETargetUnitAliveCheck == true) then
+        return true
     end
-    if (((udg_TSEUnitAliveCheck == true))) then
-        do return true end
+    if (udg_TSEUnitAliveCheck == true) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_TSERegister_Func003C (line 4420)
 function Trig_TSERegister_Func003C()
-    if ((not Trig_TSERegister_Func003Func001C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_TSERegister_Func003Func001C())
 end
 
--- Original JASS function: Trig_TSERegister_Func007C (line 4427)
 function Trig_TSERegister_Func007C()
-    if ((not ((udg_TSETargetUnit ~= nil)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSETargetUnit ~= nil
 end
 
--- Original JASS function: Trig_TSERegister_Func008C (line 4434)
 function Trig_TSERegister_Func008C()
-    if ((not ((udg_TSESourceUnit ~= nil)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSESourceUnit ~= nil
 end
 
--- Original JASS function: Trig_TSERegister_Func011Func001C (line 4441)
 function Trig_TSERegister_Func011Func001C()
-    if ((not ((udg_TSESourceUnit ~= nil)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSESourceUnit ~= nil
 end
 
--- Original JASS function: Trig_TSERegister_Func011C (line 4448)
 function Trig_TSERegister_Func011C()
-    if ((not ((udg_TSEChanneledOrderID ~= "")))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSEChanneledOrderID ~= ""
 end
 
--- Original JASS function: Trig_TSERegister_Func012C (line 4455)
 function Trig_TSERegister_Func012C()
-    if ((not ((udg_TSEOnLoopTimer < udg_TSE_TIMEOUT)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSEOnLoopTimer < udg_TSE_TIMEOUT
 end
 
--- Original JASS function: Trig_TSERegister_Func034C (line 4462)
 function Trig_TSERegister_Func034C()
-    if ((not ((udg_TSE_MaxIndex == 1)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSE_MaxIndex == 1
 end
 
--- Original JASS function: Trig_TSERegister_Actions (line 4469)
 function Trig_TSERegister_Actions()
     if (Trig_TSERegister_Func002C()) then
         udg_TSETargetUnit = udg_TSEUnit
-    else
     end
     if (Trig_TSERegister_Func003C()) then
         udg_TSETargetUnitAliveCheck = true
-    else
     end
     udg_TSE_MaxIndex = (__jint(udg_TSE_MaxIndex + 1))
     udg_TSE_I_RemainingDuration[udg_TSE_MaxIndex] = udg_TSEDuration
@@ -119,7 +116,6 @@ function Trig_TSERegister_Actions()
     end
     if (Trig_TSERegister_Func008C()) then
         udg_TSE_I_SourceUnitAliveCheck[udg_TSE_MaxIndex] = udg_TSESourceUnitAliveCheck
-    else
     end
     udg_TSE_I_Effect[udg_TSE_MaxIndex] = GetLastCreatedEffectBJ()
     BlzSetSpecialEffectScale(udg_TSE_I_Effect[udg_TSE_MaxIndex], udg_TSEScale)
@@ -129,11 +125,9 @@ function Trig_TSERegister_Actions()
         else
             DisplayTextToForce(GetPlayersAll(), "TRIGSTR_4185")
         end
-    else
     end
     if (Trig_TSERegister_Func012C()) then
         udg_TSEOnLoopTimer = udg_TSE_TIMEOUT
-    else
     end
     udg_TSE_I_SourceUnit[udg_TSE_MaxIndex] = udg_TSESourceUnit
     udg_TSE_I_TargetUnit[udg_TSE_MaxIndex] = udg_TSETargetUnit
@@ -145,18 +139,12 @@ function Trig_TSERegister_Actions()
     udg_TSE_I_LockInstance[udg_TSE_MaxIndex] = udg_TSELockInstance
     udg_TSE_I_ActiveInstance[udg_TSE_MaxIndex] = true
     udg_TSE_I_Point[udg_TSE_MaxIndex] = udg_TSEPoint
-    udg_TSE__ActiveIndex = udg_TSE_MaxIndex
-    udg_TSE__RemainingDuration = udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex]
-    udg_TSE__SourceUnit = udg_TSE_I_SourceUnit[udg_TSE__ActiveIndex]
-    udg_TSE__TargetUnit = udg_TSE_I_TargetUnit[udg_TSE__ActiveIndex]
-    udg_TSE__Point = udg_TSE_I_Point[udg_TSE__ActiveIndex]
-    udg_TSE__SpecialEffect = udg_TSE_I_Effect[udg_TSE__ActiveIndex]
+    TSEPublishInstance(udg_TSE_MaxIndex)
     ConditionalTriggerExecute(udg_TSEOnIndexEvent)
     udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex] = udg_TSE__RemainingDuration
     if (Trig_TSERegister_Func034C()) then
         StartTimerBJ(udg_TSE_CTimer, true, udg_TSE_TIMEOUT)
         EnableTrigger(udg_TSE_LoopTrigger)
-    else
     end
     udg_TSETargetUnit = nil
     udg_TSETargetUnitAliveCheck = false
@@ -172,7 +160,6 @@ function Trig_TSERegister_Actions()
     udg_TSEUnitAliveCheck = false
 end
 
--- Original JASS function: InitTrig_TSERegister (line 4550)
 function InitTrig_TSERegister()
     gg_trg_TSERegister = CreateTrigger()
     TriggerAddAction(gg_trg_TSERegister, Trig_TSERegister_Actions)
@@ -180,146 +167,110 @@ end
 -- END FOREST SECTION 4
 
 -- BEGIN FOREST SECTION 5 TSELoop
--- Original JASS function: Trig_TSELoop_Func002Func001Func004C (line 4558)
 function Trig_TSELoop_Func002Func001Func004C()
-    if ((not ((udg_TSE_I_LoopDuration[udg_TSE_Index] <= __jreal(0.00))))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSE_I_LoopDuration[udg_TSE_Index] <= __jreal(0.00)
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func006C (line 4565)
 function Trig_TSELoop_Func002Func001Func006C()
-    if ((not ((udg_TSE_I_TargetUnitAliveCheck[udg_TSE_Index] == true)))) then
-        do return false end
+    if (not (udg_TSE_I_TargetUnitAliveCheck[udg_TSE_Index] == true)) then
+        return false
     end
-    if ((not ((IsUnitAliveBJ(udg_TSE_I_TargetUnit[udg_TSE_Index]) == false)))) then
-        do return false end
+    if (not (IsUnitAliveBJ(udg_TSE_I_TargetUnit[udg_TSE_Index]) == false)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func007C (line 4575)
 function Trig_TSELoop_Func002Func001Func007C()
-    if ((not ((udg_TSE_I_SourceUnitAliveCheck[udg_TSE_Index] == true)))) then
-        do return false end
+    if (not (udg_TSE_I_SourceUnitAliveCheck[udg_TSE_Index] == true)) then
+        return false
     end
-    if ((not ((IsUnitAliveBJ(udg_TSE_I_SourceUnit[udg_TSE_Index]) == false)))) then
-        do return false end
+    if (not (IsUnitAliveBJ(udg_TSE_I_SourceUnit[udg_TSE_Index]) == false)) then
+        return false
     end
-    if ((not ((udg_TSE_I_SourceUnit[udg_TSE_Index] ~= nil)))) then
-        do return false end
+    if (not (udg_TSE_I_SourceUnit[udg_TSE_Index] ~= nil)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func008C (line 4588)
 function Trig_TSELoop_Func002Func001Func008C()
-    if ((not ((udg_TSE_I_IsChanneling[udg_TSE_Index] == true)))) then
-        do return false end
+    if (not (udg_TSE_I_IsChanneling[udg_TSE_Index] == true)) then
+        return false
     end
-    if ((not ((GetUnitCurrentOrder(udg_TSE_I_SourceUnit[udg_TSE_Index]) ~= String2OrderIdBJ(udg_TSE_I_ChanneledOrderID[udg_TSE_Index]))))) then
-        do return false end
+    if (not (GetUnitCurrentOrder(udg_TSE_I_SourceUnit[udg_TSE_Index]) ~= String2OrderIdBJ(udg_TSE_I_ChanneledOrderID[udg_TSE_Index]))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func017Func002Func002C (line 4598)
 function Trig_TSELoop_Func002Func001Func010Func017Func002Func002C()
-    if ((not ((udg_TSE_I_LockInstance[udg_TSE_ReplacementIndex] == false)))) then
-        do return false end
+    if (not (udg_TSE_I_LockInstance[udg_TSE_ReplacementIndex] == false)) then
+        return false
     end
-    if ((not ((udg_TSE_I_ActiveInstance[udg_TSE_ReplacementIndex] == true)))) then
-        do return false end
+    if (not (udg_TSE_I_ActiveInstance[udg_TSE_ReplacementIndex] == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func017Func002C (line 4608)
 function Trig_TSELoop_Func002Func001Func010Func017Func002C()
-    if (((udg_TSE_Recursion >= udg_TSE_MaxRecursion))) then
-        do return true end
+    if (udg_TSE_Recursion >= udg_TSE_MaxRecursion) then
+        return true
     end
     if (Trig_TSELoop_Func002Func001Func010Func017Func002Func002C()) then
-        do return true end
+        return true
     end
-    if (((udg_TSE_ReplacementIndex == udg_TSE_Index))) then
-        do return true end
+    if (udg_TSE_ReplacementIndex == udg_TSE_Index) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func017C (line 4621)
 function Trig_TSELoop_Func002Func001Func010Func017C()
-    if ((not Trig_TSELoop_Func002Func001Func010Func017Func002C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_TSELoop_Func002Func001Func010Func017Func002C())
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func039Func002C (line 4628)
 function Trig_TSELoop_Func002Func001Func010Func039Func002C()
-    if (((udg_TSE_ReplacementIndex == udg_TSE_MaxIndex))) then
-        do return true end
+    if (udg_TSE_ReplacementIndex == udg_TSE_MaxIndex) then
+        return true
     end
-    if (((udg_TSE_I_ActiveInstance[udg_TSE_MaxIndex] == false))) then
-        do return true end
+    if (udg_TSE_I_ActiveInstance[udg_TSE_MaxIndex] == false) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func039Func005Func002C (line 4638)
 function Trig_TSELoop_Func002Func001Func010Func039Func005Func002C()
-    if (((udg_TSE_I_ActiveInstance[udg_TSE_MaxIndex] == true))) then
-        do return true end
+    if (udg_TSE_I_ActiveInstance[udg_TSE_MaxIndex] == true) then
+        return true
     end
-    if (((udg_TSE_MaxIndex <= 0))) then
-        do return true end
+    if (udg_TSE_MaxIndex <= 0) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func039Func005C (line 4648)
 function Trig_TSELoop_Func002Func001Func010Func039Func005C()
-    if ((not Trig_TSELoop_Func002Func001Func010Func039Func005Func002C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_TSELoop_Func002Func001Func010Func039Func005Func002C())
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func039C (line 4655)
 function Trig_TSELoop_Func002Func001Func010Func039C()
-    if ((not Trig_TSELoop_Func002Func001Func010Func039Func002C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_TSELoop_Func002Func001Func010Func039Func002C())
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func041C (line 4662)
 function Trig_TSELoop_Func002Func001Func010Func041C()
-    if ((not ((udg_TSE_MaxIndex <= 0)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSE_MaxIndex <= 0
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010C (line 4669)
 function Trig_TSELoop_Func002Func001Func010C()
-    if ((not ((udg_TSE_I_RemainingDuration[udg_TSE_Index] <= __jreal(0.00))))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSE_I_RemainingDuration[udg_TSE_Index] <= __jreal(0.00)
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001C (line 4676)
 function Trig_TSELoop_Func002Func001C()
-    if ((not ((udg_TSE_I_ActiveInstance[udg_TSE_Index] == true)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSE_I_ActiveInstance[udg_TSE_Index] == true
 end
 
--- Original JASS function: Trig_TSELoop_Actions (line 4683)
 function Trig_TSELoop_Actions()
     udg_TSE_Index = 1
     while true do
@@ -328,36 +279,22 @@ function Trig_TSELoop_Actions()
             udg_TSE_I_RemainingDuration[udg_TSE_Index] = (__jreal(udg_TSE_I_RemainingDuration[udg_TSE_Index] - udg_TSE_TIMEOUT))
             udg_TSE_I_LoopDuration[udg_TSE_Index] = (__jreal(udg_TSE_I_LoopDuration[udg_TSE_Index] - udg_TSE_TIMEOUT))
             if (Trig_TSELoop_Func002Func001Func004C()) then
-                udg_TSE__ActiveIndex = udg_TSE_Index
-                udg_TSE__RemainingDuration = udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex]
-                udg_TSE__SourceUnit = udg_TSE_I_SourceUnit[udg_TSE__ActiveIndex]
-                udg_TSE__TargetUnit = udg_TSE_I_TargetUnit[udg_TSE__ActiveIndex]
-                udg_TSE__Point = udg_TSE_I_Point[udg_TSE__ActiveIndex]
-                udg_TSE__SpecialEffect = udg_TSE_I_Effect[udg_TSE__ActiveIndex]
+                TSEPublishInstance(udg_TSE_Index)
                 ConditionalTriggerExecute(udg_TSE_I_OnLoopEvent[udg_TSE_Index])
                 udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex] = udg_TSE__RemainingDuration
                 udg_TSE_I_LoopDuration[udg_TSE_Index] = udg_TSE_I_OnLoopTimer[udg_TSE_Index]
-            else
             end
             if (Trig_TSELoop_Func002Func001Func006C()) then
                 udg_TSE_I_RemainingDuration[udg_TSE_Index] = __jreal(0.00)
-            else
             end
             if (Trig_TSELoop_Func002Func001Func007C()) then
                 udg_TSE_I_RemainingDuration[udg_TSE_Index] = __jreal(0.00)
-            else
             end
             if (Trig_TSELoop_Func002Func001Func008C()) then
                 udg_TSE_I_RemainingDuration[udg_TSE_Index] = __jreal(0.00)
-            else
             end
             if (Trig_TSELoop_Func002Func001Func010C()) then
-                udg_TSE__ActiveIndex = udg_TSE_Index
-                udg_TSE__RemainingDuration = udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex]
-                udg_TSE__SourceUnit = udg_TSE_I_SourceUnit[udg_TSE__ActiveIndex]
-                udg_TSE__TargetUnit = udg_TSE_I_TargetUnit[udg_TSE__ActiveIndex]
-                udg_TSE__Point = udg_TSE_I_Point[udg_TSE__ActiveIndex]
-                udg_TSE__SpecialEffect = udg_TSE_I_Effect[udg_TSE__ActiveIndex]
+                TSEPublishInstance(udg_TSE_Index)
                 ConditionalTriggerExecute(udg_TSE_I_OnEndEvent[udg_TSE_Index])
                 DestroyEffectBJ(udg_TSE_I_Effect[udg_TSE_Index])
                 udg_TSE_ReplacementIndexFound = false
@@ -373,23 +310,7 @@ function Trig_TSELoop_Actions()
                     if (udg_TSE_ReplacementIndexFound == true) then break end
                 end
                 RemoveLocation(udg_TSE_I_Point[udg_TSE_Index])
-                udg_TSE_I_Point[udg_TSE_Index] = udg_TSE_I_Point[udg_TSE_ReplacementIndex]
-                udg_TSE_I_RemainingDuration[udg_TSE_Index] = udg_TSE_I_RemainingDuration[udg_TSE_ReplacementIndex]
-                udg_TSE_I_Effect[udg_TSE_Index] = udg_TSE_I_Effect[udg_TSE_ReplacementIndex]
-                udg_TSE_I_ChanneledOrderID[udg_TSE_Index] = udg_TSE_I_ChanneledOrderID[udg_TSE_ReplacementIndex]
-                udg_TSE_I_IsChanneling[udg_TSE_Index] = udg_TSE_I_IsChanneling[udg_TSE_ReplacementIndex]
-                udg_TSE_I_SourceUnit[udg_TSE_Index] = udg_TSE_I_SourceUnit[udg_TSE_ReplacementIndex]
-                udg_TSE_I_SourceUnitAliveCheck[udg_TSE_Index] = udg_TSE_I_SourceUnitAliveCheck[udg_TSE_ReplacementIndex]
-                udg_TSE_I_TargetUnitAliveCheck[udg_TSE_Index] = udg_TSE_I_TargetUnitAliveCheck[udg_TSE_ReplacementIndex]
-                udg_TSE_I_TargetUnit[udg_TSE_Index] = udg_TSE_I_TargetUnit[udg_TSE_ReplacementIndex]
-                udg_TSE_I_OnLoopEvent[udg_TSE_Index] = udg_TSE_I_OnLoopEvent[udg_TSE_ReplacementIndex]
-                udg_TSE_I_OnLoopTimer[udg_TSE_Index] = udg_TSE_I_OnLoopTimer[udg_TSE_ReplacementIndex]
-                udg_TSE_I_LoopDuration[udg_TSE_Index] = udg_TSE_I_LoopDuration[udg_TSE_ReplacementIndex]
-                udg_TSE_I_OnEndEvent[udg_TSE_Index] = udg_TSE_I_OnEndEvent[udg_TSE_ReplacementIndex]
-                udg_TSE_I_LockInstance[udg_TSE_Index] = udg_TSE_I_LockInstance[udg_TSE_ReplacementIndex]
-                udg_TSE_I_LockInstance[udg_TSE_ReplacementIndex] = false
-                udg_TSE_I_ActiveInstance[udg_TSE_Index] = udg_TSE_I_ActiveInstance[udg_TSE_ReplacementIndex]
-                udg_TSE_I_ActiveInstance[udg_TSE_ReplacementIndex] = false
+                TSEMoveInstance(udg_TSE_Index, udg_TSE_ReplacementIndex)
                 udg_TSE_Index = (__jint(udg_TSE_Index - 1))
                 if (Trig_TSELoop_Func002Func001Func010Func039C()) then
                     udg_TSE_MaxCheckOver = false
@@ -397,26 +318,20 @@ function Trig_TSELoop_Actions()
                         udg_TSE_MaxIndex = (__jint(udg_TSE_MaxIndex - 1))
                         if (Trig_TSELoop_Func002Func001Func010Func039Func005C()) then
                             udg_TSE_MaxCheckOver = true
-                        else
                         end
                         if (udg_TSE_MaxCheckOver == true) then break end
                     end
-                else
                 end
                 if (Trig_TSELoop_Func002Func001Func010Func041C()) then
                     PauseTimerBJ(true, udg_TSE_CTimer)
                     DisableTrigger(udg_TSE_LoopTrigger)
-                else
                 end
-            else
             end
-        else
         end
         udg_TSE_Index = __jint(udg_TSE_Index + 1)
     end
 end
 
--- Original JASS function: InitTrig_TSELoop (line 4789)
 function InitTrig_TSELoop()
     gg_trg_TSELoop = CreateTrigger()
     DisableTrigger(gg_trg_TSELoop)
@@ -426,11 +341,9 @@ end
 -- END FOREST SECTION 5
 
 -- BEGIN FOREST SECTION 6 TSEEmptyEvent
--- Original JASS function: Trig_TSEEmptyEvent_Actions (line 4799)
 function Trig_TSEEmptyEvent_Actions()
 end
 
--- Original JASS function: InitTrig_TSEEmptyEvent (line 4803)
 function InitTrig_TSEEmptyEvent()
     gg_trg_TSEEmptyEvent = CreateTrigger()
     TriggerAddAction(gg_trg_TSEEmptyEvent, Trig_TSEEmptyEvent_Actions)

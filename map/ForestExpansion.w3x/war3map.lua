@@ -1584,7 +1584,7 @@ function FE_Recipes.onSale()
     end
     if not shop or not FE_RecipeData.shops[GetUnitTypeId(shop)] then return end
     if not unit or not scroll or not FE_Roles.isAncient(GetOwningPlayer(unit)) then
-        FE_Shops.trace(FE_Test and FE_Test.player,'Recipe/delivery handler stopped: '..
+        FE_Shops.traceDefault('Recipe/delivery handler stopped: '..
             (not unit and 'native sale has no buyer.' or not scroll and 'native sale has no item.' or 'buyer is not owned by the Ancient.'))
         return
     end
@@ -1609,6 +1609,14 @@ function FE_Recipes.onSale()
         if GetItemTypeId(scroll) == kind then finishSale(unit, scroll, kind, player)
         else FE_Shops.trace(player,'Recipe scroll was consumed/replaced before deferred completion.') end
     end)
+end
+
+-- Keep each legacy trigger's registration position and condition/action boundary.
+-- Multiple recipes can compete for ingredients during the same pickup event.
+function FE_Recipes.registerPickup(trigger, condition, action)
+    TriggerRegisterAnyUnitEventBJ(trigger, EVENT_PLAYER_UNIT_PICKUP_ITEM)
+    if condition then TriggerAddCondition(trigger, Condition(condition)) end
+    TriggerAddAction(trigger, action)
 end
 
 function FE_Recipes.init()
@@ -1642,6 +1650,12 @@ function FE_Shops.trace(player, text)
     if FE_Shops.traceEnabled and FE_Test and FE_Test.allowed(player) then
         DisplayTextToPlayer(player, 0, 0, '|cff80d4ff[Shop debug]|r '..text)
     end
+end
+
+-- Sale diagnostics have no guaranteed recipient (including buyerless sales).
+-- Keep the optional solo recipient and eligibility gate behind the shop API.
+function FE_Shops.traceDefault(text)
+    FE_Shops.trace(FE_Test and FE_Test.player, text)
 end
 
 function FE_Shops.radius(shop)
@@ -1721,7 +1735,7 @@ function FE_Shops.observeSale(shop, buyer, item)
     local d = FE_Shops.diagnostics
     d.sales = d.sales + 1
     d.last = 'Sale #'..d.sales..': '..FE_Shops.raw(GetItemTypeId(item))..'; buyer='..FE_Shops.label(buyer)
-    FE_Shops.trace(FE_Test and FE_Test.player, d.last)
+    FE_Shops.traceDefault(d.last)
     -- An accepted order is not proof of the native recipient. Discard a stale
     -- cache when the sale identifies a different buyer.
     if buyer ~= FE_Shops.lastBuyer[shop] then
@@ -1857,7 +1871,6 @@ end
 -- END FOREST MODULE src/combat/focused_anger.lua
 
 -- BEGIN FOREST MODULE src/libraries/damage_engine.lua
--- Original JASS function: sc___prototype2_execute (line 1307)
 function sc___prototype2_execute(i, a1, a2, a3, a4)
     f__arg_trigger1 = a1
     f__arg_string1 = a2
@@ -1866,7 +1879,6 @@ function sc___prototype2_execute(i, a1, a2, a3, a4)
     TriggerExecute(st___prototype2[i])
 end
 
--- Original JASS function: sc___prototype2_evaluate (line 1315)
 function sc___prototype2_evaluate(i, a1, a2, a3, a4)
     f__arg_trigger1 = a1
     f__arg_string1 = a2
@@ -1875,13 +1887,11 @@ function sc___prototype2_evaluate(i, a1, a2, a3, a4)
     TriggerEvaluate(st___prototype2[i])
 end
 
--- Original JASS function: h__TriggerRegisterVariableEvent (line 1324)
 function h__TriggerRegisterVariableEvent(a0, a1, a2, a3)
     sc___prototype2_evaluate(1, a0, a1, a2, a3)
-    do return TriggerRegisterVariableEvent(a0, a1, a2, a3) end
+    return TriggerRegisterVariableEvent(a0, a1, a2, a3)
 end
 
--- Original JASS function: s__DamageTrigger_checkItem (line 1338)
 function s__DamageTrigger_checkItem(u, id)
     local i = 0
     if IsUnitType(u, UNIT_TYPE_HERO) then
@@ -1890,14 +1900,13 @@ function s__DamageTrigger_checkItem(u, id)
             if (i <= 0) then break end
             i = __jint(i - 1)
             if (GetItemTypeId(UnitItemInSlot(u, i)) == id) then
-                do return true end
+                return true
             end
         end
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: s__DamageTrigger_checkConfig (line 1354)
 function s__DamageTrigger_checkConfig(this)
     if ((s__DamageTrigger_sourceType[this] ~= 0) and (GetUnitTypeId(udg_DamageEventSource) ~= s__DamageTrigger_sourceType[this])) then
     elseif ((s__DamageTrigger_targetType[this] ~= 0) and (GetUnitTypeId(udg_DamageEventTarget) ~= s__DamageTrigger_targetType[this])) then
@@ -1914,22 +1923,19 @@ function s__DamageTrigger_checkConfig(this)
     elseif ((s__DamageTrigger_sourceClass[this] >= 0) and (not IsUnitType(udg_DamageEventSource, ConvertUnitType(s__DamageTrigger_sourceClass[this])))) then
     elseif ((s__DamageTrigger_targetClass[this] >= 0) and (not IsUnitType(udg_DamageEventTarget, ConvertUnitType(s__DamageTrigger_targetClass[this])))) then
     elseif (udg_DamageEventAmount >= s__DamageTrigger_damageMin[this]) then
-        do return true end
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: s__DamageTrigger__get_runChance (line 1392)
 function s__DamageTrigger__get_runChance(this)
-    do return __jreal(__jreal(1.00) - s__DamageTrigger_failChance[this]) end
+    return __jreal(__jreal(1.00) - s__DamageTrigger_failChance[this])
 end
 
--- Original JASS function: s__DamageTrigger__set_runChance (line 1397)
 function s__DamageTrigger__set_runChance(this, chance)
     s__DamageTrigger_failChance[this] = __jreal(__jreal(1.00) - chance)
 end
 
--- Original JASS function: s__DamageTrigger_configure (line 1401)
 function s__DamageTrigger_configure(this)
     s__DamageTrigger_attackType[this] = udg_DamageFilterAttackT
     s__DamageTrigger_damageType[this] = udg_DamageFilterDamageT
@@ -1975,7 +1981,6 @@ function s__DamageTrigger_configure(this)
     s__DamageTrigger_configured[this] = true
 end
 
--- Original JASS function: s__DamageTrigger_setGUIFromStruct (line 1454)
 function s__DamageTrigger_setGUIFromStruct(full)
     udg_DamageEventAmount = s__Damage_damage[s__Damage_index]
     udg_DamageEventAttackT = GetHandleId(s__Damage_attackType[s__Damage_index])
@@ -1997,7 +2002,6 @@ function s__DamageTrigger_setGUIFromStruct(full)
     end
 end
 
--- Original JASS function: s__DamageTrigger_setStructFromGUI (line 1483)
 function s__DamageTrigger_setStructFromGUI()
     s__Damage_damage[s__Damage_index] = udg_DamageEventAmount
     s__Damage_attackType[s__Damage_index] = ConvertAttackType(udg_DamageEventAttackT)
@@ -2009,22 +2013,20 @@ function s__DamageTrigger_setStructFromGUI()
     s__Damage_defenseType[s__Damage_index] = udg_DamageEventDefenseT
 end
 
--- Original JASS function: s__DamageTrigger_getVerboseStr (line 1497)
 function s__DamageTrigger_getVerboseStr(eventName)
     if ((eventName == "Modifier") or (eventName == "Mod")) then
-        do return "udg_DamageModifierEvent" end
+        return "udg_DamageModifierEvent"
     end
-    do return __jconcat(__jconcat("udg_", eventName), "DamageEvent") end
+    return __jconcat(__jconcat("udg_", eventName), "DamageEvent")
 end
 
--- Original JASS function: s__DamageTrigger_getStrIndex (line 1504)
 function s__DamageTrigger_getStrIndex(var, lbs)
     local root = R2I(lbs)
-    if ((((var == "udg_DamageModifierEvent") and (root < 4))) or (var == "udg_PreDamageEvent")) then
+    if (((var == "udg_DamageModifierEvent") and (root < 4)) or (var == "udg_PreDamageEvent")) then
         root = s__DamageTrigger_MOD
     elseif ((var == "udg_DamageModifierEvent") or (var == "udg_ArmorDamageEvent")) then
         root = s__DamageTrigger_SHIELD
-    elseif (((((var == "udg_DamageEvent") and (root == 2)) or (root == 0))) or (var == "udg_ZeroDamageEvent")) then
+    elseif ((((var == "udg_DamageEvent") and (root == 2)) or (root == 0)) or (var == "udg_ZeroDamageEvent")) then
         root = s__DamageTrigger_ZERO
     elseif ((var == "udg_DamageEvent") or (var == "udg_OnDamageEvent")) then
         root = s__DamageTrigger_DAMAGE
@@ -2037,10 +2039,9 @@ function s__DamageTrigger_getStrIndex(var, lbs)
     else
         root = 0
     end
-    do return root end
+    return root
 end
 
--- Original JASS function: s__DamageTrigger_toggleAllFilters (line 1533)
 function s__DamageTrigger_toggleAllFilters(this, flag)
     s__DamageTrigger_filters[__jint(this + DamageEngine_FILTER_ATTACK)] = flag
     s__DamageTrigger_filters[__jint(this + DamageEngine_FILTER_MELEE)] = flag
@@ -2050,7 +2051,6 @@ function s__DamageTrigger_toggleAllFilters(this, flag)
     s__DamageTrigger_filters[__jint(this + DamageEngine_FILTER_CODE)] = flag
 end
 
--- Original JASS function: s__DamageTrigger__set_filter (line 1542)
 function s__DamageTrigger__set_filter(this, opId)
     this = __jint(this * DamageEngine_FILTER_MAX)
     if (opId == DamageEngine_FILTER_OTHER) then
@@ -2066,16 +2066,15 @@ function s__DamageTrigger__set_filter(this, opId)
     end
 end
 
--- Original JASS function: s__DamageTrigger_registerVerbose (line 1557)
 function s__DamageTrigger_registerVerbose(whichTrig, var, lbs, GUI, filt)
     local index = s__DamageTrigger_getStrIndex(var, lbs)
     local i = 0
     local id = 0
     if (index == 0) then
-        do return 0 end
+        return 0
     elseif ((s__DamageTrigger_rootTrig[s__DamageTrigger_lastRegistered] == whichTrig) and s__DamageTrigger_usingGUI[s__DamageTrigger_lastRegistered]) then
         s__DamageTrigger_filters[__jint(__jint(s__DamageTrigger_lastRegistered * DamageEngine_FILTER_MAX) + filt)] = true
-        do return 0 end
+        return 0
     end
     DamageEngine___atLeastOneLethalDamageEventRegistered = (DamageEngine___atLeastOneLethalDamageEventRegistered or (index == s__DamageTrigger_LETHAL))
     if (s__DamageTrigger_trigIndexStack[0] == 0) then
@@ -2102,15 +2101,13 @@ function s__DamageTrigger_registerVerbose(whichTrig, var, lbs, GUI, filt)
     end
     s__DamageTrigger_next[index] = id
     s__DamageTrigger_next[id] = i
-    do return s__DamageTrigger_lastRegistered end
+    return s__DamageTrigger_lastRegistered
 end
 
--- Original JASS function: s__DamageTrigger_registerTrigger (line 1607)
 function s__DamageTrigger_registerTrigger(t, var, lbs)
-    do return s__DamageTrigger_registerVerbose(t, s__DamageTrigger_getVerboseStr(var), lbs, false, DamageEngine_FILTER_OTHER) end
+    return s__DamageTrigger_registerVerbose(t, s__DamageTrigger_getVerboseStr(var), lbs, false, DamageEngine_FILTER_OTHER)
 end
 
--- Original JASS function: s__DamageTrigger_getIndex (line 1611)
 function s__DamageTrigger_getIndex(t, eventName, lbs)
     local index = s__DamageTrigger_getStrIndex(s__DamageTrigger_getVerboseStr(eventName), lbs)
     while true do
@@ -2118,13 +2115,12 @@ function s__DamageTrigger_getIndex(t, eventName, lbs)
         index = s__DamageTrigger_next[index]
         if ((index == 0) or (s__DamageTrigger_rootTrig[index] == t)) then break end
     end
-    do return index end
+    return index
 end
 
--- Original JASS function: s__DamageTrigger_unregisterByIndex (line 1621)
 function s__DamageTrigger_unregisterByIndex(this, reset)
     if (this == 0) then
-        do return false end
+        return false
     end
     s__DamageTrigger_next[s__DamageTrigger_prev] = s__DamageTrigger_next[this]
     s__DamageTrigger_trigIndexStack[this] = s__DamageTrigger_trigIndexStack[0]
@@ -2134,15 +2130,13 @@ function s__DamageTrigger_unregisterByIndex(this, reset)
         s__DamageTrigger_configured[this] = false
         s__DamageTrigger_toggleAllFilters((__jint(this * DamageEngine_FILTER_MAX)), false)
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: s__DamageTrigger_unregister (line 1638)
 function s__DamageTrigger_unregister(t, eventName, lbs, reset)
-    do return s__DamageTrigger_unregisterByIndex(s__DamageTrigger_getIndex(t, eventName, lbs), reset) end
+    return s__DamageTrigger_unregisterByIndex(s__DamageTrigger_getIndex(t, eventName, lbs), reset)
 end
 
--- Original JASS function: s__DamageTrigger_DamageEngine___run (line 1642)
 function s__DamageTrigger_DamageEngine___run(this)
     local cat = this
     local d = s__Damage_index
@@ -2150,7 +2144,7 @@ function s__DamageTrigger_DamageEngine___run(this)
     local guiUnset = false
     local mod = (cat <= s__DamageTrigger_DAMAGE)
     if DamageEngine___callbacksInProgress then
-        do return end
+        return
     end
     DamageEngine___callbacksInProgress = true
     DisableTrigger(DamageEngine___damagingTrigger)
@@ -2159,11 +2153,11 @@ function s__DamageTrigger_DamageEngine___run(this)
     while true do
         this = s__DamageTrigger_next[this]
         if (this == 0) then break end
-        if ((cat == s__DamageTrigger_MOD) and ((udg_DamageEventOverride or (udg_DamageEventType == DamageEngine_TYPE_PURE)))) then break end
+        if ((cat == s__DamageTrigger_MOD) and (udg_DamageEventOverride or (udg_DamageEventType == DamageEngine_TYPE_PURE))) then break end
         if ((cat == s__DamageTrigger_SHIELD) and (udg_DamageEventAmount <= __jreal(0.00))) then break end
         if ((cat == s__DamageTrigger_LETHAL) and (udg_LethalDamageHP > DamageEngine___DEATH_VAL)) then break end
         s__DamageTrigger_eventIndex = this
-        if ((((((not s__DamageTrigger_DamageEngine___trigFrozen[this])) and s__DamageTrigger_filters[__jint(__jint(this * DamageEngine_FILTER_MAX) + s__Damage_eFilter[d])]) and IsTriggerEnabled(s__DamageTrigger_rootTrig[this])) and ((((not s__DamageTrigger_configured[this])) or (s__DamageTrigger_checkConfig(this))))) and ((((cat ~= s__DamageTrigger_AOE) or (udg_DamageEventAOE > 1)) or (s__DamageTrigger_eventStr[this] == "udg_SourceDamageEvent")))) then
+        if (((((not s__DamageTrigger_DamageEngine___trigFrozen[this]) and s__DamageTrigger_filters[__jint(__jint(this * DamageEngine_FILTER_MAX) + s__Damage_eFilter[d])]) and IsTriggerEnabled(s__DamageTrigger_rootTrig[this])) and ((not s__DamageTrigger_configured[this]) or (s__DamageTrigger_checkConfig(this)))) and (((cat ~= s__DamageTrigger_AOE) or (udg_DamageEventAOE > 1)) or (s__DamageTrigger_eventStr[this] == "udg_SourceDamageEvent"))) then
             if mod then
                 if s__DamageTrigger_usingGUI[this] then
                     if guiUnset then
@@ -2209,7 +2203,6 @@ function s__DamageTrigger_DamageEngine___run(this)
     DamageEngine___callbacksInProgress = false
 end
 
--- Original JASS function: s__DamageTrigger__staticgetindex (line 1746)
 function s__DamageTrigger__staticgetindex(callback)
     local i = 0
     local b = Filter(callback)
@@ -2223,30 +2216,25 @@ function s__DamageTrigger__staticgetindex(callback)
         i = __jint(i + 1)
         if (b == s__DamageTrigger_autoFuncs[i]) then break end
     end
-    do return s__DamageTrigger_autoTriggers[i] end
+    return s__DamageTrigger_autoTriggers[i]
 end
 
--- Original JASS function: s__Damage__get_source (line 1782)
 function s__Damage__get_source()
-    do return udg_DamageEventSource end
+    return udg_DamageEventSource
 end
 
--- Original JASS function: s__Damage__get_target (line 1786)
 function s__Damage__get_target()
-    do return udg_DamageEventTarget end
+    return udg_DamageEventTarget
 end
 
--- Original JASS function: s__Damage__get_amount (line 1790)
 function s__Damage__get_amount()
-    do return s__Damage_damage[s__Damage_index] end
+    return s__Damage_damage[s__Damage_index]
 end
 
--- Original JASS function: s__Damage__set_amount (line 1794)
 function s__Damage__set_amount(r)
     s__Damage_damage[s__Damage_index] = r
 end
 
--- Original JASS function: s__Damage_setArmor (line 1799)
 function s__Damage_setArmor(this, reset)
     local pierce = 0.0
     local at = 0
@@ -2262,7 +2250,7 @@ function s__Damage_setArmor(this, reset)
         at = udg_DamageEventArmorT
         dt = udg_DamageEventDefenseT
     end
-    if (not ((pierce == __jreal(0.00)))) then
+    if (not (pierce == __jreal(0.00))) then
         BlzSetUnitArmor(udg_DamageEventTarget, __jreal(BlzGetUnitArmor(udg_DamageEventTarget) + pierce))
     end
     if (s__Damage_prevArmorT[s__Damage_index] ~= udg_DamageEventArmorT) then
@@ -2273,7 +2261,6 @@ function s__Damage_setArmor(this, reset)
     end
 end
 
--- Original JASS function: s__Damage_onAOEEnd (line 1830)
 function s__Damage_onAOEEnd()
     s__DamageTrigger_DamageEngine___run(s__DamageTrigger_AOE)
     udg_DamageEventAOE = 1
@@ -2283,16 +2270,14 @@ function s__Damage_onAOEEnd()
     GroupClear(udg_DamageEventAOEGroup)
 end
 
--- Original JASS function: s__Damage_afterDamage (line 1840)
 function s__Damage_afterDamage()
-    if ((udg_DamageEventDamageT ~= 0) and (not ((udg_DamageEventPrevAmt == __jreal(0.00))))) then
+    if ((udg_DamageEventDamageT ~= 0) and (not (udg_DamageEventPrevAmt == __jreal(0.00)))) then
         s__DamageTrigger_DamageEngine___run(s__DamageTrigger_AFTER)
         udg_DamageEventDamageT = 0
         udg_DamageEventPrevAmt = __jreal(0.00)
     end
 end
 
--- Original JASS function: s__Damage_runDamagingEvents (line 1848)
 function s__Damage_runDamagingEvents(this, natural)
     s__Damage_armorType[this] = BlzGetUnitIntegerField(s__Damage_targetUnit[this], UNIT_IF_ARMOR_TYPE)
     s__Damage_defenseType[this] = BlzGetUnitIntegerField(s__Damage_targetUnit[this], UNIT_IF_DEFENSE_TYPE)
@@ -2303,7 +2288,7 @@ function s__Damage_runDamagingEvents(this, natural)
     s__DamageTrigger_setGUIFromStruct(true)
     GroupAddUnit(DamageEngine___recursionSources, udg_DamageEventSource)
     GroupAddUnit(DamageEngine___recursionTargets, udg_DamageEventTarget)
-    if (not ((udg_DamageEventAmount == __jreal(0.00)))) then
+    if (not (udg_DamageEventAmount == __jreal(0.00))) then
         udg_DamageEventOverride = (udg_DamageEventDamageT == 0)
         s__DamageTrigger_DamageEngine___run(s__DamageTrigger_MOD)
         if natural then
@@ -2313,12 +2298,11 @@ function s__Damage_runDamagingEvents(this, natural)
             BlzSetEventDamage(udg_DamageEventAmount)
         end
         s__Damage_setArmor(this, false)
-        do return false end
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: s__Damage_unfreeze (line 1897)
 function s__Damage_unfreeze()
     local i = s__Damage_damageStack
     while true do
@@ -2338,7 +2322,6 @@ function s__Damage_unfreeze()
     GroupClear(DamageEngine___recursionTargets)
 end
 
--- Original JASS function: s__Damage_runAfterDamageEvents (line 1921)
 function s__Damage_runAfterDamageEvents()
     local i = 0
     local exit = 0
@@ -2382,7 +2365,6 @@ function s__Damage_runAfterDamageEvents()
     end
 end
 
--- Original JASS function: s__Damage_failsafeClear (line 1979)
 function s__Damage_failsafeClear()
     s__Damage_setArmor(s__Damage_index, true)
     DamageEngine___isNotNativeRecursiveDamage = true
@@ -2395,7 +2377,6 @@ function s__Damage_failsafeClear()
     s__Damage_runAfterDamageEvents()
 end
 
--- Original JASS function: s__Damage__set_enabled (line 1996)
 function s__Damage__set_enabled(b)
     if b then
         if DamageEngine___callbacksInProgress then
@@ -2414,12 +2395,10 @@ function s__Damage__set_enabled(b)
     end
 end
 
--- Original JASS function: s__Damage__get_enabled (line 2014)
 function s__Damage__get_enabled()
-    do return IsTriggerEnabled(DamageEngine___damagingTrigger) end
+    return IsTriggerEnabled(DamageEngine___damagingTrigger)
 end
 
--- Original JASS function: s__Damage_asyncCallbackSafeCallback (line 2019)
 function s__Damage_asyncCallbackSafeCallback()
     if DamageEngine___waitingForDamageEventToRun then
         s__Damage_failsafeClear()
@@ -2432,7 +2411,6 @@ function s__Damage_asyncCallbackSafeCallback()
     s__Damage_threadCompleted = true
 end
 
--- Original JASS function: s__Damage_asyncCallback (line 2036)
 function s__Damage_asyncCallback()
     DamageEngine___callbacksInProgress = false
     s__Damage__set_enabled(true)
@@ -2447,10 +2425,9 @@ function s__Damage_asyncCallback()
     DamageEngine___timerStarted = false
 end
 
--- Original JASS function: s__Damage_addRecursive (line 2056)
 function s__Damage_addRecursive(this)
     local currentIndex = 0
-    if (not ((s__Damage_damage[this] == __jreal(0.00)))) then
+    if (not (s__Damage_damage[this] == __jreal(0.00))) then
         currentIndex = s__DamageTrigger_eventIndex
         s__Damage_recursiveTrig[this] = currentIndex
         if (not s__Damage_isCode[this]) then
@@ -2477,7 +2454,6 @@ function s__Damage_addRecursive(this)
     DamageEngine_inception = false
 end
 
--- Original JASS function: s__Damage_clearNexts (line 2101)
 function s__Damage_clearNexts()
     udg_NextDamageIsAttack = false
     udg_NextDamageType = 0
@@ -2486,7 +2462,6 @@ function s__Damage_clearNexts()
     udg_NextDamageIsRanged = false
 end
 
--- Original JASS function: s__Damage_create (line 2112)
 function s__Damage_create(src, tgt, amt, isAttack, at, dt, wt)
     local d = __jint(s__Damage_count + 1)
     s__Damage_count = d
@@ -2499,13 +2474,12 @@ function s__Damage_create(src, tgt, amt, isAttack, at, dt, wt)
     s__Damage_weaponType[d] = wt
     s__Damage_isAttack[d] = (udg_NextDamageIsAttack or isAttack)
     s__Damage_isSpell[d] = ((s__Damage_attackType[d] == nil) and (not s__Damage_isAttack[d]))
-    do return d end
+    return d
 end
 
--- Original JASS function: s__Damage_createFromEvent (line 2130)
 function s__Damage_createFromEvent()
     local d = s__Damage_create(GetEventDamageSource(), GetTriggerUnit(), GetEventDamage(), BlzGetEventIsAttack(), BlzGetEventAttackType(), BlzGetEventDamageType(), BlzGetEventWeaponType())
-    s__Damage_isCode[d] = (((((((udg_NextDamageType ~= 0) or udg_NextDamageIsAttack) or udg_NextDamageIsRanged) or udg_NextDamageIsMelee) or (s__Damage_damageType[d] == DAMAGE_TYPE_MIND)) or (udg_NextDamageWeaponT ~= 0)) or (((s__Damage_damageType[d] == DAMAGE_TYPE_UNKNOWN) and (not ((s__Damage_damage[d] == __jreal(0.00)))))))
+    s__Damage_isCode[d] = (((((((udg_NextDamageType ~= 0) or udg_NextDamageIsAttack) or udg_NextDamageIsRanged) or udg_NextDamageIsMelee) or (s__Damage_damageType[d] == DAMAGE_TYPE_MIND)) or (udg_NextDamageWeaponT ~= 0)) or ((s__Damage_damageType[d] == DAMAGE_TYPE_UNKNOWN) and (not (s__Damage_damage[d] == __jreal(0.00)))))
     if s__Damage_isCode[d] then
         if (udg_NextDamageType ~= 0) then
             s__Damage_userType[d] = udg_NextDamageType
@@ -2546,18 +2520,16 @@ function s__Damage_createFromEvent()
         end
     end
     s__Damage_clearNexts()
-    do return d end
+    return d
 end
 
--- Original JASS function: s__Damage_onRecursiveDamageCallback (line 2204)
 function s__Damage_onRecursiveDamageCallback()
     local d = s__Damage_createFromEvent()
     s__Damage_addRecursive(d)
     BlzSetEventDamage(__jreal(0.00))
-    do return false end
+    return false
 end
 
--- Original JASS function: s__Damage_onDamagingCallback (line 2211)
 function s__Damage_onDamagingCallback()
     local d = s__Damage_createFromEvent()
     if DamageEngine___timerStarted then
@@ -2594,17 +2566,16 @@ function s__Damage_onDamagingCallback()
         s__Damage_runAfterDamageEvents()
     end
     DamageEngine___waitingForDamageEventToRun = ((((DamageEngine___lastInstance == 0) or DamageEngine___attacksImmune[udg_DamageEventAttackT]) or DamageEngine___damagesImmune[udg_DamageEventDamageT]) or (not IsUnitType(udg_DamageEventTarget, UNIT_TYPE_MAGIC_IMMUNE)))
-    do return false end
+    return false
 end
 
--- Original JASS function: s__Damage_onDamagedCallback (line 2271)
 function s__Damage_onDamagedCallback()
     local r = GetEventDamage()
     local d = s__Damage_index
     if (s__Damage_prepped > 0) then
         s__Damage_prepped = 0
     elseif (DamageEngine___callbacksInProgress or (s__Damage_prevAmt[d] == __jreal(0.00))) then
-        do return false end
+        return false
     elseif DamageEngine___waitingForDamageEventToRun then
         DamageEngine___waitingForDamageEventToRun = false
     else
@@ -2616,7 +2587,7 @@ function s__Damage_onDamagedCallback()
         s__DamageTrigger_setGUIFromStruct(true)
     end
     s__Damage_setArmor(d, true)
-    if ((not ((udg_DamageEventAmount == __jreal(0.00)))) and (not ((r == __jreal(0.00))))) then
+    if ((not (udg_DamageEventAmount == __jreal(0.00))) and (not (r == __jreal(0.00)))) then
         udg_DamageScalingWC3 = __jreal(r / udg_DamageEventAmount)
     elseif (udg_DamageEventAmount > __jreal(0.00)) then
         udg_DamageScalingWC3 = __jreal(0.00)
@@ -2659,10 +2630,9 @@ function s__Damage_onDamagedCallback()
     if (udg_DamageEventAmount == __jreal(0.00)) then
         s__Damage_runAfterDamageEvents()
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: s__Damage_apply (line 2377)
 function s__Damage_apply(src, tgt, amt, a, r, at, dt, wt)
     local d = 0
     if (udg_NextDamageType == 0) then
@@ -2684,20 +2654,17 @@ function s__Damage_apply(src, tgt, amt, a, r, at, dt, wt)
         s__Damage_runAfterDamageEvents()
     end
     s__Damage_clearNexts()
-    do return d end
+    return d
 end
 
--- Original JASS function: s__Damage_applySpell (line 2412)
 function s__Damage_applySpell(src, tgt, amt, dt)
-    do return s__Damage_apply(src, tgt, amt, false, false, nil, dt, nil) end
+    return s__Damage_apply(src, tgt, amt, false, false, nil, dt, nil)
 end
 
--- Original JASS function: s__Damage_applyAttack (line 2416)
 function s__Damage_applyAttack(src, tgt, amt, ranged, at, wt)
-    do return s__Damage_apply(src, tgt, amt, true, ranged, at, DAMAGE_TYPE_NORMAL, wt) end
+    return s__Damage_apply(src, tgt, amt, true, ranged, at, DAMAGE_TYPE_NORMAL, wt)
 end
 
--- Original JASS function: s__Damage_onInit (line 2421)
 function s__Damage_onInit()
     DamageEngine___async = CreateTimer()
     DamageEngine___recursionSources = CreateGroup()
@@ -2743,7 +2710,6 @@ function s__Damage_onInit()
     DamageEngine___damagesImmune[26] = true
 end
 
--- Original JASS function: DamageEngine_DebugStr (line 2484)
 function DamageEngine_DebugStr()
     local i = 0
     while true do
@@ -2927,38 +2893,31 @@ function DamageEngine_DebugStr()
     udg_DamageFilterRunChance = __jreal(1.00)
 end
 
--- Original JASS function: DamageEngine_RegisterFromHook (line 2699)
 function DamageEngine_RegisterFromHook(whichTrig, var, op, value)
     s__DamageTrigger_registerVerbose(whichTrig, var, value, true, GetHandleId(op))
 end
 
--- Original JASS function: TriggerRegisterDamageEngineEx (line 2704)
 function TriggerRegisterDamageEngineEx(whichTrig, eventName, value, opId)
-    do return s__DamageTrigger_registerVerbose(whichTrig, s__DamageTrigger_getVerboseStr(eventName), value, false, opId) end
+    return s__DamageTrigger_registerVerbose(whichTrig, s__DamageTrigger_getVerboseStr(eventName), value, false, opId)
 end
 
--- Original JASS function: TriggerRegisterDamageEngine (line 2708)
 function TriggerRegisterDamageEngine(whichTrig, eventName, value)
-    do return s__DamageTrigger_registerTrigger(whichTrig, eventName, value) end
+    return s__DamageTrigger_registerTrigger(whichTrig, eventName, value)
 end
 
--- Original JASS function: RegisterDamageEngineEx (line 2712)
 function RegisterDamageEngineEx(callback, eventName, value, opId)
-    do return TriggerRegisterDamageEngineEx(s__DamageTrigger__staticgetindex(callback), eventName, value, opId) end
+    return TriggerRegisterDamageEngineEx(s__DamageTrigger__staticgetindex(callback), eventName, value, opId)
 end
 
--- Original JASS function: RegisterDamageEngine (line 2717)
 function RegisterDamageEngine(callback, eventName, value)
-    do return RegisterDamageEngineEx(callback, eventName, value, DamageEngine_FILTER_OTHER) end
+    return RegisterDamageEngineEx(callback, eventName, value, DamageEngine_FILTER_OTHER)
 end
 
--- Original JASS function: sa___prototype2_DamageEngine_RegisterFromHook (line 21323)
 function sa___prototype2_DamageEngine_RegisterFromHook()
     DamageEngine_RegisterFromHook(f__arg_trigger1, f__arg_string1, f__arg_limitop1, f__arg_real1)
-    do return true end
+    return true
 end
 
--- Original JASS function: jasshelper__initstructs149790140 (line 21328)
 function jasshelper__initstructs149790140()
     st___prototype2[1] = CreateTrigger()
     TriggerAddAction(st___prototype2[1], sa___prototype2_DamageEngine_RegisterFromHook)
@@ -2968,33 +2927,29 @@ end
 -- END FOREST MODULE src/libraries/damage_engine.lua
 
 -- BEGIN FOREST MODULE src/libraries/passive_missiles.lua
--- Original JASS function: PassiveMissiles__IsAlive (line 2730)
 function PassiveMissiles__IsAlive(u)
-    do return (((u ~= nil) and (GetWidgetLife(u) > __jreal(0.405))) and (not IsUnitType(u, UNIT_TYPE_DEAD))) end
+    return (((u ~= nil) and (GetWidgetLife(u) > __jreal(0.405))) and (not IsUnitType(u, UNIT_TYPE_DEAD)))
 end
 
--- Original JASS function: PassiveMissiles__IsValidTargetForCaster (line 2734)
 function PassiveMissiles__IsValidTargetForCaster(caster, target)
     local owner = nil
     local ok = false
     if ((caster == nil) or (target == nil)) then
-        do return false end
+        return false
     end
     owner = GetOwningPlayer(caster)
     ok = ((((PassiveMissiles__IsAlive(target) and IsUnitEnemy(target, owner)) and IsUnitVisible(target, owner)) and (not BlzIsUnitInvulnerable(target))) and (not IsUnitType(target, UNIT_TYPE_MAGIC_IMMUNE)))
     owner = nil
-    do return ok end
+    return ok
 end
 
--- Original JASS function: PassiveMissiles__TargetFilter (line 2749)
 function PassiveMissiles__TargetFilter()
     local u = GetFilterUnit()
     local ok = PassiveMissiles__IsValidTargetForCaster(PassiveMissiles__PM_Source, u)
     u = nil
-    do return ok end
+    return ok
 end
 
--- Original JASS function: PassiveMissiles__PickRandomTarget (line 2757)
 function PassiveMissiles__PickRandomTarget(caster)
     local u = nil
     local result = nil
@@ -3011,16 +2966,15 @@ function PassiveMissiles__PickRandomTarget(caster)
         end
     end
     u = nil
-    do return result end
+    return result
 end
 
--- Original JASS function: PassiveMissiles__GetProjectileCount (line 2781)
 function PassiveMissiles__GetProjectileCount(caster)
     local id = 0
     local owner = nil
     local level = 0
     if (caster == nil) then
-        do return 0 end
+        return 0
     end
     id = GetHandleId(caster)
     owner = LoadUnitHandle(PassiveMissiles__PM_Hash, id, PassiveMissiles__PM_KEY_TORNADO_OWNER)
@@ -3030,29 +2984,27 @@ function PassiveMissiles__GetProjectileCount(caster)
             level = LoadInteger(PassiveMissiles__PM_Hash, id, PassiveMissiles__PM_KEY_TORNADO_BASE_LEVEL)
         end
         owner = nil
-        do return level end
+        return level
     end
-    do return GetUnitAbilityLevel(caster, PassiveMissiles__PM_ABILITY_ID) end
+    return GetUnitAbilityLevel(caster, PassiveMissiles__PM_ABILITY_ID)
 end
 
--- Original JASS function: PassiveMissiles__GetMissileDamageSource (line 2807)
 function PassiveMissiles__GetMissileDamageSource(caster)
     local owner = nil
     if (caster == nil) then
-        do return nil end
+        return nil
     end
     owner = LoadUnitHandle(PassiveMissiles__PM_Hash, GetHandleId(caster), PassiveMissiles__PM_KEY_TORNADO_OWNER)
     if ((owner ~= nil) and PassiveMissiles__IsAlive(owner)) then
-        do return owner end
+        return owner
     end
-    do return caster end
+    return caster
 end
 
--- Original JASS function: PassiveMissiles__DealMissileDamage (line 2823)
 function PassiveMissiles__DealMissileDamage(source, target)
     local damage = PassiveMissiles__PM_DAMAGE
     if (source == nil) then
-        do return end
+        return
     end
     if IsUnitType(target, UNIT_TYPE_STRUCTURE) then
         damage = __jreal(PassiveMissiles__PM_DAMAGE * PassiveMissiles__PM_STRUCTURE_DAMAGE_MULTIPLIER)
@@ -3060,7 +3012,6 @@ function PassiveMissiles__DealMissileDamage(source, target)
     UnitDamageTarget(source, target, damage, false, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, nil)
 end
 
--- Original JASS function: PassiveMissiles__StartMissileSound (line 2837)
 function PassiveMissiles__StartMissileSound(i)
     PassiveMissiles__PM_Sound[i] = CreateSound(PassiveMissiles__PM_LOOP_SOUND_FILE, true, true, true, PassiveMissiles__PM_SOUND_FADE_IN_RATE, PassiveMissiles__PM_SOUND_FADE_OUT_RATE, "SpellsEAX")
     SetSoundVolume(PassiveMissiles__PM_Sound[i], PassiveMissiles__PM_LOOP_SOUND_VOLUME)
@@ -3070,7 +3021,6 @@ function PassiveMissiles__StartMissileSound(i)
     StartSound(PassiveMissiles__PM_Sound[i])
 end
 
--- Original JASS function: PassiveMissiles__StopMissileSound (line 2847)
 function PassiveMissiles__StopMissileSound(i)
     if (PassiveMissiles__PM_Sound[i] ~= nil) then
         StopSound(PassiveMissiles__PM_Sound[i], true, true)
@@ -3078,7 +3028,6 @@ function PassiveMissiles__StopMissileSound(i)
     end
 end
 
--- Original JASS function: PassiveMissiles__PlayDeathSoundAt (line 2854)
 function PassiveMissiles__PlayDeathSoundAt(x, y, z)
     local s = CreateSound(PassiveMissiles__PM_DEATH_SOUND_FILE, false, true, true, PassiveMissiles__PM_SOUND_FADE_IN_RATE, PassiveMissiles__PM_SOUND_FADE_OUT_RATE, "SpellsEAX")
     SetSoundVolume(s, PassiveMissiles__PM_DEATH_SOUND_VOLUME)
@@ -3090,7 +3039,6 @@ function PassiveMissiles__PlayDeathSoundAt(x, y, z)
     s = nil
 end
 
--- Original JASS function: PassiveMissiles__RemoveMissile (line 2867)
 function PassiveMissiles__RemoveMissile(i)
     PassiveMissiles__StopMissileSound(i)
     DestroyEffect(PassiveMissiles__PM_Fx[i])
@@ -3113,7 +3061,6 @@ function PassiveMissiles__RemoveMissile(i)
     end
 end
 
--- Original JASS function: PassiveMissiles__MoveMissiles (line 2893)
 function PassiveMissiles__MoveMissiles()
     local i = 1
     local caster = nil
@@ -3174,7 +3121,6 @@ function PassiveMissiles__MoveMissiles()
     target = nil
 end
 
--- Original JASS function: PassiveMissiles__LaunchMissile (line 2966)
 function PassiveMissiles__LaunchMissile(caster, target, playSound)
     PassiveMissiles__PM_Count = __jint(PassiveMissiles__PM_Count + 1)
     PassiveMissiles__PM_Caster[PassiveMissiles__PM_Count] = caster
@@ -3195,7 +3141,6 @@ function PassiveMissiles__LaunchMissile(caster, target, playSound)
     end
 end
 
--- Original JASS function: PassiveMissiles__LaunchOneFromVolley (line 2992)
 function PassiveMissiles__LaunchOneFromVolley(caster, playSound)
     local target = nil
     if (((caster ~= nil) and PassiveMissiles__IsAlive(caster)) and (PassiveMissiles__GetProjectileCount(caster) > 0)) then
@@ -3203,14 +3148,13 @@ function PassiveMissiles__LaunchOneFromVolley(caster, playSound)
         if (target ~= nil) then
             PassiveMissiles__LaunchMissile(caster, target, playSound)
             target = nil
-            do return true end
+            return true
         end
     end
     target = nil
-    do return false end
+    return false
 end
 
--- Original JASS function: PassiveMissiles__ContinueVolley (line 3009)
 function PassiveMissiles__ContinueVolley()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -3229,15 +3173,14 @@ function PassiveMissiles__ContinueVolley()
     t = nil
 end
 
--- Original JASS function: PassiveMissiles__StartVolley (line 3031)
 function PassiveMissiles__StartVolley(caster, count)
     local t = nil
     local id = 0
     if (count <= 0) then
-        do return end
+        return
     end
     if (not PassiveMissiles__LaunchOneFromVolley(caster, true)) then
-        do return end
+        return
     end
     if (count > 1) then
         t = CreateTimer()
@@ -3249,7 +3192,6 @@ function PassiveMissiles__StartVolley(caster, count)
     t = nil
 end
 
--- Original JASS function: PassiveMissiles__FireForCaster (line 3056)
 function PassiveMissiles__FireForCaster()
     local caster = GetEnumUnit()
     local count = PassiveMissiles__GetProjectileCount(caster)
@@ -3262,20 +3204,17 @@ function PassiveMissiles__FireForCaster()
     caster = nil
 end
 
--- Original JASS function: PassiveMissiles__PeriodicFire (line 3070)
 function PassiveMissiles__PeriodicFire()
     ForGroup(PassiveMissiles__PM_Casters, PassiveMissiles__FireForCaster)
 end
 
--- Original JASS function: PassiveMissiles__OnHeroSkill (line 3074)
 function PassiveMissiles__OnHeroSkill()
     if (GetLearnedSkill() == PassiveMissiles__PM_ABILITY_ID) then
         GroupAddUnit(PassiveMissiles__PM_Casters, GetTriggerUnit())
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: PassiveMissiles__OnSummon (line 3082)
 function PassiveMissiles__OnSummon()
     local summoned = GetSummonedUnit()
     local summoner = GetSummoningUnit()
@@ -3290,10 +3229,9 @@ function PassiveMissiles__OnSummon()
     end
     summoned = nil
     summoner = nil
-    do return false end
+    return false
 end
 
--- Original JASS function: PassiveMissiles__RegisterExistingUnits (line 3102)
 function PassiveMissiles__RegisterExistingUnits()
     local g = CreateGroup()
     local u = nil
@@ -3311,7 +3249,6 @@ function PassiveMissiles__RegisterExistingUnits()
     u = nil
 end
 
--- Original JASS function: PassiveMissiles__Init (line 3124)
 function PassiveMissiles__Init()
     local skillTrigger = CreateTrigger()
     local summonTrigger = CreateTrigger()
@@ -3332,12 +3269,10 @@ end
 -- END FOREST MODULE src/libraries/passive_missiles.lua
 
 -- BEGIN FOREST MODULE src/libraries/prelude.lua
--- Original JASS function: Trig_Item_Crafting_Actions (line 3795)
 function Trig_Item_Crafting_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I01N'))
 end
 
--- Original JASS function: InitTrig_Item_Crafting (line 3837)
 function InitTrig_Item_Crafting()
     local t = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -3346,76 +3281,68 @@ end
 -- END FOREST MODULE src/libraries/prelude.lua
 
 -- BEGIN FOREST MODULE src/libraries/spell_leech.lua
--- Original JASS function: SpellLeech__ClockExpires (line 3153)
 function SpellLeech__ClockExpires()
 end
 
--- Original JASS function: SpellLeech__Now (line 3156)
 function SpellLeech__Now()
-    do return TimerGetElapsed(SpellLeech__SL_Clock) end
+    return TimerGetElapsed(SpellLeech__SL_Clock)
 end
 
--- Original JASS function: SpellLeech__IsAlive (line 3160)
 function SpellLeech__IsAlive(u)
-    do return (((u ~= nil) and (GetWidgetLife(u) > __jreal(0.405))) and (not IsUnitType(u, UNIT_TYPE_DEAD))) end
+    return (((u ~= nil) and (GetWidgetLife(u) > __jreal(0.405))) and (not IsUnitType(u, UNIT_TYPE_DEAD)))
 end
 
--- Original JASS function: SpellLeech__GetDuration (line 3164)
 function SpellLeech__GetDuration(level)
-    do return __jreal(SpellLeech__SL_BASE_DURATION + __jreal(SpellLeech__SL_DURATION_PER_LEVEL * I2R(__jint(level - 1)))) end
+    return __jreal(SpellLeech__SL_BASE_DURATION + __jreal(SpellLeech__SL_DURATION_PER_LEVEL * I2R(__jint(level - 1))))
 end
 
--- Original JASS function: SpellLeech__ActivateLeech (line 3168)
 function SpellLeech__ActivateLeech(caster, level)
     local expireTime = 0.0
     if ((caster == nil) or (level <= 0)) then
-        do return end
+        return
     end
     expireTime = __jreal((TimerGetElapsed(SpellLeech__SL_Clock)) + (__jreal(SpellLeech__SL_BASE_DURATION + __jreal(SpellLeech__SL_DURATION_PER_LEVEL * I2R(__jint((level) - 1))))))
     SaveReal(SpellLeech__SL_Hash, GetHandleId(caster), 0, expireTime)
     DestroyEffect(AddSpecialEffectTarget(SpellLeech__SL_ACTIVATE_EFFECT, caster, "origin"))
 end
 
--- Original JASS function: SpellLeech__IsLeechActive (line 3181)
 function SpellLeech__IsLeechActive(caster)
     if (caster == nil) then
-        do return false end
+        return false
     end
-    do return (LoadReal(SpellLeech__SL_Hash, GetHandleId(caster), 0) > (TimerGetElapsed(SpellLeech__SL_Clock))) end
+    return (LoadReal(SpellLeech__SL_Hash, GetHandleId(caster), 0) > (TimerGetElapsed(SpellLeech__SL_Clock)))
 end
 
--- Original JASS function: SpellLeech__IsValidLeechDamage (line 3189)
 function SpellLeech__IsValidLeechDamage(source, target, damage)
     if (damage <= __jreal(0.00)) then
-        do return false end
+        return false
     end
     if (not SpellLeech__IsAlive(source)) then
-        do return false end
+        return false
     end
     if (target == nil) then
-        do return false end
+        return false
     end
     if (not SpellLeech__IsLeechActive(source)) then
-        do return false end
+        return false
     end
     if (SpellLeech__SL_ENEMY_ONLY and (not IsUnitEnemy(target, GetOwningPlayer(source)))) then
-        do return false end
+        return false
     end
     if (SpellLeech__SL_REQUIRE_NON_ATTACK and BlzGetEventIsAttack()) then
-        do return false end
+        return false
     end
     if (SpellLeech__SL_REQUIRE_DAMAGE_TYPE_MAGIC and (BlzGetEventDamageType() ~= DAMAGE_TYPE_MAGIC)) then
-        do return false end
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: SpellLeech__HealUnit (line 3221)
 function SpellLeech__HealUnit(u, amount)
     local life = 0.0
     local maxLife = 0.0
     if ((not SpellLeech__IsAlive(u)) or (amount <= __jreal(0.00))) then
-        do return end
+        return
     end
     life = GetWidgetLife(u)
     maxLife = GetUnitState(u, UNIT_STATE_MAX_LIFE)
@@ -3429,7 +3356,6 @@ function SpellLeech__HealUnit(u, amount)
     end
 end
 
--- Original JASS function: SpellLeech__OnSpellEffect (line 3243)
 function SpellLeech__OnSpellEffect()
     local caster = nil
     local level = 0
@@ -3441,7 +3367,6 @@ function SpellLeech__OnSpellEffect()
     end
 end
 
--- Original JASS function: SpellLeech__OnDamage (line 3257)
 function SpellLeech__OnDamage()
     local target = GetTriggerUnit()
     local source = GetEventDamageSource()
@@ -3455,7 +3380,6 @@ function SpellLeech__OnDamage()
     source = nil
 end
 
--- Original JASS function: SpellLeech__Init (line 3272)
 function SpellLeech__Init()
     local spellTrigger = CreateTrigger()
     local damageTrigger = CreateTrigger()
@@ -3476,7 +3400,7 @@ end
 
 -- BEGIN FOREST MODULE src/commands/test_data.lua
 -- Generated by tools/test_data.py; edit object data/project.json, not this file.
-FE_TestData = {units={}, items={}, catalog={}, pickers={}, releaseLabel="3.2.0 r7"}
+FE_TestData = {units={}, items={}, catalog={}, pickers={}, releaseLabel="3.2.0 r8"}
 FE_TestData.units["E000"] = true
 FE_TestData.catalog[#FE_TestData.catalog+1] = {kind="units", raw="E000", name="Centaur Warcaller"}
 FE_TestData.units["E00T"] = true
@@ -4646,6 +4570,171 @@ function FE_Test.skipPicking(player)
     say(player,'Picking unlocked. Choose your hero or race normally. The match clock still runs normally.')
 end
 
+local function showHelp(player, args, command)
+    say(player,'Solo test mode ('..FE_TestData.releaseLabel..'). Victory/defeat countdowns are disabled. Use -test <command>.')
+    say(player,'skip: unlock hero/race picking immediately. Full command lists are in the separate DEBUG_REFERENCE.md document.')
+    say(player,'gold/lumber <amount>: add resources; xp <amount>: add XP; level <1-20>: set level.')
+    say(player,'find <name>, items [page] [name], units [page] [name] list IDs in chat.')
+    say(player,'spawn <unit ID> [1-20]; item <item ID> [1-6]. Example: -item I001 creates Helm of Devotion.')
+    say(player,'heal, mana, cooldown, invul, vul, revive, kill, destroy, copy [1-20], unitid, itemid, loc.')
+    say(player,'reveal, hide, speed <0-522>, time <0-24>, shop. Unit commands affect your last selected owned unit.')
+    return
+end
+
+local function changeResources(player, args, command)
+    local amount=integer(args[2],-1000000,1000000)
+    if not amount then say(player,'Usage: -test '..command..' <amount, -1000000 to 1000000>'); return end
+    local state=command=='gold' and PLAYER_STATE_RESOURCE_GOLD or PLAYER_STATE_RESOURCE_LUMBER
+    local value=math.max(0,math.min(1000000,GetPlayerState(player,state)+amount))
+    SetPlayerState(player,state,value); say(player,command..': '..value); return
+end
+
+local function listCatalog(player, args, command)
+    local page=integer(args[2],1,10000)
+    local query=string.lower(table.concat(args,' ',page and 3 or 2)); local found=0
+    page=page or 1
+    if command=='find' and #query<2 then say(player,'Usage: -test find <at least 2 letters of a name or ID>'); return end
+    for _,entry in ipairs(FE_TestData.catalog) do
+        if (command=='find' or command==entry.kind) and string.find(string.lower(entry.name..' '..entry.raw),query,1,true) then
+            found=found+1
+            if found>(page-1)*12 and found<=page*12 then say(player,entry.raw..' ['..entry.kind..'] '..entry.name) end
+        end
+    end
+    say(player,found..' matches; page '..page..'/'..math.max(1,math.ceil(found/12))..'. IDs are case-sensitive.')
+    if found>page*12 then say(player,'Next: -test '..command..' '..(page+1)..' '..query) end
+    return
+end
+
+local function setVision(player, args, command)
+    if FE_Test.vision then
+        FogModifierStop(FE_Test.vision); DestroyFogModifier(FE_Test.vision); FE_Test.vision=nil
+    end
+    if command=='reveal' then
+        FE_Test.vision=CreateFogModifierRect(player,FOG_OF_WAR_VISIBLE,bj_mapInitialPlayableArea,true,false)
+        FogModifierStart(FE_Test.vision)
+    end
+    say(player,command=='reveal' and 'Map revealed.' or 'Map reveal disabled.'); return
+end
+
+local function setTime(player, args, command)
+    local hour=integer(args[2],0,24)
+    if hour then SetTimeOfDay(hour) else say(player,'Usage: -test time <0-24>') end
+    return
+end
+
+local function showShopStatus(player, args, command)
+    if args[2]=='on' then FE_Shops.traceEnabled=true
+    elseif args[2]=='off' then FE_Shops.traceEnabled=false end
+    local d=FE_Recipes.diagnostics
+    say(player,'Shop trace '..(FE_Shops.traceEnabled and 'ON' or 'OFF')..' (-test shop on/off). All shop sales: '..FE_Shops.diagnostics.sales..
+        '; ordinary items delivered: '..FE_Shops.diagnostics.delivered..'; left on ground: '..FE_Shops.diagnostics.ground)
+    say(player,FE_Shops.diagnostics.last)
+    say(player,'Recipes initialized: '..tostring(FE_Recipes.initialized)..'; recipe sales: '..d.sales..
+        '; completed: '..d.completed..'; refunded: '..d.refunded..'; last: '..d.last)
+    say(player,'Ancient owner: '..tostring(FE_Roles.isAncient(player))..'; cached hero owned: '..
+        tostring(udg_AncientUnit~=nil and GetOwningPlayer(udg_AncientUnit)==player))
+    for _,shop in ipairs(FE_Shops.shops) do say(player,FE_Shops.describe(shop)) end
+    return
+end
+
+local function createObjects(player, args, command, unit)
+    local raw=args[2]; local catalog=command=='spawn' and FE_TestData.units or FE_TestData.items
+    local count=integer(args[3] or '1',1,command=='spawn' and 20 or 6)
+    if not raw or not catalog[raw] or not count then
+        say(player,'Usage: -test '..command..' <map object ID> [count]. Use -test find <name>.'); return
+    end
+    local start=GetPlayerStartLocation(player)
+    local x=unit and GetUnitX(unit) or GetStartLocationX(start)
+    local y=unit and GetUnitY(unit) or GetStartLocationY(start)
+    for index=1,count do
+        local offset=64*((index-1)%5+1)
+        if command=='spawn' then CreateUnit(player,FourCC(raw),x+offset,y+64*((index-1)//5),270)
+        else CreateItem(FourCC(raw),x+offset,y) end
+    end
+    say(player,'Created '..count..' '..raw..' nearby. Spawned heroes do not change match roles.'); return
+end
+
+-- Unit handlers return true only when the common applied message is needed.
+local function changeHeroProgress(player, args, command, unit)
+    local amount=integer(args[2],command=='level' and 1 or 0,command=='level' and 20 or 1000000)
+    if not amount or not IsUnitType(unit,UNIT_TYPE_HERO) then say(player,'Select an owned hero and supply a valid '..command..' amount.'); return false end
+    if command=='xp' then AddHeroXP(unit,amount,false)
+    elseif amount<GetHeroLevel(unit) then UnitStripHeroLevel(unit,GetHeroLevel(unit)-amount)
+    else SetHeroLevel(unit,amount,false) end
+    return true
+end
+
+local function restoreUnit(player, args, command, unit)
+    if command=='heal' then SetWidgetLife(unit,GetUnitState(unit,UNIT_STATE_MAX_LIFE)) end
+    SetUnitState(unit,UNIT_STATE_MANA,GetUnitState(unit,UNIT_STATE_MAX_MANA))
+    return true
+end
+
+local function resetCooldown(player, args, command, unit)
+    UnitResetCooldown(unit)
+    return true
+end
+
+local function setProtection(player, args, command, unit)
+    SetUnitInvulnerable(unit,command=='invul')
+    return true
+end
+
+local function killUnit(player, args, command, unit)
+    KillUnit(unit)
+    return true
+end
+
+local function removeUnit(player, args, command, unit)
+    RemoveUnit(unit); FE_Test.selected=nil
+    return true
+end
+
+local function reviveUnit(player, args, command, unit)
+    if IsUnitType(unit,UNIT_TYPE_HERO) then ReviveHero(unit,GetUnitX(unit),GetUnitY(unit),true) end
+    return true
+end
+
+local function setSpeed(player, args, command, unit)
+    local speed=integer(args[2],0,522)
+    if not speed then say(player,'Usage: -test speed <0-522>'); return false end
+    SetUnitMoveSpeed(unit,speed)
+    return true
+end
+
+local function copyUnit(player, args, command, unit)
+    local count=integer(args[2] or '1',1,20)
+    if not count then say(player,'Usage: -test copy <1-20>'); return false end
+    for index=1,count do CreateUnit(player,GetUnitTypeId(unit),GetUnitX(unit)+64*index,GetUnitY(unit),GetUnitFacing(unit)) end
+    return true
+end
+
+local function showObjectId(player, args, command, unit)
+    local raw=GetUnitTypeId(unit)
+    if command=='itemid' then raw=GetItemTypeId(UnitItemInSlot(unit,0)) end
+    for _,entry in ipairs(FE_TestData.catalog) do
+        if FourCC(entry.raw)==raw then say(player,entry.raw..' '..entry.name); return end
+    end
+    say(player,'No matching map object in that slot.')
+end
+
+local function showLocation(player, args, command, unit)
+    say(player,tostring(GetUnitX(unit))..', '..tostring(GetUnitY(unit)))
+end
+
+local playerCommands = {
+    skip=function(player) FE_Test.skipPicking(player) end,
+    help=showHelp, gold=changeResources, lumber=changeResources,
+    find=listCatalog, items=listCatalog, units=listCatalog, reveal=setVision, hide=setVision,
+    time=setTime, shop=showShopStatus,
+}
+local unitCommands = {
+    xp=changeHeroProgress, level=changeHeroProgress, heal=restoreUnit, mana=restoreUnit,
+    cooldown=resetCooldown, invul=setProtection, vul=setProtection, kill=killUnit,
+    destroy=removeUnit, revive=reviveUnit, speed=setSpeed, copy=copyUnit,
+    unitid=showObjectId, itemid=showObjectId, loc=showLocation,
+}
+
 function FE_Test.run(player, text)
     if not FE_Test.allowed(player) then return end
     local args={}
@@ -4654,120 +4743,15 @@ function FE_Test.run(player, text)
     if command=='-test' then table.remove(args,1); command=string.lower(args[1] or 'help')
     else command=command:gsub('^%-','') end
     command=aliases[command] or command
-    if command=='skip' then FE_Test.skipPicking(player); return end
-    if command=='help' then
-        say(player,'Solo test mode ('..FE_TestData.releaseLabel..'). Victory/defeat countdowns are disabled. Use -test <command>.')
-        say(player,'skip: unlock hero/race picking immediately. Full command lists are in the separate DEBUG_REFERENCE.md document.')
-        say(player,'gold/lumber <amount>: add resources; xp <amount>: add XP; level <1-20>: set level.')
-        say(player,'find <name>, items [page] [name], units [page] [name] list IDs in chat.')
-        say(player,'spawn <unit ID> [1-20]; item <item ID> [1-6]. Example: -item I001 creates Helm of Devotion.')
-        say(player,'heal, mana, cooldown, invul, vul, revive, kill, destroy, copy [1-20], unitid, itemid, loc.')
-        say(player,'reveal, hide, speed <0-522>, time <0-24>, shop. Unit commands affect your last selected owned unit.')
-        return
-    end
-    if command=='gold' or command=='lumber' then
-        local amount=integer(args[2],-1000000,1000000)
-        if not amount then say(player,'Usage: -test '..command..' <amount, -1000000 to 1000000>'); return end
-        local state=command=='gold' and PLAYER_STATE_RESOURCE_GOLD or PLAYER_STATE_RESOURCE_LUMBER
-        local value=math.max(0,math.min(1000000,GetPlayerState(player,state)+amount))
-        SetPlayerState(player,state,value); say(player,command..': '..value); return
-    end
-    if command=='find' or command=='items' or command=='units' then
-        local page=integer(args[2],1,10000)
-        local query=string.lower(table.concat(args,' ',page and 3 or 2)); local found=0
-        page=page or 1
-        if command=='find' and #query<2 then say(player,'Usage: -test find <at least 2 letters of a name or ID>'); return end
-        for _,entry in ipairs(FE_TestData.catalog) do
-            if (command=='find' or command==entry.kind) and string.find(string.lower(entry.name..' '..entry.raw),query,1,true) then
-                found=found+1
-                if found>(page-1)*12 and found<=page*12 then say(player,entry.raw..' ['..entry.kind..'] '..entry.name) end
-            end
-        end
-        say(player,found..' matches; page '..page..'/'..math.max(1,math.ceil(found/12))..'. IDs are case-sensitive.')
-        if found>page*12 then say(player,'Next: -test '..command..' '..(page+1)..' '..query) end
-        return
-    end
-    if command=='reveal' or command=='hide' then
-        if FE_Test.vision then
-            FogModifierStop(FE_Test.vision); DestroyFogModifier(FE_Test.vision); FE_Test.vision=nil
-        end
-        if command=='reveal' then
-            FE_Test.vision=CreateFogModifierRect(player,FOG_OF_WAR_VISIBLE,bj_mapInitialPlayableArea,true,false)
-            FogModifierStart(FE_Test.vision)
-        end
-        say(player,command=='reveal' and 'Map revealed.' or 'Map reveal disabled.'); return
-    end
-    if command=='time' then
-        local hour=integer(args[2],0,24)
-        if hour then SetTimeOfDay(hour) else say(player,'Usage: -test time <0-24>') end
-        return
-    end
-    if command=='shop' then
-        if args[2]=='on' then FE_Shops.traceEnabled=true
-        elseif args[2]=='off' then FE_Shops.traceEnabled=false end
-        local d=FE_Recipes.diagnostics
-        say(player,'Shop trace '..(FE_Shops.traceEnabled and 'ON' or 'OFF')..' (-test shop on/off). All shop sales: '..FE_Shops.diagnostics.sales..
-            '; ordinary items delivered: '..FE_Shops.diagnostics.delivered..'; left on ground: '..FE_Shops.diagnostics.ground)
-        say(player,FE_Shops.diagnostics.last)
-        say(player,'Recipes initialized: '..tostring(FE_Recipes.initialized)..'; recipe sales: '..d.sales..
-            '; completed: '..d.completed..'; refunded: '..d.refunded..'; last: '..d.last)
-        say(player,'Ancient owner: '..tostring(FE_Roles.isAncient(player))..'; cached hero owned: '..
-            tostring(udg_AncientUnit~=nil and GetOwningPlayer(udg_AncientUnit)==player))
-        for _,shop in ipairs(FE_Shops.shops) do say(player,FE_Shops.describe(shop)) end
-        return
-    end
+    local handler=playerCommands[command]
+    if handler then handler(player,args,command); return end
+    -- Preserve the original target check even for unknown commands and spawns.
     local unit=target(player,command=='revive')
-    if command=='spawn' or command=='item' then
-        local raw=args[2]; local catalog=command=='spawn' and FE_TestData.units or FE_TestData.items
-        local count=integer(args[3] or '1',1,command=='spawn' and 20 or 6)
-        if not raw or not catalog[raw] or not count then
-            say(player,'Usage: -test '..command..' <map object ID> [count]. Use -test find <name>.'); return
-        end
-        local start=GetPlayerStartLocation(player)
-        local x=unit and GetUnitX(unit) or GetStartLocationX(start)
-        local y=unit and GetUnitY(unit) or GetStartLocationY(start)
-        for index=1,count do
-            local offset=64*((index-1)%5+1)
-            if command=='spawn' then CreateUnit(player,FourCC(raw),x+offset,y+64*((index-1)//5),270)
-            else CreateItem(FourCC(raw),x+offset,y) end
-        end
-        say(player,'Created '..count..' '..raw..' nearby. Spawned heroes do not change match roles.'); return
-    end
+    if command=='spawn' or command=='item' then createObjects(player,args,command,unit); return end
     if not unit then say(player,'Select one of your own units first.'); return end
-    if command=='xp' or command=='level' then
-        local amount=integer(args[2],command=='level' and 1 or 0,command=='level' and 20 or 1000000)
-        if not amount or not IsUnitType(unit,UNIT_TYPE_HERO) then say(player,'Select an owned hero and supply a valid '..command..' amount.'); return end
-        if command=='xp' then AddHeroXP(unit,amount,false)
-        elseif amount<GetHeroLevel(unit) then UnitStripHeroLevel(unit,GetHeroLevel(unit)-amount)
-        else SetHeroLevel(unit,amount,false) end
-    elseif command=='heal' then
-        SetWidgetLife(unit,GetUnitState(unit,UNIT_STATE_MAX_LIFE))
-        SetUnitState(unit,UNIT_STATE_MANA,GetUnitState(unit,UNIT_STATE_MAX_MANA))
-    elseif command=='mana' then SetUnitState(unit,UNIT_STATE_MANA,GetUnitState(unit,UNIT_STATE_MAX_MANA))
-    elseif command=='cooldown' then UnitResetCooldown(unit)
-    elseif command=='invul' or command=='vul' then SetUnitInvulnerable(unit,command=='invul')
-    elseif command=='kill' then KillUnit(unit)
-    elseif command=='destroy' then RemoveUnit(unit); FE_Test.selected=nil
-    elseif command=='revive' then
-        if IsUnitType(unit,UNIT_TYPE_HERO) then ReviveHero(unit,GetUnitX(unit),GetUnitY(unit),true) end
-    elseif command=='speed' then
-        local speed=integer(args[2],0,522)
-        if not speed then say(player,'Usage: -test speed <0-522>'); return end
-        SetUnitMoveSpeed(unit,speed)
-    elseif command=='copy' then
-        local count=integer(args[2] or '1',1,20)
-        if not count then say(player,'Usage: -test copy <1-20>'); return end
-        for index=1,count do CreateUnit(player,GetUnitTypeId(unit),GetUnitX(unit)+64*index,GetUnitY(unit),GetUnitFacing(unit)) end
-    elseif command=='unitid' or command=='itemid' then
-        local raw=GetUnitTypeId(unit)
-        if command=='itemid' then raw=GetItemTypeId(UnitItemInSlot(unit,0)) end
-        for _,entry in ipairs(FE_TestData.catalog) do
-            if FourCC(entry.raw)==raw then say(player,entry.raw..' '..entry.name); return end
-        end
-        say(player,'No matching map object in that slot.'); return
-    elseif command=='loc' then say(player,tostring(GetUnitX(unit))..', '..tostring(GetUnitY(unit))); return
-    else say(player,'Unknown command. Use -test help.'); return end
-    say(player,command..' applied.')
+    handler=unitCommands[command]
+    if not handler then say(player,'Unknown command. Use -test help.'); return end
+    if handler(player,args,command,unit) then say(player,command..' applied.') end
 end
 
 function FE_Test.init()
@@ -5650,7 +5634,6 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 1 Damage_Engine_Config
--- Original JASS function: Trig_Damage_Engine_Config_Actions (line 4321)
 function Trig_Damage_Engine_Config_Actions()
     udg_DamageTypePureExplosive = __jint(-(2))
     udg_DamageTypeExplosive = __jint(-(1))
@@ -5663,7 +5646,6 @@ function Trig_Damage_Engine_Config_Actions()
     DamageEngine_DebugStr()
 end
 
--- Original JASS function: InitTrig_Damage_Engine_Config (line 4350)
 function InitTrig_Damage_Engine_Config()
     gg_trg_Damage_Engine_Config = CreateTrigger()
     TriggerAddAction(gg_trg_Damage_Engine_Config, Trig_Damage_Engine_Config_Actions)
@@ -5680,7 +5662,38 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 3 TSEConfig
--- Original JASS function: Trig_TSEConfig_Actions (line 4366)
+-- Preserve the legacy callback globals: callbacks may change ActiveIndex or
+-- RemainingDuration, and callers deliberately read those globals afterwards.
+local function TSEPublishInstance(index)
+    udg_TSE__ActiveIndex = index
+    udg_TSE__RemainingDuration = udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex]
+    udg_TSE__SourceUnit = udg_TSE_I_SourceUnit[udg_TSE__ActiveIndex]
+    udg_TSE__TargetUnit = udg_TSE_I_TargetUnit[udg_TSE__ActiveIndex]
+    udg_TSE__Point = udg_TSE_I_Point[udg_TSE__ActiveIndex]
+    udg_TSE__SpecialEffect = udg_TSE_I_Effect[udg_TSE__ActiveIndex]
+end
+
+-- Keep the field-copy order, locked slots and same-cycle replacement processing.
+local function TSEMoveInstance(index, replacement)
+    udg_TSE_I_Point[index] = udg_TSE_I_Point[replacement]
+    udg_TSE_I_RemainingDuration[index] = udg_TSE_I_RemainingDuration[replacement]
+    udg_TSE_I_Effect[index] = udg_TSE_I_Effect[replacement]
+    udg_TSE_I_ChanneledOrderID[index] = udg_TSE_I_ChanneledOrderID[replacement]
+    udg_TSE_I_IsChanneling[index] = udg_TSE_I_IsChanneling[replacement]
+    udg_TSE_I_SourceUnit[index] = udg_TSE_I_SourceUnit[replacement]
+    udg_TSE_I_SourceUnitAliveCheck[index] = udg_TSE_I_SourceUnitAliveCheck[replacement]
+    udg_TSE_I_TargetUnitAliveCheck[index] = udg_TSE_I_TargetUnitAliveCheck[replacement]
+    udg_TSE_I_TargetUnit[index] = udg_TSE_I_TargetUnit[replacement]
+    udg_TSE_I_OnLoopEvent[index] = udg_TSE_I_OnLoopEvent[replacement]
+    udg_TSE_I_OnLoopTimer[index] = udg_TSE_I_OnLoopTimer[replacement]
+    udg_TSE_I_LoopDuration[index] = udg_TSE_I_LoopDuration[replacement]
+    udg_TSE_I_OnEndEvent[index] = udg_TSE_I_OnEndEvent[replacement]
+    udg_TSE_I_LockInstance[index] = udg_TSE_I_LockInstance[replacement]
+    udg_TSE_I_LockInstance[replacement] = false
+    udg_TSE_I_ActiveInstance[index] = udg_TSE_I_ActiveInstance[replacement]
+    udg_TSE_I_ActiveInstance[replacement] = false
+end
+
 function Trig_TSEConfig_Actions()
     udg_TSE_LoopTrigger = gg_trg_TSELoop
     udg_TSE_RegisterTrigger = gg_trg_TSERegister
@@ -5690,7 +5703,6 @@ function Trig_TSEConfig_Actions()
     udg_TSEScale = __jreal(1.00)
 end
 
--- Original JASS function: InitTrig_TSEConfig (line 4392)
 function InitTrig_TSEConfig()
     gg_trg_TSEConfig = CreateTrigger()
     TriggerAddAction(gg_trg_TSEConfig, Trig_TSEConfig_Actions)
@@ -5698,93 +5710,60 @@ end
 -- END FOREST SECTION 3
 
 -- BEGIN FOREST SECTION 4 TSERegister
--- Original JASS function: Trig_TSERegister_Func002C (line 4400)
 function Trig_TSERegister_Func002C()
-    if ((not ((udg_TSEUnit ~= nil)))) then
-        do return false end
+    if (not (udg_TSEUnit ~= nil)) then
+        return false
     end
-    if ((not ((udg_TSETargetUnit == nil)))) then
-        do return false end
+    if (not (udg_TSETargetUnit == nil)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TSERegister_Func003Func001C (line 4410)
 function Trig_TSERegister_Func003Func001C()
-    if (((udg_TSETargetUnitAliveCheck == true))) then
-        do return true end
+    if (udg_TSETargetUnitAliveCheck == true) then
+        return true
     end
-    if (((udg_TSEUnitAliveCheck == true))) then
-        do return true end
+    if (udg_TSEUnitAliveCheck == true) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_TSERegister_Func003C (line 4420)
 function Trig_TSERegister_Func003C()
-    if ((not Trig_TSERegister_Func003Func001C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_TSERegister_Func003Func001C())
 end
 
--- Original JASS function: Trig_TSERegister_Func007C (line 4427)
 function Trig_TSERegister_Func007C()
-    if ((not ((udg_TSETargetUnit ~= nil)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSETargetUnit ~= nil
 end
 
--- Original JASS function: Trig_TSERegister_Func008C (line 4434)
 function Trig_TSERegister_Func008C()
-    if ((not ((udg_TSESourceUnit ~= nil)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSESourceUnit ~= nil
 end
 
--- Original JASS function: Trig_TSERegister_Func011Func001C (line 4441)
 function Trig_TSERegister_Func011Func001C()
-    if ((not ((udg_TSESourceUnit ~= nil)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSESourceUnit ~= nil
 end
 
--- Original JASS function: Trig_TSERegister_Func011C (line 4448)
 function Trig_TSERegister_Func011C()
-    if ((not ((udg_TSEChanneledOrderID ~= "")))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSEChanneledOrderID ~= ""
 end
 
--- Original JASS function: Trig_TSERegister_Func012C (line 4455)
 function Trig_TSERegister_Func012C()
-    if ((not ((udg_TSEOnLoopTimer < udg_TSE_TIMEOUT)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSEOnLoopTimer < udg_TSE_TIMEOUT
 end
 
--- Original JASS function: Trig_TSERegister_Func034C (line 4462)
 function Trig_TSERegister_Func034C()
-    if ((not ((udg_TSE_MaxIndex == 1)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSE_MaxIndex == 1
 end
 
--- Original JASS function: Trig_TSERegister_Actions (line 4469)
 function Trig_TSERegister_Actions()
     if (Trig_TSERegister_Func002C()) then
         udg_TSETargetUnit = udg_TSEUnit
-    else
     end
     if (Trig_TSERegister_Func003C()) then
         udg_TSETargetUnitAliveCheck = true
-    else
     end
     udg_TSE_MaxIndex = (__jint(udg_TSE_MaxIndex + 1))
     udg_TSE_I_RemainingDuration[udg_TSE_MaxIndex] = udg_TSEDuration
@@ -5797,7 +5776,6 @@ function Trig_TSERegister_Actions()
     end
     if (Trig_TSERegister_Func008C()) then
         udg_TSE_I_SourceUnitAliveCheck[udg_TSE_MaxIndex] = udg_TSESourceUnitAliveCheck
-    else
     end
     udg_TSE_I_Effect[udg_TSE_MaxIndex] = GetLastCreatedEffectBJ()
     BlzSetSpecialEffectScale(udg_TSE_I_Effect[udg_TSE_MaxIndex], udg_TSEScale)
@@ -5807,11 +5785,9 @@ function Trig_TSERegister_Actions()
         else
             DisplayTextToForce(GetPlayersAll(), "TRIGSTR_4185")
         end
-    else
     end
     if (Trig_TSERegister_Func012C()) then
         udg_TSEOnLoopTimer = udg_TSE_TIMEOUT
-    else
     end
     udg_TSE_I_SourceUnit[udg_TSE_MaxIndex] = udg_TSESourceUnit
     udg_TSE_I_TargetUnit[udg_TSE_MaxIndex] = udg_TSETargetUnit
@@ -5823,18 +5799,12 @@ function Trig_TSERegister_Actions()
     udg_TSE_I_LockInstance[udg_TSE_MaxIndex] = udg_TSELockInstance
     udg_TSE_I_ActiveInstance[udg_TSE_MaxIndex] = true
     udg_TSE_I_Point[udg_TSE_MaxIndex] = udg_TSEPoint
-    udg_TSE__ActiveIndex = udg_TSE_MaxIndex
-    udg_TSE__RemainingDuration = udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex]
-    udg_TSE__SourceUnit = udg_TSE_I_SourceUnit[udg_TSE__ActiveIndex]
-    udg_TSE__TargetUnit = udg_TSE_I_TargetUnit[udg_TSE__ActiveIndex]
-    udg_TSE__Point = udg_TSE_I_Point[udg_TSE__ActiveIndex]
-    udg_TSE__SpecialEffect = udg_TSE_I_Effect[udg_TSE__ActiveIndex]
+    TSEPublishInstance(udg_TSE_MaxIndex)
     ConditionalTriggerExecute(udg_TSEOnIndexEvent)
     udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex] = udg_TSE__RemainingDuration
     if (Trig_TSERegister_Func034C()) then
         StartTimerBJ(udg_TSE_CTimer, true, udg_TSE_TIMEOUT)
         EnableTrigger(udg_TSE_LoopTrigger)
-    else
     end
     udg_TSETargetUnit = nil
     udg_TSETargetUnitAliveCheck = false
@@ -5850,7 +5820,6 @@ function Trig_TSERegister_Actions()
     udg_TSEUnitAliveCheck = false
 end
 
--- Original JASS function: InitTrig_TSERegister (line 4550)
 function InitTrig_TSERegister()
     gg_trg_TSERegister = CreateTrigger()
     TriggerAddAction(gg_trg_TSERegister, Trig_TSERegister_Actions)
@@ -5858,146 +5827,110 @@ end
 -- END FOREST SECTION 4
 
 -- BEGIN FOREST SECTION 5 TSELoop
--- Original JASS function: Trig_TSELoop_Func002Func001Func004C (line 4558)
 function Trig_TSELoop_Func002Func001Func004C()
-    if ((not ((udg_TSE_I_LoopDuration[udg_TSE_Index] <= __jreal(0.00))))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSE_I_LoopDuration[udg_TSE_Index] <= __jreal(0.00)
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func006C (line 4565)
 function Trig_TSELoop_Func002Func001Func006C()
-    if ((not ((udg_TSE_I_TargetUnitAliveCheck[udg_TSE_Index] == true)))) then
-        do return false end
+    if (not (udg_TSE_I_TargetUnitAliveCheck[udg_TSE_Index] == true)) then
+        return false
     end
-    if ((not ((IsUnitAliveBJ(udg_TSE_I_TargetUnit[udg_TSE_Index]) == false)))) then
-        do return false end
+    if (not (IsUnitAliveBJ(udg_TSE_I_TargetUnit[udg_TSE_Index]) == false)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func007C (line 4575)
 function Trig_TSELoop_Func002Func001Func007C()
-    if ((not ((udg_TSE_I_SourceUnitAliveCheck[udg_TSE_Index] == true)))) then
-        do return false end
+    if (not (udg_TSE_I_SourceUnitAliveCheck[udg_TSE_Index] == true)) then
+        return false
     end
-    if ((not ((IsUnitAliveBJ(udg_TSE_I_SourceUnit[udg_TSE_Index]) == false)))) then
-        do return false end
+    if (not (IsUnitAliveBJ(udg_TSE_I_SourceUnit[udg_TSE_Index]) == false)) then
+        return false
     end
-    if ((not ((udg_TSE_I_SourceUnit[udg_TSE_Index] ~= nil)))) then
-        do return false end
+    if (not (udg_TSE_I_SourceUnit[udg_TSE_Index] ~= nil)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func008C (line 4588)
 function Trig_TSELoop_Func002Func001Func008C()
-    if ((not ((udg_TSE_I_IsChanneling[udg_TSE_Index] == true)))) then
-        do return false end
+    if (not (udg_TSE_I_IsChanneling[udg_TSE_Index] == true)) then
+        return false
     end
-    if ((not ((GetUnitCurrentOrder(udg_TSE_I_SourceUnit[udg_TSE_Index]) ~= String2OrderIdBJ(udg_TSE_I_ChanneledOrderID[udg_TSE_Index]))))) then
-        do return false end
+    if (not (GetUnitCurrentOrder(udg_TSE_I_SourceUnit[udg_TSE_Index]) ~= String2OrderIdBJ(udg_TSE_I_ChanneledOrderID[udg_TSE_Index]))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func017Func002Func002C (line 4598)
 function Trig_TSELoop_Func002Func001Func010Func017Func002Func002C()
-    if ((not ((udg_TSE_I_LockInstance[udg_TSE_ReplacementIndex] == false)))) then
-        do return false end
+    if (not (udg_TSE_I_LockInstance[udg_TSE_ReplacementIndex] == false)) then
+        return false
     end
-    if ((not ((udg_TSE_I_ActiveInstance[udg_TSE_ReplacementIndex] == true)))) then
-        do return false end
+    if (not (udg_TSE_I_ActiveInstance[udg_TSE_ReplacementIndex] == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func017Func002C (line 4608)
 function Trig_TSELoop_Func002Func001Func010Func017Func002C()
-    if (((udg_TSE_Recursion >= udg_TSE_MaxRecursion))) then
-        do return true end
+    if (udg_TSE_Recursion >= udg_TSE_MaxRecursion) then
+        return true
     end
     if (Trig_TSELoop_Func002Func001Func010Func017Func002Func002C()) then
-        do return true end
+        return true
     end
-    if (((udg_TSE_ReplacementIndex == udg_TSE_Index))) then
-        do return true end
+    if (udg_TSE_ReplacementIndex == udg_TSE_Index) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func017C (line 4621)
 function Trig_TSELoop_Func002Func001Func010Func017C()
-    if ((not Trig_TSELoop_Func002Func001Func010Func017Func002C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_TSELoop_Func002Func001Func010Func017Func002C())
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func039Func002C (line 4628)
 function Trig_TSELoop_Func002Func001Func010Func039Func002C()
-    if (((udg_TSE_ReplacementIndex == udg_TSE_MaxIndex))) then
-        do return true end
+    if (udg_TSE_ReplacementIndex == udg_TSE_MaxIndex) then
+        return true
     end
-    if (((udg_TSE_I_ActiveInstance[udg_TSE_MaxIndex] == false))) then
-        do return true end
+    if (udg_TSE_I_ActiveInstance[udg_TSE_MaxIndex] == false) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func039Func005Func002C (line 4638)
 function Trig_TSELoop_Func002Func001Func010Func039Func005Func002C()
-    if (((udg_TSE_I_ActiveInstance[udg_TSE_MaxIndex] == true))) then
-        do return true end
+    if (udg_TSE_I_ActiveInstance[udg_TSE_MaxIndex] == true) then
+        return true
     end
-    if (((udg_TSE_MaxIndex <= 0))) then
-        do return true end
+    if (udg_TSE_MaxIndex <= 0) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func039Func005C (line 4648)
 function Trig_TSELoop_Func002Func001Func010Func039Func005C()
-    if ((not Trig_TSELoop_Func002Func001Func010Func039Func005Func002C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_TSELoop_Func002Func001Func010Func039Func005Func002C())
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func039C (line 4655)
 function Trig_TSELoop_Func002Func001Func010Func039C()
-    if ((not Trig_TSELoop_Func002Func001Func010Func039Func002C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_TSELoop_Func002Func001Func010Func039Func002C())
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010Func041C (line 4662)
 function Trig_TSELoop_Func002Func001Func010Func041C()
-    if ((not ((udg_TSE_MaxIndex <= 0)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSE_MaxIndex <= 0
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001Func010C (line 4669)
 function Trig_TSELoop_Func002Func001Func010C()
-    if ((not ((udg_TSE_I_RemainingDuration[udg_TSE_Index] <= __jreal(0.00))))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSE_I_RemainingDuration[udg_TSE_Index] <= __jreal(0.00)
 end
 
--- Original JASS function: Trig_TSELoop_Func002Func001C (line 4676)
 function Trig_TSELoop_Func002Func001C()
-    if ((not ((udg_TSE_I_ActiveInstance[udg_TSE_Index] == true)))) then
-        do return false end
-    end
-    do return true end
+    return udg_TSE_I_ActiveInstance[udg_TSE_Index] == true
 end
 
--- Original JASS function: Trig_TSELoop_Actions (line 4683)
 function Trig_TSELoop_Actions()
     udg_TSE_Index = 1
     while true do
@@ -6006,36 +5939,22 @@ function Trig_TSELoop_Actions()
             udg_TSE_I_RemainingDuration[udg_TSE_Index] = (__jreal(udg_TSE_I_RemainingDuration[udg_TSE_Index] - udg_TSE_TIMEOUT))
             udg_TSE_I_LoopDuration[udg_TSE_Index] = (__jreal(udg_TSE_I_LoopDuration[udg_TSE_Index] - udg_TSE_TIMEOUT))
             if (Trig_TSELoop_Func002Func001Func004C()) then
-                udg_TSE__ActiveIndex = udg_TSE_Index
-                udg_TSE__RemainingDuration = udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex]
-                udg_TSE__SourceUnit = udg_TSE_I_SourceUnit[udg_TSE__ActiveIndex]
-                udg_TSE__TargetUnit = udg_TSE_I_TargetUnit[udg_TSE__ActiveIndex]
-                udg_TSE__Point = udg_TSE_I_Point[udg_TSE__ActiveIndex]
-                udg_TSE__SpecialEffect = udg_TSE_I_Effect[udg_TSE__ActiveIndex]
+                TSEPublishInstance(udg_TSE_Index)
                 ConditionalTriggerExecute(udg_TSE_I_OnLoopEvent[udg_TSE_Index])
                 udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex] = udg_TSE__RemainingDuration
                 udg_TSE_I_LoopDuration[udg_TSE_Index] = udg_TSE_I_OnLoopTimer[udg_TSE_Index]
-            else
             end
             if (Trig_TSELoop_Func002Func001Func006C()) then
                 udg_TSE_I_RemainingDuration[udg_TSE_Index] = __jreal(0.00)
-            else
             end
             if (Trig_TSELoop_Func002Func001Func007C()) then
                 udg_TSE_I_RemainingDuration[udg_TSE_Index] = __jreal(0.00)
-            else
             end
             if (Trig_TSELoop_Func002Func001Func008C()) then
                 udg_TSE_I_RemainingDuration[udg_TSE_Index] = __jreal(0.00)
-            else
             end
             if (Trig_TSELoop_Func002Func001Func010C()) then
-                udg_TSE__ActiveIndex = udg_TSE_Index
-                udg_TSE__RemainingDuration = udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex]
-                udg_TSE__SourceUnit = udg_TSE_I_SourceUnit[udg_TSE__ActiveIndex]
-                udg_TSE__TargetUnit = udg_TSE_I_TargetUnit[udg_TSE__ActiveIndex]
-                udg_TSE__Point = udg_TSE_I_Point[udg_TSE__ActiveIndex]
-                udg_TSE__SpecialEffect = udg_TSE_I_Effect[udg_TSE__ActiveIndex]
+                TSEPublishInstance(udg_TSE_Index)
                 ConditionalTriggerExecute(udg_TSE_I_OnEndEvent[udg_TSE_Index])
                 DestroyEffectBJ(udg_TSE_I_Effect[udg_TSE_Index])
                 udg_TSE_ReplacementIndexFound = false
@@ -6051,23 +5970,7 @@ function Trig_TSELoop_Actions()
                     if (udg_TSE_ReplacementIndexFound == true) then break end
                 end
                 RemoveLocation(udg_TSE_I_Point[udg_TSE_Index])
-                udg_TSE_I_Point[udg_TSE_Index] = udg_TSE_I_Point[udg_TSE_ReplacementIndex]
-                udg_TSE_I_RemainingDuration[udg_TSE_Index] = udg_TSE_I_RemainingDuration[udg_TSE_ReplacementIndex]
-                udg_TSE_I_Effect[udg_TSE_Index] = udg_TSE_I_Effect[udg_TSE_ReplacementIndex]
-                udg_TSE_I_ChanneledOrderID[udg_TSE_Index] = udg_TSE_I_ChanneledOrderID[udg_TSE_ReplacementIndex]
-                udg_TSE_I_IsChanneling[udg_TSE_Index] = udg_TSE_I_IsChanneling[udg_TSE_ReplacementIndex]
-                udg_TSE_I_SourceUnit[udg_TSE_Index] = udg_TSE_I_SourceUnit[udg_TSE_ReplacementIndex]
-                udg_TSE_I_SourceUnitAliveCheck[udg_TSE_Index] = udg_TSE_I_SourceUnitAliveCheck[udg_TSE_ReplacementIndex]
-                udg_TSE_I_TargetUnitAliveCheck[udg_TSE_Index] = udg_TSE_I_TargetUnitAliveCheck[udg_TSE_ReplacementIndex]
-                udg_TSE_I_TargetUnit[udg_TSE_Index] = udg_TSE_I_TargetUnit[udg_TSE_ReplacementIndex]
-                udg_TSE_I_OnLoopEvent[udg_TSE_Index] = udg_TSE_I_OnLoopEvent[udg_TSE_ReplacementIndex]
-                udg_TSE_I_OnLoopTimer[udg_TSE_Index] = udg_TSE_I_OnLoopTimer[udg_TSE_ReplacementIndex]
-                udg_TSE_I_LoopDuration[udg_TSE_Index] = udg_TSE_I_LoopDuration[udg_TSE_ReplacementIndex]
-                udg_TSE_I_OnEndEvent[udg_TSE_Index] = udg_TSE_I_OnEndEvent[udg_TSE_ReplacementIndex]
-                udg_TSE_I_LockInstance[udg_TSE_Index] = udg_TSE_I_LockInstance[udg_TSE_ReplacementIndex]
-                udg_TSE_I_LockInstance[udg_TSE_ReplacementIndex] = false
-                udg_TSE_I_ActiveInstance[udg_TSE_Index] = udg_TSE_I_ActiveInstance[udg_TSE_ReplacementIndex]
-                udg_TSE_I_ActiveInstance[udg_TSE_ReplacementIndex] = false
+                TSEMoveInstance(udg_TSE_Index, udg_TSE_ReplacementIndex)
                 udg_TSE_Index = (__jint(udg_TSE_Index - 1))
                 if (Trig_TSELoop_Func002Func001Func010Func039C()) then
                     udg_TSE_MaxCheckOver = false
@@ -6075,26 +5978,20 @@ function Trig_TSELoop_Actions()
                         udg_TSE_MaxIndex = (__jint(udg_TSE_MaxIndex - 1))
                         if (Trig_TSELoop_Func002Func001Func010Func039Func005C()) then
                             udg_TSE_MaxCheckOver = true
-                        else
                         end
                         if (udg_TSE_MaxCheckOver == true) then break end
                     end
-                else
                 end
                 if (Trig_TSELoop_Func002Func001Func010Func041C()) then
                     PauseTimerBJ(true, udg_TSE_CTimer)
                     DisableTrigger(udg_TSE_LoopTrigger)
-                else
                 end
-            else
             end
-        else
         end
         udg_TSE_Index = __jint(udg_TSE_Index + 1)
     end
 end
 
--- Original JASS function: InitTrig_TSELoop (line 4789)
 function InitTrig_TSELoop()
     gg_trg_TSELoop = CreateTrigger()
     DisableTrigger(gg_trg_TSELoop)
@@ -6104,11 +6001,9 @@ end
 -- END FOREST SECTION 5
 
 -- BEGIN FOREST SECTION 6 TSEEmptyEvent
--- Original JASS function: Trig_TSEEmptyEvent_Actions (line 4799)
 function Trig_TSEEmptyEvent_Actions()
 end
 
--- Original JASS function: InitTrig_TSEEmptyEvent (line 4803)
 function InitTrig_TSEEmptyEvent()
     gg_trg_TSEEmptyEvent = CreateTrigger()
     TriggerAddAction(gg_trg_TSEEmptyEvent, Trig_TSEEmptyEvent_Actions)
@@ -6121,13 +6016,11 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 7 Map_Ini_Testing
--- Original JASS function: Trig_Map_Ini_Testing_Actions (line 4813)
 function Trig_Map_Ini_Testing_Actions()
     CreateMultiboardBJ(3, 11, "TRIGSTR_5709")
     MultiboardSetTitleText(GetLastCreatedMultiboard(), "TRIGSTR_5710")
 end
 
--- Original JASS function: InitTrig_Map_Ini_Testing (line 4819)
 function InitTrig_Map_Ini_Testing()
     gg_trg_Map_Ini_Testing = CreateTrigger()
     DisableTrigger(gg_trg_Map_Ini_Testing)
@@ -6137,7 +6030,6 @@ end
 -- END FOREST SECTION 7
 
 -- BEGIN FOREST SECTION 8 Counter_Testing
--- Original JASS function: Trig_Counter_Testing_Actions (line 4831)
 function Trig_Counter_Testing_Actions()
     MultiboardSetItemWidthBJ(GetLastCreatedMultiboard(), 1, 1, __jreal(15.00))
     MultiboardSetItemWidthBJ(GetLastCreatedMultiboard(), 2, 1, __jreal(15.00))
@@ -6153,7 +6045,6 @@ function Trig_Counter_Testing_Actions()
     MultiboardSetItemValueBJ(GetLastCreatedMultiboard(), 2, 3, I2S(GetPlayerState(Player(0), PLAYER_STATE_RESOURCE_GOLD)))
 end
 
--- Original JASS function: InitTrig_Counter_Testing (line 4847)
 function InitTrig_Counter_Testing()
     gg_trg_Counter_Testing = CreateTrigger()
     DisableTrigger(gg_trg_Counter_Testing)
@@ -6163,13 +6054,11 @@ end
 -- END FOREST SECTION 8
 
 -- BEGIN FOREST SECTION 9 Start_Counter
--- Original JASS function: Trig_Start_Counter_Actions (line 4859)
 function Trig_Start_Counter_Actions()
     DisableTrigger(gg_trg_Tradeoff_Detection)
     DisableTrigger(gg_trg_TreeChopper_Detection)
 end
 
--- Original JASS function: InitTrig_Start_Counter (line 4865)
 function InitTrig_Start_Counter()
     gg_trg_Start_Counter = CreateTrigger()
     DisableTrigger(gg_trg_Start_Counter)
@@ -6179,39 +6068,22 @@ end
 -- END FOREST SECTION 9
 
 -- BEGIN FOREST SECTION 10 Counter
--- Original JASS function: Trig_Counter_Func002Func003C (line 4875)
 function Trig_Counter_Func002Func003C()
-    if ((not ((udg_IntMinutes == 60)))) then
-        do return false end
-    end
-    do return true end
+    return udg_IntMinutes == 60
 end
 
--- Original JASS function: Trig_Counter_Func002C (line 4882)
 function Trig_Counter_Func002C()
-    if ((not ((udg_IntSeconds == 60)))) then
-        do return false end
-    end
-    do return true end
+    return udg_IntSeconds == 60
 end
 
--- Original JASS function: Trig_Counter_Func003C (line 4889)
 function Trig_Counter_Func003C()
-    if ((not ((udg_IntSeconds < 10)))) then
-        do return false end
-    end
-    do return true end
+    return udg_IntSeconds < 10
 end
 
--- Original JASS function: Trig_Counter_Func004C (line 4896)
 function Trig_Counter_Func004C()
-    if ((not ((udg_IntMinutes < 10)))) then
-        do return false end
-    end
-    do return true end
+    return udg_IntMinutes < 10
 end
 
--- Original JASS function: Trig_Counter_Actions (line 4903)
 function Trig_Counter_Actions()
     udg_IntSeconds = (__jint(udg_IntSeconds + 1))
     if (Trig_Counter_Func002C()) then
@@ -6220,9 +6092,7 @@ function Trig_Counter_Actions()
         if (Trig_Counter_Func002Func003C()) then
             udg_IntMinutes = 0
             udg_IntHours = (__jint(udg_IntHours + 1))
-        else
         end
-    else
     end
     if (Trig_Counter_Func003C()) then
         udg_StringSeconds = "0"
@@ -6238,7 +6108,6 @@ function Trig_Counter_Actions()
     CreateMultiboardBJ(1, 1, (__jconcat((__jconcat("Information  -  ", (__jconcat("|cffcdcd00[|r ", (__jconcat((__jconcat(udg_TreeChopper, " ")), (__jconcat(udg_Tradeoff, "|cffcdcd00 ]  -  |r")))))))), udg_Counterstring)))
 end
 
--- Original JASS function: InitTrig_Counter (line 4930)
 function InitTrig_Counter()
     gg_trg_Counter = CreateTrigger()
     DisableTrigger(gg_trg_Counter)
@@ -6253,12 +6122,10 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 11 Tradeoff_Detection
--- Original JASS function: Trig_Tradeoff_Detection_Actions (line 4942)
 function Trig_Tradeoff_Detection_Actions()
     udg_Tradeoff = "|cffb79419-tradeoff|r"
 end
 
--- Original JASS function: InitTrig_Tradeoff_Detection (line 4947)
 function InitTrig_Tradeoff_Detection()
     gg_trg_Tradeoff_Detection = CreateTrigger()
     FE_Roles.registerAncientChatEvent(gg_trg_Tradeoff_Detection, "-tradeoff", true)
@@ -6267,13 +6134,11 @@ end
 -- END FOREST SECTION 11
 
 -- BEGIN FOREST SECTION 266 Trade_disabled
--- Original JASS function: Trig_Trade_disabled_Actions (line 16075)
 function Trig_Trade_disabled_Actions()
     SetMapFlag(MAP_LOCK_RESOURCE_TRADING, true)
     DisableTrigger(gg_trg_Resource_Hint)
 end
 
--- Original JASS function: InitTrig_Trade_disabled (line 16081)
 function InitTrig_Trade_disabled()
     gg_trg_Trade_disabled = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Trade_disabled, __jreal(0.10))
@@ -6282,14 +6147,12 @@ end
 -- END FOREST SECTION 266
 
 -- BEGIN FOREST SECTION 267 Trade_enabled
--- Original JASS function: Trig_Trade_enabled_Actions (line 16090)
 function Trig_Trade_enabled_Actions()
     SetMapFlag(MAP_LOCK_RESOURCE_TRADING, false)
     EnableTrigger(gg_trg_Resource_Hint)
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_3366")
 end
 
--- Original JASS function: InitTrig_Trade_enabled (line 16097)
 function InitTrig_Trade_enabled()
     gg_trg_Trade_enabled = CreateTrigger()
     FE_Roles.registerAncientChatEvent(gg_trg_Trade_enabled, "-tradeon", true)
@@ -6298,13 +6161,11 @@ end
 -- END FOREST SECTION 267
 
 -- BEGIN FOREST SECTION 268 Disable_trade_enabled
--- Original JASS function: Trig_Disable_trade_enabled_Actions (line 16106)
 function Trig_Disable_trade_enabled_Actions()
     DisableTrigger(gg_trg_Trade_disabled)
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_3665")
 end
 
--- Original JASS function: InitTrig_Disable_trade_enabled (line 16112)
 function InitTrig_Disable_trade_enabled()
     gg_trg_Disable_trade_enabled = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Disable_trade_enabled, __jreal(80.00))
@@ -6318,14 +6179,12 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 12 TreeChopper_Detection
--- Original JASS function: Trig_TreeChopper_Detection_Actions (line 4958)
 function Trig_TreeChopper_Detection_Actions()
     CreateNUnitsAtLoc(1, FourCC("h060"), FE_Roles.ancient(), GetRectCenter(gg_rct_ChopChop), bj_UNIT_FACING)
     udg_TreeChopper = "|cffb79419-chopoff|r"
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5530")
 end
 
--- Original JASS function: InitTrig_TreeChopper_Detection (line 4965)
 function InitTrig_TreeChopper_Detection()
     gg_trg_TreeChopper_Detection = CreateTrigger()
     TriggerRegisterPlayerChatEvent(gg_trg_TreeChopper_Detection, Player(0), "-chopchop", true)
@@ -6339,29 +6198,26 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 13 Takeover
--- Original JASS function: Trig_Takeover_MaxPlayerSlots (line 4974)
 function Trig_Takeover_MaxPlayerSlots()
-    do return 11 end
+    return 11
 end
 
--- Original JASS function: Trig_Takeover_AncientHasController (line 4978)
 function Trig_Takeover_AncientHasController(ancient)
     if (ancient == nil) then
-        do return false end
+        return false
     end
     if (GetPlayerSlotState(ancient) ~= PLAYER_SLOT_STATE_PLAYING) then
-        do return false end
+        return false
     end
     if (GetPlayerController(ancient) == MAP_CONTROL_USER) then
-        do return true end
+        return true
     end
     if (GetPlayerController(ancient) == MAP_CONTROL_COMPUTER) then
-        do return true end
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_Takeover_RemoveAllUnitsOfPlayer (line 4998)
 function Trig_Takeover_RemoveAllUnitsOfPlayer(whichPlayer)
     local g = CreateGroup()
     local u = nil
@@ -6377,7 +6233,6 @@ function Trig_Takeover_RemoveAllUnitsOfPlayer(whichPlayer)
     g = nil
 end
 
--- Original JASS function: Trig_Takeover_TransferAllUnits (line 5016)
 function Trig_Takeover_TransferAllUnits(oldOwner, newOwner)
     local g = CreateGroup()
     local u = nil
@@ -6393,7 +6248,6 @@ function Trig_Takeover_TransferAllUnits(oldOwner, newOwner)
     g = nil
 end
 
--- Original JASS function: Trig_Takeover_SetAllianceBothWays (line 5034)
 function Trig_Takeover_SetAllianceBothWays(a, b, allied)
     SetPlayerAlliance(a, b, ALLIANCE_PASSIVE, allied)
     SetPlayerAlliance(b, a, ALLIANCE_PASSIVE, allied)
@@ -6417,7 +6271,6 @@ function Trig_Takeover_SetAllianceBothWays(a, b, allied)
     SetPlayerAlliance(b, a, ALLIANCE_SHARED_VISION_FORCED, false)
 end
 
--- Original JASS function: Trig_Takeover_InvertTakerAlliances (line 5057)
 function Trig_Takeover_InvertTakerAlliances(taker)
     local i = 0
     local p = nil
@@ -6438,24 +6291,21 @@ function Trig_Takeover_InvertTakerAlliances(taker)
     p = nil
 end
 
--- Original JASS function: Trig_Takeover_ShouldInvertAlliances (line 5082)
 function Trig_Takeover_ShouldInvertAlliances(oldAncient, taker)
     if GetPlayerAlliance(taker, oldAncient, ALLIANCE_PASSIVE) then
-        do return false end
+        return false
     end
     if GetPlayerAlliance(oldAncient, taker, ALLIANCE_PASSIVE) then
-        do return false end
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Takeover_CopyAncientResources (line 5094)
 function Trig_Takeover_CopyAncientResources(oldAncient, newAncient)
     SetPlayerState(newAncient, PLAYER_STATE_RESOURCE_GOLD, GetPlayerState(oldAncient, PLAYER_STATE_RESOURCE_GOLD))
     SetPlayerState(newAncient, PLAYER_STATE_RESOURCE_LUMBER, GetPlayerState(oldAncient, PLAYER_STATE_RESOURCE_LUMBER))
 end
 
--- Original JASS function: Trig_Takeover_Actions (line 5099)
 function Trig_Takeover_Actions()
     local taker = GetTriggerPlayer()
     local oldAncient = FE_Roles.ancient()
@@ -6463,13 +6313,13 @@ function Trig_Takeover_Actions()
         DisplayTextToPlayer(taker, __jreal(0.00), __jreal(0.00), "|cffff2020Takeover failed: AncientPlayer is not set.|r")
         taker = nil
         oldAncient = nil
-        do return end
+        return
     end
     if Trig_Takeover_AncientHasController(oldAncient) then
         DisplayTextToPlayer(taker, __jreal(0.00), __jreal(0.00), "|cffff2020Takeover failed: Ancient still has an active player or AI controller.|r")
         taker = nil
         oldAncient = nil
-        do return end
+        return
     end
     Trig_Takeover_RemoveAllUnitsOfPlayer(taker)
     Trig_Takeover_CopyAncientResources(oldAncient, taker)
@@ -6483,7 +6333,6 @@ function Trig_Takeover_Actions()
     oldAncient = nil
 end
 
--- Original JASS function: InitTrig_Takeover (line 5134)
 function InitTrig_Takeover()
     local i = 0
     gg_trg_Takeover = CreateTrigger()
@@ -6497,31 +6346,12 @@ end
 -- END FOREST SECTION 13
 
 -- BEGIN FOREST SECTION 316 Player_group
--- Original JASS function: Trig_Player_group_Func001002 (line 17980)
-function Trig_Player_group_Func001002()
-    ForceAddPlayerSimple(GetEnumPlayer(), FE_Roster.expanderForce())
-end
 
--- Original JASS function: Trig_Player_group_Func003002001001 (line 17984)
-function Trig_Player_group_Func003002001001()
-    do return ((GetPlayerSlotState(GetFilterPlayer()) == PLAYER_SLOT_STATE_PLAYING)) end
-end
-
--- Original JASS function: Trig_Player_group_Func004C (line 17988)
-function Trig_Player_group_Func004C()
-    if ((not ((GetPlayerSlotState(FE_Roles.ancient()) == PLAYER_SLOT_STATE_PLAYING)))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Player_group_Actions (line 17995)
 function Trig_Player_group_Actions()
     FE_Roster.initialize()
     DisplayTextToForce(GetPlayersAll(), "Loaded " .. I2S(udg_StillAlive) .. " expanders")
 end
 
--- Original JASS function: InitTrig_Player_group (line 18007)
 function InitTrig_Player_group()
     gg_trg_Player_group = CreateTrigger()
     TriggerAddAction(gg_trg_Player_group, Trig_Player_group_Actions)
@@ -6534,32 +6364,25 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 14 Enable_Overdrive
--- Original JASS function: Trig_Enable_Overdrive_Func004C (line 5152)
 function Trig_Enable_Overdrive_Func004C()
-    if ((not ((GetUnitTypeId(GetSpellAbilityUnit()) == FourCC("n011"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetSpellAbilityUnit()) == FourCC("n011")
 end
 
--- Original JASS function: Trig_Enable_Overdrive_Conditions (line 5159)
 function Trig_Enable_Overdrive_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0CY"))))) then
-        do return false end
+    if (not (GetSpellAbilityId() == FourCC("A0CY"))) then
+        return false
     end
-    if ((not Trig_Enable_Overdrive_Func004C())) then
-        do return false end
+    if (not Trig_Enable_Overdrive_Func004C()) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Enable_Overdrive_Actions (line 5169)
 function Trig_Enable_Overdrive_Actions()
     SetPlayerTechResearchedSwap(FourCC("R06X"), 1, GetOwningPlayer(GetSpellAbilityUnit()))
     AdjustPlayerStateBJ(10000, GetOwningPlayer(GetSpellAbilityUnit()), PLAYER_STATE_RESOURCE_LUMBER)
 end
 
--- Original JASS function: InitTrig_Enable_Overdrive (line 5175)
 function InitTrig_Enable_Overdrive()
     gg_trg_Enable_Overdrive = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Enable_Overdrive, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -6569,31 +6392,24 @@ end
 -- END FOREST SECTION 14
 
 -- BEGIN FOREST SECTION 15 Disable_Overdrive
--- Original JASS function: Trig_Disable_Overdrive_Func003C (line 5185)
 function Trig_Disable_Overdrive_Func003C()
-    if ((not ((GetUnitTypeId(GetSpellAbilityUnit()) == FourCC("n011"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetSpellAbilityUnit()) == FourCC("n011")
 end
 
--- Original JASS function: Trig_Disable_Overdrive_Conditions (line 5192)
 function Trig_Disable_Overdrive_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0CZ"))))) then
-        do return false end
+    if (not (GetSpellAbilityId() == FourCC("A0CZ"))) then
+        return false
     end
-    if ((not Trig_Disable_Overdrive_Func003C())) then
-        do return false end
+    if (not Trig_Disable_Overdrive_Func003C()) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Disable_Overdrive_Actions (line 5202)
 function Trig_Disable_Overdrive_Actions()
     SetPlayerTechResearchedSwap(FourCC("R06X"), 0, GetOwningPlayer(GetSpellAbilityUnit()))
 end
 
--- Original JASS function: InitTrig_Disable_Overdrive (line 5207)
 function InitTrig_Disable_Overdrive()
     gg_trg_Disable_Overdrive = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Disable_Overdrive, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -6603,20 +6419,14 @@ end
 -- END FOREST SECTION 15
 
 -- BEGIN FOREST SECTION 16 Death
--- Original JASS function: Trig_Death_Conditions (line 5217)
 function Trig_Death_Conditions()
-    if ((not ((GetUnitTypeId(GetDyingUnit()) == FourCC("n011"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetDyingUnit()) == FourCC("n011")
 end
 
--- Original JASS function: Trig_Death_Actions (line 5224)
 function Trig_Death_Actions()
     SetPlayerTechResearchedSwap(FourCC("R06X"), 0, GetOwningPlayer(GetDyingUnit()))
 end
 
--- Original JASS function: InitTrig_Death (line 5229)
 function InitTrig_Death()
     gg_trg_Death = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Death, EVENT_PLAYER_UNIT_DEATH)
@@ -6631,12 +6441,11 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 17 Hardmode
--- Original JASS function: Hardmode_GiveResources (line 5240)
 function Hardmode_GiveResources()
     local i = 0
     local p = nil
     if (FE_Roles.ancient() == nil) then
-        do return end
+        return
     end
     while true do
         if (i >= bj_MAX_PLAYERS) then break end
@@ -6650,7 +6459,6 @@ function Hardmode_GiveResources()
     p = nil
 end
 
--- Original JASS function: Hardmode_PlayActivationIndicator (line 5263)
 function Hardmode_PlayActivationIndicator()
     DisplayTimedTextToPlayer(GetLocalPlayer(), __jreal(0.00), __jreal(0.00), __jreal(10.00), "|cffffcc00Ancient activated hardmode.|r Expanders will now receive extra |cff80ff8050 lumber|r and |cffffff001 gold|r every 6 seconds after ancient spawn.")
     if (udg_HardmodeSound ~= nil) then
@@ -6659,7 +6467,6 @@ function Hardmode_PlayActivationIndicator()
     end
 end
 
--- Original JASS function: Hardmode_Start (line 5272)
 function Hardmode_Start()
     local t = GetExpiredTimer()
     udg_HardmodeCanBeEnabled = false
@@ -6673,7 +6480,6 @@ function Hardmode_Start()
     t = nil
 end
 
--- Original JASS function: Hardmode_Chat (line 5290)
 function Hardmode_Chat()
     if (udg_HardmodeCanBeEnabled and (GetTriggerPlayer() == FE_Roles.ancient())) then
         if (not udg_HardmodeEnabled) then
@@ -6683,7 +6489,6 @@ function Hardmode_Chat()
     end
 end
 
--- Original JASS function: InitTrig_Hardmode (line 5299)
 function InitTrig_Hardmode()
     local i = 0
     local t = CreateTrigger()
@@ -6703,150 +6508,75 @@ end
 -- END FOREST SECTION 17
 
 -- BEGIN FOREST SECTION 205 AncientSpells
--- Original JASS function: Ancient_ReplaceAll (line 12991)
 function Ancient_ReplaceAll(source, findText, replaceText)
-    local result = ""
-    local sourceLength = 0
-    local findLength = 0
-    local i = 0
-    if (source == nil) then
-        do return "" end
-    end
-    sourceLength = StringLength(source)
-    findLength = StringLength(findText)
-    if (findLength <= 0) then
-        do return source end
-    end
+    if source == nil then return "" end
+    if findText == nil or findText == "" then return source end
+    local result, start = {}, 1
     while true do
-        if (i >= sourceLength) then break end
-        if ((__jint(i + findLength) <= sourceLength) and (SubString(source, i, __jint(i + findLength)) == findText)) then
-            result = __jconcat(result, replaceText)
-            i = __jint(i + findLength)
-        else
-            result = __jconcat(result, SubString(source, i, __jint(i + 1)))
-            i = __jint(i + 1)
+        local first, last = string.find(source, findText, start, true)
+        if not first then
+            result[#result + 1] = string.sub(source, start)
+            return table.concat(result)
         end
+        result[#result + 1] = string.sub(source, start, first - 1)
+        result[#result + 1] = replaceText or ""
+        start = last + 1
     end
-    do return result end
 end
 
--- Original JASS function: Ancient_CollapseSpaces (line 13023)
 function Ancient_CollapseSpaces(source)
-    local result = ""
-    local length = 0
-    local i = 0
-    local c = nil
-    local lastWasSpace = false
-    if (source == nil) then
-        do return "" end
-    end
-    length = StringLength(source)
-    while true do
-        if (i >= length) then break end
-        c = SubString(source, i, __jint(i + 1))
-        if (c == " ") then
-            if (not lastWasSpace) then
-                result = __jconcat(result, c)
-            end
-            lastWasSpace = true
-        else
-            result = __jconcat(result, c)
-            lastWasSpace = false
-        end
-        i = __jint(i + 1)
-    end
-    do return result end
+    if source == nil then return "" end
+    -- Only literal spaces collapse; leading/trailing spaces and other whitespace remain.
+    return (string.gsub(source, " +", " "))
 end
 
--- Original JASS function: Ancient_IsHexChar (line 13057)
 function Ancient_IsHexChar(c)
-    do return ((((((((((((((((((((((c == "0") or (c == "1")) or (c == "2")) or (c == "3")) or (c == "4")) or (c == "5")) or (c == "6")) or (c == "7")) or (c == "8")) or (c == "9")) or (c == "a")) or (c == "b")) or (c == "c")) or (c == "d")) or (c == "e")) or (c == "f")) or (c == "A")) or (c == "B")) or (c == "C")) or (c == "D")) or (c == "E")) or (c == "F")) end
+    return type(c) == "string" and string.match(c, "^[0-9a-fA-F]$") ~= nil
 end
 
--- Original JASS function: Ancient_RemoveColorCodes (line 13061)
 function Ancient_RemoveColorCodes(source)
-    local result = ""
-    local length = 0
-    local i = 0
-    local c = nil
-    if (source == nil) then
-        do return "" end
-    end
-    length = StringLength(source)
-    while true do
-        if (i >= length) then break end
-        c = SubString(source, i, __jint(i + 1))
-        if (((((((((((__jint(i + 10) <= length) and (c == "|")) and (SubString(source, __jint(i + 1), __jint(i + 2)) == "c")) and Ancient_IsHexChar(SubString(source, __jint(i + 2), __jint(i + 3)))) and Ancient_IsHexChar(SubString(source, __jint(i + 3), __jint(i + 4)))) and Ancient_IsHexChar(SubString(source, __jint(i + 4), __jint(i + 5)))) and Ancient_IsHexChar(SubString(source, __jint(i + 5), __jint(i + 6)))) and Ancient_IsHexChar(SubString(source, __jint(i + 6), __jint(i + 7)))) and Ancient_IsHexChar(SubString(source, __jint(i + 7), __jint(i + 8)))) and Ancient_IsHexChar(SubString(source, __jint(i + 8), __jint(i + 9)))) and Ancient_IsHexChar(SubString(source, __jint(i + 9), __jint(i + 10)))) then
-            i = __jint(i + 10)
-        elseif (((((((((((__jint(i + 10) <= length) and (c == "|")) and (SubString(source, __jint(i + 1), __jint(i + 2)) == "C")) and Ancient_IsHexChar(SubString(source, __jint(i + 2), __jint(i + 3)))) and Ancient_IsHexChar(SubString(source, __jint(i + 3), __jint(i + 4)))) and Ancient_IsHexChar(SubString(source, __jint(i + 4), __jint(i + 5)))) and Ancient_IsHexChar(SubString(source, __jint(i + 5), __jint(i + 6)))) and Ancient_IsHexChar(SubString(source, __jint(i + 6), __jint(i + 7)))) and Ancient_IsHexChar(SubString(source, __jint(i + 7), __jint(i + 8)))) and Ancient_IsHexChar(SubString(source, __jint(i + 8), __jint(i + 9)))) and Ancient_IsHexChar(SubString(source, __jint(i + 9), __jint(i + 10)))) then
-            i = __jint(i + 10)
-        elseif (((__jint(i + 2) <= length) and (c == "|")) and (SubString(source, __jint(i + 1), __jint(i + 2)) == "r")) then
-            i = __jint(i + 2)
-        elseif (((__jint(i + 2) <= length) and (c == "|")) and (SubString(source, __jint(i + 1), __jint(i + 2)) == "R")) then
-            i = __jint(i + 2)
+    if source == nil then return "" end
+    local result, index = {}, 1
+    while index <= #source do
+        local marker = string.sub(source, index, index + 1)
+        local color = string.sub(source, index + 2, index + 9)
+        if (marker == "|c" or marker == "|C") and #color == 8 and not string.find(color, "[^0-9a-fA-F]") then
+            index = index + 10
+        elseif marker == "|r" or marker == "|R" then
+            index = index + 2
         else
-            result = __jconcat(result, c)
-            i = __jint(i + 1)
+            result[#result + 1] = string.sub(source, index, index)
+            index = index + 1
         end
     end
-    do return result end
+    -- A single scan preserves malformed tags and does not rescan joined fragments.
+    return table.concat(result)
 end
 
--- Original JASS function: Ancient_RemoveSquareBracketBlocks (line 13095)
 function Ancient_RemoveSquareBracketBlocks(source)
-    local result = ""
-    local length = 0
-    local i = 0
-    local c = nil
-    local insideBracket = false
-    if (source == nil) then
-        do return "" end
-    end
-    length = StringLength(source)
-    while true do
-        if (i >= length) then break end
-        c = SubString(source, i, __jint(i + 1))
-        if (c == "[") then
+    if source == nil then return "" end
+    local result, insideBracket = {}, false
+    for index = 1, #source do
+        local character = string.sub(source, index, index)
+        if character == "[" then
             insideBracket = true
-        elseif (c == "]") then
+        elseif character == "]" then
             insideBracket = false
-        elseif (not insideBracket) then
-            result = __jconcat(result, c)
+        elseif not insideBracket then
+            result[#result + 1] = character
         end
-        i = __jint(i + 1)
     end
-    do return Ancient_CollapseSpaces(result) end
+    return Ancient_CollapseSpaces(table.concat(result))
 end
 
--- Original JASS function: Ancient_CleanTrailingSeparators (line 13127)
 function Ancient_CleanTrailingSeparators(source)
-    local length = 0
-    if (source == nil) then
-        do return "" end
-    end
-    source = Ancient_CollapseSpaces(source)
-    length = StringLength(source)
-    while true do
-        if (length <= 0) then break end
-        if (SubString(source, __jint(length - 1), length) == " ") then
-            source = SubString(source, 0, __jint(length - 1))
-        elseif (SubString(source, __jint(length - 1), length) == "-") then
-            source = SubString(source, 0, __jint(length - 1))
-        elseif (SubString(source, __jint(length - 1), length) == ":") then
-            source = SubString(source, 0, __jint(length - 1))
-        else
-            do return source end
-        end
-        source = Ancient_CollapseSpaces(source)
-        length = StringLength(source)
-    end
-    do return source end
+    if source == nil then return "" end
+    return (string.gsub(Ancient_CollapseSpaces(source), "[ :%-]+$", ""))
 end
 
--- Original JASS function: Ancient_FormatTooltipText (line 13157)
 function Ancient_FormatTooltipText(text, level)
     if (text == nil) then
-        do return "" end
+        return ""
     end
     text = Ancient_ReplaceAll(text, "|n", " ")
     text = Ancient_ReplaceAll(text, "|N", " ")
@@ -6855,33 +6585,30 @@ function Ancient_FormatTooltipText(text, level)
     text = Ancient_ReplaceAll(text, "/N", " ")
     text = Ancient_ReplaceAll(text, "%d", I2S(level))
     text = Ancient_CollapseSpaces(text)
-    do return text end
+    return text
 end
 
--- Original JASS function: Ancient_ClearMessagesForPlayer (line 13173)
 function Ancient_ClearMessagesForPlayer(p)
     if (GetLocalPlayer() == p) then
         ClearTextMessages()
     end
 end
 
--- Original JASS function: Ancient_IsCommand (line 13179)
 function Ancient_IsCommand(chat)
     local s = StringCase(chat, false)
     local len = StringLength(s)
     if (len < 8) then
-        do return false end
+        return false
     end
     if (SubString(s, 0, 8) ~= "-ancient") then
-        do return false end
+        return false
     end
     if (len == 8) then
-        do return true end
+        return true
     end
-    do return (SubString(s, 8, 9) == " ") end
+    return (SubString(s, 8, 9) == " ")
 end
 
--- Original JASS function: Ancient_GetArgumentText (line 13198)
 function Ancient_GetArgumentText(chat)
     local len = StringLength(chat)
     local i = 8
@@ -6890,12 +6617,11 @@ function Ancient_GetArgumentText(chat)
         i = __jint(i + 1)
     end
     if (i >= len) then
-        do return "" end
+        return ""
     end
-    do return SubString(chat, i, len) end
+    return SubString(chat, i, len)
 end
 
--- Original JASS function: Ancient_GetFirstWord (line 13214)
 function Ancient_GetFirstWord(text)
     local len = StringLength(text)
     local i = 0
@@ -6910,12 +6636,11 @@ function Ancient_GetFirstWord(text)
         i = __jint(i + 1)
     end
     if (start >= len) then
-        do return "" end
+        return ""
     end
-    do return SubString(text, start, i) end
+    return SubString(text, start, i)
 end
 
--- Original JASS function: Ancient_GetTextAfterFirstWord (line 13238)
 function Ancient_GetTextAfterFirstWord(text)
     local len = StringLength(text)
     local i = 0
@@ -6932,68 +6657,59 @@ function Ancient_GetTextAfterFirstWord(text)
         i = __jint(i + 1)
     end
     if (i >= len) then
-        do return "" end
+        return ""
     end
-    do return SubString(text, i, len) end
+    return SubString(text, i, len)
 end
 
--- Original JASS function: Ancient_GetUnitTypeIdByKeyword (line 13264)
+-- Preview metadata is ordered explicitly; object discovery must not change the
+-- displayed abilities or the historical command aliases.
+local ancientPreviewTypes = {
+    {raw="O00A", name="Darkness / Paranoia",
+     aliases={"darkness", "paranoia"}, abilities={"A0E9", "A05F", "A058", "A05C", "A05E"}},
+    {raw="O00S", name="Dragon",
+     aliases={"dragon", "dragons", "dragos", "drago"}, abilities={"A02B", "A06P", "A02A", "A01J", "A02D"}},
+    {raw="O00L", name="Earth / Tremor",
+     aliases={"earth", "tremor"}, abilities={"A06D", "A088", "A05Q", "A01T", "A06F"}},
+    {raw="O004", name="Fire / Ignite",
+     aliases={"fire", "ignite"}, abilities={"A002", "A000", "A07A", "A003", "A004"}},
+    {raw="O008", name="Ice / Avalanche",
+     aliases={"ice", "avalanche", "avalanch"}, abilities={"A008", "A0EX", "A074", "A00A", "A075"}},
+    {raw="O01V", name="Light / Divinity",
+     aliases={"light", "divinity"}, abilities={"A06X", "A06W", "A06V", "A06U", "A06Y"}},
+    {raw="O016", name="Lightning / Zalxon",
+     aliases={"lightning", "lighting", "zalxon"}, abilities={"A03U", "A09L", "A03R", "A07B", "A03S", "A03T"}},
+    {raw="O00D", name="Nature / Eternity",
+     aliases={"nature", "eternity"}, abilities={"A01M", "A012", "A070", "A06Z", "A013"}},
+    {raw="O01X", name="Sand / Pharaoh",
+     aliases={"sand", "pharaoh", "pharaon"}, abilities={"A07Y", "A07X", "A07Z", "A080", "A082"}},
+    {raw="O01Z", name="Space / Nebula",
+     aliases={"space", "nebula"}, abilities={"A08R", "A08I", "A08K", "A0F1", "A08S"}},
+    {raw="O01D", name="Wind / Wispari",
+     aliases={"wind", "wispari", "whispari", "whisperi", "wisperi"}, abilities={"A0EL", "A0EO", "A0EP", "A0ES", "A048"}},
+}
+local ancientPreviewByKeyword = {}
+for _, entry in ipairs(ancientPreviewTypes) do
+    for _, alias in ipairs(entry.aliases) do ancientPreviewByKeyword[alias] = entry end
+end
+
+-- Keep module loading free of native calls; rawcodes resolve when queried.
+local function ancientPreviewForType(unitTypeId)
+    for _, entry in ipairs(ancientPreviewTypes) do
+        if unitTypeId == FourCC(entry.raw) then return entry end
+    end
+end
+
 function Ancient_GetUnitTypeIdByKeyword(keyword)
-    if ((keyword == "darkness") or (keyword == "paranoia")) then
-        do return FourCC("O00A") end
-    elseif ((((keyword == "dragon") or (keyword == "dragons")) or (keyword == "dragos")) or (keyword == "drago")) then
-        do return FourCC("O00S") end
-    elseif ((keyword == "earth") or (keyword == "tremor")) then
-        do return FourCC("O00L") end
-    elseif ((keyword == "fire") or (keyword == "ignite")) then
-        do return FourCC("O004") end
-    elseif (((keyword == "ice") or (keyword == "avalanche")) or (keyword == "avalanch")) then
-        do return FourCC("O008") end
-    elseif ((keyword == "light") or (keyword == "divinity")) then
-        do return FourCC("O01V") end
-    elseif (((keyword == "lightning") or (keyword == "lighting")) or (keyword == "zalxon")) then
-        do return FourCC("O016") end
-    elseif ((keyword == "nature") or (keyword == "eternity")) then
-        do return FourCC("O00D") end
-    elseif (((keyword == "sand") or (keyword == "pharaoh")) or (keyword == "pharaon")) then
-        do return FourCC("O01X") end
-    elseif ((keyword == "space") or (keyword == "nebula")) then
-        do return FourCC("O01Z") end
-    elseif (((((keyword == "wind") or (keyword == "wispari")) or (keyword == "whispari")) or (keyword == "whisperi")) or (keyword == "wisperi")) then
-        do return FourCC("O01D") end
-    end
-    do return 0 end
+    local entry = ancientPreviewByKeyword[keyword]
+    return entry and FourCC(entry.raw) or 0
 end
 
--- Original JASS function: Ancient_GetUnitTypeDisplayName (line 13292)
 function Ancient_GetUnitTypeDisplayName(unitTypeId)
-    if (unitTypeId == FourCC("O00A")) then
-        do return "Darkness / Paranoia" end
-    elseif (unitTypeId == FourCC("O00S")) then
-        do return "Dragon" end
-    elseif (unitTypeId == FourCC("O00L")) then
-        do return "Earth / Tremor" end
-    elseif (unitTypeId == FourCC("O004")) then
-        do return "Fire / Ignite" end
-    elseif (unitTypeId == FourCC("O008")) then
-        do return "Ice / Avalanche" end
-    elseif (unitTypeId == FourCC("O01V")) then
-        do return "Light / Divinity" end
-    elseif (unitTypeId == FourCC("O016")) then
-        do return "Lightning / Zalxon" end
-    elseif (unitTypeId == FourCC("O00D")) then
-        do return "Nature / Eternity" end
-    elseif (unitTypeId == FourCC("O01X")) then
-        do return "Sand / Pharaoh" end
-    elseif (unitTypeId == FourCC("O01Z")) then
-        do return "Space / Nebula" end
-    elseif (unitTypeId == FourCC("O01D")) then
-        do return "Wind / Wispari" end
-    end
-    do return "Unknown Ancient" end
+    local entry = ancientPreviewForType(unitTypeId)
+    return entry and entry.name or "Unknown Ancient"
 end
 
--- Original JASS function: Ancient_ParsePageFromArgument (line 13320)
 function Ancient_ParsePageFromArgument(argument)
     local lowerArgument = StringCase(argument, false)
     local firstWord = Ancient_GetFirstWord(lowerArgument)
@@ -7008,185 +6724,25 @@ function Ancient_ParsePageFromArgument(argument)
     if (page < 1) then
         page = 1
     end
-    do return page end
+    return page
 end
 
--- Original JASS function: Ancient_ShowPreviewUsage (line 13340)
 function Ancient_ShowPreviewUsage(p)
     Ancient_ClearMessagesForPlayer(p)
     DisplayTimedTextToPlayer(p, __jreal(0.00), __jreal(0.00), __jreal(20.00), "|cffffcc00Ancient preview:|r |cffffffffUse |r|cffffcc00-ancient darkness|r|cffffffff, |r|cffffcc00-ancient dragon|r|cffffffff, |r|cffffcc00-ancient earth|r|cffffffff, |r|cffffcc00-ancient fire|r|cffffffff, |r|cffffcc00-ancient ice|r|cffffffff, |r|cffffcc00-ancient light|r|cffffffff, |r|cffffcc00-ancient lightning|r|cffffffff, |r|cffffcc00-ancient nature|r|cffffffff, |r|cffffcc00-ancient sand|r|cffffffff, |r|cffffcc00-ancient space|r|cffffffff, or |r|cffffcc00-ancient wind|r|cffffffff. Add page number after the name if needed, for example |r|cffffcc00-ancient darkness 2|r|cffffffff.|r")
 end
 
--- Original JASS function: Ancient_GetAbilityCount (line 13345)
 function Ancient_GetAbilityCount(unitTypeId)
-    if (unitTypeId == FourCC("O016")) then
-        do return 6 end
-    end
-    if (unitTypeId == FourCC("O00A")) then
-        do return 5 end
-    elseif (unitTypeId == FourCC("O00S")) then
-        do return 5 end
-    elseif (unitTypeId == FourCC("O00L")) then
-        do return 5 end
-    elseif (unitTypeId == FourCC("O004")) then
-        do return 5 end
-    elseif (unitTypeId == FourCC("O008")) then
-        do return 5 end
-    elseif (unitTypeId == FourCC("O01V")) then
-        do return 5 end
-    elseif (unitTypeId == FourCC("O00D")) then
-        do return 5 end
-    elseif (unitTypeId == FourCC("O01X")) then
-        do return 5 end
-    elseif (unitTypeId == FourCC("O01Z")) then
-        do return 5 end
-    elseif (unitTypeId == FourCC("O01D")) then
-        do return 5 end
-    end
-    do return 0 end
+    local entry = ancientPreviewForType(unitTypeId)
+    return entry and #entry.abilities or 0
 end
 
--- Original JASS function: Ancient_GetAbilityIdByIndex (line 13375)
 function Ancient_GetAbilityIdByIndex(unitTypeId, index)
-    if (unitTypeId == FourCC("O00A")) then
-        if (index == 1) then
-            do return FourCC("A0E9") end
-        elseif (index == 2) then
-            do return FourCC("A05F") end
-        elseif (index == 3) then
-            do return FourCC("A058") end
-        elseif (index == 4) then
-            do return FourCC("A05C") end
-        elseif (index == 5) then
-            do return FourCC("A05E") end
-        end
-    elseif (unitTypeId == FourCC("O00S")) then
-        if (index == 1) then
-            do return FourCC("A02B") end
-        elseif (index == 2) then
-            do return FourCC("A06P") end
-        elseif (index == 3) then
-            do return FourCC("A02A") end
-        elseif (index == 4) then
-            do return FourCC("A01J") end
-        elseif (index == 5) then
-            do return FourCC("A02D") end
-        end
-    elseif (unitTypeId == FourCC("O00L")) then
-        if (index == 1) then
-            do return FourCC("A06D") end
-        elseif (index == 2) then
-            do return FourCC("A088") end
-        elseif (index == 3) then
-            do return FourCC("A05Q") end
-        elseif (index == 4) then
-            do return FourCC("A01T") end
-        elseif (index == 5) then
-            do return FourCC("A06F") end
-        end
-    elseif (unitTypeId == FourCC("O004")) then
-        if (index == 1) then
-            do return FourCC("A002") end
-        elseif (index == 2) then
-            do return FourCC("A000") end
-        elseif (index == 3) then
-            do return FourCC("A07A") end
-        elseif (index == 4) then
-            do return FourCC("A003") end
-        elseif (index == 5) then
-            do return FourCC("A004") end
-        end
-    elseif (unitTypeId == FourCC("O008")) then
-        if (index == 1) then
-            do return FourCC("A008") end
-        elseif (index == 2) then
-            do return FourCC("A0EX") end
-        elseif (index == 3) then
-            do return FourCC("A074") end
-        elseif (index == 4) then
-            do return FourCC("A00A") end
-        elseif (index == 5) then
-            do return FourCC("A075") end
-        end
-    elseif (unitTypeId == FourCC("O01V")) then
-        if (index == 1) then
-            do return FourCC("A06X") end
-        elseif (index == 2) then
-            do return FourCC("A06W") end
-        elseif (index == 3) then
-            do return FourCC("A06V") end
-        elseif (index == 4) then
-            do return FourCC("A06U") end
-        elseif (index == 5) then
-            do return FourCC("A06Y") end
-        end
-    elseif (unitTypeId == FourCC("O016")) then
-        if (index == 1) then
-            do return FourCC("A03U") end
-        elseif (index == 2) then
-            do return FourCC("A09L") end
-        elseif (index == 3) then
-            do return FourCC("A03R") end
-        elseif (index == 4) then
-            do return FourCC("A07B") end
-        elseif (index == 5) then
-            do return FourCC("A03S") end
-        elseif (index == 6) then
-            do return FourCC("A03T") end
-        end
-    elseif (unitTypeId == FourCC("O00D")) then
-        if (index == 1) then
-            do return FourCC("A01M") end
-        elseif (index == 2) then
-            do return FourCC("A012") end
-        elseif (index == 3) then
-            do return FourCC("A070") end
-        elseif (index == 4) then
-            do return FourCC("A06Z") end
-        elseif (index == 5) then
-            do return FourCC("A013") end
-        end
-    elseif (unitTypeId == FourCC("O01X")) then
-        if (index == 1) then
-            do return FourCC("A07Y") end
-        elseif (index == 2) then
-            do return FourCC("A07X") end
-        elseif (index == 3) then
-            do return FourCC("A07Z") end
-        elseif (index == 4) then
-            do return FourCC("A080") end
-        elseif (index == 5) then
-            do return FourCC("A082") end
-        end
-    elseif (unitTypeId == FourCC("O01Z")) then
-        if (index == 1) then
-            do return FourCC("A08R") end
-        elseif (index == 2) then
-            do return FourCC("A08I") end
-        elseif (index == 3) then
-            do return FourCC("A08K") end
-        elseif (index == 4) then
-            do return FourCC("A0F1") end
-        elseif (index == 5) then
-            do return FourCC("A08S") end
-        end
-    elseif (unitTypeId == FourCC("O01D")) then
-        if (index == 1) then
-            do return FourCC("A0EL") end
-        elseif (index == 2) then
-            do return FourCC("A0EO") end
-        elseif (index == 3) then
-            do return FourCC("A0EP") end
-        elseif (index == 4) then
-            do return FourCC("A0ES") end
-        elseif (index == 5) then
-            do return FourCC("A048") end
-        end
-    end
-    do return 0 end
+    local entry = ancientPreviewForType(unitTypeId)
+    local raw = entry and entry.abilities[index]
+    return raw and FourCC(raw) or 0
 end
 
--- Original JASS function: Ancient_GetSingleAbilityLine (line 13515)
 function Ancient_GetSingleAbilityLine(ancient, abilityId)
     local abilityLevel = 1
     local tooltipIndex = 0
@@ -7212,10 +6768,9 @@ function Ancient_GetSingleAbilityLine(ancient, abilityId)
     if (StringLength(abilityDescription) == 0) then
         abilityDescription = "No learn tooltip text."
     end
-    do return __jconcat(__jconcat(__jconcat(__jconcat("|cff00ccff", abilityName), "|r |cffffffff"), abilityDescription), "|r") end
+    return __jconcat(__jconcat(__jconcat(__jconcat("|cff00ccff", abilityName), "|r |cffffffff"), abilityDescription), "|r")
 end
 
--- Original JASS function: Ancient_ShowAbilityPageByType (line 13551)
 function Ancient_ShowAbilityPageByType(p, ancient, unitTypeId, ancientName, page, isPreview)
     local abilityCount = Ancient_GetAbilityCount(unitTypeId)
     local abilitiesPerPage = 3
@@ -7228,7 +6783,7 @@ function Ancient_ShowAbilityPageByType(p, ancient, unitTypeId, ancientName, page
     if (abilityCount <= 0) then
         Ancient_ClearMessagesForPlayer(p)
         DisplayTimedTextToPlayer(p, __jreal(0.00), __jreal(0.00), __jreal(10.00), __jconcat("|cffffcc00Ancient:|r This Ancient unit type is not registered: ", I2S(unitTypeId)))
-        do return end
+        return
     end
     maxPage = __jdiv((__jint(__jint(abilityCount + abilitiesPerPage) - 1)), abilitiesPerPage)
     if (page > maxPage) then
@@ -7264,12 +6819,10 @@ function Ancient_ShowAbilityPageByType(p, ancient, unitTypeId, ancientName, page
     DisplayTimedTextToPlayer(p, __jreal(0.00), __jreal(0.00), __jreal(45.00), pageText)
 end
 
--- Original JASS function: Ancient_ShowAbilityPage (line 13611)
 function Ancient_ShowAbilityPage(p, ancient, page)
     Ancient_ShowAbilityPageByType(p, ancient, GetUnitTypeId(ancient), GetUnitName(ancient), page, false)
 end
 
--- Original JASS function: Ancient_Command_Actions (line 13615)
 function Ancient_Command_Actions()
     local p = GetTriggerPlayer()
     local chat = GetEventPlayerChatString()
@@ -7280,7 +6833,7 @@ function Ancient_Command_Actions()
     local previewUnitTypeId = 0
     if (not Ancient_IsCommand(chat)) then
         p = nil
-        do return end
+        return
     end
     argument = Ancient_GetArgumentText(chat)
     firstWordOriginal = Ancient_GetFirstWord(argument)
@@ -7290,61 +6843,60 @@ function Ancient_Command_Actions()
         Ancient_ClearMessagesForPlayer(p)
         DisplayTimedTextToPlayer(p, __jreal(0.00), __jreal(0.00), __jreal(10.00), "|cffffcc00Ancient:|r Ancient player is not set.")
         p = nil
-        do return end
+        return
     end
     if (p == FE_Roles.ancient()) then
         if (previewUnitTypeId ~= 0) then
             page = Ancient_ParsePageFromArgument(argument)
             Ancient_ShowAbilityPageByType(p, nil, previewUnitTypeId, Ancient_GetUnitTypeDisplayName(previewUnitTypeId), page, true)
             p = nil
-            do return end
+            return
         end
         if (((StringLength(firstWordOriginal) > 0) and (S2I(firstWord) <= 0)) and (firstWord ~= "0")) then
             Ancient_ClearMessagesForPlayer(p)
             DisplayTimedTextToPlayer(p, __jreal(0.00), __jreal(0.00), __jreal(10.00), __jconcat(__jconcat("|cffffcc00Ancient preview:|r Cannot find Ancient called |cffff0000", firstWordOriginal), "|r|cffffffff.|r"))
             p = nil
-            do return end
+            return
         end
         Ancient_ShowPreviewUsage(p)
         p = nil
-        do return end
+        return
     end
     if (previewUnitTypeId ~= 0) then
         Ancient_ClearMessagesForPlayer(p)
         DisplayTimedTextToPlayer(p, __jreal(0.00), __jreal(0.00), __jreal(10.00), "|cffffcc00Ancient:|r Only the Ancient player can preview Ancient abilities by name.")
         p = nil
-        do return end
+        return
     end
     if (((StringLength(firstWordOriginal) > 0) and (S2I(firstWord) <= 0)) and (firstWord ~= "0")) then
         Ancient_ClearMessagesForPlayer(p)
         DisplayTimedTextToPlayer(p, __jreal(0.00), __jreal(0.00), __jreal(10.00), "|cffffcc00Ancient:|r Invalid page. Use |cffffcc00-ancient|r|cffffffff or |r|cffffcc00-ancient 2|r|cffffffff.|r")
         p = nil
-        do return end
+        return
     end
     page = Ancient_ParsePageFromArgument(argument)
     if (not IsPlayerEnemy(p, FE_Roles.ancient())) then
         Ancient_ClearMessagesForPlayer(p)
         DisplayTimedTextToPlayer(p, __jreal(0.00), __jreal(0.00), __jreal(10.00), "|cffffcc00Ancient:|r This command is only available to enemies of the Ancient.")
         p = nil
-        do return end
+        return
     end
     if (udg_AncientUnit == nil) then
         Ancient_ClearMessagesForPlayer(p)
         DisplayTimedTextToPlayer(p, __jreal(0.00), __jreal(0.00), __jreal(10.00), "|cffffcc00Ancient:|r There is currently no living Ancient unit.")
         p = nil
-        do return end
+        return
     end
     if ((GetUnitTypeId(udg_AncientUnit) == 0) or (GetWidgetLife(udg_AncientUnit) <= __jreal(0.405))) then
         Ancient_ClearMessagesForPlayer(p)
         DisplayTimedTextToPlayer(p, __jreal(0.00), __jreal(0.00), __jreal(10.00), "|cffffcc00Ancient:|r There is currently no living Ancient unit.")
         p = nil
-        do return end
+        return
     end
     Ancient_ShowAbilityPage(p, udg_AncientUnit, page)
     p = nil
 end
 
--- Original JASS function: InitTrig_AncientSpells (line 13703)
 function InitTrig_AncientSpells()
     local t = CreateTrigger()
     local i = 0
@@ -7360,25 +6912,124 @@ end
 -- END FOREST MODULE src/commands/player.lua
 
 -- BEGIN FOREST MODULE src/game/selection.lua
+-- BEGIN GENERATED FACTION CATALOG
+-- Generated by tools/faction_data.py from data/gameplay/factions.json.
+-- Names resolve at use time, after placed handles and mutable ban flags exist.
+FE_Factions = { byKey = {} }
+FE_Factions.expanders = {
+    { key="Worgen", raw="h00R", shop="gg_unit_nmer_0000", ban="udg_BannedWorgen", message="Worgen banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban worgen"} },
+    { key="Forgotten", raw="u007", shop="gg_unit_n00G_0035", ban="udg_BannedForgotten", message="Forgotten One banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Forgotten"} },
+    { key="Aethyr", raw="h03S", shop="gg_unit_n00G_0035", ban="udg_BannedAethyr", message="Aethyr Warp banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban aethyr"} },
+    { key="Goblin", raw="h016", shop="gg_unit_n00G_0035", ban="udg_BannedGoblin", message="Goblin banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Goblin"} },
+    { key="Ogre", raw="h00F", shop="gg_unit_n00G_0035", ban="udg_BannedOgre", message="Ogre banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Ogre"} },
+    { key="Magmide", raw="o000", shop="gg_unit_n00G_0035", ban="udg_BannedMagmide", message="Magmide banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Magmide"} },
+    { key="Furbolg", raw="h02U", shop="gg_unit_n00G_0035", ban="udg_BannedFurbolg", message="Furbolg banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Furbolg"} },
+    { key="Razormane", raw="o01E", shop="gg_unit_n00G_0035", ban="udg_BannedRazormane", message="Razormane banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Razormane"} },
+    { key="Centaur", raw="h01X", shop="gg_unit_nmer_0000", ban="udg_BannedCentaur", message="Centaur banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Centaur"} },
+    { key="Wildkin", raw="h010", shop="gg_unit_nmer_0000", ban="udg_BannedWildkin", message="Wildkin banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Wildkin"} },
+    { key="Nerubian", raw="h01K", shop="gg_unit_nmer_0000", ban="udg_BannedNerubian", message="Nerubian banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Nerubian"} },
+    { key="Human", raw="h03D", shop="gg_unit_nmer_0000", ban="udg_BannedHuman", message="Human banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Human"} },
+    { key="Wisp", raw="h02L", shop="gg_unit_nmer_0000", ban="udg_BannedWisp", message="Wisp banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Wisp"} },
+    { key="Kobold", raw="h03Q", shop="gg_unit_nmer_0000", ban="udg_BannedKobold", message="Kobold banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Kobold"} },
+    { key="Ghoul", raw="o005", shop="gg_unit_nmer_0000", ban="udg_BannedGhoul", message="Ghoul banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Ghoul"} },
+    { key="Kraken", raw="h000", shop="gg_unit_nmer_0000", ban="udg_BannedKraken", message="Kraken banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Kraken"} },
+    { key="Elf", raw="h05C", shop="gg_unit_n00G_0035", ban="udg_BannedElf", message="Elf banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban NightElf", "-ban Elf", "-ban Night"} },
+    { key="HighElf", raw="n00M", shop="gg_unit_n00G_0035", ban="udg_BannedHighElf", message="Elf banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban HighElf", "-ban High Elf", "-ban High"} },
+    { key="Ratling", raw="o026", shop="gg_unit_nmer_0000", ban="udg_BannedRatling", message="Ratling Stalker banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=false, aliases={"-ban rat", "-ban ratling", "-ban stalker"} },
+    { key="Hunter", raw="h05W", shop="gg_unit_n00G_0035", ban="udg_BannedHunter", message="Bounty Hunter banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=false, aliases={"-ban hunter", "-ban bounty"} },
+}
+FE_Factions.ancients = {
+    { key="AncientLight", raw="O01V", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientLight", message="Ancient of Light banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban light", "-ban divinity"}, spellbringerAbility="A0FB" },
+    { key="AncientLightning", raw="O016", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientLightning", message="Ancient of Lightning banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Lightning", "-ban Zalxon"}, spellbringerAbility="A0B1" },
+    { key="AncientDragon", raw="O00S", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientDragon", message="Ancient of Dragons banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Dragon", "-ban Dragons", "-ban Dragos"}, spellbringerAbility="A0B4" },
+    { key="AncientEarth", raw="O00L", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientEarth", message="Ancient of Earth banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Earth", "-ban Tremor"}, spellbringerAbility="A0B5" },
+    { key="AncientDarkness", raw="O00A", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientDarkness", message="Ancient of Darkness banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Darkness", "-ban Paranoia"}, spellbringerAbility="A0EN" },
+    { key="AncientIce", raw="O008", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientIce", message="Ancient of Ice banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Ice", "-ban Avalanche"}, spellbringerAbility="A0AZ" },
+    { key="AncientFire", raw="O004", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientFire", message="Ancient of Fire banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Fire", "-ban Ignite"}, spellbringerAbility="A0B3" },
+    { key="AncientNature", raw="O00D", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientNature", message="Ancient of Nature banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Nature", "-ban Eternity"}, spellbringerAbility="A0AY" },
+    { key="AncientSand", raw="O01X", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientSand", message="Ancient of Sand banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Sand", "-ban Pharaoh"}, spellbringerAbility="A0B2" },
+    { key="AncientSpace", raw="O01Z", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientSpace", message="Ancient of Space banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Space", "-ban Nebula"}, spellbringerAbility="A0AL" },
+    { key="AncientWind", raw="O01D", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientWind", message="Ancient of Wind banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Wind", "-ban Wispari", "-ban Wisperi", "-ban Whispari", "-ban Whisperi"}, spellbringerAbility="A0EM" },
+}
+FE_Factions.banOrder = {"Worgen", "Centaur", "Wildkin", "Nerubian", "Human", "Wisp", "Kobold", "Ghoul", "Kraken", "Aethyr", "Forgotten", "Goblin", "Ogre", "Magmide", "Furbolg", "Razormane", "Elf", "HighElf", "Ratling", "Hunter", "AncientLight", "AncientLightning", "AncientDragon", "AncientEarth", "AncientDarkness", "AncientIce", "AncientFire", "AncientNature", "AncientSand", "AncientSpace", "AncientWind"}
+FE_Factions.randomExpanders = {"Human", "Goblin", "Wisp", "Centaur", "Ogre", "Nerubian", "Worgen", "Furbolg", "Ghoul", "Magmide", "Kraken", "Kobold", "Razormane", "Forgotten", "Wildkin", "Elf", "HighElf", "Ratling"}
+FE_Factions.randomAncients = {"AncientFire", "AncientFire", "AncientFire", "AncientDarkness", "AncientDarkness", "AncientDarkness", "AncientDragon", "AncientDragon", "AncientDragon", "AncientEarth", "AncientEarth", "AncientEarth", "AncientIce", "AncientIce", "AncientIce", "AncientNature", "AncientNature", "AncientNature", "AncientLightning", "AncientLightning", "AncientLightning", "AncientWind", "AncientWind", "AncientWind", "AncientLight", "AncientLight", "AncientLight", "AncientSpace", "AncientSpace", "AncientSpace", "AncientSand", "AncientSand", "AncientSand"}
+FE_Factions.spellbringerOrder = {"AncientWind", "AncientDarkness", "AncientDragon", "AncientEarth", "AncientFire", "AncientIce", "AncientLight", "AncientLightning", "AncientNature", "AncientSand", "AncientSpace"}
+for _, kind in ipairs({"expanders", "ancients"}) do
+    for _, entry in ipairs(FE_Factions[kind]) do FE_Factions.byKey[entry.key] = entry end
+end
+-- END GENERATED FACTION CATALOG
+
 -- game / selection
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
--- BEGIN FOREST SECTION 18 Categorization
--- Original JASS function: Trig_Categorization_Conditions (line 5323)
-function Trig_Categorization_Conditions()
-    if ((not ((GetUnitTypeId(GetSellingUnit()) == FourCC("nmr2"))))) then
-        do return false end
+-- The catalog is generated above. Keep all native mutations in these synchronized
+-- event callbacks; catalog construction only stores strings and ordinary Lua data.
+function FE_Factions.stock(kind)
+    for _, entry in ipairs(FE_Factions[kind]) do
+        if _G[entry.ban] == 0 then
+            AddUnitToStockBJ(FourCC(entry.raw), _G[entry.shop], entry.stock, entry.maximum)
+        end
     end
-    do return true end
 end
 
--- Original JASS function: Trig_Categorization_Actions (line 5330)
+function FE_Factions.fillRandomPool(pool, kind)
+    -- Keep the historical draw bounds, duplicates and ordering. Filtering bans
+    -- here would change both selection rules and subsequent random outcomes.
+    for index, key in ipairs(FE_Factions[kind]) do
+        pool[index] = FourCC(FE_Factions.byKey[key].raw)
+    end
+end
+
+function FE_Factions.grantSpellbringerAbilities(getUnit)
+    for _, key in ipairs(FE_Factions.spellbringerOrder) do
+        local entry = FE_Factions.byKey[key]
+        if GetUnitTypeId(getUnit()) == FourCC(entry.raw) then
+            UnitAddAbilityBJ(FourCC(entry.spellbringerAbility), gg_unit_n00B_0266)
+        end
+    end
+end
+
+function FE_Factions.ban(key)
+    local entry = FE_Factions.byKey[key]
+    if udg_Bans == 0 or _G[entry.ban] == 1 then
+        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
+        return
+    end
+    udg_Bans = __jint(udg_Bans - 1)
+    _G[entry.ban] = __jreal(1.00)
+    DisplayTextToForce(GetPlayersAll(), __jconcat(entry.message, I2S(udg_Bans)))
+end
+
+function FE_Factions.registerBan(key, action)
+    local entry = FE_Factions.byKey[key]
+    local trigger = CreateTrigger()
+    _G["gg_trg_" .. key] = trigger
+    for _, alias in ipairs(entry.aliases) do
+        TriggerRegisterPlayerChatEvent(trigger, Player(0), alias, true)
+    end
+    TriggerAddAction(trigger, action)
+end
+
+function FE_Factions.closeBans()
+    -- Preserve the existing cutoff coverage/order. Extending it to the remaining
+    -- factions is a gameplay correction, separate from the data-driven refactor.
+    for _, key in ipairs(FE_Factions.banOrder) do
+        if FE_Factions.byKey[key].closeAtCutoff then DisableTrigger(_G["gg_trg_" .. key]) end
+    end
+    DisplayTextToForce(GetPlayersAll(), "Factions can no longer be banned.")
+end
+
+-- BEGIN FOREST SECTION 18 Categorization
+function Trig_Categorization_Conditions()
+    return GetUnitTypeId(GetSellingUnit()) == FourCC("nmr2")
+end
+
 function Trig_Categorization_Actions()
     udg_AncientUnit = GetSoldUnit()
     PlaySoundBJ(gg_snd_VarimathrasYes1)
 end
 
--- Original JASS function: InitTrig_Categorization (line 5336)
 function InitTrig_Categorization()
     gg_trg_Categorization = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Categorization, EVENT_PLAYER_UNIT_SELL)
@@ -7388,143 +7039,11 @@ end
 -- END FOREST SECTION 18
 
 -- BEGIN FOREST SECTION 256 Spellbringers_spells
--- Original JASS function: Trig_Spellbringers_spells_Func001C (line 15553)
-function Trig_Spellbringers_spells_Func001C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O01D"))))) then
-        do return false end
-    end
-    do return true end
-end
 
--- Original JASS function: Trig_Spellbringers_spells_Func002C (line 15560)
-function Trig_Spellbringers_spells_Func002C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O00A"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Spellbringers_spells_Func003C (line 15567)
-function Trig_Spellbringers_spells_Func003C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O00S"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Spellbringers_spells_Func004C (line 15574)
-function Trig_Spellbringers_spells_Func004C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O00L"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Spellbringers_spells_Func005C (line 15581)
-function Trig_Spellbringers_spells_Func005C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O004"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Spellbringers_spells_Func006C (line 15588)
-function Trig_Spellbringers_spells_Func006C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O008"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Spellbringers_spells_Func007C (line 15595)
-function Trig_Spellbringers_spells_Func007C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O01V"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Spellbringers_spells_Func008C (line 15602)
-function Trig_Spellbringers_spells_Func008C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O016"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Spellbringers_spells_Func009C (line 15609)
-function Trig_Spellbringers_spells_Func009C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O00D"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Spellbringers_spells_Func010C (line 15616)
-function Trig_Spellbringers_spells_Func010C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O01X"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Spellbringers_spells_Func011C (line 15623)
-function Trig_Spellbringers_spells_Func011C()
-    if ((not ((GetUnitTypeId(GetSoldUnit()) == FourCC("O01Z"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Spellbringers_spells_Actions (line 15630)
 function Trig_Spellbringers_spells_Actions()
-    if (Trig_Spellbringers_spells_Func001C()) then
-        UnitAddAbilityBJ(FourCC("A0EM"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Spellbringers_spells_Func002C()) then
-        UnitAddAbilityBJ(FourCC("A0EN"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Spellbringers_spells_Func003C()) then
-        UnitAddAbilityBJ(FourCC("A0B4"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Spellbringers_spells_Func004C()) then
-        UnitAddAbilityBJ(FourCC("A0B5"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Spellbringers_spells_Func005C()) then
-        UnitAddAbilityBJ(FourCC("A0B3"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Spellbringers_spells_Func006C()) then
-        UnitAddAbilityBJ(FourCC("A0AZ"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Spellbringers_spells_Func007C()) then
-        UnitAddAbilityBJ(FourCC("A0FB"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Spellbringers_spells_Func008C()) then
-        UnitAddAbilityBJ(FourCC("A0B1"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Spellbringers_spells_Func009C()) then
-        UnitAddAbilityBJ(FourCC("A0AY"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Spellbringers_spells_Func010C()) then
-        UnitAddAbilityBJ(FourCC("A0B2"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Spellbringers_spells_Func011C()) then
-        UnitAddAbilityBJ(FourCC("A0AL"), gg_unit_n00B_0266)
-    else
-    end
+    FE_Factions.grantSpellbringerAbilities(GetSoldUnit)
 end
 
--- Original JASS function: InitTrig_Spellbringers_spells (line 15678)
 function InitTrig_Spellbringers_spells()
     gg_trg_Spellbringers_spells = CreateTrigger()
     TriggerRegisterUnitEvent(gg_trg_Spellbringers_spells, gg_unit_nmr2_0001, EVENT_UNIT_SELL)
@@ -7533,13 +7052,11 @@ end
 -- END FOREST SECTION 256
 
 -- BEGIN FOREST SECTION 257 Give_orb
--- Original JASS function: Trig_Give_orb_Actions (line 15687)
 function Trig_Give_orb_Actions()
     CreateItemLoc(FourCC("I000"), GetRectCenter(GetPlayableMapRect()))
     UnitAddItemSwapped(GetLastCreatedItem(), GetSoldUnit())
 end
 
--- Original JASS function: InitTrig_Give_orb (line 15693)
 function InitTrig_Give_orb()
     gg_trg_Give_orb = CreateTrigger()
     TriggerRegisterUnitEvent(gg_trg_Give_orb, gg_unit_nmr2_0001, EVENT_UNIT_SELL)
@@ -7548,29 +7065,10 @@ end
 -- END FOREST SECTION 257
 
 -- BEGIN FOREST SECTION 261 RandomExpander
--- Original JASS function: Trig_RandomExpander_Actions (line 15782)
 function Trig_RandomExpander_Actions()
-    udg_Units[1] = FourCC("h03D")
-    udg_Units[2] = FourCC("h016")
-    udg_Units[3] = FourCC("h02L")
-    udg_Units[4] = FourCC("h01X")
-    udg_Units[5] = FourCC("h00F")
-    udg_Units[6] = FourCC("h01K")
-    udg_Units[7] = FourCC("h00R")
-    udg_Units[8] = FourCC("h02U")
-    udg_Units[9] = FourCC("o005")
-    udg_Units[10] = FourCC("o000")
-    udg_Units[11] = FourCC("h000")
-    udg_Units[12] = FourCC("h03Q")
-    udg_Units[13] = FourCC("o01E")
-    udg_Units[14] = FourCC("u007")
-    udg_Units[15] = FourCC("h010")
-    udg_Units[16] = FourCC("h05C")
-    udg_Units[17] = FourCC("n00M")
-    udg_Units[18] = FourCC("o026")
+    FE_Factions.fillRandomPool(udg_Units, "randomExpanders")
 end
 
--- Original JASS function: InitTrig_RandomExpander (line 15804)
 function InitTrig_RandomExpander()
     gg_trg_RandomExpander = CreateTrigger()
     TriggerAddAction(gg_trg_RandomExpander, Trig_RandomExpander_Actions)
@@ -7578,15 +7076,10 @@ end
 -- END FOREST SECTION 261
 
 -- BEGIN FOREST SECTION 262 RandomExpander2
--- Original JASS function: Trig_RandomExpander2_Conditions (line 15812)
 function Trig_RandomExpander2_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I00W"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I00W")
 end
 
--- Original JASS function: Trig_RandomExpander2_Actions (line 15819)
 function Trig_RandomExpander2_Actions()
     udg_Point1 = GetUnitLoc(GetTriggerUnit())
     CreateNUnitsAtLocFacingLocBJ(1, udg_Units[GetRandomInt(1, 18)], GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_E), GetRectCenter(gg_rct_Tele_out_E))
@@ -7597,7 +7090,6 @@ function Trig_RandomExpander2_Actions()
     KillUnit(GetTriggerUnit())
 end
 
--- Original JASS function: InitTrig_RandomExpander2 (line 15830)
 function InitTrig_RandomExpander2()
     gg_trg_RandomExpander2 = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_RandomExpander2, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -7607,142 +7099,16 @@ end
 -- END FOREST SECTION 262
 
 -- BEGIN FOREST SECTION 263 Random_Ancient
--- Original JASS function: Trig_Random_Ancient_Conditions (line 15841)
 function Trig_Random_Ancient_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I00X"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I00X")
 end
 
--- Original JASS function: Trig_Random_Ancient_Func041002 (line 15848)
 function Trig_Random_Ancient_Func041002()
     RemoveUnit(GetEnumUnit())
 end
 
--- Original JASS function: Trig_Random_Ancient_Func044C (line 15852)
-function Trig_Random_Ancient_Func044C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O01D"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Func045C (line 15859)
-function Trig_Random_Ancient_Func045C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O00A"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Func046C (line 15866)
-function Trig_Random_Ancient_Func046C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O00S"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Func047C (line 15873)
-function Trig_Random_Ancient_Func047C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O00L"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Func048C (line 15880)
-function Trig_Random_Ancient_Func048C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O004"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Func049C (line 15887)
-function Trig_Random_Ancient_Func049C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O008"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Func050C (line 15894)
-function Trig_Random_Ancient_Func050C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O01V"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Func051C (line 15901)
-function Trig_Random_Ancient_Func051C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O016"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Func052C (line 15908)
-function Trig_Random_Ancient_Func052C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O00D"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Func053C (line 15915)
-function Trig_Random_Ancient_Func053C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O01X"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Func054C (line 15922)
-function Trig_Random_Ancient_Func054C()
-    if ((not ((GetUnitTypeId(GetLastCreatedUnit()) == FourCC("O01Z"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Random_Ancient_Actions (line 15929)
 function Trig_Random_Ancient_Actions()
-    udg_Ancients[1] = FourCC("O004")
-    udg_Ancients[2] = FourCC("O004")
-    udg_Ancients[3] = FourCC("O004")
-    udg_Ancients[4] = FourCC("O00A")
-    udg_Ancients[5] = FourCC("O00A")
-    udg_Ancients[6] = FourCC("O00A")
-    udg_Ancients[7] = FourCC("O00S")
-    udg_Ancients[8] = FourCC("O00S")
-    udg_Ancients[9] = FourCC("O00S")
-    udg_Ancients[10] = FourCC("O00L")
-    udg_Ancients[11] = FourCC("O00L")
-    udg_Ancients[12] = FourCC("O00L")
-    udg_Ancients[13] = FourCC("O008")
-    udg_Ancients[14] = FourCC("O008")
-    udg_Ancients[15] = FourCC("O008")
-    udg_Ancients[16] = FourCC("O00D")
-    udg_Ancients[17] = FourCC("O00D")
-    udg_Ancients[18] = FourCC("O00D")
-    udg_Ancients[19] = FourCC("O016")
-    udg_Ancients[20] = FourCC("O016")
-    udg_Ancients[21] = FourCC("O016")
-    udg_Ancients[22] = FourCC("O01D")
-    udg_Ancients[23] = FourCC("O01D")
-    udg_Ancients[24] = FourCC("O01D")
-    udg_Ancients[25] = FourCC("O01V")
-    udg_Ancients[26] = FourCC("O01V")
-    udg_Ancients[27] = FourCC("O01V")
-    udg_Ancients[28] = FourCC("O01Z")
-    udg_Ancients[29] = FourCC("O01Z")
-    udg_Ancients[30] = FourCC("O01Z")
-    udg_Ancients[31] = FourCC("O01X")
-    udg_Ancients[32] = FourCC("O01X")
-    udg_Ancients[33] = FourCC("O01X")
+    FE_Factions.fillRandomPool(udg_Ancients, "randomAncients")
     udg_Point1 = GetUnitLoc(GetTriggerUnit())
     CreateNUnitsAtLocFacingLocBJ(1, udg_Ancients[GetRandomInt(1, 33)], GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_D), GetRectCenter(gg_rct_Tele_out_E))
     udg_AncientUnit = GetLastCreatedUnit()
@@ -7753,53 +7119,9 @@ function Trig_Random_Ancient_Actions()
     ForGroupBJ(GetUnitsInRectAll(gg_rct_SpawnDefender), Trig_Random_Ancient_Func041002)
     CreateItemLoc(FourCC("I000"), GetRectCenter(GetPlayableMapRect()))
     UnitAddItemSwapped(GetLastCreatedItem(), GetLastCreatedUnit())
-    if (Trig_Random_Ancient_Func044C()) then
-        UnitAddAbilityBJ(FourCC("A0EM"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Random_Ancient_Func045C()) then
-        UnitAddAbilityBJ(FourCC("A0EN"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Random_Ancient_Func046C()) then
-        UnitAddAbilityBJ(FourCC("A0B4"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Random_Ancient_Func047C()) then
-        UnitAddAbilityBJ(FourCC("A0B5"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Random_Ancient_Func048C()) then
-        UnitAddAbilityBJ(FourCC("A0B3"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Random_Ancient_Func049C()) then
-        UnitAddAbilityBJ(FourCC("A0AZ"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Random_Ancient_Func050C()) then
-        UnitAddAbilityBJ(FourCC("A0FB"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Random_Ancient_Func051C()) then
-        UnitAddAbilityBJ(FourCC("A0B1"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Random_Ancient_Func052C()) then
-        UnitAddAbilityBJ(FourCC("A0AY"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Random_Ancient_Func053C()) then
-        UnitAddAbilityBJ(FourCC("A0B2"), gg_unit_n00B_0266)
-    else
-    end
-    if (Trig_Random_Ancient_Func054C()) then
-        UnitAddAbilityBJ(FourCC("A0AL"), gg_unit_n00B_0266)
-    else
-    end
+    FE_Factions.grantSpellbringerAbilities(GetLastCreatedUnit)
 end
 
--- Original JASS function: InitTrig_Random_Ancient (line 16020)
 function InitTrig_Random_Ancient()
     gg_trg_Random_Ancient = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Random_Ancient, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -7809,21 +7131,15 @@ end
 -- END FOREST SECTION 263
 
 -- BEGIN FOREST SECTION 264 Remove_Selection
--- Original JASS function: Trig_Remove_Selection_Conditions (line 16030)
 function Trig_Remove_Selection_Conditions()
-    if ((not ((GetUnitTypeId(GetDyingUnit()) == FourCC("ewsp"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetDyingUnit()) == FourCC("ewsp")
 end
 
--- Original JASS function: Trig_Remove_Selection_Actions (line 16037)
 function Trig_Remove_Selection_Actions()
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_4611")
     RemoveUnit(gg_unit_nmr2_0001)
 end
 
--- Original JASS function: InitTrig_Remove_Selection (line 16043)
 function InitTrig_Remove_Selection()
     gg_trg_Remove_Selection = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Remove_Selection, EVENT_PLAYER_UNIT_DEATH)
@@ -7833,18 +7149,15 @@ end
 -- END FOREST SECTION 264
 
 -- BEGIN FOREST SECTION 265 Remove_Selector
--- Original JASS function: Trig_Remove_Selector_Conditions (line 16053)
 function Trig_Remove_Selector_Conditions()
     local buyer = GetBuyingUnit()
     return buyer ~= nil and GetUnitTypeId(buyer) == udg_Selectors
 end
 
--- Original JASS function: Trig_Remove_Selector_Actions (line 16060)
 function Trig_Remove_Selector_Actions()
     KillUnit(GetBuyingUnit())
 end
 
--- Original JASS function: InitTrig_Remove_Selector (line 16065)
 function InitTrig_Remove_Selector()
     gg_trg_Remove_Selector = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Remove_Selector, EVENT_PLAYER_UNIT_SELL)
@@ -7854,211 +7167,10 @@ end
 -- END FOREST SECTION 265
 
 -- BEGIN FOREST SECTION 269 Spawn_Races
--- Original JASS function: Trig_Spawn_Races_Func001001 (line 16124)
-function Trig_Spawn_Races_Func001001()
-    do return ((udg_BannedWorgen == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func002001 (line 16128)
-function Trig_Spawn_Races_Func002001()
-    do return ((udg_BannedForgotten == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func003001 (line 16132)
-function Trig_Spawn_Races_Func003001()
-    do return ((udg_BannedAethyr == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func004001 (line 16136)
-function Trig_Spawn_Races_Func004001()
-    do return ((udg_BannedGoblin == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func005001 (line 16140)
-function Trig_Spawn_Races_Func005001()
-    do return ((udg_BannedOgre == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func006001 (line 16144)
-function Trig_Spawn_Races_Func006001()
-    do return ((udg_BannedMagmide == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func007001 (line 16148)
-function Trig_Spawn_Races_Func007001()
-    do return ((udg_BannedFurbolg == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func008001 (line 16152)
-function Trig_Spawn_Races_Func008001()
-    do return ((udg_BannedRazormane == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func009001 (line 16156)
-function Trig_Spawn_Races_Func009001()
-    do return ((udg_BannedCentaur == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func010001 (line 16160)
-function Trig_Spawn_Races_Func010001()
-    do return ((udg_BannedWildkin == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func011001 (line 16164)
-function Trig_Spawn_Races_Func011001()
-    do return ((udg_BannedNerubian == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func012001 (line 16168)
-function Trig_Spawn_Races_Func012001()
-    do return ((udg_BannedHuman == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func013001 (line 16172)
-function Trig_Spawn_Races_Func013001()
-    do return ((udg_BannedWisp == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func014001 (line 16176)
-function Trig_Spawn_Races_Func014001()
-    do return ((udg_BannedKobold == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func015001 (line 16180)
-function Trig_Spawn_Races_Func015001()
-    do return ((udg_BannedGhoul == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func016001 (line 16184)
-function Trig_Spawn_Races_Func016001()
-    do return ((udg_BannedKraken == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func017001 (line 16188)
-function Trig_Spawn_Races_Func017001()
-    do return ((udg_BannedElf == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func018001 (line 16192)
-function Trig_Spawn_Races_Func018001()
-    do return ((udg_BannedHighElf == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func019001 (line 16196)
-function Trig_Spawn_Races_Func019001()
-    do return ((udg_BannedRatling == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Func020001 (line 16200)
-function Trig_Spawn_Races_Func020001()
-    do return ((udg_BannedHunter == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Races_Actions (line 16204)
 function Trig_Spawn_Races_Actions()
-    if (((udg_BannedWorgen == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h00R"), gg_unit_nmer_0000, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedForgotten == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("u007"), gg_unit_n00G_0035, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAethyr == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h03S"), gg_unit_n00G_0035, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedGoblin == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h016"), gg_unit_n00G_0035, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedOgre == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h00F"), gg_unit_n00G_0035, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedMagmide == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("o000"), gg_unit_n00G_0035, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedFurbolg == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h02U"), gg_unit_n00G_0035, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedRazormane == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("o01E"), gg_unit_n00G_0035, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedCentaur == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h01X"), gg_unit_nmer_0000, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedWildkin == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h010"), gg_unit_nmer_0000, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedNerubian == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h01K"), gg_unit_nmer_0000, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedHuman == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h03D"), gg_unit_nmer_0000, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedWisp == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h02L"), gg_unit_nmer_0000, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedKobold == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h03Q"), gg_unit_nmer_0000, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedGhoul == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("o005"), gg_unit_nmer_0000, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedKraken == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h000"), gg_unit_nmer_0000, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedElf == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h05C"), gg_unit_n00G_0035, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedHighElf == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("n00M"), gg_unit_n00G_0035, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedRatling == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("o026"), gg_unit_nmer_0000, 1, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedHunter == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("h05W"), gg_unit_n00G_0035, 1, 1)
-    else
-        DoNothing()
-    end
+    FE_Factions.stock("expanders")
 end
 
--- Original JASS function: InitTrig_Spawn_Races (line 16308)
 function InitTrig_Spawn_Races()
     gg_trg_Spawn_Races = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Spawn_Races, __jreal(20.00))
@@ -8067,121 +7179,10 @@ end
 -- END FOREST SECTION 269
 
 -- BEGIN FOREST SECTION 270 Spawn_Ancients
--- Original JASS function: Trig_Spawn_Ancients_Func001001 (line 16320)
-function Trig_Spawn_Ancients_Func001001()
-    do return ((udg_BannedAncientLight == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Func002001 (line 16324)
-function Trig_Spawn_Ancients_Func002001()
-    do return ((udg_BannedAncientLightning == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Func003001 (line 16328)
-function Trig_Spawn_Ancients_Func003001()
-    do return ((udg_BannedAncientDragon == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Func004001 (line 16332)
-function Trig_Spawn_Ancients_Func004001()
-    do return ((udg_BannedAncientEarth == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Func005001 (line 16336)
-function Trig_Spawn_Ancients_Func005001()
-    do return ((udg_BannedAncientDarkness == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Func006001 (line 16340)
-function Trig_Spawn_Ancients_Func006001()
-    do return ((udg_BannedAncientIce == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Func007001 (line 16344)
-function Trig_Spawn_Ancients_Func007001()
-    do return ((udg_BannedAncientFire == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Func008001 (line 16348)
-function Trig_Spawn_Ancients_Func008001()
-    do return ((udg_BannedAncientNature == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Func009001 (line 16352)
-function Trig_Spawn_Ancients_Func009001()
-    do return ((udg_BannedAncientSand == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Func010001 (line 16356)
-function Trig_Spawn_Ancients_Func010001()
-    do return ((udg_BannedAncientSpace == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Func011001 (line 16360)
-function Trig_Spawn_Ancients_Func011001()
-    do return ((udg_BannedAncientWind == __jreal(0.00))) end
-end
-
--- Original JASS function: Trig_Spawn_Ancients_Actions (line 16365)
 function Trig_Spawn_Ancients_Actions()
-    if (((udg_BannedAncientLight == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O01V"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAncientLightning == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O016"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAncientDragon == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O00S"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAncientEarth == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O00L"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAncientDarkness == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O00A"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAncientIce == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O008"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAncientFire == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O004"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAncientNature == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O00D"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAncientSand == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O01X"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAncientSpace == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O01Z"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
-    if (((udg_BannedAncientWind == __jreal(0.00)))) then
-        AddUnitToStockBJ(FourCC("O01D"), gg_unit_nmr2_0001, 0, 1)
-    else
-        DoNothing()
-    end
+    FE_Factions.stock("ancients")
 end
 
--- Original JASS function: InitTrig_Spawn_Ancients (line 16424)
 function InitTrig_Spawn_Ancients()
     gg_trg_Spawn_Ancients = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Spawn_Ancients, __jreal(20.00))
@@ -8190,12 +7191,10 @@ end
 -- END FOREST SECTION 270
 
 -- BEGIN FOREST SECTION 312 Warning_few_seconds
--- Original JASS function: Trig_Warning_few_seconds_Actions (line 17800)
 function Trig_Warning_few_seconds_Actions()
     DisplayTextToForce(GetPlayersAllies(Player(0)), "TRIGSTR_3592")
 end
 
--- Original JASS function: InitTrig_Warning_few_seconds (line 17805)
 function InitTrig_Warning_few_seconds()
     gg_trg_Warning_few_seconds = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Warning_few_seconds, __jreal(40.00))
@@ -8204,13 +7203,11 @@ end
 -- END FOREST SECTION 312
 
 -- BEGIN FOREST SECTION 313 Camera_Copy
--- Original JASS function: Trig_Camera_Copy_Actions (line 17814)
 function Trig_Camera_Copy_Actions()
     SetCameraBoundsToRectForPlayerBJ(GetOwningPlayer(GetTriggerUnit()), GetEntireMapRect())
     PanCameraToTimedLocForPlayer(GetOwningPlayer(GetTriggerUnit()), GetUnitLoc(GetTriggerUnit()), __jreal(0))
 end
 
--- Original JASS function: InitTrig_Camera_Copy (line 17820)
 function InitTrig_Camera_Copy()
     gg_trg_Camera_Copy = CreateTrigger()
     TriggerRegisterEnterRectSimple(gg_trg_Camera_Copy, gg_rct_Tele_out_D)
@@ -8220,15 +7217,13 @@ end
 -- END FOREST SECTION 313
 
 -- BEGIN FOREST SECTION 314 LatePickers
--- Original JASS function: IsUnitAncient (line 17836)
 function IsUnitAncient(u)
     if IsUnitType(u, UNIT_TYPE_ANCIENT) then
-        do return true end
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: GetRandomAlliedAncient (line 17844)
 function GetRandomAlliedAncient(p)
     local g = CreateGroup()
     local ancientUnits = CreateGroup()
@@ -8259,10 +7254,9 @@ function GetRandomAlliedAncient(p)
     g = nil
     ancientUnits = nil
     u = nil
-    do return result end
+    return result
 end
 
--- Original JASS function: Trig_AncientTeleport_Actions (line 17889)
 function Trig_AncientTeleport_Actions()
     local enteringUnit = GetTriggerUnit()
     local unitOwner = GetOwningPlayer(enteringUnit)
@@ -8287,7 +7281,6 @@ function Trig_AncientTeleport_Actions()
     targetAncient = nil
 end
 
--- Original JASS function: EnableTeleportSystem (line 17926)
 function EnableTeleportSystem()
     EnableTrigger(gg_trg_AncientTeleport)
     DestroyTimer(GetExpiredTimer())
@@ -8295,7 +7288,6 @@ function EnableTeleportSystem()
     DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS, __jreal(10.0), "|cff00ff00Late Pick Teleportation is now active!|r")
 end
 
--- Original JASS function: InitTrig_LatePickers (line 17938)
 function InitTrig_LatePickers()
     gg_trg_AncientTeleport = CreateTrigger()
     teleportRegion = CreateRegion()
@@ -8310,12 +7302,10 @@ end
 -- END FOREST SECTION 314
 
 -- BEGIN FOREST SECTION 315 AncientSpawnTele
--- Original JASS function: Trig_AncientSpawnTele_Actions (line 17965)
 function Trig_AncientSpawnTele_Actions()
     SetUnitPositionLoc(GetTriggerUnit(), GetRectCenter(gg_rct_Spawn_all))
 end
 
--- Original JASS function: InitTrig_AncientSpawnTele (line 17970)
 function InitTrig_AncientSpawnTele()
     gg_trg_AncientSpawnTele = CreateTrigger()
     TriggerRegisterEnterRectSimple(gg_trg_AncientSpawnTele, gg_rct_Tele_out_D)
@@ -8330,18 +7320,16 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 19 Fountain_Heal
--- Original JASS function: Trig_Fountain_Heal_Func001Func001Func001C (line 5346)
 function Trig_Fountain_Heal_Func001Func001Func001C()
-    if ((not ((IsUnitType(GetEnumUnit(), UNIT_TYPE_STRUCTURE) == false)))) then
-        do return false end
+    if (not (IsUnitType(GetEnumUnit(), UNIT_TYPE_STRUCTURE) == false)) then
+        return false
     end
-    if ((not ((IsUnitAlly(GetEnumUnit(), FE_Roles.ancient()) == true)))) then
-        do return false end
+    if (not (IsUnitAlly(GetEnumUnit(), FE_Roles.ancient()) == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Fountain_Heal_Func001Func001A (line 5356)
 function Trig_Fountain_Heal_Func001Func001A()
     if (Trig_Fountain_Heal_Func001Func001Func001C()) then
         SetUnitLifePercentBJ(GetEnumUnit(), (__jreal(GetUnitLifePercent(GetEnumUnit()) + (__jreal(GetUnitLifePercent(GetEnumUnit()) * __jreal(0.25))))))
@@ -8350,28 +7338,23 @@ function Trig_Fountain_Heal_Func001Func001A()
         udg_TSEEffectName = "Abilities\\Spells\\Human\\HolyBolt\\HolyBoltSpecialArt.mdl"
         udg_TSETargetUnit = GetEnumUnit()
         ConditionalTriggerExecute(udg_TSE_RegisterTrigger)
-    else
     end
 end
 
--- Original JASS function: Trig_Fountain_Heal_Func001C (line 5368)
 function Trig_Fountain_Heal_Func001C()
-    if ((not ((udg_AncientInCombat == __jreal(0.00))))) then
-        do return false end
-    end
-    do return true end
+    return udg_AncientInCombat == __jreal(0.00)
 end
 
--- Original JASS function: Trig_Fountain_Heal_Actions (line 5375)
 function Trig_Fountain_Heal_Actions()
     if (Trig_Fountain_Heal_Func001C()) then
-        ForGroupBJ(GetUnitsInRectAll(gg_rct_Fountain), Trig_Fountain_Heal_Func001Func001A)
+        local units = GetUnitsInRectAll(gg_rct_Fountain)
+        ForGroupBJ(units, Trig_Fountain_Heal_Func001Func001A)
+        DestroyGroup(units)
     else
         udg_AncientInCombat = __jreal(0.00)
     end
 end
 
--- Original JASS function: InitTrig_Fountain_Heal (line 5384)
 function InitTrig_Fountain_Heal()
     gg_trg_Fountain_Heal = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Fountain_Heal, __jreal(4.00))
@@ -8385,23 +7368,20 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 20 Ancient_In_Combat
--- Original JASS function: Trig_Ancient_In_Combat_Conditions (line 5393)
 function Trig_Ancient_In_Combat_Conditions()
-    if ((not ((udg_DamageEventAmount >= __jreal(100.00))))) then
-        do return false end
+    if (not (udg_DamageEventAmount >= __jreal(100.00))) then
+        return false
     end
-    if ((not ((udg_DamageEventTarget == udg_AncientUnit)))) then
-        do return false end
+    if (not (udg_DamageEventTarget == udg_AncientUnit)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Ancient_In_Combat_Actions (line 5403)
 function Trig_Ancient_In_Combat_Actions()
     udg_AncientInCombat = __jreal(1.00)
 end
 
--- Original JASS function: InitTrig_Ancient_In_Combat (line 5408)
 function InitTrig_Ancient_In_Combat()
     gg_trg_Ancient_In_Combat = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Ancient_In_Combat, "udg_DamageModifierEvent", EQUAL, __jreal(1.00))
@@ -8411,30 +7391,15 @@ end
 -- END FOREST SECTION 20
 
 -- BEGIN FOREST SECTION 27 Detonate
--- Original JASS function: Trig_Detonate_Func001001 (line 6247)
-function Trig_Detonate_Func001001()
-    do return ((GetSpellAbilityId() == FourCC("A08G"))) end
-end
 
--- Original JASS function: Trig_Detonate_Func001002 (line 6251)
-function Trig_Detonate_Func001002()
-    do return ((GetSpellAbilityId() == FourCC("A0F2"))) end
-end
-
--- Original JASS function: Trig_Detonate_Conditions (line 6255)
 function Trig_Detonate_Conditions()
-    if ((not GetBooleanOr(((GetSpellAbilityId() == FourCC("A08G"))), ((GetSpellAbilityId() == FourCC("A0F2")))))) then
-        do return false end
-    end
-    do return true end
+    return not not (GetBooleanOr((GetSpellAbilityId() == FourCC("A08G")), (GetSpellAbilityId() == FourCC("A0F2"))))
 end
 
--- Original JASS function: Trig_Detonate_Actions (line 6262)
 function Trig_Detonate_Actions()
     KillUnit(GetTriggerUnit())
 end
 
--- Original JASS function: InitTrig_Detonate (line 6267)
 function InitTrig_Detonate()
     gg_trg_Detonate = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Detonate, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -8444,32 +7409,29 @@ end
 -- END FOREST SECTION 27
 
 -- BEGIN FOREST SECTION 28 Expander_Hero_XP
--- Original JASS function: Trig_Expander_Hero_XP_Conditions (line 6277)
 function Trig_Expander_Hero_XP_Conditions()
-    if ((not ((IsUnitType(udg_DamageEventSource, UNIT_TYPE_HERO) == true)))) then
-        do return false end
+    if (not (IsUnitType(udg_DamageEventSource, UNIT_TYPE_HERO) == true)) then
+        return false
     end
-    if ((not ((IsUnitType(udg_DamageEventTarget, UNIT_TYPE_HERO) == true)))) then
-        do return false end
+    if (not (IsUnitType(udg_DamageEventTarget, UNIT_TYPE_HERO) == true)) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    if ((not ((IsUnitAlly(udg_DamageEventTarget, FE_Roles.ancient()) == true)))) then
-        do return false end
+    if (not (IsUnitAlly(udg_DamageEventTarget, FE_Roles.ancient()) == true)) then
+        return false
     end
-    if ((not ((IsUnitEnemy(udg_DamageEventSource, FE_Roles.ancient()) == true)))) then
-        do return false end
+    if (not (IsUnitEnemy(udg_DamageEventSource, FE_Roles.ancient()) == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Expander_Hero_XP_Actions (line 6296)
 function Trig_Expander_Hero_XP_Actions()
     AddHeroXPSwapped(50, udg_DamageEventSource, true)
 end
 
--- Original JASS function: InitTrig_Expander_Hero_XP (line 6301)
 function InitTrig_Expander_Hero_XP()
     gg_trg_Expander_Hero_XP = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Expander_Hero_XP, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -8490,37 +7452,33 @@ function FeedRate_Identity(p)
     return FE_FeedNames[GetPlayerId(p)] or GetPlayerName(p)
 end
 
--- Original JASS function: FeedRate_DebugError (line 5419)
 function FeedRate_DebugError(msg)
     DisplayTimedTextToForce(GetPlayersAll(), __jreal(20.00), __jconcat("|cffff0000[FeedRate Debug]|r ", msg))
 end
 
--- Original JASS function: FeedRate_Clamp (line 5423)
 function FeedRate_Clamp(rate)
     if (rate < 50) then
-        do return 50 end
+        return 50
     end
     if (rate > 100) then
-        do return 100 end
+        return 100
     end
-    do return rate end
+    return rate
 end
 
--- Original JASS function: FeedRate_FindChar (line 5435)
 function FeedRate_FindChar(data, wanted)
     local i = 0
     local len = StringLength(data)
     while true do
         if (i >= len) then break end
         if (SubString(data, i, __jint(i + 1)) == wanted) then
-            do return i end
+            return i
         end
         i = __jint(i + 1)
     end
-    do return __jint(-(1)) end
+    return __jint(-(1))
 end
 
--- Original JASS function: FeedRate_ParseRate (line 5452)
 function FeedRate_ParseRate(data)
     local digits = data:match("^%d+$") or data:match("^%d+:(%d+)$")
     local rate = digits and tonumber(digits)
@@ -8528,12 +7486,10 @@ function FeedRate_ParseRate(data)
     return FeedRate_Clamp(rate)
 end
 
--- Original JASS function: FeedRate_IsValidUser (line 5470)
 function FeedRate_IsValidUser(p)
-    do return ((GetPlayerController(p) == MAP_CONTROL_USER) and (GetPlayerSlotState(p) == PLAYER_SLOT_STATE_PLAYING)) end
+    return ((GetPlayerController(p) == MAP_CONTROL_USER) and (GetPlayerSlotState(p) == PLAYER_SLOT_STATE_PLAYING))
 end
 
--- Original JASS function: FeedRate_CountActiveUsers (line 5474)
 function FeedRate_CountActiveUsers()
     local i = 0
     local count = 0
@@ -8544,15 +7500,13 @@ function FeedRate_CountActiveUsers()
         end
         i = __jint(i + 1)
     end
-    do return count end
+    return count
 end
 
--- Original JASS function: FeedRate_PlayerNameHasBattleTag (line 5491)
 function FeedRate_PlayerNameHasBattleTag(p)
-    do return (FeedRate_FindChar(FeedRate_Identity(p), "#") >= 0) end
+    return (FeedRate_FindChar(FeedRate_Identity(p), "#") >= 0)
 end
 
--- Original JASS function: FeedRate_FindMatchingPlayerByName (line 5495)
 function FeedRate_FindMatchingPlayerByName(playerName)
     local i = 0
     local p = nil
@@ -8560,14 +7514,13 @@ function FeedRate_FindMatchingPlayerByName(playerName)
         if (i >= FEEDRATE_MAX_PLAYERS) then break end
         p = Player(i)
         if (FeedRate_IsValidUser(p) and (FeedRate_Identity(p) == playerName)) then
-            do return p end
+            return p
         end
         i = __jint(i + 1)
     end
-    do return nil end
+    return nil
 end
 
--- Original JASS function: FeedRate_Apply (line 5514)
 function FeedRate_Apply(p, rate)
     local pid = GetPlayerId(p)
     rate = FeedRate_Clamp(rate)
@@ -8575,7 +7528,6 @@ function FeedRate_Apply(p, rate)
     udg_ExperienceRate[pid] = I2R(rate)
 end
 
--- Original JASS function: FeedRate_SaveForPlayer (line 5522)
 function FeedRate_SaveForPlayer(p, rate)
     if GetLocalPlayer() == p and FeedRate_PlayerNameHasBattleTag(p) then
         -- Preloader files execute JASS even in a Lua map. Escape the JASS
@@ -8589,29 +7541,24 @@ function FeedRate_SaveForPlayer(p, rate)
     end
 end
 
--- Original JASS function: FeedRate_SelectRate (line 5533)
 function FeedRate_SelectRate(p, rate)
     FeedRate_Apply(p, rate)
     FeedRate_SaveForPlayer(p, rate)
     p = nil
 end
 
--- Original JASS function: FeedRate_ClickYes (line 5540)
 function FeedRate_ClickYes()
     FeedRate_SelectRate(GetTriggerPlayer(), 100)
 end
 
--- Original JASS function: FeedRate_ClickOtherTag (line 5544)
 function FeedRate_ClickOtherTag()
     FeedRate_SelectRate(GetTriggerPlayer(), 75)
 end
 
--- Original JASS function: FeedRate_ClickNo (line 5548)
 function FeedRate_ClickNo()
     FeedRate_SelectRate(GetTriggerPlayer(), 50)
 end
 
--- Original JASS function: FeedRate_OnRateSync (line 5552)
 function FeedRate_OnRateSync()
     local p = GetTriggerPlayer()
     local pid = GetPlayerId(p)
@@ -8624,7 +7571,6 @@ function FeedRate_OnRateSync()
     p = nil
 end
 
--- Original JASS function: FeedRate_OnNameSync (line 5565)
 function FeedRate_OnNameSync()
     local p = GetTriggerPlayer()
     local pid = GetPlayerId(p)
@@ -8634,7 +7580,6 @@ function FeedRate_OnNameSync()
     p = nil
 end
 
--- Original JASS function: FeedRate_ProcessPendingLoadForPlayer (line 5575)
 function FeedRate_ProcessPendingLoadForPlayer(p)
     local pid = GetPlayerId(p)
     if not FeedRate_IsValidUser(p) or FeedRate_Loaded[pid] or
@@ -8651,7 +7596,6 @@ function FeedRate_ProcessPendingLoadForPlayer(p)
     if not offline and finalRate ~= rate then FeedRate_SaveForPlayer(p, finalRate) end
 end
 
--- Original JASS function: FeedRate_ProcessPendingLoads (line 5621)
 function FeedRate_ProcessPendingLoads()
     local t = GetExpiredTimer()
     local i = 0
@@ -8664,7 +7608,6 @@ function FeedRate_ProcessPendingLoads()
     t = nil
 end
 
--- Original JASS function: FeedRate_TryLoadForPlayer (line 5638)
 function FeedRate_TryLoadForPlayer(i)
     local p = Player(i)
     if FeedRate_IsValidUser(p) then
@@ -8675,7 +7618,6 @@ function FeedRate_TryLoadForPlayer(i)
     p = nil
 end
 
--- Original JASS function: FeedRate_StartLoadAll (line 5650)
 function FeedRate_StartLoadAll()
     local t = GetExpiredTimer()
     local i = 0
@@ -8693,7 +7635,6 @@ function FeedRate_StartLoadAll()
     t = nil
 end
 
--- Original JASS function: FeedRate_ShowDialogsForMissingLoads (line 5673)
 function FeedRate_ShowDialogsForMissingLoads()
     local t = GetExpiredTimer()
     local i = 0
@@ -8708,7 +7649,6 @@ function FeedRate_ShowDialogsForMissingLoads()
     t = nil
 end
 
--- Original JASS function: FeedRate_SetupDialog (line 5692)
 function FeedRate_SetupDialog()
     DialogClearBJ(udg_StartupDialog)
     DialogSetMessageBJ(udg_StartupDialog, "Did you play this map before?")
@@ -8726,7 +7666,6 @@ function FeedRate_SetupDialog()
     TriggerAddAction(FeedRate_NoTrigger, FeedRate_ClickNo)
 end
 
--- Original JASS function: Trig_AutoFeedRate_Actions (line 5713)
 function Trig_AutoFeedRate_Actions()
     local i = 0
     local loadTimer = CreateTimer()
@@ -8751,7 +7690,6 @@ function Trig_AutoFeedRate_Actions()
     dialogTimer = nil
 end
 
--- Original JASS function: InitTrig_AutoFeedRate (line 5746)
 function InitTrig_AutoFeedRate()
     for slot = 0, FEEDRATE_MAX_PLAYERS - 1 do
         FE_FeedNames[slot] = GetPlayerName(Player(slot))
@@ -8763,12 +7701,10 @@ end
 -- END FOREST SECTION 21
 
 -- BEGIN FOREST SECTION 22 TimeToAncientSpawn_Copy
--- Original JASS function: Trig_TimeToAncientSpawn_Copy_Actions (line 5754)
 function Trig_TimeToAncientSpawn_Copy_Actions()
     DisableTrigger(gg_trg_SetFeed)
 end
 
--- Original JASS function: InitTrig_TimeToAncientSpawn_Copy (line 5759)
 function InitTrig_TimeToAncientSpawn_Copy()
     gg_trg_TimeToAncientSpawn_Copy = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_TimeToAncientSpawn_Copy, __jreal(60.00))
@@ -8777,42 +7713,37 @@ end
 -- END FOREST SECTION 22
 
 -- BEGIN FOREST SECTION 23 HandleSetRate
--- Original JASS function: SetFeedIsDigit (line 5768)
 function SetFeedIsDigit(char)
     local digits = "0123456789"
     local i = 0
     while true do
         if (i >= 10) then break end
         if (char == SubString(digits, i, __jint(i + 1))) then
-            do return true end
+            return true
         end
         i = __jint(i + 1)
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: SetFeedClampRate (line 5783)
 function SetFeedClampRate(rate)
     if (rate < __jreal(50.00)) then
-        do return __jreal(50.00) end
+        return __jreal(50.00)
     end
     if (rate > __jreal(200.00)) then
-        do return __jreal(200.00) end
+        return __jreal(200.00)
     end
-    do return rate end
+    return rate
 end
 
--- Original JASS function: SetFeedErrorRateOutOfRange (line 5793)
 function SetFeedErrorRateOutOfRange(whichPlayer, value)
     DisplayTextToPlayer(whichPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat("Error: Feedrate ", value), " is outside allowed range. Use 50 to 200."))
 end
 
--- Original JASS function: SetFeedErrorCannotFindPlayer (line 5797)
 function SetFeedErrorCannotFindPlayer(whichPlayer, playerName)
     DisplayTextToPlayer(whichPlayer, __jreal(0), __jreal(0), __jconcat("Error: Cannot find player called ", playerName))
 end
 
--- Original JASS function: SetFeedTrimLeft (line 5801)
 function SetFeedTrimLeft(s)
     local i = 0
     local len = StringLength(s)
@@ -8820,10 +7751,9 @@ function SetFeedTrimLeft(s)
         if ((i >= len) or (SubString(s, i, __jint(i + 1)) ~= " ")) then break end
         i = __jint(i + 1)
     end
-    do return SubString(s, i, len) end
+    return SubString(s, i, len)
 end
 
--- Original JASS function: SetFeedFirstToken (line 5813)
 function SetFeedFirstToken(s)
     local i = 0
     local len = StringLength(s)
@@ -8831,10 +7761,9 @@ function SetFeedFirstToken(s)
         if ((i >= len) or (SubString(s, i, __jint(i + 1)) == " ")) then break end
         i = __jint(i + 1)
     end
-    do return SubString(s, 0, i) end
+    return SubString(s, 0, i)
 end
 
--- Original JASS function: SetFeedRestAfterFirstToken (line 5825)
 function SetFeedRestAfterFirstToken(s)
     local i = 0
     local len = StringLength(s)
@@ -8846,27 +7775,25 @@ function SetFeedRestAfterFirstToken(s)
         if ((i >= len) or (SubString(s, i, __jint(i + 1)) ~= " ")) then break end
         i = __jint(i + 1)
     end
-    do return SubString(s, i, len) end
+    return SubString(s, i, len)
 end
 
--- Original JASS function: SetFeedIsUnsignedInteger (line 5842)
 function SetFeedIsUnsignedInteger(s)
     local i = 0
     local len = StringLength(s)
     if (len <= 0) then
-        do return false end
+        return false
     end
     while true do
         if (i >= len) then break end
         if (not SetFeedIsDigit(SubString(s, i, __jint(i + 1)))) then
-            do return false end
+            return false
         end
         i = __jint(i + 1)
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: SetFeedIsUnsignedReal (line 5861)
 function SetFeedIsUnsignedReal(s)
     local i = 0
     local len = StringLength(s)
@@ -8874,7 +7801,7 @@ function SetFeedIsUnsignedReal(s)
     local digitCount = 0
     local c = nil
     if (len <= 0) then
-        do return false end
+        return false
     end
     while true do
         if (i >= len) then break end
@@ -8884,85 +7811,81 @@ function SetFeedIsUnsignedReal(s)
         elseif (c == ".") then
             dotCount = __jint(dotCount + 1)
             if (dotCount > 1) then
-                do return false end
+                return false
             end
         else
-            do return false end
+            return false
         end
         i = __jint(i + 1)
     end
-    do return (digitCount > 0) end
+    return (digitCount > 0)
 end
 
--- Original JASS function: SetFeedPercentToMultiplierText (line 5893)
 function SetFeedPercentToMultiplierText(percent)
     local whole = __jdiv(percent, 100)
     local frac = __jint(percent - __jint(whole * 100))
     if (frac == 0) then
-        do return I2S(whole) end
+        return I2S(whole)
     end
     if (ModuloInteger(frac, 10) == 0) then
-        do return __jconcat(__jconcat(I2S(whole), "."), I2S(__jdiv(frac, 10))) end
+        return __jconcat(__jconcat(I2S(whole), "."), I2S(__jdiv(frac, 10)))
     end
     if (frac < 10) then
-        do return __jconcat(__jconcat(I2S(whole), ".0"), I2S(frac)) end
+        return __jconcat(__jconcat(I2S(whole), ".0"), I2S(frac))
     end
-    do return __jconcat(__jconcat(I2S(whole), "."), I2S(frac)) end
+    return __jconcat(__jconcat(I2S(whole), "."), I2S(frac))
 end
 
--- Original JASS function: SetFeedColorToPlayerNumber (line 5912)
 function SetFeedColorToPlayerNumber(token)
     local c = StringCase(token, false)
     if (c == "red") then
-        do return 1 end
+        return 1
     end
     if (c == "blue") then
-        do return 2 end
+        return 2
     end
     if (c == "teal") then
-        do return 3 end
+        return 3
     end
     if (c == "purple") then
-        do return 4 end
+        return 4
     end
     if (c == "yellow") then
-        do return 5 end
+        return 5
     end
     if (c == "orange") then
-        do return 6 end
+        return 6
     end
     if (c == "green") then
-        do return 7 end
+        return 7
     end
     if (c == "pink") then
-        do return 8 end
+        return 8
     end
     if ((c == "gray") or (c == "grey")) then
-        do return 9 end
+        return 9
     end
     if (((c == "lightblue") or (c == "light-blue")) or (c == "light_blue")) then
-        do return 10 end
+        return 10
     end
     if (((c == "darkgreen") or (c == "dark-green")) or (c == "dark_green")) then
-        do return 11 end
+        return 11
     end
-    do return 0 end
+    return 0
 end
 
--- Original JASS function: SetFeedTwoWordColorToPlayerNumber (line 5952)
 function SetFeedTwoWordColorToPlayerNumber(token1, token2)
     local c1 = StringCase(token1, false)
     local c2 = StringCase(token2, false)
     if ((c1 == "light") and (c2 == "blue")) then
-        do return 10 end
+        return 10
     end
     if ((c1 == "dark") and (c2 == "green")) then
-        do return 11 end
+        return 11
     end
-    do return 0 end
+    return 0
 end
 
--- Original JASS function: SetFeedSetAll (line 5967)
 function SetFeedSetAll(rate)
     local i = 0
     while true do
@@ -8972,7 +7895,6 @@ function SetFeedSetAll(rate)
     end
 end
 
--- Original JASS function: HandleSetExp (line 5977)
 function HandleSetExp(triggerPlayer, message)
     local trimmed = SetFeedTrimLeft(SubString(message, 8, StringLength(message)))
     local token1 = SetFeedFirstToken(trimmed)
@@ -8991,23 +7913,23 @@ function HandleSetExp(triggerPlayer, message)
     local singleReal = __jreal(0.00)
     if (token1 == "") then
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Failed to set feedrate")
-        do return end
+        return
     end
     if (((rest == "") and (StringLength(token1) > 1)) and (SubString(token1, 0, 1) == "x")) then
         multText = SubString(token1, 1, StringLength(token1))
         if (not SetFeedIsUnsignedReal(multText)) then
             DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Failed to set feedrate")
-            do return end
+            return
         end
         multiplier = S2R(multText)
         if (multiplier <= __jreal(0.00)) then
             DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Failed to set feedrate")
-            do return end
+            return
         end
         if (((multiplier >= __jreal(50.00)) and (multiplier <= __jreal(200.00))) and (multiplier == I2R(R2I(multiplier)))) then
             suggestedPercent = R2I(multiplier)
             DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat("Error: Did you mean -setfeed x", SetFeedPercentToMultiplierText(suggestedPercent)), "? (multiplies every feedrate by "), SetFeedPercentToMultiplierText(suggestedPercent)), ") or did you mean to do -setfeed "), I2S(suggestedPercent)), " (sets everyone's feedrate to "), I2S(suggestedPercent)), "%)"))
-            do return end
+            return
         end
         i = 0
         while true do
@@ -9020,29 +7942,29 @@ function HandleSetExp(triggerPlayer, message)
             i = __jint(i + 1)
         end
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat("Every feedrate was multiplied by ", multText), ". Final values are limited to 50%-200%."))
-        do return end
+        return
     end
     if (rest == "") then
         if SetFeedIsUnsignedInteger(token1) then
             y = S2I(token1)
             if ((y < 50) or (y > 200)) then
                 DisplayTextToPlayer((triggerPlayer), __jreal(0), __jreal(0), __jconcat(__jconcat("Error: Feedrate ", (token1)), " is outside allowed range. Use 50 to 200."))
-                do return end
+                return
             end
             SetFeedSetAll(y)
             DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat("Feedrate of every player is set to ", I2S(y)), "%"))
-            do return end
+            return
         end
         if SetFeedIsUnsignedReal(token1) then
             singleReal = S2R(token1)
             if ((singleReal >= __jreal(0.50)) and (singleReal <= __jreal(2.00))) then
                 suggestedPercent = R2I(__jreal(__jreal(singleReal * __jreal(100.00)) + __jreal(0.50)))
                 DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat("Error: Did you mean -setfeed x", token1), "? (multiplies every feedrate by "), token1), ") or did you mean to -setfeed "), I2S(suggestedPercent)), " (sets everyone's feedrate to "), I2S(suggestedPercent)), "%)."))
-                do return end
+                return
             end
         end
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Failed to set feedrate")
-        do return end
+        return
     end
     token2 = SetFeedFirstToken(rest)
     extra = SetFeedRestAfterFirstToken(rest)
@@ -9067,32 +7989,32 @@ function HandleSetExp(triggerPlayer, message)
     end
     if (token2 == "") then
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Error: Missing feedrate value.")
-        do return end
+        return
     end
     if (extra ~= "") then
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Error: Too many arguments for -setfeed.")
-        do return end
+        return
     end
     if (not SetFeedIsUnsignedInteger(token2)) then
         if ((playerNumber == 0) and (not SetFeedIsUnsignedInteger(token1))) then
             DisplayTextToPlayer((triggerPlayer), __jreal(0), __jreal(0), __jconcat("Error: Cannot find player called ", (playerNameForError)))
-            do return end
+            return
         end
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Error: Feedrate must be a whole number from 50 to 200.")
-        do return end
+        return
     end
     y = S2I(token2)
     if ((playerNumber == 0) and (not SetFeedIsUnsignedInteger(token1))) then
         DisplayTextToPlayer((triggerPlayer), __jreal(0), __jreal(0), __jconcat("Error: Cannot find player called ", (playerNameForError)))
-        do return end
+        return
     end
     if ((y < 50) or (y > 200)) then
         DisplayTextToPlayer((triggerPlayer), __jreal(0), __jreal(0), __jconcat(__jconcat("Error: Feedrate ", (token2)), " is outside allowed range. Use 50 to 200."))
-        do return end
+        return
     end
     if ((playerNumber < 1) or (playerNumber > 11)) then
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Error: Player number must be between 1 and 11.")
-        do return end
+        return
     end
     udg_ExperienceRate[__jint(playerNumber - 1)] = I2R(y)
     DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat("Feedrate of player ", I2S(playerNumber)), " is set to "), I2S(y)), "%"))
@@ -9100,15 +8022,13 @@ end
 -- END FOREST SECTION 23
 
 -- BEGIN FOREST SECTION 24 FeedReduction
--- Original JASS function: FR_ScaledInt (line 6131)
 function FR_ScaledInt(value, percent)
     if ((value <= 0) or (percent <= __jreal(0.00))) then
-        do return 0 end
+        return 0
     end
-    do return R2I(__jreal(__jreal(__jreal(I2R(value) * percent) * __jreal(0.01)) + __jreal(0.50))) end
+    return R2I(__jreal(__jreal(__jreal(I2R(value) * percent) * __jreal(0.01)) + __jreal(0.50)))
 end
 
--- Original JASS function: FR_ApplyGoldBountyRate (line 6138)
 function FR_ApplyGoldBountyRate(target, percent)
     local base = BlzGetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_BASE)
     local dice = BlzGetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_NUMBER_OF_DICE)
@@ -9126,7 +8046,6 @@ function FR_ApplyGoldBountyRate(target, percent)
     end
 end
 
--- Original JASS function: Trig_FeedReduction_Actions (line 6156)
 function Trig_FeedReduction_Actions()
     local target = udg_DamageEventTarget
     local rate = udg_ExperienceRate[(__jint(GetConvertedPlayerId(GetOwningPlayer(target)) - 1))]
@@ -9135,7 +8054,6 @@ function Trig_FeedReduction_Actions()
     target = nil
 end
 
--- Original JASS function: InitTrig_FeedReduction (line 6167)
 function InitTrig_FeedReduction()
     gg_trg_FeedReduction = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_FeedReduction, "udg_LethalDamageEvent", EQUAL, __jreal(1.00))
@@ -9144,12 +8062,10 @@ end
 -- END FOREST SECTION 24
 
 -- BEGIN FOREST SECTION 25 SetFeed
--- Original JASS function: Trig_SetFeed_Actions (line 6175)
 function Trig_SetFeed_Actions()
     HandleSetExp(GetTriggerPlayer(), GetEventPlayerChatString())
 end
 
--- Original JASS function: InitTrig_SetFeed (line 6180)
 function InitTrig_SetFeed()
     gg_trg_SetFeed = CreateTrigger()
     TriggerRegisterPlayerChatEvent(gg_trg_SetFeed, Player(0), "-setfeed", false)
@@ -9158,35 +8074,33 @@ end
 -- END FOREST SECTION 25
 
 -- BEGIN FOREST SECTION 26 CheckFeedRates
--- Original JASS function: Trig_CheckFeedRates_PlayerLabel (line 6189)
 function Trig_CheckFeedRates_PlayerLabel(i)
     if (i == 0) then
-        do return "|cffff0303Player 1|r" end
+        return "|cffff0303Player 1|r"
     elseif (i == 1) then
-        do return "|cff0042ffPlayer 2|r" end
+        return "|cff0042ffPlayer 2|r"
     elseif (i == 2) then
-        do return "|cff1ce6b9Player 3|r" end
+        return "|cff1ce6b9Player 3|r"
     elseif (i == 3) then
-        do return "|cff540081Player 4|r" end
+        return "|cff540081Player 4|r"
     elseif (i == 4) then
-        do return "|cfffffc01Player 5|r" end
+        return "|cfffffc01Player 5|r"
     elseif (i == 5) then
-        do return "|cffff8a0ePlayer 6|r" end
+        return "|cffff8a0ePlayer 6|r"
     elseif (i == 6) then
-        do return "|cff20c000Player 7|r" end
+        return "|cff20c000Player 7|r"
     elseif (i == 7) then
-        do return "|cffe55bb0Player 8|r" end
+        return "|cffe55bb0Player 8|r"
     elseif (i == 8) then
-        do return "|cff959697Player 9|r" end
+        return "|cff959697Player 9|r"
     elseif (i == 9) then
-        do return "|cff7ebff1Player 10|r" end
+        return "|cff7ebff1Player 10|r"
     elseif (i == 10) then
-        do return "|cff106246Player 11|r" end
+        return "|cff106246Player 11|r"
     end
-    do return __jconcat("Player ", I2S(__jint(i + 1))) end
+    return __jconcat("Player ", I2S(__jint(i + 1)))
 end
 
--- Original JASS function: Trig_CheckFeedRates_Actions (line 6217)
 function Trig_CheckFeedRates_Actions()
     local i = 0
     local output = "|cffffcc00Current feed rates:|r"
@@ -9198,7 +8112,6 @@ function Trig_CheckFeedRates_Actions()
     DisplayTextToPlayer(GetTriggerPlayer(), __jreal(0), __jreal(0), output)
 end
 
--- Original JASS function: InitTrig_CheckFeedRates (line 6231)
 function InitTrig_CheckFeedRates()
     local i = 0
     gg_trg_CheckFeedRates = CreateTrigger()
@@ -9217,24 +8130,20 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 29 Snipe_Shot
--- Original JASS function: SnipeShot_IsAlive (line 6312)
 function SnipeShot_IsAlive(u)
-    do return (((u ~= nil) and (GetWidgetLife(u) > __jreal(0.405))) and (not IsUnitType(u, UNIT_TYPE_DEAD))) end
+    return (((u ~= nil) and (GetWidgetLife(u) > __jreal(0.405))) and (not IsUnitType(u, UNIT_TYPE_DEAD)))
 end
 
--- Original JASS function: SnipeShot_IsValidTarget (line 6316)
 function SnipeShot_IsValidTarget(u, p)
-    do return ((SnipeShot_IsAlive(u) and IsUnitEnemy(u, p)) and (not IsUnitType(u, UNIT_TYPE_FLYING))) end
+    return ((SnipeShot_IsAlive(u) and IsUnitEnemy(u, p)) and (not IsUnitType(u, UNIT_TYPE_FLYING)))
 end
 
--- Original JASS function: SnipeShot_StartCooldown (line 6320)
 function SnipeShot_StartCooldown(caster)
     if (caster ~= nil) then
         BlzStartUnitAbilityCooldown(caster, SNIPESHOT_ABILITY_ID, SNIPESHOT_COOLDOWN)
     end
 end
 
--- Original JASS function: SnipeShot_GetHitTarget (line 6326)
 function SnipeShot_GetHitTarget(x, y, p)
     local u = nil
     local best = nil
@@ -9258,10 +8167,9 @@ function SnipeShot_GetHitTarget(x, y, p)
         end
     end
     u = nil
-    do return best end
+    return best
 end
 
--- Original JASS function: SnipeShot_StunTarget (line 6357)
 function SnipeShot_StunTarget(p, x, y, target)
     local dummy = CreateUnit(p, SNIPESHOT_DUMMY_ID, x, y, __jreal(0.00))
     UnitAddAbility(dummy, SNIPESHOT_STUN_ABILITY_ID)
@@ -9271,7 +8179,6 @@ function SnipeShot_StunTarget(p, x, y, target)
     dummy = nil
 end
 
--- Original JASS function: SnipeShot_EndMissile (line 6368)
 function SnipeShot_EndMissile(t)
     local id = GetHandleId(t)
     local fx = LoadEffectHandle(SNIPESHOT_Hash, id, 2)
@@ -9284,7 +8191,6 @@ function SnipeShot_EndMissile(t)
     fx = nil
 end
 
--- Original JASS function: SnipeShot_MissileLoop (line 6383)
 function SnipeShot_MissileLoop()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -9332,7 +8238,6 @@ function SnipeShot_MissileLoop()
     t = nil
 end
 
--- Original JASS function: SnipeShot_StartMissile (line 6436)
 function SnipeShot_StartMissile(caster, tx, ty)
     local t = CreateTimer()
     local id = GetHandleId(t)
@@ -9370,7 +8275,6 @@ function SnipeShot_StartMissile(caster, tx, ty)
     t = nil
 end
 
--- Original JASS function: SnipeShot_OnChannel (line 6478)
 function SnipeShot_OnChannel()
     local caster = GetTriggerUnit()
     local casterId = 0
@@ -9383,7 +8287,6 @@ function SnipeShot_OnChannel()
     caster = nil
 end
 
--- Original JASS function: SnipeShot_OnFinish (line 6493)
 function SnipeShot_OnFinish()
     local caster = GetTriggerUnit()
     local casterId = 0
@@ -9403,7 +8306,6 @@ function SnipeShot_OnFinish()
     caster = nil
 end
 
--- Original JASS function: InitTrig_Snipe_Shot (line 6516)
 function InitTrig_Snipe_Shot()
     local channelTrig = CreateTrigger()
     local finishTrig = CreateTrigger()
@@ -9422,14 +8324,12 @@ end
 -- END FOREST SECTION 29
 
 -- BEGIN FOREST SECTION 30 Dash
--- Original JASS function: Dash_CreateTrail (line 6538)
 function Dash_CreateTrail(u)
     local e = AddSpecialEffect(DASH_TRAIL_EFFECT, GetUnitX(u), GetUnitY(u))
     DestroyEffect(e)
     e = nil
 end
 
--- Original JASS function: Dash_Stop (line 6546)
 function Dash_Stop(t)
     local id = GetHandleId(t)
     local u = LoadUnitHandle(DashHash, id, 0)
@@ -9448,7 +8348,6 @@ function Dash_Stop(t)
     t = nil
 end
 
--- Original JASS function: Dash_TryMove (line 6568)
 function Dash_TryMove(u, nx, ny)
     local ox = GetUnitX(u)
     local oy = GetUnitY(u)
@@ -9459,12 +8358,11 @@ function Dash_TryMove(u, nx, ny)
     ay = GetUnitY(u)
     if (__jreal(__jreal((__jreal(ax - nx)) * (__jreal(ax - nx))) + __jreal((__jreal(ay - ny)) * (__jreal(ay - ny)))) > __jreal(25.00)) then
         SetUnitPosition(u, ox, oy)
-        do return false end
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Dash_TrySlideStep (line 6588)
 function Dash_TrySlideStep(u, angle, step)
     local x = GetUnitX(u)
     local y = GetUnitY(u)
@@ -9473,32 +8371,31 @@ function Dash_TrySlideStep(u, angle, step)
     nx = __jreal(x + __jreal(step * Cos(angle)))
     ny = __jreal(y + __jreal(step * Sin(angle)))
     if Dash_TryMove(u, nx, ny) then
-        do return step end
+        return step
     end
     nx = __jreal(x + __jreal(step * Cos(__jreal(angle + __jreal(0.785398)))))
     ny = __jreal(y + __jreal(step * Sin(__jreal(angle + __jreal(0.785398)))))
     if Dash_TryMove(u, nx, ny) then
-        do return step end
+        return step
     end
     nx = __jreal(x + __jreal(step * Cos(__jreal(angle - __jreal(0.785398)))))
     ny = __jreal(y + __jreal(step * Sin(__jreal(angle - __jreal(0.785398)))))
     if Dash_TryMove(u, nx, ny) then
-        do return step end
+        return step
     end
     nx = __jreal(x + __jreal(step * Cos(__jreal(angle + __jreal(1.570796)))))
     ny = __jreal(y + __jreal(step * Sin(__jreal(angle + __jreal(1.570796)))))
     if Dash_TryMove(u, nx, ny) then
-        do return step end
+        return step
     end
     nx = __jreal(x + __jreal(step * Cos(__jreal(angle - __jreal(1.570796)))))
     ny = __jreal(y + __jreal(step * Sin(__jreal(angle - __jreal(1.570796)))))
     if Dash_TryMove(u, nx, ny) then
-        do return step end
+        return step
     end
-    do return __jreal(0.00) end
+    return __jreal(0.00)
 end
 
--- Original JASS function: Dash_Loop (line 6638)
 function Dash_Loop()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -9513,7 +8410,7 @@ function Dash_Loop()
         Dash_Stop(t)
         t = nil
         u = nil
-        do return end
+        return
     end
     if (__jreal(moved + tickDistance) > targetRange) then
         tickDistance = __jreal(targetRange - moved)
@@ -9530,7 +8427,7 @@ function Dash_Loop()
             Dash_Stop(t)
             t = nil
             u = nil
-            do return end
+            return
         end
         moved = __jreal(moved + moveNow)
         SaveReal(DashHash, id, 5, __jreal(LoadReal(DashHash, id, 5) + moveNow))
@@ -9548,7 +8445,6 @@ function Dash_Loop()
     u = nil
 end
 
--- Original JASS function: StartDash (line 6702)
 function StartDash(u, tx, ty)
     local t = CreateTimer()
     local id = GetHandleId(t)
@@ -9562,7 +8458,7 @@ function StartDash(u, tx, ty)
     if (dist <= __jreal(10.00)) then
         DestroyTimer(t)
         t = nil
-        do return end
+        return
     end
     if (dist > DASH_RANGE) then
         dist = DASH_RANGE
@@ -9581,17 +8477,14 @@ function StartDash(u, tx, ty)
     t = nil
 end
 
--- Original JASS function: Dash_Condition (line 6746)
 function Dash_Condition()
-    do return (GetSpellAbilityId() == FourCC("A0EW")) end
+    return (GetSpellAbilityId() == FourCC("A0EW"))
 end
 
--- Original JASS function: Dash_Action (line 6750)
 function Dash_Action()
     StartDash(GetTriggerUnit(), GetSpellTargetX(), GetSpellTargetY())
 end
 
--- Original JASS function: InitTrig_Dash (line 6755)
 function InitTrig_Dash()
     local trg = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(trg, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -9602,20 +8495,14 @@ end
 -- END FOREST SECTION 30
 
 -- BEGIN FOREST SECTION 31 Rome
--- Original JASS function: Trig_Rome_Conditions (line 6767)
 function Trig_Rome_Conditions()
-    if ((not ((UnitHasBuffBJ(udg_DamageEventTarget, FourCC("B03L")) == true)))) then
-        do return false end
-    end
-    do return true end
+    return UnitHasBuffBJ(udg_DamageEventTarget, FourCC("B03L")) == true
 end
 
--- Original JASS function: Trig_Rome_Actions (line 6774)
 function Trig_Rome_Actions()
     udg_DamageEventAmount = (__jreal(udg_DamageEventAmount * __jreal(0.60)))
 end
 
--- Original JASS function: InitTrig_Rome (line 6779)
 function InitTrig_Rome()
     gg_trg_Rome = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Rome, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -9625,34 +8512,27 @@ end
 -- END FOREST SECTION 31
 
 -- BEGIN FOREST SECTION 32 Basic_Bounty_Hit
--- Original JASS function: Trig_Basic_Bounty_Hit_Func009Func002C (line 6789)
 function Trig_Basic_Bounty_Hit_Func009Func002C()
-    if (((GetUnitTypeId(udg_DamageEventSource) == FourCC("h05W")))) then
-        do return true end
+    if (GetUnitTypeId(udg_DamageEventSource) == FourCC("h05W")) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_Basic_Bounty_Hit_Func009C (line 6796)
 function Trig_Basic_Bounty_Hit_Func009C()
-    if ((not ((IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget)) == true)))) then
-        do return false end
+    if (not (IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget)) == true)) then
+        return false
     end
-    if ((not Trig_Basic_Bounty_Hit_Func009Func002C())) then
-        do return false end
+    if (not Trig_Basic_Bounty_Hit_Func009Func002C()) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Basic_Bounty_Hit_Conditions (line 6806)
 function Trig_Basic_Bounty_Hit_Conditions()
-    if ((not Trig_Basic_Bounty_Hit_Func009C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Basic_Bounty_Hit_Func009C())
 end
 
--- Original JASS function: Trig_Basic_Bounty_Hit_Actions (line 6813)
 function Trig_Basic_Bounty_Hit_Actions()
     AdjustPlayerStateBJ(35, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_LUMBER)
     AdjustPlayerStateBJ(1, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_GOLD)
@@ -9663,7 +8543,6 @@ function Trig_Basic_Bounty_Hit_Actions()
     SetTextTagFadepointBJ(GetLastCreatedTextTag(), __jreal(0.30))
 end
 
--- Original JASS function: InitTrig_Basic_Bounty_Hit (line 6824)
 function InitTrig_Basic_Bounty_Hit()
     gg_trg_Basic_Bounty_Hit = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Basic_Bounty_Hit, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -9673,37 +8552,30 @@ end
 -- END FOREST SECTION 32
 
 -- BEGIN FOREST SECTION 33 Improved_Bounty_Hit
--- Original JASS function: Trig_Improved_Bounty_Hit_Func009Func002C (line 6834)
 function Trig_Improved_Bounty_Hit_Func009Func002C()
-    if (((GetUnitTypeId(udg_DamageEventSource) == FourCC("h06H")))) then
-        do return true end
+    if (GetUnitTypeId(udg_DamageEventSource) == FourCC("h06H")) then
+        return true
     end
-    if (((GetUnitTypeId(udg_DamageEventSource) == FourCC("h06C")))) then
-        do return true end
+    if (GetUnitTypeId(udg_DamageEventSource) == FourCC("h06C")) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_Improved_Bounty_Hit_Func009C (line 6844)
 function Trig_Improved_Bounty_Hit_Func009C()
-    if ((not ((IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget)) == true)))) then
-        do return false end
+    if (not (IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget)) == true)) then
+        return false
     end
-    if ((not Trig_Improved_Bounty_Hit_Func009Func002C())) then
-        do return false end
+    if (not Trig_Improved_Bounty_Hit_Func009Func002C()) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Improved_Bounty_Hit_Conditions (line 6854)
 function Trig_Improved_Bounty_Hit_Conditions()
-    if ((not Trig_Improved_Bounty_Hit_Func009C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Improved_Bounty_Hit_Func009C())
 end
 
--- Original JASS function: Trig_Improved_Bounty_Hit_Actions (line 6861)
 function Trig_Improved_Bounty_Hit_Actions()
     AdjustPlayerStateBJ(75, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_LUMBER)
     AdjustPlayerStateBJ(2, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_GOLD)
@@ -9714,7 +8586,6 @@ function Trig_Improved_Bounty_Hit_Actions()
     SetTextTagFadepointBJ(GetLastCreatedTextTag(), __jreal(0.30))
 end
 
--- Original JASS function: InitTrig_Improved_Bounty_Hit (line 6872)
 function InitTrig_Improved_Bounty_Hit()
     gg_trg_Improved_Bounty_Hit = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Improved_Bounty_Hit, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -9724,21 +8595,15 @@ end
 -- END FOREST SECTION 33
 
 -- BEGIN FOREST SECTION 34 Harvest_Grapes
--- Original JASS function: Trig_Harvest_Grapes_Conditions (line 6882)
 function Trig_Harvest_Grapes_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0DB"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0DB")
 end
 
--- Original JASS function: Trig_Harvest_Grapes_Actions (line 6889)
 function Trig_Harvest_Grapes_Actions()
     CreateItemLoc(FourCC("I027"), GetUnitLoc(GetSpellAbilityUnit()))
     IssueTargetItemOrder(GetSpellAbilityUnit(), "smart", GetLastCreatedItem())
 end
 
--- Original JASS function: InitTrig_Harvest_Grapes (line 6895)
 function InitTrig_Harvest_Grapes()
     gg_trg_Harvest_Grapes = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Harvest_Grapes, EVENT_PLAYER_UNIT_SPELL_FINISH)
@@ -9748,31 +8613,18 @@ end
 -- END FOREST SECTION 34
 
 -- BEGIN FOREST SECTION 35 Bullets_Switch
--- Original JASS function: Trig_Bullets_Switch_Func002C (line 6905)
 function Trig_Bullets_Switch_Func002C()
-    if ((not ((GetSpellAbilityId() == FourCC("A0DE"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0DE")
 end
 
--- Original JASS function: Trig_Bullets_Switch_Conditions (line 6912)
 function Trig_Bullets_Switch_Conditions()
-    if ((not Trig_Bullets_Switch_Func002C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Bullets_Switch_Func002C())
 end
 
--- Original JASS function: Trig_Bullets_Switch_Func001C (line 6919)
 function Trig_Bullets_Switch_Func001C()
-    if ((not ((BlzGetUnitWeaponIntegerField(GetTriggerUnit(), UNIT_WEAPON_IF_ATTACK_ATTACK_TYPE, 0) == 5)))) then
-        do return false end
-    end
-    do return true end
+    return BlzGetUnitWeaponIntegerField(GetTriggerUnit(), UNIT_WEAPON_IF_ATTACK_ATTACK_TYPE, 0) == 5
 end
 
--- Original JASS function: Trig_Bullets_Switch_Actions (line 6926)
 function Trig_Bullets_Switch_Actions()
     if (Trig_Bullets_Switch_Func001C()) then
         BlzSetUnitWeaponIntegerFieldBJ(GetTriggerUnit(), UNIT_WEAPON_IF_ATTACK_ATTACK_TYPE, 0, 2)
@@ -9781,7 +8633,6 @@ function Trig_Bullets_Switch_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Bullets_Switch (line 6935)
 function InitTrig_Bullets_Switch()
     gg_trg_Bullets_Switch = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Bullets_Switch, EVENT_PLAYER_UNIT_SPELL_FINISH)
@@ -9796,24 +8647,21 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 36 Limb_Throw
--- Original JASS function: Trig_Limb_Throw_Conditions (line 6945)
 function Trig_Limb_Throw_Conditions()
-    if ((not ((GetUnitTypeId(GetSpellAbilityUnit()) == FourCC("H064"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetSpellAbilityUnit()) == FourCC("H064"))) then
+        return false
     end
-    if ((not ((GetSpellAbilityId() == FourCC("A0EE"))))) then
-        do return false end
+    if (not (GetSpellAbilityId() == FourCC("A0EE"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Limb_Throw_Actions (line 6955)
 function Trig_Limb_Throw_Actions()
     SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetSpellAbilityUnit()) - (__jreal(GetUnitStateSwap(UNIT_STATE_MAX_LIFE, GetSpellAbilityUnit()) * __jreal(0.15))))))
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_8758")
 end
 
--- Original JASS function: InitTrig_Limb_Throw (line 6961)
 function InitTrig_Limb_Throw()
     gg_trg_Limb_Throw = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Limb_Throw, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -9823,25 +8671,23 @@ end
 -- END FOREST SECTION 36
 
 -- BEGIN FOREST SECTION 37 Flesh_Stampede
--- Original JASS function: FleshStampede_Remove (line 6972)
 function FleshStampede_Remove(u)
     local id = 0
     if (u == nil) then
-        do return end
+        return
     end
     id = GetHandleId(u)
     GroupRemoveUnit(FleshStampede_Group, u)
     FlushChildHashtable(FleshStampede_Hash, id)
 end
 
--- Original JASS function: FleshStampede_Add (line 6984)
 function FleshStampede_Add(u)
     local id = 0
     if (u == nil) then
-        do return end
+        return
     end
     if (GetUnitAbilityLevel(u, FLESH_STAMPEDE_ABILITY_ID) <= 0) then
-        do return end
+        return
     end
     id = GetHandleId(u)
     GroupAddUnit(FleshStampede_Group, u)
@@ -9849,7 +8695,6 @@ function FleshStampede_Add(u)
     EnableTrigger(gg_trg_Flesh_Stampede)
 end
 
--- Original JASS function: FleshStampede_LoopEnum (line 7001)
 function FleshStampede_LoopEnum()
     local u = GetEnumUnit()
     local id = GetHandleId(u)
@@ -9872,7 +8717,6 @@ function FleshStampede_LoopEnum()
     u = nil
 end
 
--- Original JASS function: Trig_Flesh_Stampede_Actions (line 7026)
 function Trig_Flesh_Stampede_Actions()
     ForGroup(FleshStampede_Group, FleshStampede_LoopEnum)
     if (FirstOfGroup(FleshStampede_Group) == nil) then
@@ -9880,12 +8724,10 @@ function Trig_Flesh_Stampede_Actions()
     end
 end
 
--- Original JASS function: FleshStampede_Order_Conditions (line 7034)
 function FleshStampede_Order_Conditions()
-    do return (GetUnitAbilityLevel(GetTriggerUnit(), FLESH_STAMPEDE_ABILITY_ID) > 0) end
+    return (GetUnitAbilityLevel(GetTriggerUnit(), FLESH_STAMPEDE_ABILITY_ID) > 0)
 end
 
--- Original JASS function: FleshStampede_Order_Actions (line 7038)
 function FleshStampede_Order_Actions()
     local u = GetTriggerUnit()
     local orderId = GetIssuedOrderId()
@@ -9897,7 +8739,6 @@ function FleshStampede_Order_Actions()
     u = nil
 end
 
--- Original JASS function: FleshStampede_Death_Actions (line 7051)
 function FleshStampede_Death_Actions()
     local u = GetTriggerUnit()
     if IsUnitInGroup(u, FleshStampede_Group) then
@@ -9906,7 +8747,6 @@ function FleshStampede_Death_Actions()
     u = nil
 end
 
--- Original JASS function: InitTrig_Flesh_Stampede (line 7062)
 function InitTrig_Flesh_Stampede()
     local orderTrig = CreateTrigger()
     local deathTrig = CreateTrigger()
@@ -9931,43 +8771,28 @@ end
 -- END FOREST SECTION 37
 
 -- BEGIN FOREST SECTION 38 Amalgamation
--- Original JASS function: Trig_Amalgamation_Conditions (line 7092)
 function Trig_Amalgamation_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("H064"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("H064")
 end
 
--- Original JASS function: Trig_Amalgamation_Func001Func002C (line 7099)
 function Trig_Amalgamation_Func001Func002C()
-    if ((not ((GetIssuedOrderIdBJ() == String2OrderIdBJ("unimmolation"))))) then
-        do return false end
-    end
-    do return true end
+    return GetIssuedOrderIdBJ() == String2OrderIdBJ("unimmolation")
 end
 
--- Original JASS function: Trig_Amalgamation_Func001C (line 7106)
 function Trig_Amalgamation_Func001C()
-    if ((not ((GetIssuedOrderIdBJ() == String2OrderIdBJ("immolation"))))) then
-        do return false end
-    end
-    do return true end
+    return GetIssuedOrderIdBJ() == String2OrderIdBJ("immolation")
 end
 
--- Original JASS function: Trig_Amalgamation_Actions (line 7113)
 function Trig_Amalgamation_Actions()
     if (Trig_Amalgamation_Func001C()) then
         SetUnitMoveSpeed(GetTriggerUnit(), (__jreal(GetUnitDefaultMoveSpeed(GetTriggerUnit()) + __jreal(80.00))))
     else
         if (Trig_Amalgamation_Func001Func002C()) then
             SetUnitMoveSpeed(GetTriggerUnit(), GetUnitDefaultMoveSpeed(GetTriggerUnit()))
-        else
         end
     end
 end
 
--- Original JASS function: InitTrig_Amalgamation (line 7125)
 function InitTrig_Amalgamation()
     gg_trg_Amalgamation = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Amalgamation, EVENT_PLAYER_UNIT_ISSUED_ORDER)
@@ -9977,28 +8802,18 @@ end
 -- END FOREST SECTION 38
 
 -- BEGIN FOREST SECTION 39 Merge
--- Original JASS function: Trig_Merge_Func001C (line 7135)
 function Trig_Merge_Func001C()
-    if ((not ((GetSpellAbilityId() == FourCC("A0DZ"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0DZ")
 end
 
--- Original JASS function: Trig_Merge_Conditions (line 7142)
 function Trig_Merge_Conditions()
-    if ((not Trig_Merge_Func001C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Merge_Func001C())
 end
 
--- Original JASS function: Trig_Merge_Actions (line 7149)
 function Trig_Merge_Actions()
     KillUnit(GetSpellAbilityUnit())
 end
 
--- Original JASS function: InitTrig_Merge (line 7154)
 function InitTrig_Merge()
     gg_trg_Merge = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Merge, EVENT_PLAYER_UNIT_SPELL_ENDCAST)
@@ -10008,72 +8823,60 @@ end
 -- END FOREST SECTION 39
 
 -- BEGIN FOREST SECTION 40 Husk_Detection
--- Original JASS function: Trig_Husk_Detection_Conditions (line 7164)
 function Trig_Husk_Detection_Conditions()
-    if ((not ((GetUnitTypeId(GetSpellTargetUnit()) == FourCC("H064"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetSpellTargetUnit()) == FourCC("H064")
 end
 
--- Original JASS function: Trig_Husk_Detection_Func001C (line 7171)
 function Trig_Husk_Detection_Func001C()
-    if ((not ((GetSpellAbilityId() == FourCC("A0DZ"))))) then
-        do return false end
+    if (not (GetSpellAbilityId() == FourCC("A0DZ"))) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u00I"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetTriggerUnit()) == FourCC("u00I"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Husk_Detection_Func002C (line 7181)
 function Trig_Husk_Detection_Func002C()
-    if ((not ((GetSpellAbilityId() == FourCC("A0DZ"))))) then
-        do return false end
+    if (not (GetSpellAbilityId() == FourCC("A0DZ"))) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u00J"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetTriggerUnit()) == FourCC("u00J"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Husk_Detection_Func004C (line 7191)
 function Trig_Husk_Detection_Func004C()
-    if ((not ((GetSpellAbilityId() == FourCC("A0DZ"))))) then
-        do return false end
+    if (not (GetSpellAbilityId() == FourCC("A0DZ"))) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u00K"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetTriggerUnit()) == FourCC("u00K"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Husk_Detection_Actions (line 7201)
 function Trig_Husk_Detection_Actions()
     if (Trig_Husk_Detection_Func001C()) then
         ModifyHeroStat(bj_HEROSTAT_STR, GetSpellTargetUnit(), bj_MODIFYMETHOD_ADD, 1)
         BlzSetUnitBaseDamage(GetSpellTargetUnit(), (__jint(BlzGetUnitBaseDamage(GetSpellTargetUnit(), 0) + 4)), 0)
         BlzSetUnitMaxHP(GetSpellTargetUnit(), (__jint(BlzGetUnitMaxHP(GetSpellTargetUnit()) + 10)))
-    else
     end
     if (Trig_Husk_Detection_Func002C()) then
         ModifyHeroStat(bj_HEROSTAT_STR, GetSpellTargetUnit(), bj_MODIFYMETHOD_ADD, 3)
         ModifyHeroStat(bj_HEROSTAT_AGI, GetSpellTargetUnit(), bj_MODIFYMETHOD_ADD, 2)
         BlzSetUnitBaseDamage(GetSpellTargetUnit(), (__jint(BlzGetUnitBaseDamage(GetSpellTargetUnit(), 0) + 7)), 0)
         BlzSetUnitMaxHP(GetSpellTargetUnit(), (__jint(BlzGetUnitMaxHP(GetSpellTargetUnit()) + 25)))
-    else
     end
     if (Trig_Husk_Detection_Func004C()) then
         ModifyHeroStat(bj_HEROSTAT_STR, GetSpellTargetUnit(), bj_MODIFYMETHOD_ADD, 5)
         ModifyHeroStat(bj_HEROSTAT_AGI, GetSpellTargetUnit(), bj_MODIFYMETHOD_ADD, 5)
         BlzSetUnitBaseDamage(GetSpellTargetUnit(), (__jint(BlzGetUnitBaseDamage(GetSpellTargetUnit(), 0) + 10)), 0)
         BlzSetUnitMaxHP(GetSpellTargetUnit(), (__jint(BlzGetUnitMaxHP(GetSpellTargetUnit()) + 50)))
-    else
     end
 end
 
--- Original JASS function: InitTrig_Husk_Detection (line 7225)
 function InitTrig_Husk_Detection()
     gg_trg_Husk_Detection = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Husk_Detection, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -10083,20 +8886,14 @@ end
 -- END FOREST SECTION 40
 
 -- BEGIN FOREST SECTION 41 Death_Jump
--- Original JASS function: Trig_Death_Jump_Conditions (line 7235)
 function Trig_Death_Jump_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0EG"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0EG")
 end
 
--- Original JASS function: Trig_Death_Jump_Actions (line 7242)
 function Trig_Death_Jump_Actions()
     SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetSpellAbilityUnit()) - (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetSpellAbilityUnit()) * __jreal(0.50))))))
 end
 
--- Original JASS function: InitTrig_Death_Jump (line 7247)
 function InitTrig_Death_Jump()
     gg_trg_Death_Jump = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Death_Jump, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -10106,7 +8903,6 @@ end
 -- END FOREST SECTION 41
 
 -- BEGIN FOREST SECTION 42 Map_Start
--- Original JASS function: Trig_Map_Start_Actions (line 7257)
 function Trig_Map_Start_Actions()
     SetPlayerTechResearchedSwap(FourCC("R07L"), 1, Player(0))
     SetPlayerTechResearchedSwap(FourCC("R07L"), 1, Player(1))
@@ -10123,7 +8919,6 @@ function Trig_Map_Start_Actions()
     EnableTrigger(gg_trg_Night)
 end
 
--- Original JASS function: InitTrig_Map_Start (line 7274)
 function InitTrig_Map_Start()
     gg_trg_Map_Start = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Map_Start, __jreal(5.00))
@@ -10132,7 +8927,6 @@ end
 -- END FOREST SECTION 42
 
 -- BEGIN FOREST SECTION 43 Day
--- Original JASS function: Trig_Day_Actions (line 7283)
 function Trig_Day_Actions()
     SetPlayerTechResearchedSwap(FourCC("R07L"), 0, Player(0))
     SetPlayerTechResearchedSwap(FourCC("R07L"), 0, Player(1))
@@ -10147,7 +8941,6 @@ function Trig_Day_Actions()
     SetPlayerTechResearchedSwap(FourCC("R07L"), 0, Player(10))
 end
 
--- Original JASS function: InitTrig_Day (line 7298)
 function InitTrig_Day()
     gg_trg_Day = CreateTrigger()
     DisableTrigger(gg_trg_Day)
@@ -10157,7 +8950,6 @@ end
 -- END FOREST SECTION 43
 
 -- BEGIN FOREST SECTION 44 Night
--- Original JASS function: Trig_Night_Actions (line 7308)
 function Trig_Night_Actions()
     SetPlayerTechResearchedSwap(FourCC("R07L"), 1, Player(0))
     SetPlayerTechResearchedSwap(FourCC("R07L"), 1, Player(1))
@@ -10172,7 +8964,6 @@ function Trig_Night_Actions()
     SetPlayerTechResearchedSwap(FourCC("R07L"), 1, Player(10))
 end
 
--- Original JASS function: InitTrig_Night (line 7323)
 function InitTrig_Night()
     gg_trg_Night = CreateTrigger()
     DisableTrigger(gg_trg_Night)
@@ -10187,20 +8978,17 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 45 Iron_Hoove
--- Original JASS function: UPG_MinInt (line 7334)
 function UPG_MinInt(a, b)
     if (a < b) then
-        do return a end
+        return a
     end
-    do return b end
+    return b
 end
 
--- Original JASS function: UPG_GetAbilityLevelForPlayer (line 7342)
 function UPG_GetAbilityLevelForPlayer(p)
-    do return UPG_MinInt(__jint(UPG_BASE_ABILITY_LEVEL + GetPlayerTechCount(p, UPG_UPGRADE_ID, true)), UPG_MAX_ABILITY_LEVEL) end
+    return UPG_MinInt(__jint(UPG_BASE_ABILITY_LEVEL + GetPlayerTechCount(p, UPG_UPGRADE_ID, true)), UPG_MAX_ABILITY_LEVEL)
 end
 
--- Original JASS function: UPG_ApplyToUnit (line 7346)
 function UPG_ApplyToUnit(u)
     local wantedLevel = 0
     if (GetUnitAbilityLevel(u, UPG_ABILITY_ID) > 0) then
@@ -10211,7 +8999,6 @@ function UPG_ApplyToUnit(u)
     end
 end
 
--- Original JASS function: UPG_ApplyToAllUnitsOfPlayer (line 7358)
 function UPG_ApplyToAllUnitsOfPlayer(p)
     local u = nil
     GroupEnumUnitsOfPlayer(UPG_TempGroup, p, nil)
@@ -10224,7 +9011,6 @@ function UPG_ApplyToAllUnitsOfPlayer(p)
     u = nil
 end
 
--- Original JASS function: UPG_OnResearchFinish (line 7374)
 function UPG_OnResearchFinish()
     local researchedId = GetResearched()
     local p = nil
@@ -10235,12 +9021,10 @@ function UPG_OnResearchFinish()
     end
 end
 
--- Original JASS function: UPG_OnUnitEnterMap (line 7385)
 function UPG_OnUnitEnterMap()
     UPG_ApplyToUnit(GetTriggerUnit())
 end
 
--- Original JASS function: InitTrig_Iron_Hoove (line 7389)
 function InitTrig_Iron_Hoove()
     UPG_ResearchTrig = CreateTrigger()
     UPG_EnterTrig = CreateTrigger()
@@ -10259,19 +9043,13 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 46 Lightning_Strike_TowerVers
--- Original JASS function: Trig_Lightning_Strike_TowerVers_Conditions (line 7404)
 function Trig_Lightning_Strike_TowerVers_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0C2"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0C2")
 end
 
--- Original JASS function: Trig_Lightning_Strike_TowerVers_Actions (line 7411)
 function Trig_Lightning_Strike_TowerVers_Actions()
 end
 
--- Original JASS function: InitTrig_Lightning_Strike_TowerVers (line 7415)
 function InitTrig_Lightning_Strike_TowerVers()
     gg_trg_Lightning_Strike_TowerVers = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Lightning_Strike_TowerVers, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -10281,25 +9059,22 @@ end
 -- END FOREST SECTION 46
 
 -- BEGIN FOREST SECTION 47 Blizzard
--- Original JASS function: Trig_Blizzard_Conditions (line 7426)
 function Trig_Blizzard_Conditions()
-    if ((not ((IsUnitType(udg_DamageEventSource, UNIT_TYPE_HERO) == true)))) then
-        do return false end
+    if (not (IsUnitType(udg_DamageEventSource, UNIT_TYPE_HERO) == true)) then
+        return false
     end
-    if ((not ((IsUnitType(udg_DamageEventTarget, UNIT_TYPE_HERO) == true)))) then
-        do return false end
+    if (not (IsUnitType(udg_DamageEventTarget, UNIT_TYPE_HERO) == true)) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Blizzard_Actions (line 7439)
 function Trig_Blizzard_Actions()
 end
 
--- Original JASS function: InitTrig_Blizzard (line 7443)
 function InitTrig_Blizzard()
     gg_trg_Blizzard = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Blizzard, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -10314,25 +9089,18 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 48 ShovelStrikelevelup
--- Original JASS function: Trig_ShovelStrikelevelup_Conditions (line 7453)
 function Trig_ShovelStrikelevelup_Conditions()
-    if ((not ((GetResearched() == FourCC("R004"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R004")
 end
 
--- Original JASS function: Trig_ShovelStrikelevelup_Func003002 (line 7460)
 function Trig_ShovelStrikelevelup_Func003002()
     IncUnitAbilityLevelSwapped(FourCC("A086"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_ShovelStrikelevelup_Actions (line 7464)
 function Trig_ShovelStrikelevelup_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("h03Q")), Trig_ShovelStrikelevelup_Func003002)
 end
 
--- Original JASS function: InitTrig_ShovelStrikelevelup (line 7469)
 function InitTrig_ShovelStrikelevelup()
     gg_trg_ShovelStrikelevelup = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_ShovelStrikelevelup, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -10347,27 +9115,20 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 49 Deepwater_1
--- Original JASS function: Trig_Deepwater_1_Conditions (line 7479)
 function Trig_Deepwater_1_Conditions()
-    if ((not ((GetResearched() == FourCC("R066"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R066")
 end
 
--- Original JASS function: Trig_Deepwater_1_Func001A (line 7486)
 function Trig_Deepwater_1_Func001A()
     UnitRemoveAbilityBJ(FourCC("A0A4"), GetEnumUnit())
     UnitAddAbilityBJ(FourCC("A0BB"), GetEnumUnit())
     udg_DeepWater1[GetConvertedPlayerId(GetOwningPlayer(GetResearchingUnit()))] = true
 end
 
--- Original JASS function: Trig_Deepwater_1_Actions (line 7492)
 function Trig_Deepwater_1_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("e00R")), Trig_Deepwater_1_Func001A)
 end
 
--- Original JASS function: InitTrig_Deepwater_1 (line 7497)
 function InitTrig_Deepwater_1()
     gg_trg_Deepwater_1 = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Deepwater_1, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -10377,24 +9138,21 @@ end
 -- END FOREST SECTION 49
 
 -- BEGIN FOREST SECTION 50 Deepwater_2
--- Original JASS function: Trig_Deepwater_2_Conditions (line 7507)
 function Trig_Deepwater_2_Conditions()
-    if ((not ((udg_DeepWater1[GetConvertedPlayerId(GetOwningPlayer(GetConstructedStructure()))] == true)))) then
-        do return false end
+    if (not (udg_DeepWater1[GetConvertedPlayerId(GetOwningPlayer(GetConstructedStructure()))] == true)) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetConstructedStructure()) == FourCC("e00R"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetConstructedStructure()) == FourCC("e00R"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Deepwater_2_Actions (line 7517)
 function Trig_Deepwater_2_Actions()
     UnitRemoveAbilityBJ(FourCC("A0A4"), GetConstructedStructure())
     UnitAddAbilityBJ(FourCC("A0BB"), GetConstructedStructure())
 end
 
--- Original JASS function: InitTrig_Deepwater_2 (line 7523)
 function InitTrig_Deepwater_2()
     gg_trg_Deepwater_2 = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Deepwater_2, EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)
@@ -10409,15 +9167,10 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 51 Genesis
--- Original JASS function: Trig_Genesis_Conditions (line 7533)
 function Trig_Genesis_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0AO"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0AO")
 end
 
--- Original JASS function: Trig_Genesis_Actions (line 7540)
 function Trig_Genesis_Actions()
     local spellLoc = GetSpellTargetLoc()
     local caster = GetSpellAbilityUnit()
@@ -10434,7 +9187,7 @@ function Trig_Genesis_Actions()
     SetDestructableAnimationSpeed(tree, __jreal(1.2))
     SetUnitAnimation(caster, "Spell Second")
     TriggerSleepAction(__jreal(3.0))
-    if (((tree ~= nil)) and ((GetDestructableLife(tree) > __jreal(0)))) then
+    if ((tree ~= nil) and (GetDestructableLife(tree) > __jreal(0))) then
         treeLoc = GetDestructableLoc(tree)
         SetDestructableAnimationSpeed(tree, __jreal(1))
         KillDestructable(tree)
@@ -10452,7 +9205,6 @@ function Trig_Genesis_Actions()
     treant = nil
 end
 
--- Original JASS function: InitTrig_Genesis (line 7594)
 function InitTrig_Genesis()
     gg_trg_Genesis = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Genesis, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -10467,20 +9219,14 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 52 ConjureRefreshment
--- Original JASS function: Trig_ConjureRefreshment_Conditions (line 7605)
 function Trig_ConjureRefreshment_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0C8"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0C8")
 end
 
--- Original JASS function: Trig_ConjureRefreshment_Actions (line 7612)
 function Trig_ConjureRefreshment_Actions()
     CreateItemLoc(FourCC("I021"), GetSpellTargetLoc())
 end
 
--- Original JASS function: InitTrig_ConjureRefreshment (line 7617)
 function InitTrig_ConjureRefreshment()
     gg_trg_ConjureRefreshment = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_ConjureRefreshment, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -10490,20 +9236,14 @@ end
 -- END FOREST SECTION 52
 
 -- BEGIN FOREST SECTION 53 ShadowDancers
--- Original JASS function: Trig_ShadowDancers_Conditions (line 7627)
 function Trig_ShadowDancers_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0A5"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0A5")
 end
 
--- Original JASS function: Trig_ShadowDancers_Actions (line 7634)
 function Trig_ShadowDancers_Actions()
     GroupAddUnitSimple(GetTriggerUnit(), udg_ShadowDancers)
 end
 
--- Original JASS function: InitTrig_ShadowDancers (line 7639)
 function InitTrig_ShadowDancers()
     gg_trg_ShadowDancers = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_ShadowDancers, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -10513,23 +9253,14 @@ end
 -- END FOREST SECTION 53
 
 -- BEGIN FOREST SECTION 54 Mana_Burn
--- Original JASS function: Trig_Mana_Burn_Conditions (line 7649)
 function Trig_Mana_Burn_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0AR"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0AR")
 end
 
--- Original JASS function: Trig_Mana_Burn_Func003C (line 7656)
 function Trig_Mana_Burn_Func003C()
-    if ((not ((GetUnitStateSwap(UNIT_STATE_MANA, GetSpellTargetUnit()) <= __jreal(10.00))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitStateSwap(UNIT_STATE_MANA, GetSpellTargetUnit()) <= __jreal(10.00)
 end
 
--- Original JASS function: Trig_Mana_Burn_Actions (line 7663)
 function Trig_Mana_Burn_Actions()
     BlzSetUnitRealFieldBJ(GetSpellTargetUnit(), UNIT_RF_MANA, (__jreal(BlzGetUnitRealField(GetSpellTargetUnit(), UNIT_RF_MANA) - (__jreal(GetUnitStateSwap(UNIT_STATE_MANA, GetSpellAbilityUnit()) * __jreal(0.40))))))
     BlzSetUnitRealFieldBJ(GetSpellAbilityUnit(), UNIT_RF_MANA, (__jreal(GetUnitStateSwap(UNIT_STATE_MANA, GetSpellAbilityUnit()) * __jreal(0.80))))
@@ -10538,11 +9269,9 @@ function Trig_Mana_Burn_Actions()
         UnitAddAbilityBJ(FourCC("A0CW"), GetLastCreatedUnit())
         UnitApplyTimedLifeBJ(__jreal(2.00), FourCC("BTLF"), GetLastCreatedUnit())
         IssueTargetOrderBJ(GetLastCreatedUnit(), "thunderbolt", GetSpellTargetUnit())
-    else
     end
 end
 
--- Original JASS function: InitTrig_Mana_Burn (line 7676)
 function InitTrig_Mana_Burn()
     gg_trg_Mana_Burn = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Mana_Burn, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -10552,27 +9281,25 @@ end
 -- END FOREST SECTION 54
 
 -- BEGIN FOREST SECTION 55 Mana_Steal_Dancer
--- Original JASS function: Trig_Mana_Steal_Dancer_Conditions (line 7686)
 function Trig_Mana_Steal_Dancer_Conditions()
-    if ((not ((GetUnitTypeId(udg_DamageEventSource) == FourCC("h05E"))))) then
-        do return false end
+    if (not (GetUnitTypeId(udg_DamageEventSource) == FourCC("h05E"))) then
+        return false
     end
-    if ((not ((IsPlayerAlly(GetOwningPlayer(udg_DamageEventTarget), GetOwningPlayer(udg_DamageEventSource)) == false)))) then
-        do return false end
+    if (not (IsPlayerAlly(GetOwningPlayer(udg_DamageEventTarget), GetOwningPlayer(udg_DamageEventSource)) == false)) then
+        return false
     end
-    if ((not ((BlzGetUnitMaxMana(udg_DamageEventTarget) ~= 0)))) then
-        do return false end
+    if (not (BlzGetUnitMaxMana(udg_DamageEventTarget) ~= 0)) then
+        return false
     end
-    if ((not ((GetPlayerTechCountSimple(FourCC("R064"), GetOwningPlayer(udg_DamageEventSource)) == 1)))) then
-        do return false end
+    if (not (GetPlayerTechCountSimple(FourCC("R064"), GetOwningPlayer(udg_DamageEventSource)) == 1)) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Mana_Steal_Dancer_Actions (line 7705)
 function Trig_Mana_Steal_Dancer_Actions()
     local source, target = udg_DamageEventSource, udg_DamageEventTarget
     local steal = math.min(20, BlzGetUnitMaxMana(target))
@@ -10593,7 +9320,6 @@ function Trig_Mana_Steal_Dancer_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Mana_Steal_Dancer (line 7749)
 function InitTrig_Mana_Steal_Dancer()
     gg_trg_Mana_Steal_Dancer = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Mana_Steal_Dancer, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -10603,32 +9329,29 @@ end
 -- END FOREST SECTION 55
 
 -- BEGIN FOREST SECTION 56 Mana_Steal_Mages
--- Original JASS function: Trig_Mana_Steal_Mages_Conditions (line 7758)
 function Trig_Mana_Steal_Mages_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("o023"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetTriggerUnit()) == FourCC("o023"))) then
+        return false
     end
-    if ((not ((IsPlayerAlly(GetOwningPlayer(udg_DamageEventTarget), GetOwningPlayer(udg_DamageEventSource)) == false)))) then
-        do return false end
+    if (not (IsPlayerAlly(GetOwningPlayer(udg_DamageEventTarget), GetOwningPlayer(udg_DamageEventSource)) == false)) then
+        return false
     end
-    if ((not ((BlzGetUnitMaxMana(udg_DamageEventTarget) ~= 0)))) then
-        do return false end
+    if (not (BlzGetUnitMaxMana(udg_DamageEventTarget) ~= 0)) then
+        return false
     end
-    if ((not ((GetPlayerTechCountSimple(FourCC("R063"), GetOwningPlayer(udg_DamageEventSource)) == 1)))) then
-        do return false end
+    if (not (GetPlayerTechCountSimple(FourCC("R063"), GetOwningPlayer(udg_DamageEventSource)) == 1)) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Mana_Steal_Mages_Actions (line 7777)
 function Trig_Mana_Steal_Mages_Actions()
     SetUnitManaBJ(udg_DamageEventSource, (__jreal(GetUnitStateSwap(UNIT_STATE_MANA, udg_DamageEventSource) + __jreal(20.00))))
 end
 
--- Original JASS function: InitTrig_Mana_Steal_Mages (line 7782)
 function InitTrig_Mana_Steal_Mages()
     gg_trg_Mana_Steal_Mages = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Mana_Steal_Mages, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -10638,15 +9361,10 @@ end
 -- END FOREST SECTION 56
 
 -- BEGIN FOREST SECTION 57 ConjureMana
--- Original JASS function: Trig_ConjureMana_Conditions (line 7792)
 function Trig_ConjureMana_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0AQ"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0AQ")
 end
 
--- Original JASS function: Trig_ConjureMana_Actions (line 7799)
 function Trig_ConjureMana_Actions()
     local caster = GetSpellAbilityUnit()
     BlzSetUnitBaseDamage(GetTriggerUnit(), (__jint(199 + R2I(GetUnitStateSwap(UNIT_STATE_MANA, GetTriggerUnit())))), 0)
@@ -10656,7 +9374,6 @@ function Trig_ConjureMana_Actions()
     BlzSetUnitBaseDamage(GetTriggerUnit(), 199, 0)
 end
 
--- Original JASS function: InitTrig_ConjureMana (line 7808)
 function InitTrig_ConjureMana()
     gg_trg_ConjureMana = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_ConjureMana, EVENT_PLAYER_UNIT_SPELL_FINISH)
@@ -10666,15 +9383,10 @@ end
 -- END FOREST SECTION 57
 
 -- BEGIN FOREST SECTION 58 Blur
--- Original JASS function: Trig_Blur_Conditions (line 7818)
 function Trig_Blur_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0BG"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0BG")
 end
 
--- Original JASS function: Trig_Blur_Actions (line 7825)
 function Trig_Blur_Actions()
     UnitAddAbilityBJ(FourCC("A0AS"), GetSpellAbilityUnit())
     TriggerSleepAction(__jreal(GetUnitStateSwap(UNIT_STATE_MAX_MANA, GetTriggerUnit()) * __jreal(0.001)))
@@ -10682,7 +9394,6 @@ function Trig_Blur_Actions()
     UnitRemoveBuffBJ(FourCC("B03G"), GetTriggerUnit())
 end
 
--- Original JASS function: InitTrig_Blur (line 7833)
 function InitTrig_Blur()
     gg_trg_Blur = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Blur, EVENT_PLAYER_UNIT_SPELL_CHANNEL)
@@ -10697,30 +9408,15 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 59 Ghoul_Units
--- Original JASS function: Trig_Ghoul_Units_Func003001 (line 7848)
-function Trig_Ghoul_Units_Func003001()
-    do return ((GetUnitTypeId(GetConstructedStructure()) == FourCC("h01S"))) end
-end
 
--- Original JASS function: Trig_Ghoul_Units_Func003002 (line 7852)
-function Trig_Ghoul_Units_Func003002()
-    do return ((GetUnitTypeId(GetConstructedStructure()) == FourCC("h01T"))) end
-end
-
--- Original JASS function: Trig_Ghoul_Units_Conditions (line 7856)
 function Trig_Ghoul_Units_Conditions()
-    if ((not GetBooleanOr(((GetUnitTypeId(GetConstructedStructure()) == FourCC("h01S"))), ((GetUnitTypeId(GetConstructedStructure()) == FourCC("h01T")))))) then
-        do return false end
-    end
-    do return true end
+    return not not (GetBooleanOr((GetUnitTypeId(GetConstructedStructure()) == FourCC("h01S")), (GetUnitTypeId(GetConstructedStructure()) == FourCC("h01T"))))
 end
 
--- Original JASS function: Trig_Ghoul_Units_Actions (line 7863)
 function Trig_Ghoul_Units_Actions()
     BlzSetUnitBooleanFieldBJ(GetConstructedStructure(), UNIT_BF_IS_A_BUILDING, false)
 end
 
--- Original JASS function: InitTrig_Ghoul_Units (line 7868)
 function InitTrig_Ghoul_Units()
     gg_trg_Ghoul_Units = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ghoul_Units, EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)
@@ -10730,12 +9426,10 @@ end
 -- END FOREST SECTION 59
 
 -- BEGIN FOREST SECTION 60 Ghoul_lumber
--- Original JASS function: Trig_Ghoul_lumber_Conditions (line 7878)
 function Trig_Ghoul_lumber_Conditions()
-    do return (GetResearched() == FourCC("R05K")) end
+    return (GetResearched() == FourCC("R05K"))
 end
 
--- Original JASS function: Trig_Ghoul_lumber_ApplyToUnit (line 7882)
 function Trig_Ghoul_lumber_ApplyToUnit(u)
     local p = nil
     local upgradeLevel = 0
@@ -10755,7 +9449,6 @@ function Trig_Ghoul_lumber_ApplyToUnit(u)
     end
 end
 
--- Original JASS function: Trig_Ghoul_lumber_Actions (line 7904)
 function Trig_Ghoul_lumber_Actions()
     local p = GetOwningPlayer(GetResearchingUnit())
     local g = CreateGroup()
@@ -10773,12 +9466,10 @@ function Trig_Ghoul_lumber_Actions()
     p = nil
 end
 
--- Original JASS function: Trig_Ghoul_lumber_Enter_Actions (line 7926)
 function Trig_Ghoul_lumber_Enter_Actions()
     Trig_Ghoul_lumber_ApplyToUnit(GetTriggerUnit())
 end
 
--- Original JASS function: InitTrig_Ghoul_lumber (line 7931)
 function InitTrig_Ghoul_lumber()
     local enterTrig = CreateTrigger()
     local worldRegion = CreateRegion()
@@ -10800,20 +9491,14 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 61 Dutchmen_Trained
--- Original JASS function: Trig_Dutchmen_Trained_Conditions (line 7950)
 function Trig_Dutchmen_Trained_Conditions()
-    if ((not ((GetUnitTypeId(GetTrainedUnit()) == FourCC("H03P"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTrainedUnit()) == FourCC("H03P")
 end
 
--- Original JASS function: Trig_Dutchmen_Trained_Actions (line 7957)
 function Trig_Dutchmen_Trained_Actions()
     GroupAddUnitSimple(GetTrainedUnit(), udg_Dutchmen)
 end
 
--- Original JASS function: InitTrig_Dutchmen_Trained (line 7962)
 function InitTrig_Dutchmen_Trained()
     gg_trg_Dutchmen_Trained = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Dutchmen_Trained, EVENT_PLAYER_UNIT_TRAIN_FINISH)
@@ -10823,17 +9508,14 @@ end
 -- END FOREST SECTION 61
 
 -- BEGIN FOREST SECTION 62 Dutchmen
--- Original JASS function: Trig_Dutchmen_Func001A (line 7972)
 function Trig_Dutchmen_Func001A()
     BlzSetUnitBaseDamage(GetEnumUnit(), (__jint(GetPlayerState(GetOwningPlayer(GetEnumUnit()), PLAYER_STATE_RESOURCE_GOLD) + (__jint(49 + GetHeroStatBJ(bj_HEROSTAT_STR, GetEnumUnit(), true))))), 0)
 end
 
--- Original JASS function: Trig_Dutchmen_Actions (line 7976)
 function Trig_Dutchmen_Actions()
     ForGroupBJ(udg_Dutchmen, Trig_Dutchmen_Func001A)
 end
 
--- Original JASS function: InitTrig_Dutchmen (line 7981)
 function InitTrig_Dutchmen()
     gg_trg_Dutchmen = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Dutchmen, __jreal(2))
@@ -10847,34 +9529,27 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 63 Vampiric_Wyrm
--- Original JASS function: Trig_Vampiric_Wyrm_Func001C (line 7995)
 function Trig_Vampiric_Wyrm_Func001C()
-    if (((GetUnitTypeId(GetConstructedStructure()) == FourCC("e005")))) then
-        do return true end
+    if (GetUnitTypeId(GetConstructedStructure()) == FourCC("e005")) then
+        return true
     end
-    if (((GetUnitTypeId(GetConstructedStructure()) == FourCC("e004")))) then
-        do return true end
+    if (GetUnitTypeId(GetConstructedStructure()) == FourCC("e004")) then
+        return true
     end
-    if (((GetUnitTypeId(GetConstructedStructure()) == FourCC("e006")))) then
-        do return true end
+    if (GetUnitTypeId(GetConstructedStructure()) == FourCC("e006")) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_Vampiric_Wyrm_Conditions (line 8008)
 function Trig_Vampiric_Wyrm_Conditions()
-    if ((not Trig_Vampiric_Wyrm_Func001C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Vampiric_Wyrm_Func001C())
 end
 
--- Original JASS function: Trig_Vampiric_Wyrm_Actions (line 8015)
 function Trig_Vampiric_Wyrm_Actions()
     BlzSetUnitBooleanFieldBJ(GetConstructedStructure(), UNIT_BF_IS_A_BUILDING, false)
 end
 
--- Original JASS function: InitTrig_Vampiric_Wyrm (line 8020)
 function InitTrig_Vampiric_Wyrm()
     gg_trg_Vampiric_Wyrm = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Vampiric_Wyrm, EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)
@@ -10889,59 +9564,34 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 64 Soul_Hammer
--- Original JASS function: Trig_Soul_Hammer_Conditions (line 8030)
 function Trig_Soul_Hammer_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I01E"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I01E")
 end
 
--- Original JASS function: Trig_Soul_Hammer_Func002Func002Func001Func001C (line 8037)
 function Trig_Soul_Hammer_Func002Func002Func001Func001C()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("u00B")
 end
 
--- Original JASS function: Trig_Soul_Hammer_Func002Func002Func001C (line 8044)
 function Trig_Soul_Hammer_Func002Func002Func001C()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u009"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("u009")
 end
 
--- Original JASS function: Trig_Soul_Hammer_Func002Func002C (line 8051)
 function Trig_Soul_Hammer_Func002Func002C()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u007"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("u007")
 end
 
--- Original JASS function: Trig_Soul_Hammer_Func002C (line 8058)
 function Trig_Soul_Hammer_Func002C()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u00A"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("u00A")
 end
 
--- Original JASS function: Trig_Soul_Hammer_Actions (line 8065)
 function Trig_Soul_Hammer_Actions()
     if (Trig_Soul_Hammer_Func002C()) then
-        DoNothing()
     else
         if (Trig_Soul_Hammer_Func002Func002C()) then
-            DoNothing()
         else
             if (Trig_Soul_Hammer_Func002Func002Func001C()) then
-                DoNothing()
             else
                 if (Trig_Soul_Hammer_Func002Func002Func001Func001C()) then
-                    DoNothing()
                 else
                     UnitDropItemPointLoc(GetTriggerUnit(), GetManipulatedItem(), GetUnitLoc(GetTriggerUnit()))
                 end
@@ -10950,7 +9600,6 @@ function Trig_Soul_Hammer_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Soul_Hammer (line 8086)
 function InitTrig_Soul_Hammer()
     gg_trg_Soul_Hammer = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Soul_Hammer, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -10965,20 +9614,34 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 65 Coup_de_grace
--- Original JASS function: Trig_Coup_de_grace_Conditions (line 8096)
-function Trig_Coup_de_grace_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A05X"))))) then
-        do return false end
-    end
-    do return true end
+-- Keep separate trigger handles and research enablement for the ten original
+-- owner slots; only the duplicated bodies are shared.
+local function FocusedAngerOwnerCondition(slot)
+    return GetUnitTypeId(GetAttacker()) == FourCC("u00B") and
+        GetOwningPlayer(GetAttacker()) == Player(slot)
 end
 
--- Original JASS function: Trig_Coup_de_grace_Actions (line 8103)
+local function FocusedAngerAttackEvent(trigger, condition, action)
+    DisableTrigger(trigger)
+    FE_Roles.registerAncientUnitEvent(trigger, EVENT_PLAYER_UNIT_ATTACKED)
+    TriggerAddCondition(trigger, Condition(condition))
+    TriggerAddAction(trigger, action)
+end
+
+local function FocusedAngerResearchEvent(trigger, slot, condition, action)
+    TriggerRegisterPlayerUnitEventSimple(trigger, Player(slot), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
+    TriggerAddCondition(trigger, Condition(condition))
+    TriggerAddAction(trigger, action)
+end
+
+function Trig_Coup_de_grace_Conditions()
+    return GetSpellAbilityId() == FourCC("A05X")
+end
+
 function Trig_Coup_de_grace_Actions()
     SetUnitLifeBJ(GetSpellTargetUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetSpellTargetUnit()) - (__jreal(GetUnitStateSwap(UNIT_STATE_MAX_LIFE, GetSpellTargetUnit()) * __jreal(0.10))))))
 end
 
--- Original JASS function: InitTrig_Coup_de_grace (line 8108)
 function InitTrig_Coup_de_grace()
     gg_trg_Coup_de_grace = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Coup_de_grace, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -10988,22 +9651,16 @@ end
 -- END FOREST SECTION 65
 
 -- BEGIN FOREST SECTION 66 Surge_of_Darkness
--- Original JASS function: Trig_Surge_of_Darkness_Conditions (line 8118)
 function Trig_Surge_of_Darkness_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A060"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A060")
 end
 
--- Original JASS function: Trig_Surge_of_Darkness_Actions (line 8125)
 function Trig_Surge_of_Darkness_Actions()
     UnitAddAbilityBJ(FourCC("A079"), GetTriggerUnit())
     TriggerSleepAction(__jreal(5.00))
     UnitRemoveAbilityBJ(FourCC("A079"), GetTriggerUnit())
 end
 
--- Original JASS function: InitTrig_Surge_of_Darkness (line 8132)
 function InitTrig_Surge_of_Darkness()
     gg_trg_Surge_of_Darkness = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Surge_of_Darkness, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -11013,552 +9670,302 @@ end
 -- END FOREST SECTION 66
 
 -- BEGIN FOREST SECTION 67 Focused_Anger_1
--- Original JASS function: Trig_Focused_Anger_1_Conditions (line 8142)
 function Trig_Focused_Anger_1_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    if ((not ((GetOwningPlayer(GetAttacker()) == Player(0))))) then
-        do return false end
-    end
-    do return true end
+    return FocusedAngerOwnerCondition(0)
 end
 
--- Original JASS function: Trig_Focused_Anger_1_Func001C (line 8152)
-function Trig_Focused_Anger_1_Func001C()
-    return FE_FocusedAnger.count(GetAttacker()) >= 15
-end
-
--- Original JASS function: Trig_Focused_Anger_1_Actions (line 8159)
 function Trig_Focused_Anger_1_Actions()
     FE_FocusedAnger.add(GetAttacker())
 end
 
--- Original JASS function: InitTrig_Focused_Anger_1 (line 8172)
 function InitTrig_Focused_Anger_1()
     gg_trg_Focused_Anger_1 = CreateTrigger()
-    DisableTrigger(gg_trg_Focused_Anger_1)
-    FE_Roles.registerAncientUnitEvent(gg_trg_Focused_Anger_1, EVENT_PLAYER_UNIT_ATTACKED)
-    TriggerAddCondition(gg_trg_Focused_Anger_1, Condition(Trig_Focused_Anger_1_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_1, Trig_Focused_Anger_1_Actions)
+    FocusedAngerAttackEvent(gg_trg_Focused_Anger_1, Trig_Focused_Anger_1_Conditions, Trig_Focused_Anger_1_Actions)
 end
 -- END FOREST SECTION 67
 
 -- BEGIN FOREST SECTION 68 Focused_Anger_2
--- Original JASS function: Trig_Focused_Anger_2_Conditions (line 8183)
 function Trig_Focused_Anger_2_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    if ((not ((GetOwningPlayer(GetAttacker()) == Player(1))))) then
-        do return false end
-    end
-    do return true end
+    return FocusedAngerOwnerCondition(1)
 end
 
--- Original JASS function: Trig_Focused_Anger_2_Func001C (line 8193)
-function Trig_Focused_Anger_2_Func001C()
-    return FE_FocusedAnger.count(GetAttacker()) >= 15
-end
-
--- Original JASS function: Trig_Focused_Anger_2_Actions (line 8200)
 function Trig_Focused_Anger_2_Actions()
     FE_FocusedAnger.add(GetAttacker())
 end
 
--- Original JASS function: InitTrig_Focused_Anger_2 (line 8213)
 function InitTrig_Focused_Anger_2()
     gg_trg_Focused_Anger_2 = CreateTrigger()
-    DisableTrigger(gg_trg_Focused_Anger_2)
-    FE_Roles.registerAncientUnitEvent(gg_trg_Focused_Anger_2, EVENT_PLAYER_UNIT_ATTACKED)
-    TriggerAddCondition(gg_trg_Focused_Anger_2, Condition(Trig_Focused_Anger_2_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_2, Trig_Focused_Anger_2_Actions)
+    FocusedAngerAttackEvent(gg_trg_Focused_Anger_2, Trig_Focused_Anger_2_Conditions, Trig_Focused_Anger_2_Actions)
 end
 -- END FOREST SECTION 68
 
 -- BEGIN FOREST SECTION 69 Focused_Anger_3
--- Original JASS function: Trig_Focused_Anger_3_Conditions (line 8224)
 function Trig_Focused_Anger_3_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    if ((not ((GetOwningPlayer(GetAttacker()) == Player(2))))) then
-        do return false end
-    end
-    do return true end
+    return FocusedAngerOwnerCondition(2)
 end
 
--- Original JASS function: Trig_Focused_Anger_3_Func001C (line 8234)
-function Trig_Focused_Anger_3_Func001C()
-    return FE_FocusedAnger.count(GetAttacker()) >= 15
-end
-
--- Original JASS function: Trig_Focused_Anger_3_Actions (line 8241)
 function Trig_Focused_Anger_3_Actions()
     FE_FocusedAnger.add(GetAttacker())
 end
 
--- Original JASS function: InitTrig_Focused_Anger_3 (line 8254)
 function InitTrig_Focused_Anger_3()
     gg_trg_Focused_Anger_3 = CreateTrigger()
-    DisableTrigger(gg_trg_Focused_Anger_3)
-    FE_Roles.registerAncientUnitEvent(gg_trg_Focused_Anger_3, EVENT_PLAYER_UNIT_ATTACKED)
-    TriggerAddCondition(gg_trg_Focused_Anger_3, Condition(Trig_Focused_Anger_3_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_3, Trig_Focused_Anger_3_Actions)
+    FocusedAngerAttackEvent(gg_trg_Focused_Anger_3, Trig_Focused_Anger_3_Conditions, Trig_Focused_Anger_3_Actions)
 end
 -- END FOREST SECTION 69
 
 -- BEGIN FOREST SECTION 70 Focused_Anger_4
--- Original JASS function: Trig_Focused_Anger_4_Conditions (line 8265)
 function Trig_Focused_Anger_4_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    if ((not ((GetOwningPlayer(GetAttacker()) == Player(3))))) then
-        do return false end
-    end
-    do return true end
+    return FocusedAngerOwnerCondition(3)
 end
 
--- Original JASS function: Trig_Focused_Anger_4_Func001C (line 8275)
-function Trig_Focused_Anger_4_Func001C()
-    return FE_FocusedAnger.count(GetAttacker()) >= 15
-end
-
--- Original JASS function: Trig_Focused_Anger_4_Actions (line 8282)
 function Trig_Focused_Anger_4_Actions()
     FE_FocusedAnger.add(GetAttacker())
 end
 
--- Original JASS function: InitTrig_Focused_Anger_4 (line 8295)
 function InitTrig_Focused_Anger_4()
     gg_trg_Focused_Anger_4 = CreateTrigger()
-    DisableTrigger(gg_trg_Focused_Anger_4)
-    FE_Roles.registerAncientUnitEvent(gg_trg_Focused_Anger_4, EVENT_PLAYER_UNIT_ATTACKED)
-    TriggerAddCondition(gg_trg_Focused_Anger_4, Condition(Trig_Focused_Anger_4_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_4, Trig_Focused_Anger_4_Actions)
+    FocusedAngerAttackEvent(gg_trg_Focused_Anger_4, Trig_Focused_Anger_4_Conditions, Trig_Focused_Anger_4_Actions)
 end
 -- END FOREST SECTION 70
 
 -- BEGIN FOREST SECTION 71 Focused_Anger_5
--- Original JASS function: Trig_Focused_Anger_5_Conditions (line 8306)
 function Trig_Focused_Anger_5_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    if ((not ((GetOwningPlayer(GetAttacker()) == Player(4))))) then
-        do return false end
-    end
-    do return true end
+    return FocusedAngerOwnerCondition(4)
 end
 
--- Original JASS function: Trig_Focused_Anger_5_Func001C (line 8316)
-function Trig_Focused_Anger_5_Func001C()
-    return FE_FocusedAnger.count(GetAttacker()) >= 15
-end
-
--- Original JASS function: Trig_Focused_Anger_5_Actions (line 8323)
 function Trig_Focused_Anger_5_Actions()
     FE_FocusedAnger.add(GetAttacker())
 end
 
--- Original JASS function: InitTrig_Focused_Anger_5 (line 8336)
 function InitTrig_Focused_Anger_5()
     gg_trg_Focused_Anger_5 = CreateTrigger()
-    DisableTrigger(gg_trg_Focused_Anger_5)
-    FE_Roles.registerAncientUnitEvent(gg_trg_Focused_Anger_5, EVENT_PLAYER_UNIT_ATTACKED)
-    TriggerAddCondition(gg_trg_Focused_Anger_5, Condition(Trig_Focused_Anger_5_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_5, Trig_Focused_Anger_5_Actions)
+    FocusedAngerAttackEvent(gg_trg_Focused_Anger_5, Trig_Focused_Anger_5_Conditions, Trig_Focused_Anger_5_Actions)
 end
 -- END FOREST SECTION 71
 
 -- BEGIN FOREST SECTION 72 Focused_Anger_6
--- Original JASS function: Trig_Focused_Anger_6_Conditions (line 8347)
 function Trig_Focused_Anger_6_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    if ((not ((GetOwningPlayer(GetAttacker()) == Player(5))))) then
-        do return false end
-    end
-    do return true end
+    return FocusedAngerOwnerCondition(5)
 end
 
--- Original JASS function: Trig_Focused_Anger_6_Func001C (line 8357)
-function Trig_Focused_Anger_6_Func001C()
-    return FE_FocusedAnger.count(GetAttacker()) >= 15
-end
-
--- Original JASS function: Trig_Focused_Anger_6_Actions (line 8364)
 function Trig_Focused_Anger_6_Actions()
     FE_FocusedAnger.add(GetAttacker())
 end
 
--- Original JASS function: InitTrig_Focused_Anger_6 (line 8377)
 function InitTrig_Focused_Anger_6()
     gg_trg_Focused_Anger_6 = CreateTrigger()
-    DisableTrigger(gg_trg_Focused_Anger_6)
-    FE_Roles.registerAncientUnitEvent(gg_trg_Focused_Anger_6, EVENT_PLAYER_UNIT_ATTACKED)
-    TriggerAddCondition(gg_trg_Focused_Anger_6, Condition(Trig_Focused_Anger_6_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_6, Trig_Focused_Anger_6_Actions)
+    FocusedAngerAttackEvent(gg_trg_Focused_Anger_6, Trig_Focused_Anger_6_Conditions, Trig_Focused_Anger_6_Actions)
 end
 -- END FOREST SECTION 72
 
 -- BEGIN FOREST SECTION 73 Focused_Anger_7
--- Original JASS function: Trig_Focused_Anger_7_Conditions (line 8388)
 function Trig_Focused_Anger_7_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    if ((not ((GetOwningPlayer(GetAttacker()) == Player(7))))) then
-        do return false end
-    end
-    do return true end
+    return FocusedAngerOwnerCondition(7)
 end
 
--- Original JASS function: Trig_Focused_Anger_7_Func001C (line 8398)
-function Trig_Focused_Anger_7_Func001C()
-    return FE_FocusedAnger.count(GetAttacker()) >= 15
-end
-
--- Original JASS function: Trig_Focused_Anger_7_Actions (line 8405)
 function Trig_Focused_Anger_7_Actions()
     FE_FocusedAnger.add(GetAttacker())
 end
 
--- Original JASS function: InitTrig_Focused_Anger_7 (line 8418)
 function InitTrig_Focused_Anger_7()
     gg_trg_Focused_Anger_7 = CreateTrigger()
-    DisableTrigger(gg_trg_Focused_Anger_7)
-    FE_Roles.registerAncientUnitEvent(gg_trg_Focused_Anger_7, EVENT_PLAYER_UNIT_ATTACKED)
-    TriggerAddCondition(gg_trg_Focused_Anger_7, Condition(Trig_Focused_Anger_7_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_7, Trig_Focused_Anger_7_Actions)
+    FocusedAngerAttackEvent(gg_trg_Focused_Anger_7, Trig_Focused_Anger_7_Conditions, Trig_Focused_Anger_7_Actions)
 end
 -- END FOREST SECTION 73
 
 -- BEGIN FOREST SECTION 74 Focused_Anger_8
--- Original JASS function: Trig_Focused_Anger_8_Conditions (line 8429)
 function Trig_Focused_Anger_8_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    if ((not ((GetOwningPlayer(GetAttacker()) == Player(8))))) then
-        do return false end
-    end
-    do return true end
+    return FocusedAngerOwnerCondition(8)
 end
 
--- Original JASS function: Trig_Focused_Anger_8_Func001C (line 8439)
-function Trig_Focused_Anger_8_Func001C()
-    return FE_FocusedAnger.count(GetAttacker()) >= 15
-end
-
--- Original JASS function: Trig_Focused_Anger_8_Actions (line 8446)
 function Trig_Focused_Anger_8_Actions()
     FE_FocusedAnger.add(GetAttacker())
 end
 
--- Original JASS function: InitTrig_Focused_Anger_8 (line 8459)
 function InitTrig_Focused_Anger_8()
     gg_trg_Focused_Anger_8 = CreateTrigger()
-    DisableTrigger(gg_trg_Focused_Anger_8)
-    FE_Roles.registerAncientUnitEvent(gg_trg_Focused_Anger_8, EVENT_PLAYER_UNIT_ATTACKED)
-    TriggerAddCondition(gg_trg_Focused_Anger_8, Condition(Trig_Focused_Anger_8_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_8, Trig_Focused_Anger_8_Actions)
+    FocusedAngerAttackEvent(gg_trg_Focused_Anger_8, Trig_Focused_Anger_8_Conditions, Trig_Focused_Anger_8_Actions)
 end
 -- END FOREST SECTION 74
 
 -- BEGIN FOREST SECTION 75 Focused_Anger_9
--- Original JASS function: Trig_Focused_Anger_9_Conditions (line 8470)
 function Trig_Focused_Anger_9_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    if ((not ((GetOwningPlayer(GetAttacker()) == Player(9))))) then
-        do return false end
-    end
-    do return true end
+    return FocusedAngerOwnerCondition(9)
 end
 
--- Original JASS function: Trig_Focused_Anger_9_Func001C (line 8480)
-function Trig_Focused_Anger_9_Func001C()
-    return FE_FocusedAnger.count(GetAttacker()) >= 15
-end
-
--- Original JASS function: Trig_Focused_Anger_9_Actions (line 8487)
 function Trig_Focused_Anger_9_Actions()
     FE_FocusedAnger.add(GetAttacker())
 end
 
--- Original JASS function: InitTrig_Focused_Anger_9 (line 8500)
 function InitTrig_Focused_Anger_9()
     gg_trg_Focused_Anger_9 = CreateTrigger()
-    DisableTrigger(gg_trg_Focused_Anger_9)
-    FE_Roles.registerAncientUnitEvent(gg_trg_Focused_Anger_9, EVENT_PLAYER_UNIT_ATTACKED)
-    TriggerAddCondition(gg_trg_Focused_Anger_9, Condition(Trig_Focused_Anger_9_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_9, Trig_Focused_Anger_9_Actions)
+    FocusedAngerAttackEvent(gg_trg_Focused_Anger_9, Trig_Focused_Anger_9_Conditions, Trig_Focused_Anger_9_Actions)
 end
 -- END FOREST SECTION 75
 
 -- BEGIN FOREST SECTION 76 Focused_Anger_10
--- Original JASS function: Trig_Focused_Anger_10_Conditions (line 8511)
 function Trig_Focused_Anger_10_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    if ((not ((GetOwningPlayer(GetAttacker()) == Player(10))))) then
-        do return false end
-    end
-    do return true end
+    return FocusedAngerOwnerCondition(10)
 end
 
--- Original JASS function: Trig_Focused_Anger_10_Func001C (line 8521)
-function Trig_Focused_Anger_10_Func001C()
-    return FE_FocusedAnger.count(GetAttacker()) >= 15
-end
-
--- Original JASS function: Trig_Focused_Anger_10_Actions (line 8528)
 function Trig_Focused_Anger_10_Actions()
     FE_FocusedAnger.add(GetAttacker())
 end
 
--- Original JASS function: InitTrig_Focused_Anger_10 (line 8541)
 function InitTrig_Focused_Anger_10()
     gg_trg_Focused_Anger_10 = CreateTrigger()
-    DisableTrigger(gg_trg_Focused_Anger_10)
-    FE_Roles.registerAncientUnitEvent(gg_trg_Focused_Anger_10, EVENT_PLAYER_UNIT_ATTACKED)
-    TriggerAddCondition(gg_trg_Focused_Anger_10, Condition(Trig_Focused_Anger_10_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_10, Trig_Focused_Anger_10_Actions)
+    FocusedAngerAttackEvent(gg_trg_Focused_Anger_10, Trig_Focused_Anger_10_Conditions, Trig_Focused_Anger_10_Actions)
 end
 -- END FOREST SECTION 76
 
 -- BEGIN FOREST SECTION 77 Focused_Anger_Trigger
--- Original JASS function: Trig_Focused_Anger_Trigger_Conditions (line 8552)
 function Trig_Focused_Anger_Trigger_Conditions()
-    if ((not ((GetResearched() == FourCC("R04T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R04T")
 end
 
--- Original JASS function: Trig_Focused_Anger_Trigger_Actions (line 8559)
 function Trig_Focused_Anger_Trigger_Actions()
     EnableTrigger(gg_trg_Focused_Anger_1)
 end
 
--- Original JASS function: InitTrig_Focused_Anger_Trigger (line 8564)
 function InitTrig_Focused_Anger_Trigger()
     gg_trg_Focused_Anger_Trigger = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Focused_Anger_Trigger, Player(0), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Focused_Anger_Trigger, Condition(Trig_Focused_Anger_Trigger_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_Trigger, Trig_Focused_Anger_Trigger_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger, 0, Trig_Focused_Anger_Trigger_Conditions, Trig_Focused_Anger_Trigger_Actions)
 end
 -- END FOREST SECTION 77
 
 -- BEGIN FOREST SECTION 78 Focused_Anger_Trigger_Copy
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_Conditions (line 8574)
 function Trig_Focused_Anger_Trigger_Copy_Conditions()
-    if ((not ((GetResearched() == FourCC("R04T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R04T")
 end
 
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_Actions (line 8581)
 function Trig_Focused_Anger_Trigger_Copy_Actions()
     EnableTrigger(gg_trg_Focused_Anger_2)
 end
 
--- Original JASS function: InitTrig_Focused_Anger_Trigger_Copy (line 8586)
 function InitTrig_Focused_Anger_Trigger_Copy()
     gg_trg_Focused_Anger_Trigger_Copy = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Focused_Anger_Trigger_Copy, Player(1), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Focused_Anger_Trigger_Copy, Condition(Trig_Focused_Anger_Trigger_Copy_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_Trigger_Copy, Trig_Focused_Anger_Trigger_Copy_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy, 1, Trig_Focused_Anger_Trigger_Copy_Conditions, Trig_Focused_Anger_Trigger_Copy_Actions)
 end
 -- END FOREST SECTION 78
 
 -- BEGIN FOREST SECTION 79 Focused_Anger_Trigger_Copy_2
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_2_Conditions (line 8596)
 function Trig_Focused_Anger_Trigger_Copy_2_Conditions()
-    if ((not ((GetResearched() == FourCC("R04T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R04T")
 end
 
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_2_Actions (line 8603)
 function Trig_Focused_Anger_Trigger_Copy_2_Actions()
     EnableTrigger(gg_trg_Focused_Anger_3)
 end
 
--- Original JASS function: InitTrig_Focused_Anger_Trigger_Copy_2 (line 8608)
 function InitTrig_Focused_Anger_Trigger_Copy_2()
     gg_trg_Focused_Anger_Trigger_Copy_2 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Focused_Anger_Trigger_Copy_2, Player(2), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Focused_Anger_Trigger_Copy_2, Condition(Trig_Focused_Anger_Trigger_Copy_2_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_Trigger_Copy_2, Trig_Focused_Anger_Trigger_Copy_2_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_2, 2, Trig_Focused_Anger_Trigger_Copy_2_Conditions, Trig_Focused_Anger_Trigger_Copy_2_Actions)
 end
 -- END FOREST SECTION 79
 
 -- BEGIN FOREST SECTION 80 Focused_Anger_Trigger_Copy_3
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_3_Conditions (line 8618)
 function Trig_Focused_Anger_Trigger_Copy_3_Conditions()
-    if ((not ((GetResearched() == FourCC("R04T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R04T")
 end
 
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_3_Actions (line 8625)
 function Trig_Focused_Anger_Trigger_Copy_3_Actions()
     EnableTrigger(gg_trg_Focused_Anger_4)
 end
 
--- Original JASS function: InitTrig_Focused_Anger_Trigger_Copy_3 (line 8630)
 function InitTrig_Focused_Anger_Trigger_Copy_3()
     gg_trg_Focused_Anger_Trigger_Copy_3 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Focused_Anger_Trigger_Copy_3, Player(3), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Focused_Anger_Trigger_Copy_3, Condition(Trig_Focused_Anger_Trigger_Copy_3_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_Trigger_Copy_3, Trig_Focused_Anger_Trigger_Copy_3_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_3, 3, Trig_Focused_Anger_Trigger_Copy_3_Conditions, Trig_Focused_Anger_Trigger_Copy_3_Actions)
 end
 -- END FOREST SECTION 80
 
 -- BEGIN FOREST SECTION 81 Focused_Anger_Trigger_Copy_4
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_4_Conditions (line 8640)
 function Trig_Focused_Anger_Trigger_Copy_4_Conditions()
-    if ((not ((GetResearched() == FourCC("R04T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R04T")
 end
 
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_4_Actions (line 8647)
 function Trig_Focused_Anger_Trigger_Copy_4_Actions()
     EnableTrigger(gg_trg_Focused_Anger_5)
 end
 
--- Original JASS function: InitTrig_Focused_Anger_Trigger_Copy_4 (line 8652)
 function InitTrig_Focused_Anger_Trigger_Copy_4()
     gg_trg_Focused_Anger_Trigger_Copy_4 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Focused_Anger_Trigger_Copy_4, Player(4), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Focused_Anger_Trigger_Copy_4, Condition(Trig_Focused_Anger_Trigger_Copy_4_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_Trigger_Copy_4, Trig_Focused_Anger_Trigger_Copy_4_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_4, 4, Trig_Focused_Anger_Trigger_Copy_4_Conditions, Trig_Focused_Anger_Trigger_Copy_4_Actions)
 end
 -- END FOREST SECTION 81
 
 -- BEGIN FOREST SECTION 82 Focused_Anger_Trigger_Copy_5
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_5_Conditions (line 8662)
 function Trig_Focused_Anger_Trigger_Copy_5_Conditions()
-    if ((not ((GetResearched() == FourCC("R04T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R04T")
 end
 
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_5_Actions (line 8669)
 function Trig_Focused_Anger_Trigger_Copy_5_Actions()
     EnableTrigger(gg_trg_Focused_Anger_6)
 end
 
--- Original JASS function: InitTrig_Focused_Anger_Trigger_Copy_5 (line 8674)
 function InitTrig_Focused_Anger_Trigger_Copy_5()
     gg_trg_Focused_Anger_Trigger_Copy_5 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Focused_Anger_Trigger_Copy_5, Player(5), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Focused_Anger_Trigger_Copy_5, Condition(Trig_Focused_Anger_Trigger_Copy_5_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_Trigger_Copy_5, Trig_Focused_Anger_Trigger_Copy_5_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_5, 5, Trig_Focused_Anger_Trigger_Copy_5_Conditions, Trig_Focused_Anger_Trigger_Copy_5_Actions)
 end
 -- END FOREST SECTION 82
 
 -- BEGIN FOREST SECTION 83 Focused_Anger_Trigger_Copy_6
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_6_Conditions (line 8684)
 function Trig_Focused_Anger_Trigger_Copy_6_Conditions()
-    if ((not ((GetResearched() == FourCC("R04T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R04T")
 end
 
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_6_Actions (line 8691)
 function Trig_Focused_Anger_Trigger_Copy_6_Actions()
     EnableTrigger(gg_trg_Focused_Anger_7)
 end
 
--- Original JASS function: InitTrig_Focused_Anger_Trigger_Copy_6 (line 8696)
 function InitTrig_Focused_Anger_Trigger_Copy_6()
     gg_trg_Focused_Anger_Trigger_Copy_6 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Focused_Anger_Trigger_Copy_6, Player(7), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Focused_Anger_Trigger_Copy_6, Condition(Trig_Focused_Anger_Trigger_Copy_6_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_Trigger_Copy_6, Trig_Focused_Anger_Trigger_Copy_6_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_6, 7, Trig_Focused_Anger_Trigger_Copy_6_Conditions, Trig_Focused_Anger_Trigger_Copy_6_Actions)
 end
 -- END FOREST SECTION 83
 
 -- BEGIN FOREST SECTION 84 Focused_Anger_Trigger_Copy_7
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_7_Conditions (line 8706)
 function Trig_Focused_Anger_Trigger_Copy_7_Conditions()
-    if ((not ((GetResearched() == FourCC("R04T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R04T")
 end
 
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_7_Actions (line 8713)
 function Trig_Focused_Anger_Trigger_Copy_7_Actions()
     EnableTrigger(gg_trg_Focused_Anger_8)
 end
 
--- Original JASS function: InitTrig_Focused_Anger_Trigger_Copy_7 (line 8718)
 function InitTrig_Focused_Anger_Trigger_Copy_7()
     gg_trg_Focused_Anger_Trigger_Copy_7 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Focused_Anger_Trigger_Copy_7, Player(8), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Focused_Anger_Trigger_Copy_7, Condition(Trig_Focused_Anger_Trigger_Copy_7_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_Trigger_Copy_7, Trig_Focused_Anger_Trigger_Copy_7_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_7, 8, Trig_Focused_Anger_Trigger_Copy_7_Conditions, Trig_Focused_Anger_Trigger_Copy_7_Actions)
 end
 -- END FOREST SECTION 84
 
 -- BEGIN FOREST SECTION 85 Focused_Anger_Trigger_Copy_8
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_8_Conditions (line 8728)
 function Trig_Focused_Anger_Trigger_Copy_8_Conditions()
-    if ((not ((GetResearched() == FourCC("R04T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R04T")
 end
 
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_8_Actions (line 8735)
 function Trig_Focused_Anger_Trigger_Copy_8_Actions()
     EnableTrigger(gg_trg_Focused_Anger_9)
 end
 
--- Original JASS function: InitTrig_Focused_Anger_Trigger_Copy_8 (line 8740)
 function InitTrig_Focused_Anger_Trigger_Copy_8()
     gg_trg_Focused_Anger_Trigger_Copy_8 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Focused_Anger_Trigger_Copy_8, Player(9), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Focused_Anger_Trigger_Copy_8, Condition(Trig_Focused_Anger_Trigger_Copy_8_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_Trigger_Copy_8, Trig_Focused_Anger_Trigger_Copy_8_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_8, 9, Trig_Focused_Anger_Trigger_Copy_8_Conditions, Trig_Focused_Anger_Trigger_Copy_8_Actions)
 end
 -- END FOREST SECTION 85
 
 -- BEGIN FOREST SECTION 86 Focused_Anger_Trigger_Copy_9
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_9_Conditions (line 8750)
 function Trig_Focused_Anger_Trigger_Copy_9_Conditions()
-    if ((not ((GetResearched() == FourCC("R04T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R04T")
 end
 
--- Original JASS function: Trig_Focused_Anger_Trigger_Copy_9_Actions (line 8757)
 function Trig_Focused_Anger_Trigger_Copy_9_Actions()
     EnableTrigger(gg_trg_Focused_Anger_10)
 end
 
--- Original JASS function: InitTrig_Focused_Anger_Trigger_Copy_9 (line 8762)
 function InitTrig_Focused_Anger_Trigger_Copy_9()
     gg_trg_Focused_Anger_Trigger_Copy_9 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Focused_Anger_Trigger_Copy_9, Player(10), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Focused_Anger_Trigger_Copy_9, Condition(Trig_Focused_Anger_Trigger_Copy_9_Conditions))
-    TriggerAddAction(gg_trg_Focused_Anger_Trigger_Copy_9, Trig_Focused_Anger_Trigger_Copy_9_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_9, 10, Trig_Focused_Anger_Trigger_Copy_9_Conditions, Trig_Focused_Anger_Trigger_Copy_9_Actions)
 end
 -- END FOREST SECTION 86
 -- END FOREST MODULE src/races/forgotten/executioner.lua
@@ -11568,20 +9975,14 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 87 Feast_of_Souls
--- Original JASS function: Trig_Feast_of_Souls_Conditions (line 8772)
 function Trig_Feast_of_Souls_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A05Z"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A05Z")
 end
 
--- Original JASS function: Trig_Feast_of_Souls_Actions (line 8779)
 function Trig_Feast_of_Souls_Actions()
     SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) + __jreal(700.00))))
 end
 
--- Original JASS function: InitTrig_Feast_of_Souls (line 8784)
 function InitTrig_Feast_of_Souls()
     gg_trg_Feast_of_Souls = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Feast_of_Souls, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -11591,20 +9992,14 @@ end
 -- END FOREST SECTION 87
 
 -- BEGIN FOREST SECTION 88 Soul_Strike
--- Original JASS function: Trig_Soul_Strike_Conditions (line 8794)
 function Trig_Soul_Strike_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A05O"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A05O")
 end
 
--- Original JASS function: Trig_Soul_Strike_Actions (line 8801)
 function Trig_Soul_Strike_Actions()
     SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) + __jreal(200.00))))
 end
 
--- Original JASS function: InitTrig_Soul_Strike (line 8806)
 function InitTrig_Soul_Strike()
     gg_trg_Soul_Strike = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Soul_Strike, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -11614,15 +10009,10 @@ end
 -- END FOREST SECTION 88
 
 -- BEGIN FOREST SECTION 89 Avatar
--- Original JASS function: Trig_Avatar_Conditions (line 8816)
 function Trig_Avatar_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A078"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A078")
 end
 
--- Original JASS function: Trig_Avatar_Actions (line 8823)
 function Trig_Avatar_Actions()
     CreateNUnitsAtLoc(1, FourCC("h04L"), GetOwningPlayer(GetTriggerUnit()), GetUnitLoc(GetTriggerUnit()), bj_UNIT_FACING)
     IssueTargetOrderBJ(GetLastCreatedUnit(), "bloodlust", GetSpellAbilityUnit())
@@ -11632,7 +10022,6 @@ function Trig_Avatar_Actions()
     SetUnitAbilityLevelSwapped(FourCC("A067"), GetTriggerUnit(), 1)
 end
 
--- Original JASS function: InitTrig_Avatar (line 8833)
 function InitTrig_Avatar()
     gg_trg_Avatar = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Avatar, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -11647,32 +10036,55 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 90 Acidic_Blood
--- Original JASS function: Trig_Acidic_Blood_Conditions (line 8843)
-function Trig_Acidic_Blood_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A05L"))))) then
-        do return false end
-    end
-    do return true end
+-- Shared bodies retain the original per-slot trigger wrappers below. Slot 6
+-- remains absent from the research families, as in the preserved r7 behavior.
+local function BloodmageUpgradeUnits(slot, abilityId)
+    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(slot), FourCC("u009")), function()
+        IncUnitAbilityLevelSwapped(FourCC(abilityId), GetEnumUnit())
+    end)
 end
 
--- Original JASS function: Trig_Acidic_Blood_Func001C (line 8850)
-function Trig_Acidic_Blood_Func001C()
-    if ((not ((GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) <= __jreal(150.00))))) then
-        do return false end
-    end
-    do return true end
+local function BloodmageResearchEvent(trigger, slot, condition, action)
+    TriggerRegisterPlayerUnitEventSimple(trigger, Player(slot), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
+    TriggerAddCondition(trigger, Condition(condition))
+    TriggerAddAction(trigger, action)
 end
 
--- Original JASS function: Trig_Acidic_Blood_Actions (line 8857)
-function Trig_Acidic_Blood_Actions()
-    if (Trig_Acidic_Blood_Func001C()) then
+local bloodLifeCosts = {
+    Acidic_Blood = 150.00, Binding_Shadows = 200.00, Cobalt_Blood = 200.00,
+    Glowing_Blood = 50.00, Psychic_Slam = 300.00, Soul_Rend = 350.00, Dark_Blood = 400.00,
+}
+
+local function BloodmagePayLifeCost(spell)
+    local cost = __jreal(bloodLifeCosts[spell])
+    if GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) <= cost then
         IssueImmediateOrderBJ(GetSpellAbilityUnit(), "stop")
-    else
-        SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) - __jreal(150.00))))
+        return false
     end
+    SetUnitLifeBJ(GetSpellAbilityUnit(), __jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) - cost))
+    return true
 end
 
--- Original JASS function: InitTrig_Acidic_Blood (line 8866)
+-- The expiry branch historically leaves TicksRemaining untouched. Preserve
+-- that distinction and the shared scratch globals until a separate state rewrite.
+local function DrainRemoveInstance(caster, key, clearRemaining)
+    udg_ncld_Tick[key] = 0
+    if clearRemaining then udg_ncld_TicksRemaining[key] = 0 end
+    GroupRemoveUnitSimple(caster, udg_ncld_Group)
+    udg_ncld_Target[key] = nil
+    DestroyLightningBJ(udg_ncld_Lightning[key])
+    DestroyEffectBJ(udg_ncld_CasterSFX[key])
+    DestroyEffectBJ(udg_ncld_TargetSFX[key])
+end
+
+function Trig_Acidic_Blood_Conditions()
+    return GetSpellAbilityId() == FourCC("A05L")
+end
+
+function Trig_Acidic_Blood_Actions()
+    BloodmagePayLifeCost("Acidic_Blood")
+end
+
 function InitTrig_Acidic_Blood()
     gg_trg_Acidic_Blood = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Acidic_Blood, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -11682,32 +10094,14 @@ end
 -- END FOREST SECTION 90
 
 -- BEGIN FOREST SECTION 91 Binding_Shadows
--- Original JASS function: Trig_Binding_Shadows_Conditions (line 8876)
 function Trig_Binding_Shadows_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A05M"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A05M")
 end
 
--- Original JASS function: Trig_Binding_Shadows_Func001C (line 8883)
-function Trig_Binding_Shadows_Func001C()
-    if ((not ((GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) <= __jreal(200.00))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Binding_Shadows_Actions (line 8890)
 function Trig_Binding_Shadows_Actions()
-    if (Trig_Binding_Shadows_Func001C()) then
-        IssueImmediateOrderBJ(GetSpellAbilityUnit(), "stop")
-    else
-        SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) - __jreal(200.00))))
-    end
+    BloodmagePayLifeCost("Binding_Shadows")
 end
 
--- Original JASS function: InitTrig_Binding_Shadows (line 8899)
 function InitTrig_Binding_Shadows()
     gg_trg_Binding_Shadows = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Binding_Shadows, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -11717,32 +10111,14 @@ end
 -- END FOREST SECTION 91
 
 -- BEGIN FOREST SECTION 92 Cobalt_Blood
--- Original JASS function: Trig_Cobalt_Blood_Conditions (line 8909)
 function Trig_Cobalt_Blood_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A068"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A068")
 end
 
--- Original JASS function: Trig_Cobalt_Blood_Func001C (line 8916)
-function Trig_Cobalt_Blood_Func001C()
-    if ((not ((GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) <= __jreal(200.00))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Cobalt_Blood_Actions (line 8923)
 function Trig_Cobalt_Blood_Actions()
-    if (Trig_Cobalt_Blood_Func001C()) then
-        IssueImmediateOrderBJ(GetSpellAbilityUnit(), "stop")
-    else
-        SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) - __jreal(200.00))))
-    end
+    BloodmagePayLifeCost("Cobalt_Blood")
 end
 
--- Original JASS function: InitTrig_Cobalt_Blood (line 8932)
 function InitTrig_Cobalt_Blood()
     gg_trg_Cobalt_Blood = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Cobalt_Blood, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -11752,32 +10128,14 @@ end
 -- END FOREST SECTION 92
 
 -- BEGIN FOREST SECTION 93 Glowing_Blood
--- Original JASS function: Trig_Glowing_Blood_Conditions (line 8942)
 function Trig_Glowing_Blood_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A064"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A064")
 end
 
--- Original JASS function: Trig_Glowing_Blood_Func001C (line 8949)
-function Trig_Glowing_Blood_Func001C()
-    if ((not ((GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) <= __jreal(50.00))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Glowing_Blood_Actions (line 8956)
 function Trig_Glowing_Blood_Actions()
-    if (Trig_Glowing_Blood_Func001C()) then
-        IssueImmediateOrderBJ(GetSpellAbilityUnit(), "stop")
-    else
-        SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) - __jreal(50.00))))
-    end
+    BloodmagePayLifeCost("Glowing_Blood")
 end
 
--- Original JASS function: InitTrig_Glowing_Blood (line 8965)
 function InitTrig_Glowing_Blood()
     gg_trg_Glowing_Blood = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Glowing_Blood, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -11787,32 +10145,14 @@ end
 -- END FOREST SECTION 93
 
 -- BEGIN FOREST SECTION 94 Psychic_Slam
--- Original JASS function: Trig_Psychic_Slam_Conditions (line 8975)
 function Trig_Psychic_Slam_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A063"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A063")
 end
 
--- Original JASS function: Trig_Psychic_Slam_Func001C (line 8982)
-function Trig_Psychic_Slam_Func001C()
-    if ((not ((GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) <= __jreal(300.00))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Psychic_Slam_Actions (line 8989)
 function Trig_Psychic_Slam_Actions()
-    if (Trig_Psychic_Slam_Func001C()) then
-        IssueImmediateOrderBJ(GetSpellAbilityUnit(), "stop")
-    else
-        SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) - __jreal(300.00))))
-    end
+    BloodmagePayLifeCost("Psychic_Slam")
 end
 
--- Original JASS function: InitTrig_Psychic_Slam (line 8998)
 function InitTrig_Psychic_Slam()
     gg_trg_Psychic_Slam = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Psychic_Slam, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -11822,33 +10162,16 @@ end
 -- END FOREST SECTION 94
 
 -- BEGIN FOREST SECTION 95 Soul_Rend
--- Original JASS function: Trig_Soul_Rend_Conditions (line 9008)
 function Trig_Soul_Rend_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A069"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A069")
 end
 
--- Original JASS function: Trig_Soul_Rend_Func001C (line 9015)
-function Trig_Soul_Rend_Func001C()
-    if ((not ((GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) <= __jreal(350.00))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Soul_Rend_Actions (line 9022)
 function Trig_Soul_Rend_Actions()
-    if (Trig_Soul_Rend_Func001C()) then
-        IssueImmediateOrderBJ(GetSpellAbilityUnit(), "stop")
-    else
-        SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) - __jreal(350.00))))
+    if BloodmagePayLifeCost("Soul_Rend") then
         SetUnitLifeBJ(GetSpellTargetUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetSpellTargetUnit()) - __jreal(500.00))))
     end
 end
 
--- Original JASS function: InitTrig_Soul_Rend (line 9032)
 function InitTrig_Soul_Rend()
     gg_trg_Soul_Rend = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Soul_Rend, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -11858,32 +10181,14 @@ end
 -- END FOREST SECTION 95
 
 -- BEGIN FOREST SECTION 96 Dark_Blood
--- Original JASS function: Trig_Dark_Blood_Conditions (line 9042)
 function Trig_Dark_Blood_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A062"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A062")
 end
 
--- Original JASS function: Trig_Dark_Blood_Func001C (line 9049)
-function Trig_Dark_Blood_Func001C()
-    if ((not ((GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) <= __jreal(400.00))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Dark_Blood_Actions (line 9056)
 function Trig_Dark_Blood_Actions()
-    if (Trig_Dark_Blood_Func001C()) then
-        IssueImmediateOrderBJ(GetSpellAbilityUnit(), "stop")
-    else
-        SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) - __jreal(400.00))))
-    end
+    BloodmagePayLifeCost("Dark_Blood")
 end
 
--- Original JASS function: InitTrig_Dark_Blood (line 9065)
 function InitTrig_Dark_Blood()
     gg_trg_Dark_Blood = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Dark_Blood, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -11893,22 +10198,16 @@ end
 -- END FOREST SECTION 96
 
 -- BEGIN FOREST SECTION 97 Shadowlings
--- Original JASS function: Trig_Shadowlings_Conditions (line 9075)
 function Trig_Shadowlings_Conditions()
-    if ((not ((GetUnitTypeId(GetSummonedUnit()) == FourCC("o01T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetSummonedUnit()) == FourCC("o01T")
 end
 
--- Original JASS function: Trig_Shadowlings_Actions (line 9082)
 function Trig_Shadowlings_Actions()
     local summoned = GetSummonedUnit()
     TriggerSleepAction(__jreal(20.00))
     if summoned and GetUnitTypeId(summoned) ~= 0 then KillUnit(summoned) end
 end
 
--- Original JASS function: InitTrig_Shadowlings (line 9088)
 function InitTrig_Shadowlings()
     gg_trg_Shadowlings = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Shadowlings, EVENT_PLAYER_UNIT_SUMMON)
@@ -11918,287 +10217,156 @@ end
 -- END FOREST SECTION 97
 
 -- BEGIN FOREST SECTION 98 Levelled_Drain
--- Original JASS function: Trig_Levelled_Drain_Conditions (line 9098)
 function Trig_Levelled_Drain_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Drain_Func001002 (line 9105)
-function Trig_Levelled_Drain_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A065"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Drain_Actions (line 9109)
 function Trig_Levelled_Drain_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(0), FourCC("u009")), Trig_Levelled_Drain_Func001002)
+    BloodmageUpgradeUnits(0, "A065")
 end
 
--- Original JASS function: InitTrig_Levelled_Drain (line 9114)
 function InitTrig_Levelled_Drain()
     gg_trg_Levelled_Drain = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Drain, Player(0), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Drain, Condition(Trig_Levelled_Drain_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Drain, Trig_Levelled_Drain_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain, 0, Trig_Levelled_Drain_Conditions, Trig_Levelled_Drain_Actions)
 end
 -- END FOREST SECTION 98
 
 -- BEGIN FOREST SECTION 99 Levelled_Drain_Copy
--- Original JASS function: Trig_Levelled_Drain_Copy_Conditions (line 9124)
 function Trig_Levelled_Drain_Copy_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Drain_Copy_Func001002 (line 9131)
-function Trig_Levelled_Drain_Copy_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A065"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Drain_Copy_Actions (line 9135)
 function Trig_Levelled_Drain_Copy_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(1), FourCC("u009")), Trig_Levelled_Drain_Copy_Func001002)
+    BloodmageUpgradeUnits(1, "A065")
 end
 
--- Original JASS function: InitTrig_Levelled_Drain_Copy (line 9140)
 function InitTrig_Levelled_Drain_Copy()
     gg_trg_Levelled_Drain_Copy = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Drain_Copy, Player(1), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Drain_Copy, Condition(Trig_Levelled_Drain_Copy_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Drain_Copy, Trig_Levelled_Drain_Copy_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy, 1, Trig_Levelled_Drain_Copy_Conditions, Trig_Levelled_Drain_Copy_Actions)
 end
 -- END FOREST SECTION 99
 
 -- BEGIN FOREST SECTION 100 Levelled_Drain_Copy_2
--- Original JASS function: Trig_Levelled_Drain_Copy_2_Conditions (line 9150)
 function Trig_Levelled_Drain_Copy_2_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Drain_Copy_2_Func001002 (line 9157)
-function Trig_Levelled_Drain_Copy_2_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A065"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Drain_Copy_2_Actions (line 9161)
 function Trig_Levelled_Drain_Copy_2_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(2), FourCC("u009")), Trig_Levelled_Drain_Copy_2_Func001002)
+    BloodmageUpgradeUnits(2, "A065")
 end
 
--- Original JASS function: InitTrig_Levelled_Drain_Copy_2 (line 9166)
 function InitTrig_Levelled_Drain_Copy_2()
     gg_trg_Levelled_Drain_Copy_2 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Drain_Copy_2, Player(2), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Drain_Copy_2, Condition(Trig_Levelled_Drain_Copy_2_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Drain_Copy_2, Trig_Levelled_Drain_Copy_2_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_2, 2, Trig_Levelled_Drain_Copy_2_Conditions, Trig_Levelled_Drain_Copy_2_Actions)
 end
 -- END FOREST SECTION 100
 
 -- BEGIN FOREST SECTION 101 Levelled_Drain_Copy_3
--- Original JASS function: Trig_Levelled_Drain_Copy_3_Conditions (line 9176)
 function Trig_Levelled_Drain_Copy_3_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Drain_Copy_3_Func001002 (line 9183)
-function Trig_Levelled_Drain_Copy_3_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A065"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Drain_Copy_3_Actions (line 9187)
 function Trig_Levelled_Drain_Copy_3_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(3), FourCC("u009")), Trig_Levelled_Drain_Copy_3_Func001002)
+    BloodmageUpgradeUnits(3, "A065")
 end
 
--- Original JASS function: InitTrig_Levelled_Drain_Copy_3 (line 9192)
 function InitTrig_Levelled_Drain_Copy_3()
     gg_trg_Levelled_Drain_Copy_3 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Drain_Copy_3, Player(3), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Drain_Copy_3, Condition(Trig_Levelled_Drain_Copy_3_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Drain_Copy_3, Trig_Levelled_Drain_Copy_3_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_3, 3, Trig_Levelled_Drain_Copy_3_Conditions, Trig_Levelled_Drain_Copy_3_Actions)
 end
 -- END FOREST SECTION 101
 
 -- BEGIN FOREST SECTION 102 Levelled_Drain_Copy_4
--- Original JASS function: Trig_Levelled_Drain_Copy_4_Conditions (line 9202)
 function Trig_Levelled_Drain_Copy_4_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Drain_Copy_4_Func001002 (line 9209)
-function Trig_Levelled_Drain_Copy_4_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A065"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Drain_Copy_4_Actions (line 9213)
 function Trig_Levelled_Drain_Copy_4_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(4), FourCC("u009")), Trig_Levelled_Drain_Copy_4_Func001002)
+    BloodmageUpgradeUnits(4, "A065")
 end
 
--- Original JASS function: InitTrig_Levelled_Drain_Copy_4 (line 9218)
 function InitTrig_Levelled_Drain_Copy_4()
     gg_trg_Levelled_Drain_Copy_4 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Drain_Copy_4, Player(4), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Drain_Copy_4, Condition(Trig_Levelled_Drain_Copy_4_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Drain_Copy_4, Trig_Levelled_Drain_Copy_4_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_4, 4, Trig_Levelled_Drain_Copy_4_Conditions, Trig_Levelled_Drain_Copy_4_Actions)
 end
 -- END FOREST SECTION 102
 
 -- BEGIN FOREST SECTION 103 Levelled_Drain_Copy_5
--- Original JASS function: Trig_Levelled_Drain_Copy_5_Conditions (line 9228)
 function Trig_Levelled_Drain_Copy_5_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Drain_Copy_5_Func001002 (line 9235)
-function Trig_Levelled_Drain_Copy_5_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A065"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Drain_Copy_5_Actions (line 9239)
 function Trig_Levelled_Drain_Copy_5_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(5), FourCC("u009")), Trig_Levelled_Drain_Copy_5_Func001002)
+    BloodmageUpgradeUnits(5, "A065")
 end
 
--- Original JASS function: InitTrig_Levelled_Drain_Copy_5 (line 9244)
 function InitTrig_Levelled_Drain_Copy_5()
     gg_trg_Levelled_Drain_Copy_5 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Drain_Copy_5, Player(5), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Drain_Copy_5, Condition(Trig_Levelled_Drain_Copy_5_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Drain_Copy_5, Trig_Levelled_Drain_Copy_5_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_5, 5, Trig_Levelled_Drain_Copy_5_Conditions, Trig_Levelled_Drain_Copy_5_Actions)
 end
 -- END FOREST SECTION 103
 
 -- BEGIN FOREST SECTION 104 Levelled_Drain_Copy_6
--- Original JASS function: Trig_Levelled_Drain_Copy_6_Conditions (line 9254)
 function Trig_Levelled_Drain_Copy_6_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Drain_Copy_6_Func001002 (line 9261)
-function Trig_Levelled_Drain_Copy_6_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A065"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Drain_Copy_6_Actions (line 9265)
 function Trig_Levelled_Drain_Copy_6_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(7), FourCC("u009")), Trig_Levelled_Drain_Copy_6_Func001002)
+    BloodmageUpgradeUnits(7, "A065")
 end
 
--- Original JASS function: InitTrig_Levelled_Drain_Copy_6 (line 9270)
 function InitTrig_Levelled_Drain_Copy_6()
     gg_trg_Levelled_Drain_Copy_6 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Drain_Copy_6, Player(7), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Drain_Copy_6, Condition(Trig_Levelled_Drain_Copy_6_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Drain_Copy_6, Trig_Levelled_Drain_Copy_6_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_6, 7, Trig_Levelled_Drain_Copy_6_Conditions, Trig_Levelled_Drain_Copy_6_Actions)
 end
 -- END FOREST SECTION 104
 
 -- BEGIN FOREST SECTION 105 Levelled_Drain_Copy_7
--- Original JASS function: Trig_Levelled_Drain_Copy_7_Conditions (line 9280)
 function Trig_Levelled_Drain_Copy_7_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Drain_Copy_7_Func001002 (line 9287)
-function Trig_Levelled_Drain_Copy_7_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A065"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Drain_Copy_7_Actions (line 9291)
 function Trig_Levelled_Drain_Copy_7_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(8), FourCC("u009")), Trig_Levelled_Drain_Copy_7_Func001002)
+    BloodmageUpgradeUnits(8, "A065")
 end
 
--- Original JASS function: InitTrig_Levelled_Drain_Copy_7 (line 9296)
 function InitTrig_Levelled_Drain_Copy_7()
     gg_trg_Levelled_Drain_Copy_7 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Drain_Copy_7, Player(8), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Drain_Copy_7, Condition(Trig_Levelled_Drain_Copy_7_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Drain_Copy_7, Trig_Levelled_Drain_Copy_7_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_7, 8, Trig_Levelled_Drain_Copy_7_Conditions, Trig_Levelled_Drain_Copy_7_Actions)
 end
 -- END FOREST SECTION 105
 
 -- BEGIN FOREST SECTION 106 Levelled_Drain_Copy_8
--- Original JASS function: Trig_Levelled_Drain_Copy_8_Conditions (line 9306)
 function Trig_Levelled_Drain_Copy_8_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Drain_Copy_8_Func001002 (line 9313)
-function Trig_Levelled_Drain_Copy_8_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A065"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Drain_Copy_8_Actions (line 9317)
 function Trig_Levelled_Drain_Copy_8_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(9), FourCC("u009")), Trig_Levelled_Drain_Copy_8_Func001002)
+    BloodmageUpgradeUnits(9, "A065")
 end
 
--- Original JASS function: InitTrig_Levelled_Drain_Copy_8 (line 9322)
 function InitTrig_Levelled_Drain_Copy_8()
     gg_trg_Levelled_Drain_Copy_8 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Drain_Copy_8, Player(9), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Drain_Copy_8, Condition(Trig_Levelled_Drain_Copy_8_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Drain_Copy_8, Trig_Levelled_Drain_Copy_8_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_8, 9, Trig_Levelled_Drain_Copy_8_Conditions, Trig_Levelled_Drain_Copy_8_Actions)
 end
 -- END FOREST SECTION 106
 
 -- BEGIN FOREST SECTION 107 Levelled_Drain_Copy_9
--- Original JASS function: Trig_Levelled_Drain_Copy_9_Conditions (line 9332)
 function Trig_Levelled_Drain_Copy_9_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Drain_Copy_9_Func001002 (line 9339)
-function Trig_Levelled_Drain_Copy_9_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A065"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Drain_Copy_9_Actions (line 9343)
 function Trig_Levelled_Drain_Copy_9_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(10), FourCC("u009")), Trig_Levelled_Drain_Copy_9_Func001002)
+    BloodmageUpgradeUnits(10, "A065")
 end
 
--- Original JASS function: InitTrig_Levelled_Drain_Copy_9 (line 9348)
 function InitTrig_Levelled_Drain_Copy_9()
     gg_trg_Levelled_Drain_Copy_9 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Drain_Copy_9, Player(10), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Drain_Copy_9, Condition(Trig_Levelled_Drain_Copy_9_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Drain_Copy_9, Trig_Levelled_Drain_Copy_9_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_9, 10, Trig_Levelled_Drain_Copy_9_Conditions, Trig_Levelled_Drain_Copy_9_Actions)
 end
 -- END FOREST SECTION 107
 
 -- BEGIN FOREST SECTION 108 Drain_Setup
--- Original JASS function: Trig_Drain_Setup_Actions (line 9369)
 function Trig_Drain_Setup_Actions()
     udg_ncld_Ability = FourCC("A065")
     udg_ncld_DrainHP = __jreal(20.00)
@@ -12227,7 +10395,6 @@ function Trig_Drain_Setup_Actions()
     udg_ncld_DrainMPUp = (__jreal(udg_ncld_DrainMPUp * udg_tempReal))
 end
 
--- Original JASS function: InitTrig_Drain_Setup (line 9403)
 function InitTrig_Drain_Setup()
     gg_trg_Drain_Setup = CreateTrigger()
     TriggerAddAction(gg_trg_Drain_Setup, Trig_Drain_Setup_Actions)
@@ -12235,23 +10402,14 @@ end
 -- END FOREST SECTION 108
 
 -- BEGIN FOREST SECTION 109 Drain_Cast
--- Original JASS function: Trig_Drain_Cast_Conditions (line 9411)
 function Trig_Drain_Cast_Conditions()
-    if ((not ((GetSpellAbilityId() == udg_ncld_Ability)))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == udg_ncld_Ability
 end
 
--- Original JASS function: Trig_Drain_Cast_Func031C (line 9418)
 function Trig_Drain_Cast_Func031C()
-    if ((not ((IsTriggerEnabled(gg_trg_Drain_Loop) == false)))) then
-        do return false end
-    end
-    do return true end
+    return IsTriggerEnabled(gg_trg_Drain_Loop) == false
 end
 
--- Original JASS function: Trig_Drain_Cast_Actions (line 9425)
 function Trig_Drain_Cast_Actions()
     udg_tempUnit = GetTriggerUnit()
     udg_Key = GetUnitUserData(udg_tempUnit)
@@ -12279,11 +10437,9 @@ function Trig_Drain_Cast_Actions()
     udg_ncld_TargetSFX[udg_Key] = GetLastCreatedEffectBJ()
     if (Trig_Drain_Cast_Func031C()) then
         EnableTrigger(gg_trg_Drain_Loop)
-    else
     end
 end
 
--- Original JASS function: InitTrig_Drain_Cast (line 9463)
 function InitTrig_Drain_Cast()
     gg_trg_Drain_Cast = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Drain_Cast, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -12293,133 +10449,75 @@ end
 -- END FOREST SECTION 109
 
 -- BEGIN FOREST SECTION 110 Drain_Loop
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func023Func001Func002C (line 9473)
 function Trig_Drain_Loop_Func001Func005Func023Func001Func002C()
-    if ((not ((IsUnitType(udg_ncld_Target[udg_Key], UNIT_TYPE_ETHEREAL) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitType(udg_ncld_Target[udg_Key], UNIT_TYPE_ETHEREAL) == true
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func023Func001C (line 9480)
 function Trig_Drain_Loop_Func001Func005Func023Func001C()
-    if ((not ((IsUnitType(udg_ncld_Target[udg_Key], UNIT_TYPE_MAGIC_IMMUNE) == false)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitType(udg_ncld_Target[udg_Key], UNIT_TYPE_MAGIC_IMMUNE) == false
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func023C (line 9487)
 function Trig_Drain_Loop_Func001Func005Func023C()
-    if ((not ((ModuloInteger(udg_ncld_Tick[udg_Key], udg_ncld_FreqDrain) == 0)))) then
-        do return false end
-    end
-    do return true end
+    return ModuloInteger(udg_ncld_Tick[udg_Key], udg_ncld_FreqDrain) == 0
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025Func002Func001C (line 9494)
 function Trig_Drain_Loop_Func001Func005Func025Func002Func001C()
-    if ((not ((UnitHasBuffBJ(udg_ncld_Target[udg_Key], udg_ncld_BuffList[udg_LoopBuffs]) == true)))) then
-        do return false end
-    end
-    do return true end
+    return UnitHasBuffBJ(udg_ncld_Target[udg_Key], udg_ncld_BuffList[udg_LoopBuffs]) == true
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025Func003Func002C (line 9501)
 function Trig_Drain_Loop_Func001Func005Func025Func003Func002C()
-    if ((not ((IsUnitType(udg_ncld_Target[udg_Key], UNIT_TYPE_MAGIC_IMMUNE) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitType(udg_ncld_Target[udg_Key], UNIT_TYPE_MAGIC_IMMUNE) == true
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025Func003C (line 9508)
 function Trig_Drain_Loop_Func001Func005Func025Func003C()
-    if ((not ((udg_ncld_CheckImmune == true)))) then
-        do return false end
-    end
-    do return true end
+    return udg_ncld_CheckImmune == true
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025Func004Func002C (line 9515)
 function Trig_Drain_Loop_Func001Func005Func025Func004Func002C()
-    if ((not ((IsUnitType(udg_ncld_Target[udg_Key], UNIT_TYPE_RESISTANT) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitType(udg_ncld_Target[udg_Key], UNIT_TYPE_RESISTANT) == true
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025Func004C (line 9522)
 function Trig_Drain_Loop_Func001Func005Func025Func004C()
-    if ((not ((udg_ncld_CheckResistant == true)))) then
-        do return false end
-    end
-    do return true end
+    return udg_ncld_CheckResistant == true
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025Func005Func002C (line 9529)
 function Trig_Drain_Loop_Func001Func005Func025Func005Func002C()
-    if ((not ((IsUnitVisible(udg_ncld_Target[udg_Key], GetOwningPlayer(udg_tempUnit)) == false)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitVisible(udg_ncld_Target[udg_Key], GetOwningPlayer(udg_tempUnit)) == false
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025Func005C (line 9536)
 function Trig_Drain_Loop_Func001Func005Func025Func005C()
-    if ((not ((udg_ncld_CheckVisibile == true)))) then
-        do return false end
-    end
-    do return true end
+    return udg_ncld_CheckVisibile == true
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025Func006Func001C (line 9543)
 function Trig_Drain_Loop_Func001Func005Func025Func006Func001C()
-    if (((udg_CheckBool == false))) then
-        do return true end
+    if (udg_CheckBool == false) then
+        return true
     end
-    if (((IsUnitDeadBJ(udg_ncld_Target[udg_Key]) == true))) then
-        do return true end
+    if (IsUnitDeadBJ(udg_ncld_Target[udg_Key]) == true) then
+        return true
     end
-    if (((IsUnitHiddenBJ(udg_ncld_Target[udg_Key]) == true))) then
-        do return true end
+    if (IsUnitHiddenBJ(udg_ncld_Target[udg_Key]) == true) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025Func006C (line 9556)
 function Trig_Drain_Loop_Func001Func005Func025Func006C()
-    if ((not Trig_Drain_Loop_Func001Func005Func025Func006Func001C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Drain_Loop_Func001Func005Func025Func006Func001C())
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025Func008C (line 9563)
 function Trig_Drain_Loop_Func001Func005Func025Func008C()
-    if ((not ((udg_tempDistance > udg_ncld_Rng[udg_Key])))) then
-        do return false end
-    end
-    do return true end
+    return udg_tempDistance > udg_ncld_Rng[udg_Key]
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005Func025C (line 9570)
 function Trig_Drain_Loop_Func001Func005Func025C()
-    if ((not ((ModuloInteger(udg_ncld_Tick[udg_Key], udg_ncld_FreqDistance) == 0)))) then
-        do return false end
-    end
-    do return true end
+    return ModuloInteger(udg_ncld_Tick[udg_Key], udg_ncld_FreqDistance) == 0
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001Func005C (line 9577)
 function Trig_Drain_Loop_Func001Func005C()
-    if ((not ((udg_ncld_TicksRemaining[udg_Key] >= 0)))) then
-        do return false end
-    end
-    do return true end
+    return udg_ncld_TicksRemaining[udg_Key] >= 0
 end
 
--- Original JASS function: Trig_Drain_Loop_Func001A (line 9584)
 function Trig_Drain_Loop_Func001A()
     udg_tempUnit = GetEnumUnit()
     udg_Key = GetUnitUserData(udg_tempUnit)
@@ -12449,21 +10547,12 @@ function Trig_Drain_Loop_Func001A()
                     SetUnitLifeBJ(udg_tempUnit, (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, udg_tempUnit) + udg_ncld_Hp[udg_Key])))
                     SetUnitManaBJ(udg_tempUnit, (__jreal(GetUnitStateSwap(UNIT_STATE_MANA, udg_tempUnit) + udg_ncld_Mp[udg_Key])))
                 end
-            else
             end
-        else
         end
         if (Trig_Drain_Loop_Func001Func005Func025C()) then
             udg_tempDistance = DistanceBetweenPoints(udg_tempLoc1, udg_tempLoc2)
             if (Trig_Drain_Loop_Func001Func005Func025Func008C()) then
-                udg_ncld_Tick[udg_Key] = 0
-                udg_ncld_TicksRemaining[udg_Key] = 0
-                GroupRemoveUnitSimple(udg_tempUnit, udg_ncld_Group)
-                udg_ncld_Target[udg_Key] = nil
-                DestroyLightningBJ(udg_ncld_Lightning[udg_Key])
-                DestroyEffectBJ(udg_ncld_CasterSFX[udg_Key])
-                DestroyEffectBJ(udg_ncld_TargetSFX[udg_Key])
-            else
+                DrainRemoveInstance(udg_tempUnit, udg_Key, true)
             end
         else
             udg_CheckBool = true
@@ -12472,72 +10561,46 @@ function Trig_Drain_Loop_Func001A()
                 if (udg_LoopBuffs > udg_ncld_buffId) then break end
                 if (Trig_Drain_Loop_Func001Func005Func025Func002Func001C()) then
                     udg_CheckBool = false
-                else
                 end
                 udg_LoopBuffs = __jint(udg_LoopBuffs + 1)
             end
             if (Trig_Drain_Loop_Func001Func005Func025Func003C()) then
                 if (Trig_Drain_Loop_Func001Func005Func025Func003Func002C()) then
                     udg_CheckBool = false
-                else
                 end
-            else
             end
             if (Trig_Drain_Loop_Func001Func005Func025Func004C()) then
                 if (Trig_Drain_Loop_Func001Func005Func025Func004Func002C()) then
                     udg_CheckBool = false
-                else
                 end
-            else
             end
             if (Trig_Drain_Loop_Func001Func005Func025Func005C()) then
                 if (Trig_Drain_Loop_Func001Func005Func025Func005Func002C()) then
                     udg_CheckBool = false
-                else
                 end
-            else
             end
             if (Trig_Drain_Loop_Func001Func005Func025Func006C()) then
-                udg_ncld_Tick[udg_Key] = 0
-                udg_ncld_TicksRemaining[udg_Key] = 0
-                GroupRemoveUnitSimple(udg_tempUnit, udg_ncld_Group)
-                udg_ncld_Target[udg_Key] = nil
-                DestroyLightningBJ(udg_ncld_Lightning[udg_Key])
-                DestroyEffectBJ(udg_ncld_CasterSFX[udg_Key])
-                DestroyEffectBJ(udg_ncld_TargetSFX[udg_Key])
-            else
+                DrainRemoveInstance(udg_tempUnit, udg_Key, true)
             end
         end
         RemoveLocation(udg_tempLoc1)
-        RemoveLocation(udg_tempLoc1)
+        RemoveLocation(udg_tempLoc2)
     else
-        udg_ncld_Tick[udg_Key] = 0
-        GroupRemoveUnitSimple(udg_tempUnit, udg_ncld_Group)
-        udg_ncld_Target[udg_Key] = nil
-        DestroyLightningBJ(udg_ncld_Lightning[udg_Key])
-        DestroyEffectBJ(udg_ncld_CasterSFX[udg_Key])
-        DestroyEffectBJ(udg_ncld_TargetSFX[udg_Key])
+        DrainRemoveInstance(udg_tempUnit, udg_Key, false)
     end
 end
 
--- Original JASS function: Trig_Drain_Loop_Func002C (line 9694)
 function Trig_Drain_Loop_Func002C()
-    if ((not ((IsUnitGroupEmptyBJ(udg_ncld_Group) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitGroupEmptyBJ(udg_ncld_Group) == true
 end
 
--- Original JASS function: Trig_Drain_Loop_Actions (line 9701)
 function Trig_Drain_Loop_Actions()
     ForGroupBJ(udg_ncld_Group, Trig_Drain_Loop_Func001A)
     if (Trig_Drain_Loop_Func002C()) then
         DisableTrigger(GetTriggeringTrigger())
-    else
     end
 end
 
--- Original JASS function: InitTrig_Drain_Loop (line 9710)
 function InitTrig_Drain_Loop()
     gg_trg_Drain_Loop = CreateTrigger()
     DisableTrigger(gg_trg_Drain_Loop)
@@ -12547,282 +10610,152 @@ end
 -- END FOREST SECTION 110
 
 -- BEGIN FOREST SECTION 111 Levelled_Slam
--- Original JASS function: Trig_Levelled_Slam_Conditions (line 9720)
 function Trig_Levelled_Slam_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Slam_Func001002 (line 9727)
-function Trig_Levelled_Slam_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A063"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Slam_Actions (line 9731)
 function Trig_Levelled_Slam_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(0), FourCC("u009")), Trig_Levelled_Slam_Func001002)
+    BloodmageUpgradeUnits(0, "A063")
 end
 
--- Original JASS function: InitTrig_Levelled_Slam (line 9736)
 function InitTrig_Levelled_Slam()
     gg_trg_Levelled_Slam = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Slam, Player(0), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Slam, Condition(Trig_Levelled_Slam_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Slam, Trig_Levelled_Slam_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam, 0, Trig_Levelled_Slam_Conditions, Trig_Levelled_Slam_Actions)
 end
 -- END FOREST SECTION 111
 
 -- BEGIN FOREST SECTION 112 Levelled_Slam_Copy
--- Original JASS function: Trig_Levelled_Slam_Copy_Conditions (line 9746)
 function Trig_Levelled_Slam_Copy_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Slam_Copy_Func001002 (line 9753)
-function Trig_Levelled_Slam_Copy_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A063"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Slam_Copy_Actions (line 9757)
 function Trig_Levelled_Slam_Copy_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(1), FourCC("u009")), Trig_Levelled_Slam_Copy_Func001002)
+    BloodmageUpgradeUnits(1, "A063")
 end
 
--- Original JASS function: InitTrig_Levelled_Slam_Copy (line 9762)
 function InitTrig_Levelled_Slam_Copy()
     gg_trg_Levelled_Slam_Copy = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Slam_Copy, Player(1), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Slam_Copy, Condition(Trig_Levelled_Slam_Copy_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Slam_Copy, Trig_Levelled_Slam_Copy_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy, 1, Trig_Levelled_Slam_Copy_Conditions, Trig_Levelled_Slam_Copy_Actions)
 end
 -- END FOREST SECTION 112
 
 -- BEGIN FOREST SECTION 113 Levelled_Slam_Copy_2
--- Original JASS function: Trig_Levelled_Slam_Copy_2_Conditions (line 9772)
 function Trig_Levelled_Slam_Copy_2_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Slam_Copy_2_Func001002 (line 9779)
-function Trig_Levelled_Slam_Copy_2_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A063"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Slam_Copy_2_Actions (line 9783)
 function Trig_Levelled_Slam_Copy_2_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(2), FourCC("u009")), Trig_Levelled_Slam_Copy_2_Func001002)
+    BloodmageUpgradeUnits(2, "A063")
 end
 
--- Original JASS function: InitTrig_Levelled_Slam_Copy_2 (line 9788)
 function InitTrig_Levelled_Slam_Copy_2()
     gg_trg_Levelled_Slam_Copy_2 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Slam_Copy_2, Player(2), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Slam_Copy_2, Condition(Trig_Levelled_Slam_Copy_2_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Slam_Copy_2, Trig_Levelled_Slam_Copy_2_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_2, 2, Trig_Levelled_Slam_Copy_2_Conditions, Trig_Levelled_Slam_Copy_2_Actions)
 end
 -- END FOREST SECTION 113
 
 -- BEGIN FOREST SECTION 114 Levelled_Slam_Copy_3
--- Original JASS function: Trig_Levelled_Slam_Copy_3_Conditions (line 9798)
 function Trig_Levelled_Slam_Copy_3_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Slam_Copy_3_Func001002 (line 9805)
-function Trig_Levelled_Slam_Copy_3_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A063"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Slam_Copy_3_Actions (line 9809)
 function Trig_Levelled_Slam_Copy_3_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(3), FourCC("u009")), Trig_Levelled_Slam_Copy_3_Func001002)
+    BloodmageUpgradeUnits(3, "A063")
 end
 
--- Original JASS function: InitTrig_Levelled_Slam_Copy_3 (line 9814)
 function InitTrig_Levelled_Slam_Copy_3()
     gg_trg_Levelled_Slam_Copy_3 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Slam_Copy_3, Player(3), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Slam_Copy_3, Condition(Trig_Levelled_Slam_Copy_3_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Slam_Copy_3, Trig_Levelled_Slam_Copy_3_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_3, 3, Trig_Levelled_Slam_Copy_3_Conditions, Trig_Levelled_Slam_Copy_3_Actions)
 end
 -- END FOREST SECTION 114
 
 -- BEGIN FOREST SECTION 115 Levelled_Slam_Copy_4
--- Original JASS function: Trig_Levelled_Slam_Copy_4_Conditions (line 9824)
 function Trig_Levelled_Slam_Copy_4_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Slam_Copy_4_Func001002 (line 9831)
-function Trig_Levelled_Slam_Copy_4_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A063"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Slam_Copy_4_Actions (line 9835)
 function Trig_Levelled_Slam_Copy_4_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(4), FourCC("u009")), Trig_Levelled_Slam_Copy_4_Func001002)
+    BloodmageUpgradeUnits(4, "A063")
 end
 
--- Original JASS function: InitTrig_Levelled_Slam_Copy_4 (line 9840)
 function InitTrig_Levelled_Slam_Copy_4()
     gg_trg_Levelled_Slam_Copy_4 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Slam_Copy_4, Player(4), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Slam_Copy_4, Condition(Trig_Levelled_Slam_Copy_4_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Slam_Copy_4, Trig_Levelled_Slam_Copy_4_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_4, 4, Trig_Levelled_Slam_Copy_4_Conditions, Trig_Levelled_Slam_Copy_4_Actions)
 end
 -- END FOREST SECTION 115
 
 -- BEGIN FOREST SECTION 116 Levelled_Slam_Copy_5
--- Original JASS function: Trig_Levelled_Slam_Copy_5_Conditions (line 9850)
 function Trig_Levelled_Slam_Copy_5_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Slam_Copy_5_Func001002 (line 9857)
-function Trig_Levelled_Slam_Copy_5_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A063"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Slam_Copy_5_Actions (line 9861)
 function Trig_Levelled_Slam_Copy_5_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(5), FourCC("u009")), Trig_Levelled_Slam_Copy_5_Func001002)
+    BloodmageUpgradeUnits(5, "A063")
 end
 
--- Original JASS function: InitTrig_Levelled_Slam_Copy_5 (line 9866)
 function InitTrig_Levelled_Slam_Copy_5()
     gg_trg_Levelled_Slam_Copy_5 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Slam_Copy_5, Player(5), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Slam_Copy_5, Condition(Trig_Levelled_Slam_Copy_5_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Slam_Copy_5, Trig_Levelled_Slam_Copy_5_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_5, 5, Trig_Levelled_Slam_Copy_5_Conditions, Trig_Levelled_Slam_Copy_5_Actions)
 end
 -- END FOREST SECTION 116
 
 -- BEGIN FOREST SECTION 117 Levelled_Slam_Copy_6
--- Original JASS function: Trig_Levelled_Slam_Copy_6_Conditions (line 9876)
 function Trig_Levelled_Slam_Copy_6_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Slam_Copy_6_Func001002 (line 9883)
-function Trig_Levelled_Slam_Copy_6_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A063"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Slam_Copy_6_Actions (line 9887)
 function Trig_Levelled_Slam_Copy_6_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(7), FourCC("u009")), Trig_Levelled_Slam_Copy_6_Func001002)
+    BloodmageUpgradeUnits(7, "A063")
 end
 
--- Original JASS function: InitTrig_Levelled_Slam_Copy_6 (line 9892)
 function InitTrig_Levelled_Slam_Copy_6()
     gg_trg_Levelled_Slam_Copy_6 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Slam_Copy_6, Player(7), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Slam_Copy_6, Condition(Trig_Levelled_Slam_Copy_6_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Slam_Copy_6, Trig_Levelled_Slam_Copy_6_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_6, 7, Trig_Levelled_Slam_Copy_6_Conditions, Trig_Levelled_Slam_Copy_6_Actions)
 end
 -- END FOREST SECTION 117
 
 -- BEGIN FOREST SECTION 118 Levelled_Slam_Copy_7
--- Original JASS function: Trig_Levelled_Slam_Copy_7_Conditions (line 9902)
 function Trig_Levelled_Slam_Copy_7_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Slam_Copy_7_Func001002 (line 9909)
-function Trig_Levelled_Slam_Copy_7_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A063"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Slam_Copy_7_Actions (line 9913)
 function Trig_Levelled_Slam_Copy_7_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(8), FourCC("u009")), Trig_Levelled_Slam_Copy_7_Func001002)
+    BloodmageUpgradeUnits(8, "A063")
 end
 
--- Original JASS function: InitTrig_Levelled_Slam_Copy_7 (line 9918)
 function InitTrig_Levelled_Slam_Copy_7()
     gg_trg_Levelled_Slam_Copy_7 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Slam_Copy_7, Player(8), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Slam_Copy_7, Condition(Trig_Levelled_Slam_Copy_7_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Slam_Copy_7, Trig_Levelled_Slam_Copy_7_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_7, 8, Trig_Levelled_Slam_Copy_7_Conditions, Trig_Levelled_Slam_Copy_7_Actions)
 end
 -- END FOREST SECTION 118
 
 -- BEGIN FOREST SECTION 119 Levelled_Slam_Copy_8
--- Original JASS function: Trig_Levelled_Slam_Copy_8_Conditions (line 9928)
 function Trig_Levelled_Slam_Copy_8_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Slam_Copy_8_Func001002 (line 9935)
-function Trig_Levelled_Slam_Copy_8_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A063"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Slam_Copy_8_Actions (line 9939)
 function Trig_Levelled_Slam_Copy_8_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(9), FourCC("u009")), Trig_Levelled_Slam_Copy_8_Func001002)
+    BloodmageUpgradeUnits(9, "A063")
 end
 
--- Original JASS function: InitTrig_Levelled_Slam_Copy_8 (line 9944)
 function InitTrig_Levelled_Slam_Copy_8()
     gg_trg_Levelled_Slam_Copy_8 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Slam_Copy_8, Player(9), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Slam_Copy_8, Condition(Trig_Levelled_Slam_Copy_8_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Slam_Copy_8, Trig_Levelled_Slam_Copy_8_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_8, 9, Trig_Levelled_Slam_Copy_8_Conditions, Trig_Levelled_Slam_Copy_8_Actions)
 end
 -- END FOREST SECTION 119
 
 -- BEGIN FOREST SECTION 120 Levelled_Slam_Copy_9
--- Original JASS function: Trig_Levelled_Slam_Copy_9_Conditions (line 9954)
 function Trig_Levelled_Slam_Copy_9_Conditions()
-    if ((not ((GetResearched() == FourCC("R043"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R043")
 end
 
--- Original JASS function: Trig_Levelled_Slam_Copy_9_Func001002 (line 9961)
-function Trig_Levelled_Slam_Copy_9_Func001002()
-    IncUnitAbilityLevelSwapped(FourCC("A063"), GetEnumUnit())
-end
-
--- Original JASS function: Trig_Levelled_Slam_Copy_9_Actions (line 9965)
 function Trig_Levelled_Slam_Copy_9_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(10), FourCC("u009")), Trig_Levelled_Slam_Copy_9_Func001002)
+    BloodmageUpgradeUnits(10, "A063")
 end
 
--- Original JASS function: InitTrig_Levelled_Slam_Copy_9 (line 9970)
 function InitTrig_Levelled_Slam_Copy_9()
     gg_trg_Levelled_Slam_Copy_9 = CreateTrigger()
-    TriggerRegisterPlayerUnitEventSimple(gg_trg_Levelled_Slam_Copy_9, Player(10), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
-    TriggerAddCondition(gg_trg_Levelled_Slam_Copy_9, Condition(Trig_Levelled_Slam_Copy_9_Conditions))
-    TriggerAddAction(gg_trg_Levelled_Slam_Copy_9, Trig_Levelled_Slam_Copy_9_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_9, 10, Trig_Levelled_Slam_Copy_9_Conditions, Trig_Levelled_Slam_Copy_9_Actions)
 end
 -- END FOREST SECTION 120
 -- END FOREST MODULE src/races/forgotten/bloodmage.lua
@@ -12832,28 +10765,21 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 121 LevelUpAura
--- Original JASS function: Trig_LevelUpAura_Conditions (line 9980)
 function Trig_LevelUpAura_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h059"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h059")
 end
 
--- Original JASS function: Trig_LevelUpAura_Func003A (line 9987)
 function Trig_LevelUpAura_Func003A()
     SetUnitAbilityLevelSwapped(FourCC("A09S"), GetEnumUnit(), udg_Ziggurats_Count)
     SetUnitAbilityLevelSwapped(FourCC("A0A1"), GetEnumUnit(), udg_Ziggurats_Count)
 end
 
--- Original JASS function: Trig_LevelUpAura_Actions (line 9992)
 function Trig_LevelUpAura_Actions()
     GroupAddUnitSimple(GetTriggerUnit(), udg_Ziggurats)
     udg_Ziggurats_Count = (__jint(udg_Ziggurats_Count + 1))
     ForGroupBJ(udg_Ziggurats, Trig_LevelUpAura_Func003A)
 end
 
--- Original JASS function: InitTrig_LevelUpAura (line 9999)
 function InitTrig_LevelUpAura()
     gg_trg_LevelUpAura = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_LevelUpAura, EVENT_PLAYER_UNIT_UPGRADE_FINISH)
@@ -12863,28 +10789,21 @@ end
 -- END FOREST SECTION 121
 
 -- BEGIN FOREST SECTION 122 DowngradeAura
--- Original JASS function: Trig_DowngradeAura_Conditions (line 10009)
 function Trig_DowngradeAura_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h059"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h059")
 end
 
--- Original JASS function: Trig_DowngradeAura_Func003A (line 10016)
 function Trig_DowngradeAura_Func003A()
     SetUnitAbilityLevelSwapped(FourCC("A09S"), GetEnumUnit(), udg_Ziggurats_Count)
     SetUnitAbilityLevelSwapped(FourCC("A0A1"), GetEnumUnit(), udg_Ziggurats_Count)
 end
 
--- Original JASS function: Trig_DowngradeAura_Actions (line 10021)
 function Trig_DowngradeAura_Actions()
     GroupAddUnitSimple(GetTriggerUnit(), udg_Ziggurats)
     udg_Ziggurats_Count = (__jint(udg_Ziggurats_Count - 1))
     ForGroupBJ(udg_Ziggurats, Trig_DowngradeAura_Func003A)
 end
 
--- Original JASS function: InitTrig_DowngradeAura (line 10028)
 function InitTrig_DowngradeAura()
     gg_trg_DowngradeAura = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_DowngradeAura, EVENT_PLAYER_UNIT_DEATH)
@@ -12894,17 +10813,15 @@ end
 -- END FOREST SECTION 122
 
 -- BEGIN FOREST SECTION 123 NerubianSpires
--- Original JASS function: IsBaseBuilding (line 10039)
 function IsBaseBuilding(baseId, upgradedId)
-    if (((baseId == FourCC("hkee")) and (upgradedId == FourCC("hcas")))) then
-        do return true end
+    if ((baseId == FourCC("hkee")) and (upgradedId == FourCC("hcas"))) then
+        return true
     elseif (((baseId == FourCC("hbar")) and (upgradedId == FourCC("hbax")))) then
-        do return true end
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: CheckNearbyUpgrades (line 10050)
 function CheckNearbyUpgrades(u)
     local g = CreateGroup()
     local b = nil
@@ -12914,17 +10831,16 @@ function CheckNearbyUpgrades(u)
     while true do
         b = FirstOfGroup(g)
         if (b == nil) then break end
-        if ((GetUnitTypeId(b) == newBuildingId) and (not (((GetUnitX(u) == GetUnitX(b)) and (GetUnitY(u) == GetUnitY(b)))))) then
+        if ((GetUnitTypeId(b) == newBuildingId) and (not ((GetUnitX(u) == GetUnitX(b)) and (GetUnitY(u) == GetUnitY(b))))) then
             result = true
             if true then break end
         end
         GroupRemoveUnit(g, b)
     end
     DestroyGroup(g)
-    do return result end
+    return result
 end
 
--- Original JASS function: OnConstructionStart (line 10072)
 function OnConstructionStart()
     local u = GetTriggerUnit()
     if (GetUnitTypeId(GetTriggerUnit()) == FourCC("h059")) then
@@ -12936,7 +10852,6 @@ function OnConstructionStart()
     end
 end
 
--- Original JASS function: InitTrig_NerubianSpires (line 10086)
 function InitTrig_NerubianSpires()
     local t = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_UPGRADE_START)
@@ -12945,15 +10860,10 @@ end
 -- END FOREST SECTION 123
 
 -- BEGIN FOREST SECTION 124 Frenzy
--- Original JASS function: Trig_Frenzy_Conditions (line 10097)
 function Trig_Frenzy_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A09X"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A09X")
 end
 
--- Original JASS function: Trig_Frenzy_Actions (line 10104)
 function Trig_Frenzy_Actions()
     CreateNUnitsAtLoc(1, FourCC("h04L"), GetOwningPlayer(GetTriggerUnit()), GetUnitLoc(GetTriggerUnit()), bj_UNIT_FACING)
     UnitAddAbilityBJ(FourCC("A09Y"), GetLastCreatedUnit())
@@ -12961,7 +10871,6 @@ function Trig_Frenzy_Actions()
     IssueTargetOrderBJ(GetLastCreatedUnit(), "unholyfrenzy", GetSpellAbilityUnit())
 end
 
--- Original JASS function: InitTrig_Frenzy (line 10112)
 function InitTrig_Frenzy()
     gg_trg_Frenzy = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Frenzy, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -12976,27 +10885,22 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 125 Chemical_Rage
--- Original JASS function: CHEMICAL_RAGE_ABILITY (line 10125)
 function CHEMICAL_RAGE_ABILITY()
-    do return FourCC("A0CU") end
+    return FourCC("A0CU")
 end
 
--- Original JASS function: DUMMY_ABILITY (line 10129)
 function DUMMY_ABILITY()
-    do return FourCC("A0CV") end
+    return FourCC("A0CV")
 end
 
--- Original JASS function: DUMMY_UNIT_ID (line 10133)
 function DUMMY_UNIT_ID()
-    do return FourCC("h04L") end
+    return FourCC("h04L")
 end
 
--- Original JASS function: ChemicalRageCondition (line 10140)
 function ChemicalRageCondition()
-    do return (GetSpellAbilityId() == (FourCC("A0CU"))) end
+    return (GetSpellAbilityId() == (FourCC("A0CU")))
 end
 
--- Original JASS function: ChemicalRageActions (line 10147)
 function ChemicalRageActions()
     local caster = GetTriggerUnit()
     local p = GetOwningPlayer(caster)
@@ -13012,7 +10916,7 @@ function ChemicalRageActions()
     if ((caster == nil) or IsUnitType(caster, UNIT_TYPE_DEAD)) then
         caster = nil
         p = nil
-        do return end
+        return
     end
     if ((caster ~= nil) and (not IsUnitType(caster, UNIT_TYPE_DEAD))) then
         BlzSetUnitWeaponRealField(caster, UNIT_WEAPON_RF_ATTACK_BASE_COOLDOWN, 0, __jreal(1.75))
@@ -13021,7 +10925,6 @@ function ChemicalRageActions()
     p = nil
 end
 
--- Original JASS function: InitTrig_Chemical_Rage (line 10187)
 function InitTrig_Chemical_Rage()
     local t = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_SPELL_FINISH)
@@ -13031,21 +10934,15 @@ end
 -- END FOREST SECTION 125
 
 -- BEGIN FOREST SECTION 126 ReduceMagicResist
--- Original JASS function: Trig_ReduceMagicResist_Conditions (line 10196)
 function Trig_ReduceMagicResist_Conditions()
-    if ((not ((UnitHasBuffBJ(udg_DamageEventTarget, FourCC("B03O")) == true)))) then
-        do return false end
-    end
-    do return true end
+    return UnitHasBuffBJ(udg_DamageEventTarget, FourCC("B03O")) == true
 end
 
--- Original JASS function: Trig_ReduceMagicResist_Actions (line 10203)
 function Trig_ReduceMagicResist_Actions()
     UnitAddAbilityBJ(FourCC("A0CT"), udg_DamageEventTarget)
     GroupAddUnitSimple(udg_DamageEventTarget, udg_Acided)
 end
 
--- Original JASS function: InitTrig_ReduceMagicResist (line 10209)
 function InitTrig_ReduceMagicResist()
     gg_trg_ReduceMagicResist = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_ReduceMagicResist, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -13055,15 +10952,10 @@ end
 -- END FOREST SECTION 126
 
 -- BEGIN FOREST SECTION 127 ReduceMagicResist2
--- Original JASS function: Trig_ReduceMagicResist2_Func001Func001C (line 10219)
 function Trig_ReduceMagicResist2_Func001Func001C()
-    if ((not ((UnitHasBuffBJ(GetEnumUnit(), FourCC("B03O")) == false)))) then
-        do return false end
-    end
-    do return true end
+    return UnitHasBuffBJ(GetEnumUnit(), FourCC("B03O")) == false
 end
 
--- Original JASS function: Trig_ReduceMagicResist2_Func001A (line 10226)
 function Trig_ReduceMagicResist2_Func001A()
     if (Trig_ReduceMagicResist2_Func001Func001C()) then
     else
@@ -13072,12 +10964,10 @@ function Trig_ReduceMagicResist2_Func001A()
     end
 end
 
--- Original JASS function: Trig_ReduceMagicResist2_Actions (line 10234)
 function Trig_ReduceMagicResist2_Actions()
     ForGroupBJ(udg_Acided, Trig_ReduceMagicResist2_Func001A)
 end
 
--- Original JASS function: InitTrig_ReduceMagicResist2 (line 10239)
 function InitTrig_ReduceMagicResist2()
     gg_trg_ReduceMagicResist2 = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_ReduceMagicResist2, __jreal(0.50))
@@ -13086,26 +10976,20 @@ end
 -- END FOREST SECTION 127
 
 -- BEGIN FOREST SECTION 128 TargetAcquired
--- Original JASS function: Trig_TargetAcquired_Conditions (line 10248)
 function Trig_TargetAcquired_Conditions()
-    if ((not ((GetPlayerTechCountSimple(FourCC("R06S"), GetOwningPlayer(udg_DamageEventSource)) == 1)))) then
-        do return false end
+    if (not (GetPlayerTechCountSimple(FourCC("R06S"), GetOwningPlayer(udg_DamageEventSource)) == 1)) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TargetAcquired_Func004C (line 10258)
 function Trig_TargetAcquired_Func004C()
-    if ((not ((GetRandomReal(__jreal(0.00), __jreal(100.00)) <= __jreal(30.00))))) then
-        do return false end
-    end
-    do return true end
+    return GetRandomReal(__jreal(0.00), __jreal(100.00)) <= __jreal(30.00)
 end
 
--- Original JASS function: Trig_TargetAcquired_Actions (line 10265)
 function Trig_TargetAcquired_Actions()
     if (Trig_TargetAcquired_Func004C()) then
         if (not s__DamageTrigger_configured[s__DamageTrigger_eventIndex]) then
@@ -13113,7 +10997,7 @@ function Trig_TargetAcquired_Actions()
             s__DamageTrigger_configure(s__DamageTrigger_eventIndex)
         end
         if (not s__DamageTrigger_checkConfig(s__DamageTrigger_eventIndex)) then
-            do return end
+            return
         end
         udg_DamageEventAttackT = udg_ATTACK_TYPE_CHAOS
         udg_DamageEventArmorPierced = __jreal(10.00)
@@ -13123,11 +11007,9 @@ function Trig_TargetAcquired_Actions()
         udg_TSEEffectName = "war3mapImported\\SnipingTarget.mdx"
         udg_TSETargetUnit = udg_DamageEventTarget
         ConditionalTriggerExecute(udg_TSE_RegisterTrigger)
-    else
     end
 end
 
--- Original JASS function: InitTrig_TargetAcquired (line 10291)
 function InitTrig_TargetAcquired()
     gg_trg_TargetAcquired = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_TargetAcquired, "udg_PreDamageEvent", LESS_THAN, __jreal(1.00))
@@ -13137,26 +11019,23 @@ end
 -- END FOREST SECTION 128
 
 -- BEGIN FOREST SECTION 129 Poisoned_Bullets2
--- Original JASS function: Trig_Poisoned_Bullets2_Conditions (line 10301)
 function Trig_Poisoned_Bullets2_Conditions()
-    if ((not ((GetPlayerTechCountSimple(FourCC("R06R"), GetOwningPlayer(GetAttacker())) >= 1)))) then
-        do return false end
+    if (not (GetPlayerTechCountSimple(FourCC("R06R"), GetOwningPlayer(GetAttacker())) >= 1)) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("o026"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetAttacker()) == FourCC("o026"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Poisoned_Bullets2_Actions (line 10311)
 function Trig_Poisoned_Bullets2_Actions()
-    if ((GetUnitAbilityLevel(GetAttackedUnitBJ(), FourCC("Bspo")) == 0)) then
+    if (GetUnitAbilityLevel(GetAttackedUnitBJ(), FourCC("Bspo")) == 0) then
         SetUnitAbilityLevelSwapped(FourCC("A0CQ"), GetAttackedUnitBJ(), 1)
     end
     SetUnitAbilityLevelSwapped(FourCC("A0CO"), GetAttacker(), GetUnitAbilityLevel((GetAttackedUnitBJ()), FourCC("A0CQ")))
 end
 
--- Original JASS function: InitTrig_Poisoned_Bullets2 (line 10319)
 function InitTrig_Poisoned_Bullets2()
     gg_trg_Poisoned_Bullets2 = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Poisoned_Bullets2, EVENT_PLAYER_UNIT_ATTACKED)
@@ -13166,25 +11045,23 @@ end
 -- END FOREST SECTION 129
 
 -- BEGIN FOREST SECTION 130 Poisoned_Bullets
--- Original JASS function: Trig_Poisoned_Bullets_Conditions (line 10330)
 function Trig_Poisoned_Bullets_Conditions()
-    if ((not ((GetPlayerTechCountSimple(FourCC("R06R"), GetOwningPlayer(udg_DamageEventSource)) >= 1)))) then
-        do return false end
+    if (not (GetPlayerTechCountSimple(FourCC("R06R"), GetOwningPlayer(udg_DamageEventSource)) >= 1)) then
+        return false
     end
-    if ((not ((GetUnitTypeId(udg_DamageEventSource) == FourCC("o026"))))) then
-        do return false end
+    if (not (GetUnitTypeId(udg_DamageEventSource) == FourCC("o026"))) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Poisoned_Bullets_Actions (line 10343)
 function Trig_Poisoned_Bullets_Actions()
     local var = 0
-    if ((GetUnitAbilityLevel(udg_DamageEventTarget, FourCC("Bspo")) > 0)) then
-        if ((GetUnitAbilityLevel(udg_DamageEventTarget, FourCC("A0CQ")) == 0)) then
+    if (GetUnitAbilityLevel(udg_DamageEventTarget, FourCC("Bspo")) > 0) then
+        if (GetUnitAbilityLevel(udg_DamageEventTarget, FourCC("A0CQ")) == 0) then
             UnitAddAbility(udg_DamageEventTarget, FourCC("A0CQ"))
         end
         var = GetUnitAbilityLevel((udg_DamageEventTarget), FourCC("A0CQ"))
@@ -13192,7 +11069,6 @@ function Trig_Poisoned_Bullets_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Poisoned_Bullets (line 10355)
 function InitTrig_Poisoned_Bullets()
     gg_trg_Poisoned_Bullets = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Poisoned_Bullets, "udg_PreDamageEvent", EQUAL, __jreal(1.00))
@@ -13202,26 +11078,19 @@ end
 -- END FOREST SECTION 130
 
 -- BEGIN FOREST SECTION 131 Permanent_Invisibility
--- Original JASS function: Trig_Permanent_Invisibility_Conditions (line 10366)
 function Trig_Permanent_Invisibility_Conditions()
-    if ((not ((GetResearched() == FourCC("R06K"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R06K")
 end
 
--- Original JASS function: Trig_Permanent_Invisibility_Func001A (line 10373)
 function Trig_Permanent_Invisibility_Func001A()
     UnitAddAbilityBJ(FourCC("A0CK"), GetEnumUnit())
     udg_SilentStrider[GetConvertedPlayerId(GetOwningPlayer(GetResearchingUnit()))] = true
 end
 
--- Original JASS function: Trig_Permanent_Invisibility_Actions (line 10378)
 function Trig_Permanent_Invisibility_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("o026")), Trig_Permanent_Invisibility_Func001A)
 end
 
--- Original JASS function: InitTrig_Permanent_Invisibility (line 10383)
 function InitTrig_Permanent_Invisibility()
     gg_trg_Permanent_Invisibility = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Permanent_Invisibility, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -13231,28 +11100,24 @@ end
 -- END FOREST SECTION 131
 
 -- BEGIN FOREST SECTION 132 Permanent_Invisibility_2
--- Original JASS function: Trig_Permanent_Invisibility_2_Conditions (line 10393)
 function Trig_Permanent_Invisibility_2_Conditions()
-    if ((not ((udg_SilentStrider[GetConvertedPlayerId(GetOwningPlayer(GetEnteringUnit()))] == true)))) then
-        do return false end
+    if (not (udg_SilentStrider[GetConvertedPlayerId(GetOwningPlayer(GetEnteringUnit()))] == true)) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetEnteringUnit()) == FourCC("o026"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetEnteringUnit()) == FourCC("o026"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Permanent_Invisibility_2_Func002A (line 10403)
 function Trig_Permanent_Invisibility_2_Func002A()
     UnitAddAbilityBJ(FourCC("A0CK"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Permanent_Invisibility_2_Actions (line 10407)
 function Trig_Permanent_Invisibility_2_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("o026")), Trig_Permanent_Invisibility_2_Func002A)
 end
 
--- Original JASS function: InitTrig_Permanent_Invisibility_2 (line 10412)
 function InitTrig_Permanent_Invisibility_2()
     gg_trg_Permanent_Invisibility_2 = CreateTrigger()
     TriggerRegisterEnterRectSimple(gg_trg_Permanent_Invisibility_2, GetPlayableMapRect())
@@ -13262,21 +11127,15 @@ end
 -- END FOREST SECTION 132
 
 -- BEGIN FOREST SECTION 133 Sticky_Glue
--- Original JASS function: Trig_Sticky_Glue_Conditions (line 10422)
 function Trig_Sticky_Glue_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0CL"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0CL")
 end
 
--- Original JASS function: Trig_Sticky_Glue_Actions (line 10429)
 function Trig_Sticky_Glue_Actions()
     CreateNUnitsAtLoc(1, FourCC("n010"), GetOwningPlayer(GetSpellAbilityUnit()), GetSpellTargetLoc(), bj_UNIT_FACING)
     UnitApplyTimedLifeBJ(__jreal(6.00), FourCC("BTLF"), GetLastCreatedUnit())
 end
 
--- Original JASS function: InitTrig_Sticky_Glue (line 10435)
 function InitTrig_Sticky_Glue()
     gg_trg_Sticky_Glue = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Sticky_Glue, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -13291,17 +11150,14 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 134 Wood_Income
--- Original JASS function: Trig_Wood_Income_Func001002 (line 10445)
 function Trig_Wood_Income_Func001002()
     AdjustPlayerStateBJ((__jdiv(GetPlayerState(GetEnumPlayer(), PLAYER_STATE_RESOURCE_FOOD_USED), 2)), GetEnumPlayer(), PLAYER_STATE_RESOURCE_LUMBER)
 end
 
--- Original JASS function: Trig_Wood_Income_Actions (line 10449)
 function Trig_Wood_Income_Actions()
     ForForce(udg_Razormane, Trig_Wood_Income_Func001002)
 end
 
--- Original JASS function: InitTrig_Wood_Income (line 10454)
 function InitTrig_Wood_Income()
     gg_trg_Wood_Income = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Wood_Income, __jreal(10.00))
@@ -13310,20 +11166,14 @@ end
 -- END FOREST SECTION 134
 
 -- BEGIN FOREST SECTION 135 Enter_Wood_Income
--- Original JASS function: Trig_Enter_Wood_Income_Conditions (line 10463)
 function Trig_Enter_Wood_Income_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("o01E"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("o01E")
 end
 
--- Original JASS function: Trig_Enter_Wood_Income_Actions (line 10470)
 function Trig_Enter_Wood_Income_Actions()
     ForceAddPlayerSimple(GetOwningPlayer(GetTriggerUnit()), udg_Razormane)
 end
 
--- Original JASS function: InitTrig_Enter_Wood_Income (line 10475)
 function InitTrig_Enter_Wood_Income()
     gg_trg_Enter_Wood_Income = CreateTrigger()
     TriggerRegisterEnterRectSimple(gg_trg_Enter_Wood_Income, gg_rct_Spawn_all)
@@ -13338,54 +11188,19 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 136 SeedOfRebirth
--- Original JASS function: Trig_SeedOfRebirth_Conditions (line 10485)
 function Trig_SeedOfRebirth_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0B9"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0B9")
 end
 
--- Original JASS function: Trig_SeedOfRebirth_IsSeedTargetType (line 10492)
 function Trig_SeedOfRebirth_IsSeedTargetType(u)
     local id = GetUnitTypeId(u)
-    do return (((((((((((id == FourCC("e00E")) or (id == FourCC("e00C"))) or (id == FourCC("e002"))) or (id == FourCC("e009"))) or (id == FourCC("e00A"))) or (id == FourCC("e00G"))) or (id == FourCC("e00J"))) or (id == FourCC("e00O"))) or (id == FourCC("e00H"))) or (id == FourCC("e00N"))) or (id == FourCC("e00S"))) end
+    return (((((((((((id == FourCC("e00E")) or (id == FourCC("e00C"))) or (id == FourCC("e002"))) or (id == FourCC("e009"))) or (id == FourCC("e00A"))) or (id == FourCC("e00G"))) or (id == FourCC("e00J"))) or (id == FourCC("e00O"))) or (id == FourCC("e00H"))) or (id == FourCC("e00N"))) or (id == FourCC("e00S")))
 end
 
--- Original JASS function: Trig_SeedOfRebirth_Func001Func006002 (line 10497)
 function Trig_SeedOfRebirth_Func001Func006002()
     RemoveUnit(GetEnumUnit())
 end
 
--- Original JASS function: Trig_SeedOfRebirth_Func001Func010Func001C (line 10501)
-function Trig_SeedOfRebirth_Func001Func010Func001C()
-    if ((not ((IsPlayerEnemy(ConvertedPlayer(udg_SeedPlayedNumber), GetEnumPlayer()) == true)))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_SeedOfRebirth_Func001Func010A (line 10508)
-function Trig_SeedOfRebirth_Func001Func010A()
-    if (Trig_SeedOfRebirth_Func001Func010Func001C()) then
-        SetPlayerAllianceStateBJ(udg_DeadPlayer, GetEnumPlayer(), bj_ALLIANCE_ALLIED_VISION)
-        SetPlayerAllianceStateBJ(GetEnumPlayer(), udg_DeadPlayer, bj_ALLIANCE_ALLIED_VISION)
-    else
-    end
-end
-
--- Original JASS function: Trig_SeedOfRebirth_Func001Func011A (line 10517)
-function Trig_SeedOfRebirth_Func001Func011A()
-    SetPlayerAllianceStateBJ(udg_DeadPlayer, GetEnumPlayer(), bj_ALLIANCE_UNALLIED)
-    SetPlayerAllianceStateBJ(GetEnumPlayer(), udg_DeadPlayer, bj_ALLIANCE_UNALLIED)
-end
-
--- Original JASS function: Trig_SeedOfRebirth_Func001C (line 10522)
-function Trig_SeedOfRebirth_Func001C()
-    do return Trig_SeedOfRebirth_IsSeedTargetType(GetSpellTargetUnit()) end
-end
-
--- Original JASS function: Trig_SeedOfRebirth_Actions (line 10526)
 function Trig_SeedOfRebirth_Actions()
     local caster, target = GetSpellAbilityUnit(), GetSpellTargetUnit()
     if not target or not Trig_SeedOfRebirth_IsSeedTargetType(target) then return end
@@ -13414,7 +11229,6 @@ function Trig_SeedOfRebirth_Actions()
     if GetUnitTypeId(caster) ~= 0 then IssueImmediateOrderBJ(caster, "stop") end
 end
 
--- Original JASS function: InitTrig_SeedOfRebirth (line 10544)
 function InitTrig_SeedOfRebirth()
     gg_trg_SeedOfRebirth = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_SeedOfRebirth, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -13429,20 +11243,14 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 137 Ancient_Artifact
--- Original JASS function: Trig_Ancient_Artifact_Conditions (line 10553)
 function Trig_Ancient_Artifact_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A07D"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A07D")
 end
 
--- Original JASS function: Trig_Ancient_Artifact_Actions (line 10560)
 function Trig_Ancient_Artifact_Actions()
     SetUnitLifePercentBJ(GetSpellAbilityUnit(), (__jreal(GetUnitLifePercent(GetSpellAbilityUnit()) + __jreal(50.00))))
 end
 
--- Original JASS function: InitTrig_Ancient_Artifact (line 10565)
 function InitTrig_Ancient_Artifact()
     gg_trg_Ancient_Artifact = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ancient_Artifact, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -13452,12 +11260,10 @@ end
 -- END FOREST SECTION 137
 
 -- BEGIN FOREST SECTION 138 Moonstrike
--- Original JASS function: Trig_Moonstrike_Conditions (line 10577)
 function Trig_Moonstrike_Conditions()
-    do return (GetSpellAbilityId() == FourCC("A07F")) end
+    return (GetSpellAbilityId() == FourCC("A07F"))
 end
 
--- Original JASS function: Trig_Moonstrike_Actions (line 10581)
 function Trig_Moonstrike_Actions()
     local target = GetSpellTargetUnit()
     local caster = GetTriggerUnit()
@@ -13470,7 +11276,6 @@ function Trig_Moonstrike_Actions()
     caster = nil
 end
 
--- Original JASS function: InitTrig_Moonstrike (line 10597)
 function InitTrig_Moonstrike()
     gg_trg_Moonstrike = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Moonstrike, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -13480,25 +11285,18 @@ end
 -- END FOREST SECTION 138
 
 -- BEGIN FOREST SECTION 139 Moonstrike_Leveled
--- Original JASS function: Trig_Moonstrike_Leveled_Conditions (line 10606)
 function Trig_Moonstrike_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Moonstrike_Leveled_Func001002 (line 10613)
 function Trig_Moonstrike_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07F"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Moonstrike_Leveled_Actions (line 10617)
 function Trig_Moonstrike_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Moonstrike_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Moonstrike_Leveled (line 10622)
 function InitTrig_Moonstrike_Leveled()
     gg_trg_Moonstrike_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Moonstrike_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -13508,12 +11306,10 @@ end
 -- END FOREST SECTION 139
 
 -- BEGIN FOREST SECTION 140 Moonblast
--- Original JASS function: Trig_Moonblast_Conditions (line 10633)
 function Trig_Moonblast_Conditions()
-    do return (GetSpellAbilityId() == MOONBLAST_ABILITY_ID) end
+    return (GetSpellAbilityId() == MOONBLAST_ABILITY_ID)
 end
 
--- Original JASS function: Trig_Moonblast_Cleanup (line 10637)
 function Trig_Moonblast_Cleanup(t)
     local id = GetHandleId(t)
     local missile = LoadEffectHandle(udg_MoonblastHash, id, 2)
@@ -13524,7 +11320,6 @@ function Trig_Moonblast_Cleanup(t)
     missile = nil
 end
 
--- Original JASS function: Trig_Moonblast_Timer (line 10649)
 function Trig_Moonblast_Timer()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -13569,7 +11364,6 @@ function Trig_Moonblast_Timer()
     t = nil
 end
 
--- Original JASS function: Trig_Moonblast_Actions (line 10697)
 function Trig_Moonblast_Actions()
     local target = GetSpellTargetUnit()
     local caster = GetTriggerUnit()
@@ -13583,7 +11377,7 @@ function Trig_Moonblast_Actions()
     if ((target == nil) or (caster == nil)) then
         target = nil
         caster = nil
-        do return end
+        return
     end
     t = CreateTimer()
     id = GetHandleId(t)
@@ -13606,7 +11400,6 @@ function Trig_Moonblast_Actions()
     t = nil
 end
 
--- Original JASS function: InitTrig_Moonblast (line 10740)
 function InitTrig_Moonblast()
     gg_trg_Moonblast = CreateTrigger()
     if (udg_MoonblastHash == nil) then
@@ -13619,25 +11412,18 @@ end
 -- END FOREST SECTION 140
 
 -- BEGIN FOREST SECTION 141 Moonblast_Leveled
--- Original JASS function: Trig_Moonblast_Leveled_Conditions (line 10754)
 function Trig_Moonblast_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Moonblast_Leveled_Func001002 (line 10761)
 function Trig_Moonblast_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07H"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Moonblast_Leveled_Actions (line 10765)
 function Trig_Moonblast_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Moonblast_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Moonblast_Leveled (line 10770)
 function InitTrig_Moonblast_Leveled()
     gg_trg_Moonblast_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Moonblast_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -13647,12 +11433,10 @@ end
 -- END FOREST SECTION 141
 
 -- BEGIN FOREST SECTION 142 Lunar_Assault
--- Original JASS function: Trig_Lunar_Assault_Conditions (line 10782)
 function Trig_Lunar_Assault_Conditions()
-    do return (GetSpellAbilityId() == FourCC("A07I")) end
+    return (GetSpellAbilityId() == FourCC("A07I"))
 end
 
--- Original JASS function: Trig_Lunar_Assault_Actions (line 10786)
 function Trig_Lunar_Assault_Actions()
     local target = GetSpellTargetUnit()
     local caster = GetTriggerUnit()
@@ -13666,7 +11450,6 @@ function Trig_Lunar_Assault_Actions()
     caster = nil
 end
 
--- Original JASS function: InitTrig_Lunar_Assault (line 10802)
 function InitTrig_Lunar_Assault()
     gg_trg_Lunar_Assault = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Lunar_Assault, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -13676,25 +11459,18 @@ end
 -- END FOREST SECTION 142
 
 -- BEGIN FOREST SECTION 143 Lunar_Assault_Leveled
--- Original JASS function: Trig_Lunar_Assault_Leveled_Conditions (line 10811)
 function Trig_Lunar_Assault_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Lunar_Assault_Leveled_Func001002 (line 10818)
 function Trig_Lunar_Assault_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07I"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Lunar_Assault_Leveled_Actions (line 10822)
 function Trig_Lunar_Assault_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Lunar_Assault_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Lunar_Assault_Leveled (line 10827)
 function InitTrig_Lunar_Assault_Leveled()
     gg_trg_Lunar_Assault_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Lunar_Assault_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -13704,25 +11480,18 @@ end
 -- END FOREST SECTION 143
 
 -- BEGIN FOREST SECTION 144 Cascade_Leveled
--- Original JASS function: Trig_Cascade_Leveled_Conditions (line 10837)
 function Trig_Cascade_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Cascade_Leveled_Func001002 (line 10844)
 function Trig_Cascade_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07J"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Cascade_Leveled_Actions (line 10848)
 function Trig_Cascade_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Cascade_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Cascade_Leveled (line 10853)
 function InitTrig_Cascade_Leveled()
     gg_trg_Cascade_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Cascade_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -13732,20 +11501,14 @@ end
 -- END FOREST SECTION 144
 
 -- BEGIN FOREST SECTION 145 Nourish
--- Original JASS function: Trig_Nourish_Conditions (line 10863)
 function Trig_Nourish_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A07K"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A07K")
 end
 
--- Original JASS function: Trig_Nourish_Actions (line 10870)
 function Trig_Nourish_Actions()
     SetUnitLifeBJ(GetSpellTargetUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetSpellTargetUnit()) + (__jreal(GetUnitStateSwap(UNIT_STATE_MAX_MANA, GetSpellAbilityUnit()) * __jreal(0.50))))))
 end
 
--- Original JASS function: InitTrig_Nourish (line 10875)
 function InitTrig_Nourish()
     gg_trg_Nourish = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Nourish, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -13755,25 +11518,18 @@ end
 -- END FOREST SECTION 145
 
 -- BEGIN FOREST SECTION 146 Nourish_Leveled
--- Original JASS function: Trig_Nourish_Leveled_Conditions (line 10885)
 function Trig_Nourish_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Nourish_Leveled_Func001002 (line 10892)
 function Trig_Nourish_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07K"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Nourish_Leveled_Actions (line 10896)
 function Trig_Nourish_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Nourish_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Nourish_Leveled (line 10901)
 function InitTrig_Nourish_Leveled()
     gg_trg_Nourish_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Nourish_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -13783,12 +11539,10 @@ end
 -- END FOREST SECTION 146
 
 -- BEGIN FOREST SECTION 147 Solar_Blast
--- Original JASS function: Trig_Solar_Blast_Conditions (line 10913)
 function Trig_Solar_Blast_Conditions()
-    do return (GetSpellAbilityId() == FourCC("A07L")) end
+    return (GetSpellAbilityId() == FourCC("A07L"))
 end
 
--- Original JASS function: Trig_Solar_Blast_Actions (line 10917)
 function Trig_Solar_Blast_Actions()
     local target = GetSpellTargetUnit()
     local caster = GetTriggerUnit()
@@ -13804,7 +11558,6 @@ function Trig_Solar_Blast_Actions()
     caster = nil
 end
 
--- Original JASS function: InitTrig_Solar_Blast (line 10936)
 function InitTrig_Solar_Blast()
     gg_trg_Solar_Blast = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Solar_Blast, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -13814,25 +11567,18 @@ end
 -- END FOREST SECTION 147
 
 -- BEGIN FOREST SECTION 148 Natural_Vigil_Leveled
--- Original JASS function: Trig_Natural_Vigil_Leveled_Conditions (line 10945)
 function Trig_Natural_Vigil_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Natural_Vigil_Leveled_Func001002 (line 10952)
 function Trig_Natural_Vigil_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07M"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Natural_Vigil_Leveled_Actions (line 10956)
 function Trig_Natural_Vigil_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Natural_Vigil_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Natural_Vigil_Leveled (line 10961)
 function InitTrig_Natural_Vigil_Leveled()
     gg_trg_Natural_Vigil_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Natural_Vigil_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -13842,25 +11588,18 @@ end
 -- END FOREST SECTION 148
 
 -- BEGIN FOREST SECTION 149 Lifebloom_Leveled
--- Original JASS function: Trig_Lifebloom_Leveled_Conditions (line 10971)
 function Trig_Lifebloom_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Lifebloom_Leveled_Func001002 (line 10978)
 function Trig_Lifebloom_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07N"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Lifebloom_Leveled_Actions (line 10982)
 function Trig_Lifebloom_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Lifebloom_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Lifebloom_Leveled (line 10987)
 function InitTrig_Lifebloom_Leveled()
     gg_trg_Lifebloom_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Lifebloom_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -13870,20 +11609,14 @@ end
 -- END FOREST SECTION 149
 
 -- BEGIN FOREST SECTION 150 Suns_Fury
--- Original JASS function: Trig_Suns_Fury_Conditions (line 10997)
 function Trig_Suns_Fury_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A087"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A087")
 end
 
--- Original JASS function: Trig_Suns_Fury_Actions (line 11004)
 function Trig_Suns_Fury_Actions()
     UnitResetCooldown(GetSpellAbilityUnit())
 end
 
--- Original JASS function: InitTrig_Suns_Fury (line 11009)
 function InitTrig_Suns_Fury()
     gg_trg_Suns_Fury = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Suns_Fury, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -13898,23 +11631,20 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 151 Return_lumber
--- Original JASS function: Trig_Return_lumber_Conditions (line 11019)
 function Trig_Return_lumber_Conditions()
-    if ((not ((GetIssuedOrderIdBJ() == String2OrderIdBJ("harvest"))))) then
-        do return false end
+    if (not (GetIssuedOrderIdBJ() == String2OrderIdBJ("harvest"))) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h00R"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetTriggerUnit()) == FourCC("h00R"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Return_lumber_Actions (line 11029)
 function Trig_Return_lumber_Actions()
     SetPlayerStateBJ(GetOwningPlayer(GetTriggerUnit()), PLAYER_STATE_RESOURCE_GOLD, (__jint(GetPlayerState(GetOwningPlayer(GetTriggerUnit()), PLAYER_STATE_RESOURCE_GOLD) + 1)))
 end
 
--- Original JASS function: InitTrig_Return_lumber (line 11034)
 function InitTrig_Return_lumber()
     gg_trg_Return_lumber = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Return_lumber, EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER)
@@ -13924,25 +11654,18 @@ end
 -- END FOREST SECTION 151
 
 -- BEGIN FOREST SECTION 152 Slash_Leveled
--- Original JASS function: Trig_Slash_Leveled_Conditions (line 11044)
 function Trig_Slash_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R030"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R030")
 end
 
--- Original JASS function: Trig_Slash_Leveled_Func001002 (line 11051)
 function Trig_Slash_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A042"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Slash_Leveled_Actions (line 11055)
 function Trig_Slash_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h00R")), Trig_Slash_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Slash_Leveled (line 11060)
 function InitTrig_Slash_Leveled()
     gg_trg_Slash_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Slash_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -13952,25 +11675,18 @@ end
 -- END FOREST SECTION 152
 
 -- BEGIN FOREST SECTION 153 Bleed_Leveled
--- Original JASS function: Trig_Bleed_Leveled_Conditions (line 11070)
 function Trig_Bleed_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R030"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R030")
 end
 
--- Original JASS function: Trig_Bleed_Leveled_Func001002 (line 11077)
 function Trig_Bleed_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A04C"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Bleed_Leveled_Actions (line 11081)
 function Trig_Bleed_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h00R")), Trig_Bleed_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Bleed_Leveled (line 11086)
 function InitTrig_Bleed_Leveled()
     gg_trg_Bleed_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Bleed_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -13980,22 +11696,16 @@ end
 -- END FOREST SECTION 153
 
 -- BEGIN FOREST SECTION 154 Focused_Strike
--- Original JASS function: Trig_Focused_Strike_Conditions (line 11096)
 function Trig_Focused_Strike_Conditions()
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("h00R"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetAttacker()) == FourCC("h00R")
 end
 
--- Original JASS function: Trig_Focused_Strike_Actions (line 11103)
 function Trig_Focused_Strike_Actions()
     local attacker = GetAttacker()
     TriggerSleepAction(__jreal(0.50))
     if GetUnitTypeId(attacker) ~= 0 then UnitRemoveBuffBJ(FourCC("B02U"), attacker) end
 end
 
--- Original JASS function: InitTrig_Focused_Strike (line 11111)
 function InitTrig_Focused_Strike()
     gg_trg_Focused_Strike = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Focused_Strike, EVENT_PLAYER_UNIT_ATTACKED)
@@ -14010,104 +11720,92 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 155 FanOfKnivesBasedSpells
--- Original JASS function: BURST_IsSupportedAbility (line 11122)
 function BURST_IsSupportedAbility(abilId)
-    do return ((abilId == BURST_DRAGONIC_ABIL_ID) or (abilId == BURST_LICH_ABIL_ID)) end
+    return ((abilId == BURST_DRAGONIC_ABIL_ID) or (abilId == BURST_LICH_ABIL_ID))
 end
 
--- Original JASS function: BURST_GetMissileModel (line 11126)
 function BURST_GetMissileModel(abilId)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return "units\\creeps\\RedDragonWelp\\RedDragonWelp.mdl" end
+        return "units\\creeps\\RedDragonWelp\\RedDragonWelp.mdl"
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return "Abilities\\Weapons\\LichMissile\\LichMissile.mdl" end
+        return "Abilities\\Weapons\\LichMissile\\LichMissile.mdl"
     end
-    do return "" end
+    return ""
 end
 
--- Original JASS function: BURST_GetMissileSpeed (line 11138)
 function BURST_GetMissileSpeed(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(700.00) end
+        return __jreal(700.00)
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(500.00) end
+        return __jreal(500.00)
     end
-    do return __jreal(0.00) end
+    return __jreal(0.00)
 end
 
--- Original JASS function: BURST_GetMissileHeight (line 11150)
 function BURST_GetMissileHeight(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(200.00) end
+        return __jreal(200.00)
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(70.00) end
+        return __jreal(70.00)
     end
-    do return __jreal(70.00) end
+    return __jreal(70.00)
 end
 
--- Original JASS function: BURST_GetMissileScale (line 11162)
 function BURST_GetMissileScale(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(1.50) end
+        return __jreal(1.50)
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(1.00) end
+        return __jreal(1.00)
     end
-    do return __jreal(1.00) end
+    return __jreal(1.00)
 end
 
--- Original JASS function: BURST_GetHitRange (line 11174)
 function BURST_GetHitRange(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(30.00) end
+        return __jreal(30.00)
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(35.00) end
+        return __jreal(35.00)
     end
-    do return __jreal(35.00) end
+    return __jreal(35.00)
 end
 
--- Original JASS function: BURST_GetDamage (line 11186)
 function BURST_GetDamage(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(__jreal(100.00) + __jreal(__jreal(25.00) * I2R(__jint(level - 1)))) end
+        return __jreal(__jreal(100.00) + __jreal(__jreal(25.00) * I2R(__jint(level - 1))))
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(__jreal(100.00) + __jreal(__jreal(25.00) * I2R(__jint(level - 1)))) end
+        return __jreal(__jreal(100.00) + __jreal(__jreal(25.00) * I2R(__jint(level - 1))))
     end
-    do return __jreal(0.00) end
+    return __jreal(0.00)
 end
 
--- Original JASS function: BURST_GetAoE (line 11200)
 function BURST_GetAoE(abilId, level)
     if (abilId == BURST_DRAGONIC_ABIL_ID) then
-        do return __jreal(__jreal(500.00) + __jreal(__jreal(50.00) * I2R(__jint(level - 1)))) end
+        return __jreal(__jreal(500.00) + __jreal(__jreal(50.00) * I2R(__jint(level - 1))))
     end
     if (abilId == BURST_LICH_ABIL_ID) then
-        do return __jreal(800.00) end
+        return __jreal(800.00)
     end
-    do return __jreal(0.00) end
+    return __jreal(0.00)
 end
 
--- Original JASS function: BURST_UnitExists (line 11212)
 function BURST_UnitExists(u)
-    do return (GetUnitTypeId(u) ~= 0) end
+    return (GetUnitTypeId(u) ~= 0)
 end
 
--- Original JASS function: BURST_IsAlive (line 11216)
 function BURST_IsAlive(u)
-    do return ((GetUnitTypeId(u) ~= 0) and (GetWidgetLife(u) > __jreal(0.405))) end
+    return ((GetUnitTypeId(u) ~= 0) and (GetWidgetLife(u) > __jreal(0.405)))
 end
 
--- Original JASS function: BURST_IsValidTarget (line 11220)
 function BURST_IsValidTarget(caster, target)
-    do return (((BURST_IsAlive(target) and IsUnitEnemy(target, GetOwningPlayer(caster))) and (not IsUnitType(target, UNIT_TYPE_STRUCTURE))) and (not IsUnitType(target, UNIT_TYPE_MAGIC_IMMUNE))) end
+    return (((BURST_IsAlive(target) and IsUnitEnemy(target, GetOwningPlayer(caster))) and (not IsUnitType(target, UNIT_TYPE_STRUCTURE))) and (not IsUnitType(target, UNIT_TYPE_MAGIC_IMMUNE)))
 end
 
--- Original JASS function: BURST_RemoveMissile (line 11224)
 function BURST_RemoveMissile(i)
     DestroyEffect(BURST_MISSILE[i])
     BURST_CASTER[i] = BURST_CASTER[BURST_COUNT]
@@ -14129,7 +11827,6 @@ function BURST_RemoveMissile(i)
     BURST_COUNT = __jint(BURST_COUNT - 1)
 end
 
--- Original JASS function: BURST_Periodic (line 11248)
 function BURST_Periodic()
     local i = 1
     local tx = 0.0
@@ -14141,7 +11838,7 @@ function BURST_Periodic()
     local step = 0.0
     while true do
         if (i > BURST_COUNT) then break end
-        if ((not ((GetUnitTypeId((BURST_CASTER[i])) ~= 0))) or (not BURST_IsAlive(BURST_TARGET[i]))) then
+        if ((not (GetUnitTypeId((BURST_CASTER[i])) ~= 0)) or (not BURST_IsAlive(BURST_TARGET[i]))) then
             BURST_RemoveMissile(i)
         else
             tx = GetUnitX(BURST_TARGET[i])
@@ -14170,7 +11867,6 @@ function BURST_Periodic()
     end
 end
 
--- Original JASS function: BURST_StartMissile (line 11297)
 function BURST_StartMissile(caster, target, abilId, level)
     local x = GetUnitX(caster)
     local y = GetUnitY(caster)
@@ -14195,7 +11891,6 @@ function BURST_StartMissile(caster, target, abilId, level)
     e = nil
 end
 
--- Original JASS function: BURST_OnCast (line 11326)
 function BURST_OnCast()
     local caster = GetTriggerUnit()
     local abilId = GetSpellAbilityId()
@@ -14206,7 +11901,7 @@ function BURST_OnCast()
     local target = nil
     if (not BURST_IsSupportedAbility(abilId)) then
         caster = nil
-        do return end
+        return
     end
     level = GetUnitAbilityLevel(caster, abilId)
     x = GetUnitX(caster)
@@ -14225,12 +11920,10 @@ function BURST_OnCast()
     target = nil
 end
 
--- Original JASS function: BURST_Conditions (line 11362)
 function BURST_Conditions()
-    do return BURST_IsSupportedAbility(GetSpellAbilityId()) end
+    return BURST_IsSupportedAbility(GetSpellAbilityId())
 end
 
--- Original JASS function: InitTrig_FanOfKnivesBasedSpells (line 11366)
 function InitTrig_FanOfKnivesBasedSpells()
     local t = CreateTrigger()
     local i = 0
@@ -14251,35 +11944,26 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 156 Realm_of_darkness
--- Original JASS function: Trig_Realm_of_darkness_Conditions (line 11384)
 function Trig_Realm_of_darkness_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0B7"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0B7")
 end
 
--- Original JASS function: Trig_Realm_of_darkness_Func002001002 (line 11391)
 function Trig_Realm_of_darkness_Func002001002()
-    do return ((IsUnitEnemy(GetFilterUnit(), FE_Roles.ancient()) == true)) end
+    return (IsUnitEnemy(GetFilterUnit(), FE_Roles.ancient()) == true)
 end
 
--- Original JASS function: Trig_Realm_of_darkness_Func002A (line 11395)
 function Trig_Realm_of_darkness_Func002A()
     UnitAddAbilityBJ(FourCC("A0B6"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Realm_of_darkness_Func005001002 (line 11399)
 function Trig_Realm_of_darkness_Func005001002()
-    do return ((IsUnitEnemy(GetFilterUnit(), FE_Roles.ancient()) == true)) end
+    return (IsUnitEnemy(GetFilterUnit(), FE_Roles.ancient()) == true)
 end
 
--- Original JASS function: Trig_Realm_of_darkness_Func005A (line 11403)
 function Trig_Realm_of_darkness_Func005A()
     UnitRemoveAbilityBJ(FourCC("A0B6"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Realm_of_darkness_Actions (line 11407)
 function Trig_Realm_of_darkness_Actions()
     EnableTrigger(gg_trg_Realm_of_darkness_2)
     local group002 = GetUnitsInRectMatching(GetPlayableMapRect(), Condition(Trig_Realm_of_darkness_Func002001002))
@@ -14292,7 +11976,6 @@ function Trig_Realm_of_darkness_Actions()
     DestroyGroup(group005)
 end
 
--- Original JASS function: InitTrig_Realm_of_darkness (line 11416)
 function InitTrig_Realm_of_darkness()
     gg_trg_Realm_of_darkness = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Realm_of_darkness, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -14302,20 +11985,14 @@ end
 -- END FOREST SECTION 156
 
 -- BEGIN FOREST SECTION 157 Realm_of_darkness_2
--- Original JASS function: Trig_Realm_of_darkness_2_Conditions (line 11426)
 function Trig_Realm_of_darkness_2_Conditions()
-    if ((not ((IsUnitEnemy(GetTriggerUnit(), FE_Roles.ancient()) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitEnemy(GetTriggerUnit(), FE_Roles.ancient()) == true
 end
 
--- Original JASS function: Trig_Realm_of_darkness_2_Actions (line 11433)
 function Trig_Realm_of_darkness_2_Actions()
     UnitAddAbilityBJ(FourCC("A0B6"), GetTriggerUnit())
 end
 
--- Original JASS function: InitTrig_Realm_of_darkness_2 (line 11438)
 function InitTrig_Realm_of_darkness_2()
     gg_trg_Realm_of_darkness_2 = CreateTrigger()
     DisableTrigger(gg_trg_Realm_of_darkness_2)
@@ -14332,26 +12009,20 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 158 Thunderstruck
--- Original JASS function: Trig_Thunderstruck_Conditions (line 11450)
 function Trig_Thunderstruck_Conditions()
-    if ((not ((GetUnitTypeId(udg_DamageEventTarget) == FourCC("O016"))))) then
-        do return false end
+    if (not (GetUnitTypeId(udg_DamageEventTarget) == FourCC("O016"))) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Thunderstruck_Func003C (line 11460)
 function Trig_Thunderstruck_Func003C()
-    if ((not ((GetRandomReal(__jreal(0.00), __jreal(100.00)) <= (__jreal((__jreal(__jreal(0.75) * I2R(GetUnitLevel(udg_DamageEventTarget)))) + __jreal(0.00))))))) then
-        do return false end
-    end
-    do return true end
+    return GetRandomReal(__jreal(0.00), __jreal(100.00)) <= (__jreal((__jreal(__jreal(0.75) * I2R(GetUnitLevel(udg_DamageEventTarget)))) + __jreal(0.00)))
 end
 
--- Original JASS function: Trig_Thunderstruck_Actions (line 11467)
 function Trig_Thunderstruck_Actions()
     udg_ThunderstruckLevel = GetUnitAbilityLevelSwapped(FourCC("A03S"), udg_DamageEventTarget)
     udg_ThunderstruckTarget = GetUnitLoc(udg_DamageEventSource)
@@ -14361,11 +12032,9 @@ function Trig_Thunderstruck_Actions()
         SetUnitAbilityLevelSwapped(FourCC("A03S"), GetLastCreatedUnit(), udg_ThunderstruckLevel)
         UnitApplyTimedLifeBJ(__jreal(2.00), FourCC("BTLF"), GetLastCreatedUnit())
         IssuePointOrderLocBJ(GetLastCreatedUnit(), "flamestrike", udg_ThunderstruckTarget)
-    else
     end
 end
 
--- Original JASS function: InitTrig_Thunderstruck (line 11481)
 function InitTrig_Thunderstruck()
     gg_trg_Thunderstruck = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Thunderstruck, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -14375,18 +12044,16 @@ end
 -- END FOREST SECTION 158
 
 -- BEGIN FOREST SECTION 159 Lightning_Strike
--- Original JASS function: Trig_Lightning_Strike_Conditions (line 11491)
 function Trig_Lightning_Strike_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A03S"))))) then
-        do return false end
+    if (not (GetSpellAbilityId() == FourCC("A03S"))) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O016"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetTriggerUnit()) == FourCC("O016"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Lightning_Strike_Actions (line 11501)
 function Trig_Lightning_Strike_Actions()
     local timer = CreateTimer()
     TimerStart(timer, 25, false, nil)
@@ -14398,7 +12065,6 @@ function Trig_Lightning_Strike_Actions()
     DestroyTimer(timer)
 end
 
--- Original JASS function: InitTrig_Lightning_Strike (line 11509)
 function InitTrig_Lightning_Strike()
     gg_trg_Lightning_Strike = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Lightning_Strike, EVENT_PLAYER_UNIT_SPELL_FINISH)
@@ -14413,20 +12079,14 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 160 RecallStart
--- Original JASS function: Trig_RecallStart_Conditions (line 11519)
 function Trig_RecallStart_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0AL"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0AL")
 end
 
--- Original JASS function: Trig_RecallStart_Actions (line 11526)
 function Trig_RecallStart_Actions()
     udg_RecallTarget = GetSpellTargetUnit()
 end
 
--- Original JASS function: InitTrig_RecallStart (line 11531)
 function InitTrig_RecallStart()
     gg_trg_RecallStart = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_RecallStart, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -14436,20 +12096,14 @@ end
 -- END FOREST SECTION 160
 
 -- BEGIN FOREST SECTION 161 Recall
--- Original JASS function: Trig_Recall_Conditions (line 11541)
 function Trig_Recall_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0AL"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0AL")
 end
 
--- Original JASS function: Trig_Recall_Actions (line 11548)
 function Trig_Recall_Actions()
     SetUnitPositionLoc(udg_RecallTarget, GetRectCenter(gg_rct_Fountain))
 end
 
--- Original JASS function: InitTrig_Recall (line 11553)
 function InitTrig_Recall()
     gg_trg_Recall = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Recall, EVENT_PLAYER_UNIT_SPELL_FINISH)
@@ -14459,29 +12113,16 @@ end
 -- END FOREST SECTION 161
 
 -- BEGIN FOREST SECTION 162 Time_warp
--- Original JASS function: Trig_Time_warp_Conditions (line 11563)
 function Trig_Time_warp_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A08S"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A08S")
 end
 
--- Original JASS function: Trig_Time_warp_Func004Func001001 (line 11570)
-function Trig_Time_warp_Func004Func001001()
-    do return ((IsUnitEnemy(GetEnumUnit(), GetOwningPlayer(GetSpellAbilityUnit())) == true)) end
-end
-
--- Original JASS function: Trig_Time_warp_Func004A (line 11574)
 function Trig_Time_warp_Func004A()
-    if (((IsUnitEnemy(GetEnumUnit(), GetOwningPlayer(GetSpellAbilityUnit())) == true))) then
+    if (IsUnitEnemy(GetEnumUnit(), GetOwningPlayer(GetSpellAbilityUnit())) == true) then
         UnitDamageTargetBJ(GetSpellAbilityUnit(), GetEnumUnit(), __jreal(300.00), ATTACK_TYPE_NORMAL, DAMAGE_TYPE_NORMAL)
-    else
-        DoNothing()
     end
 end
 
--- Original JASS function: Trig_Time_warp_Actions (line 11582)
 function Trig_Time_warp_Actions()
     udg_TimeWarpCaster = GetSpellAbilityUnit()
     udg_TimeWarp = GetSpellTargetLoc()
@@ -14489,7 +12130,6 @@ function Trig_Time_warp_Actions()
     ForGroupBJ(GetUnitsInRangeOfLocAll(__jreal(512), OffsetLocation(udg_TimeWarp, __jreal(0), __jreal(0))), Trig_Time_warp_Func004A)
 end
 
--- Original JASS function: InitTrig_Time_warp (line 11590)
 function InitTrig_Time_warp()
     gg_trg_Time_warp = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Time_warp, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -14499,20 +12139,14 @@ end
 -- END FOREST SECTION 162
 
 -- BEGIN FOREST SECTION 163 Galactic_Fury
--- Original JASS function: Trig_Galactic_Fury_Conditions (line 11600)
 function Trig_Galactic_Fury_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0F1"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0F1")
 end
 
--- Original JASS function: Trig_Galactic_Fury_Actions (line 11607)
 function Trig_Galactic_Fury_Actions()
     udg_GalacticFuryCaster = GetSpellAbilityUnit()
 end
 
--- Original JASS function: InitTrig_Galactic_Fury (line 11612)
 function InitTrig_Galactic_Fury()
     gg_trg_Galactic_Fury = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Galactic_Fury, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -14522,20 +12156,14 @@ end
 -- END FOREST SECTION 163
 
 -- BEGIN FOREST SECTION 164 Galactic_Fury_2
--- Original JASS function: Trig_Galactic_Fury_2_Conditions (line 11622)
 function Trig_Galactic_Fury_2_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0F1"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0F1")
 end
 
--- Original JASS function: Trig_Galactic_Fury_2_Actions (line 11629)
 function Trig_Galactic_Fury_2_Actions()
     SetUnitLifePercentBJ(udg_GalacticFuryCaster, (__jreal(GetUnitLifePercent(udg_GalacticFuryCaster) + __jreal(25.00))))
 end
 
--- Original JASS function: InitTrig_Galactic_Fury_2 (line 11634)
 function InitTrig_Galactic_Fury_2()
     gg_trg_Galactic_Fury_2 = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Galactic_Fury_2, EVENT_PLAYER_UNIT_SPELL_FINISH)
@@ -14545,12 +12173,10 @@ end
 -- END FOREST SECTION 164
 
 -- BEGIN FOREST SECTION 165 Galactic_Fury_3
--- Original JASS function: SSZ_IsValidTarget (line 11645)
 function SSZ_IsValidTarget(caster, target)
-    do return (((((target ~= nil) and (target ~= caster)) and (GetWidgetLife(target) > __jreal(0.405))) and IsUnitEnemy(target, GetOwningPlayer(caster))) and (not IsUnitType(target, UNIT_TYPE_DEAD))) end
+    return (((((target ~= nil) and (target ~= caster)) and (GetWidgetLife(target) > __jreal(0.405))) and IsUnitEnemy(target, GetOwningPlayer(caster))) and (not IsUnitType(target, UNIT_TYPE_DEAD)))
 end
 
--- Original JASS function: SSZ_RemoveSlow (line 11649)
 function SSZ_RemoveSlow()
     local t = GetExpiredTimer()
     local tid = GetHandleId(t)
@@ -14568,7 +12194,6 @@ function SSZ_RemoveSlow()
     t = nil
 end
 
--- Original JASS function: SSZ_ApplySlow (line 11669)
 function SSZ_ApplySlow(target)
     local uid = GetHandleId(target)
     local t = LoadTimerHandle(SSZ_HASH, uid, 0)
@@ -14584,7 +12209,6 @@ function SSZ_ApplySlow(target)
     t = nil
 end
 
--- Original JASS function: SSZ_OnCast (line 11688)
 function SSZ_OnCast()
     local caster = GetTriggerUnit()
     local g = CreateGroup()
@@ -14611,12 +12235,10 @@ function SSZ_OnCast()
     caster = nil
 end
 
--- Original JASS function: SSZ_Condition (line 11720)
 function SSZ_Condition()
-    do return (GetSpellAbilityId() == SSZ_SPELL_ID) end
+    return (GetSpellAbilityId() == SSZ_SPELL_ID)
 end
 
--- Original JASS function: InitTrig_Galactic_Fury_3 (line 11724)
 function InitTrig_Galactic_Fury_3()
     local t = CreateTrigger()
     local i = 0
@@ -14635,21 +12257,15 @@ end
 -- END FOREST SECTION 165
 
 -- BEGIN FOREST SECTION 166 Cosmic_Strike
--- Original JASS function: Trig_Cosmic_Strike_Conditions (line 11746)
 function Trig_Cosmic_Strike_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A08R"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A08R")
 end
 
--- Original JASS function: Trig_Cosmic_Strike_Actions (line 11753)
 function Trig_Cosmic_Strike_Actions()
     udg_CosmicStrikeCaster = GetSpellAbilityUnit()
     udg_CosmicStrikeCount = 1
 end
 
--- Original JASS function: InitTrig_Cosmic_Strike (line 11759)
 function InitTrig_Cosmic_Strike()
     gg_trg_Cosmic_Strike = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Cosmic_Strike, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -14659,35 +12275,25 @@ end
 -- END FOREST SECTION 166
 
 -- BEGIN FOREST SECTION 167 Cosmic_Strike_2
--- Original JASS function: Trig_Cosmic_Strike_2_Conditions (line 11769)
 function Trig_Cosmic_Strike_2_Conditions()
-    if ((not ((udg_DamageEventSource == udg_CosmicStrikeCaster)))) then
-        do return false end
+    if (not (udg_DamageEventSource == udg_CosmicStrikeCaster)) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Cosmic_Strike_2_Func005001 (line 11779)
-function Trig_Cosmic_Strike_2_Func005001()
-    do return ((udg_CosmicStrikeCount == 0)) end
-end
-
--- Original JASS function: Trig_Cosmic_Strike_2_Actions (line 11783)
 function Trig_Cosmic_Strike_2_Actions()
     SetUnitManaPercentBJ(udg_CosmicStrikeCaster, (__jreal(GetUnitManaPercent(GetEventDamageSource()) + __jreal(5.00))))
     udg_CosmicStrikeCount = (__jint(udg_CosmicStrikeCount - 1))
-    if (((udg_CosmicStrikeCount == 0))) then
+    if (udg_CosmicStrikeCount == 0) then
         UnitRemoveBuffBJ(FourCC("B038"), udg_CosmicStrikeCaster)
-    else
-        DoNothing()
     end
     udg_CosmicStrikeCaster = nil
 end
 
--- Original JASS function: InitTrig_Cosmic_Strike_2 (line 11795)
 function InitTrig_Cosmic_Strike_2()
     gg_trg_Cosmic_Strike_2 = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Cosmic_Strike_2, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -14697,23 +12303,20 @@ end
 -- END FOREST SECTION 167
 
 -- BEGIN FOREST SECTION 168 Cosmic_Strike_3
--- Original JASS function: Trig_Cosmic_Strike_3_Conditions (line 11805)
 function Trig_Cosmic_Strike_3_Conditions()
-    if ((not ((UnitHasBuffBJ(udg_DamageEventSource, FourCC("B038")) == true)))) then
-        do return false end
+    if (not (UnitHasBuffBJ(udg_DamageEventSource, FourCC("B038")) == true)) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Cosmic_Strike_3_Actions (line 11815)
 function Trig_Cosmic_Strike_3_Actions()
     udg_DamageEventAttackT = udg_ATTACK_TYPE_CHAOS
 end
 
--- Original JASS function: InitTrig_Cosmic_Strike_3 (line 11820)
 function InitTrig_Cosmic_Strike_3()
     gg_trg_Cosmic_Strike_3 = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Cosmic_Strike_3, "udg_PreDamageEvent", LESS_THAN, __jreal(1.00))
@@ -14728,15 +12331,10 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 169 Resillience
--- Original JASS function: Trig_Resillience_Conditions (line 11830)
 function Trig_Resillience_Conditions()
-    if ((not ((GetLearnedSkillBJ() == FourCC("A088"))))) then
-        do return false end
-    end
-    do return true end
+    return GetLearnedSkillBJ() == FourCC("A088")
 end
 
--- Original JASS function: Trig_Resillience_Actions (line 11837)
 function Trig_Resillience_Actions()
     udg_Resillence = __jreal(0.50)
     udg_ResillienceLvler = GetLearningUnit()
@@ -14744,7 +12342,6 @@ function Trig_Resillience_Actions()
     DisableTrigger(GetTriggeringTrigger())
 end
 
--- Original JASS function: InitTrig_Resillience (line 11845)
 function InitTrig_Resillience()
     gg_trg_Resillience = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Resillience, EVENT_PLAYER_HERO_SKILL)
@@ -14754,12 +12351,10 @@ end
 -- END FOREST SECTION 169
 
 -- BEGIN FOREST SECTION 170 Resillience_2
--- Original JASS function: Trig_Resillience_2_Actions (line 11855)
 function Trig_Resillience_2_Actions()
     SetUnitManaPercentBJ(udg_ResillienceLvler, (__jreal(GetUnitManaPercent(udg_ResillienceLvler) + udg_Resillence)))
 end
 
--- Original JASS function: InitTrig_Resillience_2 (line 11860)
 function InitTrig_Resillience_2()
     gg_trg_Resillience_2 = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Resillience_2, __jreal(1.00))
@@ -14768,20 +12363,14 @@ end
 -- END FOREST SECTION 170
 
 -- BEGIN FOREST SECTION 171 Resillience_3
--- Original JASS function: Trig_Resillience_3_Conditions (line 11869)
 function Trig_Resillience_3_Conditions()
-    if ((not ((GetLearnedSkillBJ() == FourCC("A088"))))) then
-        do return false end
-    end
-    do return true end
+    return GetLearnedSkillBJ() == FourCC("A088")
 end
 
--- Original JASS function: Trig_Resillience_3_Actions (line 11876)
 function Trig_Resillience_3_Actions()
     udg_Resillence = (__jreal(udg_Resillence + __jreal(0.50)))
 end
 
--- Original JASS function: InitTrig_Resillience_3 (line 11881)
 function InitTrig_Resillience_3()
     gg_trg_Resillience_3 = CreateTrigger()
     DisableTrigger(gg_trg_Resillience_3)
@@ -14797,20 +12386,14 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 172 Sandstorm
--- Original JASS function: Trig_Sandstorm_Conditions (line 11892)
 function Trig_Sandstorm_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A07Y"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A07Y")
 end
 
--- Original JASS function: Trig_Sandstorm_Actions (line 11899)
 function Trig_Sandstorm_Actions()
     SetUnitLifePercentBJ(GetSpellAbilityUnit(), (__jreal(GetUnitLifePercent(GetSpellAbilityUnit()) - __jreal(5.00))))
 end
 
--- Original JASS function: InitTrig_Sandstorm (line 11904)
 function InitTrig_Sandstorm()
     gg_trg_Sandstorm = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Sandstorm, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -14820,15 +12403,10 @@ end
 -- END FOREST SECTION 172
 
 -- BEGIN FOREST SECTION 173 Sandstorm_2
--- Original JASS function: Trig_Sandstorm_2_Conditions (line 11914)
 function Trig_Sandstorm_2_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A07Y"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A07Y")
 end
 
--- Original JASS function: Trig_Sandstorm_2_Actions (line 11921)
 function Trig_Sandstorm_2_Actions()
     local timer = CreateTimer()
     TimerStart(timer, 45, false, nil)
@@ -14840,7 +12418,6 @@ function Trig_Sandstorm_2_Actions()
     DestroyTimer(timer)
 end
 
--- Original JASS function: InitTrig_Sandstorm_2 (line 11929)
 function InitTrig_Sandstorm_2()
     gg_trg_Sandstorm_2 = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Sandstorm_2, EVENT_PLAYER_UNIT_SPELL_FINISH)
@@ -14850,41 +12427,19 @@ end
 -- END FOREST SECTION 173
 
 -- BEGIN FOREST SECTION 174 Ancient_Grasp
--- Original JASS function: Trig_Ancient_Grasp_Conditions (line 11939)
 function Trig_Ancient_Grasp_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A07Z"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A07Z")
 end
 
--- Original JASS function: Trig_Ancient_Grasp_Actions (line 11946)
 function Trig_Ancient_Grasp_Actions()
     local caster = GetSpellAbilityUnit()
     SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) - __jreal(10.00))))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
+    for pulse = 1, 10 do
+        TriggerSleepAction(__jreal(1.00))
+        SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(2.00))))
+    end
 end
 
--- Original JASS function: InitTrig_Ancient_Grasp (line 11971)
 function InitTrig_Ancient_Grasp()
     gg_trg_Ancient_Grasp = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ancient_Grasp, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -14894,20 +12449,14 @@ end
 -- END FOREST SECTION 174
 
 -- BEGIN FOREST SECTION 175 Deserts_Veil
--- Original JASS function: Trig_Deserts_Veil_Conditions (line 11981)
 function Trig_Deserts_Veil_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A080"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A080")
 end
 
--- Original JASS function: Trig_Deserts_Veil_Actions (line 11988)
 function Trig_Deserts_Veil_Actions()
     SetUnitLifePercentBJ(GetSpellAbilityUnit(), (__jreal(GetUnitLifePercent(GetSpellAbilityUnit()) + __jreal(30.00))))
 end
 
--- Original JASS function: InitTrig_Deserts_Veil (line 11993)
 function InitTrig_Deserts_Veil()
     gg_trg_Deserts_Veil = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Deserts_Veil, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -14922,22 +12471,16 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 176 Chill
--- Original JASS function: Trig_Chill_Conditions (line 12003)
 function Trig_Chill_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A00A"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A00A")
 end
 
--- Original JASS function: Trig_Chill_Actions (line 12010)
 function Trig_Chill_Actions()
     local caster = GetSpellAbilityUnit()
     TriggerSleepAction(__jreal(0.80))
     SetUnitLifeBJ(caster, (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, caster) + (__jreal(__jreal(0.50) * GetUnitStateSwap(UNIT_STATE_MAX_MANA, caster))))))
 end
 
--- Original JASS function: InitTrig_Chill (line 12016)
 function InitTrig_Chill()
     gg_trg_Chill = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Chill, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -14947,15 +12490,10 @@ end
 -- END FOREST SECTION 176
 
 -- BEGIN FOREST SECTION 177 Freeze_Zone
--- Original JASS function: Trig_Freeze_Zone_Conditions (line 12026)
 function Trig_Freeze_Zone_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0EX"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0EX")
 end
 
--- Original JASS function: Trig_Freeze_Zone_Actions (line 12033)
 function Trig_Freeze_Zone_Actions()
     local timer = CreateTimer()
     TimerStart(timer, 60, false, nil)
@@ -14967,7 +12505,6 @@ function Trig_Freeze_Zone_Actions()
     DestroyTimer(timer)
 end
 
--- Original JASS function: InitTrig_Freeze_Zone (line 12041)
 function InitTrig_Freeze_Zone()
     gg_trg_Freeze_Zone = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Freeze_Zone, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -14977,12 +12514,10 @@ end
 -- END FOREST SECTION 177
 
 -- BEGIN FOREST SECTION 178 Freeze_Zone_V2
--- Original JASS function: TP_IsValidTarget (line 12054)
 function TP_IsValidTarget(caster, target)
-    do return (((((((target ~= nil) and (target ~= caster)) and (GetWidgetLife(target) > __jreal(0.405))) and IsUnitEnemy(target, GetOwningPlayer(caster))) and (not IsUnitType(target, UNIT_TYPE_DEAD))) and (not IsUnitType(target, UNIT_TYPE_STRUCTURE))) and (not IsUnitType(target, UNIT_TYPE_MAGIC_IMMUNE))) end
+    return (((((((target ~= nil) and (target ~= caster)) and (GetWidgetLife(target) > __jreal(0.405))) and IsUnitEnemy(target, GetOwningPlayer(caster))) and (not IsUnitType(target, UNIT_TYPE_DEAD))) and (not IsUnitType(target, UNIT_TYPE_STRUCTURE))) and (not IsUnitType(target, UNIT_TYPE_MAGIC_IMMUNE)))
 end
 
--- Original JASS function: TP_DummyCastDelayed (line 12058)
 function TP_DummyCastDelayed()
     local t = GetExpiredTimer()
     local tid = GetHandleId(t)
@@ -15001,7 +12536,6 @@ function TP_DummyCastDelayed()
     t = nil
 end
 
--- Original JASS function: TP_CastDebuff (line 12079)
 function TP_CastDebuff(target, level)
     local t = CreateTimer()
     local tid = GetHandleId(t)
@@ -15010,7 +12544,7 @@ function TP_CastDebuff(target, level)
         DestroyTimer(t)
         dummy = nil
         t = nil
-        do return end
+        return
     end
     UnitAddAbility(dummy, TP_DEBUFF_ID)
     SetUnitAbilityLevel(dummy, TP_DEBUFF_ID, level)
@@ -15022,7 +12556,6 @@ function TP_CastDebuff(target, level)
     t = nil
 end
 
--- Original JASS function: TP_OnCast (line 12104)
 function TP_OnCast()
     local caster = GetTriggerUnit()
     local g = CreateGroup()
@@ -15049,12 +12582,10 @@ function TP_OnCast()
     caster = nil
 end
 
--- Original JASS function: TP_Condition (line 12136)
 function TP_Condition()
-    do return (GetSpellAbilityId() == TP_SPELL_ID) end
+    return (GetSpellAbilityId() == TP_SPELL_ID)
 end
 
--- Original JASS function: InitTrig_Freeze_Zone_V2 (line 12140)
 function InitTrig_Freeze_Zone_V2()
     local t = CreateTrigger()
     local i = 0
@@ -15078,15 +12609,10 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 179 Sadism
--- Original JASS function: Trig_Sadism_Conditions (line 12162)
 function Trig_Sadism_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A075"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A075")
 end
 
--- Original JASS function: Trig_Sadism_Actions (line 12169)
 function Trig_Sadism_Actions()
     local caster = GetSpellAbilityUnit()
     local iterations = 10
@@ -15100,7 +12626,6 @@ function Trig_Sadism_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Sadism (line 12182)
 function InitTrig_Sadism()
     gg_trg_Sadism = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Sadism, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -15110,15 +12635,10 @@ end
 -- END FOREST SECTION 179
 
 -- BEGIN FOREST SECTION 180 Reckoning
--- Original JASS function: Trig_Reckoning_Conditions (line 12193)
 function Trig_Reckoning_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A06W"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A06W")
 end
 
--- Original JASS function: Trig_Reckoning_Actions (line 12200)
 function Trig_Reckoning_Actions()
     udg_TSEDuration = __jreal(5.00)
     udg_TSEScale = __jreal(0.45)
@@ -15128,7 +12648,6 @@ function Trig_Reckoning_Actions()
     ConditionalTriggerExecute(udg_TSE_RegisterTrigger)
 end
 
--- Original JASS function: InitTrig_Reckoning (line 12210)
 function InitTrig_Reckoning()
     gg_trg_Reckoning = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Reckoning, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -15138,15 +12657,10 @@ end
 -- END FOREST SECTION 180
 
 -- BEGIN FOREST SECTION 181 Vanguard_Initial
--- Original JASS function: Trig_Vanguard_Initial_Conditions (line 12221)
 function Trig_Vanguard_Initial_Conditions()
-    if ((not ((GetLearnedSkillBJ() == FourCC("A06U"))))) then
-        do return false end
-    end
-    do return true end
+    return GetLearnedSkillBJ() == FourCC("A06U")
 end
 
--- Original JASS function: Trig_Vanguard_Initial_Actions (line 12228)
 function Trig_Vanguard_Initial_Actions()
     udg_VanguardHeal = (__jreal(udg_VanguardHeal + __jreal(100.00)))
     TriggerSleepAction(__jreal(5.00))
@@ -15154,7 +12668,6 @@ function Trig_Vanguard_Initial_Actions()
     DisableTrigger(GetTriggeringTrigger())
 end
 
--- Original JASS function: InitTrig_Vanguard_Initial (line 12236)
 function InitTrig_Vanguard_Initial()
     gg_trg_Vanguard_Initial = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Vanguard_Initial, EVENT_PLAYER_HERO_SKILL)
@@ -15164,20 +12677,14 @@ end
 -- END FOREST SECTION 181
 
 -- BEGIN FOREST SECTION 182 Vanguard_Future_Levels
--- Original JASS function: Trig_Vanguard_Future_Levels_Conditions (line 12246)
 function Trig_Vanguard_Future_Levels_Conditions()
-    if ((not ((GetLearnedSkillBJ() == FourCC("A06U"))))) then
-        do return false end
-    end
-    do return true end
+    return GetLearnedSkillBJ() == FourCC("A06U")
 end
 
--- Original JASS function: Trig_Vanguard_Future_Levels_Actions (line 12253)
 function Trig_Vanguard_Future_Levels_Actions()
     udg_VanguardHeal = (__jreal(udg_VanguardHeal + __jreal(50.00)))
 end
 
--- Original JASS function: InitTrig_Vanguard_Future_Levels (line 12258)
 function InitTrig_Vanguard_Future_Levels()
     gg_trg_Vanguard_Future_Levels = CreateTrigger()
     DisableTrigger(gg_trg_Vanguard_Future_Levels)
@@ -15188,31 +12695,18 @@ end
 -- END FOREST SECTION 182
 
 -- BEGIN FOREST SECTION 183 Vanguard
--- Original JASS function: Trig_Vanguard_Conditions (line 12269)
 function Trig_Vanguard_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A06U"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A06U")
 end
 
--- Original JASS function: Trig_Vanguard_Actions (line 12276)
 function Trig_Vanguard_Actions()
     local heal = udg_VanguardHeal
-    SetUnitLifeBJ(GetTriggerUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) + heal)))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifeBJ(GetTriggerUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) + heal)))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifeBJ(GetTriggerUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) + heal)))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifeBJ(GetTriggerUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) + heal)))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifeBJ(GetTriggerUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) + heal)))
-    TriggerSleepAction(__jreal(1.00))
-    SetUnitLifeBJ(GetTriggerUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) + heal)))
+    for pulse = 1, 6 do
+        SetUnitLifeBJ(GetTriggerUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) + heal)))
+        if pulse < 6 then TriggerSleepAction(__jreal(1.00)) end
+    end
 end
 
--- Original JASS function: InitTrig_Vanguard (line 12291)
 function InitTrig_Vanguard()
     gg_trg_Vanguard = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Vanguard, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -15222,15 +12716,10 @@ end
 -- END FOREST SECTION 183
 
 -- BEGIN FOREST SECTION 184 Omniscience_Initial
--- Original JASS function: Trig_Omniscience_Initial_Conditions (line 12301)
 function Trig_Omniscience_Initial_Conditions()
-    if ((not ((GetLearnedSkillBJ() == FourCC("A06X"))))) then
-        do return false end
-    end
-    do return true end
+    return GetLearnedSkillBJ() == FourCC("A06X")
 end
 
--- Original JASS function: Trig_Omniscience_Initial_Actions (line 12308)
 function Trig_Omniscience_Initial_Actions()
     udg_Div = GetLearningUnit()
     udg_Omni = 1
@@ -15239,7 +12728,6 @@ function Trig_Omniscience_Initial_Actions()
     DisableTrigger(GetTriggeringTrigger())
 end
 
--- Original JASS function: InitTrig_Omniscience_Initial (line 12317)
 function InitTrig_Omniscience_Initial()
     gg_trg_Omniscience_Initial = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Omniscience_Initial, EVENT_PLAYER_HERO_SKILL)
@@ -15249,20 +12737,14 @@ end
 -- END FOREST SECTION 184
 
 -- BEGIN FOREST SECTION 185 Omniscience_FL
--- Original JASS function: Trig_Omniscience_FL_Conditions (line 12327)
 function Trig_Omniscience_FL_Conditions()
-    if ((not ((GetLearnedSkillBJ() == FourCC("A06X"))))) then
-        do return false end
-    end
-    do return true end
+    return GetLearnedSkillBJ() == FourCC("A06X")
 end
 
--- Original JASS function: Trig_Omniscience_FL_Actions (line 12334)
 function Trig_Omniscience_FL_Actions()
     udg_Omni = (__jint(udg_Omni + 1))
 end
 
--- Original JASS function: InitTrig_Omniscience_FL (line 12339)
 function InitTrig_Omniscience_FL()
     gg_trg_Omniscience_FL = CreateTrigger()
     DisableTrigger(gg_trg_Omniscience_FL)
@@ -15273,12 +12755,10 @@ end
 -- END FOREST SECTION 185
 
 -- BEGIN FOREST SECTION 186 Omniscience
--- Original JASS function: Trig_Omniscience_Actions (line 12350)
 function Trig_Omniscience_Actions()
     AddHeroXPSwapped(udg_Omni, udg_Div, true)
 end
 
--- Original JASS function: InitTrig_Omniscience (line 12355)
 function InitTrig_Omniscience()
     gg_trg_Omniscience = CreateTrigger()
     DisableTrigger(gg_trg_Omniscience)
@@ -15288,21 +12768,15 @@ end
 -- END FOREST SECTION 186
 
 -- BEGIN FOREST SECTION 187 Redemption
--- Original JASS function: Trig_Redemption_Conditions (line 12365)
 function Trig_Redemption_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A06Y"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A06Y")
 end
 
--- Original JASS function: Trig_Redemption_Actions (line 12372)
 function Trig_Redemption_Actions()
     SetUnitLifePercentBJ(GetSpellAbilityUnit(), __jreal(100))
     SetUnitManaPercentBJ(GetSpellAbilityUnit(), __jreal(100))
 end
 
--- Original JASS function: InitTrig_Redemption (line 12378)
 function InitTrig_Redemption()
     gg_trg_Redemption = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Redemption, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -15325,7 +12799,6 @@ end
 -- END FOREST SECTION 189
 
 -- BEGIN FOREST SECTION 190 WindWalkWispari
--- Original JASS function: WW_Stop (line 12395)
 function WW_Stop(t, caster)
     if (caster ~= nil) then
         SaveBoolean(WW_Hash, GetHandleId(caster), 0, false)
@@ -15335,14 +12808,12 @@ function WW_Stop(t, caster)
     DestroyTimer(t)
 end
 
--- Original JASS function: WW_CreateSpawn (line 12405)
 function WW_CreateSpawn(caster)
     local spawned = CreateUnit(GetOwningPlayer(caster), WW_SPAWN_ID, GetUnitX(caster), GetUnitY(caster), GetUnitFacing(caster))
     UnitApplyTimedLife(spawned, FourCC("BTLF"), WW_SPAWN_LIFE)
     spawned = nil
 end
 
--- Original JASS function: WW_Loop (line 12413)
 function WW_Loop()
     local t = GetExpiredTimer()
     local caster = LoadUnitHandle(WW_Hash, GetHandleId(t), 0)
@@ -15350,38 +12821,36 @@ function WW_Loop()
         WW_Stop(t, caster)
         t = nil
         caster = nil
-        do return end
+        return
     end
     if (GetWidgetLife(caster) <= __jreal(0.405)) then
         WW_Stop(t, caster)
         t = nil
         caster = nil
-        do return end
+        return
     end
     if (GetUnitAbilityLevel(caster, WW_BUFF_ID) <= 0) then
         WW_Stop(t, caster)
         t = nil
         caster = nil
-        do return end
+        return
     end
     WW_CreateSpawn(caster)
     caster = nil
     t = nil
 end
 
--- Original JASS function: WW_Conditions (line 12444)
 function WW_Conditions()
-    do return (GetSpellAbilityId() == WW_ABILITY_ID) end
+    return (GetSpellAbilityId() == WW_ABILITY_ID)
 end
 
--- Original JASS function: WW_Actions (line 12448)
 function WW_Actions()
     local caster = GetTriggerUnit()
     local casterId = GetHandleId(caster)
     local t = nil
     if LoadBoolean(WW_Hash, casterId, 0) then
         caster = nil
-        do return end
+        return
     end
     SaveBoolean(WW_Hash, casterId, 0, true)
     WW_CreateSpawn(caster)
@@ -15392,7 +12861,6 @@ function WW_Actions()
     caster = nil
 end
 
--- Original JASS function: InitTrig_WindWalkWispari (line 12471)
 function InitTrig_WindWalkWispari()
     local trg = CreateTrigger()
     local i = 0
@@ -15408,14 +12876,12 @@ end
 -- END FOREST SECTION 190
 
 -- BEGIN FOREST SECTION 191 TornadoMove
--- Original JASS function: Tornado_Clear_Caster (line 12490)
 function Tornado_Clear_Caster(caster)
     if (caster ~= nil) then
         FlushChildHashtable(udg_TornadoHash, GetHandleId(caster))
     end
 end
 
--- Original JASS function: Tornado_Begin_Death (line 12496)
 function Tornado_Begin_Death(t)
     local id = GetHandleId(t)
     local fx = LoadEffectHandle(udg_TornadoHash, id, TORNADO_KEY_EFFECT)
@@ -15424,7 +12890,7 @@ function Tornado_Begin_Death(t)
         fx = nil
         caster = nil
         t = nil
-        do return end
+        return
     end
     SaveBoolean(udg_TornadoHash, id, TORNADO_KEY_DYING, true)
     if (caster ~= nil) then
@@ -15441,34 +12907,32 @@ function Tornado_Begin_Death(t)
     t = nil
 end
 
--- Original JASS function: Tornado_Caster_Channel_Broken (line 12527)
 function Tornado_Caster_Channel_Broken(caster, startX, startY)
     local dx = 0.0
     local dy = 0.0
     if (caster == nil) then
-        do return true end
+        return true
     end
     if (GetWidgetLife(caster) <= __jreal(0.405)) then
-        do return true end
+        return true
     end
     if IsUnitPaused(caster) then
-        do return true end
+        return true
     end
     if IsUnitType(caster, UNIT_TYPE_STUNNED) then
-        do return true end
+        return true
     end
     if IsUnitType(caster, UNIT_TYPE_POLYMORPHED) then
-        do return true end
+        return true
     end
     if IsUnitType(caster, UNIT_TYPE_SLEEPING) then
-        do return true end
+        return true
     end
     dx = __jreal(GetUnitX(caster) - startX)
     dy = __jreal(GetUnitY(caster) - startY)
-    do return (__jreal(__jreal(dx * dx) + __jreal(dy * dy)) > __jreal(TORNADO_MOVE_TOLERANCE * TORNADO_MOVE_TOLERANCE)) end
+    return (__jreal(__jreal(dx * dx) + __jreal(dy * dy)) > __jreal(TORNADO_MOVE_TOLERANCE * TORNADO_MOVE_TOLERANCE))
 end
 
--- Original JASS function: Tornado_Line_Loop (line 12561)
 function Tornado_Line_Loop()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -15493,14 +12957,14 @@ function Tornado_Line_Loop()
         DestroyTimer(t)
         caster = nil
         t = nil
-        do return end
+        return
     end
     if (channelActive and Tornado_Caster_Channel_Broken(caster, startX, startY)) then
         Tornado_Begin_Death(t)
         fx = nil
         caster = nil
         t = nil
-        do return end
+        return
     end
     if (__jreal(traveled + step) > maxDistance) then
         step = __jreal(maxDistance - traveled)
@@ -15530,7 +12994,6 @@ function Tornado_Line_Loop()
     t = nil
 end
 
--- Original JASS function: Tornado_Line_Actions (line 12639)
 function Tornado_Line_Actions()
     local caster = GetTriggerUnit()
     local casterId = GetHandleId(caster)
@@ -15586,7 +13049,6 @@ function Tornado_Line_Actions()
     old = nil
 end
 
--- Original JASS function: Tornado_Line_Endcast_Actions (line 12710)
 function Tornado_Line_Endcast_Actions()
     local caster = GetTriggerUnit()
     local casterId = GetHandleId(caster)
@@ -15608,12 +13070,10 @@ function Tornado_Line_Endcast_Actions()
     t = nil
 end
 
--- Original JASS function: Tornado_Line_Conditions (line 12734)
 function Tornado_Line_Conditions()
-    do return (GetSpellAbilityId() == TORNADO_ABILITY_ID) end
+    return (GetSpellAbilityId() == TORNADO_ABILITY_ID)
 end
 
--- Original JASS function: InitTrig_TornadoMove (line 12738)
 function InitTrig_TornadoMove()
     local trg = CreateTrigger()
     local endTrg = CreateTrigger()
@@ -15637,12 +13097,10 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 192 Sit_tight
--- Original JASS function: Trig_Sit_tight_Actions (line 12760)
 function Trig_Sit_tight_Actions()
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_549")
 end
 
--- Original JASS function: InitTrig_Sit_tight (line 12765)
 function InitTrig_Sit_tight()
     gg_trg_Sit_tight = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Sit_tight, __jreal(25.00))
@@ -15651,14 +13109,12 @@ end
 -- END FOREST SECTION 192
 
 -- BEGIN FOREST SECTION 193 ClearOnEsc
--- Original JASS function: Trig_ClearMessagesOnEsc_Actions (line 12774)
 function Trig_ClearMessagesOnEsc_Actions()
     if (GetLocalPlayer() == GetTriggerPlayer()) then
         ClearTextMessages()
     end
 end
 
--- Original JASS function: InitTrig_ClearOnEsc (line 12780)
 function InitTrig_ClearOnEsc()
     local t = CreateTrigger()
     local i = 0
@@ -15673,7 +13129,6 @@ end
 -- END FOREST SECTION 193
 
 -- BEGIN FOREST SECTION 194 InitialText
--- Original JASS function: Trig_InitialText_Actions (line 12797)
 function Trig_InitialText_Actions()
     local redForce = CreateForce()
     ForceAddPlayer(redForce, Player(0))
@@ -15693,7 +13148,6 @@ function Trig_InitialText_Actions()
     redForce = nil
 end
 
--- Original JASS function: InitTrig_InitialText (line 12821)
 function InitTrig_InitialText()
     gg_trg_InitialText = CreateTrigger()
     TriggerAddAction(gg_trg_InitialText, Trig_InitialText_Actions)
@@ -15701,12 +13155,10 @@ end
 -- END FOREST SECTION 194
 
 -- BEGIN FOREST SECTION 195 Welcome
--- Original JASS function: Trig_Welcome_Actions (line 12830)
 function Trig_Welcome_Actions()
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_336")
 end
 
--- Original JASS function: InitTrig_Welcome (line 12835)
 function InitTrig_Welcome()
     gg_trg_Welcome = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Welcome, __jreal(20.00))
@@ -15715,12 +13167,10 @@ end
 -- END FOREST SECTION 195
 
 -- BEGIN FOREST SECTION 196 Info_Copy
--- Original JASS function: Trig_Info_Copy_Actions (line 12844)
 function Trig_Info_Copy_Actions()
     DisplayTimedTextToForce(bj_FORCE_PLAYER[6], __jreal(20.00), "TRIGSTR_469")
 end
 
--- Original JASS function: InitTrig_Info_Copy (line 12849)
 function InitTrig_Info_Copy()
     gg_trg_Info_Copy = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Info_Copy, __jreal(40.00))
@@ -15729,12 +13179,10 @@ end
 -- END FOREST SECTION 196
 
 -- BEGIN FOREST SECTION 197 Info
--- Original JASS function: Trig_Info_Actions (line 12858)
 function Trig_Info_Actions()
     DisplayTimedTextToForce(bj_FORCE_PLAYER[6], __jreal(45.00), "TRIGSTR_7352")
 end
 
--- Original JASS function: InitTrig_Info (line 12863)
 function InitTrig_Info()
     gg_trg_Info = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Info, __jreal(70.00))
@@ -15743,12 +13191,10 @@ end
 -- END FOREST SECTION 197
 
 -- BEGIN FOREST SECTION 198 Ping_Hint
--- Original JASS function: Trig_Ping_Hint_Actions (line 12872)
 function Trig_Ping_Hint_Actions()
     DisplayTextToForce(GetPlayersEnemies(FE_Roles.ancient()), "TRIGSTR_3139")
 end
 
--- Original JASS function: InitTrig_Ping_Hint (line 12877)
 function InitTrig_Ping_Hint()
     gg_trg_Ping_Hint = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Ping_Hint, __jreal(70.00))
@@ -15757,12 +13203,10 @@ end
 -- END FOREST SECTION 198
 
 -- BEGIN FOREST SECTION 199 Hint2x2
--- Original JASS function: Trig_Hint2x2_Actions (line 12886)
 function Trig_Hint2x2_Actions()
     DisplayTextToForce(GetPlayersEnemies(FE_Roles.ancient()), "TRIGSTR_5110")
 end
 
--- Original JASS function: InitTrig_Hint2x2 (line 12891)
 function InitTrig_Hint2x2()
     gg_trg_Hint2x2 = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Hint2x2, __jreal(90.00))
@@ -15771,12 +13215,10 @@ end
 -- END FOREST SECTION 199
 
 -- BEGIN FOREST SECTION 200 HintInvisibility
--- Original JASS function: Trig_HintInvisibility_Actions (line 12900)
 function Trig_HintInvisibility_Actions()
     DisplayTextToForce(GetPlayersEnemies(FE_Roles.ancient()), "TRIGSTR_5166")
 end
 
--- Original JASS function: InitTrig_HintInvisibility (line 12905)
 function InitTrig_HintInvisibility()
     gg_trg_HintInvisibility = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_HintInvisibility, __jreal(110.00))
@@ -15785,12 +13227,10 @@ end
 -- END FOREST SECTION 200
 
 -- BEGIN FOREST SECTION 201 HintFeed
--- Original JASS function: Trig_HintFeed_Actions (line 12914)
 function Trig_HintFeed_Actions()
     DisplayTextToForce(GetPlayersEnemies(FE_Roles.ancient()), "TRIGSTR_5775")
 end
 
--- Original JASS function: InitTrig_HintFeed (line 12919)
 function InitTrig_HintFeed()
     gg_trg_HintFeed = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_HintFeed, __jreal(260.00))
@@ -15799,12 +13239,10 @@ end
 -- END FOREST SECTION 201
 
 -- BEGIN FOREST SECTION 202 Resource_Hint
--- Original JASS function: Trig_Resource_Hint_Actions (line 12928)
 function Trig_Resource_Hint_Actions()
     DisplayTextToForce(FE_Roster.expanderForce(), "TRIGSTR_7317")
 end
 
--- Original JASS function: InitTrig_Resource_Hint (line 12933)
 function InitTrig_Resource_Hint()
     gg_trg_Resource_Hint = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Resource_Hint, __jreal(300.00))
@@ -15813,18 +13251,22 @@ end
 -- END FOREST SECTION 202
 
 -- BEGIN FOREST SECTION 203 Ping
--- Original JASS function: Trig_Ping_Actions (line 12942)
-function Trig_Ping_Actions()
-    PingMinimapLocForForce(GetPlayersAllies(GetTriggerPlayer()), GetRectCenter(gg_rct_Ping1), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(GetTriggerPlayer()), GetRectCenter(gg_rct_Ping2), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(GetTriggerPlayer()), GetRectCenter(gg_rct_Ping3), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(GetTriggerPlayer()), GetRectCenter(gg_rct_Ping4), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(GetTriggerPlayer()), GetRectCenter(gg_rct_Ping5), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(GetTriggerPlayer()), GetRectCenter(gg_rct_Ping6), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(GetTriggerPlayer()), GetRectCenter(gg_rct_Ping7), __jreal(3.00))
+-- Resolve the player and region separately for every ping. Both helpers return
+-- newly owned handles; release those handles without touching shared forces.
+local function pingGoldRegions(playerForPing)
+    for index = 1, 7 do
+        local allies = GetPlayersAllies(playerForPing())
+        local center = GetRectCenter(_G["gg_rct_Ping" .. index])
+        PingMinimapLocForForce(allies, center, __jreal(3.00))
+        RemoveLocation(center)
+        DestroyForce(allies)
+    end
 end
 
--- Original JASS function: InitTrig_Ping (line 12953)
+function Trig_Ping_Actions()
+    pingGoldRegions(GetTriggerPlayer)
+end
+
 function InitTrig_Ping()
     gg_trg_Ping = CreateTrigger()
     TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(0), "-gold", true)
@@ -15842,18 +13284,10 @@ end
 -- END FOREST SECTION 203
 
 -- BEGIN FOREST SECTION 204 PingForAncient
--- Original JASS function: Trig_PingForAncient_Actions (line 12971)
 function Trig_PingForAncient_Actions()
-    PingMinimapLocForForce(GetPlayersAllies(FE_Roles.ancient()), GetRectCenter(gg_rct_Ping1), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(FE_Roles.ancient()), GetRectCenter(gg_rct_Ping2), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(FE_Roles.ancient()), GetRectCenter(gg_rct_Ping3), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(FE_Roles.ancient()), GetRectCenter(gg_rct_Ping4), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(FE_Roles.ancient()), GetRectCenter(gg_rct_Ping5), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(FE_Roles.ancient()), GetRectCenter(gg_rct_Ping6), __jreal(3.00))
-    PingMinimapLocForForce(GetPlayersAllies(FE_Roles.ancient()), GetRectCenter(gg_rct_Ping7), __jreal(3.00))
+    pingGoldRegions(FE_Roles.ancient)
 end
 
--- Original JASS function: InitTrig_PingForAncient (line 12982)
 function InitTrig_PingForAncient()
     gg_trg_PingForAncient = CreateTrigger()
     FE_Roles.registerAncientChatEvent(gg_trg_PingForAncient, "-gold", true)
@@ -15867,81 +13301,12 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 206 Start
--- Original JASS function: Trig_Start_Func001C (line 13720)
-function Trig_Start_Func001C()
-    if ((not ((GetPlayerController(FE_Roles.ancient()) ~= MAP_CONTROL_USER)))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Start_Actions (line 13727)
-function Trig_Start_Actions()
-    if (Trig_Start_Func001C()) then
-        EnableTrigger(gg_trg_Hard_mode_on)
-        EnableTrigger(gg_trg_Select)
-        EnableTrigger(gg_trg_Abilities)
-        EnableTrigger(gg_trg_Attack)
-        TriggerSleepAction(__jreal(2))
-        DisplayTextToForce(FE_Roster.expanderForce(), "TRIGSTR_7143")
-    else
-        DoNothing()
-    end
-end
-
--- Original JASS function: InitTrig_Start (line 13741)
-function InitTrig_Start()
-    gg_trg_Start = CreateTrigger()
-    TriggerAddAction(gg_trg_Start, Trig_Start_Actions)
-end
--- END FOREST SECTION 206
-
--- BEGIN FOREST SECTION 207 Hard_mode_on
--- Original JASS function: Trig_Hard_mode_on_Actions (line 13749)
-function Trig_Hard_mode_on_Actions()
-    DisplayTextToForce(FE_Roster.expanderForce(), "TRIGSTR_7144")
-    DisableTrigger(gg_trg_Attack)
-    EnableTrigger(gg_trg_Hard_Attack)
-end
-
--- Original JASS function: InitTrig_Hard_mode_on (line 13756)
-function InitTrig_Hard_mode_on()
-    gg_trg_Hard_mode_on = CreateTrigger()
-    DisableTrigger(gg_trg_Hard_mode_on)
-    TriggerRegisterPlayerChatEvent(gg_trg_Hard_mode_on, Player(0), "-hm", true)
-    TriggerAddAction(gg_trg_Hard_mode_on, Trig_Hard_mode_on_Actions)
-end
--- END FOREST SECTION 207
-
--- BEGIN FOREST SECTION 208 Hard_Attack
--- Original JASS function: Trig_Hard_Attack_Conditions (line 13766)
-function Trig_Hard_Attack_Conditions()
-    if ((not ((IsUnitEnemy(GetTriggerUnit(), FE_Roles.ancient()) == true)))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Hard_Attack_Func002002001 (line 13773)
-function Trig_Hard_Attack_Func002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient())) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Func002002002001 (line 13777)
-function Trig_Hard_Attack_Func002002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Func002002002002001 (line 13781)
-function Trig_Hard_Attack_Func002002002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Func002002 (line 13785)
-function Trig_Hard_Attack_Func002002()
-    if (((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient()))) then
-        if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE)))) then
-            if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE)))) then
+-- This preserves rejected random draws, recursive trigger retries and the
+-- original order callback for each entry point. Do not prefilter the pool here.
+local function HardAIChooseCandidate()
+    if (GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient()) then
+        if (GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE)) then
+            if (GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE)) then
                 udg_Hardunit = GetUnitLoc(GetEnumUnit())
             else
                 TriggerExecute(gg_trg_Hard_attack_2)
@@ -15954,19 +13319,65 @@ function Trig_Hard_Attack_Func002002()
     end
 end
 
--- Original JASS function: Trig_Hard_Attack_Func003002 (line 13801)
+local function HardAISelectAndOrder(candidate, order)
+    ForGroupBJ(GetRandomSubGroup(1, GetUnitsInRectAll(GetPlayableMapRect())), candidate)
+    ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), order)
+end
+
+function Trig_Start_Func001C()
+    return GetPlayerController(FE_Roles.ancient()) ~= MAP_CONTROL_USER
+end
+
+function Trig_Start_Actions()
+    if (Trig_Start_Func001C()) then
+        EnableTrigger(gg_trg_Hard_mode_on)
+        EnableTrigger(gg_trg_Select)
+        EnableTrigger(gg_trg_Abilities)
+        EnableTrigger(gg_trg_Attack)
+        TriggerSleepAction(__jreal(2))
+        DisplayTextToForce(FE_Roster.expanderForce(), "TRIGSTR_7143")
+    end
+end
+
+function InitTrig_Start()
+    gg_trg_Start = CreateTrigger()
+    TriggerAddAction(gg_trg_Start, Trig_Start_Actions)
+end
+-- END FOREST SECTION 206
+
+-- BEGIN FOREST SECTION 207 Hard_mode_on
+function Trig_Hard_mode_on_Actions()
+    DisplayTextToForce(FE_Roster.expanderForce(), "TRIGSTR_7144")
+    DisableTrigger(gg_trg_Attack)
+    EnableTrigger(gg_trg_Hard_Attack)
+end
+
+function InitTrig_Hard_mode_on()
+    gg_trg_Hard_mode_on = CreateTrigger()
+    DisableTrigger(gg_trg_Hard_mode_on)
+    TriggerRegisterPlayerChatEvent(gg_trg_Hard_mode_on, Player(0), "-hm", true)
+    TriggerAddAction(gg_trg_Hard_mode_on, Trig_Hard_mode_on_Actions)
+end
+-- END FOREST SECTION 207
+
+-- BEGIN FOREST SECTION 208 Hard_Attack
+function Trig_Hard_Attack_Conditions()
+    return IsUnitEnemy(GetTriggerUnit(), FE_Roles.ancient()) == true
+end
+
+function Trig_Hard_Attack_Func002002()
+    HardAIChooseCandidate()
+end
+
 function Trig_Hard_Attack_Func003002()
     IssuePointOrderLocBJ(GetEnumUnit(), "attack", udg_Hardunit)
 end
 
--- Original JASS function: Trig_Hard_Attack_Actions (line 13805)
 function Trig_Hard_Attack_Actions()
-    ForGroupBJ(GetRandomSubGroup(1, GetUnitsInRectAll(GetPlayableMapRect())), Trig_Hard_Attack_Func002002)
-    ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), Trig_Hard_Attack_Func003002)
+    HardAISelectAndOrder(Trig_Hard_Attack_Func002002, Trig_Hard_Attack_Func003002)
     EnableTrigger(gg_trg_Hard_Attack_Cont)
 end
 
--- Original JASS function: InitTrig_Hard_Attack (line 13812)
 function InitTrig_Hard_Attack()
     gg_trg_Hard_Attack = CreateTrigger()
     DisableTrigger(gg_trg_Hard_Attack)
@@ -15978,58 +13389,22 @@ end
 -- END FOREST SECTION 208
 
 -- BEGIN FOREST SECTION 209 Hard_Attack_Cont
--- Original JASS function: Trig_Hard_Attack_Cont_Conditions (line 13824)
 function Trig_Hard_Attack_Cont_Conditions()
-    if ((not ((IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true
 end
 
--- Original JASS function: Trig_Hard_Attack_Cont_Func003002001 (line 13831)
-function Trig_Hard_Attack_Cont_Func003002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient())) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Cont_Func003002002001 (line 13835)
-function Trig_Hard_Attack_Cont_Func003002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Cont_Func003002002002001 (line 13839)
-function Trig_Hard_Attack_Cont_Func003002002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Cont_Func003002 (line 13843)
 function Trig_Hard_Attack_Cont_Func003002()
-    if (((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient()))) then
-        if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE)))) then
-            if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE)))) then
-                udg_Hardunit = GetUnitLoc(GetEnumUnit())
-            else
-                TriggerExecute(gg_trg_Hard_attack_2)
-            end
-        else
-            TriggerExecute(gg_trg_Hard_attack_2)
-        end
-    else
-        TriggerExecute(gg_trg_Hard_attack_2)
-    end
+    HardAIChooseCandidate()
 end
 
--- Original JASS function: Trig_Hard_Attack_Cont_Func004002 (line 13859)
 function Trig_Hard_Attack_Cont_Func004002()
     IssuePointOrderLocBJ(GetEnumUnit(), "attack", udg_Hardunit)
 end
 
--- Original JASS function: Trig_Hard_Attack_Cont_Actions (line 13863)
 function Trig_Hard_Attack_Cont_Actions()
-    ForGroupBJ(GetRandomSubGroup(1, GetUnitsInRectAll(GetPlayableMapRect())), Trig_Hard_Attack_Cont_Func003002)
-    ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), Trig_Hard_Attack_Cont_Func004002)
+    HardAISelectAndOrder(Trig_Hard_Attack_Cont_Func003002, Trig_Hard_Attack_Cont_Func004002)
 end
 
--- Original JASS function: InitTrig_Hard_Attack_Cont (line 13869)
 function InitTrig_Hard_Attack_Cont()
     gg_trg_Hard_Attack_Cont = CreateTrigger()
     DisableTrigger(gg_trg_Hard_Attack_Cont)
@@ -16040,50 +13415,19 @@ end
 -- END FOREST SECTION 209
 
 -- BEGIN FOREST SECTION 210 Hard_attack_2
--- Original JASS function: Trig_Hard_attack_2_Func001002001 (line 13880)
-function Trig_Hard_attack_2_Func001002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient())) end
-end
 
--- Original JASS function: Trig_Hard_attack_2_Func001002002001 (line 13884)
-function Trig_Hard_attack_2_Func001002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_attack_2_Func001002002002001 (line 13888)
-function Trig_Hard_attack_2_Func001002002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_attack_2_Func001002 (line 13892)
 function Trig_Hard_attack_2_Func001002()
-    if (((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient()))) then
-        if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE)))) then
-            if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE)))) then
-                udg_Hardunit = GetUnitLoc(GetEnumUnit())
-            else
-                TriggerExecute(gg_trg_Hard_attack_2)
-            end
-        else
-            TriggerExecute(gg_trg_Hard_attack_2)
-        end
-    else
-        TriggerExecute(gg_trg_Hard_attack_2)
-    end
+    HardAIChooseCandidate()
 end
 
--- Original JASS function: Trig_Hard_attack_2_Func002002 (line 13908)
 function Trig_Hard_attack_2_Func002002()
     IssuePointOrderLocBJ(GetEnumUnit(), "attack", GetUnitLoc(GetFilterUnit()))
 end
 
--- Original JASS function: Trig_Hard_attack_2_Actions (line 13912)
 function Trig_Hard_attack_2_Actions()
-    ForGroupBJ(GetRandomSubGroup(1, GetUnitsInRectAll(GetPlayableMapRect())), Trig_Hard_attack_2_Func001002)
-    ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), Trig_Hard_attack_2_Func002002)
+    HardAISelectAndOrder(Trig_Hard_attack_2_Func001002, Trig_Hard_attack_2_Func002002)
 end
 
--- Original JASS function: InitTrig_Hard_attack_2 (line 13918)
 function InitTrig_Hard_attack_2()
     gg_trg_Hard_attack_2 = CreateTrigger()
     DisableTrigger(gg_trg_Hard_attack_2)
@@ -16092,12 +13436,10 @@ end
 -- END FOREST SECTION 210
 
 -- BEGIN FOREST SECTION 211 Select
--- Original JASS function: Trig_Select_Func026002 (line 13927)
 function Trig_Select_Func026002()
     RemoveUnit(GetEnumUnit())
 end
 
--- Original JASS function: Trig_Select_Actions (line 13931)
 function Trig_Select_Actions()
     udg_Ancients[1] = FourCC("O004")
     udg_Ancients[2] = FourCC("O004")
@@ -16131,7 +13473,6 @@ function Trig_Select_Actions()
     EnableTrigger(gg_trg_Slot1_Righteous_Armor)
 end
 
--- Original JASS function: InitTrig_Select (line 13965)
 function InitTrig_Select()
     gg_trg_Select = CreateTrigger()
     DisableTrigger(gg_trg_Select)
@@ -16141,12 +13482,10 @@ end
 -- END FOREST SECTION 211
 
 -- BEGIN FOREST SECTION 212 Attack
--- Original JASS function: Trig_Attack_Func017002 (line 13975)
 function Trig_Attack_Func017002()
     IssuePointOrderLocBJ(GetEnumUnit(), "attack", GetRectCenter(udg_Moveto[GetRandomInt(1, 16)]))
 end
 
--- Original JASS function: Trig_Attack_Actions (line 13979)
 function Trig_Attack_Actions()
     udg_Moveto[1] = gg_rct_Ping1
     udg_Moveto[2] = gg_rct_Ping2
@@ -16167,7 +13506,6 @@ function Trig_Attack_Actions()
     ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), Trig_Attack_Func017002)
 end
 
--- Original JASS function: InitTrig_Attack (line 14000)
 function InitTrig_Attack()
     gg_trg_Attack = CreateTrigger()
     DisableTrigger(gg_trg_Attack)
@@ -16177,11 +13515,9 @@ end
 -- END FOREST SECTION 212
 
 -- BEGIN FOREST SECTION 213 Run_away
--- Original JASS function: Trig_Run_away_Actions (line 14012)
 function Trig_Run_away_Actions()
 end
 
--- Original JASS function: InitTrig_Run_away (line 14016)
 function InitTrig_Run_away()
     gg_trg_Run_away = CreateTrigger()
     DisableTrigger(gg_trg_Run_away)
@@ -16190,7 +13526,6 @@ end
 -- END FOREST SECTION 213
 
 -- BEGIN FOREST SECTION 214 Slot1_Righteous_Armor
--- Original JASS function: Trig_Slot1_Righteous_Armor_Actions (line 14025)
 function Trig_Slot1_Righteous_Armor_Actions()
     UnitAddItemByIdSwapped(FourCC("I012"), udg_AncientUnit)
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I012")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
@@ -16198,7 +13533,6 @@ function Trig_Slot1_Righteous_Armor_Actions()
     EnableTrigger(gg_trg_Slot2_Valor_Helmet)
 end
 
--- Original JASS function: InitTrig_Slot1_Righteous_Armor (line 14033)
 function InitTrig_Slot1_Righteous_Armor()
     gg_trg_Slot1_Righteous_Armor = CreateTrigger()
     DisableTrigger(gg_trg_Slot1_Righteous_Armor)
@@ -16208,7 +13542,6 @@ end
 -- END FOREST SECTION 214
 
 -- BEGIN FOREST SECTION 215 Slot2_Valor_Helmet
--- Original JASS function: Trig_Slot2_Valor_Helmet_Actions (line 14043)
 function Trig_Slot2_Valor_Helmet_Actions()
     UnitAddItemByIdSwapped(FourCC("I015"), udg_AncientUnit)
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I015")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
@@ -16216,7 +13549,6 @@ function Trig_Slot2_Valor_Helmet_Actions()
     EnableTrigger(gg_trg_Slot3_Bladed_Gauntlet)
 end
 
--- Original JASS function: InitTrig_Slot2_Valor_Helmet (line 14051)
 function InitTrig_Slot2_Valor_Helmet()
     gg_trg_Slot2_Valor_Helmet = CreateTrigger()
     DisableTrigger(gg_trg_Slot2_Valor_Helmet)
@@ -16226,7 +13558,6 @@ end
 -- END FOREST SECTION 215
 
 -- BEGIN FOREST SECTION 216 Slot3_Bladed_Gauntlet
--- Original JASS function: Trig_Slot3_Bladed_Gauntlet_Actions (line 14061)
 function Trig_Slot3_Bladed_Gauntlet_Actions()
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I012")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
     UnitAddItemByIdSwapped(FourCC("I012"), udg_AncientUnit)
@@ -16234,7 +13565,6 @@ function Trig_Slot3_Bladed_Gauntlet_Actions()
     EnableTrigger(gg_trg_Slot4_Bladed_Gauntlet)
 end
 
--- Original JASS function: InitTrig_Slot3_Bladed_Gauntlet (line 14069)
 function InitTrig_Slot3_Bladed_Gauntlet()
     gg_trg_Slot3_Bladed_Gauntlet = CreateTrigger()
     DisableTrigger(gg_trg_Slot3_Bladed_Gauntlet)
@@ -16244,7 +13574,6 @@ end
 -- END FOREST SECTION 216
 
 -- BEGIN FOREST SECTION 217 Slot4_Bladed_Gauntlet
--- Original JASS function: Trig_Slot4_Bladed_Gauntlet_Actions (line 14079)
 function Trig_Slot4_Bladed_Gauntlet_Actions()
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I012")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
     UnitAddItemByIdSwapped(FourCC("I012"), udg_AncientUnit)
@@ -16252,7 +13581,6 @@ function Trig_Slot4_Bladed_Gauntlet_Actions()
     EnableTrigger(gg_trg_Slot5_Bladed_Gauntlet)
 end
 
--- Original JASS function: InitTrig_Slot4_Bladed_Gauntlet (line 14087)
 function InitTrig_Slot4_Bladed_Gauntlet()
     gg_trg_Slot4_Bladed_Gauntlet = CreateTrigger()
     DisableTrigger(gg_trg_Slot4_Bladed_Gauntlet)
@@ -16262,7 +13590,6 @@ end
 -- END FOREST SECTION 217
 
 -- BEGIN FOREST SECTION 218 Slot5_Bladed_Gauntlet
--- Original JASS function: Trig_Slot5_Bladed_Gauntlet_Actions (line 14097)
 function Trig_Slot5_Bladed_Gauntlet_Actions()
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I012")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
     UnitAddItemByIdSwapped(FourCC("I012"), udg_AncientUnit)
@@ -16270,7 +13597,6 @@ function Trig_Slot5_Bladed_Gauntlet_Actions()
     EnableTrigger(gg_trg_Slot6_Bladed_Gauntlet)
 end
 
--- Original JASS function: InitTrig_Slot5_Bladed_Gauntlet (line 14105)
 function InitTrig_Slot5_Bladed_Gauntlet()
     gg_trg_Slot5_Bladed_Gauntlet = CreateTrigger()
     DisableTrigger(gg_trg_Slot5_Bladed_Gauntlet)
@@ -16280,7 +13606,6 @@ end
 -- END FOREST SECTION 218
 
 -- BEGIN FOREST SECTION 219 Slot6_Bladed_Gauntlet
--- Original JASS function: Trig_Slot6_Bladed_Gauntlet_Actions (line 14115)
 function Trig_Slot6_Bladed_Gauntlet_Actions()
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I012")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
     UnitAddItemByIdSwapped(FourCC("I012"), udg_AncientUnit)
@@ -16288,7 +13613,6 @@ function Trig_Slot6_Bladed_Gauntlet_Actions()
     EnableTrigger(gg_trg_Level_Up_Tomes)
 end
 
--- Original JASS function: InitTrig_Slot6_Bladed_Gauntlet (line 14123)
 function InitTrig_Slot6_Bladed_Gauntlet()
     gg_trg_Slot6_Bladed_Gauntlet = CreateTrigger()
     DisableTrigger(gg_trg_Slot6_Bladed_Gauntlet)
@@ -16299,13 +13623,11 @@ end
 
 -- BEGIN FOREST SECTION 220 Level_Up_Tomes
 -- AI uses a powerup tome with a full inventory, at the player shop tome price.
--- Original JASS function: Trig_Level_Up_Tomes_Actions (line 14133)
 function Trig_Level_Up_Tomes_Actions()
     UnitAddItemByIdSwapped(FourCC("I003"), udg_AncientUnit)
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I00J")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
 end
 
--- Original JASS function: InitTrig_Level_Up_Tomes (line 14139)
 function InitTrig_Level_Up_Tomes()
     gg_trg_Level_Up_Tomes = CreateTrigger()
     DisableTrigger(gg_trg_Level_Up_Tomes)
@@ -16315,79 +13637,42 @@ end
 -- END FOREST SECTION 220
 
 -- BEGIN FOREST SECTION 221 Abilities
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007Func001Func001C (line 14149)
 function Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007Func001Func001C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O01V"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O01V")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007Func001C (line 14156)
 function Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007Func001C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O01D"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O01D")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007C (line 14163)
 function Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O016"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O016")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007Func006Func007C (line 14170)
 function Trig_Abilities_Func001Func007Func007Func007Func006Func007C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O00D"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O00D")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007Func006C (line 14177)
 function Trig_Abilities_Func001Func007Func007Func007Func006C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O008"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O008")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007C (line 14184)
 function Trig_Abilities_Func001Func007Func007Func007C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O004"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O004")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007C (line 14191)
 function Trig_Abilities_Func001Func007Func007C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O00L"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O00L")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007C (line 14198)
 function Trig_Abilities_Func001Func007C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O00S"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O00S")
 end
 
--- Original JASS function: Trig_Abilities_Func001C (line 14205)
 function Trig_Abilities_Func001C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O00A"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O00A")
 end
 
--- Original JASS function: Trig_Abilities_Actions (line 14212)
 function Trig_Abilities_Actions()
     if (Trig_Abilities_Func001C()) then
         SelectHeroSkill(udg_AncientUnit, FourCC("A05E"))
@@ -16448,8 +13733,6 @@ function Trig_Abilities_Actions()
                                         SelectHeroSkill(udg_AncientUnit, FourCC("A06U"))
                                         SelectHeroSkill(udg_AncientUnit, FourCC("A06W"))
                                         SelectHeroSkill(udg_AncientUnit, FourCC("A06V"))
-                                    else
-                                        DoNothing()
                                     end
                                 end
                             end
@@ -16461,7 +13744,6 @@ function Trig_Abilities_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Abilities (line 14286)
 function InitTrig_Abilities()
     gg_trg_Abilities = CreateTrigger()
     DisableTrigger(gg_trg_Abilities)
@@ -16476,20 +13758,14 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 222 Staff_of_insight_pickup
--- Original JASS function: Trig_Staff_of_insight_pickup_Conditions (line 14296)
 function Trig_Staff_of_insight_pickup_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I01C"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I01C")
 end
 
--- Original JASS function: Trig_Staff_of_insight_pickup_Actions (line 14303)
 function Trig_Staff_of_insight_pickup_Actions()
     BlzItemAddAbilityBJ(GetManipulatedItem(), FourCC("AIms"))
 end
 
--- Original JASS function: InitTrig_Staff_of_insight_pickup (line 14308)
 function InitTrig_Staff_of_insight_pickup()
     gg_trg_Staff_of_insight_pickup = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Staff_of_insight_pickup, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -16499,13 +13775,11 @@ end
 -- END FOREST SECTION 222
 
 -- BEGIN FOREST SECTION 223 Dusts_Slow
--- Original JASS function: DAS_RegisterInvisBuff (line 14319)
 function DAS_RegisterInvisBuff(buffId)
     DAS_InvisBuff[DAS_InvisBuffCount] = buffId
     DAS_InvisBuffCount = __jint(DAS_InvisBuffCount + 1)
 end
 
--- Original JASS function: DAS_InitInvisBuffs (line 14324)
 function DAS_InitInvisBuffs()
     DAS_InvisBuffCount = 0
     DAS_RegisterInvisBuff(FourCC("B03X"))
@@ -16515,12 +13789,10 @@ function DAS_InitInvisBuffs()
     DAS_RegisterInvisBuff(FourCC("B001"))
 end
 
--- Original JASS function: DAS_HasSlowAura (line 14334)
 function DAS_HasSlowAura(target)
-    do return (GetUnitAbilityLevel(target, DAS_SLOW_AURA_ID) > 0) end
+    return (GetUnitAbilityLevel(target, DAS_SLOW_AURA_ID) > 0)
 end
 
--- Original JASS function: DAS_TargetCountsAsInvisible (line 14338)
 function DAS_TargetCountsAsInvisible(target, dustOwner)
     local engineInvisible = false
     local i = 0
@@ -16528,47 +13800,44 @@ function DAS_TargetCountsAsInvisible(target, dustOwner)
         engineInvisible = IsUnitInvisible(target, dustOwner)
     end
     if engineInvisible then
-        do return true end
+        return true
     end
     if (GetUnitAbilityLevel(target, DAS_PERMANENT_INVIS_ABILITY) > 0) then
-        do return true end
+        return true
     end
     while true do
         if (i >= DAS_InvisBuffCount) then break end
         if (GetUnitAbilityLevel(target, DAS_InvisBuff[i]) > 0) then
-            do return true end
+            return true
         end
         i = __jint(i + 1)
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: DAS_AddSlowAura (line 14367)
 function DAS_AddSlowAura(target)
     if (target == nil) then
-        do return end
+        return
     end
-    if (not ((GetUnitAbilityLevel((target), DAS_SLOW_AURA_ID) > 0))) then
+    if (not (GetUnitAbilityLevel((target), DAS_SLOW_AURA_ID) > 0)) then
         UnitAddAbility(target, DAS_SLOW_AURA_ID)
         BlzUnitHideAbility(target, DAS_SLOW_AURA_ID, true)
     end
 end
 
--- Original JASS function: DAS_RemoveSlowAura (line 14378)
 function DAS_RemoveSlowAura(target)
     if (target == nil) then
-        do return end
+        return
     end
-    if ((GetUnitAbilityLevel((target), DAS_SLOW_AURA_ID) > 0)) then
+    if (GetUnitAbilityLevel((target), DAS_SLOW_AURA_ID) > 0) then
         UnitRemoveAbility(target, DAS_SLOW_AURA_ID)
     end
 end
 
--- Original JASS function: DAS_StopTracking (line 14388)
 function DAS_StopTracking(target)
     local t = nil
     if (target == nil) then
-        do return end
+        return
     end
     t = LoadTimerHandle(DAS_Hash, GetHandleId(target), DAS_KEY_TRACK_TIMER)
     if (t ~= nil) then
@@ -16580,7 +13849,6 @@ function DAS_StopTracking(target)
     t = nil
 end
 
--- Original JASS function: DAS_TrackLoop (line 14407)
 function DAS_TrackLoop()
     local t = GetExpiredTimer()
     local target = LoadUnitHandle(DAS_Hash, GetHandleId(t), DAS_KEY_TIMER_TARGET)
@@ -16593,7 +13861,7 @@ function DAS_TrackLoop()
         DestroyTimer(t)
         t = nil
         dustOwner = nil
-        do return end
+        return
     end
     if (GetWidgetLife(target) <= __jreal(0.405)) then
         DAS_RemoveSlowAura(target)
@@ -16601,21 +13869,21 @@ function DAS_TrackLoop()
         t = nil
         target = nil
         dustOwner = nil
-        do return end
+        return
     end
     hasDust = (GetUnitAbilityLevel(target, DAS_DUST_BUFF_ID) > 0)
     isInvisible = DAS_TargetCountsAsInvisible(target, dustOwner)
     if (not hasDust) then
-        if ((GetUnitAbilityLevel((target), DAS_SLOW_AURA_ID) > 0)) then
+        if (GetUnitAbilityLevel((target), DAS_SLOW_AURA_ID) > 0) then
             DAS_RemoveSlowAura(target)
         end
         DAS_StopTracking(target)
     elseif isInvisible then
-        if (not ((GetUnitAbilityLevel((target), DAS_SLOW_AURA_ID) > 0))) then
+        if (not (GetUnitAbilityLevel((target), DAS_SLOW_AURA_ID) > 0)) then
             DAS_AddSlowAura(target)
         end
     else
-        if (((GetUnitAbilityLevel((target), DAS_SLOW_AURA_ID) > 0)) and (not isInvisible)) then
+        if ((GetUnitAbilityLevel((target), DAS_SLOW_AURA_ID) > 0) and (not isInvisible)) then
             DAS_RemoveSlowAura(target)
         end
     end
@@ -16624,17 +13892,16 @@ function DAS_TrackLoop()
     dustOwner = nil
 end
 
--- Original JASS function: DAS_StartTracking (line 14456)
 function DAS_StartTracking(target, dustOwner)
     local t = nil
     if (target == nil) then
-        do return end
+        return
     end
     t = LoadTimerHandle(DAS_Hash, GetHandleId(target), DAS_KEY_TRACK_TIMER)
     if (t ~= nil) then
         SavePlayerHandle(DAS_Hash, GetHandleId(t), DAS_KEY_TIMER_OWNER, dustOwner)
         t = nil
-        do return end
+        return
     end
     t = CreateTimer()
     SaveTimerHandle(DAS_Hash, GetHandleId(target), DAS_KEY_TRACK_TIMER, t)
@@ -16644,7 +13911,6 @@ function DAS_StartTracking(target, dustOwner)
     t = nil
 end
 
--- Original JASS function: DAS_EnumDustTargets (line 14480)
 function DAS_EnumDustTargets()
     local target = GetEnumUnit()
     if ((((target ~= nil) and (GetWidgetLife(target) > __jreal(0.405))) and IsUnitEnemy(target, DAS_EnumOwner)) and (not IsUnitType(target, UNIT_TYPE_STRUCTURE))) then
@@ -16653,12 +13919,10 @@ function DAS_EnumDustTargets()
     target = nil
 end
 
--- Original JASS function: DAS_OnCast_Condition (line 14490)
 function DAS_OnCast_Condition()
-    do return (GetSpellAbilityId() == DAS_DUST_CAST_ABILITY_ID) end
+    return (GetSpellAbilityId() == DAS_DUST_CAST_ABILITY_ID)
 end
 
--- Original JASS function: DAS_OnCast_Action (line 14494)
 function DAS_OnCast_Action()
     local caster = GetTriggerUnit()
     local x = GetUnitX(caster)
@@ -16671,7 +13935,6 @@ function DAS_OnCast_Action()
     caster = nil
 end
 
--- Original JASS function: InitTrig_Dusts_Slow (line 14509)
 function InitTrig_Dusts_Slow()
     local t = CreateTrigger()
     local i = 0
@@ -16688,20 +13951,14 @@ end
 -- END FOREST SECTION 223
 
 -- BEGIN FOREST SECTION 224 Firelords_Cape_usage
--- Original JASS function: Trig_Firelords_Cape_usage_Conditions (line 14529)
 function Trig_Firelords_Cape_usage_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I01T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I01T")
 end
 
--- Original JASS function: Trig_Firelords_Cape_usage_Actions (line 14536)
 function Trig_Firelords_Cape_usage_Actions()
     SetUnitLifePercentBJ(GetTriggerUnit(), (__jreal(GetUnitLifePercent(GetTriggerUnit()) + (__jreal(__jreal(0.20) * (__jreal(__jreal(100.00) - GetUnitLifePercent(GetTriggerUnit()))))))))
 end
 
--- Original JASS function: InitTrig_Firelords_Cape_usage (line 14541)
 function InitTrig_Firelords_Cape_usage()
     gg_trg_Firelords_Cape_usage = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Firelords_Cape_usage, EVENT_PLAYER_UNIT_USE_ITEM)
@@ -16711,21 +13968,15 @@ end
 -- END FOREST SECTION 224
 
 -- BEGIN FOREST SECTION 225 Firelords_Cape_pickup
--- Original JASS function: Trig_Firelords_Cape_pickup_Conditions (line 14551)
 function Trig_Firelords_Cape_pickup_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I01T"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I01T")
 end
 
--- Original JASS function: Trig_Firelords_Cape_pickup_Actions (line 14558)
 function Trig_Firelords_Cape_pickup_Actions()
     BlzItemAddAbilityBJ(GetManipulatedItem(), FourCC("AIms"))
     BlzItemAddAbilityBJ(GetManipulatedItem(), FourCC("AId0"))
 end
 
--- Original JASS function: InitTrig_Firelords_Cape_pickup (line 14564)
 function InitTrig_Firelords_Cape_pickup()
     gg_trg_Firelords_Cape_pickup = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Firelords_Cape_pickup, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -16735,36 +13986,24 @@ end
 -- END FOREST SECTION 225
 
 -- BEGIN FOREST SECTION 226 Bladed_Gauntlet_vs_Hero
--- Original JASS function: Trig_Bladed_Gauntlet_vs_Hero_Func002001 (line 14574)
-function Trig_Bladed_Gauntlet_vs_Hero_Func002001()
-    do return ((UnitHasItemOfTypeBJ(udg_DamageEventSource, FourCC("I00F")) == true)) end
-end
 
--- Original JASS function: Trig_Bladed_Gauntlet_vs_Hero_Func002002 (line 14578)
-function Trig_Bladed_Gauntlet_vs_Hero_Func002002()
-    do return ((UnitHasItemOfTypeBJ(udg_DamageEventSource, FourCC("I01L")) == true)) end
-end
-
--- Original JASS function: Trig_Bladed_Gauntlet_vs_Hero_Conditions (line 14582)
 function Trig_Bladed_Gauntlet_vs_Hero_Conditions()
-    if ((not GetBooleanOr(((UnitHasItemOfTypeBJ(udg_DamageEventSource, FourCC("I00F")) == true)), ((UnitHasItemOfTypeBJ(udg_DamageEventSource, FourCC("I01L")) == true))))) then
-        do return false end
+    if (not GetBooleanOr((UnitHasItemOfTypeBJ(udg_DamageEventSource, FourCC("I00F")) == true), (UnitHasItemOfTypeBJ(udg_DamageEventSource, FourCC("I01L")) == true))) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    if ((not ((IsUnitType(udg_DamageEventTarget, UNIT_TYPE_HERO) == true)))) then
-        do return false end
+    if (not (IsUnitType(udg_DamageEventTarget, UNIT_TYPE_HERO) == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Bladed_Gauntlet_vs_Hero_Actions (line 14595)
 function Trig_Bladed_Gauntlet_vs_Hero_Actions()
     UnitDamageTargetBJ(udg_DamageEventSource, udg_DamageEventTarget, __jreal(100.00), ATTACK_TYPE_HERO, DAMAGE_TYPE_NORMAL)
 end
 
--- Original JASS function: InitTrig_Bladed_Gauntlet_vs_Hero (line 14600)
 function InitTrig_Bladed_Gauntlet_vs_Hero()
     gg_trg_Bladed_Gauntlet_vs_Hero = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Bladed_Gauntlet_vs_Hero, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -16774,15 +14013,10 @@ end
 -- END FOREST SECTION 226
 
 -- BEGIN FOREST SECTION 227 Cast_CL_on_Banish
--- Original JASS function: Trig_Cast_CL_on_Banish_Conditions (line 14610)
 function Trig_Cast_CL_on_Banish_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A094"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A094")
 end
 
--- Original JASS function: Trig_Cast_CL_on_Banish_Actions (line 14617)
 function Trig_Cast_CL_on_Banish_Actions()
     udg_Temp_Point = GetUnitLoc(GetSpellAbilityUnit())
     CreateNUnitsAtLocFacingLocBJ(1, FourCC("h04L"), GetOwningPlayer(GetSpellAbilityUnit()), udg_Temp_Point, udg_Temp_Point)
@@ -16791,7 +14025,6 @@ function Trig_Cast_CL_on_Banish_Actions()
     RemoveLocation(udg_Temp_Point)
 end
 
--- Original JASS function: InitTrig_Cast_CL_on_Banish (line 14626)
 function InitTrig_Cast_CL_on_Banish()
     gg_trg_Cast_CL_on_Banish = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Cast_CL_on_Banish, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -16801,28 +14034,11 @@ end
 -- END FOREST SECTION 227
 
 -- BEGIN FOREST SECTION 228 Ledgers_XP
--- Original JASS function: Trig_Ledgers_XP_Func001Func001C (line 14636)
-function Trig_Ledgers_XP_Func001Func001C()
-    if ((not ((UnitHasItemOfTypeBJ(udg_Ledger, FourCC("I01J")) == true)))) then
-        do return false end
-    end
-    do return true end
-end
 
--- Original JASS function: Trig_Ledgers_XP_Func001C (line 14643)
-function Trig_Ledgers_XP_Func001C()
-    if ((not ((UnitHasItemOfTypeBJ(udg_Ledger, FourCC("I01N")) == true)))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Ledgers_XP_Actions (line 14650)
 function Trig_Ledgers_XP_Actions()
     FE_Ledgers.tick()
 end
 
--- Original JASS function: InitTrig_Ledgers_XP (line 14662)
 function InitTrig_Ledgers_XP()
     gg_trg_Ledgers_XP = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Ledgers_XP, __jreal(1.00))
@@ -16831,20 +14047,14 @@ end
 -- END FOREST SECTION 228
 
 -- BEGIN FOREST SECTION 229 Ledger_of_Clarity_pickup
--- Original JASS function: Trig_Ledger_of_Clarity_pickup_Conditions (line 14671)
 function Trig_Ledger_of_Clarity_pickup_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I01J"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I01J")
 end
 
--- Original JASS function: Trig_Ledger_of_Clarity_pickup_Actions (line 14678)
 function Trig_Ledger_of_Clarity_pickup_Actions()
     FE_Ledgers.watch(GetManipulatingUnit())
 end
 
--- Original JASS function: InitTrig_Ledger_of_Clarity_pickup (line 14684)
 function InitTrig_Ledger_of_Clarity_pickup()
     gg_trg_Ledger_of_Clarity_pickup = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ledger_of_Clarity_pickup, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -16854,20 +14064,14 @@ end
 -- END FOREST SECTION 229
 
 -- BEGIN FOREST SECTION 230 Ledger_of_Clarity_lose
--- Original JASS function: Trig_Ledger_of_Clarity_lose_Conditions (line 14694)
 function Trig_Ledger_of_Clarity_lose_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I01J"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I01J")
 end
 
--- Original JASS function: Trig_Ledger_of_Clarity_lose_Actions (line 14701)
 function Trig_Ledger_of_Clarity_lose_Actions()
     FE_Ledgers.watch(GetManipulatingUnit())
 end
 
--- Original JASS function: InitTrig_Ledger_of_Clarity_lose (line 14706)
 function InitTrig_Ledger_of_Clarity_lose()
     gg_trg_Ledger_of_Clarity_lose = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ledger_of_Clarity_lose, EVENT_PLAYER_UNIT_DROP_ITEM)
@@ -16877,20 +14081,14 @@ end
 -- END FOREST SECTION 230
 
 -- BEGIN FOREST SECTION 231 Ledger_of_Enlightment_pickup
--- Original JASS function: Trig_Ledger_of_Enlightment_pickup_Conditions (line 14716)
 function Trig_Ledger_of_Enlightment_pickup_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I01N"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I01N")
 end
 
--- Original JASS function: Trig_Ledger_of_Enlightment_pickup_Actions (line 14723)
 function Trig_Ledger_of_Enlightment_pickup_Actions()
     FE_Ledgers.watch(GetManipulatingUnit())
 end
 
--- Original JASS function: InitTrig_Ledger_of_Enlightment_pickup (line 14729)
 function InitTrig_Ledger_of_Enlightment_pickup()
     gg_trg_Ledger_of_Enlightment_pickup = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ledger_of_Enlightment_pickup, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -16900,20 +14098,14 @@ end
 -- END FOREST SECTION 231
 
 -- BEGIN FOREST SECTION 232 Ledger_of_Enlightment_lose
--- Original JASS function: Trig_Ledger_of_Enlightment_lose_Conditions (line 14739)
 function Trig_Ledger_of_Enlightment_lose_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I01N"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I01N")
 end
 
--- Original JASS function: Trig_Ledger_of_Enlightment_lose_Actions (line 14746)
 function Trig_Ledger_of_Enlightment_lose_Actions()
     FE_Ledgers.watch(GetManipulatingUnit())
 end
 
--- Original JASS function: InitTrig_Ledger_of_Enlightment_lose (line 14751)
 function InitTrig_Ledger_of_Enlightment_lose()
     gg_trg_Ledger_of_Enlightment_lose = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ledger_of_Enlightment_lose, EVENT_PLAYER_UNIT_DROP_ITEM)
@@ -16923,266 +14115,198 @@ end
 -- END FOREST SECTION 232
 
 -- BEGIN FOREST SECTION 233 Spellcasters_Cloak
--- Original JASS function: Trig_Spellcasters_Cloak_Conditions (line 14761)
 function Trig_Spellcasters_Cloak_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I01R'))
 end
 
--- Original JASS function: Trig_Spellcasters_Cloak_Actions (line 14777)
 function Trig_Spellcasters_Cloak_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I01R'))
 end
 
--- Original JASS function: InitTrig_Spellcasters_Cloak (line 14786)
 function InitTrig_Spellcasters_Cloak()
     gg_trg_Spellcasters_Cloak = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Spellcasters_Cloak, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Spellcasters_Cloak, Condition(Trig_Spellcasters_Cloak_Conditions))
-    TriggerAddAction(gg_trg_Spellcasters_Cloak, Trig_Spellcasters_Cloak_Actions)
+    FE_Recipes.registerPickup(gg_trg_Spellcasters_Cloak, Trig_Spellcasters_Cloak_Conditions, Trig_Spellcasters_Cloak_Actions)
 end
 -- END FOREST SECTION 233
 
 -- BEGIN FOREST SECTION 234 Ethereal_Scepter
--- Original JASS function: Trig_Ethereal_Scepter_Conditions (line 14796)
 function Trig_Ethereal_Scepter_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I01P'))
 end
 
--- Original JASS function: Trig_Ethereal_Scepter_Actions (line 14809)
 function Trig_Ethereal_Scepter_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I01P'))
 end
 
--- Original JASS function: InitTrig_Ethereal_Scepter (line 14817)
 function InitTrig_Ethereal_Scepter()
     gg_trg_Ethereal_Scepter = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Ethereal_Scepter, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Ethereal_Scepter, Condition(Trig_Ethereal_Scepter_Conditions))
-    TriggerAddAction(gg_trg_Ethereal_Scepter, Trig_Ethereal_Scepter_Actions)
+    FE_Recipes.registerPickup(gg_trg_Ethereal_Scepter, Trig_Ethereal_Scepter_Conditions, Trig_Ethereal_Scepter_Actions)
 end
 -- END FOREST SECTION 234
 
 -- BEGIN FOREST SECTION 235 Firelords_Cape
--- Original JASS function: Trig_Firelords_Cape_Conditions (line 14827)
 function Trig_Firelords_Cape_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I01T'))
 end
 
--- Original JASS function: Trig_Firelords_Cape_Actions (line 14840)
 function Trig_Firelords_Cape_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I01T'))
 end
 
--- Original JASS function: InitTrig_Firelords_Cape (line 14848)
 function InitTrig_Firelords_Cape()
     gg_trg_Firelords_Cape = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Firelords_Cape, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Firelords_Cape, Condition(Trig_Firelords_Cape_Conditions))
-    TriggerAddAction(gg_trg_Firelords_Cape, Trig_Firelords_Cape_Actions)
+    FE_Recipes.registerPickup(gg_trg_Firelords_Cape, Trig_Firelords_Cape_Conditions, Trig_Firelords_Cape_Actions)
 end
 -- END FOREST SECTION 235
 
 -- BEGIN FOREST SECTION 236 Ledget_of_Enlightment
--- Original JASS function: Trig_Ledget_of_Enlightment_Func002Func001C (line 14858)
-function Trig_Ledget_of_Enlightment_Func002Func001C()
-    if ((not ((GetItemTypeId(UnitItemInSlotBJ(GetTriggerUnit(), GetForLoopIndexA())) == FourCC("I01J"))))) then
-        do return false end
-    end
-    do return true end
-end
 
--- Original JASS function: Trig_Ledget_of_Enlightment_Actions (line 14865)
 function Trig_Ledget_of_Enlightment_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I01N'))
 end
 
--- Original JASS function: InitTrig_Ledget_of_Enlightment (line 14890)
 function InitTrig_Ledget_of_Enlightment()
     gg_trg_Ledget_of_Enlightment = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Ledget_of_Enlightment, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddAction(gg_trg_Ledget_of_Enlightment, Trig_Ledget_of_Enlightment_Actions)
+    FE_Recipes.registerPickup(gg_trg_Ledget_of_Enlightment, nil, Trig_Ledget_of_Enlightment_Actions)
 end
 -- END FOREST SECTION 236
 
 -- BEGIN FOREST SECTION 237 Hammer_of_might
--- Original JASS function: Trig_Hammer_of_might_Conditions (line 14899)
 function Trig_Hammer_of_might_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I01L'))
 end
 
--- Original JASS function: Trig_Hammer_of_might_Actions (line 14912)
 function Trig_Hammer_of_might_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I01L'))
 end
 
--- Original JASS function: InitTrig_Hammer_of_might (line 14920)
 function InitTrig_Hammer_of_might()
     gg_trg_Hammer_of_might = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Hammer_of_might, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Hammer_of_might, Condition(Trig_Hammer_of_might_Conditions))
-    TriggerAddAction(gg_trg_Hammer_of_might, Trig_Hammer_of_might_Actions)
+    FE_Recipes.registerPickup(gg_trg_Hammer_of_might, Trig_Hammer_of_might_Conditions, Trig_Hammer_of_might_Actions)
 end
 -- END FOREST SECTION 237
 
 -- BEGIN FOREST SECTION 238 Valorous_Helmet
--- Original JASS function: Trig_Valorous_Helmet_Conditions (line 14930)
 function Trig_Valorous_Helmet_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I00I'))
 end
 
--- Original JASS function: Trig_Valorous_Helmet_Actions (line 14943)
 function Trig_Valorous_Helmet_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I00I'))
 end
 
--- Original JASS function: InitTrig_Valorous_Helmet (line 14951)
 function InitTrig_Valorous_Helmet()
     gg_trg_Valorous_Helmet = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Valorous_Helmet, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Valorous_Helmet, Condition(Trig_Valorous_Helmet_Conditions))
-    TriggerAddAction(gg_trg_Valorous_Helmet, Trig_Valorous_Helmet_Actions)
+    FE_Recipes.registerPickup(gg_trg_Valorous_Helmet, Trig_Valorous_Helmet_Conditions, Trig_Valorous_Helmet_Actions)
 end
 -- END FOREST SECTION 238
 
 -- BEGIN FOREST SECTION 239 Bladed_Gauntlet
--- Original JASS function: Trig_Bladed_Gauntlet_Conditions (line 14961)
 function Trig_Bladed_Gauntlet_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I00F'))
 end
 
--- Original JASS function: Trig_Bladed_Gauntlet_Actions (line 14974)
 function Trig_Bladed_Gauntlet_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I00F'))
 end
 
--- Original JASS function: InitTrig_Bladed_Gauntlet (line 14982)
 function InitTrig_Bladed_Gauntlet()
     gg_trg_Bladed_Gauntlet = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Bladed_Gauntlet, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Bladed_Gauntlet, Condition(Trig_Bladed_Gauntlet_Conditions))
-    TriggerAddAction(gg_trg_Bladed_Gauntlet, Trig_Bladed_Gauntlet_Actions)
+    FE_Recipes.registerPickup(gg_trg_Bladed_Gauntlet, Trig_Bladed_Gauntlet_Conditions, Trig_Bladed_Gauntlet_Actions)
 end
 -- END FOREST SECTION 239
 
 -- BEGIN FOREST SECTION 240 Righteous_Armor
--- Original JASS function: Trig_Righteous_Armor_Conditions (line 14992)
 function Trig_Righteous_Armor_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I012'))
 end
 
--- Original JASS function: Trig_Righteous_Armor_Actions (line 15008)
 function Trig_Righteous_Armor_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I012'))
 end
 
--- Original JASS function: InitTrig_Righteous_Armor (line 15017)
 function InitTrig_Righteous_Armor()
     gg_trg_Righteous_Armor = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Righteous_Armor, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Righteous_Armor, Condition(Trig_Righteous_Armor_Conditions))
-    TriggerAddAction(gg_trg_Righteous_Armor, Trig_Righteous_Armor_Actions)
+    FE_Recipes.registerPickup(gg_trg_Righteous_Armor, Trig_Righteous_Armor_Conditions, Trig_Righteous_Armor_Actions)
 end
 -- END FOREST SECTION 240
 
 -- BEGIN FOREST SECTION 241 Arcanum_of_Hatred
--- Original JASS function: Trig_Arcanum_of_Hatred_Conditions (line 15027)
 function Trig_Arcanum_of_Hatred_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I015'))
 end
 
--- Original JASS function: Trig_Arcanum_of_Hatred_Actions (line 15040)
 function Trig_Arcanum_of_Hatred_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I015'))
 end
 
--- Original JASS function: InitTrig_Arcanum_of_Hatred (line 15048)
 function InitTrig_Arcanum_of_Hatred()
     gg_trg_Arcanum_of_Hatred = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Arcanum_of_Hatred, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Arcanum_of_Hatred, Condition(Trig_Arcanum_of_Hatred_Conditions))
-    TriggerAddAction(gg_trg_Arcanum_of_Hatred, Trig_Arcanum_of_Hatred_Actions)
+    FE_Recipes.registerPickup(gg_trg_Arcanum_of_Hatred, Trig_Arcanum_of_Hatred_Conditions, Trig_Arcanum_of_Hatred_Actions)
 end
 -- END FOREST SECTION 241
 
 -- BEGIN FOREST SECTION 242 Bleeding_Scythe
--- Original JASS function: Trig_Bleeding_Scythe_Conditions (line 15058)
 function Trig_Bleeding_Scythe_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I017'))
 end
 
--- Original JASS function: Trig_Bleeding_Scythe_Actions (line 15071)
 function Trig_Bleeding_Scythe_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I017'))
 end
 
--- Original JASS function: InitTrig_Bleeding_Scythe (line 15079)
 function InitTrig_Bleeding_Scythe()
     gg_trg_Bleeding_Scythe = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Bleeding_Scythe, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Bleeding_Scythe, Condition(Trig_Bleeding_Scythe_Conditions))
-    TriggerAddAction(gg_trg_Bleeding_Scythe, Trig_Bleeding_Scythe_Actions)
+    FE_Recipes.registerPickup(gg_trg_Bleeding_Scythe, Trig_Bleeding_Scythe_Conditions, Trig_Bleeding_Scythe_Actions)
 end
 -- END FOREST SECTION 242
 
 -- BEGIN FOREST SECTION 243 Staff_of_Insight
--- Original JASS function: Trig_Staff_of_Insight_Conditions (line 15089)
 function Trig_Staff_of_Insight_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I01C'))
 end
 
--- Original JASS function: Trig_Staff_of_Insight_Actions (line 15102)
 function Trig_Staff_of_Insight_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I01C'))
 end
 
--- Original JASS function: InitTrig_Staff_of_Insight (line 15110)
 function InitTrig_Staff_of_Insight()
     gg_trg_Staff_of_Insight = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Staff_of_Insight, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Staff_of_Insight, Condition(Trig_Staff_of_Insight_Conditions))
-    TriggerAddAction(gg_trg_Staff_of_Insight, Trig_Staff_of_Insight_Actions)
+    FE_Recipes.registerPickup(gg_trg_Staff_of_Insight, Trig_Staff_of_Insight_Conditions, Trig_Staff_of_Insight_Actions)
 end
 -- END FOREST SECTION 243
 
 -- BEGIN FOREST SECTION 244 Cosmic_Orb
--- Original JASS function: Trig_Cosmic_Orb_Conditions (line 15120)
 function Trig_Cosmic_Orb_Conditions()
     return FE_Recipes.canCombineOwned(GetTriggerUnit(), FourCC('I019'))
 end
 
--- Original JASS function: Trig_Cosmic_Orb_Actions (line 15136)
 function Trig_Cosmic_Orb_Actions()
     FE_Recipes.combineOwned(GetTriggerUnit(), FourCC('I019'))
 end
 
--- Original JASS function: InitTrig_Cosmic_Orb (line 15145)
 function InitTrig_Cosmic_Orb()
     gg_trg_Cosmic_Orb = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_Cosmic_Orb, EVENT_PLAYER_UNIT_PICKUP_ITEM)
-    TriggerAddCondition(gg_trg_Cosmic_Orb, Condition(Trig_Cosmic_Orb_Conditions))
-    TriggerAddAction(gg_trg_Cosmic_Orb, Trig_Cosmic_Orb_Actions)
+    FE_Recipes.registerPickup(gg_trg_Cosmic_Orb, Trig_Cosmic_Orb_Conditions, Trig_Cosmic_Orb_Actions)
 end
 -- END FOREST SECTION 244
 
 -- BEGIN FOREST SECTION 245 Level_up
--- Original JASS function: Trig_Level_up_Conditions (line 15155)
 function Trig_Level_up_Conditions()
-    if ((not ((GetOwningPlayer(GetTriggerUnit()) == FE_Roles.ancient())))) then
-        do return false end
+    if (not (GetOwningPlayer(GetTriggerUnit()) == FE_Roles.ancient())) then
+        return false
     end
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I00J"))))) then
-        do return false end
+    if (not (GetItemTypeId(GetManipulatedItem()) == FourCC("I00J"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Level_up_Actions (line 15165)
 function Trig_Level_up_Actions()
     RemoveItem(GetManipulatedItem())
     UnitAddItemByIdSwapped(FourCC("tkno"), GetTriggerUnit())
 end
 
--- Original JASS function: InitTrig_Level_up (line 15171)
 function InitTrig_Level_up()
     gg_trg_Level_up = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Level_up, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -17197,7 +14321,6 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 246 Deliver_Gold
--- Original JASS function: Trig_Deliver_Gold_Actions (line 15181)
 function Trig_Deliver_Gold_Actions()
     FE_Roles.forEachPlayer(function(player)
         local gold = FE_Roles.isAncient(player) and 1040 or 1
@@ -17205,7 +14328,6 @@ function Trig_Deliver_Gold_Actions()
     end)
 end
 
--- Original JASS function: InitTrig_Deliver_Gold (line 15196)
 function InitTrig_Deliver_Gold()
     gg_trg_Deliver_Gold = CreateTrigger()
     TriggerAddAction(gg_trg_Deliver_Gold, Trig_Deliver_Gold_Actions)
@@ -17213,34 +14335,23 @@ end
 -- END FOREST SECTION 246
 
 -- BEGIN FOREST SECTION 247 Worgens_gold
--- Original JASS function: Trig_Worgens_gold_Conditions (line 15204)
 function Trig_Worgens_gold_Conditions()
-    if ((not ((GetUnitTypeId(udg_DamageEventTarget) == FourCC("h00Q"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_DamageEventTarget) == FourCC("h00Q")
 end
 
--- Original JASS function: Trig_Worgens_gold_Func004C (line 15211)
 function Trig_Worgens_gold_Func004C()
-    if ((not ((GetUnitTypeId(udg_DamageEventSource) == FourCC("h00R"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_DamageEventSource) == FourCC("h00R")
 end
 
--- Original JASS function: Trig_Worgens_gold_Actions (line 15218)
 function Trig_Worgens_gold_Actions()
     AdjustPlayerStateBJ(1, GetOwningPlayer(GetEventDamageSource()), PLAYER_STATE_RESOURCE_GOLD)
     AddSpecialEffectLocBJ(GetUnitLoc(gg_unit_h00Q_0026), "UI\\Feedback\\GoldCredit\\GoldCredit.mdl")
     DestroyEffectBJ(GetLastCreatedEffectBJ())
     if (Trig_Worgens_gold_Func004C()) then
         AdjustPlayerStateBJ(1, GetOwningPlayer(GetEventDamageSource()), PLAYER_STATE_RESOURCE_GOLD)
-    else
     end
 end
 
--- Original JASS function: InitTrig_Worgens_gold (line 15229)
 function InitTrig_Worgens_gold()
     gg_trg_Worgens_gold = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Worgens_gold, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -17250,7 +14361,6 @@ end
 -- END FOREST SECTION 247
 
 -- BEGIN FOREST SECTION 248 Bounty
--- Original JASS function: Trig_Bounty_Func001A (line 15239)
 function Trig_Bounty_Func001A()
     SetPlayerFlagBJ(PLAYER_STATE_GIVES_BOUNTY, true, Player(0))
     SetPlayerFlagBJ(PLAYER_STATE_GIVES_BOUNTY, true, Player(1))
@@ -17265,12 +14375,10 @@ function Trig_Bounty_Func001A()
     SetPlayerFlagBJ(PLAYER_STATE_GIVES_BOUNTY, true, Player(10))
 end
 
--- Original JASS function: Trig_Bounty_Actions (line 15253)
 function Trig_Bounty_Actions()
     ForForce(GetPlayersAll(), Trig_Bounty_Func001A)
 end
 
--- Original JASS function: InitTrig_Bounty (line 15258)
 function InitTrig_Bounty()
     gg_trg_Bounty = CreateTrigger()
     TriggerAddAction(gg_trg_Bounty, Trig_Bounty_Actions)
@@ -17278,20 +14386,14 @@ end
 -- END FOREST SECTION 248
 
 -- BEGIN FOREST SECTION 249 Remove_Ancient_Lumber
--- Original JASS function: Trig_Remove_Ancient_Lumber_Conditions (line 15266)
 function Trig_Remove_Ancient_Lumber_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I01F"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I01F")
 end
 
--- Original JASS function: Trig_Remove_Ancient_Lumber_Actions (line 15273)
 function Trig_Remove_Ancient_Lumber_Actions()
     SetPlayerStateBJ(FE_Roles.ancient(), PLAYER_STATE_RESOURCE_LUMBER, (__jint(GetPlayerState(FE_Roles.ancient(), PLAYER_STATE_RESOURCE_LUMBER) - 500)))
 end
 
--- Original JASS function: InitTrig_Remove_Ancient_Lumber (line 15278)
 function InitTrig_Remove_Ancient_Lumber()
     gg_trg_Remove_Ancient_Lumber = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Remove_Ancient_Lumber, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -17301,12 +14403,10 @@ end
 -- END FOREST SECTION 249
 
 -- BEGIN FOREST SECTION 250 Ancient_Gold_income
--- Original JASS function: Trig_Ancient_Gold_income_Actions (line 15288)
 function Trig_Ancient_Gold_income_Actions()
     AdjustPlayerStateBJ(10, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
 end
 
--- Original JASS function: InitTrig_Ancient_Gold_income (line 15293)
 function InitTrig_Ancient_Gold_income()
     gg_trg_Ancient_Gold_income = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Ancient_Gold_income, __jreal(10.00))
@@ -17320,18 +14420,15 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 251 Initialization
--- Original JASS function: Trig_Initialization_Func002002 (line 15302)
 function Trig_Initialization_Func002002()
     SetCameraBoundsToRectForPlayerBJ(GetEnumPlayer(), gg_rct_Camera_1)
 end
 
--- Original JASS function: Trig_Initialization_Actions (line 15306)
 function Trig_Initialization_Actions()
     SetCreepCampFilterState(false)
     ForForce(GetPlayersAll(), Trig_Initialization_Func002002)
 end
 
--- Original JASS function: InitTrig_Initialization (line 15312)
 function InitTrig_Initialization()
     gg_trg_Initialization = CreateTrigger()
     TriggerAddAction(gg_trg_Initialization, Trig_Initialization_Actions)
@@ -17339,7 +14436,6 @@ end
 -- END FOREST SECTION 251
 
 -- BEGIN FOREST SECTION 252 LimitedTraining
--- Original JASS function: Trig_LimitedTraining_Func002A (line 15320)
 function Trig_LimitedTraining_Func002A()
     SetPlayerTechMaxAllowedSwap(FourCC("h03A"), 1, GetEnumPlayer())
     SetPlayerTechMaxAllowedSwap(FourCC("u00E"), 1, GetEnumPlayer())
@@ -17350,13 +14446,11 @@ function Trig_LimitedTraining_Func002A()
     SetPlayerTechMaxAllowedSwap(FourCC("n00S"), 1, GetEnumPlayer())
 end
 
--- Original JASS function: Trig_LimitedTraining_Actions (line 15330)
 function Trig_LimitedTraining_Actions()
     MeleeStartingHeroLimit()
     ForForce(GetPlayersAll(), Trig_LimitedTraining_Func002A)
 end
 
--- Original JASS function: InitTrig_LimitedTraining (line 15336)
 function InitTrig_LimitedTraining()
     gg_trg_LimitedTraining = CreateTrigger()
     TriggerAddAction(gg_trg_LimitedTraining, Trig_LimitedTraining_Actions)
@@ -17364,7 +14458,6 @@ end
 -- END FOREST SECTION 252
 
 -- BEGIN FOREST SECTION 253 TimeToExpanderSpawn
--- Original JASS function: Trig_TimeToExpanderSpawn_Actions (line 15344)
 function Trig_TimeToExpanderSpawn_Actions()
     if FE_Test and FE_Test.skipped then return end
     StartTimerBJ(udg_ExpanderSpawnTimer, false, __jreal(19.00))
@@ -17376,7 +14469,6 @@ function Trig_TimeToExpanderSpawn_Actions()
     DestroyTimerDialogBJ(dialog)
 end
 
--- Original JASS function: InitTrig_TimeToExpanderSpawn (line 15352)
 function InitTrig_TimeToExpanderSpawn()
     gg_trg_TimeToExpanderSpawn = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_TimeToExpanderSpawn, __jreal(1.00))
@@ -17385,7 +14477,6 @@ end
 -- END FOREST SECTION 253
 
 -- BEGIN FOREST SECTION 254 TimeToAncientSpawn
--- Original JASS function: Trig_TimeToAncientSpawn_Actions (line 15361)
 function Trig_TimeToAncientSpawn_Actions()
     if FE_Test and FE_Test.skipped then return end
     StartTimerBJ(udg_AncientSpawnTimer, false, __jreal(40.00))
@@ -17397,7 +14488,6 @@ function Trig_TimeToAncientSpawn_Actions()
     DestroyTimerDialogBJ(dialog)
 end
 
--- Original JASS function: InitTrig_TimeToAncientSpawn (line 15369)
 function InitTrig_TimeToAncientSpawn()
     gg_trg_TimeToAncientSpawn = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_TimeToAncientSpawn, __jreal(20.00))
@@ -17406,52 +14496,30 @@ end
 -- END FOREST SECTION 254
 
 -- BEGIN FOREST SECTION 255 Unit_Indexer
--- Original JASS function: Trig_Unit_Indexer_Func017Func004C (line 15383)
 function Trig_Unit_Indexer_Func017Func004C()
-    if ((not ((udg_UDexRecycle == 0)))) then
-        do return false end
-    end
-    do return true end
+    return udg_UDexRecycle == 0
 end
 
--- Original JASS function: Trig_Unit_Indexer_Func017C (line 15390)
 function Trig_Unit_Indexer_Func017C()
-    if ((not ((udg_UnitIndexerEnabled == true)))) then
-        do return false end
-    end
-    do return true end
+    return udg_UnitIndexerEnabled == true
 end
 
--- Original JASS function: Trig_Unit_Indexer_Func030Func005C (line 15397)
 function Trig_Unit_Indexer_Func030Func005C()
-    if ((not ((GetUnitUserData(udg_UDexUnits[udg_UDex]) == 0)))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitUserData(udg_UDexUnits[udg_UDex]) == 0
 end
 
--- Original JASS function: Trig_Unit_Indexer_Func030C (line 15404)
 function Trig_Unit_Indexer_Func030C()
-    if ((not ((udg_UDexWasted == 15)))) then
-        do return false end
-    end
-    do return true end
+    return udg_UDexWasted == 15
 end
 
--- Original JASS function: Trig_Unit_Indexer_Func034C (line 15411)
 function Trig_Unit_Indexer_Func034C()
-    if ((not ((GetUnitUserData(GetFilterUnit()) == 0)))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitUserData(GetFilterUnit()) == 0
 end
 
--- Original JASS function: Trig_Unit_Indexer_Actions (line 15418)
 function Trig_Unit_Indexer_Actions()
     ExecuteFunc("InitializeUnitIndexer")
 end
 
--- Original JASS function: IndexUnit (line 15424)
 function IndexUnit()
     local pdex = udg_UDex
     if (Trig_Unit_Indexer_Func017C()) then
@@ -17471,12 +14539,10 @@ function IndexUnit()
         udg_UnitIndexEvent = __jreal(1.00)
         udg_UnitIndexEvent = __jreal(0.00)
         udg_UDex = pdex
-    else
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: IndexNewUnit (line 15471)
 function IndexNewUnit()
     local pdex = udg_UDex
     local ndex = 0
@@ -17502,16 +14568,13 @@ function IndexNewUnit()
             end
         end
         udg_UDex = pdex
-    else
     end
     if (Trig_Unit_Indexer_Func034C()) then
         IndexUnit()
-    else
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: InitializeUnitIndexer (line 15522)
 function InitializeUnitIndexer()
     local i = 0
     local re = CreateRegion()
@@ -17531,7 +14594,6 @@ function InitializeUnitIndexer()
     udg_UnitIndexEvent = __jreal(0.00)
 end
 
--- Original JASS function: InitTrig_Unit_Indexer (line 15545)
 function InitTrig_Unit_Indexer()
     gg_trg_Unit_Indexer = CreateTrigger()
     TriggerAddAction(gg_trg_Unit_Indexer, Trig_Unit_Indexer_Actions)
@@ -17544,7 +14606,6 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 258 Colors
--- Original JASS function: Trig_Colors_Actions (line 15702)
 function Trig_Colors_Actions()
     udg_PlayerColorHex[1] = " - |cffff0303"
     udg_PlayerColorHex[2] = " - |cff0042ff"
@@ -17560,7 +14621,6 @@ function Trig_Colors_Actions()
     udg_PlayerColorHex[12] = " - |cff4e2a04"
 end
 
--- Original JASS function: InitTrig_Colors (line 15718)
 function InitTrig_Colors()
     gg_trg_Colors = CreateTrigger()
     TriggerAddAction(gg_trg_Colors, Trig_Colors_Actions)
@@ -17568,15 +14628,10 @@ end
 -- END FOREST SECTION 258
 
 -- BEGIN FOREST SECTION 259 Name_Change
--- Original JASS function: Trig_Name_Change_Conditions (line 15726)
 function Trig_Name_Change_Conditions()
-    if ((not (((GetUnitTypeId(GetTriggerUnit()) == FourCC("nmer")) or (GetUnitTypeId(GetTriggerUnit()) == FourCC("n00G")))))) then
-        do return false end
-    end
-    do return true end
+    return not not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("nmer")) or (GetUnitTypeId(GetTriggerUnit()) == FourCC("n00G")))
 end
 
--- Original JASS function: GetPlayerNameWithoutTag (line 15733)
 function GetPlayerNameWithoutTag(p)
     local fullName = GetPlayerName(p)
     local result = ""
@@ -17584,22 +14639,20 @@ function GetPlayerNameWithoutTag(p)
     local length = StringLength(fullName)
     while true do
         if (i >= length) then break end
-        if ((SubString(fullName, i, __jint(i + 1)) == "#")) then
-            do return result end
+        if (SubString(fullName, i, __jint(i + 1)) == "#") then
+            return result
         end
         result = __jconcat(result, SubString(fullName, i, __jint(i + 1)))
         i = __jint(i + 1)
     end
-    do return result end
+    return result
 end
 
--- Original JASS function: Trig_Name_Change_Actions (line 15751)
 function Trig_Name_Change_Actions()
     DisplayTextToForce(GetPlayersAll(), (__jconcat(GetPlayerName(GetOwningPlayer(GetSoldUnit())), (__jconcat(" has selected ", GetUnitName(GetSoldUnit()))))))
     SetPlayerName(GetOwningPlayer(GetSoldUnit()), (__jconcat(GetUnitName(GetSoldUnit()), (__jconcat(udg_PlayerColorHex[GetConvertedPlayerId(GetOwningPlayer(GetSoldUnit()))], GetPlayerNameWithoutTag(GetOwningPlayer(GetSoldUnit())))))))
 end
 
--- Original JASS function: InitTrig_Name_Change (line 15757)
 function InitTrig_Name_Change()
     gg_trg_Name_Change = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Name_Change, EVENT_PLAYER_UNIT_SELL)
@@ -17609,12 +14662,10 @@ end
 -- END FOREST SECTION 259
 
 -- BEGIN FOREST SECTION 260 Name_Change_III
--- Original JASS function: Trig_Name_Change_III_Actions (line 15768)
 function Trig_Name_Change_III_Actions()
     SetPlayerName(FE_Roles.ancient(), (__jconcat("Ancient ", (__jconcat(udg_PlayerColorHex[GetPlayerId(FE_Roles.ancient()) + 1], GetPlayerName(FE_Roles.ancient()))))))
 end
 
--- Original JASS function: InitTrig_Name_Change_III (line 15773)
 function InitTrig_Name_Change_III()
     gg_trg_Name_Change_III = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Name_Change_III, __jreal(10.00))
@@ -17628,30 +14679,10 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 271 DisableExpanderBans
--- Original JASS function: Trig_DisableExpanderBans_Actions (line 16434)
 function Trig_DisableExpanderBans_Actions()
-    DisableTrigger(gg_trg_Worgen)
-    DisableTrigger(gg_trg_Centaur)
-    DisableTrigger(gg_trg_Wildkin)
-    DisableTrigger(gg_trg_Nerubian)
-    DisableTrigger(gg_trg_Human)
-    DisableTrigger(gg_trg_Wisp)
-    DisableTrigger(gg_trg_Kobold)
-    DisableTrigger(gg_trg_Ghoul)
-    DisableTrigger(gg_trg_Kraken)
-    DisableTrigger(gg_trg_Aethyr)
-    DisableTrigger(gg_trg_Forgotten)
-    DisableTrigger(gg_trg_Goblin)
-    DisableTrigger(gg_trg_Ogre)
-    DisableTrigger(gg_trg_Magmide)
-    DisableTrigger(gg_trg_Furbolg)
-    DisableTrigger(gg_trg_Razormane)
-    DisableTrigger(gg_trg_Elf)
-    DisableTrigger(gg_trg_HighElf)
-    DisplayTextToForce(GetPlayersAll(), "Factions can no longer be banned.")
+    FE_Factions.closeBans()
 end
 
--- Original JASS function: InitTrig_DisableExpanderBans (line 16458)
 function InitTrig_DisableExpanderBans()
     gg_trg_DisableExpanderBans = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_DisableExpanderBans, __jreal(20.00))
@@ -17660,769 +14691,202 @@ end
 -- END FOREST SECTION 271
 
 -- BEGIN FOREST SECTION 272 Worgen
--- Original JASS function: Trig_Worgen_Func001Func006001 (line 16468)
-function Trig_Worgen_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Worgen_Func001Func006002 (line 16472)
-function Trig_Worgen_Func001Func006002()
-    do return ((udg_BannedWorgen == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Worgen_Func001C (line 16476)
-function Trig_Worgen_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedWorgen == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Worgen_Actions (line 16483)
 function Trig_Worgen_Actions()
-    if (Trig_Worgen_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedWorgen = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Worgen banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Worgen")
 end
 
--- Original JASS function: InitTrig_Worgen (line 16494)
 function InitTrig_Worgen()
-    gg_trg_Worgen = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Worgen, Player(0), "-ban worgen", true)
-    TriggerAddAction(gg_trg_Worgen, Trig_Worgen_Actions)
+    FE_Factions.registerBan("Worgen", Trig_Worgen_Actions)
 end
 -- END FOREST SECTION 272
 
 -- BEGIN FOREST SECTION 273 Centaur
--- Original JASS function: Trig_Centaur_Func001Func006001 (line 16504)
-function Trig_Centaur_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Centaur_Func001Func006002 (line 16508)
-function Trig_Centaur_Func001Func006002()
-    do return ((udg_BannedCentaur == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Centaur_Func001C (line 16512)
-function Trig_Centaur_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedCentaur == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Centaur_Actions (line 16519)
 function Trig_Centaur_Actions()
-    if (Trig_Centaur_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedCentaur = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Centaur banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Centaur")
 end
 
--- Original JASS function: InitTrig_Centaur (line 16530)
 function InitTrig_Centaur()
-    gg_trg_Centaur = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Centaur, Player(0), "-ban Centaur", true)
-    TriggerAddAction(gg_trg_Centaur, Trig_Centaur_Actions)
+    FE_Factions.registerBan("Centaur", Trig_Centaur_Actions)
 end
 -- END FOREST SECTION 273
 
 -- BEGIN FOREST SECTION 274 Wildkin
--- Original JASS function: Trig_Wildkin_Func001Func006001 (line 16540)
-function Trig_Wildkin_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Wildkin_Func001Func006002 (line 16544)
-function Trig_Wildkin_Func001Func006002()
-    do return ((udg_BannedWildkin == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Wildkin_Func001C (line 16548)
-function Trig_Wildkin_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedWildkin == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Wildkin_Actions (line 16555)
 function Trig_Wildkin_Actions()
-    if (Trig_Wildkin_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedWildkin = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Wildkin banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Wildkin")
 end
 
--- Original JASS function: InitTrig_Wildkin (line 16566)
 function InitTrig_Wildkin()
-    gg_trg_Wildkin = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Wildkin, Player(0), "-ban Wildkin", true)
-    TriggerAddAction(gg_trg_Wildkin, Trig_Wildkin_Actions)
+    FE_Factions.registerBan("Wildkin", Trig_Wildkin_Actions)
 end
 -- END FOREST SECTION 274
 
 -- BEGIN FOREST SECTION 275 Nerubian
--- Original JASS function: Trig_Nerubian_Func001Func006001 (line 16576)
-function Trig_Nerubian_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Nerubian_Func001Func006002 (line 16580)
-function Trig_Nerubian_Func001Func006002()
-    do return ((udg_BannedNerubian == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Nerubian_Func001C (line 16584)
-function Trig_Nerubian_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedNerubian == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Nerubian_Actions (line 16591)
 function Trig_Nerubian_Actions()
-    if (Trig_Nerubian_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedNerubian = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Nerubian banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Nerubian")
 end
 
--- Original JASS function: InitTrig_Nerubian (line 16602)
 function InitTrig_Nerubian()
-    gg_trg_Nerubian = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Nerubian, Player(0), "-ban Nerubian", true)
-    TriggerAddAction(gg_trg_Nerubian, Trig_Nerubian_Actions)
+    FE_Factions.registerBan("Nerubian", Trig_Nerubian_Actions)
 end
 -- END FOREST SECTION 275
 
 -- BEGIN FOREST SECTION 276 Human
--- Original JASS function: Trig_Human_Func001Func006001 (line 16612)
-function Trig_Human_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Human_Func001Func006002 (line 16616)
-function Trig_Human_Func001Func006002()
-    do return ((udg_BannedHuman == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Human_Func001C (line 16620)
-function Trig_Human_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedHuman == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Human_Actions (line 16627)
 function Trig_Human_Actions()
-    if (Trig_Human_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedHuman = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Human banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Human")
 end
 
--- Original JASS function: InitTrig_Human (line 16638)
 function InitTrig_Human()
-    gg_trg_Human = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Human, Player(0), "-ban Human", true)
-    TriggerAddAction(gg_trg_Human, Trig_Human_Actions)
+    FE_Factions.registerBan("Human", Trig_Human_Actions)
 end
 -- END FOREST SECTION 276
 
 -- BEGIN FOREST SECTION 277 Wisp
--- Original JASS function: Trig_Wisp_Func001Func006001 (line 16648)
-function Trig_Wisp_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Wisp_Func001Func006002 (line 16652)
-function Trig_Wisp_Func001Func006002()
-    do return ((udg_BannedWisp == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Wisp_Func001C (line 16656)
-function Trig_Wisp_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedWisp == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Wisp_Actions (line 16663)
 function Trig_Wisp_Actions()
-    if (Trig_Wisp_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedWisp = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Wisp banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Wisp")
 end
 
--- Original JASS function: InitTrig_Wisp (line 16674)
 function InitTrig_Wisp()
-    gg_trg_Wisp = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Wisp, Player(0), "-ban Wisp", true)
-    TriggerAddAction(gg_trg_Wisp, Trig_Wisp_Actions)
+    FE_Factions.registerBan("Wisp", Trig_Wisp_Actions)
 end
 -- END FOREST SECTION 277
 
 -- BEGIN FOREST SECTION 278 Kobold
--- Original JASS function: Trig_Kobold_Func001Func006001 (line 16684)
-function Trig_Kobold_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Kobold_Func001Func006002 (line 16688)
-function Trig_Kobold_Func001Func006002()
-    do return ((udg_BannedKobold == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Kobold_Func001C (line 16692)
-function Trig_Kobold_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedKobold == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Kobold_Actions (line 16699)
 function Trig_Kobold_Actions()
-    if (Trig_Kobold_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedKobold = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Kobold banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Kobold")
 end
 
--- Original JASS function: InitTrig_Kobold (line 16710)
 function InitTrig_Kobold()
-    gg_trg_Kobold = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Kobold, Player(0), "-ban Kobold", true)
-    TriggerAddAction(gg_trg_Kobold, Trig_Kobold_Actions)
+    FE_Factions.registerBan("Kobold", Trig_Kobold_Actions)
 end
 -- END FOREST SECTION 278
 
 -- BEGIN FOREST SECTION 279 Ghoul
--- Original JASS function: Trig_Ghoul_Func001Func006001 (line 16720)
-function Trig_Ghoul_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Ghoul_Func001Func006002 (line 16724)
-function Trig_Ghoul_Func001Func006002()
-    do return ((udg_BannedGhoul == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Ghoul_Func001C (line 16728)
-function Trig_Ghoul_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedGhoul == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Ghoul_Actions (line 16735)
 function Trig_Ghoul_Actions()
-    if (Trig_Ghoul_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedGhoul = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ghoul banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Ghoul")
 end
 
--- Original JASS function: InitTrig_Ghoul (line 16746)
 function InitTrig_Ghoul()
-    gg_trg_Ghoul = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Ghoul, Player(0), "-ban Ghoul", true)
-    TriggerAddAction(gg_trg_Ghoul, Trig_Ghoul_Actions)
+    FE_Factions.registerBan("Ghoul", Trig_Ghoul_Actions)
 end
 -- END FOREST SECTION 279
 
 -- BEGIN FOREST SECTION 280 Kraken
--- Original JASS function: Trig_Kraken_Func001Func006001 (line 16756)
-function Trig_Kraken_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Kraken_Func001Func006002 (line 16760)
-function Trig_Kraken_Func001Func006002()
-    do return ((udg_BannedKraken == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Kraken_Func001C (line 16764)
-function Trig_Kraken_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedKraken == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Kraken_Actions (line 16771)
 function Trig_Kraken_Actions()
-    if (Trig_Kraken_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedKraken = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Kraken banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Kraken")
 end
 
--- Original JASS function: InitTrig_Kraken (line 16782)
 function InitTrig_Kraken()
-    gg_trg_Kraken = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Kraken, Player(0), "-ban Kraken", true)
-    TriggerAddAction(gg_trg_Kraken, Trig_Kraken_Actions)
+    FE_Factions.registerBan("Kraken", Trig_Kraken_Actions)
 end
 -- END FOREST SECTION 280
 
 -- BEGIN FOREST SECTION 281 Aethyr
--- Original JASS function: Trig_Aethyr_Func001Func006001 (line 16792)
-function Trig_Aethyr_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Aethyr_Func001Func006002 (line 16796)
-function Trig_Aethyr_Func001Func006002()
-    do return ((udg_BannedAethyr == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Aethyr_Func001C (line 16800)
-function Trig_Aethyr_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAethyr == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Aethyr_Actions (line 16807)
 function Trig_Aethyr_Actions()
-    if (Trig_Aethyr_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAethyr = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Aethyr Warp banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Aethyr")
 end
 
--- Original JASS function: InitTrig_Aethyr (line 16818)
 function InitTrig_Aethyr()
-    gg_trg_Aethyr = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Aethyr, Player(0), "-ban aethyr", true)
-    TriggerAddAction(gg_trg_Aethyr, Trig_Aethyr_Actions)
+    FE_Factions.registerBan("Aethyr", Trig_Aethyr_Actions)
 end
 -- END FOREST SECTION 281
 
 -- BEGIN FOREST SECTION 282 Forgotten
--- Original JASS function: Trig_Forgotten_Func001Func006001 (line 16828)
-function Trig_Forgotten_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Forgotten_Func001Func006002 (line 16832)
-function Trig_Forgotten_Func001Func006002()
-    do return ((udg_BannedForgotten == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Forgotten_Func001C (line 16836)
-function Trig_Forgotten_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedForgotten == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Forgotten_Actions (line 16843)
 function Trig_Forgotten_Actions()
-    if (Trig_Forgotten_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedForgotten = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Forgotten One banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Forgotten")
 end
 
--- Original JASS function: InitTrig_Forgotten (line 16854)
 function InitTrig_Forgotten()
-    gg_trg_Forgotten = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Forgotten, Player(0), "-ban Forgotten", true)
-    TriggerAddAction(gg_trg_Forgotten, Trig_Forgotten_Actions)
+    FE_Factions.registerBan("Forgotten", Trig_Forgotten_Actions)
 end
 -- END FOREST SECTION 282
 
 -- BEGIN FOREST SECTION 283 Goblin
--- Original JASS function: Trig_Goblin_Func001Func006001 (line 16864)
-function Trig_Goblin_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Goblin_Func001Func006002 (line 16868)
-function Trig_Goblin_Func001Func006002()
-    do return ((udg_BannedGoblin == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Goblin_Func001C (line 16872)
-function Trig_Goblin_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedGoblin == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Goblin_Actions (line 16879)
 function Trig_Goblin_Actions()
-    if (Trig_Goblin_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedGoblin = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Goblin banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Goblin")
 end
 
--- Original JASS function: InitTrig_Goblin (line 16890)
 function InitTrig_Goblin()
-    gg_trg_Goblin = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Goblin, Player(0), "-ban Goblin", true)
-    TriggerAddAction(gg_trg_Goblin, Trig_Goblin_Actions)
+    FE_Factions.registerBan("Goblin", Trig_Goblin_Actions)
 end
 -- END FOREST SECTION 283
 
 -- BEGIN FOREST SECTION 284 Ogre
--- Original JASS function: Trig_Ogre_Func001Func006001 (line 16900)
-function Trig_Ogre_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Ogre_Func001Func006002 (line 16904)
-function Trig_Ogre_Func001Func006002()
-    do return ((udg_BannedOgre == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Ogre_Func001C (line 16908)
-function Trig_Ogre_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedOgre == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Ogre_Actions (line 16915)
 function Trig_Ogre_Actions()
-    if (Trig_Ogre_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedOgre = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ogre banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Ogre")
 end
 
--- Original JASS function: InitTrig_Ogre (line 16926)
 function InitTrig_Ogre()
-    gg_trg_Ogre = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Ogre, Player(0), "-ban Ogre", true)
-    TriggerAddAction(gg_trg_Ogre, Trig_Ogre_Actions)
+    FE_Factions.registerBan("Ogre", Trig_Ogre_Actions)
 end
 -- END FOREST SECTION 284
 
 -- BEGIN FOREST SECTION 285 Magmide
--- Original JASS function: Trig_Magmide_Func001Func006001 (line 16936)
-function Trig_Magmide_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Magmide_Func001Func006002 (line 16940)
-function Trig_Magmide_Func001Func006002()
-    do return ((udg_BannedMagmide == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Magmide_Func001C (line 16944)
-function Trig_Magmide_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedMagmide == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Magmide_Actions (line 16951)
 function Trig_Magmide_Actions()
-    if (Trig_Magmide_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedMagmide = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Magmide banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Magmide")
 end
 
--- Original JASS function: InitTrig_Magmide (line 16962)
 function InitTrig_Magmide()
-    gg_trg_Magmide = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Magmide, Player(0), "-ban Magmide", true)
-    TriggerAddAction(gg_trg_Magmide, Trig_Magmide_Actions)
+    FE_Factions.registerBan("Magmide", Trig_Magmide_Actions)
 end
 -- END FOREST SECTION 285
 
 -- BEGIN FOREST SECTION 286 Furbolg
--- Original JASS function: Trig_Furbolg_Func001Func006001 (line 16972)
-function Trig_Furbolg_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Furbolg_Func001Func006002 (line 16976)
-function Trig_Furbolg_Func001Func006002()
-    do return ((udg_BannedFurbolg == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Furbolg_Func001C (line 16980)
-function Trig_Furbolg_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedFurbolg == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Furbolg_Actions (line 16987)
 function Trig_Furbolg_Actions()
-    if (Trig_Furbolg_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedFurbolg = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Furbolg banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Furbolg")
 end
 
--- Original JASS function: InitTrig_Furbolg (line 16998)
 function InitTrig_Furbolg()
-    gg_trg_Furbolg = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Furbolg, Player(0), "-ban Furbolg", true)
-    TriggerAddAction(gg_trg_Furbolg, Trig_Furbolg_Actions)
+    FE_Factions.registerBan("Furbolg", Trig_Furbolg_Actions)
 end
 -- END FOREST SECTION 286
 
 -- BEGIN FOREST SECTION 287 Razormane
--- Original JASS function: Trig_Razormane_Func001Func006001 (line 17008)
-function Trig_Razormane_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Razormane_Func001Func006002 (line 17012)
-function Trig_Razormane_Func001Func006002()
-    do return ((udg_BannedRazormane == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Razormane_Func001C (line 17016)
-function Trig_Razormane_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedRazormane == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Razormane_Actions (line 17023)
 function Trig_Razormane_Actions()
-    if (Trig_Razormane_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedRazormane = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Razormane banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Razormane")
 end
 
--- Original JASS function: InitTrig_Razormane (line 17034)
 function InitTrig_Razormane()
-    gg_trg_Razormane = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Razormane, Player(0), "-ban Razormane", true)
-    TriggerAddAction(gg_trg_Razormane, Trig_Razormane_Actions)
+    FE_Factions.registerBan("Razormane", Trig_Razormane_Actions)
 end
 -- END FOREST SECTION 287
 
 -- BEGIN FOREST SECTION 288 Elf
--- Original JASS function: Trig_Elf_Func001Func006001 (line 17044)
-function Trig_Elf_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Elf_Func001Func006002 (line 17048)
-function Trig_Elf_Func001Func006002()
-    do return ((udg_BannedElf == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Elf_Func001C (line 17052)
-function Trig_Elf_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedElf == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Elf_Actions (line 17059)
 function Trig_Elf_Actions()
-    if (Trig_Elf_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedElf = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Elf banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Elf")
 end
 
--- Original JASS function: InitTrig_Elf (line 17070)
 function InitTrig_Elf()
-    gg_trg_Elf = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Elf, Player(0), "-ban NightElf", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Elf, Player(0), "-ban Elf", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Elf, Player(0), "-ban Night", true)
-    TriggerAddAction(gg_trg_Elf, Trig_Elf_Actions)
+    FE_Factions.registerBan("Elf", Trig_Elf_Actions)
 end
 -- END FOREST SECTION 288
 
 -- BEGIN FOREST SECTION 289 HighElf
--- Original JASS function: Trig_HighElf_Func001Func006001 (line 17082)
-function Trig_HighElf_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_HighElf_Func001Func006002 (line 17086)
-function Trig_HighElf_Func001Func006002()
-    do return ((udg_BannedHighElf == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_HighElf_Func001C (line 17090)
-function Trig_HighElf_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedHighElf == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_HighElf_Actions (line 17097)
 function Trig_HighElf_Actions()
-    if (Trig_HighElf_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedHighElf = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Elf banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("HighElf")
 end
 
--- Original JASS function: InitTrig_HighElf (line 17108)
 function InitTrig_HighElf()
-    gg_trg_HighElf = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_HighElf, Player(0), "-ban HighElf", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_HighElf, Player(0), "-ban High Elf", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_HighElf, Player(0), "-ban High", true)
-    TriggerAddAction(gg_trg_HighElf, Trig_HighElf_Actions)
+    FE_Factions.registerBan("HighElf", Trig_HighElf_Actions)
 end
 -- END FOREST SECTION 289
 
 -- BEGIN FOREST SECTION 290 Ratling
--- Original JASS function: Trig_Ratling_Func001Func006001 (line 17120)
-function Trig_Ratling_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Ratling_Func001Func006002 (line 17124)
-function Trig_Ratling_Func001Func006002()
-    do return ((udg_BannedRatling == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Ratling_Func001C (line 17128)
-function Trig_Ratling_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedRatling == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Ratling_Actions (line 17135)
 function Trig_Ratling_Actions()
-    if (Trig_Ratling_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedRatling = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ratling Stalker banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Ratling")
 end
 
--- Original JASS function: InitTrig_Ratling (line 17146)
 function InitTrig_Ratling()
-    gg_trg_Ratling = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Ratling, Player(0), "-ban rat", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ratling, Player(0), "-ban ratling", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ratling, Player(0), "-ban stalker", true)
-    TriggerAddAction(gg_trg_Ratling, Trig_Ratling_Actions)
+    FE_Factions.registerBan("Ratling", Trig_Ratling_Actions)
 end
 -- END FOREST SECTION 290
 
 -- BEGIN FOREST SECTION 291 Hunter
--- Original JASS function: Trig_Hunter_Func001Func006001 (line 17158)
-function Trig_Hunter_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_Hunter_Func001Func006002 (line 17162)
-function Trig_Hunter_Func001Func006002()
-    do return ((udg_BannedHunter == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_Hunter_Func001C (line 17166)
-function Trig_Hunter_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedHunter == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Hunter_Actions (line 17173)
 function Trig_Hunter_Actions()
-    if (Trig_Hunter_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedHunter = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Bounty Hunter banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("Hunter")
 end
 
--- Original JASS function: InitTrig_Hunter (line 17184)
 function InitTrig_Hunter()
-    gg_trg_Hunter = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Hunter, Player(0), "-ban hunter", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Hunter, Player(0), "-ban bounty", true)
-    TriggerAddAction(gg_trg_Hunter, Trig_Hunter_Actions)
+    FE_Factions.registerBan("Hunter", Trig_Hunter_Actions)
 end
 -- END FOREST SECTION 291
 -- END FOREST MODULE src/game/bans/expanders.lua
@@ -18432,435 +14896,112 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 292 AncientLight
--- Original JASS function: Trig_AncientLight_Func001Func006001 (line 17195)
-function Trig_AncientLight_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientLight_Func001Func006002 (line 17199)
-function Trig_AncientLight_Func001Func006002()
-    do return ((udg_BannedAncientLight == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientLight_Func001C (line 17203)
-function Trig_AncientLight_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientLight == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientLight_Actions (line 17210)
 function Trig_AncientLight_Actions()
-    if (Trig_AncientLight_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientLight = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Light banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientLight")
 end
 
--- Original JASS function: InitTrig_AncientLight (line 17221)
 function InitTrig_AncientLight()
-    gg_trg_AncientLight = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientLight, Player(0), "-ban light", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientLight, Player(0), "-ban divinity", true)
-    TriggerAddAction(gg_trg_AncientLight, Trig_AncientLight_Actions)
+    FE_Factions.registerBan("AncientLight", Trig_AncientLight_Actions)
 end
 -- END FOREST SECTION 292
 
 -- BEGIN FOREST SECTION 293 AncientLightning
--- Original JASS function: Trig_AncientLightning_Func001Func006001 (line 17232)
-function Trig_AncientLightning_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientLightning_Func001Func006002 (line 17236)
-function Trig_AncientLightning_Func001Func006002()
-    do return ((udg_BannedAncientLightning == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientLightning_Func001C (line 17240)
-function Trig_AncientLightning_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientLightning == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientLightning_Actions (line 17247)
 function Trig_AncientLightning_Actions()
-    if (Trig_AncientLightning_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientLightning = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Lightning banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientLightning")
 end
 
--- Original JASS function: InitTrig_AncientLightning (line 17258)
 function InitTrig_AncientLightning()
-    gg_trg_AncientLightning = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientLightning, Player(0), "-ban Lightning", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientLightning, Player(0), "-ban Zalxon", true)
-    TriggerAddAction(gg_trg_AncientLightning, Trig_AncientLightning_Actions)
+    FE_Factions.registerBan("AncientLightning", Trig_AncientLightning_Actions)
 end
 -- END FOREST SECTION 293
 
 -- BEGIN FOREST SECTION 294 AncientDragon
--- Original JASS function: Trig_AncientDragon_Func001Func006001 (line 17269)
-function Trig_AncientDragon_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientDragon_Func001Func006002 (line 17273)
-function Trig_AncientDragon_Func001Func006002()
-    do return ((udg_BannedAncientDragon == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientDragon_Func001C (line 17277)
-function Trig_AncientDragon_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientDragon == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientDragon_Actions (line 17284)
 function Trig_AncientDragon_Actions()
-    if (Trig_AncientDragon_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientDragon = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Dragons banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientDragon")
 end
 
--- Original JASS function: InitTrig_AncientDragon (line 17295)
 function InitTrig_AncientDragon()
-    gg_trg_AncientDragon = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientDragon, Player(0), "-ban Dragon", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientDragon, Player(0), "-ban Dragons", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientDragon, Player(0), "-ban Dragos", true)
-    TriggerAddAction(gg_trg_AncientDragon, Trig_AncientDragon_Actions)
+    FE_Factions.registerBan("AncientDragon", Trig_AncientDragon_Actions)
 end
 -- END FOREST SECTION 294
 
 -- BEGIN FOREST SECTION 295 AncientEarth
--- Original JASS function: Trig_AncientEarth_Func001Func006001 (line 17307)
-function Trig_AncientEarth_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientEarth_Func001Func006002 (line 17311)
-function Trig_AncientEarth_Func001Func006002()
-    do return ((udg_BannedAncientEarth == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientEarth_Func001C (line 17315)
-function Trig_AncientEarth_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientEarth == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientEarth_Actions (line 17322)
 function Trig_AncientEarth_Actions()
-    if (Trig_AncientEarth_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientEarth = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Earth banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientEarth")
 end
 
--- Original JASS function: InitTrig_AncientEarth (line 17333)
 function InitTrig_AncientEarth()
-    gg_trg_AncientEarth = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientEarth, Player(0), "-ban Earth", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientEarth, Player(0), "-ban Tremor", true)
-    TriggerAddAction(gg_trg_AncientEarth, Trig_AncientEarth_Actions)
+    FE_Factions.registerBan("AncientEarth", Trig_AncientEarth_Actions)
 end
 -- END FOREST SECTION 295
 
 -- BEGIN FOREST SECTION 296 AncientDarkness
--- Original JASS function: Trig_AncientDarkness_Func001Func006001 (line 17344)
-function Trig_AncientDarkness_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientDarkness_Func001Func006002 (line 17348)
-function Trig_AncientDarkness_Func001Func006002()
-    do return ((udg_BannedAncientDarkness == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientDarkness_Func001C (line 17352)
-function Trig_AncientDarkness_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientDarkness == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientDarkness_Actions (line 17359)
 function Trig_AncientDarkness_Actions()
-    if (Trig_AncientDarkness_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientDarkness = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Darkness banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientDarkness")
 end
 
--- Original JASS function: InitTrig_AncientDarkness (line 17370)
 function InitTrig_AncientDarkness()
-    gg_trg_AncientDarkness = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientDarkness, Player(0), "-ban Darkness", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientDarkness, Player(0), "-ban Paranoia", true)
-    TriggerAddAction(gg_trg_AncientDarkness, Trig_AncientDarkness_Actions)
+    FE_Factions.registerBan("AncientDarkness", Trig_AncientDarkness_Actions)
 end
 -- END FOREST SECTION 296
 
 -- BEGIN FOREST SECTION 297 AncientIce
--- Original JASS function: Trig_AncientIce_Func001Func006001 (line 17381)
-function Trig_AncientIce_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientIce_Func001Func006002 (line 17385)
-function Trig_AncientIce_Func001Func006002()
-    do return ((udg_BannedAncientIce == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientIce_Func001C (line 17389)
-function Trig_AncientIce_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientIce == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientIce_Actions (line 17396)
 function Trig_AncientIce_Actions()
-    if (Trig_AncientIce_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientIce = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Ice banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientIce")
 end
 
--- Original JASS function: InitTrig_AncientIce (line 17407)
 function InitTrig_AncientIce()
-    gg_trg_AncientIce = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientIce, Player(0), "-ban Ice", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientIce, Player(0), "-ban Avalanche", true)
-    TriggerAddAction(gg_trg_AncientIce, Trig_AncientIce_Actions)
+    FE_Factions.registerBan("AncientIce", Trig_AncientIce_Actions)
 end
 -- END FOREST SECTION 297
 
 -- BEGIN FOREST SECTION 298 AncientFire
--- Original JASS function: Trig_AncientFire_Func001Func006001 (line 17418)
-function Trig_AncientFire_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientFire_Func001Func006002 (line 17422)
-function Trig_AncientFire_Func001Func006002()
-    do return ((udg_BannedAncientFire == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientFire_Func001C (line 17426)
-function Trig_AncientFire_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientFire == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientFire_Actions (line 17433)
 function Trig_AncientFire_Actions()
-    if (Trig_AncientFire_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientFire = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Fire banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientFire")
 end
 
--- Original JASS function: InitTrig_AncientFire (line 17444)
 function InitTrig_AncientFire()
-    gg_trg_AncientFire = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientFire, Player(0), "-ban Fire", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientFire, Player(0), "-ban Ignite", true)
-    TriggerAddAction(gg_trg_AncientFire, Trig_AncientFire_Actions)
+    FE_Factions.registerBan("AncientFire", Trig_AncientFire_Actions)
 end
 -- END FOREST SECTION 298
 
 -- BEGIN FOREST SECTION 299 AncientNature
--- Original JASS function: Trig_AncientNature_Func001Func006001 (line 17455)
-function Trig_AncientNature_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientNature_Func001Func006002 (line 17459)
-function Trig_AncientNature_Func001Func006002()
-    do return ((udg_BannedAncientNature == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientNature_Func001C (line 17463)
-function Trig_AncientNature_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientNature == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientNature_Actions (line 17470)
 function Trig_AncientNature_Actions()
-    if (Trig_AncientNature_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientNature = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Nature banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientNature")
 end
 
--- Original JASS function: InitTrig_AncientNature (line 17481)
 function InitTrig_AncientNature()
-    gg_trg_AncientNature = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientNature, Player(0), "-ban Nature", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientNature, Player(0), "-ban Eternity", true)
-    TriggerAddAction(gg_trg_AncientNature, Trig_AncientNature_Actions)
+    FE_Factions.registerBan("AncientNature", Trig_AncientNature_Actions)
 end
 -- END FOREST SECTION 299
 
 -- BEGIN FOREST SECTION 300 AncientSand
--- Original JASS function: Trig_AncientSand_Func001Func006001 (line 17492)
-function Trig_AncientSand_Func001Func006001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientSand_Func001Func006002 (line 17496)
-function Trig_AncientSand_Func001Func006002()
-    do return ((udg_BannedAncientSand == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientSand_Func001C (line 17500)
-function Trig_AncientSand_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientSand == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientSand_Actions (line 17507)
 function Trig_AncientSand_Actions()
-    if (Trig_AncientSand_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientSand = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Sand banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientSand")
 end
 
--- Original JASS function: InitTrig_AncientSand (line 17518)
 function InitTrig_AncientSand()
-    gg_trg_AncientSand = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientSand, Player(0), "-ban Sand", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientSand, Player(0), "-ban Pharaoh", true)
-    TriggerAddAction(gg_trg_AncientSand, Trig_AncientSand_Actions)
+    FE_Factions.registerBan("AncientSand", Trig_AncientSand_Actions)
 end
 -- END FOREST SECTION 300
 
 -- BEGIN FOREST SECTION 301 AncientSpace
--- Original JASS function: Trig_AncientSpace_Func001Func010001 (line 17529)
-function Trig_AncientSpace_Func001Func010001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientSpace_Func001Func010002 (line 17533)
-function Trig_AncientSpace_Func001Func010002()
-    do return ((udg_BannedAncientSpace == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientSpace_Func001C (line 17537)
-function Trig_AncientSpace_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientSpace == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientSpace_Actions (line 17544)
 function Trig_AncientSpace_Actions()
-    if (Trig_AncientSpace_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientSpace = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Space banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientSpace")
 end
 
--- Original JASS function: InitTrig_AncientSpace (line 17555)
 function InitTrig_AncientSpace()
-    gg_trg_AncientSpace = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientSpace, Player(0), "-ban Space", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientSpace, Player(0), "-ban Nebula", true)
-    TriggerAddAction(gg_trg_AncientSpace, Trig_AncientSpace_Actions)
+    FE_Factions.registerBan("AncientSpace", Trig_AncientSpace_Actions)
 end
 -- END FOREST SECTION 301
 
 -- BEGIN FOREST SECTION 302 AncientWind
--- Original JASS function: Trig_AncientWind_Func001Func011001 (line 17566)
-function Trig_AncientWind_Func001Func011001()
-    do return ((udg_Bans == 0)) end
-end
-
--- Original JASS function: Trig_AncientWind_Func001Func011002 (line 17570)
-function Trig_AncientWind_Func001Func011002()
-    do return ((udg_BannedAncientWind == __jreal(1.00))) end
-end
-
--- Original JASS function: Trig_AncientWind_Func001C (line 17574)
-function Trig_AncientWind_Func001C()
-    if ((not GetBooleanOr(((udg_Bans == 0)), ((udg_BannedAncientWind == __jreal(1.00)))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_AncientWind_Actions (line 17581)
 function Trig_AncientWind_Actions()
-    if (Trig_AncientWind_Func001C()) then
-        DisplayTextToForce(GetPlayersAll(), "Ban failed.")
-    else
-        udg_Bans = (__jint(udg_Bans - 1))
-        udg_BannedAncientWind = __jreal(1.00)
-        DisplayTextToForce(GetPlayersAll(), (__jconcat("Ancient of Wind banned. Bans remaining: ", I2S(udg_Bans))))
-    end
+    FE_Factions.ban("AncientWind")
 end
 
--- Original JASS function: InitTrig_AncientWind (line 17592)
 function InitTrig_AncientWind()
-    gg_trg_AncientWind = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientWind, Player(0), "-ban Wind", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientWind, Player(0), "-ban Wispari", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientWind, Player(0), "-ban Wisperi", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientWind, Player(0), "-ban Whispari", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_AncientWind, Player(0), "-ban Whisperi", true)
-    TriggerAddAction(gg_trg_AncientWind, Trig_AncientWind_Actions)
+    FE_Factions.registerBan("AncientWind", Trig_AncientWind_Actions)
 end
 -- END FOREST SECTION 302
 -- END FOREST MODULE src/game/bans/ancients.lua
@@ -18870,40 +15011,33 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 303 Prevent_Attack
--- Original JASS function: Trig_Prevent_Attack_Func002C (line 17606)
 function Trig_Prevent_Attack_Func002C()
-    if (((GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("h05B")))) then
-        do return true end
+    if (GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("h05B")) then
+        return true
     end
-    if (((GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("h02B")))) then
-        do return true end
+    if (GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("h02B")) then
+        return true
     end
-    if (((GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("n000")))) then
-        do return true end
+    if (GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("n000")) then
+        return true
     end
-    if (((GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("n00A")))) then
-        do return true end
+    if (GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("n00A")) then
+        return true
     end
-    if (((GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("h060")))) then
-        do return true end
+    if (GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("h060")) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_Prevent_Attack_Conditions (line 17625)
 function Trig_Prevent_Attack_Conditions()
-    if ((not Trig_Prevent_Attack_Func002C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Prevent_Attack_Func002C())
 end
 
--- Original JASS function: Trig_Prevent_Attack_Actions (line 17632)
 function Trig_Prevent_Attack_Actions()
     IssueImmediateOrderBJ(GetAttacker(), "stop")
 end
 
--- Original JASS function: InitTrig_Prevent_Attack (line 17637)
 function InitTrig_Prevent_Attack()
     gg_trg_Prevent_Attack = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Prevent_Attack, EVENT_PLAYER_UNIT_ATTACKED)
@@ -18913,20 +15047,14 @@ end
 -- END FOREST SECTION 303
 
 -- BEGIN FOREST SECTION 304 No_Attacking_Shops_Copy_3
--- Original JASS function: Trig_No_Attacking_Shops_Copy_3_Conditions (line 17647)
 function Trig_No_Attacking_Shops_Copy_3_Conditions()
-    if ((not ((GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("h05B"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("h05B")
 end
 
--- Original JASS function: Trig_No_Attacking_Shops_Copy_3_Actions (line 17654)
 function Trig_No_Attacking_Shops_Copy_3_Actions()
     IssueImmediateOrderBJ(GetAttacker(), "stop")
 end
 
--- Original JASS function: InitTrig_No_Attacking_Shops_Copy_3 (line 17659)
 function InitTrig_No_Attacking_Shops_Copy_3()
     gg_trg_No_Attacking_Shops_Copy_3 = CreateTrigger()
     DisableTrigger(gg_trg_No_Attacking_Shops_Copy_3)
@@ -18937,20 +15065,14 @@ end
 -- END FOREST SECTION 304
 
 -- BEGIN FOREST SECTION 305 No_Attacking_Shops_Copy_2
--- Original JASS function: Trig_No_Attacking_Shops_Copy_2_Conditions (line 17670)
 function Trig_No_Attacking_Shops_Copy_2_Conditions()
-    if ((not ((GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("h02B"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("h02B")
 end
 
--- Original JASS function: Trig_No_Attacking_Shops_Copy_2_Actions (line 17677)
 function Trig_No_Attacking_Shops_Copy_2_Actions()
     IssueImmediateOrderBJ(GetAttacker(), "stop")
 end
 
--- Original JASS function: InitTrig_No_Attacking_Shops_Copy_2 (line 17682)
 function InitTrig_No_Attacking_Shops_Copy_2()
     gg_trg_No_Attacking_Shops_Copy_2 = CreateTrigger()
     DisableTrigger(gg_trg_No_Attacking_Shops_Copy_2)
@@ -18961,20 +15083,14 @@ end
 -- END FOREST SECTION 305
 
 -- BEGIN FOREST SECTION 306 No_Attacking_Shops_Copy
--- Original JASS function: Trig_No_Attacking_Shops_Copy_Conditions (line 17693)
 function Trig_No_Attacking_Shops_Copy_Conditions()
-    if ((not ((GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("n000"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("n000")
 end
 
--- Original JASS function: Trig_No_Attacking_Shops_Copy_Actions (line 17700)
 function Trig_No_Attacking_Shops_Copy_Actions()
     IssueImmediateOrderBJ(GetAttacker(), "stop")
 end
 
--- Original JASS function: InitTrig_No_Attacking_Shops_Copy (line 17705)
 function InitTrig_No_Attacking_Shops_Copy()
     gg_trg_No_Attacking_Shops_Copy = CreateTrigger()
     DisableTrigger(gg_trg_No_Attacking_Shops_Copy)
@@ -18985,20 +15101,14 @@ end
 -- END FOREST SECTION 306
 
 -- BEGIN FOREST SECTION 307 No_Attacking_Shops
--- Original JASS function: Trig_No_Attacking_Shops_Conditions (line 17716)
 function Trig_No_Attacking_Shops_Conditions()
-    if ((not ((GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("n00A"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetAttackedUnitBJ()) == FourCC("n00A")
 end
 
--- Original JASS function: Trig_No_Attacking_Shops_Actions (line 17723)
 function Trig_No_Attacking_Shops_Actions()
     IssueImmediateOrderBJ(GetAttacker(), "stop")
 end
 
--- Original JASS function: InitTrig_No_Attacking_Shops (line 17728)
 function InitTrig_No_Attacking_Shops()
     gg_trg_No_Attacking_Shops = CreateTrigger()
     DisableTrigger(gg_trg_No_Attacking_Shops)
@@ -19014,12 +15124,10 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 308 Ally_neutral
--- Original JASS function: Trig_Ally_neutral_Actions (line 17739)
 function Trig_Ally_neutral_Actions()
     SetPlayerAllianceStateBJ(FE_Roles.ancient(), Player(PLAYER_NEUTRAL_AGGRESSIVE), bj_ALLIANCE_ALLIED)
 end
 
--- Original JASS function: InitTrig_Ally_neutral (line 17744)
 function InitTrig_Ally_neutral()
     gg_trg_Ally_neutral = CreateTrigger()
     TriggerAddAction(gg_trg_Ally_neutral, Trig_Ally_neutral_Actions)
@@ -19027,12 +15135,10 @@ end
 -- END FOREST SECTION 308
 
 -- BEGIN FOREST SECTION 309 Vision
--- Original JASS function: Trig_Vision_Actions (line 17752)
 function Trig_Vision_Actions()
     FogMaskEnableOff()
 end
 
--- Original JASS function: InitTrig_Vision (line 17757)
 function InitTrig_Vision()
     gg_trg_Vision = CreateTrigger()
     TriggerAddAction(gg_trg_Vision, Trig_Vision_Actions)
@@ -19045,12 +15151,10 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 310 Death_anim
--- Original JASS function: Trig_Death_anim_Actions (line 17765)
 function Trig_Death_anim_Actions()
     RemoveUnit(GetDecayingUnit())
 end
 
--- Original JASS function: InitTrig_Death_anim (line 17770)
 function InitTrig_Death_anim()
     gg_trg_Death_anim = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Death_anim, __jreal(1.00))
@@ -19064,7 +15168,6 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 311 Quests
--- Original JASS function: Trig_Quests_Actions (line 17779)
 function Trig_Quests_Actions()
     CreateQuestBJ(bj_QUESTTYPE_REQ_DISCOVERED, "TRIGSTR_973", "TRIGSTR_974", "ReplaceableTextures\\CommandButtons\\BTNSpellBookBLS.blp")
     CreateQuestBJ(bj_QUESTTYPE_REQ_DISCOVERED, "TRIGSTR_584", "TRIGSTR_653", "ReplaceableTextures\\CommandButtons\\BTNGarithos.blp")
@@ -19077,7 +15180,6 @@ function Trig_Quests_Actions()
     CreateQuestBJ(bj_QUESTTYPE_OPT_DISCOVERED, "TRIGSTR_5649", "TRIGSTR_6783", "ReplaceableTextures\\CommandButtons\\BTNChestOfGold.blp")
 end
 
--- Original JASS function: InitTrig_Quests (line 17792)
 function InitTrig_Quests()
     gg_trg_Quests = CreateTrigger()
     TriggerAddAction(gg_trg_Quests, Trig_Quests_Actions)
@@ -19090,17 +15192,14 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 317 Lackey_Respawn
--- Original JASS function: LackeyRespawn_IsValidType (line 18016)
 function LackeyRespawn_IsValidType(unitType)
-    do return (((((((((((unitType == FourCC("e00E")) or (unitType == FourCC("e00C"))) or (unitType == FourCC("e002"))) or (unitType == FourCC("e009"))) or (unitType == FourCC("e00A"))) or (unitType == FourCC("e00G"))) or (unitType == FourCC("e00J"))) or (unitType == FourCC("e00O"))) or (unitType == FourCC("e00H"))) or (unitType == FourCC("e00N"))) or (unitType == FourCC("e00S"))) end
+    return (((((((((((unitType == FourCC("e00E")) or (unitType == FourCC("e00C"))) or (unitType == FourCC("e002"))) or (unitType == FourCC("e009"))) or (unitType == FourCC("e00A"))) or (unitType == FourCC("e00G"))) or (unitType == FourCC("e00J"))) or (unitType == FourCC("e00O"))) or (unitType == FourCC("e00H"))) or (unitType == FourCC("e00N"))) or (unitType == FourCC("e00S")))
 end
 
--- Original JASS function: LackeyRespawn_IsPlayerPresent (line 18020)
 function LackeyRespawn_IsPlayerPresent(playerId)
-    do return (GetPlayerSlotState(Player(playerId)) == PLAYER_SLOT_STATE_PLAYING) end
+    return (GetPlayerSlotState(Player(playerId)) == PLAYER_SLOT_STATE_PLAYING)
 end
 
--- Original JASS function: LackeyRespawn_OnTimer (line 18024)
 function LackeyRespawn_OnTimer()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -19122,12 +15221,10 @@ function LackeyRespawn_OnTimer()
     t = nil
 end
 
--- Original JASS function: Trig_Lackey_Respawn_Conditions (line 18048)
 function Trig_Lackey_Respawn_Conditions()
-    do return LackeyRespawn_IsValidType(GetUnitTypeId(GetTriggerUnit())) end
+    return LackeyRespawn_IsValidType(GetUnitTypeId(GetTriggerUnit()))
 end
 
--- Original JASS function: Trig_Lackey_Respawn_Actions (line 18052)
 function Trig_Lackey_Respawn_Actions()
     local dying = GetTriggerUnit()
     local owner = GetOwningPlayer(dying)
@@ -19136,10 +15233,10 @@ function Trig_Lackey_Respawn_Actions()
     local t = nil
     local td = nil
     local id = 0
-    if (not ((GetPlayerSlotState(Player((playerId))) == PLAYER_SLOT_STATE_PLAYING))) then
+    if (not (GetPlayerSlotState(Player((playerId))) == PLAYER_SLOT_STATE_PLAYING)) then
         dying = nil
         owner = nil
-        do return end
+        return
     end
     t = CreateTimer()
     td = CreateTimerDialog(t)
@@ -19158,7 +15255,6 @@ function Trig_Lackey_Respawn_Actions()
     t = nil
 end
 
--- Original JASS function: InitTrig_Lackey_Respawn (line 18090)
 function InitTrig_Lackey_Respawn()
     gg_trg_Lackey_Respawn = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Lackey_Respawn, EVENT_PLAYER_UNIT_DEATH)
@@ -19168,57 +15264,41 @@ end
 -- END FOREST SECTION 317
 
 -- BEGIN FOREST SECTION 318 Death_start
--- Original JASS function: Trig_Death_start_Conditions (line 18099)
 function Trig_Death_start_Conditions()
-    if ((not ((IsUnitType(GetTriggerUnit(), UNIT_TYPE_STRUCTURE) == false)))) then
-        do return false end
+    if (not (IsUnitType(GetTriggerUnit(), UNIT_TYPE_STRUCTURE) == false)) then
+        return false
     end
-    if ((not ((IsUnitType(GetTriggerUnit(), UNIT_TYPE_ANCIENT) == true)))) then
-        do return false end
+    if (not (IsUnitType(GetTriggerUnit(), UNIT_TYPE_ANCIENT) == true)) then
+        return false
     end
-    if ((not ((IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true)))) then
-        do return false end
+    if (not (IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Death_start_Func002002 (line 18112)
 function Trig_Death_start_Func002002()
     RemoveUnit(GetEnumUnit())
 end
 
--- Original JASS function: Trig_Death_start_Func010Func001C (line 18116)
 function Trig_Death_start_Func010Func001C()
-    if ((not ((IsPlayerAlly(udg_DeadPlayer, GetEnumPlayer()) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsPlayerAlly(udg_DeadPlayer, GetEnumPlayer()) == true
 end
 
--- Original JASS function: Trig_Death_start_Func010A (line 18123)
 function Trig_Death_start_Func010A()
     if (Trig_Death_start_Func010Func001C()) then
         SetPlayerAllianceStateBJ(udg_DeadPlayer, GetEnumPlayer(), bj_ALLIANCE_UNALLIED)
         SetPlayerAllianceStateBJ(GetEnumPlayer(), udg_DeadPlayer, bj_ALLIANCE_UNALLIED)
-    else
     end
 end
 
--- Original JASS function: Trig_Death_start_Func011Func001C (line 18131)
-function Trig_Death_start_Func011Func001C()
-    do return true end
-end
-
--- Original JASS function: Trig_Death_start_Func011A (line 18135)
 function Trig_Death_start_Func011A()
-    if ((true)) then
+    if (true) then
         SetPlayerAllianceStateBJ(udg_DeadPlayer, GetEnumPlayer(), bj_ALLIANCE_ALLIED_VISION)
         SetPlayerAllianceStateBJ(GetEnumPlayer(), udg_DeadPlayer, bj_ALLIANCE_ALLIED_VISION)
-    else
     end
 end
 
--- Original JASS function: Trig_Death_start_Actions (line 18143)
 function Trig_Death_start_Actions()
     local dying = GetTriggerUnit()
     local player = GetOwningPlayer(dying)
@@ -19244,7 +15324,6 @@ function Trig_Death_start_Actions()
     SetPlayerAllianceStateBJ(FE_Roles.ancient(), player, bj_ALLIANCE_ALLIED_VISION)
 end
 
--- Original JASS function: InitTrig_Death_start (line 18161)
 function InitTrig_Death_start()
     gg_trg_Death_start = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Death_start, EVENT_PLAYER_UNIT_DEATH)
@@ -19254,7 +15333,6 @@ end
 -- END FOREST SECTION 318
 
 -- BEGIN FOREST SECTION 319 Spawn_Lackey
--- Original JASS function: SpawnLackey_EnsureSetup (line 18171)
 function SpawnLackey_EnsureSetup()
     if (SpawnLackey_Hash == nil) then
         SpawnLackey_Hash = InitHashtable()
@@ -19265,17 +15343,14 @@ function SpawnLackey_EnsureSetup()
     end
 end
 
--- Original JASS function: SpawnLackey_GetFountainCenterX (line 18182)
 function SpawnLackey_GetFountainCenterX()
-    do return __jreal((__jreal(GetRectMinX(gg_rct_Fountain) + GetRectMaxX(gg_rct_Fountain))) * __jreal(0.50)) end
+    return __jreal((__jreal(GetRectMinX(gg_rct_Fountain) + GetRectMaxX(gg_rct_Fountain))) * __jreal(0.50))
 end
 
--- Original JASS function: SpawnLackey_GetFountainCenterY (line 18186)
 function SpawnLackey_GetFountainCenterY()
-    do return __jreal((__jreal(GetRectMinY(gg_rct_Fountain) + GetRectMaxY(gg_rct_Fountain))) * __jreal(0.50)) end
+    return __jreal((__jreal(GetRectMinY(gg_rct_Fountain) + GetRectMaxY(gg_rct_Fountain))) * __jreal(0.50))
 end
 
--- Original JASS function: SpawnLackey_PanCameraToFountainForPlayer (line 18190)
 function SpawnLackey_PanCameraToFountainForPlayer(whichPlayer)
     local x = (__jreal((__jreal(GetRectMinX(gg_rct_Fountain) + GetRectMaxX(gg_rct_Fountain))) * __jreal(0.50)))
     local y = (__jreal((__jreal(GetRectMinY(gg_rct_Fountain) + GetRectMaxY(gg_rct_Fountain))) * __jreal(0.50)))
@@ -19284,50 +15359,48 @@ function SpawnLackey_PanCameraToFountainForPlayer(whichPlayer)
     end
 end
 
--- Original JASS function: SpawnLackey_GetLackeyType (line 18199)
 function SpawnLackey_GetLackeyType()
     local ancientUnitType = GetUnitTypeId(udg_AncientUnit)
     if (ancientUnitType == FourCC("O00A")) then
-        do return FourCC("e00C") end
+        return FourCC("e00C")
     end
     if (ancientUnitType == FourCC("O00S")) then
-        do return FourCC("e002") end
+        return FourCC("e002")
     end
     if (ancientUnitType == FourCC("O00L")) then
-        do return FourCC("e009") end
+        return FourCC("e009")
     end
     if (ancientUnitType == FourCC("O004")) then
-        do return FourCC("e00A") end
+        return FourCC("e00A")
     end
     if (ancientUnitType == FourCC("O008")) then
-        do return FourCC("e00N") end
+        return FourCC("e00N")
     end
     if (ancientUnitType == FourCC("O01V")) then
-        do return FourCC("e00G") end
+        return FourCC("e00G")
     end
     if (ancientUnitType == FourCC("O016")) then
-        do return FourCC("e00J") end
+        return FourCC("e00J")
     end
     if (ancientUnitType == FourCC("O00D")) then
-        do return FourCC("e00O") end
+        return FourCC("e00O")
     end
     if (ancientUnitType == FourCC("O01X")) then
-        do return FourCC("e00H") end
+        return FourCC("e00H")
     end
     if (ancientUnitType == FourCC("O01Z")) then
-        do return FourCC("e00E") end
+        return FourCC("e00E")
     end
     if (ancientUnitType == FourCC("O01D")) then
-        do return FourCC("e00S") end
+        return FourCC("e00S")
     end
-    do return 0 end
+    return 0
 end
 
--- Original JASS function: SpawnLackey_CreateAtXY (line 18239)
 function SpawnLackey_CreateAtXY(deadPlayer, lackeyType, x, y)
     local lackey = nil
     if (lackeyType == 0) then
-        do return end
+        return
     end
     lackey = CreateUnit(deadPlayer, lackeyType, x, y, bj_UNIT_FACING)
     if (lackey ~= nil) then
@@ -19336,12 +15409,10 @@ function SpawnLackey_CreateAtXY(deadPlayer, lackeyType, x, y)
     lackey = nil
 end
 
--- Original JASS function: SpawnLackey_CreateAtLoc (line 18255)
 function SpawnLackey_CreateAtLoc(deadPlayer, lackeyType, spawnLoc)
     SpawnLackey_CreateAtXY(deadPlayer, lackeyType, GetLocationX(spawnLoc), GetLocationY(spawnLoc))
 end
 
--- Original JASS function: SpawnLackey_DelayedTimerExpires (line 18259)
 function SpawnLackey_DelayedTimerExpires()
     local t = GetExpiredTimer()
     local timerId = GetHandleId(t)
@@ -19367,7 +15438,6 @@ function SpawnLackey_DelayedTimerExpires()
     deadPlayer = nil
 end
 
--- Original JASS function: SpawnLackey_StartDelayedTimer (line 18286)
 function SpawnLackey_StartDelayedTimer(deadPlayer, lackeyType, remaining)
     local playerIndex = GetPlayerId(deadPlayer)
     local t = CreateTimer()
@@ -19398,7 +15468,6 @@ function SpawnLackey_StartDelayedTimer(deadPlayer, lackeyType, remaining)
     t = nil
 end
 
--- Original JASS function: Trig_Spawn_Lackey_Actions (line 18326)
 function Trig_Spawn_Lackey_Actions()
     local deadPlayer = udg_DeadPlayer
     local x, y = GetLocationX(udg_LocationOfDeath), GetLocationY(udg_LocationOfDeath)
@@ -19417,7 +15486,6 @@ function Trig_Spawn_Lackey_Actions()
     else SpawnLackey_CreateAtXY(deadPlayer, lackeyType, x, y) end
 end
 
--- Original JASS function: InitTrig_Spawn_Lackey (line 18356)
 function InitTrig_Spawn_Lackey()
     SpawnLackey_EnsureSetup()
     gg_trg_Spawn_Lackey = CreateTrigger()
@@ -19426,116 +15494,70 @@ end
 -- END FOREST SECTION 319
 
 -- BEGIN FOREST SECTION 320 MiniMinis
--- Original JASS function: Trig_MiniMinis_Conditions (line 18365)
 function Trig_MiniMinis_Conditions()
-    if ((not ((IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true
 end
 
--- Original JASS function: Trig_MiniMinis_Func003C (line 18372)
 function Trig_MiniMinis_Func003C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00C"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00C")
 end
 
--- Original JASS function: Trig_MiniMinis_Func005C (line 18379)
 function Trig_MiniMinis_Func005C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00G"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00G")
 end
 
--- Original JASS function: Trig_MiniMinis_Func007C (line 18386)
 function Trig_MiniMinis_Func007C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00A"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00A")
 end
 
--- Original JASS function: Trig_MiniMinis_Func009C (line 18393)
 function Trig_MiniMinis_Func009C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00N"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00N")
 end
 
--- Original JASS function: Trig_MiniMinis_Func011C (line 18400)
 function Trig_MiniMinis_Func011C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e009"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e009")
 end
 
--- Original JASS function: Trig_MiniMinis_Func013C (line 18407)
 function Trig_MiniMinis_Func013C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00J"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00J")
 end
 
--- Original JASS function: Trig_MiniMinis_Func015C (line 18414)
 function Trig_MiniMinis_Func015C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00O"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00O")
 end
 
--- Original JASS function: Trig_MiniMinis_Func017C (line 18421)
 function Trig_MiniMinis_Func017C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00H"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00H")
 end
 
--- Original JASS function: Trig_MiniMinis_Actions (line 18428)
 function Trig_MiniMinis_Actions()
     if (Trig_MiniMinis_Func003C()) then
         AddSpecialEffectLocBJ(GetUnitLoc(GetDyingUnit()), "Abilities\\Spells\\Undead\\DarkRitual\\DarkRitualTarget.mdl")
         CreateNUnitsAtLoc(1, FourCC("e00D"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func005C()) then
         CreateNUnitsAtLoc(1, FourCC("e00F"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func007C()) then
         CreateNUnitsAtLoc(1, FourCC("e00B"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func009C()) then
         CreateNUnitsAtLoc(1, FourCC("e00P"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func011C()) then
         CreateNUnitsAtLoc(1, FourCC("e008"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func013C()) then
         CreateNUnitsAtLoc(1, FourCC("e00K"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func015C()) then
         CreateNUnitsAtLoc(1, FourCC("e00M"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func017C()) then
         CreateNUnitsAtLoc(1, FourCC("e00I"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
 end
 
--- Original JASS function: InitTrig_MiniMinis (line 18472)
 function InitTrig_MiniMinis()
     gg_trg_MiniMinis = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_MiniMinis, EVENT_PLAYER_UNIT_DEATH)
@@ -19550,12 +15572,10 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 321 Player_Leaves
--- Original JASS function: Trig_Player_Leaves_Func003002 (line 18482)
 function Trig_Player_Leaves_Func003002()
     RemoveUnit(GetEnumUnit())
 end
 
--- Original JASS function: Trig_Player_Leaves_Actions (line 18486)
 function Trig_Player_Leaves_Actions()
     if FE_Roles.isAncient(GetTriggerPlayer()) then return end
     FE_Roster.defeat(GetTriggerPlayer())
@@ -19566,7 +15586,6 @@ function Trig_Player_Leaves_Actions()
     DestroyGroup(units)
 end
 
--- Original JASS function: InitTrig_Player_Leaves (line 18493)
 function InitTrig_Player_Leaves()
     gg_trg_Player_Leaves = CreateTrigger()
     FE_Roles.forEachPlayer(function(player)
@@ -19577,12 +15596,11 @@ end
 -- END FOREST SECTION 321
 
 -- BEGIN FOREST SECTION 322 Ancient_Leaves
--- Original JASS function: Trig_Ancient_Leaves_Actions (line 18511)
 function Trig_Ancient_Leaves_Actions()
     local leavingAncient = GetTriggerPlayer()
     if (leavingAncient ~= FE_Roles.ancient()) then
         leavingAncient = nil
-        do return end
+        return
     end
     PlayThematicMusicBJ("Tension")
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_436")
@@ -19597,7 +15615,6 @@ function Trig_Ancient_Leaves_Actions()
     leavingAncient = nil
 end
 
--- Original JASS function: InitTrig_Ancient_Leaves (line 18544)
 function InitTrig_Ancient_Leaves()
     local i = 0
     gg_trg_Ancient_Leaves = CreateTrigger()
@@ -19616,39 +15633,55 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 323 Human_Dies
--- Original JASS function: Trig_Human_Dies_Conditions (line 18560)
+-- Resolve sound handles when the event runs, after editor sounds exist.
+local deathSounds = {
+    ["h03D"] = "gg_snd_PeasantDeath",
+    ["h02L"] = "gg_snd_WispPissed1",
+    ["h01X"] = "gg_snd_CentaurDeath",
+    ["h00F"] = "gg_snd_OgreDeath1",
+    ["h00R"] = "gg_snd_SatyrDeath1",
+    ["h05C"] = "gg_snd_HeroDemonHunterDeath1",
+    ["h05E"] = "gg_snd_DemonHunterDeathAlternate1",
+    ["h05D"] = "gg_snd_DruidOfTheTalonDeath1",
+    ["n00M"] = "gg_snd_PeasantDeath",
+    ["h05W"] = "gg_snd_RiflemanDeath",
+    ["o005"] = "gg_snd_GhoulDeath",
+    ["o000"] = "gg_snd_HeroFirelordDeath1",
+    ["h016"] = "gg_snd_TinkerDeathAlt1",
+    ["o026"] = "gg_snd_DuneWormDeath1",
+    ["n008"] = "gg_snd_TinkerDeathAlt1",
+    ["h02Y"] = "gg_snd_FurbolgDeath1",
+    ["h02Z"] = "gg_snd_FurbolgDeath1",
+    ["h02U"] = "gg_snd_FurbolgDeath1",
+    ["h01K"] = "gg_snd_PitFiendDeath1",
+    ["h000"] = "gg_snd_HydraDeath1",
+    ["h03S"] = "gg_snd_WarlockDeath1",
+    ["h03Q"] = "gg_snd_KoboldDeath",
+    ["o01E"] = "gg_snd_QuillboarDeath",
+    ["h010"] = "gg_snd_WendigoDeath",
+    ["u007"] = "gg_snd_FacelessDeath1",
+    ["u009"] = "gg_snd_FacelessDeath1",
+    ["u00B"] = "gg_snd_FacelessDeath1",
+    ["u00A"] = "gg_snd_FacelessDeath1",
+}
+
+local function PlayRaceDeathSound(rawcode)
+    PlaySoundBJ(_G[deathSounds[rawcode]])
+end
+
 function Trig_Human_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h03D"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h03D")
 end
 
--- Original JASS function: Trig_Human_Dies_Func001C (line 18567)
 function Trig_Human_Dies_Func001C()
-    if ((not ((IsUnitInGroup(udg_HumanFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitInGroup(udg_HumanFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
 end
 
--- Original JASS function: Trig_Human_Dies_Func003C (line 18574)
-function Trig_Human_Dies_Func003C()
-    do return true end
-end
-
--- Original JASS function: Trig_Human_Dies_Actions (line 18578)
 function Trig_Human_Dies_Actions()
-    if (Trig_Human_Dies_Func001C()) then
-    else
-    end
-    if ((true)) then
-        PlaySoundBJ(gg_snd_PeasantDeath)
-    else
-    end
+    Trig_Human_Dies_Func001C()
+    PlayRaceDeathSound("h03D")
 end
 
--- Original JASS function: InitTrig_Human_Dies (line 18589)
 function InitTrig_Human_Dies()
     gg_trg_Human_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Human_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19658,39 +15691,19 @@ end
 -- END FOREST SECTION 323
 
 -- BEGIN FOREST SECTION 324 Wisp_Dies
--- Original JASS function: Trig_Wisp_Dies_Conditions (line 18599)
 function Trig_Wisp_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h02L"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h02L")
 end
 
--- Original JASS function: Trig_Wisp_Dies_Func001C (line 18606)
 function Trig_Wisp_Dies_Func001C()
-    if ((not ((IsUnitInGroup(udg_WispFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitInGroup(udg_WispFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
 end
 
--- Original JASS function: Trig_Wisp_Dies_Func003C (line 18613)
-function Trig_Wisp_Dies_Func003C()
-    do return true end
-end
-
--- Original JASS function: Trig_Wisp_Dies_Actions (line 18617)
 function Trig_Wisp_Dies_Actions()
-    if (Trig_Wisp_Dies_Func001C()) then
-    else
-    end
-    if ((true)) then
-        PlaySoundBJ(gg_snd_WispPissed1)
-    else
-    end
+    Trig_Wisp_Dies_Func001C()
+    PlayRaceDeathSound("h02L")
 end
 
--- Original JASS function: InitTrig_Wisp_Dies (line 18628)
 function InitTrig_Wisp_Dies()
     gg_trg_Wisp_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Wisp_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19700,39 +15713,19 @@ end
 -- END FOREST SECTION 324
 
 -- BEGIN FOREST SECTION 325 Centaur_Dies
--- Original JASS function: Trig_Centaur_Dies_Conditions (line 18638)
 function Trig_Centaur_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h01X"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h01X")
 end
 
--- Original JASS function: Trig_Centaur_Dies_Func001C (line 18645)
 function Trig_Centaur_Dies_Func001C()
-    if ((not ((IsUnitInGroup(udg_CentaurFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitInGroup(udg_CentaurFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
 end
 
--- Original JASS function: Trig_Centaur_Dies_Func003C (line 18652)
-function Trig_Centaur_Dies_Func003C()
-    do return true end
-end
-
--- Original JASS function: Trig_Centaur_Dies_Actions (line 18656)
 function Trig_Centaur_Dies_Actions()
-    if (Trig_Centaur_Dies_Func001C()) then
-    else
-    end
-    if ((true)) then
-        PlaySoundBJ(gg_snd_CentaurDeath)
-    else
-    end
+    Trig_Centaur_Dies_Func001C()
+    PlayRaceDeathSound("h01X")
 end
 
--- Original JASS function: InitTrig_Centaur_Dies (line 18667)
 function InitTrig_Centaur_Dies()
     gg_trg_Centaur_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Centaur_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19742,39 +15735,19 @@ end
 -- END FOREST SECTION 325
 
 -- BEGIN FOREST SECTION 326 Ogre_Dies
--- Original JASS function: Trig_Ogre_Dies_Conditions (line 18677)
 function Trig_Ogre_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h00F"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h00F")
 end
 
--- Original JASS function: Trig_Ogre_Dies_Func001C (line 18684)
 function Trig_Ogre_Dies_Func001C()
-    if ((not ((IsUnitInGroup(udg_OgreFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitInGroup(udg_OgreFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
 end
 
--- Original JASS function: Trig_Ogre_Dies_Func003C (line 18691)
-function Trig_Ogre_Dies_Func003C()
-    do return true end
-end
-
--- Original JASS function: Trig_Ogre_Dies_Actions (line 18695)
 function Trig_Ogre_Dies_Actions()
-    if (Trig_Ogre_Dies_Func001C()) then
-    else
-    end
-    if ((true)) then
-        PlaySoundBJ(gg_snd_OgreDeath1)
-    else
-    end
+    Trig_Ogre_Dies_Func001C()
+    PlayRaceDeathSound("h00F")
 end
 
--- Original JASS function: InitTrig_Ogre_Dies (line 18706)
 function InitTrig_Ogre_Dies()
     gg_trg_Ogre_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ogre_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19784,28 +15757,14 @@ end
 -- END FOREST SECTION 326
 
 -- BEGIN FOREST SECTION 327 Worgen_Dies
--- Original JASS function: Trig_Worgen_Dies_Conditions (line 18716)
 function Trig_Worgen_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h00R"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h00R")
 end
 
--- Original JASS function: Trig_Worgen_Dies_Func002C (line 18723)
-function Trig_Worgen_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Worgen_Dies_Actions (line 18727)
 function Trig_Worgen_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_SatyrDeath1)
-    else
-    end
+    PlayRaceDeathSound("h00R")
 end
 
--- Original JASS function: InitTrig_Worgen_Dies (line 18735)
 function InitTrig_Worgen_Dies()
     gg_trg_Worgen_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Worgen_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19815,28 +15774,14 @@ end
 -- END FOREST SECTION 327
 
 -- BEGIN FOREST SECTION 328 Night_Elf_Dies
--- Original JASS function: Trig_Night_Elf_Dies_Conditions (line 18745)
 function Trig_Night_Elf_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h05C"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h05C")
 end
 
--- Original JASS function: Trig_Night_Elf_Dies_Func002C (line 18752)
-function Trig_Night_Elf_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Night_Elf_Dies_Actions (line 18756)
 function Trig_Night_Elf_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_HeroDemonHunterDeath1)
-    else
-    end
+    PlayRaceDeathSound("h05C")
 end
 
--- Original JASS function: InitTrig_Night_Elf_Dies (line 18764)
 function InitTrig_Night_Elf_Dies()
     gg_trg_Night_Elf_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Night_Elf_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19846,28 +15791,14 @@ end
 -- END FOREST SECTION 328
 
 -- BEGIN FOREST SECTION 329 Shadow_Dancer_Dies
--- Original JASS function: Trig_Shadow_Dancer_Dies_Conditions (line 18774)
 function Trig_Shadow_Dancer_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h05E"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h05E")
 end
 
--- Original JASS function: Trig_Shadow_Dancer_Dies_Func002C (line 18781)
-function Trig_Shadow_Dancer_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Shadow_Dancer_Dies_Actions (line 18785)
 function Trig_Shadow_Dancer_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_DemonHunterDeathAlternate1)
-    else
-    end
+    PlayRaceDeathSound("h05E")
 end
 
--- Original JASS function: InitTrig_Shadow_Dancer_Dies (line 18793)
 function InitTrig_Shadow_Dancer_Dies()
     gg_trg_Shadow_Dancer_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Shadow_Dancer_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19877,28 +15808,14 @@ end
 -- END FOREST SECTION 329
 
 -- BEGIN FOREST SECTION 330 Archdruid_Dies
--- Original JASS function: Trig_Archdruid_Dies_Conditions (line 18803)
 function Trig_Archdruid_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h05D"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h05D")
 end
 
--- Original JASS function: Trig_Archdruid_Dies_Func002C (line 18810)
-function Trig_Archdruid_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Archdruid_Dies_Actions (line 18814)
 function Trig_Archdruid_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_DruidOfTheTalonDeath1)
-    else
-    end
+    PlayRaceDeathSound("h05D")
 end
 
--- Original JASS function: InitTrig_Archdruid_Dies (line 18822)
 function InitTrig_Archdruid_Dies()
     gg_trg_Archdruid_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Archdruid_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19908,28 +15825,14 @@ end
 -- END FOREST SECTION 330
 
 -- BEGIN FOREST SECTION 331 Engineer_Highelf_Dies
--- Original JASS function: Trig_Engineer_Highelf_Dies_Conditions (line 18832)
 function Trig_Engineer_Highelf_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("n00M"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("n00M")
 end
 
--- Original JASS function: Trig_Engineer_Highelf_Dies_Func002C (line 18839)
-function Trig_Engineer_Highelf_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Engineer_Highelf_Dies_Actions (line 18843)
 function Trig_Engineer_Highelf_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_PeasantDeath)
-    else
-    end
+    PlayRaceDeathSound("n00M")
 end
 
--- Original JASS function: InitTrig_Engineer_Highelf_Dies (line 18851)
 function InitTrig_Engineer_Highelf_Dies()
     gg_trg_Engineer_Highelf_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Engineer_Highelf_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19939,28 +15842,14 @@ end
 -- END FOREST SECTION 331
 
 -- BEGIN FOREST SECTION 332 Bounty_Hunter_Dies
--- Original JASS function: Trig_Bounty_Hunter_Dies_Conditions (line 18861)
 function Trig_Bounty_Hunter_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h05W"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h05W")
 end
 
--- Original JASS function: Trig_Bounty_Hunter_Dies_Func002C (line 18868)
-function Trig_Bounty_Hunter_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Bounty_Hunter_Dies_Actions (line 18872)
 function Trig_Bounty_Hunter_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_RiflemanDeath)
-    else
-    end
+    PlayRaceDeathSound("h05W")
 end
 
--- Original JASS function: InitTrig_Bounty_Hunter_Dies (line 18880)
 function InitTrig_Bounty_Hunter_Dies()
     gg_trg_Bounty_Hunter_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Bounty_Hunter_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19970,20 +15859,14 @@ end
 -- END FOREST SECTION 332
 
 -- BEGIN FOREST SECTION 333 Ghoul_Dies
--- Original JASS function: Trig_Ghoul_Dies_Conditions (line 18890)
 function Trig_Ghoul_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("o005"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("o005")
 end
 
--- Original JASS function: Trig_Ghoul_Dies_Actions (line 18897)
 function Trig_Ghoul_Dies_Actions()
-    PlaySoundBJ(gg_snd_GhoulDeath)
+    PlayRaceDeathSound("o005")
 end
 
--- Original JASS function: InitTrig_Ghoul_Dies (line 18902)
 function InitTrig_Ghoul_Dies()
     gg_trg_Ghoul_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ghoul_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -19993,28 +15876,14 @@ end
 -- END FOREST SECTION 333
 
 -- BEGIN FOREST SECTION 334 Magmide_Dies
--- Original JASS function: Trig_Magmide_Dies_Conditions (line 18912)
 function Trig_Magmide_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("o000"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("o000")
 end
 
--- Original JASS function: Trig_Magmide_Dies_Func002C (line 18919)
-function Trig_Magmide_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Magmide_Dies_Actions (line 18923)
 function Trig_Magmide_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_HeroFirelordDeath1)
-    else
-    end
+    PlayRaceDeathSound("o000")
 end
 
--- Original JASS function: InitTrig_Magmide_Dies (line 18931)
 function InitTrig_Magmide_Dies()
     gg_trg_Magmide_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Magmide_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20024,28 +15893,14 @@ end
 -- END FOREST SECTION 334
 
 -- BEGIN FOREST SECTION 335 Goblin_Dies
--- Original JASS function: Trig_Goblin_Dies_Conditions (line 18941)
 function Trig_Goblin_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h016"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h016")
 end
 
--- Original JASS function: Trig_Goblin_Dies_Func002C (line 18948)
-function Trig_Goblin_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Goblin_Dies_Actions (line 18952)
 function Trig_Goblin_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_TinkerDeathAlt1)
-    else
-    end
+    PlayRaceDeathSound("h016")
 end
 
--- Original JASS function: InitTrig_Goblin_Dies (line 18960)
 function InitTrig_Goblin_Dies()
     gg_trg_Goblin_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Goblin_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20055,28 +15910,14 @@ end
 -- END FOREST SECTION 335
 
 -- BEGIN FOREST SECTION 336 Ratling_Dies
--- Original JASS function: Trig_Ratling_Dies_Conditions (line 18970)
 function Trig_Ratling_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("o026"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("o026")
 end
 
--- Original JASS function: Trig_Ratling_Dies_Func002C (line 18977)
-function Trig_Ratling_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Ratling_Dies_Actions (line 18981)
 function Trig_Ratling_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_DuneWormDeath1)
-    else
-    end
+    PlayRaceDeathSound("o026")
 end
 
--- Original JASS function: InitTrig_Ratling_Dies (line 18989)
 function InitTrig_Ratling_Dies()
     gg_trg_Ratling_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ratling_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20086,28 +15927,14 @@ end
 -- END FOREST SECTION 336
 
 -- BEGIN FOREST SECTION 337 Goblin_Ultima_Dies
--- Original JASS function: Trig_Goblin_Ultima_Dies_Conditions (line 18999)
 function Trig_Goblin_Ultima_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("n008"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("n008")
 end
 
--- Original JASS function: Trig_Goblin_Ultima_Dies_Func002C (line 19006)
-function Trig_Goblin_Ultima_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Goblin_Ultima_Dies_Actions (line 19010)
 function Trig_Goblin_Ultima_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_TinkerDeathAlt1)
-    else
-    end
+    PlayRaceDeathSound("n008")
 end
 
--- Original JASS function: InitTrig_Goblin_Ultima_Dies (line 19018)
 function InitTrig_Goblin_Ultima_Dies()
     gg_trg_Goblin_Ultima_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Goblin_Ultima_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20117,28 +15944,14 @@ end
 -- END FOREST SECTION 337
 
 -- BEGIN FOREST SECTION 338 Furbolg_Shaman_Dies
--- Original JASS function: Trig_Furbolg_Shaman_Dies_Conditions (line 19028)
 function Trig_Furbolg_Shaman_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h02Y"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h02Y")
 end
 
--- Original JASS function: Trig_Furbolg_Shaman_Dies_Func002C (line 19035)
-function Trig_Furbolg_Shaman_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Furbolg_Shaman_Dies_Actions (line 19039)
 function Trig_Furbolg_Shaman_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_FurbolgDeath1)
-    else
-    end
+    PlayRaceDeathSound("h02Y")
 end
 
--- Original JASS function: InitTrig_Furbolg_Shaman_Dies (line 19047)
 function InitTrig_Furbolg_Shaman_Dies()
     gg_trg_Furbolg_Shaman_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Furbolg_Shaman_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20148,28 +15961,14 @@ end
 -- END FOREST SECTION 338
 
 -- BEGIN FOREST SECTION 339 Furbolg_Warrior_Dies
--- Original JASS function: Trig_Furbolg_Warrior_Dies_Conditions (line 19057)
 function Trig_Furbolg_Warrior_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h02Z"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h02Z")
 end
 
--- Original JASS function: Trig_Furbolg_Warrior_Dies_Func002C (line 19064)
-function Trig_Furbolg_Warrior_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Furbolg_Warrior_Dies_Actions (line 19068)
 function Trig_Furbolg_Warrior_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_FurbolgDeath1)
-    else
-    end
+    PlayRaceDeathSound("h02Z")
 end
 
--- Original JASS function: InitTrig_Furbolg_Warrior_Dies (line 19076)
 function InitTrig_Furbolg_Warrior_Dies()
     gg_trg_Furbolg_Warrior_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Furbolg_Warrior_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20179,28 +15978,14 @@ end
 -- END FOREST SECTION 339
 
 -- BEGIN FOREST SECTION 340 Furbolg_Dies
--- Original JASS function: Trig_Furbolg_Dies_Conditions (line 19086)
 function Trig_Furbolg_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h02U"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h02U")
 end
 
--- Original JASS function: Trig_Furbolg_Dies_Func002C (line 19093)
-function Trig_Furbolg_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Furbolg_Dies_Actions (line 19097)
 function Trig_Furbolg_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_FurbolgDeath1)
-    else
-    end
+    PlayRaceDeathSound("h02U")
 end
 
--- Original JASS function: InitTrig_Furbolg_Dies (line 19105)
 function InitTrig_Furbolg_Dies()
     gg_trg_Furbolg_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Furbolg_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20210,28 +15995,14 @@ end
 -- END FOREST SECTION 340
 
 -- BEGIN FOREST SECTION 341 Nerubian_Dies
--- Original JASS function: Trig_Nerubian_Dies_Conditions (line 19115)
 function Trig_Nerubian_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h01K"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h01K")
 end
 
--- Original JASS function: Trig_Nerubian_Dies_Func002C (line 19122)
-function Trig_Nerubian_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Nerubian_Dies_Actions (line 19126)
 function Trig_Nerubian_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_PitFiendDeath1)
-    else
-    end
+    PlayRaceDeathSound("h01K")
 end
 
--- Original JASS function: InitTrig_Nerubian_Dies (line 19134)
 function InitTrig_Nerubian_Dies()
     gg_trg_Nerubian_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Nerubian_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20241,39 +16012,19 @@ end
 -- END FOREST SECTION 341
 
 -- BEGIN FOREST SECTION 342 Kraken_Dies
--- Original JASS function: Trig_Kraken_Dies_Conditions (line 19144)
 function Trig_Kraken_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h000"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h000")
 end
 
--- Original JASS function: Trig_Kraken_Dies_Func001C (line 19151)
 function Trig_Kraken_Dies_Func001C()
-    if ((not ((IsUnitInGroup(udg_KrakenFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitInGroup(udg_KrakenFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
 end
 
--- Original JASS function: Trig_Kraken_Dies_Func003C (line 19158)
-function Trig_Kraken_Dies_Func003C()
-    do return true end
-end
-
--- Original JASS function: Trig_Kraken_Dies_Actions (line 19162)
 function Trig_Kraken_Dies_Actions()
-    if (Trig_Kraken_Dies_Func001C()) then
-    else
-    end
-    if ((true)) then
-        PlaySoundBJ(gg_snd_HydraDeath1)
-    else
-    end
+    Trig_Kraken_Dies_Func001C()
+    PlayRaceDeathSound("h000")
 end
 
--- Original JASS function: InitTrig_Kraken_Dies (line 19173)
 function InitTrig_Kraken_Dies()
     gg_trg_Kraken_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Kraken_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20283,39 +16034,19 @@ end
 -- END FOREST SECTION 342
 
 -- BEGIN FOREST SECTION 343 Aethyr_Warp_Dies
--- Original JASS function: Trig_Aethyr_Warp_Dies_Conditions (line 19183)
 function Trig_Aethyr_Warp_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h03S"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h03S")
 end
 
--- Original JASS function: Trig_Aethyr_Warp_Dies_Func001C (line 19190)
 function Trig_Aethyr_Warp_Dies_Func001C()
-    if ((not ((IsUnitInGroup(udg_AethyrFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitInGroup(udg_AethyrFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
 end
 
--- Original JASS function: Trig_Aethyr_Warp_Dies_Func003C (line 19197)
-function Trig_Aethyr_Warp_Dies_Func003C()
-    do return true end
-end
-
--- Original JASS function: Trig_Aethyr_Warp_Dies_Actions (line 19201)
 function Trig_Aethyr_Warp_Dies_Actions()
-    if (Trig_Aethyr_Warp_Dies_Func001C()) then
-    else
-    end
-    if ((true)) then
-        PlaySoundBJ(gg_snd_WarlockDeath1)
-    else
-    end
+    Trig_Aethyr_Warp_Dies_Func001C()
+    PlayRaceDeathSound("h03S")
 end
 
--- Original JASS function: InitTrig_Aethyr_Warp_Dies (line 19212)
 function InitTrig_Aethyr_Warp_Dies()
     gg_trg_Aethyr_Warp_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Aethyr_Warp_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20325,28 +16056,14 @@ end
 -- END FOREST SECTION 343
 
 -- BEGIN FOREST SECTION 344 Kobold_Dies
--- Original JASS function: Trig_Kobold_Dies_Conditions (line 19222)
 function Trig_Kobold_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h03Q"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h03Q")
 end
 
--- Original JASS function: Trig_Kobold_Dies_Func002C (line 19229)
-function Trig_Kobold_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Kobold_Dies_Actions (line 19233)
 function Trig_Kobold_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_KoboldDeath)
-    else
-    end
+    PlayRaceDeathSound("h03Q")
 end
 
--- Original JASS function: InitTrig_Kobold_Dies (line 19241)
 function InitTrig_Kobold_Dies()
     gg_trg_Kobold_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Kobold_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20356,39 +16073,19 @@ end
 -- END FOREST SECTION 344
 
 -- BEGIN FOREST SECTION 345 Razormane_Dies
--- Original JASS function: Trig_Razormane_Dies_Conditions (line 19251)
 function Trig_Razormane_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("o01E"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("o01E")
 end
 
--- Original JASS function: Trig_Razormane_Dies_Func001C (line 19258)
 function Trig_Razormane_Dies_Func001C()
-    if ((not ((IsUnitInGroup(udg_RazormaneFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitInGroup(udg_RazormaneFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
 end
 
--- Original JASS function: Trig_Razormane_Dies_Func003C (line 19265)
-function Trig_Razormane_Dies_Func003C()
-    do return true end
-end
-
--- Original JASS function: Trig_Razormane_Dies_Actions (line 19269)
 function Trig_Razormane_Dies_Actions()
-    if (Trig_Razormane_Dies_Func001C()) then
-    else
-    end
-    if ((true)) then
-        PlaySoundBJ(gg_snd_QuillboarDeath)
-    else
-    end
+    Trig_Razormane_Dies_Func001C()
+    PlayRaceDeathSound("o01E")
 end
 
--- Original JASS function: InitTrig_Razormane_Dies (line 19280)
 function InitTrig_Razormane_Dies()
     gg_trg_Razormane_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Razormane_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20398,28 +16095,14 @@ end
 -- END FOREST SECTION 345
 
 -- BEGIN FOREST SECTION 346 Wildkin_Dies
--- Original JASS function: Trig_Wildkin_Dies_Conditions (line 19290)
 function Trig_Wildkin_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("h010"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("h010")
 end
 
--- Original JASS function: Trig_Wildkin_Dies_Func002C (line 19297)
-function Trig_Wildkin_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Wildkin_Dies_Actions (line 19301)
 function Trig_Wildkin_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_WendigoDeath)
-    else
-    end
+    PlayRaceDeathSound("h010")
 end
 
--- Original JASS function: InitTrig_Wildkin_Dies (line 19309)
 function InitTrig_Wildkin_Dies()
     gg_trg_Wildkin_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Wildkin_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20429,28 +16112,14 @@ end
 -- END FOREST SECTION 346
 
 -- BEGIN FOREST SECTION 347 Forgotten_One_Dies
--- Original JASS function: Trig_Forgotten_One_Dies_Conditions (line 19319)
 function Trig_Forgotten_One_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u007"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("u007")
 end
 
--- Original JASS function: Trig_Forgotten_One_Dies_Func002C (line 19326)
-function Trig_Forgotten_One_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Forgotten_One_Dies_Actions (line 19330)
 function Trig_Forgotten_One_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_FacelessDeath1)
-    else
-    end
+    PlayRaceDeathSound("u007")
 end
 
--- Original JASS function: InitTrig_Forgotten_One_Dies (line 19338)
 function InitTrig_Forgotten_One_Dies()
     gg_trg_Forgotten_One_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Forgotten_One_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20460,28 +16129,14 @@ end
 -- END FOREST SECTION 347
 
 -- BEGIN FOREST SECTION 348 Forgotten_Bloodmage_Dies
--- Original JASS function: Trig_Forgotten_Bloodmage_Dies_Conditions (line 19348)
 function Trig_Forgotten_Bloodmage_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u009"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("u009")
 end
 
--- Original JASS function: Trig_Forgotten_Bloodmage_Dies_Func002C (line 19355)
-function Trig_Forgotten_Bloodmage_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Forgotten_Bloodmage_Dies_Actions (line 19359)
 function Trig_Forgotten_Bloodmage_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_FacelessDeath1)
-    else
-    end
+    PlayRaceDeathSound("u009")
 end
 
--- Original JASS function: InitTrig_Forgotten_Bloodmage_Dies (line 19367)
 function InitTrig_Forgotten_Bloodmage_Dies()
     gg_trg_Forgotten_Bloodmage_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Forgotten_Bloodmage_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20491,28 +16146,14 @@ end
 -- END FOREST SECTION 348
 
 -- BEGIN FOREST SECTION 349 Forgotten_Executioner_Dies
--- Original JASS function: Trig_Forgotten_Executioner_Dies_Conditions (line 19377)
 function Trig_Forgotten_Executioner_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u00B"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("u00B")
 end
 
--- Original JASS function: Trig_Forgotten_Executioner_Dies_Func002C (line 19384)
-function Trig_Forgotten_Executioner_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Forgotten_Executioner_Dies_Actions (line 19388)
 function Trig_Forgotten_Executioner_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_FacelessDeath1)
-    else
-    end
+    PlayRaceDeathSound("u00B")
 end
 
--- Original JASS function: InitTrig_Forgotten_Executioner_Dies (line 19396)
 function InitTrig_Forgotten_Executioner_Dies()
     gg_trg_Forgotten_Executioner_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Forgotten_Executioner_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20522,28 +16163,14 @@ end
 -- END FOREST SECTION 349
 
 -- BEGIN FOREST SECTION 350 Forgotten_Soulreaper_Dies
--- Original JASS function: Trig_Forgotten_Soulreaper_Dies_Conditions (line 19406)
 function Trig_Forgotten_Soulreaper_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("u00A"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("u00A")
 end
 
--- Original JASS function: Trig_Forgotten_Soulreaper_Dies_Func002C (line 19413)
-function Trig_Forgotten_Soulreaper_Dies_Func002C()
-    do return true end
-end
-
--- Original JASS function: Trig_Forgotten_Soulreaper_Dies_Actions (line 19417)
 function Trig_Forgotten_Soulreaper_Dies_Actions()
-    if ((true)) then
-        PlaySoundBJ(gg_snd_FacelessDeath1)
-    else
-    end
+    PlayRaceDeathSound("u00A")
 end
 
--- Original JASS function: InitTrig_Forgotten_Soulreaper_Dies (line 19425)
 function InitTrig_Forgotten_Soulreaper_Dies()
     gg_trg_Forgotten_Soulreaper_Dies = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Forgotten_Soulreaper_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20554,22 +16181,12 @@ end
 -- END FOREST MODULE src/players/deaths.lua
 
 -- BEGIN FOREST MODULE src/game/victory.lua
--- game / victory
--- Related gameplay callbacks; original initialization order is in src/initialization.lua.
+-- Shared result sequence; original trigger subscriptions remain independently ordered.
+FE_MatchResults = {}
 
--- BEGIN FOREST SECTION 351 Ignite_Dies
--- Original JASS function: Trig_Ignite_Dies_Conditions (line 19435)
-function Trig_Ignite_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O004"))))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Ignite_Dies_Actions (line 19442)
-function Trig_Ignite_Dies_Actions()
+function FE_MatchResults.ancientDeath(message)
     DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_302")
+    DisplayTextToForce(GetPlayersAll(), message)
     PlayThematicMusicBJ("HeroicVictory")
     TriggerSleepAction(__jreal(3.00))
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
@@ -20578,7 +16195,18 @@ function Trig_Ignite_Dies_Actions()
     FE_Roles.finishMatch(false, "TRIGSTR_4301")
 end
 
--- Original JASS function: InitTrig_Ignite_Dies (line 19463)
+-- game / victory
+-- Related gameplay callbacks; original initialization order is in src/initialization.lua.
+
+-- BEGIN FOREST SECTION 351 Ignite_Dies
+function Trig_Ignite_Dies_Conditions()
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O004")
+end
+
+function Trig_Ignite_Dies_Actions()
+    FE_MatchResults.ancientDeath("TRIGSTR_302")
+end
+
 function InitTrig_Ignite_Dies()
     gg_trg_Ignite_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Ignite_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20588,27 +16216,14 @@ end
 -- END FOREST SECTION 351
 
 -- BEGIN FOREST SECTION 352 Avalanche_Dies
--- Original JASS function: Trig_Avalanche_Dies_Conditions (line 19473)
 function Trig_Avalanche_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O008"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O008")
 end
 
--- Original JASS function: Trig_Avalanche_Dies_Actions (line 19480)
 function Trig_Avalanche_Dies_Actions()
-    DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_446")
-    PlayThematicMusicBJ("HeroicVictory")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    DisplayTimedTextToForce(GetPlayersAll(), __jreal(120.00), "TRIGSTR_9243")
-    TriggerSleepAction(__jreal(120.00))
-    FE_Roles.finishMatch(false, "TRIGSTR_4301")
+    FE_MatchResults.ancientDeath("TRIGSTR_446")
 end
 
--- Original JASS function: InitTrig_Avalanche_Dies (line 19501)
 function InitTrig_Avalanche_Dies()
     gg_trg_Avalanche_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Avalanche_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20618,27 +16233,14 @@ end
 -- END FOREST SECTION 352
 
 -- BEGIN FOREST SECTION 353 Paranoia_Dies
--- Original JASS function: Trig_Paranoia_Dies_Conditions (line 19511)
 function Trig_Paranoia_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O00A"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O00A")
 end
 
--- Original JASS function: Trig_Paranoia_Dies_Actions (line 19518)
 function Trig_Paranoia_Dies_Actions()
-    DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_418")
-    PlayThematicMusicBJ("HeroicVictory")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    DisplayTimedTextToForce(GetPlayersAll(), __jreal(120.00), "TRIGSTR_9243")
-    TriggerSleepAction(__jreal(120.00))
-    FE_Roles.finishMatch(false, "TRIGSTR_4301")
+    FE_MatchResults.ancientDeath("TRIGSTR_418")
 end
 
--- Original JASS function: InitTrig_Paranoia_Dies (line 19539)
 function InitTrig_Paranoia_Dies()
     gg_trg_Paranoia_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Paranoia_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20648,27 +16250,14 @@ end
 -- END FOREST SECTION 353
 
 -- BEGIN FOREST SECTION 354 Eternity_Dies
--- Original JASS function: Trig_Eternity_Dies_Conditions (line 19549)
 function Trig_Eternity_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O00D"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O00D")
 end
 
--- Original JASS function: Trig_Eternity_Dies_Actions (line 19556)
 function Trig_Eternity_Dies_Actions()
-    DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_680")
-    PlayThematicMusicBJ("HeroicVictory")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    DisplayTimedTextToForce(GetPlayersAll(), __jreal(120.00), "TRIGSTR_9243")
-    TriggerSleepAction(__jreal(120.00))
-    FE_Roles.finishMatch(false, "TRIGSTR_4301")
+    FE_MatchResults.ancientDeath("TRIGSTR_680")
 end
 
--- Original JASS function: InitTrig_Eternity_Dies (line 19577)
 function InitTrig_Eternity_Dies()
     gg_trg_Eternity_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Eternity_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20678,27 +16267,14 @@ end
 -- END FOREST SECTION 354
 
 -- BEGIN FOREST SECTION 355 Dragos_Dies
--- Original JASS function: Trig_Dragos_Dies_Conditions (line 19587)
 function Trig_Dragos_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O00S"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O00S")
 end
 
--- Original JASS function: Trig_Dragos_Dies_Actions (line 19594)
 function Trig_Dragos_Dies_Actions()
-    DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_2030")
-    PlayThematicMusicBJ("HeroicVictory")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    DisplayTimedTextToForce(GetPlayersAll(), __jreal(120.00), "TRIGSTR_9243")
-    TriggerSleepAction(__jreal(120.00))
-    FE_Roles.finishMatch(false, "TRIGSTR_4301")
+    FE_MatchResults.ancientDeath("TRIGSTR_2030")
 end
 
--- Original JASS function: InitTrig_Dragos_Dies (line 19616)
 function InitTrig_Dragos_Dies()
     gg_trg_Dragos_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Dragos_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20708,27 +16284,14 @@ end
 -- END FOREST SECTION 355
 
 -- BEGIN FOREST SECTION 356 Tremor_Dies
--- Original JASS function: Trig_Tremor_Dies_Conditions (line 19626)
 function Trig_Tremor_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O00L"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O00L")
 end
 
--- Original JASS function: Trig_Tremor_Dies_Actions (line 19633)
 function Trig_Tremor_Dies_Actions()
-    DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_1475")
-    PlayThematicMusicBJ("HeroicVictory")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    DisplayTimedTextToForce(GetPlayersAll(), __jreal(120.00), "TRIGSTR_9243")
-    TriggerSleepAction(__jreal(120.00))
-    FE_Roles.finishMatch(false, "TRIGSTR_4301")
+    FE_MatchResults.ancientDeath("TRIGSTR_1475")
 end
 
--- Original JASS function: InitTrig_Tremor_Dies (line 19655)
 function InitTrig_Tremor_Dies()
     gg_trg_Tremor_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Tremor_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20738,27 +16301,14 @@ end
 -- END FOREST SECTION 356
 
 -- BEGIN FOREST SECTION 357 Zalxon_Dies
--- Original JASS function: Trig_Zalxon_Dies_Conditions (line 19665)
 function Trig_Zalxon_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O016"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O016")
 end
 
--- Original JASS function: Trig_Zalxon_Dies_Actions (line 19672)
 function Trig_Zalxon_Dies_Actions()
-    DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_3657")
-    PlayThematicMusicBJ("HeroicVictory")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    DisplayTimedTextToForce(GetPlayersAll(), __jreal(120.00), "TRIGSTR_9243")
-    TriggerSleepAction(__jreal(120.00))
-    FE_Roles.finishMatch(false, "TRIGSTR_4301")
+    FE_MatchResults.ancientDeath("TRIGSTR_3657")
 end
 
--- Original JASS function: InitTrig_Zalxon_Dies (line 19694)
 function InitTrig_Zalxon_Dies()
     gg_trg_Zalxon_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Zalxon_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20768,27 +16318,14 @@ end
 -- END FOREST SECTION 357
 
 -- BEGIN FOREST SECTION 358 Divinity_Dies
--- Original JASS function: Trig_Divinity_Dies_Conditions (line 19704)
 function Trig_Divinity_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O01V"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O01V")
 end
 
--- Original JASS function: Trig_Divinity_Dies_Actions (line 19711)
 function Trig_Divinity_Dies_Actions()
-    DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_7140")
-    PlayThematicMusicBJ("HeroicVictory")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    DisplayTimedTextToForce(GetPlayersAll(), __jreal(120.00), "TRIGSTR_9243")
-    TriggerSleepAction(__jreal(120.00))
-    FE_Roles.finishMatch(false, "TRIGSTR_4301")
+    FE_MatchResults.ancientDeath("TRIGSTR_7140")
 end
 
--- Original JASS function: InitTrig_Divinity_Dies (line 19733)
 function InitTrig_Divinity_Dies()
     gg_trg_Divinity_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Divinity_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20798,27 +16335,14 @@ end
 -- END FOREST SECTION 358
 
 -- BEGIN FOREST SECTION 359 Pharoah_Dies
--- Original JASS function: Trig_Pharoah_Dies_Conditions (line 19743)
 function Trig_Pharoah_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O01X"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O01X")
 end
 
--- Original JASS function: Trig_Pharoah_Dies_Actions (line 19750)
 function Trig_Pharoah_Dies_Actions()
-    DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_8363")
-    PlayThematicMusicBJ("HeroicVictory")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    DisplayTimedTextToForce(GetPlayersAll(), __jreal(120.00), "TRIGSTR_9243")
-    TriggerSleepAction(__jreal(120.00))
-    FE_Roles.finishMatch(false, "TRIGSTR_4301")
+    FE_MatchResults.ancientDeath("TRIGSTR_8363")
 end
 
--- Original JASS function: InitTrig_Pharoah_Dies (line 19772)
 function InitTrig_Pharoah_Dies()
     gg_trg_Pharoah_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Pharoah_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20828,27 +16352,14 @@ end
 -- END FOREST SECTION 359
 
 -- BEGIN FOREST SECTION 360 Nebula_Dies
--- Original JASS function: Trig_Nebula_Dies_Conditions (line 19782)
 function Trig_Nebula_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O01Z"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O01Z")
 end
 
--- Original JASS function: Trig_Nebula_Dies_Actions (line 19789)
 function Trig_Nebula_Dies_Actions()
-    DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_9096")
-    PlayThematicMusicBJ("HeroicVictory")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    DisplayTimedTextToForce(GetPlayersAll(), __jreal(120.00), "TRIGSTR_9243")
-    TriggerSleepAction(__jreal(120.00))
-    FE_Roles.finishMatch(false, "TRIGSTR_4301")
+    FE_MatchResults.ancientDeath("TRIGSTR_9096")
 end
 
--- Original JASS function: InitTrig_Nebula_Dies (line 19811)
 function InitTrig_Nebula_Dies()
     gg_trg_Nebula_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Nebula_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20858,27 +16369,14 @@ end
 -- END FOREST SECTION 360
 
 -- BEGIN FOREST SECTION 361 Wispari_Dies
--- Original JASS function: Trig_Wispari_Dies_Conditions (line 19821)
 function Trig_Wispari_Dies_Conditions()
-    if ((not ((GetUnitTypeId(GetTriggerUnit()) == FourCC("O01D"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetTriggerUnit()) == FourCC("O01D")
 end
 
--- Original JASS function: Trig_Wispari_Dies_Actions (line 19828)
 function Trig_Wispari_Dies_Actions()
-    DisableTrigger(gg_trg_Ancient_Leaves)
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_4300")
-    PlayThematicMusicBJ("HeroicVictory")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    DisplayTimedTextToForce(GetPlayersAll(), __jreal(120.00), "TRIGSTR_9243")
-    TriggerSleepAction(__jreal(120.00))
-    FE_Roles.finishMatch(false, "TRIGSTR_4301")
+    FE_MatchResults.ancientDeath("TRIGSTR_4300")
 end
 
--- Original JASS function: InitTrig_Wispari_Dies (line 19850)
 function InitTrig_Wispari_Dies()
     gg_trg_Wispari_Dies = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_Wispari_Dies, EVENT_PLAYER_UNIT_DEATH)
@@ -20888,33 +16386,27 @@ end
 -- END FOREST SECTION 361
 
 -- BEGIN FOREST SECTION 362 Remove_Resources_new
--- Original JASS function: Trig_Remove_Resources_new_Func001Func001C (line 19862)
 function Trig_Remove_Resources_new_Func001Func001C()
-    if ((not ((GetEnumPlayer() ~= FE_Roles.ancient())))) then
-        do return false end
+    if (not (GetEnumPlayer() ~= FE_Roles.ancient())) then
+        return false
     end
-    if ((not ((IsPlayerAlly(GetEnumPlayer(), FE_Roles.ancient()) == true)))) then
-        do return false end
+    if (not (IsPlayerAlly(GetEnumPlayer(), FE_Roles.ancient()) == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Remove_Resources_new_Func001A (line 19872)
 function Trig_Remove_Resources_new_Func001A()
     if (Trig_Remove_Resources_new_Func001Func001C()) then
         SetPlayerStateBJ(GetEnumPlayer(), PLAYER_STATE_RESOURCE_GOLD, 0)
         SetPlayerStateBJ(GetEnumPlayer(), PLAYER_STATE_RESOURCE_LUMBER, 0)
-    else
-        DoNothing()
     end
 end
 
--- Original JASS function: Trig_Remove_Resources_new_Actions (line 19881)
 function Trig_Remove_Resources_new_Actions()
     ForForce(GetPlayersAll(), Trig_Remove_Resources_new_Func001A)
 end
 
--- Original JASS function: InitTrig_Remove_Resources_new (line 19886)
 function InitTrig_Remove_Resources_new()
     gg_trg_Remove_Resources_new = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Remove_Resources_new, __jreal(0.50))
@@ -20923,15 +16415,10 @@ end
 -- END FOREST SECTION 362
 
 -- BEGIN FOREST SECTION 363 DVIC_1
--- Original JASS function: Trig_DVIC_1_Conditions (line 19895)
 function Trig_DVIC_1_Conditions()
-    if ((not ((GetUnitLevel(GetLevelingUnit()) == 20)))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitLevel(GetLevelingUnit()) == 20
 end
 
--- Original JASS function: Trig_DVIC_1_Actions (line 19902)
 function Trig_DVIC_1_Actions()
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_7267")
     PlayThematicMusicBJ("UndeadVictory")
@@ -20942,7 +16429,6 @@ function Trig_DVIC_1_Actions()
     FE_Roles.finishMatch(true, "TRIGSTR_7269")
 end
 
--- Original JASS function: InitTrig_DVIC_1 (line 19923)
 function InitTrig_DVIC_1()
     gg_trg_DVIC_1 = CreateTrigger()
     FE_Roles.registerAncientUnitEvent(gg_trg_DVIC_1, EVENT_PLAYER_HERO_LEVEL)
@@ -20952,12 +16438,10 @@ end
 -- END FOREST SECTION 363
 
 -- BEGIN FOREST SECTION 364 Ext_On
--- Original JASS function: Trig_Ext_On_Actions (line 19933)
 function Trig_Ext_On_Actions()
     EnableTrigger(gg_trg_Extermination)
 end
 
--- Original JASS function: InitTrig_Ext_On (line 19938)
 function InitTrig_Ext_On()
     gg_trg_Ext_On = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Ext_On, __jreal(65.00))
@@ -20966,15 +16450,10 @@ end
 -- END FOREST SECTION 364
 
 -- BEGIN FOREST SECTION 365 Extermination
--- Original JASS function: Trig_Extermination_Conditions (line 19947)
 function Trig_Extermination_Conditions()
-    if ((not ((udg_StillAlive == 0)))) then
-        do return false end
-    end
-    do return true end
+    return udg_StillAlive == 0
 end
 
--- Original JASS function: Trig_Extermination_Actions (line 19954)
 function Trig_Extermination_Actions()
     PlayThematicMusicBJ("UndeadVictory")
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_7280")
@@ -20984,7 +16463,6 @@ function Trig_Extermination_Actions()
     FE_Roles.finishMatch(true, "TRIGSTR_7269")
 end
 
--- Original JASS function: InitTrig_Extermination (line 19974)
 function InitTrig_Extermination()
     gg_trg_Extermination = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Extermination, __jreal(10.00))
@@ -20999,7 +16477,18 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 366 Base_List_Init
--- Original JASS function: Trig_Base_List_Init_Actions (line 19984)
+local baseFlagRawcodes = {
+    "h04Z", "h050", "h05P", "h04Y", "h04V",
+    "h04W", "h05N", "h04X", "h051", "h052",
+}
+
+local function IsBaseFlagType(unitType)
+    for _, rawcode in ipairs(baseFlagRawcodes) do
+        if unitType == FourCC(rawcode) then return true end
+    end
+    return false
+end
+
 function Trig_Base_List_Init_Actions()
     udg_GARATHORbaseList[1] = gg_rct_Base_1
     udg_GARATHORbaseList[2] = gg_rct_Base_2
@@ -21013,7 +16502,6 @@ function Trig_Base_List_Init_Actions()
     udg_GARATHORbaseList[10] = gg_rct_Base_10
 end
 
--- Original JASS function: InitTrig_Base_List_Init (line 19998)
 function InitTrig_Base_List_Init()
     gg_trg_Base_List_Init = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Base_List_Init, __jreal(5))
@@ -21022,48 +16510,14 @@ end
 -- END FOREST SECTION 366
 
 -- BEGIN FOREST SECTION 367 Flagstack_Deny
--- Original JASS function: Trig_Flagstack_Deny_IsFlag (line 20007)
 function Trig_Flagstack_Deny_IsFlag(u)
-    local id = GetUnitTypeId(u)
-    if (id == FourCC("h04Z")) then
-        do return true end
-    end
-    if (id == FourCC("h050")) then
-        do return true end
-    end
-    if (id == FourCC("h05P")) then
-        do return true end
-    end
-    if (id == FourCC("h04Y")) then
-        do return true end
-    end
-    if (id == FourCC("h04V")) then
-        do return true end
-    end
-    if (id == FourCC("h04W")) then
-        do return true end
-    end
-    if (id == FourCC("h05N")) then
-        do return true end
-    end
-    if (id == FourCC("h04X")) then
-        do return true end
-    end
-    if (id == FourCC("h051")) then
-        do return true end
-    end
-    if (id == FourCC("h052")) then
-        do return true end
-    end
-    do return false end
+    return IsBaseFlagType(GetUnitTypeId(u))
 end
 
--- Original JASS function: Trig_Flagstack_Deny_Conditions (line 20044)
 function Trig_Flagstack_Deny_Conditions()
-    do return Trig_Flagstack_Deny_IsFlag(GetTriggerUnit()) end
+    return Trig_Flagstack_Deny_IsFlag(GetTriggerUnit())
 end
 
--- Original JASS function: Trig_Flagstack_Deny_BaseHasOtherFlag (line 20048)
 function Trig_Flagstack_Deny_BaseHasOtherFlag(r, newFlag)
     local g = CreateGroup()
     local u = nil
@@ -21081,10 +16535,9 @@ function Trig_Flagstack_Deny_BaseHasOtherFlag(r, newFlag)
     g = nil
     u = nil
     newFlag = nil
-    do return result end
+    return result
 end
 
--- Original JASS function: Trig_Flagstack_Deny_Actions (line 20075)
 function Trig_Flagstack_Deny_Actions()
     local newFlag = GetTriggerUnit()
     local i = 1
@@ -21101,7 +16554,7 @@ function Trig_Flagstack_Deny_Actions()
             end
             e = nil
             newFlag = nil
-            do return end
+            return
         end
         i = __jint(i + 1)
     end
@@ -21109,7 +16562,6 @@ function Trig_Flagstack_Deny_Actions()
     newFlag = nil
 end
 
--- Original JASS function: InitTrig_Flagstack_Deny (line 20105)
 function InitTrig_Flagstack_Deny()
     gg_trg_Flagstack_Deny = CreateTrigger()
     TriggerRegisterEnterRectSimple(gg_trg_Flagstack_Deny, GetPlayableMapRect())
@@ -21119,96 +16571,57 @@ end
 -- END FOREST SECTION 367
 
 -- BEGIN FOREST SECTION 368 Flag_no_base_Deny
--- Original JASS function: Trig_Flag_no_base_Deny_Func001C (line 20115)
 function Trig_Flag_no_base_Deny_Func001C()
-    if (((GetUnitTypeId(GetConstructingStructure()) == FourCC("h04Z")))) then
-        do return true end
-    end
-    if (((GetUnitTypeId(GetConstructingStructure()) == FourCC("h050")))) then
-        do return true end
-    end
-    if (((GetUnitTypeId(GetConstructingStructure()) == FourCC("h05P")))) then
-        do return true end
-    end
-    if (((GetUnitTypeId(GetConstructingStructure()) == FourCC("h04Y")))) then
-        do return true end
-    end
-    if (((GetUnitTypeId(GetConstructingStructure()) == FourCC("h04V")))) then
-        do return true end
-    end
-    if (((GetUnitTypeId(GetConstructingStructure()) == FourCC("h04W")))) then
-        do return true end
-    end
-    if (((GetUnitTypeId(GetConstructingStructure()) == FourCC("h05N")))) then
-        do return true end
-    end
-    if (((GetUnitTypeId(GetConstructingStructure()) == FourCC("h04X")))) then
-        do return true end
-    end
-    if (((GetUnitTypeId(GetConstructingStructure()) == FourCC("h051")))) then
-        do return true end
-    end
-    if (((GetUnitTypeId(GetConstructingStructure()) == FourCC("h052")))) then
-        do return true end
-    end
-    do return false end
+    return IsBaseFlagType(GetUnitTypeId(GetConstructingStructure()))
 end
 
--- Original JASS function: Trig_Flag_no_base_Deny_Conditions (line 20149)
 function Trig_Flag_no_base_Deny_Conditions()
-    if ((not Trig_Flag_no_base_Deny_Func001C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Flag_no_base_Deny_Func001C())
 end
 
--- Original JASS function: Trig_Flag_no_base_Deny_Func002C (line 20156)
 function Trig_Flag_no_base_Deny_Func002C()
-    if ((not ((RectContainsUnit(udg_GARATHORbaseList[1], GetConstructingStructure()) == false)))) then
-        do return false end
+    if (not (RectContainsUnit(udg_GARATHORbaseList[1], GetConstructingStructure()) == false)) then
+        return false
     end
-    if ((not ((RectContainsUnit(udg_GARATHORbaseList[2], GetConstructingStructure()) == false)))) then
-        do return false end
+    if (not (RectContainsUnit(udg_GARATHORbaseList[2], GetConstructingStructure()) == false)) then
+        return false
     end
-    if ((not ((RectContainsUnit(udg_GARATHORbaseList[3], GetConstructingStructure()) == false)))) then
-        do return false end
+    if (not (RectContainsUnit(udg_GARATHORbaseList[3], GetConstructingStructure()) == false)) then
+        return false
     end
-    if ((not ((RectContainsUnit(udg_GARATHORbaseList[4], GetConstructingStructure()) == false)))) then
-        do return false end
+    if (not (RectContainsUnit(udg_GARATHORbaseList[4], GetConstructingStructure()) == false)) then
+        return false
     end
-    if ((not ((RectContainsUnit(udg_GARATHORbaseList[5], GetConstructingStructure()) == false)))) then
-        do return false end
+    if (not (RectContainsUnit(udg_GARATHORbaseList[5], GetConstructingStructure()) == false)) then
+        return false
     end
-    if ((not ((RectContainsUnit(udg_GARATHORbaseList[6], GetConstructingStructure()) == false)))) then
-        do return false end
+    if (not (RectContainsUnit(udg_GARATHORbaseList[6], GetConstructingStructure()) == false)) then
+        return false
     end
-    if ((not ((RectContainsUnit(udg_GARATHORbaseList[7], GetConstructingStructure()) == false)))) then
-        do return false end
+    if (not (RectContainsUnit(udg_GARATHORbaseList[7], GetConstructingStructure()) == false)) then
+        return false
     end
-    if ((not ((RectContainsUnit(udg_GARATHORbaseList[8], GetConstructingStructure()) == false)))) then
-        do return false end
+    if (not (RectContainsUnit(udg_GARATHORbaseList[8], GetConstructingStructure()) == false)) then
+        return false
     end
-    if ((not ((RectContainsUnit(udg_GARATHORbaseList[9], GetConstructingStructure()) == false)))) then
-        do return false end
+    if (not (RectContainsUnit(udg_GARATHORbaseList[9], GetConstructingStructure()) == false)) then
+        return false
     end
-    if ((not ((RectContainsUnit(udg_GARATHORbaseList[10], GetConstructingStructure()) == false)))) then
-        do return false end
+    if (not (RectContainsUnit(udg_GARATHORbaseList[10], GetConstructingStructure()) == false)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Flag_no_base_Deny_Actions (line 20190)
 function Trig_Flag_no_base_Deny_Actions()
     if (Trig_Flag_no_base_Deny_Func002C()) then
         AddSpecialEffectLocBJ(GetUnitLoc(GetConstructingStructure()), "Abilities\\Spells\\Human\\ThunderClap\\ThunderClapCaster.mdl")
         SetPlayerStateBJ(GetOwningPlayer(GetTriggerUnit()), PLAYER_STATE_RESOURCE_LUMBER, (__jint(GetPlayerState(Player(0), PLAYER_STATE_RESOURCE_LUMBER) + 2000)))
         DisplayTextToForce(GetForceOfPlayer(GetOwningPlayer(GetTriggerUnit())), "TRIGSTR_6233")
         RemoveUnit(GetConstructingStructure())
-    else
     end
 end
 
--- Original JASS function: InitTrig_Flag_no_base_Deny (line 20201)
 function InitTrig_Flag_no_base_Deny()
     gg_trg_Flag_no_base_Deny = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Flag_no_base_Deny, EVENT_PLAYER_UNIT_CONSTRUCT_START)
@@ -21218,16 +16631,14 @@ end
 -- END FOREST SECTION 368
 
 -- BEGIN FOREST SECTION 369 NewFlag
--- Original JASS function: Trig_NewFlag_Conditions (line 20211)
 function Trig_NewFlag_Conditions()
     local unitId = GetUnitTypeId(GetConstructedStructure())
-    if ((not (((((((((((unitId == FourCC("h04Z")) or (unitId == FourCC("h050"))) or (unitId == FourCC("h04Y"))) or (unitId == FourCC("h04V"))) or (unitId == FourCC("h04W"))) or (unitId == FourCC("h05N"))) or (unitId == FourCC("h04X"))) or (unitId == FourCC("h051"))) or (unitId == FourCC("h052"))) or (unitId == FourCC("h05P")))))) then
-        do return false end
+    if not IsBaseFlagType(unitId) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_NewFlag_Actions (line 20219)
 function Trig_NewFlag_Actions()
     PingMinimapLocForForce(GetPlayersAll(), GetUnitLoc(GetConstructedStructure()), __jreal(5.00))
     DisplayTextToForce(GetPlayersEnemies(FE_Roles.ancient()), "A base flag has been constructed! You will receive 1 gold and 50 lumber every 6 seconds. However, should the base fall, the Ancient will receive 1000 gold!")
@@ -21235,7 +16646,6 @@ function Trig_NewFlag_Actions()
     udg_Flags[GetConvertedPlayerId(GetTriggerPlayer())] = true
 end
 
--- Original JASS function: InitTrig_NewFlag (line 20227)
 function InitTrig_NewFlag()
     gg_trg_NewFlag = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_NewFlag, EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)
@@ -21245,34 +16655,25 @@ end
 -- END FOREST SECTION 369
 
 -- BEGIN FOREST SECTION 370 NewFlag2
--- Original JASS function: Trig_NewFlag2_Func001Func001Func001A (line 20238)
 function Trig_NewFlag2_Func001Func001Func001A()
     AdjustPlayerStateBJ(1, GetEnumPlayer(), PLAYER_STATE_RESOURCE_GOLD)
     AdjustPlayerStateBJ(50, GetEnumPlayer(), PLAYER_STATE_RESOURCE_LUMBER)
 end
 
--- Original JASS function: Trig_NewFlag2_Func001Func001C (line 20243)
 function Trig_NewFlag2_Func001Func001C()
-    if ((not ((udg_Flags[GetConvertedPlayerId(GetEnumPlayer())] == true)))) then
-        do return false end
-    end
-    do return true end
+    return udg_Flags[GetConvertedPlayerId(GetEnumPlayer())] == true
 end
 
--- Original JASS function: Trig_NewFlag2_Func001A (line 20250)
 function Trig_NewFlag2_Func001A()
     if (Trig_NewFlag2_Func001Func001C()) then
         ForForce(GetPlayersAllies(GetEnumPlayer()), Trig_NewFlag2_Func001Func001Func001A)
-    else
     end
 end
 
--- Original JASS function: Trig_NewFlag2_Actions (line 20257)
 function Trig_NewFlag2_Actions()
     ForForce(GetPlayersAll(), Trig_NewFlag2_Func001A)
 end
 
--- Original JASS function: InitTrig_NewFlag2 (line 20262)
 function InitTrig_NewFlag2()
     gg_trg_NewFlag2 = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_NewFlag2, __jreal(6.00))
@@ -21281,19 +16682,17 @@ end
 -- END FOREST SECTION 370
 
 -- BEGIN FOREST SECTION 371 NewFlag3
--- Original JASS function: Trig_NewFlag3_Conditions (line 20271)
 function Trig_NewFlag3_Conditions()
     local unitId = GetUnitTypeId(GetDyingUnit())
-    if ((not (((((((((((unitId == FourCC("h04Z")) or (unitId == FourCC("h050"))) or (unitId == FourCC("h04Y"))) or (unitId == FourCC("h04V"))) or (unitId == FourCC("h04W"))) or (unitId == FourCC("h05N"))) or (unitId == FourCC("h04X"))) or (unitId == FourCC("h051"))) or (unitId == FourCC("h052"))) or (unitId == FourCC("h05P")))))) then
-        do return false end
+    if not IsBaseFlagType(unitId) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) ~= 0)))) then
-        do return false end
+    if (not (GetUnitTypeId(GetKillingUnitBJ()) ~= 0)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_NewFlag3_Actions (line 20282)
 function Trig_NewFlag3_Actions()
     PingMinimapLocForForce(GetPlayersAll(), GetUnitLoc(GetDyingUnit()), __jreal(5.00))
     DisplayTextToForce(GetPlayersEnemies(FE_Roles.ancient()), "TRIGSTR_1774")
@@ -21301,7 +16700,6 @@ function Trig_NewFlag3_Actions()
     udg_Flags[GetConvertedPlayerId(GetOwningPlayer(GetDyingUnit()))] = false
 end
 
--- Original JASS function: InitTrig_NewFlag3 (line 20290)
 function InitTrig_NewFlag3()
     gg_trg_NewFlag3 = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_NewFlag3, EVENT_PLAYER_UNIT_DEATH)
@@ -21311,19 +16709,17 @@ end
 -- END FOREST SECTION 371
 
 -- BEGIN FOREST SECTION 372 NewFlag4
--- Original JASS function: Trig_NewFlag4_Conditions (line 20301)
 function Trig_NewFlag4_Conditions()
     local unitId = GetUnitTypeId(GetConstructingStructure())
-    if ((not ((udg_Flags[GetConvertedPlayerId(GetOwningPlayer(GetConstructingStructure()))] == true)))) then
-        do return false end
+    if (not (udg_Flags[GetConvertedPlayerId(GetOwningPlayer(GetConstructingStructure()))] == true)) then
+        return false
     end
-    if ((not (((((((((((unitId == FourCC("h04Z")) or (unitId == FourCC("h050"))) or (unitId == FourCC("h04Y"))) or (unitId == FourCC("h04V"))) or (unitId == FourCC("h04W"))) or (unitId == FourCC("h05N"))) or (unitId == FourCC("h04X"))) or (unitId == FourCC("h051"))) or (unitId == FourCC("h052"))) or (unitId == FourCC("h05P")))))) then
-        do return false end
+    if not IsBaseFlagType(unitId) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_NewFlag4_Actions (line 20313)
 function Trig_NewFlag4_Actions()
     udg_Flag = GetOwningPlayer(GetTriggerUnit())
     IssueImmediateOrderBJ(GetTriggerUnit(), "stop")
@@ -21332,7 +16728,6 @@ function Trig_NewFlag4_Actions()
     DisplayTextToForce(GetForceOfPlayer(udg_Flag), "You have already constructed a base flag!")
 end
 
--- Original JASS function: InitTrig_NewFlag4 (line 20322)
 function InitTrig_NewFlag4()
     gg_trg_NewFlag4 = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_NewFlag4, EVENT_PLAYER_UNIT_CONSTRUCT_START)
@@ -21342,33 +16737,25 @@ end
 -- END FOREST SECTION 372
 
 -- BEGIN FOREST SECTION 373 NewFlag5
--- Original JASS function: Trig_NewFlag5_Conditions (line 20333)
 function Trig_NewFlag5_Conditions()
     local unitId = GetUnitTypeId(GetAttackedUnitBJ())
-    if ((not (((((((((((unitId == FourCC("h04Z")) or (unitId == FourCC("h050"))) or (unitId == FourCC("h04Y"))) or (unitId == FourCC("h04V"))) or (unitId == FourCC("h04W"))) or (unitId == FourCC("h05N"))) or (unitId == FourCC("h04X"))) or (unitId == FourCC("h051"))) or (unitId == FourCC("h052"))) or (unitId == FourCC("h05P")))))) then
-        do return false end
+    if not IsBaseFlagType(unitId) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_NewFlag5_Func001C (line 20341)
 function Trig_NewFlag5_Func001C()
-    if ((not ((GetOwningPlayer(GetAttacker()) == FE_Roles.ancient())))) then
-        do return false end
-    end
-    do return true end
+    return GetOwningPlayer(GetAttacker()) == FE_Roles.ancient()
 end
 
--- Original JASS function: Trig_NewFlag5_Actions (line 20348)
 function Trig_NewFlag5_Actions()
     if (Trig_NewFlag5_Func001C()) then
-        DoNothing()
     else
         IssueImmediateOrderBJ(GetAttacker(), "stop")
     end
 end
 
--- Original JASS function: InitTrig_NewFlag5 (line 20357)
 function InitTrig_NewFlag5()
     gg_trg_NewFlag5 = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_NewFlag5, EVENT_PLAYER_UNIT_ATTACKED)
@@ -21383,23 +16770,14 @@ end
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 374 Gobo_Mech_Blaster_pickup
--- Original JASS function: Trig_Gobo_Mech_Blaster_pickup_Conditions (line 20368)
 function Trig_Gobo_Mech_Blaster_pickup_Conditions()
-    if ((not ((GetItemTypeId(GetManipulatedItem()) == FourCC("I00Q"))))) then
-        do return false end
-    end
-    do return true end
+    return GetItemTypeId(GetManipulatedItem()) == FourCC("I00Q")
 end
 
--- Original JASS function: Trig_Gobo_Mech_Blaster_pickup_Func001C (line 20375)
 function Trig_Gobo_Mech_Blaster_pickup_Func001C()
-    if ((not ((IsUnitType(GetTriggerUnit(), UNIT_TYPE_MELEE_ATTACKER) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitType(GetTriggerUnit(), UNIT_TYPE_MELEE_ATTACKER) == true
 end
 
--- Original JASS function: Trig_Gobo_Mech_Blaster_pickup_Actions (line 20382)
 function Trig_Gobo_Mech_Blaster_pickup_Actions()
     if (Trig_Gobo_Mech_Blaster_pickup_Func001C()) then
         SetUnitAbilityLevelSwapped(FourCC("A0DP"), GetTriggerUnit(), 2)
@@ -21408,7 +16786,6 @@ function Trig_Gobo_Mech_Blaster_pickup_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Gobo_Mech_Blaster_pickup (line 20391)
 function InitTrig_Gobo_Mech_Blaster_pickup()
     gg_trg_Gobo_Mech_Blaster_pickup = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Gobo_Mech_Blaster_pickup, EVENT_PLAYER_UNIT_PICKUP_ITEM)
@@ -21418,23 +16795,14 @@ end
 -- END FOREST SECTION 374
 
 -- BEGIN FOREST SECTION 375 Gobo_Mech_Blaster_attack_check
--- Original JASS function: Trig_Gobo_Mech_Blaster_attack_check_Conditions (line 20403)
 function Trig_Gobo_Mech_Blaster_attack_check_Conditions()
-    if ((not ((UnitHasItemOfTypeBJ(udg_DamageEventSource, FourCC("I00Q")) == true)))) then
-        do return false end
-    end
-    do return true end
+    return UnitHasItemOfTypeBJ(udg_DamageEventSource, FourCC("I00Q")) == true
 end
 
--- Original JASS function: Trig_Gobo_Mech_Blaster_attack_check_Func001C (line 20410)
 function Trig_Gobo_Mech_Blaster_attack_check_Func001C()
-    if ((not ((IsUnitType(udg_DamageFilterSource, UNIT_TYPE_MELEE_ATTACKER) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitType(udg_DamageFilterSource, UNIT_TYPE_MELEE_ATTACKER) == true
 end
 
--- Original JASS function: Trig_Gobo_Mech_Blaster_attack_check_Actions (line 20417)
 function Trig_Gobo_Mech_Blaster_attack_check_Actions()
     if (Trig_Gobo_Mech_Blaster_attack_check_Func001C()) then
         SetUnitAbilityLevelSwapped(FourCC("A0DP"), udg_DamageEventSource, 2)
@@ -21443,7 +16811,6 @@ function Trig_Gobo_Mech_Blaster_attack_check_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Gobo_Mech_Blaster_attack_check (line 20426)
 function InitTrig_Gobo_Mech_Blaster_attack_check()
     gg_trg_Gobo_Mech_Blaster_attack_check = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Gobo_Mech_Blaster_attack_check, "udg_DamageModifierEvent", EQUAL, __jreal(1.00))

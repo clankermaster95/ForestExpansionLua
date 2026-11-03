@@ -10,7 +10,6 @@
 -- END FOREST SECTION 189
 
 -- BEGIN FOREST SECTION 190 WindWalkWispari
--- Original JASS function: WW_Stop (line 12395)
 function WW_Stop(t, caster)
     if (caster ~= nil) then
         SaveBoolean(WW_Hash, GetHandleId(caster), 0, false)
@@ -20,14 +19,12 @@ function WW_Stop(t, caster)
     DestroyTimer(t)
 end
 
--- Original JASS function: WW_CreateSpawn (line 12405)
 function WW_CreateSpawn(caster)
     local spawned = CreateUnit(GetOwningPlayer(caster), WW_SPAWN_ID, GetUnitX(caster), GetUnitY(caster), GetUnitFacing(caster))
     UnitApplyTimedLife(spawned, FourCC("BTLF"), WW_SPAWN_LIFE)
     spawned = nil
 end
 
--- Original JASS function: WW_Loop (line 12413)
 function WW_Loop()
     local t = GetExpiredTimer()
     local caster = LoadUnitHandle(WW_Hash, GetHandleId(t), 0)
@@ -35,38 +32,36 @@ function WW_Loop()
         WW_Stop(t, caster)
         t = nil
         caster = nil
-        do return end
+        return
     end
     if (GetWidgetLife(caster) <= __jreal(0.405)) then
         WW_Stop(t, caster)
         t = nil
         caster = nil
-        do return end
+        return
     end
     if (GetUnitAbilityLevel(caster, WW_BUFF_ID) <= 0) then
         WW_Stop(t, caster)
         t = nil
         caster = nil
-        do return end
+        return
     end
     WW_CreateSpawn(caster)
     caster = nil
     t = nil
 end
 
--- Original JASS function: WW_Conditions (line 12444)
 function WW_Conditions()
-    do return (GetSpellAbilityId() == WW_ABILITY_ID) end
+    return (GetSpellAbilityId() == WW_ABILITY_ID)
 end
 
--- Original JASS function: WW_Actions (line 12448)
 function WW_Actions()
     local caster = GetTriggerUnit()
     local casterId = GetHandleId(caster)
     local t = nil
     if LoadBoolean(WW_Hash, casterId, 0) then
         caster = nil
-        do return end
+        return
     end
     SaveBoolean(WW_Hash, casterId, 0, true)
     WW_CreateSpawn(caster)
@@ -77,7 +72,6 @@ function WW_Actions()
     caster = nil
 end
 
--- Original JASS function: InitTrig_WindWalkWispari (line 12471)
 function InitTrig_WindWalkWispari()
     local trg = CreateTrigger()
     local i = 0
@@ -93,14 +87,12 @@ end
 -- END FOREST SECTION 190
 
 -- BEGIN FOREST SECTION 191 TornadoMove
--- Original JASS function: Tornado_Clear_Caster (line 12490)
 function Tornado_Clear_Caster(caster)
     if (caster ~= nil) then
         FlushChildHashtable(udg_TornadoHash, GetHandleId(caster))
     end
 end
 
--- Original JASS function: Tornado_Begin_Death (line 12496)
 function Tornado_Begin_Death(t)
     local id = GetHandleId(t)
     local fx = LoadEffectHandle(udg_TornadoHash, id, TORNADO_KEY_EFFECT)
@@ -109,7 +101,7 @@ function Tornado_Begin_Death(t)
         fx = nil
         caster = nil
         t = nil
-        do return end
+        return
     end
     SaveBoolean(udg_TornadoHash, id, TORNADO_KEY_DYING, true)
     if (caster ~= nil) then
@@ -126,34 +118,32 @@ function Tornado_Begin_Death(t)
     t = nil
 end
 
--- Original JASS function: Tornado_Caster_Channel_Broken (line 12527)
 function Tornado_Caster_Channel_Broken(caster, startX, startY)
     local dx = 0.0
     local dy = 0.0
     if (caster == nil) then
-        do return true end
+        return true
     end
     if (GetWidgetLife(caster) <= __jreal(0.405)) then
-        do return true end
+        return true
     end
     if IsUnitPaused(caster) then
-        do return true end
+        return true
     end
     if IsUnitType(caster, UNIT_TYPE_STUNNED) then
-        do return true end
+        return true
     end
     if IsUnitType(caster, UNIT_TYPE_POLYMORPHED) then
-        do return true end
+        return true
     end
     if IsUnitType(caster, UNIT_TYPE_SLEEPING) then
-        do return true end
+        return true
     end
     dx = __jreal(GetUnitX(caster) - startX)
     dy = __jreal(GetUnitY(caster) - startY)
-    do return (__jreal(__jreal(dx * dx) + __jreal(dy * dy)) > __jreal(TORNADO_MOVE_TOLERANCE * TORNADO_MOVE_TOLERANCE)) end
+    return (__jreal(__jreal(dx * dx) + __jreal(dy * dy)) > __jreal(TORNADO_MOVE_TOLERANCE * TORNADO_MOVE_TOLERANCE))
 end
 
--- Original JASS function: Tornado_Line_Loop (line 12561)
 function Tornado_Line_Loop()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -178,14 +168,14 @@ function Tornado_Line_Loop()
         DestroyTimer(t)
         caster = nil
         t = nil
-        do return end
+        return
     end
     if (channelActive and Tornado_Caster_Channel_Broken(caster, startX, startY)) then
         Tornado_Begin_Death(t)
         fx = nil
         caster = nil
         t = nil
-        do return end
+        return
     end
     if (__jreal(traveled + step) > maxDistance) then
         step = __jreal(maxDistance - traveled)
@@ -215,7 +205,6 @@ function Tornado_Line_Loop()
     t = nil
 end
 
--- Original JASS function: Tornado_Line_Actions (line 12639)
 function Tornado_Line_Actions()
     local caster = GetTriggerUnit()
     local casterId = GetHandleId(caster)
@@ -271,7 +260,6 @@ function Tornado_Line_Actions()
     old = nil
 end
 
--- Original JASS function: Tornado_Line_Endcast_Actions (line 12710)
 function Tornado_Line_Endcast_Actions()
     local caster = GetTriggerUnit()
     local casterId = GetHandleId(caster)
@@ -293,12 +281,10 @@ function Tornado_Line_Endcast_Actions()
     t = nil
 end
 
--- Original JASS function: Tornado_Line_Conditions (line 12734)
 function Tornado_Line_Conditions()
-    do return (GetSpellAbilityId() == TORNADO_ABILITY_ID) end
+    return (GetSpellAbilityId() == TORNADO_ABILITY_ID)
 end
 
--- Original JASS function: InitTrig_TornadoMove (line 12738)
 function InitTrig_TornadoMove()
     local trg = CreateTrigger()
     local endTrg = CreateTrigger()

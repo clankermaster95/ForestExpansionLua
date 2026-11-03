@@ -2,18 +2,15 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 251 Initialization
--- Original JASS function: Trig_Initialization_Func002002 (line 15302)
 function Trig_Initialization_Func002002()
     SetCameraBoundsToRectForPlayerBJ(GetEnumPlayer(), gg_rct_Camera_1)
 end
 
--- Original JASS function: Trig_Initialization_Actions (line 15306)
 function Trig_Initialization_Actions()
     SetCreepCampFilterState(false)
     ForForce(GetPlayersAll(), Trig_Initialization_Func002002)
 end
 
--- Original JASS function: InitTrig_Initialization (line 15312)
 function InitTrig_Initialization()
     gg_trg_Initialization = CreateTrigger()
     TriggerAddAction(gg_trg_Initialization, Trig_Initialization_Actions)
@@ -21,7 +18,6 @@ end
 -- END FOREST SECTION 251
 
 -- BEGIN FOREST SECTION 252 LimitedTraining
--- Original JASS function: Trig_LimitedTraining_Func002A (line 15320)
 function Trig_LimitedTraining_Func002A()
     SetPlayerTechMaxAllowedSwap(FourCC("h03A"), 1, GetEnumPlayer())
     SetPlayerTechMaxAllowedSwap(FourCC("u00E"), 1, GetEnumPlayer())
@@ -32,13 +28,11 @@ function Trig_LimitedTraining_Func002A()
     SetPlayerTechMaxAllowedSwap(FourCC("n00S"), 1, GetEnumPlayer())
 end
 
--- Original JASS function: Trig_LimitedTraining_Actions (line 15330)
 function Trig_LimitedTraining_Actions()
     MeleeStartingHeroLimit()
     ForForce(GetPlayersAll(), Trig_LimitedTraining_Func002A)
 end
 
--- Original JASS function: InitTrig_LimitedTraining (line 15336)
 function InitTrig_LimitedTraining()
     gg_trg_LimitedTraining = CreateTrigger()
     TriggerAddAction(gg_trg_LimitedTraining, Trig_LimitedTraining_Actions)
@@ -46,7 +40,6 @@ end
 -- END FOREST SECTION 252
 
 -- BEGIN FOREST SECTION 253 TimeToExpanderSpawn
--- Original JASS function: Trig_TimeToExpanderSpawn_Actions (line 15344)
 function Trig_TimeToExpanderSpawn_Actions()
     if FE_Test and FE_Test.skipped then return end
     StartTimerBJ(udg_ExpanderSpawnTimer, false, __jreal(19.00))
@@ -58,7 +51,6 @@ function Trig_TimeToExpanderSpawn_Actions()
     DestroyTimerDialogBJ(dialog)
 end
 
--- Original JASS function: InitTrig_TimeToExpanderSpawn (line 15352)
 function InitTrig_TimeToExpanderSpawn()
     gg_trg_TimeToExpanderSpawn = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_TimeToExpanderSpawn, __jreal(1.00))
@@ -67,7 +59,6 @@ end
 -- END FOREST SECTION 253
 
 -- BEGIN FOREST SECTION 254 TimeToAncientSpawn
--- Original JASS function: Trig_TimeToAncientSpawn_Actions (line 15361)
 function Trig_TimeToAncientSpawn_Actions()
     if FE_Test and FE_Test.skipped then return end
     StartTimerBJ(udg_AncientSpawnTimer, false, __jreal(40.00))
@@ -79,7 +70,6 @@ function Trig_TimeToAncientSpawn_Actions()
     DestroyTimerDialogBJ(dialog)
 end
 
--- Original JASS function: InitTrig_TimeToAncientSpawn (line 15369)
 function InitTrig_TimeToAncientSpawn()
     gg_trg_TimeToAncientSpawn = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_TimeToAncientSpawn, __jreal(20.00))
@@ -88,52 +78,30 @@ end
 -- END FOREST SECTION 254
 
 -- BEGIN FOREST SECTION 255 Unit_Indexer
--- Original JASS function: Trig_Unit_Indexer_Func017Func004C (line 15383)
 function Trig_Unit_Indexer_Func017Func004C()
-    if ((not ((udg_UDexRecycle == 0)))) then
-        do return false end
-    end
-    do return true end
+    return udg_UDexRecycle == 0
 end
 
--- Original JASS function: Trig_Unit_Indexer_Func017C (line 15390)
 function Trig_Unit_Indexer_Func017C()
-    if ((not ((udg_UnitIndexerEnabled == true)))) then
-        do return false end
-    end
-    do return true end
+    return udg_UnitIndexerEnabled == true
 end
 
--- Original JASS function: Trig_Unit_Indexer_Func030Func005C (line 15397)
 function Trig_Unit_Indexer_Func030Func005C()
-    if ((not ((GetUnitUserData(udg_UDexUnits[udg_UDex]) == 0)))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitUserData(udg_UDexUnits[udg_UDex]) == 0
 end
 
--- Original JASS function: Trig_Unit_Indexer_Func030C (line 15404)
 function Trig_Unit_Indexer_Func030C()
-    if ((not ((udg_UDexWasted == 15)))) then
-        do return false end
-    end
-    do return true end
+    return udg_UDexWasted == 15
 end
 
--- Original JASS function: Trig_Unit_Indexer_Func034C (line 15411)
 function Trig_Unit_Indexer_Func034C()
-    if ((not ((GetUnitUserData(GetFilterUnit()) == 0)))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitUserData(GetFilterUnit()) == 0
 end
 
--- Original JASS function: Trig_Unit_Indexer_Actions (line 15418)
 function Trig_Unit_Indexer_Actions()
     ExecuteFunc("InitializeUnitIndexer")
 end
 
--- Original JASS function: IndexUnit (line 15424)
 function IndexUnit()
     local pdex = udg_UDex
     if (Trig_Unit_Indexer_Func017C()) then
@@ -153,12 +121,10 @@ function IndexUnit()
         udg_UnitIndexEvent = __jreal(1.00)
         udg_UnitIndexEvent = __jreal(0.00)
         udg_UDex = pdex
-    else
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: IndexNewUnit (line 15471)
 function IndexNewUnit()
     local pdex = udg_UDex
     local ndex = 0
@@ -184,16 +150,13 @@ function IndexNewUnit()
             end
         end
         udg_UDex = pdex
-    else
     end
     if (Trig_Unit_Indexer_Func034C()) then
         IndexUnit()
-    else
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: InitializeUnitIndexer (line 15522)
 function InitializeUnitIndexer()
     local i = 0
     local re = CreateRegion()
@@ -213,7 +176,6 @@ function InitializeUnitIndexer()
     udg_UnitIndexEvent = __jreal(0.00)
 end
 
--- Original JASS function: InitTrig_Unit_Indexer (line 15545)
 function InitTrig_Unit_Indexer()
     gg_trg_Unit_Indexer = CreateTrigger()
     TriggerAddAction(gg_trg_Unit_Indexer, Trig_Unit_Indexer_Actions)

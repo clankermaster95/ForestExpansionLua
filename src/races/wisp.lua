@@ -2,54 +2,19 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 136 SeedOfRebirth
--- Original JASS function: Trig_SeedOfRebirth_Conditions (line 10485)
 function Trig_SeedOfRebirth_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0B9"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0B9")
 end
 
--- Original JASS function: Trig_SeedOfRebirth_IsSeedTargetType (line 10492)
 function Trig_SeedOfRebirth_IsSeedTargetType(u)
     local id = GetUnitTypeId(u)
-    do return (((((((((((id == FourCC("e00E")) or (id == FourCC("e00C"))) or (id == FourCC("e002"))) or (id == FourCC("e009"))) or (id == FourCC("e00A"))) or (id == FourCC("e00G"))) or (id == FourCC("e00J"))) or (id == FourCC("e00O"))) or (id == FourCC("e00H"))) or (id == FourCC("e00N"))) or (id == FourCC("e00S"))) end
+    return (((((((((((id == FourCC("e00E")) or (id == FourCC("e00C"))) or (id == FourCC("e002"))) or (id == FourCC("e009"))) or (id == FourCC("e00A"))) or (id == FourCC("e00G"))) or (id == FourCC("e00J"))) or (id == FourCC("e00O"))) or (id == FourCC("e00H"))) or (id == FourCC("e00N"))) or (id == FourCC("e00S")))
 end
 
--- Original JASS function: Trig_SeedOfRebirth_Func001Func006002 (line 10497)
 function Trig_SeedOfRebirth_Func001Func006002()
     RemoveUnit(GetEnumUnit())
 end
 
--- Original JASS function: Trig_SeedOfRebirth_Func001Func010Func001C (line 10501)
-function Trig_SeedOfRebirth_Func001Func010Func001C()
-    if ((not ((IsPlayerEnemy(ConvertedPlayer(udg_SeedPlayedNumber), GetEnumPlayer()) == true)))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_SeedOfRebirth_Func001Func010A (line 10508)
-function Trig_SeedOfRebirth_Func001Func010A()
-    if (Trig_SeedOfRebirth_Func001Func010Func001C()) then
-        SetPlayerAllianceStateBJ(udg_DeadPlayer, GetEnumPlayer(), bj_ALLIANCE_ALLIED_VISION)
-        SetPlayerAllianceStateBJ(GetEnumPlayer(), udg_DeadPlayer, bj_ALLIANCE_ALLIED_VISION)
-    else
-    end
-end
-
--- Original JASS function: Trig_SeedOfRebirth_Func001Func011A (line 10517)
-function Trig_SeedOfRebirth_Func001Func011A()
-    SetPlayerAllianceStateBJ(udg_DeadPlayer, GetEnumPlayer(), bj_ALLIANCE_UNALLIED)
-    SetPlayerAllianceStateBJ(GetEnumPlayer(), udg_DeadPlayer, bj_ALLIANCE_UNALLIED)
-end
-
--- Original JASS function: Trig_SeedOfRebirth_Func001C (line 10522)
-function Trig_SeedOfRebirth_Func001C()
-    do return Trig_SeedOfRebirth_IsSeedTargetType(GetSpellTargetUnit()) end
-end
-
--- Original JASS function: Trig_SeedOfRebirth_Actions (line 10526)
 function Trig_SeedOfRebirth_Actions()
     local caster, target = GetSpellAbilityUnit(), GetSpellTargetUnit()
     if not target or not Trig_SeedOfRebirth_IsSeedTargetType(target) then return end
@@ -78,7 +43,6 @@ function Trig_SeedOfRebirth_Actions()
     if GetUnitTypeId(caster) ~= 0 then IssueImmediateOrderBJ(caster, "stop") end
 end
 
--- Original JASS function: InitTrig_SeedOfRebirth (line 10544)
 function InitTrig_SeedOfRebirth()
     gg_trg_SeedOfRebirth = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_SeedOfRebirth, EVENT_PLAYER_UNIT_SPELL_EFFECT)

@@ -2,20 +2,14 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 137 Ancient_Artifact
--- Original JASS function: Trig_Ancient_Artifact_Conditions (line 10553)
 function Trig_Ancient_Artifact_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A07D"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A07D")
 end
 
--- Original JASS function: Trig_Ancient_Artifact_Actions (line 10560)
 function Trig_Ancient_Artifact_Actions()
     SetUnitLifePercentBJ(GetSpellAbilityUnit(), (__jreal(GetUnitLifePercent(GetSpellAbilityUnit()) + __jreal(50.00))))
 end
 
--- Original JASS function: InitTrig_Ancient_Artifact (line 10565)
 function InitTrig_Ancient_Artifact()
     gg_trg_Ancient_Artifact = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Ancient_Artifact, EVENT_PLAYER_UNIT_SPELL_CAST)
@@ -25,12 +19,10 @@ end
 -- END FOREST SECTION 137
 
 -- BEGIN FOREST SECTION 138 Moonstrike
--- Original JASS function: Trig_Moonstrike_Conditions (line 10577)
 function Trig_Moonstrike_Conditions()
-    do return (GetSpellAbilityId() == FourCC("A07F")) end
+    return (GetSpellAbilityId() == FourCC("A07F"))
 end
 
--- Original JASS function: Trig_Moonstrike_Actions (line 10581)
 function Trig_Moonstrike_Actions()
     local target = GetSpellTargetUnit()
     local caster = GetTriggerUnit()
@@ -43,7 +35,6 @@ function Trig_Moonstrike_Actions()
     caster = nil
 end
 
--- Original JASS function: InitTrig_Moonstrike (line 10597)
 function InitTrig_Moonstrike()
     gg_trg_Moonstrike = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Moonstrike, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -53,25 +44,18 @@ end
 -- END FOREST SECTION 138
 
 -- BEGIN FOREST SECTION 139 Moonstrike_Leveled
--- Original JASS function: Trig_Moonstrike_Leveled_Conditions (line 10606)
 function Trig_Moonstrike_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Moonstrike_Leveled_Func001002 (line 10613)
 function Trig_Moonstrike_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07F"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Moonstrike_Leveled_Actions (line 10617)
 function Trig_Moonstrike_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Moonstrike_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Moonstrike_Leveled (line 10622)
 function InitTrig_Moonstrike_Leveled()
     gg_trg_Moonstrike_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Moonstrike_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -81,12 +65,10 @@ end
 -- END FOREST SECTION 139
 
 -- BEGIN FOREST SECTION 140 Moonblast
--- Original JASS function: Trig_Moonblast_Conditions (line 10633)
 function Trig_Moonblast_Conditions()
-    do return (GetSpellAbilityId() == MOONBLAST_ABILITY_ID) end
+    return (GetSpellAbilityId() == MOONBLAST_ABILITY_ID)
 end
 
--- Original JASS function: Trig_Moonblast_Cleanup (line 10637)
 function Trig_Moonblast_Cleanup(t)
     local id = GetHandleId(t)
     local missile = LoadEffectHandle(udg_MoonblastHash, id, 2)
@@ -97,7 +79,6 @@ function Trig_Moonblast_Cleanup(t)
     missile = nil
 end
 
--- Original JASS function: Trig_Moonblast_Timer (line 10649)
 function Trig_Moonblast_Timer()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -142,7 +123,6 @@ function Trig_Moonblast_Timer()
     t = nil
 end
 
--- Original JASS function: Trig_Moonblast_Actions (line 10697)
 function Trig_Moonblast_Actions()
     local target = GetSpellTargetUnit()
     local caster = GetTriggerUnit()
@@ -156,7 +136,7 @@ function Trig_Moonblast_Actions()
     if ((target == nil) or (caster == nil)) then
         target = nil
         caster = nil
-        do return end
+        return
     end
     t = CreateTimer()
     id = GetHandleId(t)
@@ -179,7 +159,6 @@ function Trig_Moonblast_Actions()
     t = nil
 end
 
--- Original JASS function: InitTrig_Moonblast (line 10740)
 function InitTrig_Moonblast()
     gg_trg_Moonblast = CreateTrigger()
     if (udg_MoonblastHash == nil) then
@@ -192,25 +171,18 @@ end
 -- END FOREST SECTION 140
 
 -- BEGIN FOREST SECTION 141 Moonblast_Leveled
--- Original JASS function: Trig_Moonblast_Leveled_Conditions (line 10754)
 function Trig_Moonblast_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Moonblast_Leveled_Func001002 (line 10761)
 function Trig_Moonblast_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07H"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Moonblast_Leveled_Actions (line 10765)
 function Trig_Moonblast_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Moonblast_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Moonblast_Leveled (line 10770)
 function InitTrig_Moonblast_Leveled()
     gg_trg_Moonblast_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Moonblast_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -220,12 +192,10 @@ end
 -- END FOREST SECTION 141
 
 -- BEGIN FOREST SECTION 142 Lunar_Assault
--- Original JASS function: Trig_Lunar_Assault_Conditions (line 10782)
 function Trig_Lunar_Assault_Conditions()
-    do return (GetSpellAbilityId() == FourCC("A07I")) end
+    return (GetSpellAbilityId() == FourCC("A07I"))
 end
 
--- Original JASS function: Trig_Lunar_Assault_Actions (line 10786)
 function Trig_Lunar_Assault_Actions()
     local target = GetSpellTargetUnit()
     local caster = GetTriggerUnit()
@@ -239,7 +209,6 @@ function Trig_Lunar_Assault_Actions()
     caster = nil
 end
 
--- Original JASS function: InitTrig_Lunar_Assault (line 10802)
 function InitTrig_Lunar_Assault()
     gg_trg_Lunar_Assault = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Lunar_Assault, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -249,25 +218,18 @@ end
 -- END FOREST SECTION 142
 
 -- BEGIN FOREST SECTION 143 Lunar_Assault_Leveled
--- Original JASS function: Trig_Lunar_Assault_Leveled_Conditions (line 10811)
 function Trig_Lunar_Assault_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Lunar_Assault_Leveled_Func001002 (line 10818)
 function Trig_Lunar_Assault_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07I"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Lunar_Assault_Leveled_Actions (line 10822)
 function Trig_Lunar_Assault_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Lunar_Assault_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Lunar_Assault_Leveled (line 10827)
 function InitTrig_Lunar_Assault_Leveled()
     gg_trg_Lunar_Assault_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Lunar_Assault_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -277,25 +239,18 @@ end
 -- END FOREST SECTION 143
 
 -- BEGIN FOREST SECTION 144 Cascade_Leveled
--- Original JASS function: Trig_Cascade_Leveled_Conditions (line 10837)
 function Trig_Cascade_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Cascade_Leveled_Func001002 (line 10844)
 function Trig_Cascade_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07J"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Cascade_Leveled_Actions (line 10848)
 function Trig_Cascade_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Cascade_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Cascade_Leveled (line 10853)
 function InitTrig_Cascade_Leveled()
     gg_trg_Cascade_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Cascade_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -305,20 +260,14 @@ end
 -- END FOREST SECTION 144
 
 -- BEGIN FOREST SECTION 145 Nourish
--- Original JASS function: Trig_Nourish_Conditions (line 10863)
 function Trig_Nourish_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A07K"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A07K")
 end
 
--- Original JASS function: Trig_Nourish_Actions (line 10870)
 function Trig_Nourish_Actions()
     SetUnitLifeBJ(GetSpellTargetUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetSpellTargetUnit()) + (__jreal(GetUnitStateSwap(UNIT_STATE_MAX_MANA, GetSpellAbilityUnit()) * __jreal(0.50))))))
 end
 
--- Original JASS function: InitTrig_Nourish (line 10875)
 function InitTrig_Nourish()
     gg_trg_Nourish = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Nourish, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -328,25 +277,18 @@ end
 -- END FOREST SECTION 145
 
 -- BEGIN FOREST SECTION 146 Nourish_Leveled
--- Original JASS function: Trig_Nourish_Leveled_Conditions (line 10885)
 function Trig_Nourish_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Nourish_Leveled_Func001002 (line 10892)
 function Trig_Nourish_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07K"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Nourish_Leveled_Actions (line 10896)
 function Trig_Nourish_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Nourish_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Nourish_Leveled (line 10901)
 function InitTrig_Nourish_Leveled()
     gg_trg_Nourish_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Nourish_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -356,12 +298,10 @@ end
 -- END FOREST SECTION 146
 
 -- BEGIN FOREST SECTION 147 Solar_Blast
--- Original JASS function: Trig_Solar_Blast_Conditions (line 10913)
 function Trig_Solar_Blast_Conditions()
-    do return (GetSpellAbilityId() == FourCC("A07L")) end
+    return (GetSpellAbilityId() == FourCC("A07L"))
 end
 
--- Original JASS function: Trig_Solar_Blast_Actions (line 10917)
 function Trig_Solar_Blast_Actions()
     local target = GetSpellTargetUnit()
     local caster = GetTriggerUnit()
@@ -377,7 +317,6 @@ function Trig_Solar_Blast_Actions()
     caster = nil
 end
 
--- Original JASS function: InitTrig_Solar_Blast (line 10936)
 function InitTrig_Solar_Blast()
     gg_trg_Solar_Blast = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Solar_Blast, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -387,25 +326,18 @@ end
 -- END FOREST SECTION 147
 
 -- BEGIN FOREST SECTION 148 Natural_Vigil_Leveled
--- Original JASS function: Trig_Natural_Vigil_Leveled_Conditions (line 10945)
 function Trig_Natural_Vigil_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Natural_Vigil_Leveled_Func001002 (line 10952)
 function Trig_Natural_Vigil_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07M"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Natural_Vigil_Leveled_Actions (line 10956)
 function Trig_Natural_Vigil_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Natural_Vigil_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Natural_Vigil_Leveled (line 10961)
 function InitTrig_Natural_Vigil_Leveled()
     gg_trg_Natural_Vigil_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Natural_Vigil_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -415,25 +347,18 @@ end
 -- END FOREST SECTION 148
 
 -- BEGIN FOREST SECTION 149 Lifebloom_Leveled
--- Original JASS function: Trig_Lifebloom_Leveled_Conditions (line 10971)
 function Trig_Lifebloom_Leveled_Conditions()
-    if ((not ((GetResearched() == FourCC("R051"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R051")
 end
 
--- Original JASS function: Trig_Lifebloom_Leveled_Func001002 (line 10978)
 function Trig_Lifebloom_Leveled_Func001002()
     IncUnitAbilityLevelSwapped(FourCC("A07N"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Lifebloom_Leveled_Actions (line 10982)
 function Trig_Lifebloom_Leveled_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Lifebloom_Leveled_Func001002)
 end
 
--- Original JASS function: InitTrig_Lifebloom_Leveled (line 10987)
 function InitTrig_Lifebloom_Leveled()
     gg_trg_Lifebloom_Leveled = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Lifebloom_Leveled, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -443,20 +368,14 @@ end
 -- END FOREST SECTION 149
 
 -- BEGIN FOREST SECTION 150 Suns_Fury
--- Original JASS function: Trig_Suns_Fury_Conditions (line 10997)
 function Trig_Suns_Fury_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A087"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A087")
 end
 
--- Original JASS function: Trig_Suns_Fury_Actions (line 11004)
 function Trig_Suns_Fury_Actions()
     UnitResetCooldown(GetSpellAbilityUnit())
 end
 
--- Original JASS function: InitTrig_Suns_Fury (line 11009)
 function InitTrig_Suns_Fury()
     gg_trg_Suns_Fury = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Suns_Fury, EVENT_PLAYER_UNIT_SPELL_EFFECT)

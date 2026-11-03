@@ -164,7 +164,7 @@ function FE_Recipes.onSale()
     end
     if not shop or not FE_RecipeData.shops[GetUnitTypeId(shop)] then return end
     if not unit or not scroll or not FE_Roles.isAncient(GetOwningPlayer(unit)) then
-        FE_Shops.trace(FE_Test and FE_Test.player,'Recipe/delivery handler stopped: '..
+        FE_Shops.traceDefault('Recipe/delivery handler stopped: '..
             (not unit and 'native sale has no buyer.' or not scroll and 'native sale has no item.' or 'buyer is not owned by the Ancient.'))
         return
     end
@@ -189,6 +189,14 @@ function FE_Recipes.onSale()
         if GetItemTypeId(scroll) == kind then finishSale(unit, scroll, kind, player)
         else FE_Shops.trace(player,'Recipe scroll was consumed/replaced before deferred completion.') end
     end)
+end
+
+-- Keep each legacy trigger's registration position and condition/action boundary.
+-- Multiple recipes can compete for ingredients during the same pickup event.
+function FE_Recipes.registerPickup(trigger, condition, action)
+    TriggerRegisterAnyUnitEventBJ(trigger, EVENT_PLAYER_UNIT_PICKUP_ITEM)
+    if condition then TriggerAddCondition(trigger, Condition(condition)) end
+    TriggerAddAction(trigger, action)
 end
 
 function FE_Recipes.init()

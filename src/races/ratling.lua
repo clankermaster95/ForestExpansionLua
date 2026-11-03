@@ -2,27 +2,22 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 125 Chemical_Rage
--- Original JASS function: CHEMICAL_RAGE_ABILITY (line 10125)
 function CHEMICAL_RAGE_ABILITY()
-    do return FourCC("A0CU") end
+    return FourCC("A0CU")
 end
 
--- Original JASS function: DUMMY_ABILITY (line 10129)
 function DUMMY_ABILITY()
-    do return FourCC("A0CV") end
+    return FourCC("A0CV")
 end
 
--- Original JASS function: DUMMY_UNIT_ID (line 10133)
 function DUMMY_UNIT_ID()
-    do return FourCC("h04L") end
+    return FourCC("h04L")
 end
 
--- Original JASS function: ChemicalRageCondition (line 10140)
 function ChemicalRageCondition()
-    do return (GetSpellAbilityId() == (FourCC("A0CU"))) end
+    return (GetSpellAbilityId() == (FourCC("A0CU")))
 end
 
--- Original JASS function: ChemicalRageActions (line 10147)
 function ChemicalRageActions()
     local caster = GetTriggerUnit()
     local p = GetOwningPlayer(caster)
@@ -38,7 +33,7 @@ function ChemicalRageActions()
     if ((caster == nil) or IsUnitType(caster, UNIT_TYPE_DEAD)) then
         caster = nil
         p = nil
-        do return end
+        return
     end
     if ((caster ~= nil) and (not IsUnitType(caster, UNIT_TYPE_DEAD))) then
         BlzSetUnitWeaponRealField(caster, UNIT_WEAPON_RF_ATTACK_BASE_COOLDOWN, 0, __jreal(1.75))
@@ -47,7 +42,6 @@ function ChemicalRageActions()
     p = nil
 end
 
--- Original JASS function: InitTrig_Chemical_Rage (line 10187)
 function InitTrig_Chemical_Rage()
     local t = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_SPELL_FINISH)
@@ -57,21 +51,15 @@ end
 -- END FOREST SECTION 125
 
 -- BEGIN FOREST SECTION 126 ReduceMagicResist
--- Original JASS function: Trig_ReduceMagicResist_Conditions (line 10196)
 function Trig_ReduceMagicResist_Conditions()
-    if ((not ((UnitHasBuffBJ(udg_DamageEventTarget, FourCC("B03O")) == true)))) then
-        do return false end
-    end
-    do return true end
+    return UnitHasBuffBJ(udg_DamageEventTarget, FourCC("B03O")) == true
 end
 
--- Original JASS function: Trig_ReduceMagicResist_Actions (line 10203)
 function Trig_ReduceMagicResist_Actions()
     UnitAddAbilityBJ(FourCC("A0CT"), udg_DamageEventTarget)
     GroupAddUnitSimple(udg_DamageEventTarget, udg_Acided)
 end
 
--- Original JASS function: InitTrig_ReduceMagicResist (line 10209)
 function InitTrig_ReduceMagicResist()
     gg_trg_ReduceMagicResist = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_ReduceMagicResist, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -81,15 +69,10 @@ end
 -- END FOREST SECTION 126
 
 -- BEGIN FOREST SECTION 127 ReduceMagicResist2
--- Original JASS function: Trig_ReduceMagicResist2_Func001Func001C (line 10219)
 function Trig_ReduceMagicResist2_Func001Func001C()
-    if ((not ((UnitHasBuffBJ(GetEnumUnit(), FourCC("B03O")) == false)))) then
-        do return false end
-    end
-    do return true end
+    return UnitHasBuffBJ(GetEnumUnit(), FourCC("B03O")) == false
 end
 
--- Original JASS function: Trig_ReduceMagicResist2_Func001A (line 10226)
 function Trig_ReduceMagicResist2_Func001A()
     if (Trig_ReduceMagicResist2_Func001Func001C()) then
     else
@@ -98,12 +81,10 @@ function Trig_ReduceMagicResist2_Func001A()
     end
 end
 
--- Original JASS function: Trig_ReduceMagicResist2_Actions (line 10234)
 function Trig_ReduceMagicResist2_Actions()
     ForGroupBJ(udg_Acided, Trig_ReduceMagicResist2_Func001A)
 end
 
--- Original JASS function: InitTrig_ReduceMagicResist2 (line 10239)
 function InitTrig_ReduceMagicResist2()
     gg_trg_ReduceMagicResist2 = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_ReduceMagicResist2, __jreal(0.50))
@@ -112,26 +93,20 @@ end
 -- END FOREST SECTION 127
 
 -- BEGIN FOREST SECTION 128 TargetAcquired
--- Original JASS function: Trig_TargetAcquired_Conditions (line 10248)
 function Trig_TargetAcquired_Conditions()
-    if ((not ((GetPlayerTechCountSimple(FourCC("R06S"), GetOwningPlayer(udg_DamageEventSource)) == 1)))) then
-        do return false end
+    if (not (GetPlayerTechCountSimple(FourCC("R06S"), GetOwningPlayer(udg_DamageEventSource)) == 1)) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_TargetAcquired_Func004C (line 10258)
 function Trig_TargetAcquired_Func004C()
-    if ((not ((GetRandomReal(__jreal(0.00), __jreal(100.00)) <= __jreal(30.00))))) then
-        do return false end
-    end
-    do return true end
+    return GetRandomReal(__jreal(0.00), __jreal(100.00)) <= __jreal(30.00)
 end
 
--- Original JASS function: Trig_TargetAcquired_Actions (line 10265)
 function Trig_TargetAcquired_Actions()
     if (Trig_TargetAcquired_Func004C()) then
         if (not s__DamageTrigger_configured[s__DamageTrigger_eventIndex]) then
@@ -139,7 +114,7 @@ function Trig_TargetAcquired_Actions()
             s__DamageTrigger_configure(s__DamageTrigger_eventIndex)
         end
         if (not s__DamageTrigger_checkConfig(s__DamageTrigger_eventIndex)) then
-            do return end
+            return
         end
         udg_DamageEventAttackT = udg_ATTACK_TYPE_CHAOS
         udg_DamageEventArmorPierced = __jreal(10.00)
@@ -149,11 +124,9 @@ function Trig_TargetAcquired_Actions()
         udg_TSEEffectName = "war3mapImported\\SnipingTarget.mdx"
         udg_TSETargetUnit = udg_DamageEventTarget
         ConditionalTriggerExecute(udg_TSE_RegisterTrigger)
-    else
     end
 end
 
--- Original JASS function: InitTrig_TargetAcquired (line 10291)
 function InitTrig_TargetAcquired()
     gg_trg_TargetAcquired = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_TargetAcquired, "udg_PreDamageEvent", LESS_THAN, __jreal(1.00))
@@ -163,26 +136,23 @@ end
 -- END FOREST SECTION 128
 
 -- BEGIN FOREST SECTION 129 Poisoned_Bullets2
--- Original JASS function: Trig_Poisoned_Bullets2_Conditions (line 10301)
 function Trig_Poisoned_Bullets2_Conditions()
-    if ((not ((GetPlayerTechCountSimple(FourCC("R06R"), GetOwningPlayer(GetAttacker())) >= 1)))) then
-        do return false end
+    if (not (GetPlayerTechCountSimple(FourCC("R06R"), GetOwningPlayer(GetAttacker())) >= 1)) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetAttacker()) == FourCC("o026"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetAttacker()) == FourCC("o026"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Poisoned_Bullets2_Actions (line 10311)
 function Trig_Poisoned_Bullets2_Actions()
-    if ((GetUnitAbilityLevel(GetAttackedUnitBJ(), FourCC("Bspo")) == 0)) then
+    if (GetUnitAbilityLevel(GetAttackedUnitBJ(), FourCC("Bspo")) == 0) then
         SetUnitAbilityLevelSwapped(FourCC("A0CQ"), GetAttackedUnitBJ(), 1)
     end
     SetUnitAbilityLevelSwapped(FourCC("A0CO"), GetAttacker(), GetUnitAbilityLevel((GetAttackedUnitBJ()), FourCC("A0CQ")))
 end
 
--- Original JASS function: InitTrig_Poisoned_Bullets2 (line 10319)
 function InitTrig_Poisoned_Bullets2()
     gg_trg_Poisoned_Bullets2 = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Poisoned_Bullets2, EVENT_PLAYER_UNIT_ATTACKED)
@@ -192,25 +162,23 @@ end
 -- END FOREST SECTION 129
 
 -- BEGIN FOREST SECTION 130 Poisoned_Bullets
--- Original JASS function: Trig_Poisoned_Bullets_Conditions (line 10330)
 function Trig_Poisoned_Bullets_Conditions()
-    if ((not ((GetPlayerTechCountSimple(FourCC("R06R"), GetOwningPlayer(udg_DamageEventSource)) >= 1)))) then
-        do return false end
+    if (not (GetPlayerTechCountSimple(FourCC("R06R"), GetOwningPlayer(udg_DamageEventSource)) >= 1)) then
+        return false
     end
-    if ((not ((GetUnitTypeId(udg_DamageEventSource) == FourCC("o026"))))) then
-        do return false end
+    if (not (GetUnitTypeId(udg_DamageEventSource) == FourCC("o026"))) then
+        return false
     end
-    if ((not ((udg_IsDamageAttack == true)))) then
-        do return false end
+    if (not (udg_IsDamageAttack == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Poisoned_Bullets_Actions (line 10343)
 function Trig_Poisoned_Bullets_Actions()
     local var = 0
-    if ((GetUnitAbilityLevel(udg_DamageEventTarget, FourCC("Bspo")) > 0)) then
-        if ((GetUnitAbilityLevel(udg_DamageEventTarget, FourCC("A0CQ")) == 0)) then
+    if (GetUnitAbilityLevel(udg_DamageEventTarget, FourCC("Bspo")) > 0) then
+        if (GetUnitAbilityLevel(udg_DamageEventTarget, FourCC("A0CQ")) == 0) then
             UnitAddAbility(udg_DamageEventTarget, FourCC("A0CQ"))
         end
         var = GetUnitAbilityLevel((udg_DamageEventTarget), FourCC("A0CQ"))
@@ -218,7 +186,6 @@ function Trig_Poisoned_Bullets_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Poisoned_Bullets (line 10355)
 function InitTrig_Poisoned_Bullets()
     gg_trg_Poisoned_Bullets = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Poisoned_Bullets, "udg_PreDamageEvent", EQUAL, __jreal(1.00))
@@ -228,26 +195,19 @@ end
 -- END FOREST SECTION 130
 
 -- BEGIN FOREST SECTION 131 Permanent_Invisibility
--- Original JASS function: Trig_Permanent_Invisibility_Conditions (line 10366)
 function Trig_Permanent_Invisibility_Conditions()
-    if ((not ((GetResearched() == FourCC("R06K"))))) then
-        do return false end
-    end
-    do return true end
+    return GetResearched() == FourCC("R06K")
 end
 
--- Original JASS function: Trig_Permanent_Invisibility_Func001A (line 10373)
 function Trig_Permanent_Invisibility_Func001A()
     UnitAddAbilityBJ(FourCC("A0CK"), GetEnumUnit())
     udg_SilentStrider[GetConvertedPlayerId(GetOwningPlayer(GetResearchingUnit()))] = true
 end
 
--- Original JASS function: Trig_Permanent_Invisibility_Actions (line 10378)
 function Trig_Permanent_Invisibility_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("o026")), Trig_Permanent_Invisibility_Func001A)
 end
 
--- Original JASS function: InitTrig_Permanent_Invisibility (line 10383)
 function InitTrig_Permanent_Invisibility()
     gg_trg_Permanent_Invisibility = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Permanent_Invisibility, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
@@ -257,28 +217,24 @@ end
 -- END FOREST SECTION 131
 
 -- BEGIN FOREST SECTION 132 Permanent_Invisibility_2
--- Original JASS function: Trig_Permanent_Invisibility_2_Conditions (line 10393)
 function Trig_Permanent_Invisibility_2_Conditions()
-    if ((not ((udg_SilentStrider[GetConvertedPlayerId(GetOwningPlayer(GetEnteringUnit()))] == true)))) then
-        do return false end
+    if (not (udg_SilentStrider[GetConvertedPlayerId(GetOwningPlayer(GetEnteringUnit()))] == true)) then
+        return false
     end
-    if ((not ((GetUnitTypeId(GetEnteringUnit()) == FourCC("o026"))))) then
-        do return false end
+    if (not (GetUnitTypeId(GetEnteringUnit()) == FourCC("o026"))) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Permanent_Invisibility_2_Func002A (line 10403)
 function Trig_Permanent_Invisibility_2_Func002A()
     UnitAddAbilityBJ(FourCC("A0CK"), GetEnumUnit())
 end
 
--- Original JASS function: Trig_Permanent_Invisibility_2_Actions (line 10407)
 function Trig_Permanent_Invisibility_2_Actions()
     ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("o026")), Trig_Permanent_Invisibility_2_Func002A)
 end
 
--- Original JASS function: InitTrig_Permanent_Invisibility_2 (line 10412)
 function InitTrig_Permanent_Invisibility_2()
     gg_trg_Permanent_Invisibility_2 = CreateTrigger()
     TriggerRegisterEnterRectSimple(gg_trg_Permanent_Invisibility_2, GetPlayableMapRect())
@@ -288,21 +244,15 @@ end
 -- END FOREST SECTION 132
 
 -- BEGIN FOREST SECTION 133 Sticky_Glue
--- Original JASS function: Trig_Sticky_Glue_Conditions (line 10422)
 function Trig_Sticky_Glue_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0CL"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0CL")
 end
 
--- Original JASS function: Trig_Sticky_Glue_Actions (line 10429)
 function Trig_Sticky_Glue_Actions()
     CreateNUnitsAtLoc(1, FourCC("n010"), GetOwningPlayer(GetSpellAbilityUnit()), GetSpellTargetLoc(), bj_UNIT_FACING)
     UnitApplyTimedLifeBJ(__jreal(6.00), FourCC("BTLF"), GetLastCreatedUnit())
 end
 
--- Original JASS function: InitTrig_Sticky_Glue (line 10435)
 function InitTrig_Sticky_Glue()
     gg_trg_Sticky_Glue = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Sticky_Glue, EVENT_PLAYER_UNIT_SPELL_CAST)

@@ -1,41 +1,736 @@
 {
   "active_modules": 77,
   "disabled_modules": 26,
-  "function_definitions": 1692,
+  "function_definitions": 1503,
+  "function_spans": 1530,
   "reference_api_functions": 2527,
+  "module_coverage": [
+    {
+      "module": "src/runtime.lua",
+      "complete_module_scanned": true,
+      "function_spans": 6,
+      "direct_call_sites": 3,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/globals.lua",
+      "complete_module_scanned": true,
+      "function_spans": 0,
+      "direct_call_sites": 299,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/players/roles.lua",
+      "complete_module_scanned": true,
+      "function_spans": 15,
+      "direct_call_sites": 19,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/players/roster.lua",
+      "complete_module_scanned": true,
+      "function_spans": 8,
+      "direct_call_sites": 10,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/items/recipe_data.lua",
+      "complete_module_scanned": true,
+      "function_spans": 0,
+      "direct_call_sites": 122,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/items/recipes.lua",
+      "complete_module_scanned": true,
+      "function_spans": 19,
+      "direct_call_sites": 84,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/items/shops.lua",
+      "complete_module_scanned": true,
+      "function_spans": 19,
+      "direct_call_sites": 82,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/items/ledgers.lua",
+      "complete_module_scanned": true,
+      "function_spans": 2,
+      "direct_call_sites": 7,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/combat/focused_anger.lua",
+      "complete_module_scanned": true,
+      "function_spans": 3,
+      "direct_call_sites": 9,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/libraries/damage_engine.lua",
+      "complete_module_scanned": true,
+      "function_spans": 55,
+      "direct_call_sites": 276,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/libraries/passive_missiles.lua",
+      "complete_module_scanned": true,
+      "function_spans": 22,
+      "direct_call_sites": 156,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/libraries/prelude.lua",
+      "complete_module_scanned": true,
+      "function_spans": 2,
+      "direct_call_sites": 5,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/libraries/spell_leech.lua",
+      "complete_module_scanned": true,
+      "function_spans": 11,
+      "direct_call_sites": 59,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/commands/test_data.lua",
+      "complete_module_scanned": true,
+      "function_spans": 0,
+      "direct_call_sites": 0,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/commands/solo_test.lua",
+      "complete_module_scanned": true,
+      "function_spans": 33,
+      "direct_call_sites": 136,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/initialization.lua",
+      "complete_module_scanned": true,
+      "function_spans": 3,
+      "direct_call_sites": 516,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/combat/damage.lua",
+      "complete_module_scanned": true,
+      "function_spans": 2,
+      "direct_call_sites": 5,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/effects/timed.lua",
+      "complete_module_scanned": true,
+      "function_spans": 33,
+      "direct_call_sites": 74,
+      "original_sections": 4,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/game/clock.lua",
+      "complete_module_scanned": true,
+      "function_spans": 12,
+      "direct_call_sites": 88,
+      "original_sections": 4,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/commands/trade.lua",
+      "complete_module_scanned": true,
+      "function_spans": 8,
+      "direct_call_sites": 21,
+      "original_sections": 4,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/game/tree_chopper.lua",
+      "complete_module_scanned": true,
+      "function_spans": 2,
+      "direct_call_sites": 9,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/players/participation.lua",
+      "complete_module_scanned": true,
+      "function_spans": 12,
+      "direct_call_sites": 74,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/game/overdrive.lua",
+      "complete_module_scanned": true,
+      "function_spans": 11,
+      "direct_call_sites": 45,
+      "original_sections": 3,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/commands/player.lua",
+      "complete_module_scanned": true,
+      "function_spans": 29,
+      "direct_call_sites": 236,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/game/selection.lua",
+      "complete_module_scanned": true,
+      "function_spans": 43,
+      "direct_call_sites": 240,
+      "original_sections": 14,
+      "shared_code_scanned": true
+    },
+    {
+      "module": "src/game/fountain.lua",
+      "complete_module_scanned": true,
+      "function_spans": 5,
+      "direct_call_sites": 35,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/combat/common.lua",
+      "complete_module_scanned": true,
+      "function_spans": 9,
+      "direct_call_sites": 31,
+      "original_sections": 3,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/economy/feed.lua",
+      "complete_module_scanned": true,
+      "function_spans": 50,
+      "direct_call_sites": 406,
+      "original_sections": 6,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/bounty_hunter.lua",
+      "complete_module_scanned": true,
+      "function_spans": 41,
+      "direct_call_sites": 382,
+      "original_sections": 7,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/cultist.lua",
+      "complete_module_scanned": true,
+      "function_spans": 35,
+      "direct_call_sites": 306,
+      "original_sections": 9,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/centaur.lua",
+      "complete_module_scanned": true,
+      "function_spans": 7,
+      "direct_call_sites": 29,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/elf_engineer.lua",
+      "complete_module_scanned": true,
+      "function_spans": 6,
+      "direct_call_sites": 15,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/kobold.lua",
+      "complete_module_scanned": true,
+      "function_spans": 4,
+      "direct_call_sites": 15,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/night_elf.lua",
+      "complete_module_scanned": true,
+      "function_spans": 7,
+      "direct_call_sites": 38,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/night_elf/arch_druid.lua",
+      "complete_module_scanned": true,
+      "function_spans": 3,
+      "direct_call_sites": 49,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/night_elf/shadow_dancer.lua",
+      "complete_module_scanned": true,
+      "function_spans": 22,
+      "direct_call_sites": 159,
+      "original_sections": 7,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/ghoul.lua",
+      "complete_module_scanned": true,
+      "function_spans": 8,
+      "direct_call_sites": 54,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/kraken.lua",
+      "complete_module_scanned": true,
+      "function_spans": 6,
+      "direct_call_sites": 24,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/aethyr.lua",
+      "complete_module_scanned": true,
+      "function_spans": 4,
+      "direct_call_sites": 17,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/forgotten.lua",
+      "complete_module_scanned": true,
+      "function_spans": 7,
+      "direct_call_sites": 29,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "complete_module_scanned": true,
+      "function_spans": 69,
+      "direct_call_sites": 136,
+      "original_sections": 22,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/forgotten/soulreaper.lua",
+      "complete_module_scanned": true,
+      "function_spans": 9,
+      "direct_call_sites": 54,
+      "original_sections": 3,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/forgotten/bloodmage.lua",
+      "complete_module_scanned": true,
+      "function_spans": 114,
+      "direct_call_sites": 375,
+      "original_sections": 31,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/nerubian.lua",
+      "complete_module_scanned": true,
+      "function_spans": 15,
+      "direct_call_sites": 92,
+      "original_sections": 4,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/ratling.lua",
+      "complete_module_scanned": true,
+      "function_spans": 34,
+      "direct_call_sites": 174,
+      "original_sections": 9,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/razormane.lua",
+      "complete_module_scanned": true,
+      "function_spans": 6,
+      "direct_call_sites": 21,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/wisp.lua",
+      "complete_module_scanned": true,
+      "function_spans": 6,
+      "direct_call_sites": 45,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/wildkin.lua",
+      "complete_module_scanned": true,
+      "function_spans": 51,
+      "direct_call_sites": 272,
+      "original_sections": 14,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/races/worgen.lua",
+      "complete_module_scanned": true,
+      "function_spans": 14,
+      "direct_call_sites": 59,
+      "original_sections": 4,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/combat/spells.lua",
+      "complete_module_scanned": true,
+      "function_spans": 17,
+      "direct_call_sites": 114,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ancients/paranoia.lua",
+      "complete_module_scanned": true,
+      "function_spans": 10,
+      "direct_call_sites": 44,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ancients/zalxon.lua",
+      "complete_module_scanned": true,
+      "function_spans": 7,
+      "direct_call_sites": 56,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ancients/nebula.lua",
+      "complete_module_scanned": true,
+      "function_spans": 31,
+      "direct_call_sites": 140,
+      "original_sections": 9,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ancients/tremor.lua",
+      "complete_module_scanned": true,
+      "function_spans": 8,
+      "direct_call_sites": 29,
+      "original_sections": 3,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ancients/pharaoh.lua",
+      "complete_module_scanned": true,
+      "function_spans": 12,
+      "direct_call_sites": 60,
+      "original_sections": 4,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ancients/avalanche.lua",
+      "complete_module_scanned": true,
+      "function_spans": 12,
+      "direct_call_sites": 95,
+      "original_sections": 3,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ancients/divinity.lua",
+      "complete_module_scanned": true,
+      "function_spans": 26,
+      "direct_call_sites": 111,
+      "original_sections": 9,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ancients/wispari.lua",
+      "complete_module_scanned": true,
+      "function_spans": 14,
+      "direct_call_sites": 175,
+      "original_sections": 4,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ui/hints.lua",
+      "complete_module_scanned": true,
+      "function_spans": 27,
+      "direct_call_sites": 128,
+      "original_sections": 13,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ai/behavior.lua",
+      "complete_module_scanned": true,
+      "function_spans": 54,
+      "direct_call_sites": 319,
+      "original_sections": 16,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/items/effects.lua",
+      "complete_module_scanned": true,
+      "function_spans": 80,
+      "direct_call_sites": 277,
+      "original_sections": 24,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/economy/income.lua",
+      "complete_module_scanned": true,
+      "function_spans": 15,
+      "direct_call_sites": 65,
+      "original_sections": 5,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/game/startup.lua",
+      "complete_module_scanned": true,
+      "function_spans": 20,
+      "direct_call_sites": 91,
+      "original_sections": 5,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ui/names.lua",
+      "complete_module_scanned": true,
+      "function_spans": 8,
+      "direct_call_sites": 52,
+      "original_sections": 3,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/game/bans/expanders.lua",
+      "complete_module_scanned": true,
+      "function_spans": 42,
+      "direct_call_sites": 4,
+      "original_sections": 21,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/game/bans/ancients.lua",
+      "complete_module_scanned": true,
+      "function_spans": 22,
+      "direct_call_sites": 0,
+      "original_sections": 11,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/combat/shop_protection.lua",
+      "complete_module_scanned": true,
+      "function_spans": 16,
+      "direct_call_sites": 67,
+      "original_sections": 5,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/players/alliances.lua",
+      "complete_module_scanned": true,
+      "function_spans": 4,
+      "direct_call_sites": 7,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ui/animations.lua",
+      "complete_module_scanned": true,
+      "function_spans": 2,
+      "direct_call_sites": 6,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/ui/quests.lua",
+      "complete_module_scanned": true,
+      "function_spans": 2,
+      "direct_call_sites": 11,
+      "original_sections": 1,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/players/lackeys.lua",
+      "complete_module_scanned": true,
+      "function_spans": 35,
+      "direct_call_sites": 313,
+      "original_sections": 4,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/players/leaving.lua",
+      "complete_module_scanned": true,
+      "function_spans": 6,
+      "direct_call_sites": 35,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "complete_module_scanned": true,
+      "function_spans": 92,
+      "direct_call_sites": 295,
+      "original_sections": 28,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/game/victory.lua",
+      "complete_module_scanned": true,
+      "function_spans": 46,
+      "direct_call_sites": 143,
+      "original_sections": 15,
+      "shared_code_scanned": true
+    },
+    {
+      "module": "src/economy/base_flags.lua",
+      "complete_module_scanned": true,
+      "function_spans": 31,
+      "direct_call_sites": 177,
+      "original_sections": 8,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/items/mech_blaster.lua",
+      "complete_module_scanned": true,
+      "function_spans": 8,
+      "direct_call_sites": 31,
+      "original_sections": 2,
+      "shared_code_scanned": false
+    },
+    {
+      "module": "src/bootstrap.lua",
+      "complete_module_scanned": true,
+      "function_spans": 1,
+      "direct_call_sites": 6,
+      "original_sections": 0,
+      "shared_code_scanned": false
+    }
+  ],
   "unknown_direct_calls": {},
   "literal_ExecuteFunc_targets": [
     {
+      "module": "src/libraries/damage_engine.lua",
+      "scope": "src/libraries/damage_engine.lua",
+      "line": 1052,
       "target": "s__Damage_onInit",
-      "defined": true,
-      "module": "src/libraries/damage_engine.lua"
+      "defined": true
     },
     {
-      "target": "jasshelper__initstructs149790140",
-      "defined": true,
-      "module": "src/bootstrap.lua"
-    },
-    {
-      "target": "PassiveMissiles__Init",
-      "defined": true,
-      "module": "src/bootstrap.lua"
-    },
-    {
-      "target": "SpellLeech__Init",
-      "defined": true,
-      "module": "src/bootstrap.lua"
-    },
-    {
+      "module": "src/game/startup.lua",
+      "scope": "src/game/startup.lua#Unit_Indexer",
+      "line": 102,
       "target": "InitializeUnitIndexer",
-      "defined": true,
-      "module": "src/game/startup.lua#Unit_Indexer"
+      "defined": true
+    },
+    {
+      "module": "src/bootstrap.lua",
+      "scope": "src/bootstrap.lua",
+      "line": 3,
+      "target": "jasshelper__initstructs149790140",
+      "defined": true
+    },
+    {
+      "module": "src/bootstrap.lua",
+      "scope": "src/bootstrap.lua",
+      "line": 4,
+      "target": "PassiveMissiles__Init",
+      "defined": true
+    },
+    {
+      "module": "src/bootstrap.lua",
+      "scope": "src/bootstrap.lua",
+      "line": 5,
+      "target": "SpellLeech__Init",
+      "defined": true
     }
   ],
+  "unresolved_ExecuteFunc_targets": [],
   "event_context_review_candidates": [],
+  "event_getters_without_local_subscription": [
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Focused_Anger_1",
+      "getter": "GetAttacker",
+      "registered_events": []
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Focused_Anger_2",
+      "getter": "GetAttacker",
+      "registered_events": []
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Focused_Anger_3",
+      "getter": "GetAttacker",
+      "registered_events": []
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Focused_Anger_4",
+      "getter": "GetAttacker",
+      "registered_events": []
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Focused_Anger_5",
+      "getter": "GetAttacker",
+      "registered_events": []
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Focused_Anger_6",
+      "getter": "GetAttacker",
+      "registered_events": []
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Focused_Anger_7",
+      "getter": "GetAttacker",
+      "registered_events": []
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Focused_Anger_8",
+      "getter": "GetAttacker",
+      "registered_events": []
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Focused_Anger_9",
+      "getter": "GetAttacker",
+      "registered_events": []
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Focused_Anger_10",
+      "getter": "GetAttacker",
+      "registered_events": []
+    }
+  ],
   "wait_review": [
     {
       "function": "Trig_Genesis_Actions",
-      "module": "src/races/night_elf/arch_druid.lua#Genesis",
+      "kind": "named",
+      "module": "src/races/night_elf/arch_druid.lua",
+      "scope": "src/races/night_elf/arch_druid.lua#Genesis",
+      "line": 9,
       "getters_after_wait": [
         "GetDestructableLife",
         "GetDestructableLoc",
@@ -46,7 +741,10 @@
     },
     {
       "function": "Trig_Mana_Steal_Dancer_Actions",
-      "module": "src/races/night_elf/shadow_dancer.lua#Mana_Steal_Dancer",
+      "kind": "named",
+      "module": "src/races/night_elf/shadow_dancer.lua",
+      "scope": "src/races/night_elf/shadow_dancer.lua#Mana_Steal_Dancer",
+      "line": 86,
       "getters_after_wait": [
         "GetUnitTypeId"
       ],
@@ -54,7 +752,10 @@
     },
     {
       "function": "Trig_ConjureMana_Actions",
-      "module": "src/races/night_elf/shadow_dancer.lua#ConjureMana",
+      "kind": "named",
+      "module": "src/races/night_elf/shadow_dancer.lua",
+      "scope": "src/races/night_elf/shadow_dancer.lua#ConjureMana",
+      "line": 151,
       "getters_after_wait": [
         "GetTriggerUnit",
         "GetUnitStateSwap"
@@ -63,7 +764,10 @@
     },
     {
       "function": "Trig_Blur_Actions",
-      "module": "src/races/night_elf/shadow_dancer.lua#Blur",
+      "kind": "named",
+      "module": "src/races/night_elf/shadow_dancer.lua",
+      "scope": "src/races/night_elf/shadow_dancer.lua#Blur",
+      "line": 173,
       "getters_after_wait": [
         "GetTriggerUnit",
         "GetUnitStateSwap"
@@ -72,7 +776,10 @@
     },
     {
       "function": "Trig_Surge_of_Darkness_Actions",
-      "module": "src/races/forgotten/executioner.lua#Surge_of_Darkness",
+      "kind": "named",
+      "module": "src/races/forgotten/executioner.lua",
+      "scope": "src/races/forgotten/executioner.lua#Surge_of_Darkness",
+      "line": 46,
       "getters_after_wait": [
         "GetTriggerUnit"
       ],
@@ -80,7 +787,10 @@
     },
     {
       "function": "Trig_Avatar_Actions",
-      "module": "src/races/forgotten/soulreaper.lua#Avatar",
+      "kind": "named",
+      "module": "src/races/forgotten/soulreaper.lua",
+      "scope": "src/races/forgotten/soulreaper.lua#Avatar",
+      "line": 43,
       "getters_after_wait": [
         "GetTriggerUnit"
       ],
@@ -88,7 +798,10 @@
     },
     {
       "function": "Trig_Shadowlings_Actions",
-      "module": "src/races/forgotten/bloodmage.lua#Shadowlings",
+      "kind": "named",
+      "module": "src/races/forgotten/bloodmage.lua",
+      "scope": "src/races/forgotten/bloodmage.lua#Shadowlings",
+      "line": 171,
       "getters_after_wait": [
         "GetUnitTypeId"
       ],
@@ -96,19 +809,28 @@
     },
     {
       "function": "OnConstructionStart",
-      "module": "src/races/nerubian.lua#NerubianSpires",
+      "kind": "named",
+      "module": "src/races/nerubian.lua",
+      "scope": "src/races/nerubian.lua#NerubianSpires",
+      "line": 81,
       "getters_after_wait": [],
       "globals_after_wait": []
     },
     {
       "function": "ChemicalRageActions",
-      "module": "src/races/ratling.lua#Chemical_Rage",
+      "kind": "named",
+      "module": "src/races/ratling.lua",
+      "scope": "src/races/ratling.lua#Chemical_Rage",
+      "line": 21,
       "getters_after_wait": [],
       "globals_after_wait": []
     },
     {
       "function": "Trig_SeedOfRebirth_Actions",
-      "module": "src/races/wisp.lua#SeedOfRebirth",
+      "kind": "named",
+      "module": "src/races/wisp.lua",
+      "scope": "src/races/wisp.lua#SeedOfRebirth",
+      "line": 18,
       "getters_after_wait": [
         "GetOwningPlayer",
         "GetPlayerSlotState",
@@ -122,7 +844,10 @@
     },
     {
       "function": "Trig_Moonstrike_Actions",
-      "module": "src/races/wildkin.lua#Moonstrike",
+      "kind": "named",
+      "module": "src/races/wildkin.lua",
+      "scope": "src/races/wildkin.lua#Moonstrike",
+      "line": 26,
       "getters_after_wait": [
         "GetUnitTypeId",
         "GetWidgetLife"
@@ -131,7 +856,10 @@
     },
     {
       "function": "Trig_Focused_Strike_Actions",
-      "module": "src/races/worgen.lua#Focused_Strike",
+      "kind": "named",
+      "module": "src/races/worgen.lua",
+      "scope": "src/races/worgen.lua#Focused_Strike",
+      "line": 74,
       "getters_after_wait": [
         "GetUnitTypeId"
       ],
@@ -139,7 +867,10 @@
     },
     {
       "function": "Trig_Realm_of_darkness_Actions",
-      "module": "src/ancients/paranoia.lua#Realm_of_darkness",
+      "kind": "named",
+      "module": "src/ancients/paranoia.lua",
+      "scope": "src/ancients/paranoia.lua#Realm_of_darkness",
+      "line": 25,
       "getters_after_wait": [
         "GetPlayableMapRect",
         "GetUnitsInRectMatching"
@@ -148,19 +879,28 @@
     },
     {
       "function": "Trig_Lightning_Strike_Actions",
-      "module": "src/ancients/zalxon.lua#Lightning_Strike",
+      "kind": "named",
+      "module": "src/ancients/zalxon.lua",
+      "scope": "src/ancients/zalxon.lua#Lightning_Strike",
+      "line": 50,
       "getters_after_wait": [],
       "globals_after_wait": []
     },
     {
       "function": "Trig_Sandstorm_2_Actions",
-      "module": "src/ancients/pharaoh.lua#Sandstorm_2",
+      "kind": "named",
+      "module": "src/ancients/pharaoh.lua",
+      "scope": "src/ancients/pharaoh.lua#Sandstorm_2",
+      "line": 26,
       "getters_after_wait": [],
       "globals_after_wait": []
     },
     {
       "function": "Trig_Ancient_Grasp_Actions",
-      "module": "src/ancients/pharaoh.lua#Ancient_Grasp",
+      "kind": "named",
+      "module": "src/ancients/pharaoh.lua",
+      "scope": "src/ancients/pharaoh.lua#Ancient_Grasp",
+      "line": 50,
       "getters_after_wait": [
         "GetUnitLifePercent"
       ],
@@ -168,7 +908,10 @@
     },
     {
       "function": "Trig_Chill_Actions",
-      "module": "src/ancients/avalanche.lua#Chill",
+      "kind": "named",
+      "module": "src/ancients/avalanche.lua",
+      "scope": "src/ancients/avalanche.lua#Chill",
+      "line": 9,
       "getters_after_wait": [
         "GetUnitStateSwap"
       ],
@@ -176,13 +919,19 @@
     },
     {
       "function": "Trig_Freeze_Zone_Actions",
-      "module": "src/ancients/avalanche.lua#Freeze_Zone",
+      "kind": "named",
+      "module": "src/ancients/avalanche.lua",
+      "scope": "src/ancients/avalanche.lua#Freeze_Zone",
+      "line": 28,
       "getters_after_wait": [],
       "globals_after_wait": []
     },
     {
       "function": "Trig_Sadism_Actions",
-      "module": "src/ancients/divinity.lua#Sadism",
+      "kind": "named",
+      "module": "src/ancients/divinity.lua",
+      "scope": "src/ancients/divinity.lua#Sadism",
+      "line": 9,
       "getters_after_wait": [
         "GetUnitStateSwap"
       ],
@@ -190,7 +939,10 @@
     },
     {
       "function": "Trig_Vanguard_Initial_Actions",
-      "module": "src/ancients/divinity.lua#Vanguard_Initial",
+      "kind": "named",
+      "module": "src/ancients/divinity.lua",
+      "scope": "src/ancients/divinity.lua#Vanguard_Initial",
+      "line": 57,
       "getters_after_wait": [
         "GetTriggeringTrigger"
       ],
@@ -198,34 +950,46 @@
     },
     {
       "function": "Trig_Vanguard_Actions",
-      "module": "src/ancients/divinity.lua#Vanguard",
-      "getters_after_wait": [
-        "GetTriggerUnit",
-        "GetUnitStateSwap"
-      ],
+      "kind": "named",
+      "module": "src/ancients/divinity.lua",
+      "scope": "src/ancients/divinity.lua#Vanguard",
+      "line": 95,
+      "getters_after_wait": [],
       "globals_after_wait": []
     },
     {
       "function": "Trig_Start_Actions",
-      "module": "src/ai/behavior.lua#Start",
+      "kind": "named",
+      "module": "src/ai/behavior.lua",
+      "scope": "src/ai/behavior.lua#Start",
+      "line": 32,
       "getters_after_wait": [],
       "globals_after_wait": []
     },
     {
       "function": "Trig_TimeToExpanderSpawn_Actions",
-      "module": "src/game/startup.lua#TimeToExpanderSpawn",
+      "kind": "named",
+      "module": "src/game/startup.lua",
+      "scope": "src/game/startup.lua#TimeToExpanderSpawn",
+      "line": 43,
       "getters_after_wait": [],
       "globals_after_wait": []
     },
     {
       "function": "Trig_TimeToAncientSpawn_Actions",
-      "module": "src/game/startup.lua#TimeToAncientSpawn",
+      "kind": "named",
+      "module": "src/game/startup.lua",
+      "scope": "src/game/startup.lua#TimeToAncientSpawn",
+      "line": 62,
       "getters_after_wait": [],
       "globals_after_wait": []
     },
     {
       "function": "Trig_Spawn_Lackey_Actions",
-      "module": "src/players/lackeys.lua#Spawn_Lackey",
+      "kind": "named",
+      "module": "src/players/lackeys.lua",
+      "scope": "src/players/lackeys.lua#Spawn_Lackey",
+      "line": 281,
       "getters_after_wait": [
         "GetPlayerSlotState"
       ],
@@ -233,95 +997,21 @@
     },
     {
       "function": "Trig_Ancient_Leaves_Actions",
-      "module": "src/players/leaving.lua#Ancient_Leaves",
+      "kind": "named",
+      "module": "src/players/leaving.lua",
+      "scope": "src/players/leaving.lua#Ancient_Leaves",
+      "line": 29,
       "getters_after_wait": [
         "GetPlayersAll"
       ],
       "globals_after_wait": []
     },
     {
-      "function": "Trig_Ignite_Dies_Actions",
-      "module": "src/game/victory.lua#Ignite_Dies",
-      "getters_after_wait": [
-        "GetPlayersAll"
-      ],
-      "globals_after_wait": []
-    },
-    {
-      "function": "Trig_Avalanche_Dies_Actions",
-      "module": "src/game/victory.lua#Avalanche_Dies",
-      "getters_after_wait": [
-        "GetPlayersAll"
-      ],
-      "globals_after_wait": []
-    },
-    {
-      "function": "Trig_Paranoia_Dies_Actions",
-      "module": "src/game/victory.lua#Paranoia_Dies",
-      "getters_after_wait": [
-        "GetPlayersAll"
-      ],
-      "globals_after_wait": []
-    },
-    {
-      "function": "Trig_Eternity_Dies_Actions",
-      "module": "src/game/victory.lua#Eternity_Dies",
-      "getters_after_wait": [
-        "GetPlayersAll"
-      ],
-      "globals_after_wait": []
-    },
-    {
-      "function": "Trig_Dragos_Dies_Actions",
-      "module": "src/game/victory.lua#Dragos_Dies",
-      "getters_after_wait": [
-        "GetPlayersAll"
-      ],
-      "globals_after_wait": []
-    },
-    {
-      "function": "Trig_Tremor_Dies_Actions",
-      "module": "src/game/victory.lua#Tremor_Dies",
-      "getters_after_wait": [
-        "GetPlayersAll"
-      ],
-      "globals_after_wait": []
-    },
-    {
-      "function": "Trig_Zalxon_Dies_Actions",
-      "module": "src/game/victory.lua#Zalxon_Dies",
-      "getters_after_wait": [
-        "GetPlayersAll"
-      ],
-      "globals_after_wait": []
-    },
-    {
-      "function": "Trig_Divinity_Dies_Actions",
-      "module": "src/game/victory.lua#Divinity_Dies",
-      "getters_after_wait": [
-        "GetPlayersAll"
-      ],
-      "globals_after_wait": []
-    },
-    {
-      "function": "Trig_Pharoah_Dies_Actions",
-      "module": "src/game/victory.lua#Pharoah_Dies",
-      "getters_after_wait": [
-        "GetPlayersAll"
-      ],
-      "globals_after_wait": []
-    },
-    {
-      "function": "Trig_Nebula_Dies_Actions",
-      "module": "src/game/victory.lua#Nebula_Dies",
-      "getters_after_wait": [
-        "GetPlayersAll"
-      ],
-      "globals_after_wait": []
-    },
-    {
-      "function": "Trig_Wispari_Dies_Actions",
-      "module": "src/game/victory.lua#Wispari_Dies",
+      "function": "FE_MatchResults.ancientDeath",
+      "kind": "named",
+      "module": "src/game/victory.lua",
+      "scope": "src/game/victory.lua#shared",
+      "line": 4,
       "getters_after_wait": [
         "GetPlayersAll"
       ],
@@ -329,7 +1019,10 @@
     },
     {
       "function": "Trig_DVIC_1_Actions",
-      "module": "src/game/victory.lua#DVIC_1",
+      "kind": "named",
+      "module": "src/game/victory.lua",
+      "scope": "src/game/victory.lua#DVIC_1",
+      "line": 239,
       "getters_after_wait": [
         "GetPlayersAll"
       ],
@@ -337,10 +1030,13 @@
     },
     {
       "function": "Trig_Extermination_Actions",
-      "module": "src/game/victory.lua#Extermination",
+      "kind": "named",
+      "module": "src/game/victory.lua",
+      "scope": "src/game/victory.lua#Extermination",
+      "line": 274,
       "getters_after_wait": [],
       "globals_after_wait": []
     }
   ],
-  "limitations": "Lexical triage, not complete type/control-flow analysis. Current native engine behavior and multiplayer remain unverified."
+  "limitations": "Lexical triage, not type/control-flow or scope resolution. Known local/parameter names are approximated across modules; indirect/table-dispatched calls are not resolved. Event scopes retain original sections; shared helpers and getters without a local subscription require caller review. Nested callbacks remain in wait scans conservatively. Native engine behavior and multiplayer remain unverified."
 }

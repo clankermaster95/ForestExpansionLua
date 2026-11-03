@@ -1,0 +1,543 @@
+{
+  "expanders": [
+    {
+      "key": "Worgen",
+      "raw": "h00R",
+      "shop": "gg_unit_nmer_0000",
+      "ban": "udg_BannedWorgen",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Worgen banned. Bans remaining: ",
+      "aliases": [
+        "-ban worgen"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Forgotten",
+      "raw": "u007",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedForgotten",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Forgotten One banned. Bans remaining: ",
+      "aliases": [
+        "-ban Forgotten"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Aethyr",
+      "raw": "h03S",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedAethyr",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Aethyr Warp banned. Bans remaining: ",
+      "aliases": [
+        "-ban aethyr"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Goblin",
+      "raw": "h016",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedGoblin",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Goblin banned. Bans remaining: ",
+      "aliases": [
+        "-ban Goblin"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Ogre",
+      "raw": "h00F",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedOgre",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Ogre banned. Bans remaining: ",
+      "aliases": [
+        "-ban Ogre"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Magmide",
+      "raw": "o000",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedMagmide",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Magmide banned. Bans remaining: ",
+      "aliases": [
+        "-ban Magmide"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Furbolg",
+      "raw": "h02U",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedFurbolg",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Furbolg banned. Bans remaining: ",
+      "aliases": [
+        "-ban Furbolg"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Razormane",
+      "raw": "o01E",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedRazormane",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Razormane banned. Bans remaining: ",
+      "aliases": [
+        "-ban Razormane"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Centaur",
+      "raw": "h01X",
+      "shop": "gg_unit_nmer_0000",
+      "ban": "udg_BannedCentaur",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Centaur banned. Bans remaining: ",
+      "aliases": [
+        "-ban Centaur"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Wildkin",
+      "raw": "h010",
+      "shop": "gg_unit_nmer_0000",
+      "ban": "udg_BannedWildkin",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Wildkin banned. Bans remaining: ",
+      "aliases": [
+        "-ban Wildkin"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Nerubian",
+      "raw": "h01K",
+      "shop": "gg_unit_nmer_0000",
+      "ban": "udg_BannedNerubian",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Nerubian banned. Bans remaining: ",
+      "aliases": [
+        "-ban Nerubian"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Human",
+      "raw": "h03D",
+      "shop": "gg_unit_nmer_0000",
+      "ban": "udg_BannedHuman",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Human banned. Bans remaining: ",
+      "aliases": [
+        "-ban Human"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Wisp",
+      "raw": "h02L",
+      "shop": "gg_unit_nmer_0000",
+      "ban": "udg_BannedWisp",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Wisp banned. Bans remaining: ",
+      "aliases": [
+        "-ban Wisp"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Kobold",
+      "raw": "h03Q",
+      "shop": "gg_unit_nmer_0000",
+      "ban": "udg_BannedKobold",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Kobold banned. Bans remaining: ",
+      "aliases": [
+        "-ban Kobold"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Ghoul",
+      "raw": "o005",
+      "shop": "gg_unit_nmer_0000",
+      "ban": "udg_BannedGhoul",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Ghoul banned. Bans remaining: ",
+      "aliases": [
+        "-ban Ghoul"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Kraken",
+      "raw": "h000",
+      "shop": "gg_unit_nmer_0000",
+      "ban": "udg_BannedKraken",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Kraken banned. Bans remaining: ",
+      "aliases": [
+        "-ban Kraken"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Elf",
+      "raw": "h05C",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedElf",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Elf banned. Bans remaining: ",
+      "aliases": [
+        "-ban NightElf",
+        "-ban Elf",
+        "-ban Night"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "HighElf",
+      "raw": "n00M",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedHighElf",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Elf banned. Bans remaining: ",
+      "aliases": [
+        "-ban HighElf",
+        "-ban High Elf",
+        "-ban High"
+      ],
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Ratling",
+      "raw": "o026",
+      "shop": "gg_unit_nmer_0000",
+      "ban": "udg_BannedRatling",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Ratling Stalker banned. Bans remaining: ",
+      "aliases": [
+        "-ban rat",
+        "-ban ratling",
+        "-ban stalker"
+      ],
+      "closeAtCutoff": false
+    },
+    {
+      "key": "Hunter",
+      "raw": "h05W",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedHunter",
+      "stock": 1,
+      "maximum": 1,
+      "message": "Bounty Hunter banned. Bans remaining: ",
+      "aliases": [
+        "-ban hunter",
+        "-ban bounty"
+      ],
+      "closeAtCutoff": false
+    }
+  ],
+  "ancients": [
+    {
+      "key": "AncientLight",
+      "raw": "O01V",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientLight",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Light banned. Bans remaining: ",
+      "aliases": [
+        "-ban light",
+        "-ban divinity"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0FB"
+    },
+    {
+      "key": "AncientLightning",
+      "raw": "O016",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientLightning",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Lightning banned. Bans remaining: ",
+      "aliases": [
+        "-ban Lightning",
+        "-ban Zalxon"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0B1"
+    },
+    {
+      "key": "AncientDragon",
+      "raw": "O00S",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientDragon",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Dragons banned. Bans remaining: ",
+      "aliases": [
+        "-ban Dragon",
+        "-ban Dragons",
+        "-ban Dragos"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0B4"
+    },
+    {
+      "key": "AncientEarth",
+      "raw": "O00L",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientEarth",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Earth banned. Bans remaining: ",
+      "aliases": [
+        "-ban Earth",
+        "-ban Tremor"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0B5"
+    },
+    {
+      "key": "AncientDarkness",
+      "raw": "O00A",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientDarkness",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Darkness banned. Bans remaining: ",
+      "aliases": [
+        "-ban Darkness",
+        "-ban Paranoia"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0EN"
+    },
+    {
+      "key": "AncientIce",
+      "raw": "O008",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientIce",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Ice banned. Bans remaining: ",
+      "aliases": [
+        "-ban Ice",
+        "-ban Avalanche"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0AZ"
+    },
+    {
+      "key": "AncientFire",
+      "raw": "O004",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientFire",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Fire banned. Bans remaining: ",
+      "aliases": [
+        "-ban Fire",
+        "-ban Ignite"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0B3"
+    },
+    {
+      "key": "AncientNature",
+      "raw": "O00D",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientNature",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Nature banned. Bans remaining: ",
+      "aliases": [
+        "-ban Nature",
+        "-ban Eternity"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0AY"
+    },
+    {
+      "key": "AncientSand",
+      "raw": "O01X",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientSand",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Sand banned. Bans remaining: ",
+      "aliases": [
+        "-ban Sand",
+        "-ban Pharaoh"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0B2"
+    },
+    {
+      "key": "AncientSpace",
+      "raw": "O01Z",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientSpace",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Space banned. Bans remaining: ",
+      "aliases": [
+        "-ban Space",
+        "-ban Nebula"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0AL"
+    },
+    {
+      "key": "AncientWind",
+      "raw": "O01D",
+      "shop": "gg_unit_nmr2_0001",
+      "ban": "udg_BannedAncientWind",
+      "stock": 0,
+      "maximum": 1,
+      "message": "Ancient of Wind banned. Bans remaining: ",
+      "aliases": [
+        "-ban Wind",
+        "-ban Wispari",
+        "-ban Wisperi",
+        "-ban Whispari",
+        "-ban Whisperi"
+      ],
+      "closeAtCutoff": false,
+      "spellbringerAbility": "A0EM"
+    }
+  ],
+  "banOrder": [
+    "Worgen",
+    "Centaur",
+    "Wildkin",
+    "Nerubian",
+    "Human",
+    "Wisp",
+    "Kobold",
+    "Ghoul",
+    "Kraken",
+    "Aethyr",
+    "Forgotten",
+    "Goblin",
+    "Ogre",
+    "Magmide",
+    "Furbolg",
+    "Razormane",
+    "Elf",
+    "HighElf",
+    "Ratling",
+    "Hunter",
+    "AncientLight",
+    "AncientLightning",
+    "AncientDragon",
+    "AncientEarth",
+    "AncientDarkness",
+    "AncientIce",
+    "AncientFire",
+    "AncientNature",
+    "AncientSand",
+    "AncientSpace",
+    "AncientWind"
+  ],
+  "randomExpanders": [
+    "Human",
+    "Goblin",
+    "Wisp",
+    "Centaur",
+    "Ogre",
+    "Nerubian",
+    "Worgen",
+    "Furbolg",
+    "Ghoul",
+    "Magmide",
+    "Kraken",
+    "Kobold",
+    "Razormane",
+    "Forgotten",
+    "Wildkin",
+    "Elf",
+    "HighElf",
+    "Ratling"
+  ],
+  "randomAncients": [
+    "AncientFire",
+    "AncientFire",
+    "AncientFire",
+    "AncientDarkness",
+    "AncientDarkness",
+    "AncientDarkness",
+    "AncientDragon",
+    "AncientDragon",
+    "AncientDragon",
+    "AncientEarth",
+    "AncientEarth",
+    "AncientEarth",
+    "AncientIce",
+    "AncientIce",
+    "AncientIce",
+    "AncientNature",
+    "AncientNature",
+    "AncientNature",
+    "AncientLightning",
+    "AncientLightning",
+    "AncientLightning",
+    "AncientWind",
+    "AncientWind",
+    "AncientWind",
+    "AncientLight",
+    "AncientLight",
+    "AncientLight",
+    "AncientSpace",
+    "AncientSpace",
+    "AncientSpace",
+    "AncientSand",
+    "AncientSand",
+    "AncientSand"
+  ],
+  "spellbringerOrder": [
+    "AncientWind",
+    "AncientDarkness",
+    "AncientDragon",
+    "AncientEarth",
+    "AncientFire",
+    "AncientIce",
+    "AncientLight",
+    "AncientLightning",
+    "AncientNature",
+    "AncientSand",
+    "AncientSpace"
+  ]
+}

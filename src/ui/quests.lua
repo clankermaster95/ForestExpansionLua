@@ -2,7 +2,6 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 311 Quests
--- Original JASS function: Trig_Quests_Actions (line 17779)
 function Trig_Quests_Actions()
     CreateQuestBJ(bj_QUESTTYPE_REQ_DISCOVERED, "TRIGSTR_973", "TRIGSTR_974", "ReplaceableTextures\\CommandButtons\\BTNSpellBookBLS.blp")
     CreateQuestBJ(bj_QUESTTYPE_REQ_DISCOVERED, "TRIGSTR_584", "TRIGSTR_653", "ReplaceableTextures\\CommandButtons\\BTNGarithos.blp")
@@ -15,7 +14,6 @@ function Trig_Quests_Actions()
     CreateQuestBJ(bj_QUESTTYPE_OPT_DISCOVERED, "TRIGSTR_5649", "TRIGSTR_6783", "ReplaceableTextures\\CommandButtons\\BTNChestOfGold.blp")
 end
 
--- Original JASS function: InitTrig_Quests (line 17792)
 function InitTrig_Quests()
     gg_trg_Quests = CreateTrigger()
     TriggerAddAction(gg_trg_Quests, Trig_Quests_Actions)

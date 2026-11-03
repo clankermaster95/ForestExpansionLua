@@ -2,24 +2,20 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 29 Snipe_Shot
--- Original JASS function: SnipeShot_IsAlive (line 6312)
 function SnipeShot_IsAlive(u)
-    do return (((u ~= nil) and (GetWidgetLife(u) > __jreal(0.405))) and (not IsUnitType(u, UNIT_TYPE_DEAD))) end
+    return (((u ~= nil) and (GetWidgetLife(u) > __jreal(0.405))) and (not IsUnitType(u, UNIT_TYPE_DEAD)))
 end
 
--- Original JASS function: SnipeShot_IsValidTarget (line 6316)
 function SnipeShot_IsValidTarget(u, p)
-    do return ((SnipeShot_IsAlive(u) and IsUnitEnemy(u, p)) and (not IsUnitType(u, UNIT_TYPE_FLYING))) end
+    return ((SnipeShot_IsAlive(u) and IsUnitEnemy(u, p)) and (not IsUnitType(u, UNIT_TYPE_FLYING)))
 end
 
--- Original JASS function: SnipeShot_StartCooldown (line 6320)
 function SnipeShot_StartCooldown(caster)
     if (caster ~= nil) then
         BlzStartUnitAbilityCooldown(caster, SNIPESHOT_ABILITY_ID, SNIPESHOT_COOLDOWN)
     end
 end
 
--- Original JASS function: SnipeShot_GetHitTarget (line 6326)
 function SnipeShot_GetHitTarget(x, y, p)
     local u = nil
     local best = nil
@@ -43,10 +39,9 @@ function SnipeShot_GetHitTarget(x, y, p)
         end
     end
     u = nil
-    do return best end
+    return best
 end
 
--- Original JASS function: SnipeShot_StunTarget (line 6357)
 function SnipeShot_StunTarget(p, x, y, target)
     local dummy = CreateUnit(p, SNIPESHOT_DUMMY_ID, x, y, __jreal(0.00))
     UnitAddAbility(dummy, SNIPESHOT_STUN_ABILITY_ID)
@@ -56,7 +51,6 @@ function SnipeShot_StunTarget(p, x, y, target)
     dummy = nil
 end
 
--- Original JASS function: SnipeShot_EndMissile (line 6368)
 function SnipeShot_EndMissile(t)
     local id = GetHandleId(t)
     local fx = LoadEffectHandle(SNIPESHOT_Hash, id, 2)
@@ -69,7 +63,6 @@ function SnipeShot_EndMissile(t)
     fx = nil
 end
 
--- Original JASS function: SnipeShot_MissileLoop (line 6383)
 function SnipeShot_MissileLoop()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -117,7 +110,6 @@ function SnipeShot_MissileLoop()
     t = nil
 end
 
--- Original JASS function: SnipeShot_StartMissile (line 6436)
 function SnipeShot_StartMissile(caster, tx, ty)
     local t = CreateTimer()
     local id = GetHandleId(t)
@@ -155,7 +147,6 @@ function SnipeShot_StartMissile(caster, tx, ty)
     t = nil
 end
 
--- Original JASS function: SnipeShot_OnChannel (line 6478)
 function SnipeShot_OnChannel()
     local caster = GetTriggerUnit()
     local casterId = 0
@@ -168,7 +159,6 @@ function SnipeShot_OnChannel()
     caster = nil
 end
 
--- Original JASS function: SnipeShot_OnFinish (line 6493)
 function SnipeShot_OnFinish()
     local caster = GetTriggerUnit()
     local casterId = 0
@@ -188,7 +178,6 @@ function SnipeShot_OnFinish()
     caster = nil
 end
 
--- Original JASS function: InitTrig_Snipe_Shot (line 6516)
 function InitTrig_Snipe_Shot()
     local channelTrig = CreateTrigger()
     local finishTrig = CreateTrigger()
@@ -207,14 +196,12 @@ end
 -- END FOREST SECTION 29
 
 -- BEGIN FOREST SECTION 30 Dash
--- Original JASS function: Dash_CreateTrail (line 6538)
 function Dash_CreateTrail(u)
     local e = AddSpecialEffect(DASH_TRAIL_EFFECT, GetUnitX(u), GetUnitY(u))
     DestroyEffect(e)
     e = nil
 end
 
--- Original JASS function: Dash_Stop (line 6546)
 function Dash_Stop(t)
     local id = GetHandleId(t)
     local u = LoadUnitHandle(DashHash, id, 0)
@@ -233,7 +220,6 @@ function Dash_Stop(t)
     t = nil
 end
 
--- Original JASS function: Dash_TryMove (line 6568)
 function Dash_TryMove(u, nx, ny)
     local ox = GetUnitX(u)
     local oy = GetUnitY(u)
@@ -244,12 +230,11 @@ function Dash_TryMove(u, nx, ny)
     ay = GetUnitY(u)
     if (__jreal(__jreal((__jreal(ax - nx)) * (__jreal(ax - nx))) + __jreal((__jreal(ay - ny)) * (__jreal(ay - ny)))) > __jreal(25.00)) then
         SetUnitPosition(u, ox, oy)
-        do return false end
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Dash_TrySlideStep (line 6588)
 function Dash_TrySlideStep(u, angle, step)
     local x = GetUnitX(u)
     local y = GetUnitY(u)
@@ -258,32 +243,31 @@ function Dash_TrySlideStep(u, angle, step)
     nx = __jreal(x + __jreal(step * Cos(angle)))
     ny = __jreal(y + __jreal(step * Sin(angle)))
     if Dash_TryMove(u, nx, ny) then
-        do return step end
+        return step
     end
     nx = __jreal(x + __jreal(step * Cos(__jreal(angle + __jreal(0.785398)))))
     ny = __jreal(y + __jreal(step * Sin(__jreal(angle + __jreal(0.785398)))))
     if Dash_TryMove(u, nx, ny) then
-        do return step end
+        return step
     end
     nx = __jreal(x + __jreal(step * Cos(__jreal(angle - __jreal(0.785398)))))
     ny = __jreal(y + __jreal(step * Sin(__jreal(angle - __jreal(0.785398)))))
     if Dash_TryMove(u, nx, ny) then
-        do return step end
+        return step
     end
     nx = __jreal(x + __jreal(step * Cos(__jreal(angle + __jreal(1.570796)))))
     ny = __jreal(y + __jreal(step * Sin(__jreal(angle + __jreal(1.570796)))))
     if Dash_TryMove(u, nx, ny) then
-        do return step end
+        return step
     end
     nx = __jreal(x + __jreal(step * Cos(__jreal(angle - __jreal(1.570796)))))
     ny = __jreal(y + __jreal(step * Sin(__jreal(angle - __jreal(1.570796)))))
     if Dash_TryMove(u, nx, ny) then
-        do return step end
+        return step
     end
-    do return __jreal(0.00) end
+    return __jreal(0.00)
 end
 
--- Original JASS function: Dash_Loop (line 6638)
 function Dash_Loop()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -298,7 +282,7 @@ function Dash_Loop()
         Dash_Stop(t)
         t = nil
         u = nil
-        do return end
+        return
     end
     if (__jreal(moved + tickDistance) > targetRange) then
         tickDistance = __jreal(targetRange - moved)
@@ -315,7 +299,7 @@ function Dash_Loop()
             Dash_Stop(t)
             t = nil
             u = nil
-            do return end
+            return
         end
         moved = __jreal(moved + moveNow)
         SaveReal(DashHash, id, 5, __jreal(LoadReal(DashHash, id, 5) + moveNow))
@@ -333,7 +317,6 @@ function Dash_Loop()
     u = nil
 end
 
--- Original JASS function: StartDash (line 6702)
 function StartDash(u, tx, ty)
     local t = CreateTimer()
     local id = GetHandleId(t)
@@ -347,7 +330,7 @@ function StartDash(u, tx, ty)
     if (dist <= __jreal(10.00)) then
         DestroyTimer(t)
         t = nil
-        do return end
+        return
     end
     if (dist > DASH_RANGE) then
         dist = DASH_RANGE
@@ -366,17 +349,14 @@ function StartDash(u, tx, ty)
     t = nil
 end
 
--- Original JASS function: Dash_Condition (line 6746)
 function Dash_Condition()
-    do return (GetSpellAbilityId() == FourCC("A0EW")) end
+    return (GetSpellAbilityId() == FourCC("A0EW"))
 end
 
--- Original JASS function: Dash_Action (line 6750)
 function Dash_Action()
     StartDash(GetTriggerUnit(), GetSpellTargetX(), GetSpellTargetY())
 end
 
--- Original JASS function: InitTrig_Dash (line 6755)
 function InitTrig_Dash()
     local trg = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(trg, EVENT_PLAYER_UNIT_SPELL_EFFECT)
@@ -387,20 +367,14 @@ end
 -- END FOREST SECTION 30
 
 -- BEGIN FOREST SECTION 31 Rome
--- Original JASS function: Trig_Rome_Conditions (line 6767)
 function Trig_Rome_Conditions()
-    if ((not ((UnitHasBuffBJ(udg_DamageEventTarget, FourCC("B03L")) == true)))) then
-        do return false end
-    end
-    do return true end
+    return UnitHasBuffBJ(udg_DamageEventTarget, FourCC("B03L")) == true
 end
 
--- Original JASS function: Trig_Rome_Actions (line 6774)
 function Trig_Rome_Actions()
     udg_DamageEventAmount = (__jreal(udg_DamageEventAmount * __jreal(0.60)))
 end
 
--- Original JASS function: InitTrig_Rome (line 6779)
 function InitTrig_Rome()
     gg_trg_Rome = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Rome, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -410,34 +384,27 @@ end
 -- END FOREST SECTION 31
 
 -- BEGIN FOREST SECTION 32 Basic_Bounty_Hit
--- Original JASS function: Trig_Basic_Bounty_Hit_Func009Func002C (line 6789)
 function Trig_Basic_Bounty_Hit_Func009Func002C()
-    if (((GetUnitTypeId(udg_DamageEventSource) == FourCC("h05W")))) then
-        do return true end
+    if (GetUnitTypeId(udg_DamageEventSource) == FourCC("h05W")) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_Basic_Bounty_Hit_Func009C (line 6796)
 function Trig_Basic_Bounty_Hit_Func009C()
-    if ((not ((IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget)) == true)))) then
-        do return false end
+    if (not (IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget)) == true)) then
+        return false
     end
-    if ((not Trig_Basic_Bounty_Hit_Func009Func002C())) then
-        do return false end
+    if (not Trig_Basic_Bounty_Hit_Func009Func002C()) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Basic_Bounty_Hit_Conditions (line 6806)
 function Trig_Basic_Bounty_Hit_Conditions()
-    if ((not Trig_Basic_Bounty_Hit_Func009C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Basic_Bounty_Hit_Func009C())
 end
 
--- Original JASS function: Trig_Basic_Bounty_Hit_Actions (line 6813)
 function Trig_Basic_Bounty_Hit_Actions()
     AdjustPlayerStateBJ(35, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_LUMBER)
     AdjustPlayerStateBJ(1, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_GOLD)
@@ -448,7 +415,6 @@ function Trig_Basic_Bounty_Hit_Actions()
     SetTextTagFadepointBJ(GetLastCreatedTextTag(), __jreal(0.30))
 end
 
--- Original JASS function: InitTrig_Basic_Bounty_Hit (line 6824)
 function InitTrig_Basic_Bounty_Hit()
     gg_trg_Basic_Bounty_Hit = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Basic_Bounty_Hit, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -458,37 +424,30 @@ end
 -- END FOREST SECTION 32
 
 -- BEGIN FOREST SECTION 33 Improved_Bounty_Hit
--- Original JASS function: Trig_Improved_Bounty_Hit_Func009Func002C (line 6834)
 function Trig_Improved_Bounty_Hit_Func009Func002C()
-    if (((GetUnitTypeId(udg_DamageEventSource) == FourCC("h06H")))) then
-        do return true end
+    if (GetUnitTypeId(udg_DamageEventSource) == FourCC("h06H")) then
+        return true
     end
-    if (((GetUnitTypeId(udg_DamageEventSource) == FourCC("h06C")))) then
-        do return true end
+    if (GetUnitTypeId(udg_DamageEventSource) == FourCC("h06C")) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_Improved_Bounty_Hit_Func009C (line 6844)
 function Trig_Improved_Bounty_Hit_Func009C()
-    if ((not ((IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget)) == true)))) then
-        do return false end
+    if (not (IsUnitEnemy(udg_DamageEventSource, GetOwningPlayer(udg_DamageEventTarget)) == true)) then
+        return false
     end
-    if ((not Trig_Improved_Bounty_Hit_Func009Func002C())) then
-        do return false end
+    if (not Trig_Improved_Bounty_Hit_Func009Func002C()) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Improved_Bounty_Hit_Conditions (line 6854)
 function Trig_Improved_Bounty_Hit_Conditions()
-    if ((not Trig_Improved_Bounty_Hit_Func009C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Improved_Bounty_Hit_Func009C())
 end
 
--- Original JASS function: Trig_Improved_Bounty_Hit_Actions (line 6861)
 function Trig_Improved_Bounty_Hit_Actions()
     AdjustPlayerStateBJ(75, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_LUMBER)
     AdjustPlayerStateBJ(2, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_GOLD)
@@ -499,7 +458,6 @@ function Trig_Improved_Bounty_Hit_Actions()
     SetTextTagFadepointBJ(GetLastCreatedTextTag(), __jreal(0.30))
 end
 
--- Original JASS function: InitTrig_Improved_Bounty_Hit (line 6872)
 function InitTrig_Improved_Bounty_Hit()
     gg_trg_Improved_Bounty_Hit = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_Improved_Bounty_Hit, "udg_DamageEvent", EQUAL, __jreal(1.00))
@@ -509,21 +467,15 @@ end
 -- END FOREST SECTION 33
 
 -- BEGIN FOREST SECTION 34 Harvest_Grapes
--- Original JASS function: Trig_Harvest_Grapes_Conditions (line 6882)
 function Trig_Harvest_Grapes_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0DB"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0DB")
 end
 
--- Original JASS function: Trig_Harvest_Grapes_Actions (line 6889)
 function Trig_Harvest_Grapes_Actions()
     CreateItemLoc(FourCC("I027"), GetUnitLoc(GetSpellAbilityUnit()))
     IssueTargetItemOrder(GetSpellAbilityUnit(), "smart", GetLastCreatedItem())
 end
 
--- Original JASS function: InitTrig_Harvest_Grapes (line 6895)
 function InitTrig_Harvest_Grapes()
     gg_trg_Harvest_Grapes = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Harvest_Grapes, EVENT_PLAYER_UNIT_SPELL_FINISH)
@@ -533,31 +485,18 @@ end
 -- END FOREST SECTION 34
 
 -- BEGIN FOREST SECTION 35 Bullets_Switch
--- Original JASS function: Trig_Bullets_Switch_Func002C (line 6905)
 function Trig_Bullets_Switch_Func002C()
-    if ((not ((GetSpellAbilityId() == FourCC("A0DE"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0DE")
 end
 
--- Original JASS function: Trig_Bullets_Switch_Conditions (line 6912)
 function Trig_Bullets_Switch_Conditions()
-    if ((not Trig_Bullets_Switch_Func002C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Bullets_Switch_Func002C())
 end
 
--- Original JASS function: Trig_Bullets_Switch_Func001C (line 6919)
 function Trig_Bullets_Switch_Func001C()
-    if ((not ((BlzGetUnitWeaponIntegerField(GetTriggerUnit(), UNIT_WEAPON_IF_ATTACK_ATTACK_TYPE, 0) == 5)))) then
-        do return false end
-    end
-    do return true end
+    return BlzGetUnitWeaponIntegerField(GetTriggerUnit(), UNIT_WEAPON_IF_ATTACK_ATTACK_TYPE, 0) == 5
 end
 
--- Original JASS function: Trig_Bullets_Switch_Actions (line 6926)
 function Trig_Bullets_Switch_Actions()
     if (Trig_Bullets_Switch_Func001C()) then
         BlzSetUnitWeaponIntegerFieldBJ(GetTriggerUnit(), UNIT_WEAPON_IF_ATTACK_ATTACK_TYPE, 0, 2)
@@ -566,7 +505,6 @@ function Trig_Bullets_Switch_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Bullets_Switch (line 6935)
 function InitTrig_Bullets_Switch()
     gg_trg_Bullets_Switch = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Bullets_Switch, EVENT_PLAYER_UNIT_SPELL_FINISH)

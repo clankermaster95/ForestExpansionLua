@@ -1,30 +1,26 @@
--- Original JASS function: PassiveMissiles__IsAlive (line 2730)
 function PassiveMissiles__IsAlive(u)
-    do return (((u ~= nil) and (GetWidgetLife(u) > __jreal(0.405))) and (not IsUnitType(u, UNIT_TYPE_DEAD))) end
+    return (((u ~= nil) and (GetWidgetLife(u) > __jreal(0.405))) and (not IsUnitType(u, UNIT_TYPE_DEAD)))
 end
 
--- Original JASS function: PassiveMissiles__IsValidTargetForCaster (line 2734)
 function PassiveMissiles__IsValidTargetForCaster(caster, target)
     local owner = nil
     local ok = false
     if ((caster == nil) or (target == nil)) then
-        do return false end
+        return false
     end
     owner = GetOwningPlayer(caster)
     ok = ((((PassiveMissiles__IsAlive(target) and IsUnitEnemy(target, owner)) and IsUnitVisible(target, owner)) and (not BlzIsUnitInvulnerable(target))) and (not IsUnitType(target, UNIT_TYPE_MAGIC_IMMUNE)))
     owner = nil
-    do return ok end
+    return ok
 end
 
--- Original JASS function: PassiveMissiles__TargetFilter (line 2749)
 function PassiveMissiles__TargetFilter()
     local u = GetFilterUnit()
     local ok = PassiveMissiles__IsValidTargetForCaster(PassiveMissiles__PM_Source, u)
     u = nil
-    do return ok end
+    return ok
 end
 
--- Original JASS function: PassiveMissiles__PickRandomTarget (line 2757)
 function PassiveMissiles__PickRandomTarget(caster)
     local u = nil
     local result = nil
@@ -41,16 +37,15 @@ function PassiveMissiles__PickRandomTarget(caster)
         end
     end
     u = nil
-    do return result end
+    return result
 end
 
--- Original JASS function: PassiveMissiles__GetProjectileCount (line 2781)
 function PassiveMissiles__GetProjectileCount(caster)
     local id = 0
     local owner = nil
     local level = 0
     if (caster == nil) then
-        do return 0 end
+        return 0
     end
     id = GetHandleId(caster)
     owner = LoadUnitHandle(PassiveMissiles__PM_Hash, id, PassiveMissiles__PM_KEY_TORNADO_OWNER)
@@ -60,29 +55,27 @@ function PassiveMissiles__GetProjectileCount(caster)
             level = LoadInteger(PassiveMissiles__PM_Hash, id, PassiveMissiles__PM_KEY_TORNADO_BASE_LEVEL)
         end
         owner = nil
-        do return level end
+        return level
     end
-    do return GetUnitAbilityLevel(caster, PassiveMissiles__PM_ABILITY_ID) end
+    return GetUnitAbilityLevel(caster, PassiveMissiles__PM_ABILITY_ID)
 end
 
--- Original JASS function: PassiveMissiles__GetMissileDamageSource (line 2807)
 function PassiveMissiles__GetMissileDamageSource(caster)
     local owner = nil
     if (caster == nil) then
-        do return nil end
+        return nil
     end
     owner = LoadUnitHandle(PassiveMissiles__PM_Hash, GetHandleId(caster), PassiveMissiles__PM_KEY_TORNADO_OWNER)
     if ((owner ~= nil) and PassiveMissiles__IsAlive(owner)) then
-        do return owner end
+        return owner
     end
-    do return caster end
+    return caster
 end
 
--- Original JASS function: PassiveMissiles__DealMissileDamage (line 2823)
 function PassiveMissiles__DealMissileDamage(source, target)
     local damage = PassiveMissiles__PM_DAMAGE
     if (source == nil) then
-        do return end
+        return
     end
     if IsUnitType(target, UNIT_TYPE_STRUCTURE) then
         damage = __jreal(PassiveMissiles__PM_DAMAGE * PassiveMissiles__PM_STRUCTURE_DAMAGE_MULTIPLIER)
@@ -90,7 +83,6 @@ function PassiveMissiles__DealMissileDamage(source, target)
     UnitDamageTarget(source, target, damage, false, false, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, nil)
 end
 
--- Original JASS function: PassiveMissiles__StartMissileSound (line 2837)
 function PassiveMissiles__StartMissileSound(i)
     PassiveMissiles__PM_Sound[i] = CreateSound(PassiveMissiles__PM_LOOP_SOUND_FILE, true, true, true, PassiveMissiles__PM_SOUND_FADE_IN_RATE, PassiveMissiles__PM_SOUND_FADE_OUT_RATE, "SpellsEAX")
     SetSoundVolume(PassiveMissiles__PM_Sound[i], PassiveMissiles__PM_LOOP_SOUND_VOLUME)
@@ -100,7 +92,6 @@ function PassiveMissiles__StartMissileSound(i)
     StartSound(PassiveMissiles__PM_Sound[i])
 end
 
--- Original JASS function: PassiveMissiles__StopMissileSound (line 2847)
 function PassiveMissiles__StopMissileSound(i)
     if (PassiveMissiles__PM_Sound[i] ~= nil) then
         StopSound(PassiveMissiles__PM_Sound[i], true, true)
@@ -108,7 +99,6 @@ function PassiveMissiles__StopMissileSound(i)
     end
 end
 
--- Original JASS function: PassiveMissiles__PlayDeathSoundAt (line 2854)
 function PassiveMissiles__PlayDeathSoundAt(x, y, z)
     local s = CreateSound(PassiveMissiles__PM_DEATH_SOUND_FILE, false, true, true, PassiveMissiles__PM_SOUND_FADE_IN_RATE, PassiveMissiles__PM_SOUND_FADE_OUT_RATE, "SpellsEAX")
     SetSoundVolume(s, PassiveMissiles__PM_DEATH_SOUND_VOLUME)
@@ -120,7 +110,6 @@ function PassiveMissiles__PlayDeathSoundAt(x, y, z)
     s = nil
 end
 
--- Original JASS function: PassiveMissiles__RemoveMissile (line 2867)
 function PassiveMissiles__RemoveMissile(i)
     PassiveMissiles__StopMissileSound(i)
     DestroyEffect(PassiveMissiles__PM_Fx[i])
@@ -143,7 +132,6 @@ function PassiveMissiles__RemoveMissile(i)
     end
 end
 
--- Original JASS function: PassiveMissiles__MoveMissiles (line 2893)
 function PassiveMissiles__MoveMissiles()
     local i = 1
     local caster = nil
@@ -204,7 +192,6 @@ function PassiveMissiles__MoveMissiles()
     target = nil
 end
 
--- Original JASS function: PassiveMissiles__LaunchMissile (line 2966)
 function PassiveMissiles__LaunchMissile(caster, target, playSound)
     PassiveMissiles__PM_Count = __jint(PassiveMissiles__PM_Count + 1)
     PassiveMissiles__PM_Caster[PassiveMissiles__PM_Count] = caster
@@ -225,7 +212,6 @@ function PassiveMissiles__LaunchMissile(caster, target, playSound)
     end
 end
 
--- Original JASS function: PassiveMissiles__LaunchOneFromVolley (line 2992)
 function PassiveMissiles__LaunchOneFromVolley(caster, playSound)
     local target = nil
     if (((caster ~= nil) and PassiveMissiles__IsAlive(caster)) and (PassiveMissiles__GetProjectileCount(caster) > 0)) then
@@ -233,14 +219,13 @@ function PassiveMissiles__LaunchOneFromVolley(caster, playSound)
         if (target ~= nil) then
             PassiveMissiles__LaunchMissile(caster, target, playSound)
             target = nil
-            do return true end
+            return true
         end
     end
     target = nil
-    do return false end
+    return false
 end
 
--- Original JASS function: PassiveMissiles__ContinueVolley (line 3009)
 function PassiveMissiles__ContinueVolley()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -259,15 +244,14 @@ function PassiveMissiles__ContinueVolley()
     t = nil
 end
 
--- Original JASS function: PassiveMissiles__StartVolley (line 3031)
 function PassiveMissiles__StartVolley(caster, count)
     local t = nil
     local id = 0
     if (count <= 0) then
-        do return end
+        return
     end
     if (not PassiveMissiles__LaunchOneFromVolley(caster, true)) then
-        do return end
+        return
     end
     if (count > 1) then
         t = CreateTimer()
@@ -279,7 +263,6 @@ function PassiveMissiles__StartVolley(caster, count)
     t = nil
 end
 
--- Original JASS function: PassiveMissiles__FireForCaster (line 3056)
 function PassiveMissiles__FireForCaster()
     local caster = GetEnumUnit()
     local count = PassiveMissiles__GetProjectileCount(caster)
@@ -292,20 +275,17 @@ function PassiveMissiles__FireForCaster()
     caster = nil
 end
 
--- Original JASS function: PassiveMissiles__PeriodicFire (line 3070)
 function PassiveMissiles__PeriodicFire()
     ForGroup(PassiveMissiles__PM_Casters, PassiveMissiles__FireForCaster)
 end
 
--- Original JASS function: PassiveMissiles__OnHeroSkill (line 3074)
 function PassiveMissiles__OnHeroSkill()
     if (GetLearnedSkill() == PassiveMissiles__PM_ABILITY_ID) then
         GroupAddUnit(PassiveMissiles__PM_Casters, GetTriggerUnit())
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: PassiveMissiles__OnSummon (line 3082)
 function PassiveMissiles__OnSummon()
     local summoned = GetSummonedUnit()
     local summoner = GetSummoningUnit()
@@ -320,10 +300,9 @@ function PassiveMissiles__OnSummon()
     end
     summoned = nil
     summoner = nil
-    do return false end
+    return false
 end
 
--- Original JASS function: PassiveMissiles__RegisterExistingUnits (line 3102)
 function PassiveMissiles__RegisterExistingUnits()
     local g = CreateGroup()
     local u = nil
@@ -341,7 +320,6 @@ function PassiveMissiles__RegisterExistingUnits()
     u = nil
 end
 
--- Original JASS function: PassiveMissiles__Init (line 3124)
 function PassiveMissiles__Init()
     local skillTrigger = CreateTrigger()
     local summonTrigger = CreateTrigger()

@@ -2,12 +2,10 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 321 Player_Leaves
--- Original JASS function: Trig_Player_Leaves_Func003002 (line 18482)
 function Trig_Player_Leaves_Func003002()
     RemoveUnit(GetEnumUnit())
 end
 
--- Original JASS function: Trig_Player_Leaves_Actions (line 18486)
 function Trig_Player_Leaves_Actions()
     if FE_Roles.isAncient(GetTriggerPlayer()) then return end
     FE_Roster.defeat(GetTriggerPlayer())
@@ -18,7 +16,6 @@ function Trig_Player_Leaves_Actions()
     DestroyGroup(units)
 end
 
--- Original JASS function: InitTrig_Player_Leaves (line 18493)
 function InitTrig_Player_Leaves()
     gg_trg_Player_Leaves = CreateTrigger()
     FE_Roles.forEachPlayer(function(player)
@@ -29,12 +26,11 @@ end
 -- END FOREST SECTION 321
 
 -- BEGIN FOREST SECTION 322 Ancient_Leaves
--- Original JASS function: Trig_Ancient_Leaves_Actions (line 18511)
 function Trig_Ancient_Leaves_Actions()
     local leavingAncient = GetTriggerPlayer()
     if (leavingAncient ~= FE_Roles.ancient()) then
         leavingAncient = nil
-        do return end
+        return
     end
     PlayThematicMusicBJ("Tension")
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_436")
@@ -49,7 +45,6 @@ function Trig_Ancient_Leaves_Actions()
     leavingAncient = nil
 end
 
--- Original JASS function: InitTrig_Ancient_Leaves (line 18544)
 function InitTrig_Ancient_Leaves()
     local i = 0
     gg_trg_Ancient_Leaves = CreateTrigger()

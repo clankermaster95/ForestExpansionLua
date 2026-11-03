@@ -19,6 +19,12 @@ function FE_Shops.trace(player, text)
     end
 end
 
+-- Sale diagnostics have no guaranteed recipient (including buyerless sales).
+-- Keep the optional solo recipient and eligibility gate behind the shop API.
+function FE_Shops.traceDefault(text)
+    FE_Shops.trace(FE_Test and FE_Test.player, text)
+end
+
 function FE_Shops.radius(shop)
     local ability = BlzGetUnitAbility(shop, FourCC('Aall')) or BlzGetUnitAbility(shop, FourCC('Aneu'))
     return ability and BlzGetAbilityRealLevelField(ability, ABILITY_RLF_ACTIVATION_RADIUS, 0) or 0
@@ -96,7 +102,7 @@ function FE_Shops.observeSale(shop, buyer, item)
     local d = FE_Shops.diagnostics
     d.sales = d.sales + 1
     d.last = 'Sale #'..d.sales..': '..FE_Shops.raw(GetItemTypeId(item))..'; buyer='..FE_Shops.label(buyer)
-    FE_Shops.trace(FE_Test and FE_Test.player, d.last)
+    FE_Shops.traceDefault(d.last)
     -- An accepted order is not proof of the native recipient. Discard a stale
     -- cache when the sale identifies a different buyer.
     if buyer ~= FE_Shops.lastBuyer[shop] then

@@ -2,15 +2,10 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 51 Genesis
--- Original JASS function: Trig_Genesis_Conditions (line 7533)
 function Trig_Genesis_Conditions()
-    if ((not ((GetSpellAbilityId() == FourCC("A0AO"))))) then
-        do return false end
-    end
-    do return true end
+    return GetSpellAbilityId() == FourCC("A0AO")
 end
 
--- Original JASS function: Trig_Genesis_Actions (line 7540)
 function Trig_Genesis_Actions()
     local spellLoc = GetSpellTargetLoc()
     local caster = GetSpellAbilityUnit()
@@ -27,7 +22,7 @@ function Trig_Genesis_Actions()
     SetDestructableAnimationSpeed(tree, __jreal(1.2))
     SetUnitAnimation(caster, "Spell Second")
     TriggerSleepAction(__jreal(3.0))
-    if (((tree ~= nil)) and ((GetDestructableLife(tree) > __jreal(0)))) then
+    if ((tree ~= nil) and (GetDestructableLife(tree) > __jreal(0))) then
         treeLoc = GetDestructableLoc(tree)
         SetDestructableAnimationSpeed(tree, __jreal(1))
         KillDestructable(tree)
@@ -45,7 +40,6 @@ function Trig_Genesis_Actions()
     treant = nil
 end
 
--- Original JASS function: InitTrig_Genesis (line 7594)
 function InitTrig_Genesis()
     gg_trg_Genesis = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Genesis, EVENT_PLAYER_UNIT_SPELL_EFFECT)

@@ -2,34 +2,27 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 63 Vampiric_Wyrm
--- Original JASS function: Trig_Vampiric_Wyrm_Func001C (line 7995)
 function Trig_Vampiric_Wyrm_Func001C()
-    if (((GetUnitTypeId(GetConstructedStructure()) == FourCC("e005")))) then
-        do return true end
+    if (GetUnitTypeId(GetConstructedStructure()) == FourCC("e005")) then
+        return true
     end
-    if (((GetUnitTypeId(GetConstructedStructure()) == FourCC("e004")))) then
-        do return true end
+    if (GetUnitTypeId(GetConstructedStructure()) == FourCC("e004")) then
+        return true
     end
-    if (((GetUnitTypeId(GetConstructedStructure()) == FourCC("e006")))) then
-        do return true end
+    if (GetUnitTypeId(GetConstructedStructure()) == FourCC("e006")) then
+        return true
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: Trig_Vampiric_Wyrm_Conditions (line 8008)
 function Trig_Vampiric_Wyrm_Conditions()
-    if ((not Trig_Vampiric_Wyrm_Func001C())) then
-        do return false end
-    end
-    do return true end
+    return not not (Trig_Vampiric_Wyrm_Func001C())
 end
 
--- Original JASS function: Trig_Vampiric_Wyrm_Actions (line 8015)
 function Trig_Vampiric_Wyrm_Actions()
     BlzSetUnitBooleanFieldBJ(GetConstructedStructure(), UNIT_BF_IS_A_BUILDING, false)
 end
 
--- Original JASS function: InitTrig_Vampiric_Wyrm (line 8020)
 function InitTrig_Vampiric_Wyrm()
     gg_trg_Vampiric_Wyrm = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Vampiric_Wyrm, EVENT_PLAYER_UNIT_CONSTRUCT_FINISH)

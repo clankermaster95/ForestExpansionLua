@@ -254,8 +254,10 @@ check(Trig_Realm_of_darkness_Func002001002()==false,'darkness filter uses filter
 filterUnit=ally; check(Trig_Realm_of_darkness_Func002001002(),'darkness includes an enemy expander')
 event={unit=ally}; enumUnit=enemy; Trig_Realm_of_darkness_2_Actions()
 check(ally.abilities.A0B6==1 and not enemy.abilities.A0B6,'enter event buffs its entering unit')
-udg_Bans=0; udg_BannedAncientFire=0; check(Trig_AncientFire_Func001C(),'fire ban rejects closed ban window')
-udg_Bans=1; check(not Trig_AncientFire_Func001C(),'fire ban available during open window')
+udg_Bans=0; udg_BannedAncientFire=0; Trig_AncientFire_Actions()
+check(udg_Bans==0 and udg_BannedAncientFire==0,'fire ban rejects exhausted budget')
+udg_Bans=1; Trig_AncientFire_Actions()
+check(udg_Bans==0 and udg_BannedAncientFire==1,'fire ban consumes one available ban')
 
 FEEDRATE_MAX_PLAYERS=11; FEEDRATE_SYNC_PREFIX='feed'; FEEDRATE_NAME_SYNC_PREFIX='name'; FEEDRATE_FILE_PATH='test.txt'
 local function clearFeed()

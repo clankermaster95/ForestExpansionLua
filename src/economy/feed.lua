@@ -8,37 +8,33 @@ function FeedRate_Identity(p)
     return FE_FeedNames[GetPlayerId(p)] or GetPlayerName(p)
 end
 
--- Original JASS function: FeedRate_DebugError (line 5419)
 function FeedRate_DebugError(msg)
     DisplayTimedTextToForce(GetPlayersAll(), __jreal(20.00), __jconcat("|cffff0000[FeedRate Debug]|r ", msg))
 end
 
--- Original JASS function: FeedRate_Clamp (line 5423)
 function FeedRate_Clamp(rate)
     if (rate < 50) then
-        do return 50 end
+        return 50
     end
     if (rate > 100) then
-        do return 100 end
+        return 100
     end
-    do return rate end
+    return rate
 end
 
--- Original JASS function: FeedRate_FindChar (line 5435)
 function FeedRate_FindChar(data, wanted)
     local i = 0
     local len = StringLength(data)
     while true do
         if (i >= len) then break end
         if (SubString(data, i, __jint(i + 1)) == wanted) then
-            do return i end
+            return i
         end
         i = __jint(i + 1)
     end
-    do return __jint(-(1)) end
+    return __jint(-(1))
 end
 
--- Original JASS function: FeedRate_ParseRate (line 5452)
 function FeedRate_ParseRate(data)
     local digits = data:match("^%d+$") or data:match("^%d+:(%d+)$")
     local rate = digits and tonumber(digits)
@@ -46,12 +42,10 @@ function FeedRate_ParseRate(data)
     return FeedRate_Clamp(rate)
 end
 
--- Original JASS function: FeedRate_IsValidUser (line 5470)
 function FeedRate_IsValidUser(p)
-    do return ((GetPlayerController(p) == MAP_CONTROL_USER) and (GetPlayerSlotState(p) == PLAYER_SLOT_STATE_PLAYING)) end
+    return ((GetPlayerController(p) == MAP_CONTROL_USER) and (GetPlayerSlotState(p) == PLAYER_SLOT_STATE_PLAYING))
 end
 
--- Original JASS function: FeedRate_CountActiveUsers (line 5474)
 function FeedRate_CountActiveUsers()
     local i = 0
     local count = 0
@@ -62,15 +56,13 @@ function FeedRate_CountActiveUsers()
         end
         i = __jint(i + 1)
     end
-    do return count end
+    return count
 end
 
--- Original JASS function: FeedRate_PlayerNameHasBattleTag (line 5491)
 function FeedRate_PlayerNameHasBattleTag(p)
-    do return (FeedRate_FindChar(FeedRate_Identity(p), "#") >= 0) end
+    return (FeedRate_FindChar(FeedRate_Identity(p), "#") >= 0)
 end
 
--- Original JASS function: FeedRate_FindMatchingPlayerByName (line 5495)
 function FeedRate_FindMatchingPlayerByName(playerName)
     local i = 0
     local p = nil
@@ -78,14 +70,13 @@ function FeedRate_FindMatchingPlayerByName(playerName)
         if (i >= FEEDRATE_MAX_PLAYERS) then break end
         p = Player(i)
         if (FeedRate_IsValidUser(p) and (FeedRate_Identity(p) == playerName)) then
-            do return p end
+            return p
         end
         i = __jint(i + 1)
     end
-    do return nil end
+    return nil
 end
 
--- Original JASS function: FeedRate_Apply (line 5514)
 function FeedRate_Apply(p, rate)
     local pid = GetPlayerId(p)
     rate = FeedRate_Clamp(rate)
@@ -93,7 +84,6 @@ function FeedRate_Apply(p, rate)
     udg_ExperienceRate[pid] = I2R(rate)
 end
 
--- Original JASS function: FeedRate_SaveForPlayer (line 5522)
 function FeedRate_SaveForPlayer(p, rate)
     if GetLocalPlayer() == p and FeedRate_PlayerNameHasBattleTag(p) then
         -- Preloader files execute JASS even in a Lua map. Escape the JASS
@@ -107,29 +97,24 @@ function FeedRate_SaveForPlayer(p, rate)
     end
 end
 
--- Original JASS function: FeedRate_SelectRate (line 5533)
 function FeedRate_SelectRate(p, rate)
     FeedRate_Apply(p, rate)
     FeedRate_SaveForPlayer(p, rate)
     p = nil
 end
 
--- Original JASS function: FeedRate_ClickYes (line 5540)
 function FeedRate_ClickYes()
     FeedRate_SelectRate(GetTriggerPlayer(), 100)
 end
 
--- Original JASS function: FeedRate_ClickOtherTag (line 5544)
 function FeedRate_ClickOtherTag()
     FeedRate_SelectRate(GetTriggerPlayer(), 75)
 end
 
--- Original JASS function: FeedRate_ClickNo (line 5548)
 function FeedRate_ClickNo()
     FeedRate_SelectRate(GetTriggerPlayer(), 50)
 end
 
--- Original JASS function: FeedRate_OnRateSync (line 5552)
 function FeedRate_OnRateSync()
     local p = GetTriggerPlayer()
     local pid = GetPlayerId(p)
@@ -142,7 +127,6 @@ function FeedRate_OnRateSync()
     p = nil
 end
 
--- Original JASS function: FeedRate_OnNameSync (line 5565)
 function FeedRate_OnNameSync()
     local p = GetTriggerPlayer()
     local pid = GetPlayerId(p)
@@ -152,7 +136,6 @@ function FeedRate_OnNameSync()
     p = nil
 end
 
--- Original JASS function: FeedRate_ProcessPendingLoadForPlayer (line 5575)
 function FeedRate_ProcessPendingLoadForPlayer(p)
     local pid = GetPlayerId(p)
     if not FeedRate_IsValidUser(p) or FeedRate_Loaded[pid] or
@@ -169,7 +152,6 @@ function FeedRate_ProcessPendingLoadForPlayer(p)
     if not offline and finalRate ~= rate then FeedRate_SaveForPlayer(p, finalRate) end
 end
 
--- Original JASS function: FeedRate_ProcessPendingLoads (line 5621)
 function FeedRate_ProcessPendingLoads()
     local t = GetExpiredTimer()
     local i = 0
@@ -182,7 +164,6 @@ function FeedRate_ProcessPendingLoads()
     t = nil
 end
 
--- Original JASS function: FeedRate_TryLoadForPlayer (line 5638)
 function FeedRate_TryLoadForPlayer(i)
     local p = Player(i)
     if FeedRate_IsValidUser(p) then
@@ -193,7 +174,6 @@ function FeedRate_TryLoadForPlayer(i)
     p = nil
 end
 
--- Original JASS function: FeedRate_StartLoadAll (line 5650)
 function FeedRate_StartLoadAll()
     local t = GetExpiredTimer()
     local i = 0
@@ -211,7 +191,6 @@ function FeedRate_StartLoadAll()
     t = nil
 end
 
--- Original JASS function: FeedRate_ShowDialogsForMissingLoads (line 5673)
 function FeedRate_ShowDialogsForMissingLoads()
     local t = GetExpiredTimer()
     local i = 0
@@ -226,7 +205,6 @@ function FeedRate_ShowDialogsForMissingLoads()
     t = nil
 end
 
--- Original JASS function: FeedRate_SetupDialog (line 5692)
 function FeedRate_SetupDialog()
     DialogClearBJ(udg_StartupDialog)
     DialogSetMessageBJ(udg_StartupDialog, "Did you play this map before?")
@@ -244,7 +222,6 @@ function FeedRate_SetupDialog()
     TriggerAddAction(FeedRate_NoTrigger, FeedRate_ClickNo)
 end
 
--- Original JASS function: Trig_AutoFeedRate_Actions (line 5713)
 function Trig_AutoFeedRate_Actions()
     local i = 0
     local loadTimer = CreateTimer()
@@ -269,7 +246,6 @@ function Trig_AutoFeedRate_Actions()
     dialogTimer = nil
 end
 
--- Original JASS function: InitTrig_AutoFeedRate (line 5746)
 function InitTrig_AutoFeedRate()
     for slot = 0, FEEDRATE_MAX_PLAYERS - 1 do
         FE_FeedNames[slot] = GetPlayerName(Player(slot))
@@ -281,12 +257,10 @@ end
 -- END FOREST SECTION 21
 
 -- BEGIN FOREST SECTION 22 TimeToAncientSpawn_Copy
--- Original JASS function: Trig_TimeToAncientSpawn_Copy_Actions (line 5754)
 function Trig_TimeToAncientSpawn_Copy_Actions()
     DisableTrigger(gg_trg_SetFeed)
 end
 
--- Original JASS function: InitTrig_TimeToAncientSpawn_Copy (line 5759)
 function InitTrig_TimeToAncientSpawn_Copy()
     gg_trg_TimeToAncientSpawn_Copy = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_TimeToAncientSpawn_Copy, __jreal(60.00))
@@ -295,42 +269,37 @@ end
 -- END FOREST SECTION 22
 
 -- BEGIN FOREST SECTION 23 HandleSetRate
--- Original JASS function: SetFeedIsDigit (line 5768)
 function SetFeedIsDigit(char)
     local digits = "0123456789"
     local i = 0
     while true do
         if (i >= 10) then break end
         if (char == SubString(digits, i, __jint(i + 1))) then
-            do return true end
+            return true
         end
         i = __jint(i + 1)
     end
-    do return false end
+    return false
 end
 
--- Original JASS function: SetFeedClampRate (line 5783)
 function SetFeedClampRate(rate)
     if (rate < __jreal(50.00)) then
-        do return __jreal(50.00) end
+        return __jreal(50.00)
     end
     if (rate > __jreal(200.00)) then
-        do return __jreal(200.00) end
+        return __jreal(200.00)
     end
-    do return rate end
+    return rate
 end
 
--- Original JASS function: SetFeedErrorRateOutOfRange (line 5793)
 function SetFeedErrorRateOutOfRange(whichPlayer, value)
     DisplayTextToPlayer(whichPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat("Error: Feedrate ", value), " is outside allowed range. Use 50 to 200."))
 end
 
--- Original JASS function: SetFeedErrorCannotFindPlayer (line 5797)
 function SetFeedErrorCannotFindPlayer(whichPlayer, playerName)
     DisplayTextToPlayer(whichPlayer, __jreal(0), __jreal(0), __jconcat("Error: Cannot find player called ", playerName))
 end
 
--- Original JASS function: SetFeedTrimLeft (line 5801)
 function SetFeedTrimLeft(s)
     local i = 0
     local len = StringLength(s)
@@ -338,10 +307,9 @@ function SetFeedTrimLeft(s)
         if ((i >= len) or (SubString(s, i, __jint(i + 1)) ~= " ")) then break end
         i = __jint(i + 1)
     end
-    do return SubString(s, i, len) end
+    return SubString(s, i, len)
 end
 
--- Original JASS function: SetFeedFirstToken (line 5813)
 function SetFeedFirstToken(s)
     local i = 0
     local len = StringLength(s)
@@ -349,10 +317,9 @@ function SetFeedFirstToken(s)
         if ((i >= len) or (SubString(s, i, __jint(i + 1)) == " ")) then break end
         i = __jint(i + 1)
     end
-    do return SubString(s, 0, i) end
+    return SubString(s, 0, i)
 end
 
--- Original JASS function: SetFeedRestAfterFirstToken (line 5825)
 function SetFeedRestAfterFirstToken(s)
     local i = 0
     local len = StringLength(s)
@@ -364,27 +331,25 @@ function SetFeedRestAfterFirstToken(s)
         if ((i >= len) or (SubString(s, i, __jint(i + 1)) ~= " ")) then break end
         i = __jint(i + 1)
     end
-    do return SubString(s, i, len) end
+    return SubString(s, i, len)
 end
 
--- Original JASS function: SetFeedIsUnsignedInteger (line 5842)
 function SetFeedIsUnsignedInteger(s)
     local i = 0
     local len = StringLength(s)
     if (len <= 0) then
-        do return false end
+        return false
     end
     while true do
         if (i >= len) then break end
         if (not SetFeedIsDigit(SubString(s, i, __jint(i + 1)))) then
-            do return false end
+            return false
         end
         i = __jint(i + 1)
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: SetFeedIsUnsignedReal (line 5861)
 function SetFeedIsUnsignedReal(s)
     local i = 0
     local len = StringLength(s)
@@ -392,7 +357,7 @@ function SetFeedIsUnsignedReal(s)
     local digitCount = 0
     local c = nil
     if (len <= 0) then
-        do return false end
+        return false
     end
     while true do
         if (i >= len) then break end
@@ -402,85 +367,81 @@ function SetFeedIsUnsignedReal(s)
         elseif (c == ".") then
             dotCount = __jint(dotCount + 1)
             if (dotCount > 1) then
-                do return false end
+                return false
             end
         else
-            do return false end
+            return false
         end
         i = __jint(i + 1)
     end
-    do return (digitCount > 0) end
+    return (digitCount > 0)
 end
 
--- Original JASS function: SetFeedPercentToMultiplierText (line 5893)
 function SetFeedPercentToMultiplierText(percent)
     local whole = __jdiv(percent, 100)
     local frac = __jint(percent - __jint(whole * 100))
     if (frac == 0) then
-        do return I2S(whole) end
+        return I2S(whole)
     end
     if (ModuloInteger(frac, 10) == 0) then
-        do return __jconcat(__jconcat(I2S(whole), "."), I2S(__jdiv(frac, 10))) end
+        return __jconcat(__jconcat(I2S(whole), "."), I2S(__jdiv(frac, 10)))
     end
     if (frac < 10) then
-        do return __jconcat(__jconcat(I2S(whole), ".0"), I2S(frac)) end
+        return __jconcat(__jconcat(I2S(whole), ".0"), I2S(frac))
     end
-    do return __jconcat(__jconcat(I2S(whole), "."), I2S(frac)) end
+    return __jconcat(__jconcat(I2S(whole), "."), I2S(frac))
 end
 
--- Original JASS function: SetFeedColorToPlayerNumber (line 5912)
 function SetFeedColorToPlayerNumber(token)
     local c = StringCase(token, false)
     if (c == "red") then
-        do return 1 end
+        return 1
     end
     if (c == "blue") then
-        do return 2 end
+        return 2
     end
     if (c == "teal") then
-        do return 3 end
+        return 3
     end
     if (c == "purple") then
-        do return 4 end
+        return 4
     end
     if (c == "yellow") then
-        do return 5 end
+        return 5
     end
     if (c == "orange") then
-        do return 6 end
+        return 6
     end
     if (c == "green") then
-        do return 7 end
+        return 7
     end
     if (c == "pink") then
-        do return 8 end
+        return 8
     end
     if ((c == "gray") or (c == "grey")) then
-        do return 9 end
+        return 9
     end
     if (((c == "lightblue") or (c == "light-blue")) or (c == "light_blue")) then
-        do return 10 end
+        return 10
     end
     if (((c == "darkgreen") or (c == "dark-green")) or (c == "dark_green")) then
-        do return 11 end
+        return 11
     end
-    do return 0 end
+    return 0
 end
 
--- Original JASS function: SetFeedTwoWordColorToPlayerNumber (line 5952)
 function SetFeedTwoWordColorToPlayerNumber(token1, token2)
     local c1 = StringCase(token1, false)
     local c2 = StringCase(token2, false)
     if ((c1 == "light") and (c2 == "blue")) then
-        do return 10 end
+        return 10
     end
     if ((c1 == "dark") and (c2 == "green")) then
-        do return 11 end
+        return 11
     end
-    do return 0 end
+    return 0
 end
 
--- Original JASS function: SetFeedSetAll (line 5967)
 function SetFeedSetAll(rate)
     local i = 0
     while true do
@@ -490,7 +451,6 @@ function SetFeedSetAll(rate)
     end
 end
 
--- Original JASS function: HandleSetExp (line 5977)
 function HandleSetExp(triggerPlayer, message)
     local trimmed = SetFeedTrimLeft(SubString(message, 8, StringLength(message)))
     local token1 = SetFeedFirstToken(trimmed)
@@ -509,23 +469,23 @@ function HandleSetExp(triggerPlayer, message)
     local singleReal = __jreal(0.00)
     if (token1 == "") then
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Failed to set feedrate")
-        do return end
+        return
     end
     if (((rest == "") and (StringLength(token1) > 1)) and (SubString(token1, 0, 1) == "x")) then
         multText = SubString(token1, 1, StringLength(token1))
         if (not SetFeedIsUnsignedReal(multText)) then
             DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Failed to set feedrate")
-            do return end
+            return
         end
         multiplier = S2R(multText)
         if (multiplier <= __jreal(0.00)) then
             DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Failed to set feedrate")
-            do return end
+            return
         end
         if (((multiplier >= __jreal(50.00)) and (multiplier <= __jreal(200.00))) and (multiplier == I2R(R2I(multiplier)))) then
             suggestedPercent = R2I(multiplier)
             DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat("Error: Did you mean -setfeed x", SetFeedPercentToMultiplierText(suggestedPercent)), "? (multiplies every feedrate by "), SetFeedPercentToMultiplierText(suggestedPercent)), ") or did you mean to do -setfeed "), I2S(suggestedPercent)), " (sets everyone's feedrate to "), I2S(suggestedPercent)), "%)"))
-            do return end
+            return
         end
         i = 0
         while true do
@@ -538,29 +498,29 @@ function HandleSetExp(triggerPlayer, message)
             i = __jint(i + 1)
         end
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat("Every feedrate was multiplied by ", multText), ". Final values are limited to 50%-200%."))
-        do return end
+        return
     end
     if (rest == "") then
         if SetFeedIsUnsignedInteger(token1) then
             y = S2I(token1)
             if ((y < 50) or (y > 200)) then
                 DisplayTextToPlayer((triggerPlayer), __jreal(0), __jreal(0), __jconcat(__jconcat("Error: Feedrate ", (token1)), " is outside allowed range. Use 50 to 200."))
-                do return end
+                return
             end
             SetFeedSetAll(y)
             DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat("Feedrate of every player is set to ", I2S(y)), "%"))
-            do return end
+            return
         end
         if SetFeedIsUnsignedReal(token1) then
             singleReal = S2R(token1)
             if ((singleReal >= __jreal(0.50)) and (singleReal <= __jreal(2.00))) then
                 suggestedPercent = R2I(__jreal(__jreal(singleReal * __jreal(100.00)) + __jreal(0.50)))
                 DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat("Error: Did you mean -setfeed x", token1), "? (multiplies every feedrate by "), token1), ") or did you mean to -setfeed "), I2S(suggestedPercent)), " (sets everyone's feedrate to "), I2S(suggestedPercent)), "%)."))
-                do return end
+                return
             end
         end
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Failed to set feedrate")
-        do return end
+        return
     end
     token2 = SetFeedFirstToken(rest)
     extra = SetFeedRestAfterFirstToken(rest)
@@ -585,32 +545,32 @@ function HandleSetExp(triggerPlayer, message)
     end
     if (token2 == "") then
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Error: Missing feedrate value.")
-        do return end
+        return
     end
     if (extra ~= "") then
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Error: Too many arguments for -setfeed.")
-        do return end
+        return
     end
     if (not SetFeedIsUnsignedInteger(token2)) then
         if ((playerNumber == 0) and (not SetFeedIsUnsignedInteger(token1))) then
             DisplayTextToPlayer((triggerPlayer), __jreal(0), __jreal(0), __jconcat("Error: Cannot find player called ", (playerNameForError)))
-            do return end
+            return
         end
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Error: Feedrate must be a whole number from 50 to 200.")
-        do return end
+        return
     end
     y = S2I(token2)
     if ((playerNumber == 0) and (not SetFeedIsUnsignedInteger(token1))) then
         DisplayTextToPlayer((triggerPlayer), __jreal(0), __jreal(0), __jconcat("Error: Cannot find player called ", (playerNameForError)))
-        do return end
+        return
     end
     if ((y < 50) or (y > 200)) then
         DisplayTextToPlayer((triggerPlayer), __jreal(0), __jreal(0), __jconcat(__jconcat("Error: Feedrate ", (token2)), " is outside allowed range. Use 50 to 200."))
-        do return end
+        return
     end
     if ((playerNumber < 1) or (playerNumber > 11)) then
         DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), "Error: Player number must be between 1 and 11.")
-        do return end
+        return
     end
     udg_ExperienceRate[__jint(playerNumber - 1)] = I2R(y)
     DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat("Feedrate of player ", I2S(playerNumber)), " is set to "), I2S(y)), "%"))
@@ -618,15 +578,13 @@ end
 -- END FOREST SECTION 23
 
 -- BEGIN FOREST SECTION 24 FeedReduction
--- Original JASS function: FR_ScaledInt (line 6131)
 function FR_ScaledInt(value, percent)
     if ((value <= 0) or (percent <= __jreal(0.00))) then
-        do return 0 end
+        return 0
     end
-    do return R2I(__jreal(__jreal(__jreal(I2R(value) * percent) * __jreal(0.01)) + __jreal(0.50))) end
+    return R2I(__jreal(__jreal(__jreal(I2R(value) * percent) * __jreal(0.01)) + __jreal(0.50)))
 end
 
--- Original JASS function: FR_ApplyGoldBountyRate (line 6138)
 function FR_ApplyGoldBountyRate(target, percent)
     local base = BlzGetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_BASE)
     local dice = BlzGetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_NUMBER_OF_DICE)
@@ -644,7 +602,6 @@ function FR_ApplyGoldBountyRate(target, percent)
     end
 end
 
--- Original JASS function: Trig_FeedReduction_Actions (line 6156)
 function Trig_FeedReduction_Actions()
     local target = udg_DamageEventTarget
     local rate = udg_ExperienceRate[(__jint(GetConvertedPlayerId(GetOwningPlayer(target)) - 1))]
@@ -653,7 +610,6 @@ function Trig_FeedReduction_Actions()
     target = nil
 end
 
--- Original JASS function: InitTrig_FeedReduction (line 6167)
 function InitTrig_FeedReduction()
     gg_trg_FeedReduction = CreateTrigger()
     h__TriggerRegisterVariableEvent(gg_trg_FeedReduction, "udg_LethalDamageEvent", EQUAL, __jreal(1.00))
@@ -662,12 +618,10 @@ end
 -- END FOREST SECTION 24
 
 -- BEGIN FOREST SECTION 25 SetFeed
--- Original JASS function: Trig_SetFeed_Actions (line 6175)
 function Trig_SetFeed_Actions()
     HandleSetExp(GetTriggerPlayer(), GetEventPlayerChatString())
 end
 
--- Original JASS function: InitTrig_SetFeed (line 6180)
 function InitTrig_SetFeed()
     gg_trg_SetFeed = CreateTrigger()
     TriggerRegisterPlayerChatEvent(gg_trg_SetFeed, Player(0), "-setfeed", false)
@@ -676,35 +630,33 @@ end
 -- END FOREST SECTION 25
 
 -- BEGIN FOREST SECTION 26 CheckFeedRates
--- Original JASS function: Trig_CheckFeedRates_PlayerLabel (line 6189)
 function Trig_CheckFeedRates_PlayerLabel(i)
     if (i == 0) then
-        do return "|cffff0303Player 1|r" end
+        return "|cffff0303Player 1|r"
     elseif (i == 1) then
-        do return "|cff0042ffPlayer 2|r" end
+        return "|cff0042ffPlayer 2|r"
     elseif (i == 2) then
-        do return "|cff1ce6b9Player 3|r" end
+        return "|cff1ce6b9Player 3|r"
     elseif (i == 3) then
-        do return "|cff540081Player 4|r" end
+        return "|cff540081Player 4|r"
     elseif (i == 4) then
-        do return "|cfffffc01Player 5|r" end
+        return "|cfffffc01Player 5|r"
     elseif (i == 5) then
-        do return "|cffff8a0ePlayer 6|r" end
+        return "|cffff8a0ePlayer 6|r"
     elseif (i == 6) then
-        do return "|cff20c000Player 7|r" end
+        return "|cff20c000Player 7|r"
     elseif (i == 7) then
-        do return "|cffe55bb0Player 8|r" end
+        return "|cffe55bb0Player 8|r"
     elseif (i == 8) then
-        do return "|cff959697Player 9|r" end
+        return "|cff959697Player 9|r"
     elseif (i == 9) then
-        do return "|cff7ebff1Player 10|r" end
+        return "|cff7ebff1Player 10|r"
     elseif (i == 10) then
-        do return "|cff106246Player 11|r" end
+        return "|cff106246Player 11|r"
     end
-    do return __jconcat("Player ", I2S(__jint(i + 1))) end
+    return __jconcat("Player ", I2S(__jint(i + 1)))
 end
 
--- Original JASS function: Trig_CheckFeedRates_Actions (line 6217)
 function Trig_CheckFeedRates_Actions()
     local i = 0
     local output = "|cffffcc00Current feed rates:|r"
@@ -716,7 +668,6 @@ function Trig_CheckFeedRates_Actions()
     DisplayTextToPlayer(GetTriggerPlayer(), __jreal(0), __jreal(0), output)
 end
 
--- Original JASS function: InitTrig_CheckFeedRates (line 6231)
 function InitTrig_CheckFeedRates()
     local i = 0
     gg_trg_CheckFeedRates = CreateTrigger()

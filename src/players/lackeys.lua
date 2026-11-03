@@ -2,17 +2,14 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 317 Lackey_Respawn
--- Original JASS function: LackeyRespawn_IsValidType (line 18016)
 function LackeyRespawn_IsValidType(unitType)
-    do return (((((((((((unitType == FourCC("e00E")) or (unitType == FourCC("e00C"))) or (unitType == FourCC("e002"))) or (unitType == FourCC("e009"))) or (unitType == FourCC("e00A"))) or (unitType == FourCC("e00G"))) or (unitType == FourCC("e00J"))) or (unitType == FourCC("e00O"))) or (unitType == FourCC("e00H"))) or (unitType == FourCC("e00N"))) or (unitType == FourCC("e00S"))) end
+    return (((((((((((unitType == FourCC("e00E")) or (unitType == FourCC("e00C"))) or (unitType == FourCC("e002"))) or (unitType == FourCC("e009"))) or (unitType == FourCC("e00A"))) or (unitType == FourCC("e00G"))) or (unitType == FourCC("e00J"))) or (unitType == FourCC("e00O"))) or (unitType == FourCC("e00H"))) or (unitType == FourCC("e00N"))) or (unitType == FourCC("e00S")))
 end
 
--- Original JASS function: LackeyRespawn_IsPlayerPresent (line 18020)
 function LackeyRespawn_IsPlayerPresent(playerId)
-    do return (GetPlayerSlotState(Player(playerId)) == PLAYER_SLOT_STATE_PLAYING) end
+    return (GetPlayerSlotState(Player(playerId)) == PLAYER_SLOT_STATE_PLAYING)
 end
 
--- Original JASS function: LackeyRespawn_OnTimer (line 18024)
 function LackeyRespawn_OnTimer()
     local t = GetExpiredTimer()
     local id = GetHandleId(t)
@@ -34,12 +31,10 @@ function LackeyRespawn_OnTimer()
     t = nil
 end
 
--- Original JASS function: Trig_Lackey_Respawn_Conditions (line 18048)
 function Trig_Lackey_Respawn_Conditions()
-    do return LackeyRespawn_IsValidType(GetUnitTypeId(GetTriggerUnit())) end
+    return LackeyRespawn_IsValidType(GetUnitTypeId(GetTriggerUnit()))
 end
 
--- Original JASS function: Trig_Lackey_Respawn_Actions (line 18052)
 function Trig_Lackey_Respawn_Actions()
     local dying = GetTriggerUnit()
     local owner = GetOwningPlayer(dying)
@@ -48,10 +43,10 @@ function Trig_Lackey_Respawn_Actions()
     local t = nil
     local td = nil
     local id = 0
-    if (not ((GetPlayerSlotState(Player((playerId))) == PLAYER_SLOT_STATE_PLAYING))) then
+    if (not (GetPlayerSlotState(Player((playerId))) == PLAYER_SLOT_STATE_PLAYING)) then
         dying = nil
         owner = nil
-        do return end
+        return
     end
     t = CreateTimer()
     td = CreateTimerDialog(t)
@@ -70,7 +65,6 @@ function Trig_Lackey_Respawn_Actions()
     t = nil
 end
 
--- Original JASS function: InitTrig_Lackey_Respawn (line 18090)
 function InitTrig_Lackey_Respawn()
     gg_trg_Lackey_Respawn = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Lackey_Respawn, EVENT_PLAYER_UNIT_DEATH)
@@ -80,57 +74,41 @@ end
 -- END FOREST SECTION 317
 
 -- BEGIN FOREST SECTION 318 Death_start
--- Original JASS function: Trig_Death_start_Conditions (line 18099)
 function Trig_Death_start_Conditions()
-    if ((not ((IsUnitType(GetTriggerUnit(), UNIT_TYPE_STRUCTURE) == false)))) then
-        do return false end
+    if (not (IsUnitType(GetTriggerUnit(), UNIT_TYPE_STRUCTURE) == false)) then
+        return false
     end
-    if ((not ((IsUnitType(GetTriggerUnit(), UNIT_TYPE_ANCIENT) == true)))) then
-        do return false end
+    if (not (IsUnitType(GetTriggerUnit(), UNIT_TYPE_ANCIENT) == true)) then
+        return false
     end
-    if ((not ((IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true)))) then
-        do return false end
+    if (not (IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true)) then
+        return false
     end
-    do return true end
+    return true
 end
 
--- Original JASS function: Trig_Death_start_Func002002 (line 18112)
 function Trig_Death_start_Func002002()
     RemoveUnit(GetEnumUnit())
 end
 
--- Original JASS function: Trig_Death_start_Func010Func001C (line 18116)
 function Trig_Death_start_Func010Func001C()
-    if ((not ((IsPlayerAlly(udg_DeadPlayer, GetEnumPlayer()) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsPlayerAlly(udg_DeadPlayer, GetEnumPlayer()) == true
 end
 
--- Original JASS function: Trig_Death_start_Func010A (line 18123)
 function Trig_Death_start_Func010A()
     if (Trig_Death_start_Func010Func001C()) then
         SetPlayerAllianceStateBJ(udg_DeadPlayer, GetEnumPlayer(), bj_ALLIANCE_UNALLIED)
         SetPlayerAllianceStateBJ(GetEnumPlayer(), udg_DeadPlayer, bj_ALLIANCE_UNALLIED)
-    else
     end
 end
 
--- Original JASS function: Trig_Death_start_Func011Func001C (line 18131)
-function Trig_Death_start_Func011Func001C()
-    do return true end
-end
-
--- Original JASS function: Trig_Death_start_Func011A (line 18135)
 function Trig_Death_start_Func011A()
-    if ((true)) then
+    if (true) then
         SetPlayerAllianceStateBJ(udg_DeadPlayer, GetEnumPlayer(), bj_ALLIANCE_ALLIED_VISION)
         SetPlayerAllianceStateBJ(GetEnumPlayer(), udg_DeadPlayer, bj_ALLIANCE_ALLIED_VISION)
-    else
     end
 end
 
--- Original JASS function: Trig_Death_start_Actions (line 18143)
 function Trig_Death_start_Actions()
     local dying = GetTriggerUnit()
     local player = GetOwningPlayer(dying)
@@ -156,7 +134,6 @@ function Trig_Death_start_Actions()
     SetPlayerAllianceStateBJ(FE_Roles.ancient(), player, bj_ALLIANCE_ALLIED_VISION)
 end
 
--- Original JASS function: InitTrig_Death_start (line 18161)
 function InitTrig_Death_start()
     gg_trg_Death_start = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Death_start, EVENT_PLAYER_UNIT_DEATH)
@@ -166,7 +143,6 @@ end
 -- END FOREST SECTION 318
 
 -- BEGIN FOREST SECTION 319 Spawn_Lackey
--- Original JASS function: SpawnLackey_EnsureSetup (line 18171)
 function SpawnLackey_EnsureSetup()
     if (SpawnLackey_Hash == nil) then
         SpawnLackey_Hash = InitHashtable()
@@ -177,17 +153,14 @@ function SpawnLackey_EnsureSetup()
     end
 end
 
--- Original JASS function: SpawnLackey_GetFountainCenterX (line 18182)
 function SpawnLackey_GetFountainCenterX()
-    do return __jreal((__jreal(GetRectMinX(gg_rct_Fountain) + GetRectMaxX(gg_rct_Fountain))) * __jreal(0.50)) end
+    return __jreal((__jreal(GetRectMinX(gg_rct_Fountain) + GetRectMaxX(gg_rct_Fountain))) * __jreal(0.50))
 end
 
--- Original JASS function: SpawnLackey_GetFountainCenterY (line 18186)
 function SpawnLackey_GetFountainCenterY()
-    do return __jreal((__jreal(GetRectMinY(gg_rct_Fountain) + GetRectMaxY(gg_rct_Fountain))) * __jreal(0.50)) end
+    return __jreal((__jreal(GetRectMinY(gg_rct_Fountain) + GetRectMaxY(gg_rct_Fountain))) * __jreal(0.50))
 end
 
--- Original JASS function: SpawnLackey_PanCameraToFountainForPlayer (line 18190)
 function SpawnLackey_PanCameraToFountainForPlayer(whichPlayer)
     local x = (__jreal((__jreal(GetRectMinX(gg_rct_Fountain) + GetRectMaxX(gg_rct_Fountain))) * __jreal(0.50)))
     local y = (__jreal((__jreal(GetRectMinY(gg_rct_Fountain) + GetRectMaxY(gg_rct_Fountain))) * __jreal(0.50)))
@@ -196,50 +169,48 @@ function SpawnLackey_PanCameraToFountainForPlayer(whichPlayer)
     end
 end
 
--- Original JASS function: SpawnLackey_GetLackeyType (line 18199)
 function SpawnLackey_GetLackeyType()
     local ancientUnitType = GetUnitTypeId(udg_AncientUnit)
     if (ancientUnitType == FourCC("O00A")) then
-        do return FourCC("e00C") end
+        return FourCC("e00C")
     end
     if (ancientUnitType == FourCC("O00S")) then
-        do return FourCC("e002") end
+        return FourCC("e002")
     end
     if (ancientUnitType == FourCC("O00L")) then
-        do return FourCC("e009") end
+        return FourCC("e009")
     end
     if (ancientUnitType == FourCC("O004")) then
-        do return FourCC("e00A") end
+        return FourCC("e00A")
     end
     if (ancientUnitType == FourCC("O008")) then
-        do return FourCC("e00N") end
+        return FourCC("e00N")
     end
     if (ancientUnitType == FourCC("O01V")) then
-        do return FourCC("e00G") end
+        return FourCC("e00G")
     end
     if (ancientUnitType == FourCC("O016")) then
-        do return FourCC("e00J") end
+        return FourCC("e00J")
     end
     if (ancientUnitType == FourCC("O00D")) then
-        do return FourCC("e00O") end
+        return FourCC("e00O")
     end
     if (ancientUnitType == FourCC("O01X")) then
-        do return FourCC("e00H") end
+        return FourCC("e00H")
     end
     if (ancientUnitType == FourCC("O01Z")) then
-        do return FourCC("e00E") end
+        return FourCC("e00E")
     end
     if (ancientUnitType == FourCC("O01D")) then
-        do return FourCC("e00S") end
+        return FourCC("e00S")
     end
-    do return 0 end
+    return 0
 end
 
--- Original JASS function: SpawnLackey_CreateAtXY (line 18239)
 function SpawnLackey_CreateAtXY(deadPlayer, lackeyType, x, y)
     local lackey = nil
     if (lackeyType == 0) then
-        do return end
+        return
     end
     lackey = CreateUnit(deadPlayer, lackeyType, x, y, bj_UNIT_FACING)
     if (lackey ~= nil) then
@@ -248,12 +219,10 @@ function SpawnLackey_CreateAtXY(deadPlayer, lackeyType, x, y)
     lackey = nil
 end
 
--- Original JASS function: SpawnLackey_CreateAtLoc (line 18255)
 function SpawnLackey_CreateAtLoc(deadPlayer, lackeyType, spawnLoc)
     SpawnLackey_CreateAtXY(deadPlayer, lackeyType, GetLocationX(spawnLoc), GetLocationY(spawnLoc))
 end
 
--- Original JASS function: SpawnLackey_DelayedTimerExpires (line 18259)
 function SpawnLackey_DelayedTimerExpires()
     local t = GetExpiredTimer()
     local timerId = GetHandleId(t)
@@ -279,7 +248,6 @@ function SpawnLackey_DelayedTimerExpires()
     deadPlayer = nil
 end
 
--- Original JASS function: SpawnLackey_StartDelayedTimer (line 18286)
 function SpawnLackey_StartDelayedTimer(deadPlayer, lackeyType, remaining)
     local playerIndex = GetPlayerId(deadPlayer)
     local t = CreateTimer()
@@ -310,7 +278,6 @@ function SpawnLackey_StartDelayedTimer(deadPlayer, lackeyType, remaining)
     t = nil
 end
 
--- Original JASS function: Trig_Spawn_Lackey_Actions (line 18326)
 function Trig_Spawn_Lackey_Actions()
     local deadPlayer = udg_DeadPlayer
     local x, y = GetLocationX(udg_LocationOfDeath), GetLocationY(udg_LocationOfDeath)
@@ -329,7 +296,6 @@ function Trig_Spawn_Lackey_Actions()
     else SpawnLackey_CreateAtXY(deadPlayer, lackeyType, x, y) end
 end
 
--- Original JASS function: InitTrig_Spawn_Lackey (line 18356)
 function InitTrig_Spawn_Lackey()
     SpawnLackey_EnsureSetup()
     gg_trg_Spawn_Lackey = CreateTrigger()
@@ -338,116 +304,70 @@ end
 -- END FOREST SECTION 319
 
 -- BEGIN FOREST SECTION 320 MiniMinis
--- Original JASS function: Trig_MiniMinis_Conditions (line 18365)
 function Trig_MiniMinis_Conditions()
-    if ((not ((IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true
 end
 
--- Original JASS function: Trig_MiniMinis_Func003C (line 18372)
 function Trig_MiniMinis_Func003C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00C"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00C")
 end
 
--- Original JASS function: Trig_MiniMinis_Func005C (line 18379)
 function Trig_MiniMinis_Func005C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00G"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00G")
 end
 
--- Original JASS function: Trig_MiniMinis_Func007C (line 18386)
 function Trig_MiniMinis_Func007C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00A"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00A")
 end
 
--- Original JASS function: Trig_MiniMinis_Func009C (line 18393)
 function Trig_MiniMinis_Func009C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00N"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00N")
 end
 
--- Original JASS function: Trig_MiniMinis_Func011C (line 18400)
 function Trig_MiniMinis_Func011C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e009"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e009")
 end
 
--- Original JASS function: Trig_MiniMinis_Func013C (line 18407)
 function Trig_MiniMinis_Func013C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00J"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00J")
 end
 
--- Original JASS function: Trig_MiniMinis_Func015C (line 18414)
 function Trig_MiniMinis_Func015C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00O"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00O")
 end
 
--- Original JASS function: Trig_MiniMinis_Func017C (line 18421)
 function Trig_MiniMinis_Func017C()
-    if ((not ((GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00H"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(GetKillingUnitBJ()) == FourCC("e00H")
 end
 
--- Original JASS function: Trig_MiniMinis_Actions (line 18428)
 function Trig_MiniMinis_Actions()
     if (Trig_MiniMinis_Func003C()) then
         AddSpecialEffectLocBJ(GetUnitLoc(GetDyingUnit()), "Abilities\\Spells\\Undead\\DarkRitual\\DarkRitualTarget.mdl")
         CreateNUnitsAtLoc(1, FourCC("e00D"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func005C()) then
         CreateNUnitsAtLoc(1, FourCC("e00F"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func007C()) then
         CreateNUnitsAtLoc(1, FourCC("e00B"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func009C()) then
         CreateNUnitsAtLoc(1, FourCC("e00P"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func011C()) then
         CreateNUnitsAtLoc(1, FourCC("e008"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func013C()) then
         CreateNUnitsAtLoc(1, FourCC("e00K"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func015C()) then
         CreateNUnitsAtLoc(1, FourCC("e00M"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
     if (Trig_MiniMinis_Func017C()) then
         CreateNUnitsAtLoc(1, FourCC("e00I"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
-    else
     end
 end
 
--- Original JASS function: InitTrig_MiniMinis (line 18472)
 function InitTrig_MiniMinis()
     gg_trg_MiniMinis = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_MiniMinis, EVENT_PLAYER_UNIT_DEATH)

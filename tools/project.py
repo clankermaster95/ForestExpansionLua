@@ -170,6 +170,8 @@ def build():
         Catalog().validate()
         recipe_data.generate()
     if 'src/commands/test_data.lua' in cfg['header']:
+        import faction_data
+        faction_data.generate()
         import test_data
         test_data.generate()
         import debug_reference

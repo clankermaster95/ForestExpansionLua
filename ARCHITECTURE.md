@@ -4,7 +4,17 @@ The editable gameplay source now has **60 named modules**, consolidated from the
 
 `265_Remove_Selector.lua` was the old source file for removing the selection wisp after a hero/race purchase. It no longer exists in active source. Its corrected callbacks are in `src/game/selection.lua`, beside the other picking code. Historical function names remain because triggers and cross-system calls reference them. Section comments and `reports/consolidation.json` retain provenance without requiring 375 editable files.
 
-The consolidation preserves all 1,543 functions from those files, including their compiled instructions, in both Lua numeric configurations. `src/initialization.lua` and `src/bootstrap.lua` retain their exact pre-consolidation bytes and execution order. This is a source consolidation, not a claim that all inherited GUI-style logic has been redesigned or deduplicated.
+The historical consolidation preserved all 1,543 functions from those files, including compiled instructions. The current readability refactor goes further: it retires 238 unreferenced/replaced generated helpers and shares repeated implementations. `src/initialization.lua` and `src/bootstrap.lua` still retain their exact pre-consolidation bytes and execution order. `reports/readability-refactor.json` records changed sections and explicitly superseded identity checks; the frozen r7 fixture and old reports remain intact.
+
+## Readable gameplay services
+
+`data/gameplay/factions.json` owns picker stock, ban aliases/messages and ordered random pools. `tools/faction_data.py` generates the marked catalog in `src/game/selection.lua`; edit the JSON rather than the generated block. `FE_Factions` resolves shop handles and mutable ban flags when an event runs. The solo catalog reads the same data, so formatting the stock code no longer breaks its generator. Historical random weights, slot coverage and cutoff behavior remain explicit data.
+
+Bloodmage and Focused Anger share per-player research/action helpers while keeping independent trigger handles and registration order. Base flags and death sounds use shared classifications. Drain cleanup, timed-effect callback publication/compaction and AI target operations have named helper boundaries; numeric formulas, timer cadence and RNG behavior remain unchanged except the documented temporary-handle cleanup fixes.
+
+Ancient previews use one metadata catalog, solo commands have named handlers, and recipe pickup adapters share registration code without merging their ordered listeners. `FE_Shops.traceDefault` owns optional diagnostic routing. The eleven Ancient death triggers call one result sequence. Compatibility callbacks remain where native events or ordered initialization reference them; arbitrary generated predicate names are no longer a design requirement.
+
+`tools/lua_source.py` tracks local and anonymous function boundaries as well as named globals. Synchronization checks cover those bodies; moving code into a closure cannot silently remove it from review. `tests/selection_cleanup.lua`, `game_cleanup.lua`, `gameplay_cleanup.lua` and `systems_cleanup.lua` compare current behavior with frozen r7 in both numeric modes. Resource-allocation changes have explicit expected deltas. See [REFACTOR_PLAN.md](REFACTOR_PLAN.md) for scope and preservation rules.
 
 | Folder | Responsibility |
 |---|---|
@@ -55,7 +65,7 @@ The reference for recursive purchasing is [Island Defense Lua's shop system](htt
 
 ## Live shopping test
 
-Use **Forest Expansion 3.2.0 Lua r3**, installed in Maps → Forest Expansion; `reports/build.json` identifies its exact path and hash. The earlier `editor-validation/Forest_Expansion_AncientShop_Test.w3x` is obsolete. To use World Editor's Test Map, reopen the current `dist/Forest_Expansion_3.2.0_Lua.w3x` first; an already-open editor retains its older map in memory. For solo Ancient testing, create a custom lobby with one human in the Ancient slot (default Player 7). The opening banner must identify **3.2.0 r3** and **SOLO TEST MODE ON**; see `SOLO_TESTING.md`. Use two humans when testing normal multiplayer results.
+Use **Forest Expansion 3.2.0 Lua r8**, installed in Maps → Forest Expansion; `reports/build.json` identifies its exact path and hash. The earlier `editor-validation/Forest_Expansion_AncientShop_Test.w3x` is obsolete. To use World Editor's Test Map, reopen the current `dist/Forest_Expansion_3.2.0_Lua.w3x` first; an already-open editor retains its older map in memory. For solo Ancient testing, create a custom lobby with one human in the Ancient slot (default Player 7). The opening banner must identify **3.2.0 r8** and **SOLO TEST MODE ON**; see `SOLO_TESTING.md`. Use two humans when testing normal multiplayer results.
 
 1. Move the Ancient outside shop range, then approach and click the recipe shop. Its buyer should become your Ancient automatically; your camera/hero selection should not be forced.
 2. With empty inventory and at least 500 gold, buy **Valorous Helmet Recipe**. Expect the completed helmet, no leftover scroll, and a total cost of **500 gold** (300 scroll + 100 helm + 100 armor).

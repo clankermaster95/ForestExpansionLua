@@ -2,81 +2,12 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 206 Start
--- Original JASS function: Trig_Start_Func001C (line 13720)
-function Trig_Start_Func001C()
-    if ((not ((GetPlayerController(FE_Roles.ancient()) ~= MAP_CONTROL_USER)))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Start_Actions (line 13727)
-function Trig_Start_Actions()
-    if (Trig_Start_Func001C()) then
-        EnableTrigger(gg_trg_Hard_mode_on)
-        EnableTrigger(gg_trg_Select)
-        EnableTrigger(gg_trg_Abilities)
-        EnableTrigger(gg_trg_Attack)
-        TriggerSleepAction(__jreal(2))
-        DisplayTextToForce(FE_Roster.expanderForce(), "TRIGSTR_7143")
-    else
-        DoNothing()
-    end
-end
-
--- Original JASS function: InitTrig_Start (line 13741)
-function InitTrig_Start()
-    gg_trg_Start = CreateTrigger()
-    TriggerAddAction(gg_trg_Start, Trig_Start_Actions)
-end
--- END FOREST SECTION 206
-
--- BEGIN FOREST SECTION 207 Hard_mode_on
--- Original JASS function: Trig_Hard_mode_on_Actions (line 13749)
-function Trig_Hard_mode_on_Actions()
-    DisplayTextToForce(FE_Roster.expanderForce(), "TRIGSTR_7144")
-    DisableTrigger(gg_trg_Attack)
-    EnableTrigger(gg_trg_Hard_Attack)
-end
-
--- Original JASS function: InitTrig_Hard_mode_on (line 13756)
-function InitTrig_Hard_mode_on()
-    gg_trg_Hard_mode_on = CreateTrigger()
-    DisableTrigger(gg_trg_Hard_mode_on)
-    TriggerRegisterPlayerChatEvent(gg_trg_Hard_mode_on, Player(0), "-hm", true)
-    TriggerAddAction(gg_trg_Hard_mode_on, Trig_Hard_mode_on_Actions)
-end
--- END FOREST SECTION 207
-
--- BEGIN FOREST SECTION 208 Hard_Attack
--- Original JASS function: Trig_Hard_Attack_Conditions (line 13766)
-function Trig_Hard_Attack_Conditions()
-    if ((not ((IsUnitEnemy(GetTriggerUnit(), FE_Roles.ancient()) == true)))) then
-        do return false end
-    end
-    do return true end
-end
-
--- Original JASS function: Trig_Hard_Attack_Func002002001 (line 13773)
-function Trig_Hard_Attack_Func002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient())) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Func002002002001 (line 13777)
-function Trig_Hard_Attack_Func002002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Func002002002002001 (line 13781)
-function Trig_Hard_Attack_Func002002002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Func002002 (line 13785)
-function Trig_Hard_Attack_Func002002()
-    if (((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient()))) then
-        if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE)))) then
-            if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE)))) then
+-- This preserves rejected random draws, recursive trigger retries and the
+-- original order callback for each entry point. Do not prefilter the pool here.
+local function HardAIChooseCandidate()
+    if (GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient()) then
+        if (GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE)) then
+            if (GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE)) then
                 udg_Hardunit = GetUnitLoc(GetEnumUnit())
             else
                 TriggerExecute(gg_trg_Hard_attack_2)
@@ -89,19 +20,65 @@ function Trig_Hard_Attack_Func002002()
     end
 end
 
--- Original JASS function: Trig_Hard_Attack_Func003002 (line 13801)
+local function HardAISelectAndOrder(candidate, order)
+    ForGroupBJ(GetRandomSubGroup(1, GetUnitsInRectAll(GetPlayableMapRect())), candidate)
+    ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), order)
+end
+
+function Trig_Start_Func001C()
+    return GetPlayerController(FE_Roles.ancient()) ~= MAP_CONTROL_USER
+end
+
+function Trig_Start_Actions()
+    if (Trig_Start_Func001C()) then
+        EnableTrigger(gg_trg_Hard_mode_on)
+        EnableTrigger(gg_trg_Select)
+        EnableTrigger(gg_trg_Abilities)
+        EnableTrigger(gg_trg_Attack)
+        TriggerSleepAction(__jreal(2))
+        DisplayTextToForce(FE_Roster.expanderForce(), "TRIGSTR_7143")
+    end
+end
+
+function InitTrig_Start()
+    gg_trg_Start = CreateTrigger()
+    TriggerAddAction(gg_trg_Start, Trig_Start_Actions)
+end
+-- END FOREST SECTION 206
+
+-- BEGIN FOREST SECTION 207 Hard_mode_on
+function Trig_Hard_mode_on_Actions()
+    DisplayTextToForce(FE_Roster.expanderForce(), "TRIGSTR_7144")
+    DisableTrigger(gg_trg_Attack)
+    EnableTrigger(gg_trg_Hard_Attack)
+end
+
+function InitTrig_Hard_mode_on()
+    gg_trg_Hard_mode_on = CreateTrigger()
+    DisableTrigger(gg_trg_Hard_mode_on)
+    TriggerRegisterPlayerChatEvent(gg_trg_Hard_mode_on, Player(0), "-hm", true)
+    TriggerAddAction(gg_trg_Hard_mode_on, Trig_Hard_mode_on_Actions)
+end
+-- END FOREST SECTION 207
+
+-- BEGIN FOREST SECTION 208 Hard_Attack
+function Trig_Hard_Attack_Conditions()
+    return IsUnitEnemy(GetTriggerUnit(), FE_Roles.ancient()) == true
+end
+
+function Trig_Hard_Attack_Func002002()
+    HardAIChooseCandidate()
+end
+
 function Trig_Hard_Attack_Func003002()
     IssuePointOrderLocBJ(GetEnumUnit(), "attack", udg_Hardunit)
 end
 
--- Original JASS function: Trig_Hard_Attack_Actions (line 13805)
 function Trig_Hard_Attack_Actions()
-    ForGroupBJ(GetRandomSubGroup(1, GetUnitsInRectAll(GetPlayableMapRect())), Trig_Hard_Attack_Func002002)
-    ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), Trig_Hard_Attack_Func003002)
+    HardAISelectAndOrder(Trig_Hard_Attack_Func002002, Trig_Hard_Attack_Func003002)
     EnableTrigger(gg_trg_Hard_Attack_Cont)
 end
 
--- Original JASS function: InitTrig_Hard_Attack (line 13812)
 function InitTrig_Hard_Attack()
     gg_trg_Hard_Attack = CreateTrigger()
     DisableTrigger(gg_trg_Hard_Attack)
@@ -113,58 +90,22 @@ end
 -- END FOREST SECTION 208
 
 -- BEGIN FOREST SECTION 209 Hard_Attack_Cont
--- Original JASS function: Trig_Hard_Attack_Cont_Conditions (line 13824)
 function Trig_Hard_Attack_Cont_Conditions()
-    if ((not ((IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true)))) then
-        do return false end
-    end
-    do return true end
+    return IsUnitEnemy(GetDyingUnit(), FE_Roles.ancient()) == true
 end
 
--- Original JASS function: Trig_Hard_Attack_Cont_Func003002001 (line 13831)
-function Trig_Hard_Attack_Cont_Func003002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient())) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Cont_Func003002002001 (line 13835)
-function Trig_Hard_Attack_Cont_Func003002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Cont_Func003002002002001 (line 13839)
-function Trig_Hard_Attack_Cont_Func003002002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_Attack_Cont_Func003002 (line 13843)
 function Trig_Hard_Attack_Cont_Func003002()
-    if (((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient()))) then
-        if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE)))) then
-            if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE)))) then
-                udg_Hardunit = GetUnitLoc(GetEnumUnit())
-            else
-                TriggerExecute(gg_trg_Hard_attack_2)
-            end
-        else
-            TriggerExecute(gg_trg_Hard_attack_2)
-        end
-    else
-        TriggerExecute(gg_trg_Hard_attack_2)
-    end
+    HardAIChooseCandidate()
 end
 
--- Original JASS function: Trig_Hard_Attack_Cont_Func004002 (line 13859)
 function Trig_Hard_Attack_Cont_Func004002()
     IssuePointOrderLocBJ(GetEnumUnit(), "attack", udg_Hardunit)
 end
 
--- Original JASS function: Trig_Hard_Attack_Cont_Actions (line 13863)
 function Trig_Hard_Attack_Cont_Actions()
-    ForGroupBJ(GetRandomSubGroup(1, GetUnitsInRectAll(GetPlayableMapRect())), Trig_Hard_Attack_Cont_Func003002)
-    ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), Trig_Hard_Attack_Cont_Func004002)
+    HardAISelectAndOrder(Trig_Hard_Attack_Cont_Func003002, Trig_Hard_Attack_Cont_Func004002)
 end
 
--- Original JASS function: InitTrig_Hard_Attack_Cont (line 13869)
 function InitTrig_Hard_Attack_Cont()
     gg_trg_Hard_Attack_Cont = CreateTrigger()
     DisableTrigger(gg_trg_Hard_Attack_Cont)
@@ -175,50 +116,19 @@ end
 -- END FOREST SECTION 209
 
 -- BEGIN FOREST SECTION 210 Hard_attack_2
--- Original JASS function: Trig_Hard_attack_2_Func001002001 (line 13880)
-function Trig_Hard_attack_2_Func001002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient())) end
-end
 
--- Original JASS function: Trig_Hard_attack_2_Func001002002001 (line 13884)
-function Trig_Hard_attack_2_Func001002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_attack_2_Func001002002002001 (line 13888)
-function Trig_Hard_attack_2_Func001002002002001()
-    do return ((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE))) end
-end
-
--- Original JASS function: Trig_Hard_attack_2_Func001002 (line 13892)
 function Trig_Hard_attack_2_Func001002()
-    if (((GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient()))) then
-        if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE)))) then
-            if (((GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE)))) then
-                udg_Hardunit = GetUnitLoc(GetEnumUnit())
-            else
-                TriggerExecute(gg_trg_Hard_attack_2)
-            end
-        else
-            TriggerExecute(gg_trg_Hard_attack_2)
-        end
-    else
-        TriggerExecute(gg_trg_Hard_attack_2)
-    end
+    HardAIChooseCandidate()
 end
 
--- Original JASS function: Trig_Hard_attack_2_Func002002 (line 13908)
 function Trig_Hard_attack_2_Func002002()
     IssuePointOrderLocBJ(GetEnumUnit(), "attack", GetUnitLoc(GetFilterUnit()))
 end
 
--- Original JASS function: Trig_Hard_attack_2_Actions (line 13912)
 function Trig_Hard_attack_2_Actions()
-    ForGroupBJ(GetRandomSubGroup(1, GetUnitsInRectAll(GetPlayableMapRect())), Trig_Hard_attack_2_Func001002)
-    ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), Trig_Hard_attack_2_Func002002)
+    HardAISelectAndOrder(Trig_Hard_attack_2_Func001002, Trig_Hard_attack_2_Func002002)
 end
 
--- Original JASS function: InitTrig_Hard_attack_2 (line 13918)
 function InitTrig_Hard_attack_2()
     gg_trg_Hard_attack_2 = CreateTrigger()
     DisableTrigger(gg_trg_Hard_attack_2)
@@ -227,12 +137,10 @@ end
 -- END FOREST SECTION 210
 
 -- BEGIN FOREST SECTION 211 Select
--- Original JASS function: Trig_Select_Func026002 (line 13927)
 function Trig_Select_Func026002()
     RemoveUnit(GetEnumUnit())
 end
 
--- Original JASS function: Trig_Select_Actions (line 13931)
 function Trig_Select_Actions()
     udg_Ancients[1] = FourCC("O004")
     udg_Ancients[2] = FourCC("O004")
@@ -266,7 +174,6 @@ function Trig_Select_Actions()
     EnableTrigger(gg_trg_Slot1_Righteous_Armor)
 end
 
--- Original JASS function: InitTrig_Select (line 13965)
 function InitTrig_Select()
     gg_trg_Select = CreateTrigger()
     DisableTrigger(gg_trg_Select)
@@ -276,12 +183,10 @@ end
 -- END FOREST SECTION 211
 
 -- BEGIN FOREST SECTION 212 Attack
--- Original JASS function: Trig_Attack_Func017002 (line 13975)
 function Trig_Attack_Func017002()
     IssuePointOrderLocBJ(GetEnumUnit(), "attack", GetRectCenter(udg_Moveto[GetRandomInt(1, 16)]))
 end
 
--- Original JASS function: Trig_Attack_Actions (line 13979)
 function Trig_Attack_Actions()
     udg_Moveto[1] = gg_rct_Ping1
     udg_Moveto[2] = gg_rct_Ping2
@@ -302,7 +207,6 @@ function Trig_Attack_Actions()
     ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), Trig_Attack_Func017002)
 end
 
--- Original JASS function: InitTrig_Attack (line 14000)
 function InitTrig_Attack()
     gg_trg_Attack = CreateTrigger()
     DisableTrigger(gg_trg_Attack)
@@ -312,11 +216,9 @@ end
 -- END FOREST SECTION 212
 
 -- BEGIN FOREST SECTION 213 Run_away
--- Original JASS function: Trig_Run_away_Actions (line 14012)
 function Trig_Run_away_Actions()
 end
 
--- Original JASS function: InitTrig_Run_away (line 14016)
 function InitTrig_Run_away()
     gg_trg_Run_away = CreateTrigger()
     DisableTrigger(gg_trg_Run_away)
@@ -325,7 +227,6 @@ end
 -- END FOREST SECTION 213
 
 -- BEGIN FOREST SECTION 214 Slot1_Righteous_Armor
--- Original JASS function: Trig_Slot1_Righteous_Armor_Actions (line 14025)
 function Trig_Slot1_Righteous_Armor_Actions()
     UnitAddItemByIdSwapped(FourCC("I012"), udg_AncientUnit)
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I012")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
@@ -333,7 +234,6 @@ function Trig_Slot1_Righteous_Armor_Actions()
     EnableTrigger(gg_trg_Slot2_Valor_Helmet)
 end
 
--- Original JASS function: InitTrig_Slot1_Righteous_Armor (line 14033)
 function InitTrig_Slot1_Righteous_Armor()
     gg_trg_Slot1_Righteous_Armor = CreateTrigger()
     DisableTrigger(gg_trg_Slot1_Righteous_Armor)
@@ -343,7 +243,6 @@ end
 -- END FOREST SECTION 214
 
 -- BEGIN FOREST SECTION 215 Slot2_Valor_Helmet
--- Original JASS function: Trig_Slot2_Valor_Helmet_Actions (line 14043)
 function Trig_Slot2_Valor_Helmet_Actions()
     UnitAddItemByIdSwapped(FourCC("I015"), udg_AncientUnit)
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I015")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
@@ -351,7 +250,6 @@ function Trig_Slot2_Valor_Helmet_Actions()
     EnableTrigger(gg_trg_Slot3_Bladed_Gauntlet)
 end
 
--- Original JASS function: InitTrig_Slot2_Valor_Helmet (line 14051)
 function InitTrig_Slot2_Valor_Helmet()
     gg_trg_Slot2_Valor_Helmet = CreateTrigger()
     DisableTrigger(gg_trg_Slot2_Valor_Helmet)
@@ -361,7 +259,6 @@ end
 -- END FOREST SECTION 215
 
 -- BEGIN FOREST SECTION 216 Slot3_Bladed_Gauntlet
--- Original JASS function: Trig_Slot3_Bladed_Gauntlet_Actions (line 14061)
 function Trig_Slot3_Bladed_Gauntlet_Actions()
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I012")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
     UnitAddItemByIdSwapped(FourCC("I012"), udg_AncientUnit)
@@ -369,7 +266,6 @@ function Trig_Slot3_Bladed_Gauntlet_Actions()
     EnableTrigger(gg_trg_Slot4_Bladed_Gauntlet)
 end
 
--- Original JASS function: InitTrig_Slot3_Bladed_Gauntlet (line 14069)
 function InitTrig_Slot3_Bladed_Gauntlet()
     gg_trg_Slot3_Bladed_Gauntlet = CreateTrigger()
     DisableTrigger(gg_trg_Slot3_Bladed_Gauntlet)
@@ -379,7 +275,6 @@ end
 -- END FOREST SECTION 216
 
 -- BEGIN FOREST SECTION 217 Slot4_Bladed_Gauntlet
--- Original JASS function: Trig_Slot4_Bladed_Gauntlet_Actions (line 14079)
 function Trig_Slot4_Bladed_Gauntlet_Actions()
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I012")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
     UnitAddItemByIdSwapped(FourCC("I012"), udg_AncientUnit)
@@ -387,7 +282,6 @@ function Trig_Slot4_Bladed_Gauntlet_Actions()
     EnableTrigger(gg_trg_Slot5_Bladed_Gauntlet)
 end
 
--- Original JASS function: InitTrig_Slot4_Bladed_Gauntlet (line 14087)
 function InitTrig_Slot4_Bladed_Gauntlet()
     gg_trg_Slot4_Bladed_Gauntlet = CreateTrigger()
     DisableTrigger(gg_trg_Slot4_Bladed_Gauntlet)
@@ -397,7 +291,6 @@ end
 -- END FOREST SECTION 217
 
 -- BEGIN FOREST SECTION 218 Slot5_Bladed_Gauntlet
--- Original JASS function: Trig_Slot5_Bladed_Gauntlet_Actions (line 14097)
 function Trig_Slot5_Bladed_Gauntlet_Actions()
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I012")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
     UnitAddItemByIdSwapped(FourCC("I012"), udg_AncientUnit)
@@ -405,7 +298,6 @@ function Trig_Slot5_Bladed_Gauntlet_Actions()
     EnableTrigger(gg_trg_Slot6_Bladed_Gauntlet)
 end
 
--- Original JASS function: InitTrig_Slot5_Bladed_Gauntlet (line 14105)
 function InitTrig_Slot5_Bladed_Gauntlet()
     gg_trg_Slot5_Bladed_Gauntlet = CreateTrigger()
     DisableTrigger(gg_trg_Slot5_Bladed_Gauntlet)
@@ -415,7 +307,6 @@ end
 -- END FOREST SECTION 218
 
 -- BEGIN FOREST SECTION 219 Slot6_Bladed_Gauntlet
--- Original JASS function: Trig_Slot6_Bladed_Gauntlet_Actions (line 14115)
 function Trig_Slot6_Bladed_Gauntlet_Actions()
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I012")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
     UnitAddItemByIdSwapped(FourCC("I012"), udg_AncientUnit)
@@ -423,7 +314,6 @@ function Trig_Slot6_Bladed_Gauntlet_Actions()
     EnableTrigger(gg_trg_Level_Up_Tomes)
 end
 
--- Original JASS function: InitTrig_Slot6_Bladed_Gauntlet (line 14123)
 function InitTrig_Slot6_Bladed_Gauntlet()
     gg_trg_Slot6_Bladed_Gauntlet = CreateTrigger()
     DisableTrigger(gg_trg_Slot6_Bladed_Gauntlet)
@@ -434,13 +324,11 @@ end
 
 -- BEGIN FOREST SECTION 220 Level_Up_Tomes
 -- AI uses a powerup tome with a full inventory, at the player shop tome price.
--- Original JASS function: Trig_Level_Up_Tomes_Actions (line 14133)
 function Trig_Level_Up_Tomes_Actions()
     UnitAddItemByIdSwapped(FourCC("I003"), udg_AncientUnit)
     AdjustPlayerStateBJ(-FE_RecipeData.items[FourCC("I00J")].gold, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
 end
 
--- Original JASS function: InitTrig_Level_Up_Tomes (line 14139)
 function InitTrig_Level_Up_Tomes()
     gg_trg_Level_Up_Tomes = CreateTrigger()
     DisableTrigger(gg_trg_Level_Up_Tomes)
@@ -450,79 +338,42 @@ end
 -- END FOREST SECTION 220
 
 -- BEGIN FOREST SECTION 221 Abilities
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007Func001Func001C (line 14149)
 function Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007Func001Func001C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O01V"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O01V")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007Func001C (line 14156)
 function Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007Func001C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O01D"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O01D")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007C (line 14163)
 function Trig_Abilities_Func001Func007Func007Func007Func006Func007Func007C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O016"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O016")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007Func006Func007C (line 14170)
 function Trig_Abilities_Func001Func007Func007Func007Func006Func007C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O00D"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O00D")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007Func006C (line 14177)
 function Trig_Abilities_Func001Func007Func007Func007Func006C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O008"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O008")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007Func007C (line 14184)
 function Trig_Abilities_Func001Func007Func007Func007C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O004"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O004")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007Func007C (line 14191)
 function Trig_Abilities_Func001Func007Func007C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O00L"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O00L")
 end
 
--- Original JASS function: Trig_Abilities_Func001Func007C (line 14198)
 function Trig_Abilities_Func001Func007C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O00S"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O00S")
 end
 
--- Original JASS function: Trig_Abilities_Func001C (line 14205)
 function Trig_Abilities_Func001C()
-    if ((not ((GetUnitTypeId(udg_AncientUnit) == FourCC("O00A"))))) then
-        do return false end
-    end
-    do return true end
+    return GetUnitTypeId(udg_AncientUnit) == FourCC("O00A")
 end
 
--- Original JASS function: Trig_Abilities_Actions (line 14212)
 function Trig_Abilities_Actions()
     if (Trig_Abilities_Func001C()) then
         SelectHeroSkill(udg_AncientUnit, FourCC("A05E"))
@@ -583,8 +434,6 @@ function Trig_Abilities_Actions()
                                         SelectHeroSkill(udg_AncientUnit, FourCC("A06U"))
                                         SelectHeroSkill(udg_AncientUnit, FourCC("A06W"))
                                         SelectHeroSkill(udg_AncientUnit, FourCC("A06V"))
-                                    else
-                                        DoNothing()
                                     end
                                 end
                             end
@@ -596,7 +445,6 @@ function Trig_Abilities_Actions()
     end
 end
 
--- Original JASS function: InitTrig_Abilities (line 14286)
 function InitTrig_Abilities()
     gg_trg_Abilities = CreateTrigger()
     DisableTrigger(gg_trg_Abilities)

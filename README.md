@@ -6,13 +6,15 @@ The playable map is `dist/Forest_Expansion_3.2.0_Lua.w3x`. A shareable map, chan
 
 Gameplay code is organized into **60 named modules** by system, expander race and Ancient. Start with `src/game/selection.lua`, `src/game/victory.lua`, `src/players/roles.lua`, `src/items/recipes.lua` and `src/commands/solo_test.lua`; see [ARCHITECTURE.md](ARCHITECTURE.md) for navigation.
 
+Faction picks, ban aliases and ordered random pools live in `data/gameplay/factions.json`. Repeated spell/research handlers, Ancient metadata, recipe adapters and commands share named implementations. The [refactoring plan and preservation contract](REFACTOR_PLAN.md) explain the current design and its tests. Historical trigger entry points remain only where initialization or callbacks need them; 238 unused/replaced generated helpers were retired.
+
 Shop diagnostics are off by default, and generated testing catalogs are kept outside the Information menu. The user runs native game tests; the agent must never launch or control Warcraft III on this PC. Successful local builds install in Warcraft III Maps; `reports/build.json` records the current revision, installed filename and checksum.
 
 For continuing on the Windows desktop with Warcraft III and World Editor, start with [HANDOFF_WINDOWS.md](HANDOFF_WINDOWS.md).
 
 All 1,662 functions in the executable JASS script were translated to Lua, including the compiled vJASS libraries. Another 89 functions from the 25 originally disabled triggers were translated and remain disabled. The original download has not been changed.
 
-**Validation boundary:** the archive, binary formats, Lua 5.3 syntax, initialization, and selected behavior have been tested offline. Warcraft III and World Editor are not installed on the Mac where this port was made. A real open/save/test cycle in the current editor, gameplay, multiplayer synchronization, and game save/load still need validation. This project does not claim that those tests have happened or that full in-engine 1:1 equivalence has been proved.
+**Validation boundary:** the archive, binary formats, Lua 5.3 syntax, initialization, and selected behavior have been tested offline on the prepared Windows workspace. The readability refactor passes comparisons with the frozen previous source in both numeric configurations, plus the existing role/shop/solo regressions and 13 isolated workflow checks. A real editor save cycle, broader gameplay, multiplayer synchronization, and game save/load still need user validation. Offline doubles do not prove full in-engine equivalence.
 
 ## Open and edit
 
@@ -43,7 +45,7 @@ Import creates a backup first. If you also edited Lua in the Trigger Editor, rev
 
 ## Build and tools
 
-The dependencies are already installed locally in this project on the current Mac:
+On the prepared Windows workspace, run `tools/windows.ps1 build` and `tools/windows.ps1 test`. With the documented dependencies installed, the portable commands are:
 
 ```sh
 python3 tools/project.py build
@@ -76,6 +78,7 @@ The editor can open the delivered archive on Windows without build tools. The pr
 | `src/initialization.lua` | Original variable, trigger, and startup-action initialization |
 | `src/bootstrap.lua` | Preserves the original initialization sequence after editor-generated map objects |
 | `src/runtime.lua` | JASS numeric, array-default, and string-concatenation compatibility operations |
+| `data/gameplay/factions.json` | Ordered picker stock, ban aliases and legacy random pools; shared by the map and solo catalog generator |
 | `src/disabled/` | The 25 disabled triggers and a separately disabled globals module |
 | `data/object-index.json` | Searchable names, rawcodes, base IDs, and paths for 3,138 object/skin override records |
 | `data/objects/` | One JSON file per object record; gameplay and skin overrides remain separate |
@@ -87,7 +90,7 @@ The editor can open the delivered archive on Windows without build tools. The pr
 
 Edit Lua in `src/`, then build. Do not edit `build/converted/`: those files are regeneration/test artifacts. Do not rerun `assemble_port.py` to make gameplay changes; it records the one-time migration.
 
-`project.json` defines module inclusion and order. Folder order does not control initialization. The numbered filenames remain as traceability to the original map. Add a new module through that manifest and its matching editor/script storage deliberately; the builder rejects missing or duplicated module markers rather than silently dropping code.
+`project.json` defines module inclusion and order. Folder order does not control initialization. Numbered section comments and historical audit reports preserve traceability; active files have descriptive names. Add a new module through that manifest and its matching editor/script storage deliberately; the builder rejects missing or duplicated module markers rather than silently dropping code.
 
 ### Object changes by an LLM
 

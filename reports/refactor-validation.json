@@ -1,14 +1,14 @@
 {
   "result": "passed",
   "version": "3.2.0",
-  "revision": "r7",
-  "archive_sha256": "ff03e1b190b76925957400fee8c18460002ccd09999062b9fde918c7fff47a10",
+  "revision": "r8",
+  "archive_sha256": "0c65ca945d73ee886a835221e65f603c33e18208b48790e6e6a00f70cb4812a2",
   "unchanged_original_payload_files": 510,
   "intentional_noncode_payload_changes": [
     {
       "file": "war3map.wts",
       "before_sha256": "e09e20c1f9c9908daae0f5169963630a65a6f1f70e2fc5a9a61629747d57f05e",
-      "after_sha256": "0f61e5f6bb16e50d67142d2e1f45003dd18649191defab3751a2d389ba7da7ff"
+      "after_sha256": "b9bf979001f372ff5f88ead0b2c7bac9fd61a965ad59097c2c9fed8cdad6b8ef"
     },
     {
       "file": "war3map.w3t",
@@ -30,6 +30,26 @@
   "lua_chunks_per_numeric_configuration": 105,
   "event_initializers_tested": 34,
   "regressions": [
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "selection_cleanup",
+      "result": "Selection cleanup passed: 29436 comparisons; all factions/aliases, stock order, mutable flags, budget and cutoff"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "game_cleanup",
+      "result": "Game cleanup passed: 1374 comparisons; results, random/native selection order, spellbringer and mixed fountain lifetime/healing"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "gameplay_cleanup",
+      "result": "gameplay_cleanup: 80 scenarios, 11481 checks; 23 exact Drain location-removal corrections; frozen r7 traces otherwise match"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "systems_cleanup",
+      "result": "Systems cleanup checks passed: 9507 assertions; frozen r7 text/metadata/command/recipe/ping/solo comparisons; 14 force + 14 location releases added across two ping actions"
+    },
     {
       "runtime": "lua-5.3.6",
       "suite": "roles",
@@ -54,6 +74,26 @@
       "runtime": "lua-5.3.6",
       "suite": "solo_startup",
       "result": "Solo startup integration passed: 440 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "selection_cleanup",
+      "result": "Selection cleanup passed: 29436 comparisons; all factions/aliases, stock order, mutable flags, budget and cutoff"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "game_cleanup",
+      "result": "Game cleanup passed: 1374 comparisons; results, random/native selection order, spellbringer and mixed fountain lifetime/healing"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "gameplay_cleanup",
+      "result": "gameplay_cleanup: 80 scenarios, 11481 checks; 23 exact Drain location-removal corrections; frozen r7 traces otherwise match"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "systems_cleanup",
+      "result": "Systems cleanup checks passed: 9507 assertions; frozen r7 text/metadata/command/recipe/ping/solo comparisons; 14 force + 14 location releases added across two ping actions"
     },
     {
       "runtime": "lua-5.3.6-32",
@@ -127,7 +167,7 @@
         "review": "Timer/dialog allocation and timer start are synchronized; only visibility is local."
       }
     },
-    "wait_functions_checked": 39,
+    "wait_functions_checked": 29,
     "unit_index_single_writer": true,
     "limit": "Static review guards, not proof of multiplayer synchronization. Native shop UI, preload and gameplay still require live testing."
   },
@@ -137,6 +177,25 @@
   "initialization_order_preserved": true,
   "legacy_sections_preserved": 375,
   "consolidated_gameplay_modules": 60,
+  "readability_refactor": {
+    "baseline_sha256": "bee55193eba320476eed9664961c218e1131453984b19a145c42e0d6a438e1dd",
+    "retired_generated_helpers": 238,
+    "mechanical_validation": [
+      {
+        "runtime": "lua-5.3.6",
+        "result": "Mechanical syntax checks passed: 1053 return/boolean/evaluation cases"
+      },
+      {
+        "runtime": "lua-5.3.6-32",
+        "result": "Mechanical syntax checks passed: 1053 return/boolean/evaluation cases"
+      }
+    ],
+    "resource_cleanup_changes": [
+      "Drain frees tempLoc2 instead of removing tempLoc1 twice.",
+      "Fountain releases its owned enumeration group after callbacks.",
+      "Gold ping actions release each newly allocated location and force."
+    ]
+  },
   "live_engine_test": false,
   "multiplayer_test": false,
   "scope": "Role, shopping and bug regression doubles; reviewed local-player functions; module hashes, native binary codecs, MPQ readback and WCT regeneration syntax. No claim of full engine behavior or unchanged JASS gameplay after intentional fixes."

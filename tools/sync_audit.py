@@ -5,6 +5,7 @@ Function hashes in shopping-audit.json pin this reviewed source revision.
 """
 from pathlib import Path
 import re
+from lua_source import code_only, functions
 ROOT=Path(__file__).resolve().parents[1]
 LOCAL_REVIEW={
     'Hardmode_PlayActivationIndicator':'Local player is only the text recipient; sound runs for all clients.',
@@ -16,27 +17,42 @@ LOCAL_REVIEW={
     'FeedRate_SaveForPlayer':'Local file output only, escaped JASS payload. No local gameplay mutation.',
     'FeedRate_TryLoadForPlayer':'Local Preloader sends sync payloads; only synchronized receivers apply feed settings.',
 }
+def review_functions(source, path):
+    code=code_only(source)
+    spans=functions(source)
+    found={}; waits=[]
+    for match in re.finditer(r'\bGetLocalPlayer\b',code):
+        owners=[entry for entry in spans if entry['start'] <= match.start() < entry['end']]
+        reviewed=next((entry for entry in owners if entry['name'] in LOCAL_REVIEW),None)
+        assert reviewed is not None,'unreviewed local-player expression: '+path+':'+str(source.count('\n',0,match.start())+1)
+        name=reviewed['name']
+        found[name]={'module':path,'review':LOCAL_REVIEW[name]}
+    for entry in spans:
+        # Keep nested callback contents: an IIFE, a local function call or
+        # ForGroup can execute synchronously after this wait. Declaring a
+        # closure does not establish a separate event context/thread. This
+        # conservative review gate intentionally retains the old guard's scope.
+        body=code[entry['start']:entry['end']]
+        wait=re.search(r'\bTriggerSleepAction\s*\(',body)
+        if wait:
+            cut=wait.start()
+            unsafe=re.findall(r'\bGet(?:Spell\w+|Attacker|AttackedUnitBJ|SummonedUnit|ManipulatedItem|Sold\w+|BuyingUnit|SellingUnit|EventDamage\w*|Enum\w+)\s*\(',body[cut:])
+            assert not unsafe,(path,entry['name'] or entry['line'],unsafe)
+            waits.append(entry['name'] or '<callback:'+str(entry['line'])+'>')
+    return found,waits
+
 def inspect(cfg):
     found={}; waits=[]; indexing=[]
     sources=cfg['header']+cfg['triggers']+[cfg['bootstrap']]
     for path in sources:
-        code=(ROOT/path).read_text(encoding='utf-8')
+        source=(ROOT/path).read_text(encoding='utf-8')
+        code=code_only(source)
         # Disallow new unsynchronized random/time/I/O paths in gameplay.
         assert not re.search(r'\b(?:math\.random(?:seed)?|os\.\w+|io\.\w+)\s*\(',code),path
         assert not re.search(r'(?<!i)\bpairs\s*\(',code),'unordered traversal requires review: '+path
         if 'SetUnitUserData(' in code:indexing.append(path)
-        for m in re.finditer(r'(?ms)^function ([\w.]+)\([^\n]*\)\n(.*?)^end\s*$',code):
-            name,body=m[1],m[2]
-            body=re.sub(r'--[^\n]*','',body)
-            if 'GetLocalPlayer(' in body:
-                assert name in LOCAL_REVIEW,'unreviewed local-player function: '+name
-                found[name]={'module':path,'review':LOCAL_REVIEW[name]}
-            cut=body.find('TriggerSleepAction(')
-            if cut>=0:
-                after=body[cut:]
-                unsafe=re.findall(r'\bGet(?:Spell\w+|Attacker|AttackedUnitBJ|SummonedUnit|ManipulatedItem|Sold\w+|BuyingUnit|SellingUnit|EventDamage\w*|Enum\w+)\s*\(',after)
-                assert not unsafe,(path,unsafe)
-                waits.append(name)
+        reviewed,delayed=review_functions(source,path)
+        found.update(reviewed);waits.extend(delayed)
     assert set(found)==set(LOCAL_REVIEW)
     assert indexing==['src/game/startup.lua'],indexing
     # The singleton force is used by Damage Engine's callback and must stay so.

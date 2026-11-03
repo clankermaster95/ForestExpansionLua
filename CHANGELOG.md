@@ -6,6 +6,7 @@ Changes from **Forest Expansion 3.1.2a** to **3.2.0**.
 
 - Converted the map's gameplay code from JASS to Lua while preserving the original terrain, placements and imported assets.
 - Consolidated 375 numbered gameplay scripts into 60 named modules organized by system, expander race and Ancient.
+- Replaced repeated picker/ban logic with a shared faction catalog, consolidated spell/research handlers and Ancient metadata, organized test commands, and removed unused generated helper functions.
 - Centralized Ancient ownership checks so role-dependent behavior follows the Ancient player rather than a hardcoded player color or slot.
 
 ## Ancient shops and recipes
@@ -30,6 +31,7 @@ Changes from **Forest Expansion 3.1.2a** to **3.2.0**.
 - Corrected string-table encoding used for map names and descriptions, and added a label to the first picking countdown.
 - Fixed selector removal so unrelated unit purchases are not affected.
 - Corrected several ownership, delayed-event, resource-price and combat-calculation issues.
+- Corrected temporary-location/group cleanup in Drain, fountain healing and gold-location pings.
 - Added offline regression tests, native map-data validation and archive readback checks to the build process.
 
 ## Validation

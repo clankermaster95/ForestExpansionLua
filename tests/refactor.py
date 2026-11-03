@@ -15,6 +15,12 @@ from verify import editor_owned_script
 
 def main():
     cfg=p.config(); mapdir=ROOT/cfg['map']; script=(mapdir/'war3map.lua').read_text()
+    import readability_audit
+    readability=ds.read(ROOT/'reports/readability-refactor.json')
+    readability_audit.prepare()
+    readability_audit.validate(readability)
+    revised_sections={entry['id']:entry for entry in readability['changed_sections']}
+    retired={entry['function'] for entry in readability['retired_functions']}
     modules=cfg['header']+cfg['triggers']+cfg['disabled']+[cfg['bootstrap']]
     assert len(modules)==len(set(modules))
     assert {x.relative_to(ROOT).as_posix() for x in (ROOT/'src').rglob('*.lua')}==set(modules)
@@ -39,7 +45,12 @@ def main():
         assert expected.pop(entry['from'])==entry['before_sha256'],entry['from']
         current=by_id[entry['id']]
         assert current['module']==entry['to'] and current['name']==entry['name']
-        assert ds.digest(current['code'].encode())==entry['body_sha256'],entry['from']
+        changed=revised_sections.get(entry['id'])
+        if changed:
+            assert changed['before_sha256']==entry['body_sha256'],entry['from']
+            assert ds.digest(current['code'].encode())==changed['after_sha256'],entry['from']
+        else:
+            assert ds.digest(current['code'].encode())==entry['body_sha256'],entry['from']
     expected.update({entry['module']:entry['sha256'] for entry in consolidation['modules']})
     for entry in consolidation.get('changed_modules',[]):
         assert expected[entry['module']]==entry['before_sha256'],entry['module']
@@ -51,6 +62,10 @@ def main():
     for entry in delivery['changed_modules']+stock_fix['changed_modules']+community['changed_modules']+reference['changed_modules']:
         assert expected[entry['module']]==entry['before_sha256'],entry['module']
         expected[entry['module']]=entry['after_sha256']
+    for entry in readability['changed_modules']:
+        if entry['module'] in expected:
+            assert expected[entry['module']]==entry['before_sha256'],entry['module']
+        expected[entry['module']]=entry['after_sha256']
     for path,sha in expected.items():assert ds.digest((ROOT/path).read_bytes())==sha,path
     assert ds.digest((ROOT/'src/initialization.lua').read_bytes())==consolidation['unchanged_initialization_sha256']
     assert ds.digest((ROOT/'src/bootstrap.lua').read_bytes())==consolidation['unchanged_bootstrap_sha256']
@@ -58,6 +73,9 @@ def main():
     assert (ROOT/'src/items/recipe_data.lua').read_text(encoding='utf-8')==recipe_data.render()
     import test_data
     assert (ROOT/'src/commands/test_data.lua').read_text(encoding='utf-8')==test_data.render()
+    import faction_data
+    catalog=(ROOT/'src/game/selection.lua').read_text(encoding='utf-8')
+    assert faction_data.render() in catalog
     import debug_reference
     assert (ROOT/'DEBUG_REFERENCE.md').read_text(encoding='utf-8')==debug_reference.render()
     import sync_audit
@@ -72,12 +90,13 @@ def main():
     assert len(declarations)==len(set(declarations))
     names={'InitGlobals':'FE_InitGlobals','InitCustomTriggers':'FE_InitCustomTriggers','RunInitializationTriggers':'FE_RunInitializationTriggers'}
     for item in ds.read(ROOT/'reports/function-coverage.json'):
-        assert names.get(item['function'],item['function']) in declarations,item
+        name=names.get(item['function'],item['function'])
+        assert (name in declarations) != (name in retired),item
     original=ROOT/'original/Forest_Expansion_3.1.2a.w3x'
     assert ds.digest(original.read_bytes())==cfg['original_sha256']
     changed_payloads={'war3map.j','war3map.lua','war3map.wct','war3map.wtg','war3map.w3i','(attributes)','(listfile)'}
     payloads={entry['file']:dict(entry) for entry in release['payload_changes']}
-    for entry in consolidation.get('payload_changes',[])+delivery['payload_changes']+stock_fix['payload_changes']+community['payload_changes']+reference['payload_changes']:
+    for entry in consolidation.get('payload_changes',[])+delivery['payload_changes']+stock_fix['payload_changes']+community['payload_changes']+reference['payload_changes']+readability['payload_changes']:
         if entry['file'] in payloads:
             assert payloads[entry['file']]['after_sha256']==entry['before_sha256']
             payloads[entry['file']]['after_sha256']=entry['after_sha256']
@@ -125,8 +144,14 @@ def main():
     simulated=ROOT/'build/role-editor-resave.lua'; simulated.write_text(payload,encoding='utf-8',newline='\n')
     assert len(p.blocks(p.update_script(payload,cfg)))==len(cfg['header'])+len(cfg['triggers'])+1
     event_initializers=[];death_actions=[];shopping_initializers=[];solo_initializers=[]
+    # Subscription entry points are part of the frozen behavior contract. Shared
+    # registration helpers no longer repeat the native call in every section.
+    frozen=readability_audit.baseline()
+    frozen_sections={}
+    for path in cfg['triggers']:
+        frozen_sections.update(readability_audit.section_map(frozen[path].decode().replace('\r\n','\n')))
     for section in indexed:
-        code=section['code'];number=section['id']
+        code=frozen_sections[section['id']][1];number=section['id']
         initializers_in_section=re.findall(r'^function (InitTrig_\w+)\(',code,re.M)
         if re.search(r'FE_Roles\.registerAncient\w+Event\(',code):
             event_initializers+=initializers_in_section
@@ -137,15 +162,21 @@ def main():
             solo_initializers+=initializers_in_section
     assert len(death_actions)==11
     assert len(event_initializers)==34 and len(shopping_initializers)==16 and len(solo_initializers)==20
+    assert all(name in declarations for name in event_initializers+shopping_initializers+solo_initializers+death_actions)
     def lua_array(values):return '{'+','.join(json.dumps(x) for x in values)+'}'
     (ROOT/'build/role-test-input.lua').write_text('return {modules='+lua_array(cfg['triggers'])+
         ',initializers='+lua_array(event_initializers)+',deathActions='+lua_array(death_actions)+
         ',shoppingInitializers='+lua_array(shopping_initializers)+',soloInitializers='+lua_array(solo_initializers)+'}',encoding='utf-8')
+    from source_spans import main as validate_source_spans
+    from cleanup_syntax import main as validate_cleanup_syntax
+    validate_source_spans()
+    mechanical=validate_cleanup_syntax()
     results=[]; files=[ROOT/x for x in modules]+[mapdir/'war3map.lua',simulated]
     for kind in ('lua-5.3.6','lua-5.3.6-32'):
         runtime=ROOT/'.tools'/kind/'src'
         for path in files:subprocess.run([str(runtime/'luac'),'-p',str(path)],check=True,capture_output=True)
-        for suite in ('roles','shopping','bugfixes','solo_test','solo_startup'):
+        for suite in ('selection_cleanup','game_cleanup','gameplay_cleanup','systems_cleanup',
+                      'roles','shopping','bugfixes','solo_test','solo_startup'):
             result=subprocess.run([str(runtime/'lua'),'tests/'+suite+'.lua'],cwd=ROOT,check=True,capture_output=True,text=True)
             print(result.stdout.strip()); results.append({'runtime':kind,'suite':suite,'result':result.stdout.strip()})
     from costs import validate as validate_costs
@@ -156,6 +187,9 @@ def main():
         'regressions':results,'costs':costs,'synchronization_review':audit,'editor_categories':len(categories),'archive_roundtrip':True,
         'source_editor_synchronized':True,'initialization_order_preserved':True,
         'legacy_sections_preserved':len(indexed),'consolidated_gameplay_modules':len(cfg['triggers']),
+        'readability_refactor':{'baseline_sha256':readability['baseline_sha256'],
+                              'retired_generated_helpers':len(retired),'mechanical_validation':mechanical,
+                              'resource_cleanup_changes':readability['intentional_behavior_deltas']},
         'live_engine_test':False,'multiplayer_test':False,
         'scope':'Role, shopping and bug regression doubles; reviewed local-player functions; module hashes, native binary codecs, MPQ readback and WCT regeneration syntax. No claim of full engine behavior or unchanged JASS gameplay after intentional fixes.'}
     ds.write(ROOT/'reports/refactor-validation.json',report)

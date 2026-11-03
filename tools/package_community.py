@@ -19,7 +19,7 @@ def main():
             "Start a fresh match; replacing a map does not update an ongoing match.\n"
             "Shop debug messages are off by default.\n\n"
             "CHANGELOG.md describes the release. SOLO_TESTING.md lists testing commands.\n"
-            "This is a community test build; live multiplayer validation is still needed.\n")
+            "This is a test build; live multiplayer validation is still needed.\n")
     entries={map_path.name:map_bytes,'CHANGELOG.md':notes.encode('utf-8'),
              'SOLO_TESTING.md':(ROOT/'SOLO_TESTING.md').read_bytes(),
             'DEBUG_REFERENCE.md':(ROOT/'DEBUG_REFERENCE.md').read_bytes(),
