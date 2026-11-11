@@ -1,70 +1,74 @@
 # Forest Expansion 3.2.0 — Lua edition
 
-Changes from **Forest Expansion 3.1.2a** to **3.2.0**.
+Cumulative **3.1.2a → 3.2.0** patch notes, through r11.
 
-## Lua and code organization
+## General
 
-- Converted the map's gameplay code from JASS to Lua while preserving the original terrain, map layout and imported assets.
-- Consolidated 375 numbered gameplay scripts into 60 named modules organized by system, expander race and Ancient.
-- Replaced repeated picker/ban logic with a shared faction catalog, consolidated spell/research handlers and Ancient metadata, organized test commands, and removed unused generated helper functions.
-- Centralized Ancient ownership checks so role-dependent behavior follows the Ancient player rather than a hardcoded player color or slot.
+- Ported JASS gameplay to Lua; preserved terrain, layout and assets.
+- Moved Ancient to slot 11 (Dark Green); removed fixed-color ownership checks.
+- Selectors show choices immediately; picking unlocks at 20 seconds for Expanders, 60 for Ancient.
+- Bans apply to selectors and random picks, including after unlock/skip. Added Random to the first race selector.
+- All leavers' armies remain for 60 seconds. Dead/unpicked Expanders can use `-takeover [slot]` to inherit units, resources and research without losing their surviving units.
+- Added `-bringiton`: Red can double Ancient passive income to 20 gold/10 seconds, once per match.
 
-## Ancient shops and recipes
+## Shops and items
 
-- Shops automatically choose your nearby Ancient as the item recipient without changing your selected unit.
-- Buying a recipe uses ingredients already in your inventory and purchases missing components, including nested recipes, to create the finished item.
-- Owned ingredients reduce the price. Failed completion refunds the purchased scroll and retains your ingredients.
-- Corrected the Ancient shops' stock configuration associated with purchased items dropping on the ground.
-- Recipe tooltips now distinguish full price, scroll price and component requirements. Corrected inconsistent finished-item values and several item names.
-- Automatic shop debug messages are off. Solo troubleshooting can be enabled explicitly with `-test shop on`.
+- Shops select your nearby Ancient as buyer without changing unit selection. Fixed stock settings causing ground drops.
+- Recipes use owned ingredients and buy missing components, including nested recipes. Failed purchases refund scrolls and preserve ingredients.
+- Aligned finished-item values and AI purchase costs with actual prices. Corrected item names and recipe ingredient/cost tooltips.
+- Removed Protector Seed's unintended Keep requirement.
+- Fixed multi-ledger crafting and XP going to the wrong carrier.
+- Shop tracing is off by default; enable with `-test shop on`.
+
+## Cultist — solo testing only
+
+- Available with one starting human only. Excluded from multiplayer selectors/random; unavailable bans cost nothing.
+- Green attack projectiles: 900 speed, 200 base range, 100 base damage.
+- Added single-level **Blood Rites** upgrades at the Altar; no extra prerequisites:
+
+| Upgrade | Cost | Effect |
+|---|---|---|
+| Sacrificial Aura | 30 gold, 750 lumber | Allies within 1000 range gain 5% attack/movement speed per full 10% missing Cultist HP, capped at 45%. Strongest aura only. |
+| Bloody Sacrifice | 25 gold, 750 lumber | Toggle: heal other allies within 400 range for 50 HP/s; take 100 magic damage/s. Can kill the Cultist. |
+| Chaotic Burst | 35 gold, 1000 lumber | Manual/autocast: converts attack damage to pure damage, bypassing armor/magic resistance. Costs 4% current HP per landed hit; misses cost nothing. |
+
+- Profane Reach: five levels, each granting +75 damage and +75 range. Costs per level: **5/20/35/50/65 gold**, **250/1000/1750/2500/3250 lumber**. Total: 175 gold, 8750 lumber.
+- Limited Amalgamation to one per player, including all Altar queues.
+- Standardized builder/unit/building tooltips, research buttons and hotkeys; removed stray debug text.
+
+## Ancients
+
+- **Ice — Sadism:** healing reduced from 1000 to 400 HP/s; duration increased from 10 to 25 seconds. Enemies within 2000 range lose 20% movement speed and cannot heal. Initial 40% current-HP cost retained.
+- **Light — Vanguard:** its six-second armor bonus can no longer be dispelled.
+- **Light — Nuke:** normal attacks now deal damage during the ability.
+- **Lightning:** corrected retaliation's damage source, invalid targets and unlearned-level handling; completed higher-level strike values.
+
+## Other gameplay fixes
+
+- Bleed and Poisoned Bullets no longer conflict with orb effects. Poison stacks up to six times per target; both damage-over-time effects remain nonlethal and undispellable.
+- Upgraded Aethyr walls now feed 20 gold.
+- Wildkin retains researched ability levels after Wisp revival.
+- Fixed Shadow Dancer mana theft and restoration creating mana or failing to remove it.
+- Fixed Focused Anger corrupting unit tracking and misassigning stacks.
+- Fixed delayed spell data for Conjure Mana, Ancient Grasp, Chill, Sadism, Vanguard, Worgen's strike and Shadowlings.
+- Fixed Lightning Strike, Sandstorm and Freeze Zone interfering with other countdowns.
+- Fixed Cosmic Strike using the wrong mana source and Realm of Darkness targeting the wrong units.
+- Fixed living-player counts, rebirth ownership/type, environmental-death lackeys and stale respawns after revival/takeover.
+- Fixed late-pick targets, unrelated purchases removing selectors and Fire ignoring the ban window.
+- Fixed saved feed settings arriving late or out of order and overwriting manual choices.
+- Corrected Nature's Grasp formatting, Spirit Tree's 5-armor description and missing Moon Well statistics.
+- Fixed blank map names/descriptions and the first picking timer's label and early disappearance.
 
 ## Solo testing
 
-- Matches that start with exactly one human automatically enable testing commands and disable automatic victory/defeat timers. Computer slots are allowed.
-- Added gold, lumber, XP, level, unit/item spawning, healing, cooldown, visibility and other testing commands. Use `-test help` in chat.
-- `-test skip` unlocks hero/race picking immediately for testing.
-- Complete spawn codes and command instructions are supplied in a separate **DEBUG_REFERENCE.md** document. The Information menu contains no generated debug catalogs.
-- Matches that start with multiple humans never unlock test commands when players leave.
+- Automatically enabled with one starting human, including matches with computers; disables victory/defeat timers. Multiplayer departures never unlock testing.
+- Added resource, XP, level, spawn, heal, revive, cooldown, vision and other commands: `-test help`. Both roles can skip picking waits with `-test skip`.
+- Moved spawn codes and command instructions out of the Information menu into [DEBUG_REFERENCE.md](https://github.com/clankermaster95/ForestExpansionLua/blob/main/DEBUG_REFERENCE.md).
 
-## Fixes and presentation
+## Code and stability
 
-- Corrected string-table encoding used for map names and descriptions, and added a label to the first picking countdown.
-- Fixed selector removal so unrelated unit purchases are not affected.
-- Corrected several ownership, delayed-event, resource-price and combat-calculation issues, including Cosmic Strike reading the wrong damage-event mana source.
-- Corrected temporary-location/group cleanup in Drain, fountain healing and gold-location pings.
-- Removed a zero damage interval from the unused Arcane Strike spell definition and added guards for authored Flame Strike intervals.
-- Added offline regression tests, native map-data validation and archive readback checks to the build process.
-- Hardened Lua timer initialization and ownership: native objects are allocated during map initialization, recurring and delayed systems retain their timers until cleanup, and gameplay avoids GUI timer globals. Added initialization and forced-garbage-collection regression checks.
-- Stored Lua uses editor-safe percent characters, with checks that preserve command patterns, displayed text and arithmetic during editor saves.
+- Consolidated 375 scripts into 60 named gameplay modules with shared data/handlers; removed redundant helpers.
+- Corrected native initialization, timer ownership, GUI timer conflicts, shared player-group corruption and temporary-resource leaks in Drain, Genesis, fountains and gold pings. Corrected a zero damage interval in the unused Arcane Strike definition.
+- Added editor-save, gameplay/data and map-package checks. Build/LLM instructions: [LLM_GUIDE.md](https://github.com/clankermaster95/ForestExpansionLua/blob/main/LLM_GUIDE.md). Configured builds install the latest map and prune older managed copies.
 
-## Picking, takeover and balance
-
-- The Ancient uses lobby slot 11 (Dark Green), including its starting units and shops.
-- Race and Ancient choices are visible immediately with purchasing blocked until their phase opens. Bans remove choices from stock and from random selection, and remain applied after unlock or solo skip. Expanders unlock after the 20-second ban phase, and the Ancient keeps its 60-second start. Cultist is available only in solo test mode and is hidden in multiplayer. Random is available on the first race selector.
-- Leaving players' armies remain for 60 seconds, including the Ancient's. Dead or unpicked Expanders can use `-takeover` (or `-takeover <slot>` when several players leave). Successful takeover preserves their own surviving units and transfers the departed player's units, resources and research.
-- Red can enable `-bringiton` once to double the Ancient's passive income from 10 to 20 gold every 10 seconds. Starting gold and kill rewards are unchanged.
-- Bleed and Poisoned Bullets use landed-hit debuffs rather than native orb effects. Poison stacks up to six times on each target; their damage over time remains nonlethal and cannot be dispelled.
-- Upgraded Aethyr walls now feed 20 gold. Wildkin regains researched ability levels after Wisp rebirth.
-- Corrected Nature's Grasp's tooltip, Spirit Tree's 5-armor description and Moon Well's building statistics.
-- Hardened Lightning's retaliation against invalid damage-event context and unlearned spell levels; its strike data explicitly defines higher-level values.
-
-## Cultist
-
-- Available only when the match starts with one human and the existing solo test mode is enabled automatically. Multiplayer departures do not unlock it. Unavailable Cultist bans do not consume a ban.
-- Builder description follows the other races' role, difficulty and stat layout. Corrected summon, worker and tower details; organized building research buttons, hotkeys and ability descriptions, and removed a stray spell debug message.
-- Green projectiles travel at 900 speed; 200 base attack range and 100 unupgraded attack damage.
-- New Altar research, with abilities grouped under **Blood Rites**: Sacrificial Aura (30 gold / 750 lumber), Bloody Sacrifice (25 / 750), and Chaotic Burst (35 / 1000). Each has one research level and no additional prerequisite beyond access to the Altar.
-- Sacrificial Aura grants allied units within 1000 range 5% attack and movement speed per full 10% of the Cultist's missing health, up to 45%. The strongest nearby Cultist aura applies.
-- Bloody Sacrifice toggles 50 HP/s healing to other allies within 400 range, costing the Cultist 100 magic damage each second. It can kill the Cultist.
-- Chaotic Burst supports manual attacks and autocast. It converts the attack's normal damage to pure damage, bypassing armor and magic resistance, and charges 4% of the Cultist's current HP on a successful empowered hit. Misses cost no HP.
-- Profane Reach adds 75 attack damage and 75 range per level, up to five levels. Costs: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber; total 175 gold and 8750 lumber.
-- One Amalgamation per player, using the native training limit across Altars and queues.
-
-## Ancient abilities
-
-- Ice's Sadism heals 400 HP/s for 25 seconds, retaining its initial 40% current-health cost. During it, enemies within 2000 range are slowed by 20% movement speed and cannot heal. Allies remain unaffected.
-- Light's Vanguard grants armor for six seconds through an undispellable ability. Nuke retains its area damage while allowing normal attacks to deal damage.
-
-## Validation
-
-Offline checks do not establish native engine behavior. Lightning crash reproduction, spell interactions and multiplayer desync testing still need live matches. Please include the map build, reproduction steps and screenshots when reporting an issue.
+**Testing:** Offline checks pass. Reported desyncs remain unreproduced; multiplayer testing is still needed.
