@@ -1,5 +1,5 @@
 {
-  "OldId": 1869640513,
+  "OldId": 1735674177,
   "NewId": 1127493697,
   "Unk": [
     0
@@ -446,6 +446,6 @@
     }
   ],
   "_rawcode": "A04C",
-  "_base": "Aspo",
+  "_base": "AItg",
   "_name": "Bleed"
 }

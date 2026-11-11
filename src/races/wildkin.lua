@@ -1,6 +1,19 @@
 -- races / wildkin
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
+FE_Wildkin = {}
+
+function FE_Wildkin.restoreResearch(unit)
+    if GetUnitTypeId(unit) ~= FourCC("h010") then return end
+    local level = 1 + GetPlayerTechCount(GetOwningPlayer(unit), FourCC("R051"), true)
+    -- Lunar Power's seven existing research handlers increment only units
+    -- present at research time. Recreated Wildkin need the cumulative level.
+    for _, raw in ipairs({"A07F", "A07H", "A07I", "A07J", "A07K", "A07M", "A07N"}) do
+        local ability = FourCC(raw)
+        if GetUnitAbilityLevel(unit, ability) > 0 then SetUnitAbilityLevel(unit, ability, level) end
+    end
+end
+
 -- BEGIN FOREST SECTION 137 Ancient_Artifact
 function Trig_Ancient_Artifact_Conditions()
     return GetSpellAbilityId() == FourCC("A07D")

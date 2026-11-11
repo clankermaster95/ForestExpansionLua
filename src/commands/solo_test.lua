@@ -52,7 +52,7 @@ local function target(player, dead)
 end
 
 local function integer(text, low, high)
-    if not text or not text:match('^%-?%d+$') then return nil end
+    if not text or not text:match('^\x25-?\x25d+$') then return nil end
     local value=tonumber(text)
     if value and value>=low and value<=high then return math.floor(value) end
 end
@@ -69,6 +69,9 @@ function FE_Test.skipPicking(player)
     if not FE_Test.allowed(player) then return end
     if FE_Test.skipped then say(player,'Picking wait already skipped.'); return end
     FE_Test.skipped=true
+    FE_Factions.showStock()
+    FE_Factions.unlockPicking()
+    FE_Factions.unlockAncients()
     for _,trigger in ipairs({gg_trg_Spawn_Races,gg_trg_Spawn_Ancients,gg_trg_TimeToExpanderSpawn,gg_trg_TimeToAncientSpawn}) do
         DisableTrigger(trigger)
     end
@@ -162,7 +165,7 @@ local function createObjects(player, args, command, unit)
     local x=unit and GetUnitX(unit) or GetStartLocationX(start)
     local y=unit and GetUnitY(unit) or GetStartLocationY(start)
     for index=1,count do
-        local offset=64*((index-1)%5+1)
+        local offset=64*(math.fmod(index-1,5)+1)
         if command=='spawn' then CreateUnit(player,FourCC(raw),x+offset,y+64*((index-1)//5),270)
         else CreateItem(FourCC(raw),x+offset,y) end
     end
@@ -253,10 +256,10 @@ local unitCommands = {
 function FE_Test.run(player, text)
     if not FE_Test.allowed(player) then return end
     local args={}
-    for word in text:gmatch('%S+') do args[#args+1]=word end
+    for word in text:gmatch('\x25S+') do args[#args+1]=word end
     local command=string.lower(args[1] or '')
     if command=='-test' then table.remove(args,1); command=string.lower(args[1] or 'help')
-    else command=command:gsub('^%-','') end
+    else command=command:gsub('^\x25-','') end
     command=aliases[command] or command
     local handler=playerCommands[command]
     if handler then handler(player,args,command); return end
@@ -280,7 +283,7 @@ function FE_Test.init()
     TriggerRegisterPlayerChatEvent(chat,player,'-',false)
     TriggerAddAction(chat,function()
         local text=GetEventPlayerChatString()
-        local first=string.lower(text:match('^(%S+)') or '')
+        local first=string.lower(text:match('^(\x25S+)') or '')
         -- Avoid interpreting the map's unrelated existing chat commands.
         local short={'gold','lumber','xp','lvl','unit','spawn','item','heal','mana','invul','vul','mh','nomh','cheats','skip'}
         local accept=first=='-test'

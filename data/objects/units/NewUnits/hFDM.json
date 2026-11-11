@@ -1,0 +1,152 @@
+{
+  "OldId": 1869571688,
+  "NewId": 1296320104,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1768055157,
+      "Type": "String",
+      "Value": "Aloc,Avul",
+      "SanityCheck": 0,
+      "_field": "uabi"
+    },
+    {
+      "Id": 1852137845,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uaen"
+    },
+    {
+      "Id": 1937141109,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umvs"
+    },
+    {
+      "Id": 1953918325,
+      "Type": "String",
+      "Value": "fly",
+      "SanityCheck": 0,
+      "_field": "umvt"
+    },
+    {
+      "Id": 1819239285,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucol"
+    },
+    {
+      "Id": 1935827829,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucbs"
+    },
+    {
+      "Id": 1953522549,
+      "Type": "Unreal",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ucpt"
+    },
+    {
+      "Id": 1836083317,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "uhpm"
+    },
+    {
+      "Id": 1869571701,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufoo"
+    },
+    {
+      "Id": 1667330677,
+      "Type": "String",
+      "Value": "other",
+      "SanityCheck": 0,
+      "_field": "urac"
+    },
+    {
+      "Id": 1684632437,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "usid"
+    },
+    {
+      "Id": 1852404597,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "usin"
+    },
+    {
+      "Id": 2037671029,
+      "Type": "String",
+      "Value": "none",
+      "SanityCheck": 0,
+      "_field": "udty"
+    },
+    {
+      "Id": 1633837685,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubba"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
+    },
+    {
+      "Id": 1836084597,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umpm"
+    },
+    {
+      "Id": 1768975733,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "umpi"
+    },
+    {
+      "Id": 1634559605,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ufma"
+    },
+    {
+      "Id": 1633907573,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "usca"
+    }
+  ],
+  "_rawcode": "hFDM",
+  "_base": "hfoo",
+  "_name": "Spell dummy"
+}

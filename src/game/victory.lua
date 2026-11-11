@@ -268,7 +268,7 @@ end
 
 -- BEGIN FOREST SECTION 365 Extermination
 function Trig_Extermination_Conditions()
-    return udg_StillAlive == 0
+    return udg_StillAlive == 0 and not (FE_Takeover and FE_Takeover.hasPendingExpander())
 end
 
 function Trig_Extermination_Actions()

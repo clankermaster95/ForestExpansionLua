@@ -176,7 +176,7 @@
       "Type": "Int",
       "Level": 0,
       "Pointer": 0,
-      "Value": 1,
+      "Value": 0,
       "SanityCheck": 0,
       "_field": "gbpy"
     },
@@ -185,40 +185,45 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9354",
+      "Value": "A",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "A"
+      "_field": "ghk1"
     },
     {
       "Id": 829122663,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_9355",
+      "Value": "A",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "A"
+      "_field": "ghk1"
     },
     {
       "Id": 829122663,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_9356",
+      "Value": "A",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "A"
+      "_field": "ghk1"
     },
     {
       "Id": 829122663,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_9649",
+      "Value": "A",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "A"
+      "_field": "ghk1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpx",
+      "Level": 0,
+      "Pointer": 0
     }
   ],
   "_rawcode": "R082",

@@ -26,6 +26,7 @@ function Trig_LimitedTraining_Func002A()
     SetPlayerTechMaxAllowedSwap(FourCC("h05L"), 1, GetEnumPlayer())
     SetPlayerTechMaxAllowedSwap(FourCC("E00T"), 1, GetEnumPlayer())
     SetPlayerTechMaxAllowedSwap(FourCC("n00S"), 1, GetEnumPlayer())
+    SetPlayerTechMaxAllowedSwap(FourCC("H064"), 1, GetEnumPlayer())
 end
 
 function Trig_LimitedTraining_Actions()

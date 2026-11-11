@@ -8,30 +8,34 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "[Recipe] Bladed Gauntlet (900)",
+      "Value": "TRIGSTR_662",
       "SanityCheck": 0,
-      "_field": "unam"
+      "_field": "unam",
+      "_resolvedText": "[Recipe] Bladed Gauntlet (900)"
     },
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "|cff00d200[Recipe]|r Bladed Gauntlet |cffdcb900[900 gold total]|r",
+      "Value": "TRIGSTR_6670",
       "SanityCheck": 0,
-      "_field": "utip"
+      "_field": "utip",
+      "_resolvedText": "|cff00d200[Recipe]|r Bladed Gauntlet |cffdcb900[900 gold total]|r"
     },
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "|cffffcc00Full recipe: 900 gold|r|nRecipe scroll: 50 gold.|n|n|cff00d200Requires:|r|n- Gauntlet of Might (350 gold)|n- Iron Blade (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nA pugilistic implement used to draw blood the blood of gods. Increases your strength by 12 and your damage by 80.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r",
+      "Value": "TRIGSTR_6671",
       "SanityCheck": 0,
-      "_field": "utub"
+      "_field": "utub",
+      "_resolvedText": "|cffffcc00Full recipe: 900 gold|r|nRecipe scroll: 50 gold.|n|n|cff00d200Requires:|r|n- Gauntlet of Might (350 gold)|n- Iron Blade (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nA pugilistic implement used to draw blood the blood of gods. Increases your strength by 12 and your damage by 80.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "|cffffcc00Full recipe: 900 gold|r|nRecipe scroll: 50 gold.|n|n|cff00d200Requires:|r|n- Gauntlet of Might (350 gold)|n- Iron Blade (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nA pugilistic implement used to draw blood the blood of gods. Increases your strength by 12 and your damage by 80.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r",
+      "Value": "TRIGSTR_6673",
       "SanityCheck": 0,
-      "_field": "ides"
+      "_field": "ides",
+      "_resolvedText": "|cffffcc00Full recipe: 900 gold|r|nRecipe scroll: 50 gold.|n|n|cff00d200Requires:|r|n- Gauntlet of Might (350 gold)|n- Iron Blade (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nA pugilistic implement used to draw blood the blood of gods. Increases your strength by 12 and your damage by 80.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r"
     },
     {
       "Id": 1868786025,

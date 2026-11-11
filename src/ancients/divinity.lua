@@ -1,3 +1,52 @@
+FE_Light = { vanguard = {}, nuke = {} }
+
+function FE_Light.vanguardCast(unit)
+    local old = FE_Light.vanguard[unit]
+    if old then PauseTimer(old.timer); DestroyTimer(old.timer) end
+    local level = math.max(1, math.min(4, GetUnitAbilityLevel(unit, FourCC("A06U"))))
+    local state = {timer=CreateTimer(), pulses=0, heal=50+50*level}
+    FE_Light.vanguard[unit] = state
+    FE_Combat.hiddenAbility(unit, "AFVA", level)
+    -- Preserve the original immediate first heal and six total healing pulses.
+    SetWidgetLife(unit, GetWidgetLife(unit) + state.heal)
+    TimerStart(state.timer, 1, true, function()
+        state.pulses = state.pulses + 1
+        if state.pulses < 6 and FE_Combat.alive(unit) then SetWidgetLife(unit, GetWidgetLife(unit) + state.heal) end
+        if state.pulses >= 6 or not FE_Combat.alive(unit) then
+            if FE_Light.vanguard[unit] == state then
+                FE_Light.vanguard[unit] = nil
+                FE_Combat.hiddenAbility(unit, "AFVA", 0)
+            end
+            PauseTimer(state.timer); DestroyTimer(state.timer)
+        end
+    end)
+end
+
+function FE_Light.nukeCast(unit)
+    local old = FE_Light.nuke[unit]
+    if old then PauseTimer(old.timer); DestroyTimer(old.timer) end
+    local level = math.max(1, math.min(3, GetUnitAbilityLevel(unit, FourCC("A06W"))))
+    local state = {timer=CreateTimer(), ticks=0, damage=(50+50*level)*0.25}
+    FE_Light.nuke[unit] = state
+    -- Native Bladestorm retains its immunity/animation, but targets no units.
+    -- Its AoE damage is applied separately, so normal attacks keep working.
+    TimerStart(state.timer, 0.25, true, function()
+        state.ticks = state.ticks + 1
+        if FE_Combat.alive(unit) then
+            FE_Combat.near(unit, 250, function(target)
+                if IsUnitEnemy(target, GetOwningPlayer(unit)) then
+                    FE_Combat.damage(unit, target, state.damage, DAMAGE_TYPE_ENHANCED)
+                end
+            end)
+        end
+        if state.ticks >= 20 or not FE_Combat.alive(unit) then
+            if FE_Light.nuke[unit] == state then FE_Light.nuke[unit] = nil end
+            PauseTimer(state.timer); DestroyTimer(state.timer)
+        end
+    end)
+end
+
+
 -- ancients / divinity
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
@@ -7,19 +56,11 @@ function Trig_Sadism_Conditions()
 end
 
 function Trig_Sadism_Actions()
-    local caster = GetSpellAbilityUnit()
-    local iterations = 10
-    SetUnitLifeBJ(caster, (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) * __jreal(0.60))))
-    TriggerSleepAction(__jreal(1.00))
-    while true do
-        SetUnitLifeBJ(caster, (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, caster) + __jreal(1000.00))))
-        iterations = __jint(iterations - 1)
-        TriggerSleepAction(__jreal(1.00))
-        if (iterations == 0) then break end
-    end
+    FE_Ice.start(GetSpellAbilityUnit())
 end
 
 function InitTrig_Sadism()
+    FE_Ice.init()
     gg_trg_Sadism = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_Sadism, EVENT_PLAYER_UNIT_SPELL_EFFECT)
     TriggerAddCondition(gg_trg_Sadism, Condition(Trig_Sadism_Conditions))
@@ -33,6 +74,7 @@ function Trig_Reckoning_Conditions()
 end
 
 function Trig_Reckoning_Actions()
+    FE_Light.nukeCast(GetSpellAbilityUnit())
     udg_TSEDuration = __jreal(5.00)
     udg_TSEScale = __jreal(0.45)
     udg_TSEAttachPoint = "origin"
@@ -93,11 +135,7 @@ function Trig_Vanguard_Conditions()
 end
 
 function Trig_Vanguard_Actions()
-    local heal = udg_VanguardHeal
-    for pulse = 1, 6 do
-        SetUnitLifeBJ(GetTriggerUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetTriggerUnit()) + heal)))
-        if pulse < 6 then TriggerSleepAction(__jreal(1.00)) end
-    end
+    FE_Light.vanguardCast(GetSpellAbilityUnit())
 end
 
 function InitTrig_Vanguard()

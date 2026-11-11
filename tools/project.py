@@ -81,7 +81,22 @@ def pending_json_edits():
     index=ds.read(ROOT/'data/index.json')
     return [name for name,spec in index.items() if ds.content_hash(ds.assemble(ROOT/'data',spec))!=spec['content_sha256']]
 
+def editor_tree_order(items):
+    """Native WCT entries follow depth-first tree order, not insertion/ID order."""
+    children=collections.defaultdict(list)
+    for item in items:children[item['ParentId']].append(item)
+    ordered=[];seen=set()
+    def visit(parent):
+        for item in children[parent]:
+            if item['Id'] in seen:raise ValueError('Duplicate/cyclic editor trigger ID')
+            seen.add(item['Id']);ordered.append(item);visit(item['Id'])
+    visit(-1)
+    if len(ordered)!=len(items):raise ValueError('Orphaned editor trigger/category')
+    return ordered
+
 def editor_sources(cfg,target):
+    from editor_safety import validate as validate_editor_safety
+    validate_editor_safety(ROOT,cfg)
     items=[{'Type':'RootCategory','Id':0,'Name':cfg['name'],'IsComment':False,'IsExpanded':True,'ParentId':-1}]
     for i,name in enumerate(['Lua gameplay','Disabled original triggers'],1):
         items.append({'Type':'Category','Id':(2<<24)+i,'Name':name,'IsComment':False,'IsExpanded':True,'ParentId':0})
@@ -124,6 +139,11 @@ def editor_sources(cfg,target):
             'IsComment':False,'Id':(3<<24)+order+1,'IsEnabled':False,'IsCustomTextTrigger':False,
             'IsInitiallyOn':False,'RunOnMapInit':False,'ParentId':(2<<24)+3,'Functions':functions})
         codes.append({'Code':''})
+    # World Editor loads the tree before assigning WCT text. Interleaved folder
+    # definitions otherwise bind scripts to the wrong triggers on an actual save.
+    by_id={item['Id']:code for item,code in zip([x for x in items if 'IsEnabled' in x],codes)}
+    items=editor_tree_order(items)
+    codes=[by_id[item['Id']] for item in items if 'IsEnabled' in item]
     wtg={'FormatVersion':'v7','SubVersion':'v4','GameVersion':2,'Variables':[],'TriggerItems':items,'TriggerItemCounts':{}}
     wct={'FormatVersion':'v1','SubVersion':'v4','GlobalCustomScriptComment':'Lua source lives in src/. See README.md for the editor round trip.',
         'GlobalCustomScriptCode':{'Code':'\n'.join(block(p) for p in cfg['header'])+'\0'},'CustomTextTriggers':codes}

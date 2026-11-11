@@ -251,7 +251,7 @@
         "-ban ratling",
         "-ban stalker"
       ],
-      "closeAtCutoff": false
+      "closeAtCutoff": true
     },
     {
       "key": "Hunter",
@@ -265,7 +265,20 @@
         "-ban hunter",
         "-ban bounty"
       ],
-      "closeAtCutoff": false
+      "closeAtCutoff": true
+    },
+    {
+      "key": "Cultist",
+      "raw": "h063",
+      "shop": "gg_unit_n00G_0035",
+      "ban": "udg_BannedCultist",
+      "message": "Cultist banned. Bans remaining: ",
+      "stock": 1,
+      "maximum": 1,
+      "closeAtCutoff": true,
+      "aliases": [
+        "-ban cultist"
+      ]
     }
   ],
   "ancients": [
@@ -274,14 +287,14 @@
       "raw": "O01V",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientLight",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Light banned. Bans remaining: ",
       "aliases": [
         "-ban light",
         "-ban divinity"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0FB"
     },
     {
@@ -289,14 +302,14 @@
       "raw": "O016",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientLightning",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Lightning banned. Bans remaining: ",
       "aliases": [
         "-ban Lightning",
         "-ban Zalxon"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0B1"
     },
     {
@@ -304,7 +317,7 @@
       "raw": "O00S",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientDragon",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Dragons banned. Bans remaining: ",
       "aliases": [
@@ -312,7 +325,7 @@
         "-ban Dragons",
         "-ban Dragos"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0B4"
     },
     {
@@ -320,14 +333,14 @@
       "raw": "O00L",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientEarth",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Earth banned. Bans remaining: ",
       "aliases": [
         "-ban Earth",
         "-ban Tremor"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0B5"
     },
     {
@@ -335,14 +348,14 @@
       "raw": "O00A",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientDarkness",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Darkness banned. Bans remaining: ",
       "aliases": [
         "-ban Darkness",
         "-ban Paranoia"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0EN"
     },
     {
@@ -350,14 +363,14 @@
       "raw": "O008",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientIce",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Ice banned. Bans remaining: ",
       "aliases": [
         "-ban Ice",
         "-ban Avalanche"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0AZ"
     },
     {
@@ -365,14 +378,14 @@
       "raw": "O004",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientFire",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Fire banned. Bans remaining: ",
       "aliases": [
         "-ban Fire",
         "-ban Ignite"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0B3"
     },
     {
@@ -380,14 +393,14 @@
       "raw": "O00D",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientNature",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Nature banned. Bans remaining: ",
       "aliases": [
         "-ban Nature",
         "-ban Eternity"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0AY"
     },
     {
@@ -395,14 +408,14 @@
       "raw": "O01X",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientSand",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Sand banned. Bans remaining: ",
       "aliases": [
         "-ban Sand",
         "-ban Pharaoh"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0B2"
     },
     {
@@ -410,14 +423,14 @@
       "raw": "O01Z",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientSpace",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Space banned. Bans remaining: ",
       "aliases": [
         "-ban Space",
         "-ban Nebula"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0AL"
     },
     {
@@ -425,7 +438,7 @@
       "raw": "O01D",
       "shop": "gg_unit_nmr2_0001",
       "ban": "udg_BannedAncientWind",
-      "stock": 0,
+      "stock": 1,
       "maximum": 1,
       "message": "Ancient of Wind banned. Bans remaining: ",
       "aliases": [
@@ -435,7 +448,7 @@
         "-ban Whispari",
         "-ban Whisperi"
       ],
-      "closeAtCutoff": false,
+      "closeAtCutoff": true,
       "spellbringerAbility": "A0EM"
     }
   ],
@@ -470,7 +483,8 @@
     "AncientNature",
     "AncientSand",
     "AncientSpace",
-    "AncientWind"
+    "AncientWind",
+    "Cultist"
   ],
   "randomExpanders": [
     "Human",

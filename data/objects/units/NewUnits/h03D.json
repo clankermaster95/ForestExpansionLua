@@ -144,6 +144,13 @@
       "Value": 5,
       "SanityCheck": 0,
       "_field": "ufma"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "RFPK",
+      "SanityCheck": 0,
+      "_field": "ureq"
     }
   ],
   "_rawcode": "h03D",

@@ -1,3 +1,130 @@
+-- Cultist research unlocks fixed-strength abilities; Profane Reach is native
+-- object research so trained/reborn units inherit all five upgrade levels.
+FE_Cultist = { units = {}, known = {}, sacrifice = {}, burst = {}, manual = {}, empowered = {}, auraUnits = {}, auraLevel = {}, ticks = 0 }
+
+function FE_Cultist.researched(unit, raw)
+    return GetPlayerTechCount(GetOwningPlayer(unit), FourCC(raw), true) > 0
+end
+
+function FE_Cultist.track(unit)
+    if GetUnitTypeId(unit) ~= FourCC("h063") or FE_Cultist.known[unit] then return end
+    -- Keep the functional resistance on the unit; its description is in Blood Rites.
+    BlzUnitHideAbility(unit, FourCC("A0EI"), true)
+    FE_Cultist.known[unit] = true
+    FE_Cultist.units[#FE_Cultist.units+1] = unit
+end
+
+function FE_Cultist.onOrder()
+    local unit, order = GetTriggerUnit(), GetIssuedOrderId()
+    if GetUnitTypeId(unit) ~= FourCC("h063") then return end
+    FE_Cultist.track(unit)
+    if order == OrderId("immolation") and FE_Cultist.researched(unit, "RFCS") then
+        FE_Cultist.sacrifice[unit] = true
+    elseif order == OrderId("unimmolation") then
+        FE_Cultist.sacrifice[unit] = nil
+    elseif order == OrderId("flamingarrowstarg") and FE_Cultist.researched(unit, "RFCB") then
+        FE_Cultist.manual[unit] = GetOrderTargetUnit()
+    elseif order == OrderId("flamingarrows") and FE_Cultist.researched(unit, "RFCB") then
+        FE_Cultist.burst[unit] = true
+    elseif order == OrderId("unflamingarrows") then
+        FE_Cultist.burst[unit] = nil
+    else
+        -- A canceled manual attack must not empower some later unrelated hit.
+        FE_Cultist.manual[unit] = nil
+    end
+end
+
+function FE_Cultist.beforeDamage()
+    -- Damage Engine recycles event indices between batches. A suppressed event
+    -- must never leave a cost marker for the next attack using that index.
+    FE_Cultist.empowered[s__Damage_index] = nil
+    if not udg_IsDamageAttack or udg_DamageEventAmount <= 0 then return end
+    local unit = udg_DamageEventSource
+    if GetUnitTypeId(unit) ~= FourCC("h063") or not FE_Cultist.researched(unit, "RFCB") then return end
+    if not FE_Cultist.burst[unit] and FE_Cultist.manual[unit] ~= udg_DamageEventTarget then return end
+    FE_Cultist.manual[unit] = nil
+    FE_Cultist.empowered[s__Damage_index] = unit
+    -- Spells attack type has no armor-type multiplier; UNIVERSAL bypasses armor
+    -- and magic resistance. Do not add a second damage instance to the victim.
+    udg_DamageEventAttackT = GetHandleId(ATTACK_TYPE_NORMAL)
+    udg_DamageEventDamageT = GetHandleId(DAMAGE_TYPE_UNIVERSAL)
+end
+
+function FE_Cultist.afterDamage()
+    local unit = FE_Cultist.empowered[s__Damage_index]
+    FE_Cultist.empowered[s__Damage_index] = nil
+    if unit and udg_DamageEventAmount > 0 and FE_Combat.alive(unit) then
+        FE_Combat.damage(unit, unit, GetWidgetLife(unit)*0.04, DAMAGE_TYPE_UNIVERSAL)
+    end
+end
+
+function FE_Cultist.tick()
+    FE_Cultist.ticks = FE_Cultist.ticks + 1
+    local desired, ordered = {}, {}
+    for index = #FE_Cultist.units, 1, -1 do
+        local unit = FE_Cultist.units[index]
+        if not FE_Combat.alive(unit) then
+            FE_Cultist.known[unit], FE_Cultist.sacrifice[unit], FE_Cultist.burst[unit], FE_Cultist.manual[unit] = nil, nil, nil, nil
+            table.remove(FE_Cultist.units, index)
+        else
+            local owner = GetOwningPlayer(unit)
+            if FE_Cultist.researched(unit, "RFCA") then
+                local tier = math.min(9, math.max(0, math.floor((1 - GetWidgetLife(unit)/BlzGetUnitMaxHP(unit))*10 + 0.00001)))
+                if tier > 0 then
+                    FE_Combat.near(unit, 1000, function(target)
+                        if IsUnitAlly(target, owner) then
+                            if not desired[target] then ordered[#ordered+1] = target end
+                            desired[target] = math.max(desired[target] or 0, tier)
+                        end
+                    end)
+                end
+            end
+            if math.fmod(FE_Cultist.ticks, 4) == 0 and FE_Cultist.sacrifice[unit] and FE_Cultist.researched(unit, "RFCS") then
+                -- Snapshot the source before self damage can trigger death cleanup.
+                FE_Combat.near(unit, 400, function(target)
+                    if target ~= unit and IsUnitAlly(target, owner) then
+                        SetWidgetLife(target, GetWidgetLife(target) + 50)
+                    end
+                end)
+                FE_Combat.damage(unit, unit, 100, DAMAGE_TYPE_MAGIC)
+            end
+        end
+    end
+    for _, unit in ipairs(FE_Cultist.auraUnits) do
+        if not desired[unit] then
+            FE_Combat.hiddenAbility(unit, "AFAS", 0)
+            UnitRemoveAbility(unit, FourCC("BFAS"))
+            FE_Cultist.auraLevel[unit] = nil
+        end
+    end
+    for _, unit in ipairs(ordered) do
+        if FE_Cultist.auraLevel[unit] ~= desired[unit] then
+            FE_Combat.hiddenAbility(unit, "AFAS", desired[unit])
+            FE_Cultist.auraLevel[unit] = desired[unit]
+        end
+    end
+    FE_Cultist.auraUnits = ordered
+end
+
+function FE_Cultist.init()
+    local orders = CreateTrigger()
+    TriggerRegisterAnyUnitEventBJ(orders, EVENT_PLAYER_UNIT_ISSUED_ORDER)
+    TriggerRegisterAnyUnitEventBJ(orders, EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER)
+    TriggerRegisterAnyUnitEventBJ(orders, EVENT_PLAYER_UNIT_ISSUED_POINT_ORDER)
+    TriggerAddAction(orders, FE_Cultist.onOrder)
+    local region = CreateRegion()
+    RegionAddRect(region, GetPlayableMapRect())
+    local enter = CreateTrigger()
+    TriggerRegisterEnterRegion(enter, region, nil)
+    TriggerAddAction(enter, function() FE_Cultist.track(GetEnteringUnit()) end)
+    FE_Roles.forEachPlayer(function(player) FE_Takeover.forUnits(player, FE_Cultist.track) end)
+    FE_Combat.listen("udg_PreDamageEvent", 0.5, FE_Cultist.beforeDamage)
+    FE_Combat.listen("udg_AfterDamageEvent", 1, FE_Cultist.afterDamage)
+    local timer = CreateTimer()
+    TimerStart(timer, 0.25, true, FE_Cultist.tick)
+end
+
+
 -- races / cultist
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
@@ -14,7 +141,6 @@ end
 
 function Trig_Limb_Throw_Actions()
     SetUnitLifeBJ(GetSpellAbilityUnit(), (__jreal(GetUnitStateSwap(UNIT_STATE_LIFE, GetSpellAbilityUnit()) - (__jreal(GetUnitStateSwap(UNIT_STATE_MAX_LIFE, GetSpellAbilityUnit()) * __jreal(0.15))))))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_8758")
 end
 
 function InitTrig_Limb_Throw()
@@ -275,6 +401,7 @@ function Trig_Map_Start_Actions()
 end
 
 function InitTrig_Map_Start()
+    FE_Cultist.init()
     gg_trg_Map_Start = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Map_Start, __jreal(5.00))
     TriggerAddAction(gg_trg_Map_Start, Trig_Map_Start_Actions)

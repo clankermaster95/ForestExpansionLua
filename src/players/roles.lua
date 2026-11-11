@@ -1,7 +1,7 @@
 -- Gameplay identity belongs to player handles, never colors or fixed slots.
 -- This is the only default Ancient slot. Native lobby configuration still uses
--- the original eleven slots. Changing that lobby is a separate editor task.
-FE_Roles = { initialAncientSlot = 6, playerSlotCount = 11 }
+-- eleven slots, with the Ancient in slot 11 (Dark Green).
+FE_Roles = { initialAncientSlot = 10, playerSlotCount = 11 }
 
 function FE_Roles.ancient()
     return udg_AncientPlayer

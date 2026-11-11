@@ -1,0 +1,78 @@
+{
+  "OldId": 1735674177,
+  "NewId": 1094927937,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6745",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Sacrificial Aura"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNUnholyAura.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6746",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Sacrificial Aura"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6747",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Allied units within 1000 range gain +5% attack and movement speed per full 10% of your missing health (maximum +45%). The strongest nearby Cultist aura applies."
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy",
+      "Level": 0,
+      "Pointer": 0
+    }
+  ],
+  "_rawcode": "AFCA",
+  "_base": "AItg",
+  "_name": "Sacrificial Aura"
+}

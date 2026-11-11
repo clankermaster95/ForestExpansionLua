@@ -49,7 +49,7 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_7714",
+      "Value": "TRIGSTR_7720",
       "SanityCheck": 0,
       "_field": "ghk1",
       "_resolvedText": "C"
@@ -59,7 +59,7 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_7720",
+      "Value": "TRIGSTR_7787",
       "SanityCheck": 0,
       "_field": "ghk1",
       "_resolvedText": "C"
@@ -156,7 +156,7 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7787",
+      "Value": "TRIGSTR_7824",
       "SanityCheck": 0,
       "_field": "ghk1",
       "_resolvedText": "C"

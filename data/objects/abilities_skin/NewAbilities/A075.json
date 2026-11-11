@@ -97,10 +97,10 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4261",
+      "Value": "TRIGSTR_6744",
       "SanityCheck": 0,
       "_field": "aub1",
-      "_resolvedText": "When casted, you initially lose 40% of your current health, however, you regenerate 10000 health over 10 seconds. 3 minute cooldown."
+      "_resolvedText": "Lose 40% of your current health, then recover 400 HP each second for 25 seconds. During this time, enemies within 2000 range have 20% reduced movement speed and cannot heal. Cooldown: 180 seconds."
     },
     {
       "Id": 1952539489,

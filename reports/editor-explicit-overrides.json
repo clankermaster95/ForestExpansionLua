@@ -1,0 +1,908 @@
+{
+  "reason": "Retain audited explicit overrides that the native editor omitted as defaults, including high-level ability fields and zero bounty dice. Preserve current native format and WTS references.",
+  "restored": [
+    {
+      "object": "data/objects/abilities/NewAbilities/A03S.json",
+      "fields": [
+        {
+          "field": "aare",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities/NewAbilities/A04C.json",
+      "fields": [
+        {
+          "field": "Iatt",
+          "level": 1
+        },
+        {
+          "field": "Iatt",
+          "level": 2
+        },
+        {
+          "field": "Iatt",
+          "level": 3
+        },
+        {
+          "field": "Iatt",
+          "level": 4
+        },
+        {
+          "field": "Iatt",
+          "level": 5
+        },
+        {
+          "field": "Iatt",
+          "level": 6
+        },
+        {
+          "field": "Iatt",
+          "level": 7
+        },
+        {
+          "field": "Iatt",
+          "level": 8
+        },
+        {
+          "field": "Iatt",
+          "level": 9
+        },
+        {
+          "field": "Iatt",
+          "level": 10
+        },
+        {
+          "field": "Iatt",
+          "level": 11
+        },
+        {
+          "field": "Iatt",
+          "level": 12
+        },
+        {
+          "field": "Iatt",
+          "level": 13
+        },
+        {
+          "field": "Iatt",
+          "level": 14
+        },
+        {
+          "field": "Iatt",
+          "level": 15
+        },
+        {
+          "field": "Iatt",
+          "level": 16
+        },
+        {
+          "field": "Iatt",
+          "level": 17
+        },
+        {
+          "field": "Iatt",
+          "level": 18
+        },
+        {
+          "field": "Iatt",
+          "level": 19
+        },
+        {
+          "field": "Iatt",
+          "level": 20
+        },
+        {
+          "field": "Iatt",
+          "level": 21
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities/NewAbilities/A0CO.json",
+      "fields": [
+        {
+          "field": "Iatt",
+          "level": 1
+        },
+        {
+          "field": "Iatt",
+          "level": 2
+        },
+        {
+          "field": "Iatt",
+          "level": 3
+        },
+        {
+          "field": "Iatt",
+          "level": 4
+        },
+        {
+          "field": "Iatt",
+          "level": 5
+        },
+        {
+          "field": "Iatt",
+          "level": 6
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities/NewAbilities/AFAS.json",
+      "fields": [
+        {
+          "field": "aite",
+          "level": 0
+        },
+        {
+          "field": "areq",
+          "level": 0
+        },
+        {
+          "field": "arqa",
+          "level": 0
+        },
+        {
+          "field": "adur",
+          "level": 1
+        },
+        {
+          "field": "ahdu",
+          "level": 1
+        },
+        {
+          "field": "adur",
+          "level": 2
+        },
+        {
+          "field": "ahdu",
+          "level": 2
+        },
+        {
+          "field": "adur",
+          "level": 3
+        },
+        {
+          "field": "ahdu",
+          "level": 3
+        },
+        {
+          "field": "adur",
+          "level": 4
+        },
+        {
+          "field": "ahdu",
+          "level": 4
+        },
+        {
+          "field": "adur",
+          "level": 5
+        },
+        {
+          "field": "ahdu",
+          "level": 5
+        },
+        {
+          "field": "adur",
+          "level": 6
+        },
+        {
+          "field": "ahdu",
+          "level": 6
+        },
+        {
+          "field": "adur",
+          "level": 7
+        },
+        {
+          "field": "ahdu",
+          "level": 7
+        },
+        {
+          "field": "adur",
+          "level": 8
+        },
+        {
+          "field": "ahdu",
+          "level": 8
+        },
+        {
+          "field": "adur",
+          "level": 9
+        },
+        {
+          "field": "ahdu",
+          "level": 9
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities/NewAbilities/AFCA.json",
+      "fields": [
+        {
+          "field": "aher",
+          "level": 0
+        },
+        {
+          "field": "alev",
+          "level": 0
+        },
+        {
+          "field": "arac",
+          "level": 0
+        },
+        {
+          "field": "arqa",
+          "level": 0
+        },
+        {
+          "field": "Iatt",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities/NewAbilities/AFCB.json",
+      "fields": [
+        {
+          "field": "aite",
+          "level": 0
+        },
+        {
+          "field": "arqa",
+          "level": 0
+        },
+        {
+          "field": "Hfa1",
+          "level": 1
+        },
+        {
+          "field": "acdn",
+          "level": 1
+        },
+        {
+          "field": "abuf",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities/NewAbilities/AFCS.json",
+      "fields": [
+        {
+          "field": "aite",
+          "level": 0
+        },
+        {
+          "field": "arqa",
+          "level": 0
+        },
+        {
+          "field": "adur",
+          "level": 1
+        },
+        {
+          "field": "ahdu",
+          "level": 1
+        },
+        {
+          "field": "acdn",
+          "level": 1
+        },
+        {
+          "field": "Eim1",
+          "level": 1
+        },
+        {
+          "field": "Eim2",
+          "level": 1
+        },
+        {
+          "field": "Eim3",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities/NewAbilities/AFCT.json",
+      "fields": [
+        {
+          "field": "aher",
+          "level": 0
+        },
+        {
+          "field": "alev",
+          "level": 0
+        },
+        {
+          "field": "arac",
+          "level": 0
+        },
+        {
+          "field": "areq",
+          "level": 0
+        },
+        {
+          "field": "arqa",
+          "level": 0
+        },
+        {
+          "field": "spb2",
+          "level": 1
+        },
+        {
+          "field": "amcs",
+          "level": 1
+        },
+        {
+          "field": "acdn",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities/NewAbilities/AFIS.json",
+      "fields": [
+        {
+          "field": "aite",
+          "level": 0
+        },
+        {
+          "field": "areq",
+          "level": 0
+        },
+        {
+          "field": "arqa",
+          "level": 0
+        },
+        {
+          "field": "Oae2",
+          "level": 1
+        },
+        {
+          "field": "adur",
+          "level": 1
+        },
+        {
+          "field": "ahdu",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities/NewAbilities/AFLT.json",
+      "fields": [
+        {
+          "field": "aare",
+          "level": 1
+        },
+        {
+          "field": "areq",
+          "level": 0
+        },
+        {
+          "field": "arqa",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities/NewAbilities/AFVA.json",
+      "fields": [
+        {
+          "field": "aher",
+          "level": 0
+        },
+        {
+          "field": "arac",
+          "level": 0
+        },
+        {
+          "field": "areq",
+          "level": 0
+        },
+        {
+          "field": "arqa",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities_skin/NewAbilities/A0CO.json",
+      "fields": [
+        {
+          "field": "abpx",
+          "level": 0
+        },
+        {
+          "field": "abpy",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities_skin/NewAbilities/AFCA.json",
+      "fields": [
+        {
+          "field": "ahky",
+          "level": 0
+        },
+        {
+          "field": "abpx",
+          "level": 0
+        },
+        {
+          "field": "abpy",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/abilities_skin/NewAbilities/AFCS.json",
+      "fields": [
+        {
+          "field": "abpx",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/buffs/NewBuffs/BFAS.json",
+      "fields": [
+        {
+          "field": "fnam",
+          "level": 0
+        },
+        {
+          "field": "ftip",
+          "level": 0
+        },
+        {
+          "field": "fube",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/buffs/NewBuffs/BFIS.json",
+      "fields": [
+        {
+          "field": "fnam",
+          "level": 0
+        },
+        {
+          "field": "ftip",
+          "level": 0
+        },
+        {
+          "field": "fube",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/buffs/NewBuffs/BFSC.json",
+      "fields": [
+        {
+          "field": "fnam",
+          "level": 0
+        },
+        {
+          "field": "ftip",
+          "level": 0
+        },
+        {
+          "field": "fube",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I00F.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I00I.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I012.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I015.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I017.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I019.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I01C.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I01L.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I01N.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I01P.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I01R.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/items/NewItems/I01T.json",
+      "fields": [
+        {
+          "field": "ilum",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/units/NewUnits/h02B.json",
+      "fields": [
+        {
+          "field": "usei",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/units/NewUnits/h03X.json",
+      "fields": [
+        {
+          "field": "ubdi",
+          "level": 0
+        },
+        {
+          "field": "ubsi",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/units/NewUnits/hFDM.json",
+      "fields": [
+        {
+          "field": "umpm",
+          "level": 0
+        },
+        {
+          "field": "umpi",
+          "level": 0
+        },
+        {
+          "field": "ufma",
+          "level": 0
+        },
+        {
+          "field": "usca",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/units/NewUnits/n00G.json",
+      "fields": [
+        {
+          "field": "usei",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/units_skin/NewUnits/h063.json",
+      "fields": [
+        {
+          "field": "ua1z",
+          "level": 0
+        },
+        {
+          "field": "ua1s",
+          "level": 0
+        },
+        {
+          "field": "ulpy",
+          "level": 0
+        },
+        {
+          "field": "ulpz",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/units_skin/NewUnits/hFDM.json",
+      "fields": [
+        {
+          "field": "ushb",
+          "level": 0
+        },
+        {
+          "field": "uimz",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/upgrades/NewUpgrades/RFAT.json",
+      "fields": [
+        {
+          "field": "gef3",
+          "level": 0
+        },
+        {
+          "field": "gef4",
+          "level": 0
+        },
+        {
+          "field": "grac",
+          "level": 0
+        },
+        {
+          "field": "greq",
+          "level": 0
+        },
+        {
+          "field": "grqc",
+          "level": 0
+        },
+        {
+          "field": "greq",
+          "level": 1
+        },
+        {
+          "field": "grqc",
+          "level": 1
+        },
+        {
+          "field": "grqc",
+          "level": 2
+        },
+        {
+          "field": "grqc",
+          "level": 3
+        },
+        {
+          "field": "greq",
+          "level": 4
+        },
+        {
+          "field": "grqc",
+          "level": 4
+        },
+        {
+          "field": "greq",
+          "level": 5
+        },
+        {
+          "field": "grqc",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "object": "data/objects/upgrades/NewUpgrades/RFCA.json",
+      "fields": [
+        {
+          "field": "gef2",
+          "level": 0
+        },
+        {
+          "field": "gef3",
+          "level": 0
+        },
+        {
+          "field": "gef4",
+          "level": 0
+        },
+        {
+          "field": "grac",
+          "level": 0
+        },
+        {
+          "field": "greq",
+          "level": 0
+        },
+        {
+          "field": "grqc",
+          "level": 0
+        },
+        {
+          "field": "greq",
+          "level": 1
+        },
+        {
+          "field": "grqc",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "object": "data/objects/upgrades/NewUpgrades/RFCB.json",
+      "fields": [
+        {
+          "field": "gef2",
+          "level": 0
+        },
+        {
+          "field": "gef3",
+          "level": 0
+        },
+        {
+          "field": "gef4",
+          "level": 0
+        },
+        {
+          "field": "grac",
+          "level": 0
+        },
+        {
+          "field": "greq",
+          "level": 0
+        },
+        {
+          "field": "grqc",
+          "level": 0
+        },
+        {
+          "field": "greq",
+          "level": 1
+        },
+        {
+          "field": "grqc",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "object": "data/objects/upgrades/NewUpgrades/RFCS.json",
+      "fields": [
+        {
+          "field": "gef2",
+          "level": 0
+        },
+        {
+          "field": "gef3",
+          "level": 0
+        },
+        {
+          "field": "gef4",
+          "level": 0
+        },
+        {
+          "field": "grac",
+          "level": 0
+        },
+        {
+          "field": "greq",
+          "level": 0
+        },
+        {
+          "field": "grqc",
+          "level": 0
+        },
+        {
+          "field": "greq",
+          "level": 1
+        },
+        {
+          "field": "grqc",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "object": "data/objects/upgrades/NewUpgrades/RFPA.json",
+      "fields": [
+        {
+          "field": "gef2",
+          "level": 0
+        },
+        {
+          "field": "gef3",
+          "level": 0
+        },
+        {
+          "field": "gef4",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/upgrades/NewUpgrades/RFPK.json",
+      "fields": [
+        {
+          "field": "gef2",
+          "level": 0
+        },
+        {
+          "field": "gef3",
+          "level": 0
+        },
+        {
+          "field": "gef4",
+          "level": 0
+        }
+      ]
+    },
+    {
+      "object": "data/objects/upgrades_skin/NewUpgrades/RFCA.json",
+      "fields": [
+        {
+          "field": "gbpx",
+          "level": 0
+        }
+      ]
+    }
+  ],
+  "cultist_projectile_speed": 900
+}

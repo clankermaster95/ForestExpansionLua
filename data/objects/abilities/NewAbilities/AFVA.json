@@ -1,0 +1,102 @@
+{
+  "OldId": 828655937,
+  "NewId": 1096173121,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 4,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1717920841,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "Idef"
+    },
+    {
+      "Id": 1717920841,
+      "Type": "Int",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "Idef"
+    },
+    {
+      "Id": 1717920841,
+      "Type": "Int",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 25,
+      "SanityCheck": 0,
+      "_field": "Idef"
+    },
+    {
+      "Id": 1717920841,
+      "Type": "Int",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 30,
+      "SanityCheck": 0,
+      "_field": "Idef"
+    },
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Value": "other",
+      "SanityCheck": 0,
+      "_field": "arac",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "areq",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1634824801,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "arqa",
+      "Level": 0,
+      "Pointer": 0
+    }
+  ],
+  "_rawcode": "AFVA",
+  "_base": "AId1",
+  "_name": "AFVA"
+}

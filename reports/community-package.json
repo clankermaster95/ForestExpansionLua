@@ -1,13 +1,14 @@
 {
-  "revision": "r8",
+  "revision": "r10",
   "file": "dist/Forest_Expansion_3.2.0_Community.zip",
-  "sha256": "6f97ac01b215991b06d6114477285830ebea38bf59360a89ab7c17391958356c",
-  "map_sha256": "0c65ca945d73ee886a835221e65f603c33e18208b48790e6e6a00f70cb4812a2",
+  "sha256": "1cabf313928dd18c51aee9b8be3e65bc64ecc7908cd47a8e73b27d20e11a8af2",
+  "map_sha256": "e1a0c0fa6c3777a4c2d69fff9304327a5f3adeee8911d09ac047892ab2d35ecd",
   "contents": [
     "Forest_Expansion_3.2.0_Lua.w3x",
     "CHANGELOG.md",
     "SOLO_TESTING.md",
     "DEBUG_REFERENCE.md",
+    "PATCH_TESTING.md",
     "README.txt",
     "SHA256.txt"
   ],

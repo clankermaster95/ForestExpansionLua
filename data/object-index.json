@@ -1220,7 +1220,7 @@
   {
     "kind": "abilities",
     "rawcode": "A04C",
-    "base": "Aspo",
+    "base": "AItg",
     "name": "Bleed",
     "path": "data/objects/abilities/NewAbilities/A04C.json"
   },
@@ -3355,7 +3355,7 @@
   {
     "kind": "abilities",
     "rawcode": "A0CO",
-    "base": "Aspo",
+    "base": "AItg",
     "name": "Poisoned Bullets",
     "path": "data/objects/abilities/NewAbilities/A0CO.json"
   },
@@ -4037,6 +4037,76 @@
     "base": "AEbl",
     "name": "Underground Travel",
     "path": "data/objects/abilities/NewAbilities/A0FC.json"
+  },
+  {
+    "kind": "abilities",
+    "rawcode": "AFLT",
+    "base": "AHfs",
+    "name": "AFLT",
+    "path": "data/objects/abilities/NewAbilities/AFLT.json"
+  },
+  {
+    "kind": "abilities",
+    "rawcode": "AFBL",
+    "base": "AOae",
+    "name": "AFBL",
+    "path": "data/objects/abilities/NewAbilities/AFBL.json"
+  },
+  {
+    "kind": "abilities",
+    "rawcode": "AFPB",
+    "base": "AOae",
+    "name": "AFPB",
+    "path": "data/objects/abilities/NewAbilities/AFPB.json"
+  },
+  {
+    "kind": "abilities",
+    "rawcode": "AFCA",
+    "base": "AItg",
+    "name": "Sacrificial Aura",
+    "path": "data/objects/abilities/NewAbilities/AFCA.json"
+  },
+  {
+    "kind": "abilities",
+    "rawcode": "AFCS",
+    "base": "AEim",
+    "name": "Bloody Sacrifice",
+    "path": "data/objects/abilities/NewAbilities/AFCS.json"
+  },
+  {
+    "kind": "abilities",
+    "rawcode": "AFCB",
+    "base": "AHfa",
+    "name": "Chaotic Burst",
+    "path": "data/objects/abilities/NewAbilities/AFCB.json"
+  },
+  {
+    "kind": "abilities",
+    "rawcode": "AFAS",
+    "base": "AOae",
+    "name": "AFAS",
+    "path": "data/objects/abilities/NewAbilities/AFAS.json"
+  },
+  {
+    "kind": "abilities",
+    "rawcode": "AFIS",
+    "base": "AOae",
+    "name": "AFIS",
+    "path": "data/objects/abilities/NewAbilities/AFIS.json"
+  },
+  {
+    "kind": "abilities",
+    "rawcode": "AFVA",
+    "base": "AId1",
+    "name": "AFVA",
+    "path": "data/objects/abilities/NewAbilities/AFVA.json"
+  },
+  {
+    "kind": "abilities",
+    "rawcode": "AFCT",
+    "base": "Aspb",
+    "name": "Blood Rites",
+    "path": "data/objects/abilities/NewAbilities/AFCT.json"
   },
   {
     "kind": "destructables",
@@ -5227,6 +5297,27 @@
     "base": "Basl",
     "name": "B041",
     "path": "data/objects/buffs/NewBuffs/B041.json"
+  },
+  {
+    "kind": "buffs",
+    "rawcode": "BFAS",
+    "base": "BOae",
+    "name": "Sacrificial Aura bonus",
+    "path": "data/objects/buffs/NewBuffs/BFAS.json"
+  },
+  {
+    "kind": "buffs",
+    "rawcode": "BFIS",
+    "base": "BOae",
+    "name": "Frozen by Sadism",
+    "path": "data/objects/buffs/NewBuffs/BFIS.json"
+  },
+  {
+    "kind": "buffs",
+    "rawcode": "BFSC",
+    "base": "BEim",
+    "name": "Bloody Sacrifice",
+    "path": "data/objects/buffs/NewBuffs/BFSC.json"
   },
   {
     "kind": "upgrades",
@@ -7164,7 +7255,7 @@
     "kind": "upgrades",
     "rawcode": "R07O",
     "base": "Rume",
-    "name": "Claw Strength X",
+    "name": "Corpse Vitality I",
     "path": "data/objects/upgrades/NewUpgrades/R07O.json"
   },
   {
@@ -7206,7 +7297,7 @@
     "kind": "upgrades",
     "rawcode": "R07U",
     "base": "Rume",
-    "name": "Claw Strength X",
+    "name": "Improved Quality I",
     "path": "data/objects/upgrades/NewUpgrades/R07U.json"
   },
   {
@@ -7220,21 +7311,21 @@
     "kind": "upgrades",
     "rawcode": "R07W",
     "base": "Rume",
-    "name": "Claw Strength X",
+    "name": "Death Flame I",
     "path": "data/objects/upgrades/NewUpgrades/R07W.json"
   },
   {
     "kind": "upgrades",
     "rawcode": "R07X",
     "base": "Rume",
-    "name": "Claw Strength X",
+    "name": "Slower Decay I",
     "path": "data/objects/upgrades/NewUpgrades/R07X.json"
   },
   {
     "kind": "upgrades",
     "rawcode": "R07Y",
     "base": "Rume",
-    "name": "Claw Strength X",
+    "name": "Haste I",
     "path": "data/objects/upgrades/NewUpgrades/R07Y.json"
   },
   {
@@ -7313,6 +7404,48 @@
     "base": "Rhfl",
     "name": "Elite Eagle",
     "path": "data/objects/upgrades/NewUpgrades/R089.json"
+  },
+  {
+    "kind": "upgrades",
+    "rawcode": "RFPK",
+    "base": "Rhme",
+    "name": "Picking starts after bans",
+    "path": "data/objects/upgrades/NewUpgrades/RFPK.json"
+  },
+  {
+    "kind": "upgrades",
+    "rawcode": "RFCA",
+    "base": "Rhme",
+    "name": "Sacrificial Aura",
+    "path": "data/objects/upgrades/NewUpgrades/RFCA.json"
+  },
+  {
+    "kind": "upgrades",
+    "rawcode": "RFCS",
+    "base": "Rhme",
+    "name": "Bloody Sacrifice",
+    "path": "data/objects/upgrades/NewUpgrades/RFCS.json"
+  },
+  {
+    "kind": "upgrades",
+    "rawcode": "RFCB",
+    "base": "Rhme",
+    "name": "Chaotic Burst",
+    "path": "data/objects/upgrades/NewUpgrades/RFCB.json"
+  },
+  {
+    "kind": "upgrades",
+    "rawcode": "RFAT",
+    "base": "Rhme",
+    "name": "Profane Reach",
+    "path": "data/objects/upgrades/NewUpgrades/RFAT.json"
+  },
+  {
+    "kind": "upgrades",
+    "rawcode": "RFPA",
+    "base": "Rhme",
+    "name": "Ancient picking starts at 60 seconds",
+    "path": "data/objects/upgrades/NewUpgrades/RFPA.json"
   },
   {
     "kind": "items",
@@ -10983,6 +11116,13 @@
     "path": "data/objects/units/NewUnits/h06I.json"
   },
   {
+    "kind": "units",
+    "rawcode": "hFDM",
+    "base": "hfoo",
+    "name": "Spell dummy",
+    "path": "data/objects/units/NewUnits/hFDM.json"
+  },
+  {
     "kind": "abilities_skin",
     "rawcode": "Abtl",
     "base": "Abtl",
@@ -12203,7 +12343,7 @@
   {
     "kind": "abilities_skin",
     "rawcode": "A04C",
-    "base": "Aspo",
+    "base": "AItg",
     "name": "Bleed",
     "path": "data/objects/abilities_skin/NewAbilities/A04C.json"
   },
@@ -14338,7 +14478,7 @@
   {
     "kind": "abilities_skin",
     "rawcode": "A0CO",
-    "base": "Aspo",
+    "base": "AItg",
     "name": "Poisoned Bullets",
     "path": "data/objects/abilities_skin/NewAbilities/A0CO.json"
   },
@@ -15020,6 +15160,76 @@
     "base": "AEbl",
     "name": "Underground Travel",
     "path": "data/objects/abilities_skin/NewAbilities/A0FC.json"
+  },
+  {
+    "kind": "abilities_skin",
+    "rawcode": "AFLT",
+    "base": "AHfs",
+    "name": "AFLT",
+    "path": "data/objects/abilities_skin/NewAbilities/AFLT.json"
+  },
+  {
+    "kind": "abilities_skin",
+    "rawcode": "AFBL",
+    "base": "Aslo",
+    "name": "AFBL",
+    "path": "data/objects/abilities_skin/NewAbilities/AFBL.json"
+  },
+  {
+    "kind": "abilities_skin",
+    "rawcode": "AFPB",
+    "base": "Aslo",
+    "name": "AFPB",
+    "path": "data/objects/abilities_skin/NewAbilities/AFPB.json"
+  },
+  {
+    "kind": "abilities_skin",
+    "rawcode": "AFCA",
+    "base": "AItg",
+    "name": "Sacrificial Aura",
+    "path": "data/objects/abilities_skin/NewAbilities/AFCA.json"
+  },
+  {
+    "kind": "abilities_skin",
+    "rawcode": "AFCS",
+    "base": "AEim",
+    "name": "Bloody Sacrifice",
+    "path": "data/objects/abilities_skin/NewAbilities/AFCS.json"
+  },
+  {
+    "kind": "abilities_skin",
+    "rawcode": "AFCB",
+    "base": "AHfa",
+    "name": "Chaotic Burst",
+    "path": "data/objects/abilities_skin/NewAbilities/AFCB.json"
+  },
+  {
+    "kind": "abilities_skin",
+    "rawcode": "AFAS",
+    "base": "AOae",
+    "name": "AFAS",
+    "path": "data/objects/abilities_skin/NewAbilities/AFAS.json"
+  },
+  {
+    "kind": "abilities_skin",
+    "rawcode": "AFIS",
+    "base": "AOae",
+    "name": "AFIS",
+    "path": "data/objects/abilities_skin/NewAbilities/AFIS.json"
+  },
+  {
+    "kind": "abilities_skin",
+    "rawcode": "AFVA",
+    "base": "AId1",
+    "name": "AFVA",
+    "path": "data/objects/abilities_skin/NewAbilities/AFVA.json"
+  },
+  {
+    "kind": "abilities_skin",
+    "rawcode": "AFCT",
+    "base": "Aspb",
+    "name": "Blood Rites",
+    "path": "data/objects/abilities_skin/NewAbilities/AFCT.json"
   },
   {
     "kind": "destructables_skin",
@@ -16210,6 +16420,27 @@
     "base": "Basl",
     "name": "B041",
     "path": "data/objects/buffs_skin/NewBuffs/B041.json"
+  },
+  {
+    "kind": "buffs_skin",
+    "rawcode": "BFAS",
+    "base": "BOae",
+    "name": "Sacrificial Aura bonus",
+    "path": "data/objects/buffs_skin/NewBuffs/BFAS.json"
+  },
+  {
+    "kind": "buffs_skin",
+    "rawcode": "BFIS",
+    "base": "BOae",
+    "name": "Frozen by Sadism",
+    "path": "data/objects/buffs_skin/NewBuffs/BFIS.json"
+  },
+  {
+    "kind": "buffs_skin",
+    "rawcode": "BFSC",
+    "base": "BEim",
+    "name": "Bloody Sacrifice",
+    "path": "data/objects/buffs_skin/NewBuffs/BFSC.json"
   },
   {
     "kind": "upgrades_skin",
@@ -18147,7 +18378,7 @@
     "kind": "upgrades_skin",
     "rawcode": "R07O",
     "base": "Rume",
-    "name": "Claw Strength X",
+    "name": "Corpse Vitality I",
     "path": "data/objects/upgrades_skin/NewUpgrades/R07O.json"
   },
   {
@@ -18189,7 +18420,7 @@
     "kind": "upgrades_skin",
     "rawcode": "R07U",
     "base": "Rume",
-    "name": "Claw Strength X",
+    "name": "Improved Quality I",
     "path": "data/objects/upgrades_skin/NewUpgrades/R07U.json"
   },
   {
@@ -18203,21 +18434,21 @@
     "kind": "upgrades_skin",
     "rawcode": "R07W",
     "base": "Rume",
-    "name": "Claw Strength X",
+    "name": "Death Flame I",
     "path": "data/objects/upgrades_skin/NewUpgrades/R07W.json"
   },
   {
     "kind": "upgrades_skin",
     "rawcode": "R07X",
     "base": "Rume",
-    "name": "Claw Strength X",
+    "name": "Slower Decay I",
     "path": "data/objects/upgrades_skin/NewUpgrades/R07X.json"
   },
   {
     "kind": "upgrades_skin",
     "rawcode": "R07Y",
     "base": "Rume",
-    "name": "Claw Strength X",
+    "name": "Haste I",
     "path": "data/objects/upgrades_skin/NewUpgrades/R07Y.json"
   },
   {
@@ -18296,6 +18527,48 @@
     "base": "Rhfl",
     "name": "Elite Eagle",
     "path": "data/objects/upgrades_skin/NewUpgrades/R089.json"
+  },
+  {
+    "kind": "upgrades_skin",
+    "rawcode": "RFPK",
+    "base": "Rhme",
+    "name": "Picking starts after bans",
+    "path": "data/objects/upgrades_skin/NewUpgrades/RFPK.json"
+  },
+  {
+    "kind": "upgrades_skin",
+    "rawcode": "RFCA",
+    "base": "Rhme",
+    "name": "Sacrificial Aura",
+    "path": "data/objects/upgrades_skin/NewUpgrades/RFCA.json"
+  },
+  {
+    "kind": "upgrades_skin",
+    "rawcode": "RFCS",
+    "base": "Rhme",
+    "name": "Bloody Sacrifice",
+    "path": "data/objects/upgrades_skin/NewUpgrades/RFCS.json"
+  },
+  {
+    "kind": "upgrades_skin",
+    "rawcode": "RFCB",
+    "base": "Rhme",
+    "name": "Chaotic Burst",
+    "path": "data/objects/upgrades_skin/NewUpgrades/RFCB.json"
+  },
+  {
+    "kind": "upgrades_skin",
+    "rawcode": "RFAT",
+    "base": "Rhme",
+    "name": "Profane Reach",
+    "path": "data/objects/upgrades_skin/NewUpgrades/RFAT.json"
+  },
+  {
+    "kind": "upgrades_skin",
+    "rawcode": "RFPA",
+    "base": "Rhme",
+    "name": "Ancient picking starts at 60 seconds",
+    "path": "data/objects/upgrades_skin/NewUpgrades/RFPA.json"
   },
   {
     "kind": "items_skin",
@@ -21787,7 +22060,7 @@
     "kind": "units_skin",
     "rawcode": "h063",
     "base": "hpea",
-    "name": "Cultist",
+    "name": "|cff16b12cCultist|r",
     "path": "data/objects/units_skin/NewUnits/h063.json"
   },
   {
@@ -21964,5 +22237,12 @@
     "base": "hfoo",
     "name": "Worgen Lumber Counter",
     "path": "data/objects/units_skin/NewUnits/h06I.json"
+  },
+  {
+    "kind": "units_skin",
+    "rawcode": "hFDM",
+    "base": "hfoo",
+    "name": "Spell dummy",
+    "path": "data/objects/units_skin/NewUnits/hFDM.json"
   }
 ]

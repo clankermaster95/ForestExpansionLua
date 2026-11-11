@@ -31,16 +31,18 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "Potion of Invisibility",
+      "Value": "TRIGSTR_6736",
       "SanityCheck": 0,
-      "_field": "unam"
+      "_field": "unam",
+      "_resolvedText": "Potion of Invisibility"
     },
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "Potion of Invisibility",
+      "Value": "TRIGSTR_6737",
       "SanityCheck": 0,
-      "_field": "utip"
+      "_field": "utip",
+      "_resolvedText": "Potion of Invisibility"
     }
   ],
   "_rawcode": "I01U",

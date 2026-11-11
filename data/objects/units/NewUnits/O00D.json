@@ -186,6 +186,13 @@
       "Value": 40,
       "SanityCheck": 0,
       "_field": "usrg"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "RFPK,RFPA",
+      "SanityCheck": 0,
+      "_field": "ureq"
     }
   ],
   "_rawcode": "O00D",

@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_8805",
+      "Value": "Increases Cultist's armor by 10 points.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases Cultist's armor by +10 points."
+      "_field": "gub1"
     },
     {
       "Id": 829453415,
@@ -40,7 +39,7 @@
       "Type": "Int",
       "Level": 0,
       "Pointer": 0,
-      "Value": 1,
+      "Value": 0,
       "SanityCheck": 0,
       "_field": "gbpy"
     },
@@ -49,10 +48,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9334",
+      "Value": "S",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "S"
+      "_field": "ghk1"
     },
     {
       "Id": 829579623,

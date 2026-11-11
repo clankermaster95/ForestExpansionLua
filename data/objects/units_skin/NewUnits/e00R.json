@@ -29,10 +29,10 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10268",
+      "Value": "TRIGSTR_6660",
       "SanityCheck": 0,
       "_field": "utub",
-      "_resolvedText": "Provides food, has the Replenish Mana ability. Can gain the Well Spring upgrade. Regenerates mana at night.|n|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_resolvedText": "Provides food and the Replenish Mana ability. Can gain the Well Spring upgrade. Regenerates mana at night.|n|nHealth: 300|nArmor: 5 (Fortified)|nFood provided: 25|nBuild time: 5 seconds|n|cffff0000Feed Value:|r |cffffdd0030|r"
     },
     {
       "Id": 1953458293,

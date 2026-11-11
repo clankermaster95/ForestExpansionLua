@@ -1,0 +1,22 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1263552082,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6873",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Picking starts after bans"
+    }
+  ],
+  "_rawcode": "RFPK",
+  "_base": "Rhme",
+  "_name": "Picking starts after bans"
+}

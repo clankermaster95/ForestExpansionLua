@@ -1,5 +1,5 @@
 {
-  "OldId": 1869640513,
+  "OldId": 1735674177,
   "NewId": 1329803329,
   "Unk": [
     0
@@ -185,24 +185,6 @@
       "_field": "aart"
     },
     {
-      "Id": 2020631137,
-      "Type": "Int",
-      "Level": 0,
-      "Pointer": 0,
-      "Value": 0,
-      "SanityCheck": 0,
-      "_field": "abpx"
-    },
-    {
-      "Id": 2037408353,
-      "Type": "Int",
-      "Level": 0,
-      "Pointer": 0,
-      "Value": 0,
-      "SanityCheck": 0,
-      "_field": "abpy"
-    },
-    {
       "Id": 829453409,
       "Type": "String",
       "Level": 7,
@@ -251,9 +233,27 @@
       "SanityCheck": 0,
       "_field": "aub1",
       "_resolvedText": "Your attack is poisoned and deals <A0CO,DataA1> damage per second, and slows the target enemy's movement by <A0CO,DataB1,%>% for <A0CO,Dur1> seconds. Auto-attacking again resets the duration and increases the damage by <A0CO,DataA1> and slow by <A0CO,DataB1,%>%. Stacks up to 6 times, after which it no longer does and dispells 3 seconds after.|n|cffff80ffDifferent orb effects coming from 1 unit do not stack.|r"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
     }
   ],
   "_rawcode": "A0CO",
-  "_base": "Aspo",
+  "_base": "AItg",
   "_name": "Poisoned Bullets"
 }

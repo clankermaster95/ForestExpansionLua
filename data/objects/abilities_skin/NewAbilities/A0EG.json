@@ -81,6 +81,24 @@
       "SanityCheck": 0,
       "_field": "ansf",
       "_resolvedText": "(Cultist) - Macko"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpy",
+      "Level": 0,
+      "Pointer": 0
     }
   ],
   "_rawcode": "A0EG",

@@ -85,7 +85,7 @@
     {
       "Id": 1936028277,
       "Type": "String",
-      "Value": "R080,R081,R082,R083",
+      "Value": "R080,R081,R082,R083,RFCA,RFCS,RFCB,RFAT",
       "SanityCheck": 0,
       "_field": "ures"
     },

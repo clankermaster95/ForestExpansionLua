@@ -13,13 +13,6 @@
       "_field": "useu"
     },
     {
-      "Id": 1768256373,
-      "Type": "String",
-      "Value": "I00W",
-      "SanityCheck": 0,
-      "_field": "usei"
-    },
-    {
       "Id": 1768055157,
       "Type": "String",
       "Value": "Ane2,Asud,Avul",
@@ -32,6 +25,13 @@
       "Value": "PathTextures\\4x4SimpleSolid.tga",
       "SanityCheck": 0,
       "_field": "upat"
+    },
+    {
+      "Id": 1768256373,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "usei"
     }
   ],
   "_rawcode": "n00G",

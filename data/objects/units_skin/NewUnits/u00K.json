@@ -85,6 +85,13 @@
       "Value": 1.65,
       "SanityCheck": 0,
       "_field": "ussc"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
     }
   ],
   "_rawcode": "u00K",

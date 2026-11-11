@@ -1,8 +1,8 @@
 {
-  "FormatVersion": "v33",
-  "MapVersion": 5826,
-  "EditorVersion": "v6117",
-  "GameVersion": "2.0.4.23745",
+  "FormatVersion": "v39",
+  "MapVersion": 5827,
+  "EditorVersion": 7003,
+  "GameVersion": "3.0.1.24371",
   "MapName": "TRIGSTR_116",
   "MapAuthor": "TRIGSTR_119",
   "MapDescription": "TRIGSTR_118",
@@ -36,6 +36,7 @@
   "MapFlags": "PlayableMapSizeWasLarge, MaskedAreasArePartiallyVisible, FixedPlayerSettingsForCustomForces, UseCustomForces, HasMapPropertiesMenuBeenOpened, ShowWaterWavesOnCliffShores, ShowWaterWavesOnRollingShores, RequiresExpansion, UseItemClassificationSystem",
   "Tileset": "SunkenRuins",
   "LoadingScreenBackgroundNumber": -1,
+  "RaceHud": "Selectable",
   "LoadingScreenPath": "war3mapImported\\LoadingScreen.mdx",
   "LoadingScreenText": "TRIGSTR_122",
   "LoadingScreenTitle": "TRIGSTR_120",
@@ -55,6 +56,12 @@
     "B": 0,
     "A": 255
   },
+  "FogHeightStart": 0,
+  "FogHeightEnd": 0,
+  "FogLinearStart": 10000,
+  "FogLinearEnd": 10000,
+  "FogMaxOpacity": 1,
+  "FogDrawFogOverSky": 0,
   "GlobalWeather": "None",
   "SoundEnvironment": "",
   "LightEnvironment": "Unspecified",
@@ -70,11 +77,32 @@
   "ForceDefaultCameraZoom": 1250,
   "ForceMaxCameraZoom": 1250,
   "ForceMinCameraZoom": 1250,
+  "HDWaterMinOpacity": 0,
+  "HDWaterMaxOpacity": 100,
+  "HDWaterReflectivity": 10,
+  "HDWaterEmissivity": 0,
+  "HDWaterEdgeSoftness": 50,
+  "HDWaterWavesVertexDisplacement": 20,
+  "HDWaterWavesNormalMapStrength": 100,
+  "HDWaterOverrideColor": {
+    "R": 0,
+    "G": 0,
+    "B": 0,
+    "A": 0
+  },
+  "HDWaterEnvmapReflectivity": 100,
+  "AlphaTileMinimapColor": {
+    "R": 255,
+    "G": 255,
+    "B": 255,
+    "A": 255
+  },
   "Players": [
     {
       "Id": 0,
       "Controller": "User",
       "Race": "Human",
+      "RaceHud": "Selectable",
       "Flags": "FixedStartPosition",
       "Name": "TRIGSTR_001",
       "StartPosition": {
@@ -82,7 +110,7 @@
         "Y": 7232
       },
       "AllyLowPriorityFlags": 0,
-      "AllyHighPriorityFlags": 1982,
+      "AllyHighPriorityFlags": 1022,
       "EnemyLowPriorityFlags": 0,
       "EnemyHighPriorityFlags": 0
     },
@@ -90,6 +118,7 @@
       "Id": 1,
       "Controller": "User",
       "Race": "Human",
+      "RaceHud": "Selectable",
       "Flags": "FixedStartPosition",
       "Name": "TRIGSTR_106",
       "StartPosition": {
@@ -97,7 +126,7 @@
         "Y": 7232
       },
       "AllyLowPriorityFlags": 0,
-      "AllyHighPriorityFlags": 1981,
+      "AllyHighPriorityFlags": 1021,
       "EnemyLowPriorityFlags": 0,
       "EnemyHighPriorityFlags": 0
     },
@@ -105,6 +134,7 @@
       "Id": 2,
       "Controller": "User",
       "Race": "Human",
+      "RaceHud": "Selectable",
       "Flags": "FixedStartPosition",
       "Name": "TRIGSTR_107",
       "StartPosition": {
@@ -112,7 +142,7 @@
         "Y": 7232
       },
       "AllyLowPriorityFlags": 0,
-      "AllyHighPriorityFlags": 1979,
+      "AllyHighPriorityFlags": 1019,
       "EnemyLowPriorityFlags": 0,
       "EnemyHighPriorityFlags": 0
     },
@@ -120,6 +150,7 @@
       "Id": 3,
       "Controller": "User",
       "Race": "Human",
+      "RaceHud": "Selectable",
       "Flags": "FixedStartPosition",
       "Name": "TRIGSTR_108",
       "StartPosition": {
@@ -127,7 +158,7 @@
         "Y": 7232
       },
       "AllyLowPriorityFlags": 0,
-      "AllyHighPriorityFlags": 1975,
+      "AllyHighPriorityFlags": 1015,
       "EnemyLowPriorityFlags": 0,
       "EnemyHighPriorityFlags": 0
     },
@@ -135,6 +166,7 @@
       "Id": 4,
       "Controller": "User",
       "Race": "Human",
+      "RaceHud": "Selectable",
       "Flags": "FixedStartPosition",
       "Name": "TRIGSTR_109",
       "StartPosition": {
@@ -142,7 +174,7 @@
         "Y": 7232
       },
       "AllyLowPriorityFlags": 0,
-      "AllyHighPriorityFlags": 1967,
+      "AllyHighPriorityFlags": 1007,
       "EnemyLowPriorityFlags": 0,
       "EnemyHighPriorityFlags": 0
     },
@@ -150,6 +182,7 @@
       "Id": 5,
       "Controller": "User",
       "Race": "Human",
+      "RaceHud": "Selectable",
       "Flags": "FixedStartPosition",
       "Name": "TRIGSTR_110",
       "StartPosition": {
@@ -157,76 +190,17 @@
         "Y": 7232
       },
       "AllyLowPriorityFlags": 0,
-      "AllyHighPriorityFlags": 1951,
+      "AllyHighPriorityFlags": 991,
       "EnemyLowPriorityFlags": 0,
       "EnemyHighPriorityFlags": 0
     },
     {
       "Id": 6,
       "Controller": "User",
-      "Race": "NightElf",
+      "Race": "Human",
+      "RaceHud": "Selectable",
       "Flags": "FixedStartPosition",
       "Name": "TRIGSTR_111",
-      "StartPosition": {
-        "X": 7680,
-        "Y": 7232
-      },
-      "AllyLowPriorityFlags": 0,
-      "AllyHighPriorityFlags": 1983,
-      "EnemyLowPriorityFlags": 0,
-      "EnemyHighPriorityFlags": 0
-    },
-    {
-      "Id": 7,
-      "Controller": "User",
-      "Race": "Human",
-      "Flags": "FixedStartPosition",
-      "Name": "TRIGSTR_1294",
-      "StartPosition": {
-        "X": 7040,
-        "Y": 7232
-      },
-      "AllyLowPriorityFlags": 0,
-      "AllyHighPriorityFlags": 1855,
-      "EnemyLowPriorityFlags": 0,
-      "EnemyHighPriorityFlags": 0
-    },
-    {
-      "Id": 8,
-      "Controller": "User",
-      "Race": "Human",
-      "Flags": "FixedStartPosition",
-      "Name": "TRIGSTR_1295",
-      "StartPosition": {
-        "X": 7040,
-        "Y": 7232
-      },
-      "AllyLowPriorityFlags": 0,
-      "AllyHighPriorityFlags": 1727,
-      "EnemyLowPriorityFlags": 0,
-      "EnemyHighPriorityFlags": 0
-    },
-    {
-      "Id": 9,
-      "Controller": "User",
-      "Race": "Human",
-      "Flags": "FixedStartPosition",
-      "Name": "TRIGSTR_1296",
-      "StartPosition": {
-        "X": 7040,
-        "Y": 7232
-      },
-      "AllyLowPriorityFlags": 0,
-      "AllyHighPriorityFlags": 1471,
-      "EnemyLowPriorityFlags": 0,
-      "EnemyHighPriorityFlags": 0
-    },
-    {
-      "Id": 10,
-      "Controller": "User",
-      "Race": "Human",
-      "Flags": "FixedStartPosition",
-      "Name": "TRIGSTR_1297",
       "StartPosition": {
         "X": 7040,
         "Y": 7232
@@ -235,17 +209,81 @@
       "AllyHighPriorityFlags": 959,
       "EnemyLowPriorityFlags": 0,
       "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 7,
+      "Controller": "User",
+      "Race": "Human",
+      "RaceHud": "Selectable",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_1294",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 895,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 8,
+      "Controller": "User",
+      "Race": "Human",
+      "RaceHud": "Selectable",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_1295",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 767,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 9,
+      "Controller": "User",
+      "Race": "Human",
+      "RaceHud": "Selectable",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_1296",
+      "StartPosition": {
+        "X": 7040,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 511,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
+    },
+    {
+      "Id": 10,
+      "Controller": "User",
+      "Race": "NightElf",
+      "RaceHud": "Selectable",
+      "Flags": "FixedStartPosition",
+      "Name": "TRIGSTR_1297",
+      "StartPosition": {
+        "X": 7680,
+        "Y": 7232
+      },
+      "AllyLowPriorityFlags": 0,
+      "AllyHighPriorityFlags": 1023,
+      "EnemyLowPriorityFlags": 0,
+      "EnemyHighPriorityFlags": 0
     }
   ],
   "Forces": [
     {
       "Flags": "Allied, ShareVision",
-      "Players": -65,
+      "Players": -1025,
       "Name": "TRIGSTR_5446"
     },
     {
       "Flags": "Allied, ShareVision",
-      "Players": 64,
+      "Players": 1024,
       "Name": "TRIGSTR_5447"
     }
   ],

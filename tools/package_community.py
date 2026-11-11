@@ -23,6 +23,7 @@ def main():
     entries={map_path.name:map_bytes,'CHANGELOG.md':notes.encode('utf-8'),
              'SOLO_TESTING.md':(ROOT/'SOLO_TESTING.md').read_bytes(),
             'DEBUG_REFERENCE.md':(ROOT/'DEBUG_REFERENCE.md').read_bytes(),
+            'PATCH_TESTING.md':(ROOT/'PATCH_TESTING.md').read_bytes(),
             'README.txt':readme.encode('utf-8'),'SHA256.txt':f'{checksum}  {map_path.name}\n'.encode()}
     output=ROOT/'dist'/f"Forest_Expansion_{cfg['version']}_Community.zip"
     with zipfile.ZipFile(output,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:

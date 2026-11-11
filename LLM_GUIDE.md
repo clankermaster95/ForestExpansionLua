@@ -25,6 +25,8 @@ For an LLM, start with a concrete request such as:
 
 Gameplay is organized into 60 named modules. Historical section markers and migration reports preserve provenance; 238 generated helpers were explicitly retired. Start with `src/game/selection.lua`, `src/game/victory.lua`, `src/players/roles.lua`, `src/items/recipes.lua` and `src/commands/solo_test.lua`.
 
+The requested gameplay patch is tracked in `PATCH_PLAN.md`, with maintainer test steps in `PATCH_TESTING.md`. Its immutable r8 fixtures preserve the old source/data and test code. `tools/gameplay_patch_audit.py` checks an explicit list of changed callbacks and records object/payload hashes; `tests/refactor.py` validates that migration, runs historical suites against the frozen source, and tests current shopping, startup and patch behavior separately. Do not rewrite the old refactor report to absorb gameplay changes.
+
 ## Open and edit
 
 Open `dist/Forest_Expansion_3.2.0_Lua.w3x` in the current World Editor. Reopen this file before using Test Map if the editor still holds an older build. Terrain, the Object Editor, placements, regions, sounds, cameras, and imported assets use their native map formats. Scenario options should show **Lua** as the script language.
@@ -99,6 +101,13 @@ The editor can open the delivered archive on Windows without build tools. The pr
 
 Edit Lua in `src/`, then build. Do not edit `build/converted/`: those files are regeneration/test artifacts. Do not rerun `assemble_port.py` to make gameplay changes; it records the one-time migration.
 
+Use `\x25` for percent characters inside quoted Lua strings, including command
+patterns and displayed percentages. The installed editor corrupted raw percent
+characters in custom code and crashed while saving; the build rejects them.
+Remainder operators need a separate behavior review because `math.fmod` and Lua
+modulo differ for negative results. `tests/editor_safety.py` covers the reviewed
+uses and literal equivalence in both Lua numeric modes.
+
 `project.json` defines module inclusion and order. Folder order does not control initialization. Numbered section comments and historical audit reports preserve traceability; active files have descriptive names. Add a new module through that manifest and its matching editor/script storage deliberately; the builder rejects missing or duplicated module markers rather than silently dropping code.
 
 ### Object changes by an LLM
@@ -156,7 +165,7 @@ The editor owns creation functions and main/config generation. The builder repla
 
 Blizzard added Lua trigger conversion and substantial editor/data features with [Forsaken Kingdom / 3.0](https://us.forums.blizzard.com/en/warcraft3/t/warcraft-iii-reforged-forsaken-kingdom-patch-notes/38400/). This project uses native Reforged map formats, modern trigger storage, and [War3Net 6.1.2](https://github.com/Drake53/War3Net) codecs rather than downgrading the map to a classic editor format.
 
-The supplied archive records map-info format 33 and last-save game version **2.0.4.23745**. That is metadata about its last save, not a claim that it only works on that patch. Its formats and version values are preserved; only the language byte in map information changes. All modern object skin files and unknown/imported files are retained. A current editor save may upgrade these versions, and subsequent imports must preserve those upgrades.
+The original archive records map-info format 33 and last-save game version **2.0.4.23745**. The maintainer's November 8 editor save upgraded the working map to format 39 / **3.0.1.24371** while moving the Ancient to slot 11. These are last-save metadata, not a compatibility guarantee. Preserve the current native versions, modern object skins and imported files. The historical layout-only port still verifies its original one-byte Lua-language change separately.
 
 `tools/reference-api/` contains War3Net's 1.32.9 JASS declarations/fixtures used to resolve types for this particular source and run deterministic tests. Every function used by the active original source resolves against them. They are **not packaged as a replacement runtime** and do not pin the map to 1.32.9. New Lua calls resolve against the installed game's API. If reconverting new JASS that uses newer APIs, supply matching current declarations.
 

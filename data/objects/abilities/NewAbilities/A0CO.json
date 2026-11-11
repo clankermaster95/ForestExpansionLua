@@ -1,5 +1,5 @@
 {
-  "OldId": 1869640513,
+  "OldId": 1735674177,
   "NewId": 1329803329,
   "Unk": [
     0
@@ -13,132 +13,6 @@
       "Value": 6,
       "SanityCheck": 0,
       "_field": "alev"
-    },
-    {
-      "Id": 862941267,
-      "Type": "Unreal",
-      "Level": 1,
-      "Pointer": 3,
-      "Value": 0,
-      "SanityCheck": 0,
-      "_field": "Spo3"
-    },
-    {
-      "Id": 829386835,
-      "Type": "Unreal",
-      "Level": 1,
-      "Pointer": 1,
-      "Value": 40,
-      "SanityCheck": 0,
-      "_field": "Spo1"
-    },
-    {
-      "Id": 829386835,
-      "Type": "Unreal",
-      "Level": 2,
-      "Pointer": 1,
-      "Value": 80,
-      "SanityCheck": 0,
-      "_field": "Spo1"
-    },
-    {
-      "Id": 829386835,
-      "Type": "Unreal",
-      "Level": 3,
-      "Pointer": 1,
-      "Value": 120,
-      "SanityCheck": 0,
-      "_field": "Spo1"
-    },
-    {
-      "Id": 829386835,
-      "Type": "Unreal",
-      "Level": 4,
-      "Pointer": 1,
-      "Value": 160,
-      "SanityCheck": 0,
-      "_field": "Spo1"
-    },
-    {
-      "Id": 829386835,
-      "Type": "Unreal",
-      "Level": 5,
-      "Pointer": 1,
-      "Value": 200,
-      "SanityCheck": 0,
-      "_field": "Spo1"
-    },
-    {
-      "Id": 829386835,
-      "Type": "Unreal",
-      "Level": 6,
-      "Pointer": 1,
-      "Value": 240,
-      "SanityCheck": 0,
-      "_field": "Spo1"
-    },
-    {
-      "Id": 846164051,
-      "Type": "Unreal",
-      "Level": 1,
-      "Pointer": 2,
-      "Value": 0.04,
-      "SanityCheck": 0,
-      "_field": "Spo2"
-    },
-    {
-      "Id": 846164051,
-      "Type": "Unreal",
-      "Level": 2,
-      "Pointer": 2,
-      "Value": 0.08,
-      "SanityCheck": 0,
-      "_field": "Spo2"
-    },
-    {
-      "Id": 846164051,
-      "Type": "Unreal",
-      "Level": 3,
-      "Pointer": 2,
-      "Value": 0.12,
-      "SanityCheck": 0,
-      "_field": "Spo2"
-    },
-    {
-      "Id": 846164051,
-      "Type": "Unreal",
-      "Level": 4,
-      "Pointer": 2,
-      "Value": 0.16,
-      "SanityCheck": 0,
-      "_field": "Spo2"
-    },
-    {
-      "Id": 846164051,
-      "Type": "Unreal",
-      "Level": 5,
-      "Pointer": 2,
-      "Value": 0.2,
-      "SanityCheck": 0,
-      "_field": "Spo2"
-    },
-    {
-      "Id": 846164051,
-      "Type": "Unreal",
-      "Level": 6,
-      "Pointer": 2,
-      "Value": 0.24,
-      "SanityCheck": 0,
-      "_field": "Spo2"
-    },
-    {
-      "Id": 879718483,
-      "Type": "Int",
-      "Level": 1,
-      "Pointer": 4,
-      "Value": 0,
-      "SanityCheck": 0,
-      "_field": "Spo4"
     },
     {
       "Id": 1969514593,
@@ -357,61 +231,70 @@
       "_field": "abuf"
     },
     {
-      "Id": 829386835,
-      "Type": "Unreal",
-      "Level": 7,
-      "Pointer": 1,
-      "Value": 240,
-      "SanityCheck": 0,
-      "_field": "Spo1"
-    },
-    {
-      "Id": 846164051,
-      "Type": "Unreal",
-      "Level": 7,
-      "Pointer": 2,
-      "Value": 0.24,
-      "SanityCheck": 0,
-      "_field": "Spo2"
-    },
-    {
-      "Id": 1718968929,
-      "Type": "String",
-      "Level": 7,
+      "Id": 1702127969,
+      "Type": "Int",
+      "Level": 0,
       "Pointer": 0,
-      "Value": "B03M",
+      "Value": 0,
       "SanityCheck": 0,
-      "_field": "abuf"
+      "_field": "aite"
     },
     {
-      "Id": 1920296033,
-      "Type": "Unreal",
-      "Level": 7,
-      "Pointer": 0,
-      "Value": 4,
+      "Id": 1953784137,
+      "Type": "Int",
+      "Value": 0,
       "SanityCheck": 0,
-      "_field": "adur"
+      "_field": "Iatt",
+      "Level": 1,
+      "Pointer": 0
     },
     {
-      "Id": 1918989409,
-      "Type": "String",
-      "Level": 7,
-      "Pointer": 0,
-      "Value": "air,ground,organic",
+      "Id": 1953784137,
+      "Type": "Int",
+      "Value": 0,
       "SanityCheck": 0,
-      "_field": "atar"
+      "_field": "Iatt",
+      "Level": 2,
+      "Pointer": 0
     },
     {
-      "Id": 1969514593,
-      "Type": "Unreal",
-      "Level": 7,
-      "Pointer": 0,
-      "Value": 4,
+      "Id": 1953784137,
+      "Type": "Int",
+      "Value": 0,
       "SanityCheck": 0,
-      "_field": "ahdu"
+      "_field": "Iatt",
+      "Level": 3,
+      "Pointer": 0
+    },
+    {
+      "Id": 1953784137,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Iatt",
+      "Level": 4,
+      "Pointer": 0
+    },
+    {
+      "Id": 1953784137,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Iatt",
+      "Level": 5,
+      "Pointer": 0
+    },
+    {
+      "Id": 1953784137,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "Iatt",
+      "Level": 6,
+      "Pointer": 0
     }
   ],
   "_rawcode": "A0CO",
-  "_base": "Aspo",
+  "_base": "AItg",
   "_name": "Poisoned Bullets"
 }

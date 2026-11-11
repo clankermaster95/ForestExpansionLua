@@ -207,76 +207,6 @@
       "_resolvedText": "Improved Quality III"
     },
     {
-      "Id": 1835101799,
-      "Type": "String",
-      "Level": 4,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8099",
-      "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Corpse Vitality IV"
-    },
-    {
-      "Id": 1835101799,
-      "Type": "String",
-      "Level": 5,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8100",
-      "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Corpse Vitality V"
-    },
-    {
-      "Id": 1835101799,
-      "Type": "String",
-      "Level": 6,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8111",
-      "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Claw Strength VI"
-    },
-    {
-      "Id": 1835101799,
-      "Type": "String",
-      "Level": 7,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8112",
-      "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Claw Strength VII"
-    },
-    {
-      "Id": 1835101799,
-      "Type": "String",
-      "Level": 8,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8113",
-      "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Claw Strength VIII"
-    },
-    {
-      "Id": 1835101799,
-      "Type": "String",
-      "Level": 9,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8115",
-      "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Claw Strength IX"
-    },
-    {
-      "Id": 1835101799,
-      "Type": "String",
-      "Level": 10,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8116",
-      "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Claw Strength X"
-    },
-    {
       "Id": 829453415,
       "Type": "String",
       "Level": 1,
@@ -307,76 +237,6 @@
       "_resolvedText": "Improved Quality III - [75.0]"
     },
     {
-      "Id": 829453415,
-      "Type": "String",
-      "Level": 4,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8132",
-      "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Corpse Vitality IV - [50.0]"
-    },
-    {
-      "Id": 829453415,
-      "Type": "String",
-      "Level": 5,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8133",
-      "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Corpse Vitality V - [60.0]"
-    },
-    {
-      "Id": 829453415,
-      "Type": "String",
-      "Level": 6,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8134",
-      "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Claw Strength VI - [70.0]"
-    },
-    {
-      "Id": 829453415,
-      "Type": "String",
-      "Level": 7,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8135",
-      "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Claw Strength VII - [80.0]"
-    },
-    {
-      "Id": 829453415,
-      "Type": "String",
-      "Level": 8,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8157",
-      "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Claw Strength VIII - [90.0]"
-    },
-    {
-      "Id": 829453415,
-      "Type": "String",
-      "Level": 9,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8164",
-      "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Claw Strength IX - [100.0]"
-    },
-    {
-      "Id": 829453415,
-      "Type": "String",
-      "Level": 10,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8173",
-      "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Claw Strength X - [110.0]"
-    },
-    {
       "Id": 828536167,
       "Type": "String",
       "Level": 2,
@@ -397,76 +257,6 @@
       "_resolvedText": "Increases hitpoints of walls by 100.|n|nThis is the last health upgrade."
     },
     {
-      "Id": 828536167,
-      "Type": "String",
-      "Level": 4,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8200",
-      "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases hitpoints of all husks by 100."
-    },
-    {
-      "Id": 828536167,
-      "Type": "String",
-      "Level": 5,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8201",
-      "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases hitpoints of all husks by 100.|n|nThis is the last health upgrade."
-    },
-    {
-      "Id": 828536167,
-      "Type": "String",
-      "Level": 6,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8202",
-      "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases attack damage of all husks by 10."
-    },
-    {
-      "Id": 828536167,
-      "Type": "String",
-      "Level": 7,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8203",
-      "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases attack damage of all husks by 10."
-    },
-    {
-      "Id": 828536167,
-      "Type": "String",
-      "Level": 8,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8207",
-      "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases attack damage of all husks by 10."
-    },
-    {
-      "Id": 828536167,
-      "Type": "String",
-      "Level": 9,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8208",
-      "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases attack damage of all husks by 10."
-    },
-    {
-      "Id": 828536167,
-      "Type": "String",
-      "Level": 10,
-      "Pointer": 0,
-      "Value": "TRIGSTR_8212",
-      "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases attack damage of all husks by 10.|n|nThis is the last damage upgrade."
-    },
-    {
       "Id": 829579623,
       "Type": "String",
       "Level": 1,
@@ -480,33 +270,48 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9764",
+      "Value": "Q",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "Q"
+      "_field": "ghk1"
     },
     {
       "Id": 829122663,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_9779",
+      "Value": "Q",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "Q"
+      "_field": "ghk1"
     },
     {
       "Id": 829122663,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_9780",
+      "Value": "Q",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "Q"
+      "_field": "ghk1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpx",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy",
+      "Level": 0,
+      "Pointer": 0
     }
   ],
   "_rawcode": "R07U",
   "_base": "Rume",
-  "_name": "Claw Strength X"
+  "_name": "Improved Quality I"
 }

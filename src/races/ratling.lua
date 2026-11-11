@@ -147,10 +147,7 @@ function Trig_Poisoned_Bullets2_Conditions()
 end
 
 function Trig_Poisoned_Bullets2_Actions()
-    if (GetUnitAbilityLevel(GetAttackedUnitBJ(), FourCC("Bspo")) == 0) then
-        SetUnitAbilityLevelSwapped(FourCC("A0CQ"), GetAttackedUnitBJ(), 1)
-    end
-    SetUnitAbilityLevelSwapped(FourCC("A0CO"), GetAttacker(), GetUnitAbilityLevel((GetAttackedUnitBJ()), FourCC("A0CQ")))
+    -- On-hit poison is owned by FE_Combat; attack-start events must not add stacks.
 end
 
 function InitTrig_Poisoned_Bullets2()
@@ -176,14 +173,7 @@ function Trig_Poisoned_Bullets_Conditions()
 end
 
 function Trig_Poisoned_Bullets_Actions()
-    local var = 0
-    if (GetUnitAbilityLevel(udg_DamageEventTarget, FourCC("Bspo")) > 0) then
-        if (GetUnitAbilityLevel(udg_DamageEventTarget, FourCC("A0CQ")) == 0) then
-            UnitAddAbility(udg_DamageEventTarget, FourCC("A0CQ"))
-        end
-        var = GetUnitAbilityLevel((udg_DamageEventTarget), FourCC("A0CQ"))
-        IncUnitAbilityLevelSwapped(FourCC("A0CQ"), udg_DamageEventTarget)
-    end
+    -- On-hit poison is owned by FE_Combat; attack-start events must not add stacks.
 end
 
 function InitTrig_Poisoned_Bullets()

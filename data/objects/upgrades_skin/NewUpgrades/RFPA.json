@@ -1,0 +1,22 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1095779922,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6930",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Ancient picking starts at 60 seconds"
+    }
+  ],
+  "_rawcode": "RFPA",
+  "_base": "Rhme",
+  "_name": "Ancient picking starts at 60 seconds"
+}

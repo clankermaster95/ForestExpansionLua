@@ -1,0 +1,135 @@
+{
+  "OldId": 1835615553,
+  "NewId": 1396917825,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6748",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Bloody Sacrifice"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDarkRitual.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3503",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6749",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Bloody Sacrifice"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6750",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Toggle: every second heal other allied units within 400 range for 50 HP and take 100 magic damage. Does not heal you. Can kill you."
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6751",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "_resolvedText": "Deactivate Bloody Sacrifice"
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_3504",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "_resolvedText": "B"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "abpx",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 2019718497,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "aubx",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 2036495713,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "auby",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNDarkRitual.blp",
+      "SanityCheck": 0,
+      "_field": "auar",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Value": "Stop sacrificing health and healing nearby allies.",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "Level": 1,
+      "Pointer": 0
+    }
+  ],
+  "_rawcode": "AFCS",
+  "_base": "AEim",
+  "_name": "Bloody Sacrifice"
+}

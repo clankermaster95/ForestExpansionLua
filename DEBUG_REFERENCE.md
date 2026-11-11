@@ -130,7 +130,7 @@ All entries come from the map catalog, including internal, dummy and legacy obje
 | Valorous Helmet | `I00I` | `-item I00I` |
 | Wand of Escape | `I00P` | `-item I00P` |
 
-## Units (435)
+## Units (436)
 
 All entries come from the map catalog, including internal, dummy and legacy objects. A spawnable object is not necessarily a playable race or hero.
 
@@ -492,6 +492,7 @@ All entries come from the map catalog, including internal, dummy and legacy obje
 | Soul Beacon | `h04A` | `-spawn h04A` |
 | Spark | `o00R` | `-spawn o00R` |
 | Speed Tower | `h01O` | `-spawn h01O` |
+| Spell dummy | `hFDM` | `-spawn hFDM` |
 | Spellbringer | `n00B` | `-spawn n00B` |
 | Spirit Shrine | `h04O` | `-spawn h04O` |
 | Spirit Totem | `h05F` | `-spawn h05F` |

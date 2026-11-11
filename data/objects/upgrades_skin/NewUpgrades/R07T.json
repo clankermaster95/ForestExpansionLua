@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7900",
+      "Value": "T",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "R"
+      "_field": "ghk1"
     },
     {
       "Id": 829453415,
@@ -95,40 +94,36 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_7910",
+      "Value": "T",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "R"
+      "_field": "ghk1"
     },
     {
       "Id": 829122663,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_7911",
+      "Value": "T",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "R"
+      "_field": "ghk1"
     },
     {
       "Id": 829122663,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_9272",
+      "Value": "T",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "R"
+      "_field": "ghk1"
     },
     {
       "Id": 829122663,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_9273",
+      "Value": "T",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "R"
+      "_field": "ghk1"
     },
     {
       "Id": 1718840935,
@@ -268,6 +263,15 @@
       "Value": "ReplaceableTextures\\CommandButtons\\BTNUnholyArmor.blp",
       "SanityCheck": 0,
       "_field": "gar1"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gbpy",
+      "Level": 0,
+      "Pointer": 0
     }
   ],
   "_rawcode": "R07T",

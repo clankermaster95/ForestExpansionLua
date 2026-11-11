@@ -165,6 +165,13 @@
       "Value": 800,
       "SanityCheck": 0,
       "_field": "usin"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "RFPK",
+      "SanityCheck": 0,
+      "_field": "ureq"
     }
   ],
   "_rawcode": "h01X",

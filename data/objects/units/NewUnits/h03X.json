@@ -85,23 +85,9 @@
     {
       "Id": 1633837685,
       "Type": "Int",
-      "Value": 1,
+      "Value": 20,
       "SanityCheck": 0,
       "_field": "ubba"
-    },
-    {
-      "Id": 1768186485,
-      "Type": "Int",
-      "Value": 1,
-      "SanityCheck": 0,
-      "_field": "ubdi"
-    },
-    {
-      "Id": 1769169525,
-      "Type": "Int",
-      "Value": 1,
-      "SanityCheck": 0,
-      "_field": "ubsi"
     },
     {
       "Id": 1986358389,
@@ -109,6 +95,20 @@
       "Value": 1,
       "SanityCheck": 0,
       "_field": "ulev"
+    },
+    {
+      "Id": 1768186485,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubdi"
+    },
+    {
+      "Id": 1769169525,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubsi"
     }
   ],
   "_rawcode": "h03X",

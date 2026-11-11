@@ -1,6 +1,21 @@
 -- economy / income
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
+FE_Income = { ancientMultiplier = 1 }
+
+function FE_Income.bringItOn(player)
+    -- Match the existing Red-only match settings. Warcraft exposes no
+    -- authoritative lobby-host handle in the API used by this map.
+    if player ~= Player(0) then return false end
+    if FE_Income.ancientMultiplier == 2 then
+        DisplayTextToPlayer(player, 0, 0, "Bring It On is already enabled.")
+        return false
+    end
+    FE_Income.ancientMultiplier = 2
+    DisplayTextToForce(GetPlayersAll(), "Bring It On enabled: the Ancient now gains 20 passive gold every 10 seconds. Kill rewards and starting gold are unchanged.")
+    return true
+end
+
 -- BEGIN FOREST SECTION 246 Deliver_Gold
 function Trig_Deliver_Gold_Actions()
     FE_Roles.forEachPlayer(function(player)
@@ -85,12 +100,15 @@ end
 
 -- BEGIN FOREST SECTION 250 Ancient_Gold_income
 function Trig_Ancient_Gold_income_Actions()
-    AdjustPlayerStateBJ(10, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
+    AdjustPlayerStateBJ(10 * FE_Income.ancientMultiplier, FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
 end
 
 function InitTrig_Ancient_Gold_income()
     gg_trg_Ancient_Gold_income = CreateTrigger()
     TriggerRegisterTimerEventPeriodic(gg_trg_Ancient_Gold_income, __jreal(10.00))
     TriggerAddAction(gg_trg_Ancient_Gold_income, Trig_Ancient_Gold_income_Actions)
+    local command = CreateTrigger()
+    TriggerRegisterPlayerChatEvent(command, Player(0), "-bringiton", true)
+    TriggerAddAction(command, function() FE_Income.bringItOn(GetTriggerPlayer()) end)
 end
 -- END FOREST SECTION 250

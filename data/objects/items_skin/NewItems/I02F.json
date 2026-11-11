@@ -31,16 +31,18 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "Bracer of Agility",
+      "Value": "TRIGSTR_6739",
       "SanityCheck": 0,
-      "_field": "unam"
+      "_field": "unam",
+      "_resolvedText": "Bracer of Agility"
     },
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "Bracer of Agility",
+      "Value": "TRIGSTR_6742",
       "SanityCheck": 0,
-      "_field": "utip"
+      "_field": "utip",
+      "_resolvedText": "Bracer of Agility"
     }
   ],
   "_rawcode": "I02F",

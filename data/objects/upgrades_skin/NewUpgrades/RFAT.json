@@ -1,0 +1,234 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1413563986,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 829579623,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp",
+      "SanityCheck": 0,
+      "_field": "gar1"
+    },
+    {
+      "Id": 2020631143,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "gbpx"
+    },
+    {
+      "Id": 2037408359,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "gbpy"
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6899",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Profane Reach"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6903",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Profane Reach - Level 1"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6904",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Each level gives the Cultist +75 attack damage and +75 attack range. Five levels. Costs per level: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber."
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6905",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Profane Reach"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6906",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Profane Reach - Level 2"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6907",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Each level gives the Cultist +75 attack damage and +75 attack range. Five levels. Costs per level: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber."
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6908",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Profane Reach"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6920",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Profane Reach - Level 3"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6922",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Each level gives the Cultist +75 attack damage and +75 attack range. Five levels. Costs per level: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber."
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6924",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Profane Reach"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6925",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Profane Reach - Level 4"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6926",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Each level gives the Cultist +75 attack damage and +75 attack range. Five levels. Costs per level: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber."
+    },
+    {
+      "Id": 1835101799,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6927",
+      "SanityCheck": 0,
+      "_field": "gnam",
+      "_resolvedText": "Profane Reach"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6928",
+      "SanityCheck": 0,
+      "_field": "gtp1",
+      "_resolvedText": "Profane Reach - Level 5"
+    },
+    {
+      "Id": 828536167,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6929",
+      "SanityCheck": 0,
+      "_field": "gub1",
+      "_resolvedText": "Each level gives the Cultist +75 attack damage and +75 attack range. Five levels. Costs per level: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber."
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Value": "T",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Value": "T",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "Level": 2,
+      "Pointer": 0
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Value": "T",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "Level": 3,
+      "Pointer": 0
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Value": "T",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "Level": 4,
+      "Pointer": 0
+    },
+    {
+      "Id": 829122663,
+      "Type": "String",
+      "Value": "T",
+      "SanityCheck": 0,
+      "_field": "ghk1",
+      "Level": 5,
+      "Pointer": 0
+    }
+  ],
+  "_rawcode": "RFAT",
+  "_base": "Rhme",
+  "_name": "Profane Reach"
+}

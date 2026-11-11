@@ -21,7 +21,7 @@ def validate():
                 if not isinstance(obj,dict) or 'Modifications' not in obj:continue
                 item=ds.rawcode(obj['NewId'] or obj['OldId'])
                 row=decoded.setdefault(item,{'base':ds.rawcode(obj['OldId']),'fields':{}})
-                row['fields'].update({ds.rawcode(m['Id']):m['Value'] for m in obj['Modifications']})
+                row['fields'].update({ds.rawcode(m['Id']):ds.resolve(m['Value'],catalog.strings) for m in obj['Modifications']})
     lua=(ROOT/'src/items/recipe_data.lua').read_text(encoding='utf-8')
     prices={m[1]:(int(m[2]),int(m[3])) for m in re.finditer(r'items\[FourCC\("(\w{4})"\)\] = \{gold=(\d+), lumber=(\d+)',lua)}
     checked=0
@@ -76,9 +76,29 @@ def validate():
     revised={str(key).encode():value.encode() for key,value in titles(cfg).items()}
     revised[b'7401']=b'Expanders picking'
     expected=expected[:3]+ENTRY.sub(lambda m:m[1]+revised[m[2]]+b'\r\n'+m[4] if m[2] in revised else m[0],expected[3:])
-    assert (ROOT/cfg['map']/'war3map.wts').read_bytes()==expected,'unexpected string-table edit'
+    current_strings=(ROOT/cfg['map']/'war3map.wts').read_bytes()
+    if current_strings!=expected:
+        # The verified native save moved literal tooltips into WTS and changed
+        # references. Require its explicit before/after evidence; do not silently
+        # accept an arbitrary string table or reset the old expected content.
+        saved=ds.read(ROOT/'reports/editor-roundtrip-repair.json')
+        assert saved['successful_native_save']
+        # Later release labels may change only the two named title entries.
+        # Compare both tables at the recorded native-save label; its evidence
+        # hashes remain immutable, including all unrelated strings/whitespace.
+        native_cfg=dict(cfg,version=saved['string_table']['release_version'],
+                        revision=saved['string_table']['release_revision'])
+        native_titles={str(key).encode():value.encode() for key,value in titles(native_cfg).items()}
+        def native_labels(data):
+            return data[:3]+ENTRY.sub(lambda m:m[1]+native_titles[m[2]]+b'\r\n'+m[4]
+                if m[2] in native_titles else m[0],data[3:])
+        from release_info import validate as validate_release
+        validate_release(ROOT/cfg['map'],cfg)
+        assert saved['string_table']['before_sha256']==ds.digest(native_labels(expected))
+        assert saved['string_table']['after_sha256']==ds.digest(native_labels(current_strings))
     with Archive(ROOT/cfg['output']) as archive:
         wts=archive.read('war3map.wts').decode('utf-8-sig')
+        assert archive.read('war3map.wts')==current_strings
         assert '3.1.2a' not in wts and wts.count('3.2.0')==3
         assert wts.count(cfg['version']+' Lua '+cfg['revision'])==2
     assert catalog.price('I00J')==(1250,0)

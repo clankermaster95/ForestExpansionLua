@@ -1,0 +1,147 @@
+{
+  "OldId": 1835615553,
+  "NewId": 1396917825,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "other",
+      "SanityCheck": 0,
+      "_field": "arac"
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "RFCS",
+      "SanityCheck": 0,
+      "_field": "areq"
+    },
+    {
+      "Id": 1935895905,
+      "Type": "Int",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "amcs"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "BFSC",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1634824801,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "arqa",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Value": 1.0,
+      "SanityCheck": 0,
+      "_field": "adur",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Value": 1.0,
+      "SanityCheck": 0,
+      "_field": "ahdu",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 1852072801,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "acdn",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 829253957,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "Eim1",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 846031173,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "Eim2",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 862808389,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "Eim3",
+      "Level": 1,
+      "Pointer": 0
+    }
+  ],
+  "_rawcode": "AFCS",
+  "_base": "AEim",
+  "_name": "Bloody Sacrifice"
+}

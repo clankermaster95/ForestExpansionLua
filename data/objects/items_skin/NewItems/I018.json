@@ -8,9 +8,10 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "[Recipe] Bleeding Scythe (1200)",
+      "Value": "TRIGSTR_2181",
       "SanityCheck": 0,
-      "_field": "unam"
+      "_field": "unam",
+      "_resolvedText": "[Recipe] Bleeding Scythe (1200)"
     },
     {
       "Id": 1868786025,
@@ -22,23 +23,26 @@
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "|cffffcc00Full recipe: 1,200 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Iron Blade (500 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your attack damage by 60, agility by 10 and gives you a 40% lifesteal (life steal does not work on structures)",
+      "Value": "TRIGSTR_6697",
       "SanityCheck": 0,
-      "_field": "ides"
+      "_field": "ides",
+      "_resolvedText": "|cffffcc00Full recipe: 1,200 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Iron Blade (500 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your attack damage by 60, agility by 10 and gives you a 40% lifesteal (life steal does not work on structures)"
     },
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "|cffffcc00Full recipe: 1,200 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Iron Blade (500 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your attack damage by 60, agility by 10 and gives you a 40% lifesteal (life steal does not work on structures)",
+      "Value": "TRIGSTR_6698",
       "SanityCheck": 0,
-      "_field": "utub"
+      "_field": "utub",
+      "_resolvedText": "|cffffcc00Full recipe: 1,200 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Iron Blade (500 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your attack damage by 60, agility by 10 and gives you a 40% lifesteal (life steal does not work on structures)"
     },
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "|cff00d200[Recipe]|r Bleeding Scythe |cffdcb900[1,200 gold total]|r",
+      "Value": "TRIGSTR_6699",
       "SanityCheck": 0,
-      "_field": "utip"
+      "_field": "utip",
+      "_resolvedText": "|cff00d200[Recipe]|r Bleeding Scythe |cffdcb900[1,200 gold total]|r"
     },
     {
       "Id": 1953458293,

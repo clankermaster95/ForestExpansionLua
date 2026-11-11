@@ -28,6 +28,7 @@ function Trig_SeedOfRebirth_Actions()
     local units = GetUnitsOfPlayerAll(player)
     local reborn = CreateUnit(player, originalType, GetUnitX(target), GetUnitY(target), bj_UNIT_FACING)
     if not reborn then DestroyGroup(units); return end
+    if FE_Wildkin then FE_Wildkin.restoreResearch(reborn) end
     ForGroupBJ(units, Trig_SeedOfRebirth_Func001Func006002)
     DestroyGroup(units)
     SetPlayerStateBJ(player, PLAYER_STATE_RESOURCE_GOLD, 0)

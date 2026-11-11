@@ -1,0 +1,16 @@
+{
+  "fixture_sha256": "4b297bfeb4e2af06e33a31f0c4df6d41a77bb794b1ae48f76bc37ef43641c9c7",
+  "verified_source_modules": 103,
+  "native_script_tokens_preserved": 10188,
+  "native_script_sha256": "9f49a1e5e40c096892b07a551e8e7ba20f97692c7c482a4c38afb1b26a1e4bda",
+  "reason": "Align WTG and WCT depth-first tree order; restore unchanged source modules after verified native save.",
+  "successful_native_save": true,
+  "engine_test": false,
+  "string_table": {
+    "before_sha256": "bc966b002139c56898927c3a72ad9f7669c885945454c3a24c593d58be2d81ef",
+    "after_sha256": "364b8da8da1d2f25c571d8dafaa11dce8f8ef4d580c77628ed4ba5cec438a8b3",
+    "review": "Native editor encoded literal object text into WTS. Existing overrides resolve identically before/after apart from Cultist missile speed normalized to its 900 skin value; explicit omitted overrides restored separately.",
+    "release_version": "3.2.0",
+    "release_revision": "r9"
+  }
+}

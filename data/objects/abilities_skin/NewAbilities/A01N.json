@@ -67,10 +67,10 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1146",
+      "Value": "TRIGSTR_1153",
       "SanityCheck": 0,
       "_field": "atp1",
-      "_resolvedText": "Nature's Grasp [N]"
+      "_resolvedText": "Nature's Grasp"
     },
     {
       "Id": 828536161,

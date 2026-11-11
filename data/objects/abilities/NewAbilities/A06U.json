@@ -10,7 +10,7 @@
       "Type": "Unreal",
       "Level": 1,
       "Pointer": 2,
-      "Value": 15,
+      "Value": 0,
       "SanityCheck": 0,
       "_field": "Ufa2"
     },
@@ -19,7 +19,7 @@
       "Type": "Unreal",
       "Level": 2,
       "Pointer": 2,
-      "Value": 20,
+      "Value": 0,
       "SanityCheck": 0,
       "_field": "Ufa2"
     },
@@ -28,7 +28,7 @@
       "Type": "Unreal",
       "Level": 3,
       "Pointer": 2,
-      "Value": 25,
+      "Value": 0,
       "SanityCheck": 0,
       "_field": "Ufa2"
     },
@@ -64,7 +64,7 @@
       "Type": "Unreal",
       "Level": 4,
       "Pointer": 2,
-      "Value": 30,
+      "Value": 0,
       "SanityCheck": 0,
       "_field": "Ufa2"
     },

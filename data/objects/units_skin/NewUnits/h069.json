@@ -60,10 +60,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10352",
+      "Value": "Cultist's primary defense structure. Uses upgrades from the Shrine.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Chaos)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1.25|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Cultist's primary defense structure. Uses upgrades from the Shrine. |n|n|r|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Chaos)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1.2|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     },
     {
       "Id": 1768841589,

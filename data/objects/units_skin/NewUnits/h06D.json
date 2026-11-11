@@ -60,10 +60,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10366",
+      "Value": "Summons a single Amalgamation and researches Cultist upgrades, including Blood Rites and Profane Reach.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Used to bring Amalgamation into this realm, also holds Cultist upgrades.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     },
     {
       "Id": 1919905909,

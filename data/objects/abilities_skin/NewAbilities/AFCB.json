@@ -1,0 +1,133 @@
+{
+  "OldId": 1634093121,
+  "NewId": 1111705153,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101793,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6757",
+      "SanityCheck": 0,
+      "_field": "anam",
+      "_resolvedText": "Chaotic Burst"
+    },
+    {
+      "Id": 1953653089,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp",
+      "SanityCheck": 0,
+      "_field": "aart"
+    },
+    {
+      "Id": 2037082209,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_5599",
+      "SanityCheck": 0,
+      "_field": "ahky",
+      "_resolvedText": "C"
+    },
+    {
+      "Id": 829453409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6761",
+      "SanityCheck": 0,
+      "_field": "atp1",
+      "_resolvedText": "Chaotic Burst"
+    },
+    {
+      "Id": 828536161,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6762",
+      "SanityCheck": 0,
+      "_field": "aub1",
+      "_resolvedText": "Empowered attacks convert their normal attack damage to pure damage, ignoring armor and magic resistance. Each successful hit costs 4% of your current HP as pure damage. Right-click to toggle autocast. Misses cost no HP."
+    },
+    {
+      "Id": 2020631137,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "abpx"
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy"
+    },
+    {
+      "Id": 2019718497,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "aubx",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 2036495713,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "auby",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1918989665,
+      "Type": "String",
+      "Value": "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp",
+      "SanityCheck": 0,
+      "_field": "auar",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 829715809,
+      "Type": "String",
+      "Value": "Chaotic Burst",
+      "SanityCheck": 0,
+      "_field": "aut1",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 829781345,
+      "Type": "String",
+      "Value": "Right-click to disable autocast. Ordinary attacks no longer convert damage or spend health.",
+      "SanityCheck": 0,
+      "_field": "auu1",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 1802007905,
+      "Type": "String",
+      "Value": "C",
+      "SanityCheck": 0,
+      "_field": "auhk",
+      "Level": 0,
+      "Pointer": 0
+    }
+  ],
+  "_rawcode": "AFCB",
+  "_base": "AHfa",
+  "_name": "Chaotic Burst"
+}

@@ -36,7 +36,7 @@ function FeedRate_FindChar(data, wanted)
 end
 
 function FeedRate_ParseRate(data)
-    local digits = data:match("^%d+$") or data:match("^%d+:(%d+)$")
+    local digits = data:match("^\x25d+$") or data:match("^\x25d+:(\x25d+)$")
     local rate = digits and tonumber(digits)
     if not rate or rate <= 0 or rate > 100 then return 0 end
     return FeedRate_Clamp(rate)
@@ -484,7 +484,7 @@ function HandleSetExp(triggerPlayer, message)
         end
         if (((multiplier >= __jreal(50.00)) and (multiplier <= __jreal(200.00))) and (multiplier == I2R(R2I(multiplier)))) then
             suggestedPercent = R2I(multiplier)
-            DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat("Error: Did you mean -setfeed x", SetFeedPercentToMultiplierText(suggestedPercent)), "? (multiplies every feedrate by "), SetFeedPercentToMultiplierText(suggestedPercent)), ") or did you mean to do -setfeed "), I2S(suggestedPercent)), " (sets everyone's feedrate to "), I2S(suggestedPercent)), "%)"))
+            DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat("Error: Did you mean -setfeed x", SetFeedPercentToMultiplierText(suggestedPercent)), "? (multiplies every feedrate by "), SetFeedPercentToMultiplierText(suggestedPercent)), ") or did you mean to do -setfeed "), I2S(suggestedPercent)), " (sets everyone's feedrate to "), I2S(suggestedPercent)), "\x25)"))
             return
         end
         i = 0
@@ -497,7 +497,7 @@ function HandleSetExp(triggerPlayer, message)
             udg_ExperienceRate[i] = SetFeedClampRate(I2R(R2I(__jreal(__jreal(oldRate * multiplier) + __jreal(0.50)))))
             i = __jint(i + 1)
         end
-        DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat("Every feedrate was multiplied by ", multText), ". Final values are limited to 50%-200%."))
+        DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat("Every feedrate was multiplied by ", multText), ". Final values are limited to 50\x25-200\x25."))
         return
     end
     if (rest == "") then
@@ -508,14 +508,14 @@ function HandleSetExp(triggerPlayer, message)
                 return
             end
             SetFeedSetAll(y)
-            DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat("Feedrate of every player is set to ", I2S(y)), "%"))
+            DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat("Feedrate of every player is set to ", I2S(y)), "\x25"))
             return
         end
         if SetFeedIsUnsignedReal(token1) then
             singleReal = S2R(token1)
             if ((singleReal >= __jreal(0.50)) and (singleReal <= __jreal(2.00))) then
                 suggestedPercent = R2I(__jreal(__jreal(singleReal * __jreal(100.00)) + __jreal(0.50)))
-                DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat("Error: Did you mean -setfeed x", token1), "? (multiplies every feedrate by "), token1), ") or did you mean to -setfeed "), I2S(suggestedPercent)), " (sets everyone's feedrate to "), I2S(suggestedPercent)), "%)."))
+                DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat(__jconcat("Error: Did you mean -setfeed x", token1), "? (multiplies every feedrate by "), token1), ") or did you mean to -setfeed "), I2S(suggestedPercent)), " (sets everyone's feedrate to "), I2S(suggestedPercent)), "\x25)."))
                 return
             end
         end
@@ -573,7 +573,7 @@ function HandleSetExp(triggerPlayer, message)
         return
     end
     udg_ExperienceRate[__jint(playerNumber - 1)] = I2R(y)
-    DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat("Feedrate of player ", I2S(playerNumber)), " is set to "), I2S(y)), "%"))
+    DisplayTextToPlayer(triggerPlayer, __jreal(0), __jreal(0), __jconcat(__jconcat(__jconcat(__jconcat("Feedrate of player ", I2S(playerNumber)), " is set to "), I2S(y)), "\x25"))
 end
 -- END FOREST SECTION 23
 
@@ -662,7 +662,7 @@ function Trig_CheckFeedRates_Actions()
     local output = "|cffffcc00Current feed rates:|r"
     while true do
         if (i >= 11) then break end
-        output = __jconcat(__jconcat(__jconcat(__jconcat(__jconcat(output, "\n"), Trig_CheckFeedRates_PlayerLabel(i)), ": |cffffffff"), I2S(R2I(__jreal(udg_ExperienceRate[i] + __jreal(0.50))))), "%|r")
+        output = __jconcat(__jconcat(__jconcat(__jconcat(__jconcat(output, "\n"), Trig_CheckFeedRates_PlayerLabel(i)), ": |cffffffff"), I2S(R2I(__jreal(udg_ExperienceRate[i] + __jreal(0.50))))), "\x25|r")
         i = __jint(i + 1)
     end
     DisplayTextToPlayer(GetTriggerPlayer(), __jreal(0), __jreal(0), output)

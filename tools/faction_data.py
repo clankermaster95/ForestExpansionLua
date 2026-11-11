@@ -16,7 +16,7 @@ def load():
 
 def validate(data):
     entries = data['expanders'] + data['ancients']
-    assert len(data['expanders']) == 20 and len(data['ancients']) == 11
+    assert len(data['expanders']) == 21 and len(data['ancients']) == 11
     for field in ('key', 'raw', 'ban'):
         assert len({row[field] for row in entries}) == len(entries), field
     assert len(data['banOrder']) == len(entries)

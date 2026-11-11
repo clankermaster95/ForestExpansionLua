@@ -1,5 +1,5 @@
 {
-  "FormatVersion": "v5",
+  "FormatVersion": "v7",
   "Regions": [
     {
       "Left": 7744,
@@ -15,6 +15,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -31,6 +38,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -47,6 +61,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -63,6 +84,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -79,6 +107,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -95,6 +130,13 @@
         "G": 128,
         "B": 128,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -111,6 +153,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -127,6 +176,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -143,6 +199,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -159,6 +222,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -175,6 +245,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -191,6 +268,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -207,6 +291,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -223,6 +314,13 @@
         "G": 255,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -239,6 +337,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -255,6 +360,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -271,6 +383,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -287,6 +406,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -303,6 +429,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -319,6 +452,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -335,6 +475,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -351,6 +498,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -367,6 +521,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -383,6 +544,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -399,6 +567,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -415,6 +590,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -431,6 +613,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -447,6 +636,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -463,6 +659,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -479,6 +682,13 @@
         "G": 0,
         "B": 0,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -495,6 +705,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -511,6 +728,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -527,6 +751,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -543,6 +774,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -559,6 +797,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -575,6 +820,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -591,6 +843,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -607,6 +866,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -623,6 +889,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -639,6 +912,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -655,6 +935,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -671,6 +958,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     },
     {
@@ -687,6 +981,13 @@
         "G": 128,
         "B": 255,
         "A": 255
+      },
+      "CameraBlocker": 0,
+      "AlphaTileMinimapColor": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
       }
     }
   ]

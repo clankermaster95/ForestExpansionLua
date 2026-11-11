@@ -24,7 +24,7 @@ function __jdiv(a, b)
     if b == 0 then error("JASS integer division by zero", 2) end
     -- Avoid abs(INT_MIN), which cannot be represented by a signed 32-bit int.
     local quotient = a // b
-    if a % b ~= 0 and (a < 0) ~= (b < 0) then quotient = quotient + 1 end
+    if math.fmod(a, b) ~= 0 and (a < 0) ~= (b < 0) then quotient = quotient + 1 end
     return __jint(quotient)
 end
 

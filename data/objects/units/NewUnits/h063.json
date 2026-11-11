@@ -8,7 +8,7 @@
     {
       "Id": 1768055157,
       "Type": "String",
-      "Value": "A0EJ,A0EH,A0EG,A0EI,A0E4,A0E3,Ahrp,A0E1",
+      "Value": "A0EH,A0EG,A0EI,A0E3,Ahrp,A0E1,AFCT",
       "SanityCheck": 0,
       "_field": "uabi"
     },
@@ -22,7 +22,7 @@
     {
       "Id": 1919381621,
       "Type": "String",
-      "Value": "R082,R083,R080,R081",
+      "Value": "R082,R083,R080,R081,RFAT",
       "SanityCheck": 0,
       "_field": "upgr"
     },
@@ -99,7 +99,7 @@
     {
       "Id": 1932616053,
       "Type": "Int",
-      "Value": 1,
+      "Value": 900,
       "SanityCheck": 0,
       "_field": "ua1s"
     },
@@ -193,6 +193,27 @@
       "Value": "undead",
       "SanityCheck": 0,
       "_field": "urac"
+    },
+    {
+      "Id": 1915838837,
+      "Type": "Int",
+      "Value": 200,
+      "SanityCheck": 0,
+      "_field": "ua1r"
+    },
+    {
+      "Id": 1999724917,
+      "Type": "String",
+      "Value": "missile",
+      "SanityCheck": 0,
+      "_field": "ua1w"
+    },
+    {
+      "Id": 1902473845,
+      "Type": "String",
+      "Value": "RFPK",
+      "SanityCheck": 0,
+      "_field": "ureq"
     }
   ],
   "_rawcode": "h063",

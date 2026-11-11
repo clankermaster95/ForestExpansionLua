@@ -1,0 +1,33 @@
+{
+  "OldId": 1835615554,
+  "NewId": 1129530946,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "Bloody Sacrifice",
+      "SanityCheck": 0,
+      "_field": "fnam"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "Bloody Sacrifice",
+      "SanityCheck": 0,
+      "_field": "ftip"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "Healing nearby allies at the cost of your own health.",
+      "SanityCheck": 0,
+      "_field": "fube"
+    }
+  ],
+  "_rawcode": "BFSC",
+  "_base": "BEim",
+  "_name": "Bloody Sacrifice"
+}

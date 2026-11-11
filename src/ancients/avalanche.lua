@@ -1,3 +1,118 @@
+-- Sadism: moving enemy slow and anti-heal for the same 25-second duration.
+-- Warcraft exposes damage events but no general native healing event. Scripted
+-- heals are rejected at their write; native healing/regen is capped every frame
+-- and before damage so it cannot be spent as extra HP on a following hit.
+FE_Ice = { casts = {}, targets = {}, health = {}, ticks = 0, initialized = false }
+
+function FE_Ice.blocked(unit)
+    if not FE_Combat.alive(unit) then return false end
+    for _, cast in ipairs(FE_Ice.casts) do
+        if FE_Combat.alive(cast.unit) and IsUnitEnemy(unit, GetOwningPlayer(cast.unit)) and
+            FE_Combat.inRange(unit, GetUnitX(cast.unit), GetUnitY(cast.unit), 2000) then return true end
+    end
+    return false
+end
+
+function FE_Ice.cap(unit)
+    local cap = FE_Ice.health[unit]
+    if not cap then return end
+    local life = GetWidgetLife(unit)
+    if FE_Combat.alive(unit) and FE_Ice.blocked(unit) then
+        if life > cap then FE_Ice.setLife(unit, cap) else FE_Ice.health[unit] = life end
+    end
+end
+
+function FE_Ice.beforeDamage()
+    FE_Ice.cap(udg_DamageEventTarget)
+end
+
+function FE_Ice.onDamage()
+    local unit = udg_DamageEventTarget
+    local cap = FE_Ice.health[unit]
+    if cap and FE_Ice.blocked(unit) then
+        if udg_DamageEventAmount < 0 then udg_DamageEventAmount = 0 end
+        -- OnDamage runs after armor but before HP is deducted. Record that loss
+        -- now, so a native heal between damage and the next timer isn't missed.
+        if udg_DamageEventAmount > 0 then
+            FE_Ice.health[unit] = math.max(0, math.min(cap, GetWidgetLife(unit)) - udg_DamageEventAmount)
+        end
+    end
+end
+
+function FE_Ice.start(unit)
+    for index = #FE_Ice.casts, 1, -1 do
+        if FE_Ice.casts[index].unit == unit then table.remove(FE_Ice.casts, index) end
+    end
+    SetWidgetLife(unit, GetWidgetLife(unit)*0.60)
+    FE_Ice.casts[#FE_Ice.casts+1] = {unit=unit, remaining=800, pulse=0}
+    FE_Ice.refreshTargets()
+end
+
+function FE_Ice.refreshTargets()
+    local desired, ordered = {}, {}
+    for _, cast in ipairs(FE_Ice.casts) do
+        if FE_Combat.alive(cast.unit) then
+            FE_Combat.near(cast.unit, 2000, function(unit)
+                if IsUnitEnemy(unit, GetOwningPlayer(cast.unit)) and not desired[unit] then
+                    desired[unit] = true
+                    ordered[#ordered+1] = unit
+                    if not FE_Ice.health[unit] then
+                        FE_Ice.health[unit] = GetWidgetLife(unit)
+                        FE_Combat.hiddenAbility(unit, "AFIS", 1)
+                    else FE_Ice.cap(unit) end
+                end
+            end)
+        end
+    end
+    for _, unit in ipairs(FE_Ice.targets) do
+        if not desired[unit] then
+            FE_Ice.health[unit] = nil
+            FE_Combat.hiddenAbility(unit, "AFIS", 0)
+            UnitRemoveAbility(unit, FourCC("BFIS"))
+        end
+    end
+    FE_Ice.targets = ordered
+end
+
+function FE_Ice.tick()
+    for index = #FE_Ice.casts, 1, -1 do
+        local cast = FE_Ice.casts[index]
+        if not FE_Combat.alive(cast.unit) then table.remove(FE_Ice.casts, index)
+        else
+            cast.remaining, cast.pulse = cast.remaining - 1, cast.pulse + 1
+            if cast.pulse == 32 then
+                cast.pulse = 0
+                SetWidgetLife(cast.unit, GetWidgetLife(cast.unit) + 400)
+            end
+            if cast.remaining <= 0 then table.remove(FE_Ice.casts, index) end
+        end
+    end
+    FE_Ice.refreshTargets()
+end
+
+function FE_Ice.init()
+    if FE_Ice.initialized then return end
+    FE_Ice.initialized = true
+    FE_Ice.setLife = SetWidgetLife
+    local setState = SetUnitState
+    SetWidgetLife = function(widget, life)
+        -- Widget may also be an item/destructable: only inspect known units.
+        if FE_Ice.health[widget] and FE_Ice.blocked(widget) and life > GetWidgetLife(widget) then return end
+        FE_Ice.setLife(widget, life)
+        if FE_Ice.health[widget] and life < FE_Ice.health[widget] then FE_Ice.health[widget] = math.max(0, life) end
+    end
+    SetUnitState = function(unit, state, value)
+        if state == UNIT_STATE_LIFE and FE_Ice.blocked(unit) and value > GetWidgetLife(unit) then return end
+        setState(unit, state, value)
+        if state == UNIT_STATE_LIFE and FE_Ice.health[unit] and value < FE_Ice.health[unit] then FE_Ice.health[unit] = math.max(0, value) end
+    end
+    FE_Combat.listen("udg_PreDamageEvent", -100, FE_Ice.beforeDamage)
+    FE_Combat.listen("udg_DamageEvent", 100, FE_Ice.onDamage)
+    local timer = CreateTimer()
+    TimerStart(timer, 0.03125, true, FE_Ice.tick)
+end
+
+
 -- ancients / avalanche
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 

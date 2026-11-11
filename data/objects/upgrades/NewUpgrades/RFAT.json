@@ -1,0 +1,275 @@
+{
+  "OldId": 1701668946,
+  "NewId": 1413563986,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1819700327,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "glvl"
+    },
+    {
+      "Id": 828794215,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6897",
+      "SanityCheck": 0,
+      "_field": "gef1",
+      "_resolvedText": "ratx"
+    },
+    {
+      "Id": 845571431,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "TRIGSTR_6898",
+      "SanityCheck": 0,
+      "_field": "gef2",
+      "_resolvedText": "ratr"
+    },
+    {
+      "Id": 1651271527,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 5,
+      "SanityCheck": 0,
+      "_field": "gglb"
+    },
+    {
+      "Id": 1835820903,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 15,
+      "SanityCheck": 0,
+      "_field": "gglm"
+    },
+    {
+      "Id": 1651338343,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 250,
+      "SanityCheck": 0,
+      "_field": "glmb"
+    },
+    {
+      "Id": 1835887719,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 750,
+      "SanityCheck": 0,
+      "_field": "glmm"
+    },
+    {
+      "Id": 1651078247,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 20,
+      "SanityCheck": 0,
+      "_field": "gtib"
+    },
+    {
+      "Id": 1835627623,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "gtim"
+    },
+    {
+      "Id": 1936483175,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "gcls"
+    },
+    {
+      "Id": 828465767,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "gba1"
+    },
+    {
+      "Id": 829386087,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "gmo1"
+    },
+    {
+      "Id": 845242983,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "gba2"
+    },
+    {
+      "Id": 846163303,
+      "Type": "Unreal",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 75,
+      "SanityCheck": 0,
+      "_field": "gmo2"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq"
+    },
+    {
+      "Id": 862348647,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "gef3",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 879125863,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "gef4",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1667330663,
+      "Type": "String",
+      "Value": "human",
+      "SanityCheck": 0,
+      "_field": "grac",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1668379239,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "grqc",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 1668379239,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "grqc",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 1668379239,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "grqc",
+      "Level": 2,
+      "Pointer": 0
+    },
+    {
+      "Id": 1668379239,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "grqc",
+      "Level": 3,
+      "Pointer": 0
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq",
+      "Level": 4,
+      "Pointer": 0
+    },
+    {
+      "Id": 1668379239,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "grqc",
+      "Level": 4,
+      "Pointer": 0
+    },
+    {
+      "Id": 1902473831,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "greq",
+      "Level": 5,
+      "Pointer": 0
+    },
+    {
+      "Id": 1668379239,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "grqc",
+      "Level": 5,
+      "Pointer": 0
+    }
+  ],
+  "_rawcode": "RFAT",
+  "_base": "Rhme",
+  "_name": "Profane Reach"
+}

@@ -1,0 +1,633 @@
+{
+  "OldId": 1700876097,
+  "NewId": 1396786753,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1919248481,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aher"
+    },
+    {
+      "Id": 1986358369,
+      "Type": "Int",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": 9,
+      "SanityCheck": 0,
+      "_field": "alev"
+    },
+    {
+      "Id": 1667330657,
+      "Type": "String",
+      "Level": 0,
+      "Pointer": 0,
+      "Value": "other",
+      "SanityCheck": 0,
+      "_field": "arac"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0.05,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0.05,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "self,air,ground,structure,vulnerable,invulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "BFAS",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 0.1,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "self,air,ground,structure,vulnerable,invulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "BFAS",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 0.15,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 0.15,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "self,air,ground,structure,vulnerable,invulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 3,
+      "Pointer": 0,
+      "Value": "BFAS",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 0.2,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 0.2,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "self,air,ground,structure,vulnerable,invulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 4,
+      "Pointer": 0,
+      "Value": "BFAS",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 0.25,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 0.25,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "self,air,ground,structure,vulnerable,invulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 5,
+      "Pointer": 0,
+      "Value": "BFAS",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": 0.3,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": 0.3,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "self,air,ground,structure,vulnerable,invulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 6,
+      "Pointer": 0,
+      "Value": "BFAS",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": 0.35,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": 0.35,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "self,air,ground,structure,vulnerable,invulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 7,
+      "Pointer": 0,
+      "Value": "BFAS",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": 0.4,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": 0.4,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "self,air,ground,structure,vulnerable,invulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 8,
+      "Pointer": 0,
+      "Value": "BFAS",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 828727631,
+      "Type": "Unreal",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": 0.45,
+      "SanityCheck": 0,
+      "_field": "Oae1"
+    },
+    {
+      "Id": 845504847,
+      "Type": "Unreal",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": 0.45,
+      "SanityCheck": 0,
+      "_field": "Oae2"
+    },
+    {
+      "Id": 1701994849,
+      "Type": "Unreal",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aare"
+    },
+    {
+      "Id": 1918989409,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "self,air,ground,structure,vulnerable,invulnerable",
+      "SanityCheck": 0,
+      "_field": "atar"
+    },
+    {
+      "Id": 1718968929,
+      "Type": "String",
+      "Level": 9,
+      "Pointer": 0,
+      "Value": "BFAS",
+      "SanityCheck": 0,
+      "_field": "abuf"
+    },
+    {
+      "Id": 1702127969,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "aite",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1902473825,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "areq",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1634824801,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "arqa",
+      "Level": 0,
+      "Pointer": 0
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "adur",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "ahdu",
+      "Level": 1,
+      "Pointer": 0
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "adur",
+      "Level": 2,
+      "Pointer": 0
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "ahdu",
+      "Level": 2,
+      "Pointer": 0
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "adur",
+      "Level": 3,
+      "Pointer": 0
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "ahdu",
+      "Level": 3,
+      "Pointer": 0
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "adur",
+      "Level": 4,
+      "Pointer": 0
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "ahdu",
+      "Level": 4,
+      "Pointer": 0
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "adur",
+      "Level": 5,
+      "Pointer": 0
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "ahdu",
+      "Level": 5,
+      "Pointer": 0
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "adur",
+      "Level": 6,
+      "Pointer": 0
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "ahdu",
+      "Level": 6,
+      "Pointer": 0
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "adur",
+      "Level": 7,
+      "Pointer": 0
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "ahdu",
+      "Level": 7,
+      "Pointer": 0
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "adur",
+      "Level": 8,
+      "Pointer": 0
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "ahdu",
+      "Level": 8,
+      "Pointer": 0
+    },
+    {
+      "Id": 1920296033,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "adur",
+      "Level": 9,
+      "Pointer": 0
+    },
+    {
+      "Id": 1969514593,
+      "Type": "Unreal",
+      "Value": 0.0,
+      "SanityCheck": 0,
+      "_field": "ahdu",
+      "Level": 9,
+      "Pointer": 0
+    }
+  ],
+  "_rawcode": "AFAS",
+  "_base": "AOae",
+  "_name": "AFAS"
+}

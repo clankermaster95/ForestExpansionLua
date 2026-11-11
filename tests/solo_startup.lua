@@ -29,7 +29,10 @@ end
 local function emit(kind,player,unit,text,buyer)
     for _,trigger in ipairs(triggers) do
         for _,registration in ipairs(trigger.events) do
-            if registration.kind==kind and (not registration.player or registration.player==player) then
+            local chatMatches=kind~='chat' or not registration.pattern or
+                (registration.exact and text==registration.pattern) or
+                (not registration.exact and text:find(registration.pattern,1,true)~=nil)
+            if chatMatches and registration.kind==kind and (not registration.player or registration.player==player) then
                 fire(trigger,{player=player,unit=unit,text=text,buyer=buyer});break
             end
         end
@@ -58,7 +61,7 @@ function CreateTrigger() local t={conditions={},actions={},events={}};triggers[#
 function Condition(f) return f end
 function TriggerAddCondition(t,f) t.conditions[#t.conditions+1]=f end
 function TriggerAddAction(t,f) t.actions[#t.actions+1]=f end
-function DisableTrigger(t) t.disabled=true end
+function DisableTrigger(t) if t then t.disabled=true end end
 function EnableTrigger(t) t.disabled=false end
 function TriggerRegisterTimerEventSingle(t,delay) schedule(delay,function() fire(t) end) end
 function TriggerRegisterTimerEventPeriodic(t,period)
@@ -67,7 +70,9 @@ function TriggerRegisterTimerEventPeriodic(t,period)
 end
 function TriggerRegisterPlayerUnitEventSimple(t,p,kind) t.events[#t.events+1]={player=p,kind=kind} end
 function TriggerRegisterPlayerEventLeave(t,p) TriggerRegisterPlayerUnitEventSimple(t,p,'leave') end
-function TriggerRegisterPlayerChatEvent(t,p) TriggerRegisterPlayerUnitEventSimple(t,p,'chat') end
+function TriggerRegisterPlayerChatEvent(t,p,pattern,exact)
+    t.events[#t.events+1]={player=p,kind='chat',pattern=pattern,exact=exact}
+end
 function TriggerRegisterAnyUnitEventBJ(t,kind) t.events[#t.events+1]={kind=kind} end
 function TriggerSleepAction(delay) coroutine.yield(delay) end
 function CreateTimer() return {} end
@@ -83,13 +88,20 @@ function TimerDialogDisplay(d,visible) d.visible=visible end
 function DestroyTimerDialogBJ(d) d.destroyed=true;d.visible=false end
 function RemoveUnitFromStock(shop,raw) shop.stock[raw]=nil end
 function AddUnitToStock(shop,raw,count) shop.stock[raw]=count end
+function AddUnitToStockBJ(raw,shop,count) AddUnitToStock(shop,raw,count) end
+function SetPlayerTechResearched(player,raw,level)
+    player.tech=player.tech or {};player.tech[raw]=level
+end
 function AddUnitToStockBJ(raw,shop,count,max) AddUnitToStock(shop,raw,count,max) end
 function KillUnit(u) u.dead=true;emit('death',u.owner,u) end
 function CreateQuest() return {} end
 for _,name in ipairs({'QuestSetTitle','QuestSetDescription','QuestSetRequired','QuestSetDiscovered','QuestSetEnabled','QuestSetIconPath'}) do _G[name]=function() end end
 function DisplayTextToPlayer(p,x,y,text) banners[#banners+1]=text end
 function GetPlayersAll() return {} end
-function DisplayTextToForce(force,text) announcements[#announcements+1]=text end
+function DisplayTextToForce(force,text)
+    if text=='Factions can no longer be banned.' then banners[#banners+1]=text
+    else announcements[#announcements+1]=text end
+end
 function DisplayTimedTextToForce(force,seconds,text) announcements[#announcements+1]=text end
 function PlayThematicMusicBJ() end
 function CustomVictoryBJ(p) results[#results+1]={player=p,won=true} end
@@ -122,6 +134,7 @@ local function reset(humans)
     players={};triggers={};queue={};now=0;event={};dialogs={};announcements={};results={};banners={};order={}
     for _,slot in ipairs(humans) do local p=Player(slot);p.controller='user';p.state='playing' end
     dofile('src/commands/test_data.lua');dofile('src/commands/solo_test.lua')
+    dofile('src/game/selection.lua')
     InitTrig_FE_Bootstrap()
     check(table.concat(order,',')=='jasshelper__initstructs149790140,PassiveMissiles__Init,SpellLeech__Init,globals,triggers,recipes,shops,startup','real bootstrap order')
 end
@@ -132,6 +145,7 @@ for _,slot in ipairs({6,0}) do
         check(FE_Test.player==p,'solo enabled in either role')
         advance(skipAt);emit('chat',p,nil,'-test skip')
         check(FE_Test.skipped,'registered skip callback reached')
+        check(p.tech.RFPK==1 and p.tech.RFPA==1,'skip unlocks both native prerequisites')
         for _,entry in ipairs(FE_TestData.pickers) do check(_G[entry.shop].stock[entry.raw]==1,'all picks unlocked') end
         for _,dialog in ipairs(dialogs) do check(not dialog.visible,'active picking timers hidden') end
         -- Re-enabling the result trigger at 65 seconds must not restore victory.
@@ -153,6 +167,14 @@ for _,slot in ipairs({6,0}) do
         emit('chat',p,nil,'-gold 10000');check(p.gold==10000,'commands still work after startup and result events')
     end
 end
+
+reset({0,6})
+advance(0)
+for _,entry in ipairs(FE_TestData.pickers) do check(_G[entry.shop].stock[entry.raw]==1,'all choices visible immediately') end
+advance(19);check(not Player(0).tech or not Player(0).tech.RFPK,'ordinary expander picking locked before ban cutoff')
+advance(20);check(Player(0).tech.RFPK==1 and not Player(6).tech.RFPA,'expander unlock preserves Ancient wait')
+advance(59);check(not Player(6).tech.RFPA,'Ancient picking stays locked until 60 seconds')
+advance(60);check(Player(6).tech.RFPA==1,'Ancient unlock at original spawn deadline')
 
 reset({0,6})
 check(not FE_Test.player,'two humans keep normal match behavior')

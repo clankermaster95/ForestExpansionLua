@@ -132,7 +132,7 @@ end
 
 function Ancient_CleanTrailingSeparators(source)
     if source == nil then return "" end
-    return (string.gsub(Ancient_CollapseSpaces(source), "[ :%-]+$", ""))
+    return (string.gsub(Ancient_CollapseSpaces(source), "[ :\x25-]+$", ""))
 end
 
 function Ancient_FormatTooltipText(text, level)
@@ -144,7 +144,7 @@ function Ancient_FormatTooltipText(text, level)
     text = Ancient_ReplaceAll(text, "\n", " ")
     text = Ancient_ReplaceAll(text, "/n", " ")
     text = Ancient_ReplaceAll(text, "/N", " ")
-    text = Ancient_ReplaceAll(text, "%d", I2S(level))
+    text = Ancient_ReplaceAll(text, "\x25d", I2S(level))
     text = Ancient_CollapseSpaces(text)
     return text
 end

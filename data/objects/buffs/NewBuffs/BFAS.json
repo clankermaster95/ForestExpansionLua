@@ -1,0 +1,33 @@
+{
+  "OldId": 1700876098,
+  "NewId": 1396786754,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "Sacrificial Aura bonus",
+      "SanityCheck": 0,
+      "_field": "fnam"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "Sacrificial Aura bonus",
+      "SanityCheck": 0,
+      "_field": "ftip"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "Attack and movement speed increased.",
+      "SanityCheck": 0,
+      "_field": "fube"
+    }
+  ],
+  "_rawcode": "BFAS",
+  "_base": "BOae",
+  "_name": "Sacrificial Aura bonus"
+}

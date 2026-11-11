@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9078",
+      "Value": "X",
       "SanityCheck": 0,
-      "_field": "ghk1",
-      "_resolvedText": "X"
+      "_field": "ghk1"
     },
     {
       "Id": 829579623,

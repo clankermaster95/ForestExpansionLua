@@ -8,30 +8,34 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "[Recipe] Valorous Helmet (500)",
+      "Value": "TRIGSTR_866",
       "SanityCheck": 0,
-      "_field": "unam"
+      "_field": "unam",
+      "_resolvedText": "[Recipe] Valorous Helmet (500)"
     },
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "|cff00d200[Recipe]|r Valorous Helmet |cffdcb900[500 gold total]|r",
+      "Value": "TRIGSTR_6674",
       "SanityCheck": 0,
-      "_field": "utip"
+      "_field": "utip",
+      "_resolvedText": "|cff00d200[Recipe]|r Valorous Helmet |cffdcb900[500 gold total]|r"
     },
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "|cffffcc00Full recipe: 500 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Helm of Devotion (100 gold)|n- Valor Armor (100 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 25, your armor by 10, and your movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r|r",
+      "Value": "TRIGSTR_6678",
       "SanityCheck": 0,
-      "_field": "utub"
+      "_field": "utub",
+      "_resolvedText": "|cffffcc00Full recipe: 500 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Helm of Devotion (100 gold)|n- Valor Armor (100 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 25, your armor by 10, and your movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r|r"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "|cffffcc00Full recipe: 500 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Helm of Devotion (100 gold)|n- Valor Armor (100 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 25, your armor by 10, and your movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r|r",
+      "Value": "TRIGSTR_6679",
       "SanityCheck": 0,
-      "_field": "ides"
+      "_field": "ides",
+      "_resolvedText": "|cffffcc00Full recipe: 500 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Helm of Devotion (100 gold)|n- Valor Armor (100 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 25, your armor by 10, and your movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r|r"
     },
     {
       "Id": 1953458293,

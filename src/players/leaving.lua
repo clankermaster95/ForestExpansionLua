@@ -8,12 +8,7 @@ end
 
 function Trig_Player_Leaves_Actions()
     if FE_Roles.isAncient(GetTriggerPlayer()) then return end
-    FE_Roster.defeat(GetTriggerPlayer())
-    udg_Flags[GetConvertedPlayerId(GetTriggerPlayer())] = false
-    DisplayTextToForce(GetPlayersAll(), (__jconcat(GetPlayerName(GetTriggerPlayer()), " has left the game.")))
-    local units = GetUnitsOfPlayerAll(GetTriggerPlayer())
-    ForGroupBJ(units, Trig_Player_Leaves_Func003002)
-    DestroyGroup(units)
+    FE_Takeover.begin(GetTriggerPlayer())
 end
 
 function InitTrig_Player_Leaves()
@@ -27,22 +22,10 @@ end
 
 -- BEGIN FOREST SECTION 322 Ancient_Leaves
 function Trig_Ancient_Leaves_Actions()
-    local leavingAncient = GetTriggerPlayer()
-    if (leavingAncient ~= FE_Roles.ancient()) then
-        leavingAncient = nil
-        return
+    if FE_Roles.isAncient(GetTriggerPlayer()) then
+        PlayThematicMusicBJ("Tension")
+        FE_Takeover.begin(GetTriggerPlayer())
     end
-    PlayThematicMusicBJ("Tension")
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_436")
-    TriggerSleepAction(__jreal(3.00))
-    DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5283")
-    TriggerSleepAction(__jreal(120.00))
-    if (FE_Roles.ancient() == leavingAncient) then
-        FE_Roles.otherPlayersWin()
-    else
-        DisplayTextToForce(GetPlayersAll(), "|cff80ff80Ancient was taken over. The game will continue.|r")
-    end
-    leavingAncient = nil
 end
 
 function InitTrig_Ancient_Leaves()

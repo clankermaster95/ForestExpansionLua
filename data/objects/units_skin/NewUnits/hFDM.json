@@ -1,0 +1,48 @@
+{
+  "OldId": 1869571688,
+  "NewId": 1296320104,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101813,
+      "Type": "String",
+      "Value": "TRIGSTR_6663",
+      "SanityCheck": 0,
+      "_field": "unam",
+      "_resolvedText": "Spell dummy"
+    },
+    {
+      "Id": 1818520949,
+      "Type": "String",
+      "Value": "Doodads\\Terrain\\LOSBlocker\\IntentionallyLeftBlank.mdl",
+      "SanityCheck": 0,
+      "_field": "umdl"
+    },
+    {
+      "Id": 1969779573,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushu"
+    },
+    {
+      "Id": 1651012469,
+      "Type": "String",
+      "Value": "",
+      "SanityCheck": 0,
+      "_field": "ushb"
+    },
+    {
+      "Id": 2053990773,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "uimz"
+    }
+  ],
+  "_rawcode": "hFDM",
+  "_base": "hfoo",
+  "_name": "Spell dummy"
+}

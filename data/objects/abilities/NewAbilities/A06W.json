@@ -163,7 +163,7 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "air,debris,enemies,ground,neutral,structure",
+      "Value": "none",
       "SanityCheck": 0,
       "_field": "atar"
     },
@@ -172,7 +172,7 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "air,debris,enemies,ground,neutral,structure",
+      "Value": "none",
       "SanityCheck": 0,
       "_field": "atar"
     },
@@ -181,7 +181,7 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "air,debris,enemies,ground,neutral,structure",
+      "Value": "none",
       "SanityCheck": 0,
       "_field": "atar"
     }

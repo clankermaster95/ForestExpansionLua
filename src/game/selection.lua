@@ -21,23 +21,24 @@ FE_Factions.expanders = {
     { key="Kraken", raw="h000", shop="gg_unit_nmer_0000", ban="udg_BannedKraken", message="Kraken banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Kraken"} },
     { key="Elf", raw="h05C", shop="gg_unit_n00G_0035", ban="udg_BannedElf", message="Elf banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban NightElf", "-ban Elf", "-ban Night"} },
     { key="HighElf", raw="n00M", shop="gg_unit_n00G_0035", ban="udg_BannedHighElf", message="Elf banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban HighElf", "-ban High Elf", "-ban High"} },
-    { key="Ratling", raw="o026", shop="gg_unit_nmer_0000", ban="udg_BannedRatling", message="Ratling Stalker banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=false, aliases={"-ban rat", "-ban ratling", "-ban stalker"} },
-    { key="Hunter", raw="h05W", shop="gg_unit_n00G_0035", ban="udg_BannedHunter", message="Bounty Hunter banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=false, aliases={"-ban hunter", "-ban bounty"} },
+    { key="Ratling", raw="o026", shop="gg_unit_nmer_0000", ban="udg_BannedRatling", message="Ratling Stalker banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban rat", "-ban ratling", "-ban stalker"} },
+    { key="Hunter", raw="h05W", shop="gg_unit_n00G_0035", ban="udg_BannedHunter", message="Bounty Hunter banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban hunter", "-ban bounty"} },
+    { key="Cultist", raw="h063", shop="gg_unit_n00G_0035", ban="udg_BannedCultist", message="Cultist banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban cultist"} },
 }
 FE_Factions.ancients = {
-    { key="AncientLight", raw="O01V", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientLight", message="Ancient of Light banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban light", "-ban divinity"}, spellbringerAbility="A0FB" },
-    { key="AncientLightning", raw="O016", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientLightning", message="Ancient of Lightning banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Lightning", "-ban Zalxon"}, spellbringerAbility="A0B1" },
-    { key="AncientDragon", raw="O00S", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientDragon", message="Ancient of Dragons banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Dragon", "-ban Dragons", "-ban Dragos"}, spellbringerAbility="A0B4" },
-    { key="AncientEarth", raw="O00L", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientEarth", message="Ancient of Earth banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Earth", "-ban Tremor"}, spellbringerAbility="A0B5" },
-    { key="AncientDarkness", raw="O00A", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientDarkness", message="Ancient of Darkness banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Darkness", "-ban Paranoia"}, spellbringerAbility="A0EN" },
-    { key="AncientIce", raw="O008", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientIce", message="Ancient of Ice banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Ice", "-ban Avalanche"}, spellbringerAbility="A0AZ" },
-    { key="AncientFire", raw="O004", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientFire", message="Ancient of Fire banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Fire", "-ban Ignite"}, spellbringerAbility="A0B3" },
-    { key="AncientNature", raw="O00D", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientNature", message="Ancient of Nature banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Nature", "-ban Eternity"}, spellbringerAbility="A0AY" },
-    { key="AncientSand", raw="O01X", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientSand", message="Ancient of Sand banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Sand", "-ban Pharaoh"}, spellbringerAbility="A0B2" },
-    { key="AncientSpace", raw="O01Z", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientSpace", message="Ancient of Space banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Space", "-ban Nebula"}, spellbringerAbility="A0AL" },
-    { key="AncientWind", raw="O01D", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientWind", message="Ancient of Wind banned. Bans remaining: ", stock=0, maximum=1, closeAtCutoff=false, aliases={"-ban Wind", "-ban Wispari", "-ban Wisperi", "-ban Whispari", "-ban Whisperi"}, spellbringerAbility="A0EM" },
+    { key="AncientLight", raw="O01V", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientLight", message="Ancient of Light banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban light", "-ban divinity"}, spellbringerAbility="A0FB" },
+    { key="AncientLightning", raw="O016", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientLightning", message="Ancient of Lightning banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Lightning", "-ban Zalxon"}, spellbringerAbility="A0B1" },
+    { key="AncientDragon", raw="O00S", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientDragon", message="Ancient of Dragons banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Dragon", "-ban Dragons", "-ban Dragos"}, spellbringerAbility="A0B4" },
+    { key="AncientEarth", raw="O00L", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientEarth", message="Ancient of Earth banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Earth", "-ban Tremor"}, spellbringerAbility="A0B5" },
+    { key="AncientDarkness", raw="O00A", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientDarkness", message="Ancient of Darkness banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Darkness", "-ban Paranoia"}, spellbringerAbility="A0EN" },
+    { key="AncientIce", raw="O008", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientIce", message="Ancient of Ice banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Ice", "-ban Avalanche"}, spellbringerAbility="A0AZ" },
+    { key="AncientFire", raw="O004", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientFire", message="Ancient of Fire banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Fire", "-ban Ignite"}, spellbringerAbility="A0B3" },
+    { key="AncientNature", raw="O00D", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientNature", message="Ancient of Nature banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Nature", "-ban Eternity"}, spellbringerAbility="A0AY" },
+    { key="AncientSand", raw="O01X", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientSand", message="Ancient of Sand banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Sand", "-ban Pharaoh"}, spellbringerAbility="A0B2" },
+    { key="AncientSpace", raw="O01Z", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientSpace", message="Ancient of Space banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Space", "-ban Nebula"}, spellbringerAbility="A0AL" },
+    { key="AncientWind", raw="O01D", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientWind", message="Ancient of Wind banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban Wind", "-ban Wispari", "-ban Wisperi", "-ban Whispari", "-ban Whisperi"}, spellbringerAbility="A0EM" },
 }
-FE_Factions.banOrder = {"Worgen", "Centaur", "Wildkin", "Nerubian", "Human", "Wisp", "Kobold", "Ghoul", "Kraken", "Aethyr", "Forgotten", "Goblin", "Ogre", "Magmide", "Furbolg", "Razormane", "Elf", "HighElf", "Ratling", "Hunter", "AncientLight", "AncientLightning", "AncientDragon", "AncientEarth", "AncientDarkness", "AncientIce", "AncientFire", "AncientNature", "AncientSand", "AncientSpace", "AncientWind"}
+FE_Factions.banOrder = {"Worgen", "Centaur", "Wildkin", "Nerubian", "Human", "Wisp", "Kobold", "Ghoul", "Kraken", "Aethyr", "Forgotten", "Goblin", "Ogre", "Magmide", "Furbolg", "Razormane", "Elf", "HighElf", "Ratling", "Hunter", "AncientLight", "AncientLightning", "AncientDragon", "AncientEarth", "AncientDarkness", "AncientIce", "AncientFire", "AncientNature", "AncientSand", "AncientSpace", "AncientWind", "Cultist"}
 FE_Factions.randomExpanders = {"Human", "Goblin", "Wisp", "Centaur", "Ogre", "Nerubian", "Worgen", "Furbolg", "Ghoul", "Magmide", "Kraken", "Kobold", "Razormane", "Forgotten", "Wildkin", "Elf", "HighElf", "Ratling"}
 FE_Factions.randomAncients = {"AncientFire", "AncientFire", "AncientFire", "AncientDarkness", "AncientDarkness", "AncientDarkness", "AncientDragon", "AncientDragon", "AncientDragon", "AncientEarth", "AncientEarth", "AncientEarth", "AncientIce", "AncientIce", "AncientIce", "AncientNature", "AncientNature", "AncientNature", "AncientLightning", "AncientLightning", "AncientLightning", "AncientWind", "AncientWind", "AncientWind", "AncientLight", "AncientLight", "AncientLight", "AncientSpace", "AncientSpace", "AncientSpace", "AncientSand", "AncientSand", "AncientSand"}
 FE_Factions.spellbringerOrder = {"AncientWind", "AncientDarkness", "AncientDragon", "AncientEarth", "AncientFire", "AncientIce", "AncientLight", "AncientLightning", "AncientNature", "AncientSand", "AncientSpace"}
@@ -52,11 +53,35 @@ end
 -- The catalog is generated above. Keep all native mutations in these synchronized
 -- event callbacks; catalog construction only stores strings and ordinary Lua data.
 function FE_Factions.stock(kind)
+    FE_Factions.stocked = FE_Factions.stocked or {}
+    if FE_Factions.stocked[kind] then return end
+    FE_Factions.stocked[kind] = true
     for _, entry in ipairs(FE_Factions[kind]) do
         if _G[entry.ban] == 0 then
             AddUnitToStockBJ(FourCC(entry.raw), _G[entry.shop], entry.stock, entry.maximum)
         end
     end
+end
+
+function FE_Factions.unlockPicking()
+    if FE_Factions.pickingUnlocked then return end
+    FE_Factions.pickingUnlocked = true
+    FE_Roles.forEachPlayer(function(player)
+        SetPlayerTechResearched(player, FourCC("RFPK"), 1)
+    end)
+    FE_Factions.closeBans()
+end
+
+function FE_Factions.showStock()
+    if udg_BannedCultist == nil then udg_BannedCultist = 0 end
+    FE_Factions.stock("expanders")
+    FE_Factions.stock("ancients")
+end
+
+function FE_Factions.unlockAncients()
+    FE_Roles.forEachPlayer(function(player)
+        SetPlayerTechResearched(player, FourCC("RFPA"), 1)
+    end)
 end
 
 function FE_Factions.fillRandomPool(pool, kind)
@@ -78,12 +103,13 @@ end
 
 function FE_Factions.ban(key)
     local entry = FE_Factions.byKey[key]
-    if udg_Bans == 0 or _G[entry.ban] == 1 then
+    if FE_Factions.bansClosed or udg_Bans == 0 or _G[entry.ban] == 1 then
         DisplayTextToForce(GetPlayersAll(), "Ban failed.")
         return
     end
     udg_Bans = __jint(udg_Bans - 1)
     _G[entry.ban] = __jreal(1.00)
+    RemoveUnitFromStock(_G[entry.shop], FourCC(entry.raw))
     DisplayTextToForce(GetPlayersAll(), __jconcat(entry.message, I2S(udg_Bans)))
 end
 
@@ -98,10 +124,10 @@ function FE_Factions.registerBan(key, action)
 end
 
 function FE_Factions.closeBans()
-    -- Preserve the existing cutoff coverage/order. Extending it to the remaining
-    -- factions is a gameplay correction, separate from the data-driven refactor.
+    if FE_Factions.bansClosed then return end
+    FE_Factions.bansClosed = true
     for _, key in ipairs(FE_Factions.banOrder) do
-        if FE_Factions.byKey[key].closeAtCutoff then DisableTrigger(_G["gg_trg_" .. key]) end
+        DisableTrigger(_G["gg_trg_" .. key])
     end
     DisplayTextToForce(GetPlayersAll(), "Factions can no longer be banned.")
 end
@@ -254,24 +280,31 @@ end
 
 -- BEGIN FOREST SECTION 269 Spawn_Races
 function Trig_Spawn_Races_Actions()
-    FE_Factions.stock("expanders")
+    FE_Factions.unlockPicking()
 end
 
 function InitTrig_Spawn_Races()
     gg_trg_Spawn_Races = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Spawn_Races, __jreal(20.00))
     TriggerAddAction(gg_trg_Spawn_Races, Trig_Spawn_Races_Actions)
+    udg_BannedCultist = 0
+    FE_Factions.registerBan("Cultist", function() FE_Factions.ban("Cultist") end)
+    local timer = CreateTimer()
+    TimerStart(timer, 0, false, function()
+        DestroyTimer(timer)
+        FE_Factions.showStock()
+    end)
 end
 -- END FOREST SECTION 269
 
 -- BEGIN FOREST SECTION 270 Spawn_Ancients
 function Trig_Spawn_Ancients_Actions()
-    FE_Factions.stock("ancients")
+    FE_Factions.unlockAncients()
 end
 
 function InitTrig_Spawn_Ancients()
     gg_trg_Spawn_Ancients = CreateTrigger()
-    TriggerRegisterTimerEventSingle(gg_trg_Spawn_Ancients, __jreal(20.00))
+    TriggerRegisterTimerEventSingle(gg_trg_Spawn_Ancients, __jreal(60.00))
     TriggerAddAction(gg_trg_Spawn_Ancients, Trig_Spawn_Ancients_Actions)
 end
 -- END FOREST SECTION 270

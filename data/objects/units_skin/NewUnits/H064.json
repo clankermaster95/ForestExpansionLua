@@ -52,10 +52,9 @@
     {
       "Id": 1953458293,
       "Type": "String",
-      "Value": "TRIGSTR_583",
+      "Value": "F",
       "SanityCheck": 0,
-      "_field": "uhot",
-      "_resolvedText": "Q"
+      "_field": "uhot"
     },
     {
       "Id": 1953980789,
@@ -84,10 +83,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10346",
+      "Value": "A gut-wrenching beast that should not even exist. Can grow from absorbing Husks, making it ever so frightening.|nOnly one Amalgamation per player.|n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A gut-wrenching beast that should not even exist. Can grow from absorbing Husks, making it ever so frightening.|n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r"
+      "_field": "utub"
     },
     {
       "Id": 1718840949,
@@ -128,7 +126,7 @@
     {
       "Id": 2037408373,
       "Type": "Int",
-      "Value": 0,
+      "Value": 2,
       "SanityCheck": 0,
       "_field": "ubpy"
     },

@@ -17,15 +17,18 @@ function Trig_Thunderstruck_Func003C()
 end
 
 function Trig_Thunderstruck_Actions()
-    udg_ThunderstruckLevel = GetUnitAbilityLevelSwapped(FourCC("A03S"), udg_DamageEventTarget)
-    udg_ThunderstruckTarget = GetUnitLoc(udg_DamageEventSource)
-    if (Trig_Thunderstruck_Func003C()) then
-        CreateNUnitsAtLoc(1, FourCC("h04L"), GetOwningPlayer(BlzGetEventDamageTarget()), udg_ThunderstruckTarget, bj_UNIT_FACING)
-        UnitAddAbilityBJ(FourCC("A03S"), GetLastCreatedUnit())
-        SetUnitAbilityLevelSwapped(FourCC("A03S"), GetLastCreatedUnit(), udg_ThunderstruckLevel)
-        UnitApplyTimedLifeBJ(__jreal(2.00), FourCC("BTLF"), GetLastCreatedUnit())
-        IssuePointOrderLocBJ(GetLastCreatedUnit(), "flamestrike", udg_ThunderstruckTarget)
-    end
+    -- Damage Engine callbacks own their event context. A native damage getter
+    -- here can refer to a nested event instead of this Ancient.
+    local ancient, attacker = udg_DamageEventTarget, udg_DamageEventSource
+    if not ancient or not attacker or GetUnitTypeId(attacker) == 0 then return end
+    local level = GetUnitAbilityLevel(ancient, FourCC("A03S"))
+    if level < 1 or not Trig_Thunderstruck_Func003C() then return end
+    local x, y = GetUnitX(attacker), GetUnitY(attacker)
+    local dummy = CreateUnit(GetOwningPlayer(ancient), FourCC("hFDM"), x, y, 0)
+    UnitAddAbility(dummy, FourCC("AFLT"))
+    SetUnitAbilityLevel(dummy, FourCC("AFLT"), math.min(level, 7))
+    UnitApplyTimedLife(dummy, FourCC("BTLF"), 3)
+    IssuePointOrder(dummy, "flamestrike", x, y)
 end
 
 function InitTrig_Thunderstruck()

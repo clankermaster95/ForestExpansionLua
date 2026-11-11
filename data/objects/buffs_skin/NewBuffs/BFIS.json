@@ -1,0 +1,36 @@
+{
+  "OldId": 1700876098,
+  "NewId": 1397311042,
+  "Unk": [
+    0
+  ],
+  "Modifications": [
+    {
+      "Id": 1835101798,
+      "Type": "String",
+      "Value": "TRIGSTR_6787",
+      "SanityCheck": 0,
+      "_field": "fnam",
+      "_resolvedText": "Frozen by Sadism"
+    },
+    {
+      "Id": 1885959270,
+      "Type": "String",
+      "Value": "TRIGSTR_6791",
+      "SanityCheck": 0,
+      "_field": "ftip",
+      "_resolvedText": "Frozen by Sadism"
+    },
+    {
+      "Id": 1700951398,
+      "Type": "String",
+      "Value": "TRIGSTR_6792",
+      "SanityCheck": 0,
+      "_field": "fube",
+      "_resolvedText": "Movement speed reduced by 20%. Healing prevented."
+    }
+  ],
+  "_rawcode": "BFIS",
+  "_base": "BOae",
+  "_name": "Frozen by Sadism"
+}

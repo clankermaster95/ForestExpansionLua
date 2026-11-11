@@ -8,9 +8,10 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "[Recipe] Hammer of Might (1550)",
+      "Value": "TRIGSTR_4027",
       "SanityCheck": 0,
-      "_field": "unam"
+      "_field": "unam",
+      "_resolvedText": "[Recipe] Hammer of Might (1550)"
     },
     {
       "Id": 1868786025,
@@ -22,23 +23,26 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "|cff00d200[Recipe]|r Hammer of Might |cffdcb900[1,550 gold total]|r",
+      "Value": "TRIGSTR_6707",
       "SanityCheck": 0,
-      "_field": "utip"
+      "_field": "utip",
+      "_resolvedText": "|cff00d200[Recipe]|r Hammer of Might |cffdcb900[1,550 gold total]|r"
     },
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "|cffffcc00Full recipe: 1,550 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Bladed Gauntlet (900 gold)|n- Gauntlet of Might (350 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r",
+      "Value": "TRIGSTR_6708",
       "SanityCheck": 0,
-      "_field": "utub"
+      "_field": "utub",
+      "_resolvedText": "|cffffcc00Full recipe: 1,550 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Bladed Gauntlet (900 gold)|n- Gauntlet of Might (350 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "|cffffcc00Full recipe: 1,550 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Bladed Gauntlet (900 gold)|n- Gauntlet of Might (350 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r",
+      "Value": "TRIGSTR_6721",
       "SanityCheck": 0,
-      "_field": "ides"
+      "_field": "ides",
+      "_resolvedText": "|cffffcc00Full recipe: 1,550 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Bladed Gauntlet (900 gold)|n- Gauntlet of Might (350 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r"
     },
     {
       "Id": 1953458293,

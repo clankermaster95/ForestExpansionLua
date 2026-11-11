@@ -24,7 +24,7 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "",
+      "Value": "A temporary spirit that harvests gold but has limited sight. Lasts 30 seconds.|n|n|cfffdca00Health:|r 200; 2.5/s (Mechanical)|n|cfffdca00Armor:|r 1 (Fortified)|n|cfffdca00Attack Cooldown:|r 4|n|cfffdca00Movement Speed:|r 200|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
       "_field": "utub"
     },

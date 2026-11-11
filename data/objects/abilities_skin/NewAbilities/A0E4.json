@@ -71,6 +71,15 @@
       "SanityCheck": 0,
       "_field": "aub1",
       "_resolvedText": "|cff2190d3Cultist embraces the night, gaining|r +15 |cff2190d3health regeneration and|r +40% |cff2190d3increased movement speed.|r|n|nLasts until dawn."
+    },
+    {
+      "Id": 2037408353,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "abpy",
+      "Level": 0,
+      "Pointer": 0
     }
   ],
   "_rawcode": "A0E4",

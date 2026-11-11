@@ -1,25 +1,25 @@
 {
   "war3map.doo": {
-    "binary_sha256": "b68db039caf77d7d0bdd628a59526991e967c7e65bfcfabda6b5a45dce59cb33",
-    "content_sha256": "952f88ccb602057ebca0b183318c602974f37d53348989fd6fbc60b54f117c6b",
+    "binary_sha256": "2af09cd5a5da4e684d2a470ca5a7c5dd2533b8507db5e6e77b2dd42dee500833",
+    "content_sha256": "ca12fc8a3269446cbd082db022eb006a2bcd318f5038e1249765ef3042ee53a1",
     "kind": "file",
     "path": "editor/war3map.doo.json"
   },
   "war3map.imp": {
-    "binary_sha256": "6a58270f1de8d4802d7bf3f895ef7558e76da317c6239941c96178f16b8e6e27",
-    "content_sha256": "493aa8c079f6492a98ac0ce770ecdb9572e9bf82b3cda7eae9f05477e68d485d",
+    "binary_sha256": "8253b657f444abeeffab72768ed67089240c92db86367b3f6c1d2dc17c2181cc",
+    "content_sha256": "97583e53b095a28473b5028320c72b4085f65c5d46924e6236502a089e7888c1",
     "kind": "file",
     "path": "editor/war3map.imp.json"
   },
   "war3map.mmp": {
-    "binary_sha256": "d4ccd6cf62d94911b803e05a5a7261b81ff7d698504c1824b4bb4eed6e7c9f0a",
-    "content_sha256": "656d9f1cd74112c3d25e679c71a0d2102b91b133c8a54fc1f5180cce27235e92",
+    "binary_sha256": "cd0d700badade7dda39007a394f572401b7172e75f5f3a8e7245fd13880786ce",
+    "content_sha256": "b2584cf869dff2257d5682a9a339a2270b8fdfba14e76e983a6e20dee3cefed6",
     "kind": "file",
     "path": "editor/war3map.mmp.json"
   },
   "war3map.w3a": {
-    "binary_sha256": "20577a87d73b5039be915c282d1e45bddb6caae2f1fd2407775aa52106185057",
-    "content_sha256": "2d86a1a7f94fd5dcffa65a4ad16aff73c794b2ba36516d26bc82224bd06668c9",
+    "binary_sha256": "f8d68b24226799c19bd9280be50383142054a58a806632c40619199054cba244",
+    "content_sha256": "8aae51ea6e36ee48e9ae35da85abe10518dc03c2840821aa9fc2abdcb2d1407f",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -604,7 +604,17 @@
         "objects/abilities/NewAbilities/A0F9.json",
         "objects/abilities/NewAbilities/A0FA.json",
         "objects/abilities/NewAbilities/A0FB.json",
-        "objects/abilities/NewAbilities/A0FC.json"
+        "objects/abilities/NewAbilities/A0FC.json",
+        "objects/abilities/NewAbilities/AFLT.json",
+        "objects/abilities/NewAbilities/AFBL.json",
+        "objects/abilities/NewAbilities/AFPB.json",
+        "objects/abilities/NewAbilities/AFCA.json",
+        "objects/abilities/NewAbilities/AFCS.json",
+        "objects/abilities/NewAbilities/AFCB.json",
+        "objects/abilities/NewAbilities/AFAS.json",
+        "objects/abilities/NewAbilities/AFIS.json",
+        "objects/abilities/NewAbilities/AFVA.json",
+        "objects/abilities/NewAbilities/AFCT.json"
       ]
     }
   },
@@ -624,8 +634,8 @@
     }
   },
   "war3map.w3c": {
-    "binary_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
-    "content_sha256": "ad3134e53df19cb56894ba1792a24279b370ece9d9814574fa9b000d0f2c8500",
+    "binary_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b",
+    "content_sha256": "053e1dd258ef3ab544def95b01c58a7aac6995fd72d769a85d1ab22f2f73bde2",
     "kind": "file",
     "path": "editor/war3map.w3c.json"
   },
@@ -781,8 +791,8 @@
     ]
   },
   "war3map.w3h": {
-    "binary_sha256": "2db7063a9dbe9b45a80bcad7f416b80bfb6e3082caae73f5db10763a6595cd0e",
-    "content_sha256": "4a38a49718327815f10c8850e93b186109fa7298995ae8de622454ef798e2bcc",
+    "binary_sha256": "0c5a5463f6bee9f0fcc6efd5168eb02ffeb9cda78fd56c9584befb5f18271cca",
+    "content_sha256": "5be5affde7034b40af44e6f710e37ba53506c8a7e09c81774b491b40a1110c27",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -957,19 +967,22 @@
         "objects/buffs/NewBuffs/B03Y.json",
         "objects/buffs/NewBuffs/B03Z.json",
         "objects/buffs/NewBuffs/B040.json",
-        "objects/buffs/NewBuffs/B041.json"
+        "objects/buffs/NewBuffs/B041.json",
+        "objects/buffs/NewBuffs/BFAS.json",
+        "objects/buffs/NewBuffs/BFIS.json",
+        "objects/buffs/NewBuffs/BFSC.json"
       ]
     }
   },
   "war3map.w3i": {
-    "binary_sha256": "52734a13c1c2a1787ff9d44eec50bda3d98304c863a703242df13eab9538a4f7",
-    "content_sha256": "56bdaa1887f5dcc487d4667dbe9d11eb1f691aafeacd5dea39c7bf52c62f8ea6",
+    "binary_sha256": "2ed3b3b0d30572b3bcb81b2f623f441d515dbc60107c431b6955aa3b0025af11",
+    "content_sha256": "e578bc30141c895ee7fc6a43769e6132b377eba5b06793c721c029349e141367",
     "kind": "file",
     "path": "editor/war3map.w3i.json"
   },
   "war3map.w3q": {
-    "binary_sha256": "8afb040390f12f3e1a5cc6612c21d31a69aa689f623b7a45aa71daca1a2ad144",
-    "content_sha256": "fa71f48c293764cdf264bd77a3e4cda0bc0cdf8de1135365d6bd068f2122667e",
+    "binary_sha256": "894c15130002f9ec4a779711f8542d8177a5b030ccf5869a3669f6f86f67f095",
+    "content_sha256": "b205daee1ee06b479c5c8ce37a0289daabe7cc93af6335ccae3bcc47fcde8986",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -1274,13 +1287,19 @@
         "objects/upgrades/NewUpgrades/R086.json",
         "objects/upgrades/NewUpgrades/R087.json",
         "objects/upgrades/NewUpgrades/R088.json",
-        "objects/upgrades/NewUpgrades/R089.json"
+        "objects/upgrades/NewUpgrades/R089.json",
+        "objects/upgrades/NewUpgrades/RFPK.json",
+        "objects/upgrades/NewUpgrades/RFCA.json",
+        "objects/upgrades/NewUpgrades/RFCS.json",
+        "objects/upgrades/NewUpgrades/RFCB.json",
+        "objects/upgrades/NewUpgrades/RFAT.json",
+        "objects/upgrades/NewUpgrades/RFPA.json"
       ]
     }
   },
   "war3map.w3r": {
-    "binary_sha256": "ba306bf840793231abb342d3e7c7a394c464084587d6dd3e90be4112c193f43c",
-    "content_sha256": "03180b11953b7bf85c952226e151cc446032f559042c4cbb5de6bb19f36e4425",
+    "binary_sha256": "936418d98b0b5fef6105ad7d01d8fc211dd986166b2bc298ecb2d275b3124c81",
+    "content_sha256": "20383bb25fac35bd541a02f13c859ffa04415183f80029d25ee0747c53f0cfaa",
     "kind": "file",
     "path": "editor/war3map.w3r.json"
   },
@@ -1393,8 +1412,8 @@
     }
   },
   "war3map.w3u": {
-    "binary_sha256": "5a13fce2f35102be1bc527c55db73e58065cdf5f2e99f928d0aee06b641d9927",
-    "content_sha256": "86b10d6fa82e953e7fd8ce5db5c3d33ee9e1a28470e4bcb44d61588016e20c34",
+    "binary_sha256": "14e923e8d3789e1e5297efa5c5c1856d7c7029645cdf63e96e78aab9c5cb76c6",
+    "content_sha256": "2f3d545cc521b1b623a576ce02ce75ea46786a431a6331342a47049eaeb9454b",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -1837,19 +1856,20 @@
         "objects/units/NewUnits/h06G.json",
         "objects/units/NewUnits/h06H.json",
         "objects/units/NewUnits/n015.json",
-        "objects/units/NewUnits/h06I.json"
+        "objects/units/NewUnits/h06I.json",
+        "objects/units/NewUnits/hFDM.json"
       ]
     }
   },
   "war3map.wpm": {
-    "binary_sha256": "502f61194738f8af51b8b269b54d69be14aae317ab673caf8b447b84f3f8a8b0",
-    "content_sha256": "fc8334ef0d7955176479273bdb8084322e5e0e6c56852fdad6e23a7dd479651f",
+    "binary_sha256": "20d7b7a18e892eeeae111401569bcb058322bd7cf3a6c1f25df526836e623ec4",
+    "content_sha256": "2dfd2b3023089a4d5cc2b6e1944adc7432f871a4ef9fd20fb3f947269ac67b39",
     "kind": "file",
     "path": "editor/war3map.wpm.json"
   },
   "war3mapSkin.w3a": {
-    "binary_sha256": "bb231dc998ea9cfe253b7339be90f147569dff2a3d5eed7d5a2d1eb97bb16309",
-    "content_sha256": "d485fca7f8d24fc5b637229ba1007b48aebd97ae5608e46587385a4165e936a0",
+    "binary_sha256": "89d23f149d542794cfef3c3396cae80c07def617fb74b3972e9ba858df90f4d8",
+    "content_sha256": "4f5365305b15966aa82a5611ab99fdbc1a790ff5e50873447a8b74ba234fc009",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -2434,7 +2454,17 @@
         "objects/abilities_skin/NewAbilities/A0F9.json",
         "objects/abilities_skin/NewAbilities/A0FA.json",
         "objects/abilities_skin/NewAbilities/A0FB.json",
-        "objects/abilities_skin/NewAbilities/A0FC.json"
+        "objects/abilities_skin/NewAbilities/A0FC.json",
+        "objects/abilities_skin/NewAbilities/AFLT.json",
+        "objects/abilities_skin/NewAbilities/AFBL.json",
+        "objects/abilities_skin/NewAbilities/AFPB.json",
+        "objects/abilities_skin/NewAbilities/AFCA.json",
+        "objects/abilities_skin/NewAbilities/AFCS.json",
+        "objects/abilities_skin/NewAbilities/AFCB.json",
+        "objects/abilities_skin/NewAbilities/AFAS.json",
+        "objects/abilities_skin/NewAbilities/AFIS.json",
+        "objects/abilities_skin/NewAbilities/AFVA.json",
+        "objects/abilities_skin/NewAbilities/AFCT.json"
       ]
     }
   },
@@ -2468,8 +2498,8 @@
     }
   },
   "war3mapSkin.w3h": {
-    "binary_sha256": "c9998b18956be800cdb7bf67afde5597a3ecf02d1056499fd0fdef55300cd12d",
-    "content_sha256": "e88a3ffb841c0de97d7dbf09231d22f85617a8149344f19dfc8a0da7f7902efd",
+    "binary_sha256": "60d3d59816cc5349a727159a3e5f562a9f2bfc1a3b7972ebe01d922fccc01fc5",
+    "content_sha256": "6a07975e543bfcf42fe7d0f984267e0f739c46ecb6c1fd6e69d8da168db8127d",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -2644,13 +2674,16 @@
         "objects/buffs_skin/NewBuffs/B03Y.json",
         "objects/buffs_skin/NewBuffs/B03Z.json",
         "objects/buffs_skin/NewBuffs/B040.json",
-        "objects/buffs_skin/NewBuffs/B041.json"
+        "objects/buffs_skin/NewBuffs/B041.json",
+        "objects/buffs_skin/NewBuffs/BFAS.json",
+        "objects/buffs_skin/NewBuffs/BFIS.json",
+        "objects/buffs_skin/NewBuffs/BFSC.json"
       ]
     }
   },
   "war3mapSkin.w3q": {
-    "binary_sha256": "a84a9a593aee85bb703e3a9b501ea2110c624460ded1b89b570c0f468a7dac51",
-    "content_sha256": "e5ba22f6d4a44c0dc29572fa27485281e6c994112b0bff55707db8b39ead97aa",
+    "binary_sha256": "46c2e6bb0f39b87a26388aa9cc41d3bdb256fb3a5b6561793e420df2835b5fd5",
+    "content_sha256": "50d81b0f72c83c98125652f0fd1c05c2ae9fecf9b952c2d363c65712a2b01a9c",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -2955,13 +2988,19 @@
         "objects/upgrades_skin/NewUpgrades/R086.json",
         "objects/upgrades_skin/NewUpgrades/R087.json",
         "objects/upgrades_skin/NewUpgrades/R088.json",
-        "objects/upgrades_skin/NewUpgrades/R089.json"
+        "objects/upgrades_skin/NewUpgrades/R089.json",
+        "objects/upgrades_skin/NewUpgrades/RFPK.json",
+        "objects/upgrades_skin/NewUpgrades/RFCA.json",
+        "objects/upgrades_skin/NewUpgrades/RFCS.json",
+        "objects/upgrades_skin/NewUpgrades/RFCB.json",
+        "objects/upgrades_skin/NewUpgrades/RFAT.json",
+        "objects/upgrades_skin/NewUpgrades/RFPA.json"
       ]
     }
   },
   "war3mapSkin.w3t": {
-    "binary_sha256": "e53bd933581169257987e347c8c408d50fc2782bc2b25d7a41cd9470401dc43e",
-    "content_sha256": "772f398d1280f85e6161abafc16036b9e35df77eea8487a577dc5f7cf25e7a8c",
+    "binary_sha256": "21c96f846c2d9369c6c09eb19035200ca8d30afe05ea705a68f6c11b8fb5423f",
+    "content_sha256": "3bcd950518bfb32bbccbbdcd08995306bb48d0cbcee1ae85966586bd8e81894b",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -3062,8 +3101,8 @@
     }
   },
   "war3mapSkin.w3u": {
-    "binary_sha256": "9bae2f4195a198e264ccc4cbf21eeca3c76817194dfe7ccacef9c8abcb3189e7",
-    "content_sha256": "f49eede807e021ae97907bb05a573bba2112ae43671c1a9e83b859be7a79d86d",
+    "binary_sha256": "cddfcb8146c98353e6528e3792d3fdc0eedad50bfbe3bedc637300222a5a0b28",
+    "content_sha256": "00c0a34f0cb066ea2af7f5ce31ba02b5eec2cca13c8a7a37ff8b9b85d8f79163",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -3506,13 +3545,14 @@
         "objects/units_skin/NewUnits/h06G.json",
         "objects/units_skin/NewUnits/h06H.json",
         "objects/units_skin/NewUnits/n015.json",
-        "objects/units_skin/NewUnits/h06I.json"
+        "objects/units_skin/NewUnits/h06I.json",
+        "objects/units_skin/NewUnits/hFDM.json"
       ]
     }
   },
   "war3mapUnits.doo": {
-    "binary_sha256": "440d965192a2fad68b6bf58e9b157012116b47fc89aaed773547184499fd821a",
-    "content_sha256": "ce6f56ff8a4253747c6c335f8caf7ecbce62e42c3bf002f01cb79250a1fc3cc9",
+    "binary_sha256": "bfb90a5492d2863ccf88d95953deb4dbec9f0b22764a0de116f8a31de08d2bed",
+    "content_sha256": "7a0e7f54ec9376a704b7ebf3a4dbb56f809ec6715a1dcd6ec15e3ef33043fa21",
     "kind": "file",
     "path": "editor/war3mapUnits.doo.json"
   }

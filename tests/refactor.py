@@ -15,10 +15,16 @@ from verify import editor_owned_script
 
 def main():
     cfg=p.config(); mapdir=ROOT/cfg['map']; script=(mapdir/'war3map.lua').read_text()
+    # Load the test by path: the build also has a tools/editor_safety.py guard.
+    import runpy
+    editor_safety_report=runpy.run_path(str(ROOT/'tests/editor_safety.py'))['validate']()
+    editor_layout_report=runpy.run_path(str(ROOT/'tests/editor_layout.py'))['validate']()
     import readability_audit
+    import gameplay_patch_audit
     readability=ds.read(ROOT/'reports/readability-refactor.json')
     readability_audit.prepare()
-    readability_audit.validate(readability)
+    patch=gameplay_patch_audit.validate(ds.read(ROOT/'reports/gameplay-patch.json'))
+    patch_sections={entry['id']:entry for entry in patch['changed_sections']}
     revised_sections={entry['id']:entry for entry in readability['changed_sections']}
     retired={entry['function'] for entry in readability['retired_functions']}
     modules=cfg['header']+cfg['triggers']+cfg['disabled']+[cfg['bootstrap']]
@@ -46,11 +52,14 @@ def main():
         current=by_id[entry['id']]
         assert current['module']==entry['to'] and current['name']==entry['name']
         changed=revised_sections.get(entry['id'])
+        patched=patch_sections.get(entry['id'])
+        expected_body=changed['after_sha256'] if changed else entry['body_sha256']
+        if patched:
+            assert patched['before_sha256']==expected_body,entry['from']
+            expected_body=patched['after_sha256']
         if changed:
             assert changed['before_sha256']==entry['body_sha256'],entry['from']
-            assert ds.digest(current['code'].encode())==changed['after_sha256'],entry['from']
-        else:
-            assert ds.digest(current['code'].encode())==entry['body_sha256'],entry['from']
+        assert ds.digest(current['code'].encode())==expected_body,entry['from']
     expected.update({entry['module']:entry['sha256'] for entry in consolidation['modules']})
     for entry in consolidation.get('changed_modules',[]):
         assert expected[entry['module']]==entry['before_sha256'],entry['module']
@@ -65,6 +74,13 @@ def main():
     for entry in readability['changed_modules']:
         if entry['module'] in expected:
             assert expected[entry['module']]==entry['before_sha256'],entry['module']
+        expected[entry['module']]=entry['after_sha256']
+    # Runtime was outside the earlier gameplay-module hash chain. Its first
+    # intentional change is checked against the immutable r8 fixture plus the
+    # arithmetic equivalence suite, not a newly reset baseline.
+    expected['src/runtime.lua']=ds.digest(gameplay_patch_audit.frozen()['src/runtime.lua'])
+    for entry in patch['changed_modules']:
+        assert expected[entry['module']]==entry['before_sha256'],entry['module']
         expected[entry['module']]=entry['after_sha256']
     for path,sha in expected.items():assert ds.digest((ROOT/path).read_bytes())==sha,path
     assert ds.digest((ROOT/'src/initialization.lua').read_bytes())==consolidation['unchanged_initialization_sha256']
@@ -91,17 +107,27 @@ def main():
     names={'InitGlobals':'FE_InitGlobals','InitCustomTriggers':'FE_InitCustomTriggers','RunInitializationTriggers':'FE_RunInitializationTriggers'}
     for item in ds.read(ROOT/'reports/function-coverage.json'):
         name=names.get(item['function'],item['function'])
+        if item['module']=='editor' and name=='CreateBuildingsForPlayer6' and 'initialAncientSlot = 10' in (ROOT/'src/players/roles.lua').read_text():
+            name='CreateBuildingsForPlayer10'  # All five moved buildings are checked by lobby_slot.
         assert (name in declarations) != (name in retired),item
     original=ROOT/'original/Forest_Expansion_3.1.2a.w3x'
     assert ds.digest(original.read_bytes())==cfg['original_sha256']
     changed_payloads={'war3map.j','war3map.lua','war3map.wct','war3map.wtg','war3map.w3i','(attributes)','(listfile)'}
     payloads={entry['file']:dict(entry) for entry in release['payload_changes']}
-    for entry in consolidation.get('payload_changes',[])+delivery['payload_changes']+stock_fix['payload_changes']+community['payload_changes']+reference['payload_changes']+readability['payload_changes']:
+    # Earlier suites verified the Lua flag directly, outside payload reports.
+    # Join that exact one-byte migration before the native v39/slot-11 save.
+    original_info=(ROOT/'original/map/war3map.w3i').read_bytes()
+    lua_info=bytearray(original_info);assert lua_info[249]==0;lua_info[249]=1
+    r8_index=json.loads(gameplay_patch_audit.frozen()['data/index.json'])
+    assert ds.digest(lua_info)==r8_index['war3map.w3i']['binary_sha256']
+    if 'war3map.w3i' not in payloads:
+        payloads['war3map.w3i']={'file':'war3map.w3i','before_sha256':ds.digest(original_info),'after_sha256':ds.digest(lua_info)}
+    for entry in consolidation.get('payload_changes',[])+delivery['payload_changes']+stock_fix['payload_changes']+community['payload_changes']+reference['payload_changes']+readability['payload_changes']+patch['payload_changes']:
         if entry['file'] in payloads:
             assert payloads[entry['file']]['after_sha256']==entry['before_sha256']
             payloads[entry['file']]['after_sha256']=entry['after_sha256']
         else:
-            assert ds.digest((ROOT/'original/map'/entry['file']).read_bytes())==entry['before_sha256']
+            assert ds.digest((ROOT/'original/map'/entry['file']).read_bytes())==entry['before_sha256'],entry['file']
             payloads[entry['file']]=dict(entry)
     for entry in payloads.values():
         name=entry['file']
@@ -121,8 +147,13 @@ def main():
             if entry.is_file() and name not in changed_payloads:
                 assert entry.read_bytes()==(mapdir/name).read_bytes(),name; preserved+=1
     before=(ROOT/'original/map/war3map.w3i').read_bytes(); after=(mapdir/'war3map.w3i').read_bytes()
-    assert len(before)==len(after) and [i for i,(a,b) in enumerate(zip(before,after)) if a!=b]==[249]
-    assert before[249]==0 and after[249]==1
+    slot_report=None
+    if 'initialAncientSlot = 10' in (ROOT/'src/players/roles.lua').read_text():
+        from lobby_slot import validate as validate_ancient_slot
+        slot_report=validate_ancient_slot()
+    else:
+        assert len(before)==len(after) and [i for i,(a,b) in enumerate(zip(before,after)) if a!=b]==[249]
+        assert before[249]==0 and after[249]==1
     p.tool('export',mapdir,ROOT/'build/refactor-readback')
     wtg=ds.read(ROOT/'build/refactor-readback/war3map.wtg.json')
     wct=ds.read(ROOT/'build/refactor-readback/war3map.wct.json')
@@ -167,6 +198,7 @@ def main():
     (ROOT/'build/role-test-input.lua').write_text('return {modules='+lua_array(cfg['triggers'])+
         ',initializers='+lua_array(event_initializers)+',deathActions='+lua_array(death_actions)+
         ',shoppingInitializers='+lua_array(shopping_initializers)+',soloInitializers='+lua_array(solo_initializers)+'}',encoding='utf-8')
+    historical=gameplay_patch_audit.historical_checks()
     from source_spans import main as validate_source_spans
     from cleanup_syntax import main as validate_cleanup_syntax
     validate_source_spans()
@@ -175,16 +207,18 @@ def main():
     for kind in ('lua-5.3.6','lua-5.3.6-32'):
         runtime=ROOT/'.tools'/kind/'src'
         for path in files:subprocess.run([str(runtime/'luac'),'-p',str(path)],check=True,capture_output=True)
-        for suite in ('selection_cleanup','game_cleanup','gameplay_cleanup','systems_cleanup',
-                      'roles','shopping','bugfixes','solo_test','solo_startup'):
+        for suite in ('shopping','solo_startup','gameplay_patch'):
             result=subprocess.run([str(runtime/'lua'),'tests/'+suite+'.lua'],cwd=ROOT,check=True,capture_output=True,text=True)
             print(result.stdout.strip()); results.append({'runtime':kind,'suite':suite,'result':result.stdout.strip()})
     from costs import validate as validate_costs
     costs=validate_costs()
+    from gameplay_objects import validate as validate_gameplay_objects
+    gameplay_objects=validate_gameplay_objects()
     report={'result':'passed','version':cfg['version'],'revision':cfg['revision'],'archive_sha256':ds.digest((ROOT/cfg['output']).read_bytes()),
         'unchanged_original_payload_files':preserved,'intentional_noncode_payload_changes':list(payloads.values()),'source_modules':len(modules),
         'lua_chunks_per_numeric_configuration':len(files),'event_initializers_tested':len(event_initializers),
-        'regressions':results,'costs':costs,'synchronization_review':audit,'editor_categories':len(categories),'archive_roundtrip':True,
+        'regressions':results,'historical_r8_regressions':historical,'gameplay_objects':gameplay_objects,
+        'gameplay_patch':patch,'ancient_slot':slot_report,'editor_save_safety':editor_safety_report,'editor_layout':editor_layout_report,'costs':costs,'synchronization_review':audit,'editor_categories':len(categories),'archive_roundtrip':True,
         'source_editor_synchronized':True,'initialization_order_preserved':True,
         'legacy_sections_preserved':len(indexed),'consolidated_gameplay_modules':len(cfg['triggers']),
         'readability_refactor':{'baseline_sha256':readability['baseline_sha256'],

@@ -8,9 +8,10 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "Gauntlet of Might",
+      "Value": "TRIGSTR_6664",
       "SanityCheck": 0,
-      "_field": "unam"
+      "_field": "unam",
+      "_resolvedText": "Gauntlet of Might"
     },
     {
       "Id": 1868786025,
@@ -30,9 +31,10 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "Gauntlet of Might",
+      "Value": "TRIGSTR_6669",
       "SanityCheck": 0,
-      "_field": "utip"
+      "_field": "utip",
+      "_resolvedText": "Gauntlet of Might"
     },
     {
       "Id": 1651864693,

@@ -8,30 +8,34 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "[Recipe] Cosmic Orb (600)",
+      "Value": "TRIGSTR_3261",
       "SanityCheck": 0,
-      "_field": "unam"
+      "_field": "unam",
+      "_resolvedText": "[Recipe] Cosmic Orb (600)"
     },
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "|cff00d200[Recipe]|r Cosmic Orb |cffdcb900[600 gold total]|r",
+      "Value": "TRIGSTR_6704",
       "SanityCheck": 0,
-      "_field": "utip"
+      "_field": "utip",
+      "_resolvedText": "|cff00d200[Recipe]|r Cosmic Orb |cffdcb900[600 gold total]|r"
     },
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "|cffffcc00Full recipe: 600 gold|r|nRecipe scroll: 200 gold.|n|n|cff00d200Requires:|r|n- Orb of Revealing (50 gold)|n- Orb of Mana (200 gold)|n- Amulet of Dominance (150 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your mana by 1500 and adds 20 to all stats. Reveals a target area on the map. 20 second cooldown.",
+      "Value": "TRIGSTR_6705",
       "SanityCheck": 0,
-      "_field": "utub"
+      "_field": "utub",
+      "_resolvedText": "|cffffcc00Full recipe: 600 gold|r|nRecipe scroll: 200 gold.|n|n|cff00d200Requires:|r|n- Orb of Revealing (50 gold)|n- Orb of Mana (200 gold)|n- Amulet of Dominance (150 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your mana by 1500 and adds 20 to all stats. Reveals a target area on the map. 20 second cooldown."
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "|cffffcc00Full recipe: 600 gold|r|nRecipe scroll: 200 gold.|n|n|cff00d200Requires:|r|n- Orb of Revealing (50 gold)|n- Orb of Mana (200 gold)|n- Amulet of Dominance (150 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your mana by 1500 and adds 20 to all stats. Reveals a target area on the map. 20 second cooldown.",
+      "Value": "TRIGSTR_6706",
       "SanityCheck": 0,
-      "_field": "ides"
+      "_field": "ides",
+      "_resolvedText": "|cffffcc00Full recipe: 600 gold|r|nRecipe scroll: 200 gold.|n|n|cff00d200Requires:|r|n- Orb of Revealing (50 gold)|n- Orb of Mana (200 gold)|n- Amulet of Dominance (150 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your mana by 1500 and adds 20 to all stats. Reveals a target area on the map. 20 second cooldown."
     },
     {
       "Id": 1868786025,

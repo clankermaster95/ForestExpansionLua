@@ -24,10 +24,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10360",
+      "Value": "A basic worker unit to harvest lumber. Cannot harvest gold.|n|n|cfffdca00Health:|r 100; 3/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Movement Speed:|r 200|n|cffff0000Feed Value:|r |cffffdd0010|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A basic worker unit to harvest lumber. Cannot harvest gold.|n|n|cfffdca00Health:|r 100; 3/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Movement Speed:|r 200|n|cffff0000Feed Value:|r |cffffdd0010|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,
@@ -79,6 +78,20 @@
       "Value": 111,
       "SanityCheck": 0,
       "_field": "uclr"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
     }
   ],
   "_rawcode": "h06B",

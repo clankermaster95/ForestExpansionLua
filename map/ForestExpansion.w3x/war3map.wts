@@ -689,7 +689,7 @@ STRING 115
 
 STRING 116
 {
-|cff08BD5AForest Expansion|r 3.2.0 Lua r8
+|cff08BD5AForest Expansion|r 3.2.0 Lua r10
 }
 
 STRING 117
@@ -718,7 +718,7 @@ By Nikkone, Moose, Druides
 
 STRING 121
 {
-Forest Expansion 3.2.0 Lua r8
+Forest Expansion 3.2.0 Lua r10
 }
 
 STRING 122
@@ -2608,11 +2608,6 @@ STRING 435
 Right Click this to Turn it off.
 }
 
-STRING 436
-{
-|cffFF213AThe Ancient has left the game! The forest is doomed...|r
-}
-
 STRING 437
 // Units: n00O (Power Generator), Hotkey (Hotkey)
 {
@@ -2766,12 +2761,6 @@ STRING 462
 // Units: u00J (Greater Husk), Tip (Tooltip - Basic)
 {
 Greater Husk [14.0]
-}
-
-STRING 463
-// Items: I011 ([Recipe] Righteous Armor (1500)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n - Galiant Armor|r |cffdcb900[350]|r|n|cff149b0f - Valor Armor|r |cffdcb900[100]|n|cff149b0f - Valorous Helmet |cffdcb900--[500]--|r|n     |cff149b0f- Helm of Devotion|r |r|cffdcb900[100]|r|n     |cff149b0f- Valor Armor|r |cffdcb900[100]|r|n     |cff149b0f- Valorous Helmet Recipe |r|cffdcb900[300]|n |cff149b0f- This Recipe|r |cffdcb900[550]|r|n|nRighteous Armor increases your armor by 25, your health by 800, your strength by 30, and gives bonus movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r
 }
 
 STRING 464
@@ -4564,7 +4553,7 @@ Seedling
 }
 
 STRING 761
-// Items: I01S (Firelord's Cape Recipe (1150)), Hotkey (Hotkey)
+// Items: I01S ([Recipe] Firelord's Cape (1150)), Hotkey (Hotkey)
 {
 E
 }
@@ -4707,12 +4696,6 @@ STRING 784
 Increases attack damage of all husks by 10.
 }
 
-STRING 785
-// Items: I00G ([Recipe] Bladed Gauntlet (900)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Bladed Gauntlet |cffdcb900[900]|r
-}
-
 STRING 786
 // Units: o01M (Deathly Necromancer II), Name (Name)
 {
@@ -4777,12 +4760,6 @@ STRING 796
 // Upgrades: R01H (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 A
-}
-
-STRING 797
-// Items: I00G ([Recipe] Bladed Gauntlet (900)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n |cff149b0f- Gauntlet of Might|r |r|cffdcb900[350]|r|n |cff149b0f- Iron Blade|r |cffdcb900[500]|r|n |cff149b0f- This Recipe |r|cffdcb900[50]|n|n|rAdds 12 strength and 80 damage.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r
 }
 
 STRING 798
@@ -4851,12 +4828,6 @@ STRING 808
 Build Gat|cffffcc00e|r
 }
 
-STRING 809
-// Items: I00G ([Recipe] Bladed Gauntlet (900)), Description (Description)
-{
-|cff149b0fRequirements:|n |cff149b0f- Gauntlet of Might|r |r|cffdcb900[350]|r|n |cff149b0f- Iron Blade|r |cffdcb900[500]|r|n |cff149b0f- This Recipe |r|cffdcb900[50]|n|n|rAdds 12 strength and 80 damage.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r
-}
-
 STRING 810
 // Upgrades: R00N (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), effect1 (Effect 1)
 {
@@ -4889,12 +4860,6 @@ STRING 814
 // Abilities: A0BL (Mana Shield), Researchubertip (Tooltip - Learn - Extended)
 {
 Creates a shield that absorbs damage by using the Arcane Golem's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Level 1|r - 2 damage per point of mana. |n|cffffcc00Level 2|r - 2.5 damage per point of mana. |n|cffffcc00Level 3|r - 3 damage per point of mana. |n|cffffcc00Level 4|r - 3.5 damage per point of mana. |n|cffffcc00Level 5|r - 4 damage per point of mana.
-}
-
-STRING 815
-// Items: I011 ([Recipe] Righteous Armor (1500)), Description (Description)
-{
-|cff149b0fRequirements:|n - Galiant Armor|r |cffdcb900[350]|r|n|cff149b0f - Valor Armor|r |cffdcb900[100]|n|cff149b0f - Valorous Helmet |cffdcb900--[500]--|r|n     |cff149b0f- Helm of Devotion|r |r|cffdcb900[100]|r|n     |cff149b0f- Valor Armor|r |cffdcb900[100]|r|n     |cff149b0f- Valorous Helmet Recipe |r|cffdcb900[300]|n |cff149b0f- This Recipe|r |cffdcb900[550]|r|n|nRighteous Armor increases your armor by 25, your health by 800, your strength by 30, and gives bonus movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r
 }
 
 STRING 816
@@ -5161,22 +5126,10 @@ STRING 859
 Orb
 }
 
-STRING 860
-// Items: I006 (Gaunlet of Might), Name (Name)
-{
-Gaunlet of Might
-}
-
 STRING 861
 // Abilities: A0AB (Summon Treants), Researchtip (Tooltip - Learn)
 {
 Learn Summon Treants - [|cffffcc00Level %d|r]
-}
-
-STRING 862
-// Items: I006 (Gaunlet of Might), Tip (Tooltip - Basic)
-{
-Gaunlet of Might
 }
 
 STRING 863
@@ -5537,12 +5490,6 @@ STRING 922
 // Abilities: A0EL (Wind Burst (new)), Researchubertip (Tooltip - Learn - Extended)
 {
 |cff8080ffChanneling|r|nFire a burst of wind at straight area, dealing 100 (+50 per level) damage and knocking them down for 0.5 (+0.25 per level) seconds. 20 second cooldown. Leveling up also increases area of effect by 25 and increases travel distance by 100, max channel time is 0.6+0.1 per level
-}
-
-STRING 923
-// Items: I00H ([Recipe] Valorous Helmet (500)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Valorous Helmet |cffdcb900[500]|r
 }
 
 STRING 924
@@ -6854,12 +6801,6 @@ STRING 1141
 G
 }
 
-STRING 1142
-// Items: I00H ([Recipe] Valorous Helmet (500)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n - Helm of Devotion |cffdcb900[100]|r|n|cff149b0f - Valor Armor|r |cffdcb900[100]|r|n |cff149b0f- This Recipe|r |cffdcb900[300]|r|n|nIncreases your movement speed, armor by 10, and strength by 25.
-}
-
 STRING 1143
 // Abilities: A01N (Natures Grasp), Name (Name)
 {
@@ -6876,12 +6817,6 @@ STRING 1145
 // Units: h04G (Greater Nightmare), Hotkey (Hotkey)
 {
 N
-}
-
-STRING 1146
-// Abilities: A01N (Natures Grasp), Tip (Tooltip - Normal)
-{
-Nature's Grasp [N]
 }
 
 STRING 1147
@@ -6921,13 +6856,13 @@ Take the role of Shaman. Shamans have the ability to heal and summon totems. The
 }
 
 STRING 1153
-// Buffs/Effects: B005 (Nature's Grasp), EditorName (Name (Editor Only))
+// Abilities: A01N (Natures Grasp), Tip (Tooltip - Normal)
 {
 Nature's Grasp
 }
 
 STRING 1154
-// Buffs/Effects: B005 (Nature's Grasp), Bufftip (Tooltip)
+// Buffs/Effects: B005 (Nature's Grasp), EditorName (Name (Editor Only))
 {
 Nature's Grasp
 }
@@ -7149,7 +7084,7 @@ F
 }
 
 STRING 1191
-// Upgrades: R00L (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+// Buffs/Effects: B005 (Nature's Grasp), Bufftip (Tooltip)
 {
 Nature's Grasp
 }
@@ -7452,12 +7387,6 @@ STRING 1241
 // Upgrades: R05Z (Iron Plating,Steel Plating,Mithril Plating), Ubertip (Tooltip - Extended)
 {
 Increase Mana of Maexxna by 10
-}
-
-STRING 1242
-// Items: I00H ([Recipe] Valorous Helmet (500)), Description (Description)
-{
-|cff149b0fRequirements:|n - Helm of Devotion |cffdcb900[100]|r|n|cff149b0f - Valor Armor|r |cffdcb900[100]|r|n |cff149b0f- This Recipe|r |cffdcb900[300]|r|n|nIncreases your movement speed, armor by 10, and strength by 25.
 }
 
 STRING 1243
@@ -8301,12 +8230,6 @@ STRING 1383
 [Recipe] Righteous Armor (1500)
 }
 
-STRING 1384
-// Items: I011 ([Recipe] Righteous Armor (1500)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Righteous Armor |cffdcb900[1500]|r
-}
-
 STRING 1385
 // Abilities: A0DR (Basic Bounty), Name (Name)
 {
@@ -8685,6 +8608,12 @@ STRING 1447
 |cffcb4fffBlur|r
 }
 
+STRING 1448
+// Units: h03X (Black Hole), Ubertip (Tooltip - Extended)
+{
+A powerful rip in the space time continuum. Serves as a very defensive wall to protect you.|n|n|cffff0000Feed Value:|r |cffffdd0020|r
+}
+
 STRING 1449
 // Units: u00L (Husk Sanctuary), Hotkey (Hotkey)
 {
@@ -8806,7 +8735,7 @@ R
 }
 
 STRING 1469
-// Items: I006 (Gaunlet of Might), Hotkey (Hotkey)
+// Items: I006 (Gauntlet of Might), Hotkey (Hotkey)
 {
 R
 }
@@ -8972,22 +8901,10 @@ STRING 1496
 Worgen Lumber Counter
 }
 
-STRING 1497
-// Items: I018 ([Recipe] Bleeding Scythe (1200)), Description (Description)
-{
-|cff149b0fRequirements:|n - Iron Blade|r |cffdcb900[500]|r|n|cff149b0f - Bracer of Agility|r |cffdcb900[75]|r|n |cff149b0f- This Recipe|r |cffdcb900[625]|r|n|nAllows you to create a bleeding scythe, which gives you 60 damage, 10 agility and a 40% lifesteal that does not work on buildings.
-}
-
 STRING 1498
 // Buffs/Effects: B00B (|cff943A08Divine Earth|r), EditorName (Name (Editor Only))
 {
 |cff943A08Divine Earth|r
-}
-
-STRING 1499
-// Items: I018 ([Recipe] Bleeding Scythe (1200)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n - Iron Blade|r |cffdcb900[500]|r|n|cff149b0f - Bracer of Agility|r |cffdcb900[75]|r|n |cff149b0f- This Recipe|r |cffdcb900[625]|r|n|nAllows you to create a bleeding scythe, which gives you 60 damage, 10 agility and a 40% lifesteal that does not work on buildings.
 }
 
 STRING 1500
@@ -9675,12 +9592,6 @@ STRING 1613
 // Abilities: A07X (Quicksand Trap), Tip (Tooltip - Normal)
 {
 |cffffcc00Q|ruicksand Trap
-}
-
-STRING 1614
-// Items: I016 ([Recipe] Arcanum of Hatred (1050)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Arcanum of Hatred |cffdcb900[1050]|r
 }
 
 STRING 1615
@@ -10815,12 +10726,6 @@ STRING 1801
 rmov
 }
 
-STRING 1802
-// Items: I018 ([Recipe] Bleeding Scythe (1200)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Bleeding Scythe |cffdcb900[120]|r
-}
-
 STRING 1803
 // Upgrades: R01A (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
 {
@@ -11479,12 +11384,6 @@ STRING 1911
 |cffC0C0C0Razormanes are a powerful race that excels at everything, but are easily caught off-guard, due to their finnicky workers, to the glee of the Ancient. Razormanes can create an army, a base, or play like a carry.|r
 }
 
-STRING 1912
-// Items: I016 ([Recipe] Arcanum of Hatred (1050)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n - Galiant Armor|r |cffdcb900[350]|r|n|cff149b0f - Bracer of Agility|r |cffdcb900[75]|r|n |cff149b0f- This Recipe|r |cffdcb900[625]|r|n|nNearby enemy units will take 100 damage every second. Also increases health by 600 and agility by 10.
-}
-
 STRING 1913
 // Abilities: A08R (Cosmic Strike), Ubertip (Tooltip - Normal - Extended)
 {
@@ -11501,12 +11400,6 @@ STRING 1915
 // Units: n00O (Power Generator), EditorSuffix (Name - Editor Suffix)
 {
 (Capacitor)
-}
-
-STRING 1916
-// Items: I016 ([Recipe] Arcanum of Hatred (1050)), Description (Description)
-{
-|cff149b0fRequirements:|n - Galiant Armor|r |cffdcb900[350]|r|n|cff149b0f - Bracer of Agility|r |cffdcb900[75]|r|n |cff149b0f- This Recipe|r |cffdcb900[625]|r|n|nNearby enemy units will take 100 damage every second. Also increases health by 600 and agility by 10.
 }
 
 STRING 1917
@@ -12235,13 +12128,13 @@ Deactivate Cascade to stop draining mana.
 }
 
 STRING 2038
-// Items: I006 (Gaunlet of Might), Description (Description)
+// Items: I006 (Gauntlet of Might), Description (Description)
 {
 Adds 20 Damage and 12 strength.
 }
 
 STRING 2039
-// Items: I006 (Gaunlet of Might), Ubertip (Tooltip - Extended)
+// Items: I006 (Gauntlet of Might), Ubertip (Tooltip - Extended)
 {
 Adds 20 Damage and 12 strength.
 }
@@ -12891,12 +12784,6 @@ STRING 2145
 // Items: I01C (Staff of Insight), Description (Description)
 {
 |cff8080ffActive: Silence. Duration: 5 seconds|r |nAlso increases your armor by 15, strength by 30, and mana by 1000 and move speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r|n|n|cff808080CD:30s|r
-}
-
-STRING 2146
-// Items: I01D ([Recipe] Staff of Insight (950)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n - Orb of Mana |cffdcb900[200]|r|n|cff149b0f - Valorous Helmet |cffdcb900--[500]--|r|n     |cff149b0f- Helm of Devotion|r |r|cffdcb900[100]|r|n     |cff149b0f- Valor Armor|r |cffdcb900[100]|r|n     |cff149b0f- Valorous Helmet Recipe |r|cffdcb900[300]|n |cff149b0f- This Recipe|r |cffdcb900[250]|r|n|nGives you a single target silence ability, duration: 5 seconds on units, 15 on heroes. |nAlso increases your armor by 15, strength by 30, move speed by 60 and mana by 1000. |n|cff808080Note: move speed bonus does not stack with other items granting it|r
 }
 
 STRING 2147
@@ -16454,12 +16341,6 @@ STRING 2738
 Deals 280 direct damage and briefly stuns the target, interrupting any spell casting.|n|cff808080CD:3s|r
 }
 
-STRING 2739
-// Items: I01D ([Recipe] Staff of Insight (950)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Staff of Insight |cffdcb900[950]|r
-}
-
 STRING 2740
 // Units: O00Z (|cff844208Ogre Overlord|r), Name (Name)
 {
@@ -19757,12 +19638,6 @@ STRING 3287
 Allows you to use Spike Aura.
 }
 
-STRING 3288
-// Items: I01A ([Recipe] Cosmic Orb (600)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Cosmic Orb |cffdcb900[600]|r
-}
-
 STRING 3289
 // Abilities: A05K (Blood Augmentation), Ubertip (Tooltip - Normal - Extended)
 {
@@ -21047,13 +20922,13 @@ Punch a target with incredible might, dealing 325 damage and interrupting any sp
 }
 
 STRING 3503
-// Upgrades: R00H (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Abilities: AFCS (Bloody Sacrifice), Hotkey (Hotkey - Normal)
 {
 B
 }
 
 STRING 3504
-// Upgrades: R00H (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Abilities: AFCS (Bloody Sacrifice), Unhotkey (Hotkey - Turn Off)
 {
 B
 }
@@ -21739,12 +21614,6 @@ STRING 3618
 // Abilities: A0DL (Grape Invulnerability), Name (Name)
 {
 Grape Invulnerability
-}
-
-STRING 3619
-// Items: I01A ([Recipe] Cosmic Orb (600)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n - Orb of Mana|r |cffdcb900[200]|r|n|cff149b0f - Amulet of Dominance|r |cffdcb900[150]|r|n |cff149b0f- Orb of Revealing|r |cffdcb900[50]|r|n |cff149b0f- This Recipe|r |cffdcb900[200]|r|n|nA cosmic orb increases your mana by 1500 and increases all your stats by 20 while giving the same effect as an orb of revealing.
 }
 
 STRING 3620
@@ -23302,12 +23171,6 @@ STRING 3877
 Enchants the targeted unit, causing it to run 50% faster for 10 seconds.|n|n|cff00ffffCD: 30 seconds.
 }
 
-STRING 3878
-// Items: I01A ([Recipe] Cosmic Orb (600)), Description (Description)
-{
-|cff149b0fRequirements:|n - Orb of Mana|r |cffdcb900[200]|r|n|cff149b0f - Amulet of Dominance|r |cffdcb900[150]|r|n |cff149b0f- Orb of Revealing|r |cffdcb900[50]|r|n |cff149b0f- This Recipe|r |cffdcb900[200]|r|n|nA cosmic orb increases your mana by 1500 and increases all your stats by 20 while giving the same effect as an orb of revealing.
-}
-
 STRING 3879
 // Abilities: A090 (Overclock), Ubertip (Tooltip - Normal - Extended)
 {
@@ -24606,7 +24469,7 @@ STRING 4094
 }
 
 STRING 4095
-// Upgrades: R00R (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Abilities: AFCT (Blood Rites), Hotkey (Hotkey - Normal)
 {
 R
 }
@@ -24870,7 +24733,7 @@ Supernova
 }
 
 STRING 4139
-// Upgrades: R01E (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R00R (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 R
 }
@@ -25029,12 +24892,6 @@ STRING 4165
 // Abilities: A0CQ (Poisoned Bullets level), Name (Name)
 {
 Poisoned Bullets level
-}
-
-STRING 4166
-// Units: h03X (Black Hole), Ubertip (Tooltip - Extended)
-{
-A powerful rip in the space time continuum. Serves as a very defensive wall, to protect you.|n|n|cffff0000Feed Value:|r |cffffdd002|r
 }
 
 STRING 4167
@@ -25596,12 +25453,6 @@ Enhanced Barrage
 
 STRING 4260
 // Abilities: A075 (Sadism), Researchubertip (Tooltip - Learn - Extended)
-{
-When casted, you initially lose 40% of your current health, however, you regenerate 10000 health over 10 seconds. 3 minute cooldown.
-}
-
-STRING 4261
-// Abilities: A075 (Sadism), Ubertip (Tooltip - Normal - Extended)
 {
 When casted, you initially lose 40% of your current health, however, you regenerate 10000 health over 10 seconds. 3 minute cooldown.
 }
@@ -26763,7 +26614,7 @@ Teleport to any spot on the map instantly and deal 300 damage upon arrival to al
 }
 
 STRING 4455
-// Upgrades: R01L (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R01E (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 R
 }
@@ -27049,12 +26900,6 @@ STRING 4501
 An aura that gives friendly nearby units damage reflection, which deals <A0AC,DataA3,%>% of an enemy unit's melee attack damage back to it.
 }
 
-STRING 4502
-// Items: I01M ([Recipe] Hammer of Might (1550)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Hammer of Might |cffdcb900[1550]|r
-}
-
 STRING 4503
 // Abilities: A0AJ (Summon Raging Growth), Ubertip (Tooltip - Normal - Extended)
 {
@@ -27071,12 +26916,6 @@ STRING 4505
 // Abilities: A0AQ (|cffcb4fffAbjure Mana|r), Name (Name)
 {
 |cffcb4fffAbjure Mana|r
-}
-
-STRING 4506
-// Items: I01M ([Recipe] Hammer of Might (1550)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n |cff149b0f- Gauntlet of Might|r |cffdcb900[350]|r|n|cff149b0f - Bladed Gauntlet |cffdcb900--[900]--|r|n     |cff149b0f- Gauntlet of Might|r |r|cffdcb900[350]|r|n     |cff149b0f- Iron Blade|r |cffdcb900[500]|r|n     |cff149b0f- Bladed Gauntlet Recipe |r|cffdcb900[50]|n |cff149b0f- This Recipe|r |cffdcb900[300]|r|n|nIncreases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r
 }
 
 STRING 4507
@@ -27458,13 +27297,13 @@ B
 }
 
 STRING 4570
-// Upgrades: R01D (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R00H (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
 
 STRING 4571
-// Upgrades: R01D (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R00H (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
@@ -27581,12 +27420,6 @@ STRING 4590
 // Upgrades: R035 (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
 {
 A
-}
-
-STRING 4591
-// Items: I01M ([Recipe] Hammer of Might (1550)), Description (Description)
-{
-|cff149b0fRequirements:|n |cff149b0f- Gauntlet of Might|r |cffdcb900[350]|r|n|cff149b0f - Bladed Gauntlet |cffdcb900--[900]--|r|n     |cff149b0f- Gauntlet of Might|r |r|cffdcb900[350]|r|n     |cff149b0f- Iron Blade|r |cffdcb900[500]|r|n     |cff149b0f- Bladed Gauntlet Recipe |r|cffdcb900[50]|n |cff149b0f- This Recipe|r |cffdcb900[300]|r|n|nIncreases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r
 }
 
 STRING 4592
@@ -27745,7 +27578,7 @@ Regrowth
 }
 
 STRING 4618
-// Upgrades: R02A (Steel Armor,Thorium Armor,Arcanite Armor), Hotkey (Hotkey)
+// Upgrades: R01L (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 R
 }
@@ -28501,7 +28334,7 @@ Increases the health points of walls by 150.
 }
 
 STRING 4744
-// Upgrades: R02D (Steel Armor,Thorium Armor,Arcanite Armor), Hotkey (Hotkey)
+// Upgrades: R01D (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
@@ -28651,7 +28484,7 @@ STRING 4768
 }
 
 STRING 4769
-// Upgrades: R03N (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R01D (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
@@ -28957,7 +28790,7 @@ Root Jail
 }
 
 STRING 4820
-// Upgrades: R02K (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
+// Upgrades: R02A (Steel Armor,Thorium Armor,Arcanite Armor), Hotkey (Hotkey)
 {
 R
 }
@@ -31283,7 +31116,7 @@ Dark Essence
 }
 
 STRING 5208
-// Upgrades: R03Y (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R02D (Steel Armor,Thorium Armor,Arcanite Armor), Hotkey (Hotkey)
 {
 B
 }
@@ -31517,7 +31350,7 @@ STRING 5246
 }
 
 STRING 5247
-// Upgrades: R04L (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R03N (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
@@ -31559,7 +31392,7 @@ T
 }
 
 STRING 5254
-// Upgrades: R02R (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
+// Upgrades: R02K (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
 {
 R
 }
@@ -31631,7 +31464,7 @@ STRING 5265
 }
 
 STRING 5266
-// Upgrades: R039 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R02R (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
 {
 R
 }
@@ -31762,7 +31595,7 @@ P
 }
 
 STRING 5288
-// Upgrades: R04P (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R03Y (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
@@ -32518,7 +32351,7 @@ W
 }
 
 STRING 5414
-// Upgrades: R04Q (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R04L (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
@@ -32704,7 +32537,7 @@ P
 }
 
 STRING 5445
-// Upgrades: R05K (Sundering Blades), Hotkey (Hotkey)
+// Upgrades: R04P (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
@@ -32720,7 +32553,7 @@ STRING 5447
 }
 
 STRING 5448
-// Upgrades: R062 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R04Q (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
@@ -32732,13 +32565,13 @@ S|cffffcc00c|rreech
 }
 
 STRING 5450
-// Upgrades: R069 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R05K (Sundering Blades), Hotkey (Hotkey)
 {
 B
 }
 
 STRING 5451
-// Upgrades: R069 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R062 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
@@ -33625,7 +33458,7 @@ A
 }
 
 STRING 5599
-// Upgrades: R010 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Abilities: AFCB (Chaotic Burst), Hotkey (Hotkey - Normal)
 {
 C
 }
@@ -34074,7 +33907,7 @@ N
 }
 
 STRING 5674
-// Upgrades: R017 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R010 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 C
 }
@@ -34622,12 +34455,6 @@ STRING 5764
 |cffcfc72aHeals for|r 300 |cffcfc72ahitpoints and has a cooldown of|r 10 seconds.
 }
 
-STRING 5765
-// Items: I01O ([Recipe] Ethereal Scepter (700)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Ethereal Scepter |cffdcb900[700]|r
-}
-
 STRING 5766
 // Items: I01J (Ledger of Clarity), Tip (Tooltip - Basic)
 {
@@ -34766,19 +34593,19 @@ A
 }
 
 STRING 5789
-// Upgrades: R02H (Steel Armor,Thorium Armor,Arcanite Armor), Hotkey (Hotkey)
+// Upgrades: R017 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 C
 }
 
 STRING 5790
-// Upgrades: R02J (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R02H (Steel Armor,Thorium Armor,Arcanite Armor), Hotkey (Hotkey)
 {
 C
 }
 
 STRING 5791
-// Upgrades: R02M (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
+// Upgrades: R02J (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 C
 }
@@ -35613,13 +35440,6 @@ STRING 5927
 (Razormane)
 }
 
-STRING 5928
-// Items: I01O ([Recipe] Ethereal Scepter (700)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n - Orb of Mana|r |cffdcb900[200]|r|n|cff149b0f - Amulet of Dominance|r |cffdcb900[150]|r|n |cff149b0f- This Recipe|r |cffdcb900[350]|r|n|nGives: 1000 mana, +20 to all stats
-|cff8080ffActive: Banishes the target enemy and starts a chain lighting that deals 150 damage to up to 12 targets
-}
-
 STRING 5929
 // Upgrades: R03K (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), EditorSuffix (Editor Suffix)
 {
@@ -35654,13 +35474,6 @@ STRING 5934
 // Upgrades: R013 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
 {
 Death's Advance
-}
-
-STRING 5935
-// Items: I01O ([Recipe] Ethereal Scepter (700)), Description (Description)
-{
-|cff149b0fRequirements:|n - Orb of Mana|r |cffdcb900[200]|r|n|cff149b0f - Amulet of Dominance|r |cffdcb900[150]|r|n |cff149b0f- This Recipe|r |cffdcb900[350]|r|n|nGives: 1000 mana, +20 to all stats
-|cff8080ffActive: Banishes the target enemy and starts a chain lighting that deals 150 damage to up to 12 targets
 }
 
 STRING 5936
@@ -35831,12 +35644,6 @@ STRING 5963
 |cff8080ffChanneling|r|nAfter a second causes lightning to strike a target area of 200 (+25 per level), electrifying it, dealing 125 (+25 per level) damage. Has global range. 25 second cooldown.
 }
 
-STRING 5964
-// Items: I01Q ([Recipe] Spellcaster's Cloak (950)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Spellcaster's Cloak |cffdcb900[950]|r
-}
-
 STRING 5965
 // Units: h066 (Skull Pile), Name (Name)
 {
@@ -35877,12 +35684,6 @@ STRING 5971
 // Upgrades: R030 (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
 {
 S
-}
-
-STRING 5972
-// Items: I01Q ([Recipe] Spellcaster's Cloak (950)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n - Orb of Mana|r |cffdcb900[200]|r|n|cff149b0f - Galiant Armor|r |cffdcb900[350]|r|n |cff149b0f- Potion of Invisibility|r |cffdcb900[50]|r|n |cff149b0f- This Recipe|r |cffdcb900[350]|r|n|nGives: 1500 mana, 1000 health, 20% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s. CD:120s|r
 }
 
 STRING 5973
@@ -36369,12 +36170,6 @@ STRING 6053
 Greater Skull Pile
 }
 
-STRING 6054
-// Items: I01Q ([Recipe] Spellcaster's Cloak (950)), Description (Description)
-{
-|cff149b0fRequirements:|n - Orb of Mana|r |cffdcb900[200]|r|n|cff149b0f - Galiant Armor|r |cffdcb900[350]|r|n |cff149b0f- Potion of Invisibility|r |cffdcb900[50]|r|n |cff149b0f- This Recipe|r |cffdcb900[350]|r|n|nGives: 1500 mana, 1000 health, 20% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s. CD:120s|r
-}
-
 STRING 6055
 // Units: h067 (Greater Skull Pile), EditorSuffix (Name - Editor Suffix)
 {
@@ -36391,12 +36186,6 @@ STRING 6057
 // Units: h068 (Towering Skull Pile), Tip (Tooltip - Basic)
 {
 Towering Skull Pile
-}
-
-STRING 6058
-// Items: I01S (Firelord's Cape Recipe (1150)), Name (Name)
-{
-Firelord's Cape Recipe (1150)
 }
 
 STRING 6059
@@ -36781,12 +36570,6 @@ STRING 6122
 // Units: o02D (Corpse), Tip (Tooltip - Basic)
 {
 Corpse
-}
-
-STRING 6123
-// Items: I01S (Firelord's Cape Recipe (1150)), Tip (Tooltip - Basic)
-{
-|cff00d200[Recipe]|r Firelord's Cape |cffdcb900[1150]|r
 }
 
 STRING 6124
@@ -37192,7 +36975,7 @@ A
 }
 
 STRING 6191
-// Upgrades: R03E (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R02M (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
 {
 C
 }
@@ -38842,7 +38625,7 @@ Titanium Tip
 }
 
 STRING 6464
-// Upgrades: R03P (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
+// Upgrades: R039 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 R
 }
@@ -39567,12 +39350,6 @@ STRING 6584
 Morph into the Soulreaper, a durable melee fighter who steals health to survive. |n|cffFF0000Cannot be combined with other augmentations.|r
 }
 
-STRING 6585
-// Items: I01D ([Recipe] Staff of Insight (950)), Description (Description)
-{
-|cff149b0fRequirements:|n - Orb of Mana |cffdcb900[200]|r|n|cff149b0f - Valorous Helmet |cffdcb900--[500]--|r|n     |cff149b0f- Helm of Devotion|r |r|cffdcb900[100]|r|n     |cff149b0f- Valor Armor|r |cffdcb900[100]|r|n     |cff149b0f- Valorous Helmet Recipe |r|cffdcb900[300]|n |cff149b0f- This Recipe|r |cffdcb900[250]|r|n|nGives you a single target silence ability, duration: 5 seconds on units, 15 on heroes. |nAlso increases your armor by 15, strength by 30, move speed by 60 and mana by 1000. |n|cff808080Note: move speed bonus does not stack with other items granting it|r
-}
-
 STRING 6586
 // Items: I01H (Ancient Artifact), Ubertip (Tooltip - Extended)
 {
@@ -39607,22 +39384,6 @@ STRING 6591
 // Upgrades: R06N (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
 {
 E
-}
-
-STRING 6592
-// Items: I01S (Firelord's Cape Recipe (1150)), Ubertip (Tooltip - Extended)
-{
-|cff149b0fRequirements:|n - Galiant Armor|r |cffdcb900[350]|r |n|cff149b0f - Valorous Helmet |cffdcb900--[500]--|r|n     |cff149b0f- Helm of Devotion|r |r|cffdcb900[100]|r|n     |cff149b0f- Valor Armor|r |cffdcb900[100]|r|n     |cff149b0f- Valorous Helmet Recipe |r|cffdcb900[300]|n |cff149b0f- This Recipe|r |cffdcb900[300]|r|n|nIncreases hp by 500, strength by 25, armor by 10 and move speed by 60.
-|cff8080ffUnique passive: decreases all damage taken by 10|r 
-|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r
-}
-
-STRING 6593
-// Items: I01S (Firelord's Cape Recipe (1150)), Description (Description)
-{
-|cff149b0fRequirements:|n - Galiant Armor|r |cffdcb900[350]|r |n|cff149b0f - Valorous Helmet |cffdcb900--[500]--|r|n     |cff149b0f- Helm of Devotion|r |r|cffdcb900[100]|r|n     |cff149b0f- Valor Armor|r |cffdcb900[100]|r|n     |cff149b0f- Valorous Helmet Recipe |r|cffdcb900[300]|n |cff149b0f- This Recipe|r |cffdcb900[300]|r|n|nIncreases hp by 500, strength by 25, armor by 10 and move speed by 60.
-|cff8080ffUnique passive: decreases all damage taken by 10|r 
-|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r
 }
 
 STRING 6594
@@ -40025,6 +39786,12 @@ STRING 6659
 Summons three Shadowlings that deal no damage, move slowly, but have heavy armor and large hitboxes. Lasts 20 seconds. 30 second cooldown. |n|cffFF8080This ability costs 400 health.|r |n|cff7F7F7FThe blood of Go'rath can manifest shadows into living creatures under your command.|r
 }
 
+STRING 6660
+// Units: e00R (Moon Well), Ubertip (Tooltip - Extended)
+{
+Provides food and the Replenish Mana ability. Can gain the Well Spring upgrade. Regenerates mana at night.|n|nHealth: 300|nArmor: 5 (Fortified)|nFood provided: 25|nBuild time: 5 seconds|n|cffff0000Feed Value:|r |cffffdd0030|r
+}
+
 STRING 6661
 // Upgrades: R04H (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
 {
@@ -40035,6 +39802,18 @@ STRING 6662
 // Upgrades: R04I (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
 {
 This upgrade is required to use Phase Shift. You gain massive extra attack speed for 1 second. 20 second cooldown. |n|cff7F7F7FYou briefly fuse with the realm of souls, wielding your axe as if it were a feather.|r
+}
+
+STRING 6663
+// Units: hFDM (Spell dummy), Name (Name)
+{
+Spell dummy
+}
+
+STRING 6664
+// Items: I006 (Gauntlet of Might), Name (Name)
+{
+Gauntlet of Might
 }
 
 STRING 6665
@@ -40061,10 +39840,40 @@ STRING 6668
 This upgrade is required to use Blinding Shade. Reduces target's chance to hit by 25% for 30 seconds. 45 second cooldown. |n|cff7F7F7FYou loose a shade upon the target, which blinds it with a dark, thick fog.|r
 }
 
+STRING 6669
+// Items: I006 (Gauntlet of Might), Tip (Tooltip - Basic)
+{
+Gauntlet of Might
+}
+
+STRING 6670
+// Items: I00G ([Recipe] Bladed Gauntlet (900)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Bladed Gauntlet |cffdcb900[900 gold total]|r
+}
+
+STRING 6671
+// Items: I00G ([Recipe] Bladed Gauntlet (900)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 900 gold|r|nRecipe scroll: 50 gold.|n|n|cff00d200Requires:|r|n- Gauntlet of Might (350 gold)|n- Iron Blade (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nA pugilistic implement used to draw blood the blood of gods. Increases your strength by 12 and your damage by 80.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r
+}
+
 STRING 6672
 // Upgrades: R00V (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
 {
 Explosive Shells V
+}
+
+STRING 6673
+// Items: I00G ([Recipe] Bladed Gauntlet (900)), Description (Description)
+{
+|cffffcc00Full recipe: 900 gold|r|nRecipe scroll: 50 gold.|n|n|cff00d200Requires:|r|n- Gauntlet of Might (350 gold)|n- Iron Blade (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nA pugilistic implement used to draw blood the blood of gods. Increases your strength by 12 and your damage by 80.|n|cff00ffffAdditionally increases your damage against heroes by 100.|r
+}
+
+STRING 6674
+// Items: I00H ([Recipe] Valorous Helmet (500)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Valorous Helmet |cffdcb900[500 gold total]|r
 }
 
 STRING 6675
@@ -40085,6 +39894,18 @@ STRING 6677
 V
 }
 
+STRING 6678
+// Items: I00H ([Recipe] Valorous Helmet (500)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 500 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Helm of Devotion (100 gold)|n- Valor Armor (100 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 25, your armor by 10, and your movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r|r
+}
+
+STRING 6679
+// Items: I00H ([Recipe] Valorous Helmet (500)), Description (Description)
+{
+|cffffcc00Full recipe: 500 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Helm of Devotion (100 gold)|n- Valor Armor (100 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 25, your armor by 10, and your movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r|r
+}
+
 STRING 6680
 // Upgrades: R07J (Iron Plating,Steel Plating,Mithril Plating), Tip (Tooltip)
 {
@@ -40095,6 +39916,30 @@ STRING 6681
 // Upgrades: R07J (Iron Plating,Steel Plating,Mithril Plating), Tip (Tooltip)
 {
 |cff80b980Tactical Gear II|r [45]
+}
+
+STRING 6682
+// Items: I011 ([Recipe] Righteous Armor (1500)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Righteous Armor |cffdcb900[1,500 gold total]|r
+}
+
+STRING 6683
+// Items: I011 ([Recipe] Righteous Armor (1500)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 1,500 gold|r|nRecipe scroll: 550 gold.|n|n|cff00d200Requires:|r|n- Valorous Helmet (500 gold)|n- Galiant Armor (350 gold)|n- Valor Armor (100 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your health by 800, strength by 30, armor by 25, and give a 60 bonus movement speed.|n|n|cff808080Different sources of move speed bonus from items do not stack|r
+}
+
+STRING 6684
+// Items: I011 ([Recipe] Righteous Armor (1500)), Description (Description)
+{
+|cffffcc00Full recipe: 1,500 gold|r|nRecipe scroll: 550 gold.|n|n|cff00d200Requires:|r|n- Valorous Helmet (500 gold)|n- Galiant Armor (350 gold)|n- Valor Armor (100 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your health by 800, strength by 30, armor by 25, and give a 60 bonus movement speed.|n|n|cff808080Different sources of move speed bonus from items do not stack|r
+}
+
+STRING 6685
+// Items: I016 ([Recipe] Arcanum of Hatred (1050)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Arcanum of Hatred |cffdcb900[1,050 gold total]|r
 }
 
 STRING 6686
@@ -40121,6 +39966,12 @@ STRING 6689
 |cff80b980Tactical Gear III|r [60]
 }
 
+STRING 6690
+// Items: I016 ([Recipe] Arcanum of Hatred (1050)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 1,050 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nEngulfs you with an intense aura of Hatred. Nearby units will take 100 damage every second, this effect also works on buildings. This effect does not stack. Also increases health by 700 and agility by 10.
+}
+
 STRING 6691
 {
 You can't do that.
@@ -40136,6 +39987,12 @@ STRING 6693
 You can't do that.
 }
 
+STRING 6694
+// Items: I016 ([Recipe] Arcanum of Hatred (1050)), Description (Description)
+{
+|cffffcc00Full recipe: 1,050 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nEngulfs you with an intense aura of Hatred. Nearby units will take 100 damage every second, this effect also works on buildings. This effect does not stack. Also increases health by 700 and agility by 10.
+}
+
 STRING 6695
 // Abilities: A06D (Boulderfist), Researchtip (Tooltip - Learn)
 {
@@ -40148,10 +40005,76 @@ STRING 6696
 Beginner Races
 }
 
+STRING 6697
+// Items: I018 ([Recipe] Bleeding Scythe (1200)), Description (Description)
+{
+|cffffcc00Full recipe: 1,200 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Iron Blade (500 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your attack damage by 60, agility by 10 and gives you a 40% lifesteal (life steal does not work on structures)
+}
+
+STRING 6698
+// Items: I018 ([Recipe] Bleeding Scythe (1200)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 1,200 gold|r|nRecipe scroll: 625 gold.|n|n|cff00d200Requires:|r|n- Iron Blade (500 gold)|n- Bracer of Agility (75 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your attack damage by 60, agility by 10 and gives you a 40% lifesteal (life steal does not work on structures)
+}
+
+STRING 6699
+// Items: I018 ([Recipe] Bleeding Scythe (1200)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Bleeding Scythe |cffdcb900[1,200 gold total]|r
+}
+
 STRING 6700
 // Units: n00G (Intermediate Races), Name (Name)
 {
 Intermediate Races
+}
+
+STRING 6701
+// Items: I01D ([Recipe] Staff of Insight (950)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Staff of Insight |cffdcb900[950 gold total]|r
+}
+
+STRING 6702
+// Items: I01D ([Recipe] Staff of Insight (950)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 250 gold.|n|n|cff00d200Requires:|r|n- Valorous Helmet (500 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|n|cff8080ffActive: Silence. Duration: 5 seconds|r |nAlso increases your armor by 15, strength by 30, and mana by 1000 and move speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r|n|n|cff808080CD:30s|r
+}
+
+STRING 6703
+// Items: I01D ([Recipe] Staff of Insight (950)), Description (Description)
+{
+|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 250 gold.|n|n|cff00d200Requires:|r|n- Valorous Helmet (500 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|n|cff8080ffActive: Silence. Duration: 5 seconds|r |nAlso increases your armor by 15, strength by 30, and mana by 1000 and move speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r|n|n|cff808080CD:30s|r
+}
+
+STRING 6704
+// Items: I01A ([Recipe] Cosmic Orb (600)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Cosmic Orb |cffdcb900[600 gold total]|r
+}
+
+STRING 6705
+// Items: I01A ([Recipe] Cosmic Orb (600)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 600 gold|r|nRecipe scroll: 200 gold.|n|n|cff00d200Requires:|r|n- Orb of Revealing (50 gold)|n- Orb of Mana (200 gold)|n- Amulet of Dominance (150 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your mana by 1500 and adds 20 to all stats. Reveals a target area on the map. 20 second cooldown.
+}
+
+STRING 6706
+// Items: I01A ([Recipe] Cosmic Orb (600)), Description (Description)
+{
+|cffffcc00Full recipe: 600 gold|r|nRecipe scroll: 200 gold.|n|n|cff00d200Requires:|r|n- Orb of Revealing (50 gold)|n- Orb of Mana (200 gold)|n- Amulet of Dominance (150 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your mana by 1500 and adds 20 to all stats. Reveals a target area on the map. 20 second cooldown.
+}
+
+STRING 6707
+// Items: I01M ([Recipe] Hammer of Might (1550)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Hammer of Might |cffdcb900[1,550 gold total]|r
+}
+
+STRING 6708
+// Items: I01M ([Recipe] Hammer of Might (1550)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 1,550 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Bladed Gauntlet (900 gold)|n- Gauntlet of Might (350 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r
 }
 
 STRING 6709
@@ -40226,10 +40149,54 @@ STRING 6720
 Allows you to critically strike buildings.|nLevel 1 - 30% chance to deal 2x damage|nLevel 2 - 45% chance to deal 2.5x damage|nLevel 3 - 60% chance to deal 3x damage|nLevel 4 - 75% chance to deal 3.5x damage|nLevel 5 - 90% chance to deal 4x damage
 }
 
+STRING 6721
+// Items: I01M ([Recipe] Hammer of Might (1550)), Description (Description)
+{
+|cffffcc00Full recipe: 1,550 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Bladed Gauntlet (900 gold)|n- Gauntlet of Might (350 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r
+}
+
+STRING 6722
+// Items: I01O ([Recipe] Ethereal Scepter (700)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Ethereal Scepter |cffdcb900[700 gold total]|r
+}
+
+STRING 6723
+// Items: I01O ([Recipe] Ethereal Scepter (700)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 700 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Amulet of Dominance (150 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases mana by 1000 and gives +20 to all stats,
+|cff8080ffActive: Banishes the target enemy and starts a chain lighting that deals 150 damage to up to 12 targets.|r
+}
+
+STRING 6724
+// Items: I01O ([Recipe] Ethereal Scepter (700)), Description (Description)
+{
+|cffffcc00Full recipe: 700 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Amulet of Dominance (150 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases mana by 1000 and gives +20 to all stats,
+|cff8080ffActive: Banishes the target enemy and starts a chain lighting that deals 150 damage to up to 12 targets.|r
+}
+
+STRING 6725
+// Items: I01Q ([Recipe] Spellcaster's Cloak (950)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Spellcaster's Cloak |cffdcb900[950 gold total]|r
+}
+
 STRING 6726
 // Upgrades: R07J (Iron Plating,Steel Plating,Mithril Plating), Tip (Tooltip)
 {
 |cff80b980Chainlink-layered Coat IV|r [35]
+}
+
+STRING 6727
+// Items: I01Q ([Recipe] Spellcaster's Cloak (950)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Orb of Mana (200 gold)|n- Potion of Invisibility (50 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nProvides 1500 mana, 1000 health and 20% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s. |n|cff808080CD:120s|r|r
+}
+
+STRING 6728
+// Items: I01Q ([Recipe] Spellcaster's Cloak (950)), Description (Description)
+{
+|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Orb of Mana (200 gold)|n- Potion of Invisibility (50 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nProvides 1500 mana, 1000 health and 20% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s. |n|cff808080CD:120s|r|r
 }
 
 STRING 6729
@@ -40238,10 +40205,38 @@ STRING 6729
 |cff80b980Chainlink-layered Coat V|r [40]
 }
 
+STRING 6730
+// Items: I01S ([Recipe] Firelord's Cape (1150)), Name (Name)
+{
+[Recipe] Firelord's Cape (1150)
+}
+
+STRING 6731
+// Items: I01S ([Recipe] Firelord's Cape (1150)), Tip (Tooltip - Basic)
+{
+|cff00d200[Recipe]|r Firelord's Cape |cffdcb900[1,150 gold total]|r
+}
+
 STRING 6732
 // Upgrades: R00V (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
 {
 Explosive Shells VI
+}
+
+STRING 6733
+// Items: I01S ([Recipe] Firelord's Cape (1150)), Ubertip (Tooltip - Extended)
+{
+|cffffcc00Full recipe: 1,150 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Valorous Helmet (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases hp by 500, strength by 25, armor by 10 and move speed by 60.
+|cff8080ffUnique passive: decreases all damage taken by 10|r 
+|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r
+}
+
+STRING 6734
+// Items: I01S ([Recipe] Firelord's Cape (1150)), Description (Description)
+{
+|cffffcc00Full recipe: 1,150 gold|r|nRecipe scroll: 300 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Valorous Helmet (500 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases hp by 500, strength by 25, armor by 10 and move speed by 60.
+|cff8080ffUnique passive: decreases all damage taken by 10|r 
+|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r
 }
 
 STRING 6735
@@ -40250,10 +40245,28 @@ STRING 6735
 |cff3cb93cBounty Hunter tinkers with available materials, producing an energy-boosting device for his suit.|r
 }
 
+STRING 6736
+// Items: I01U (Potion of Invisibility), Name (Name)
+{
+Potion of Invisibility
+}
+
+STRING 6737
+// Items: I01U (Potion of Invisibility), Tip (Tooltip - Basic)
+{
+Potion of Invisibility
+}
+
 STRING 6738
 // Upgrades: R07J (Iron Plating,Steel Plating,Mithril Plating), Ubertip (Tooltip - Extended)
 {
 |cff3cb93cBounty Hunter tinkers with available materials, producing harder armor plating for his suit.|r
+}
+
+STRING 6739
+// Items: I02F (Bracer of Agility), Name (Name)
+{
+Bracer of Agility
 }
 
 STRING 6740
@@ -40266,6 +40279,66 @@ STRING 6741
 // Upgrades: R004 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Tip (Tooltip)
 {
 Axe Upgrade - [20.0]
+}
+
+STRING 6742
+// Items: I02F (Bracer of Agility), Tip (Tooltip - Basic)
+{
+Bracer of Agility
+}
+
+STRING 6743
+// Abilities: A014 (Spirit Aura: Defense), Ubertip (Tooltip - Normal - Extended)
+{
+Increases the armor of nearby friendly units by 5.
+}
+
+STRING 6744
+// Abilities: A075 (Sadism), Ubertip (Tooltip - Normal - Extended)
+{
+Lose 40% of your current health, then recover 400 HP each second for 25 seconds. During this time, enemies within 2000 range have 20% reduced movement speed and cannot heal. Cooldown: 180 seconds.
+}
+
+STRING 6745
+// Abilities: AFCA (Sacrificial Aura), Name (Name)
+{
+Sacrificial Aura
+}
+
+STRING 6746
+// Abilities: AFCA (Sacrificial Aura), Tip (Tooltip - Normal)
+{
+Sacrificial Aura
+}
+
+STRING 6747
+// Abilities: AFCA (Sacrificial Aura), Ubertip (Tooltip - Normal - Extended)
+{
+Allied units within 1000 range gain +5% attack and movement speed per full 10% of your missing health (maximum +45%). The strongest nearby Cultist aura applies.
+}
+
+STRING 6748
+// Abilities: AFCS (Bloody Sacrifice), Name (Name)
+{
+Bloody Sacrifice
+}
+
+STRING 6749
+// Abilities: AFCS (Bloody Sacrifice), Tip (Tooltip - Normal)
+{
+Bloody Sacrifice
+}
+
+STRING 6750
+// Abilities: AFCS (Bloody Sacrifice), Ubertip (Tooltip - Normal - Extended)
+{
+Toggle: every second heal other allied units within 400 range for 50 HP and take 100 magic damage. Does not heal you. Can kill you.
+}
+
+STRING 6751
+// Abilities: AFCS (Bloody Sacrifice), Untip (Tooltip - Turn Off)
+{
+Deactivate Bloody Sacrifice
 }
 
 STRING 6752
@@ -40298,6 +40371,12 @@ STRING 6756
 |cffffcc00E|rxtreme Speed
 }
 
+STRING 6757
+// Abilities: AFCB (Chaotic Burst), Name (Name)
+{
+Chaotic Burst
+}
+
 STRING 6758
 // Abilities: A06P (Extreme Speed), Tip (Tooltip - Normal)
 {
@@ -40314,6 +40393,18 @@ STRING 6760
 // Abilities: A06P (Extreme Speed), Tip (Tooltip - Normal)
 {
 |cffffcc00E|rxtreme Speed - Level 3
+}
+
+STRING 6761
+// Abilities: AFCB (Chaotic Burst), Tip (Tooltip - Normal)
+{
+Chaotic Burst
+}
+
+STRING 6762
+// Abilities: AFCB (Chaotic Burst), Ubertip (Tooltip - Normal - Extended)
+{
+Empowered attacks convert their normal attack damage to pure damage, ignoring armor and magic resistance. Each successful hit costs 4% of your current HP as pure damage. Right-click to toggle autocast. Misses cost no HP.
 }
 
 STRING 6763
@@ -40346,6 +40437,12 @@ STRING 6767
 |cffe9e900B|r|cffbadd00o|r|cff8cd200u|r|cff5dc700n|r|cff2fbc00t|r|cff00b100y|r |cffd3d300[Passive]|r
 }
 
+STRING 6768
+// Abilities: AFCT (Blood Rites), Name (Name)
+{
+Blood Rites
+}
+
 STRING 6769
 // Upgrades: R037 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
@@ -40376,6 +40473,12 @@ STRING 6773
 Learn Refreshing Breeze - [|cfaaffcffLevel %d|r]
 }
 
+STRING 6774
+// Abilities: AFCT (Blood Rites), Tip (Tooltip - Normal)
+{
+Blood Rites
+}
+
 STRING 6775
 // Buffs/Effects: B027 (Ancient's Base), EditorName (Name (Editor Only))
 {
@@ -40386,6 +40489,12 @@ STRING 6776
 // Buffs/Effects: B027 (Ancient's Base), Bufftip (Tooltip)
 {
 Ancient's Base
+}
+
+STRING 6777
+// Abilities: AFCT (Blood Rites), Ubertip (Tooltip - Normal - Extended)
+{
+Open the Cultist abilities researched at the Altar of the Thing: Sacrificial Aura, Bloody Sacrifice and Chaotic Burst.
 }
 
 STRING 6778
@@ -40404,6 +40513,12 @@ STRING 6780
 // Buffs/Effects: B028 (Ancient's Base), Bufftip (Tooltip)
 {
 Ancient's Base
+}
+
+STRING 6781
+// Buffs/Effects: BFAS (Sacrificial Aura bonus), EditorName (Name (Editor Only))
+{
+Sacrificial Aura bonus
 }
 
 STRING 6782
@@ -40447,6 +40562,24 @@ STRING 6784
 While by your base, you regenerate health rapidly.
 }
 
+STRING 6785
+// Buffs/Effects: BFAS (Sacrificial Aura bonus), Bufftip (Tooltip)
+{
+Sacrificial Aura bonus
+}
+
+STRING 6786
+// Buffs/Effects: BFAS (Sacrificial Aura bonus), Buffubertip (Tooltip - Extended)
+{
+Attack and movement speed increased.
+}
+
+STRING 6787
+// Buffs/Effects: BFIS (Frozen by Sadism), EditorName (Name (Editor Only))
+{
+Frozen by Sadism
+}
+
 STRING 6788
 // Buffs/Effects: B028 (Ancient's Base), Buffubertip (Tooltip - Extended)
 {
@@ -40463,6 +40596,30 @@ STRING 6790
 // Abilities: A06R (Ancient Base Mana), Name (Name)
 {
 Ancient Base Mana
+}
+
+STRING 6791
+// Buffs/Effects: BFIS (Frozen by Sadism), Bufftip (Tooltip)
+{
+Frozen by Sadism
+}
+
+STRING 6792
+// Buffs/Effects: BFIS (Frozen by Sadism), Buffubertip (Tooltip - Extended)
+{
+Movement speed reduced by 20%. Healing prevented.
+}
+
+STRING 6793
+// Buffs/Effects: BFSC (Bloody Sacrifice), EditorName (Name (Editor Only))
+{
+Bloody Sacrifice
+}
+
+STRING 6794
+// Buffs/Effects: BFSC (Bloody Sacrifice), Bufftip (Tooltip)
+{
+Bloody Sacrifice
 }
 
 STRING 6795
@@ -40484,7 +40641,7 @@ STRING 6797
 }
 
 STRING 6798
-// Upgrades: R03Q (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R03P (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
 {
 R
 }
@@ -40717,6 +40874,12 @@ STRING 6836
 Increases health by 200. |n|cff7F7F7FSurviving in the realm of shadows requires fortitude of both body and mind.|r
 }
 
+STRING 6837
+// Buffs/Effects: BFSC (Bloody Sacrifice), Buffubertip (Tooltip - Extended)
+{
+Healing nearby allies at the cost of your own health.
+}
+
 STRING 6838
 // Units: h04E (Greater Blood Pool), Tip (Tooltip - Basic)
 {
@@ -40831,6 +40994,36 @@ STRING 6856
 Axe Upgrade
 }
 
+STRING 6857
+// Upgrades: R00L (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Nature's Grasp
+}
+
+STRING 6858
+// Upgrades: R069 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+{
+B
+}
+
+STRING 6859
+// Upgrades: R06J (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+{
+B
+}
+
+STRING 6860
+// Upgrades: R07R (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+{
+C
+}
+
+STRING 6861
+// Upgrades: R086 (Berserker Upgrade), Hotkey (Hotkey)
+{
+R
+}
+
 STRING 6862
 // Units: h06C (|cff909090Combat Hunter|r), Name (Name)
 {
@@ -40897,10 +41090,40 @@ STRING 6872
 |cff6e749bBounty Hunter's damage is increased by|r 50.
 }
 
+STRING 6873
+// Upgrades: RFPK (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Picking starts after bans
+}
+
+STRING 6874
+// Upgrades: RFCA (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Sacrificial Aura
+}
+
+STRING 6875
+// Upgrades: RFCA (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Tip (Tooltip)
+{
+Sacrificial Aura
+}
+
+STRING 6876
+// Upgrades: RFCA (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
+{
+Cultist grants allied units within 1000 range +5% attack and movement speed for every full 10% of his missing health. Maximum +45%. Multiple Cultists use the strongest aura.
+}
+
 STRING 6877
 // Upgrades: R03I (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 S
+}
+
+STRING 6878
+// Upgrades: RFCS (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Bloody Sacrifice
 }
 
 STRING 6879
@@ -40957,10 +41180,34 @@ STRING 6887
 A basic worker unit to harvest lumber. Cannot harvest gold.|n|n|cfffdca00Health:|r 100; 3/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Movement Speed:|r 190|n|cffff0000Feed Value:|r |cffffdd000|r
 }
 
+STRING 6888
+// Upgrades: RFCS (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Tip (Tooltip)
+{
+Bloody Sacrifice
+}
+
 STRING 6889
 // Units: h00K (Technology Center), Ubertip (Tooltip - Extended)
 {
 A technology center that allows you to build towers, upgrade walls, and upgrade towers.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r
+}
+
+STRING 6890
+// Upgrades: RFCS (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
+{
+Unlocks a toggle: heal other allied units within 400 range for 50 HP per second, while the Cultist takes 100 magic damage per second. Can kill the Cultist.
+}
+
+STRING 6891
+// Upgrades: RFCB (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Chaotic Burst
+}
+
+STRING 6892
+// Upgrades: RFCB (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Tip (Tooltip)
+{
+Chaotic Burst
 }
 
 STRING 6893
@@ -40975,10 +41222,34 @@ STRING 6894
 Q
 }
 
+STRING 6895
+// Upgrades: RFCB (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
+{
+Unlocks an autocast attack: normal attack damage ignores armor and magic resistance. Each successful empowered hit deals 4% of current HP as pure damage to the Cultist. Missed attacks cost no HP.
+}
+
 STRING 6896
 // Upgrades: R04C (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
 {
 This upgrade is required to use Psychic Drain. Channels a 300 health per second drain. Movement during the drain will allow the drain to continue at half effectiveness. 5 second duration. 10 second cooldown. |n|cff7F7F7FDrains energy from the target's psyche to fuel your blood magic.|r
+}
+
+STRING 6897
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), effect1 (Effect 1)
+{
+ratx
+}
+
+STRING 6898
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), effect2 (Effect 2)
+{
+ratr
+}
+
+STRING 6899
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Profane Reach
 }
 
 STRING 6900
@@ -40997,6 +41268,42 @@ STRING 6902
 // Abilities: A025 (Critical Strike), EditorSuffix (Editor Suffix)
 {
 (Kobold)
+}
+
+STRING 6903
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Tip (Tooltip)
+{
+Profane Reach - Level 1
+}
+
+STRING 6904
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
+{
+Each level gives the Cultist +75 attack damage and +75 attack range. Five levels. Costs per level: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber.
+}
+
+STRING 6905
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Profane Reach
+}
+
+STRING 6906
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Tip (Tooltip)
+{
+Profane Reach - Level 2
+}
+
+STRING 6907
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
+{
+Each level gives the Cultist +75 attack damage and +75 attack range. Five levels. Costs per level: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber.
+}
+
+STRING 6908
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Profane Reach
 }
 
 STRING 6909
@@ -41065,16 +41372,70 @@ STRING 6919
 Psychic D|cffffcc00r|rain - Level 11
 }
 
+STRING 6920
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Tip (Tooltip)
+{
+Profane Reach - Level 3
+}
+
 STRING 6921
 // Abilities: A0EX (Freeze Zone), Name (Name)
 {
 Freeze Zone
 }
 
+STRING 6922
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
+{
+Each level gives the Cultist +75 attack damage and +75 attack range. Five levels. Costs per level: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber.
+}
+
 STRING 6923
 // Units: e003 (Warpling), Ubertip (Tooltip - Extended)
 {
 Your basic unit. Can be used to gather lumber from trees. This unit can also be upgraded later on to morph into units that can aid you in combat, or load your towers.|n|n|cfffdca00Health:|r 100; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd000|r
+}
+
+STRING 6924
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Profane Reach
+}
+
+STRING 6925
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Tip (Tooltip)
+{
+Profane Reach - Level 4
+}
+
+STRING 6926
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
+{
+Each level gives the Cultist +75 attack damage and +75 attack range. Five levels. Costs per level: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber.
+}
+
+STRING 6927
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Profane Reach
+}
+
+STRING 6928
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Tip (Tooltip)
+{
+Profane Reach - Level 5
+}
+
+STRING 6929
+// Upgrades: RFAT (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Ubertip (Tooltip - Extended)
+{
+Each level gives the Cultist +75 attack damage and +75 attack range. Five levels. Costs per level: 5/20/35/50/65 gold and 250/1000/1750/2500/3250 lumber.
+}
+
+STRING 6930
+// Upgrades: RFPA (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Name (Name)
+{
+Ancient picking starts at 60 seconds
 }
 
 STRING 6935
@@ -41336,7 +41697,7 @@ Earth Shatter
 }
 
 STRING 7007
-// Upgrades: R041 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R03Q (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 R
 }
@@ -41414,7 +41775,7 @@ Slam the ground, releasing many earth elementals in random directions. The earth
 }
 
 STRING 7020
-// Upgrades: R04E (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R041 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 R
 }
@@ -41522,7 +41883,7 @@ Resolve
 }
 
 STRING 7049
-// Upgrades: R061 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R04E (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 R
 }
@@ -41630,13 +41991,13 @@ Reckoning
 }
 
 STRING 7073
-// Upgrades: R03R (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R03E (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 C
 }
 
 STRING 7074
-// Upgrades: R04G (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R03R (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 C
 }
@@ -43868,7 +44229,7 @@ Electrical Surge
 }
 
 STRING 7456
-// Upgrades: R04R (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R04G (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 C
 }
@@ -43880,7 +44241,7 @@ Explosive Shells II - [15.0]
 }
 
 STRING 7458
-// Upgrades: R065 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R04R (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 C
 }
@@ -45344,7 +45705,7 @@ Claw Strength VII - [80.0]
 }
 
 STRING 7714
-// Upgrades: R06G (Well Spring), Hotkey (Hotkey)
+// Upgrades: R065 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 C
 }
@@ -45998,7 +46359,7 @@ Enraged Ent
 }
 
 STRING 7824
-// Upgrades: R07R (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R06G (Well Spring), Hotkey (Hotkey)
 {
 C
 }
@@ -46304,7 +46665,7 @@ STRING 7874
 }
 
 STRING 7875
-// Upgrades: R06U (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R061 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 R
 }
@@ -46448,13 +46809,13 @@ This upgrade is required to use Psychic Slam. You deal 400 (+40 per attack upgra
 }
 
 STRING 7899
-// Upgrades: R07K (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
+// Upgrades: R06U (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 R
 }
 
 STRING 7900
-// Upgrades: R07T (Creature Attack,Improved Creature Attack,Advanced Creature Attack), Hotkey (Hotkey)
+// Upgrades: R07K (Iron Plating,Steel Plating,Mithril Plating), Hotkey (Hotkey)
 {
 R
 }
@@ -55481,7 +55842,7 @@ Haste
 }
 
 STRING 9441
-// Upgrades: R06J (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
+// Upgrades: R069 (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Hotkey (Hotkey)
 {
 B
 }
@@ -56778,7 +57139,7 @@ Advanced hunter training
 }
 
 STRING 9652
-// Upgrades: R086 (Berserker Upgrade), Hotkey (Hotkey)
+// Upgrades: R07T (Creature Attack,Improved Creature Attack,Advanced Creature Attack), Hotkey (Hotkey)
 {
 R
 }
@@ -60335,12 +60696,6 @@ STRING 10267
 // Upgrades: R04D (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords), Tip (Tooltip)
 {
 Ember - [20.0]
-}
-
-STRING 10268
-// Units: e00R (Moon Well), Ubertip (Tooltip - Extended)
-{
-Provides food, has the Replenish Mana ability. Can gain the Well Spring upgrade. Regenerates mana at night.|n|n|cffff0000Feed Value:|r |cffffdd0030|r
 }
 
 STRING 10269
