@@ -143,7 +143,7 @@ function Trig_TSERegister_Actions()
     ConditionalTriggerExecute(udg_TSEOnIndexEvent)
     udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex] = udg_TSE__RemainingDuration
     if (Trig_TSERegister_Func034C()) then
-        StartTimerBJ(udg_TSE_CTimer, true, udg_TSE_TIMEOUT)
+        TimerStart(udg_TSE_CTimer, udg_TSE_TIMEOUT, true, nil)
         EnableTrigger(udg_TSE_LoopTrigger)
     end
     udg_TSETargetUnit = nil

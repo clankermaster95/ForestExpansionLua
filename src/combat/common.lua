@@ -121,8 +121,9 @@ function FE_Combat.init()
     FE_Combat.initialized = true
     FE_Combat.listen("udg_DamageEvent", 1, FE_Combat.attackLanded)
     FE_Combat.listen("udg_DamageEvent", 99, FE_Combat.limitPoison)
-    local timer = CreateTimer()
-    TimerStart(timer, 0.25, true, FE_Combat.tickDots)
+    -- Keep a Lua owner for the repeating native timer and its callback.
+    FE_Combat.timer = CreateTimer()
+    TimerStart(FE_Combat.timer, 0.25, true, FE_Combat.tickDots)
 end
 
 -- combat / common

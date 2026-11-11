@@ -238,7 +238,7 @@ function PassiveMissiles__ContinueVolley()
         TimerStart(t, PassiveMissiles__PM_LAUNCH_DELAY, false, PassiveMissiles__ContinueVolley)
     else
         FlushChildHashtable(PassiveMissiles__PM_Hash, id)
-        DestroyTimer(t)
+        FE_Timers.destroy(t)
     end
     caster = nil
     t = nil
@@ -254,7 +254,7 @@ function PassiveMissiles__StartVolley(caster, count)
         return
     end
     if (count > 1) then
-        t = CreateTimer()
+        t = FE_Timers.create()
         id = GetHandleId(t)
         SaveUnitHandle(PassiveMissiles__PM_Hash, id, PassiveMissiles__PM_KEY_VOLLEY_CASTER, caster)
         SaveInteger(PassiveMissiles__PM_Hash, id, PassiveMissiles__PM_KEY_VOLLEY_REMAINING, __jint(count - 1))

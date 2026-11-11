@@ -155,7 +155,7 @@ end
 function FeedRate_ProcessPendingLoads()
     local t = GetExpiredTimer()
     local i = 0
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     while true do
         if (i >= FEEDRATE_MAX_PLAYERS) then break end
         FeedRate_ProcessPendingLoadForPlayer(Player(i))
@@ -177,7 +177,7 @@ end
 function FeedRate_StartLoadAll()
     local t = GetExpiredTimer()
     local i = 0
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     while true do
         if (i >= FEEDRATE_MAX_PLAYERS) then break end
         FeedRate_Loaded[i] = false
@@ -194,7 +194,7 @@ end
 function FeedRate_ShowDialogsForMissingLoads()
     local t = GetExpiredTimer()
     local i = 0
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     while true do
         if (i >= FEEDRATE_MAX_PLAYERS) then break end
         if (FeedRate_IsValidUser(Player(i)) and (not FeedRate_Loaded[i])) then
@@ -224,9 +224,9 @@ end
 
 function Trig_AutoFeedRate_Actions()
     local i = 0
-    local loadTimer = CreateTimer()
-    local processTimer = CreateTimer()
-    local dialogTimer = CreateTimer()
+    local loadTimer = FE_Timers.create()
+    local processTimer = FE_Timers.create()
+    local dialogTimer = FE_Timers.create()
     FeedRate_SetupDialog()
     FeedRate_SyncTrigger = CreateTrigger()
     FeedRate_NameSyncTrigger = CreateTrigger()

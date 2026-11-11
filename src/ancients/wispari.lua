@@ -16,7 +16,7 @@ function WW_Stop(t, caster)
     end
     FlushChildHashtable(WW_Hash, GetHandleId(t))
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
 end
 
 function WW_CreateSpawn(caster)
@@ -65,7 +65,7 @@ function WW_Actions()
     end
     SaveBoolean(WW_Hash, casterId, 0, true)
     WW_CreateSpawn(caster)
-    t = CreateTimer()
+    t = FE_Timers.create()
     SaveUnitHandle(WW_Hash, GetHandleId(t), 0, caster)
     TimerStart(t, WW_PERIOD, true, WW_Loop)
     t = nil
@@ -112,7 +112,7 @@ function Tornado_Begin_Death(t)
     end
     FlushChildHashtable(udg_TornadoHash, id)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     fx = nil
     caster = nil
     t = nil
@@ -165,7 +165,7 @@ function Tornado_Line_Loop()
     if (fx == nil) then
         FlushChildHashtable(udg_TornadoHash, id)
         PauseTimer(t)
-        DestroyTimer(t)
+        FE_Timers.destroy(t)
         caster = nil
         t = nil
         return
@@ -237,7 +237,7 @@ function Tornado_Line_Actions()
     BlzSetSpecialEffectOrientation(fx, angle, __jreal(0.00), __jreal(0.00))
     BlzSetSpecialEffectPosition(fx, x, y, __jreal(0.00))
     BlzPlaySpecialEffect(fx, ANIM_TYPE_STAND)
-    t = CreateTimer()
+    t = FE_Timers.create()
     id = GetHandleId(t)
     SaveEffectHandle(udg_TornadoHash, id, TORNADO_KEY_EFFECT, fx)
     SaveReal(udg_TornadoHash, id, TORNADO_KEY_X, x)

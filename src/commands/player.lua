@@ -32,10 +32,10 @@ function Hardmode_Start()
     local t = GetExpiredTimer()
     udg_HardmodeCanBeEnabled = false
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     if udg_HardmodeEnabled then
         Hardmode_GiveResources()
-        udg_HardmodePeriodicTimer = CreateTimer()
+        udg_HardmodePeriodicTimer = FE_Timers.create()
         TimerStart(udg_HardmodePeriodicTimer, __jreal(6.00), true, Hardmode_GiveResources)
     end
     t = nil
@@ -53,7 +53,7 @@ end
 function InitTrig_Hardmode()
     local i = 0
     local t = CreateTrigger()
-    local tm = CreateTimer()
+    local tm = FE_Timers.create()
     while true do
         if (i >= bj_MAX_PLAYERS) then break end
         TriggerRegisterPlayerChatEvent(t, Player(i), "-hardmode", true)

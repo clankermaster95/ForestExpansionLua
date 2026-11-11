@@ -182,5 +182,8 @@ function FE_Shops.init()
         TriggerRegisterPlayerUnitEventSimple(selected, player, EVENT_PLAYER_UNIT_SELECTED)
     end)
     TriggerAddAction(selected, FE_Shops.onSelected)
-    TimerStart(CreateTimer(), 0.25, true, FE_Shops.tick)
+    -- Retain the repeating timer for the map's lifetime; its callback does not
+    -- capture the handle, so a temporary argument alone is not a Lua owner.
+    FE_Shops.timer = CreateTimer()
+    TimerStart(FE_Shops.timer, 0.25, true, FE_Shops.tick)
 end

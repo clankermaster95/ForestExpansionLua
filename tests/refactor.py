@@ -79,12 +79,19 @@ def main():
     # intentional change is checked against the immutable r8 fixture plus the
     # arithmetic equivalence suite, not a newly reset baseline.
     expected['src/runtime.lua']=ds.digest(gameplay_patch_audit.frozen()['src/runtime.lua'])
+    for path in ('src/globals.lua','src/bootstrap.lua'):
+        expected.setdefault(path,ds.digest(gameplay_patch_audit.frozen()[path]))
     for entry in patch['changed_modules']:
         assert expected[entry['module']]==entry['before_sha256'],entry['module']
         expected[entry['module']]=entry['after_sha256']
     for path,sha in expected.items():assert ds.digest((ROOT/path).read_bytes())==sha,path
     assert ds.digest((ROOT/'src/initialization.lua').read_bytes())==consolidation['unchanged_initialization_sha256']
-    assert ds.digest((ROOT/'src/bootstrap.lua').read_bytes())==consolidation['unchanged_bootstrap_sha256']
+    # The sole bootstrap insertion allocates native globals after main starts.
+    # Strip that exact insertion to retain the immutable original-order check.
+    bootstrap=(ROOT/'src/bootstrap.lua').read_bytes()
+    insertion=b'    FE_InitNativeGlobals()\n'
+    assert bootstrap.count(insertion)==1
+    assert ds.digest(bootstrap.replace(insertion,b'',1))==consolidation['unchanged_bootstrap_sha256']
     import recipe_data
     assert (ROOT/'src/items/recipe_data.lua').read_text(encoding='utf-8')==recipe_data.render()
     import test_data
@@ -96,6 +103,8 @@ def main():
     assert (ROOT/'DEBUG_REFERENCE.md').read_text(encoding='utf-8')==debug_reference.render()
     import sync_audit
     audit=sync_audit.inspect(cfg)
+    audit['lifetime_guard_regressions']=runpy.run_path(str(ROOT/'tests/sync_guards.py'))['validate']()
+    audit['transient_timer_migration']=runpy.run_path(str(ROOT/'tests/transient_timer_migration.py'))['validate']()
     allowed_slots={42,43,44,248}
     for section in indexed:
         code=section['code'];name=section['name']
@@ -207,7 +216,7 @@ def main():
     for kind in ('lua-5.3.6','lua-5.3.6-32'):
         runtime=ROOT/'.tools'/kind/'src'
         for path in files:subprocess.run([str(runtime/'luac'),'-p',str(path)],check=True,capture_output=True)
-        for suite in ('shopping','solo_startup','gameplay_patch'):
+        for suite in ('shopping','solo_startup','gameplay_patch','selection_bans','native_initialization','timer_lifetime','transient_timer_lifetime','freeze_timer','cosmic_context'):
             result=subprocess.run([str(runtime/'lua'),'tests/'+suite+'.lua'],cwd=ROOT,check=True,capture_output=True,text=True)
             print(result.stdout.strip()); results.append({'runtime':kind,'suite':suite,'result':result.stdout.strip()})
     from costs import validate as validate_costs

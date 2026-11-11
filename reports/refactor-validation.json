@@ -1,14 +1,14 @@
 {
   "result": "passed",
   "version": "3.2.0",
-  "revision": "r10",
-  "archive_sha256": "e1a0c0fa6c3777a4c2d69fff9304327a5f3adeee8911d09ac047892ab2d35ecd",
+  "revision": "r11",
+  "archive_sha256": "03f733516a00ab774a6bbb6370ef60b9fc208065204a723d249f58c8f85586b2",
   "unchanged_original_payload_files": 496,
   "intentional_noncode_payload_changes": [
     {
       "file": "war3map.wts",
       "before_sha256": "e09e20c1f9c9908daae0f5169963630a65a6f1f70e2fc5a9a61629747d57f05e",
-      "after_sha256": "9b8538a0e06c370a9c56bbe9cb7a84252eca79722bea65d71c63f36830a73a47"
+      "after_sha256": "529afd5fef69edb64640f309c18cbfb8a8160fa48a88e91ecb8248438d393413"
     },
     {
       "file": "war3map.w3t",
@@ -28,7 +28,7 @@
     {
       "file": "war3map.w3u",
       "before_sha256": "5f62d69ff7b85ec722c04721e6eedd5b6dc066cb80e7a15bc06db5f66f322fe0",
-      "after_sha256": "14e923e8d3789e1e5297efa5c5c1856d7c7029645cdf63e96e78aab9c5cb76c6"
+      "after_sha256": "735a20ef8b988fe6744a23b579caf26a5647e692c1c4c8362647e382ea2d38be"
     },
     {
       "file": "war3map.doo",
@@ -48,7 +48,7 @@
     {
       "file": "war3map.w3a",
       "before_sha256": "20577a87d73b5039be915c282d1e45bddb6caae2f1fd2407775aa52106185057",
-      "after_sha256": "f8d68b24226799c19bd9280be50383142054a58a806632c40619199054cba244"
+      "after_sha256": "c163848ac05b51dfdb609078b3e16ba37c8ba30b3e88978dc90cfc608b81b0f9"
     },
     {
       "file": "war3map.w3c",
@@ -93,7 +93,7 @@
     {
       "file": "war3mapSkin.w3u",
       "before_sha256": "9bae2f4195a198e264ccc4cbf21eeca3c76817194dfe7ccacef9c8abcb3189e7",
-      "after_sha256": "cddfcb8146c98353e6528e3792d3fdc0eedad50bfbe3bedc637300222a5a0b28"
+      "after_sha256": "f8a158a2c5ba895f8f67beddfba500267f7de909354fb7a6f56e23756e0df104"
     },
     {
       "file": "war3mapUnits.doo",
@@ -113,12 +113,42 @@
     {
       "runtime": "lua-5.3.6",
       "suite": "solo_startup",
-      "result": "Solo startup integration passed: 496 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+      "result": "Solo startup integration passed: 3260 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
     },
     {
       "runtime": "lua-5.3.6",
       "suite": "gameplay_patch",
       "result": "gameplay patch: 68 assertions passed"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "selection_bans",
+      "result": "Selection bans passed: 9502 assertions; every random draw, all bans, and full ban budget"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "native_initialization",
+      "result": "Native initialization passed: 180 assertions; no chunk-load allocations, seventeen ordered runtime handles"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "timer_lifetime",
+      "result": "Timer lifetime passed: 62 assertions; weak native registry, forced GC, four periodic systems and idempotent init"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "transient_timer_lifetime",
+      "result": "Transient timer lifetime passed: 21 assertions; static callbacks, forced GC, rearm, completion and cancellation"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "freeze_timer",
+      "result": "Freeze timer passed: 25 assertions; deferred casts survive GC and release state on success, dead target and creation failure"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "cosmic_context",
+      "result": "Cosmic Strike context passed: 38 assertions; stale/absent native context and unchanged charge handling"
     },
     {
       "runtime": "lua-5.3.6-32",
@@ -128,12 +158,42 @@
     {
       "runtime": "lua-5.3.6-32",
       "suite": "solo_startup",
-      "result": "Solo startup integration passed: 496 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+      "result": "Solo startup integration passed: 3260 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
     },
     {
       "runtime": "lua-5.3.6-32",
       "suite": "gameplay_patch",
       "result": "gameplay patch: 68 assertions passed"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "selection_bans",
+      "result": "Selection bans passed: 9502 assertions; every random draw, all bans, and full ban budget"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "native_initialization",
+      "result": "Native initialization passed: 180 assertions; no chunk-load allocations, seventeen ordered runtime handles"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "timer_lifetime",
+      "result": "Timer lifetime passed: 62 assertions; weak native registry, forced GC, four periodic systems and idempotent init"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "transient_timer_lifetime",
+      "result": "Transient timer lifetime passed: 21 assertions; static callbacks, forced GC, rearm, completion and cancellation"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "freeze_timer",
+      "result": "Freeze timer passed: 25 assertions; deferred casts survive GC and release state on success, dead target and creation failure"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "cosmic_context",
+      "result": "Cosmic Strike context passed: 38 assertions; stale/absent native context and unchanged charge handling"
     }
   ],
   "historical_r8_regressions": [
@@ -247,7 +307,7 @@
     }
   ],
   "gameplay_objects": {
-    "assertions": 6618,
+    "assertions": 6734,
     "result": "passed"
   },
   "gameplay_patch": {
@@ -260,8 +320,14 @@
       {
         "module": "src/runtime.lua",
         "before_sha256": "97e7eeed389abb5824a27c472239e7190efce05969213a1a3a935c6f59b8c3eb",
-        "after_sha256": "84a4053cd037b04a287dbabc2cb43f488dee1e18fb1b465d0237a2dc032f5a68",
-        "reason": "Equivalent nonzero remainder check avoids native editor percent-format corruption."
+        "after_sha256": "bd043a22c9671efe175d34307c3f6f469717180c718bc9e0b9513fdb6211c6da",
+        "reason": "Equivalent nonzero remainder check avoids native editor percent-format corruption; explicit ownership registry retains legacy transient timers until destruction."
+      },
+      {
+        "module": "src/globals.lua",
+        "before_sha256": "0dbadc755a051a733310a683959145d31375741d51ac92f73627a5c640a81581",
+        "after_sha256": "c3d9b9af6e32da209a3fc96d37ae24a915a5c87428b80102c474d500482d8549",
+        "reason": "Defer 17 native handle allocations from Lua chunk loading to explicit synchronized bootstrap initialization."
       },
       {
         "module": "src/players/roles.lua",
@@ -270,16 +336,34 @@
         "reason": "Ancient lobby slot 11 after synchronized editor regeneration."
       },
       {
+        "module": "src/items/shops.lua",
+        "before_sha256": "1a45904219b4792b096ea7e75984e3fce76fbc78a06042bc9b363667757c79ec",
+        "after_sha256": "234d8f734fbe264a849e95422c2ffadb69577b60b194c2c1b77ffde25f0a0706",
+        "reason": "Retain the recurring shop timer in its module for the full map lifetime."
+      },
+      {
+        "module": "src/libraries/passive_missiles.lua",
+        "before_sha256": "40248b21a434ba7d02c4ecf2fe507be07ae991c6d9d60b943d9fd2312c03855d",
+        "after_sha256": "3ef33e953b47228d57b03e1d316d948626666954df7961c737df08f11ee28b56",
+        "reason": "Explicit Lua ownership for rearmed volley timers; native callback timing unchanged."
+      },
+      {
         "module": "src/commands/test_data.lua",
         "before_sha256": "d39ab098d8f6b697cc3896024bbfeda099807a22f0db309df58712795d332df6",
-        "after_sha256": "1e163dbd566f61a48e008c0da35f2bf64913752021f13a0073d43e03b9a77a85",
+        "after_sha256": "eacc3c1f8dc5c0347b6d23b7b98c34aa7ec05a46bc9c57f946085ccfdd5ec87c",
         "reason": "Generated current release and object catalog."
       },
       {
         "module": "src/commands/solo_test.lua",
         "before_sha256": "127c6103f831d8d633614c5cadbf739b0de504f5594c53662ee0e4feb89cdc72",
-        "after_sha256": "27f83693405ba3fd4d5bf543cb22341c9abf7e88a1f4de07a8d64edc8f456f84",
+        "after_sha256": "e36fa1cdea805429244f9e31222d2b83192ef1385e12b60e64150814f5dfd42c",
         "reason": "Solo skip also unlocks the native picking prerequisite."
+      },
+      {
+        "module": "src/effects/timed.lua",
+        "before_sha256": "00601f7904b9470d91119eb05f4b5c9120bd3559abe0a5013f17f0b21a4961ae",
+        "after_sha256": "05006cb5a85cd616c9da982bdfc0d9e6247e0e465f97c4e471a4756c4a245f90",
+        "reason": "Start the explicitly owned timer directly without replacing the loading-time Blizzard timer reference."
       },
       {
         "module": "src/players/participation.lua",
@@ -290,32 +374,38 @@
       {
         "module": "src/commands/player.lua",
         "before_sha256": "dd8eea609eaa1d1719671fb9f54432d019395030b9a71d982de864315945f907",
-        "after_sha256": "6441d9326e6a2a150cf33f52d1207f74bb95f24ade4d26a7b7f72aada416184b",
-        "reason": "Equivalent Lua hex escapes preserve pattern and tooltip strings during editor saves."
+        "after_sha256": "1e289cbafa464eaf5d03630bff23945d242025b58aef45a195e657bc637e5ca9",
+        "reason": "Equivalent Lua hex escapes preserve pattern and tooltip strings during editor saves; explicit hardmode timer ownership."
       },
       {
         "module": "src/game/selection.lua",
         "before_sha256": "60fd7b1175a07a8fe67b9af5db7d9d746956e8305ec14c9fdfda0aec7ab8027d",
-        "after_sha256": "225b41a332e08f81252f8cb9b889451fcae5b1954cf4f7b6ea4215799a3a32fa",
-        "reason": "Visible initial stock, prerequisite unlock after bans, stock removal, Cultist choice."
+        "after_sha256": "5c8e82707a17ec4362b3ae0e22918578333275b248e4236bf54c75a7730ae5e2",
+        "reason": "Visible zero-cap stock until phase unlock, permanent ban removal, ban-filtered random draws with preserved relative weights, Cultist restricted to start-captured solo test mode."
       },
       {
         "module": "src/combat/common.lua",
         "before_sha256": "a2d03356e79a6262c18da882798a50b2da14ea6cd1165dc50b55aec3f77fc2c7",
-        "after_sha256": "a1362be7079d4a701339eaa85f4c17de97c63c185c84c9419e7ff7163caf8563",
-        "reason": "Shared deterministic effect operations and non-orb on-hit debuffs."
+        "after_sha256": "21ea1162a7cdde240c5655f19823ed69244a3694155122e7566ba8ec93f895c9",
+        "reason": "Shared deterministic effect operations and non-orb on-hit debuffs; retain recurring damage-over-time timer."
       },
       {
         "module": "src/economy/feed.lua",
         "before_sha256": "3048885853b4d67309b95f3e67d6251f42b3e01dfbc60838eddd823426103e6f",
-        "after_sha256": "45cc3c155db789b4de111ffb1bf0a9b81c474ef49064d4255263a4c66b2b5076",
-        "reason": "Equivalent Lua hex escapes preserve feed command patterns and displayed percentages."
+        "after_sha256": "e7cd1d3f93f3b440b2c59758b2b206071c82ec3302ccf41592a788b3e25ac73f",
+        "reason": "Equivalent Lua hex escapes preserve feed command patterns and displayed percentages; explicit ownership for delayed load/process/dialog timers."
+      },
+      {
+        "module": "src/races/bounty_hunter.lua",
+        "before_sha256": "8de8c3ce70d8e56250e009a4642d4aa6d9221de61ba9269d5b8046dc04ff2e5d",
+        "after_sha256": "a1ed9785617abadee8b8e1ac990983ce81e4113366a6b047e967af05ed86197c",
+        "reason": "Explicit Lua ownership for Snipe and Dash timers until normal cleanup."
       },
       {
         "module": "src/races/cultist.lua",
         "before_sha256": "eb00e11276a1ce611346d00e35e9f7061f2bd248f24e82e5ac4ad552cae7546d",
-        "after_sha256": "18acecd29d67fdfad4bfbefe17e861b9bb295b9e8e7f850753cb6b170ff2dea1",
-        "reason": "Research-gated aura, sacrifice toggle and pure-damage autocast; hide duplicate resistance icon and remove stray Limb Throw diagnostic."
+        "after_sha256": "a88e1f7de89cccf3d3fd7662af9d00d3813380dde1e951d54a1ef96e7f8bf468",
+        "reason": "Research-gated aura, sacrifice toggle and pure-damage autocast; hide duplicate resistance icon; retain recurring timer; remove stray Limb Throw diagnostic."
       },
       {
         "module": "src/races/ratling.lua",
@@ -332,8 +422,8 @@
       {
         "module": "src/races/wildkin.lua",
         "before_sha256": "cc2eb273d7b729497f531f78ba17ec8e3e985cc68d0c9f2858f47e5c2f5436d3",
-        "after_sha256": "9ea064c44c6abc3d647c3bbe29562da11241cd4ba59195a1e5bfc9d7f3c9cffa",
-        "reason": "Restore researched Wildkin ability levels after recreation."
+        "after_sha256": "c501b694659a54ece4b10cee7efaa0f6ac530d5aba00ae284d39ecfec54ba707",
+        "reason": "Restore researched Wildkin ability levels after recreation; explicitly retain Moonblast timers until cleanup."
       },
       {
         "module": "src/ancients/zalxon.lua",
@@ -342,10 +432,16 @@
         "reason": "Captured damage-event owner, bounded learned level and purpose-built dummy."
       },
       {
+        "module": "src/ancients/nebula.lua",
+        "before_sha256": "6f39f9c7fef9d1cceaa43293141d3dbb458245cc54509c03bc26c37c40f1d01e",
+        "after_sha256": "a5a0c80c1668d9a65a54414846a08ea81d79cd2e8bae12d54c276316ec69defa",
+        "reason": "Explicit Lua ownership for slow timers; Cosmic Strike mana reads its captured caster instead of unrelated native damage context."
+      },
+      {
         "module": "src/ancients/avalanche.lua",
         "before_sha256": "2c62ba8eba53fdbc520dfddff2b8befd6995216220bff0b527a42c0daed5892c",
-        "after_sha256": "96ddec5150c6b1e5d4bd846d8684fc536e924e0f09c594a93fb5b6b53a468aa9",
-        "reason": "Moving enemy-only Sadism slow/anti-heal and lifecycle cleanup."
+        "after_sha256": "5ff776c2ee5696a570128df28ff5faeb604f04d29768393f2b8ca055fe51524a",
+        "reason": "Moving enemy-only Sadism slow/anti-heal and lifecycle cleanup; retain recurring timer."
       },
       {
         "module": "src/ancients/divinity.lua",
@@ -354,10 +450,22 @@
         "reason": "Sadism 400x25; undispellable Vanguard armor; Nuke permits native attacks."
       },
       {
+        "module": "src/ancients/wispari.lua",
+        "before_sha256": "48842cdff4ffb09226738a45413e3266a64142820e1ba344cfd4ab310e75d9c9",
+        "after_sha256": "50d7fe77f81a0cdf425d852fe95100864a6c30e414a5470746e2682ab185b85e",
+        "reason": "Explicit Lua ownership for Wind Walk and Tornado timers until normal cleanup."
+      },
+      {
         "module": "src/ui/hints.lua",
         "before_sha256": "93ad0a7df0ae6fd05cf7fa063e0340f790d399b0c157c3ac63dac701f24d8edd",
         "after_sha256": "d1cbdb0fe6eb116088ddea9ab628eadea2811a8aeb514f061fcf7e0539545964",
         "reason": "Equivalent Lua hex escape preserves displayed percentage text during editor saves."
+      },
+      {
+        "module": "src/items/effects.lua",
+        "before_sha256": "4e9f729199065425d7a403c8f408b89bae1e3a8ad7e1beb9e157e87e54d76dee",
+        "after_sha256": "ae2705f37794f7a77f99645964ff0c4f80b5af2a8bd6ff718a3c0845f5eba1ac",
+        "reason": "Explicit Lua ownership for dust tracking timers; refresh/cancellation unchanged."
       },
       {
         "module": "src/economy/income.lua",
@@ -368,8 +476,14 @@
       {
         "module": "src/game/startup.lua",
         "before_sha256": "23fe50ee92200df48908942c438328e210132bba9d35be53d6b8552684313738",
-        "after_sha256": "38352049dc35ce89471d4d7a510f36b54676662ffa3a6be7c3059169d4efbad0",
-        "reason": "Native one-Amalgamation training limit."
+        "after_sha256": "1cee0d16d8c6cfac39a87074ea8e0adb5b69db6f2ecef98bab012ebe1f325bfc",
+        "reason": "Native one-Amalgamation training limit; retain countdown through cutoff; use explicit timer handles instead of GUI timer globals."
+      },
+      {
+        "module": "src/players/lackeys.lua",
+        "before_sha256": "fbc397fc02e5f4ca5253ca10ec20c8543a51f569376c1fe414f07d58c73ff7fd",
+        "after_sha256": "d5c03e3d26eef04cffb5432915283a18bdce8d235cc7a00597f3a4fe553b8d47",
+        "reason": "Explicit Lua ownership for respawn and game-clock timers; native timing and visibility unchanged."
       },
       {
         "module": "src/players/leaving.lua",
@@ -382,9 +496,21 @@
         "before_sha256": "99d29c0dbe343ef72ec87c628542dd634d19c37dc9ab337a0525839af9688c38",
         "after_sha256": "2a22b7e4c557dc6ae5b98fa4c7a30390ec8409be55f3c929c9512887939ab85f",
         "reason": "Pending leaver armies keep the match open for takeover."
+      },
+      {
+        "module": "src/bootstrap.lua",
+        "before_sha256": "eb8807ef3452b9e24e2c6ecee4e086909a3fd27eb9563ed9c5b6dd12ff24d05b",
+        "after_sha256": "59b4046a8121886cc0ffa68fb6dc81b96459edd7eee9fc7af16cc1cb91b5aecb",
+        "reason": "Allocate native globals first after native map initialization, preserving all existing library and trigger initialization order."
       }
     ],
     "changed_sections": [
+      {
+        "id": 4,
+        "before_sha256": "67f7891c365e465b424a49887f502450abcaa279708320e18e4ea6c9c45a1e07",
+        "after_sha256": "bf06a8d6d348a9fbd14aaf5ae79bcbc541f4e36098c51c09f1808987cec42ad8",
+        "module": "src/effects/timed.lua"
+      },
       {
         "id": 13,
         "before_sha256": "cd7800fed032b8a497042b83659b5b2c9869e792af0126dbe87c8d0ac907ff3b",
@@ -392,10 +518,28 @@
         "module": "src/players/participation.lua"
       },
       {
+        "id": 17,
+        "before_sha256": "5f2a37f93a9f533100646172cb6636c525f0eb89fbf295d952e80178719ab990",
+        "after_sha256": "e5ffa82a475a78e3b346aa1c8d41550d865386bf0b467c3035ded6d6c65a323b",
+        "module": "src/commands/player.lua"
+      },
+      {
         "id": 205,
         "before_sha256": "2bc3760a71523fc9e991241be282f67aab460f61b0d17803f20b77541aa3612c",
         "after_sha256": "50e481dbb24b47c1374fcd84780f56ec8005d9be3f03f6487309863644e4b161",
         "module": "src/commands/player.lua"
+      },
+      {
+        "id": 262,
+        "before_sha256": "8a37dd95ba35aa7082d758d98a04368ef9a39b7396345a262e056274c0782480",
+        "after_sha256": "4f0ccd7f06f205e3af83bd87971082b4cdb7309649a4bb9a855b45c2a02f7be0",
+        "module": "src/game/selection.lua"
+      },
+      {
+        "id": 263,
+        "before_sha256": "f67bfc6fdd3d5c1da86ea29311b5e156e4b1903d97b238cd49db701ac8a19ed6",
+        "after_sha256": "88ba91b22d9b8aed69b2fbcbf0e78e82feab5208257ddc6a18ca8084eccc3dff",
+        "module": "src/game/selection.lua"
       },
       {
         "id": 269,
@@ -418,7 +562,7 @@
       {
         "id": 21,
         "before_sha256": "47287b2472e7745cbe04864049f593ce49bc8cd5d8d521f2f2e19fb201e74152",
-        "after_sha256": "867260deb3697927fb7eb80d1eb07846626c2f103df07f94a193cbaa3c379c4e",
+        "after_sha256": "176f473ef04d9821025c5172b5712f90d01e7324486d9106f44bd571cdb118e8",
         "module": "src/economy/feed.lua"
       },
       {
@@ -432,6 +576,18 @@
         "before_sha256": "a529d3453fbc36b36dc4f78e9e3b8cdafb59e4d15afde441b5ae5e42e78f30f6",
         "after_sha256": "408c7034accb75bb8a5aeac43155dc9c136ee0ee05d1a73203d29a202d12d70d",
         "module": "src/economy/feed.lua"
+      },
+      {
+        "id": 29,
+        "before_sha256": "3b30173315083864864e8abc286f04f2683a84ffb9c8eeb555099a61a3812388",
+        "after_sha256": "6ca3f511aa6f779e52b06aaf4ad73f05a54fa1cabdcdbad52c840093c4df56ae",
+        "module": "src/races/bounty_hunter.lua"
+      },
+      {
+        "id": 30,
+        "before_sha256": "6c9b791fc5142af69b1d1029ca40dfd61c756fa092dbd04d516b5db939c0641a",
+        "after_sha256": "d0bcad60ac2264800cde08cf3541a21669b728ff9bc59e33826b8f28ea05bfb2",
+        "module": "src/races/bounty_hunter.lua"
       },
       {
         "id": 36,
@@ -464,10 +620,34 @@
         "module": "src/races/wisp.lua"
       },
       {
+        "id": 140,
+        "before_sha256": "19cb749c542f33e6286f56955f8d12bd4f7fd7b93af00fa730b7fca61230a966",
+        "after_sha256": "301835dad65b7785bfed3a5d1f5a557f80222bd5f969341bb6f4dedcc3813b3d",
+        "module": "src/races/wildkin.lua"
+      },
+      {
         "id": 158,
         "before_sha256": "1e345d1a26c5862eed2d69cdaafa37f5149ef688a15c902c0a50ca36878aa1ce",
         "after_sha256": "87cff707bac8853a3d0165a5ad232c50c0f3d4af6d6f8d144020e1f763221793",
         "module": "src/ancients/zalxon.lua"
+      },
+      {
+        "id": 165,
+        "before_sha256": "336edd8cef7b380138137b45bfed0ba208ee35cc402e016dd7f70570b0e30768",
+        "after_sha256": "c9ed53518180fc6e7f41276ecccfa19e279650f8f43659e434b96b50554d1d93",
+        "module": "src/ancients/nebula.lua"
+      },
+      {
+        "id": 167,
+        "before_sha256": "b79e9d79d04ed61c032c8b4c890e959fbbbbc3bf9fb0335c586b0b61ba5178ac",
+        "after_sha256": "f2141d9d68d6ba1bfe69c4161c70053e5aaa336e53a6a58db27666e73fc182a0",
+        "module": "src/ancients/nebula.lua"
+      },
+      {
+        "id": 178,
+        "before_sha256": "7e78a9c0f11cc4174f73a864d494b577d32c364215b7660773bb8e3ccdc4a82d",
+        "after_sha256": "25fe0dd19527ca58fa6f8f493d015cb5dc0a0763fbedade3874e9db4fd917069",
+        "module": "src/ancients/avalanche.lua"
       },
       {
         "id": 179,
@@ -488,10 +668,28 @@
         "module": "src/ancients/divinity.lua"
       },
       {
+        "id": 190,
+        "before_sha256": "28074b18c0dcfea04147935e6673d2d535ab282eb27a6e1c36e6545ccaf60643",
+        "after_sha256": "249293502ce213f817978fb4f7efd6532aae9989d9742ba19201e2af2c38b4be",
+        "module": "src/ancients/wispari.lua"
+      },
+      {
+        "id": 191,
+        "before_sha256": "3ade90302e80c27819c6ba5b65d181bc4e369ca87b3abf3380e30da4adea7c7d",
+        "after_sha256": "e90bcfb3b4d220cf698564bbe6746789d14b2766c045a6c6c8295c1d3787fc68",
+        "module": "src/ancients/wispari.lua"
+      },
+      {
         "id": 194,
         "before_sha256": "ec6807a0c9066f9224f6c8ab85453943afdd77d9b7dcb90d9ac3e008b5ad6c8f",
         "after_sha256": "e00c93f075203c208ba9d650b51c00a630970e79c66ff9dd1265c17b07afc5dc",
         "module": "src/ui/hints.lua"
+      },
+      {
+        "id": 223,
+        "before_sha256": "b592d64293e6e1f22bbcbea4420582b8bf825660553df5c94ce30b75ab634467",
+        "after_sha256": "d50dcecd4f0b3a99719461bd1ef0368f8d093431648330d64bdc565d098325d7",
+        "module": "src/items/effects.lua"
       },
       {
         "id": 250,
@@ -504,6 +702,30 @@
         "before_sha256": "bcf2cfb731cd8227443c535d28b492a5498c3ba1a218fff91c5bd3dab6b47c25",
         "after_sha256": "a20629e44029a5049570b0ba7a9a2071810f3263f243490fad95adbe0d9414fb",
         "module": "src/game/startup.lua"
+      },
+      {
+        "id": 253,
+        "before_sha256": "806f57668bf978f3f3d0529d83d098930f74371190db63673670ca5b565e37f7",
+        "after_sha256": "aae382e6a36c704d2c6b883b04caa40884c38f02c6b09d2beb11027d761f6f05",
+        "module": "src/game/startup.lua"
+      },
+      {
+        "id": 254,
+        "before_sha256": "185c119c17a86b0d91808535e0566acbe6e992f9e07d63a85935950c2ffcd7ba",
+        "after_sha256": "a880566830da5ed28ef7c43f8339643b4891c3d16511d1c0fb9d950f241ec719",
+        "module": "src/game/startup.lua"
+      },
+      {
+        "id": 317,
+        "before_sha256": "fb9ab0acf05537af01c66d9b7ae964733fc8420c5000fd7ad221068cc2e48dc4",
+        "after_sha256": "067e2e80f335e7edc9bb30a0ceea7c5068fab3b2ab41f67f4f719ebc32d2bfea",
+        "module": "src/players/lackeys.lua"
+      },
+      {
+        "id": 319,
+        "before_sha256": "911cdd559a8cccf3f1fa02bc2aa919095d1073fc47e7c84d853b9805fa147854",
+        "after_sha256": "69aae789603dfec54b257e6011adcd19406e1d267133cc84fd55cd622d9e0f4b",
+        "module": "src/players/lackeys.lua"
       },
       {
         "id": 321,
@@ -530,6 +752,18 @@
         "function": "__jdiv"
       },
       {
+        "module": "src/items/shops.lua",
+        "function": "FE_Shops.init"
+      },
+      {
+        "module": "src/libraries/passive_missiles.lua",
+        "function": "PassiveMissiles__ContinueVolley"
+      },
+      {
+        "module": "src/libraries/passive_missiles.lua",
+        "function": "PassiveMissiles__StartVolley"
+      },
+      {
         "module": "src/commands/solo_test.lua",
         "function": "integer"
       },
@@ -550,12 +784,24 @@
         "function": "FE_Test.init"
       },
       {
+        "module": "src/effects/timed.lua",
+        "function": "Trig_TSERegister_Actions"
+      },
+      {
         "module": "src/players/participation.lua",
         "function": "Trig_Takeover_Actions"
       },
       {
         "module": "src/players/participation.lua",
         "function": "InitTrig_Takeover"
+      },
+      {
+        "module": "src/commands/player.lua",
+        "function": "Hardmode_Start"
+      },
+      {
+        "module": "src/commands/player.lua",
+        "function": "InitTrig_Hardmode"
       },
       {
         "module": "src/commands/player.lua",
@@ -571,11 +817,23 @@
       },
       {
         "module": "src/game/selection.lua",
+        "function": "FE_Factions.fillRandomPool"
+      },
+      {
+        "module": "src/game/selection.lua",
         "function": "FE_Factions.ban"
       },
       {
         "module": "src/game/selection.lua",
         "function": "FE_Factions.closeBans"
+      },
+      {
+        "module": "src/game/selection.lua",
+        "function": "Trig_RandomExpander2_Actions"
+      },
+      {
+        "module": "src/game/selection.lua",
+        "function": "Trig_Random_Ancient_Actions"
       },
       {
         "module": "src/game/selection.lua",
@@ -603,11 +861,43 @@
       },
       {
         "module": "src/economy/feed.lua",
+        "function": "FeedRate_ProcessPendingLoads"
+      },
+      {
+        "module": "src/economy/feed.lua",
+        "function": "FeedRate_StartLoadAll"
+      },
+      {
+        "module": "src/economy/feed.lua",
+        "function": "FeedRate_ShowDialogsForMissingLoads"
+      },
+      {
+        "module": "src/economy/feed.lua",
+        "function": "Trig_AutoFeedRate_Actions"
+      },
+      {
+        "module": "src/economy/feed.lua",
         "function": "HandleSetExp"
       },
       {
         "module": "src/economy/feed.lua",
         "function": "Trig_CheckFeedRates_Actions"
+      },
+      {
+        "module": "src/races/bounty_hunter.lua",
+        "function": "SnipeShot_EndMissile"
+      },
+      {
+        "module": "src/races/bounty_hunter.lua",
+        "function": "SnipeShot_StartMissile"
+      },
+      {
+        "module": "src/races/bounty_hunter.lua",
+        "function": "Dash_Stop"
+      },
+      {
+        "module": "src/races/bounty_hunter.lua",
+        "function": "StartDash"
       },
       {
         "module": "src/races/cultist.lua",
@@ -630,8 +920,36 @@
         "function": "Trig_SeedOfRebirth_Actions"
       },
       {
+        "module": "src/races/wildkin.lua",
+        "function": "Trig_Moonblast_Cleanup"
+      },
+      {
+        "module": "src/races/wildkin.lua",
+        "function": "Trig_Moonblast_Actions"
+      },
+      {
         "module": "src/ancients/zalxon.lua",
         "function": "Trig_Thunderstruck_Actions"
+      },
+      {
+        "module": "src/ancients/nebula.lua",
+        "function": "SSZ_RemoveSlow"
+      },
+      {
+        "module": "src/ancients/nebula.lua",
+        "function": "SSZ_ApplySlow"
+      },
+      {
+        "module": "src/ancients/nebula.lua",
+        "function": "Trig_Cosmic_Strike_2_Actions"
+      },
+      {
+        "module": "src/ancients/avalanche.lua",
+        "function": "TP_DummyCastDelayed"
+      },
+      {
+        "module": "src/ancients/avalanche.lua",
+        "function": "TP_CastDebuff"
       },
       {
         "module": "src/ancients/divinity.lua",
@@ -650,8 +968,40 @@
         "function": "Trig_Vanguard_Actions"
       },
       {
+        "module": "src/ancients/wispari.lua",
+        "function": "WW_Stop"
+      },
+      {
+        "module": "src/ancients/wispari.lua",
+        "function": "WW_Actions"
+      },
+      {
+        "module": "src/ancients/wispari.lua",
+        "function": "Tornado_Begin_Death"
+      },
+      {
+        "module": "src/ancients/wispari.lua",
+        "function": "Tornado_Line_Loop"
+      },
+      {
+        "module": "src/ancients/wispari.lua",
+        "function": "Tornado_Line_Actions"
+      },
+      {
         "module": "src/ui/hints.lua",
         "function": "Trig_InitialText_Actions"
+      },
+      {
+        "module": "src/items/effects.lua",
+        "function": "DAS_StopTracking"
+      },
+      {
+        "module": "src/items/effects.lua",
+        "function": "DAS_TrackLoop"
+      },
+      {
+        "module": "src/items/effects.lua",
+        "function": "DAS_StartTracking"
       },
       {
         "module": "src/economy/income.lua",
@@ -666,6 +1016,34 @@
         "function": "Trig_LimitedTraining_Func002A"
       },
       {
+        "module": "src/game/startup.lua",
+        "function": "Trig_TimeToExpanderSpawn_Actions"
+      },
+      {
+        "module": "src/game/startup.lua",
+        "function": "Trig_TimeToAncientSpawn_Actions"
+      },
+      {
+        "module": "src/players/lackeys.lua",
+        "function": "LackeyRespawn_OnTimer"
+      },
+      {
+        "module": "src/players/lackeys.lua",
+        "function": "Trig_Lackey_Respawn_Actions"
+      },
+      {
+        "module": "src/players/lackeys.lua",
+        "function": "SpawnLackey_EnsureSetup"
+      },
+      {
+        "module": "src/players/lackeys.lua",
+        "function": "SpawnLackey_DelayedTimerExpires"
+      },
+      {
+        "module": "src/players/lackeys.lua",
+        "function": "SpawnLackey_StartDelayedTimer"
+      },
+      {
         "module": "src/players/leaving.lua",
         "function": "Trig_Player_Leaves_Actions"
       },
@@ -676,6 +1054,10 @@
       {
         "module": "src/game/victory.lua",
         "function": "Trig_Extermination_Conditions"
+      },
+      {
+        "module": "src/bootstrap.lua",
+        "function": "InitTrig_FE_Bootstrap"
       }
     ],
     "object_changes": [
@@ -702,6 +1084,12 @@
         "rawcode": "A06W",
         "before_sha256": "a1b4a245e8e2296bc57fed59ef7095ab16313fb6a8809b9f35a829395215309f",
         "after_sha256": "06ff0890b0bd566d690e3487da030f4b3e7f8b54a7a72c93c07beedd98398679"
+      },
+      {
+        "path": "data/objects/abilities/NewAbilities/A0AW.json",
+        "rawcode": "A0AW",
+        "before_sha256": "8407874bab7f89a18fe2b39683eab974123381a98b1406d9d84ff634f59134a2",
+        "after_sha256": "2a49c034410e329f45e0dff100904f1f7c6cec6412cca2098517b4d46211adbd"
       },
       {
         "path": "data/objects/abilities/NewAbilities/A0CO.json",
@@ -1013,43 +1401,43 @@
         "path": "data/objects/units/NewUnits/h000.json",
         "rawcode": "h000",
         "before_sha256": "7b84be0d182f741342e9476cb25f852ab8c29c705ca33fceef25ae046eeead98",
-        "after_sha256": "ee6dfd9c78dce30790aad304b36d9635e87a8619ec2f74e73d557e023c85da36"
+        "after_sha256": "ec8d07e76b6827e4b794b4dd01dfca9c59f561253a5d5171712b21a15e3a852a"
       },
       {
         "path": "data/objects/units/NewUnits/h00F.json",
         "rawcode": "h00F",
         "before_sha256": "cec4ab131c2e473984a936d2efc59b814ff6f6f070837c53dea6624b7fe174f3",
-        "after_sha256": "2c060923cda03279dbec264dcbd02232390232d789942cdcf5f7e84122ecdbd3"
+        "after_sha256": "2e0c4eec37b64f6bc4ce66f19bc587ba319b84757e501be191c71c3e8bc79575"
       },
       {
         "path": "data/objects/units/NewUnits/h00R.json",
         "rawcode": "h00R",
         "before_sha256": "70ea4fd04ce8490e6192c053061d429538d8e79ac5c0e37927eef597ce635e97",
-        "after_sha256": "12c4da7a6a1e544582a4e9d89f1c59fe3983d3618340d3a807e63d01b04cabc5"
+        "after_sha256": "04ae3b556b4081e4f23ea6b2de2cd132d1c5680871b0640ee55a66c56118c85a"
       },
       {
         "path": "data/objects/units/NewUnits/h010.json",
         "rawcode": "h010",
         "before_sha256": "a919e485b26caca4865abb26c1d21fdd843bcc224237391e0a340ec6431140ab",
-        "after_sha256": "05b2835a05f873dbaa7fbab00fe3618d88264e83b14ec75589de1112aa61b57a"
+        "after_sha256": "c12fee039556595098c8a8fad5ddc861fc41b989557feaeb02e6e1f855283bce"
       },
       {
         "path": "data/objects/units/NewUnits/h016.json",
         "rawcode": "h016",
         "before_sha256": "315a838b83e9264661bd238d39a249b6a7a30ea87d9eb59e7283a4f0b1e4aac1",
-        "after_sha256": "ed7701d9a3a15080ff5ceaf570769e1067e2b72d887bedb9e7d0f9b21b227111"
+        "after_sha256": "bcaf778f71732bb4547a24bde8b0699fdb177e66ac2a2582868536d021f5dcb9"
       },
       {
         "path": "data/objects/units/NewUnits/h01K.json",
         "rawcode": "h01K",
         "before_sha256": "4d8c0a92c0b810804928e54506d9f8c0eea5808a3098228a5fca3b51177b8948",
-        "after_sha256": "45b2c79588a35274d56b74f663ea7e4f58f45fd41a0dcb1272b3e877eab3d962"
+        "after_sha256": "43c6713a0a930cd901d70bc4074a2ff92aad92bac9478c590222d56c909ad502"
       },
       {
         "path": "data/objects/units/NewUnits/h01X.json",
         "rawcode": "h01X",
         "before_sha256": "bc72b59fc187cfad196bfb6c804192bc7208760e7e7400d801b6a3c15e9acef2",
-        "after_sha256": "ee3bb4eb4a09df94f6cd12067e3e5b9c10807ba1dc5611644d34351768f116e6"
+        "after_sha256": "677b520fb672483c7ca0f4daba8e1f5276f6d550698ac38e494c30eb8682c823"
       },
       {
         "path": "data/objects/units/NewUnits/h02B.json",
@@ -1061,31 +1449,31 @@
         "path": "data/objects/units/NewUnits/h02L.json",
         "rawcode": "h02L",
         "before_sha256": "0a47fce81922f98b45940219d1040a78520ad915b0b82fa5e1a00d6e55b392d4",
-        "after_sha256": "b391771946847f26bbadfdd88b2c73c30952bd15cbf5d3b3facbc3bcd826a484"
+        "after_sha256": "2ea2d3ed1bbc249d0690d2effa41e67f26443389ecd3f09f02a6b2e6061b8c32"
       },
       {
         "path": "data/objects/units/NewUnits/h02U.json",
         "rawcode": "h02U",
         "before_sha256": "5a033891d2654ea1b19455a6d2192bebe5a9238da449b091ca0d5085cd701eee",
-        "after_sha256": "30003439355b68cad8e778a74caa2fca4c90fee6b1ace0a0b72a0715fdeb0879"
+        "after_sha256": "184d415f476650ac9f1f7cd89ca39c5a467c3b3711c620e36176b6965efc4874"
       },
       {
         "path": "data/objects/units/NewUnits/h03D.json",
         "rawcode": "h03D",
         "before_sha256": "ca9d3cd0e8d50d2c26f946b98e5c82440aa1d7121c99b50b9d922cfa01a550e5",
-        "after_sha256": "3cfe8002aa5246a96c8e8735734ca2f8dd34c6c5c795b452e39f15f100ce28e5"
+        "after_sha256": "08e4b47beee1d80839fccb05700001ace725b6c451f2b27ad17b73f9ce7b50a0"
       },
       {
         "path": "data/objects/units/NewUnits/h03Q.json",
         "rawcode": "h03Q",
         "before_sha256": "e30c1a62030339b0f97a7b41e7ef6129cf924cc72d32afdef580bebb0cb359e9",
-        "after_sha256": "4d8bab1a441973855e936e580c7eecb9b24ea5a3f626e330ef9fc8bda15d19f0"
+        "after_sha256": "385222a88d6834c458e38c0972af800364fb41dafe326d5a53f0f22fb6759200"
       },
       {
         "path": "data/objects/units/NewUnits/h03S.json",
         "rawcode": "h03S",
         "before_sha256": "cbad87132fc5820d49c153a7dc4917d85fdc8ee0a04cb3454c685e95e5ecbfb9",
-        "after_sha256": "f4ee158803f5a1c08030d07a7846f95b39d98638180a5c1a572b9be0bccca760"
+        "after_sha256": "22a8b99add8b9cc8a9fab05b99679cbaaea6f6a2ddf06f463e579ab42dc4aa18"
       },
       {
         "path": "data/objects/units/NewUnits/h03X.json",
@@ -1097,19 +1485,19 @@
         "path": "data/objects/units/NewUnits/h05C.json",
         "rawcode": "h05C",
         "before_sha256": "ab4cd4327b5bb33b45fd038ca3032cedc319f47947ce7796c3eb52f8f5c843c0",
-        "after_sha256": "eb79844f9b28a75b8ee6e49b789832daa4c08ac847e1fb07c2c7d2d3cdbc2209"
+        "after_sha256": "7d226670287b04753bafefff6a4da331b606b9d3d30b8d9c9075d1eab9071aab"
       },
       {
         "path": "data/objects/units/NewUnits/h05W.json",
         "rawcode": "h05W",
         "before_sha256": "59fbbaa9b8d2abf719c5e4d28519a8e1dd0f3117dfbf8e30e7da742c858bb66a",
-        "after_sha256": "727384d7c5d2fa5574498a3f2726d6d9784e35e60c3a474ec4318cab2306d34b"
+        "after_sha256": "65364b98c8d57b543f3809515dc6c23ac372c749b375702f508a5fc8275e8ba6"
       },
       {
         "path": "data/objects/units/NewUnits/h063.json",
         "rawcode": "h063",
         "before_sha256": "c09b7154672d5f94284a86341147f9ea178a4944113858b434466bd85fedd318",
-        "after_sha256": "1a044dde9dc7f063aed994c3e3eb94e192ab53258a4da47d600e1dfb3715abca"
+        "after_sha256": "8e2e995aebc452f4d04851f72bd6a4fe0976abca1a0a0ba269697aa31dfaccbf"
       },
       {
         "path": "data/objects/units/NewUnits/h06D.json",
@@ -1133,103 +1521,103 @@
         "path": "data/objects/units/NewUnits/n00M.json",
         "rawcode": "n00M",
         "before_sha256": "386e4441b036635639b59edbc8eb28b380dc4d7009ce86aec03cfab074f93e5c",
-        "after_sha256": "ec2e68c86b2405043e18b7bfe653ea2a243e79f75e3718e2723874a0207ccf14"
+        "after_sha256": "77352eabee347f7274cf8104b24286e9bf4dd83e3213d1293120f12c0ff0af39"
       },
       {
         "path": "data/objects/units/NewUnits/o000.json",
         "rawcode": "o000",
         "before_sha256": "d26571c41552b1c0c0e54702c530e67ac8a2c2fa35bd04fbcc58d6458a1b2b55",
-        "after_sha256": "2c76a393f4a4e913f41ac0519b169a31c9c8e18cebfd9eef7bc1021b6476a180"
+        "after_sha256": "81a1af2df088ed26febff509ead32abbdcb707d2f329719e64cc20397303be6e"
       },
       {
         "path": "data/objects/units/NewUnits/O004.json",
         "rawcode": "O004",
         "before_sha256": "db1d1dcba4c770d1c3b8dc05b5d3548e23a8b1fc91a6b60247069c1298a1db2d",
-        "after_sha256": "e5a96ebad8766fab068a58a938a59790c1985c790785a79eca8c3720832db005"
+        "after_sha256": "cf2cbd7506e2d34b2a9ee2ef6678a87f622413308cb2f85989578df9ff8dc2a6"
       },
       {
         "path": "data/objects/units/NewUnits/o005.json",
         "rawcode": "o005",
         "before_sha256": "b324629aba4b9779841cf591652bf5654a669b25392dc460074286027382d72c",
-        "after_sha256": "38335b9deaa0f776b8774f5951966c892a7454375ea295645530071a5534adb4"
+        "after_sha256": "d5c7240436f7f12366bd95e12b7044888dc7edee2446104d438a7277e2b969e7"
       },
       {
         "path": "data/objects/units/NewUnits/O008.json",
         "rawcode": "O008",
         "before_sha256": "89337f86f0dfd045674b847cb0a610492ce5c738f9bd6ddcc2ea1ea41582853e",
-        "after_sha256": "ca534c54b296e159519dbe898baaaf337dcbd8cca27549895ec8bd563c494c44"
+        "after_sha256": "aaab8c8f88a488cf3a322cbeb470d82d99b97c85562779bf0bd7200d7d765ade"
       },
       {
         "path": "data/objects/units/NewUnits/O00A.json",
         "rawcode": "O00A",
         "before_sha256": "4c27aa49cb2bbd7a5c3c5717b597f34faefb6e355e3295fb667cae4bfff0211e",
-        "after_sha256": "054f46b4f1dbc48d223e231f49a4aa035ca90eb41afdd2b09ae7596c67ecda48"
+        "after_sha256": "bb5bab3b7a000846470b3a9fa632ad5e30bce77c7f1b919181fac3596963a95f"
       },
       {
         "path": "data/objects/units/NewUnits/O00D.json",
         "rawcode": "O00D",
         "before_sha256": "af606a84d04f1bb16b245196e13a0f2b2554466a0515935e5bb604488002d5c8",
-        "after_sha256": "20e8ae491888617bcb49c6d89a25d884b2a5facdbaedfc238f83c841d169fbbf"
+        "after_sha256": "5c9987546cd5421a9fa5a17abb70465a351dca271640af35e195afdee40c86b8"
       },
       {
         "path": "data/objects/units/NewUnits/O00L.json",
         "rawcode": "O00L",
         "before_sha256": "55196f66070db65669411a780a7ee37f7976c955f16537242864ee7505cfd561",
-        "after_sha256": "5c66b1a7bef0fa99a5be156dccf8aa0b9682a29c91b2872c7beef55592e6b38a"
+        "after_sha256": "db6f477d05078130a645dfa59ace7a2ea9771387c17affbcec0960701908e452"
       },
       {
         "path": "data/objects/units/NewUnits/O00S.json",
         "rawcode": "O00S",
         "before_sha256": "8a0b52dd6ac4fe71838b595f56adcd0f52ba64a38f54d11c548c85a223f79ae5",
-        "after_sha256": "472a3dd9434a11abc166bc9eaa4791a24466b4c5ab525c178f66786b0754deda"
+        "after_sha256": "e88448b24510ea0ea65663be146606ea090df159382e9db439921401f608d4fd"
       },
       {
         "path": "data/objects/units/NewUnits/O016.json",
         "rawcode": "O016",
         "before_sha256": "8adfd3a87f1b00ef4671ce83cd6dba3dc437cb15fd73a8628774b198d73a9a19",
-        "after_sha256": "9e6d8e18db07585a0acc327138bfc550215aa85370890e5d308fe88d0f704d66"
+        "after_sha256": "a8a8463ce87a4043de3b80f211068717e831506fc96f7013b192627c79397245"
       },
       {
         "path": "data/objects/units/NewUnits/O01D.json",
         "rawcode": "O01D",
         "before_sha256": "9f18a8d930bc0bc849802a28e17572232ff1afe3b59c7294092f8249ef4f1e52",
-        "after_sha256": "22976b876b834b544cc22745bb336e84f1dcf76ed2b11f56029d504ae1f81ab3"
+        "after_sha256": "90802207bd1081eed61fa552343b92b832d09ebb2cabe2df4af9c00542d43ace"
       },
       {
         "path": "data/objects/units/NewUnits/o01E.json",
         "rawcode": "o01E",
         "before_sha256": "64e20faa9ab6e8d8db4309556567f5ab1e62a137ecaa63dc1e97ed104a4a7b1e",
-        "after_sha256": "a9ebcfaf55b15fa52cf5fe852bb2113c702aa05ee39a55574047be5f0ee535bf"
+        "after_sha256": "4dfc4fab3950390b6afe3a3f0cea6b0bdfadceb51b30a7877f4b297e0f7b06af"
       },
       {
         "path": "data/objects/units/NewUnits/O01V.json",
         "rawcode": "O01V",
         "before_sha256": "b7869b74962849a069b9b326b43bece896b1092aa7435d1956b87fe6a382ef00",
-        "after_sha256": "a7ae9c68e2f59e9a0e71be6bf9c4e8f7ca3fb91f2488f219a6444bc49de25a7a"
+        "after_sha256": "5d496d8c971580aaf9544b0f6cee3032fdf3758f1200339193c3cf26577870d0"
       },
       {
         "path": "data/objects/units/NewUnits/O01X.json",
         "rawcode": "O01X",
         "before_sha256": "afef17ca12110f3da07befbccee8fc169cf169933be1b8bf5a729731aae552a9",
-        "after_sha256": "07be195404127c3bb8da6ae60268ea8183e43f7cbcd98d0a4468dc9e9c07cda2"
+        "after_sha256": "9869882ae84996a68e96908b274c1cd3e6be43fec3c014b806bd3bb3451ae60d"
       },
       {
         "path": "data/objects/units/NewUnits/O01Z.json",
         "rawcode": "O01Z",
         "before_sha256": "fc54943b8acf96cb59422704aa6188bace08d10042e819f8750f2931242a97fe",
-        "after_sha256": "e33b1e2efd266550b3ac84834bb3e02bdd03c09a94af74a65a7d02e284ac4ea6"
+        "after_sha256": "a176eb18f52f395a3ef447c2d81cf56acce7cee12bd9d0e59e67ef776a908573"
       },
       {
         "path": "data/objects/units/NewUnits/o026.json",
         "rawcode": "o026",
         "before_sha256": "a2fb400a9da5c707367a7c6c95aeea837c9883649f100c938a5145ed3c6dfb1a",
-        "after_sha256": "2a02c01fb765917b331b5cabcabf59bfb5522ab987c6d6c2b5ecfb9d94921151"
+        "after_sha256": "c9c249f6e3dd1231d46d9c4332d0548045d8145cffe7efedb3482158658cbd35"
       },
       {
         "path": "data/objects/units/NewUnits/u007.json",
         "rawcode": "u007",
         "before_sha256": "c1782b57f933a9872ee2f15ded872915b2b765ddd9851b71693aae8997d5817c",
-        "after_sha256": "dfffc8774bfec8fcfed720eaf6a0ed66e94e99ea6bc97be1593340d1bbed60d5"
+        "after_sha256": "1c78b5f04f1fa55ed71a5e9bcf974ebcbed0e64a532a67eed06153b501157fbc"
       },
       {
         "path": "data/objects/units_skin/NewUnits/e00R.json",
@@ -1247,7 +1635,7 @@
         "path": "data/objects/units_skin/NewUnits/h063.json",
         "rawcode": "h063",
         "before_sha256": "db20bbaf28691db0fa8ab15cdd3a7b5dff6701571fd99ccbc9b08f0b76c5dd3f",
-        "after_sha256": "1910c3f55226d5a6a5a5c6b3aae0e140065f40351c4af12a8e2918e53ff9a896"
+        "after_sha256": "bb642187ec9ffcf6e9d0d65032b4ccf0e25756bd9d256df1a0fab130c97c3022"
       },
       {
         "path": "data/objects/units_skin/NewUnits/H064.json",
@@ -1737,7 +2125,7 @@
       {
         "file": "war3map.w3a",
         "before_sha256": "20577a87d73b5039be915c282d1e45bddb6caae2f1fd2407775aa52106185057",
-        "after_sha256": "f8d68b24226799c19bd9280be50383142054a58a806632c40619199054cba244"
+        "after_sha256": "c163848ac05b51dfdb609078b3e16ba37c8ba30b3e88978dc90cfc608b81b0f9"
       },
       {
         "file": "war3map.w3c",
@@ -1767,7 +2155,7 @@
       {
         "file": "war3map.w3u",
         "before_sha256": "5a13fce2f35102be1bc527c55db73e58065cdf5f2e99f928d0aee06b641d9927",
-        "after_sha256": "14e923e8d3789e1e5297efa5c5c1856d7c7029645cdf63e96e78aab9c5cb76c6"
+        "after_sha256": "735a20ef8b988fe6744a23b579caf26a5647e692c1c4c8362647e382ea2d38be"
       },
       {
         "file": "war3map.wpm",
@@ -1797,7 +2185,7 @@
       {
         "file": "war3mapSkin.w3u",
         "before_sha256": "9bae2f4195a198e264ccc4cbf21eeca3c76817194dfe7ccacef9c8abcb3189e7",
-        "after_sha256": "cddfcb8146c98353e6528e3792d3fdc0eedad50bfbe3bedc637300222a5a0b28"
+        "after_sha256": "f8a158a2c5ba895f8f67beddfba500267f7de909354fb7a6f56e23756e0df104"
       },
       {
         "file": "war3mapUnits.doo",
@@ -1807,7 +2195,7 @@
       {
         "file": "war3map.wts",
         "before_sha256": "b9bf979001f372ff5f88ead0b2c7bac9fd61a965ad59097c2c9fed8cdad6b8ef",
-        "after_sha256": "9b8538a0e06c370a9c56bbe9cb7a84252eca79722bea65d71c63f36830a73a47"
+        "after_sha256": "529afd5fef69edb64640f309c18cbfb8a8160fa48a88e91ecb8248438d393413"
       }
     ],
     "verification": "tests/gameplay_patch.lua and tests/gameplay_objects.py; immutable r8 suites remain independently executable.",
@@ -1908,7 +2296,18 @@
     },
     "wait_functions_checked": 26,
     "unit_index_single_writer": true,
-    "limit": "Static review guards, not proof of multiplayer synchronization. Native shop UI, preload and gameplay still require live testing."
+    "native_lifetime_guards": "No direct chunk-scope allocations or GUI timer-global helpers; perpetual timer reachability tested separately.",
+    "limit": "Static review guards, not proof of multiplayer synchronization. Native shop UI, preload and gameplay still require live testing.",
+    "lifetime_guard_regressions": {
+      "result": "passed",
+      "cases": 13
+    },
+    "transient_timer_migration": {
+      "result": "passed",
+      "modules": 9,
+      "native_calls_replaced": 34,
+      "other_callback_logic": "byte-identical after newline normalization; separate Cosmic Strike fix excluded and behavior-tested"
+    }
   },
   "editor_categories": 19,
   "archive_roundtrip": true,

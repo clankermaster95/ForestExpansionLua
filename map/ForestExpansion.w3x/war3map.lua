@@ -1,6 +1,21 @@
 -- BEGIN FOREST MODULE src/runtime.lua
 -- Compatibility operations used by the typed JASS port. Lua 5.3+.
 -- Keep engine natives and handle IDs supplied by Warcraft III.
+-- Legacy callbacks often retain only an integer timer ID in a native hashtable.
+-- Own their Lua timer wrappers until explicit cancellation/completion instead
+-- of depending on engine GC behavior. Never traverse this map for gameplay.
+FE_Timers = {}
+local ownedTimers = {}
+function FE_Timers.create()
+    local timer = CreateTimer()
+    ownedTimers[timer] = true
+    return timer
+end
+function FE_Timers.destroy(timer)
+    if timer ~= nil then ownedTimers[timer] = nil end
+    DestroyTimer(timer)
+end
+
 local __forestInt32 = math.maxinteger == 2147483647
 local __forestReal32 = (16777216.0 + 1.0) == 16777216.0
 
@@ -102,11 +117,11 @@ PassiveMissiles__PM_KEY_VOLLEY_CASTER = 0
 PassiveMissiles__PM_KEY_VOLLEY_REMAINING = 1
 PassiveMissiles__PM_KEY_TORNADO_OWNER = 100
 PassiveMissiles__PM_KEY_TORNADO_BASE_LEVEL = 101
-PassiveMissiles__PM_Casters = CreateGroup()
-PassiveMissiles__PM_EnumGroup = CreateGroup()
-PassiveMissiles__PM_CastTimer = CreateTimer()
-PassiveMissiles__PM_MoveTimer = CreateTimer()
-PassiveMissiles__PM_Hash = InitHashtable()
+PassiveMissiles__PM_Casters = nil
+PassiveMissiles__PM_EnumGroup = nil
+PassiveMissiles__PM_CastTimer = nil
+PassiveMissiles__PM_MoveTimer = nil
+PassiveMissiles__PM_Hash = nil
 PassiveMissiles__PM_Source = nil
 PassiveMissiles__PM_Count = 0
 PassiveMissiles__PM_Fx = __jarray(nil)
@@ -128,8 +143,8 @@ SpellLeech__SL_REQUIRE_DAMAGE_TYPE_MAGIC = false
 SpellLeech__SL_ACTIVATE_EFFECT = "Abilities\\Spells\\Items\\AIre\\AIreTarget.mdl"
 SpellLeech__SL_HEAL_EFFECT = "Abilities\\Spells\\Human\\Heal\\HealTarget.mdl"
 SpellLeech__SL_SHOW_HEAL_EFFECT = false
-SpellLeech__SL_Clock = CreateTimer()
-SpellLeech__SL_Hash = InitHashtable()
+SpellLeech__SL_Clock = nil
+SpellLeech__SL_Hash = nil
 udg_Units = __jarray(0)
 udg_Point1 = nil
 udg_Gold = 0
@@ -1017,8 +1032,8 @@ FeedRate_PendingRateReceived = __jarray(false)
 FeedRate_PendingRate = __jarray(0)
 FeedRate_PendingNameReceived = __jarray(false)
 FeedRate_PendingName = __jarray(nil)
-SNIPESHOT_Hash = InitHashtable()
-SNIPESHOT_Group = CreateGroup()
+SNIPESHOT_Hash = nil
+SNIPESHOT_Group = nil
 SNIPESHOT_ABILITY_ID = FourCC("A0F7")
 SNIPESHOT_DUMMY_ID = FourCC("h06G")
 SNIPESHOT_STUN_ABILITY_ID = FourCC("A0F9")
@@ -1033,7 +1048,7 @@ SNIPESHOT_COLLISION = __jreal(96.00)
 SNIPESHOT_DAMAGE_PER_STEP = __jreal(100.00)
 SNIPESHOT_DAMAGE_DISTANCE_STEP = __jreal(100.00)
 SNIPESHOT_MISSILE_HEIGHT = __jreal(60.00)
-DashHash = InitHashtable()
+DashHash = nil
 DASH_RANGE = __jreal(1000.00)
 DASH_SPEED = __jreal(2000.00)
 DASH_PERIOD = __jreal(0.03)
@@ -1052,7 +1067,7 @@ UPG_ABILITY_ID = FourCC("A08P")
 UPG_UPGRADE_ID = FourCC("R01J")
 UPG_BASE_ABILITY_LEVEL = 1
 UPG_MAX_ABILITY_LEVEL = 11
-UPG_TempGroup = CreateGroup()
+UPG_TempGroup = nil
 UPG_ResearchTrig = nil
 UPG_EnterTrig = nil
 UPG_WorldRegion = nil
@@ -1066,8 +1081,8 @@ MOONBLAST_MISSILE_MODEL = "war3mapImported\\StarfallMissle.mdx"
 BURST_DRAGONIC_ABIL_ID = FourCC("A02B")
 BURST_LICH_ABIL_ID = FourCC("A008")
 BURST_PERIOD = __jreal(0.031250)
-BURST_ENUM_GROUP = CreateGroup()
-BURST_TIMER = CreateTimer()
+BURST_ENUM_GROUP = nil
+BURST_TIMER = nil
 BURST_COUNT = 0
 BURST_CASTER = __jarray(nil)
 BURST_TARGET = __jarray(nil)
@@ -1094,7 +1109,7 @@ TP_DUMMY_CAST_DELAY = __jreal(0.00)
 TP_DUMMY_LIFETIME = __jreal(6.00)
 TP_DUMMY_OWNER = Player(12)
 TP_HASH = nil
-WW_Hash = InitHashtable()
+WW_Hash = nil
 WW_ABILITY_ID = FourCC("A0EO")
 WW_BUFF_ID = FourCC("B03X")
 WW_SPAWN_ID = FourCC("u00M")
@@ -1123,8 +1138,8 @@ TORNADO_KEY_SPEED = 11
 TORNADO_KEY_DYING = 12
 TORNADO_CASTER_KEY_TIMER = 100
 udg_TornadoHash = nil
-DAS_Hash = InitHashtable()
-DAS_EnumGroup = CreateGroup()
+DAS_Hash = nil
+DAS_EnumGroup = nil
 DAS_DUST_CAST_ABILITY_ID = FourCC("AItb")
 DAS_DUST_BUFF_ID = FourCC("Bdet")
 DAS_SLOW_AURA_ID = FourCC("A0FA")
@@ -1141,7 +1156,7 @@ gg_trg_AncientTeleport = nil
 TeleportEnableTimer = nil
 teleportRegion = nil
 ENABLE_DELAY = __jreal(50.0)
-LackeyRespawn_Hash = InitHashtable()
+LackeyRespawn_Hash = nil
 LACK_RESPAWN_DELAY = __jreal(60.00)
 LACK_RESPAWN_KEY_TYPE = 0
 LACK_RESPAWN_KEY_PLAYER = 1
@@ -1225,6 +1240,31 @@ f__arg_trigger1 = nil
 f__arg_string1 = nil
 f__arg_limitop1 = nil
 f__arg_real1 = 0.0
+
+-- Native handles are created during synchronized map initialization, never
+-- while loading the Lua chunk. Preserve their original declaration order.
+local nativeGlobalsInitialized = false
+function FE_InitNativeGlobals()
+    if nativeGlobalsInitialized then return end
+    nativeGlobalsInitialized = true
+    PassiveMissiles__PM_Casters = CreateGroup()
+    PassiveMissiles__PM_EnumGroup = CreateGroup()
+    PassiveMissiles__PM_CastTimer = CreateTimer()
+    PassiveMissiles__PM_MoveTimer = CreateTimer()
+    PassiveMissiles__PM_Hash = InitHashtable()
+    SpellLeech__SL_Clock = CreateTimer()
+    SpellLeech__SL_Hash = InitHashtable()
+    SNIPESHOT_Hash = InitHashtable()
+    SNIPESHOT_Group = CreateGroup()
+    DashHash = InitHashtable()
+    UPG_TempGroup = CreateGroup()
+    BURST_ENUM_GROUP = CreateGroup()
+    BURST_TIMER = CreateTimer()
+    WW_Hash = InitHashtable()
+    DAS_Hash = InitHashtable()
+    DAS_EnumGroup = CreateGroup()
+    LackeyRespawn_Hash = InitHashtable()
+end
 -- END FOREST MODULE src/globals.lua
 
 -- BEGIN FOREST MODULE src/players/roles.lua
@@ -1814,7 +1854,10 @@ function FE_Shops.init()
         TriggerRegisterPlayerUnitEventSimple(selected, player, EVENT_PLAYER_UNIT_SELECTED)
     end)
     TriggerAddAction(selected, FE_Shops.onSelected)
-    TimerStart(CreateTimer(), 0.25, true, FE_Shops.tick)
+    -- Retain the repeating timer for the map's lifetime; its callback does not
+    -- capture the handle, so a temporary argument alone is not a Lua owner.
+    FE_Shops.timer = CreateTimer()
+    TimerStart(FE_Shops.timer, 0.25, true, FE_Shops.tick)
 end
 -- END FOREST MODULE src/items/shops.lua
 
@@ -3166,7 +3209,7 @@ function PassiveMissiles__ContinueVolley()
         TimerStart(t, PassiveMissiles__PM_LAUNCH_DELAY, false, PassiveMissiles__ContinueVolley)
     else
         FlushChildHashtable(PassiveMissiles__PM_Hash, id)
-        DestroyTimer(t)
+        FE_Timers.destroy(t)
     end
     caster = nil
     t = nil
@@ -3182,7 +3225,7 @@ function PassiveMissiles__StartVolley(caster, count)
         return
     end
     if (count > 1) then
-        t = CreateTimer()
+        t = FE_Timers.create()
         id = GetHandleId(t)
         SaveUnitHandle(PassiveMissiles__PM_Hash, id, PassiveMissiles__PM_KEY_VOLLEY_CASTER, caster)
         SaveInteger(PassiveMissiles__PM_Hash, id, PassiveMissiles__PM_KEY_VOLLEY_REMAINING, __jint(count - 1))
@@ -3399,7 +3442,7 @@ end
 
 -- BEGIN FOREST MODULE src/commands/test_data.lua
 -- Generated by tools/test_data.py; edit object data/project.json, not this file.
-FE_TestData = {units={}, items={}, catalog={}, pickers={}, releaseLabel="3.2.0 r10"}
+FE_TestData = {units={}, items={}, catalog={}, pickers={}, releaseLabel="3.2.0 r11"}
 FE_TestData.units["E000"] = true
 FE_TestData.catalog[#FE_TestData.catalog+1] = {kind="units", raw="E000", name="Centaur Warcaller"}
 FE_TestData.units["E00T"] = true
@@ -4470,7 +4513,7 @@ FE_TestData.pickers[#FE_TestData.pickers+1] = {raw="h05C", shop="gg_unit_n00G_00
 FE_TestData.pickers[#FE_TestData.pickers+1] = {raw="n00M", shop="gg_unit_n00G_0035", ban="udg_BannedHighElf"}
 FE_TestData.pickers[#FE_TestData.pickers+1] = {raw="o026", shop="gg_unit_nmer_0000", ban="udg_BannedRatling"}
 FE_TestData.pickers[#FE_TestData.pickers+1] = {raw="h05W", shop="gg_unit_n00G_0035", ban="udg_BannedHunter"}
-FE_TestData.pickers[#FE_TestData.pickers+1] = {raw="h063", shop="gg_unit_n00G_0035", ban="udg_BannedCultist"}
+FE_TestData.pickers[#FE_TestData.pickers+1] = {raw="h063", shop="gg_unit_n00G_0035", ban="udg_BannedCultist", soloOnly=true}
 FE_TestData.pickers[#FE_TestData.pickers+1] = {raw="O01V", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientLight"}
 FE_TestData.pickers[#FE_TestData.pickers+1] = {raw="O016", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientLightning"}
 FE_TestData.pickers[#FE_TestData.pickers+1] = {raw="O00S", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientDragon"}
@@ -4567,7 +4610,7 @@ function FE_Test.skipPicking(player)
     end
     for _,entry in ipairs(FE_TestData.pickers) do
         local shop=_G[entry.shop]
-        if shop and GetUnitTypeId(shop)~=0 and _G[entry.ban]==0 then
+        if shop and GetUnitTypeId(shop)~=0 and _G[entry.ban]==0 and FE_Factions.available(entry) then
             RemoveUnitFromStock(shop,FourCC(entry.raw))
             AddUnitToStock(shop,FourCC(entry.raw),1,1)
         end
@@ -5790,8 +5833,9 @@ function FE_Combat.init()
     FE_Combat.initialized = true
     FE_Combat.listen("udg_DamageEvent", 1, FE_Combat.attackLanded)
     FE_Combat.listen("udg_DamageEvent", 99, FE_Combat.limitPoison)
-    local timer = CreateTimer()
-    TimerStart(timer, 0.25, true, FE_Combat.tickDots)
+    -- Keep a Lua owner for the repeating native timer and its callback.
+    FE_Combat.timer = CreateTimer()
+    TimerStart(FE_Combat.timer, 0.25, true, FE_Combat.tickDots)
 end
 
 -- combat / common
@@ -6367,7 +6411,7 @@ function Trig_TSERegister_Actions()
     ConditionalTriggerExecute(udg_TSEOnIndexEvent)
     udg_TSE_I_RemainingDuration[udg_TSE__ActiveIndex] = udg_TSE__RemainingDuration
     if (Trig_TSERegister_Func034C()) then
-        StartTimerBJ(udg_TSE_CTimer, true, udg_TSE_TIMEOUT)
+        TimerStart(udg_TSE_CTimer, udg_TSE_TIMEOUT, true, nil)
         EnableTrigger(udg_TSE_LoopTrigger)
     end
     udg_TSETargetUnit = nil
@@ -6819,7 +6863,7 @@ FE_Factions.expanders = {
     { key="HighElf", raw="n00M", shop="gg_unit_n00G_0035", ban="udg_BannedHighElf", message="Elf banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban HighElf", "-ban High Elf", "-ban High"} },
     { key="Ratling", raw="o026", shop="gg_unit_nmer_0000", ban="udg_BannedRatling", message="Ratling Stalker banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban rat", "-ban ratling", "-ban stalker"} },
     { key="Hunter", raw="h05W", shop="gg_unit_n00G_0035", ban="udg_BannedHunter", message="Bounty Hunter banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban hunter", "-ban bounty"} },
-    { key="Cultist", raw="h063", shop="gg_unit_n00G_0035", ban="udg_BannedCultist", message="Cultist banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban cultist"} },
+    { key="Cultist", raw="h063", shop="gg_unit_n00G_0035", ban="udg_BannedCultist", message="Cultist banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban cultist"}, soloOnly=true },
 }
 FE_Factions.ancients = {
     { key="AncientLight", raw="O01V", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientLight", message="Ancient of Light banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban light", "-ban divinity"}, spellbringerAbility="A0FB" },
@@ -6848,13 +6892,30 @@ end
 
 -- The catalog is generated above. Keep all native mutations in these synchronized
 -- event callbacks; catalog construction only stores strings and ordinary Lua data.
+function FE_Factions.available(entry)
+    if not entry.soloOnly then return true end
+    -- Eligibility is captured at match startup. Multiplayer departures never
+    -- unlock this catalog entry, and no client-local state is consulted.
+    return FE_Test ~= nil and FE_Test.initialized == true and FE_Test.player ~= nil
+end
+
 function FE_Factions.stock(kind)
     FE_Factions.stocked = FE_Factions.stocked or {}
-    if FE_Factions.stocked[kind] then return end
-    FE_Factions.stocked[kind] = true
+    local unlocked = kind == "expanders" and FE_Factions.pickingUnlocked or
+        kind == "ancients" and FE_Factions.ancientsUnlocked
+    local state = unlocked and "open" or "preview"
+    if FE_Factions.stocked[kind] == state then return end
+    local hadStock = FE_Factions.stocked[kind] ~= nil
+    FE_Factions.stocked[kind] = state
     for _, entry in ipairs(FE_Factions[kind]) do
-        if _G[entry.ban] == 0 then
-            AddUnitToStockBJ(FourCC(entry.raw), _G[entry.shop], entry.stock, entry.maximum)
+        if _G[entry.ban] == 0 and FE_Factions.available(entry) then
+            local raw, shop = FourCC(entry.raw), _G[entry.shop]
+            if hadStock then RemoveUnitFromStock(shop, raw) end
+            -- A zero cap keeps the visible preview empty even for units whose
+            -- normal replenish interval is one second. Unit requirements alone
+            -- do not gate ordinary mercenary purchases.
+            AddUnitToStockBJ(raw, shop, unlocked and entry.stock or 0,
+                unlocked and entry.maximum or 0)
         end
     end
 end
@@ -6866,6 +6927,7 @@ function FE_Factions.unlockPicking()
         SetPlayerTechResearched(player, FourCC("RFPK"), 1)
     end)
     FE_Factions.closeBans()
+    FE_Factions.stock("expanders")
 end
 
 function FE_Factions.showStock()
@@ -6875,17 +6937,33 @@ function FE_Factions.showStock()
 end
 
 function FE_Factions.unlockAncients()
+    if FE_Factions.ancientsUnlocked then return end
+    FE_Factions.ancientsUnlocked = true
     FE_Roles.forEachPlayer(function(player)
         SetPlayerTechResearched(player, FourCC("RFPA"), 1)
     end)
+    FE_Factions.stock("ancients")
 end
 
 function FE_Factions.fillRandomPool(pool, kind)
-    -- Keep the historical draw bounds, duplicates and ordering. Filtering bans
-    -- here would change both selection rules and subsequent random outcomes.
-    for index, key in ipairs(FE_Factions[kind]) do
-        pool[index] = FourCC(FE_Factions.byKey[key].raw)
+    -- Preserve catalog ordering and duplicate weights among unbanned choices.
+    -- Refresh at purchase time: the initial pool predates the ban phase.
+    local count = 0
+    for _, key in ipairs(FE_Factions[kind]) do
+        local entry = FE_Factions.byKey[key]
+        if _G[entry.ban] == 0 and FE_Factions.available(entry) then
+            count = count + 1
+            pool[count] = FourCC(entry.raw)
+        end
     end
+    for index = count + 1, #FE_Factions[kind] do pool[index] = nil end
+    return count
+end
+
+function FE_Factions.randomUnit(pool, kind)
+    local count = FE_Factions.fillRandomPool(pool, kind)
+    if count == 0 then return nil end
+    return pool[GetRandomInt(1, count)]
 end
 
 function FE_Factions.grantSpellbringerAbilities(getUnit)
@@ -6899,7 +6977,7 @@ end
 
 function FE_Factions.ban(key)
     local entry = FE_Factions.byKey[key]
-    if FE_Factions.bansClosed or udg_Bans == 0 or _G[entry.ban] == 1 then
+    if FE_Factions.bansClosed or udg_Bans == 0 or _G[entry.ban] == 1 or not FE_Factions.available(entry) then
         DisplayTextToForce(GetPlayersAll(), "Ban failed.")
         return
     end
@@ -6989,8 +7067,10 @@ function Trig_RandomExpander2_Conditions()
 end
 
 function Trig_RandomExpander2_Actions()
+    local raw = FE_Factions.randomUnit(udg_Units, "randomExpanders")
+    if raw == nil then return end
     udg_Point1 = GetUnitLoc(GetTriggerUnit())
-    CreateNUnitsAtLocFacingLocBJ(1, udg_Units[GetRandomInt(1, 18)], GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_E), GetRectCenter(gg_rct_Tele_out_E))
+    CreateNUnitsAtLocFacingLocBJ(1, raw, GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_E), GetRectCenter(gg_rct_Tele_out_E))
     RemoveLocation(udg_Point1)
     RemoveItem(GetManipulatedItem())
     DisplayTextToForce(GetPlayersAll(), (__jconcat(GetPlayerName(GetTriggerPlayer()), " has randomed.")))
@@ -7016,9 +7096,10 @@ function Trig_Random_Ancient_Func041002()
 end
 
 function Trig_Random_Ancient_Actions()
-    FE_Factions.fillRandomPool(udg_Ancients, "randomAncients")
+    local raw = FE_Factions.randomUnit(udg_Ancients, "randomAncients")
+    if raw == nil then return end
     udg_Point1 = GetUnitLoc(GetTriggerUnit())
-    CreateNUnitsAtLocFacingLocBJ(1, udg_Ancients[GetRandomInt(1, 33)], GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_D), GetRectCenter(gg_rct_Tele_out_E))
+    CreateNUnitsAtLocFacingLocBJ(1, raw, GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_D), GetRectCenter(gg_rct_Tele_out_E))
     udg_AncientUnit = GetLastCreatedUnit()
     RemoveLocation(udg_Point1)
     RemoveItem(GetManipulatedItem())
@@ -7332,11 +7413,11 @@ end
 -- BEGIN FOREST SECTION 253 TimeToExpanderSpawn
 function Trig_TimeToExpanderSpawn_Actions()
     if FE_Test and FE_Test.skipped then return end
-    StartTimerBJ(udg_ExpanderSpawnTimer, false, __jreal(19.00))
-    CreateTimerDialogBJ(GetLastCreatedTimerBJ(), "TRIGSTR_7401")
+    TimerStart(udg_ExpanderSpawnTimer, __jreal(19.00), false, nil)
+    CreateTimerDialogBJ(udg_ExpanderSpawnTimer, "TRIGSTR_7401")
     local dialog = GetLastCreatedTimerDialogBJ()
     if FE_Test and FE_Test.player then FE_Test.countdowns[#FE_Test.countdowns+1]={timer=udg_ExpanderSpawnTimer,dialog=dialog} end
-    TriggerSleepAction(__jreal(18.00))
+    TriggerSleepAction(__jreal(19.00))
     if FE_Test then FE_Test.releaseCountdown(dialog) end
     DestroyTimerDialogBJ(dialog)
 end
@@ -7351,8 +7432,8 @@ end
 -- BEGIN FOREST SECTION 254 TimeToAncientSpawn
 function Trig_TimeToAncientSpawn_Actions()
     if FE_Test and FE_Test.skipped then return end
-    StartTimerBJ(udg_AncientSpawnTimer, false, __jreal(40.00))
-    CreateTimerDialogBJ(GetLastCreatedTimerBJ(), "TRIGSTR_7400")
+    TimerStart(udg_AncientSpawnTimer, __jreal(40.00), false, nil)
+    CreateTimerDialogBJ(udg_AncientSpawnTimer, "TRIGSTR_7400")
     local dialog = GetLastCreatedTimerDialogBJ()
     if FE_Test and FE_Test.player then FE_Test.countdowns[#FE_Test.countdowns+1]={timer=udg_AncientSpawnTimer,dialog=dialog} end
     TriggerSleepAction(__jreal(40.00))
@@ -8209,10 +8290,10 @@ function Hardmode_Start()
     local t = GetExpiredTimer()
     udg_HardmodeCanBeEnabled = false
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     if udg_HardmodeEnabled then
         Hardmode_GiveResources()
-        udg_HardmodePeriodicTimer = CreateTimer()
+        udg_HardmodePeriodicTimer = FE_Timers.create()
         TimerStart(udg_HardmodePeriodicTimer, __jreal(6.00), true, Hardmode_GiveResources)
     end
     t = nil
@@ -8230,7 +8311,7 @@ end
 function InitTrig_Hardmode()
     local i = 0
     local t = CreateTrigger()
-    local tm = CreateTimer()
+    local tm = FE_Timers.create()
     while true do
         if (i >= bj_MAX_PLAYERS) then break end
         TriggerRegisterPlayerChatEvent(t, Player(i), "-hardmode", true)
@@ -9009,7 +9090,7 @@ function LackeyRespawn_OnTimer()
     DestroyTimerDialog(td)
     FlushChildHashtable(LackeyRespawn_Hash, id)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     td = nil
     t = nil
 end
@@ -9031,7 +9112,7 @@ function Trig_Lackey_Respawn_Actions()
         owner = nil
         return
     end
-    t = CreateTimer()
+    t = FE_Timers.create()
     td = CreateTimerDialog(t)
     id = GetHandleId(t)
     SaveInteger(LackeyRespawn_Hash, id, LACK_RESPAWN_KEY_TYPE, unitType)
@@ -9131,7 +9212,7 @@ function SpawnLackey_EnsureSetup()
         SpawnLackey_Hash = InitHashtable()
     end
     if (SpawnLackey_GameTimer == nil) then
-        SpawnLackey_GameTimer = CreateTimer()
+        SpawnLackey_GameTimer = FE_Timers.create()
         TimerStart(SpawnLackey_GameTimer, __jreal(999999.00), false, nil)
     end
 end
@@ -9226,14 +9307,14 @@ function SpawnLackey_DelayedTimerExpires()
     end
     SpawnLackey_PlayerTimer[playerIndex] = nil
     FlushChildHashtable(SpawnLackey_Hash, timerId)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     t = nil
     deadPlayer = nil
 end
 
 function SpawnLackey_StartDelayedTimer(deadPlayer, lackeyType, remaining)
     local playerIndex = GetPlayerId(deadPlayer)
-    local t = CreateTimer()
+    local t = FE_Timers.create()
     SpawnLackey_EnsureSetup()
     if (remaining < __jreal(0.00)) then
         remaining = __jreal(0.00)
@@ -9241,7 +9322,7 @@ function SpawnLackey_StartDelayedTimer(deadPlayer, lackeyType, remaining)
     if (SpawnLackey_PlayerTimer[playerIndex] ~= nil) then
         PauseTimer(SpawnLackey_PlayerTimer[playerIndex])
         FlushChildHashtable(SpawnLackey_Hash, GetHandleId(SpawnLackey_PlayerTimer[playerIndex]))
-        DestroyTimer(SpawnLackey_PlayerTimer[playerIndex])
+        FE_Timers.destroy(SpawnLackey_PlayerTimer[playerIndex])
         SpawnLackey_PlayerTimer[playerIndex] = nil
     end
     if (SpawnLackey_PlayerDialog[playerIndex] ~= nil) then
@@ -10126,7 +10207,7 @@ end
 function FeedRate_ProcessPendingLoads()
     local t = GetExpiredTimer()
     local i = 0
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     while true do
         if (i >= FEEDRATE_MAX_PLAYERS) then break end
         FeedRate_ProcessPendingLoadForPlayer(Player(i))
@@ -10148,7 +10229,7 @@ end
 function FeedRate_StartLoadAll()
     local t = GetExpiredTimer()
     local i = 0
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     while true do
         if (i >= FEEDRATE_MAX_PLAYERS) then break end
         FeedRate_Loaded[i] = false
@@ -10165,7 +10246,7 @@ end
 function FeedRate_ShowDialogsForMissingLoads()
     local t = GetExpiredTimer()
     local i = 0
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     while true do
         if (i >= FEEDRATE_MAX_PLAYERS) then break end
         if (FeedRate_IsValidUser(Player(i)) and (not FeedRate_Loaded[i])) then
@@ -10195,9 +10276,9 @@ end
 
 function Trig_AutoFeedRate_Actions()
     local i = 0
-    local loadTimer = CreateTimer()
-    local processTimer = CreateTimer()
-    local dialogTimer = CreateTimer()
+    local loadTimer = FE_Timers.create()
+    local processTimer = FE_Timers.create()
+    local dialogTimer = FE_Timers.create()
     FeedRate_SetupDialog()
     FeedRate_SyncTrigger = CreateTrigger()
     FeedRate_NameSyncTrigger = CreateTrigger()
@@ -11136,7 +11217,7 @@ function SnipeShot_EndMissile(t)
     end
     FlushChildHashtable(SNIPESHOT_Hash, id)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     fx = nil
 end
 
@@ -11188,7 +11269,7 @@ function SnipeShot_MissileLoop()
 end
 
 function SnipeShot_StartMissile(caster, tx, ty)
-    local t = CreateTimer()
+    local t = FE_Timers.create()
     local id = GetHandleId(t)
     local p = GetOwningPlayer(caster)
     local x = GetUnitX(caster)
@@ -11291,7 +11372,7 @@ function Dash_Stop(t)
     end
     FlushChildHashtable(DashHash, id)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     e = nil
     u = nil
     t = nil
@@ -11395,7 +11476,7 @@ function Dash_Loop()
 end
 
 function StartDash(u, tx, ty)
-    local t = CreateTimer()
+    local t = FE_Timers.create()
     local id = GetHandleId(t)
     local ux = GetUnitX(u)
     local uy = GetUnitY(u)
@@ -11405,7 +11486,7 @@ function StartDash(u, tx, ty)
     local angle = 0.0
     local e = nil
     if (dist <= __jreal(10.00)) then
-        DestroyTimer(t)
+        FE_Timers.destroy(t)
         t = nil
         return
     end
@@ -11598,7 +11679,7 @@ end
 -- BEGIN FOREST MODULE src/races/cultist.lua
 -- Cultist research unlocks fixed-strength abilities; Profane Reach is native
 -- object research so trained/reborn units inherit all five upgrade levels.
-FE_Cultist = { units = {}, known = {}, sacrifice = {}, burst = {}, manual = {}, empowered = {}, auraUnits = {}, auraLevel = {}, ticks = 0 }
+FE_Cultist = { units = {}, known = {}, sacrifice = {}, burst = {}, manual = {}, empowered = {}, auraUnits = {}, auraLevel = {}, ticks = 0, initialized = false }
 
 function FE_Cultist.researched(unit, raw)
     return GetPlayerTechCount(GetOwningPlayer(unit), FourCC(raw), true) > 0
@@ -11705,6 +11786,8 @@ function FE_Cultist.tick()
 end
 
 function FE_Cultist.init()
+    if FE_Cultist.initialized then return end
+    FE_Cultist.initialized = true
     local orders = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(orders, EVENT_PLAYER_UNIT_ISSUED_ORDER)
     TriggerRegisterAnyUnitEventBJ(orders, EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER)
@@ -11718,8 +11801,9 @@ function FE_Cultist.init()
     FE_Roles.forEachPlayer(function(player) FE_Takeover.forUnits(player, FE_Cultist.track) end)
     FE_Combat.listen("udg_PreDamageEvent", 0.5, FE_Cultist.beforeDamage)
     FE_Combat.listen("udg_AfterDamageEvent", 1, FE_Cultist.afterDamage)
-    local timer = CreateTimer()
-    TimerStart(timer, 0.25, true, FE_Cultist.tick)
+    -- Keep a Lua owner for the repeating native timer and its callback.
+    FE_Cultist.timer = CreateTimer()
+    TimerStart(FE_Cultist.timer, 0.25, true, FE_Cultist.tick)
 end
 
 
@@ -14472,7 +14556,7 @@ function Trig_Moonblast_Cleanup(t)
     DestroyEffect(missile)
     FlushChildHashtable(udg_MoonblastHash, id)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     missile = nil
 end
 
@@ -14535,7 +14619,7 @@ function Trig_Moonblast_Actions()
         caster = nil
         return
     end
-    t = CreateTimer()
+    t = FE_Timers.create()
     id = GetHandleId(t)
     x = GetUnitX(caster)
     y = GetUnitY(caster)
@@ -15140,7 +15224,7 @@ function SSZ_RemoveSlow()
     end
     FlushChildHashtable(SSZ_HASH, tid)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     target = nil
     t = nil
 end
@@ -15152,7 +15236,7 @@ function SSZ_ApplySlow(target)
         UnitAddAbility(target, SSZ_SLOW_ID)
     end
     if (t == nil) then
-        t = CreateTimer()
+        t = FE_Timers.create()
         SaveTimerHandle(SSZ_HASH, uid, 0, t)
         SaveUnitHandle(SSZ_HASH, GetHandleId(t), 0, target)
     end
@@ -15237,10 +15321,13 @@ function Trig_Cosmic_Strike_2_Conditions()
 end
 
 function Trig_Cosmic_Strike_2_Actions()
-    SetUnitManaPercentBJ(udg_CosmicStrikeCaster, (__jreal(GetUnitManaPercent(GetEventDamageSource()) + __jreal(5.00))))
+    -- Damage Engine can dispatch this outside the original native damage
+    -- event. Use its matched caster instead of a stale native event response.
+    local caster = udg_CosmicStrikeCaster
+    SetUnitManaPercentBJ(caster, (__jreal(GetUnitManaPercent(caster) + __jreal(5.00))))
     udg_CosmicStrikeCount = (__jint(udg_CosmicStrikeCount - 1))
     if (udg_CosmicStrikeCount == 0) then
-        UnitRemoveBuffBJ(FourCC("B038"), udg_CosmicStrikeCaster)
+        UnitRemoveBuffBJ(FourCC("B038"), caster)
     end
     udg_CosmicStrikeCaster = nil
 end
@@ -15435,6 +15522,8 @@ end
 -- heals are rejected at their write; native healing/regen is capped every frame
 -- and before damage so it cannot be spent as extra HP on a following hit.
 FE_Ice = { casts = {}, targets = {}, health = {}, ticks = 0, initialized = false }
+-- Keep delayed Freeze Zone casts reachable until their native callbacks run.
+local freezeZoneTimers = {}
 
 function FE_Ice.blocked(unit)
     if not FE_Combat.alive(unit) then return false end
@@ -15540,8 +15629,9 @@ function FE_Ice.init()
     end
     FE_Combat.listen("udg_PreDamageEvent", -100, FE_Ice.beforeDamage)
     FE_Combat.listen("udg_DamageEvent", 100, FE_Ice.onDamage)
-    local timer = CreateTimer()
-    TimerStart(timer, 0.03125, true, FE_Ice.tick)
+    -- Keep a Lua owner for the repeating native timer and its callback.
+    FE_Ice.timer = CreateTimer()
+    TimerStart(FE_Ice.timer, 0.03125, true, FE_Ice.tick)
 end
 
 
@@ -15608,6 +15698,7 @@ function TP_DummyCastDelayed()
         UnitApplyTimedLife(dummy, FourCC("BTLF"), TP_DUMMY_LIFETIME)
     end
     FlushChildHashtable(TP_HASH, tid)
+    freezeZoneTimers[t] = nil
     DestroyTimer(t)
     target = nil
     dummy = nil
@@ -15629,6 +15720,7 @@ function TP_CastDebuff(target, level)
     SetUnitState(dummy, UNIT_STATE_MANA, __jreal(9999.00))
     SaveUnitHandle(TP_HASH, tid, 0, dummy)
     SaveUnitHandle(TP_HASH, tid, 1, target)
+    freezeZoneTimers[t] = true
     TimerStart(t, TP_DUMMY_CAST_DELAY, false, TP_DummyCastDelayed)
     dummy = nil
     t = nil
@@ -15929,7 +16021,7 @@ function WW_Stop(t, caster)
     end
     FlushChildHashtable(WW_Hash, GetHandleId(t))
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
 end
 
 function WW_CreateSpawn(caster)
@@ -15978,7 +16070,7 @@ function WW_Actions()
     end
     SaveBoolean(WW_Hash, casterId, 0, true)
     WW_CreateSpawn(caster)
-    t = CreateTimer()
+    t = FE_Timers.create()
     SaveUnitHandle(WW_Hash, GetHandleId(t), 0, caster)
     TimerStart(t, WW_PERIOD, true, WW_Loop)
     t = nil
@@ -16025,7 +16117,7 @@ function Tornado_Begin_Death(t)
     end
     FlushChildHashtable(udg_TornadoHash, id)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     fx = nil
     caster = nil
     t = nil
@@ -16078,7 +16170,7 @@ function Tornado_Line_Loop()
     if (fx == nil) then
         FlushChildHashtable(udg_TornadoHash, id)
         PauseTimer(t)
-        DestroyTimer(t)
+        FE_Timers.destroy(t)
         caster = nil
         t = nil
         return
@@ -16150,7 +16242,7 @@ function Tornado_Line_Actions()
     BlzSetSpecialEffectOrientation(fx, angle, __jreal(0.00), __jreal(0.00))
     BlzSetSpecialEffectPosition(fx, x, y, __jreal(0.00))
     BlzPlaySpecialEffect(fx, ANIM_TYPE_STAND)
-    t = CreateTimer()
+    t = FE_Timers.create()
     id = GetHandleId(t)
     SaveEffectHandle(udg_TornadoHash, id, TORNADO_KEY_EFFECT, fx)
     SaveReal(udg_TornadoHash, id, TORNADO_KEY_X, x)
@@ -17105,7 +17197,7 @@ function DAS_StopTracking(target)
     if (t ~= nil) then
         PauseTimer(t)
         FlushChildHashtable(DAS_Hash, GetHandleId(t))
-        DestroyTimer(t)
+        FE_Timers.destroy(t)
         RemoveSavedHandle(DAS_Hash, GetHandleId(target), DAS_KEY_TRACK_TIMER)
     end
     t = nil
@@ -17120,7 +17212,7 @@ function DAS_TrackLoop()
     if (target == nil) then
         PauseTimer(t)
         FlushChildHashtable(DAS_Hash, GetHandleId(t))
-        DestroyTimer(t)
+        FE_Timers.destroy(t)
         t = nil
         dustOwner = nil
         return
@@ -17165,7 +17257,7 @@ function DAS_StartTracking(target, dustOwner)
         t = nil
         return
     end
-    t = CreateTimer()
+    t = FE_Timers.create()
     SaveTimerHandle(DAS_Hash, GetHandleId(target), DAS_KEY_TRACK_TIMER, t)
     SaveUnitHandle(DAS_Hash, GetHandleId(t), DAS_KEY_TIMER_TARGET, target)
     SavePlayerHandle(DAS_Hash, GetHandleId(t), DAS_KEY_TIMER_OWNER, dustOwner)
@@ -17644,6 +17736,7 @@ end
 -- BEGIN FOREST MODULE src/bootstrap.lua
 -- Runs after editor-generated sounds, regions, destructables, units and InitBlizzard.
 function InitTrig_FE_Bootstrap()
+    FE_InitNativeGlobals()
     ExecuteFunc("jasshelper__initstructs149790140")
     ExecuteFunc("PassiveMissiles__Init")
     ExecuteFunc("SpellLeech__Init")

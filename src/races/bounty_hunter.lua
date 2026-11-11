@@ -59,7 +59,7 @@ function SnipeShot_EndMissile(t)
     end
     FlushChildHashtable(SNIPESHOT_Hash, id)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     fx = nil
 end
 
@@ -111,7 +111,7 @@ function SnipeShot_MissileLoop()
 end
 
 function SnipeShot_StartMissile(caster, tx, ty)
-    local t = CreateTimer()
+    local t = FE_Timers.create()
     local id = GetHandleId(t)
     local p = GetOwningPlayer(caster)
     local x = GetUnitX(caster)
@@ -214,7 +214,7 @@ function Dash_Stop(t)
     end
     FlushChildHashtable(DashHash, id)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     e = nil
     u = nil
     t = nil
@@ -318,7 +318,7 @@ function Dash_Loop()
 end
 
 function StartDash(u, tx, ty)
-    local t = CreateTimer()
+    local t = FE_Timers.create()
     local id = GetHandleId(t)
     local ux = GetUnitX(u)
     local uy = GetUnitY(u)
@@ -328,7 +328,7 @@ function StartDash(u, tx, ty)
     local angle = 0.0
     local e = nil
     if (dist <= __jreal(10.00)) then
-        DestroyTimer(t)
+        FE_Timers.destroy(t)
         t = nil
         return
     end

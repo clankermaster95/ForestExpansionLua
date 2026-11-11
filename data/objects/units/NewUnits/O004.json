@@ -179,6 +179,13 @@
       "Value": "RFPK,RFPA",
       "SanityCheck": 0,
       "_field": "ureq"
+    },
+    {
+      "Id": 1634562933,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "usma"
     }
   ],
   "_rawcode": "O004",

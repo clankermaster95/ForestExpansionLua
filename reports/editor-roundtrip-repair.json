@@ -9,7 +9,7 @@
   "string_table": {
     "before_sha256": "bc966b002139c56898927c3a72ad9f7669c885945454c3a24c593d58be2d81ef",
     "after_sha256": "364b8da8da1d2f25c571d8dafaa11dce8f8ef4d580c77628ed4ba5cec438a8b3",
-    "review": "Native editor encoded literal object text into WTS. Existing overrides resolve identically before/after apart from Cultist missile speed normalized to its 900 skin value; explicit omitted overrides restored separately.",
+    "review": "Native editor encoded literal object text into WTS. Existing overrides resolved identically before/after apart from Cultist ua1s normalized to its skin value of 900; explicit omitted overrides restored separately. Later review identified ua1s as damage-dice sides, not projectile speed; the r11 correction preserves these historical save hashes.",
     "release_version": "3.2.0",
     "release_revision": "r9"
   }

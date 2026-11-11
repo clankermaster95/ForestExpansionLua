@@ -19,6 +19,7 @@ For an LLM, start with a concrete request such as:
 
 - Preserve event and initialization order, random draw order, timer cadence and numeric compatibility helpers unless the requested change requires different behavior.
 - Use `FE_Roles` for Ancient ownership. Keep gameplay mutations synchronized, outside local-player UI branches.
+- Allocate native handles during bootstrap or events, not Lua chunk loading. Keep recurring timers in their owning modules; use `FE_Timers.create/destroy` for transient timers with static callbacks. Avoid GUI timer globals. See `reports/desync-audit-r11.json` and the lifetime regressions.
 - Faction picks, ban aliases and ordered random pools live in `data/gameplay/factions.json`; recipes live in `data/gameplay/recipes.json`. Build regenerates their Lua catalogs.
 - Keep originally disabled triggers disabled and `original/` immutable. Preserve WTS UTF-8 BOM/CRLF through `tools/map_strings.py`.
 - Read [SOLO_TESTING.md](SOLO_TESTING.md) for the solo sandbox and [DEBUG_REFERENCE.md](DEBUG_REFERENCE.md) for spawn codes. Shop tracing is off by default.
@@ -155,7 +156,7 @@ The tool records a pending editor-save requirement and refuses to package stale 
 
 World Editor regenerates `war3map.lua` when saving. Changing only that file would lose the port. This project also writes all live Lua into the editor's custom-script header and custom-text trigger storage.
 
-Each visible Lua module has an empty editor initializer. One final `FE_Bootstrap` initializer invokes the original library initializers, original `InitGlobals`, original `InitCustomTriggers`, and original `RunInitializationTriggers`, in their original order. Those last three functions are renamed with an `FE_` prefix so the editor cannot overwrite them. Required trigger entry points, registration order, and vJASS-generated data structures remain compatible. The readability refactor explicitly retires unused/replaced helpers; see `reports/readability-refactor.json`. The original Damage Engine has not been replaced with a different Lua library/version.
+Each visible Lua module has an empty editor initializer. One final `FE_Bootstrap` initializer first allocates deferred native globals, then invokes the original library initializers, original `InitGlobals`, original `InitCustomTriggers`, and original `RunInitializationTriggers`, in their original order. Those last three functions are renamed with an `FE_` prefix so the editor cannot overwrite them. Required trigger entry points, registration order, and vJASS-generated data structures remain compatible. The readability refactor explicitly retires unused/replaced helpers; see `reports/readability-refactor.json`. The original Damage Engine has not been replaced with a different Lua library/version.
 
 The editor owns creation functions and main/config generation. The builder replaces only marked project code inside its saved script, preserving the editor's current creation/configuration code.
 

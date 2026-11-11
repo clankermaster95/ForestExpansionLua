@@ -1,0 +1,249 @@
+{
+  "reported_incident": {
+    "revision": "r10",
+    "stage": "middle of game, no specific trigger identified",
+    "reproduced": false,
+    "status": "Code audit and defensive fixes; actual incident cause remains unknown.",
+    "historical_context": "Maintainer also reports pre-Lua desync associations with Ghoul hero and Lightning, Sand, Ice Ancients; no exact triggering spell or replay identified."
+  },
+  "baseline_commit": "1858527708cb632a18448f1d6d560a6b27d0e82d",
+  "revision": "r11",
+  "active_modules_reviewed": 77,
+  "review_tracks": [
+    "Local player branches, preload/sync, shops, recipes, commands and localized data",
+    "Combat, damage engine, races, Ancients, missiles, asynchronous height, timers and waits",
+    "Bootstrap, player roles/roster, selection/bans/random, leavers/takeover, income, victory and solo gating"
+  ],
+  "fixes": [
+    {
+      "id": "gui-timer-global",
+      "files": [
+        "src/game/startup.lua",
+        "src/effects/timed.lua"
+      ],
+      "change": "Replace all three StartTimerBJ calls and both GetLastCreatedTimerBJ uses with TimerStart and explicitly owned handles.",
+      "mechanism": "StartTimerBJ overwrites Blizzard's root-created bj_lastStartedTimer, making that original handle eligible for garbage collection. A published minimal Lua repro identifies this pattern.",
+      "evidence_limit": "The cited author reproduced LAN failures but not the two Battle.net trials. Current-game incident was not reproduced."
+    },
+    {
+      "id": "chunk-load-allocations",
+      "files": [
+        "src/globals.lua",
+        "src/bootstrap.lua"
+      ],
+      "change": "Move 4 timer, 6 group and 7 hashtable allocations to ordered idempotent FE_InitNativeGlobals before existing library initializers.",
+      "mechanism": "Avoid native-object creation before native map initialization. Existing global references and relative library/trigger initialization order are retained.",
+      "evidence_limit": "Preventive hardening; these seventeen allocations are not proven to have caused a client mismatch."
+    },
+    {
+      "id": "periodic-timer-ownership",
+      "files": [
+        "src/combat/common.lua",
+        "src/ancients/avalanche.lua",
+        "src/races/cultist.lua",
+        "src/items/shops.lua"
+      ],
+      "change": "Retain all four perpetual timers in owning modules; prevent duplicate Cultist initialization.",
+      "mechanism": "No Lua reference previously retained these handles after initialization. Explicit ownership removes dependency on native wrapper retention and client-specific garbage collection timing.",
+      "evidence_limit": "Weak-native forced-GC double proves Lua ownership and continued callbacks, not current Warcraft garbage-collection behavior."
+    },
+    {
+      "id": "freeze-zone-delayed-timer",
+      "files": [
+        "src/ancients/avalanche.lua"
+      ],
+      "change": "Private strong ownership for pending Freeze Zone dummy-cast timers; release after expiry, with unchanged target/hashtable cleanup.",
+      "evidence_limit": "Forced-GC test validates Lua reachability; cannot explain pre-Lua incidents."
+    },
+    {
+      "id": "legacy-transient-timers",
+      "files": [
+        "src/runtime.lua",
+        "src/commands/player.lua",
+        "src/economy/feed.lua",
+        "src/players/lackeys.lua",
+        "src/libraries/passive_missiles.lua",
+        "src/ancients/wispari.lua",
+        "src/races/bounty_hunter.lua",
+        "src/races/wildkin.lua",
+        "src/items/effects.lua",
+        "src/ancients/nebula.lua"
+      ],
+      "change": "FE_Timers owns legacy timer wrappers until explicit native destruction. Nine modules mechanically replace 34 create/destroy calls; callback timing, expiry, rearm, native hashtable and cancellation logic remain unchanged.",
+      "identified_exposure": "13 transient creation sites lacked demonstrated strong Lua ownership; additional already-global timers in those modules use the same helpers consistently.",
+      "evidence_limit": "Defensive lifetime correction, not thirteen proven desync causes. Frozen r10 comparison proves other callback bodies unchanged, except separately tested Cosmic Strike correction."
+    },
+    {
+      "id": "cosmic-strike-context",
+      "files": [
+        "src/ancients/nebula.lua"
+      ],
+      "change": "Mana refund reads the captured caster instead of native GetEventDamageSource from an unrelated/synthetic damage context.",
+      "evidence_limit": "Confirmed gameplay/context bug; not established as a desync cause."
+    },
+    {
+      "id": "arcane-strike-interval",
+      "files": [
+        "data/objects/abilities/NewAbilities/A0AW.json"
+      ],
+      "change": "Set half-damage interval Hfs4 from zero to 1.0 while retaining zero half damage. Guard every authored Flame Strike interval and all Lightning/Sand levels.",
+      "evidence_limit": "Matches an independently reported freeze pattern. This old Arcane Strike definition has no active unit/script assignment found, so it is not evidence for the reported incident."
+    }
+  ],
+  "reviewed_without_demonstrated_divergence": [
+    "Eight GetLocalPlayer paths only affect presentation or local preload I/O. Feed settings are applied by synchronized receive handlers.",
+    "Shop buyer updates use synchronized selection events; no local IsUnitSelected query drives purchases.",
+    "No active pairs traversal, local clock/I/O/random path or gameplay branch using camera/selection state was found.",
+    "Bloodmage terrain Z affects lightning graphics only. Passive missile Z affects effects/sound; XY controls damage timing.",
+    "Cultist/Ice/Light state updates use ordered traversal. Native hashtable IDs are lookup keys, not cross-client messages or iteration order.",
+    "Solo eligibility is captured at startup, never re-enabled by multiplayer departures; takeover and role mutation use synchronized events."
+  ],
+  "independent_review": "A separate reviewer checked all17 allocation identities/order, eager aliases, first consumers, timer arguments/cadence and idempotence; no introduced lifecycle/order issue found. The second integration review confirmed all nine transient-timer migrations, no local ownership mutations, no uncovered active unowned timers, and unchanged expiry/rearm/cancellation behavior.",
+  "regressions": {
+    "native_initialization_assertions_per_runtime": 180,
+    "periodic_lifetime_assertions_per_runtime": 62,
+    "static_lifetime_guard_cases": 13,
+    "old_source_failures": [
+      {
+        "test": "tests/native_initialization.lua",
+        "old_source_fails": true,
+        "failure": "native constructor must not run at Lua chunk load"
+      },
+      {
+        "test": "tests/timer_lifetime.lua",
+        "old_source_fails": true,
+        "failure": "all perpetual timers remain reachable after collection"
+      },
+      {
+        "test": "tests/freeze_timer.lua",
+        "old_source_fails": true,
+        "failure": "both pending timer handles have a Lua owner"
+      },
+      {
+        "test": "tests/cosmic_context.lua",
+        "old_source_fails": true,
+        "failure": "restore five points from the matched caster mana"
+      }
+    ],
+    "transient_lifetime_assertions_per_runtime": 21,
+    "freeze_timer_assertions_per_runtime": 25,
+    "cosmic_context_assertions_per_runtime": 38,
+    "object_assertions": 6734,
+    "mechanical_timer_calls": 34,
+    "mechanical_timer_modules": 9,
+    "transient_timer_fixture_sha256": "8786cef3801d1de324ab68ad55b3361c8be016ceb0128f5a434a03778668252d"
+  },
+  "sources": [
+    {
+      "url": "https://us.forums.blizzard.com/en/warcraft3/t/lua-gui-timers-always-desync-minimal-repro/36941",
+      "scope": "Firsthand minimal repro and timer-global explanation; LAN/Battle.net caveat."
+    },
+    {
+      "url": "https://us.forums.blizzard.com/en/warcraft3/t/ds-bug-reports-lua-gui-timers-cause-desync/31606",
+      "scope": "Earlier firsthand Lua timer report; historical, not current-engine proof."
+    },
+    {
+      "url": "https://www.hiveworkshop.com/threads/callback-functions-and-garbage-collection.352133/",
+      "scope": "Authors discuss callback and timer references, with explicit patch-version caveats."
+    },
+    {
+      "path": "tools/reference-api/Blizzard.j",
+      "scope": "StartTimerBJ assignment and TimerStart argument contract."
+    },
+    {
+      "url": "https://www.hiveworkshop.com/threads/solved-game-freezing-only-with-one-hero.362010/",
+      "scope": "First-hand solved delayed freeze with zero Flame Strike half-damage interval. Lightning/Sand intervals checked; unused Arcane Strike zero fixed."
+    },
+    {
+      "url": "https://www.hiveworkshop.com/threads/feedback-compiled-list-of-bugs-issues-for-1-30-1.308210/page-6/",
+      "scope": "Historical first-hand Flame Strike/desync association, not a minimal reproduction or current-engine confirmation."
+    },
+    {
+      "url": "https://www.hiveworkshop.com/threads/damage-engine-5-a-0-0.201016/page-43",
+      "scope": "Library author documentation for source/target variables and damage callback phases."
+    },
+    {
+      "path": "tools/reference-api/common.j",
+      "scope": "Independent native constants map Hfs2/Hfs4 to full/half damage interval, ua1z to projectile speed, ua1s to damage dice sides."
+    }
+  ],
+  "limitations": [
+    "No Warcraft or World Editor launched.",
+    "No multiplayer reproduction, replay or deterministic incident trace supplied.",
+    "Offline tests do not prove absence of desyncs or validate native stock/projectile presentation."
+  ],
+  "archive_sha256": "03f733516a00ab774a6bbb6370ef60b9fc208065204a723d249f58c8f85586b2",
+  "validation_result": "Full current-map suite passed in both Lua numeric configurations.",
+  "source_sha256": {
+    "src/game/startup.lua": "1cee0d16d8c6cfac39a87074ea8e0adb5b69db6f2ecef98bab012ebe1f325bfc",
+    "src/effects/timed.lua": "05006cb5a85cd616c9da982bdfc0d9e6247e0e465f97c4e471a4756c4a245f90",
+    "src/globals.lua": "c3d9b9af6e32da209a3fc96d37ae24a915a5c87428b80102c474d500482d8549",
+    "src/bootstrap.lua": "59b4046a8121886cc0ffa68fb6dc81b96459edd7eee9fc7af16cc1cb91b5aecb",
+    "src/combat/common.lua": "21ea1162a7cdde240c5655f19823ed69244a3694155122e7566ba8ec93f895c9",
+    "src/ancients/avalanche.lua": "5ff776c2ee5696a570128df28ff5faeb604f04d29768393f2b8ca055fe51524a",
+    "src/races/cultist.lua": "a88e1f7de89cccf3d3fd7662af9d00d3813380dde1e951d54a1ef96e7f8bf468",
+    "src/items/shops.lua": "234d8f734fbe264a849e95422c2ffadb69577b60b194c2c1b77ffde25f0a0706",
+    "src/runtime.lua": "bd043a22c9671efe175d34307c3f6f469717180c718bc9e0b9513fdb6211c6da",
+    "src/commands/player.lua": "1e289cbafa464eaf5d03630bff23945d242025b58aef45a195e657bc637e5ca9",
+    "src/economy/feed.lua": "e7cd1d3f93f3b440b2c59758b2b206071c82ec3302ccf41592a788b3e25ac73f",
+    "src/players/lackeys.lua": "d5c03e3d26eef04cffb5432915283a18bdce8d235cc7a00597f3a4fe553b8d47",
+    "src/libraries/passive_missiles.lua": "3ef33e953b47228d57b03e1d316d948626666954df7961c737df08f11ee28b56",
+    "src/ancients/wispari.lua": "50d7fe77f81a0cdf425d852fe95100864a6c30e414a5470746e2682ab185b85e",
+    "src/races/bounty_hunter.lua": "a1ed9785617abadee8b8e1ac990983ce81e4113366a6b047e967af05ed86197c",
+    "src/races/wildkin.lua": "c501b694659a54ece4b10cee7efaa0f6ac530d5aba00ae284d39ecfec54ba707",
+    "src/items/effects.lua": "ae2705f37794f7a77f99645964ff0c4f80b5af2a8bd6ff718a3c0845f5eba1ac",
+    "src/ancients/nebula.lua": "a5a0c80c1668d9a65a54414846a08ea81d79cd2e8bae12d54c276316ec69defa",
+    "data/objects/abilities/NewAbilities/A0AW.json": "2a49c034410e329f45e0dff100904f1f7c6cec6412cca2098517b4d46211adbd"
+  },
+  "second_pass": {
+    "method": "Three targeted source/object/shared-system audits, comparison with immutable original JASS and object records, and primary bug-report research.",
+    "actors": [
+      {
+        "actor": "Ghoul hero: H01R Abomination",
+        "abilities": [
+          "A071 Hookstrike / Critical Strike",
+          "A01I Blink",
+          "A01P Plague / Slow Poison"
+        ],
+        "finding": "Native abilities, no hero-specific combat script; gameplay fields match original. No demonstrated client-divergence mechanism found."
+      },
+      {
+        "actor": "Lightning: O016",
+        "abilities": [
+          "A03S Lightning Strike",
+          "AFLT retaliation dummy"
+        ],
+        "finding": "Earlier native damage-context misuse and level-zero dummy casts already corrected in r10. Full/half damage intervals are nonzero at all seven levels. Historical Flame Strike desync reports are unconfirmed on the current engine."
+      },
+      {
+        "actor": "Sand: O01X Pharaoh",
+        "abilities": [
+          "A07Y Sandstorm",
+          "A07X Quicksand",
+          "A07Z Ancient Grasp",
+          "A080 Desert Veil",
+          "A082 Mummify"
+        ],
+        "finding": "Original native ability data retained; Sandstorm intervals positive at all levels. Original shared timer/dialog and delayed event-getter mistakes were already corrected before this audit. No new demonstrated desync mechanism."
+      },
+      {
+        "actor": "Ice: O008",
+        "abilities": [
+          "A008 Freezing Breath / BURST",
+          "A074 Absolute Zero",
+          "A0EX Freeze Zone",
+          "A00A Chill",
+          "A075 Sadism"
+        ],
+        "finding": "Original JASS explicitly records Freeze Zone V2 as a desync-avoidance replacement. Current version preserves it. BURST uses ordered XY-only collision. Newly retained delayed Freeze Zone timers extend Lua lifetime hardening, not a pre-Lua explanation."
+      }
+    ],
+    "original_ice_evidence": "original/map/war3map.j:12051 comment immediately before Freeze Zone V2",
+    "untouched_suspicions": [
+      "Native crit/poison coexistence has no demonstrated desync path here.",
+      "Historic Flame Strike reports do not justify changing Lightning/Sand spell mechanics without a current reproduction.",
+      "Waits alone were not treated as proof of desync."
+    ]
+  },
+  "cultist_multiplayer_exclusion": "Cultist is selectable only using match-start solo-test eligibility. Separate review verified preview/unlock/random/ban/skip paths and absence of a native unit-stock bypass."
+}

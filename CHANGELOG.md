@@ -30,15 +30,17 @@ Changes from **Forest Expansion 3.1.2a** to **3.2.0**.
 
 - Corrected string-table encoding used for map names and descriptions, and added a label to the first picking countdown.
 - Fixed selector removal so unrelated unit purchases are not affected.
-- Corrected several ownership, delayed-event, resource-price and combat-calculation issues.
+- Corrected several ownership, delayed-event, resource-price and combat-calculation issues, including Cosmic Strike reading the wrong damage-event mana source.
 - Corrected temporary-location/group cleanup in Drain, fountain healing and gold-location pings.
+- Removed a zero damage interval from the unused Arcane Strike spell definition and added guards for authored Flame Strike intervals.
 - Added offline regression tests, native map-data validation and archive readback checks to the build process.
+- Hardened Lua timer initialization and ownership: native objects are allocated during map initialization, recurring and delayed systems retain their timers until cleanup, and gameplay avoids GUI timer globals. Added initialization and forced-garbage-collection regression checks.
 - Stored Lua uses editor-safe percent characters, with checks that preserve command patterns, displayed text and arithmetic during editor saves.
 
 ## Picking, takeover and balance
 
 - The Ancient uses lobby slot 11 (Dark Green), including its starting units and shops.
-- Race and Ancient choices are visible immediately. Bans remove choices from stock; Expanders unlock after the 20-second ban phase, and the Ancient keeps its 60-second start. Cultist is now selectable. Random is available on the first race selector.
+- Race and Ancient choices are visible immediately with purchasing blocked until their phase opens. Bans remove choices from stock and from random selection, and remain applied after unlock or solo skip. Expanders unlock after the 20-second ban phase, and the Ancient keeps its 60-second start. Cultist is available only in solo test mode and is hidden in multiplayer. Random is available on the first race selector.
 - Leaving players' armies remain for 60 seconds, including the Ancient's. Dead or unpicked Expanders can use `-takeover` (or `-takeover <slot>` when several players leave). Successful takeover preserves their own surviving units and transfers the departed player's units, resources and research.
 - Red can enable `-bringiton` once to double the Ancient's passive income from 10 to 20 gold every 10 seconds. Starting gold and kill rewards are unchanged.
 - Bleed and Poisoned Bullets use landed-hit debuffs rather than native orb effects. Poison stacks up to six times on each target; their damage over time remains nonlethal and cannot be dispelled.
@@ -48,8 +50,9 @@ Changes from **Forest Expansion 3.1.2a** to **3.2.0**.
 
 ## Cultist
 
+- Available only when the match starts with one human and the existing solo test mode is enabled automatically. Multiplayer departures do not unlock it. Unavailable Cultist bans do not consume a ban.
 - Builder description follows the other races' role, difficulty and stat layout. Corrected summon, worker and tower details; organized building research buttons, hotkeys and ability descriptions, and removed a stray spell debug message.
-- Green projectile attacks; 200 base attack range.
+- Green projectiles travel at 900 speed; 200 base attack range and 100 unupgraded attack damage.
 - New Altar research, with abilities grouped under **Blood Rites**: Sacrificial Aura (30 gold / 750 lumber), Bloody Sacrifice (25 / 750), and Chaotic Burst (35 / 1000). Each has one research level and no additional prerequisite beyond access to the Altar.
 - Sacrificial Aura grants allied units within 1000 range 5% attack and movement speed per full 10% of the Cultist's missing health, up to 45%. The strongest nearby Cultist aura applies.
 - Bloody Sacrifice toggles 50 HP/s healing to other allies within 400 range, costing the Cultist 100 magic damage each second. It can kill the Cultist.

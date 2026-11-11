@@ -1,5 +1,20 @@
 -- Compatibility operations used by the typed JASS port. Lua 5.3+.
 -- Keep engine natives and handle IDs supplied by Warcraft III.
+-- Legacy callbacks often retain only an integer timer ID in a native hashtable.
+-- Own their Lua timer wrappers until explicit cancellation/completion instead
+-- of depending on engine GC behavior. Never traverse this map for gameplay.
+FE_Timers = {}
+local ownedTimers = {}
+function FE_Timers.create()
+    local timer = CreateTimer()
+    ownedTimers[timer] = true
+    return timer
+end
+function FE_Timers.destroy(timer)
+    if timer ~= nil then ownedTimers[timer] = nil end
+    DestroyTimer(timer)
+end
+
 local __forestInt32 = math.maxinteger == 2147483647
 local __forestReal32 = (16777216.0 + 1.0) == 16777216.0
 

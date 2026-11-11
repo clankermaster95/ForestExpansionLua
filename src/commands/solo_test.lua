@@ -80,7 +80,7 @@ function FE_Test.skipPicking(player)
     end
     for _,entry in ipairs(FE_TestData.pickers) do
         local shop=_G[entry.shop]
-        if shop and GetUnitTypeId(shop)~=0 and _G[entry.ban]==0 then
+        if shop and GetUnitTypeId(shop)~=0 and _G[entry.ban]==0 and FE_Factions.available(entry) then
             RemoveUnitFromStock(shop,FourCC(entry.raw))
             AddUnitToStock(shop,FourCC(entry.raw),1,1)
         end

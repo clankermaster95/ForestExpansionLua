@@ -86,14 +86,14 @@
     {
       "Id": 2050056565,
       "Type": "Unreal",
-      "Value": 0.0,
+      "Value": 900.0,
       "SanityCheck": 0,
       "_field": "ua1z"
     },
     {
       "Id": 1932616053,
       "Type": "Int",
-      "Value": 900,
+      "Value": 1,
       "SanityCheck": 0,
       "_field": "ua1s"
     },

@@ -22,7 +22,8 @@ def render():
     for kind in ('expanders','ancients'):
         for entry in factions[kind]:
             ban,raw,shop=entry['ban'],entry['raw'],entry['shop']
-            lines.append('FE_TestData.pickers[#FE_TestData.pickers+1] = {raw='+json.dumps(raw)+', shop='+json.dumps(shop)+', ban='+json.dumps(ban)+'}')
+            solo=', soloOnly=true' if entry.get('soloOnly') else ''
+            lines.append('FE_TestData.pickers[#FE_TestData.pickers+1] = {raw='+json.dumps(raw)+', shop='+json.dumps(shop)+', ban='+json.dumps(ban)+solo+'}')
     return '\n'.join(lines)+'\n'
 
 def generate():

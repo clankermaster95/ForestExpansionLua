@@ -123,8 +123,8 @@ function GetPlayableMapRect() return {} end
 function I2S(n) return tostring(n) end
 function I2R(n) return n end
 function PlayThematicMusicBJ() end
-function AddUnitToStockBJ(raw,shop,n) shop.stock[raw]=n end
-function RemoveUnitFromStock(shop,raw) shop.stock[raw]=nil end
+function AddUnitToStockBJ(raw,shop,n,maximum) shop.stock[raw]=n;shop.maximum=shop.maximum or {};shop.maximum[raw]=maximum end
+function RemoveUnitFromStock(shop,raw) shop.stock[raw]=nil;shop.maximum[raw]=nil end
 function GetEnumPlayer() return event.player end
 PLAYER_SLOT_STATE_PLAYING='playing';MAP_CONTROL_USER='user';MAP_CONTROL_COMPUTER='computer'
 PLAYER_STATE_RESOURCE_GOLD='gold';PLAYER_STATE_RESOURCE_LUMBER='lumber'
@@ -162,12 +162,14 @@ for _,kind in ipairs({'expanders','ancients'}) do for _,entry in ipairs(FE_Facti
     _G[entry.ban]=0;_G[entry.shop]=_G[entry.shop] or {stock={}}
 end end
 udg_Bans=2
+FE_Test={initialized=true,player=Player(0)}
 FE_Factions.showStock()
-check(gg_unit_n00G_0035.stock.h063==1,'Cultist visible at startup')
+check(gg_unit_n00G_0035.stock.h063==0 and gg_unit_n00G_0035.maximum.h063==0,'Cultist visible but cannot be bought or restock during bans')
 check(GetPlayerTechCount(Player(0),'RFPK')==0,'picking locked during bans')
 FE_Factions.ban('Cultist');check(gg_unit_n00G_0035.stock.h063==nil,'ban removes visible stock')
 FE_Factions.unlockPicking();check(GetPlayerTechCount(Player(10),'RFPK')==1,'all slots unlock')
 FE_Factions.ban('Worgen');check(udg_BannedWorgen==0 and udg_Bans==1,'late bans rejected')
+FE_Test=nil
 
 -- Wildkin restores every learned spell and leaves missing abilities missing.
 local wildkin=CreateUnit(Player(1),'h010');wildkin.abilities={A07F=1,A07H=1,A07I=1}

@@ -112,7 +112,7 @@ function SSZ_RemoveSlow()
     end
     FlushChildHashtable(SSZ_HASH, tid)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     target = nil
     t = nil
 end
@@ -124,7 +124,7 @@ function SSZ_ApplySlow(target)
         UnitAddAbility(target, SSZ_SLOW_ID)
     end
     if (t == nil) then
-        t = CreateTimer()
+        t = FE_Timers.create()
         SaveTimerHandle(SSZ_HASH, uid, 0, t)
         SaveUnitHandle(SSZ_HASH, GetHandleId(t), 0, target)
     end
@@ -209,10 +209,13 @@ function Trig_Cosmic_Strike_2_Conditions()
 end
 
 function Trig_Cosmic_Strike_2_Actions()
-    SetUnitManaPercentBJ(udg_CosmicStrikeCaster, (__jreal(GetUnitManaPercent(GetEventDamageSource()) + __jreal(5.00))))
+    -- Damage Engine can dispatch this outside the original native damage
+    -- event. Use its matched caster instead of a stale native event response.
+    local caster = udg_CosmicStrikeCaster
+    SetUnitManaPercentBJ(caster, (__jreal(GetUnitManaPercent(caster) + __jreal(5.00))))
     udg_CosmicStrikeCount = (__jint(udg_CosmicStrikeCount - 1))
     if (udg_CosmicStrikeCount == 0) then
-        UnitRemoveBuffBJ(FourCC("B038"), udg_CosmicStrikeCaster)
+        UnitRemoveBuffBJ(FourCC("B038"), caster)
     end
     udg_CosmicStrikeCaster = nil
 end

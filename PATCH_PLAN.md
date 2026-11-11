@@ -10,7 +10,7 @@ not be launched by the agent.
 - All leaving players, including the Ancient, have a 60-second takeover window.
 - Race stock is visible immediately; purchases stay locked for the 20-second ban phase.
 - Ice's healing prevention affects enemies only.
-- Cultist is added to the selectors. Random remains on the first selector to leave room for all 11 choices in the second.
+- Cultist is added to the selectors only in the existing solo test mode; it stays unavailable in multiplayer. Random remains on the first selector to leave room for all 11 choices in the second.
 - The maintainer delegated Cultist research pricing to comparison with existing upgrades.
 - Chaotic Burst converts an empowered attack's normal damage into pure damage,
   ignoring armor and magic resistance, and charges 4% of current HP on a successful hit.
@@ -50,19 +50,47 @@ spellings. The successful native save is backed up, and the repair preserved its
 creation/configuration code while restoring all 103 unchanged source modules.
 See `reports/editor-roundtrip-repair.json` and the immutable editor-save fixture.
 
-The r10 build passed both Lua numeric configurations, 438 editor-safe source
-assertions per configuration, 496 startup assertions, 1,883 shopping assertions,
-68 patch assertions, and 6,618 object checks. The build/import workflow last passed
-all 13 isolated checks on November 8; these presentation changes did not alter that
-workflow. Every packed payload was read back and checked. Frozen historical
-r8 suites remain separate evidence, not coverage of changed gameplay.
+The r11 build is validated against both Lua numeric configurations. Current
+coverage includes 438 editor-safe source assertions per configuration, 3,260
+startup assertions, 1,883 shopping assertions, 68 combat/gameplay patch assertions,
+9,502 random-selection/ban assertions, 180 native-initialization assertions,
+62 recurring-timer lifetime assertions, 21 transient-timer assertions,
+25 Freeze Zone lifetime assertions, 38 Cosmic Strike context assertions,
+13 static lifetime-guard cases, and 6,734 object checks. Nine modules also pass
+a frozen-source comparison of all 34 timer ownership call changes. The build/import
+workflow last passed all 13 isolated checks on November 8; this patch does not
+alter that workflow. Every packed payload is read back and checked. Frozen
+historical r8 suites remain separate evidence, not coverage of changed gameplay.
+
+Cultist eligibility uses the captured one-human test-mode flag; leaving a
+multiplayer match does not unlock it, and banning unavailable Cultist costs no ban.
+Picking uses visible zero-cap preview stock until the 20/60-second unlocks,
+then replaces only unbanned choices with available stock. Bans also filter random
+selection at purchase time, retaining the surviving catalog order and relative
+weights. Regression tests exhaust every faction ban, normal and solo unlocks,
+and every random draw. The countdown remains visible through the ban cutoff.
+Cultist uses the native projectile-speed field `ua1z=900`, and its original
+100 damage is explicit as base 99 plus one one-sided die. Field identities are
+checked independently against Blizzard's native declarations.
+The multiplayer review defers 17 native allocations until bootstrap, replaces
+GUI timer-global helpers with explicit handles, and retains all four recurring
+system timers. The targeted second pass extends ownership to legacy transient
+timers and Freeze Zone, corrects Cosmic Strike event context, and removes a
+zero interval from the unused Arcane Strike definition. Three parallel audits plus an independent integration review
+checked local branches, preload/sync, combat/missiles, startup/player state and
+object lifetimes. These changes remove known-risk patterns; the reported random
+midgame r10 desync has not been reproduced. Full evidence and remaining limits
+are in `reports/desync-audit-r11.json`.
+
+See `reports/picking-projectile-fix.json` for before/after evidence and the two
+new regressions demonstrated failing against the previous source.
 
 Playable artifact: `dist/Forest_Expansion_3.2.0_Lua.w3x`.
-SHA-256: `e1a0c0fa6c3777a4c2d69fff9304327a5f3adeee8911d09ac047892ab2d35ecd`.
-The installed r9 file was locked, so the installer copied r10 with the suffix
-`-build-e1a0c0fa6c37.w3x` and queued checksum-guarded removal of the old copy.
-See the installer result in `reports/build.json`; a pending cleanup is not a
-completed removal. Build and validation reports pin the exact archive above.
+SHA-256: `03f733516a00ab774a6bbb6370ef60b9fc208065204a723d249f58c8f85586b2`.
+The verified map is installed as `Forest_Expansion_3.2.0_Lua.w3x` in the
+configured Warcraft Maps folder. The older generated copy was removed; no
+locked cleanup remains. `reports/build.json` records the installed checksum. Build and validation reports pin
+the exact archive above; a pending cleanup is not a completed removal.
 The editor's in-memory copy must be reopened before further editing.
 
 Do not rerun `tools/ancient_slot.py --apply` or the old `work/nov8_objects.py`

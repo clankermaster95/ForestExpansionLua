@@ -1,0 +1,28 @@
+{
+  "baseline_commit": "1858527708cb632a18448f1d6d560a6b27d0e82d",
+  "baseline_map_sha256": "e1a0c0fa6c3777a4c2d69fff9304327a5f3adeee8911d09ac047892ab2d35ecd",
+  "current_map_sha256": "03f733516a00ab774a6bbb6370ef60b9fc208065204a723d249f58c8f85586b2",
+  "cultist_weapon_before": {
+    "ua1b": 99,
+    "ua1d": null,
+    "ua1s": 900,
+    "ua1z": 0.0
+  },
+  "cultist_weapon_after": {
+    "ua1b": 99,
+    "ua1d": 1,
+    "ua1s": 1,
+    "ua1z": 900.0
+  },
+  "field_contract": "common.j: UNIT_WEAPON_RF_ATTACK_PROJECTILE_SPEED = ua1z; UNIT_WEAPON_IF_ATTACK_DAMAGE_SIDES_PER_DIE = ua1s.",
+  "old_source_fails_current_regression": true,
+  "failure": "early click cannot spawn a unit or spend gold",
+  "picking": "Visible stock 0/cap 0 until 20 seconds (Expanders) or 60 (Ancients); replace unbanned entries only; idempotent unlock and solo skip.",
+  "coverage": "All 32 faction bans under normal timers and solo skip; simulated purchases at phase boundaries; every random draw after each ban and three-ban combinations; independent weapon field IDs.",
+  "limits": "Offline stock model and native object/archive readback; live Warcraft UI and projectile rendering require maintainer testing.",
+  "old_source_fails_random_ban_regression": true,
+  "random_ban_failure": "each surviving draw preserves order and relative weight",
+  "random_selection": "Filters current bans at purchase time, preserving original ordered pools and relative duplicate weights; exactly one synchronized random call for each successful pick.",
+  "negative_probe_adapter": "Current solo_startup regression with historical bootstrap order and original GUI timer double permitted to isolate old-source picking behavior; purchase/stock/timing assertions unchanged.",
+  "cultist_availability": "Catalog soloOnly flag; selectable only when match-start FE_Test eligibility captured exactly one human. Multiplayer, multiplayer-to-solo departures and unavailable bans cannot unlock it or consume a ban."
+}

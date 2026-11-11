@@ -43,11 +43,11 @@ end
 -- BEGIN FOREST SECTION 253 TimeToExpanderSpawn
 function Trig_TimeToExpanderSpawn_Actions()
     if FE_Test and FE_Test.skipped then return end
-    StartTimerBJ(udg_ExpanderSpawnTimer, false, __jreal(19.00))
-    CreateTimerDialogBJ(GetLastCreatedTimerBJ(), "TRIGSTR_7401")
+    TimerStart(udg_ExpanderSpawnTimer, __jreal(19.00), false, nil)
+    CreateTimerDialogBJ(udg_ExpanderSpawnTimer, "TRIGSTR_7401")
     local dialog = GetLastCreatedTimerDialogBJ()
     if FE_Test and FE_Test.player then FE_Test.countdowns[#FE_Test.countdowns+1]={timer=udg_ExpanderSpawnTimer,dialog=dialog} end
-    TriggerSleepAction(__jreal(18.00))
+    TriggerSleepAction(__jreal(19.00))
     if FE_Test then FE_Test.releaseCountdown(dialog) end
     DestroyTimerDialogBJ(dialog)
 end
@@ -62,8 +62,8 @@ end
 -- BEGIN FOREST SECTION 254 TimeToAncientSpawn
 function Trig_TimeToAncientSpawn_Actions()
     if FE_Test and FE_Test.skipped then return end
-    StartTimerBJ(udg_AncientSpawnTimer, false, __jreal(40.00))
-    CreateTimerDialogBJ(GetLastCreatedTimerBJ(), "TRIGSTR_7400")
+    TimerStart(udg_AncientSpawnTimer, __jreal(40.00), false, nil)
+    CreateTimerDialogBJ(udg_AncientSpawnTimer, "TRIGSTR_7400")
     local dialog = GetLastCreatedTimerDialogBJ()
     if FE_Test and FE_Test.player then FE_Test.countdowns[#FE_Test.countdowns+1]={timer=udg_AncientSpawnTimer,dialog=dialog} end
     TriggerSleepAction(__jreal(40.00))

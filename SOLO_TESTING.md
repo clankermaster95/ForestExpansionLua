@@ -1,5 +1,9 @@
 # Solo testing in 3.2.0
 
+Cultist is available only in this solo test mode. It is hidden in multiplayer,
+and does not unlock when a multiplayer match is reduced to one player.
+Use `-test skip` to skip the picking wait; no `-teston` command is needed.
+
 The separate [Testing reference](DEBUG_REFERENCE.md) contains the complete item and unit lists with names and spawn commands. Use Ctrl+F to find a name or code. Codes are case-sensitive: capital `I` is not the digit `1`.
 
 In-game, use `-test help`, `-test items <name>`, `-test units <name>` or `-test find <name>`. The Information/F9 menu does not contain generated debug pages.

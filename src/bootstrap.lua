@@ -1,5 +1,6 @@
 -- Runs after editor-generated sounds, regions, destructables, units and InitBlizzard.
 function InitTrig_FE_Bootstrap()
+    FE_InitNativeGlobals()
     ExecuteFunc("jasshelper__initstructs149790140")
     ExecuteFunc("PassiveMissiles__Init")
     ExecuteFunc("SpellLeech__Init")

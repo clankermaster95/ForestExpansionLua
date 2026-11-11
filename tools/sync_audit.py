@@ -17,6 +17,21 @@ LOCAL_REVIEW={
     'FeedRate_SaveForPlayer':'Local file output only, escaped JASS payload. No local gameplay mutation.',
     'FeedRate_TryLoadForPlayer':'Local Preloader sends sync payloads; only synchronized receivers apply feed settings.',
 }
+def review_native_lifetimes(source, path):
+    code=code_only(source)
+    assert not re.search(r'\b(?:StartTimerBJ|CreateTimerBJ|GetLastCreatedTimerBJ)\s*\(',code), \
+        'GUI timer global may release a loading-time handle: '+path
+    assert not re.search(r'\bTimerStart\s*\(\s*CreateTimer\s*\(',code), \
+        'timer requires an explicit lifetime owner: '+path
+    # This checks direct chunk-scope allocations, not arbitrary call graphs.
+    root=list(code)
+    for span in functions(source):
+        if span['parent'] is not None:continue
+        for index in range(span['start'],span['end']):
+            if root[index]!='\n':root[index]=' '
+    assert not re.search(r'\b(?:Create[A-Za-z]\w*|InitHashtable|Location|Rect|Condition|Filter)\s*\(',''.join(root)), \
+        'native handle allocation during Lua chunk load: '+path
+
 def review_functions(source, path):
     code=code_only(source)
     spans=functions(source)
@@ -47,6 +62,7 @@ def inspect(cfg):
     for path in sources:
         source=(ROOT/path).read_text(encoding='utf-8')
         code=code_only(source)
+        review_native_lifetimes(source,path)
         # Disallow new unsynchronized random/time/I/O paths in gameplay.
         assert not re.search(r'\b(?:math\.random(?:seed)?|os\.\w+|io\.\w+)\s*\(',code),path
         assert not re.search(r'(?<!i)\bpairs\s*\(',code),'unordered traversal requires review: '+path
@@ -61,4 +77,5 @@ def inspect(cfg):
             assert 'bj_FORCE_PLAYER[0]' not in (ROOT/path).read_text(),path
     return {'active_modules_scanned':len(sources),'local_player_functions':found,
             'wait_functions_checked':len(waits),'unit_index_single_writer':True,
+            'native_lifetime_guards':'No direct chunk-scope allocations or GUI timer-global helpers; perpetual timer reachability tested separately.',
             'limit':'Static review guards, not proof of multiplayer synchronization. Native shop UI, preload and gameplay still require live testing.'}

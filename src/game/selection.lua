@@ -23,7 +23,7 @@ FE_Factions.expanders = {
     { key="HighElf", raw="n00M", shop="gg_unit_n00G_0035", ban="udg_BannedHighElf", message="Elf banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban HighElf", "-ban High Elf", "-ban High"} },
     { key="Ratling", raw="o026", shop="gg_unit_nmer_0000", ban="udg_BannedRatling", message="Ratling Stalker banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban rat", "-ban ratling", "-ban stalker"} },
     { key="Hunter", raw="h05W", shop="gg_unit_n00G_0035", ban="udg_BannedHunter", message="Bounty Hunter banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban hunter", "-ban bounty"} },
-    { key="Cultist", raw="h063", shop="gg_unit_n00G_0035", ban="udg_BannedCultist", message="Cultist banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban cultist"} },
+    { key="Cultist", raw="h063", shop="gg_unit_n00G_0035", ban="udg_BannedCultist", message="Cultist banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban cultist"}, soloOnly=true },
 }
 FE_Factions.ancients = {
     { key="AncientLight", raw="O01V", shop="gg_unit_nmr2_0001", ban="udg_BannedAncientLight", message="Ancient of Light banned. Bans remaining: ", stock=1, maximum=1, closeAtCutoff=true, aliases={"-ban light", "-ban divinity"}, spellbringerAbility="A0FB" },
@@ -52,13 +52,30 @@ end
 
 -- The catalog is generated above. Keep all native mutations in these synchronized
 -- event callbacks; catalog construction only stores strings and ordinary Lua data.
+function FE_Factions.available(entry)
+    if not entry.soloOnly then return true end
+    -- Eligibility is captured at match startup. Multiplayer departures never
+    -- unlock this catalog entry, and no client-local state is consulted.
+    return FE_Test ~= nil and FE_Test.initialized == true and FE_Test.player ~= nil
+end
+
 function FE_Factions.stock(kind)
     FE_Factions.stocked = FE_Factions.stocked or {}
-    if FE_Factions.stocked[kind] then return end
-    FE_Factions.stocked[kind] = true
+    local unlocked = kind == "expanders" and FE_Factions.pickingUnlocked or
+        kind == "ancients" and FE_Factions.ancientsUnlocked
+    local state = unlocked and "open" or "preview"
+    if FE_Factions.stocked[kind] == state then return end
+    local hadStock = FE_Factions.stocked[kind] ~= nil
+    FE_Factions.stocked[kind] = state
     for _, entry in ipairs(FE_Factions[kind]) do
-        if _G[entry.ban] == 0 then
-            AddUnitToStockBJ(FourCC(entry.raw), _G[entry.shop], entry.stock, entry.maximum)
+        if _G[entry.ban] == 0 and FE_Factions.available(entry) then
+            local raw, shop = FourCC(entry.raw), _G[entry.shop]
+            if hadStock then RemoveUnitFromStock(shop, raw) end
+            -- A zero cap keeps the visible preview empty even for units whose
+            -- normal replenish interval is one second. Unit requirements alone
+            -- do not gate ordinary mercenary purchases.
+            AddUnitToStockBJ(raw, shop, unlocked and entry.stock or 0,
+                unlocked and entry.maximum or 0)
         end
     end
 end
@@ -70,6 +87,7 @@ function FE_Factions.unlockPicking()
         SetPlayerTechResearched(player, FourCC("RFPK"), 1)
     end)
     FE_Factions.closeBans()
+    FE_Factions.stock("expanders")
 end
 
 function FE_Factions.showStock()
@@ -79,17 +97,33 @@ function FE_Factions.showStock()
 end
 
 function FE_Factions.unlockAncients()
+    if FE_Factions.ancientsUnlocked then return end
+    FE_Factions.ancientsUnlocked = true
     FE_Roles.forEachPlayer(function(player)
         SetPlayerTechResearched(player, FourCC("RFPA"), 1)
     end)
+    FE_Factions.stock("ancients")
 end
 
 function FE_Factions.fillRandomPool(pool, kind)
-    -- Keep the historical draw bounds, duplicates and ordering. Filtering bans
-    -- here would change both selection rules and subsequent random outcomes.
-    for index, key in ipairs(FE_Factions[kind]) do
-        pool[index] = FourCC(FE_Factions.byKey[key].raw)
+    -- Preserve catalog ordering and duplicate weights among unbanned choices.
+    -- Refresh at purchase time: the initial pool predates the ban phase.
+    local count = 0
+    for _, key in ipairs(FE_Factions[kind]) do
+        local entry = FE_Factions.byKey[key]
+        if _G[entry.ban] == 0 and FE_Factions.available(entry) then
+            count = count + 1
+            pool[count] = FourCC(entry.raw)
+        end
     end
+    for index = count + 1, #FE_Factions[kind] do pool[index] = nil end
+    return count
+end
+
+function FE_Factions.randomUnit(pool, kind)
+    local count = FE_Factions.fillRandomPool(pool, kind)
+    if count == 0 then return nil end
+    return pool[GetRandomInt(1, count)]
 end
 
 function FE_Factions.grantSpellbringerAbilities(getUnit)
@@ -103,7 +137,7 @@ end
 
 function FE_Factions.ban(key)
     local entry = FE_Factions.byKey[key]
-    if FE_Factions.bansClosed or udg_Bans == 0 or _G[entry.ban] == 1 then
+    if FE_Factions.bansClosed or udg_Bans == 0 or _G[entry.ban] == 1 or not FE_Factions.available(entry) then
         DisplayTextToForce(GetPlayersAll(), "Ban failed.")
         return
     end
@@ -193,8 +227,10 @@ function Trig_RandomExpander2_Conditions()
 end
 
 function Trig_RandomExpander2_Actions()
+    local raw = FE_Factions.randomUnit(udg_Units, "randomExpanders")
+    if raw == nil then return end
     udg_Point1 = GetUnitLoc(GetTriggerUnit())
-    CreateNUnitsAtLocFacingLocBJ(1, udg_Units[GetRandomInt(1, 18)], GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_E), GetRectCenter(gg_rct_Tele_out_E))
+    CreateNUnitsAtLocFacingLocBJ(1, raw, GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_E), GetRectCenter(gg_rct_Tele_out_E))
     RemoveLocation(udg_Point1)
     RemoveItem(GetManipulatedItem())
     DisplayTextToForce(GetPlayersAll(), (__jconcat(GetPlayerName(GetTriggerPlayer()), " has randomed.")))
@@ -220,9 +256,10 @@ function Trig_Random_Ancient_Func041002()
 end
 
 function Trig_Random_Ancient_Actions()
-    FE_Factions.fillRandomPool(udg_Ancients, "randomAncients")
+    local raw = FE_Factions.randomUnit(udg_Ancients, "randomAncients")
+    if raw == nil then return end
     udg_Point1 = GetUnitLoc(GetTriggerUnit())
-    CreateNUnitsAtLocFacingLocBJ(1, udg_Ancients[GetRandomInt(1, 33)], GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_D), GetRectCenter(gg_rct_Tele_out_E))
+    CreateNUnitsAtLocFacingLocBJ(1, raw, GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_D), GetRectCenter(gg_rct_Tele_out_E))
     udg_AncientUnit = GetLastCreatedUnit()
     RemoveLocation(udg_Point1)
     RemoveItem(GetManipulatedItem())

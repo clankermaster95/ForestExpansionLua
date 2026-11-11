@@ -88,7 +88,7 @@ function Trig_Moonblast_Cleanup(t)
     DestroyEffect(missile)
     FlushChildHashtable(udg_MoonblastHash, id)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     missile = nil
 end
 
@@ -151,7 +151,7 @@ function Trig_Moonblast_Actions()
         caster = nil
         return
     end
-    t = CreateTimer()
+    t = FE_Timers.create()
     id = GetHandleId(t)
     x = GetUnitX(caster)
     y = GetUnitY(caster)

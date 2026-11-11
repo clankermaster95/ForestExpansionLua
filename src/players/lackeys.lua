@@ -26,7 +26,7 @@ function LackeyRespawn_OnTimer()
     DestroyTimerDialog(td)
     FlushChildHashtable(LackeyRespawn_Hash, id)
     PauseTimer(t)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     td = nil
     t = nil
 end
@@ -48,7 +48,7 @@ function Trig_Lackey_Respawn_Actions()
         owner = nil
         return
     end
-    t = CreateTimer()
+    t = FE_Timers.create()
     td = CreateTimerDialog(t)
     id = GetHandleId(t)
     SaveInteger(LackeyRespawn_Hash, id, LACK_RESPAWN_KEY_TYPE, unitType)
@@ -148,7 +148,7 @@ function SpawnLackey_EnsureSetup()
         SpawnLackey_Hash = InitHashtable()
     end
     if (SpawnLackey_GameTimer == nil) then
-        SpawnLackey_GameTimer = CreateTimer()
+        SpawnLackey_GameTimer = FE_Timers.create()
         TimerStart(SpawnLackey_GameTimer, __jreal(999999.00), false, nil)
     end
 end
@@ -243,14 +243,14 @@ function SpawnLackey_DelayedTimerExpires()
     end
     SpawnLackey_PlayerTimer[playerIndex] = nil
     FlushChildHashtable(SpawnLackey_Hash, timerId)
-    DestroyTimer(t)
+    FE_Timers.destroy(t)
     t = nil
     deadPlayer = nil
 end
 
 function SpawnLackey_StartDelayedTimer(deadPlayer, lackeyType, remaining)
     local playerIndex = GetPlayerId(deadPlayer)
-    local t = CreateTimer()
+    local t = FE_Timers.create()
     SpawnLackey_EnsureSetup()
     if (remaining < __jreal(0.00)) then
         remaining = __jreal(0.00)
@@ -258,7 +258,7 @@ function SpawnLackey_StartDelayedTimer(deadPlayer, lackeyType, remaining)
     if (SpawnLackey_PlayerTimer[playerIndex] ~= nil) then
         PauseTimer(SpawnLackey_PlayerTimer[playerIndex])
         FlushChildHashtable(SpawnLackey_Hash, GetHandleId(SpawnLackey_PlayerTimer[playerIndex]))
-        DestroyTimer(SpawnLackey_PlayerTimer[playerIndex])
+        FE_Timers.destroy(SpawnLackey_PlayerTimer[playerIndex])
         SpawnLackey_PlayerTimer[playerIndex] = nil
     end
     if (SpawnLackey_PlayerDialog[playerIndex] ~= nil) then

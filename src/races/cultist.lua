@@ -1,6 +1,6 @@
 -- Cultist research unlocks fixed-strength abilities; Profane Reach is native
 -- object research so trained/reborn units inherit all five upgrade levels.
-FE_Cultist = { units = {}, known = {}, sacrifice = {}, burst = {}, manual = {}, empowered = {}, auraUnits = {}, auraLevel = {}, ticks = 0 }
+FE_Cultist = { units = {}, known = {}, sacrifice = {}, burst = {}, manual = {}, empowered = {}, auraUnits = {}, auraLevel = {}, ticks = 0, initialized = false }
 
 function FE_Cultist.researched(unit, raw)
     return GetPlayerTechCount(GetOwningPlayer(unit), FourCC(raw), true) > 0
@@ -107,6 +107,8 @@ function FE_Cultist.tick()
 end
 
 function FE_Cultist.init()
+    if FE_Cultist.initialized then return end
+    FE_Cultist.initialized = true
     local orders = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(orders, EVENT_PLAYER_UNIT_ISSUED_ORDER)
     TriggerRegisterAnyUnitEventBJ(orders, EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER)
@@ -120,8 +122,9 @@ function FE_Cultist.init()
     FE_Roles.forEachPlayer(function(player) FE_Takeover.forUnits(player, FE_Cultist.track) end)
     FE_Combat.listen("udg_PreDamageEvent", 0.5, FE_Cultist.beforeDamage)
     FE_Combat.listen("udg_AfterDamageEvent", 1, FE_Cultist.afterDamage)
-    local timer = CreateTimer()
-    TimerStart(timer, 0.25, true, FE_Cultist.tick)
+    -- Keep a Lua owner for the repeating native timer and its callback.
+    FE_Cultist.timer = CreateTimer()
+    TimerStart(FE_Cultist.timer, 0.25, true, FE_Cultist.tick)
 end
 
 

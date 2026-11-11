@@ -4,7 +4,7 @@
 
 ## Current — 3.2.0
 
-**Current patch: r10.** The requested gameplay changes are in `PATCH_PLAN.md` and `PATCH_TESTING.md`. The maintainer saved the map in World Editor on November 8; Ancient slot 11 and native v39 metadata are verified. Editor-safe Lua and depth-first trigger/text serialization fix the two save issues found during that round trip. Read current build/validation reports for delivery status. The r8 notes below describe the preceding refactor.
+**Current patch: r11.** The requested gameplay changes are in `PATCH_PLAN.md` and `PATCH_TESTING.md`. The maintainer saved the map in World Editor on November 8; Ancient slot 11 and native v39 metadata are verified. Editor-safe Lua and depth-first trigger/text serialization fix the two save issues found during that round trip. Read current build/validation reports for delivery status. The r8 notes below describe the preceding refactor.
 
 **Latest revision: r8.** The readability refactor replaces repeated picker/ban and spell/research logic with shared data and named operations, centralizes command/Ancient metadata, and retires 238 generated helpers. `REFACTOR_PLAN.md` records the scope and remaining behavior questions. `reports/readability-refactor.json` describes the explicit migration from the immutable r7 fixture; full checks are in `reports/refactor-validation.json`. Do not rerun one-time migration scripts or replace the frozen baseline. Initialization/bootstrap order and gameplay semantics remain preserved except three documented temporary-handle cleanup fixes.
 

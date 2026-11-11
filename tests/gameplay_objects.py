@@ -1,6 +1,6 @@
 """Gameplay values and native object wiring, independent of Lua event doubles."""
 from pathlib import Path
-import sys,math
+import sys,math,re
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'tools'))
 import data_store as ds
 
@@ -19,7 +19,20 @@ def validate():
     equal(tuple(value('units','h03X',f) for f in ['ubba','ubdi','ubsi']),(20,0,0),'Aethyr wall deterministic feed')
     equal(value('units','h063','ua1r'),200,'Cultist base range')
     equal(value('units','h063','ua1w'),'missile','Cultist ranged weapon')
-    equal(value('units','h063','ua1s'),900,'Cultist projectile speed')
+    # Resolve the weapon field IDs independently from Blizzard's native API.
+    # ua1s is dice sides, NOT projectile speed; the former test repeated that
+    # authoring mistake and therefore accepted both instant missiles and 1d900.
+    api=(ROOT/'tools/reference-api/common.j').read_text(encoding='utf-8')
+    def weapon_field(constant,field_type):
+        return re.search(r'\b'+constant+r"\s*=\s*ConvertUnitWeapon"+field_type+r"Field\('([^']+)'\)",api)[1]
+    speed=weapon_field('UNIT_WEAPON_RF_ATTACK_PROJECTILE_SPEED','Real')
+    sides=weapon_field('UNIT_WEAPON_IF_ATTACK_DAMAGE_SIDES_PER_DIE','Integer')
+    dice=weapon_field('UNIT_WEAPON_IF_ATTACK_DAMAGE_NUMBER_OF_DICE','Integer')
+    for kind in ('units','units_skin'):
+        equal(value(kind,'h063',speed),900,'Cultist missile flight speed '+kind)
+        equal(value(kind,'h063',sides),1,'Cultist damage dice sides '+kind)
+    equal(value('units','h063','ua1b')+value('units','h063',dice),100,'minimum unupgraded Cultist damage')
+    equal(value('units','h063','ua1b')+value('units','h063',dice)*value('units','h063',sides),100,'maximum unupgraded Cultist damage')
     equal(value('units_skin','h063','ua1m'),'Abilities\\Weapons\\ChimaeraAcidMissile\\ChimaeraAcidMissile.mdl','green missile')
     equal(value('units','h063','uabi').endswith('AFCT'),True,'Cultist command-card spellbook')
     book=value('abilities','AFCT','spb1',1).split(',')
@@ -85,8 +98,21 @@ def validate():
         equal(value('abilities',raw,'atar',1),'self,air,ground,vulnerable,invulnerable','slow applies only to the poisoned unit')
     for level in range(1,8):
         equal(value('abilities','A03S','Hfs1',level),20+5*level,'Lightning damage '+str(level))
-        assert value('abilities','A03S','Hfs2',level)>0;checks+=1
         equal(value('abilities','AFLT','amcs',level),0,'proc needs no mana')
+    # A zero Flame Strike damage interval has a first-hand delayed-freeze repro.
+    # Guard authored values and every Lightning/Sand level independently of Lua.
+    intervals=[re.search(r'\bABILITY_RLF_'+name+r"\s*=\s*ConvertAbilityRealLevelField\('([^']+)'\)",api)[1]
+               for name in ('FULL_DAMAGE_INTERVAL','HALF_DAMAGE_INTERVAL')]
+    for raw in ('A03S','AFLT','A07Y'):
+        for level in range(1,value('abilities',raw,'alev')+1):
+            for field in intervals:
+                interval=value('abilities',raw,field,level)
+                assert math.isfinite(interval) and interval>0,(raw,field,level);checks+=1
+    for row in rows:
+        if row['kind'] not in ('abilities','abilities_skin'):continue
+        for mod in ds.read(ROOT/row['path'])['Modifications']:
+            if mod['_field'] in intervals:
+                assert math.isfinite(mod['Value']) and mod['Value']>0,(row['rawcode'],mod);checks+=1
     for level in range(1,5):
         equal(value('abilities','AFVA','Idef',level),10+5*level,'Vanguard armor')
         equal(value('abilities','A06U','Ufa2',level),0,'no additional dispellable armor')
@@ -97,10 +123,12 @@ def validate():
         equal(value('abilities','AFAS','Oae1',level),0.05*level,'Cultist movement tier')
         equal(value('abilities','AFAS','Oae2',level),0.05*level,'Cultist attack tier')
     factions=ds.read(ROOT/'data/gameplay/factions.json')
-    equal(len(factions['expanders']),21,'Cultist in picker catalog')
+    equal(len(factions['expanders']),21,'Cultist retained in catalog for solo testing')
+    equal([entry['key'] for entry in factions['expanders']+factions['ancients'] if entry.get('soloOnly')],['Cultist'],'only Cultist is restricted to solo testing')
     for entry in factions['expanders']+factions['ancients']:
         assert 'RFPK' in value('units',entry['raw'],'ureq').split(',');checks+=1
-        equal(entry['stock'],1,'visible stock before unlock')
+        equal(entry['stock'],1,'purchasable stock after unlock')
+        equal(value('units',entry['raw'],'usma'),0,'native preview cap prevents early replenishment')
     for entry in factions['ancients']:
         assert 'RFPA' in value('units',entry['raw'],'ureq').split(',');checks+=1
     equal(value('units','n00G','usei'),'','second selector leaves room for eleven races')

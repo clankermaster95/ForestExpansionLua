@@ -3,6 +3,8 @@
 -- heals are rejected at their write; native healing/regen is capped every frame
 -- and before damage so it cannot be spent as extra HP on a following hit.
 FE_Ice = { casts = {}, targets = {}, health = {}, ticks = 0, initialized = false }
+-- Keep delayed Freeze Zone casts reachable until their native callbacks run.
+local freezeZoneTimers = {}
 
 function FE_Ice.blocked(unit)
     if not FE_Combat.alive(unit) then return false end
@@ -108,8 +110,9 @@ function FE_Ice.init()
     end
     FE_Combat.listen("udg_PreDamageEvent", -100, FE_Ice.beforeDamage)
     FE_Combat.listen("udg_DamageEvent", 100, FE_Ice.onDamage)
-    local timer = CreateTimer()
-    TimerStart(timer, 0.03125, true, FE_Ice.tick)
+    -- Keep a Lua owner for the repeating native timer and its callback.
+    FE_Ice.timer = CreateTimer()
+    TimerStart(FE_Ice.timer, 0.03125, true, FE_Ice.tick)
 end
 
 
@@ -176,6 +179,7 @@ function TP_DummyCastDelayed()
         UnitApplyTimedLife(dummy, FourCC("BTLF"), TP_DUMMY_LIFETIME)
     end
     FlushChildHashtable(TP_HASH, tid)
+    freezeZoneTimers[t] = nil
     DestroyTimer(t)
     target = nil
     dummy = nil
@@ -197,6 +201,7 @@ function TP_CastDebuff(target, level)
     SetUnitState(dummy, UNIT_STATE_MANA, __jreal(9999.00))
     SaveUnitHandle(TP_HASH, tid, 0, dummy)
     SaveUnitHandle(TP_HASH, tid, 1, target)
+    freezeZoneTimers[t] = true
     TimerStart(t, TP_DUMMY_CAST_DELAY, false, TP_DummyCastDelayed)
     dummy = nil
     t = nil

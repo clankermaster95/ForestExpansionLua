@@ -37,6 +37,7 @@ def validate(data):
         assert row['ban'] == 'udg_Banned' + row['key']
         assert row['stock'] in (0, 1) and row['maximum'] == 1
         assert type(row['closeAtCutoff']) is bool
+        assert type(row.get('soloOnly', False)) is bool
         assert row['aliases'] and all(alias.startswith('-ban ') for alias in row['aliases'])
         aliases.extend(row['aliases'])
     assert len(set(aliases)) == len(aliases), 'Duplicate exact-match ban alias'
@@ -58,6 +59,7 @@ def render():
             if 'spellbringerAbility' in entry:
                 assert re.fullmatch(r'[A-Za-z0-9]{4}',entry['spellbringerAbility'])
                 fields.append('spellbringerAbility='+quote(entry['spellbringerAbility']))
+            if entry.get('soloOnly'):fields.append('soloOnly=true')
             rows.append('    { '+', '.join(fields)+' },')
         rows.append('}')
     rows.append('FE_Factions.banOrder = {'+', '.join(map(quote, data['banOrder']))+'}')

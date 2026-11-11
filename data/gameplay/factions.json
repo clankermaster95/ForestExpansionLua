@@ -278,7 +278,8 @@
       "closeAtCutoff": true,
       "aliases": [
         "-ban cultist"
-      ]
+      ],
+      "soloOnly": true
     }
   ],
   "ancients": [

@@ -113,5 +113,5 @@
   "bootstrap": "src/bootstrap.lua",
   "original_sha256": "0fb5a2b67cf9c126bdba91e14930946ea9ffb94a655920719da42a2dea9ac0a5",
   "version": "3.2.0",
-  "revision": "r10"
+  "revision": "r11"
 }

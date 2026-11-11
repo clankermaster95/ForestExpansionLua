@@ -87,7 +87,7 @@ function DAS_StopTracking(target)
     if (t ~= nil) then
         PauseTimer(t)
         FlushChildHashtable(DAS_Hash, GetHandleId(t))
-        DestroyTimer(t)
+        FE_Timers.destroy(t)
         RemoveSavedHandle(DAS_Hash, GetHandleId(target), DAS_KEY_TRACK_TIMER)
     end
     t = nil
@@ -102,7 +102,7 @@ function DAS_TrackLoop()
     if (target == nil) then
         PauseTimer(t)
         FlushChildHashtable(DAS_Hash, GetHandleId(t))
-        DestroyTimer(t)
+        FE_Timers.destroy(t)
         t = nil
         dustOwner = nil
         return
@@ -147,7 +147,7 @@ function DAS_StartTracking(target, dustOwner)
         t = nil
         return
     end
-    t = CreateTimer()
+    t = FE_Timers.create()
     SaveTimerHandle(DAS_Hash, GetHandleId(target), DAS_KEY_TRACK_TIMER, t)
     SaveUnitHandle(DAS_Hash, GetHandleId(t), DAS_KEY_TIMER_TARGET, target)
     SavePlayerHandle(DAS_Hash, GetHandleId(t), DAS_KEY_TIMER_OWNER, dustOwner)

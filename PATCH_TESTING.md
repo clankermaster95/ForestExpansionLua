@@ -10,9 +10,10 @@ Select your owned unit before using a test command. Full codes remain in
 
 | Check | Setup and expected result |
 |---|---|
-| Picking | Without skipping, all race choices are visible at time 0. Red can ban Cultist or another race; it disappears. Expanders unlock at 20 seconds; Ancients at 60. Random is on the first selector. |
+| Picking | Without skipping, eligible choices are visible but have no purchasable stock. Cultist appears only in solo test mode; in multiplayer it stays absent, including after other players leave. An unavailable Cultist ban must not spend a ban. Try clicking races at 1, 10 and 19 seconds: no race spawns and no gold is spent. The countdown stays until 20 seconds, when Expanders unlock; Ancients stay locked until 60. Red can ban Cultist or another choice on each selector; only that choice disappears and stays gone after unlock or solo skip. Unbanned choices must still work. Random is on the first selector and must never select a banned faction; check the Ancient random option too. |
 | Lobby | Ancient is slot 11 / Dark Green; its shops and starting selector belong to that slot. Slot 7 is an Expander. |
-| Cultist | Pick Cultist, or use `-spawn h063`. Use `-spawn h06D` for the Altar. Research the three abilities and five Profane Reach levels. Open **Blood Rites** for the abilities. Base range is 200; fully researched range is 575, with +375 damage. |
+| Cultist | In a match started with one human, pick Cultist, or use `-spawn h063`. Use `-spawn h06D` for the Altar. Research the three abilities and five Profane Reach levels. Open **Blood Rites** for the abilities. Base range is 200; fully researched range is 575, with +375 damage. |
+| Cultist projectile | Before upgrades, the attack panel should show 100 damage. Attack from maximum range: a green projectile should travel from the Cultist to its target, then show its impact. Repeat with Chaotic Burst on and off, and after range upgrades. |
 | Cultist menus | Main card: worker commands, Death Jump (Q), Summon Shinigami (W), Blood Rites (R). The book also shows Darkness Vigor and Magical Cloak. Check that the night speed/regen and 75% magic resistance still work with the book closed. All eight Altar researches and the Amalgamation button must be visible; inspect Shrine, Sanctuary and Outpost hotkeys too. |
 | Aura | Damage Cultist to 50% health. Friendly units within 1000 range gain 25% attack/movement speed. Two Cultists use the stronger aura. Leaving range or killing the last source removes it. |
 | Sacrifice | Toggle it on with damaged allies within 400 range. They gain 50 HP/s; Cultist takes 100 magic damage/s and receives no self-heal. Toggle off and confirm both stop. |
@@ -34,6 +35,36 @@ research works and that neither the transferred army nor the taker's previous
 units disappear at the old deadline. The old race-selection token is removed
 to prevent buying an extra race. If nobody takes over, remaining leaver units
 are removed after 60 seconds.
+
+## Multiplayer desync retest
+
+Use the same fresh r11 archive for every player. Verify the opening build label;
+record the SHA-256 from the release checksum file. A running match cannot adopt
+an updated archive. Play beyond the previous failure time with the same races
+and Ancient, using shops, Cultist abilities, Ice, damage-over-time attacks and
+leaver takeover when practical.
+
+If a player drops, record the exact message, approximate match time, involved
+units/abilities, player count, operating systems, and Classic/Reforged graphics.
+Keep the replay if Warcraft produces one. These details distinguish a state
+mismatch from a crash or connection loss. The timer fixes remove known-risk code
+patterns; the friend's reported midgame desync has not been reproduced.
+See the [desync audit](https://github.com/clankermaster95/ForestExpansionLua/blob/main/reports/desync-audit-r11.json) for reviewed systems, findings and limits.
+
+### Historical problem actors
+
+| Actor | Focused check |
+|---|---|
+| Ghoul hero / Abomination | Train from Graveyard; attack with and without researched Plague, trigger critical strikes, and Blink during combat. Its combat abilities are native object data. |
+| Lightning Ancient | Cast Lightning Strike and take attacks at every learned level; test several attackers and repeated retaliation. |
+| Sand Ancient | Exercise each spell individually, especially Sandstorm levels 1–7; overlap countdowns with another cast and use Ancient Grasp repeatedly. |
+| Ice Ancient | Repeated Freeze Zone casts on groups, targets dying during the delayed slow, Freezing Breath impacts, Chill and Sadism; overlap with other damage and heals. |
+
+The code review found no proven cause of the old JASS-era desyncs. Relevant
+references include the [Lua GUI timer reproduction](https://us.forums.blizzard.com/en/warcraft3/t/lua-gui-timers-always-desync-minimal-repro/36941)
+(LAN reproduced; Battle.net trials did not), and a [solved Flame Strike freeze](https://www.hiveworkshop.com/threads/solved-game-freezing-only-with-one-hero.362010/)
+caused by a zero half-damage interval. Lightning and Sand do not have that zero
+interval. Their mechanics were preserved while Lua timer ownership was hardened.
 
 ## Implementation choices and limits
 
@@ -62,3 +93,4 @@ Technical references: [Blizzard Moon Well statistics](https://classic.battle.net
 Poison's non-dispellable/nonlethal rules follow [Blizzard's spell basics](https://classic.battle.net/war3/basics/spellbasics.shtml).
 Passive effects in a closed book follow the original [Spellbook tutorial](https://www.hiveworkshop.com/threads/the-mysteries-of-the-spellbook.33039/).
 Armor research uses the unit's Defense Upgrade Bonus; see the [ArmorUtils author's explanation](https://www.hiveworkshop.com/threads/system-vjass-armorutils-v2-0-1.319734/).
+The pick preview uses empty stock with a zero cap, following a [tested zero-stock shop technique](https://www.hiveworkshop.com/threads/legion-td-mega-3-5-b4-3-41-unprotect.194224/page-12). Unlock replaces only unbanned previews with purchasable stock. Projectile speed and damage-dice field IDs are checked independently against Blizzard's declarations in `tools/reference-api/common.j`.

@@ -71,7 +71,7 @@
     {
       "Id": 1634562933,
       "Type": "Int",
-      "Value": 1,
+      "Value": 0,
       "SanityCheck": 0,
       "_field": "usma"
     },
@@ -99,7 +99,7 @@
     {
       "Id": 1932616053,
       "Type": "Int",
-      "Value": 900,
+      "Value": 1,
       "SanityCheck": 0,
       "_field": "ua1s"
     },
@@ -214,6 +214,20 @@
       "Value": "RFPK",
       "SanityCheck": 0,
       "_field": "ureq"
+    },
+    {
+      "Id": 2050056565,
+      "Type": "Unreal",
+      "Value": 900.0,
+      "SanityCheck": 0,
+      "_field": "ua1z"
+    },
+    {
+      "Id": 1680957813,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ua1d"
     }
   ],
   "_rawcode": "h063",
