@@ -59,10 +59,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9698",
+      "Value": "Your first Spirit Tree. It allows you to research defensive upgrades. You must create this in order to sucesfully make a base.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Your first Spirit Tree. It allows you to research defensive upgrades. You must create this in order to sucesfully make a base.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0050|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

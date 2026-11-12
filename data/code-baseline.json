@@ -12,7 +12,7 @@
   "src/libraries/passive_missiles.lua": "eb394877e288785a141e487d9a062072c4281b73db899fa5e263a35adbea24a3",
   "src/libraries/prelude.lua": "fb779dca8ea847bc699de16a6053eb5a8583dabeebfd9da16c1c905f533b70c5",
   "src/libraries/spell_leech.lua": "1b141652364bcf35eefc217d180ec649a9fbfbebfb12273f71df9898aa790148",
-  "src/commands/test_data.lua": "5b80c8b0925393c8c0e1e1b9e2846ea305448dfb235640695ab2a1d26715d667",
+  "src/commands/test_data.lua": "98e0071359225cc429b8e1afa09bd41420be3209690dbd081c25fd259ce94147",
   "src/commands/solo_test.lua": "327acc0eccd2712c85e447b6c76ebb315b565a0894e56b37f590aac030837f5b",
   "src/initialization.lua": "10db1b9617bd34bdf2c8c3806937f36e226eed32eab52a3381fd16b3eadc2b99",
   "src/combat/damage.lua": "c36b9c5a70cabd17a7733c0f2ddd6bfd9f064d610f3b90b1e02ea350e423f333",

@@ -67,10 +67,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10260",
+      "Value": "Upgrade ziggurat, allowing it to attack units, but losing ability to produce food.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 10 (Chaos)|n|cfffdca00Attack Range:|r 800|n|cfffdca00Attack Cooldown:|r 0.8|n|cfffdca00Build Time:|r 15|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Upgrade ziggurat, allowing it to attack units, but losing ability to produce food.|n|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 10 (Chaos)|n|cfffdca00Attack Range:|r 800|n|cfffdca00Attack Cooldown:|r 0.9|n|cfffdca00Build Time:|r 15|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1768841589,

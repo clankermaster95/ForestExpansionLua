@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5168",
+      "Value": "Replenishes mana of a targeted friendly unit or building for <A0BX,DataB1> mana points over <A0BX,Dur1> seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Replenishes mana of a targetted friendly unit or building for <A0BX,DataB1> mana points over <A0BX,Dur1> seconds."
+      "_field": "aub1"
     },
     {
       "Id": 2037082209,

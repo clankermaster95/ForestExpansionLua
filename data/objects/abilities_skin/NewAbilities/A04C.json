@@ -29,10 +29,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1622",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 25 damage per second and 10% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 10% and will take 25 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 829453409,
@@ -239,200 +238,180 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_1652",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 30 damage per second and 12% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 12% and will take 30 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_1655",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 35 damage per second and 14% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 14% and will take 35 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_1658",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 40 damage per second and 16% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 16% and will take 40 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_1665",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 45 damage per second and 18% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 18% and will take 45 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_1666",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 50 damage per second and 20% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 20% and will take 50 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 7,
       "Pointer": 0,
-      "Value": "TRIGSTR_1698",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 55 damage per second and 22% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 22% and will take 55 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 8,
       "Pointer": 0,
-      "Value": "TRIGSTR_1744",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 60 damage per second and 24% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 24% and will take 60 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 9,
       "Pointer": 0,
-      "Value": "TRIGSTR_1767",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 65 damage per second and 26% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 26% and will take 65 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "TRIGSTR_1771",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 70 damage per second and 28% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 28% and will take 70 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 11,
       "Pointer": 0,
-      "Value": "TRIGSTR_1841",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 75 damage per second and 30% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 30% and will take 75 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 12,
       "Pointer": 0,
-      "Value": "TRIGSTR_1844",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 80 damage per second and 32% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 32% and will take 80 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 13,
       "Pointer": 0,
-      "Value": "TRIGSTR_1847",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 85 damage per second and 34% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 34% and will take 85 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 14,
       "Pointer": 0,
-      "Value": "TRIGSTR_1857",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 90 damage per second and 36% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 36% and will take 90 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 15,
       "Pointer": 0,
-      "Value": "TRIGSTR_1858",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 95 damage per second and 38% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 38% and will take 95 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 16,
       "Pointer": 0,
-      "Value": "TRIGSTR_8086",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 100 damage per second and 40% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 40% and will take 100 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 17,
       "Pointer": 0,
-      "Value": "TRIGSTR_1859",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 105 damage per second and 42% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 42% and will take 105 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 18,
       "Pointer": 0,
-      "Value": "TRIGSTR_1870",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 110 damage per second and 44% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 44% and will take 110 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 19,
       "Pointer": 0,
-      "Value": "TRIGSTR_1871",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 115 damage per second and 46% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 46% and will take 115 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 20,
       "Pointer": 0,
-      "Value": "TRIGSTR_1872",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 120 damage per second and 48% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 48% and will take 120 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 21,
       "Pointer": 0,
-      "Value": "TRIGSTR_1873",
+      "Value": "Landed attacks on organic, non-structure targets apply Bleed for 3 seconds: 125 damage per second and 50% reduced attack and movement speed. Further hits refresh the duration. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "When you attack a target, they are slowed by 50% and will take 125 damage over 3 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 1835101793,

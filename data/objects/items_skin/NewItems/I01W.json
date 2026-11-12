@@ -20,6 +20,13 @@
       "SanityCheck": 0,
       "_field": "utub",
       "_resolvedText": "|cff87ceebNon-Combat Consumable|r|nRegenerates the Hero's mana by <A0B8,DataB1> over <A0B8,Dur1> seconds when used."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "|cff87ceebNon-Combat Consumable|r|nRegenerates the Hero's mana by <A0B8,DataB1> over <A0B8,Dur1> seconds when used.",
+      "SanityCheck": 0,
+      "_field": "ides"
     }
   ],
   "_rawcode": "I01W",

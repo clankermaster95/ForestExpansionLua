@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9249",
+      "Value": "Strong wall.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0010|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Strong wall.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0010|r"
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

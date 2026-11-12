@@ -57,10 +57,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_4173",
+      "Value": "Spray rays of darkness to heal you and your allies for 300 (+200 per level) health. 10 second cooldown.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Spray rays of darkness to heal you and your allies.for 300 (+200 per level) health. 10 second cooldown."
+      "_field": "arut"
     },
     {
       "Id": 829453409,
@@ -97,30 +96,27 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4312",
+      "Value": "Spray rays of darkness to heal you and your allies for 300 health. 10 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Spray rays of darkness to heal you and your allies.for 300 health. 10 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_4313",
+      "Value": "Spray rays of darkness to heal you and your allies for 500 health. 10 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Spray rays of darkness to heal you and your allies.for 500 health. 10 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_4318",
+      "Value": "Spray rays of darkness to heal you and your allies for 700 health. 10 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Spray rays of darkness to heal you and your allies.for 700 health. 10 second cooldown."
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A019",

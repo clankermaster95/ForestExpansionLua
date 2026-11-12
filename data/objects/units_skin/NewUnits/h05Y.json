@@ -38,10 +38,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10336",
+      "Value": "Can harvest gold. Harvests 20 lumber.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500; 10/s|n|cfffdca00Armor:|r 2 (Light)|n|cfffdca00Movement Speed:|r 275|n|cffff0000Feed Value:|r |cffffdd00150|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Can harvest gold. Harvests 20 lumber.|n|n|cfffdca00Health:|r 500; 10/s|n|cfffdca00Armor:|r 4 (Light)|n|cfffdca00Movement Speed:|r 275|n|cffff0000Feed Value:|r |cffffdd00150|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

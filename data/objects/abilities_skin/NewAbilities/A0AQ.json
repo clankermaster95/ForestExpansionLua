@@ -38,10 +38,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1236",
+      "Value": "Consumes half of your mana, increasing damage based on amount of (mana consumed)*2 for 60 seconds.|n|cff808080CD: 60 seconds.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Consumes half of your mana, increasing damage based on amount of (mana consumed)*2 for 60 seconds. |n|cff808080CD: 60 seconds.|r"
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

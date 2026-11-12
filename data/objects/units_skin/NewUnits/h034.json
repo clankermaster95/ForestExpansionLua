@@ -46,10 +46,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10090",
+      "Value": "A better wall with double the stats of a regular wall and more armor.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A better wall with double the stats of a regular wall and more armor.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1868786037,

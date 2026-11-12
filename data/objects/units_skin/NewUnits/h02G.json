@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10018",
+      "Value": "A barracks with a better units and upgrades.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 10|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A barracks with a better units and upgrades.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 10|n|cffff0000Feed Value:|r |cffffdd0050|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

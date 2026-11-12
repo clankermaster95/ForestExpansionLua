@@ -45,10 +45,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_7200",
+      "Value": "This unit's temperature is lowered, its attack speed is lowered.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit's temperature is lowered, it's attack speed is lowered."
+      "_field": "fube"
     }
   ],
   "_rawcode": "B02E",

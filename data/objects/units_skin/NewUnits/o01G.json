@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10181",
+      "Value": "Growing this will allow you to select which patch you want to take. It will allow you to take the role of defensive, offensive, or support.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Growing this will allow you to select which patch you want to take. It will allow you to take the role of defensive, offensive, or support.|n|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

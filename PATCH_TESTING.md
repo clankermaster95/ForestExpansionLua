@@ -94,3 +94,10 @@ Poison's non-dispellable/nonlethal rules follow [Blizzard's spell basics](https:
 Passive effects in a closed book follow the original [Spellbook tutorial](https://www.hiveworkshop.com/threads/the-mysteries-of-the-spellbook.33039/).
 Armor research uses the unit's Defense Upgrade Bonus; see the [ArmorUtils author's explanation](https://www.hiveworkshop.com/threads/system-vjass-armorutils-v2-0-1.319734/).
 The pick preview uses empty stock with a zero cap, following a [tested zero-stock shop technique](https://www.hiveworkshop.com/threads/legion-td-mega-3-5-b4-3-41-unprotect.194224/page-12). Unlock replaces only unbanned previews with purchasable stock. Projectile speed and damage-dice field IDs are checked independently against Blizzard's declarations in `tools/reference-api/common.j`.
+
+## Tooltip review
+
+- Compare build/train tooltips with newly created, unupgraded units: Gate (750 HP), Wildkin Den (400 HP), Nerubian Ziggurat/Tower (300 HP), and Bounty Hunter (1.7 attack cooldown).
+- Check both learn menus and learned spells: Sadism (25 seconds), Vanguard (undispellable armor), and Reckoning/Nuke (normal attacks allowed).
+- Check Bleed and Poisoned Bullets across levels, summon descriptions, item ground/shop text, and color/hotkey rendering.
+- Psychic Drain combines native channeling with a scripted drain; its exact live tick-rate total is not claimed in the tooltip. Spellcaster's Cloak reads its inherited resistance directly through the ability reference.

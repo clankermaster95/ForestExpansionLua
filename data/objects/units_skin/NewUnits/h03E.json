@@ -67,10 +67,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10109",
+      "Value": "A basic building that allows you to return lumber and produce workers to aid you.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A basic building that allows you to return lumber and produce workers to aid you.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 2037408373,

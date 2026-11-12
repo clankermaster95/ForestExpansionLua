@@ -24,10 +24,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7141",
+      "Value": "Clockwerk bot designated at repairing your buildings.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 125; 2/s|n|cfffdca00Armor:|r 1 (Heavy)|n|cfffdca00Movement Speed:|r 270|n|cffff0000Feed Value:|r |cffffdd000|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Clockwerk bot designated at repairing your buildings.|n|n|cfffdca00Health:|r 125; 2/s|n|cfffdca00Armor:|r 1 (Heavy)|n|cfffdca00Movement Speed:|r 270|n|cffff0000Feed Value:|r |cffffdd000|r"
+      "_field": "utub"
     },
     {
       "Id": 1935827317,

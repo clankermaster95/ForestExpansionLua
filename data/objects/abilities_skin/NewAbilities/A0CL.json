@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6232",
+      "Value": "Spawns a sticky puddle, slowing down enemy units that get into it by 40%.|nDuration: 40 seconds|nCooldown: 40 seconds|nCast range: 600",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Spawns a sticky puddle, slowing down enemy units that get into it by 40%.|nDuration: 6 seconds|nCooldown: 40 seconds|nCast range: 600"
+      "_field": "aub1"
     },
     {
       "Id": 1952540001,

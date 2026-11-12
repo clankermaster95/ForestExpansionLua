@@ -29,10 +29,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5294",
+      "Value": "Calls forth a wave of healing energy that bounces up to 5 times, healing 400 damage on the primary target. Each bounce restores 10% fewer hit points.|n|cff80808030 seconds cooldown|r|n|cff8080ffCan be casted on structures and mechanical units|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Calls forth a wave of healing energy that bounces up to 5 times, healing 400 damage on the primary target. Each bounce restores 10% fewer hit points.|n|cff80808030 seconds cooldown|r|n|cff8080ffCan be casted on structures and mechanical units|r"
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

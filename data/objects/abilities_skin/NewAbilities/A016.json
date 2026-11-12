@@ -29,10 +29,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_857",
+      "Value": "Mine Gold",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Mine Gold (Q)"
+      "_field": "atp1"
     },
     {
       "Id": 828536161,

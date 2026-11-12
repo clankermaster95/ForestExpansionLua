@@ -226,20 +226,18 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_4417",
+      "Value": "Creates a shield that absorbs damage by using the Ancient's mana. Blocked damage ignores Armor and Armor Types.|n|n|cffffcc00Absorbs 5 damage per point of mana.|r",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Creates a shield that absorbs damage by using the Ancient's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Absorbs 5 damage per point of mana.|r"
+      "_field": "arut"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_8950",
+      "Value": "Creates a shield that absorbs damage by using the Ancient's mana. Blocked damage ignores Armor and Armor Types.|n|n|cffffcc00Absorbs 5 damage per point of mana.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Creates a shield that absorbs damage by using the Ancient's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Absorbs 5 damage per point of mana.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1835101793,

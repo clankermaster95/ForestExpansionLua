@@ -60,10 +60,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9918",
+      "Value": "A great tower that deals chaos damage and is very fast.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 50 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A great tower that deals chaos damage and is very fast.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 50 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     },
     {
       "Id": 1919905909,

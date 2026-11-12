@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_2394",
+      "Value": "Upgrade",
       "SanityCheck": 0,
-      "_field": "anam",
-      "_resolvedText": "Upgrade "
+      "_field": "anam"
     },
     {
       "Id": 829453409,
@@ -56,5 +55,5 @@
   ],
   "_rawcode": "A02J",
   "_base": "Aave",
-  "_name": "Upgrade "
+  "_name": "Upgrade"
 }

@@ -39,10 +39,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7365",
+      "Value": "Attacks slow movement speed by 60% for 1.5 seconds.|n|cff7F7F7FAn ancient technique that causes your arms to secrete virulent toxins.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Attacks slow movement speed by 60% for 1.5 seconds. |n|cff7F7F7FAn ancient technique that causes your arms to secrete virulent toxins.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2020631137,

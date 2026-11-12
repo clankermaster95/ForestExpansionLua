@@ -182,50 +182,45 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7624",
+      "Value": "Increases the movement speed of your main Wildkin by 20.|n|cff7F7F7FWildkin are known for their surprising speed when they maniacally charge out of nowhere.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the movement speed of your main Wildkin by 20. |n|cff7F7F7FWildkin are known for their surprising speed when they maniacally charge out of nowhere.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_7625",
+      "Value": "Increases the movement speed of your main Wildkin by 20.|n|cff7F7F7FWildkin are known for their surprising speed when they maniacally charge out of nowhere.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the movement speed of your main Wildkin by 20. |n|cff7F7F7FWildkin are known for their surprising speed when they maniacally charge out of nowhere.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_7626",
+      "Value": "Increases the movement speed of your main Wildkin by 20.|n|cff7F7F7FWildkin are known for their surprising speed when they maniacally charge out of nowhere.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the movement speed of your main Wildkin by 20. |n|cff7F7F7FWildkin are known for their surprising speed when they maniacally charge out of nowhere.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_7627",
+      "Value": "Increases the movement speed of your main Wildkin by 20.|n|cff7F7F7FWildkin are known for their surprising speed when they maniacally charge out of nowhere.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the movement speed of your main Wildkin by 20. |n|cff7F7F7FWildkin are known for their surprising speed when they maniacally charge out of nowhere.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_7628",
+      "Value": "Increases the movement speed of your main Wildkin by 20.|n|cff7F7F7FWildkin are known for their surprising speed when they maniacally charge out of nowhere.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the movement speed of your main Wildkin by 20. |n|cff7F7F7FWildkin are known for their surprising speed when they maniacally charge out of nowhere.|r"
+      "_field": "gub1"
     }
   ],
   "_rawcode": "R050",

@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7162",
+      "Value": "|cff008000Role|r: Carry|n|n|cff008000Off Role|r: Hunter or Support|n|n|cff8080FFDifficulty|r: |cff80ffffVery Easy|r|n|n|cffFF8F40Move Speed|r: 350|n|cffFF8Fa0Attack Cooldown|r: 2.0|n|n|cffC0C0C0Worgen is a stealthy race that can be played two ways. As a supportive and team-friendly unit, who pools plenty of resources over to the races that require it more. You also help the team by keeping the ancient busy, helping the other races by walling for them, and being a overall disruptor that the ancient needs to pay attention to. Or, you can choose to play this race as a carry. A carry requires many resources and a long time of upgrading in order to become stronger, but pays off. Worgens have many upgrades, all of which the assets of a carry.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter or Support|n\n|cff8080FFDifficulty|r: |cff80ffffVery Easy|r|n\n|cffFF8F40Move Speed|r: 350\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Worgen is a stealthy race that can be played two ways. As a supportive and team-friendly unit, who pools plenty of resources over to the races that require it more. You also help the team by keeping the ancient busy, helping the other races by walling for them, and being a overall disruptor that the ancient needs to pay attention to. Or, you can choose to play this race as a carry. A carry requires many resources and a long time of upgrading in order to become stronger, but pays off. Worgens have many upgrades, all of which the assets of a carry.|r"
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4309",
+      "Value": "Creates a shield of frost around a target friendly unit. The shield adds <A0AZ,DataB1> armor and slows melee units that attack it for <A0AZ,Dur1> seconds.|nLasts <A0AZ,DataA1> seconds. 2 second cooldown. Infinite range.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Creates a shield of frost around a target friendly unit. The shield adds <A0AZ,DataB1> armor and slows melee units that attack it for <A0AZ,Dur1> seconds. |nLasts <A0AZ,DataA1> seconds. 2 second cooldown. Infinite range."
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

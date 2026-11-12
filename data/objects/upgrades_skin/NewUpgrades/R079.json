@@ -151,10 +151,9 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_3937",
+      "Value": "|cffe1e142Increases Silvester's mining speed by|r 15%.|n|nThis the last upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cffe1e142Increases Silvester's mining speed by|r 15%.|n|nThis is the last upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
@@ -211,10 +210,9 @@
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "TRIGSTR_3975",
+      "Value": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis the last upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 829453415,

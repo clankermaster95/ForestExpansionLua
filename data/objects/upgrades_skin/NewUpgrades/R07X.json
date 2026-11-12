@@ -220,7 +220,7 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "Slower Decay I",
+      "Value": "Slower Decay I [15.0]",
       "SanityCheck": 0,
       "_field": "gtp1"
     },
@@ -229,7 +229,7 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "Slower Decay II",
+      "Value": "Slower Decay II [30.0]",
       "SanityCheck": 0,
       "_field": "gtp1"
     },
@@ -238,7 +238,7 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "Slower Decay III",
+      "Value": "Slower Decay III [45.0]",
       "SanityCheck": 0,
       "_field": "gtp1"
     },
@@ -247,7 +247,7 @@
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "Slower Decay IV",
+      "Value": "Slower Decay IV [60.0]",
       "SanityCheck": 0,
       "_field": "gtp1"
     },
@@ -276,10 +276,9 @@
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_8484",
+      "Value": "Increases attack range of your towers by 50.|n|nThis the last range upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases attack range of your towers by 50.|n|nThis is the last range upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 2037408359,
@@ -338,5 +337,5 @@
   ],
   "_rawcode": "R07X",
   "_base": "Rume",
-  "_name": "Slower Decay I"
+  "_name": "Slower Decay IV"
 }

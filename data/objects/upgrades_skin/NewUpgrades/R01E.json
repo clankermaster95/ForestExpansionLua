@@ -155,50 +155,45 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5384",
+      "Value": "Increases the regeneration of all your units, including your main builder",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the regenration of all your units, including your main builder"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_5388",
+      "Value": "Increases the regeneration of all your units, including your main builder",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the regenration of all your units, including your main builder"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_5392",
+      "Value": "Increases the regeneration of all your units, including your main builder",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the regenration of all your units, including your main builder"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_5393",
+      "Value": "Increases the regeneration of all your units, including your main builder",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the regenration of all your units, including your main builder"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_5396",
+      "Value": "Increases the regeneration of all your units, including your main builder",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the regenration of all your units, including your main builder"
+      "_field": "gub1"
     },
     {
       "Id": 829122663,

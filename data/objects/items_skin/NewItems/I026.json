@@ -46,10 +46,9 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_3742",
+      "Value": "Purchase Farseer Trinket",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "Purchase Farsight Trinket"
+      "_field": "utip"
     }
   ],
   "_rawcode": "I026",

@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9493",
+      "Value": "|cff5fc3e3Dashes away within range of|r 1000.|n|cff5fc3e3Ability cooldown -|r 25 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff5fc3e3Dashes away within range of|r 1000. |n|cff5fc3e3Ability cooldown -|r 25 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 1953653089,

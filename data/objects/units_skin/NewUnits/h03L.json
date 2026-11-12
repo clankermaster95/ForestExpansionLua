@@ -67,10 +67,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10137",
+      "Value": "Your basic defensive structure, can be upgraded.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 40 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Your basic defensive structure, can be upgraded.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 40 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 2037408373,

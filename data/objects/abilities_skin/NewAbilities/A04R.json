@@ -48,10 +48,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5370",
+      "Value": "Agility",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Agility (G)"
+      "_field": "atp1"
     },
     {
       "Id": 828536161,

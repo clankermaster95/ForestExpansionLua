@@ -207,10 +207,9 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_6814",
+      "Value": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis the last upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis is the last upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
@@ -227,10 +226,9 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_6782",
+      "Value": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|n|nThis the last armor upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|r|n|nThis is the last armor upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 829579623,

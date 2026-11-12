@@ -47,10 +47,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3424",
+      "Value": "You conceal yourself for 10 seconds, have 25% increased movement speed & your next attack will deal 100 extra damage. 20 second cooldown.|n|cff7F7F7FThe blood of Y'shaarj disperses you into the shadows, shrouding you from ordinary vision.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "You conceal yourself for 10 seconds, have 25% increased movement speed & your next attack will deal 100 extra damage. 20 second cooldown. |n|cff7F7F7FThe blood of Y'shaarj disperses you into the shadows, shrouding you from ordinary vision.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037408353,

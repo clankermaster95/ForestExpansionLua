@@ -95,10 +95,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10191",
+      "Value": "Forgotten Bloodmage Tier 1 Tech Building.|n|cff7F7F7FThe blood pool bubbles ominously, waiting for materials to further empower your blood.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 550|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Forgotten Bloodmage Tier 1 Tech Building. |n|cff7F7F7FThe blood pool bubbles ominously, waiting for materials to further empower your blood.|n|n|cfffdca00Health:|r 550|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     },
     {
       "Id": 2020631157,

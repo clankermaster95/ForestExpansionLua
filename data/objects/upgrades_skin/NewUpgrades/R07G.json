@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7118",
+      "Value": "|cff21a621Enables Bounty Hunter to swap to AP Bullets which changes damage type to|r chaos.|cff21a621|n|nIncreases damage by |r120.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cff21a621Enables Bounty Hunter to swap to AP Bullets which changes damage type to|r chaos.|cff21a621 |n|nIncreases damage by |r120.|r"
+      "_field": "gub1"
     },
     {
       "Id": 1718840935,

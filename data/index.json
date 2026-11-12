@@ -1868,8 +1868,8 @@
     "path": "editor/war3map.wpm.json"
   },
   "war3mapSkin.w3a": {
-    "binary_sha256": "89d23f149d542794cfef3c3396cae80c07def617fb74b3972e9ba858df90f4d8",
-    "content_sha256": "4f5365305b15966aa82a5611ab99fdbc1a790ff5e50873447a8b74ba234fc009",
+    "binary_sha256": "11254690112c2cc6643a85cd12af68d5a6df16fab1f8b4a3c2d4f3e3684ed97a",
+    "content_sha256": "07f4f21f45f052beeece9f9ef10699188a8f95f856be2a8cc0269b97a5c069df",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -2498,8 +2498,8 @@
     }
   },
   "war3mapSkin.w3h": {
-    "binary_sha256": "60d3d59816cc5349a727159a3e5f562a9f2bfc1a3b7972ebe01d922fccc01fc5",
-    "content_sha256": "6a07975e543bfcf42fe7d0f984267e0f739c46ecb6c1fd6e69d8da168db8127d",
+    "binary_sha256": "230eca1d499b5d76a86c7beb58128767509529a2a6902bfbb071f8e0549cd996",
+    "content_sha256": "4a89f5667d435de0e187ff25f7ead8df44808124479a83380449888c984ac2cb",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -2682,8 +2682,8 @@
     }
   },
   "war3mapSkin.w3q": {
-    "binary_sha256": "46c2e6bb0f39b87a26388aa9cc41d3bdb256fb3a5b6561793e420df2835b5fd5",
-    "content_sha256": "50d81b0f72c83c98125652f0fd1c05c2ae9fecf9b952c2d363c65712a2b01a9c",
+    "binary_sha256": "ee5298af7546a192afe0d8052957500b9c65d675590eeeaefc900c698b889dd3",
+    "content_sha256": "810f1e45e2026bb8713c9eb0cbc6f3fa56e829509127a727656ba107520cf55b",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -2999,8 +2999,8 @@
     }
   },
   "war3mapSkin.w3t": {
-    "binary_sha256": "21c96f846c2d9369c6c09eb19035200ca8d30afe05ea705a68f6c11b8fb5423f",
-    "content_sha256": "3bcd950518bfb32bbccbbdcd08995306bb48d0cbcee1ae85966586bd8e81894b",
+    "binary_sha256": "11c8bc059960a63bef5751035dfc2cf943e5f621eb51642e57ffc08a1819486e",
+    "content_sha256": "edef8bf8a89b1e57cbd5b7e8065584501cf31a994c637ecfa4a91b49edacf92f",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -3101,8 +3101,8 @@
     }
   },
   "war3mapSkin.w3u": {
-    "binary_sha256": "f8a158a2c5ba895f8f67beddfba500267f7de909354fb7a6f56e23756e0df104",
-    "content_sha256": "87a5ccf221b02ee158437f06ad65d110f18a52d429ef50fb2cf5a317b8dbbb3c",
+    "binary_sha256": "479832d98c13c669c1c9fa81ff387256bd5df0e178c2350418a64f907695a194",
+    "content_sha256": "71950e35896523715a14160aafe1141f71e0d48139143bcc5c9de2ade872e79c",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"

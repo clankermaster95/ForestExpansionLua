@@ -38,10 +38,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_1474",
+      "Value": "This unit is under Rage, its movement and attack speed is dramatically increased.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit is under Rage, it's movement and attack speed is dramatically increased."
+      "_field": "fube"
     }
   ],
   "_rawcode": "B00A",

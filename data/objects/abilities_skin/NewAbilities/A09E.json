@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_867",
+      "Value": "Burns nearby enemy units for <A09E,DataA1> points of damage per second.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Burns nearby enemy units for <A09Ei,DataA1> points of damage per second."
+      "_field": "aub1"
     },
     {
       "Id": 1718840929,

@@ -127,70 +127,63 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5349",
+      "Value": "Energize",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Energize (E)"
+      "_field": "atp1"
     },
     {
       "Id": 829453409,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_5350",
+      "Value": "Energize",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Energize (E)"
+      "_field": "atp1"
     },
     {
       "Id": 829453409,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_5351",
+      "Value": "Energize",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Energize (E)"
+      "_field": "atp1"
     },
     {
       "Id": 829453409,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_5352",
+      "Value": "Energize",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Energize (E)"
+      "_field": "atp1"
     },
     {
       "Id": 829453409,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_5353",
+      "Value": "Energize",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Energize (E)"
+      "_field": "atp1"
     },
     {
       "Id": 829453409,
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_5354",
+      "Value": "Energize",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Energize (E)"
+      "_field": "atp1"
     },
     {
       "Id": 829453409,
       "Type": "String",
       "Level": 7,
       "Pointer": 0,
-      "Value": "TRIGSTR_5355",
+      "Value": "Energize",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Energize (E)"
+      "_field": "atp1"
     },
     {
       "Id": 1802007137,

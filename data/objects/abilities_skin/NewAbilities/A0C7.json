@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5992",
+      "Value": "Conjures a magical bolt at a target, dealing 250 damage and briefly interrupting any spell casts.|n5 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Conjures a magical bolt at a target, dealing 250 damage and briefly interrupting any spell casts. |n5 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 1718840929,

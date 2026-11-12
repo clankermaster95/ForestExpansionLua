@@ -67,10 +67,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9539",
+      "Value": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r|n|cffFF8040Strong Against:|r Bases & Armies|n|cffFF8040Weak Against:|r Solos|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n|nThe Ancient of Space and Time is very powerful vs. basers and can hold his own vs certain types of hunters. He can apply a lot of pressure on the map with his Summon Black Hole ability to cause all resource based expanders to suffer and be halted. This ancient is also very tough to kill with a flat health heal and a strong escape/regeneration ability. Additionally, this ancient is almost unstoppable at level 15, when he gains his ultimate ability.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r\n|cffFF8040Strong Against:|r Bases & Armies\n|cffFF8040Weak Against:|r Solos\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n\nThe Ancient of Space and Time is very powerful vs. basers and can hold his own vs certain types of hunters. He can apply a lot of pressure on the map with his Summon Black Hole ability to cause all resource based expanders to suffer and be halted. This ancient is also very tough to kill with a flat health heal and a strong escape/regeneration ability. Additionally, this ancient is almost unstoppable at level 15, when he gains his ultimate ability."
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

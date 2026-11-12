@@ -166,10 +166,9 @@
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_8848",
+      "Value": "Increases Cultist's health by +100 hitpoints.|n|nThis the last health upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases Cultist's health by +100 hitpoints.|n|nThis is the last health upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 2037408359,

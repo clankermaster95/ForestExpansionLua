@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_347",
+      "Value": "Enflame the boulders your towers throw, to increase the damage by 10.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+      "_field": "gub1"
     },
     {
       "Id": 829579623,
@@ -410,90 +409,81 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_8549",
+      "Value": "Enflame the boulders your towers throw, to increase the damage by 10.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_8550",
+      "Value": "Enflame the boulders your towers throw, to increase the damage by 10.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_8551",
+      "Value": "Enflame the boulders your towers throw, to increase the damage by 10.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_8552",
+      "Value": "Enflame the boulders your towers throw, to increase the damage by 10.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_8553",
+      "Value": "Enflame the boulders your towers throw, to increase the damage by 10.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 7,
       "Pointer": 0,
-      "Value": "TRIGSTR_8554",
+      "Value": "Enflame the boulders your towers throw, to increase the damage by 10.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 8,
       "Pointer": 0,
-      "Value": "TRIGSTR_8555",
+      "Value": "Enflame the boulders your towers throw, to increase the damage by 10.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 9,
       "Pointer": 0,
-      "Value": "TRIGSTR_8556",
+      "Value": "Enflame the boulders your towers throw, to increase the damage by 10.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "TRIGSTR_8557",
+      "Value": "Enflame the boulders your towers throw, to increase the damage by 10.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Enflame the the boulders your towers throw, to increase the damage by 10."
+      "_field": "gub1"
     }
   ],
   "_rawcode": "R002",

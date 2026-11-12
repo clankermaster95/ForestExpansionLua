@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5917",
+      "Value": "Bombards an area with rockets, dealing up to 500 damage to nearby enemy land units and interrupting spells.|n|cff808080Has initial cast time of 5 seconds.|r|n|cff00ffffDeals 33% damage to enemy buildings|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Bombards an area with rockets, dealing up to 500 damage to nearby enemy land units and interrupting spells. |n|cff808080Has initial cast time of 5 seconds.|r|n|cff00ffffDeals 33% damage to enemy buildings|r"
+      "_field": "aub1"
     },
     {
       "Id": 1718840929,

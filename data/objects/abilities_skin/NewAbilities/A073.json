@@ -77,10 +77,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_5717",
+      "Value": "Lower the temperature of the map, dealing 100 (+50 per level) damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Lower the temperature of the map, freezing everyone's PC for quite a bit and dealing 100 (+50 per level) damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+      "_field": "arut"
     },
     {
       "Id": 829453409,
@@ -137,40 +136,36 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_3935",
+      "Value": "Lower the temperature of the map, dealing 150 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Lower the temperature of the map, freezing everyone's pc for quite a bit and dealing 150 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_3990",
+      "Value": "Lower the temperature of the map, dealing 200 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Lower the temperature of the map, freezing everyone's PC for quite a bit and dealing 200 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_3991",
+      "Value": "Lower the temperature of the map, dealing 250 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Lower the temperature of the map, freezing everyone's PC for quite a bit and dealing 250 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_3992",
+      "Value": "Lower the temperature of the map, dealing 300 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Lower the temperature of the map, freezing everyone's PC for quite a bit and dealing 300 damage around you, and slowing attack speed by 75%. This ability has a 4000 range, but does not work on buildings. One minute cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

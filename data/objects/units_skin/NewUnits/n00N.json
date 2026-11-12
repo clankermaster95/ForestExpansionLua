@@ -38,10 +38,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10292",
+      "Value": "Further your development with strong and useful upgrades for your towers, walls and Observatory that you can do in this building.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Further your development with strong and useful upgrades for your towers, walls and Observatory that you can do in this building.|n|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

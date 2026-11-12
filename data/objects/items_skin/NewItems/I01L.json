@@ -24,18 +24,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_1990",
+      "Value": "Increases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects.|n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Increases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_1991",
+      "Value": "Increases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects.|n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Increases your strength by 50 and damage by 100. Also allows you to become temporarily invulnerable (for 1s), dispelling most negative effects. |n|cff00ffffAdditionally increases your damage against heroes by 100|r|n|cff808080CD 45s|r"
+      "_field": "ides"
     },
     {
       "Id": 1868786025,

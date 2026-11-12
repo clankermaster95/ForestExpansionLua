@@ -68,10 +68,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_4421",
+      "Value": "Silences and disables the attack of an enemy unit and deals 25 (+25 per level) damage per second for 5 seconds. When this casted, you heal for 2% of your health per second for 10 seconds. 20 second cooldown.|n|cffFF8080This ability costs 10% of your health.|r",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Silences and disables the attack of an enemy unit and deals 25 (+25 per level) damage per second for 5 seconds. When this is casted, you heal for 2% of your health per second for 10 seconds. 20 second cooldown.|n|cffFF8080This ability costs 10% of your health.|r"
+      "_field": "arut"
     },
     {
       "Id": 829453409,
@@ -108,30 +107,27 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_4422",
+      "Value": "Silences and disables the attack of an enemy unit and deals 50 damage per second for 5 seconds. When this casted, you heal for 2% of your health per second for 10 seconds. 20 second cooldown.|n|cffFF8080This ability costs 10% of your health.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Silences and disables the attack of an enemy unit and deals 50 damage per second for 5 seconds. When this is casted, you heal for 2% of your health per second for 10 seconds. 20 second cooldown.|n|cffFF8080This ability costs 10% of your health.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4423",
+      "Value": "Silences and disables the attack of an enemy unit and deals 25 damage per second for 5 seconds. When this casted, you heal for 2% of your health per second for 10 seconds. 20 second cooldown.|n|cffFF8080This ability costs 10% of your health.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Silences and disables the attack of an enemy unit and deals 25 damage per second for 5 seconds. When this is casted, you heal for 2% of your health per second for 10 seconds. 20 second cooldown.|n|cffFF8080This ability costs 10% of your health.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_4424",
+      "Value": "Silences and disables the attack of an enemy unit and deals 75 damage per second for 5 seconds. When this casted, you heal for 2% of your health per second for 10 seconds. 20 second cooldown.|n|cffFF8080This ability costs 10% of your health.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Silences and disables the attack of an enemy unit and deals 75 damage per second for 5 seconds. When this is casted, you heal for 2% of your health per second for 10 seconds. 20 second cooldown.|n|cffFF8080This ability costs 10% of your health.|r"
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A07Z",

@@ -53,10 +53,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9538",
+      "Value": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r|n|cffFF8040Strong Against:|r Everything|n|cffFF8040Weak Against:|r Nothing|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r|n|nThe Ancient of Wind is a strong all-rounder character with a great potential at setting up kills, sieging bases and clearing the map. She has lots of utility and almost no weaknesses, however she does not have spammable spells and may be overwhelmed if catched off-guard.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r\n|cffFF8040Strong Against:|r Everything\n|cffFF8040Weak Against:|r Nothing\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r|n\nThe Ancient of Wind is a strong all-rounder character with a great potential at setting up kills, sieging bases and clearing the map. She has lots of utility and almost no weaknesses, however she does not have spammable spells and may be overwhelmed if catched off-guard."
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

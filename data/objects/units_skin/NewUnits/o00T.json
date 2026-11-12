@@ -31,10 +31,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10068",
+      "Value": "A zeppelin tower that creates flying machines to transport units all around the map or aid in combat.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 2 (Heavy)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0070|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A zeppelin tower that creates flying machines to transport units all around the map or aid in combat.|n|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 2 (Heavy)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0070|r"
+      "_field": "utub"
     },
     {
       "Id": 1831952757,

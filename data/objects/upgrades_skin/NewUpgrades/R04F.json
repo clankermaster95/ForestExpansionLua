@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7898",
+      "Value": "This upgrade is required to use Psychic Slam. You deal 400 (+40 per attack upgrade) damage. No cooldown.|n|cffFF8080This ability costs 300 health|r|n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "This upgrade is required to use Psychic Slam. You deal 400 (+40 per attack upgrade) damage. No cooldown. |n|cffFF8080This ability costs 300 health|r |n|cff7F7F7FThe force of your mind is strong enough to split foe and earth alike.|r"
+      "_field": "gub1"
     },
     {
       "Id": 829579623,

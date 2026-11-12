@@ -53,10 +53,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_1576",
+      "Value": "|cff10ad06Difficulty:|r |cff56e349Easy|r|n|cffFF8040Strong Against:|r Everything|n|cffFF8040Weak Against:|r Nothing|n|nThis ancient does not have any precise speciality, he is a very versatile ancient. Eternity has improved health regeneration, and wards to allow him to secure locations. This ancient is powerful against all types of opponents and is an easy ancient to play.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff10ad06Difficulty:|r |cff56e349Easy|r\n|cffFF8040Strong Against:|r Everything\n|cffFF8040Weak Against:|r Nothing|n\nThis ancient does not have any precise speciality, he is a very versatile ancient. Eternity has improved health regeneration, and wards to allow him to secure locations. This ancient is powerful against all types of opponents and is an easy ancient to play."
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

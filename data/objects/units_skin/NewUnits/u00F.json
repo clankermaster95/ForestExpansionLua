@@ -52,10 +52,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10875",
+      "Value": "A nerubian swarmer.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 650; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Attack:|r 75 (Piercing)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1.25|n|cfffdca00Movement Speed:|r 290|n|cffff0000Feed Value:|r |cffffdd000|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A nerubian swarmer.|n|n|cfffdca00Health:|r 650; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Attack:|r 75 (Piercing)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1.25|n|cfffdca00Movement Speed:|r 290|n|cffff0000Feed Value:|r |cffffdd000|r"
+      "_field": "utub"
     }
   ],
   "_rawcode": "u00F",

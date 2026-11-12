@@ -24,10 +24,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10319",
+      "Value": "Tower with a global range nuke.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 300|n|cfffdca00Mana:|r 100; 0.2/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 40 (Normal)|n|cfffdca00Attack Range:|r 1200|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Tower with a global range nuke.|n|n|cfffdca00Health:|r 300|n|cfffdca00Mana:|r 100; 0.2/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 40 (Normal)|n|cfffdca00Attack Range:|r 1200|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

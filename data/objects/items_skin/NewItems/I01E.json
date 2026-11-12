@@ -38,18 +38,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6067",
+      "Value": "Increases damage by 60, and has a 11% chance on attack to stun the target for 1 second & deal 200 damage.|n|cffFF0000This item can only be picked up by a Forgotten One|r|n|cff7F7F7FSouls periodically leap from the hammer, freezing enemies in fear.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Increases damage by 60, and has a 11% chance on attack to stun the target for 1 second & deal 200 damage. |n|cffFF0000This item can only be picked up by a Forgotten One|r |n|cff7F7F7FSouls periodically leap from the hammer, freezing enemies in fear.|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_6068",
+      "Value": "Increases damage by 60, and has a 11% chance on attack to stun the target for 1 second & deal 200 damage.|n|cffFF0000This item can only be picked up by a Forgotten One|r|n|cff7F7F7FSouls periodically leap from the hammer, freezing enemies in fear.|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Increases damage by 60, and has a 11% chance on attack to stun the target for 1 second & deal 200 damage. |n|cffFF0000This item can only be picked up by a Forgotten One|r |n|cff7F7F7FSouls periodically leap from the hammer, freezing enemies in fear.|r"
+      "_field": "ides"
     }
   ],
   "_rawcode": "I01E",

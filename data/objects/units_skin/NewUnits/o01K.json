@@ -81,10 +81,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_3732",
+      "Value": "A sneaky warrior, can move in and out of combat with no problems. Can end fleeing targets hastfully with their agility, and can help locate enemies.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 400; 2/s|n|cfffdca00Armor:|r 1 (Heavy)|n|cfffdca00Attack:|r 10 (Piercing)|n|cfffdca00Attack Range:|r 100|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 350|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A sneaky warrior, can move in and out of combat with no problems. Can end fleeing targets hastfully with their agility, and can help locate enemies.|n|n|cfffdca00Health:|r 400; 2/s|n|cfffdca00Armor:|r 1 (Heavy)|n|cfffdca00Attack:|r 10 (Piercing)|n|cfffdca00Attack Range:|r 100|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 350|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     }
   ],
   "_rawcode": "o01K",

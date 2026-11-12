@@ -87,20 +87,18 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_7227",
+      "Value": "For 10 seconds, this ability doubles your size, increases attack speed, and increases lifesteal if Essence Theft is researched. 90 second cooldown.|n|cff7F7F7FYou herald the glory of the Old Gods with a brief show of their power.|r",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "When casted, you initially lose 40% of your health, however, you regenerate 10000 health over 10 seconds."
+      "_field": "arut"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3640",
+      "Value": "For 10 seconds, this ability doubles your size, increases attack speed, and increases lifesteal if Essence Theft is researched. 90 second cooldown.|n|cff7F7F7FYou herald the glory of the Old Gods with a brief show of their power.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "For 10 seconds, this ability doubles your size, increases attack speed, and increases lifesteal if Essence Theft is researched. 90 second cooldown. |n|cff7F7F7FYou herald the glory of the Old Gods with a brief show of their power.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1918989665,

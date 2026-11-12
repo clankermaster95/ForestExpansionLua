@@ -73,10 +73,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6544",
+      "Value": "A dark figure.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 3500; 1/s|n|cfffdca00Armor:|r 10 (Heavy)|n|cfffdca00Attack:|r 250 (Chaos)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 425|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A dark figure.|n|n|cfffdca00Health:|r 3500; 1/s|n|cfffdca00Armor:|r 10 (Heavy)|n|cfffdca00Attack:|r 250 (Chaos)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 425|n|cffff0000Feed Value:|r |cffffdd0050|r"
+      "_field": "utub"
     },
     {
       "Id": 1831952757,

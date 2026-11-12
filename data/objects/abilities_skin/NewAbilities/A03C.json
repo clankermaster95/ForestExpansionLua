@@ -39,10 +39,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3178",
+      "Value": "Summons a powerful crypt lord to your aid. Does not die unless killed or resummoned.|n|cffDE1919Warning: Drops items when killed!|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons a powerful crypt lord to your aid. Does not die unless killed or resummoned. |n|cffDE1919Warning: Drops items when killed!|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037082209,

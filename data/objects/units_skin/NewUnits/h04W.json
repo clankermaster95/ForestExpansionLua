@@ -32,10 +32,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10229",
+      "Value": "This flag should be constructed behind a full base with walls and towers. Constructing this flag will grant all allies on your team 1 gold and 50 lumber every 6 seconds, but this flag should be built in a safe place.|n|cffFF0000Warning: When this flag is constructed, it will alert the ancient of it's whereabouts! Additionally, when this flag is killed, the ancient will be granted 150 gold!|r|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 3000; 5/s|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd001000|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "This flag should be constructed behind a full base with walls and towers. Constructing this flag will grant all allies on your team 1 gold and 50 lumber every 6 seconds, but this flag should be built in a safe place. |n|cffFF0000Warning: When this flag is constructed, it will alert the ancient of it's whereabouts! Additionally, when this flag is killed, the ancient will be granted 150 gold!|r|n|n|cfffdca00Health:|r 3000; 5/s|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd001000|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

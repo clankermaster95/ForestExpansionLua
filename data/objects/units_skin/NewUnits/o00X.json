@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10074",
+      "Value": "An advanced unit that allows you to see one part of the map every 60 seconds.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 250; 0.25/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "An advanced unit that allows you to see one part of the map every 60 seconds.|n|n|cfffdca00Health:|r 250; 0.25/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

@@ -101,10 +101,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10220",
+      "Value": "Powerful spellcasters with many abilities to support in battle or deal high damage to the ancient.|n|cff7F7F7FThe forest rages, and the shamans gather to abuse their powers.|r|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 750; 1/s|n|cfffdca00Mana:|r 500; 3/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Attack:|r 90 (Magic)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Powerful spellcasters with many abilities to support in battle or deal high damage to the ancient. |n|cff7F7F7FThe forest rages, and the shamans gather to abuse their powers.|r|n|n|cfffdca00Health:|r 750; 1/s|n|cfffdca00Mana:|r 500; 3/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Attack:|r 90 (Magic)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1835101813,

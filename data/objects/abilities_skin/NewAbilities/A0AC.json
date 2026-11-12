@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_876",
+      "Value": "An aura that causes enemies to take a percentage of melee damage dealt to nearby friendly units.|n|n|cffffcc00Level 1|r - Returns <A0AC,DataA1,%>% damage.|n|cffffcc00Level 2|r - Returns <A0AC,DataA2,%>% damage.|n|cffffcc00Level 3|r - Returns <A0AC,DataA3,%>% damage.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "An aura that causes enemies to take a percentage of melee damage dealt to nearby friendly units. |n|n|cffffcc00Level 1|r - Returns <A0AC,DataA1,%>% damage. |n|cffffcc00Level 2|r - Returns <A0AC,DataA2,%>% damage. |n|cffffcc00Level 3|r - Returns <A0AC,DataA3,%>% damage."
+      "_field": "arut"
     }
   ],
   "_rawcode": "A0AC",

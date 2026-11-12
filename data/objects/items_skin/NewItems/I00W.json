@@ -38,18 +38,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_3646",
+      "Value": "Randomly selects an available, unbanned race. Cultist is available only in solo test mode.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Let the game pick your race. Any race will be selected at random."
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_3647",
+      "Value": "Randomly selects an available, unbanned race. Cultist is available only in solo test mode.",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Let the game pick your race. Any race will be selected at random."
+      "_field": "ides"
     }
   ],
   "_rawcode": "I00W",

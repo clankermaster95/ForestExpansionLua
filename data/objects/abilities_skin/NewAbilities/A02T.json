@@ -67,10 +67,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_494",
+      "Value": "Creates an ionic force of energy around a unit or structure, increasing its armor by 10 for 10 seconds. Any unit who attacks ionized target will have its movement and attack speed slowed for 3 seconds. 30 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Creates an ionic force of energy around a unit or structure, increasing it's armor by 10 for 10 seconds. Any unit who attacks ionized target will have its movement and attack speed slowed for 3 seconds. 30 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 2020631137,

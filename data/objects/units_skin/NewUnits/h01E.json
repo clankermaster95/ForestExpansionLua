@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9853",
+      "Value": "Basic Tower, Good range. Can be upgraded.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Piercing)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 2|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Basic Tower, Good range. Can be upgraded.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Piercing)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 2|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1868786037,

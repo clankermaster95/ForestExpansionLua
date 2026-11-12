@@ -24,10 +24,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_4320",
+      "Value": "A tower with high damage, but attacks slowly.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 125 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1.3|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A tower with high damage, but attacks slowly.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 125 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1.3|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

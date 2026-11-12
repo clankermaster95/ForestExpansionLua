@@ -48,10 +48,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3289",
+      "Value": "Morph into the Bloodmage, who has a ranged basic attack and a repertoire of spells that consume health.|n|cffFF0000Cannot be combined with other augmentations.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Morph into the Bloodmage, who has a ranged basic attack and a repertoire of spells that consume health. |n|cffFF0000Cannot be combined with other augmentations.|r"
+      "_field": "aub1"
     },
     {
       "Id": 829715809,

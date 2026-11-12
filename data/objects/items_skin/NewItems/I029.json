@@ -12,6 +12,13 @@
       "SanityCheck": 0,
       "_field": "utub",
       "_resolvedText": "Increases the movement speed by <A0DU,DataA1,%>% for <A0DU,Dur1> seconds."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "Increases the movement speed by <A0DU,DataA1,%>% for <A0DU,Dur1> seconds.",
+      "SanityCheck": 0,
+      "_field": "ides"
     }
   ],
   "_rawcode": "I029",

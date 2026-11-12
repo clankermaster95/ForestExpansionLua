@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_8946",
+      "Value": "Tosses a target non-mechanical unit into the air, rendering it unable to move, attack or cast spells, and stopping others from attacking or casting on it.|nLasts <A0EM,Dur1> seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Tosses a target non-mechanical unit into the air, rendering it unable to move, attack or cast spells, and stopping others from attacking or casting on it. |nLasts <A0EM,Dur1> seconds."
+      "_field": "aub1"
     },
     {
       "Id": 1718840929,

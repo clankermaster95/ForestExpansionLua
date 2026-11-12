@@ -22,7 +22,7 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "|cff008000Role|r: Baser|n\n|cff008000Off Role|r: Support|n\n|cff8080FFDifficulty|r: |cffff0000Hard|r|n\n|cffFF8F40Move Speed|r: 290 (+40% at night)\n|cffFF8Fa0Attack Cooldown|r: 1.85|n\n|cffC0C0C0Cultist builds a defensive base and raises an army of Husks, supported by a single Amalgamation. He moves faster and regenerates more health at night. Research Blood Rites at the Altar of the Thing to strengthen nearby allies, heal them by sacrificing health, or empower attacks with pure damage. His strongest abilities spend his own health, so careful timing and positioning are essential.|r",
+      "Value": "|cff008000Role|r: Baser|n|n|cff008000Off Role|r: Support|n|n|cff8080FFDifficulty|r: |cffff0000Hard|r|n|n|cffFF8F40Move Speed|r: 290 (+40% at night)|n|cffFF8Fa0Attack Cooldown|r: 1.85|n|n|cffC0C0C0Cultist builds a defensive base and raises an army of Husks, supported by a single Amalgamation. He moves faster and regenerates more health at night. Research Blood Rites at the Altar of the Thing to strengthen nearby allies, heal them by sacrificing health, or empower attacks with pure damage. His strongest abilities spend his own health, so careful timing and positioning are essential.|r",
       "SanityCheck": 0,
       "_field": "utub"
     },

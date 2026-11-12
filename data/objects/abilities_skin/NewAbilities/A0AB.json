@@ -50,50 +50,45 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_865",
+      "Value": "Summon Treants - [|cffffcc00Level 3|r]",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Summon Treants - [|cffffcc00Level 3|r] "
+      "_field": "atp1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3690",
+      "Value": "Summons 2 treants to fight for Cenarius. Each treant has <e00U,realHP> hit points and deals <e00U,mindmg1> - <e00U,maxdmg1> damage.|n<A0AB,Dur1> second duration. 5 second cooldown.|n|n|cffffcc00They attack land and air units.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons 2 treants to fight for Cenarius. Each treant has <hwat,realHP> hit points and deals <hwat,mindmg1> - <hwat,maxdmg1> damage. |n<AHwe,Dur1> second duration. 5 second cooldown. |n|n|cffffcc00They attack only land units.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_3691",
+      "Value": "Summons 3 treants to fight for Cenarius. Each treant has <e00U,realHP> hit points and deals <e00U,mindmg1> - <e00U,maxdmg1> damage.|n<A0AB,Dur1> second duration. 5 second cooldown.|n|n|cffffcc00They attack land and air units.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons 3 treants to fight for Cenarius. Each treant has <hwat,realHP> hit points and deals <hwat,mindmg1> - <hwat,maxdmg1> damage. |n<AHwe,Dur1> second duration. 5 second cooldown. |n|n|cffffcc00They attack only land units.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_3694",
+      "Value": "Summons 4 treants to fight for Cenarius. Each treant has <e00U,realHP> hit points and deals <e00U,mindmg1> - <e00U,maxdmg1> damage.|n<A0AB,Dur1> second duration. 5 second cooldown.|n|n|cffffcc00They attack land and air units.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons 4 treants to fight for Cenarius. Each treant has <hwat,realHP> hit points and deals <hwat,mindmg1> - <hwat,maxdmg1> damage. |n<AHwe,Dur1> second duration. 5 second cooldown. |n|n|cffffcc00They attack only land units.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1953854049,
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_3695",
+      "Value": "Summons 2/3/4 Treants to fight for you for <A0AB,Dur1> seconds. Attacks land and air units. Cooldown: 5 seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Summons 2/3/4 treants to attack Cenarius' enemies. |n<AHwe,Dur1> second duration. 5 second cooldown. |n|n|cffffcc00They attack only land units.|r |n|n"
+      "_field": "arut"
     },
     {
       "Id": 1953653089,

@@ -50,10 +50,9 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_900",
+      "Value": "Summon Treants - [|cffffcc00Level 3|r]",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Summon Treants - [|cffffcc00Level 3|r] "
+      "_field": "atp1"
     },
     {
       "Id": 828536161,
@@ -70,30 +69,27 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_870",
+      "Value": "Summons 3 treants to fight for cenarius. Has <e00U,realHP> hit points and deals <e00U,mindmg1> - <e00U,maxdmg1> damage.|nLasts <A0AG,Dur1> seconds.|n|n|cffffcc00Attacks land units.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons 3 treants to fight for cenarius. Has <hwat,realHP> hit points and deals <hwat,mindmg1> - <hwat,maxdmg1> damage. |nLasts <AHwe,Dur1> seconds. |n|n|cffffcc00Attacks land units.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_871",
+      "Value": "Summons 4 treants to fight for cenarius. Has <e00U,realHP> hit points and deals <e00U,mindmg1> - <e00U,maxdmg1> damage.|nLasts <A0AG,Dur1> seconds.|n|n|cffffcc00Attacks land units.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons 4 treants to fight for cenarius. Has <hwat,realHP> hit points and deals <hwat,mindmg1> - <hwat,maxdmg1> damage. |nLasts <AHwe,Dur1> seconds. |n|n|cffffcc00Attacks land units.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1953854049,
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_872",
+      "Value": "Summons a Treant to fight for you for <A0AG,Dur1> seconds. Attacks land and air units. Cooldown: 5 seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Summons 2/3/4 treants to attack the Cenarius enemies. |nLasts <AHwe,Dur1> seconds. |n|n|cffffcc00Attacks land and air units.|r |n|n"
+      "_field": "arut"
     },
     {
       "Id": 1953653089,

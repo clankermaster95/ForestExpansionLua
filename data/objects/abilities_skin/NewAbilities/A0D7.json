@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4097",
+      "Value": "|cff4aad59Summons an invisible and immovable ward that provides|r vision|cff4aad59 in an area.|n|nCan see|r invisible |cff4aad59units.|n|nLasts|r 90 |cff4aad59seconds.|r |cff4aad59Cooldown|r 60 |cff4aad59seconds.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff4aad59Summons an invisible and immovable ward that provides|r vision|cff4aad59 in an area. |n|nCan see|r invisible |cff4aad59units. |n|nLasts|r 90 |cff4aad59seconds.|r |cff4aad59Cooldown|r 60 |cff4aad59seconds.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037408353,

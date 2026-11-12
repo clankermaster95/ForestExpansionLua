@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6655",
+      "Value": "This upgrade is required to use Dark Blood. Summons three shadowlings that deal no damage, move slow, but have heavy armor and large hitboxes. Lasts 20 second duration. 30 second cooldown.|n|cffFF8080This ability costs 400 health|r|n|cff7F7F7FThe blood of Go'rath can manifest shadows into living creatures under your command.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "This upgrade is required to use Dark Blood. Summons three shadowlings that deal no damage, move slow, but have heavy armor and large hitboxes. Lasts 20 second duration. 30 second cooldown. |n|cffFF8080This ability costs 400 health|r |n|cff7F7F7FThe blood of Go'rath can manifest shadows into living creatures under your command.|r"
+      "_field": "gub1"
     },
     {
       "Id": 829122663,

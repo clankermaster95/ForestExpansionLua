@@ -24,18 +24,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6594",
+      "Value": "Increases hp by 500, strength by 25, armor by 10 and move speed by 60.|n|cff8080ffUnique passive: decreases all damage taken by 10|r|n|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Increases hp by 500, strength by 25, armor by 10 and move speed by 60.\n|cff8080ffUnique passive: decreases all damage taken by 10|r \n|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_6626",
+      "Value": "Increases hp by 500, strength by 25, armor by 10 and move speed by 60.|n|cff8080ffUnique passive: decreases all damage taken by 10|r|n|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Increases hp by 500, strength by 25, armor by 10 and move speed by 60.\n|cff8080ffUnique passive: decreases all damage taken by 10|r \n|cff8080ffActive: regenerates health equal to 20% of your missing health. CD:60s|r|n|cff808080Different sources of move speed bonus from items do not stack|r"
+      "_field": "ides"
     },
     {
       "Id": 1868786025,

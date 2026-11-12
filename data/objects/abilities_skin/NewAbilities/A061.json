@@ -86,10 +86,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_2024",
+      "Value": "Passively deals 125 damage per second to nearby enemies.|n|cff7F7F7FThe blood of N'Zoth heats the air around you, violently scorching your foes.|r",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "All nearby enemies will suffer a terrible flame, dealing 200 damage a second. Does not work on units, only buildings."
+      "_field": "arut"
     },
     {
       "Id": 1918988897,

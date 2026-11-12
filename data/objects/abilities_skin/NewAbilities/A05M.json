@@ -10,20 +10,18 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7322",
+      "Value": "|cffffcc00 |r Binding Shadows",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "|cffffcc00(Q)|r Binding Shadows"
+      "_field": "atp1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3298",
+      "Value": "Roots the target for 1.5 seconds and deals 350 damage. 15 second cooldown.|n|cffFF8080This ability costs 200 health.|r|n|cff7F7F7FThis ancient Erudaxian technique holds the target in place briefly, allowing for an easier escape or pursuit.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Roots the target for 1.5 seconds and deals 350 damage. 15 second cooldown. |n|cffFF8080This ability costs 200 health.|r |n|cff7F7F7FThis ancient Erudaxian technique holds the target in place briefly, allowing for an easier escape or pursuit.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037082209,

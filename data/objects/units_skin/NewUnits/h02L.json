@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7165",
+      "Value": "|cff008000Role|r: Support|n|n|cff008000Off Role|r: Baser|n|n|cff8080FFDifficulty|r: |cffffff00Medium|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 2.0|n|n|cffC0C0C0The Wisp is the most helpful fellow out there. Wisps are able to create bases and harvest massive amounts of lumber to pool over to their team and have a lot left over. Wisp bases are extremely sturdy and have multiple upgrades for a hero that you may get later on in the game, to assist your military races. With your upgrading centers also being aura placers, there should be a lot of room left after you have created your base, for your allies to construct important buildings in.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Support|n\n|cff008000Off Role|r: Baser|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0The Wisp is the most helpful fellow out there. Wisps are able to create bases and harvest massive amounts of lumber to pool over to their team and have a lot left over. Wisp bases are extremely sturdy and have multiple upgrades for a hero that you may get later on in the game, to assist your military races. With your upgrading centers also being aura placers, there should be a lot of room left after you have created your base, for your allies to construct important buildings in.|r"
+      "_field": "utub"
     },
     {
       "Id": 1831952757,

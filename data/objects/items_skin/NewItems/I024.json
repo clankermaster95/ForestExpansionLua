@@ -8,10 +8,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6234",
+      "Value": "|cff87ceebConsumable|r|nAdds <A0CD,DataA1> bonus damage and <A0CD,DataB1,%>% life steal to the Hero.|nLasts <A0CD,Dur1> seconds.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff87ceebConsumable|r|nAdds <A0CD,DataA1> bonus damage and <A0CD,DataB1,%>% life steal to the Hero. |nLasts <A0CD,Dur1> seconds."
+      "_field": "utub"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "|cff87ceebConsumable|r|nAdds <A0CD,DataA1> bonus damage and <A0CD,DataB1,%>% life steal to the Hero.|nLasts <A0CD,Dur1> seconds.",
+      "SanityCheck": 0,
+      "_field": "ides"
     }
   ],
   "_rawcode": "I024",

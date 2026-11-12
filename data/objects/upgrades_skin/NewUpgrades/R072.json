@@ -171,10 +171,9 @@
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_4092",
+      "Value": "|cff6e749bBounty Hunter's damage is increased by|r 55.|n|nThis the last upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 55.|n|nThis is the last upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
@@ -211,10 +210,9 @@
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "TRIGSTR_2017",
+      "Value": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis the last upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 829453415,

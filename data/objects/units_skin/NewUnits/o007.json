@@ -52,10 +52,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_5861",
+      "Value": "This your main technology structure, contains all your upgrades for your military and towers. Allows you to create heroes, upgrade your walls, and give you special abilities.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "This is your main technology structure, contains all your upgrades for your military and towers. Allows you to create heroes, upgrade your walls, and give you special abilties.|n|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

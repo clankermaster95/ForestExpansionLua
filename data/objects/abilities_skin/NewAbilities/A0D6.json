@@ -68,10 +68,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9468",
+      "Value": "|cff5fc3e3Bounty Hunter disappears from the area, leaving nothing behind.|r|n|n|cff5fc3e3Dashes away within range of|r 800.|n|cff5fc3e3Ability cooldown -|r 30 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff5fc3e3Bounty Hunter disappears from the area, leaving nothing behind.|r|n|n|cff5fc3e3Dashes away within range of|r 800. |n|cff5fc3e3Ability cooldown -|r 30 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 2020631137,

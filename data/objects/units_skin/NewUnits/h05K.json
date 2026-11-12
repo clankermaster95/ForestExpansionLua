@@ -38,10 +38,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10283",
+      "Value": "Building that allows you to train arcane mages.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0060|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Building that allows you to train arcane mages.|n|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0060|r"
+      "_field": "utub"
     },
     {
       "Id": 1651012469,

@@ -116,10 +116,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4282",
+      "Value": "Maexxna strikes with her venom, dealing 300 damage instantly and additionally 200 damage over 3 seconds.|n|cff808080CD: 8 seconds; Cast range: 300|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Maexxna strikes with her venom, dealing 300 damage instantly and additionally 200 damage over 3 seconds.|N|cff808080CD: 8 seconds; Cast range: 300|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,

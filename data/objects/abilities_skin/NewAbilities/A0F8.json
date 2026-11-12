@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9701",
+      "Value": "Summons a proud eagle to spy on your enemies with 420 move speed, 1000 sight range and True Sight ability.|nLasts <A0F8,Dur1> seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons a proud eagle to spy on your enemies with 420 move speed, 1000 sight range and True Sight ability. |nLasts <A0F8,Dur1> seconds."
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A0F8",

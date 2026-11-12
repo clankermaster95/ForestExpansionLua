@@ -52,10 +52,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9869",
+      "Value": "Better tower, more range, damage, and speed. Can be upgraded.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 60 (Piercing)|n|cfffdca00Attack Range:|r 800|n|cfffdca00Attack Cooldown:|r 1.8|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Better tower, more range, damage, and speed. Can be upgraded.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 60 (Piercing)|n|cfffdca00Attack Range:|r 800|n|cfffdca00Attack Cooldown:|r 1.8|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1831952757,

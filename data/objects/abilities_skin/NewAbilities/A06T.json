@@ -68,20 +68,18 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_7009",
+      "Value": "Releases earth elementals for 10 seconds. Returning elementals restore health. Cooldown: 18 seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Slam the ground, releasing many earth elementals in random directions. The earth elementals deal no damage, however, they return back to you after 10 seconds and heal you for"
+      "_field": "arut"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7010",
+      "Value": "Releases earth elementals for 10 seconds. Returning elementals restore health. Cooldown: 18 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Slam the ground, releasing many earth elementals in random directions. The earth elementals deal no damage, however, they return back to you after 10 seconds and heal you for"
+      "_field": "aub1"
     },
     {
       "Id": 829453409,
@@ -138,40 +136,36 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_7016",
+      "Value": "Releases earth elementals for 10 seconds. Returning elementals restore health. Cooldown: 18 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Slam the ground, releasing many earth elementals in random directions. The earth elementals deal no damage, however, they return back to you after 10 seconds and heal you for"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_7017",
+      "Value": "Releases earth elementals for 10 seconds. Returning elementals restore health. Cooldown: 18 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Slam the ground, releasing many earth elementals in random directions. The earth elementals deal no damage, however, they return back to you after 10 seconds and heal you for"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_7018",
+      "Value": "Releases earth elementals for 10 seconds. Returning elementals restore health. Cooldown: 18 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Slam the ground, releasing many earth elementals in random directions. The earth elementals deal no damage, however, they return back to you after 10 seconds and heal you for"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_7019",
+      "Value": "Releases earth elementals for 10 seconds. Returning elementals restore health. Cooldown: 18 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Slam the ground, releasing many earth elementals in random directions. The earth elementals deal no damage, however, they return back to you after 10 seconds and heal you for"
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A06T",

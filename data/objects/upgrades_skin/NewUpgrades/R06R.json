@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6368",
+      "Value": "Landed attacks on organic, non-structure targets apply Poisoned Bullets for 4 seconds. Each stack deals 40 damage per second and slows movement by 4%, up to 6 stacks (240 damage per second, 24% slow). Further hits add a stack and refresh the duration, including at maximum stacks. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Makes your auto attacks apply a stackable poison."
+      "_field": "gub1"
     },
     {
       "Id": 829579623,

@@ -59,10 +59,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10152",
+      "Value": "Avengers are military units that become invisible after 5 seconds out of combat. They are adept at hunting the Ancient.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 800; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Attack:|r 50 (Chaos)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 0.01|n|cfffdca00Movement Speed:|r 300|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Avengers are military units that become invisible after 5 seconds out of combat. They are adept at hunting the Ancient.|n|n|cfffdca00Health:|r 800; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Attack:|r 50 (Chaos)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 0.01|n|cfffdca00Movement Speed:|r 300|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     }
   ],
   "_rawcode": "e004",

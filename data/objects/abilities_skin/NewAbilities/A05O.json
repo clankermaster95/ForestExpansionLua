@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6940",
+      "Value": "Deals 300 damage and heals for 200. 5 second cooldown.|n|cff7F7F7FA swift slam that shaves off a sliver of the target's soul.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Deals 300 damage and heals for 200. 5 second cooldown. |n|cff7F7F7FA swift slam that shaves off a sliver of the target's soul.|r"
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

@@ -59,10 +59,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10140",
+      "Value": "An extremely strong tower which attacks fast with chaos damage.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 750|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Attack:|r 130 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 0.5|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0040|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "An extremely strong tower which attacks fast with chaos damage.|n|n|cfffdca00Health:|r 750|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Attack:|r 130 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 0.5|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0040|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

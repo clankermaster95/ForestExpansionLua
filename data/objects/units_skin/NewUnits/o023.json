@@ -30,10 +30,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10288",
+      "Value": "A supportive spell caster. Has 2 item slots.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 600; 5/s|n|cfffdca00Mana:|r 500; 5/s|n|cfffdca00Armor:|r 10 (Medium)|n|cfffdca00Attack:|r 100 (Chaos)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd0060|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A supportive spell caster. Has 2 item slots.|n|n|cfffdca00Health:|r 600; 5/s|n|cfffdca00Mana:|r 500; 5/s|n|cfffdca00Armor:|r 10 (Medium)|n|cfffdca00Attack:|r 100 (Chaos)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd0060|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

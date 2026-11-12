@@ -24,10 +24,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_1642",
+      "Value": "|cff008000Role|r: Baser|n|n|cff008000Off Role|r: None|n|n|cff8080FFDifficulty|r: |cffffff00Medium|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 2.0|n|n|cffC0C0C0|nHumans are one of the strongest basing races. Basing races create towers & walls to hold off the ancient and claim territory for a safe zone. It is up to basers such as the human, to allow their carries, supports, and military races to safely harvest gold and lumber, and construct their important buildings beneath the safe haven of a base. What separates the human between other basing races, is that the humans late game towers, the Flak Cannons, are one the most devastating towers in the game. Extremely high amounts of damage, but hard and expensive to create, melt the ancient. Basers such as the human require an early pool of resources in order to give back and help the other races.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Baser|n\n|cff008000Off Role|r: None|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0\nHumans are one of the strongest basing races. Basing races create towers & walls to hold off the ancient and claim territory for a safe zone. It is up to basers such as the human, to allow their carries, supports, and military races to safely harvest gold and lumber, and construct their important buildings beneath the safe haven of a base. What separates the human between other basing races, is that the humans late game towers, the Flak Cannons, are one the most devastating towers in the game. Extremely high amounts of damage, but hard and expensive to create, melt the ancient. Basers such as the human require an early pool of resources in order to give back and help the other races.|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

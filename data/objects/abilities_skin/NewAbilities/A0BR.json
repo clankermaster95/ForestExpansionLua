@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_573",
+      "Value": "Slows a target enemy unit's attack rate by 20% and movement speed by 30%. |nLasts 5 seconds for the Ancient and 10 seconds for minions. |n|cff80808050 seconds cooldown|r",
       "SanityCheck": 1869378369,
-      "_field": "aub1",
-      "_resolvedText": "Slows a target enemy unit's attack rate by 20% and movement speed by 30%. |nLasts 5 seconds for the Ancient and 10 seconds for minions. |n|cff80808050 seconds cooldown|r"
+      "_field": "aub1"
     },
     {
       "Id": 1718840929,

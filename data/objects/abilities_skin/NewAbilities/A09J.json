@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4457",
+      "Value": "Bombards an area with rockets, dealing up to 175 damage to nearby enemy land units and stunning them for <A09J,Dur1> second. 6 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Bombards an area with rockets, dealing up to 175 damage to nearby enemy land units and stunning them for <ANcs,Dur1> second. 6 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 2037082209,

@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6667",
+      "Value": "This upgrade is required to use Surge of Darkness. You gain 50% bonus damage but have heavily reduced movement speed. Lasts 5 seconds.|n|cff7F7F7FYour muscles surge with dark energy, empowering your strikes but making movement difficult.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "This upgrade is required to use Surge of Darkness. You gain 50% bonus damage but have heavily reduced movement speed. Lasts 5 seconds. |n|cff7F7F7FYour muscles surge with dark energy, empowering your strikes but making movement difficult.|r"
+      "_field": "gub1"
     },
     {
       "Id": 829579623,

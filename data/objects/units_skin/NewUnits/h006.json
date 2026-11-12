@@ -67,10 +67,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6272",
+      "Value": "Stronger tower, more damage and speed.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 40 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1.8|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Stronger tower, more damage and speed.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 40 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1.8|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1919905909,

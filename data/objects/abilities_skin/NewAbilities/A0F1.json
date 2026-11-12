@@ -60,20 +60,18 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_8014",
+      "Value": "Nebula concentrates power around him, creating a gravity shift, |cffffcc00slowing the speed of the attack and movement of all enemies in 3000 range by 90% for 4 seconds|r, dealing |cffffcc00100|r damage to units and instantly |cff00ff80healing |rNebula for |cffffcc0025%|r of his health.|n|n|cffffcc0040 second cooldown.|r",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Nebula concentrates power around him, creating a gravity shift, |cffffcc00slowing the speed of the attack and movement of all enemies in 3000 range by 90% for 4 seconds|r, dealing |cffffcc00100|r damage to units and instantly |cff00ff80healing |rNebula for |cffffcc0025%|r of his health. \n\n|cffffcc0040 second cooldown.|r"
+      "_field": "arut"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9196",
+      "Value": "Nebula concentrates power around him, creating a gravity shift, |cffffcc00slowing the speed of the attack and movement of all enemies in 3000 range by 90% for 4 seconds|r, dealing |cffffcc00100|r damage to units and instantly |cff00ff80healing |rNebula for |cffffcc0025%|r of his health.|n|n|cffffcc40 second cooldown.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Nebula concentrates power around him, creating a gravity shift, |cffffcc00slowing the speed of the attack and movement of all enemies in 3000 range by 90% for 4 seconds|r, dealing |cffffcc00100|r damage to units and instantly |cff00ff80healing |rNebula for |cffffcc0025%|r of his health. \n\n|cffffcc0040 second cooldown.|r"
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_9236",
+      "Value": "|cff647affGain passive|r +2 (+1 per additional level) |cff647affexperience|r per second.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "|cff647affGain passive|r +2 (+1 * level) |cff647affexperience|r per second."
+      "_field": "arut"
     },
     {
       "Id": 1952805473,

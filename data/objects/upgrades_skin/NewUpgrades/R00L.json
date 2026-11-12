@@ -49,10 +49,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6277",
+      "Value": "Allows your Wisp and Ancient of Destruction to use Nature's Grasp, which slows a units movement and attack speed by 40%.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Allows your Wisp and Anicent of Destruction to use Nature's Grasp, which slows a unit's movement and attack speed by 40%."
+      "_field": "gub1"
     }
   ],
   "_rawcode": "R00L",

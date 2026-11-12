@@ -1,9 +1,9 @@
 {
   "output": "dist/Forest_Expansion_3.2.0_Lua.w3x",
-  "sha256": "03f733516a00ab774a6bbb6370ef60b9fc208065204a723d249f58c8f85586b2",
+  "sha256": "9fed267aa1df598b5cd9f0e7c950008ef8ca054f9751978d36eeecbbf7b6458c",
   "archive_files": 520,
   "version": "3.2.0",
-  "revision": "r11",
+  "revision": "r12",
   "string_table": {
     "entries": 10443,
     "encoding": "UTF-8 BOM",
@@ -12,12 +12,14 @@
   },
   "lua_syntax": "passed",
   "archive_roundtrip": "all payloads byte-identical to folder",
-  "data_edits": [],
+  "data_edits": [
+    "war3mapSkin.w3q"
+  ],
   "engine_test": "not run by this offline build",
   "maps_copy": {
     "status": "copied",
     "path": "C:\\Users\\aless\\Documents\\Warcraft III\\Maps\\Forest Expansion\\Forest_Expansion_3.2.0_Lua.w3x",
-    "sha256": "03f733516a00ab774a6bbb6370ef60b9fc208065204a723d249f58c8f85586b2",
+    "sha256": "9fed267aa1df598b5cd9f0e7c950008ef8ca054f9751978d36eeecbbf7b6458c",
     "old_copies": {
       "removed": [],
       "locked_pending": []

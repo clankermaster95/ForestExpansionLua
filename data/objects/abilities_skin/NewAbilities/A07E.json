@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3642",
+      "Value": "Throw a quick twister at a target, knocking them into the air for 2 seconds, but rendering them invulnerable. This ability has a one minute cooldown.|n|cff7F7F7FWind is a powerful element; It controls your surroundings.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Throw a quick twister at a target, knocking them into the air for 2 seconds, but rendering them invulnerable. This ability has a one minute cooldown. |n|cff7F7F7FWind is a powerful element; It controls your surroundings.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2020631137,

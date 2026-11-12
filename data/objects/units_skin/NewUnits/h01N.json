@@ -73,10 +73,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9915",
+      "Value": "An advanced building that allows you to research heavy upgrades and allows you to build special towers.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "An advanced building that allows you to research heavy upgrades and allows you to build special towers.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0050|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

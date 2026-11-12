@@ -36,6 +36,13 @@
       "SanityCheck": 0,
       "_field": "utub",
       "_resolvedText": "Give 5 EXP."
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "Give 5 EXP.",
+      "SanityCheck": 0,
+      "_field": "ides"
     }
   ],
   "_rawcode": "I007",

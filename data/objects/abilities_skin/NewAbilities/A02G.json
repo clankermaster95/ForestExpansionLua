@@ -56,10 +56,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5343",
+      "Value": "Rend",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Rend (R)"
+      "_field": "atp1"
     },
     {
       "Id": 828536161,

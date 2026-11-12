@@ -182,50 +182,45 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7644",
+      "Value": "Increases the level of your abilities that benefit from Lunar Power by 1.|n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the level of your abilties that benefit from Lunar Power by 1. |n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_7645",
+      "Value": "Increases the level of your abilities that benefit from Lunar Power by 1.|n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the level of your abilties that benefit from Lunar Power by 1. |n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_7646",
+      "Value": "Increases the level of your abilities that benefit from Lunar Power by 1.|n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the level of your abilties that benefit from Lunar Power by 1. |n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_7647",
+      "Value": "Increases the level of your abilities that benefit from Lunar Power by 1.|n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the level of your abilties that benefit from Lunar Power by 1. |n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_7668",
+      "Value": "Increases the level of your abilities that benefit from Lunar Power by 1.|n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the level of your abilties that benefit from Lunar Power by 1. |n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
+      "_field": "gub1"
     }
   ],
   "_rawcode": "R051",

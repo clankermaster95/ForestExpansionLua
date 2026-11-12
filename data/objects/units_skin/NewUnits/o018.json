@@ -53,10 +53,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10143",
+      "Value": "A research center that allows you to get abiltiies that help you in combat. Also allows you to create walls and merchants.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0040|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A research center that allows you to get abiltiies that help you in combat. Also allows you to create walls and merchants.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0040|r"
+      "_field": "utub"
     },
     {
       "Id": 1919705973,

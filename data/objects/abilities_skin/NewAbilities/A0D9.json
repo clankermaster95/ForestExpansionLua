@@ -50,10 +50,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4129",
+      "Value": "|cff86cb82Summons an invisible and immovable ward that|r stuns |cff86cb82enemy land units around it.|r|n|n|cff86cb82The trap lasts|r 120 |cff86cb82seconds.|nThe stun lasts|r 1.5 |cff86cb82seconds.|n|nSummon cooldown is |r30 |cff86cb82seconds.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff86cb82Summons an invisible and immovable ward that|r stuns |cff86cb82enemy land units around it.|r |n|n|cff86cb82The trap lasts|r 120 |cff86cb82seconds. |nThe stun lasts|r 1.5 |cff86cb82seconds. |n|nSummon cooldown is |r30 |cff86cb82seconds.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2020631137,

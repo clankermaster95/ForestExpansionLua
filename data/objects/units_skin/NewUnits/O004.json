@@ -67,10 +67,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9494",
+      "Value": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r|n|cffFF8040Strong Against:|r Solos & Armies|n|cffFF8040Weak Against:|r Bases|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n|nThis ancient excels at hunting down and killing any expanders left in the open. Being one of the only ancients with a windwalk, you will passively apply pressure to any expanders that are out in the open. You can hunt down and kill them before they have an opportunity to set up any defenses.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r\n|cffFF8040Strong Against:|r Solos & Armies\n|cffFF8040Weak Against:|r Bases\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n\nThis ancient excels at hunting down and killing any expanders left in the open. Being one of the only ancients with a windwalk, you will passively apply pressure to any expanders that are out in the open. You can hunt down and kill them before they have an opportunity to set up any defenses."
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

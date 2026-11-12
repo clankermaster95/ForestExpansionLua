@@ -20,30 +20,27 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4234",
+      "Value": "Turns all friendly units invulnerable in an area around Cenarius. Cenarius does not turn invulnerable.|nLasts <A0AD,Dur1> seconds.|n|cff808080CD:180s|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Turns all friendly units invulnerable in an area around Cenarius. Cenarius does not turn invulnerable. |nLasts <A0AD,Dur1> seconds.|n|cff808080CD:180s|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_4235",
+      "Value": "Turns all friendly units invulnerable in an area around Cenarius. Cenarius does not turn invulnerable.|nLasts <A0AD,Dur1> seconds.|n|cff808080CD:180s|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Turns all friendly units invulnerable in an area around Cenarius. Cenarius does not turn invulnerable. |nLasts <A0AD,Dur1> seconds.|n|cff808080CD:180s|r"
+      "_field": "aub1"
     },
     {
       "Id": 1953854049,
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_4237",
+      "Value": "Turns all friendly units invulnerable in an area around Cenarius. Cenarius does not turn invulnerable.|nLasts 5/15 second.|n|cff808080CD:180s|r",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Turns all friendly units invulnerable in an area around Cenarius. Cenarius does not turn invulnerable. |nLasts 5/15 second.|n|cff808080CD:180s|r"
+      "_field": "arut"
     }
   ],
   "_rawcode": "A0AD",

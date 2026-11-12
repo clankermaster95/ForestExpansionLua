@@ -31,10 +31,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10363",
+      "Value": "A more powerful unit. Mainly used for tanking and hunting down the ancient.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 800; 2/s|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 100 (Normal)|n|cfffdca00Attack Range:|r 90|n|cfffdca00Attack Cooldown:|r 1.1|n|cfffdca00Movement Speed:|r 310|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A more powerful unit. Mainly used for tanking and hunting down the ancient.|n|n|cfffdca00Health:|r 800; 2/s|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 100 (Normal)|n|cfffdca00Attack Range:|r 90|n|cfffdca00Attack Cooldown:|r 1.1|n|cfffdca00Movement Speed:|r 310|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

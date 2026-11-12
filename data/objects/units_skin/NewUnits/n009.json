@@ -23,10 +23,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_3076",
+      "Value": "A transport that can carry your units across the map. Very fragile.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 400; 3/s|n|cfffdca00Armor:|r 0 (Light)|n|cfffdca00Movement Speed:|r 270|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A transport that can carry your units across the map. Very fragile.|n|n|cfffdca00Health:|r 400; 0/s|n|cfffdca00Armor:|r 0 (Light)|n|cfffdca00Movement Speed:|r 270|n|cffff0000Feed Value:|r |cffffdd0050|r"
+      "_field": "utub"
     },
     {
       "Id": 1835101813,

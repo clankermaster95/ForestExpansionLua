@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_4498",
+      "Value": "Causes roots to burst from the ground, immobilizing, disarming and damaging a target enemy temporarily. 20 second cooldown.|n|n|cffffcc00Level 1|r - <A0AA,DataA1> damage per second for <A0AA,Dur1> seconds.|n|cffffcc00Level 2|r - <A0AA,DataA2> damage per second for <A0AA,Dur2> seconds.|n|cffffcc00Level 3|r - <A0AA,DataA3> damage per second for <A0AA,Dur3> seconds.|n|cff8080ffHeroes are entangled for 3/4/5 seconds instead.|r",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Causes roots to burst from the ground, immobilizing, disarming and damaging a target enemy temporarily. 20 second cooldown.|n|n|cffffcc00Level 1|r - <A0AA,DataA1> damage per second for <A0AA,Dur1> seconds. |n|cffffcc00Level 2|r - <A0AA,DataA2> damage per second for <A0AA,Dur2> seconds. |n|cffffcc00Level 3|r - <A0AA,DataA3> damage per second for <A0AA,Dur3> seconds.|N|cff8080ffHeroes are entangled for 3/4/5 seconds instead.|r"
+      "_field": "arut"
     }
   ],
   "_rawcode": "A0AA",

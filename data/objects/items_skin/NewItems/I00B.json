@@ -15,10 +15,9 @@
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_1670",
+      "Value": "Summons a Lava Warrior from hell. When summoned, it deals 100 damage and stuns all targets for 1.5 seconds.|n|cffffff00Warning: can break trees.|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Summons a Lava Warrior"
+      "_field": "ides"
     },
     {
       "Id": 1885959285,

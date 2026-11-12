@@ -57,10 +57,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_6353",
+      "Value": "Turns you invisible for 24 seconds and increases movement speed by 30%. The attack that breaks invisibility does not apply Burnstrike. Cooldown starts at 150 seconds and decreases by 20 seconds per additional level.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown starts at|r 150 seconds |cff2d97d3and gets decreased |nby|r -20 * Level.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+      "_field": "arut"
     },
     {
       "Id": 829453409,
@@ -77,10 +76,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5223",
+      "Value": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 150 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 150 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+      "_field": "aub1"
     },
     {
       "Id": 829453409,
@@ -107,40 +105,36 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_6354",
+      "Value": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 130 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 130 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_6457",
+      "Value": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 110 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 110 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_6485",
+      "Value": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 90 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 90 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_5774",
+      "Value": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 120 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff2d97d3Turns you invisible for|r 24 seconds|cff2d97d3, increasing your movement speed by|r 30%.|n|n|cff2d97d3Cooldown is|r 120 seconds.|n|n|cff808080Breaking hit out of invisibility doesn't apply Burnstrike.|r   "
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

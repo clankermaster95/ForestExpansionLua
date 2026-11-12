@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9204",
+      "Value": "Unlocks Vampiric Wyrms: flying units with 4000 health, 500 damage and life steal. They lose 25 HP per second during the day.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Allows you to create Vampiric Wyrms. Vampiric Wyrms are ultimate units, nearly unstoppable. They are fast and have 5000 health and 500 damage, |cffff0000but they lose 20 hp during the day|r"
+      "_field": "gub1"
     },
     {
       "Id": 829579623,

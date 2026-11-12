@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_10809",
+      "Value": "Coup de Grâce",
       "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Coup de grÃƒÂ¢ce"
+      "_field": "gnam"
     },
     {
       "Id": 829122663,
@@ -30,20 +29,18 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_10256",
+      "Value": "Coup de Grâce - [55.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Coup de grÃƒÂ¢ce - [55.0]"
+      "_field": "gtp1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_10258",
+      "Value": "This upgrade is required to use Coup de Grâce. Deals 100 damage +10%  target's missing health. 120 second cooldown.|n|cff7F7F7FEnding the life of a wounded enemy is a great kindness.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "This upgrade is required to use Coup de grÃƒÂ¢ce. Deals 100 damage +10%  target's missing health. 120 second cooldown. |n|cff7F7F7FEnding the life of a wounded enemy is a great kindness.|r"
+      "_field": "gub1"
     },
     {
       "Id": 829579623,
@@ -57,5 +54,5 @@
   ],
   "_rawcode": "R04R",
   "_base": "Rhme",
-  "_name": "Coup de grÃƒÂ¢ce"
+  "_name": "Coup de Grâce"
 }

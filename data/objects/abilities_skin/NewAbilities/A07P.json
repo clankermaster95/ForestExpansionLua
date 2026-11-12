@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3759",
+      "Value": "Increases attack and movement speed of your target by 50%. Lasts 10 seconds. 5 second cooldown.|n|cff7F7F7FAn enraged Wildkin is a scary sight.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Increases attack and movement speed of your target by 50%. Lasts 10 seconds. 5 second cooldown. |n|cff7F7F7FAn enraged Wildkin is a scary sight.|r"
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A07P",

@@ -53,10 +53,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10139",
+      "Value": "A structure that allows you to purchase unique items and unlock special towers.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A structure that allows you to purchase unique items and unlock special towers.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     },
     {
       "Id": 1868786037,

@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4284",
+      "Value": "A poison attack that deals <A09Z,DataA1> damage per second, and slows the target enemy's movement speed by <A09Z,DataB1,%>% and attack speed by <A09Z,DataC1,%>% for <A09Z,Dur1> seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "A poison attack that deals <Aspo,DataA1> damage per second, and slows the target enemy's movement speed by <Aspo,DataB1,%>% and attack speed by <Aspo,DataC1,%>% for <Aspo,Dur1> seconds."
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A09Z",

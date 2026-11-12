@@ -30,10 +30,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_3165",
+      "Value": "|cff008000Role|r: Carry|n|n|cff008000Off Role|r: Hunter|n|n|cff8080FFDifficulty|r: |cff00Ff00Easy|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 1.75|n|n|cffC0C0C0Stalker is a very straight-forward carry hero, with lots of slows and controls. Similar to worgen, he is very hard to catch, but has even more damage and ranged attack. However, unlike worgen, he has to manage his workers, which can feed a lot. On top of that, he also has long cooldowns, which may result in him not having enough fire power when its needed the most, in case they are used carelessly.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter|n\n|cff8080FFDifficulty|r: |cff00Ff00Easy|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.75|n\n|cffC0C0C0Stalker is a very straight-forward carry hero, with lots of slows and controls. Similar to worgen, he is very hard to catch, but has even more damage and ranged attack. However, unlike worgen, he has to manage his workers, which can feed a lot. On top of that, he also has long cooldowns, which may result in him not having enough fire power when its needed the most, in case they are used carelessly.|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

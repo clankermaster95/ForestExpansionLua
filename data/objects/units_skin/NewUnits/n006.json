@@ -31,10 +31,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10055",
+      "Value": "Send a message through the teleporter for a Goblin Engineer.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 900; 3/s|n|cfffdca00Mana:|r 200; 3/s|n|cfffdca00Armor:|r 15 (Heavy)|n|cfffdca00Attack:|r 100 (Chaos)|n|cfffdca00Attack Range:|r 150|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Movement Speed:|r 350|n|cffff0000Feed Value:|r |cffffdd00100|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Send a message through the teleporter for a Goblin Engineer.|n|n|cfffdca00Health:|r 900; 3/s|n|cfffdca00Mana:|r 200; 3/s|n|cfffdca00Armor:|r 15 (Heavy)|n|cfffdca00Attack:|r 100 (Chaos)|n|cfffdca00Attack Range:|r 150|n|cfffdca00Attack Cooldown:|r 1.5|n|cfffdca00Movement Speed:|r 350|n|cffff0000Feed Value:|r |cffffdd00100|r"
+      "_field": "utub"
     },
     {
       "Id": 1868786037,

@@ -29,10 +29,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_2042",
+      "Value": "Passively launches a storm missile every second at a random enemy within 400 range, dealing 60 damage.|n|nEach level increases the number of missiles launched per second by 1.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Passively launches a storm missile every second at a random enemy within 400 range, dealing 60 damage.\n\nEach level increases the number of missiles launched per second by 1."
+      "_field": "arut"
     },
     {
       "Id": 1952805473,
@@ -119,70 +118,63 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_2043",
+      "Value": "|cfaaffcffEvery second, launches |cffffcc001|r |cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |cfaaffcffrange, dealing |cffffcc0060|r |cfaaffcffspell damage. Deals |cffffcc0050%|r |cfaaffcffdamage to structures.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc001|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_2161",
+      "Value": "|cfaaffcffEvery second, launches |cffffcc002|r |cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |cfaaffcffrange, dealing |cffffcc0060|r |cfaaffcffspell damage. Deals |cffffcc0050%|r |cfaaffcffdamage to structures.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc002|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_2272",
+      "Value": "|cfaaffcffEvery second, launches |cffffcc003|r |cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |cfaaffcffrange, dealing |cffffcc0060|r |cfaaffcffspell damage. Deals |cffffcc0050%|r |cfaaffcffdamage to structures.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc003|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_2755",
+      "Value": "|cfaaffcffEvery second, launches |cffffcc004|r |cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |cfaaffcffrange, dealing |cffffcc0060|r |cfaaffcffspell damage. Deals |cffffcc0050%|r |cfaaffcffdamage to structures.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc004|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_3057",
+      "Value": "|cfaaffcffEvery second, launches |cffffcc005|r |cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |cfaaffcffrange, dealing |cffffcc0060|r |cfaaffcffspell damage. Deals |cffffcc0050%|r |cfaaffcffdamage to structures.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc005|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_5849",
+      "Value": "|cfaaffcffEvery second, launches |cffffcc006|r |cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |cfaaffcffrange, dealing |cffffcc0060|r |cfaaffcffspell damage. Deals |cffffcc0050%|r |cfaaffcffdamage to structures.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc006|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 7,
       "Pointer": 0,
-      "Value": "TRIGSTR_5856",
+      "Value": "|cfaaffcffEvery second, launches |cffffcc007|r |cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |cfaaffcffrange, dealing |cffffcc0060|r |cfaaffcffspell damage. Deals |cffffcc0050%|r |cfaaffcffdamage to structures.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|r|cfaaffcffEvery second, launches |cffffcc007|r |r|cfaaffcffstorm missile at a random enemy within |cffffcc00400|r |r|cfaaffcffrange, dealing |cffffcc0060|r |r|cfaaffcffspell damage. Deals |cffffcc0050%|r |r|cfaaffcffdamage to structures.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2020635233,

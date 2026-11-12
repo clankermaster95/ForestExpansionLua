@@ -23,10 +23,9 @@
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_692",
+      "Value": "|cff87ceebConsumable|r|nRestores <A0CA,DataA1> hit points and <A0CA,DataB1> mana of the Hero when used.|n|cff808080Smells Cheesy@|nCheese Cheese Cheese Cheese!!|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Cheeseeeee!"
+      "_field": "ides"
     },
     {
       "Id": 1868786025,

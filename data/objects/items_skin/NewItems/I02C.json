@@ -8,10 +8,9 @@
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_7440",
+      "Value": "If you're reading this I hope you have a wonderful day.|n|n-M",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "If you're reading this I hope you have a wonderful day. |n|n-M"
+      "_field": "ides"
     },
     {
       "Id": 1835101813,
@@ -32,10 +31,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7442",
+      "Value": "If you're reading this I hope you have a wonderful day.|n|n-M",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "If you're reading this I hope you have a wonderful day. |n|n-M"
+      "_field": "utub"
     },
     {
       "Id": 1868786025,

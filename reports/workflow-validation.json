@@ -8,6 +8,7 @@
     "deferred cleanup verifies old checksum and refuses to delete the current map",
     "missing WTS BOM or structural CRLF rejects build and preserves installed map",
     "local Lua edits build",
+    "stale numeric tooltip rejects build without replacing installed map; matching text permits intended stat edits",
     "object/terrain CLI edits compile; imports/exports reject pending JSON",
     "disabled WCT Lua edits survive explicit adoption and rebuild",
     "conflicting editor/local Lua rejected; explicit adoption backs up local changes",

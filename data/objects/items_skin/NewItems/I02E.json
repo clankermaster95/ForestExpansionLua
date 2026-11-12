@@ -26,6 +26,13 @@
       "Value": 1,
       "SanityCheck": 0,
       "_field": "ubpy"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "Skull of a once powerful Demonologist that still lingers with dark energy.|n|cff21b121On use:|r Creates a powerful barrier around the Ancient, shielding it from magic damage.|n|cff21b121Duration & Cooldown:|r 10 seconds & 120 seconds.",
+      "SanityCheck": 0,
+      "_field": "ides"
     }
   ],
   "_rawcode": "I02E",

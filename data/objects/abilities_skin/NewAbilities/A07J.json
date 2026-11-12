@@ -143,50 +143,45 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4262",
+      "Value": "Deals 100 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon its kin.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Deals 100 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_4263",
+      "Value": "Deals 150 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon its kin.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Deals 150 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_4265",
+      "Value": "Deals 200 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon its kin.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Deals 200 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_4271",
+      "Value": "Deals 250 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon its kin.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Deals 250 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_4272",
+      "Value": "Deals 300 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon its kin.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Deals 300 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+      "_field": "aub1"
     },
     {
       "Id": 829715809,
@@ -273,10 +268,9 @@
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_4273",
+      "Value": "Deals 750 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon its kin.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Deals 750 damage per second in an area of effect. Drains 10 mana per second. No cooldown.|n|cff00FFFFEach level of Lunar Power increases the damage per second of Cascade by 50.|r|n|cff7F7F7FThe Moon does not abandon it's kin.|r"
+      "_field": "aub1"
     },
     {
       "Id": 829715809,

@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5202",
+      "Value": "Reveals an area of the map.|nDetects invisible units.|nLasts <A0BV,Dur1> seconds.|n|cff8080ffCan be casted during others spells channeling time without cancelling it.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Reveals an area of the map. |nDetects invisible units. |nLasts <A0BV,Dur1> seconds.|n|cff8080ffCan be casted during others spells channeling time without cancelling it.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037408353,

@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6569",
+      "Value": "You gain massive extra attack speed for 1 second. 20 second cooldown.|n|cff7F7F7FYou briefly fuse with the realm of souls, wielding your axe as if it were a feather.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "You gain massive extra attack speed for 1 second. 20 second cooldown. |n|cff7F7F7FYou briefly fuse with the realm of souls, wielding your axe as if it were a feather.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1953653089,

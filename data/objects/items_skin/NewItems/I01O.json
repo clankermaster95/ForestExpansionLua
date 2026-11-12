@@ -8,34 +8,30 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "TRIGSTR_4596",
+      "Value": "[Recipe] Ethereal Scepter (700)",
       "SanityCheck": 0,
-      "_field": "unam",
-      "_resolvedText": "[Recipe] Ethereal Scepter (700)"
+      "_field": "unam"
     },
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_6722",
+      "Value": "|cff00d200[Recipe]|r Ethereal Scepter |cffdcb900[700 gold total]|r",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "|cff00d200[Recipe]|r Ethereal Scepter |cffdcb900[700 gold total]|r"
+      "_field": "utip"
     },
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6723",
+      "Value": "|cffffcc00Full recipe: 700 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Amulet of Dominance (150 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases mana by 1000 and gives +20 to all stats,|n|cff8080ffActive: Banishes the target enemy and starts a chain lightning that deals 150 damage to up to 12 targets.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cffffcc00Full recipe: 700 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Amulet of Dominance (150 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases mana by 1000 and gives +20 to all stats,\n|cff8080ffActive: Banishes the target enemy and starts a chain lighting that deals 150 damage to up to 12 targets.|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_6724",
+      "Value": "|cffffcc00Full recipe: 700 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Amulet of Dominance (150 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases mana by 1000 and gives +20 to all stats,|n|cff8080ffActive: Banishes the target enemy and starts a chain lightning that deals 150 damage to up to 12 targets.|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "|cffffcc00Full recipe: 700 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Amulet of Dominance (150 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nIncreases mana by 1000 and gives +20 to all stats,\n|cff8080ffActive: Banishes the target enemy and starts a chain lighting that deals 150 damage to up to 12 targets.|r"
+      "_field": "ides"
     },
     {
       "Id": 1868786025,

@@ -251,10 +251,9 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_8687",
+      "Value": "Increases attack speed of your towers by 9%.|n|nThis the last speed upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases attack speed of your towers by 9%.|n|nThis is the last speed upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 2037408359,
@@ -313,5 +312,5 @@
   ],
   "_rawcode": "R07Y",
   "_base": "Rume",
-  "_name": "Haste I"
+  "_name": "Haste III"
 }

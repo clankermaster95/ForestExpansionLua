@@ -95,10 +95,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_5010",
+      "Value": "Basic structure that creates lumber harvesters and collects lumber.|n|cff7F7F7FThe primordial ooze breaks lumber down into minerals useable in construction & evolution.|r|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Basic structure that creates lumber harvesters and collects lumber. |n|cff7F7F7FThe primordial ooze breaks lumber down into minerals useable in construction & evolution.|r|n|n|cfffdca00Health:|r 400|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1819501173,

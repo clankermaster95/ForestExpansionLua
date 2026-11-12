@@ -60,10 +60,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_8779",
+      "Value": "Amalgamation starts charging, increasing its speed by 25%. While active, Amalgamation's health drains by 4% of max health per second",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Amalgamation starts charging, increasing it's speed by 25%. While active, Amalgamation's health drains by 4% of max health per second"
+      "_field": "arut"
     },
     {
       "Id": 829453409,
@@ -80,10 +79,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_8780",
+      "Value": "Amalgamation starts charging, increasing its speed by 25%. While active, Amalgamation's health drains by 4% of max health per second",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Amalgamation starts charging, increasing it's speed by 25%. While active, Amalgamation's health drains by 4% of max health per second"
+      "_field": "aub1"
     },
     {
       "Id": 829715809,

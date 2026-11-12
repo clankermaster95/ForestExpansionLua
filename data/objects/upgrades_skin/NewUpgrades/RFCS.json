@@ -47,10 +47,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6888",
+      "Value": "Bloody Sacrifice [30.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Bloody Sacrifice"
+      "_field": "gtp1"
     },
     {
       "Id": 828536167,

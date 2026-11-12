@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4362",
+      "Value": "Summons a powerful Sea Elemental with <nsel,realHP> hit points that does <nsel,mindmg1> - <nsel,maxdmg1> damage.|nLasts <A04T,Dur1> seconds. 30 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons a powerful Sea Elemental with <nsel,realHP> hit points that does <nsel,mindmg1> - <nsel,maxdmg1> damage. |nLasts <ACwe,Dur1> seconds. 30 second cooldown."
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A04T",

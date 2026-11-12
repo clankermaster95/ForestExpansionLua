@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4274",
+      "Value": "Increases the attack damage of nearby units by 30% for 20 seconds. 40 second cooldown.|n|cff7F7F7FThe call of the wild.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Increases the attack damage of nearby units by 30% for 20 seconds. 40 second cooldown. |n|cff7F7F7FThe call of the wild.|r"
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A07Q",

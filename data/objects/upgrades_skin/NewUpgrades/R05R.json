@@ -39,10 +39,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1486",
+      "Value": "Allows you to embrace the nature. After transformation, increases amount of food you have by default from 50 to 100.|n|cfffff000Warning: you can choose only 1 path|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Allows you to embrace the nature. After transformation, increases amount of food you have by default from 50 to 100. |n|cfffff000Warning: you can choose only 1 path|r"
+      "_field": "gub1"
     },
     {
       "Id": 829579623,

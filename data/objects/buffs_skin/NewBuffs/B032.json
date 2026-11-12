@@ -24,10 +24,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_9091",
+      "Value": "This unit has severely reduced armor and can be seen.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit has severly reduced armor and can be seen."
+      "_field": "fube"
     },
     {
       "Id": 1952543846,

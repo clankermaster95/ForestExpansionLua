@@ -39,10 +39,9 @@
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_945",
+      "Value": "Permanently increases the Strength of the Hero by <AIam,DataA1> when used.",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Permanently increases Strength."
+      "_field": "ides"
     }
   ],
   "_rawcode": "I00A",

@@ -24,18 +24,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_277",
+      "Value": "Increases your strength by 25, your armor by 10, and your movement speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Increases your strength by 25, your armor by 10, and your movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_351",
+      "Value": "Increases your strength by 25, your armor by 10, and your movement speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Increases your strength by 25, your armor by 10, and your movement speed by 60. |n|cff808080Different sources of move speed bonus from items do not stack|r|r"
+      "_field": "ides"
     }
   ],
   "_rawcode": "I00I",

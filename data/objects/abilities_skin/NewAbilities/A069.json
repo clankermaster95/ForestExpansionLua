@@ -58,10 +58,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3417",
+      "Value": "Deals 500 damage and banishes the target, making it immune to physical damage but vulnerable to spells for 3 seconds. 25 second cooldown.|n|cffFF8080This ability costs 350 health.|r|n|cff7F7F7FYou rend soul from body, exposing its essence to the full brunt of magic attacks.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Deals 500 damage and banishes the target, making it immune to physical damage but vulnerable to spells for 3 seconds. 25 second cooldown.|n|cffFF8080This ability costs 350 health.|r |n|cff7F7F7FYou rend soul from body, exposing its essence to the full brunt of magic attacks.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1952540001,

@@ -465,7 +465,7 @@
     "kind": "abilities",
     "rawcode": "A01A",
     "base": "AHav",
-    "name": "Avatar of Vengance",
+    "name": "Avatar of Vengeance",
     "path": "data/objects/abilities/NewAbilities/A01A.json"
   },
   {
@@ -759,7 +759,7 @@
     "kind": "abilities",
     "rawcode": "A02J",
     "base": "Aave",
-    "name": "Upgrade ",
+    "name": "Upgrade",
     "path": "data/objects/abilities/NewAbilities/A02J.json"
   },
   {
@@ -2460,7 +2460,7 @@
     "kind": "abilities",
     "rawcode": "A096",
     "base": "AIsr",
-    "name": "Spell Damage Reduction (20%)",
+    "name": "Spell Damage Reduction",
     "path": "data/objects/abilities/NewAbilities/A096.json"
   },
   {
@@ -4350,7 +4350,7 @@
     "kind": "buffs",
     "rawcode": "B00L",
     "base": "Bblo",
-    "name": "Tower Efficieny",
+    "name": "Tower Efficiency",
     "path": "data/objects/buffs/NewBuffs/B00L.json"
   },
   {
@@ -5582,7 +5582,7 @@
     "kind": "upgrades",
     "rawcode": "R015",
     "base": "Rhme",
-    "name": "Tower Manosory",
+    "name": "Tower Masonry",
     "path": "data/objects/upgrades/NewUpgrades/R015.json"
   },
   {
@@ -6492,7 +6492,7 @@
     "kind": "upgrades",
     "rawcode": "R04R",
     "base": "Rhme",
-    "name": "Coup de grÃƒÂ¢ce",
+    "name": "Coup de Grâce",
     "path": "data/objects/upgrades/NewUpgrades/R04R.json"
   },
   {
@@ -7255,7 +7255,7 @@
     "kind": "upgrades",
     "rawcode": "R07O",
     "base": "Rume",
-    "name": "Corpse Vitality I",
+    "name": "Corpse Vitality V",
     "path": "data/objects/upgrades/NewUpgrades/R07O.json"
   },
   {
@@ -7297,7 +7297,7 @@
     "kind": "upgrades",
     "rawcode": "R07U",
     "base": "Rume",
-    "name": "Improved Quality I",
+    "name": "Improved Quality III",
     "path": "data/objects/upgrades/NewUpgrades/R07U.json"
   },
   {
@@ -7311,21 +7311,21 @@
     "kind": "upgrades",
     "rawcode": "R07W",
     "base": "Rume",
-    "name": "Death Flame I",
+    "name": "Death Flame V",
     "path": "data/objects/upgrades/NewUpgrades/R07W.json"
   },
   {
     "kind": "upgrades",
     "rawcode": "R07X",
     "base": "Rume",
-    "name": "Slower Decay I",
+    "name": "Slower Decay IV",
     "path": "data/objects/upgrades/NewUpgrades/R07X.json"
   },
   {
     "kind": "upgrades",
     "rawcode": "R07Y",
     "base": "Rume",
-    "name": "Haste I",
+    "name": "Haste III",
     "path": "data/objects/upgrades/NewUpgrades/R07Y.json"
   },
   {
@@ -10937,7 +10937,7 @@
     "kind": "units",
     "rawcode": "h063",
     "base": "hpea",
-    "name": "Cultist",
+    "name": "|cff16b12cCultist|r",
     "path": "data/objects/units/NewUnits/h063.json"
   },
   {
@@ -11588,7 +11588,7 @@
     "kind": "abilities_skin",
     "rawcode": "A01A",
     "base": "AHav",
-    "name": "Avatar of Vengance",
+    "name": "Avatar of Vengeance",
     "path": "data/objects/abilities_skin/NewAbilities/A01A.json"
   },
   {
@@ -11882,7 +11882,7 @@
     "kind": "abilities_skin",
     "rawcode": "A02J",
     "base": "Aave",
-    "name": "Upgrade ",
+    "name": "Upgrade",
     "path": "data/objects/abilities_skin/NewAbilities/A02J.json"
   },
   {
@@ -13583,7 +13583,7 @@
     "kind": "abilities_skin",
     "rawcode": "A096",
     "base": "AIsr",
-    "name": "Spell Damage Reduction (20%)",
+    "name": "Spell Damage Reduction",
     "path": "data/objects/abilities_skin/NewAbilities/A096.json"
   },
   {
@@ -15473,7 +15473,7 @@
     "kind": "buffs_skin",
     "rawcode": "B00L",
     "base": "Bblo",
-    "name": "Tower Efficieny",
+    "name": "Tower Efficiency",
     "path": "data/objects/buffs_skin/NewBuffs/B00L.json"
   },
   {
@@ -16705,7 +16705,7 @@
     "kind": "upgrades_skin",
     "rawcode": "R015",
     "base": "Rhme",
-    "name": "Tower Manosory",
+    "name": "Tower Masonry",
     "path": "data/objects/upgrades_skin/NewUpgrades/R015.json"
   },
   {
@@ -17615,7 +17615,7 @@
     "kind": "upgrades_skin",
     "rawcode": "R04R",
     "base": "Rhme",
-    "name": "Coup de grÃƒÂ¢ce",
+    "name": "Coup de Grâce",
     "path": "data/objects/upgrades_skin/NewUpgrades/R04R.json"
   },
   {
@@ -18378,7 +18378,7 @@
     "kind": "upgrades_skin",
     "rawcode": "R07O",
     "base": "Rume",
-    "name": "Corpse Vitality I",
+    "name": "Corpse Vitality V",
     "path": "data/objects/upgrades_skin/NewUpgrades/R07O.json"
   },
   {
@@ -18420,7 +18420,7 @@
     "kind": "upgrades_skin",
     "rawcode": "R07U",
     "base": "Rume",
-    "name": "Improved Quality I",
+    "name": "Improved Quality III",
     "path": "data/objects/upgrades_skin/NewUpgrades/R07U.json"
   },
   {
@@ -18434,21 +18434,21 @@
     "kind": "upgrades_skin",
     "rawcode": "R07W",
     "base": "Rume",
-    "name": "Death Flame I",
+    "name": "Death Flame V",
     "path": "data/objects/upgrades_skin/NewUpgrades/R07W.json"
   },
   {
     "kind": "upgrades_skin",
     "rawcode": "R07X",
     "base": "Rume",
-    "name": "Slower Decay I",
+    "name": "Slower Decay IV",
     "path": "data/objects/upgrades_skin/NewUpgrades/R07X.json"
   },
   {
     "kind": "upgrades_skin",
     "rawcode": "R07Y",
     "base": "Rume",
-    "name": "Haste I",
+    "name": "Haste III",
     "path": "data/objects/upgrades_skin/NewUpgrades/R07Y.json"
   },
   {

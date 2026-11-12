@@ -38,10 +38,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10284",
+      "Value": "Elven spellbringer, allowing you to cast devastating spells globally.|nAlso allows you to train the ultimate hero - Cenarius.|n|cff808080Limit - 1 per player|r|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 2000; 25/s|n|cfffdca00Mana:|r 1000; 5/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 30|n|cffff0000Feed Value:|r |cffffdd00750|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Elven spellbringer, allowing you to cast devastating spells globally. |nAlso allows you to train the ultimate hero - Cenarius. |n|cff808080Limit - 1 per player|r|n|n|cfffdca00Health:|r 2000; 25/s|n|cfffdca00Mana:|r 1000; 5/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 30|n|cffff0000Feed Value:|r |cffffdd00750|r"
+      "_field": "utub"
     },
     {
       "Id": 1651012469,

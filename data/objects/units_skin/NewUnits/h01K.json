@@ -16,10 +16,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7169",
+      "Value": "|cff008000Role|r: Hunter|n|n|cff008000Off Role|r: Carry or Support|n|n|cff8080FFDifficulty|r: |cffffff00Medium|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 2.0|n|n|cffC0C0C0Nerubians rely on their Crypt Lord. The Crypt Lord can also be heavily upgraded and be able to just devastate the ancient if caught off guard. Nerubians also have a very important shop with vital items that are necessary in every game. Nerubians are important for ganking the ancient with their high amounts of snares/stuns. Nerubians also have many auras and can opt into making their main builder a support. The Nerubian's Crypt Lord is extremely strong later on in the game and can end up carrying with enough upgrades.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Hunter|n\n|cff008000Off Role|r: Carry or Support|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Nerubians rely on their Crypt Lord. The Crypt Lord can also be heavily upgraded and be able to just devastate the ancient if caught off guard. Nerubians also have a very important shop with vital items that are necessary in every game. Nerubians are important for ganking the ancient with their high amounts of snares/stuns. Nerubians also have many auras and can opt into making their main builder a support. The Nerubian's Crypt Lord is extremely strong later on in the game and can end up carrying with enough upgrades.|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

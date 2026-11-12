@@ -31,18 +31,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6589",
+      "Value": "Increases your mana by 200.|n|cffFF0000|cff7F7F7FA special crystal that fell from the Moon.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Increases your mana by 200. |n|cffFF0000|cff7F7F7FA special crystal that fell from the Moon.|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_6590",
+      "Value": "Increases your mana by 200.|n|cffFF0000|cff7F7F7FA special crystal that fell from the Moon.|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Increases your mana by 200. |n|cffFF0000|cff7F7F7FA special crystal that fell from the Moon.|r"
+      "_field": "ides"
     },
     {
       "Id": 2037408373,

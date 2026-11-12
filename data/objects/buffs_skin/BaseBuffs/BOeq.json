@@ -22,18 +22,16 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_276",
+      "Value": "This unit is caught in Frozen Deluge and moves much more slowly.",
       "SanityCheck": 1902464834,
-      "_field": "fube",
-      "_resolvedText": "This unit is under a frozen Seige, It is Severially slowed."
+      "_field": "fube"
     },
     {
       "Id": 1885959270,
       "Type": "String",
-      "Value": "TRIGSTR_271",
+      "Value": "Frozen Siege",
       "SanityCheck": 1902464834,
-      "_field": "ftip",
-      "_resolvedText": "Frozen Seige"
+      "_field": "ftip"
     }
   ],
   "_rawcode": "BOeq",

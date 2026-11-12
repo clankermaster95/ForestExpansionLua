@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5639",
+      "Value": "Summons a squishy flying dragon whelp that excels at scouting.|nLasts <A0DK,Dur1> seconds. 30 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons a squishy flying dragon whelp that excels at scouting. |nLasts <A0B4,Dur1> seconds. 10 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

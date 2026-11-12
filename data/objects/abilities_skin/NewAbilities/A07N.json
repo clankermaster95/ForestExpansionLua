@@ -116,20 +116,18 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7814",
+      "Value": "Heals all allies on the map for 30 health per second. Lasts 5 seconds, 120 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Heals all allies on the map for 30 health per second. Lasts 5 seconds, 120 second cooldown. |n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_7815",
+      "Value": "Heals all allies on the map for 40 health per second. Lasts 5 seconds, 115 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Heals all allies on the map for 40 health per second. Lasts 5 seconds, 115 second cooldown. |n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
@@ -146,10 +144,9 @@
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_7817",
+      "Value": "Heals all allies on the map for 60 health per second. Lasts 5 seconds, 105 second cooldown.|n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Heals all allies on the map for 60 health per second. Lasts 5 seconds, 105 second cooldown. |n|cff00FFFFEach level of Lunar Power increases the healing per second by 10 and reduces the cooldown by 5 seconds.|r|n|cff7F7F7FLife begins anew.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,

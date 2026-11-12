@@ -67,10 +67,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10017",
+      "Value": "One of the best Centaur units. Extremely powerful chaos ranged attacks.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 600; 2/s|n|cfffdca00Armor:|r 15 (Medium)|n|cfffdca00Attack:|r 175 (Chaos)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 310|n|cffff0000Feed Value:|r |cffffdd0040|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "One of the best Centaur units. Extremely powerful chaos ranged attacks.|n|n|cfffdca00Health:|r 600; 2/s|n|cfffdca00Armor:|r 15 (Medium)|n|cfffdca00Attack:|r 175 (Chaos)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 310|n|cffff0000Feed Value:|r |cffffdd0040|r"
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

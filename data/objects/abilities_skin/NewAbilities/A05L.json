@@ -39,10 +39,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3297",
+      "Value": "Deals 50 damage per second to the target for 15 seconds and reduces armor by 20. 20 second cooldown.|n|cffFF8080This ability costs 150 health.|r|n|cff7F7F7FThe blood of Iso'rath corrodes the target's defenses & eats away at their flesh.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Deals 50 damage per second to the target for 15 seconds and reduces armor by 20. 20 second cooldown. |n|cffFF8080This ability costs 150 health.|r |n|cff7F7F7FThe blood of Iso'rath corrodes the target's defenses & eats away at their flesh.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037082209,

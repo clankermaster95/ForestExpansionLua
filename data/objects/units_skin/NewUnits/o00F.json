@@ -39,10 +39,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9910",
+      "Value": "A hub used to build Shamans and Witch doctors that have supportful spells and can be used to hunt down the Ancient and his Minions of Vengeance.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0040|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A hub used to build Shamans and Witch doctors that have supportful spells and can be used to hunt down the Ancient and his Minions of Vengance.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0040|r"
+      "_field": "utub"
     },
     {
       "Id": 1919905909,

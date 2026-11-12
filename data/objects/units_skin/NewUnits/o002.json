@@ -38,10 +38,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_5661",
+      "Value": "Fire Sprites are health based hunters that can easily surround the ancient and trap them in. They soak up a lot of damage and can deal a lot of damage when left unchecked.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 400; 10/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Normal)|n|cfffdca00Attack Range:|r 100|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 325|n|cffff0000Feed Value:|r |cffffdd0010|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Fire Sprites are health based hunters that can easily surround the ancient and trap them in. They soak up a lot of damage and can deal a lot of damage when left unchecked.|n|n|cfffdca00Health:|r 400; 10/s|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Normal)|n|cfffdca00Attack Range:|r 100|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 325|n|cffff0000Feed Value:|r |cffffdd0010|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

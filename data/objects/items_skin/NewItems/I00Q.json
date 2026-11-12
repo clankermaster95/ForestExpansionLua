@@ -31,18 +31,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6546",
+      "Value": "Grants 50 attack damage. Attacks slow the target's attack and movement speed for 2 seconds: 30% for melee carriers, 12% for ranged carriers.|n|cffff00ffDoes not stack with other orb effects on the same attacker.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Adds an extra 50 damage, and when you attack, you cause the target to bleed, slowing it by 30% for 2 seconds (12% for ranged users).|n|n|r|cffff00ffDifferent orb effects coming from 1 unit do not stack.|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_1278",
+      "Value": "Grants 50 attack damage. Attacks slow the target's attack and movement speed for 2 seconds: 30% for melee carriers, 12% for ranged carriers.|n|cffff00ffDoes not stack with other orb effects on the same attacker.|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Adds an extra 50 damage, and when you attack, you cause the target to bleed, slowing it by 30% for 2 seconds.|n|n|r|cffff00ffDifferent orb effects coming from 1 unit do not stack.|r"
+      "_field": "ides"
     }
   ],
   "_rawcode": "I00Q",

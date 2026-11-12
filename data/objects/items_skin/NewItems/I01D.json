@@ -8,10 +8,9 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "TRIGSTR_2581",
+      "Value": "[Recipe] Staff of Insight (950)",
       "SanityCheck": 0,
-      "_field": "unam",
-      "_resolvedText": "[Recipe] Staff of Insight (950)"
+      "_field": "unam"
     },
     {
       "Id": 1868786025,
@@ -23,26 +22,23 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_6701",
+      "Value": "|cff00d200[Recipe]|r Staff of Insight |cffdcb900[950 gold total]|r",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "|cff00d200[Recipe]|r Staff of Insight |cffdcb900[950 gold total]|r"
+      "_field": "utip"
     },
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6702",
+      "Value": "|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 250 gold.|n|n|cff00d200Requires:|r|n- Valorous Helmet (500 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|n|cff8080ffActive: Silence. Duration: 5 seconds|r|nAlso increases your armor by 15, strength by 30, and mana by 1000 and move speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r|n|n|cff808080CD:30s|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 250 gold.|n|n|cff00d200Requires:|r|n- Valorous Helmet (500 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|n|cff8080ffActive: Silence. Duration: 5 seconds|r |nAlso increases your armor by 15, strength by 30, and mana by 1000 and move speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r|n|n|cff808080CD:30s|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_6703",
+      "Value": "|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 250 gold.|n|n|cff00d200Requires:|r|n- Valorous Helmet (500 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|n|cff8080ffActive: Silence. Duration: 5 seconds|r|nAlso increases your armor by 15, strength by 30, and mana by 1000 and move speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r|n|n|cff808080CD:30s|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 250 gold.|n|n|cff00d200Requires:|r|n- Valorous Helmet (500 gold)|n- Orb of Mana (200 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|n|cff8080ffActive: Silence. Duration: 5 seconds|r |nAlso increases your armor by 15, strength by 30, and mana by 1000 and move speed by 60.|n|cff808080Different sources of move speed bonus from items do not stack|r|n|n|cff808080CD:30s|r"
+      "_field": "ides"
     },
     {
       "Id": 1953458293,

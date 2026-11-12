@@ -8,10 +8,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_6064",
+      "Value": "Chemical Rage increases this units attack range and attack speed.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit is benefiting from Chemical Rage. It is having a better attack range and attacking more quickly."
+      "_field": "fube"
     }
   ],
   "_rawcode": "B03P",

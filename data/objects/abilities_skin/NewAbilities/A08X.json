@@ -58,10 +58,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3877",
+      "Value": "Enchants the targeted unit, causing it to run 50% faster for 10 seconds.|n|n|cff00ffffCD: 30 seconds.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Enchants the targeted unit, causing it to run 50% faster for 10 seconds.|n|n|cff00ffffCD: 30 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 829715809,

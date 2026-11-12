@@ -300,100 +300,90 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7583",
+      "Value": "Increases the mana of your main Wildkin by 100.|n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the mana of your main Wildkin by 100. |n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_7584",
+      "Value": "Increases the mana of your main Wildkin by 100.|n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the mana of your main Wildkin by 100. |n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_7585",
+      "Value": "Increases the mana of your main Wildkin by 100.|n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the mana of your main Wildkin by 100. |n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_7586",
+      "Value": "Increases the mana of your main Wildkin by 100.|n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the mana of your main Wildkin by 100. |n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_7587",
+      "Value": "Increases the mana of your main Wildkin by 100.|n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the mana of your main Wildkin by 100. |n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 7,
       "Pointer": 0,
-      "Value": "TRIGSTR_7588",
+      "Value": "Increases the mana of your main Wildkin by 100.|n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the mana of your main Wildkin by 100. |n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 8,
       "Pointer": 0,
-      "Value": "TRIGSTR_7589",
+      "Value": "Increases the mana of your main Wildkin by 100.|n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the mana of your main Wildkin by 100. |n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 9,
       "Pointer": 0,
-      "Value": "TRIGSTR_7590",
+      "Value": "Increases the mana of your main Wildkin by 100.|n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the mana of your main Wildkin by 100. |n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "TRIGSTR_7591",
+      "Value": "Increases the mana of your main Wildkin by 100.|n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the mana of your main Wildkin by 100. |n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_7592",
+      "Value": "Increases the mana of your main Wildkin by 100.|n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the mana of your main Wildkin by 100. |n|cff7F7F7FEnergy flows through you, and the moon's power embraces you.|r"
+      "_field": "gub1"
     },
     {
       "Id": 829122663,

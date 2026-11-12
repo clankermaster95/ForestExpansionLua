@@ -59,10 +59,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_8849",
+      "Value": "A quick Tunnel to return gold/lumber, Can also train Jippy.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Light)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0010|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A quick Tunnel to return gold/lumber, Can also train Jippy.|n|n|cfffdca00Health:|r 200|n|cfffdca00Armor:|r 5 (Light)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0010|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

@@ -16,18 +16,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_3700",
+      "Value": "Increases mana by 1000 and gives +20 to all stats,|n|cff8080ffActive: Banishes the target enemy and starts a chain lightning that deals 150 damage to up to 12 targets.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Increases mana by 1000 and gives +20 to all stats,\n|cff8080ffActive: Banishes the target enemy and starts a chain lighting that deals 150 damage to up to 12 targets.|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_3993",
+      "Value": "Increases mana by 1000 and gives +20 to all stats,|n|cff8080ffActive: Banishes the target enemy and starts a chain lightning that deals 150 damage to up to 12 targets.|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Increases mana by 1000 and gives +20 to all stats,\n|cff8080ffActive: Banishes the target enemy and starts a chain lighting that deals 150 damage to up to 12 targets.|r"
+      "_field": "ides"
     },
     {
       "Id": 1868786025,

@@ -24,10 +24,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7167",
+      "Value": "|cff008000Role|r: Support|n|n|cff008000Off Role|r: Carry or Hunter|n|n|cff8080FFDifficulty|r: |cffffff00Medium|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 2.0|n|n|cffC0C0C0Furbolgs are one of the most helpful and needed supports you can have in a game. This very basic race can choose between being a warrior (A tanky and disruptive nightmare for the ancient), or a shaman (A healer and heavy nuke hitter). Furbolgs have a very high lumber gain rate, which they can easily pool to their teammates and still have plenty left over. This race also has multiple upgrades to help them destroy the ancient|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Support|n\n|cff008000Off Role|r: Carry or Hunter|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Furbolgs are one of the most helpful and needed supports you can have in a game. This very basic race can choose between being a warrior (A tanky and disruptive nightmare for the ancient), or a shaman (A healer and heavy nuke hitter). Furbolgs have a very high lumber gain rate, which they can easily pool to their teammates and still have plenty left over. This race also has multiple upgrades to help them destroy the ancient|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

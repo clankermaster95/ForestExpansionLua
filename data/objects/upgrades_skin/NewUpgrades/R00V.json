@@ -400,100 +400,90 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1356",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_1357",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_1358",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_1359",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_1360",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_1361",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 7,
       "Pointer": 0,
-      "Value": "TRIGSTR_1362",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 8,
       "Pointer": 0,
-      "Value": "TRIGSTR_1363",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 9,
       "Pointer": 0,
-      "Value": "TRIGSTR_1364",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "TRIGSTR_7492",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.|n|nThis the last damage upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5.|n|nThis is the last damage upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 1718840935,

@@ -38,10 +38,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_6197",
+      "Value": "Titanic Strikes have slowed this unit.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit has been slowed by an Soulreaper."
+      "_field": "fube"
     },
     {
       "Id": 1718840934,

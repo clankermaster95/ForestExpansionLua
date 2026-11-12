@@ -124,30 +124,27 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4809",
+      "Value": "|cffeb4242Abomination consumes flesh of its foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 5% |cffeb4242of its current|r damage.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffeb4242Abomination consumes flesh of it's foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 5% |cffeb4242of it's current|r damage."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_4810",
+      "Value": "|cffeb4242Abomination consumes flesh of its foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 10% |cffeb4242of its current|r damage.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffeb4242Abomination consumes flesh of it's foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 10% |cffeb4242of it's current|r damage."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_4811",
+      "Value": "|cffeb4242Abomination consumes flesh of its foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 15% |cffeb4242of its current|r damage.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffeb4242Abomination consumes flesh of it's foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 15% |cffeb4242of it's current|r damage."
+      "_field": "aub1"
     },
     {
       "Id": 2037408353,
@@ -191,10 +188,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_4813",
+      "Value": "|cffeb4242Abomination consumes flesh of its foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 5/10/15% |cffeb4242of its current|r damage.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "|cffeb4242Abomination consumes flesh of it's foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 5/10/15% |cffeb4242of it's current|r damage."
+      "_field": "arut"
     }
   ],
   "_rawcode": "A0DH",

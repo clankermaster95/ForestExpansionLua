@@ -52,10 +52,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_3095",
+      "Value": "A wall that will protect you from the ancient. It can also damage if close enough.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A wall that will protect you from the ancient. It can also damage if close enough.|n|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_2006",
+      "Value": "Dispels most buffs from targeted unit.|n|cffffcc00Deals <A0FB,DataB1> damage to summoned units.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Dispels most buffs from targeted unit. |n|cffffcc00Deals <A0FB,DataB1> damage to summoned units.|r"
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A0FB",

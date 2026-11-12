@@ -23,10 +23,9 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_941",
+      "Value": "Purchase Agility Training",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "Purchase Agility Traning"
+      "_field": "utip"
     }
   ],
   "_rawcode": "I009",

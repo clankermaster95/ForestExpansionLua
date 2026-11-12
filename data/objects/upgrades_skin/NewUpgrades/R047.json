@@ -590,90 +590,81 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7459",
+      "Value": "Increases armor by 2.|n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_7460",
+      "Value": "Increases armor by 2.|n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_7461",
+      "Value": "Increases armor by 2.|n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_7462",
+      "Value": "Increases armor by 2.|n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_7463",
+      "Value": "Increases armor by 2.|n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_7464",
+      "Value": "Increases armor by 2.|n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 7,
       "Pointer": 0,
-      "Value": "TRIGSTR_7465",
+      "Value": "Increases armor by 2.|n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 9,
       "Pointer": 0,
-      "Value": "TRIGSTR_7466",
+      "Value": "Increases armor by 2.|n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "TRIGSTR_7467",
+      "Value": "Increases armor by 2.|n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
@@ -690,10 +681,9 @@
       "Type": "String",
       "Level": 8,
       "Pointer": 0,
-      "Value": "TRIGSTR_7468",
+      "Value": "Increases armor by 2.|n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor by 2. |n|cff7F7F7FGrafts primordial saronite onto your flesh, shielding you from physical attacks.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,

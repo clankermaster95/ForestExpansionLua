@@ -16,10 +16,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_9253",
+      "Value": "This unit is invisible, moves faster and leaves a trail of fog.",
       "SanityCheck": 1802981186,
-      "_field": "fube",
-      "_resolvedText": "This unit is invisible, moves faster, and spawn wind trail"
+      "_field": "fube"
     },
     {
       "Id": 1953653094,

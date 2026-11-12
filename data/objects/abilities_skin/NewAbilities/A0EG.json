@@ -49,10 +49,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9048",
+      "Value": "|cff16b12cTeleports you instantly to |rany spot on|cff16b12c the map, but in the process Cultist loses|r 50% |cff16b12cof his|r current |cff16b12chealth.|r|n|n|cff16b12cThis ability has a|r 3 minute |cff16b12ccooldown.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff16b12cTeleports you instantly to |rany spot on|cff16b12c the map, but in the process Cultist loses|r 50% |cff16b12cof his|r current |cff16b12chealth.|r |n|n|cff16b12cThis ability has a|r 3 minute |cff16b12ccooldown.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1952543585,

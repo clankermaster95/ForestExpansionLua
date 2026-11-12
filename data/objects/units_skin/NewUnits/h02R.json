@@ -38,10 +38,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10079",
+      "Value": "One of the most hazardous walls. Can be upgraded with Radiation and other upgrades at the Molten Core.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 750|n|cfffdca00Armor:|r 20 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "One of the most hazardous walls. Can be upgraded with Radiation and other upgrades at the Molten Core.|n|n|cfffdca00Health:|r 750|n|cfffdca00Armor:|r 20 (Fortified)|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

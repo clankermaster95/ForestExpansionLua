@@ -60,10 +60,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9926",
+      "Value": "A good defense structure that can take many upgrades for more damage and speed.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 75 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 2|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A good defense structure that can take many upgrades for more damage and speed.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 75 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 2|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0030|r"
+      "_field": "utub"
     },
     {
       "Id": 2037408373,

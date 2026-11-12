@@ -19,20 +19,18 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_6224",
+      "Value": "Summons three Shadowlings that deal no damage, move slowly, but have heavy armor and large hitboxes. Lasts 20 seconds. 30 second cooldown.|n|cffFF8080This ability costs 400 health.|r|n|cff7F7F7FThe blood of Go'rath can manifest shadows into living creatures under your command.|r",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "The blood of Go'rath manifests three shadowlings which deal no damage, move slow, dissipate after 20 seconds, but have good health and large hitboxes. 35 second cooldown.|n|cffFF8080This ability costs 400 health|r"
+      "_field": "arut"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6659",
+      "Value": "Summons three Shadowlings that deal no damage, move slowly, but have heavy armor and large hitboxes. Lasts 20 seconds. 30 second cooldown.|n|cffFF8080This ability costs 400 health.|r|n|cff7F7F7FThe blood of Go'rath can manifest shadows into living creatures under your command.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons three Shadowlings that deal no damage, move slowly, but have heavy armor and large hitboxes. Lasts 20 seconds. 30 second cooldown. |n|cffFF8080This ability costs 400 health.|r |n|cff7F7F7FThe blood of Go'rath can manifest shadows into living creatures under your command.|r"
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

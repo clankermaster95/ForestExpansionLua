@@ -57,10 +57,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_154",
+      "Value": "|cffcfc72aHeals for|r 300 (+150 per additional level) |cffcfc72ahitpoints and has a cooldown of|r 10 seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "|cffcfc72aHeals for|r 300 (+150 * level) |cffcfc72ahitpoints and has a cooldown of|r 10 seconds."
+      "_field": "arut"
     },
     {
       "Id": 829453409,

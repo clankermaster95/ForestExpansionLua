@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_1911",
+      "Value": "|cff008000Role|r: Hybrid|n|n|cff008000Off Role|r: None|n|n|cff8080FFDifficulty|r: |cffff0000Hard|r|n|n|cffFF8F40Move Speed|r: 290|n|cffFF8Fa0Attack Cooldown|r: 1.5|n|n|cffC0C0C0Razormanes are a powerful race that excels at everything, but are easily caught off-guard, due to their finnicky workers, to the glee of the Ancient. Razormanes can create an army, a base, or play like a carry.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Hybrid|n\n|cff008000Off Role|r: None|n\n|cff8080FFDifficulty|r: |cffff0000Hard|r|n\n|cffFF8F40Move Speed|r: 290\n|cffFF8Fa0Attack Cooldown|r: 1.5|n\n|cffC0C0C0Razormanes are a powerful race that excels at everything, but are easily caught off-guard, due to their finnicky workers, to the glee of the Ancient. Razormanes can create an army, a base, or play like a carry.|r"
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

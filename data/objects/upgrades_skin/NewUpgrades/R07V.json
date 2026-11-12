@@ -201,10 +201,9 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_8271",
+      "Value": "Increases armor of walls by 1.|n|nThis the last armor upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases armor of walls by 1.|n|nThis is the last armor upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 1835101799,

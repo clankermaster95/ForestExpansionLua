@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_895",
+      "Value": "Maexxna crawls beneath the foliage, becoming 15% faster and invisible for 15 seconds.|n|cff808080CD: 60 seconds.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Maexxna crawls beneath the foliage, becoming 15% faster and invisible for 15 seconds. |N|cff808080CD: 60 seconds.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1953653089,

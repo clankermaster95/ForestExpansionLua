@@ -108,50 +108,45 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_7283",
+      "Value": "Grants 15/20/25/30 armor and restores 100/150/200/250 HP each second for 6 seconds. The armor bonus cannot be dispelled. Cooldown: 12 seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "|cffbcbc6fCreates a shield around the Ancient, healing her for|r 100 (+50 * level)|cffbcbc6f hitpoints|r per second,|cffbcbc6f which also blesses her with|r 15 (+5 * level) |cffbcbc6farmor.|r|n|n|cffbcbc6fShield lasts for|r 6 seconds, |cffbcbc6fcooldown is|r 12 seconds."
+      "_field": "arut"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7284",
+      "Value": "Grants 15 armor and restores 100 HP each second for 6 seconds. The armor bonus cannot be dispelled. Cooldown: 12 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffbcbc6fCreates a shield around the Ancient, healing her for|r 100|cffbcbc6f hitpoints|r per second,|cffbcbc6f which also blesses her with|r 15 |cffbcbc6farmor.|r|n|n|cffbcbc6fShield lasts for|r 6 seconds, |cffbcbc6fcooldown is|r 12 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_7285",
+      "Value": "Grants 20 armor and restores 150 HP each second for 6 seconds. The armor bonus cannot be dispelled. Cooldown: 12 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffbcbc6fCreates a shield around the Ancient, healing her for|r 150|cffbcbc6f hitpoints|r per second,|cffbcbc6f which also blesses her with|r 20 |cffbcbc6farmor.|r|n|n|cffbcbc6fShield lasts for|r 6 seconds, |cffbcbc6fcooldown is|r 12 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_7286",
+      "Value": "Grants 25 armor and restores 200 HP each second for 6 seconds. The armor bonus cannot be dispelled. Cooldown: 12 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffbcbc6fCreates a shield around the Ancient, healing her for|r 200|cffbcbc6f hitpoints|r per second,|cffbcbc6f which also blesses her with|r 25 |cffbcbc6farmor.|r|n|n|cffbcbc6fShield lasts for|r 6 seconds, |cffbcbc6fcooldown is|r 12 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_7287",
+      "Value": "Grants 30 armor and restores 250 HP each second for 6 seconds. The armor bonus cannot be dispelled. Cooldown: 12 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffbcbc6fCreates a shield around the Ancient, healing her for|r 250|cffbcbc6f hitpoints|r per second,|cffbcbc6f which also blesses her with|r 30 |cffbcbc6farmor.|r|n|n|cffbcbc6fShield lasts for|r 6 seconds, |cffbcbc6fcooldown is|r 12 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 1718840929,

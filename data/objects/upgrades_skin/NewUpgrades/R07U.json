@@ -251,10 +251,9 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_8199",
+      "Value": "Increases hitpoints of walls by 100.|n|nThis the last health upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases hitpoints of walls by 100.|n|nThis is the last health upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 829579623,
@@ -313,5 +312,5 @@
   ],
   "_rawcode": "R07U",
   "_base": "Rume",
-  "_name": "Improved Quality I"
+  "_name": "Improved Quality III"
 }

@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7431",
+      "Value": "|cffd72929Merges the unit with Amalgamation, making it grow stronger and more horrifying.|r|n|n|cfff44242Husks give|r 1 / 5 / 15 points. |cfff44242Points determine how much of the husk gets transferred to Amalgamation.|r|n|n|cfff44242Lesser Husk [|r1|cfff44242] >|r +1 strength, +4 damage, +10 hitpoints.|n|n|cfff44242Greater Husk [|r5|cfff44242] >|r +3 strength, +7 damage, +2 agility, +25 hitpoints.|n|n|cfff44242Supreme Husk [|r15|cfff44242] >|r +5 strength, +10 damage, +5 agility, +50 hitpoints.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffd72929Merges the unit with Amalgamation, making it grow stronger and more horrifying.|r |n|n|cfff44242Husks give|r 1 / 5 / 15 points. |cfff44242Points determine how much of the husk gets transferred to Amalgamation.|r|n|n|cfff44242Lesser Husk [|r1|cfff44242] >|r +1 strength, +4 damage, +10 hitpoints.|n|n|cfff44242Greater Husk [|r5|cfff44242] >|r +3 strength, +7 damage, +2 agility, +25 hitpoints.|n|n|cfff44242Supreme Husk [|r15|cfff44242] >|r +5 strength, +10 damage, +5 agility, +50 hitpoints."
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

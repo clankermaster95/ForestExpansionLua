@@ -67,10 +67,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_7289",
+      "Value": "|cffd39090A beam of light heals you for |r250 (+50 per additional level) |cffd39090hitpoints and has a cooldown of|r 3 seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "|cffd39090A beam of light heals you for |r250 (+50 * level) |cffd39090hitpoints and has a cooldown of|r 3 seconds."
+      "_field": "arut"
     },
     {
       "Id": 829453409,

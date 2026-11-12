@@ -67,10 +67,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10095",
+      "Value": "A building that allows you to research one of your most vital abilities: Summon Crypt Lord.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Light)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A building that allows you to research one of your most vital abilities: Summon Crypt Lord.|n|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Light)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1919905909,

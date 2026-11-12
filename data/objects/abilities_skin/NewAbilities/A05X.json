@@ -39,10 +39,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3641",
+      "Value": "Deals 100 damage +10% of the target's missing health. 120 second cooldown.|n|cff7F7F7FEnding the life of a wounded enemy is a great kindness.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Deals 100 damage +10% of the target's missing health. 120 second cooldown. |n|cff7F7F7FEnding the life of a wounded enemy is a great kindness.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1952543841,

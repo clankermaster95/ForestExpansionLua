@@ -60,10 +60,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10351",
+      "Value": "One of the strongest walls, has a lot of health and armor. Can be upgraded at your research center.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 1000|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "One of the strongest walls, has a lot of health and armor. Can be upgraded at your research center.|n|n|cfffdca00Health:|r 1000|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 2037408373,

@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7155",
+      "Value": "|cff008000Role|r: Hunter|n|n|cff008000Off Role|r: Baser|n|n|cff8080FFDifficulty|r: |cffffff00Medium|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 1.5|n|n|cffC0C0C0Ghouls are your basic race, able to create a strong and viable army to take the ancient in the mid game. Ghouls have plenty of upgrades to make their base & army strong. Has a very good escape, which makes these guys hard to catch. Very little pool required to be powerful, but can be shut down if hunted down by the ancient vigorously.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Hunter|n\n|cff008000Off Role|r: Baser|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.5|n\n|cffC0C0C0Ghouls are your basic race, able to create a strong and viable army to take the ancient in the mid game. Ghouls have plenty of upgrades to make their base & army strong. Has a very good escape, which makes these guys hard to catch. Very little pool required to be powerful, but can be shut down if hunted down by the ancient vigorously.|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

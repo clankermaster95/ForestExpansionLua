@@ -53,10 +53,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9520",
+      "Value": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r|n|cffFF8040Strong Against:|r Bases & Militaries|n|cffFF8040Weak Against:|r Solos|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n|nAn ancient specialized for destroying bases. Has an unlimited range nuke to gain experience around the map. Can kill towers without being in melee range. Weak against carry characters.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r\n|cffFF8040Strong Against:|r Bases & Militaries\n|cffFF8040Weak Against:|r Solos\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n\nAn ancient specialized for destroying bases. Has an unlimited range nuke to gain experience around the map. Can kill towers without being in melee range. Weak against carry characters."
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10180",
+      "Value": "Allows you to take up the role of Healing and Support. This tree is full of spells that will allow you to heal walls or units, and provide health/damage upgrades to you.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Allows you to take up the role of Healing and Support. This tree is full of spells that will allow you to heal walls or units, and provide health/damage upgrades to you.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

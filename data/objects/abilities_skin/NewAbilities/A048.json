@@ -20,20 +20,18 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_9390",
+      "Value": "Channels a hurricane that damages buildings, slows enemies and tosses units into the air. Also creates Gale Winds at your learned ability level. Cooldown: 300 seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Channels a hurricane damaging nearby buildings and slowing units, randomly tossing them into the air. 60 second cooldown. Additionally, hurricane also summons gale winds equal to your level of gale winds"
+      "_field": "arut"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9392",
+      "Value": "Channels a hurricane damaging nearby buildings and slowing units, randomly tossing them into the air. 300 second cooldown. Additionally, hurricane also summons gale winds equal to your level of gale winds",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Channels a hurricane damaging nearby buildings and slowing units, randomly tossing them into the air. 60 second cooldown. Additionally, hurricane also summons gale winds equal to your level of gale winds"
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

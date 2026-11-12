@@ -23,10 +23,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_890",
+      "Value": "A stronger wall constucted by the Engineer that can hold the Ancient off for a long time. Has 1 item slot.|n|cff808000Any inserted items are dropped on death and may be picked up by the Ancient.|r|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A stronger wall constucted by the Engineer that can hold the Ancient off for a long time. Has 1 item slot.|n|cff808000Any inserted items are dropped on death and may be picked up by the Ancient.|r|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

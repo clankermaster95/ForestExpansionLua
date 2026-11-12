@@ -300,100 +300,90 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6616",
+      "Value": "You gain 200 health.|n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "You gain 200 health. |n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_6617",
+      "Value": "You gain 200 health.|n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "You gain 200 health. |n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_6618",
+      "Value": "You gain 200 health.|n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "You gain 200 health. |n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_6619",
+      "Value": "You gain 200 health.|n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "You gain 200 health. |n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_6620",
+      "Value": "You gain 200 health.|n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "You gain 200 health. |n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_6621",
+      "Value": "You gain 200 health.|n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "You gain 200 health. |n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 7,
       "Pointer": 0,
-      "Value": "TRIGSTR_6622",
+      "Value": "You gain 200 health.|n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "You gain 200 health. |n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 8,
       "Pointer": 0,
-      "Value": "TRIGSTR_6623",
+      "Value": "You gain 200 health.|n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "You gain 200 health. |n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 9,
       "Pointer": 0,
-      "Value": "TRIGSTR_6624",
+      "Value": "You gain 200 health.|n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "You gain 200 health. |n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "TRIGSTR_6625",
+      "Value": "You gain 200 health.|n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "You gain 200 health. |n|cff7F7F7FYour nerves gradually deaden, increasing your pain tolerance.|r"
+      "_field": "gub1"
     },
     {
       "Id": 829122663,

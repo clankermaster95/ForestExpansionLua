@@ -38,10 +38,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_4375",
+      "Value": "This unit has reduced attack and movement speed. Worgen Bleed also deals damage over time.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit is slowed and is taking 25 damage each second."
+      "_field": "fube"
     },
     {
       "Id": 1718840934,

@@ -47,10 +47,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6892",
+      "Value": "Chaotic Burst [40.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Chaotic Burst"
+      "_field": "gtp1"
     },
     {
       "Id": 828536167,

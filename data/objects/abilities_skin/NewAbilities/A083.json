@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3677",
+      "Value": "Traps a target, snaring them in place for 3 seconds. 40 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Traps a target, snaring them in place for 3 seconds. 15 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 1952805473,

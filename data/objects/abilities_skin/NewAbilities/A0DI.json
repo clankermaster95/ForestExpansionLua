@@ -119,10 +119,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_4068",
+      "Value": "Restores health equal to 5% of attack damage dealt.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "|cffeb4242Abomination consumes flesh of its foes, regaining some health.|r|n|n|cffeb4242Gains back health equal to|r 15% |cffeb4242of its current|r damage."
+      "_field": "arut"
     },
     {
       "Id": 2020635233,

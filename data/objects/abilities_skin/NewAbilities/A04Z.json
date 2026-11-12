@@ -29,10 +29,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_2862",
+      "Value": "Gives nearby friendly units a <A04Z,DataA1,%>% bonus to damage.|nLasts <A04Z,Dur1> seconds. No cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Gives nearby friendly units a <Aroa,DataA1,%>% bonus to damage. |nLasts <Aroa,Dur1> seconds. No cooldown."
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A04Z",

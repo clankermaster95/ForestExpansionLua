@@ -30,10 +30,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_413",
+      "Value": "Smog reduces this units movement speed.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit is lost in Smog, It'd movement speed is slowed."
+      "_field": "fube"
     },
     {
       "Id": 1718840934,

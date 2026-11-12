@@ -24,10 +24,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_1923",
+      "Value": "Converts 12 gold into 500 lumber.|n|cff7F7F7FThis philosopher's stone allows for a long forgotten alchemical technique to transmute gold into lumber.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Converts 12 gold into 500 lumber. |n|cff7F7F7FThis philosopher's stone allows for a long forgotten alchemical technique to transmute gold into lumber.|r"
+      "_field": "utub"
     },
     {
       "Id": 1868786025,
@@ -42,6 +41,13 @@
       "Value": "Objects\\InventoryItems\\CrystalShard\\CrystalShard.mdl",
       "SanityCheck": 0,
       "_field": "ifil"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "Converts 12 gold into 500 lumber.|n|cff7F7F7FThis philosopher's stone allows for a long forgotten alchemical technique to transmute gold into lumber.|r",
+      "SanityCheck": 0,
+      "_field": "ides"
     }
   ],
   "_rawcode": "I01F",

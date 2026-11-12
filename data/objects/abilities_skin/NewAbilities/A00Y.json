@@ -57,40 +57,36 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_948",
+      "Value": "Blasts an enemy with the vengeance of lost souls.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Blasts an enemy with the vengance of lost souls."
+      "_field": "arut"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_949",
+      "Value": "Blasts an enemy with the vengeance of lost souls. 100 Damage.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Blasts an enemy with the vengance of lost souls. 100 Damage."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_950",
+      "Value": "Blasts an enemy with the vengeance of lost souls. 140 Damage.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Blasts an enemy with the vengance of lost souls. 140 Damage."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_951",
+      "Value": "Blasts an enemy with the vengeance of lost souls. 160 Damage.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Blasts an enemy with the vengance of lost souls. 160 Damage."
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

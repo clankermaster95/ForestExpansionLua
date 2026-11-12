@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_1068",
+      "Value": "Causes rains of healing energy to pour down in a large area, healing friendly allied units for <A0AK,DataA1> hit points per second.|nLasts <A0AK,Dur1> seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Causes rains of healing energy to pour down in a large area, healing friendly allied units for <AEtq,DataA1> hit points per second. |nLasts <A0AK,Dur1> seconds."
+      "_field": "arut"
     },
     {
       "Id": 828536161,

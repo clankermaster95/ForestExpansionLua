@@ -108,10 +108,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6923",
+      "Value": "Your basic unit. Can be used to gather lumber from trees. This unit can also be upgraded later on to morph into units that can aid you in combat, or load your towers.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 100; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd000|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Your basic unit. Can be used to gather lumber from trees. This unit can also be upgraded later on to morph into units that can aid you in combat, or load your towers.|n|n|cfffdca00Health:|r 100; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Movement Speed:|r 320|n|cffff0000Feed Value:|r |cffffdd000|r"
+      "_field": "utub"
     },
     {
       "Id": 1868786037,

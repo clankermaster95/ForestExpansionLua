@@ -39,10 +39,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3365",
+      "Value": "You gain a 30% lifesteal on your basic attacks.|n|cff7F7F7FYour strikes siphon part of the target's essence, mending your wounds.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "You gain a 30% lifesteal on your basic attacks. |n|cff7F7F7FYour strikes siphon part of the target's essence, mending your wounds.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1953653089,

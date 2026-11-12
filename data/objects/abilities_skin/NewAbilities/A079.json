@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7368",
+      "Value": "Surge of Darkness increases attack damage and reduces movement speed.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "If you're seeing this in game, pls report. -Moose"
+      "_field": "aub1"
     },
     {
       "Id": 1952543841,

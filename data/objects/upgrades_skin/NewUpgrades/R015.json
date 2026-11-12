@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1675",
+      "Value": "Tower Masonry",
       "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Tower Manosory"
+      "_field": "gnam"
     },
     {
       "Id": 829579623,
@@ -65,90 +64,81 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_1677",
+      "Value": "Tower Masonry",
       "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Tower Manosory"
+      "_field": "gnam"
     },
     {
       "Id": 1835101799,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_1678",
+      "Value": "Tower Masonry",
       "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Tower Manosory"
+      "_field": "gnam"
     },
     {
       "Id": 1835101799,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_1679",
+      "Value": "Tower Masonry",
       "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Tower Manosory"
+      "_field": "gnam"
     },
     {
       "Id": 1835101799,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_1680",
+      "Value": "Tower Masonry",
       "SanityCheck": 0,
-      "_field": "gnam",
-      "_resolvedText": "Tower Manosory"
+      "_field": "gnam"
     },
     {
       "Id": 829453415,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7847",
+      "Value": "Tower Masonry - [20.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Tower Manosory - [20.0]"
+      "_field": "gtp1"
     },
     {
       "Id": 829453415,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_7848",
+      "Value": "Tower Masonry - [25.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Tower Manosory - [25.0]"
+      "_field": "gtp1"
     },
     {
       "Id": 829453415,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_7849",
+      "Value": "Tower Masonry - [30.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Tower Manosory - [30.0]"
+      "_field": "gtp1"
     },
     {
       "Id": 829453415,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_7850",
+      "Value": "Tower Masonry - [35.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Tower Manosory - [35.0]"
+      "_field": "gtp1"
     },
     {
       "Id": 829453415,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_7851",
+      "Value": "Tower Masonry - [40.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Tower Manosory - [40.0]"
+      "_field": "gtp1"
     },
     {
       "Id": 828536167,
@@ -253,5 +243,5 @@
   ],
   "_rawcode": "R015",
   "_base": "Rhme",
-  "_name": "Tower Manosory"
+  "_name": "Tower Masonry"
 }

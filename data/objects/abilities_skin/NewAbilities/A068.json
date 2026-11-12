@@ -39,10 +39,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3593",
+      "Value": "Burns 500 mana from the target. 20 second cooldown.|n|cffFF8080This ability costs 200 health.|r|n|cff7F7F7FThe blood of Shu'ma sears away mana.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Burns 500 mana from the target. 20 second cooldown. |n|cffFF8080This ability costs 200 health.|r |n|cff7F7F7FThe blood of Shu'ma sears away mana.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037082209,

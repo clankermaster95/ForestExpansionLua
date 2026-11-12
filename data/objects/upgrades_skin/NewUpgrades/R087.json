@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9693",
+      "Value": "Provides Bounty Hunter with the Flare ability. Flares can be used to reveal any area of the map.|nCan see invisible units.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Provides Bounty Hunter with the Flare ability. Flares can be used to reveal any area of the map. |nCan see invisible units."
+      "_field": "gub1"
     }
   ],
   "_rawcode": "R087",

@@ -48,10 +48,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3348",
+      "Value": "Reduces the target's chance to hit by 25% for 30 seconds. 45 second cooldown.|n|cff7F7F7FYou let loose a shade upon the target, which blinds it with a dark, thick fog.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Reduces the target's chance to hit by 25% for 30 seconds. 45 second cooldown. |n|cff7F7F7FYou let loose a shade upon the target, which blinds it with a dark, thick fog.|r"
+      "_field": "aub1"
     },
     {
       "Id": 829715809,

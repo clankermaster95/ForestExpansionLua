@@ -68,10 +68,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10024",
+      "Value": "A strong hero for the centaur. Can blink in and out of battles while leading his troops to victory. Can be revived.|n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A strong hero for the centaur. Can blink in and out of battles while leading his troops to victory. Can be revived. |n|cffC0C0C0Heroes are granted 50 EXP every time they attack the ancient.|r|n|n|cffff0000Feed Value:|r |cffffdd00300|r"
+      "_field": "utub"
     },
     {
       "Id": 1919972469,

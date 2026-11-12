@@ -66,10 +66,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7125",
+      "Value": "Activate Overgrow",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Activate Overgrow (X)"
+      "_field": "atp1"
     },
     {
       "Id": 1953854049,

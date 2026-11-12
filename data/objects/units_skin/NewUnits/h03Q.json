@@ -37,10 +37,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7171",
+      "Value": "|cff008000Role|r: Carry|n|n|cff008000Off Role|r: Hunter or Support|n|n|cff8080FFDifficulty|r: |cffffff00Medium|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 2.0|n|n|cffC0C0C0Kobolds have multiple upgrades that range from increasing gold income, to a deadly poisonous aura, to a global blink with a large cooldown. Kobolds are very necessary due to their high assistance for their team. They require a lot of help from basers in order to keep their expensive buildings safe, however.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter or Support|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Kobolds have multiple upgrades that range from increasing gold income, to a deadly poisonous aura, to a global blink with a large cooldown. Kobolds are very necessary due to their high assistance for their team. They require a lot of help from basers in order to keep their expensive buildings safe, however.|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

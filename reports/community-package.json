@@ -1,8 +1,8 @@
 {
-  "revision": "r11",
+  "revision": "r12",
   "file": "dist/Forest_Expansion_3.2.0_Community.zip",
-  "sha256": "92ab40aec064e61da26e8f2482d47aa40999c269dade734a5b08d05f70db1c87",
-  "map_sha256": "03f733516a00ab774a6bbb6370ef60b9fc208065204a723d249f58c8f85586b2",
+  "sha256": "a83571ab3f6f1cdd64ca80aeb678563ca653d9ba00789b292b0cb9e065417efc",
+  "map_sha256": "9fed267aa1df598b5cd9f0e7c950008ef8ca054f9751978d36eeecbbf7b6458c",
   "contents": [
     "Forest_Expansion_3.2.0_Lua.w3x",
     "CHANGELOG.md",

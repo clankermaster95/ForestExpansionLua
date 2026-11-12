@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3552",
+      "Value": "Your attacks increase attack speed with successive strikes. Stacks up to 3 times.|n|cff7F7F7FIf one strike won't do the job, then follow up even faster.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Your attacks increase attack speed with successive strikes. Stacks up to 3 times. |n|cff7F7F7FIf one strike won't do the job, then follow up even faster.|r"
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

@@ -8,34 +8,30 @@
     {
       "Id": 1835101813,
       "Type": "String",
-      "Value": "TRIGSTR_5936",
+      "Value": "[Recipe] Spellcaster's Cloak (950)",
       "SanityCheck": 0,
-      "_field": "unam",
-      "_resolvedText": "[Recipe] Spellcaster's Cloak (950)"
+      "_field": "unam"
     },
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_6725",
+      "Value": "|cff00d200[Recipe]|r Spellcaster's Cloak |cffdcb900[950 gold total]|r",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "|cff00d200[Recipe]|r Spellcaster's Cloak |cffdcb900[950 gold total]|r"
+      "_field": "utip"
     },
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6727",
+      "Value": "|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Orb of Mana (200 gold)|n- Potion of Invisibility (50 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nProvides 1500 mana, 1000 health and <A096,DataB1,%>% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s.|n|cff808080CD:120s|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Orb of Mana (200 gold)|n- Potion of Invisibility (50 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nProvides 1500 mana, 1000 health and 20% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s. |n|cff808080CD:120s|r|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_6728",
+      "Value": "|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Orb of Mana (200 gold)|n- Potion of Invisibility (50 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nProvides 1500 mana, 1000 health and <A096,DataB1,%>% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s.|n|cff808080CD:120s|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "|cffffcc00Full recipe: 950 gold|r|nRecipe scroll: 350 gold.|n|n|cff00d200Requires:|r|n- Galiant Armor (350 gold)|n- Orb of Mana (200 gold)|n- Potion of Invisibility (50 gold)|n|nFor the Ancient: buying this scroll automatically buys missing components, including nested recipes. Owned components reduce the cost.|nIf completion fails, the scroll is refunded and your ingredients are kept.|n|nProvides 1500 mana, 1000 health and 20% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s. |n|cff808080CD:120s|r|r"
+      "_field": "ides"
     },
     {
       "Id": 1868786025,

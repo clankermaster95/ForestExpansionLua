@@ -32,10 +32,9 @@
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_4333",
+      "Value": "Creates an Ancient Protector at a target location. Ancient Protectors are tower-like helpers that guard an area. They can prove to be weak in certain battles, however. Note they reward expanders with resources upon being killed by them.",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Creates an Ancient of Protection at a target location. Ancients of Protection are tower-like helpers that guard an area. They can prove to be weak in certain battles, however."
+      "_field": "ides"
     },
     {
       "Id": 1868786025,

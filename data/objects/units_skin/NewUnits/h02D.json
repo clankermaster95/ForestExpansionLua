@@ -51,10 +51,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9981",
+      "Value": "Primary defensive structure. Can learn the Magic Sentry ability.|n|n|cffffcc00Attacks land and air units.|r|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 450|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 40 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 50|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Primary defensive structure. Can learn the Magic Sentry ability. |n|n|cffffcc00Attacks land and air units.|r|n|n|cfffdca00Health:|r 450|n|cfffdca00Armor:|r 5 (Heavy)|n|cfffdca00Attack:|r 40 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Build Time:|r 50|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     }
   ],
   "_rawcode": "h02D",

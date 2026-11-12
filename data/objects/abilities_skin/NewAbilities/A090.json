@@ -158,10 +158,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_3885",
+      "Value": "Increases movement speed of Steam Wagon by 50%.|nDuration: 5/10/15/20 seconds.|nCooldown: 30 seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Increases movement speed of Steam Wagon by 50%. |nDuration: 5/10/15/20 seconds.|nCooldown: 30 seconds."
+      "_field": "arut"
     }
   ],
   "_rawcode": "A090",

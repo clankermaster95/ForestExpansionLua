@@ -24,18 +24,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_1972",
+      "Value": "Provides 1500 mana, 1000 health and <A096,DataB1,%>% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s.|n|cff808080CD:120s|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Provides 1500 mana, 1000 health and 20% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s. |n|cff808080CD:120s|r|r"
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_1973",
+      "Value": "Provides 1500 mana, 1000 health and <A096,DataB1,%>% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s.|n|cff808080CD:120s|r",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Provides 1500 mana, 1000 health and 20% magic damage reduction|n|cff8080ffActive: temporary invisibility. Renders the unit invisible for 15s. |n|cff808080CD:120s|r|r"
+      "_field": "ides"
     },
     {
       "Id": 1868786025,

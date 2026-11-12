@@ -31,18 +31,16 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_1860",
+      "Value": "Engulf yourself in flame, dealing 50dmg/s to nearby enemies, and increasing your armor by 3.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Engulf your self in flame, dealing 50dmg/s to nearby enemies, and increasing your armor by 3."
+      "_field": "utub"
     },
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_8953",
+      "Value": "Engulf yourself in flame, dealing 50dmg/s to nearby enemies, and increasing your armor by 3.",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Engulf your self in flame, dealing 50 damage per second to nearby enemies, and increasing your armor by 3."
+      "_field": "ides"
     },
     {
       "Id": 1818846825,

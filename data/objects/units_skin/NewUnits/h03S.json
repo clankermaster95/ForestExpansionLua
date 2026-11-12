@@ -24,10 +24,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7172",
+      "Value": "|cff008000Role|r: Hunter|n|n|cff008000Off Role|r: Baser|n|n|cff8080FFDifficulty|r: |cffc00040Very Hard|r|n|n|cffFF8F40Move Speed|r: 175|n|cffFF8Fa0Attack Cooldown|r: 2.0|n|n|cffC0C0C0Aethyr Warp is a very intermediate race that can be extremely punishing if mistakes are made. Aethyr Warps has a global blink with 45 seconds CD. This can be helpful, or damaging. If caught out of position, Aethyr Warps are THE MOST vulnerable race in the game, leading with 300 health, no escapes, and extremely slow movement speed. Not only is this race vulnerable without it's instant teleport, but this race will feed the ancient with much experience and gold if your workers and sustainers are not properly hidden. However, despite it's weaknesses, the Aethyr Warp has one of the most powerful militaries in the game. Vampiric Wyrms - though expensive - are absolutely devastating. The Aethyr Warp requires a lot of resource pool, for an expensive, but powerful army or base.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Hunter|n\n|cff008000Off Role|r: Baser|n\n|cff8080FFDifficulty|r: |cffc00040Very Hard|r|n\n|cffFF8F40Move Speed|r: 175\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Aethyr Warp is a very intermediate race that can be extremely punishing if mistakes are made. Aethyr Warps has a global blink with 45 seconds CD. This can be helpful, or damaging. If caught out of position, Aethyr Warps are THE MOST vulnerable race in the game, leading with 300 health, no escapes, and extremely slow movement speed. Not only is this race vulnerable without it's instant teleport, but this race will feed the ancient with much experience and gold if your workers and sustainers are not properly hidden. However, despite it's weaknesses, the Aethyr Warp has one of the most powerful militaries in the game. Vampiric Wyrms - though expensive - are absolutely devastating. The Aethyr Warp requires a lot of resource pool, for an expensive, but powerful army or base.|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

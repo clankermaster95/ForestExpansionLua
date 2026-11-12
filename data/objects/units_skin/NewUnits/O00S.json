@@ -53,10 +53,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9512",
+      "Value": "|cffFF8040Difficulty:|r |cffFF0000Hard|r|n|cffFF8040Strong Against:|r Bases|n|cffFF8040Weak Against:|r Solos & Militaries|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n|nThe Ancient of Dragons is the fastest, and most nimble Ancient. Can roam around the map and shut down bases before they get out of control. Very strong late game with high critical ratios and a good base destroying ultimate.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cffFF8040Difficulty:|r |cffFF0000Hard|r\n|cffFF8040Strong Against:|r Bases\n|cffFF8040Weak Against:|r Solos & Militaries\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n\nThe Ancient of Dragons is the fastest, and most nimble Ancient. Can roam around the map and shut down bases before they get out of control. Very strong late game with high critical ratios and a good base destroying ultimate."
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

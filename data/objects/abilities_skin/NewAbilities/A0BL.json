@@ -160,10 +160,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_814",
+      "Value": "Creates a shield that absorbs damage by using the Arcane Golem's mana. Blocked damage ignores Armor and Armor Types.|n|n|cffffcc00Level 1|r - 2 damage per point of mana.|n|cffffcc00Level 2|r - 2.5 damage per point of mana.|n|cffffcc00Level 3|r - 3 damage per point of mana.|n|cffffcc00Level 4|r - 3.5 damage per point of mana.|n|cffffcc00Level 5|r - 4 damage per point of mana.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Creates a shield that absorbs damage by using the Arcane Golem's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Level 1|r - 2 damage per point of mana. |n|cffffcc00Level 2|r - 2.5 damage per point of mana. |n|cffffcc00Level 3|r - 3 damage per point of mana. |n|cffffcc00Level 4|r - 3.5 damage per point of mana. |n|cffffcc00Level 5|r - 4 damage per point of mana."
+      "_field": "arut"
     },
     {
       "Id": 1802007137,

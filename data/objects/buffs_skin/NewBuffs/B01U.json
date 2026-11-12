@@ -24,10 +24,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_6092",
+      "Value": "This unit is blinded by a shade causing attacks to miss.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit is is blinded by a shade causing attacks to miss."
+      "_field": "fube"
     },
     {
       "Id": 1952543846,

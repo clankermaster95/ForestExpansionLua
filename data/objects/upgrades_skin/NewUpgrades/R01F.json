@@ -97,30 +97,27 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_8610",
+      "Value": "Increases the range of your Champions, Crossbowmen, and Archers by 100.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the range of your Champions, Crowssbowmen, and Archers by 100."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_8611",
+      "Value": "Increases the range of your Champions, Crossbowmen, and Archers by 100.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the range of your Champions, Crowssbowmen, and Archers by 100."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_8612",
+      "Value": "Increases the range of your Champions, Crossbowmen, and Archers by 100.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases the range of your Champions, Crowssbowmen, and Archers by 100."
+      "_field": "gub1"
     },
     {
       "Id": 829122663,

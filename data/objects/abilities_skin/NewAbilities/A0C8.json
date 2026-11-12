@@ -29,10 +29,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_038",
+      "Value": "Spawns a consumable biscuit that can be eaten to restore 300 mana and hp.|n|nCooldown:20s",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Spawns a consumable biscuit that can be eaten to restore 300 mana and hp. |n|nCooldown:20s"
+      "_field": "aub1"
     },
     {
       "Id": 2020631137,

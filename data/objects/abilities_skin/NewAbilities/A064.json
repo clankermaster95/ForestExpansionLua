@@ -68,10 +68,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3364",
+      "Value": "You gain vision of the target for 40 seconds.|n|cffFF8080This ability costs 50 health.|r|n|cff7F7F7FThe blood of C'Thun is imbued with the power of his all seeing eye.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "You gain vision of the target for 40 seconds. |n|cffFF8080This ability costs 50 health.|r |n|cff7F7F7FThe blood of C'Thun is imbued with the power of his all seeing eye.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037082209,

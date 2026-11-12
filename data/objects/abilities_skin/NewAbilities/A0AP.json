@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1874",
+      "Value": "Activate Immolation to engulf this unit in flames, causing <A0AP,DataA1> damage per second to nearby enemy land units.|nDrains 25 mana/s until deactivated.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Activate Immolation to engulf this unit in flames, causing <A0AP,DataA1> damage per second to nearby enemy land units. |nDrains 25 mana/s until deactivated."
+      "_field": "aub1"
     },
     {
       "Id": 1835101793,

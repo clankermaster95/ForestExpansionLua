@@ -39,10 +39,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4428",
+      "Value": "Unlocks Bleed: landed attacks deal 25 damage per second and slow attack and movement speed by 10% for 3 seconds. Sharpened Claws improves these values. Nonlethal and undispellable; stacks with orb effects.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Allows your worgen to use Bleed."
+      "_field": "gub1"
     }
   ],
   "_rawcode": "R03H",

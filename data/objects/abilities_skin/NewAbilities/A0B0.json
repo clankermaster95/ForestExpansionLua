@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3704",
+      "Value": "Removes all buffs from units in a large area. No cooldown.|n|cffffcc00Deals <A0B0,DataB1> damage to summoned units.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Removes all buffs from units in a large area. No cooldown. |n|cffffcc00Deals <A0B0,DataB1> damage to summoned units.|r"
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A0B0",

@@ -182,6 +182,11 @@ def build():
     text_validation=validate_strings(source/'war3map.wts')
     from release_info import validate as validate_release
     validate_release(source,cfg)
+    if cfg.get('tooltip_validation'):
+        from tooltip_audit import Catalog as TooltipCatalog
+        tooltip_issues, _ = TooltipCatalog().issues()
+        if tooltip_issues:
+            raise RuntimeError('Tooltip validation failed: '+json.dumps(tooltip_issues[:5],ensure_ascii=False))
     _,changed=code_changes(source,cfg)
     if changed:raise RuntimeError('World Editor changed Lua. Use export-data --accept-code after review; build will not overwrite: '+', '.join(changed))
     if 'src/items/recipe_data.lua' in cfg['header']:

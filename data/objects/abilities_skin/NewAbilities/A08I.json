@@ -128,50 +128,45 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_9018",
+      "Value": "Summons 1 Black Hole to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 60 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons 1 Black Hole to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 90 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_9019",
+      "Value": "Summons 2 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 55 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons 2 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 90 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_9020",
+      "Value": "Summons 3 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 50 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons 3 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 90 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_9021",
+      "Value": "Summons 4 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 45 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons 4 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 90 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_9022",
+      "Value": "Summons 5 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 40 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons 5 Black Holes to ravage whichever area it hovers over. Black Holes last 30 seconds and deal 20 damage per second over an area. This ability has a 90 second cooldown."
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A08I",

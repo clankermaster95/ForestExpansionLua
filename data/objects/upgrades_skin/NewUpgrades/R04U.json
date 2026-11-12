@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7372",
+      "Value": "This upgrade is required to use Arcane Implosion. Burns 500 mana and deals equal damage. 15 second cooldown.|n|cff7F7F7FYou collapse a portion of the target's mana upon itself, destroying it and creating a searing wound on the target's essence.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "This upgrade is required to use Arcane Implosion. Burns 500 mana and deals equal damage. 15 second cooldown. |n|cff7F7F7FYou collapse a portion of the target's mana upon itself, destroying it and creating a searing wound on the target's essence.|r"
+      "_field": "gub1"
     },
     {
       "Id": 829579623,

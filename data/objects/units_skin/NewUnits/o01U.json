@@ -45,10 +45,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10209",
+      "Value": "This building sells unique items for the Forgotten One, as well as other items.|n|cff7F7F7FSealed away within long buried obelisks are the relics of the Old Gods.|r|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "This building sells unique items for the Forgotten One, as well as other items. |n|cff7F7F7FSealed away within long buried obelisks are the relics of the Old Gods.|r|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 0 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0050|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

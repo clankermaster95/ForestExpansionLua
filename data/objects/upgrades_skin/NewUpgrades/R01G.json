@@ -107,20 +107,18 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_2220",
+      "Value": "Your Champions, Ballistas, and Archers now have fortified armor.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Your Champions, Batalistas, and Archers now have fortified armor."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_2221",
+      "Value": "Your Champions, Ballistas, and Archers now have fortified armor.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Your Champions, Batalistas, and Archers now have fortified armor."
+      "_field": "gub1"
     },
     {
       "Id": 829122663,

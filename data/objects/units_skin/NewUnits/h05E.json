@@ -67,10 +67,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7185",
+      "Value": "|cff008000Role|r: Carry|n|n|cff008000Off Role|r: Support|n|n|cff8080FFDifficulty|r: Very Hard|n|n|cffFF8F40Move Speed|r: 350|n|cffFF8Fa0Attack Cooldown|r: 1.5|n|n|cffC0C0C0Night elf is a flexible solo character, that can either be a main damage dealer or strong backline support. Due to a large amount of workers, requires practice and can feed a lot if played unproperly.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Support|n\n|cff8080FFDifficulty|r: Very Hard|n\n|cffFF8F40Move Speed|r: 350\n|cffFF8Fa0Attack Cooldown|r: 1.5|n\n|cffC0C0C0Night elf is a flexible solo character, that can either be a main damage dealer or strong backline support. Due to a large amount of workers, requires practice and can feed a lot if played unproperly.|r"
+      "_field": "utub"
     }
   ],
   "_rawcode": "h05E",

@@ -89,6 +89,18 @@ def main():
         project('build');assert 'Local source test' in (mapdir/'war3map.lua').read_text();results.append('local Lua edits build')
         project('object-set','units','h000','uhpm','778');project('terrain-rect','60','60','1','1','--height-delta','0.25')
         project('export-data',fail='Unbuilt JSON edits');project('import-editor',ROOT/cfg['output'],fail='pending JSON edits')
+        if cfg.get('tooltip_validation'):
+            # Kraken's picker description does not print health; use a wall's
+            # explicit stat block to exercise the stale-tooltip rejection.
+            project('object-set','units','h01I','uhpm','778')
+            project('build',fail='Tooltip validation failed')
+            skin=work/'data/objects/units_skin/NewUnits/h01I.json';obj=read(skin)
+            description=next(m for m in obj['Modifications'] if m['_field']=='utub')
+            text=description['Value']
+            updated,count=re.subn(r'(Health:(?:\s|\|r|\|c[0-9a-fA-F]{8})*)\d+',r'\g<1>778',text)
+            assert count==1
+            project('object-set','units_skin','h01I','utub',json.dumps(updated))
+            results.append('stale numeric tooltip rejects build without replacing installed map; matching text permits intended stat edits')
         project('build');tool('export',mapdir,work/'build/readback')
         units=read(work/'build/readback/war3map.w3u.json')
         obj=next(u for u in units['NewUnits'] if u['NewId']==int.from_bytes(b'h000','little'))

@@ -87,10 +87,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10151",
+      "Value": "An arsenal for the Aethyr Warp. Allows him to morph his Warplings into military units and help hunt down the ancient. Also contains upgrades.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0040|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "An arsenal for the Aethyr Warp. Allows him to morph his Warplings into military units and help hunt down the ancient. Also contains upgrades.|n|n|cfffdca00Health:|r 350|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Build Time:|r 5|n|cffff0000Feed Value:|r |cffffdd0040|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

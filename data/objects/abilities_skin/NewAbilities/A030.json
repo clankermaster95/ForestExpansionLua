@@ -48,10 +48,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6658",
+      "Value": "Summons a Totem of Destruction that deals 150 Chaos damage. Lasts 30 seconds. 30 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Summons a Totem of Destruction that deals 150 Chaos damage. Lasts 30 seconds. 40 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 2037082209,

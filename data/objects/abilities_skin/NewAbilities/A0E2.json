@@ -48,10 +48,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_7969",
+      "Value": "|cff379b37Bounty Hunter puts on his Combat suit, ready to take on the Ancient.|r|n|n|cff379b37Comes with:|r 2000hp, 1000 chaos damage, 25 armor, Heavy armor type, faster attack speed, increased health regeneration, Dash ability, slower movement speed, Improved Bounty and |cff37de373 inventory slots.|r|n|n|cff37de37Once equipped, the suit |rcan not |cff37de37be taken off.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff379b37Bounty Hunter puts on his Combat suit, ready to take on the Ancient.|r|n|n|cff379b37Comes with:|r 2000hp, 1000 chaos damage, 25 armor, Heavy armor type, faster attack speed, increased health regeneration, Dash ability, slower movement speed, Improved Bounty and |cff37de373 inventory slots.|r |n|n|cff37de37Once equipped, the suit |rcan not |cff37de37be taken off.|r |n"
+      "_field": "aub1"
     },
     {
       "Id": 829715809,

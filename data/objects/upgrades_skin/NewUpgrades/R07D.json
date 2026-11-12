@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1909",
+      "Value": "|cfff54d4dBounty Hunter has|r 15% |cfff54d4dchance to deal|r 2x |cfff54d4ddamage and stun for|r 0.1s|cfff54d4d.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cfff54d4dBounty Hunter has|r 15% |cfff54d4dchance to deal|r 2x |cfff54d4ddamage and stun for|r 0.1s|cfff54d4d."
+      "_field": "gub1"
     },
     {
       "Id": 1718840935,

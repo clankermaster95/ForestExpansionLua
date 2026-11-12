@@ -47,10 +47,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6903",
+      "Value": "Profane Reach - Level 1 [20.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Profane Reach - Level 1"
+      "_field": "gtp1"
     },
     {
       "Id": 828536167,
@@ -77,10 +76,9 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_6906",
+      "Value": "Profane Reach - Level 2 [20.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Profane Reach - Level 2"
+      "_field": "gtp1"
     },
     {
       "Id": 828536167,
@@ -107,10 +105,9 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_6920",
+      "Value": "Profane Reach - Level 3 [20.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Profane Reach - Level 3"
+      "_field": "gtp1"
     },
     {
       "Id": 828536167,
@@ -137,10 +134,9 @@
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_6925",
+      "Value": "Profane Reach - Level 4 [20.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Profane Reach - Level 4"
+      "_field": "gtp1"
     },
     {
       "Id": 828536167,
@@ -167,10 +163,9 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_6928",
+      "Value": "Profane Reach - Level 5 [20.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Profane Reach - Level 5"
+      "_field": "gtp1"
     },
     {
       "Id": 828536167,

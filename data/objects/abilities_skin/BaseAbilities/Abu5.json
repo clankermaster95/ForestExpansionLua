@@ -19,10 +19,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_026",
+      "Value": "Nerubian burrows underground, becoming invisible and invulnerable",
       "SanityCheck": 896885313,
-      "_field": "aub1",
-      "_resolvedText": "Nerubian burrows underground, becoming invisible and invulnurable"
+      "_field": "aub1"
     },
     {
       "Id": 829781345,

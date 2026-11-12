@@ -39,10 +39,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3800",
+      "Value": "Makes a unit invisible. If the unit attacks, uses an ability or casts a spell, it will become visible.|n|nLasts 4 seconds. Cooldown is 150 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Makes a unit invisible. If the unit attacks, uses an ability or casts a spell, it will become visible. |n|nLasts 4 seconds. Cooldown is 150 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 1835101793,

@@ -31,10 +31,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7181",
+      "Value": "|cff008000Role|r: Carry|n|n|cff008000Off Role|r: Hunter|n|n|cff8080FFDifficulty|r: |cff80FFFFVery Easy|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 1.75|n|n|cffC0C0C0Forgotten Ones can choose 3 different ways to carry the game: A bloodmage, which uses their own health as a resource to deal unbelievable damage from far. A soulreaper, which has huge melee lifesteal and burst damage, and is extremely hard to kill. Or, an executioner, who is a stealthy assassin that can preform powerful ganks on the ancient with their very high melee damage. Whatever role you may pick, the Forgotten one is extremely strong with a lot of money and can take down the ancient quickly.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter|n\n|cff8080FFDifficulty|r: |cff80FFFFVery Easy|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.75|n\n|cffC0C0C0Forgotten Ones can choose 3 different ways to carry the game: A bloodmage, which uses their own health as a resource to deal unbelievable damage from far. A soulreaper, which has huge melee lifesteal and burst damage, and is extremely hard to kill. Or, an executioner, who is a stealthy assassin that can preform powerful ganks on the ancient with their very high melee damage. Whatever role you may pick, the Forgotten one is extremely strong with a lot of money and can take down the ancient quickly.|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

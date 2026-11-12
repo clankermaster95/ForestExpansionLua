@@ -38,10 +38,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6875",
+      "Value": "Sacrificial Aura [30.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Sacrificial Aura"
+      "_field": "gtp1"
     },
     {
       "Id": 828536167,

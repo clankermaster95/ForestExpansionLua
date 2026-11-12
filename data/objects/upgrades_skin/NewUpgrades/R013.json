@@ -155,50 +155,45 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6578",
+      "Value": "Increases movement speed by 30.|n|cff7F7F7FAs an assassin, swiftness is essential to pursuing fleeing targets or escaping from bad situations.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases movement speed by 30. |n|cff7F7F7FAs an assassin, swiftness is essential to pursuing fleeing targets or escaping from bad situations.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_6579",
+      "Value": "Increases movement speed by 30.|n|cff7F7F7FAs an assassin, swiftness is essential to pursuing fleeing targets or escaping from bad situations.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases movement speed by 30. |n|cff7F7F7FAs an assassin, swiftness is essential to pursuing fleeing targets or escaping from bad situations.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_6580",
+      "Value": "Increases movement speed by 30.|n|cff7F7F7FAs an assassin, swiftness is essential to pursuing fleeing targets or escaping from bad situations.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases movement speed by 30. |n|cff7F7F7FAs an assassin, swiftness is essential to pursuing fleeing targets or escaping from bad situations.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_6581",
+      "Value": "Increases movement speed by 30.|n|cff7F7F7FAs an assassin, swiftness is essential to pursuing fleeing targets or escaping from bad situations.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases movement speed by 30. |n|cff7F7F7FAs an assassin, swiftness is essential to pursuing fleeing targets or escaping from bad situations.|r"
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_6582",
+      "Value": "Increases movement speed by 30.|n|cff7F7F7FAs an assassin, swiftness is essential to pursuing fleeing targets or escaping from bad situations.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Increases movement speed by 30. |n|cff7F7F7FAs an assassin, swiftness is essential to pursuing fleeing targets or escaping from bad situations.|r"
+      "_field": "gub1"
     },
     {
       "Id": 829122663,

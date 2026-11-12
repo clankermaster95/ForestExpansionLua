@@ -23,10 +23,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_7166",
+      "Value": "Upgrade the basic Goblin Scout into the Ultima version of the Goblin Battle Mech.|n|n|cffFF8F40Move Speed|r: 375 (+55)|n|cffFF8Fa0Attack Cooldown|r: 1.25 (-0.75)",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Upgrade the basic Goblin Scout into the Ultima version of the Goblin Battle Mech.|n\n|cffFF8F40Move Speed|r: 375 (+55)\n|cffFF8Fa0Attack Cooldown|r: 1.25 (-0.75)|n"
+      "_field": "utub"
     },
     {
       "Id": 1868786037,

@@ -39,10 +39,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3548",
+      "Value": "Burns 500 mana and deals equal damage. 15 second cooldown.|n|cff7F7F7FYou collapse a portion of the target's mana into itself, destroying it and creating a searing wound on the target's essence.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Burns 500 mana and deals equal damage. 15 second cooldown. |n|cff7F7F7FYou collapse a portion of the target's mana into itself, destroying it and creating a searing wound on the target's essence.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037082209,

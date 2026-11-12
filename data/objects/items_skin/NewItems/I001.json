@@ -43,6 +43,13 @@
       "SanityCheck": 0,
       "_field": "uhot",
       "_resolvedText": "D"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "When held, your movement speed is increased by 60. This effect does not stack with any other movement speed bonuses.",
+      "SanityCheck": 0,
+      "_field": "ides"
     }
   ],
   "_rawcode": "I001",

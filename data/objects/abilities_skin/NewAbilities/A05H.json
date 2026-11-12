@@ -57,10 +57,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3559",
+      "Value": "Increases your movement speed by 50% and removes your unit collision for 8 seconds. 45 second cooldown.|n|cff7F7F7FThe blood of Y'Shaarj disperses the Forgotten into shadows, phasing through his enemies easily.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Increases your movement speed by 50% and removes your unit collision for 8 seconds. 45 second cooldown. |n|cff7F7F7FThe blood of Y'Shaarj disperses the Forgotten into shadows, phasing through his enemies easily.|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037408353,

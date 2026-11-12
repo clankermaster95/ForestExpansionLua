@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1630",
+      "Value": "Minerals and materials that form structures stick to Stone Giant's body, making it more durable and tougher.|n|n|cff239842Destroyed building provides Stone Giant with:|r|n|cff49d641+ 100 permanent health|n+ 1 strength point|n+ 1 damage|n+ minor health regeneration bonus|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Minerals and materials that form structures stick to Stone Giant's body, making it more durable and tougher.|n|n|cff239842Destroyed building provides Stone Giant with:|r|n |cff49d641+ 100 permanent health|n + 1 strength point|n + 1 damage|n + minor health regeneration bonus|r"
+      "_field": "aub1"
     },
     {
       "Id": 1953653089,

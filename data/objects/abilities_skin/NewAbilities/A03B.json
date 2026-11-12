@@ -29,10 +29,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3174",
+      "Value": "Harvests lumber from trees.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Harvests lumber from trees. "
+      "_field": "aub1"
     },
     {
       "Id": 829781345,

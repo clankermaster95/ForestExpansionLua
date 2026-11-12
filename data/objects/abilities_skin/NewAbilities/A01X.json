@@ -48,10 +48,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5335",
+      "Value": "Over-Drive",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "Over-Drive (Q)"
+      "_field": "atp1"
     },
     {
       "Id": 828536161,

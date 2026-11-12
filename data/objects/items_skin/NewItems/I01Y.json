@@ -20,6 +20,13 @@
       "SanityCheck": 0,
       "_field": "unam",
       "_resolvedText": "Potion of Mana"
+    },
+    {
+      "Id": 1936024681,
+      "Type": "String",
+      "Value": "Restores 500 mana when used.",
+      "SanityCheck": 0,
+      "_field": "ides"
     }
   ],
   "_rawcode": "I01Y",

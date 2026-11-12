@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1896",
+      "Value": "Sends a gigantic wave which deals <A00X,DataA1> damage to each enemy land unit in a line, up to <A00X,DataB1> max damage. 8 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Sends a gigantic wave which deals <ACcv,DataA1> damage to each enemy land unit in a line, up to <ACcv,DataB1> max damage. 8 second cooldown."
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A00X",

@@ -23,10 +23,9 @@
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_219",
+      "Value": "Increases your Damage by 60. This is a basic item and can be upgraded with recipes.",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Increases your Damage by 60. This a basic item and can be upgraded with recipies."
+      "_field": "ides"
     },
     {
       "Id": 1885959285,
@@ -39,10 +38,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_222",
+      "Value": "Increases your Damage by 60. This is a basic item and can be upgraded with recipes.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Increases your Damage by 60. This a basic item and can be upgraded with recipies."
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

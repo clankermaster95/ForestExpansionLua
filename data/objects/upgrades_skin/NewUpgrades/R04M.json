@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6966",
+      "Value": "This upgrade is required to activate the passive ability Essence Theft. You gain 30% lifesteal on basic attacks.|n|cff7F7F7FYour strikes siphon part of the target's essence, mending your wounds.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "This upgrade is required to activate the passive ability Essence Theft. You gain 30% lifesteal on basic attacks. |n|cff7F7F7FYour strikes siphon part of the target's essence, mending your wounds.|r"
+      "_field": "gub1"
     },
     {
       "Id": 829579623,

@@ -223,10 +223,12 @@ def main():
     costs=validate_costs()
     from gameplay_objects import validate as validate_gameplay_objects
     gameplay_objects=validate_gameplay_objects()
+    from tooltips import validate as validate_tooltips
+    tooltips=validate_tooltips()
     report={'result':'passed','version':cfg['version'],'revision':cfg['revision'],'archive_sha256':ds.digest((ROOT/cfg['output']).read_bytes()),
         'unchanged_original_payload_files':preserved,'intentional_noncode_payload_changes':list(payloads.values()),'source_modules':len(modules),
         'lua_chunks_per_numeric_configuration':len(files),'event_initializers_tested':len(event_initializers),
-        'regressions':results,'historical_r8_regressions':historical,'gameplay_objects':gameplay_objects,
+        'regressions':results,'historical_r8_regressions':historical,'gameplay_objects':gameplay_objects,'tooltips':tooltips,
         'gameplay_patch':patch,'ancient_slot':slot_report,'editor_save_safety':editor_safety_report,'editor_layout':editor_layout_report,'costs':costs,'synchronization_review':audit,'editor_categories':len(categories),'archive_roundtrip':True,
         'source_editor_synchronized':True,'initialization_order_preserved':True,
         'legacy_sections_preserved':len(indexed),'consolidated_gameplay_modules':len(cfg['triggers']),

@@ -24,10 +24,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_7042",
+      "Value": "Vanguard restores health and grants an undispellable armor bonus for 6 seconds.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit is protected by a Vanguard, it has increased health regeneration and armor."
+      "_field": "fube"
     },
     {
       "Id": 1953653094,

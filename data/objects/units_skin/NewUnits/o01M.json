@@ -58,10 +58,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_4468",
+      "Value": "A deathly necromancer.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500; 10/s|n|cfffdca00Mana:|r 150; 2.5/s|n|cfffdca00Armor:|r 10 (Light)|n|cfffdca00Attack:|r 95 (Magic)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 2.5|n|cfffdca00Movement Speed:|r 315|n|cffff0000Feed Value:|r |cffffdd0015|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A deathly necromancer.|n|n|cfffdca00Health:|r 500; 10/s|n|cfffdca00Mana:|r 150; 2.5/s|n|cfffdca00Armor:|r 6 (Light)|n|cfffdca00Attack:|r 95 (Magic)|n|cfffdca00Attack Range:|r 600|n|cfffdca00Attack Cooldown:|r 2.4|n|cfffdca00Movement Speed:|r 315|n|cffff0000Feed Value:|r |cffffdd0015|r"
+      "_field": "utub"
     }
   ],
   "_rawcode": "o01M",

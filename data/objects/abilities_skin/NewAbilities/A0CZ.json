@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1088",
+      "Value": "Tree Chopper uses fresh tree as fuel for its overdrive. While in overdrive, the machine moves incredibly fast.|n|n|cff23a01eMovement speed is increased by 100% for 30 seconds. Uses up the entire tree.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Tree Chopper uses fresh tree as fuel for it's overdrive. While in overdrive, the machine moves increadibly fast.|n|n|cff23a01eMovement speed is increased by 100% for 30 seconds. Uses up the entire tree.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1953653089,

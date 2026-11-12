@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_968",
+      "Value": "Avatar of Vengeance",
       "SanityCheck": 0,
-      "_field": "anam",
-      "_resolvedText": "Avatar of Vengance"
+      "_field": "anam"
     },
     {
       "Id": 1953653089,
@@ -94,5 +93,5 @@
   ],
   "_rawcode": "A01A",
   "_base": "AHav",
-  "_name": "Avatar of Vengance"
+  "_name": "Avatar of Vengeance"
 }

@@ -56,10 +56,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_5131",
+      "Value": "Teleports up to 1000 range. Cooldown: 45 seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "Teched Jump shoes - Allows you to jump from place to place, 180 second cool down."
+      "_field": "arut"
     },
     {
       "Id": 829453409,
@@ -76,10 +75,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6104",
+      "Value": "Blinks to a target area. 45 second cooldown.|n|cff8080ffCast range: 1000|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Blinks to a target area. 45 second cooldown. |n|cff8080ffCast range: 1000|r"
+      "_field": "aub1"
     },
     {
       "Id": 2037082209,

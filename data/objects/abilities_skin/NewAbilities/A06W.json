@@ -50,10 +50,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_3117",
+      "Value": "Deals 100/150/200 damage per second to enemies within 250 range for 5 seconds. Normal attacks remain available. Cooldown: 20 seconds.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "|cffff9b7aSwirl around to sweep foes around you.|r |n|cffff9b7aDeals|r 100 (+50 * level) |cffff9b7adamage|r per second.|n|n|cffff9b7aLasts for|r 5 seconds. |cffff9b7aCooldown is|r 20 seconds.|n|n|cffe13742Ancient can NOT attack while using this ability.|r"
+      "_field": "arut"
     },
     {
       "Id": 829453409,
@@ -90,30 +89,27 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_3626",
+      "Value": "Deals 150 damage per second to enemies within 250 range for 5 seconds. Normal attacks remain available. Cooldown: 20 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffff9b7aSwirl around to sweep foes around you.|r |n|cffff9b7aDeals|r 150 |cffff9b7adamage|r per second.|n|n|cffff9b7aLasts for|r 5 seconds. |cffff9b7aCooldown is|r 20 seconds.|n|n|cffe13742Ancient can NOT attack while using this ability.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3627",
+      "Value": "Deals 100 damage per second to enemies within 250 range for 5 seconds. Normal attacks remain available. Cooldown: 20 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffff9b7aSwirl around to sweep foes around you.|r |n|cffff9b7aDeals|r 100 |cffff9b7adamage|r per second.|n|n|cffff9b7aLasts for|r 5 seconds. |cffff9b7aCooldown is|r 20 seconds.|n|n|cffe13742Ancient can NOT attack while using this ability.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_3628",
+      "Value": "Deals 200 damage per second to enemies within 250 range for 5 seconds. Normal attacks remain available. Cooldown: 20 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffff9b7aSwirl around to sweep foes around you.|r |n|cffff9b7aDeals|r 200 |cffff9b7adamage|r per second.|n|n|cffff9b7aLasts for|r 5 seconds. |cffff9b7aCooldown is|r 20 seconds.|n|n|cffe13742Ancient can NOT attack while using this ability.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1952539489,

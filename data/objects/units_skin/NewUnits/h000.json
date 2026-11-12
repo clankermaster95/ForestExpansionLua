@@ -24,10 +24,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_3267",
+      "Value": "|cff008000Role|r: Baser|n|n|cff008000Off Role|r: None|n|n|cff8080FFDifficulty|r: |cffffff00Medium|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 2.0|n|n|cffC0C0C0Krakens are an easy and simple race. Very similar to the humans, they have a strong blink and a calm early game. Can rush a base very fast to keep your allies safe. Requires a lot of gold pool to sustain later in the game.|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cff008000Role|r: Baser|n\n|cff008000Off Role|r: None|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Krakens are an easy and simple race. Very similar to the humans, they have a strong blink and a calm early game. Can rush a base very fast to keep your allies safe. Requires a lot of gold pool to sustain later in the game.|r"
+      "_field": "utub"
     },
     {
       "Id": 1684960117,

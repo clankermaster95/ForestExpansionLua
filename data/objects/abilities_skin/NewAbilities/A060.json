@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3351",
+      "Value": "You gain 50% bonus damage but have heavily reduced movement speed for 5 seconds. 5.5 second cooldown.|n|cff7F7F7FYour muscles surge with dark energy, empowering your strikes, but making movement difficult.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "You gain 50% bonus damage but have heavily reduced movement speed for 5 seconds. 6 second cooldown. |n|cff7F7F7FYour muscles surge with dark energy, empowering your strikes, but making movement difficult.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1953653089,

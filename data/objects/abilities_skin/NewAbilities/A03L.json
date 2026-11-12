@@ -20,10 +20,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_8800",
+      "Value": "|cffffcc00Q|uake|r",
       "SanityCheck": 0,
-      "_field": "atp1",
-      "_resolvedText": "|cffffcc00Q|uake"
+      "_field": "atp1"
     },
     {
       "Id": 828536161,

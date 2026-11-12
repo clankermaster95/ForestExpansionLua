@@ -66,10 +66,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10218",
+      "Value": "Your main technological center for all military purposes.|n|cff7F7F7FWildkin are put through vigorous training before they are ready for battle.|r|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 750|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Build Time:|r 4|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Your main technological center for all military purposes. |n|cff7F7F7FWildkin are put through vigorous training before they are ready for battle.|r|n|n|cfffdca00Health:|r 750|n|cfffdca00Armor:|r 10 (Fortified)|n|cfffdca00Build Time:|r 4|n|cffff0000Feed Value:|r |cffffdd0050|r"
+      "_field": "utub"
     },
     {
       "Id": 1953458293,

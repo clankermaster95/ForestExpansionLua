@@ -58,10 +58,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_3696",
+      "Value": "|cff8080ffChanneling.|r Teleports the unit towards a friendly unit or structure after the initial 10 second delay.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff8080ffChanneling.|r Teleports the unit towards a friendly unit or structure after the initial 10 second delay. |n"
+      "_field": "aub1"
     }
   ],
   "_rawcode": "A0AE",

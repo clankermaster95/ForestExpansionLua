@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_6557",
+      "Value": "Morph into the Executioner, a swift melee assassin who can stealth & deal massive amounts of damage if left unchecked.|n|cffFF0000Cannot be combined with other augmentations.|r",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "Morph into the Executioner, a swift melee assassin who can stealth & deal massive amounts of damage if left unchecked. |n|cffFF0000Cannot be combined with other augmentations.|r"
+      "_field": "gub1"
     },
     {
       "Id": 829579623,

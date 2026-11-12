@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1089",
+      "Value": "|cff239b14Tree Chopper releases nanomachines to mend some of its damaged parts.|n|nHeals for |r1250|cff239b14 hitpoints over |r10 seconds|cff239b14 with a cooldown of |r60 seconds.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cff239b14Tree Chopper releases nanomachines to mend some of it's damaged parts.|n|nHeals for |r1250|cff239b14 hitpoints over |r10 seconds|cff239b14 with a cooldown of |r60 seconds."
+      "_field": "aub1"
     },
     {
       "Id": 1718840929,

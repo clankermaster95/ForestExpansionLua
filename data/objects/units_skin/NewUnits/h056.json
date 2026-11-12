@@ -60,10 +60,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_10245",
+      "Value": "Basic unit to gather Wood and build new shelters/ziggurats. Can burrow to become invulnerable.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 100; 5/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Movement Speed:|r 300|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "Basic unit to gather Wood and build new shelters/ziggurats. Can burrow to become invulnurable.|n|n|cfffdca00Health:|r 100; 5/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Movement Speed:|r 250|n|cffff0000Feed Value:|r |cffffdd0020|r"
+      "_field": "utub"
     },
     {
       "Id": 1919905909,

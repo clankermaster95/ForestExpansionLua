@@ -350,10 +350,9 @@
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_4492",
+      "Value": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+150|cff3cb93c hitpoints as well as |r+2.25 |cff3cb93chitpoint regeneration per second.|r|n|nThis the last upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+150|cff3cb93c hitpoints as well as |r+2.25 |cff3cb93chitpoint regeneration per second.|r|n|nThis is the last upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,
@@ -390,10 +389,9 @@
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "TRIGSTR_2954",
+      "Value": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r|n|nThis the last upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r|n|nThis is the last upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 829122663,

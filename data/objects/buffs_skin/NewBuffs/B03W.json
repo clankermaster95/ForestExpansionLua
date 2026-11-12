@@ -29,10 +29,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_9172",
+      "Value": "This unit has been tossed into the air and is temporarily stunned.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit has been cycloned; it is in the stunned for a short duration."
+      "_field": "fube"
     },
     {
       "Id": 1885959270,

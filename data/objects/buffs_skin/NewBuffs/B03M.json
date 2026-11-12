@@ -31,10 +31,9 @@
     {
       "Id": 1700951398,
       "Type": "String",
-      "Value": "TRIGSTR_3290",
+      "Value": "This unit is poisoned. Each stack deals 40 damage per second and slows movement by 4%, up to 6 stacks. Hits refresh the 4-second duration. Nonlethal and undispellable.",
       "SanityCheck": 0,
-      "_field": "fube",
-      "_resolvedText": "This unit was hit by Poisoned Bullets; its movement speed has been reduced, and it will take damage over time."
+      "_field": "fube"
     },
     {
       "Id": 1885959270,

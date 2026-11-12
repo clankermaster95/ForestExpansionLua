@@ -40,10 +40,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_344",
+      "Value": "Stun any target for 1.25 second and deal 125 damage. This ability has 1250 range. 10 second cooldown.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Stun any target for 1.25 second and deal 125 damage. This ability has 1250 range. 15 second cooldown."
+      "_field": "aub1"
     },
     {
       "Id": 1953653089,

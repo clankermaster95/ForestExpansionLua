@@ -16,10 +16,9 @@
     {
       "Id": 1936024681,
       "Type": "String",
-      "Value": "TRIGSTR_4449",
+      "Value": "A seed that will grow into razorvines when planted. They will grow and collect lumber.",
       "SanityCheck": 0,
-      "_field": "ides",
-      "_resolvedText": "Plant this seed to grow thriving razorvine."
+      "_field": "ides"
     },
     {
       "Id": 1885959285,

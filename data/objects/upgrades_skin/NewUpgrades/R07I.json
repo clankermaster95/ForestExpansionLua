@@ -340,10 +340,9 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_5512",
+      "Value": "|cff3cb93cTree Chopper gains |r+500 |cff3cb93chitpoints.|r|n|nThis the last health upgrade.",
       "SanityCheck": 0,
-      "_field": "gub1",
-      "_resolvedText": "|cff3cb93cTree Chopper gains |r+500 |cff3cb93chitpoints.|r|n|nThis is the last health upgrade."
+      "_field": "gub1"
     },
     {
       "Id": 828536167,

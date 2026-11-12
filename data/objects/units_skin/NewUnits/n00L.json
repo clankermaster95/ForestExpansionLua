@@ -30,10 +30,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_6949",
+      "Value": "A raging growth.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 1000; 5/s|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Attack:|r 100 (Chaos)|n|cfffdca00Attack Range:|r 180|n|cfffdca00Attack Cooldown:|r 0.8|n|cfffdca00Movement Speed:|r 0|n|cffff0000Feed Value:|r |cffffdd002|r",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "A raging growth. |n|n|cfffdca00Health:|r 1000; 5/s|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Attack:|r 100 (Chaos)|n|cfffdca00Attack Range:|r 180|n|cfffdca00Attack Cooldown:|r 0.8|n|cfffdca00Movement Speed:|r 0|n|cffff0000Feed Value:|r |cffffdd002|r"
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

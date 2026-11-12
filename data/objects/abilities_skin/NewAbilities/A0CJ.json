@@ -30,10 +30,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_2914",
+      "Value": "Increases the units attack rate by <A0CJ,DataA1,%>% for <A0CJ,Dur1> seconds.|nCooldown: 20s",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "Increases the unit's attack rate by <A0CJ,DataA1,%>% for <A0CJ,Dur1> seconds.|NCooldown: 20s"
+      "_field": "aub1"
     },
     {
       "Id": 1953653089,

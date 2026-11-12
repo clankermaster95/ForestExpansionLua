@@ -53,10 +53,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9523",
+      "Value": "|cffFF8040Difficulty:|r |cffc00040Very Hard|r|n|cffFF8040Strong Against:|r Solos & Militaries|n|cffFF8040Weak Against:|r Bases|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+0)|r|n|nThis ancient is very strong at seizing map control early and keeping it. Against a team which does not have bases, the Ancient of Sand really shines with his ability to trap the map and keep vision on everyone. His sandstorm ability allows him to keep up by using it for experience.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cffFF8040Difficulty:|r |cffc00040Very Hard|r\n|cffFF8040Strong Against:|r Solos & Militaries\n|cffFF8040Weak Against:|r Bases|r\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+0)|r|n|nThis ancient is very strong at seizing map control early and keeping it. Against a team which does not have bases, the Ancient of Sand really shines with his ability to trap the map and keep vision on everyone. His sandstorm ability allows him to keep up by using it for experience."
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

@@ -10,13 +10,12 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_9681",
+      "Value": "Spell Damage Reduction",
       "SanityCheck": 0,
-      "_field": "anam",
-      "_resolvedText": "Spell Damage Reduction (20%)"
+      "_field": "anam"
     }
   ],
   "_rawcode": "A096",
   "_base": "AIsr",
-  "_name": "Spell Damage Reduction (20%)"
+  "_name": "Spell Damage Reduction"
 }

@@ -10,10 +10,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_683",
+      "Value": "Turns a target enemy unit into a sheep. The targeted unit retains its hit points and armor, but cannot attack. Lasts 2 seconds on heroes.|n|cff80808060 seconds cooldown|r",
       "SanityCheck": 2037149761,
-      "_field": "aub1",
-      "_resolvedText": "Turns a target enemy unit into a sheep. The targeted unit retains its hit points and armor, but cannot attack. Lasts 2 seconds on heroes.|n|cff80808060 seconds cooldown|r"
+      "_field": "aub1"
     },
     {
       "Id": 1718840929,

@@ -78,30 +78,27 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_5713",
+      "Value": "|cffe92121Damage against units is increased by |r50%.|n|nDoes not apply to structures.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffe92121Damage against units is increased by |r50%|r.|n|nDoes not apply to structures."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_5714",
+      "Value": "|cffe92121Damage against units is increased by |r100%.|n|nDoes not apply to structures.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffe92121Damage against units is increased by |r100%|r.|n|nDoes not apply to structures."
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_5715",
+      "Value": "|cffe92121Damage against units is increased by |r150%.|n|nDoes not apply to structures.",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffe92121Damage against units is increased by |r150%|r.|n|nDoes not apply to structures."
+      "_field": "aub1"
     },
     {
       "Id": 2020631137,
@@ -146,10 +143,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_5744",
+      "Value": "|cffe92121Increases your damage against units by|r|n50% / 100% / 150%.|n|nDoes not apply to structures.",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "|cffe92121Increases your damage against units by|r |n50% / 100% / 150%.|n|nDoes not apply to structures."
+      "_field": "arut"
     }
   ],
   "_rawcode": "A07A",

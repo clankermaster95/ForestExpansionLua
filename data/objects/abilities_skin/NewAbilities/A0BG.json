@@ -56,10 +56,9 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_4514",
+      "Value": "By moving very fast, you dodge all basic attacks inflicted on you for a short period. Lasts |cff8080ff(0.1% of max mana)|r seconds.|n|cff808080CD: 5 seconds.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "By moving very fast, you dodge all basic attacks inflicted on you for a short period. Lasts |cff8080ff(0.1% of max mana)|r seconds. |n|cff808080CD: 5 seconds.|r"
+      "_field": "aub1"
     },
     {
       "Id": 829453409,

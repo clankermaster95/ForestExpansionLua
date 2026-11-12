@@ -67,10 +67,9 @@
     {
       "Id": 1651864693,
       "Type": "String",
-      "Value": "TRIGSTR_9509",
+      "Value": "|cffFF8040Difficulty:|r |cffc00040Very Hard|r|n|cffFF8040Strong Against:|r Everything|n|cffFF8040Weak Against:|r Nothing|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r|n|nThis ancient is unbelievably powerful when played with necessary precautions. Enough mana on this ancient can make you almost unkillable. The Ancient of Earth has a mana shield, and a spammable nuke to take down his foes. His ultimate also makes him an amazing base sieger. However he is vulnerable early on and may end up falling behind if doesn't get momentum going.",
       "SanityCheck": 0,
-      "_field": "utub",
-      "_resolvedText": "|cffFF8040Difficulty:|r |cffc00040Very Hard|r\n|cffFF8040Strong Against:|r Everything\n|cffFF8040Weak Against:|r Nothing\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r|n\nThis ancient is unbelievably powerful when played with necessary precautions. Enough mana on this ancient can make you almost unkillable. The Ancient of Earth has a mana shield, and a spammable nuke to take down his foes. His ultimate also makes him an amazing base sieger. However he is vulnerable early on and may end up falling behind if doesn't get momentum going."
+      "_field": "utub"
     },
     {
       "Id": 1633907573,

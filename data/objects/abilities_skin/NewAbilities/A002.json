@@ -57,10 +57,9 @@
       "Type": "String",
       "Level": 0,
       "Pointer": 0,
-      "Value": "TRIGSTR_691",
+      "Value": "|cffff6181Cast a chain of fire at a target, dealing|r 120 (+30 per additional level) |cffff6181damage to |rit |cffff6181and|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r",
       "SanityCheck": 0,
-      "_field": "arut",
-      "_resolvedText": "|cffff6181Cast a chain of fire at a target, dealing|r 120 (+30 * level) |cffff6181damage to |rit |cffff6181and|r|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r"
+      "_field": "arut"
     },
     {
       "Id": 829453409,
@@ -97,30 +96,27 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_927",
+      "Value": "|cffff6181Cast a chain of fire at a target, dealing|r 120 |cffff6181damage to |rit |cffff6181and|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffff6181Cast a chain of fire at a target, dealing|r 120 |cffff6181damage to |rit |cffff6181and|r|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_5752",
+      "Value": "|cffff6181Cast a chain of fire at a target, dealing|r 150 |cffff6181damage to |rit |cffff6181and|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffff6181Cast a chain of fire at a target, dealing|r 150 |cffff6181damage to |rit |cffff6181and|r|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_2177",
+      "Value": "|cffff6181Cast a chain of fire at a target, dealing|r 180 |cffff6181damage to |rit |cffff6181and|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffff6181Cast a chain of fire at a target, dealing|r 180 |cffff6181damage to |rit |cffff6181and|r|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1734962273,
@@ -186,40 +182,36 @@
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_2178",
+      "Value": "|cffff6181Cast a chain of fire at a target, dealing|r 210 |cffff6181damage to |rit |cffff6181and|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffff6181Cast a chain of fire at a target, dealing|r 210 |cffff6181damage to |rit |cffff6181and|r|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_2270",
+      "Value": "|cffff6181Cast a chain of fire at a target, dealing|r 240 |cffff6181damage to |rit |cffff6181and|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffff6181Cast a chain of fire at a target, dealing|r 240 |cffff6181damage to |rit |cffff6181and|r|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 6,
       "Pointer": 0,
-      "Value": "TRIGSTR_2271",
+      "Value": "|cffff6181Cast a chain of fire at a target, dealing|r 270 |cffff6181damage to |rit |cffff6181and|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffff6181Cast a chain of fire at a target, dealing|r 270 |cffff6181damage to |rit |cffff6181and|r|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r"
+      "_field": "aub1"
     },
     {
       "Id": 828536161,
       "Type": "String",
       "Level": 7,
       "Pointer": 0,
-      "Value": "TRIGSTR_2437",
+      "Value": "|cffff6181Cast a chain of fire at a target, dealing|r 300 |cffff6181damage to |rit |cffff6181and|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r",
       "SanityCheck": 0,
-      "_field": "aub1",
-      "_resolvedText": "|cffff6181Cast a chain of fire at a target, dealing|r 300 |cffff6181damage to |rit |cffff6181and|r|r nearby |cffff6181enemies.|r|n|n|cffff6181This ability has a|r 10 second |cffff6181cooldown.|r"
+      "_field": "aub1"
     },
     {
       "Id": 1952542049,
