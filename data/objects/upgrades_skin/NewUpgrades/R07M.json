@@ -217,7 +217,7 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis the last upgrade.",
+      "Value": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis is the last upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },
@@ -236,7 +236,7 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|n|nThis the last armor upgrade.",
+      "Value": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|n|nThis is the last armor upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

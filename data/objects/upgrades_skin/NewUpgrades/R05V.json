@@ -101,6 +101,15 @@
       "SanityCheck": 0,
       "_field": "ghk1",
       "_resolvedText": "A"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "Research Nature's Blessing [60.0]",
+      "SanityCheck": 0,
+      "_field": "gtp1"
     }
   ],
   "_rawcode": "R05V",

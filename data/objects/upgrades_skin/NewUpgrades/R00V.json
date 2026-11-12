@@ -481,7 +481,7 @@
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.|n|nThis the last damage upgrade.",
+      "Value": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.|n|nThis is the last damage upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

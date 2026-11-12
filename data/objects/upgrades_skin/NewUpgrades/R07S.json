@@ -210,7 +210,7 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "Increases movement speed of all husks by 20.|n|nThis the last movement upgrade.",
+      "Value": "Increases movement speed of all husks by 20.|n|nThis is the last movement upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

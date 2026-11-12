@@ -59,10 +59,9 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_10463",
+      "Value": "Improved lumber harvesting - [80.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "Improved lumber harvesting - [60.0]"
+      "_field": "gtp1"
     },
     {
       "Id": 1835101799,

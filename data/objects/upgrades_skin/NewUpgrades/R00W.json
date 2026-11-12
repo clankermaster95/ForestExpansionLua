@@ -245,7 +245,7 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "Increases the range of mortar teams by 40.|n|nThis the last range upgrade.",
+      "Value": "Increases the range of mortar teams by 40.|n|nThis is the last range upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

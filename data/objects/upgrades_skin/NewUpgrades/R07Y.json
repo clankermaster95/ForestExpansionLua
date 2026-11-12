@@ -251,7 +251,7 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "Increases attack speed of your towers by 9%.|n|nThis the last speed upgrade.",
+      "Value": "Increases attack speed of your towers by 9%.|n|nThis is the last speed upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

@@ -1,6 +1,6 @@
 {
   "output": "dist/Forest_Expansion_3.2.0_Lua.w3x",
-  "sha256": "9fed267aa1df598b5cd9f0e7c950008ef8ca054f9751978d36eeecbbf7b6458c",
+  "sha256": "bf1ab5e4e6037fc2dd26b79d54527c2f8847c647121f3ea5003313080da25acd",
   "archive_files": 520,
   "version": "3.2.0",
   "revision": "r12",
@@ -19,7 +19,7 @@
   "maps_copy": {
     "status": "copied",
     "path": "C:\\Users\\aless\\Documents\\Warcraft III\\Maps\\Forest Expansion\\Forest_Expansion_3.2.0_Lua.w3x",
-    "sha256": "9fed267aa1df598b5cd9f0e7c950008ef8ca054f9751978d36eeecbbf7b6458c",
+    "sha256": "bf1ab5e4e6037fc2dd26b79d54527c2f8847c647121f3ea5003313080da25acd",
     "old_copies": {
       "removed": [],
       "locked_pending": []

@@ -490,7 +490,7 @@
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "Increases attack speed of mortar towers by 10%|n|nThis the last attack speed upgrade.",
+      "Value": "Increases attack speed of mortar towers by 10%|n|nThis is the last attack speed upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

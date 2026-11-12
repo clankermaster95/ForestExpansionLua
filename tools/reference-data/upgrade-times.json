@@ -1,0 +1,123 @@
+{
+  "source": "Warcraft 1.32.8 Custom native research reference; explicit map fields take precedence. Reference snapshot, not a live-engine validation.",
+  "url": "https://github.com/sumneko/w3x2lni/blob/master/data/zhCN-1.32.8/prebuilt/Custom/upgrade.ini",
+  "source_git_blob": "77789e1600df167d2bf96215abf7eccc1f045f51",
+  "source_sha256": "19c5f63fe3c9a5ec0e76a19f183d1f36fb4cd77d4c6084f6645321d1c0f93215",
+  "upgrades": {
+    "Reib": {
+      "maxlevel": 1,
+      "timebase": 35,
+      "timemod": 0
+    },
+    "Renb": {
+      "maxlevel": 1,
+      "timebase": 60,
+      "timemod": 0
+    },
+    "Rews": {
+      "maxlevel": 1,
+      "timebase": 30,
+      "timemod": 0
+    },
+    "Rhac": {
+      "maxlevel": 3,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Rhan": {
+      "maxlevel": 1,
+      "timebase": 40,
+      "timemod": 0
+    },
+    "Rhar": {
+      "maxlevel": 3,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Rhfl": {
+      "maxlevel": 1,
+      "timebase": 30,
+      "timemod": 0
+    },
+    "Rhlh": {
+      "maxlevel": 2,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Rhme": {
+      "maxlevel": 3,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Rhpt": {
+      "maxlevel": 2,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Rhra": {
+      "maxlevel": 3,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Rhrt": {
+      "maxlevel": 1,
+      "timebase": 40,
+      "timemod": 0
+    },
+    "Rhsb": {
+      "maxlevel": 1,
+      "timebase": 40,
+      "timemod": 0
+    },
+    "Rhse": {
+      "maxlevel": 1,
+      "timebase": 30,
+      "timemod": 0
+    },
+    "Rhst": {
+      "maxlevel": 2,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Roar": {
+      "maxlevel": 3,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Robk": {
+      "maxlevel": 1,
+      "timebase": 40,
+      "timemod": 0
+    },
+    "Roch": {
+      "maxlevel": 1,
+      "timebase": 0,
+      "timemod": 0
+    },
+    "Rome": {
+      "maxlevel": 3,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Rosp": {
+      "maxlevel": 3,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Rume": {
+      "maxlevel": 3,
+      "timebase": 60,
+      "timemod": 15
+    },
+    "Rupc": {
+      "maxlevel": 1,
+      "timebase": 45,
+      "timemod": 0
+    },
+    "Rura": {
+      "maxlevel": 3,
+      "timebase": 60,
+      "timemod": 15
+    }
+  }
+}

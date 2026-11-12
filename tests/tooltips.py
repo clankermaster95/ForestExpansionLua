@@ -60,7 +60,11 @@ def validate():
             ('abilities_skin','A08I','aub1',1,'90 second cooldown.','Cooldown differs'),
             ('abilities_skin','A09E','aub1',1,'Deals <A09Ei,DataA1> damage.','Malformed object reference'),
             ('abilities_skin','A075','arut',0,'TRIGSTR_99999999','Unresolved string'),
-            ('abilities_skin','A075','arut',0,'|cff50 seconds cooldown','Malformed color')]
+            ('abilities_skin','A075','arut',0,'|cff50 seconds cooldown','Malformed color'),
+            ('upgrades_skin','RFCA','gtp1',1,'Sacrificial Aura','Research time missing'),
+            ('upgrades_skin','RFAT','gtp1',5,'Profane Reach - Level 5 [99.0]','Research time missing'),
+            ('upgrades_skin','R06Z','gtp1',5,'Improved Machinery V [35.0]','Research time missing'),
+            ('upgrades_skin','R07X','gtp1',4,'Slower Decay IV [15.0]','Research time missing')]
     for kind,raw,field,level,bad,reason in probes:
         obj=c.records[kind,raw][1]
         mod=next(m for m in obj['Modifications'] if m['_field']==field and m.get('Level',0)==level)

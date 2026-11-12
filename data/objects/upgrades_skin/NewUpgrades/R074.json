@@ -151,7 +151,7 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "|cff4182c8Bounty Hunter's attack speed is increased by|r 10%.|n|nThis the last upgrade.",
+      "Value": "|cff4182c8Bounty Hunter's attack speed is increased by|r 10%.|n|nThis is the last upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },
@@ -210,7 +210,7 @@
       "Type": "String",
       "Level": 10,
       "Pointer": 0,
-      "Value": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis the last upgrade.",
+      "Value": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

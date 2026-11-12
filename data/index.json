@@ -2682,8 +2682,8 @@
     }
   },
   "war3mapSkin.w3q": {
-    "binary_sha256": "ee5298af7546a192afe0d8052957500b9c65d675590eeeaefc900c698b889dd3",
-    "content_sha256": "810f1e45e2026bb8713c9eb0cbc6f3fa56e829509127a727656ba107520cf55b",
+    "binary_sha256": "6dbfd5b6b909ff8119a030ee7e62dbda00cf127daad6b64d776a8dcbad0a407c",
+    "content_sha256": "229af8013190e45ee8b2025e6911cea903014d0a94f252da4bcf729b00003a56",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"

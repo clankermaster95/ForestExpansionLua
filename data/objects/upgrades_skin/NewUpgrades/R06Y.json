@@ -277,7 +277,7 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "|cff3cb93cIncreases Tree Chopper's armor by |r3 |cff3cb93cpoints.|r|n|nThis the last armor upgrade.",
+      "Value": "|cff3cb93cIncreases Tree Chopper's armor by |r3 |cff3cb93cpoints.|r|n|nThis is the last armor upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

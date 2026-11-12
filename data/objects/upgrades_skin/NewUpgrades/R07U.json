@@ -251,7 +251,7 @@
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "Increases hitpoints of walls by 100.|n|nThis the last health upgrade.",
+      "Value": "Increases hitpoints of walls by 100.|n|nThis is the last health upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

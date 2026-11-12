@@ -200,50 +200,45 @@
       "Type": "String",
       "Level": 1,
       "Pointer": 0,
-      "Value": "TRIGSTR_1349",
+      "Value": "|cff239b14Improved Machinery I|r [5.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "|cff239b14Improved Machinery I|r [15]"
+      "_field": "gtp1"
     },
     {
       "Id": 829453415,
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "TRIGSTR_1350",
+      "Value": "|cff239b14Improved Machinery II|r [10.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "|cff239b14Improved Machinery II|r [20]"
+      "_field": "gtp1"
     },
     {
       "Id": 829453415,
       "Type": "String",
       "Level": 3,
       "Pointer": 0,
-      "Value": "TRIGSTR_1351",
+      "Value": "|cff239b14Improved Machinery III|r [15.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "|cff239b14Improved Machinery III|r [25]"
+      "_field": "gtp1"
     },
     {
       "Id": 829453415,
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "TRIGSTR_1352",
+      "Value": "|cff239b14Improved Machinery IV|r [20.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "|cff239b14Improved Machinery IV|r [30]"
+      "_field": "gtp1"
     },
     {
       "Id": 829453415,
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "TRIGSTR_1353",
+      "Value": "|cff239b14Improved Machinery V|r [25.0]",
       "SanityCheck": 0,
-      "_field": "gtp1",
-      "_resolvedText": "|cff239b14Improved Machinery V|r [35]"
+      "_field": "gtp1"
     },
     {
       "Id": 829453415,
@@ -340,7 +335,7 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "|cff3cb93cTree Chopper gains |r+500 |cff3cb93chitpoints.|r|n|nThis the last health upgrade.",
+      "Value": "|cff3cb93cTree Chopper gains |r+500 |cff3cb93chitpoints.|r|n|nThis is the last health upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

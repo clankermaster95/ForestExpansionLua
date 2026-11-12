@@ -58,7 +58,7 @@ Cumulative **3.1.2a → 3.2.0** patch notes, through r12.
 - Fixed saved feed settings arriving late or out of order and overwriting manual choices.
 - Corrected Nature's Grasp formatting, Spirit Tree's 5-armor description and missing Moon Well statistics.
 - Fixed blank map names/descriptions and the first picking timer's label and early disappearance.
-- Corrected unit/building stats, spell cooldowns, missing Cultist research-time labels, learn-menu descriptions, summon references, item effects, spelling, colors and duplicate hotkeys across tooltips; unit stat blocks now identify values before upgrades. Updated Sadism, Vanguard, Nuke, Bleed and Poisoned Bullets descriptions to match their current effects.
+- Corrected unit/building stats, spell cooldowns, research-time labels, learn-menu descriptions, summon references, item effects, spelling, colors and duplicate hotkeys across tooltips; unit stat blocks now identify values before upgrades. Updated Sadism, Vanguard, Nuke, Bleed and Poisoned Bullets descriptions to match their current effects.
 
 ## Solo testing
 

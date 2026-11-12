@@ -24,6 +24,24 @@
       "SanityCheck": 0,
       "_field": "gub1",
       "_resolvedText": "Further increases the amount of lumber that Souls harvest can carry by 2."
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "Improved Lumber Harvesting I [50.0]",
+      "SanityCheck": 0,
+      "_field": "gtp1"
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 2,
+      "Pointer": 0,
+      "Value": "Improved Lumber Harvesting II [50.0]",
+      "SanityCheck": 0,
+      "_field": "gtp1"
     }
   ],
   "_rawcode": "R05U",

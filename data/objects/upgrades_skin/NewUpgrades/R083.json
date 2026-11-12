@@ -106,7 +106,7 @@
       "Type": "String",
       "Level": 2,
       "Pointer": 0,
-      "Value": "Increases Cultist's attack speed by 10%.|n|nThis the last attack speed upgrade.",
+      "Value": "Increases Cultist's attack speed by 10%.|n|nThis is the last attack speed upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

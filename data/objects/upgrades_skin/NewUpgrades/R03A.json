@@ -14,6 +14,15 @@
       "SanityCheck": 0,
       "_field": "gub1",
       "_resolvedText": "Increases the lumber gathered from your Warpling by 2."
+    },
+    {
+      "Id": 829453415,
+      "Type": "String",
+      "Level": 1,
+      "Pointer": 0,
+      "Value": "Improved Lumber Harvesting [50.0]",
+      "SanityCheck": 0,
+      "_field": "gtp1"
     }
   ],
   "_rawcode": "R03A",

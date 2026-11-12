@@ -1,7 +1,7 @@
 """Check authored tooltip text against current object data and the r11 baseline.
 
-Only explicit object values are compared; inherited engine defaults and arbitrary
-scripted prose are not inferred. Empty hidden/dummy tooltips are intentional.
+Compare explicit object values plus a documented native research-time reference.
+Arbitrary scripted prose is not inferred. Empty hidden/dummy tooltips are intentional.
 """
 from pathlib import Path
 import argparse, collections, json, re, zipfile
@@ -24,6 +24,7 @@ def plain(text):
 class Catalog:
     def __init__(self):
         self.strings = ds.strings(ROOT/'map/ForestExpansion.w3x/war3map.wts')
+        self.upgrade_defaults = ds.read(ROOT/'tools/reference-data/upgrade-times.json')['upgrades']
         self.records = {}
         for path in sorted((ROOT/'data/objects').rglob('*.json')):
             obj = ds.read(path)
@@ -72,7 +73,35 @@ class Catalog:
                     for match in pattern.finditer(clean):
                         checked['explicit_cooldowns']+=1
                         if float(match[1])!=value:issue('Cooldown differs from acdn')
+        self.research_issues(issues,checked)
         return issues,dict(checked)
+
+    def research_issues(self,issues,checked):
+        stock=set()
+        for kind,raw in self.records:
+            if kind=='units':stock.update(str(self.fields('units',raw).get(('ures',0),'')).split(','))
+        for (kind,raw),(path,obj) in self.records.items():
+            if kind!='upgrades':continue
+            fields=self.fields(kind,raw)
+            defaults=self.upgrade_defaults.get(obj['_base'],{})
+            levels=fields.get(('glvl',0),defaults.get('maxlevel'))
+            base=fields.get(('gtib',0),defaults.get('timebase'))
+            increment=fields.get(('gtim',0),defaults.get('timemod'))
+            if None in (levels,base,increment):
+                if raw in stock:
+                    issues.append({'rawcode':raw,'reason':'Research timing reference missing'})
+                continue
+            for level in range(1,levels+1):
+                title=fields.get(('gtp1',level),'')
+                label=re.search(r'\[([\d.]+)\]\s*$',plain(title))
+                if raw not in stock and label is None:continue
+                seconds=base+increment*(level-1)
+                checked['research_times']+=1
+                if label is None and seconds==0:continue # Instant/hidden research.
+                if label is None or float(label[1])!=seconds:
+                    issues.append({'rawcode':raw,'field':'gtp1','level':level,'text':title,
+                                   'expected_seconds':seconds,
+                                   'reason':'Research time missing or differs from gtib/gtim'})
 
 def gameplay_projection(obj):
     result=ds.canonical(obj)
@@ -103,7 +132,7 @@ def inspect():
     return {'baseline':FIXTURE,'baseline_sha256':FIXTURE_SHA,'coverage':coverage,
             'changed_objects':len({c['path'] for c in changes}),'changed_fields':len(changes),
             'gameplay_object_fields_unchanged':True,'issues':issues,'changes':changes,
-            'limits':'Authored text and explicit data checks; hidden blank fields preserved. Inherited engine defaults, live rendering and all scripted interactions require in-game verification.'}
+            'limits':'Authored text, explicit data and documented native research-time defaults; hidden blank fields preserved. Other inherited engine defaults, live rendering and all scripted interactions require in-game verification.'}
 
 def validate():
     report=inspect()

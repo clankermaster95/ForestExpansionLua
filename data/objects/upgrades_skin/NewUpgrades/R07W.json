@@ -336,7 +336,7 @@
       "Type": "String",
       "Level": 5,
       "Pointer": 0,
-      "Value": "Increases attack damage of your towers by 5.|n|nThis the last damage upgrade.",
+      "Value": "Increases attack damage of your towers by 5.|n|nThis is the last damage upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

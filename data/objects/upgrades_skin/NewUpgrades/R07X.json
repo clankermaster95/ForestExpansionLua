@@ -276,7 +276,7 @@
       "Type": "String",
       "Level": 4,
       "Pointer": 0,
-      "Value": "Increases attack range of your towers by 50.|n|nThis the last range upgrade.",
+      "Value": "Increases attack range of your towers by 50.|n|nThis is the last range upgrade.",
       "SanityCheck": 0,
       "_field": "gub1"
     },

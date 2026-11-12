@@ -100,4 +100,5 @@ The pick preview uses empty stock with a zero cap, following a [tested zero-stoc
 - Compare build/train tooltips with newly created, unupgraded units: Gate (750 HP), Wildkin Den (400 HP), Nerubian Ziggurat/Tower (300 HP), and Bounty Hunter (1.7 attack cooldown).
 - Check both learn menus and learned spells: Sadism (25 seconds), Vanguard (undispellable armor), and Reckoning/Nuke (normal attacks allowed).
 - Check Bleed and Poisoned Bullets across levels, summon descriptions, item ground/shop text, and color/hotkey rendering.
+- Check research time beside each button name: Cultist's new abilities and every Profane Reach/Slower Decay level, Tree Chopper's Improved Machinery (5/10/15/20/25 seconds), and Warpling/Soul lumber upgrades (50 seconds). Native timing fallbacks are documented in `tools/reference-data/upgrade-times.json`; live engine behavior still needs confirmation.
 - Psychic Drain combines native channeling with a scripted drain; its exact live tick-rate total is not claimed in the tooltip. Spellcaster's Cloak reads its inherited resistance directly through the ability reference.

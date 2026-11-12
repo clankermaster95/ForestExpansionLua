@@ -9,10 +9,11 @@
     "items_skin": 337,
     "units_skin": 1169,
     "explicit_unit_stats": 784,
-    "upgrades_skin": 3656
+    "upgrades_skin": 3660,
+    "research_times": 1081
   },
-  "changed_objects": 649,
-  "changed_fields": 1027,
+  "changed_objects": 653,
+  "changed_fields": 1037,
   "gameplay_object_fields_unchanged": true,
   "issues": [],
   "changes": [
@@ -5607,21 +5608,21 @@
       "field": "gub1",
       "level": 10,
       "before": "Implament explosive shells onto each of the mortar team's attacks. Increases damage by 5.|n|nThis is the last damage upgrade.",
-      "after": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.|n|nThis the last damage upgrade."
+      "after": "Implement explosive shells onto each of the mortar team's attacks. Increases damage by 5.|n|nThis is the last damage upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R00W.json",
       "field": "gub1",
       "level": 5,
       "before": "Increases the range of mortar teams by 40.|n|nThis is the last range upgrade.",
-      "after": "Increases the range of mortar teams by 40.|n|nThis the last range upgrade."
+      "after": "Increases the range of mortar teams by 40.|n|nThis is the last range upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R00X.json",
       "field": "gub1",
       "level": 10,
       "before": "Increases attack speed of mortar towers by 10%|n|nThis is the last attack speed upgrade.",
-      "after": "Increases attack speed of mortar towers by 10%|n|nThis the last attack speed upgrade."
+      "after": "Increases attack speed of mortar towers by 10%|n|nThis is the last attack speed upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R013.json",
@@ -5811,6 +5812,13 @@
       "level": 1,
       "before": "Allows you to cast Tinkering Efficieny.",
       "after": "Allows you to cast Tinkering Efficiency."
+    },
+    {
+      "path": "data/objects/upgrades_skin/NewUpgrades/R03A.json",
+      "field": "gtp1",
+      "level": 1,
+      "before": null,
+      "after": "Improved Lumber Harvesting [50.0]"
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R03D.json",
@@ -6800,11 +6808,39 @@
       "after": "Increases the level of your abilities that benefit from Lunar Power by 1.|n|cff7F7F7FBasking in the glory of the moon brings an unsettling power to the Wildkin.|r"
     },
     {
+      "path": "data/objects/upgrades_skin/NewUpgrades/R05K.json",
+      "field": "gtp1",
+      "level": 2,
+      "before": "Improved lumber harvesting - [60.0]",
+      "after": "Improved lumber harvesting - [80.0]"
+    },
+    {
       "path": "data/objects/upgrades_skin/NewUpgrades/R05R.json",
       "field": "gub1",
       "level": 1,
       "before": "Allows you to embrace the nature. After transformation, increases amount of food you have by default from 50 to 100. |n|cfffff000Warning: you can choose only 1 path|r",
       "after": "Allows you to embrace the nature. After transformation, increases amount of food you have by default from 50 to 100.|n|cfffff000Warning: you can choose only 1 path|r"
+    },
+    {
+      "path": "data/objects/upgrades_skin/NewUpgrades/R05U.json",
+      "field": "gtp1",
+      "level": 1,
+      "before": null,
+      "after": "Improved Lumber Harvesting I [50.0]"
+    },
+    {
+      "path": "data/objects/upgrades_skin/NewUpgrades/R05U.json",
+      "field": "gtp1",
+      "level": 2,
+      "before": null,
+      "after": "Improved Lumber Harvesting II [50.0]"
+    },
+    {
+      "path": "data/objects/upgrades_skin/NewUpgrades/R05V.json",
+      "field": "gtp1",
+      "level": 1,
+      "before": null,
+      "after": "Research Nature's Blessing [60.0]"
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R06K.json",
@@ -6832,133 +6868,168 @@
       "field": "gub1",
       "level": 5,
       "before": "|cff3cb93cIncreases Tree Chopper's armor by |r3 |cff3cb93cpoints.|r|n|nThis is the last armor upgrade.",
-      "after": "|cff3cb93cIncreases Tree Chopper's armor by |r3 |cff3cb93cpoints.|r|n|nThis the last armor upgrade."
+      "after": "|cff3cb93cIncreases Tree Chopper's armor by |r3 |cff3cb93cpoints.|r|n|nThis is the last armor upgrade."
+    },
+    {
+      "path": "data/objects/upgrades_skin/NewUpgrades/R06Z.json",
+      "field": "gtp1",
+      "level": 1,
+      "before": "|cff239b14Improved Machinery I|r [15]",
+      "after": "|cff239b14Improved Machinery I|r [5.0]"
+    },
+    {
+      "path": "data/objects/upgrades_skin/NewUpgrades/R06Z.json",
+      "field": "gtp1",
+      "level": 2,
+      "before": "|cff239b14Improved Machinery II|r [20]",
+      "after": "|cff239b14Improved Machinery II|r [10.0]"
+    },
+    {
+      "path": "data/objects/upgrades_skin/NewUpgrades/R06Z.json",
+      "field": "gtp1",
+      "level": 3,
+      "before": "|cff239b14Improved Machinery III|r [25]",
+      "after": "|cff239b14Improved Machinery III|r [15.0]"
+    },
+    {
+      "path": "data/objects/upgrades_skin/NewUpgrades/R06Z.json",
+      "field": "gtp1",
+      "level": 4,
+      "before": "|cff239b14Improved Machinery IV|r [30]",
+      "after": "|cff239b14Improved Machinery IV|r [20.0]"
+    },
+    {
+      "path": "data/objects/upgrades_skin/NewUpgrades/R06Z.json",
+      "field": "gtp1",
+      "level": 5,
+      "before": "|cff239b14Improved Machinery V|r [35]",
+      "after": "|cff239b14Improved Machinery V|r [25.0]"
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R06Z.json",
       "field": "gub1",
       "level": 5,
       "before": "|cff3cb93cTree Chopper gains |r+500 |cff3cb93chitpoints.|r|n|nThis is the last health upgrade.",
-      "after": "|cff3cb93cTree Chopper gains |r+500 |cff3cb93chitpoints.|r|n|nThis the last health upgrade."
+      "after": "|cff3cb93cTree Chopper gains |r+500 |cff3cb93chitpoints.|r|n|nThis is the last health upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R072.json",
       "field": "gub1",
       "level": 6,
       "before": "|cff6e749bBounty Hunter's damage is increased by|r 55.|n|nThis is the last upgrade.",
-      "after": "|cff6e749bBounty Hunter's damage is increased by|r 55.|n|nThis the last upgrade."
+      "after": "|cff6e749bBounty Hunter's damage is increased by|r 55.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R072.json",
       "field": "gub1",
       "level": 10,
       "before": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade.",
-      "after": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis the last upgrade."
+      "after": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R073.json",
       "field": "gub1",
       "level": 5,
       "before": "|cff80af80Bounty Hunter's adaptability lets him move around quicker. Movement speed is increased by|r 20.|n|nThis is the last upgrade.",
-      "after": "|cff80af80Bounty Hunter's adaptability lets him move around quicker. Movement speed is increased by|r 20.|n|nThis the last upgrade."
+      "after": "|cff80af80Bounty Hunter's adaptability lets him move around quicker. Movement speed is increased by|r 20.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R073.json",
       "field": "gub1",
       "level": 10,
       "before": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade.",
-      "after": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis the last upgrade."
+      "after": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R074.json",
       "field": "gub1",
       "level": 5,
       "before": "|cff4182c8Bounty Hunter's attack speed is increased by|r 10%.|n|nThis is the last upgrade.",
-      "after": "|cff4182c8Bounty Hunter's attack speed is increased by|r 10%.|n|nThis the last upgrade."
+      "after": "|cff4182c8Bounty Hunter's attack speed is increased by|r 10%.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R074.json",
       "field": "gub1",
       "level": 10,
       "before": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade.",
-      "after": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis the last upgrade."
+      "after": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R075.json",
       "field": "gub1",
       "level": 6,
       "before": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+150|cff3cb93c hitpoints as well as |r+2.25 |cff3cb93chitpoint regeneration per second.|r|n|nThis is the last upgrade.",
-      "after": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+150|cff3cb93c hitpoints as well as |r+2.25 |cff3cb93chitpoint regeneration per second.|r|n|nThis the last upgrade."
+      "after": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+150|cff3cb93c hitpoints as well as |r+2.25 |cff3cb93chitpoint regeneration per second.|r|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R075.json",
       "field": "gub1",
       "level": 10,
       "before": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r|n|nThis is the last upgrade.",
-      "after": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r|n|nThis the last upgrade."
+      "after": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R076.json",
       "field": "gub1",
       "level": 3,
       "before": "|cfff06464Increases Bounty Hunter's attack range by|r 65. |n|nThis is the last upgrade.",
-      "after": "|cfff06464Increases Bounty Hunter's attack range by|r 65.|n|nThis the last upgrade."
+      "after": "|cfff06464Increases Bounty Hunter's attack range by|r 65.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R076.json",
       "field": "gub1",
       "level": 5,
       "before": "|cfff06464Increases Bounty Hunter's attack range by|r 65.|n|nThis is the last upgrade.",
-      "after": "|cfff06464Increases Bounty Hunter's attack range by|r 65.|n|nThis the last upgrade."
+      "after": "|cfff06464Increases Bounty Hunter's attack range by|r 65.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R076.json",
       "field": "gub1",
       "level": 10,
       "before": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r|n|nThis is the last upgrade.",
-      "after": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r|n|nThis the last upgrade."
+      "after": "|cff3cb93cWhilst acclimating to the forest, Bounty Hunter gains |r+75|cff3cb93c hitpoints as well as |r+1.5 |cff3cb93chitpoint regeneration per second.|r|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R077.json",
       "field": "gub1",
       "level": 5,
       "before": "|cff3cb93cIncreases Bounty Hunter's armor by |r3 |cff3cb93cpoints.|r|r|n|nThis is the last armor upgrade.",
-      "after": "|cff3cb93cIncreases Bounty Hunter's armor by |r3 |cff3cb93cpoints.|r|n|nThis the last armor upgrade."
+      "after": "|cff3cb93cIncreases Bounty Hunter's armor by |r3 |cff3cb93cpoints.|r|n|nThis is the last armor upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R079.json",
       "field": "gub1",
       "level": 5,
       "before": "|cffe1e142Increases Silvester's mining speed by|r 15%.|n|nThis is the last upgrade.",
-      "after": "|cffe1e142Increases Silvester's mining speed by|r 15%.|n|nThis the last upgrade."
+      "after": "|cffe1e142Increases Silvester's mining speed by|r 15%.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R079.json",
       "field": "gub1",
       "level": 10,
       "before": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade.",
-      "after": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis the last upgrade."
+      "after": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07A.json",
       "field": "gub1",
       "level": 3,
       "before": "|cff6e749bBounty Hunter's damage is increased by|r 50.|n|nThis is the last upgrade.",
-      "after": "|cff6e749bBounty Hunter's damage is increased by|r 50.|n|nThis the last upgrade."
+      "after": "|cff6e749bBounty Hunter's damage is increased by|r 50.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07A.json",
       "field": "gub1",
       "level": 6,
       "before": "|cff6e749bBounty Hunter's damage is increased by|r 55.|n|nThis is the last upgrade.",
-      "after": "|cff6e749bBounty Hunter's damage is increased by|r 55.|n|nThis the last upgrade."
+      "after": "|cff6e749bBounty Hunter's damage is increased by|r 55.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07A.json",
       "field": "gub1",
       "level": 10,
       "before": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade.",
-      "after": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis the last upgrade."
+      "after": "|cff6e749bBounty Hunter's damage is increased by|r 20.|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07B.json",
@@ -6993,98 +7064,98 @@
       "field": "gub1",
       "level": 5,
       "before": "|cff3cb93cTree Chopper gains |r+500 |cff3cb93chitpoints.|r|n|nThis is the last health upgrade.",
-      "after": "|cff3cb93cTree Chopper gains |r+500 |cff3cb93chitpoints.|r|n|nThis the last health upgrade."
+      "after": "|cff3cb93cTree Chopper gains |r+500 |cff3cb93chitpoints.|r|n|nThis is the last health upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07J.json",
       "field": "gub1",
       "level": 3,
       "before": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis is the last upgrade.",
-      "after": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis the last upgrade."
+      "after": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07J.json",
       "field": "gub1",
       "level": 5,
       "before": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|r|n|nThis is the last armor upgrade.",
-      "after": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|n|nThis the last armor upgrade."
+      "after": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|n|nThis is the last armor upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07K.json",
       "field": "gub1",
       "level": 3,
       "before": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis is the last upgrade.",
-      "after": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis the last upgrade."
+      "after": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07K.json",
       "field": "gub1",
       "level": 5,
       "before": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|r|n|nThis is the last armor upgrade.",
-      "after": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|n|nThis the last armor upgrade."
+      "after": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|n|nThis is the last armor upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07M.json",
       "field": "gub1",
       "level": 3,
       "before": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis is the last upgrade.",
-      "after": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis the last upgrade."
+      "after": "|cff3cb93cBounty Hunter tinkers with available materials, producing fuel-injected leggings for his suit.|r|n|nThis is the last upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07M.json",
       "field": "gub1",
       "level": 5,
       "before": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|r|n|nThis is the last armor upgrade.",
-      "after": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|n|nThis the last armor upgrade."
+      "after": "|cff3cb93cIncreases Bounty Hunter's armor by |r2 |cff3cb93cpoints.|r|n|nThis is the last armor upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07N.json",
       "field": "gub1",
       "level": 10,
       "before": "Increases attack damage of all husks by 10.|n|nThis is the last damage upgrade.",
-      "after": "Increases attack damage of all husks by 10.|n|nThis the last damage upgrade."
+      "after": "Increases attack damage of all husks by 10.|n|nThis is the last damage upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07O.json",
       "field": "gub1",
       "level": 5,
       "before": "Increases hitpoints of all husks by 100.|n|nThis is the last health upgrade.",
-      "after": "Increases hitpoints of all husks by 100.|n|nThis the last health upgrade."
+      "after": "Increases hitpoints of all husks by 100.|n|nThis is the last health upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07S.json",
       "field": "gub1",
       "level": 5,
       "before": "Increases movement speed of all husks by 20.|n|nThis is the last movement upgrade.",
-      "after": "Increases movement speed of all husks by 20.|n|nThis the last movement upgrade."
+      "after": "Increases movement speed of all husks by 20.|n|nThis is the last movement upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07T.json",
       "field": "gub1",
       "level": 5,
       "before": "Increases armor of all husks by 2.|n|nThis is the last armor upgrade.",
-      "after": "Increases armor of all husks by 2.|n|nThis the last armor upgrade."
+      "after": "Increases armor of all husks by 2.|n|nThis is the last armor upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07U.json",
       "field": "gub1",
       "level": 3,
       "before": "Increases hitpoints of walls by 100.|n|nThis is the last health upgrade.",
-      "after": "Increases hitpoints of walls by 100.|n|nThis the last health upgrade."
+      "after": "Increases hitpoints of walls by 100.|n|nThis is the last health upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07V.json",
       "field": "gub1",
       "level": 5,
       "before": "Increases armor of walls by 1.|n|nThis is the last armor upgrade.",
-      "after": "Increases armor of walls by 1.|n|nThis the last armor upgrade."
+      "after": "Increases armor of walls by 1.|n|nThis is the last armor upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07W.json",
       "field": "gub1",
       "level": 5,
       "before": "Increases attack damage of your towers by 5.|n|nThis is the last damage upgrade.",
-      "after": "Increases attack damage of your towers by 5.|n|nThis the last damage upgrade."
+      "after": "Increases attack damage of your towers by 5.|n|nThis is the last damage upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07X.json",
@@ -7119,28 +7190,28 @@
       "field": "gub1",
       "level": 4,
       "before": "Increases attack range of your towers by 50.|n|nThis is the last range upgrade.",
-      "after": "Increases attack range of your towers by 50.|n|nThis the last range upgrade."
+      "after": "Increases attack range of your towers by 50.|n|nThis is the last range upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R07Y.json",
       "field": "gub1",
       "level": 3,
       "before": "Increases attack speed of your towers by 9%.|n|nThis is the last speed upgrade.",
-      "after": "Increases attack speed of your towers by 9%.|n|nThis the last speed upgrade."
+      "after": "Increases attack speed of your towers by 9%.|n|nThis is the last speed upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R082.json",
       "field": "gub1",
       "level": 4,
       "before": "Increases Cultist's health by +100 hitpoints.|n|nThis is the last health upgrade.",
-      "after": "Increases Cultist's health by +100 hitpoints.|n|nThis the last health upgrade."
+      "after": "Increases Cultist's health by +100 hitpoints.|n|nThis is the last health upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R083.json",
       "field": "gub1",
       "level": 2,
       "before": "Increases Cultist's attack speed by 10%.|n|nThis is the last attack speed upgrade.",
-      "after": "Increases Cultist's attack speed by 10%.|n|nThis the last attack speed upgrade."
+      "after": "Increases Cultist's attack speed by 10%.|n|nThis is the last attack speed upgrade."
     },
     {
       "path": "data/objects/upgrades_skin/NewUpgrades/R087.json",
@@ -7206,5 +7277,5 @@
       "after": "Bloody Sacrifice [30.0]"
     }
   ],
-  "limits": "Authored text and explicit data checks; hidden blank fields preserved. Inherited engine defaults, live rendering and all scripted interactions require in-game verification."
+  "limits": "Authored text, explicit data and documented native research-time defaults; hidden blank fields preserved. Other inherited engine defaults, live rendering and all scripted interactions require in-game verification."
 }
