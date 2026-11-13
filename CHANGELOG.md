@@ -1,13 +1,14 @@
 # Forest Expansion 3.2.0 — Lua edition
 
-Cumulative **3.1.2a → 3.2.0** patch notes, through r13.
+Cumulative **3.1.2a → 3.2.0** patch notes, through r14.
 
 ## General
 
 - Ported JASS gameplay to Lua; preserved terrain, layout and assets.
 - Moved Ancient to slot 11 (Dark Green); removed fixed-color ownership checks.
 - Selectors show choices immediately; picking unlocks at 20 seconds for Expanders, 60 for Ancient.
-- Bans apply to selectors and random picks, including after unlock/skip. Added Random to the first race selector.
+- Bans apply to selectors and random picks, including after unlock/skip.
+- Random is the first button in both builder shops and the Ancient selector. Choices have distinct grid hotkeys, shown in their tooltips.
 - Fixed Worgen becoming unavailable after skipping and Random disappearing after a purchase. Skipping unlocks all eligible choices immediately.
 - All leavers' armies remain for 60 seconds. Dead/unpicked Expanders can use `-takeover [slot]` to inherit units, resources and research without losing their surviving units.
 - Added `-bringiton`: Red can double Ancient passive income to 20 gold/10 seconds, once per match.

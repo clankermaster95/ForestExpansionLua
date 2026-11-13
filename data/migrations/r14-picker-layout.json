@@ -1,0 +1,1900 @@
+{
+  "baseline_commit": "166377721e69e9f29844d2c5d01eef1a505570d0",
+  "objects": [
+    {
+      "path": "data/objects/items_skin/NewItems/I00W.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_3645",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "Random (|cffffcc00Q|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": null,
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "Q",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/items_skin/NewItems/I00X.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_4244",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "Random (|cffffcc00Q|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": null,
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "Q",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/n00G.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "uabi",
+          "before": {
+            "Id": 1768055157,
+            "Type": "String",
+            "Value": "Ane2,Asud,Avul",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1768055157,
+            "Type": "String",
+            "Value": "Ane2,Asud,Avul,Asid",
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O004.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_7150",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cffE61942Ignite|r (|cffffcc00F|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "F",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 3,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O008.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_7151",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff08A5EFAvalanche|r (|cffffcc00D|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "D",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O00A.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_7153",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff000000Paranoia|r (|cffffcc00S|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "S",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O00D.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_7154",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff08A54AEternity|r (|cffffcc00Z|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "Z",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O00L.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_7156",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff943A08Tremor|r (|cffffcc00A|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "A",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O00S.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_7157",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cffE61942Dragos|r (|cffffcc00R|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "R",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 3,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O016.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_7158",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff085AA5Zalxon|r (|cffffcc00E|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "E",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O01D.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_6275",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cffaFc0FFWispari|r (|cffffcc00V|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "V",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 3,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O01V.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_7031",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cffFFFF00Divinity|r (|cffffcc00W|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "W",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O01X.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_8211",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff807340Pharaoh|r (|cffffcc00X|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "X",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O01Z.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_8977",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff7D7B84Nebula|r (|cffffcc00C|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "C",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h000.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_6253",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff0000FFKraken|r (|cffffcc00X|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "X",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h00F.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_550",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff7B3108Ogre|r (|cffffcc00A|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "TRIGSTR_332",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "A",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h00R.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_3770",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff737373Worgen|r (|cffffcc00W|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "W",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h010.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_7305",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cffF8D71DWildkin|r (|cffffcc00R|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "R",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 3,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h016.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_2352",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff319C42Goblin|r (|cffffcc00R|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": null,
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "R",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 3,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h01K.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_3154",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff940821Nerubian|r (|cffffcc00A|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "A",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h01X.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_1480",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff4A1073Centaur|r (|cffffcc00E|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "TRIGSTR_844",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "E",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h02L.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_6256",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff00FF00Wisp|r (|cffffcc00D|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": null,
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "D",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h02U.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_2910",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cffB5B508Furbolg|r (|cffffcc00D|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "D",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h03D.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_114",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff089CEFHuman|r (|cffffcc00S|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "S",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h03Q.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_451",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff94BD31Kobold|r (|cffffcc00F|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "F",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 3,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h03S.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_4120",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff0041FFAethyr Warp|r (|cffffcc00E|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "E",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h05C.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_322",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff08B59CNight Elf|r (|cffffcc00Z|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "TRIGSTR_1406",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "Z",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h05W.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_1274",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff909090Bounty Hunter|r (|cffffcc00C|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "C",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h063.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff16b12cCultist|r",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff16b12cCultist|r (|cffffcc00V|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "V",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 3,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/n00M.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_416",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff08B59CElf Engineer|r (|cffffcc00X|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "X",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/o000.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_115",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cffFF214AMagmide|r (|cffffcc00S|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": null,
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "S",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/o005.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_160",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff941084Ghoul|r (|cffffcc00Z|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "Z",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/o01E.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_4430",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cffA57308Razormane|r (|cffffcc00F|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "F",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 3,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/o026.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_933",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cff8F60cARatling Stalker|r (|cffffcc00C|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": null,
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "C",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 2,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/u007.json",
+      "reason": "Random-first selector layout with distinct grid hotkeys and matching labels; enable Random sales in the second builder shop.",
+      "changes": [
+        {
+          "field": "utip",
+          "before": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "TRIGSTR_5265",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1885959285,
+            "Type": "String",
+            "Value": "|cffFF00FFForgotten One|r (|cffffcc00W|r)",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "uhot",
+          "before": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953458293,
+            "Type": "String",
+            "Value": "W",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpx",
+          "before": null,
+          "after": {
+            "Id": 2020631157,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "ubpy",
+          "before": null,
+          "after": {
+            "Id": 2037408373,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    }
+  ]
+}

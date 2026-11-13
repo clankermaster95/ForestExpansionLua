@@ -41,6 +41,13 @@ def validate(data):
         assert row['aliases'] and all(alias.startswith('-ban ') for alias in row['aliases'])
         aliases.extend(row['aliases'])
     assert len(set(aliases)) == len(aliases), 'Duplicate exact-match ban alias'
+    assert data['pickerHotkeys']=='QWERASDFZXCV'
+    for kind in ('expanders','ancients'):
+        shops={row['shop'] for row in data[kind]}
+        randoms=data['randomStock'][kind]
+        assert len(randoms)==len(shops) and {row['shop'] for row in randoms}==shops
+        assert all(row['raw']==('I00W' if kind=='expanders' else 'I00X') for row in randoms)
+        assert all(1+sum(row['shop']==shop for row in data[kind])<=12 for shop in shops)
 
 
 def render():
@@ -65,6 +72,11 @@ def render():
     rows.append('FE_Factions.banOrder = {'+', '.join(map(quote, data['banOrder']))+'}')
     for field in ('randomExpanders','randomAncients','spellbringerOrder'):
         rows.append('FE_Factions.'+field+' = {'+', '.join(map(quote,data[field]))+'}')
+    rows.append('FE_Factions.randomStock = {')
+    for kind in ('expanders','ancients'):
+        entries=['{raw='+quote(row['raw'])+', shop='+quote(row['shop'])+'}' for row in data['randomStock'][kind]]
+        rows.append('    '+kind+' = {'+', '.join(entries)+'},')
+    rows.append('}')
     rows.extend(['for _, kind in ipairs({"expanders", "ancients"}) do',
                  '    for _, entry in ipairs(FE_Factions[kind]) do FE_Factions.byKey[entry.key] = entry end',
                  'end', END])

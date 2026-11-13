@@ -16,10 +16,9 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_550",
+      "Value": "|cff7B3108Ogre|r (|cffffcc00A|r)",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "|cff7B3108Ogre|r"
+      "_field": "utip"
     },
     {
       "Id": 1818520949,
@@ -52,10 +51,9 @@
     {
       "Id": 1953458293,
       "Type": "String",
-      "Value": "TRIGSTR_332",
+      "Value": "A",
       "SanityCheck": 0,
-      "_field": "uhot",
-      "_resolvedText": "O"
+      "_field": "uhot"
     },
     {
       "Id": 1651864693,
@@ -63,6 +61,20 @@
       "Value": "|cff008000Role|r: Baser|n|n|cff008000Off Role|r: Hunter|n|n|cff8080FFDifficulty|r: |cffc00040Very Hard|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 1.5|n|n|cffC0C0C0|nOgres are a very rough race to play in the early game. With no escapes, but similar worker styles as other basers, the ogre can be extremely difficult early game. Ogres also require a lot of gold and lumber pool. However, this race is very powerful later on in the game with one of the strongest armies in the game, and sturdiest bases around.|r",
       "SanityCheck": 0,
       "_field": "utub"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
     }
   ],
   "_rawcode": "h00F",

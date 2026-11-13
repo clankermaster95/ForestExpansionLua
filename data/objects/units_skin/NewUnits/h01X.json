@@ -37,18 +37,16 @@
     {
       "Id": 1953458293,
       "Type": "String",
-      "Value": "TRIGSTR_844",
+      "Value": "E",
       "SanityCheck": 0,
-      "_field": "uhot",
-      "_resolvedText": "C"
+      "_field": "uhot"
     },
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_1480",
+      "Value": "|cff4A1073Centaur|r (|cffffcc00E|r)",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "|cff4A1073Centaur|r"
+      "_field": "utip"
     },
     {
       "Id": 1651864693,
@@ -56,6 +54,20 @@
       "Value": "|cff008000Role|r: Hybrid|n|n|cff008000Off Role|r: None|n|n|cff8080FFDifficulty|r: |cffff0000Hard|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 2.0|n|n|cffC0C0C0|nMuch like the Razormanes, Centaurs are able to excel at everything. However, they have a sprint that allows them to escape messy situations in the early game. Though not as many supportive abilities as their fellow Razormane, the Centaur have extremely defensive and disruptive abilities that can easily get in the ancients way, if played right.|r",
       "SanityCheck": 0,
       "_field": "utub"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
     }
   ],
   "_rawcode": "h01X",

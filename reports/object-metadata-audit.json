@@ -22,7 +22,7 @@
   "scope": "Ability objects and skins: field IDs, value types, native data pointers, level indices, duplicates and base-family compatibility. No live-engine or multiplayer claim.",
   "other_object_types": {
     "issues": [],
-    "modifications_checked": 22948,
+    "modifications_checked": 23022,
     "fields_outside_reference": {
       "units/upor": 238
     },
@@ -47,7 +47,7 @@
   },
   "other_object_types_reference": "tools/reference-data/object-field-types.json",
   "packed_modifications_checked": 10842,
-  "other_packed_modifications_checked": 22948,
+  "other_packed_modifications_checked": 23022,
   "negative_checks": 14,
   "historical_bad_pointers_detected": 129
 }

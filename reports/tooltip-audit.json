@@ -13,15 +13,18 @@
     "research_times": 1081
   },
   "changed_objects": 653,
-  "changed_fields": 1037,
+  "changed_fields": 1071,
   "gameplay_object_fields_unchanged": false,
   "r12_tooltip_pass_gameplay_unchanged": true,
   "subsequent_gameplay_fixes": {
     "baseline": "tests/fixtures/gameplay-r12.zip",
     "baseline_sha256": "faeb1a46bd99d0d558917cf9e25a661394a20b38b3b598f870fc9d3b56a1bfa5",
-    "manifest": "data/migrations/r13-object-fixes.json",
-    "changed_objects": 53,
-    "serialized_field_changes": 182,
+    "manifests": [
+      "data/migrations/r13-object-fixes.json",
+      "data/migrations/r14-picker-layout.json"
+    ],
+    "changed_objects": 88,
+    "serialized_field_changes": 319,
     "native_base_changes": 2,
     "other_object_fields_unchanged": true
   },
@@ -2598,6 +2601,13 @@
     },
     {
       "path": "data/objects/items_skin/NewItems/I00W.json",
+      "field": "utip",
+      "level": 0,
+      "before": "Random",
+      "after": "Random (|cffffcc00Q|r)"
+    },
+    {
+      "path": "data/objects/items_skin/NewItems/I00W.json",
       "field": "utub",
       "level": 0,
       "before": "Let the game pick your race. Any race will be selected at random.",
@@ -2609,6 +2619,13 @@
       "level": 0,
       "before": "Get a randomly assigned Ancient.",
       "after": "Randomly selects an available, unbanned Ancient."
+    },
+    {
+      "path": "data/objects/items_skin/NewItems/I00X.json",
+      "field": "utip",
+      "level": 0,
+      "before": "Random",
+      "after": "Random (|cffffcc00Q|r)"
     },
     {
       "path": "data/objects/items_skin/NewItems/I00X.json",
@@ -3207,10 +3224,24 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/O004.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cffE61942Ignite|r",
+      "after": "|cffE61942Ignite|r (|cffffcc00F|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O004.json",
       "field": "utub",
       "level": 0,
       "before": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r\n|cffFF8040Strong Against:|r Solos & Armies\n|cffFF8040Weak Against:|r Bases\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n\nThis ancient excels at hunting down and killing any expanders left in the open. Being one of the only ancients with a windwalk, you will passively apply pressure to any expanders that are out in the open. You can hunt down and kill them before they have an opportunity to set up any defenses.",
       "after": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r|n|cffFF8040Strong Against:|r Solos & Armies|n|cffFF8040Weak Against:|r Bases|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n|nThis ancient excels at hunting down and killing any expanders left in the open. Being one of the only ancients with a windwalk, you will passively apply pressure to any expanders that are out in the open. You can hunt down and kill them before they have an opportunity to set up any defenses."
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O008.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff08A5EFAvalanche|r",
+      "after": "|cff08A5EFAvalanche|r (|cffffcc00D|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/O008.json",
@@ -3221,10 +3252,24 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/O00A.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff000000Paranoia|r",
+      "after": "|cff000000Paranoia|r (|cffffcc00S|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O00A.json",
       "field": "utub",
       "level": 0,
       "before": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r\n|cffFF8040Strong Against:|r Bases & Militaries\n|cffFF8040Weak Against:|r Solos\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r\n\nThis ancient is a powerful summoner. He is very strong in the early game and will dominate the map with his towers and stalkers. His ultimate summons a Dark Figure which can very helpful. ",
       "after": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r|n|cffFF8040Strong Against:|r Bases & Militaries|n|cffFF8040Weak Against:|r Solos|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r|n|nThis ancient is a powerful summoner. He is very strong in the early game and will dominate the map with his towers and stalkers. His ultimate summons a Dark Figure which can very helpful."
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O00D.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff08A54AEternity|r",
+      "after": "|cff08A54AEternity|r (|cffffcc00Z|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/O00D.json",
@@ -3235,10 +3280,24 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/O00L.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff943A08Tremor|r",
+      "after": "|cff943A08Tremor|r (|cffffcc00A|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O00L.json",
       "field": "utub",
       "level": 0,
       "before": "|cffFF8040Difficulty:|r |cffc00040Very Hard|r\n|cffFF8040Strong Against:|r Everything\n|cffFF8040Weak Against:|r Nothing\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r|n\nThis ancient is unbelievably powerful when played with necessary precautions. Enough mana on this ancient can make you almost unkillable. The Ancient of Earth has a mana shield, and a spammable nuke to take down his foes. His ultimate also makes him an amazing base sieger. However he is vulnerable early on and may end up falling behind if doesn't get momentum going.",
       "after": "|cffFF8040Difficulty:|r |cffc00040Very Hard|r|n|cffFF8040Strong Against:|r Everything|n|cffFF8040Weak Against:|r Nothing|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r|n|nThis ancient is unbelievably powerful when played with necessary precautions. Enough mana on this ancient can make you almost unkillable. The Ancient of Earth has a mana shield, and a spammable nuke to take down his foes. His ultimate also makes him an amazing base sieger. However he is vulnerable early on and may end up falling behind if doesn't get momentum going."
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O00S.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cffE61942Dragos|r",
+      "after": "|cffE61942Dragos|r (|cffffcc00R|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/O00S.json",
@@ -3249,10 +3308,24 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/O016.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff085AA5Zalxon|r",
+      "after": "|cff085AA5Zalxon|r (|cffffcc00E|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O016.json",
       "field": "utub",
       "level": 0,
       "before": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r\n|cffFF8040Strong Against:|r Bases & Militaries\n|cffFF8040Weak Against:|r Solos\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n\nAn ancient specialized for destroying bases. Has an unlimited range nuke to gain experience around the map. Can kill towers without being in melee range. Weak against carry characters.",
       "after": "|cffFF8040Difficulty:|r |cffFFFF00Medium|r|n|cffFF8040Strong Against:|r Bases & Militaries|n|cffFF8040Weak Against:|r Solos|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+10)|r |cff0090ff50(+5)|r|n|nAn ancient specialized for destroying bases. Has an unlimited range nuke to gain experience around the map. Can kill towers without being in melee range. Weak against carry characters."
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O01D.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cffaFc0FFWispari|r",
+      "after": "|cffaFc0FFWispari|r (|cffffcc00V|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/O01D.json",
@@ -3263,6 +3336,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/O01V.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cffFFFF00Divinity|r",
+      "after": "|cffFFFF00Divinity|r (|cffffcc00W|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O01V.json",
       "field": "utub",
       "level": 0,
       "before": "|cffFF8040Difficulty:|r |cff00FF00Easy|r\n|cffFF8040Strong Against:|r Bases & Solos\n|cffFF8040Weak Against:|r Militaries\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+5)|r|n\nThis ancient is specialized in defense and passivity. She is granted passive experience per second, and has a huge arsenal of heals and protective abilities. The goal of this ancient is to survive until level 20, moreso than any other ancient. Her ultimate guarantees her safety, and an easy trip to level 20.",
@@ -3270,10 +3350,24 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/O01X.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff807340Pharaoh|r",
+      "after": "|cff807340Pharaoh|r (|cffffcc00X|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O01X.json",
       "field": "utub",
       "level": 0,
       "before": "|cffFF8040Difficulty:|r |cffc00040Very Hard|r\n|cffFF8040Strong Against:|r Solos & Militaries\n|cffFF8040Weak Against:|r Bases|r\n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+0)|r|n|nThis ancient is very strong at seizing map control early and keeping it. Against a team which does not have bases, the Ancient of Sand really shines with his ability to trap the map and keep vision on everyone. His sandstorm ability allows him to keep up by using it for experience.",
       "after": "|cffFF8040Difficulty:|r |cffc00040Very Hard|r|n|cffFF8040Strong Against:|r Solos & Militaries|n|cffFF8040Weak Against:|r Bases|n|cffFF8040Attributes:|r |cffff004060(+8)|r |cff00ff0050(+7)|r |cff0090ff50(+0)|r|n|nThis ancient is very strong at seizing map control early and keeping it. Against a team which does not have bases, the Ancient of Sand really shines with his ability to trap the map and keep vision on everyone. His sandstorm ability allows him to keep up by using it for experience."
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/O01Z.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff7D7B84Nebula|r",
+      "after": "|cff7D7B84Nebula|r (|cffffcc00C|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/O01Z.json",
@@ -3323,6 +3417,13 @@
       "level": 0,
       "before": "Can be used to gather lumber from trees.|n|n|cfffdca00Health:|r 100; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Movement Speed:|r 300|n|cffff0000Feed Value:|r |cffffdd000|r",
       "after": "Can be used to gather lumber from trees.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 100; 1/s|n|cfffdca00Armor:|r 0 (Unarmored)|n|cfffdca00Movement Speed:|r 300|n|cffff0000Feed Value:|r |cffffdd000|r"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h000.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff0000FFKraken|r",
+      "after": "|cff0000FFKraken|r (|cffffcc00X|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/h000.json",
@@ -3431,6 +3532,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/h00F.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff7B3108Ogre|r",
+      "after": "|cff7B3108Ogre|r (|cffffcc00A|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h00F.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Baser|n\n|cff008000Off Role|r: Hunter|n\n|cff8080FFDifficulty|r: |cffc00040Very Hard|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.5|n\n|cffC0C0C0\nOgres are a very rough race to play in the early game. With no escapes, but similar worker styles as other basers, the ogre can be extremely difficult early game. Ogres also require a lot of gold and lumber pool. However, this race is very powerful later on in the game with one of the strongest armies in the game, and sturdiest bases around.|r",
@@ -3508,6 +3616,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/h00R.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff737373Worgen|r",
+      "after": "|cff737373Worgen|r (|cffffcc00W|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h00R.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter or Support|n\n|cff8080FFDifficulty|r: |cff80ffffVery Easy|r|n\n|cffFF8F40Move Speed|r: 350\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Worgen is a stealthy race that can be played two ways. As a supportive and team-friendly unit, who pools plenty of resources over to the races that require it more. You also help the team by keeping the ancient busy, helping the other races by walling for them, and being a overall disruptor that the ancient needs to pay attention to. Or, you can choose to play this race as a carry. A carry requires many resources and a long time of upgrading in order to become stronger, but pays off. Worgens have many upgrades, all of which the assets of a carry.|r",
@@ -3550,10 +3665,24 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/h010.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cffF8D71DWildkin|r",
+      "after": "|cffF8D71DWildkin|r (|cffffcc00R|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h010.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter|n\n|cff8080FFDifficulty|r: |cffff0000Hard|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.75|n\n|cffC0C0C0Wildkins have extremely high damage later on in the game. They most likely have the most burst out of any other race with the correct items and upgrades. Since Wildkins scale with mana, the more they upgrade, the higher their damage becomes. Wildkins can also cast from a range, which makes them a safe carry. Wildkins can also choose to become a military race, building an army to hunt down the ancient on their own. With enough resources, the Wildkin becomes a very formidable race and a huge threat to the ancient.|r",
       "after": "|cff008000Role|r: Carry|n|n|cff008000Off Role|r: Hunter|n|n|cff8080FFDifficulty|r: |cffff0000Hard|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 1.75|n|n|cffC0C0C0Wildkins have extremely high damage later on in the game. They most likely have the most burst out of any other race with the correct items and upgrades. Since Wildkins scale with mana, the more they upgrade, the higher their damage becomes. Wildkins can also cast from a range, which makes them a safe carry. Wildkins can also choose to become a military race, building an army to hunt down the ancient on their own. With enough resources, the Wildkin becomes a very formidable race and a huge threat to the ancient.|r"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h016.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff319C42Goblin|r",
+      "after": "|cff319C42Goblin|r (|cffffcc00R|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/h016.json",
@@ -3655,6 +3784,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/h01K.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff940821Nerubian|r",
+      "after": "|cff940821Nerubian|r (|cffffcc00A|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h01K.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Hunter|n\n|cff008000Off Role|r: Carry or Support|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Nerubians rely on their Crypt Lord. The Crypt Lord can also be heavily upgraded and be able to just devastate the ancient if caught off guard. Nerubians also have a very important shop with vital items that are necessary in every game. Nerubians are important for ganking the ancient with their high amounts of snares/stuns. Nerubians also have many auras and can opt into making their main builder a support. The Nerubian's Crypt Lord is extremely strong later on in the game and can end up carrying with enough upgrades.|r",
@@ -3715,6 +3851,13 @@
       "level": 0,
       "before": "A good defense structure that can take many upgrades for more damage and speed.|n|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 75 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 2|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "after": "A good defense structure that can take many upgrades for more damage and speed.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 300|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 75 (Chaos)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 2|n|cfffdca00Build Time:|r 1|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h01X.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff4A1073Centaur|r",
+      "after": "|cff4A1073Centaur|r (|cffffcc00E|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/h01X.json",
@@ -3879,6 +4022,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/h02L.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff00FF00Wisp|r",
+      "after": "|cff00FF00Wisp|r (|cffffcc00D|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h02L.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Support|n\n|cff008000Off Role|r: Baser|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0The Wisp is the most helpful fellow out there. Wisps are able to create bases and harvest massive amounts of lumber to pool over to their team and have a lot left over. Wisp bases are extremely sturdy and have multiple upgrades for a hero that you may get later on in the game, to assist your military races. With your upgrading centers also being aura placers, there should be a lot of room left after you have created your base, for your allies to construct important buildings in.|r",
@@ -3939,6 +4089,13 @@
       "level": 0,
       "before": "Further increases attack speed of the tower by 20%.|n|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 0.2|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0030|r",
       "after": "Further increases attack speed of the tower by 20%.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 250|n|cfffdca00Armor:|r 5 (Fortified)|n|cfffdca00Attack:|r 50 (Piercing)|n|cfffdca00Attack Range:|r 700|n|cfffdca00Attack Cooldown:|r 0.2|n|cfffdca00Build Time:|r 2|n|cffff0000Feed Value:|r |cffffdd0030|r"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h02U.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cffB5B508Furbolg|r",
+      "after": "|cffB5B508Furbolg|r (|cffffcc00D|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/h02U.json",
@@ -4068,6 +4225,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/h03D.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff089CEFHuman|r",
+      "after": "|cff089CEFHuman|r (|cffffcc00S|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h03D.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Baser|n\n|cff008000Off Role|r: None|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0\nHumans are one of the strongest basing races. Basing races create towers & walls to hold off the ancient and claim territory for a safe zone. It is up to basers such as the human, to allow their carries, supports, and military races to safely harvest gold and lumber, and construct their important buildings beneath the safe haven of a base. What separates the human between other basing races, is that the humans late game towers, the Flak Cannons, are one the most devastating towers in the game. Extremely high amounts of damage, but hard and expensive to create, melt the ancient. Basers such as the human require an early pool of resources in order to give back and help the other races.|r",
@@ -4152,10 +4316,24 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/h03Q.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff94BD31Kobold|r",
+      "after": "|cff94BD31Kobold|r (|cffffcc00F|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h03Q.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter or Support|n\n|cff8080FFDifficulty|r: |cffffff00Medium|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Kobolds have multiple upgrades that range from increasing gold income, to a deadly poisonous aura, to a global blink with a large cooldown. Kobolds are very necessary due to their high assistance for their team. They require a lot of help from basers in order to keep their expensive buildings safe, however.|r",
       "after": "|cff008000Role|r: Carry|n|n|cff008000Off Role|r: Hunter or Support|n|n|cff8080FFDifficulty|r: |cffffff00Medium|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 2.0|n|n|cffC0C0C0Kobolds have multiple upgrades that range from increasing gold income, to a deadly poisonous aura, to a global blink with a large cooldown. Kobolds are very necessary due to their high assistance for their team. They require a lot of help from basers in order to keep their expensive buildings safe, however.|r"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h03S.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff0041FFAethyr Warp|r",
+      "after": "|cff0041FFAethyr Warp|r (|cffffcc00E|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/h03S.json",
@@ -4509,6 +4687,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/h05C.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff08B59CNight Elf|r",
+      "after": "|cff08B59CNight Elf|r (|cffffcc00Z|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h05C.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Support|n\n|cff8080FFDifficulty|r: |cffc00040Very Hard|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.75|n\n|cffC0C0C0Night elf is a flexible solo character, that can either be a main damage dealer or strong backline support. Due to a large amount of workers, requires practice and can feed a lot if played unproperly.|r",
@@ -4649,6 +4834,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/h05W.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff909090Bounty Hunter|r",
+      "after": "|cff909090Bounty Hunter|r (|cffffcc00C|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h05W.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Hunter|n\n|cff008000Off Role|r: None|n\n|cff8080FFDifficulty|r: |cffff0000Hard|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.6|n\n|cffC0C0C0The Bounty Hunter is a skirmisher whose role is harassing the Ancient and profiting off it. He receives both gold and lumber from striking enemy units rather than collecting gold from piles. For the latter job, he has assigned his trusty worker companion Silvester. However, despite his offensive role, the Bounty Hunter is initially very vulnerable, and requires upgrades to gain mobility, although never gaining much durability, making him a challenging Expander to play as.|r",
@@ -4688,6 +4880,13 @@
       "level": 0,
       "before": "Improved version of barricade.|n|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "after": "Improved version of barricade.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 500|n|cfffdca00Armor:|r 15 (Fortified)|n|cfffdca00Build Time:|r 3|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/h063.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff16b12cCultist|r",
+      "after": "|cff16b12cCultist|r (|cffffcc00V|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/h063.json",
@@ -4859,6 +5058,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/n00M.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff08B59CElf Engineer|r",
+      "after": "|cff08B59CElf Engineer|r (|cffffcc00X|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/n00M.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Baser|n\n|cff008000Off Role|r: Support|n\n|cff8080FFDifficulty|r: |cffc00040Very Hard|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 2.0|n\n|cffC0C0C0Intelligent Elf Engineers are good in crafting powerful towers and building an observatory that provides with a variety of global spells and useful auras to combat the Ancient. They however feed much more than other basers and may struggle early on, thus requires you to be extra careful. ",
@@ -4957,6 +5163,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/o000.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cffFF214AMagmide|r",
+      "after": "|cffFF214AMagmide|r (|cffffcc00S|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/o000.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Hunter|n\n|cff008000Off Role|r: Support|n\n|cff8080FFDifficulty|r: |cffff0000Hard|r|n\n|cffFF8F40Move Speed|r: 350\n|cffFF8Fa0Attack Cooldown|r: 1.5|n\n|cffC0C0C0Magmides are one of the only pure military races. Military races are tasked with making and upgrading a sizable army to take down the ancient. Magmides along with most other military races can be extremely tricky to play. The Magmide is not recommended for newer players, as it has no escape and can have a rough early game. Not only does the Magmide have a rough early game, but their late game can be punishing too. Flame Throwers - one of their core units are easily killed with nuking abilities, thus should not be created once the game has reached that late period. However, this race can really pay off to experienced players who know which units are a viable choice when the time calls for it, and an experienced Magmide is something the ancient should always look out for. Magmides can also support their basers by creating EXTREMELY powerful walls with return damage.|r",
@@ -4982,6 +5195,13 @@
       "level": 0,
       "before": "Ranged damage based hunters that are powerful when upgraded and in numbers. They are fragile however, so don't let them get caught out of position.|n|cff808080Flame Elementals take 65% reduced magic damage|r|n|n|cfffdca00Health:|r 225; 10/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Attack:|r 90 (Piercing)|n|cfffdca00Attack Range:|r 450|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 325|n|cffff0000Feed Value:|r |cffffdd0020|r",
       "after": "Ranged damage based hunters that are powerful when upgraded and in numbers. They are fragile however, so don't let them get caught out of position.|n|cff808080Flame Elementals take 65% reduced magic damage|r|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 225; 10/s|n|cfffdca00Armor:|r 0 (Medium)|n|cfffdca00Attack:|r 90 (Piercing)|n|cfffdca00Attack Range:|r 450|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 325|n|cffff0000Feed Value:|r |cffffdd0020|r"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/o005.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff941084Ghoul|r",
+      "after": "|cff941084Ghoul|r (|cffffcc00Z|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/o005.json",
@@ -5195,6 +5415,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/o01E.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cffA57308Razormane|r",
+      "after": "|cffA57308Razormane|r (|cffffcc00F|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/o01E.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Hybrid|n\n|cff008000Off Role|r: None|n\n|cff8080FFDifficulty|r: |cffff0000Hard|r|n\n|cffFF8F40Move Speed|r: 290\n|cffFF8Fa0Attack Cooldown|r: 1.5|n\n|cffC0C0C0Razormanes are a powerful race that excels at everything, but are easily caught off-guard, due to their finnicky workers, to the glee of the Ancient. Razormanes can create an army, a base, or play like a carry.|r",
@@ -5321,6 +5548,13 @@
     },
     {
       "path": "data/objects/units_skin/NewUnits/o026.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cff8F60cARatling Stalker|r",
+      "after": "|cff8F60cARatling Stalker|r (|cffffcc00C|r)"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/o026.json",
       "field": "utub",
       "level": 0,
       "before": "|cff008000Role|r: Carry|n\n|cff008000Off Role|r: Hunter|n\n|cff8080FFDifficulty|r: |cff00Ff00Easy|r|n\n|cffFF8F40Move Speed|r: 320\n|cffFF8Fa0Attack Cooldown|r: 1.75|n\n|cffC0C0C0Stalker is a very straight-forward carry hero, with lots of slows and controls. Similar to worgen, he is very hard to catch, but has even more damage and ranged attack. However, unlike worgen, he has to manage his workers, which can feed a lot. On top of that, he also has long cooldowns, which may result in him not having enough fire power when its needed the most, in case they are used carelessly.|r",
@@ -5409,6 +5643,13 @@
       "level": 0,
       "before": "A flying airship used for combat only. Much sturdier and deals heavy amounts of damage.|n|n|cfffdca00Health:|r 1000; 2/s|n|cfffdca00Armor:|r 3 (Unarmored)|n|cfffdca00Attack:|r 130 (Chaos)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 260|n|cffff0000Feed Value:|r |cffffdd0050|r",
       "after": "A flying airship used for combat only. Much sturdier and deals heavy amounts of damage.|n|n|cff808080Base stats (before upgrades)|r|n|cfffdca00Health:|r 1000; 2/s|n|cfffdca00Armor:|r 3 (Unarmored)|n|cfffdca00Attack:|r 130 (Chaos)|n|cfffdca00Attack Range:|r 500|n|cfffdca00Attack Cooldown:|r 1|n|cfffdca00Movement Speed:|r 260|n|cffff0000Feed Value:|r |cffffdd0050|r"
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/u007.json",
+      "field": "utip",
+      "level": 0,
+      "before": "|cffFF00FFForgotten One|r",
+      "after": "|cffFF00FFForgotten One|r (|cffffcc00W|r)"
     },
     {
       "path": "data/objects/units_skin/NewUnits/u007.json",

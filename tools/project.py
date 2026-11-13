@@ -182,6 +182,8 @@ def build():
     text_validation=validate_strings(source/'war3map.wts')
     from release_info import validate as validate_release
     validate_release(source,cfg)
+    from picker_layout import validate as validate_picker_layout
+    validate_picker_layout()
     if cfg.get('native_object_validation'):
         from object_metadata import validate as validate_native_objects
         validate_native_objects(ROOT)

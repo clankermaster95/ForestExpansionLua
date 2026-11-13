@@ -24,10 +24,9 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_1274",
+      "Value": "|cff909090Bounty Hunter|r (|cffffcc00C|r)",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "|cff909090Bounty Hunter|r"
+      "_field": "utip"
     },
     {
       "Id": 1684960117,
@@ -39,7 +38,7 @@
     {
       "Id": 1953458293,
       "Type": "String",
-      "Value": "",
+      "Value": "C",
       "SanityCheck": 0,
       "_field": "uhot"
     },
@@ -56,6 +55,20 @@
       "Value": "|cff008000Role|r: Hunter|n|n|cff008000Off Role|r: None|n|n|cff8080FFDifficulty|r: |cffff0000Hard|r|n|n|cffFF8F40Move Speed|r: 320|n|cffFF8Fa0Attack Cooldown|r: 1.7|n|n|cffC0C0C0The Bounty Hunter is a skirmisher whose role is harassing the Ancient and profiting off it. He receives both gold and lumber from striking enemy units rather than collecting gold from piles. For the latter job, he has assigned his trusty worker companion Silvester. However, despite his offensive role, the Bounty Hunter is initially very vulnerable, and requires upgrades to gain mobility, although never gaining much durability, making him a challenging Expander to play as.|r",
       "SanityCheck": 0,
       "_field": "utub"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpy"
     }
   ],
   "_rawcode": "h05W",

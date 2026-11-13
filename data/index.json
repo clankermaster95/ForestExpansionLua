@@ -1412,8 +1412,8 @@
     }
   },
   "war3map.w3u": {
-    "binary_sha256": "57312827684fafeb0b88adbaf9461caedb6e328de250f5a9cf83941cf88c1f41",
-    "content_sha256": "14ed971fbb3f6f08792f910a044c466907fb8e5a924d8a87b84bc10b04421159",
+    "binary_sha256": "9a8cbbbd3da9b319875b6c0d25cb3324b14a255439fc448c96af07da073c7473",
+    "content_sha256": "9c5f22a3dff9703d4197767ba1f7f0cbe6832c8133f931669b892ce172f09bf7",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -2999,8 +2999,8 @@
     }
   },
   "war3mapSkin.w3t": {
-    "binary_sha256": "11c8bc059960a63bef5751035dfc2cf943e5f621eb51642e57ffc08a1819486e",
-    "content_sha256": "edef8bf8a89b1e57cbd5b7e8065584501cf31a994c637ecfa4a91b49edacf92f",
+    "binary_sha256": "249cf3ad257a0405ff651cba1195aa97393aaa633c9d69ab8aa8be82393c3ce2",
+    "content_sha256": "e4ad4afa7674d20fb155656c6a5f9b8c8d09037969a7c5ee9e08a384d46e5383",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -3101,8 +3101,8 @@
     }
   },
   "war3mapSkin.w3u": {
-    "binary_sha256": "ad183ab229c73b95e3f96d62607c654af268d85d37d70e7721fae53312174ada",
-    "content_sha256": "1e27284132356df40dd47402e3aae867741ae234918bdc172d6dd1c84a2aea78",
+    "binary_sha256": "56ea088e6573045ef4d8c1277b8ea74341a9ccd687870baace6f26051dc11754",
+    "content_sha256": "b8fbbb4c7af7bcced6f16afff414bbe2ed823b96c41f1209c1338612bb4ae667",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"

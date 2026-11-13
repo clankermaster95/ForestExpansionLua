@@ -30,10 +30,9 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_3645",
+      "Value": "Random (|cffffcc00Q|r)",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "Random"
+      "_field": "utip"
     },
     {
       "Id": 1651864693,
@@ -48,6 +47,27 @@
       "Value": "Randomly selects an available, unbanned race. Cultist is available only in solo test mode.",
       "SanityCheck": 0,
       "_field": "ides"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "Q",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
     }
   ],
   "_rawcode": "I00W",

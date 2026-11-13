@@ -37,10 +37,9 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_6256",
+      "Value": "|cff00FF00Wisp|r (|cffffcc00D|r)",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "|cff00FF00Wisp|r"
+      "_field": "utip"
     },
     {
       "Id": 1651864693,
@@ -55,6 +54,27 @@
       "Value": "Abilities\\Weapons\\MurgulMagicMissile\\MurgulMagicMissile.mdl",
       "SanityCheck": 0,
       "_field": "ua1m"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "D",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 2,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
     }
   ],
   "_rawcode": "h02L",

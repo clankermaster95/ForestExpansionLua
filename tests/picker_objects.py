@@ -8,6 +8,7 @@ import json,sys
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
 import data_store as ds
+import picker_layout
 
 
 def catalog():
@@ -45,6 +46,7 @@ def check_selector(raw,values):
 
 def prepare():
     """Call before tests/solo_startup.lua so its stock double reads real values."""
+    picker_layout.validate()
     rows=[]
     for kind,entry in catalog():
         raw=entry['raw'];values=fields(raw);check_fields(kind,raw,values)
@@ -55,8 +57,8 @@ def prepare():
         values=fields(raw,'items','NewItems');check_random(raw,values)
         rows.append('['+json.dumps(raw)+']={start='+str(values['isst']['Value'])+
                     ',interval='+str(values['istr']['Value'])+',maximum='+str(values['isto']['Value'])+'}')
-    for raw in ('nmer','nmr2'):
-        values=fields(raw,'units','BaseUnits');check_selector(raw,values)
+    for raw in ('nmer','n00G','nmr2'):
+        values=fields(raw,'units','NewUnits' if raw=='n00G' else 'BaseUnits');check_selector(raw,values)
         rows.append('['+json.dumps(raw)+']={sellsItems='+str('Asid' in values['uabi']['Value'].split(',')).lower()+'}')
     out=ROOT/'build/picker-stock-test-input.lua'
     out.parent.mkdir(exist_ok=True)
@@ -76,7 +78,8 @@ def validate():
                 values.update({ds.rawcode(m['Id']):m for m in obj['Modifications']})
     for kind,entry in catalog():check_fields(kind,entry['raw'],packed[entry['raw']])
     for raw in ('I00W','I00X'):check_random(raw,packed[raw])
-    for raw in ('nmer','nmr2'):check_selector(raw,packed[raw])
+    for raw in ('nmer','n00G','nmr2'):check_selector(raw,packed[raw])
+    layout=picker_layout.validate(lambda category,raw:{k:v['Value'] for k,v in packed[raw].items()})
     # The original Worgen delay and interval each independently fail. Also
     # exercise prerequisite and preview-cap checks against a representative row.
     count=0
@@ -92,12 +95,23 @@ def validate():
         ('nmr2','usei','I00X',check_selector,'units','BaseUnits'),
         ('nmer','uabi','Ane2,Asud,Avul',check_selector,'units','BaseUnits'),
         ('nmr2','uabi','Ane2,Asud,Avul',check_selector,'units','BaseUnits'),
+        ('n00G','uabi','Ane2,Asud,Avul',check_selector,'units','NewUnits'),
     ]:
         values=fields(raw,category,group);values[field]=dict(values[field],Value=value)
         try:checker(raw,values)
         except AssertionError:count+=1
         else:raise AssertionError('Random picker negative check was accepted: '+raw)
-    return dict(report,packed_picker_types_checked=len(catalog()),negative_checks=count)
+    # Duplicate hotkeys, moved Random, tooltip mismatches and missing selling
+    # capability must fail independently of the actual configured layout.
+    for raw,field,value in [('h00R','uhot','Q'),('I00W','ubpx',3),('O01D','ubpy',0),('O01V','utip','Divinity')]:
+        def bad_fields(category,code):
+            values={k:v['Value'] for k,v in packed[code].items()}
+            if code==raw:values[field]=value
+            return values
+        try:picker_layout.validate(bad_fields)
+        except AssertionError:count+=1
+        else:raise AssertionError('Invalid picker layout accepted: '+raw+'/'+field)
+    return dict(report,packed_picker_types_checked=len(catalog()),negative_checks=count,layout=layout)
 
 
 if __name__=='__main__':

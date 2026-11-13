@@ -1,4 +1,4 @@
-"""Verify intentional r13 object corrections against the published r12 snapshot.
+"""Verify successive explicit object migrations from the published r12 snapshot.
 
 Each permitted serialized-field change has an explicit before/after record and
 reason. This keeps the historical tooltip-only preservation claim separate from
@@ -21,39 +21,49 @@ def baseline_objects():
 
 def validate_objects():
     old=baseline_objects()
-    migration=ds.read(ROOT/'data/migrations/r13-object-fixes.json')
-    assert migration['baseline_commit']=='3908a135c7733444aca1c0a85cf9a1e9236a21bd'
-    allowed={entry['path']:entry for entry in migration['objects']}
-    assert len(allowed)==len(migration['objects']) and set(allowed)<=old.keys()
     actual={p.relative_to(ROOT).as_posix():ds.read(p) for p in (ROOT/'data/objects').rglob('*.json')}
     assert actual.keys()==old.keys(),'Unexpected added/removed object'
-    count=0; base_changes=0
-    for path,before in old.items():
-        expected=ds.canonical(before)
-        if path in allowed:
-            entry=allowed[path]
+    expected={path:ds.canonical(value) for path,value in old.items()}
+    historical=ROOT/'data/migrations/r13-object-fixes.json'
+    assert ds.digest(historical.read_bytes())=='72ca7b78511c7aa4b0b8dfe30fce574853c8b74f7cd15171ec23c4e63c7763e6','Historical r13 migration changed'
+    stages=[('data/migrations/r13-object-fixes.json','3908a135c7733444aca1c0a85cf9a1e9236a21bd'),
+            ('data/migrations/r14-picker-layout.json','166377721e69e9f29844d2c5d01eef1a505570d0')]
+    count=0; base_changes=0; changed=set()
+    for manifest,commit in stages:
+        migration=ds.read(ROOT/manifest)
+        assert migration['baseline_commit']==commit
+        allowed={entry['path']:entry for entry in migration['objects']}
+        assert len(allowed)==len(migration['objects']) and set(allowed)<=old.keys()
+        changed.update(allowed)
+        for path,entry in allowed.items():
+            obj=expected[path]
             assert entry['reason'],'Object correction must explain its behavior'
             if 'base_change' in entry:
                 change=entry['base_change']
                 assert change['before']!=change['after']
-                assert expected['OldId']==change['before'],(path,'baseline native base mismatch')
-                expected['OldId']=change['after']
+                assert obj['OldId']==change['before'],(path,'baseline native base mismatch')
+                obj['OldId']=change['after']
                 base_changes+=1
             for change in entry['changes']:
                 prior,after=change['before'],change['after']
-                assert prior!=after and prior['Id']==after['Id']
-                assert prior.get('Level',0)==after.get('Level',0)
-                matches=[i for i,m in enumerate(expected['Modifications'])
-                         if m['Id']==prior['Id'] and m.get('Level',0)==prior.get('Level',0)]
-                assert len(matches)==1,(path,change)
-                index=matches[0]
-                assert expected['Modifications'][index]==prior,(path,'baseline record mismatch',change)
-                expected['Modifications'][index]=copy.deepcopy(after)
+                assert prior!=after and after is not None
+                matches=[i for i,m in enumerate(obj['Modifications'])
+                         if m['Id']==after['Id'] and m.get('Level',0)==after.get('Level',0)]
+                if prior is None:
+                    assert not matches,(path,'New field already exists',change)
+                    obj['Modifications'].append(copy.deepcopy(after))
+                else:
+                    assert prior['Id']==after['Id'] and prior.get('Level',0)==after.get('Level',0)
+                    assert len(matches)==1,(path,change)
+                    index=matches[0]
+                    assert obj['Modifications'][index]==prior,(path,'baseline record mismatch',change)
+                    obj['Modifications'][index]=copy.deepcopy(after)
                 count+=1
-        assert expected==ds.canonical(actual[path]),'Unreviewed object change: '+path
+    for path,obj in expected.items():
+        assert obj==ds.canonical(actual[path]),'Unreviewed object change: '+path
     return {'baseline':FIXTURE,'baseline_sha256':FIXTURE_SHA,
-            'manifest':'data/migrations/r13-object-fixes.json',
-            'changed_objects':len(allowed),'serialized_field_changes':count,'native_base_changes':base_changes,
+            'manifests':[path for path,_ in stages],
+            'changed_objects':len(changed),'serialized_field_changes':count,'native_base_changes':base_changes,
             'other_object_fields_unchanged':True}
 
 if __name__=='__main__':print(json.dumps(validate_objects(),indent=2))

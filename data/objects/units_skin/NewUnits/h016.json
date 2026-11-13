@@ -37,10 +37,9 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_2352",
+      "Value": "|cff319C42Goblin|r (|cffffcc00R|r)",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "|cff319C42Goblin|r"
+      "_field": "utip"
     },
     {
       "Id": 1651864693,
@@ -62,6 +61,27 @@
       "Value": 0.15,
       "SanityCheck": 0,
       "_field": "uma1"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "R",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 3,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 0,
+      "SanityCheck": 0,
+      "_field": "ubpy"
     }
   ],
   "_rawcode": "h016",

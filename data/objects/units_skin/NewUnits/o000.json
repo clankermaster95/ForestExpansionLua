@@ -51,10 +51,30 @@
     {
       "Id": 1885959285,
       "Type": "String",
-      "Value": "TRIGSTR_115",
+      "Value": "|cffFF214AMagmide|r (|cffffcc00S|r)",
       "SanityCheck": 0,
-      "_field": "utip",
-      "_resolvedText": "|cffFF214AMagmide|r"
+      "_field": "utip"
+    },
+    {
+      "Id": 1953458293,
+      "Type": "String",
+      "Value": "S",
+      "SanityCheck": 0,
+      "_field": "uhot"
+    },
+    {
+      "Id": 2020631157,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpx"
+    },
+    {
+      "Id": 2037408373,
+      "Type": "Int",
+      "Value": 1,
+      "SanityCheck": 0,
+      "_field": "ubpy"
     }
   ],
   "_rawcode": "o000",

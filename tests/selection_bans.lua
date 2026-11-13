@@ -150,12 +150,17 @@ function AddItemToStock(s,raw,count,maximum)
     s.stock=count
 end
 reset();FE_Factions.stocked={expanders='open',ancients='preview'}
+for _,shopRaw in ipairs({'nmer','n00G'}) do
+shop.raw=shopRaw
+gg_unit_nmer_0000=shopRaw=='nmer' and shop or {raw='nmer'}
+gg_unit_n00G_0035=shopRaw=='n00G' and shop or {raw='n00G'}
 for index=1,2 do
     draw=index;token={owner=player};item={raw='I00W'};shop.stock=0
     Trig_RandomExpander2_Actions()
-    check(item.removed and GetItemTypeId(item)==0 and GetUnitTypeId(shop)=='nmer','pickup removes item but leaves Expander shop')
+    check(item.removed and GetItemTypeId(item)==0 and GetUnitTypeId(shop)==shopRaw,'pickup removes item but leaves Expander shop')
     FE_Factions.restoreRandomStock()
     check(shop.stock==10,'removed Random item does not prevent the next purchase')
     noLeaks()
+end
 end
 print('Selection bans passed: '..checks..' assertions; every random draw, all bans, and full ban budget')

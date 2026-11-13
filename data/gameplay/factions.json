@@ -554,5 +554,24 @@
     "AncientNature",
     "AncientSand",
     "AncientSpace"
-  ]
+  ],
+  "pickerHotkeys": "QWERASDFZXCV",
+  "randomStock": {
+    "expanders": [
+      {
+        "raw": "I00W",
+        "shop": "gg_unit_nmer_0000"
+      },
+      {
+        "raw": "I00W",
+        "shop": "gg_unit_n00G_0035"
+      }
+    ],
+    "ancients": [
+      {
+        "raw": "I00X",
+        "shop": "gg_unit_nmr2_0001"
+      }
+    ]
+  }
 }

@@ -1,14 +1,14 @@
 {
   "result": "passed",
   "version": "3.2.0",
-  "revision": "r13",
-  "archive_sha256": "58e1cde8c2b9654c90fb029d237c77172aef6d85db5c1c0d8261d07508db55dd",
+  "revision": "r14",
+  "archive_sha256": "9ce3fec354c4eade97e977dc81b6e89991917fc5a75c3c4fc3efaa23afbdfb74",
   "unchanged_original_payload_files": 496,
   "intentional_noncode_payload_changes": [
     {
       "file": "war3map.wts",
       "before_sha256": "e09e20c1f9c9908daae0f5169963630a65a6f1f70e2fc5a9a61629747d57f05e",
-      "after_sha256": "92d522c16084eaeb7307787ae2f66ccb2bb28de28ed6b8f3dba92a227667f90c"
+      "after_sha256": "1e9003ee2f6585dc8f3c25aab803623a8fdfee9bee45db5b8dd275ca6bc47666"
     },
     {
       "file": "war3map.w3t",
@@ -18,7 +18,7 @@
     {
       "file": "war3mapSkin.w3t",
       "before_sha256": "ede1bfafbdc64e287cd28605de2651391f369ac3b03115a1f468ab9ea15baf9b",
-      "after_sha256": "11c8bc059960a63bef5751035dfc2cf943e5f621eb51642e57ffc08a1819486e"
+      "after_sha256": "249cf3ad257a0405ff651cba1195aa97393aaa633c9d69ab8aa8be82393c3ce2"
     },
     {
       "file": "war3map.w3i",
@@ -28,7 +28,7 @@
     {
       "file": "war3map.w3u",
       "before_sha256": "5f62d69ff7b85ec722c04721e6eedd5b6dc066cb80e7a15bc06db5f66f322fe0",
-      "after_sha256": "57312827684fafeb0b88adbaf9461caedb6e328de250f5a9cf83941cf88c1f41"
+      "after_sha256": "9a8cbbbd3da9b319875b6c0d25cb3324b14a255439fc448c96af07da073c7473"
     },
     {
       "file": "war3map.doo",
@@ -93,7 +93,7 @@
     {
       "file": "war3mapSkin.w3u",
       "before_sha256": "9bae2f4195a198e264ccc4cbf21eeca3c76817194dfe7ccacef9c8abcb3189e7",
-      "after_sha256": "ad183ab229c73b95e3f96d62607c654af268d85d37d70e7721fae53312174ada"
+      "after_sha256": "56ea088e6573045ef4d8c1277b8ea74341a9ccd687870baace6f26051dc11754"
     },
     {
       "file": "war3mapUnits.doo",
@@ -113,7 +113,7 @@
     {
       "runtime": "lua-5.3.6",
       "suite": "solo_startup",
-      "result": "Solo startup integration passed: 25386 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+      "result": "Solo startup integration passed: 26348 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
     },
     {
       "runtime": "lua-5.3.6",
@@ -123,7 +123,7 @@
     {
       "runtime": "lua-5.3.6",
       "suite": "selection_bans",
-      "result": "Selection bans passed: 29288 assertions; every random draw, all bans, and full ban budget"
+      "result": "Selection bans passed: 29310 assertions; every random draw, all bans, and full ban budget"
     },
     {
       "runtime": "lua-5.3.6",
@@ -168,7 +168,7 @@
     {
       "runtime": "lua-5.3.6-32",
       "suite": "solo_startup",
-      "result": "Solo startup integration passed: 25386 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+      "result": "Solo startup integration passed: 26348 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
     },
     {
       "runtime": "lua-5.3.6-32",
@@ -178,7 +178,7 @@
     {
       "runtime": "lua-5.3.6-32",
       "suite": "selection_bans",
-      "result": "Selection bans passed: 29288 assertions; every random draw, all bans, and full ban budget"
+      "result": "Selection bans passed: 29310 assertions; every random draw, all bans, and full ban budget"
     },
     {
       "runtime": "lua-5.3.6-32",
@@ -327,22 +327,25 @@
     }
   ],
   "gameplay_objects": {
-    "assertions": 6757,
+    "assertions": 6758,
     "result": "passed"
   },
   "tooltips": {
     "packed_text_fields_checked": 7991,
     "changed_objects": 653,
-    "changed_text_fields": 1037,
+    "changed_text_fields": 1071,
     "negative_checks": 9,
     "gameplay_object_fields_unchanged": false,
     "r12_tooltip_pass_gameplay_unchanged": true,
     "subsequent_gameplay_fixes": {
       "baseline": "tests/fixtures/gameplay-r12.zip",
       "baseline_sha256": "faeb1a46bd99d0d558917cf9e25a661394a20b38b3b598f870fc9d3b56a1bfa5",
-      "manifest": "data/migrations/r13-object-fixes.json",
-      "changed_objects": 53,
-      "serialized_field_changes": 182,
+      "manifests": [
+        "data/migrations/r13-object-fixes.json",
+        "data/migrations/r14-picker-layout.json"
+      ],
+      "changed_objects": 88,
+      "serialized_field_changes": 319,
       "native_base_changes": 2,
       "other_object_fields_unchanged": true
     },
@@ -364,7 +367,312 @@
     "stock_start_delay": 0,
     "stock_interval": 1,
     "packed_picker_types_checked": 32,
-    "negative_checks": 10
+    "negative_checks": 15,
+    "layout": {
+      "cards": [
+        {
+          "shop": "gg_unit_nmer_0000",
+          "kind": "expanders",
+          "buttons": [
+            {
+              "category": "items",
+              "raw": "I00W",
+              "name": "Random",
+              "hotkey": "Q",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "h00R",
+              "name": "Worgen",
+              "hotkey": "W",
+              "x": 1,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "h01X",
+              "name": "Centaur",
+              "hotkey": "E",
+              "x": 2,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "h010",
+              "name": "Wildkin",
+              "hotkey": "R",
+              "x": 3,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "h01K",
+              "name": "Nerubian",
+              "hotkey": "A",
+              "x": 0,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "h03D",
+              "name": "Human",
+              "hotkey": "S",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "h02L",
+              "name": "Wisp",
+              "hotkey": "D",
+              "x": 2,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "h03Q",
+              "name": "Kobold",
+              "hotkey": "F",
+              "x": 3,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "o005",
+              "name": "Ghoul",
+              "hotkey": "Z",
+              "x": 0,
+              "y": 2
+            },
+            {
+              "category": "units",
+              "raw": "h000",
+              "name": "Kraken",
+              "hotkey": "X",
+              "x": 1,
+              "y": 2
+            },
+            {
+              "category": "units",
+              "raw": "o026",
+              "name": "Ratling",
+              "hotkey": "C",
+              "x": 2,
+              "y": 2
+            }
+          ]
+        },
+        {
+          "shop": "gg_unit_n00G_0035",
+          "kind": "expanders",
+          "buttons": [
+            {
+              "category": "items",
+              "raw": "I00W",
+              "name": "Random",
+              "hotkey": "Q",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "u007",
+              "name": "Forgotten",
+              "hotkey": "W",
+              "x": 1,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "h03S",
+              "name": "Aethyr",
+              "hotkey": "E",
+              "x": 2,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "h016",
+              "name": "Goblin",
+              "hotkey": "R",
+              "x": 3,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "h00F",
+              "name": "Ogre",
+              "hotkey": "A",
+              "x": 0,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "o000",
+              "name": "Magmide",
+              "hotkey": "S",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "h02U",
+              "name": "Furbolg",
+              "hotkey": "D",
+              "x": 2,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "o01E",
+              "name": "Razormane",
+              "hotkey": "F",
+              "x": 3,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "h05C",
+              "name": "Elf",
+              "hotkey": "Z",
+              "x": 0,
+              "y": 2
+            },
+            {
+              "category": "units",
+              "raw": "n00M",
+              "name": "HighElf",
+              "hotkey": "X",
+              "x": 1,
+              "y": 2
+            },
+            {
+              "category": "units",
+              "raw": "h05W",
+              "name": "Hunter",
+              "hotkey": "C",
+              "x": 2,
+              "y": 2
+            },
+            {
+              "category": "units",
+              "raw": "h063",
+              "name": "Cultist",
+              "hotkey": "V",
+              "x": 3,
+              "y": 2
+            }
+          ]
+        },
+        {
+          "shop": "gg_unit_nmr2_0001",
+          "kind": "ancients",
+          "buttons": [
+            {
+              "category": "items",
+              "raw": "I00X",
+              "name": "Random",
+              "hotkey": "Q",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "O01V",
+              "name": "AncientLight",
+              "hotkey": "W",
+              "x": 1,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "O016",
+              "name": "AncientLightning",
+              "hotkey": "E",
+              "x": 2,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "O00S",
+              "name": "AncientDragon",
+              "hotkey": "R",
+              "x": 3,
+              "y": 0
+            },
+            {
+              "category": "units",
+              "raw": "O00L",
+              "name": "AncientEarth",
+              "hotkey": "A",
+              "x": 0,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "O00A",
+              "name": "AncientDarkness",
+              "hotkey": "S",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "O008",
+              "name": "AncientIce",
+              "hotkey": "D",
+              "x": 2,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "O004",
+              "name": "AncientFire",
+              "hotkey": "F",
+              "x": 3,
+              "y": 1
+            },
+            {
+              "category": "units",
+              "raw": "O00D",
+              "name": "AncientNature",
+              "hotkey": "Z",
+              "x": 0,
+              "y": 2
+            },
+            {
+              "category": "units",
+              "raw": "O01X",
+              "name": "AncientSand",
+              "hotkey": "X",
+              "x": 1,
+              "y": 2
+            },
+            {
+              "category": "units",
+              "raw": "O01Z",
+              "name": "AncientSpace",
+              "hotkey": "C",
+              "x": 2,
+              "y": 2
+            },
+            {
+              "category": "units",
+              "raw": "O01D",
+              "name": "AncientWind",
+              "hotkey": "V",
+              "x": 3,
+              "y": 2
+            }
+          ]
+        }
+      ],
+      "button_checks": 35,
+      "result": "passed",
+      "scope": "Explicit native positions/hotkeys and tooltip labels, not a running-game input test."
+    }
   },
   "native_object_metadata": {
     "issues": [],
@@ -390,7 +698,7 @@
     "scope": "Ability objects and skins: field IDs, value types, native data pointers, level indices, duplicates and base-family compatibility. No live-engine or multiplayer claim.",
     "other_object_types": {
       "issues": [],
-      "modifications_checked": 22948,
+      "modifications_checked": 23022,
       "fields_outside_reference": {
         "units/upor": 238
       },
@@ -415,7 +723,7 @@
     },
     "other_object_types_reference": "tools/reference-data/object-field-types.json",
     "packed_modifications_checked": 10842,
-    "other_packed_modifications_checked": 22948,
+    "other_packed_modifications_checked": 23022,
     "negative_checks": 14,
     "historical_bad_pointers_detected": 129
   },
@@ -459,7 +767,7 @@
       {
         "module": "src/commands/test_data.lua",
         "before_sha256": "d39ab098d8f6b697cc3896024bbfeda099807a22f0db309df58712795d332df6",
-        "after_sha256": "dcf7d2005590cab8b96a653e182c6c91ed2e36f2fedbb8ca8cd9474c7b285ba9",
+        "after_sha256": "ba5eabd91c29fa187686f5598183d6648a0b2cf2798ebadecb19e36b9bae34ae",
         "reason": "Generated current release and object catalog."
       },
       {
@@ -489,7 +797,7 @@
       {
         "module": "src/game/selection.lua",
         "before_sha256": "60fd7b1175a07a8fe67b9af5db7d9d746956e8305ec14c9fdfda0aec7ab8027d",
-        "after_sha256": "e0e9d187e96f09f65685bc4324bce3620d6d4c24cb066ef9f29f61dda3546ff0",
+        "after_sha256": "4f3c1b97a76eb1297fccbadc87076676f14b1a6d5d8f264a10d6f05d5b6bff9c",
         "reason": "Visible zero-cap unit and Random-item stock until phase unlock, permanent ban removal, ban-filtered random draws with preserved relative weights, Cultist restricted to start-captured solo test mode; Random stock survives native neutral-shop removal and either pickup/sale event order; scoped picker/camera/teleport handle cleanup."
       },
       {
@@ -3174,13 +3482,13 @@
         "path": "data/objects/items_skin/NewItems/I00W.json",
         "rawcode": "I00W",
         "before_sha256": "e2977594bfea37f0bc03befc7af2801d6d2d24589af20dac09b6bf29ef013b73",
-        "after_sha256": "6874a6302d8ca2606171a76a908b989f95e91d5e917697954045bf071606e0fd"
+        "after_sha256": "a933074304d469a153e515eb3ef2066a8253c052b37c8dea836f04394383b668"
       },
       {
         "path": "data/objects/items_skin/NewItems/I00X.json",
         "rawcode": "I00X",
         "before_sha256": "eca2e9489423c31217dc790f36ab3245a40531cb9867bc9cf9dbeb777df5f264",
-        "after_sha256": "34e706e639cec2247f3b275dc187fc695beb975a657dc13ec148a03dfaa4af2e"
+        "after_sha256": "c39f88d6f7db93c2f8199ad19776d99032f8e5d5396fdb14f934559d4b599bc3"
       },
       {
         "path": "data/objects/items_skin/NewItems/I010.json",
@@ -3540,7 +3848,7 @@
         "path": "data/objects/units/NewUnits/n00G.json",
         "rawcode": "n00G",
         "before_sha256": "6ed289b9b670c2b46bd3c7c61c8b0d9af988ba7d4cbba5249891405a822fe77e",
-        "after_sha256": "4842116fa9d3af0ca82b25c2fc52653d7e38edca05183a7e92531929dfdd40e7"
+        "after_sha256": "f7e094a7878b773a9961e61f5b0a6e454c3d8d42a9014b165ab4a4e81a72280c"
       },
       {
         "path": "data/objects/units/NewUnits/n00M.json",
@@ -3690,7 +3998,7 @@
         "path": "data/objects/units_skin/NewUnits/h000.json",
         "rawcode": "h000",
         "before_sha256": "f8671c14e76eb6a222eec3524286c0363539cb130e7a6471c41e41544fffbc7e",
-        "after_sha256": "8408f03c637743c4ebb74ac15f3017be531efeb21b4c68b28960d50bf690c319"
+        "after_sha256": "e214da7a3194e074d4190ef145f7f20f43c125a80834d2dd6904faadf9b3d55f"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h001.json",
@@ -3780,7 +4088,7 @@
         "path": "data/objects/units_skin/NewUnits/h00F.json",
         "rawcode": "h00F",
         "before_sha256": "e6ace996ae0a8f61c46e9b801b6adec94fb4967cf3ce6d7801c3b79af478c4a3",
-        "after_sha256": "b248b15a12b615ba8452e8f1b868f30d9e1657feca56bedac2879f4eff2dea04"
+        "after_sha256": "0c0b9d681d2729463e2a34b09a35d8920a8d00a1265d0b930062d05ffe32d60c"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h00G.json",
@@ -3846,7 +4154,7 @@
         "path": "data/objects/units_skin/NewUnits/h00R.json",
         "rawcode": "h00R",
         "before_sha256": "ee4043db9a989e980c77d126c71827881031d37dd2cb0856b0dc5fcc79222f91",
-        "after_sha256": "f034a568442f3fc53fab2e8e822e3670967be7a5f15ba69e6e1a0ff94df2984d"
+        "after_sha256": "92514d17a035c1089128b45b239973fa6efae4cf9db7ca0a5bb86e3c087bfc3a"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h00S.json",
@@ -3882,13 +4190,13 @@
         "path": "data/objects/units_skin/NewUnits/h010.json",
         "rawcode": "h010",
         "before_sha256": "e6dc6dbefe50347d0de17d1cdbac387740933e856f117e3f147b58529fa49560",
-        "after_sha256": "2a617e3e3e11c0edbbe5594e2a0dcf0870e41622bf708c375107905ea9a8af11"
+        "after_sha256": "fb81621070b4cd4454eacc99431d8a600955c575466a5a5781075103e0b59c54"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h016.json",
         "rawcode": "h016",
         "before_sha256": "19e88b83bb6b5d962c07478fc6d66363d02a41198b58b3fb9496ba24f76e1558",
-        "after_sha256": "bb642d3a9a233c0bc4c902a25605786d745e0bebc5559a9dca84969033fd75a5"
+        "after_sha256": "a7973fd6b55c2f14504c6a110a3ee153806d2e022b66d4d36f8f43592e8cd105"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h017.json",
@@ -3972,7 +4280,7 @@
         "path": "data/objects/units_skin/NewUnits/h01K.json",
         "rawcode": "h01K",
         "before_sha256": "913e53ae094f681531730a9bbdcd8dc96cb808fdf60c40dfca9a5d0013cb61cf",
-        "after_sha256": "8c66e3ee262ea174931ff6162592aba2a0bedb697e4dc368f0240dea8323f4f1"
+        "after_sha256": "97f1e4f8001418a69112f046bb255320b2c0fb2c65e3cebc14103b7ff6d0bca7"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h01L.json",
@@ -4032,7 +4340,7 @@
         "path": "data/objects/units_skin/NewUnits/h01X.json",
         "rawcode": "h01X",
         "before_sha256": "5f1536231b47b5c18d3abdd314f58053a601aeb79154fba88871e6f28d86c3a2",
-        "after_sha256": "bede5beaab8cdc87d2be8054471b44403c24c7b0b2809c08190d52b7f055b745"
+        "after_sha256": "e4556eb9590fcd29d2ea9c456049fb26ae71c6d7378c02fc5263ec8ba497dee2"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h01Y.json",
@@ -4170,7 +4478,7 @@
         "path": "data/objects/units_skin/NewUnits/h02L.json",
         "rawcode": "h02L",
         "before_sha256": "6f99f4d16a2ee965caadcb721950dd111b93419a11b0a13efe6004d1a6996afc",
-        "after_sha256": "d5ccb4bb9f5aa79ba8824fd5f3562b47d26e6532c4ca7ce83000efd9e3f10bba"
+        "after_sha256": "593f467d9eaa2ae9666a499e1be8de77bafd8d09a5a2ee6992e3477cd31b417b"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h02M.json",
@@ -4224,7 +4532,7 @@
         "path": "data/objects/units_skin/NewUnits/h02U.json",
         "rawcode": "h02U",
         "before_sha256": "a91ec7fca7541a1c5a2fcc8b28cd1fdc92849af836dc401975b5bbf23a2e5214",
-        "after_sha256": "21629934397eeb8d3e844e7f43e2b7690c4802b1f9fb76d792a3ac39eb140f14"
+        "after_sha256": "866591fffba6176401b49e2da14d4acdfff1058b838d6304340d785b776dc299"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h02V.json",
@@ -4332,7 +4640,7 @@
         "path": "data/objects/units_skin/NewUnits/h03D.json",
         "rawcode": "h03D",
         "before_sha256": "81879718523dc70c99d759e361b01bae82f10108dc242e73995f68f9e6c5ea10",
-        "after_sha256": "4ffbd2ebae08dfa38ef904252f868fdf0ee97e1318a4182f55dd0c0c1a1e0af1"
+        "after_sha256": "acc53afb5b7dde2d4be622274ee8161d9d53c17f5df49fb44e8c4e74e4187caa"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h03E.json",
@@ -4404,13 +4712,13 @@
         "path": "data/objects/units_skin/NewUnits/h03Q.json",
         "rawcode": "h03Q",
         "before_sha256": "eb1b66fc70b6339ed86df97f96516aaeb2a33735ef5f59d1d2276176eb2a0213",
-        "after_sha256": "6a7edd22359e2770f92ad676f233d3f587634562072f09d6f0cbf6005106bc45"
+        "after_sha256": "7f7681390e37b740e80f6dd1e902f72f0a665e42cb9bb747e4aa4b1342d4ff98"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h03S.json",
         "rawcode": "h03S",
         "before_sha256": "9677b51d6d93b1e8d565241d026e3070c8f735aba9fd53dadce85c75421120f1",
-        "after_sha256": "8b74dba7151f4038f18557bf9d0f0260eb6a1e4ba0dc13c8d321f9bd9efa5f2b"
+        "after_sha256": "8d79e30c6e0204858b8b3a964ff07985892ff6352a73661b9d76bfd7e410a555"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h03T.json",
@@ -4716,7 +5024,7 @@
         "path": "data/objects/units_skin/NewUnits/h05C.json",
         "rawcode": "h05C",
         "before_sha256": "e498d162b696b841fec03cd80a37d5dc03606f5fd1c448fd8ef68c296ca19893",
-        "after_sha256": "18700617911dcb86d418082178cef3a5872f353efe4d5ff888f0da3bf9b58e1c"
+        "after_sha256": "01befcc6270035a16c5231eb21122852a8850fc0d8dfa53002a1d1549c0cfbdf"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h05D.json",
@@ -4836,7 +5144,7 @@
         "path": "data/objects/units_skin/NewUnits/h05W.json",
         "rawcode": "h05W",
         "before_sha256": "83c26a4be97061732d53cdb32b9ed42fd1ae5fc2050a856e37c076329a829975",
-        "after_sha256": "de86730897a3bbe27a7e0c8735015185cd122368becfdfd47114b6e9cf14e6bf"
+        "after_sha256": "ffd0523da60819373cc11a73085d2bc61819a6edde1a49c1dad1df5c295f067f"
       },
       {
         "path": "data/objects/units_skin/NewUnits/h05X.json",
@@ -4872,7 +5180,7 @@
         "path": "data/objects/units_skin/NewUnits/h063.json",
         "rawcode": "h063",
         "before_sha256": "db20bbaf28691db0fa8ab15cdd3a7b5dff6701571fd99ccbc9b08f0b76c5dd3f",
-        "after_sha256": "a9fff95cce9c681abda8c241aedec54b65a30ad451f3d5c1abee65e5a319f175"
+        "after_sha256": "4d67207e20e60ee0189c4fc507e9f0d5446ceeed01f5d19d9bb6e3dd321a285a"
       },
       {
         "path": "data/objects/units_skin/NewUnits/H064.json",
@@ -5028,7 +5336,7 @@
         "path": "data/objects/units_skin/NewUnits/n00M.json",
         "rawcode": "n00M",
         "before_sha256": "0a12217b41d0f2e30d022d6a7456d1e420be9e01ac3100cea508c9b18e4d5b85",
-        "after_sha256": "98796083bbd3b020aa3a5790a376313aba7fe96fc08443bfaa0cab268a3671d4"
+        "after_sha256": "3130c8228de161127730c7a9ce45fa2a2993cffc0641a639bd6ee5418068dbce"
       },
       {
         "path": "data/objects/units_skin/NewUnits/n00N.json",
@@ -5112,7 +5420,7 @@
         "path": "data/objects/units_skin/NewUnits/o000.json",
         "rawcode": "o000",
         "before_sha256": "4ad7d080260e14d389b173afb7c373e8870ff72ab32d39817c1ce283f99b1eb7",
-        "after_sha256": "b40ff7f2bc807f7d4ae6ba10b5d1311fedc11088ef9b87b8ea41612f1b9f733e"
+        "after_sha256": "455065f66e457a61a7b1c0aa5c19438c0d787642b367e82c167f465191fb4276"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o001.json",
@@ -5136,13 +5444,13 @@
         "path": "data/objects/units_skin/NewUnits/O004.json",
         "rawcode": "O004",
         "before_sha256": "22056cac1ec8f59734ddd7698f753fca1520c6b2a77ca7de0c6a7537b43cdf67",
-        "after_sha256": "a724b35c0310819f4476efbbb845316b575997892e2ff9714404cc4525b4eca8"
+        "after_sha256": "d19f08772ca6034315dc51709afd2166f671e4e2a8e877c6394847e38a881742"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o005.json",
         "rawcode": "o005",
         "before_sha256": "51afd5eb072dbf4a98bf45431a195041e32367e445a2cb9b52499b9f37b9d96e",
-        "after_sha256": "cdbec5e703790fb7513e24742976025ad2bffbed66212419bf93fbebf540b1e1"
+        "after_sha256": "bb9f7d1457924e3369cda94fb9829c368bfe2aa4c281e819dbfa5c6900368955"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o006.json",
@@ -5160,7 +5468,7 @@
         "path": "data/objects/units_skin/NewUnits/O008.json",
         "rawcode": "O008",
         "before_sha256": "a4009419858249d14a01fb10e6c19973cc7b521d1c60ba7ec8fac378067ec2e5",
-        "after_sha256": "ffa2c90c1215735efacacf8f3220b44cb1ebced936bc96fb1aafa227dfb02fe1"
+        "after_sha256": "924de78aea4654b8f4c0ed1ad8c70a97402602ba93f54838da7ba4d58e79418e"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o009.json",
@@ -5172,7 +5480,7 @@
         "path": "data/objects/units_skin/NewUnits/O00A.json",
         "rawcode": "O00A",
         "before_sha256": "a692bbcf99052b5ca57b42e0629d9b8ba79f1ededf22c9a13db8cb6632c5411d",
-        "after_sha256": "c047eac2a3e321cfa3e1f65e5c236cdab1faf1bb3fbf4306b752a51e8fbb4bde"
+        "after_sha256": "af6b4f0916327542e4482ec166353fa0e40bf35c30a8b02a6f9cb947fc51f575"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o00B.json",
@@ -5190,7 +5498,7 @@
         "path": "data/objects/units_skin/NewUnits/O00D.json",
         "rawcode": "O00D",
         "before_sha256": "d5c1d4c3ddbad46193e2bfa98d750381a9c65cb341d26044a9d2b3dbf05a0646",
-        "after_sha256": "ccb284908dac8ec27e96e9394ef0cba7f344713f100826ebd84cfdbd49d3655a"
+        "after_sha256": "1d76e862928e96e232625621cc029f88855796d9127fb265ce9095120c841919"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o00E.json",
@@ -5220,7 +5528,7 @@
         "path": "data/objects/units_skin/NewUnits/O00L.json",
         "rawcode": "O00L",
         "before_sha256": "5cdc1277ede893aae8abd05426c5effef4cbb9f98558e2eef6de1b03cb5655d7",
-        "after_sha256": "3bc6a9ba81ffe411703a7a7f7123147a649e3b07d81e01ec82d60a9bf7cb5347"
+        "after_sha256": "318eb97c890be18786de85049eda3b65572e3a32c07fd4ed2d42a0fc6f5a54a2"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o00M.json",
@@ -5262,7 +5570,7 @@
         "path": "data/objects/units_skin/NewUnits/O00S.json",
         "rawcode": "O00S",
         "before_sha256": "20b514a85742358744d34597781335a9288e70d26e491bb6477a710712319a17",
-        "after_sha256": "9102fba2015ae56b5e953d369b8463a95afe19d99f04d05298e82f240eea0f16"
+        "after_sha256": "eff03723c3b594067fd52e5080b3b41fa7700154a7f5d7f2722fc6b6439be96b"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o00T.json",
@@ -5316,7 +5624,7 @@
         "path": "data/objects/units_skin/NewUnits/O016.json",
         "rawcode": "O016",
         "before_sha256": "ebb993619dcdad4c1ff1495e1f0d4bf6ac031bb8992ac4b955a3f76bc2a3715a",
-        "after_sha256": "2b7270f96f796b45de080085e84cd582426befa8c04e10be299390aa73f20bf6"
+        "after_sha256": "03d752947f3688178eff7b148de7b9d983633fc46ba9d6020cee073ab905df9e"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o017.json",
@@ -5358,13 +5666,13 @@
         "path": "data/objects/units_skin/NewUnits/O01D.json",
         "rawcode": "O01D",
         "before_sha256": "e2380ea0c0011194604344a3164fda32da59659105c319cf2647065d9dbcb0e4",
-        "after_sha256": "8dae9b6144f00585b111cec6c1f99c408a94a51cd034a39162f02f4196863e33"
+        "after_sha256": "e52dd0bfd4f4255b6c89cef0cd9b56929c55a453239ee8745a0a2859c96b8159"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o01E.json",
         "rawcode": "o01E",
         "before_sha256": "8b12466959c41b974ba649c13df67a389e94d9144838b8229e334f303e54877b",
-        "after_sha256": "610d1df508adcc0a96d968e874d91d062828a70cfa82d3167688f1d378f25247"
+        "after_sha256": "7ef67f31b879506bccbadb52fe620bff884dcfab8d627f22d9fb0c61e00f3f59"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o01F.json",
@@ -5460,19 +5768,19 @@
         "path": "data/objects/units_skin/NewUnits/O01V.json",
         "rawcode": "O01V",
         "before_sha256": "c57690e6a63f97232bcf0ae81e46c2576b3b60dc59c4d96b026466f0cde708cc",
-        "after_sha256": "b8f3598a2e150f4ba29a580e1bd991f864277b25f1cd264d910af634813da8c1"
+        "after_sha256": "b45f3154311e57334a4756beb30efb366a49b0b0c593cbf1b92b49e1f0e9a706"
       },
       {
         "path": "data/objects/units_skin/NewUnits/O01X.json",
         "rawcode": "O01X",
         "before_sha256": "54a8ac3031a45c9ce29b74a25a0d7d6ce5d7bf1d186fdd76bc5c4c86e80ce0c1",
-        "after_sha256": "ba11c67d6d286b57d02edec08ddd3ab9e8ec7e377ecd72673c5cd66bea2450ec"
+        "after_sha256": "22e24ca9d20289d3754e223c2decf9f394e05b47f38493750e4aa8814961d6f8"
       },
       {
         "path": "data/objects/units_skin/NewUnits/O01Z.json",
         "rawcode": "O01Z",
         "before_sha256": "e189530165c15bac748be38f77fba03d9364afe54b99c303b9d5ba45da441076",
-        "after_sha256": "abfc40dc7d249e409d8284de9481e6726ad3116275b171bf6eea54d133be5b4a"
+        "after_sha256": "a909096f4759863d85f7ed7c32a091304cb262fed04c9c3d92185d4bec761123"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o023.json",
@@ -5490,7 +5798,7 @@
         "path": "data/objects/units_skin/NewUnits/o026.json",
         "rawcode": "o026",
         "before_sha256": "f2ce6c3d3db0c0ba5adb67ad426737d2213f20144a3b6a9c1c3e48e0bef2650f",
-        "after_sha256": "9300ba0da0e56a81abdd00b0d581a24f969b98e480aacf7e267048877513c59a"
+        "after_sha256": "3669a0bbe02e0de3e8cdc50aaee91f28cb4f96816e1a123a5d2b56b3a4f741bb"
       },
       {
         "path": "data/objects/units_skin/NewUnits/o027.json",
@@ -5574,7 +5882,7 @@
         "path": "data/objects/units_skin/NewUnits/u007.json",
         "rawcode": "u007",
         "before_sha256": "41695230b61401d6727bbbce42e0ba84b88822e1dd46f7abc309387aa390c9f4",
-        "after_sha256": "5f2858673d176be9c605d61f47ebff5bf4d70ec938e43a4dc06cc36381b5809a"
+        "after_sha256": "d64339e2b232753b32556939041fce69773bd1d23d88d81974b431df178a2b66"
       },
       {
         "path": "data/objects/units_skin/NewUnits/u008.json",
@@ -6495,7 +6803,7 @@
       {
         "file": "war3map.w3u",
         "before_sha256": "5a13fce2f35102be1bc527c55db73e58065cdf5f2e99f928d0aee06b641d9927",
-        "after_sha256": "57312827684fafeb0b88adbaf9461caedb6e328de250f5a9cf83941cf88c1f41"
+        "after_sha256": "9a8cbbbd3da9b319875b6c0d25cb3324b14a255439fc448c96af07da073c7473"
       },
       {
         "file": "war3map.wpm",
@@ -6520,12 +6828,12 @@
       {
         "file": "war3mapSkin.w3t",
         "before_sha256": "e53bd933581169257987e347c8c408d50fc2782bc2b25d7a41cd9470401dc43e",
-        "after_sha256": "11c8bc059960a63bef5751035dfc2cf943e5f621eb51642e57ffc08a1819486e"
+        "after_sha256": "249cf3ad257a0405ff651cba1195aa97393aaa633c9d69ab8aa8be82393c3ce2"
       },
       {
         "file": "war3mapSkin.w3u",
         "before_sha256": "9bae2f4195a198e264ccc4cbf21eeca3c76817194dfe7ccacef9c8abcb3189e7",
-        "after_sha256": "ad183ab229c73b95e3f96d62607c654af268d85d37d70e7721fae53312174ada"
+        "after_sha256": "56ea088e6573045ef4d8c1277b8ea74341a9ccd687870baace6f26051dc11754"
       },
       {
         "file": "war3mapUnits.doo",
@@ -6535,7 +6843,7 @@
       {
         "file": "war3map.wts",
         "before_sha256": "b9bf979001f372ff5f88ead0b2c7bac9fd61a965ad59097c2c9fed8cdad6b8ef",
-        "after_sha256": "92d522c16084eaeb7307787ae2f66ccb2bb28de28ed6b8f3dba92a227667f90c"
+        "after_sha256": "1e9003ee2f6585dc8f3c25aab803623a8fdfee9bee45db5b8dd275ca6bc47666"
       }
     ],
     "verification": "Offline tests/gameplay_patch.lua, tests/runtime_audit.lua, tests/base_flags.lua, tests/selection_bans.lua, tests/solo_startup.lua, tests/gameplay_objects.py, tests/picker_objects.py and tests/object_metadata.py cover reviewed behavior and native record structure; immutable r8 suites remain independently executable. Current packed-map checks run through tests/refactor.py.",

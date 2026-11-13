@@ -188,6 +188,13 @@ local function tryPurchase(entry,player)
     end
     return {kind=entry.raw,owner=player}
 end
+local function randomPickers()
+    local entries={}
+    for _,kind in ipairs({'expanders','ancients'}) do
+        for _,entry in ipairs(FE_Factions.randomStock[kind]) do entries[#entries+1]=entry end
+    end
+    return entries
+end
 local function replenish(entry)
     local shop=_G[entry.shop]
     local state=shop.stockState and shop.stockState[entry.raw]
@@ -208,7 +215,7 @@ for slot=0,FE_Roles.playerSlotCount-1 do
             for _,entry in ipairs(FE_TestData.pickers) do
                 check(tryPurchase(entry,p)~=nil,'immediate skip purchase: '..entry.raw)
             end
-            for _,entry in pairs(FE_Factions.randomStock) do
+            for _,entry in ipairs(randomPickers()) do
                 check(tryPurchase(entry,p)~=nil,'immediate random purchase after skip: '..entry.raw)
             end
             local calls=#stockCalls
@@ -240,11 +247,15 @@ advance(21);check(tryPurchase(FE_Factions.byKey.Worgen,Player(0))~=nil,'late ski
 -- never restore unrelated shop items, unlock previews or touch a removed shop.
 reset({0})
 emit('sellItem',Player(27),gg_unit_nmer_0000,nil,nil,{kind='I00W'})
+emit('sellItem',Player(27),gg_unit_n00G_0035,nil,nil,{kind='I00W'})
 emit('sellItem',Player(27),gg_unit_nmer_0000,nil,nil,{kind='I00W',removed=true})
+emit('sellItem',Player(27),gg_unit_n00G_0035,nil,nil,{kind='I00W',removed=true})
 check(#stockCalls==0,'stock repair cannot open an uninitialized phase')
 advance(0);local calls=#stockCalls
 emit('sellItem',Player(27),gg_unit_nmer_0000,nil,nil,{kind='I00W'})
+emit('sellItem',Player(27),gg_unit_n00G_0035,nil,nil,{kind='I00W'})
 emit('sellItem',Player(27),gg_unit_nmer_0000,nil,nil,{kind='I00W',removed=true})
+emit('sellItem',Player(27),gg_unit_n00G_0035,nil,nil,{kind='I00W',removed=true})
 check(#stockCalls==calls,'stock repair cannot open a preview')
 advance(20);calls=#stockCalls
 emit('sellItem',Player(27),gg_unit_nmer_0000,nil,nil,{kind='I000'})
@@ -291,7 +302,7 @@ reset({0,FE_Roles.initialAncientSlot})
 advance(0)
 for _,at in ipairs({0,1,10,19,19.999}) do
     advance(at)
-    for _,entry in pairs(FE_Factions.randomStock) do
+    for _,entry in ipairs(randomPickers()) do
         local shop=_G[entry.shop]
         check(shop.stock[entry.raw]==0 and shop.maximum[entry.raw]==0,'random preview is visible but empty')
         replenish(entry)
@@ -312,22 +323,25 @@ check(not Player(0).tech or not Player(0).tech.RFPK,'ordinary picking locked bef
 check(not dialogs[1].destroyed and dialogs[1].timer.expires==20,'countdown remains through 19.999 seconds')
 advance(20)
 check(Player(0).tech.RFPK==1 and not Player(FE_Roles.initialAncientSlot).tech.RFPA,'expander unlock preserves Ancient wait')
-check(tryPurchase(FE_Factions.randomStock.expanders,Player(0))~=nil,'Random Expander opens at the same cutoff')
-check(tryPurchase(FE_Factions.randomStock.expanders,Player(FE_Roles.initialAncientSlot))~=nil,'Random Expander remains available after native sale removal')
-check(tryPurchase(FE_Factions.randomStock.ancients,Player(FE_Roles.initialAncientSlot))==nil,'Random Ancient still waits at expander cutoff')
+for _,entry in ipairs(FE_Factions.randomStock.expanders) do
+    check(tryPurchase(entry,Player(0))~=nil,'Random opens in each builder shop at cutoff')
+    check(tryPurchase(entry,Player(0))~=nil,'each builder shop restores Random after sale')
+end
+check(tryPurchase(FE_Factions.randomStock.expanders[1],Player(FE_Roles.initialAncientSlot))~=nil,'Random Expander remains available after native sale removal')
+check(tryPurchase(FE_Factions.randomStock.ancients[1],Player(FE_Roles.initialAncientSlot))==nil,'Random Ancient still waits at expander cutoff')
 for _,entry in ipairs(FE_Factions.expanders) do
     local bought=tryPurchase(entry,Player(0))
     check(entry.raw=='h063' and bought==nil or entry.raw~='h063' and bought~=nil,'only multiplayer races can be picked at cutoff')
 end
 check(dialogs[1].destroyed,'expander countdown removed at unlock')
 advance(59.999)
-check(tryPurchase(FE_Factions.randomStock.ancients,Player(FE_Roles.initialAncientSlot))==nil,'Random Ancient cannot bypass final wait')
+check(tryPurchase(FE_Factions.randomStock.ancients[1],Player(FE_Roles.initialAncientSlot))==nil,'Random Ancient cannot bypass final wait')
 for _,entry in ipairs(FE_Factions.ancients) do
     replenish(entry);check(tryPurchase(entry,Player(FE_Roles.initialAncientSlot))==nil,'Ancient cannot buy before 60 seconds')
 end
 advance(60)
 check(Player(FE_Roles.initialAncientSlot).tech.RFPA==1,'Ancient unlock at original spawn deadline')
-check(tryPurchase(FE_Factions.randomStock.ancients,Player(FE_Roles.initialAncientSlot))~=nil,'Random Ancient opens at the same cutoff')
+check(tryPurchase(FE_Factions.randomStock.ancients[1],Player(FE_Roles.initialAncientSlot))~=nil,'Random Ancient opens at the same cutoff')
 for _,entry in ipairs(FE_Factions.ancients) do check(tryPurchase(entry,Player(FE_Roles.initialAncientSlot))~=nil,'Ancient can be picked at cutoff') end
 
 -- Ban one choice on each selector, then use either normal timers or real solo

@@ -81,7 +81,7 @@ def verify(saved, editor_version, reopened=False):
                 'map_name':ds.resolve(info['MapName'],strings_after),'map_description_present':True,
                 'archive_payloads':len(a),'objects_preserved':objects,'changed_payloads':changed,
                 'terrain_placements_imports_metadata_unchanged':True,'object_record_deltas':deltas,
-                'object_review':'See reports/editor-object-roundtrip-r13.json for reviewed default/serialization normalization; this script does not infer inherited native defaults.',
+                'object_review':f"See reports/editor-object-roundtrip-{cfg['revision']}.json for reviewed default/serialization normalization; this script does not infer inherited native defaults.",
                 'limits':'Native editor load/save and Lua storage checks only. No game/Test Map launch, multiplayer, native rendering, save/load gameplay or desync proof.'}
         return report
 
@@ -93,5 +93,5 @@ if __name__=='__main__':
     parser.add_argument('--reopened',action='store_true',help='Operator observed the saved copy reopen successfully')
     args=parser.parse_args()
     report=verify(args.saved,args.editor_version,args.reopened)
-    ds.write(ROOT/'reports/editor-validation-r13.json',report)
+    ds.write(ROOT/f"reports/editor-validation-{report['revision']}.json",report)
     print(json.dumps({k:v for k,v in report.items() if k!='object_record_deltas'},indent=2))

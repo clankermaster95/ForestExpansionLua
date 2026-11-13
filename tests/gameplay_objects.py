@@ -136,8 +136,7 @@ def validate():
         equal(value('units',entry['raw'],'usma'),0,'native preview cap prevents early replenishment')
     for entry in factions['ancients']:
         assert 'RFPA' in value('units',entry['raw'],'ureq').split(',');checks+=1
-    equal(value('units','n00G','usei'),'','second selector leaves room for eleven races')
-    for selector in ('nmer','nmr2'):
+    for selector in ('nmer','n00G','nmr2'):
         equal(value('units',selector,'usei'),'','random stock is owned by the picking phase')
         equal('Asid' in value('units',selector,'uabi').split(','),True,'selector supports dynamic item sales')
     equal(value('abilities_skin','A01N','atp1',1),"Nature's Grasp",'single hotkey label')

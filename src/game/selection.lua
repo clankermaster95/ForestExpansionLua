@@ -42,6 +42,10 @@ FE_Factions.banOrder = {"Worgen", "Centaur", "Wildkin", "Nerubian", "Human", "Wi
 FE_Factions.randomExpanders = {"Human", "Goblin", "Wisp", "Centaur", "Ogre", "Nerubian", "Worgen", "Furbolg", "Ghoul", "Magmide", "Kraken", "Kobold", "Razormane", "Forgotten", "Wildkin", "Elf", "HighElf", "Ratling"}
 FE_Factions.randomAncients = {"AncientFire", "AncientFire", "AncientFire", "AncientDarkness", "AncientDarkness", "AncientDarkness", "AncientDragon", "AncientDragon", "AncientDragon", "AncientEarth", "AncientEarth", "AncientEarth", "AncientIce", "AncientIce", "AncientIce", "AncientNature", "AncientNature", "AncientNature", "AncientLightning", "AncientLightning", "AncientLightning", "AncientWind", "AncientWind", "AncientWind", "AncientLight", "AncientLight", "AncientLight", "AncientSpace", "AncientSpace", "AncientSpace", "AncientSand", "AncientSand", "AncientSand"}
 FE_Factions.spellbringerOrder = {"AncientWind", "AncientDarkness", "AncientDragon", "AncientEarth", "AncientFire", "AncientIce", "AncientLight", "AncientLightning", "AncientNature", "AncientSand", "AncientSpace"}
+FE_Factions.randomStock = {
+    expanders = {{raw="I00W", shop="gg_unit_nmer_0000"}, {raw="I00W", shop="gg_unit_n00G_0035"}},
+    ancients = {{raw="I00X", shop="gg_unit_nmr2_0001"}},
+}
 for _, kind in ipairs({"expanders", "ancients"}) do
     for _, entry in ipairs(FE_Factions[kind]) do FE_Factions.byKey[entry.key] = entry end
 end
@@ -59,13 +63,6 @@ function FE_Factions.available(entry)
     return FE_Test ~= nil and FE_Test.initialized == true and FE_Test.player ~= nil
 end
 
--- Random items use the same phase gate as the units. Native stock start delays
--- cannot be skipped, so their object data is immediate and this owns the cap.
-FE_Factions.randomStock = {
-    expanders = {raw="I00W", shop="gg_unit_nmer_0000"},
-    ancients = {raw="I00X", shop="gg_unit_nmr2_0001"},
-}
-
 function FE_Factions.stock(kind)
     FE_Factions.stocked = FE_Factions.stocked or {}
     local unlocked = kind == "expanders" and FE_Factions.pickingUnlocked or
@@ -74,6 +71,13 @@ function FE_Factions.stock(kind)
     if FE_Factions.stocked[kind] == state then return end
     local hadStock = FE_Factions.stocked[kind] ~= nil
     FE_Factions.stocked[kind] = state
+    -- Add Random first on every selector. Object positions reserve slot (0,0);
+    -- native start delays are zero and these caps own the phase gate.
+    for _, entry in ipairs(FE_Factions.randomStock[kind]) do
+        local raw, shop = FourCC(entry.raw), _G[entry.shop]
+        if hadStock then RemoveItemFromStock(shop, raw) end
+        AddItemToStock(shop, raw, unlocked and 10 or 0, unlocked and 10 or 0)
+    end
     for _, entry in ipairs(FE_Factions[kind]) do
         if _G[entry.ban] == 0 and FE_Factions.available(entry) then
             local raw, shop = FourCC(entry.raw), _G[entry.shop]
@@ -85,10 +89,6 @@ function FE_Factions.stock(kind)
                 unlocked and entry.maximum or 0)
         end
     end
-    local random = FE_Factions.randomStock[kind]
-    local raw, shop = FourCC(random.raw), _G[random.shop]
-    if hadStock then RemoveItemFromStock(shop, raw) end
-    AddItemToStock(shop, raw, unlocked and 10 or 0, unlocked and 10 or 0)
 end
 
 function FE_Factions.restoreRandomStock()
@@ -98,13 +98,14 @@ function FE_Factions.restoreRandomStock()
     -- An Ancient purchase can remove its selector during item pickup.
     if GetUnitTypeId(shop) == 0 then return end
     for _, kind in ipairs({"expanders", "ancients"}) do
-        local entry = FE_Factions.randomStock[kind]
-        -- Pickup consumes the Random item. Its later sale notification may
-        -- therefore have type zero; each exact selector sells only this item.
-        local expected = FourCC(entry.raw)
-        if shop == _G[entry.shop] and (raw == expected or raw == 0) and FE_Factions.stocked and FE_Factions.stocked[kind] == "open" then
-            AddItemToStock(shop, expected, 10, 10)
-            return
+        for _, entry in ipairs(FE_Factions.randomStock[kind]) do
+            -- Pickup consumes Random before some sale notifications. Only an
+            -- exact placed selector and its open phase can accept type zero.
+            local expected = FourCC(entry.raw)
+            if shop == _G[entry.shop] and (raw == expected or raw == 0) and FE_Factions.stocked and FE_Factions.stocked[kind] == "open" then
+                AddItemToStock(shop, expected, 10, 10)
+                return
+            end
         end
     end
 end
