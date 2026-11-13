@@ -1,0 +1,53 @@
+{
+  "issues": [],
+  "counts": {
+    "abilities_objects": 587,
+    "modifications": 10842,
+    "abilities_skin_objects": 587
+  },
+  "legacy_fields_preserved": [
+    {
+      "kind": "abilities",
+      "rawcode": "A0CC",
+      "base": "AIpb",
+      "field": "Idam",
+      "level": 1,
+      "reason": "Original-map Orb of Venom field needs current-engine verification"
+    }
+  ],
+  "base_families_outside_reference": [
+    "AIno"
+  ],
+  "reference": "tools/reference-data/ability-metadata.json",
+  "scope": "Ability objects and skins: field IDs, value types, native data pointers, level indices, duplicates and base-family compatibility. No live-engine or multiplayer claim.",
+  "other_object_types": {
+    "issues": [],
+    "modifications_checked": 22948,
+    "fields_outside_reference": {
+      "units/upor": 238
+    },
+    "compatibility_exceptions": [
+      {
+        "kind": "units",
+        "rawcode": "h063",
+        "field": "ua1z",
+        "type": "Unreal",
+        "value": 900.0,
+        "reason": "1.32.8 metadata calls missile speed Int, but 3.0.1.24371 editor retains this Unreal gameplay record; common.j exposes ua1z as a unit weapon real field. Preserve this exact observed record."
+      },
+      {
+        "kind": "units_skin",
+        "rawcode": "h063",
+        "field": "ua1z",
+        "type": "Unreal",
+        "value": 900.0,
+        "reason": "Matching skin override for the current-editor-retained gameplay projectile speed; editor removes this redundant skin copy."
+      }
+    ]
+  },
+  "other_object_types_reference": "tools/reference-data/object-field-types.json",
+  "packed_modifications_checked": 10842,
+  "other_packed_modifications_checked": 22948,
+  "negative_checks": 14,
+  "historical_bad_pointers_detected": 129
+}

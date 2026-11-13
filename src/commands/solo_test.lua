@@ -78,13 +78,9 @@ function FE_Test.skipPicking(player)
     for _,countdown in ipairs(FE_Test.countdowns) do
         PauseTimer(countdown.timer); TimerDialogDisplay(countdown.dialog,false)
     end
-    for _,entry in ipairs(FE_TestData.pickers) do
-        local shop=_G[entry.shop]
-        if shop and GetUnitTypeId(shop)~=0 and _G[entry.ban]==0 and FE_Factions.available(entry) then
-            RemoveUnitFromStock(shop,FourCC(entry.raw))
-            AddUnitToStock(shop,FourCC(entry.raw),1,1)
-        end
-    end
+    -- The phase unlocks own stock changes. Rebuilding their entries here a
+    -- second time restarts native stock timing, and a late skip can refill a
+    -- choice another player has just bought.
     say(player,'Picking unlocked. Choose your hero or race normally. The match clock still runs normally.')
 end
 

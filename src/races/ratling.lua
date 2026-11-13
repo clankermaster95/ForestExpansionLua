@@ -75,7 +75,6 @@ end
 
 function Trig_ReduceMagicResist2_Func001A()
     if (Trig_ReduceMagicResist2_Func001Func001C()) then
-    else
         UnitRemoveAbilityBJ(FourCC("A0CT"), GetEnumUnit())
         GroupRemoveUnitSimple(GetEnumUnit(), udg_Acided)
     end
@@ -191,11 +190,14 @@ end
 
 function Trig_Permanent_Invisibility_Func001A()
     UnitAddAbilityBJ(FourCC("A0CK"), GetEnumUnit())
-    udg_SilentStrider[GetConvertedPlayerId(GetOwningPlayer(GetResearchingUnit()))] = true
 end
 
 function Trig_Permanent_Invisibility_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("o026")), Trig_Permanent_Invisibility_Func001A)
+    local player = GetOwningPlayer(GetResearchingUnit())
+    udg_SilentStrider[GetConvertedPlayerId(player)] = true
+    local units = GetUnitsOfPlayerAndTypeId(player, FourCC("o026"))
+    ForGroupBJ(units, Trig_Permanent_Invisibility_Func001A)
+    DestroyGroup(units)
 end
 
 function InitTrig_Permanent_Invisibility()
@@ -222,7 +224,8 @@ function Trig_Permanent_Invisibility_2_Func002A()
 end
 
 function Trig_Permanent_Invisibility_2_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("o026")), Trig_Permanent_Invisibility_2_Func002A)
+    -- This is an enter-region event: there is no researching unit here.
+    UnitAddAbilityBJ(FourCC("A0CK"), GetEnteringUnit())
 end
 
 function InitTrig_Permanent_Invisibility_2()

@@ -125,6 +125,8 @@ function I2R(n) return n end
 function PlayThematicMusicBJ() end
 function AddUnitToStockBJ(raw,shop,n,maximum) shop.stock[raw]=n;shop.maximum=shop.maximum or {};shop.maximum[raw]=maximum end
 function RemoveUnitFromStock(shop,raw) shop.stock[raw]=nil;shop.maximum[raw]=nil end
+function AddItemToStock(shop,raw,n,maximum) AddUnitToStockBJ(raw,shop,n,maximum) end
+RemoveItemFromStock=RemoveUnitFromStock
 function GetEnumPlayer() return event.player end
 PLAYER_SLOT_STATE_PLAYING='playing';MAP_CONTROL_USER='user';MAP_CONTROL_COMPUTER='computer'
 PLAYER_STATE_RESOURCE_GOLD='gold';PLAYER_STATE_RESOURCE_LUMBER='lumber'

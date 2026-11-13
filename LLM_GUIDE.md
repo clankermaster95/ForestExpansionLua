@@ -13,7 +13,7 @@ The repository is public at [clankermaster95/ForestExpansionLua](https://github.
 
 For an LLM, start with a concrete request such as:
 
-> Read AGENTS.md, LLM_GUIDE.md, ARCHITECTURE.md and project.json. Implement [specific change] in the existing source. Preserve unrelated gameplay, initialization order and synchronization. Build and run the relevant offline checks, then summarize the files changed and tests performed. Do not launch Warcraft III or World Editor on the maintainer's PC; the maintainer runs live tests.
+> Read AGENTS.md, LLM_GUIDE.md, ARCHITECTURE.md and project.json. Implement [specific change] in the existing source. Preserve unrelated gameplay, initialization order and synchronization. Build and run the relevant offline checks, then summarize the files changed and tests performed. Do not launch Warcraft III or Test Map on the maintainer's PC. Follow AGENTS.md for the explicitly authorized World Editor validation; the maintainer runs gameplay tests.
 
 ## Gameplay boundaries
 
@@ -25,13 +25,17 @@ For an LLM, start with a concrete request such as:
 - Keep tooltips synchronized when changing stats or abilities, including learn-menu text and item descriptions. Current builds reject malformed references, mismatched explicit unit stats/cooldowns, and missing or incorrect research-time labels through `tools/tooltip_audit.py`. Research checks cover every level offered by building research lists, using explicit map fields over the documented native defaults in `tools/reference-data/upgrade-times.json`. Unit stat blocks describe base values before research; scripted effects need a source review rather than copying dummy ability values.
 - Read [SOLO_TESTING.md](SOLO_TESTING.md) for the solo sandbox and [DEBUG_REFERENCE.md](DEBUG_REFERENCE.md) for spawn codes. Shop tracing is off by default.
 
-Gameplay is organized into 60 named modules. Historical section markers and migration reports preserve provenance; 238 generated helpers were explicitly retired. Start with `src/game/selection.lua`, `src/game/victory.lua`, `src/players/roles.lua`, `src/items/recipes.lua` and `src/commands/solo_test.lua`.
+The r8 refactor established 60 named gameplay modules; the current manifest includes 77 active modules, including shared runtime/data helpers. Historical section markers and migration reports preserve provenance; 238 generated helpers were explicitly retired. Start with `src/game/selection.lua`, `src/game/victory.lua`, `src/players/roles.lua`, `src/items/recipes.lua` and `src/commands/solo_test.lua`.
 
 The requested gameplay patch is tracked in `PATCH_PLAN.md`, with maintainer test steps in `PATCH_TESTING.md`. Its immutable r8 fixtures preserve the old source/data and test code. `tools/gameplay_patch_audit.py` checks an explicit list of changed callbacks and records object/payload hashes; `tests/refactor.py` validates that migration, runs historical suites against the frozen source, and tests current shopping, startup and patch behavior separately. Do not rewrite the old refactor report to absorb gameplay changes.
 
+The r13 review uses `tests/fixtures/gameplay-r12.zip` as immutable published evidence. `tools/revision_audit.py` checks exact object changes against `data/migrations/r13-object-fixes.json`; the historical r12 tooltip-only comparison remains separate. `reports/runtime-review-r13.md` records reviewed systems, confirmed fixes and unresolved findings. Source review and simulated events do not prove native event ordering or eliminate desyncs.
+
+The authorized r13 World Editor load/save/reopen check **passed in 3.0.1.24371**: [validation evidence](reports/editor-validation-r13.json), [object normalization review](reports/editor-object-roundtrip-r13.json). It preserves 103 modules and 1,649 named function bodies; terrain, placements, imports and map metadata are byte-identical. No game or Test Map was launched. Preserve the authoritative work folder and reconcile any editor changes before importing; this editor result does not validate native combat, rendering or multiplayer synchronization.
+
 ## Open and edit
 
-Open `dist/Forest_Expansion_3.2.0_Lua.w3x` in the current World Editor. Reopen this file before using Test Map if the editor still holds an older build. Terrain, the Object Editor, placements, regions, sounds, cameras, and imported assets use their native map formats. Scenario options should show **Lua** as the script language.
+Open `dist/Forest_Expansion_3.2.0_Lua.w3x` in the current World Editor. Reopen this file after rebuilding if the editor still holds an older build. Terrain, the Object Editor, placements, regions, sounds, cameras, and imported assets use their native map formats. Scenario options should show **Lua** as the script language.
 
 The editor also supports a map folder ending in `.w3x`. Open/drag `map/ForestExpansion.w3x` into the editor; when saving as a folder, select **Warcraft III Scenario Folder – Expansion**. The folder workflow is documented by the [w3ts project](https://cipherxof.github.io/w3ts/docs/editor-support/).
 
@@ -126,6 +130,8 @@ python3 tools/project.py build
 
 Names and visual overrides frequently live in the matching `units_skin`, `abilities_skin`, etc. records. String values may refer to `TRIGSTR_...`; replacing such a Value with literal text is supported, or edit the corresponding entry in `map/ForestExpansion.w3x/war3map.wts` and refresh the JSON annotations with `export-data`.
 
+Before building, `tools/object_metadata.py` checks ability IDs, native data pointers, levels and types against independently sourced metadata. A field such as `Iatt` needs its correct native DataA pointer even when the JSON value is zero. Preserve valid metadata when changing values; new or repaired records must match the reference, not copied annotation labels. `tests/object_metadata.py` also checks packed records. The guard additionally checks unit/item/buff/upgrade field types using `tools/reference-data/object-field-types.json`; current coverage is 10,842 ability and 22,948 other object modifications, with 14 negative cases. Correct skin base IDs and field types as well as values; r13 records two skin-base and two Lightning-dummy type corrections in its explicit migration.
+
 For a new object, copy a suitable record, assign a distinct four-character NewId (stored as a little-endian integer), and add its path to the appropriate `New...` list in `data/index.json`. Keep its base OldId and field metadata consistent. The index lists preserve native object ordering; unlisted files are not compiled.
 
 ### Terrain changes by an LLM
@@ -199,7 +205,7 @@ Current offline evidence lives in:
 - `reports/workflow-validation.json`: isolated build, installation, editor-import and conflict checks.
 - `reports/build.json`: current artifact checksum, release label and configured Maps installation result.
 
-The original port's reports, including `reports/validation.json` and `reports/event-differential.json`, remain historical evidence. Offline doubles do not reproduce Warcraft's complete scheduler, combat, pathfinding, rendering, serialization or multiplayer. The maintainer must perform live editor, gameplay, multiplayer and save/load checks; agents must not launch or control Warcraft or World Editor on this PC.
+The original port's reports, including `reports/validation.json` and `reports/event-differential.json`, remain historical evidence. Offline doubles do not reproduce Warcraft's complete scheduler, combat, pathfinding, rendering, serialization or multiplayer. The maintainer performs gameplay, multiplayer and save/load checks. Agents must not launch Warcraft or Test Map on this PC. The completed World Editor load/save/reopen check is recorded above; it does not replace gameplay testing.
 
 Version and revision are set in `project.json`. After changing a release label, run `python3 tools/release_info.py --write`, then build and validate. Package the verified map and player notes with:
 

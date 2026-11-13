@@ -1,6 +1,17 @@
 -- races / worgen
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
+FE_Worgen = {}
+
+function FE_Worgen.restoreResearch(unit)
+    if GetUnitTypeId(unit) ~= FourCC("h00R") then return end
+    local level = 1 + GetPlayerTechCount(GetOwningPlayer(unit), FourCC("R030"), true)
+    for _, raw in ipairs({"A042", "A04C"}) do
+        local ability = FourCC(raw)
+        if GetUnitAbilityLevel(unit, ability) > 0 then SetUnitAbilityLevel(unit, ability, level) end
+    end
+end
+
 -- BEGIN FOREST SECTION 151 Return_lumber
 function Trig_Return_lumber_Conditions()
     if (not (GetIssuedOrderIdBJ() == String2OrderIdBJ("harvest"))) then
@@ -13,7 +24,9 @@ function Trig_Return_lumber_Conditions()
 end
 
 function Trig_Return_lumber_Actions()
-    SetPlayerStateBJ(GetOwningPlayer(GetTriggerUnit()), PLAYER_STATE_RESOURCE_GOLD, (__jint(GetPlayerState(GetOwningPlayer(GetTriggerUnit()), PLAYER_STATE_RESOURCE_GOLD) + 1)))
+    -- Issuing a harvest order does not prove any work was completed. Paying
+    -- here allowed repeated orders to mint gold. World-tree hits pay through
+    -- Trig_Worgens_gold_Actions, including the Worgen's two-gold reward.
 end
 
 function InitTrig_Return_lumber()

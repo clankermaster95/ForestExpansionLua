@@ -24,6 +24,19 @@ function FE_Roles.forEachPlayer(action)
     for slot = 0, FE_Roles.playerSlotCount - 1 do action(Player(slot)) end
 end
 
+-- Compatibility trigger families address Expanders by ordinal, never by a
+-- historical Ancient color/slot. Resolve again after any Ancient takeover.
+function FE_Roles.expanderAt(index)
+    local result, current = nil, 0
+    FE_Roles.forEachPlayer(function(player)
+        if not FE_Roles.isAncient(player) then
+            if current == index then result = player end
+            current = current + 1
+        end
+    end)
+    return result
+end
+
 function FE_Roles.isAncientEvent()
     return FE_Roles.isAncient(GetTriggerPlayer())
 end

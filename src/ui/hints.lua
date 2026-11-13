@@ -73,7 +73,7 @@ end
 
 -- BEGIN FOREST SECTION 196 Info_Copy
 function Trig_Info_Copy_Actions()
-    DisplayTimedTextToForce(bj_FORCE_PLAYER[6], __jreal(20.00), "TRIGSTR_469")
+    DisplayTimedTextToPlayer(FE_Roles.ancient(), 0, 0, __jreal(20.00), "TRIGSTR_469")
 end
 
 function InitTrig_Info_Copy()
@@ -85,7 +85,7 @@ end
 
 -- BEGIN FOREST SECTION 197 Info
 function Trig_Info_Actions()
-    DisplayTimedTextToForce(bj_FORCE_PLAYER[6], __jreal(45.00), "TRIGSTR_7352")
+    DisplayTimedTextToPlayer(FE_Roles.ancient(), 0, 0, __jreal(45.00), "TRIGSTR_7352")
 end
 
 function InitTrig_Info()
@@ -174,16 +174,10 @@ end
 
 function InitTrig_Ping()
     gg_trg_Ping = CreateTrigger()
-    TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(0), "-gold", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(1), "-gold", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(2), "-gold", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(3), "-gold", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(4), "-gold", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(5), "-gold", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(7), "-gold", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(8), "-gold", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(9), "-gold", true)
-    TriggerRegisterPlayerChatEvent(gg_trg_Ping, Player(10), "-gold", true)
+    FE_Roles.forEachPlayer(function(player)
+        TriggerRegisterPlayerChatEvent(gg_trg_Ping, player, "-gold", true)
+    end)
+    TriggerAddCondition(gg_trg_Ping, Condition(function() return not FE_Roles.isAncient(GetTriggerPlayer()) end))
     TriggerAddAction(gg_trg_Ping, Trig_Ping_Actions)
 end
 -- END FOREST SECTION 203

@@ -32,7 +32,7 @@ function Trig_Gobo_Mech_Blaster_attack_check_Conditions()
 end
 
 function Trig_Gobo_Mech_Blaster_attack_check_Func001C()
-    return IsUnitType(udg_DamageFilterSource, UNIT_TYPE_MELEE_ATTACKER) == true
+    return IsUnitType(udg_DamageEventSource, UNIT_TYPE_MELEE_ATTACKER) == true
 end
 
 function Trig_Gobo_Mech_Blaster_attack_check_Actions()

@@ -17,6 +17,11 @@ def validate():
         same=math.isclose(a,b,rel_tol=0,abs_tol=0.000001) if isinstance(a,float) and isinstance(b,(int,float)) else a==b
         assert same,(label,a,b);checks+=1
     equal(tuple(value('units','h03X',f) for f in ['ubba','ubdi','ubsi']),(20,0,0),'Aethyr wall deterministic feed')
+    flags_source=(ROOT/'src/economy/base_flags.lua').read_text(encoding='utf-8')
+    refund=int(re.search(r'FE_BaseFlags\s*=\s*\{\s*lumberCost\s*=\s*(\d+)',flags_source)[1])
+    for raw in ['h04Z','h050','h05P','h04Y','h04V','h04W','h05N','h04X','h051','h052']:
+        equal(value('units',raw,'ugol'),0,'flag has no omitted gold refund '+raw)
+        equal(value('units',raw,'ulum'),refund,'flag rejection refunds its actual cost '+raw)
     equal(value('units','h063','ua1r'),200,'Cultist base range')
     equal(value('units','h063','ua1w'),'missile','Cultist ranged weapon')
     # Resolve the weapon field IDs independently from Blizzard's native API.
@@ -132,7 +137,9 @@ def validate():
     for entry in factions['ancients']:
         assert 'RFPA' in value('units',entry['raw'],'ureq').split(',');checks+=1
     equal(value('units','n00G','usei'),'','second selector leaves room for eleven races')
-    equal(value('units','nmer','usei'),'I00W','random remains on first selector')
+    for selector in ('nmer','nmr2'):
+        equal(value('units',selector,'usei'),'','random stock is owned by the picking phase')
+        equal('Asid' in value('units',selector,'uabi').split(','),True,'selector supports dynamic item sales')
     equal(value('abilities_skin','A01N','atp1',1),"Nature's Grasp",'single hotkey label')
     equal(value('abilities_skin','A014','aub1',1),'Increases the armor of nearby friendly units by 5.','Spirit Tree actual armor')
     assert 'Health: 300' in value('units_skin','e00R','utub');checks+=1

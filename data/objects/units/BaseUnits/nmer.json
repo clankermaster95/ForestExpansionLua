@@ -15,14 +15,14 @@
     {
       "Id": 1768256373,
       "Type": "String",
-      "Value": "I00W",
+      "Value": "",
       "SanityCheck": 1919249774,
       "_field": "usei"
     },
     {
       "Id": 1768055157,
       "Type": "String",
-      "Value": "Ane2,Asud,Avul",
+      "Value": "Ane2,Asud,Avul,Asid",
       "SanityCheck": 1919249774,
       "_field": "uabi"
     },

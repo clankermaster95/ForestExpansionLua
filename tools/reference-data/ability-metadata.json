@@ -1,0 +1,6938 @@
+{
+  "source": {
+    "url": "https://github.com/sumneko/w3x2lni/blob/master/data/zhCN-1.32.8/prebuilt/metadata.ini",
+    "git_blob": "b7a6fd39d2ba8ac360371e84d498016e6876aaa5",
+    "sha256": "f6f35d1372e3102928f6e8a47881b93ecb13b261515a7f28357774ca7f187d94",
+    "ability_base_url": "https://github.com/sumneko/w3x2lni/blob/master/data/zhCN-1.32.8/prebuilt/Custom/ability.ini",
+    "ability_base_git_blob": "9f4005416dcdb1e21e14e49c0bf92b8a9e11b098",
+    "ability_base_sha256": "4512f2295d8c6968c3efc2987f20d1b002998b4a8813196cc356eb8d4aae8b5c",
+    "serialization_url": "https://github.com/sumneko/w3x2lni/blob/master/script/core/slk/backend_obj.lua",
+    "serialization_git_blob": "2c4ad5d8c37da11de91c1f4a42157fbac70a18ba",
+    "explanation": "The authoring backend writes metadata.data directly as the w3a data pointer; 0 is for non-Data fields,1 is DataA,2 is DataB, etc. Names and translations are omitted from this derived structural reference."
+  },
+  "fields": {
+    "aani": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zani": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zan1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aare": {
+      "pointer": 0,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "aaea": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zaea": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zae1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aart": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zart": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zar1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "abuf": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "abpx": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zbpx": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zbp1": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "abpy": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zbpy": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zbp2": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "acas": {
+      "pointer": 0,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "acat": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zcat": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zca1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "acap": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aca1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zca3": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zca4": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zcap": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zca2": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "acac": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zcac": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zca5": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "achd": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "acdn": {
+      "pointer": 0,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "amcs": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": true
+    },
+    "adur": {
+      "pointer": 0,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "ansf": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aeff": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "aeat": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zeat": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zea1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aefs": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aefl": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aher": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "ahdu": {
+      "pointer": 0,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "ahky": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aite": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "alev": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "alsk": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "alig": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zlig": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zli1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "amac": {
+      "pointer": 0,
+      "type": "Unreal",
+      "leveled": false
+    },
+    "zmac": {
+      "pointer": 0,
+      "type": "Unreal",
+      "leveled": false
+    },
+    "zma1": {
+      "pointer": 0,
+      "type": "Unreal",
+      "leveled": false
+    },
+    "amat": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zmat": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zma2": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "amho": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zmho": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zmh1": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "amsp": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zmsp": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zms1": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "anam": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aord": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aorf": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aoro": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "apri": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "arac": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "arlv": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "areq": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "arqa": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "arar": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zrar": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zra1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "arpx": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zrpx": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zrp1": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "arpy": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zrpy": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zrp2": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "arhk": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aret": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "arut": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aran": {
+      "pointer": 0,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "asat": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zsat": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zsa1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aspt": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zspt": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zsp1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "atat": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "ztat": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "ata0": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "ata1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta3": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta4": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "ata2": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta5": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta6": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "ata3": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta7": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta8": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "ata4": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta9": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta_": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "ata5": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "ztaa": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "ztab": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta0": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zta2": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "atac": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "ztac": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "ztad": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "atar": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "atp1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "aub1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "auar": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zuar": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "zua1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aubx": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zubx": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zub1": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "auby": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zuby": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "zub2": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": false
+    },
+    "auhk": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "ausk": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aoru": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "aut1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "auu1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "W2lo": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": false
+    },
+    "Ndt1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ndt2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ans5": {
+      "pointer": 5,
+      "type": "String",
+      "leveled": true
+    },
+    "Ans6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Cad1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hre2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uan3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ucs1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ucs2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ucs3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ucs4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nbf5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Dev1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ore1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ctb1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ctc1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ctc2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ctc3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ctc4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eah1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eah2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ear1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ear2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ear3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ear4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ebl1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ebl2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eer1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eev1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Efk1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Efk2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Efk3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Efk4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Efn1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Efnu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Eim1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eim2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eim3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Emb1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Emb2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Emb3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eme1": {
+      "pointer": 1,
+      "type": "String",
+      "leveled": true
+    },
+    "Eme2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Eme3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eme4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eme5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Emeu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Poa1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Poa2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Poa3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Poa4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Poa5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Esf1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Esf2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Esf3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Esh1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Esh2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Esh3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Esh4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Esh5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hwe2": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hwe1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Esv1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Esvu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Etq1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Etq2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Etq3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Etq4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hab1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hab2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Had1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Had2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hav1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hav2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hav3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hav4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hbh1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hbh2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hbh3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hbh4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hbh5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hbn1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hbn2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hbz1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hbz2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hbz3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hbz4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hbz5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hbz6": {
+      "pointer": 6,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hca1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hca2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hca3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hca4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ndr1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndr2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndr3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndr4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndr5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndr6": {
+      "pointer": 6,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndr7": {
+      "pointer": 7,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndr8": {
+      "pointer": 8,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndr9": {
+      "pointer": 9,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "NdrA": {
+      "pointer": 10,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hds1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hfa1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hfs1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hfs2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hfs3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hfs4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hfs5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hfs6": {
+      "pointer": 6,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hhb1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hmt1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hmt2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hmt3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hre1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Htb1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Htc1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Htc2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Htc3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Htc4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Iaa1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Iagi": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Iint": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Istr": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ihid": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Isx1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Iatt": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ibl1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Idic": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Iarp": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Iob5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Icfd": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Icfm": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Icfx": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Icre": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "ict1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "ict2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Idef": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ihp2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Imp2": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "idc1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "idc2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "idc3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Def1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Def2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Def3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Def4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Def5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Def6": {
+      "pointer": 6,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Def7": {
+      "pointer": 7,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Def8": {
+      "pointer": 8,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ihpg": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Idg1": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Idg2": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Udp5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Idg3": {
+      "pointer": 8,
+      "type": "String",
+      "leveled": true
+    },
+    "Idim": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Idid": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ixpg": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ifa1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Idel": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Idam": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Isn1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Isn2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ist1": {
+      "pointer": 3,
+      "type": "String",
+      "leveled": true
+    },
+    "Ist2": {
+      "pointer": 4,
+      "type": "String",
+      "leveled": true
+    },
+    "Igl1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Iglu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Igol": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Iofr": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Iild": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Iilw": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ilev": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Prg1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Prg2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Prg3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Prg4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Prg5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Prg6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ilum": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Impg": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ilif": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Iman": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "imo1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "imo2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "imo3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "imou": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Imvb": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "inv1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "inv2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "inv3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "inv4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "inv5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "ipmu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "ipv1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "ipv2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "ipv3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ihps": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Imps": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ircd": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "irc2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "irc3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Rai1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Rai2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Rai3": {
+      "pointer": 3,
+      "type": "String",
+      "leveled": true
+    },
+    "Rai4": {
+      "pointer": 4,
+      "type": "String",
+      "leveled": true
+    },
+    "Raiu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "irl1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "irl2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "irl3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "irl4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "irl5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Imrp": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Irec": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Itp2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Det1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ispi": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Iob2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Iob3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Iob4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Iobu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Osf2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Osf1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Isib": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "isr1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "isr2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Idet": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Itpm": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ivam": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "AIvu": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ens1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ens2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ens3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nab1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nab2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nab3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nab4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nab5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nab6": {
+      "pointer": 6,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nba1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nba2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nba3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nbau": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Nbr1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Roa2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Roa3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Roa4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Roa5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Roa6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Roa7": {
+      "pointer": 7,
+      "type": "Int",
+      "leveled": true
+    },
+    "nca1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nch1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ncl1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ncl2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ncl3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ncl4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ncl5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ncl6": {
+      "pointer": 6,
+      "type": "String",
+      "leveled": true
+    },
+    "Ncr5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ncr6": {
+      "pointer": 6,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ncs1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ncs2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ncs3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ncs4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ncs5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ncs6": {
+      "pointer": 6,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ocr1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ocr2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ocr3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ocr4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ocr5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ocr6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ndc1": {
+      "pointer": 1,
+      "type": "String",
+      "leveled": true
+    },
+    "Ndc2": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Nde1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nde2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nde3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nde4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsi1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nsi2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsi3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsi4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndo1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndo2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ndo3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndo4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ndo5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndou": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Ndp1": {
+      "pointer": 1,
+      "type": "String",
+      "leveled": true
+    },
+    "Ndp2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ndp3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nef1": {
+      "pointer": 1,
+      "type": "String",
+      "leveled": true
+    },
+    "Neg1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Neg2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Neg3": {
+      "pointer": 3,
+      "type": "String",
+      "leveled": true
+    },
+    "Neg4": {
+      "pointer": 4,
+      "type": "String",
+      "leveled": true
+    },
+    "Neg5": {
+      "pointer": 5,
+      "type": "String",
+      "leveled": true
+    },
+    "Neg6": {
+      "pointer": 6,
+      "type": "String",
+      "leveled": true
+    },
+    "Nfd1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nfd2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nfd3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ocl1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ocl2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nfy1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nfy2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nfyu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Nhs6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Roa1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nic1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nic2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nic3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nic4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nic5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nic6": {
+      "pointer": 6,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uin1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uin2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uin3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uin4": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Nlm2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nlm3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nlm4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nlm5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nlm6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nmr1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nms1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nms2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Npa6": {
+      "pointer": 0,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Poi1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Poi2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Poi3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Poi4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Npa5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Npr1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nrc1": {
+      "pointer": 1,
+      "type": "String",
+      "leveled": true
+    },
+    "Nrc2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nrg5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nrg6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nsa1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nsa2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsa3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsa4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsa5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nse1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsl1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Nso1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nso2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nso3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nso4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nso5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nst1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nst2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nst3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nst4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nst5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsy1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsy2": {
+      "pointer": 2,
+      "type": "String",
+      "leveled": true
+    },
+    "Nsy3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsy4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsy5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nsyu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Ntm1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ntm2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ntm3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ntm4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ntou": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Nvc1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nvc2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nvc3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nvc4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nvc5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nvc6": {
+      "pointer": 6,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Nvcu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Cac1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Oae1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Oae2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ocl3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Oeq1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Oeq2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Oeq3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Oeq4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ofs1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ply1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ply2": {
+      "pointer": 2,
+      "type": "String",
+      "leveled": true
+    },
+    "Ply3": {
+      "pointer": 3,
+      "type": "String",
+      "leveled": true
+    },
+    "Ply4": {
+      "pointer": 4,
+      "type": "String",
+      "leveled": true
+    },
+    "Ply5": {
+      "pointer": 5,
+      "type": "String",
+      "leveled": true
+    },
+    "Omi1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Omi2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Omi3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Omi4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Osh1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Osh2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Osh3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Osh4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Owk1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Owk2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Owk3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Owk4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Owk5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Wrs1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Wrs2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Wrs3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Oww1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Oww2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uan1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uau1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uau2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uau3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uav1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ucb5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ucb6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Udc1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Udd1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Udd2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Udp1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Udp2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Udp3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Udp4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uds1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uds2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ufa1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ufa2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ufn1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ufn2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uim1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uim2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uim3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uim4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uim5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uim6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uls1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uls2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uls3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uls4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uls5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ulsu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Usl1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uts1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uts2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uts3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hsb1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hsb2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Hsb3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Oar1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Oar2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "abs1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "abs2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Adm1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Adm2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Akb1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Akb2": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Neu1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Neu2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Neu3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Neu4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ixs1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ixs2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ams3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ams4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ams1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ams2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Apl1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Apl2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Apl3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Aplu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Arm1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Arm2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Slo1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Slo2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Slo3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "ast1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "ast2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "ave5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Bgm1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Bgm2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Bgm3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Bgm4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Bli1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Bli2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Blo1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Blo2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Blo3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "bsk1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "bsk2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "bsk3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Btl2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Btl1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Car1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Can1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Can2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Cha1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Chd1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Chd2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Chd3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Chl1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Cmg2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Cmg3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "coa1": {
+      "pointer": 1,
+      "type": "String",
+      "leveled": true
+    },
+    "coau": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "coa2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Cor1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Cri1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Cri2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Cri3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Crs\u0000": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "cyc1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Dda1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Dda2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Dda3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Dda4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "dcp1": {
+      "pointer": 1,
+      "type": "String",
+      "leveled": true
+    },
+    "dcp2": {
+      "pointer": 2,
+      "type": "String",
+      "leveled": true
+    },
+    "Dtn1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Dtn2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Dev2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Dev3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "dvm1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "dvm2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "dvm3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "dvm4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "dvm5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "dvm6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Eat1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eat2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eat3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Egm1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Egm2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "ent1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Esn1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Esn2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Esn3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Esn4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Esn5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Eth1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Eth2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "exh1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "exhu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "hwdu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Fae1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Fae2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "fak1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "fak2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "fak3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "fak4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "fak5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "fbk1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "fbk2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "fbk3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "fbk4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "fbk5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Fla1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Fla2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Fla3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "flk1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "flk2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "flk3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "flk4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "flk5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Gho1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Gho2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Gho3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Gld1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Gld2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Gld3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "gra1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "gra2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "gra3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "gra4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "gra5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Gyd1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Gyd2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Gyd3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Gydu": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Har1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Har2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Har3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Hea1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Shm1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Shm2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Shm3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Inf1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Inf2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Inf3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Inf4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ivs1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "liq1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "liq2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "liq3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "liq4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Lit1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Lit2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Loa1": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Lsh1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Mbt1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Mbt2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Mbt3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Mbt4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Mbt5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "mec1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "mfl1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "mfl2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "mfl3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "mfl4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "mfl5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "mfl6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Mil1": {
+      "pointer": 1,
+      "type": "String",
+      "leveled": true
+    },
+    "Mil2": {
+      "pointer": 2,
+      "type": "String",
+      "leveled": true
+    },
+    "mim1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Min1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Min2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "mls1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ndt3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nsp1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nsp2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Nsp3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Pos1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Pos2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Pos3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Pos4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "pxf1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "pxf2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Rej1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Rej2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Rej3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Rej4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ihpr": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Rep1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Rep2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Rep3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Rep4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Rep5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Roo1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Roo2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Roo3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Roo4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Rpb6": {
+      "pointer": 0,
+      "type": "Int",
+      "leveled": true
+    },
+    "Rpb3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Rpb4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Rpb5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Rtn1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Rtn2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Sal1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Sal2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Sds1": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Sds6": {
+      "pointer": 6,
+      "type": "Int",
+      "leveled": true
+    },
+    "Shm4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "sla1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "sla2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Sod1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Sod2": {
+      "pointer": 2,
+      "type": "String",
+      "leveled": true
+    },
+    "Spa1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "spb1": {
+      "pointer": 1,
+      "type": "String",
+      "leveled": true
+    },
+    "spb2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "spb3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "spb4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "spb5": {
+      "pointer": 5,
+      "type": "String",
+      "leveled": true
+    },
+    "spl1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "spl2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Spo1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Spo2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Spo3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Spo4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ssk1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ssk2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ssk3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Ssk4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Ssk5": {
+      "pointer": 5,
+      "type": "Int",
+      "leveled": true
+    },
+    "Sta1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Sta2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Sta3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Sta4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Sta5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Stau": {
+      "pointer": 0,
+      "type": "String",
+      "leveled": true
+    },
+    "Tau1": {
+      "pointer": 1,
+      "type": "Int",
+      "leveled": true
+    },
+    "Tau2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Tau3": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Tau4": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Tau5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Tdg1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Tdg2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Tdg3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Tdg4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Tdg5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Tsp1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Tsp2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uco5": {
+      "pointer": 5,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uco6": {
+      "pointer": 6,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uhf1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uhf2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Uuf1": {
+      "pointer": 3,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uuf2": {
+      "pointer": 4,
+      "type": "Int",
+      "leveled": true
+    },
+    "Uuf3": {
+      "pointer": 8,
+      "type": "String",
+      "leveled": true
+    },
+    "War1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "War2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "War3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "War4": {
+      "pointer": 4,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Wha1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Wha2": {
+      "pointer": 2,
+      "type": "Int",
+      "leveled": true
+    },
+    "Wha3": {
+      "pointer": 3,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Wrp1": {
+      "pointer": 1,
+      "type": "Unreal",
+      "leveled": true
+    },
+    "Wrp2": {
+      "pointer": 2,
+      "type": "Unreal",
+      "leveled": true
+    }
+  },
+  "global_fields": [
+    "W2lo",
+    "aaea",
+    "aani",
+    "aare",
+    "aart",
+    "abpx",
+    "abpy",
+    "abuf",
+    "aca1",
+    "acac",
+    "acap",
+    "acas",
+    "acat",
+    "acdn",
+    "achd",
+    "adur",
+    "aeat",
+    "aeff",
+    "aefl",
+    "aefs",
+    "ahdu",
+    "aher",
+    "ahky",
+    "aite",
+    "alev",
+    "alig",
+    "alsk",
+    "amac",
+    "amat",
+    "amcs",
+    "amho",
+    "amsp",
+    "anam",
+    "ansf",
+    "aord",
+    "aorf",
+    "aoro",
+    "aoru",
+    "apri",
+    "arac",
+    "aran",
+    "arar",
+    "areq",
+    "aret",
+    "arhk",
+    "arlv",
+    "arpx",
+    "arpy",
+    "arqa",
+    "arut",
+    "asat",
+    "aspt",
+    "ata0",
+    "ata1",
+    "ata2",
+    "ata3",
+    "ata4",
+    "ata5",
+    "atac",
+    "atar",
+    "atat",
+    "atp1",
+    "auar",
+    "aub1",
+    "aubx",
+    "auby",
+    "auhk",
+    "ausk",
+    "aut1",
+    "auu1",
+    "zae1",
+    "zaea",
+    "zan1",
+    "zani",
+    "zar1",
+    "zart",
+    "zbp1",
+    "zbp2",
+    "zbpx",
+    "zbpy",
+    "zca1",
+    "zca2",
+    "zca3",
+    "zca4",
+    "zca5",
+    "zcac",
+    "zcap",
+    "zcat",
+    "zea1",
+    "zeat",
+    "zli1",
+    "zlig",
+    "zma1",
+    "zma2",
+    "zmac",
+    "zmat",
+    "zmh1",
+    "zmho",
+    "zms1",
+    "zmsp",
+    "zra1",
+    "zrar",
+    "zrp1",
+    "zrp2",
+    "zrpx",
+    "zrpy",
+    "zsa1",
+    "zsat",
+    "zsp1",
+    "zspt",
+    "zta0",
+    "zta1",
+    "zta2",
+    "zta3",
+    "zta4",
+    "zta5",
+    "zta6",
+    "zta7",
+    "zta8",
+    "zta9",
+    "zta_",
+    "ztaa",
+    "ztab",
+    "ztac",
+    "ztad",
+    "ztat",
+    "zua1",
+    "zuar",
+    "zub1",
+    "zub2",
+    "zubx",
+    "zuby"
+  ],
+  "families": {
+    "AAns": [
+      "Ans5",
+      "Ans6",
+      "Ndt1",
+      "Ndt2"
+    ],
+    "ACad": [
+      "Cad1",
+      "Hre2",
+      "Uan3"
+    ],
+    "ACbf": [
+      "Nbf5",
+      "Ucs1",
+      "Ucs2",
+      "Ucs3",
+      "Ucs4"
+    ],
+    "ACdv": [
+      "Dev1"
+    ],
+    "ACrn": [
+      "Ore1"
+    ],
+    "ACtb": [
+      "Ctb1"
+    ],
+    "ACtc": [
+      "Ctc1",
+      "Ctc2",
+      "Ctc3",
+      "Ctc4"
+    ],
+    "AEah": [
+      "Eah1",
+      "Eah2"
+    ],
+    "AEar": [
+      "Ear1",
+      "Ear2",
+      "Ear3",
+      "Ear4"
+    ],
+    "AEbl": [
+      "Ebl1",
+      "Ebl2"
+    ],
+    "AEer": [
+      "Eer1"
+    ],
+    "AEev": [
+      "Eev1"
+    ],
+    "AEfk": [
+      "Efk1",
+      "Efk2",
+      "Efk3",
+      "Efk4"
+    ],
+    "AEfn": [
+      "Efn1",
+      "Efnu"
+    ],
+    "AEim": [
+      "Eim1",
+      "Eim2",
+      "Eim3"
+    ],
+    "AEmb": [
+      "Emb1",
+      "Emb2",
+      "Emb3"
+    ],
+    "AEme": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Eme5",
+      "Emeu"
+    ],
+    "AEpa": [
+      "Poa1",
+      "Poa2",
+      "Poa3",
+      "Poa4",
+      "Poa5"
+    ],
+    "AEsf": [
+      "Esf1",
+      "Esf2",
+      "Esf3"
+    ],
+    "AEsh": [
+      "Esh1",
+      "Esh2",
+      "Esh3",
+      "Esh4",
+      "Esh5"
+    ],
+    "AEst": [
+      "Hwe1",
+      "Hwe2"
+    ],
+    "AEsv": [
+      "Esv1",
+      "Esvu"
+    ],
+    "AEtq": [
+      "Etq1",
+      "Etq2",
+      "Etq3",
+      "Etq4"
+    ],
+    "AHab": [
+      "Hab1",
+      "Hab2"
+    ],
+    "AHad": [
+      "Had1",
+      "Had2"
+    ],
+    "AHav": [
+      "Hav1",
+      "Hav2",
+      "Hav3",
+      "Hav4"
+    ],
+    "AHbh": [
+      "Hbh1",
+      "Hbh2",
+      "Hbh3",
+      "Hbh4",
+      "Hbh5"
+    ],
+    "AHbn": [
+      "Hbn1",
+      "Hbn2"
+    ],
+    "AHbz": [
+      "Hbz1",
+      "Hbz2",
+      "Hbz3",
+      "Hbz4",
+      "Hbz5",
+      "Hbz6"
+    ],
+    "AHca": [
+      "Hca1",
+      "Hca2",
+      "Hca3",
+      "Hca4"
+    ],
+    "AHdr": [
+      "Ndr1",
+      "Ndr2",
+      "Ndr3",
+      "Ndr4",
+      "Ndr5",
+      "Ndr6",
+      "Ndr7",
+      "Ndr8",
+      "Ndr9",
+      "NdrA"
+    ],
+    "AHds": [
+      "Hds1"
+    ],
+    "AHfa": [
+      "Hfa1"
+    ],
+    "AHfs": [
+      "Hfs1",
+      "Hfs2",
+      "Hfs3",
+      "Hfs4",
+      "Hfs5",
+      "Hfs6"
+    ],
+    "AHhb": [
+      "Hhb1"
+    ],
+    "AHmt": [
+      "Hmt1",
+      "Hmt2",
+      "Hmt3"
+    ],
+    "AHpx": [
+      "Hwe1",
+      "Hwe2"
+    ],
+    "AHre": [
+      "Hre1",
+      "Hre2"
+    ],
+    "AHtb": [
+      "Htb1"
+    ],
+    "AHtc": [
+      "Htc1",
+      "Htc2",
+      "Htc3",
+      "Htc4"
+    ],
+    "AHwe": [
+      "Hwe1",
+      "Hwe2"
+    ],
+    "AIaa": [
+      "Iaa1"
+    ],
+    "AIab": [
+      "Iagi",
+      "Ihid",
+      "Iint",
+      "Istr"
+    ],
+    "AIam": [
+      "Iagi",
+      "Ihid",
+      "Iint",
+      "Istr"
+    ],
+    "AIan": [
+      "Cad1",
+      "Hre2",
+      "Uan3"
+    ],
+    "AIas": [
+      "Isx1"
+    ],
+    "AIat": [
+      "Iatt"
+    ],
+    "AIbl": [
+      "Ibl1"
+    ],
+    "AIcb": [
+      "Iarp",
+      "Idic",
+      "Iob5"
+    ],
+    "AIcf": [
+      "Icfd",
+      "Icfm",
+      "Icfx"
+    ],
+    "AIco": [
+      "Icre"
+    ],
+    "AIct": [
+      "ict1",
+      "ict2"
+    ],
+    "AIda": [
+      "Idef",
+      "Ihp2",
+      "Imp2"
+    ],
+    "AIdc": [
+      "idc1",
+      "idc2",
+      "idc3"
+    ],
+    "AIdd": [
+      "Def1",
+      "Def2",
+      "Def3",
+      "Def4",
+      "Def5",
+      "Def6",
+      "Def7",
+      "Def8"
+    ],
+    "AIde": [
+      "Idef"
+    ],
+    "AIdg": [
+      "Idg1",
+      "Idg2",
+      "Idg3",
+      "Ihpg",
+      "Udp5"
+    ],
+    "AIdi": [
+      "Idid",
+      "Idim"
+    ],
+    "AIem": [
+      "Ixpg"
+    ],
+    "AIfa": [
+      "Idel",
+      "Ifa1"
+    ],
+    "AIfb": [
+      "Idam",
+      "Iob5"
+    ],
+    "AIfs": [
+      "Isn1",
+      "Isn2",
+      "Ist1",
+      "Ist2"
+    ],
+    "AIgl": [
+      "Igl1",
+      "Iglu"
+    ],
+    "AIgo": [
+      "Igol"
+    ],
+    "AIha": [
+      "Ihpg"
+    ],
+    "AIhe": [
+      "Ihpg"
+    ],
+    "AIhu": [
+      "Idam",
+      "Iob5",
+      "Iofr"
+    ],
+    "AIil": [
+      "Iild",
+      "Iilw"
+    ],
+    "AIim": [
+      "Iagi",
+      "Ihid",
+      "Iint",
+      "Istr"
+    ],
+    "AIlb": [
+      "Idic",
+      "Iob5"
+    ],
+    "AIlm": [
+      "Ilev"
+    ],
+    "AIlp": [
+      "Prg1",
+      "Prg2",
+      "Prg3",
+      "Prg4",
+      "Prg5",
+      "Prg6"
+    ],
+    "AIlu": [
+      "Ilum"
+    ],
+    "AIma": [
+      "Impg"
+    ],
+    "AImi": [
+      "Ilif"
+    ],
+    "AIml": [
+      "Ilif"
+    ],
+    "AImm": [
+      "Iman"
+    ],
+    "AImo": [
+      "imo1",
+      "imo2",
+      "imo3",
+      "imou"
+    ],
+    "AImr": [
+      "Impg"
+    ],
+    "AIms": [
+      "Imvb"
+    ],
+    "AInv": [
+      "inv1",
+      "inv2",
+      "inv3",
+      "inv4",
+      "inv5"
+    ],
+    "AIob": [
+      "Idam",
+      "Iob5"
+    ],
+    "AIpb": [
+      "Idic",
+      "Iob5"
+    ],
+    "AIpm": [
+      "ipmu"
+    ],
+    "AIpv": [
+      "ipv1",
+      "ipv2",
+      "ipv3"
+    ],
+    "AIra": [
+      "Ihps",
+      "Imps"
+    ],
+    "AIrc": [
+      "Ircd",
+      "irc2",
+      "irc3"
+    ],
+    "AIrd": [
+      "Rai1",
+      "Rai2",
+      "Rai3",
+      "Rai4",
+      "Raiu"
+    ],
+    "AIre": [
+      "Ihps",
+      "Imps"
+    ],
+    "AIrg": [
+      "irl1",
+      "irl2",
+      "irl3",
+      "irl4",
+      "irl5"
+    ],
+    "AIrm": [
+      "Imrp"
+    ],
+    "AIrs": [
+      "Hre1",
+      "Hre2"
+    ],
+    "AIrt": [
+      "Irec",
+      "Itp2"
+    ],
+    "AIrv": [
+      "Det1"
+    ],
+    "AIsa": [
+      "Ispi"
+    ],
+    "AIsb": [
+      "Idam",
+      "Iob2",
+      "Iob3",
+      "Iob4",
+      "Iob5",
+      "Iobu"
+    ],
+    "AIsh": [
+      "Osf1",
+      "Osf2"
+    ],
+    "AIsi": [
+      "Isib"
+    ],
+    "AIsm": [
+      "Iagi",
+      "Ihid",
+      "Iint",
+      "Istr"
+    ],
+    "AIsp": [
+      "Ispi"
+    ],
+    "AIsr": [
+      "isr1",
+      "isr2"
+    ],
+    "AIta": [
+      "Idet"
+    ],
+    "AItb": [
+      "Det1"
+    ],
+    "AItp": [
+      "Itp2",
+      "Itpm"
+    ],
+    "AIva": [
+      "Ivam"
+    ],
+    "AIvu": [
+      "AIvu"
+    ],
+    "AIwb": [
+      "Ens1",
+      "Ens2",
+      "Ens3"
+    ],
+    "AIxm": [
+      "Iagi",
+      "Ihid",
+      "Iint",
+      "Istr"
+    ],
+    "AIzb": [
+      "Idam",
+      "Iob5"
+    ],
+    "ANab": [
+      "Nab1",
+      "Nab2",
+      "Nab3",
+      "Nab4",
+      "Nab5",
+      "Nab6"
+    ],
+    "ANba": [
+      "Nba1",
+      "Nba2",
+      "Nba3",
+      "Nbau"
+    ],
+    "ANbf": [
+      "Nbf5",
+      "Ucs1",
+      "Ucs2",
+      "Ucs3",
+      "Ucs4"
+    ],
+    "ANbr": [
+      "Nbr1",
+      "Roa2",
+      "Roa3",
+      "Roa4",
+      "Roa5",
+      "Roa6",
+      "Roa7"
+    ],
+    "ANbs": [
+      "Nba1",
+      "Nba2",
+      "Nba3",
+      "Nbau"
+    ],
+    "ANca": [
+      "nca1"
+    ],
+    "ANch": [
+      "Nch1"
+    ],
+    "ANcl": [
+      "Ncl1",
+      "Ncl2",
+      "Ncl3",
+      "Ncl4",
+      "Ncl5",
+      "Ncl6"
+    ],
+    "ANcr": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Emeu",
+      "Ncr5",
+      "Ncr6"
+    ],
+    "ANcs": [
+      "Ncs1",
+      "Ncs2",
+      "Ncs3",
+      "Ncs4",
+      "Ncs5",
+      "Ncs6"
+    ],
+    "ANdb": [
+      "Ocr1",
+      "Ocr2",
+      "Ocr3",
+      "Ocr4",
+      "Ocr5",
+      "Ocr6"
+    ],
+    "ANdc": [
+      "Ndc1",
+      "Ndc2"
+    ],
+    "ANde": [
+      "Nde1",
+      "Nde2",
+      "Nde3",
+      "Nde4"
+    ],
+    "ANdh": [
+      "Nsi1",
+      "Nsi2",
+      "Nsi3",
+      "Nsi4"
+    ],
+    "ANdo": [
+      "Ndo1",
+      "Ndo2",
+      "Ndo3",
+      "Ndo4",
+      "Ndo5",
+      "Ndou"
+    ],
+    "ANdp": [
+      "Ndp1",
+      "Ndp2",
+      "Ndp3"
+    ],
+    "ANef": [
+      "Nef1"
+    ],
+    "ANeg": [
+      "Neg1",
+      "Neg2",
+      "Neg3",
+      "Neg4",
+      "Neg5",
+      "Neg6"
+    ],
+    "ANfb": [
+      "Htb1"
+    ],
+    "ANfd": [
+      "Nfd1",
+      "Nfd2",
+      "Nfd3"
+    ],
+    "ANfl": [
+      "Ocl1",
+      "Ocl2",
+      "Ucs3",
+      "Ucs4"
+    ],
+    "ANfy": [
+      "Nfy1",
+      "Nfy2",
+      "Nfyu"
+    ],
+    "ANhs": [
+      "Ncs1",
+      "Ncs2",
+      "Ncs3",
+      "Ncs4",
+      "Ncs5",
+      "Nhs6"
+    ],
+    "ANht": [
+      "Roa1",
+      "Roa2",
+      "Roa3",
+      "Roa4",
+      "Roa5",
+      "Roa6",
+      "Roa7"
+    ],
+    "ANic": [
+      "Nic1",
+      "Nic2",
+      "Nic3",
+      "Nic4",
+      "Nic5",
+      "Nic6"
+    ],
+    "ANin": [
+      "Uin1",
+      "Uin2",
+      "Uin3",
+      "Uin4"
+    ],
+    "ANlm": [
+      "Hwe1",
+      "Hwe2",
+      "Nlm2",
+      "Nlm3",
+      "Nlm4",
+      "Nlm5",
+      "Nlm6"
+    ],
+    "ANmo": [
+      "Esf1",
+      "Esf2",
+      "Esf3"
+    ],
+    "ANmr": [
+      "Nmr1"
+    ],
+    "ANms": [
+      "Nms1",
+      "Nms2"
+    ],
+    "ANpa": [
+      "Npa5",
+      "Npa6",
+      "Poi1",
+      "Poi2",
+      "Poi3",
+      "Poi4",
+      "ipmu"
+    ],
+    "ANpi": [
+      "Eim1",
+      "Eim2",
+      "Eim3"
+    ],
+    "ANpr": [
+      "Npr1"
+    ],
+    "ANrc": [
+      "Nrc1",
+      "Nrc2"
+    ],
+    "ANrf": [
+      "Hbz1",
+      "Hbz2",
+      "Hbz3",
+      "Hbz4",
+      "Hbz5",
+      "Hbz6"
+    ],
+    "ANrg": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Emeu",
+      "Nrg5",
+      "Nrg6"
+    ],
+    "ANsa": [
+      "Nsa1",
+      "Nsa2",
+      "Nsa3",
+      "Nsa4",
+      "Nsa5"
+    ],
+    "ANse": [
+      "Nse1"
+    ],
+    "ANsg": [
+      "Hwe1",
+      "Hwe2"
+    ],
+    "ANsi": [
+      "Nsi1",
+      "Nsi2",
+      "Nsi3",
+      "Nsi4"
+    ],
+    "ANsl": [
+      "Nsl1"
+    ],
+    "ANso": [
+      "Nso1",
+      "Nso2",
+      "Nso3",
+      "Nso4",
+      "Nso5"
+    ],
+    "ANsq": [
+      "Hwe1",
+      "Hwe2"
+    ],
+    "ANst": [
+      "Nst1",
+      "Nst2",
+      "Nst3",
+      "Nst4",
+      "Nst5"
+    ],
+    "ANsu": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Emeu"
+    ],
+    "ANsw": [
+      "Hwe1",
+      "Hwe2"
+    ],
+    "ANsy": [
+      "Nsy1",
+      "Nsy2",
+      "Nsy3",
+      "Nsy4",
+      "Nsy5",
+      "Nsyu"
+    ],
+    "ANtm": [
+      "Ntm1",
+      "Ntm2",
+      "Ntm3",
+      "Ntm4"
+    ],
+    "ANto": [
+      "Ntou"
+    ],
+    "ANvc": [
+      "Nvc1",
+      "Nvc2",
+      "Nvc3",
+      "Nvc4",
+      "Nvc5",
+      "Nvc6",
+      "Nvcu"
+    ],
+    "ANwm": [
+      "Hwe1",
+      "Hwe2"
+    ],
+    "AOac": [
+      "Cac1",
+      "Ear2",
+      "Ear3",
+      "Ear4"
+    ],
+    "AOae": [
+      "Oae1",
+      "Oae2"
+    ],
+    "AOcl": [
+      "Ocl1",
+      "Ocl2",
+      "Ocl3"
+    ],
+    "AOcr": [
+      "Ocr1",
+      "Ocr2",
+      "Ocr3",
+      "Ocr4",
+      "Ocr5",
+      "Ocr6"
+    ],
+    "AOeq": [
+      "Oeq1",
+      "Oeq2",
+      "Oeq3",
+      "Oeq4"
+    ],
+    "AOfs": [
+      "Ofs1"
+    ],
+    "AOhw": [
+      "Ocl1",
+      "Ocl2",
+      "Ocl3"
+    ],
+    "AOhx": [
+      "Ply1",
+      "Ply2",
+      "Ply3",
+      "Ply4",
+      "Ply5"
+    ],
+    "AOmi": [
+      "Omi1",
+      "Omi2",
+      "Omi3",
+      "Omi4"
+    ],
+    "AOre": [
+      "Ore1"
+    ],
+    "AOsf": [
+      "Osf1",
+      "Osf2"
+    ],
+    "AOsh": [
+      "Osh1",
+      "Osh2",
+      "Osh3",
+      "Osh4"
+    ],
+    "AOwd": [
+      "Hwe1",
+      "Hwe2"
+    ],
+    "AOwk": [
+      "Owk1",
+      "Owk2",
+      "Owk3",
+      "Owk4",
+      "Owk5"
+    ],
+    "AOws": [
+      "Wrs1",
+      "Wrs2",
+      "Wrs3"
+    ],
+    "AOww": [
+      "Oww1",
+      "Oww2"
+    ],
+    "AUan": [
+      "Hre2",
+      "Uan1",
+      "Uan3"
+    ],
+    "AUau": [
+      "Uau1",
+      "Uau2",
+      "Uau3"
+    ],
+    "AUav": [
+      "Uav1"
+    ],
+    "AUcb": [
+      "Rai1",
+      "Rai2",
+      "Rai3",
+      "Rai4",
+      "Ucb5",
+      "Ucb6"
+    ],
+    "AUcs": [
+      "Ucs1",
+      "Ucs2",
+      "Ucs3",
+      "Ucs4"
+    ],
+    "AUdc": [
+      "Udc1"
+    ],
+    "AUdd": [
+      "Udd1",
+      "Udd2"
+    ],
+    "AUdp": [
+      "Udp1",
+      "Udp2",
+      "Udp3",
+      "Udp4",
+      "Udp5"
+    ],
+    "AUdr": [
+      "Udp1",
+      "Udp2",
+      "Udp3",
+      "Udp4",
+      "Udp5"
+    ],
+    "AUds": [
+      "Hmt3",
+      "Uds1",
+      "Uds2"
+    ],
+    "AUfa": [
+      "Ufa1",
+      "Ufa2"
+    ],
+    "AUfn": [
+      "Ufn1",
+      "Ufn2"
+    ],
+    "AUfu": [
+      "Ufa1",
+      "Ufa2"
+    ],
+    "AUim": [
+      "Uim1",
+      "Uim2",
+      "Uim3",
+      "Uim4",
+      "Uim5",
+      "Uim6"
+    ],
+    "AUin": [
+      "Uin1",
+      "Uin2",
+      "Uin3",
+      "Uin4"
+    ],
+    "AUls": [
+      "Uls1",
+      "Uls2",
+      "Uls3",
+      "Uls4",
+      "Uls5",
+      "Ulsu"
+    ],
+    "AUsl": [
+      "Usl1"
+    ],
+    "AUts": [
+      "Uts1",
+      "Uts2",
+      "Uts3"
+    ],
+    "Aaab": [
+      "Hsb1",
+      "Hsb2",
+      "Hsb3"
+    ],
+    "Aabr": [
+      "Oar1",
+      "Oar2"
+    ],
+    "Aabs": [
+      "abs1",
+      "abs2"
+    ],
+    "Aadm": [
+      "Adm1",
+      "Adm2"
+    ],
+    "Aakb": [
+      "Akb1",
+      "Akb2",
+      "Ear2",
+      "Ear3",
+      "Ear4"
+    ],
+    "Aall": [
+      "Neu1",
+      "Neu2",
+      "Neu3",
+      "Neu4"
+    ],
+    "Aami": [
+      "Ams3",
+      "Ams4",
+      "Ixs1",
+      "Ixs2"
+    ],
+    "Aamk": [
+      "Iagi",
+      "Ihid",
+      "Iint",
+      "Istr"
+    ],
+    "Aams": [
+      "Ams1",
+      "Ams2",
+      "Ams3",
+      "Ams4"
+    ],
+    "Aapl": [
+      "Apl1",
+      "Apl2",
+      "Apl3",
+      "Aplu"
+    ],
+    "Aarm": [
+      "Arm1",
+      "Arm2"
+    ],
+    "Aasl": [
+      "Slo1",
+      "Slo2",
+      "Slo3"
+    ],
+    "Aast": [
+      "ast1",
+      "ast2"
+    ],
+    "Aave": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Emeu",
+      "ave5"
+    ],
+    "Abdt": [
+      "Det1"
+    ],
+    "Abgm": [
+      "Bgm1",
+      "Bgm2",
+      "Bgm3",
+      "Bgm4"
+    ],
+    "Abli": [
+      "Bli1",
+      "Bli2"
+    ],
+    "Ablo": [
+      "Blo1",
+      "Blo2",
+      "Blo3"
+    ],
+    "Ablp": [
+      "Bli1",
+      "Bli2"
+    ],
+    "Abof": [
+      "Hfs1",
+      "Hfs2",
+      "Hfs3",
+      "Hfs4",
+      "Hfs5",
+      "Hfs6"
+    ],
+    "Abrf": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Emeu"
+    ],
+    "Absk": [
+      "bsk1",
+      "bsk2",
+      "bsk3"
+    ],
+    "Abtl": [
+      "Btl1",
+      "Btl2"
+    ],
+    "Abun": [
+      "Car1"
+    ],
+    "Abur": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Emeu"
+    ],
+    "Acan": [
+      "Can1",
+      "Can2"
+    ],
+    "Acar": [
+      "Car1"
+    ],
+    "Acha": [
+      "Cha1"
+    ],
+    "Achd": [
+      "Chd1",
+      "Chd2",
+      "Chd3"
+    ],
+    "Achl": [
+      "Chl1"
+    ],
+    "Aclf": [
+      "Nsi1",
+      "Nsi2",
+      "Nsi3",
+      "Nsi4"
+    ],
+    "Acmg": [
+      "Cmg2",
+      "Cmg3",
+      "Nch1"
+    ],
+    "Acoa": [
+      "coa1",
+      "coau"
+    ],
+    "Acoh": [
+      "coa1",
+      "coau"
+    ],
+    "Acoi": [
+      "coa1",
+      "coa2",
+      "coau"
+    ],
+    "Acor": [
+      "Cor1"
+    ],
+    "Acpf": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Emeu"
+    ],
+    "Acri": [
+      "Cri1",
+      "Cri2",
+      "Cri3"
+    ],
+    "Acrs": [
+      "Crs\u0000"
+    ],
+    "Acyc": [
+      "cyc1"
+    ],
+    "Adch": [
+      "Adm1",
+      "Adm2"
+    ],
+    "Adda": [
+      "Dda1",
+      "Dda2",
+      "Dda3",
+      "Dda4"
+    ],
+    "Adec": [
+      "dcp1",
+      "dcp2"
+    ],
+    "Adef": [
+      "Def1",
+      "Def2",
+      "Def3",
+      "Def4",
+      "Def5",
+      "Def6",
+      "Def7",
+      "Def8"
+    ],
+    "Adet": [
+      "Det1"
+    ],
+    "Adev": [
+      "Dev1"
+    ],
+    "Adis": [
+      "Adm1",
+      "Adm2"
+    ],
+    "Adtn": [
+      "Dtn1",
+      "Dtn2"
+    ],
+    "Adts": [
+      "Det1"
+    ],
+    "Advc": [
+      "Car1",
+      "Dev2",
+      "Dev3"
+    ],
+    "Advm": [
+      "dvm1",
+      "dvm2",
+      "dvm3",
+      "dvm4",
+      "dvm5",
+      "dvm6"
+    ],
+    "Aeat": [
+      "Eat1",
+      "Eat2",
+      "Eat3"
+    ],
+    "Aegm": [
+      "Egm1",
+      "Egm2"
+    ],
+    "Aenc": [
+      "Car1"
+    ],
+    "Aens": [
+      "Ens1",
+      "Ens2",
+      "Ens3"
+    ],
+    "Aent": [
+      "ent1"
+    ],
+    "Aesn": [
+      "Esn1",
+      "Esn2",
+      "Esn3",
+      "Esn4",
+      "Esn5"
+    ],
+    "Aetf": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Emeu"
+    ],
+    "Aeth": [
+      "Eth1",
+      "Eth2"
+    ],
+    "Aexh": [
+      "exh1",
+      "exhu"
+    ],
+    "Aeye": [
+      "hwdu"
+    ],
+    "Afae": [
+      "Fae1",
+      "Fae2"
+    ],
+    "Afak": [
+      "fak1",
+      "fak2",
+      "fak3",
+      "fak4",
+      "fak5"
+    ],
+    "Afbk": [
+      "fbk1",
+      "fbk2",
+      "fbk3",
+      "fbk4",
+      "fbk5"
+    ],
+    "Afla": [
+      "Fla1",
+      "Fla2",
+      "Fla3"
+    ],
+    "Aflk": [
+      "flk1",
+      "flk2",
+      "flk3",
+      "flk4",
+      "flk5"
+    ],
+    "Afsh": [
+      "flk1",
+      "flk2",
+      "flk3",
+      "flk4",
+      "flk5"
+    ],
+    "Afzy": [
+      "Blo1",
+      "Blo2",
+      "Blo3"
+    ],
+    "Agho": [
+      "Gho1",
+      "Gho2",
+      "Gho3"
+    ],
+    "Agld": [
+      "Gld1",
+      "Gld2",
+      "Gld3"
+    ],
+    "Agra": [
+      "gra1",
+      "gra2",
+      "gra3",
+      "gra4",
+      "gra5"
+    ],
+    "Agyd": [
+      "Gyd1",
+      "Gyd2",
+      "Gyd3",
+      "Gydu"
+    ],
+    "Agyv": [
+      "Det1"
+    ],
+    "Ahar": [
+      "Har1",
+      "Har2",
+      "Har3"
+    ],
+    "Ahea": [
+      "Hea1"
+    ],
+    "Ahid": [
+      "Shm1",
+      "Shm2",
+      "Shm3"
+    ],
+    "Ahrl": [
+      "Har1",
+      "Har2"
+    ],
+    "Ahwd": [
+      "hwdu"
+    ],
+    "Ainf": [
+      "Inf1",
+      "Inf2",
+      "Inf3",
+      "Inf4"
+    ],
+    "Aivs": [
+      "Ivs1"
+    ],
+    "Aliq": [
+      "liq1",
+      "liq2",
+      "liq3",
+      "liq4"
+    ],
+    "Alit": [
+      "Lit1",
+      "Lit2"
+    ],
+    "Aloa": [
+      "Loa1"
+    ],
+    "Alsh": [
+      "Lsh1"
+    ],
+    "Ambt": [
+      "Mbt1",
+      "Mbt2",
+      "Mbt3",
+      "Mbt4",
+      "Mbt5"
+    ],
+    "Amdf": [
+      "Def1",
+      "Def2",
+      "Def3",
+      "Def4",
+      "Def5",
+      "Def6",
+      "Def7",
+      "Def8"
+    ],
+    "Amec": [
+      "mec1"
+    ],
+    "Amfl": [
+      "mfl1",
+      "mfl2",
+      "mfl3",
+      "mfl4",
+      "mfl5",
+      "mfl6"
+    ],
+    "Amil": [
+      "Mil1",
+      "Mil2"
+    ],
+    "Amim": [
+      "mim1"
+    ],
+    "Amin": [
+      "Min1",
+      "Min2"
+    ],
+    "Amls": [
+      "mls1"
+    ],
+    "Amtc": [
+      "Car1"
+    ],
+    "Andt": [
+      "Ndt1",
+      "Ndt2",
+      "Ndt3"
+    ],
+    "Aneu": [
+      "Neu1",
+      "Neu2",
+      "Neu3",
+      "Neu4"
+    ],
+    "Anhe": [
+      "Hea1"
+    ],
+    "Ansp": [
+      "Nsp1",
+      "Nsp2",
+      "Nsp3"
+    ],
+    "Aoar": [
+      "Oar1",
+      "Oar2"
+    ],
+    "Aphx": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Emeu"
+    ],
+    "Apig": [
+      "Eim1",
+      "Eim2",
+      "Eim3"
+    ],
+    "Apiv": [
+      "Gho1"
+    ],
+    "Aply": [
+      "Ply1",
+      "Ply2",
+      "Ply3",
+      "Ply4",
+      "Ply5"
+    ],
+    "Apo2": [
+      "Poi1",
+      "Poi2",
+      "Poi3",
+      "Poi4"
+    ],
+    "Apoi": [
+      "Poi1",
+      "Poi2",
+      "Poi3",
+      "Poi4"
+    ],
+    "Apos": [
+      "Pos1"
+    ],
+    "Aprg": [
+      "Prg1",
+      "Prg2",
+      "Prg3",
+      "Prg4",
+      "Prg5",
+      "Prg6"
+    ],
+    "Aps2": [
+      "Pos1",
+      "Pos2",
+      "Pos3",
+      "Pos4"
+    ],
+    "Apsh": [
+      "Hbn1",
+      "Hbn2"
+    ],
+    "Apts": [
+      "hwdu"
+    ],
+    "Apxf": [
+      "pxf1",
+      "pxf2"
+    ],
+    "Arai": [
+      "Rai1",
+      "Rai2",
+      "Rai3",
+      "Rai4",
+      "Raiu"
+    ],
+    "Arav": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Emeu"
+    ],
+    "Arej": [
+      "Rej1",
+      "Rej2",
+      "Rej3",
+      "Rej4"
+    ],
+    "Arel": [
+      "Ihpr"
+    ],
+    "Aren": [
+      "Rep1",
+      "Rep2",
+      "Rep3",
+      "Rep4",
+      "Rep5"
+    ],
+    "Arep": [
+      "Rep1",
+      "Rep2",
+      "Rep3",
+      "Rep4",
+      "Rep5"
+    ],
+    "Aroa": [
+      "Roa1",
+      "Roa2",
+      "Roa3",
+      "Roa4",
+      "Roa5",
+      "Roa6",
+      "Roa7"
+    ],
+    "Aroc": [
+      "Efk1",
+      "Efk2",
+      "Efk3"
+    ],
+    "Aroo": [
+      "Roo1",
+      "Roo2",
+      "Roo3",
+      "Roo4"
+    ],
+    "Arpb": [
+      "Rej1",
+      "Rej2",
+      "Rpb3",
+      "Rpb4",
+      "Rpb5",
+      "Rpb6"
+    ],
+    "Arpl": [
+      "Rej1",
+      "Rpb3",
+      "Rpb5",
+      "Rpb6"
+    ],
+    "Arpm": [
+      "Rej2",
+      "Rpb4",
+      "Rpb5",
+      "Rpb6"
+    ],
+    "Arst": [
+      "Rep1",
+      "Rep2",
+      "Rep3",
+      "Rep4",
+      "Rep5"
+    ],
+    "Artn": [
+      "Rtn1",
+      "Rtn2"
+    ],
+    "Asal": [
+      "Sal1",
+      "Sal2"
+    ],
+    "Asds": [
+      "Dda1",
+      "Dda2",
+      "Dda3",
+      "Dda4",
+      "Sds1",
+      "Sds6"
+    ],
+    "Ashm": [
+      "Shm1",
+      "Shm2",
+      "Shm3",
+      "Shm4"
+    ],
+    "Asla": [
+      "sla1",
+      "sla2"
+    ],
+    "Aslo": [
+      "Slo1",
+      "Slo2",
+      "Slo3"
+    ],
+    "Asod": [
+      "Sod1",
+      "Sod2"
+    ],
+    "Aspa": [
+      "Spa1"
+    ],
+    "Aspb": [
+      "spb1",
+      "spb2",
+      "spb3",
+      "spb4",
+      "spb5"
+    ],
+    "Aspd": [
+      "Sod1",
+      "Sod2"
+    ],
+    "Aspl": [
+      "spl1",
+      "spl2"
+    ],
+    "Aspo": [
+      "Spo1",
+      "Spo2",
+      "Spo3",
+      "Spo4"
+    ],
+    "Assk": [
+      "Ssk1",
+      "Ssk2",
+      "Ssk3",
+      "Ssk4",
+      "Ssk5"
+    ],
+    "Assp": [
+      "Sod1",
+      "Sod2"
+    ],
+    "Asta": [
+      "Sta1",
+      "Sta2",
+      "Sta3",
+      "Sta4",
+      "Sta5",
+      "Stau"
+    ],
+    "Aste": [
+      "Udp1",
+      "Udp2",
+      "Udp3",
+      "Udp4",
+      "Udp5"
+    ],
+    "Astn": [
+      "Eme1",
+      "Eme2",
+      "Eme3",
+      "Eme4",
+      "Emeu",
+      "ave5"
+    ],
+    "Atau": [
+      "Tau1",
+      "Tau2",
+      "Tau3",
+      "Tau4",
+      "Tau5"
+    ],
+    "Atdg": [
+      "Tdg1",
+      "Tdg2",
+      "Tdg3",
+      "Tdg4",
+      "Tdg5"
+    ],
+    "Atru": [
+      "Det1"
+    ],
+    "Atsp": [
+      "Tsp1",
+      "Tsp2"
+    ],
+    "Auco": [
+      "Dda1",
+      "Dda2",
+      "Dda3",
+      "Dda4",
+      "Uco5",
+      "Uco6"
+    ],
+    "Auhf": [
+      "Uhf1",
+      "Uhf2"
+    ],
+    "Auns": [
+      "Sal1",
+      "Sal2"
+    ],
+    "Auuf": [
+      "Roa5",
+      "Roa6",
+      "Roa7",
+      "Uhf1",
+      "Uhf2",
+      "Uuf1",
+      "Uuf2",
+      "Uuf3"
+    ],
+    "Aven": [
+      "Poi1",
+      "Poi2",
+      "Poi3",
+      "Poi4"
+    ],
+    "Avng": [
+      "Rai1",
+      "Rai2",
+      "Rai3",
+      "Rai4",
+      "Raiu",
+      "Ucb5",
+      "Ucb6"
+    ],
+    "Awar": [
+      "War1",
+      "War2",
+      "War3",
+      "War4"
+    ],
+    "Aweb": [
+      "Ens1",
+      "Ens2",
+      "Ens3"
+    ],
+    "Awha": [
+      "Wha1",
+      "Wha2",
+      "Wha3"
+    ],
+    "Awrp": [
+      "Wrp1",
+      "Wrp2"
+    ]
+  },
+  "base_codes": {
+    "AAns": "AAns",
+    "ACac": "AOac",
+    "ACad": "ACad",
+    "ACah": "AEah",
+    "ACam": "Aams",
+    "ACat": "AEar",
+    "ACav": "AHad",
+    "ACba": "AHab",
+    "ACbb": "Ablo",
+    "ACbc": "ANbf",
+    "ACbf": "ACbf",
+    "ACbh": "AHbh",
+    "ACbk": "ANba",
+    "ACbl": "Ablo",
+    "ACbn": "AHbn",
+    "ACbz": "AHbz",
+    "ACc2": "AUcs",
+    "ACc3": "AUcs",
+    "ACca": "AUcs",
+    "ACcb": "AHtb",
+    "ACce": "ANca",
+    "ACch": "ANch",
+    "ACcl": "AOcl",
+    "ACcn": "Acan",
+    "ACcr": "Acri",
+    "ACcs": "Acrs",
+    "ACct": "AOcr",
+    "ACcv": "AUcs",
+    "ACcw": "AHca",
+    "ACcy": "Acyc",
+    "ACd2": "Aadm",
+    "ACdc": "AUdc",
+    "ACde": "Advm",
+    "ACdm": "Aadm",
+    "ACdr": "AHdr",
+    "ACds": "AHds",
+    "ACdv": "ACdv",
+    "ACen": "Aens",
+    "ACes": "AEev",
+    "ACev": "AEev",
+    "ACf2": "AUfu",
+    "ACf3": "ANfd",
+    "ACfa": "AUfa",
+    "ACfb": "ANfb",
+    "ACfd": "ANfd",
+    "ACff": "Afae",
+    "ACfl": "ANfl",
+    "ACfn": "AUfn",
+    "ACfr": "AEfn",
+    "ACfs": "AHfs",
+    "ACfu": "AUfu",
+    "AChv": "AOhw",
+    "AChw": "Ahwd",
+    "AChx": "AOhx",
+    "ACif": "Ainf",
+    "ACim": "AEim",
+    "ACls": "Alsh",
+    "ACm2": "Amim",
+    "ACm3": "Amim",
+    "ACmf": "ANms",
+    "ACmi": "Amim",
+    "ACmo": "ANmo",
+    "ACmp": "AUim",
+    "ACnr": "Aoar",
+    "ACpa": "ANpa",
+    "ACps": "Apos",
+    "ACpu": "Aprg",
+    "ACpv": "Awar",
+    "ACpy": "Aply",
+    "ACr1": "Aroa",
+    "ACr2": "Arej",
+    "ACrd": "Arai",
+    "ACrf": "ANrf",
+    "ACrg": "ANrf",
+    "ACrj": "Arej",
+    "ACrk": "Arsk",
+    "ACrn": "ACrn",
+    "ACro": "Aroa",
+    "ACs7": "AOsf",
+    "ACs8": "AOsf",
+    "ACs9": "AOsf",
+    "ACsa": "AHfa",
+    "ACsf": "AOsf",
+    "ACsh": "AOsh",
+    "ACsi": "ANsi",
+    "ACsk": "Arsk",
+    "ACsl": "AUsl",
+    "ACsm": "AHdr",
+    "ACsp": "ACsp",
+    "ACss": "AEsh",
+    "ACst": "AOsh",
+    "ACsw": "Aslo",
+    "ACt2": "ACtc",
+    "ACtb": "ACtb",
+    "ACtc": "ACtc",
+    "ACtn": "AOwd",
+    "ACua": "AUau",
+    "ACuf": "Auhf",
+    "ACvp": "AUav",
+    "ACvs": "Aven",
+    "ACwb": "Aweb",
+    "ACwe": "AHwe",
+    "AEIl": "AEme",
+    "AEah": "AEah",
+    "AEar": "AEar",
+    "AEbl": "AEbl",
+    "AEbu": "AEbu",
+    "AEer": "AEer",
+    "AEev": "AEev",
+    "AEfk": "AEfk",
+    "AEfn": "AEfn",
+    "AEim": "AEim",
+    "AEmb": "AEmb",
+    "AEme": "AEme",
+    "AEpa": "AEpa",
+    "AEsb": "AEsf",
+    "AEsf": "AEsf",
+    "AEsh": "AEsh",
+    "AEst": "AEst",
+    "AEsv": "AEsv",
+    "AEtq": "AEtq",
+    "AEvi": "AEme",
+    "AGbu": "AGbu",
+    "AHab": "AHab",
+    "AHad": "AHad",
+    "AHav": "AHav",
+    "AHbh": "AHbh",
+    "AHbn": "AHbn",
+    "AHbu": "AHbu",
+    "AHbz": "AHbz",
+    "AHca": "AHca",
+    "AHdr": "AHdr",
+    "AHds": "AHds",
+    "AHer": "AHer",
+    "AHfa": "AHfa",
+    "AHfs": "AHfs",
+    "AHhb": "AHhb",
+    "AHmt": "AHmt",
+    "AHpx": "AHpx",
+    "AHre": "AHre",
+    "AHta": "AIta",
+    "AHtb": "AHtb",
+    "AHtc": "AHtc",
+    "AHwe": "AHwe",
+    "AI2m": "AImm",
+    "AIa1": "AIab",
+    "AIa3": "AIab",
+    "AIa4": "AIab",
+    "AIa6": "AIab",
+    "AIaa": "AIaa",
+    "AIad": "AHad",
+    "AIae": "AOae",
+    "AIam": "AIam",
+    "AIan": "AIan",
+    "AIar": "AEar",
+    "AIat": "AIat",
+    "AIau": "AUau",
+    "AIav": "AUav",
+    "AIaz": "AIab",
+    "AIba": "AHab",
+    "AIbb": "AIbl",
+    "AIbd": "AIfs",
+    "AIbf": "AIbl",
+    "AIbg": "AIbl",
+    "AIbh": "AIbl",
+    "AIbk": "AEbl",
+    "AIbl": "AIbl",
+    "AIbm": "AImm",
+    "AIbr": "AIbl",
+    "AIbs": "AIbl",
+    "AIbt": "AIbl",
+    "AIbx": "AHbh",
+    "AIcb": "AIcb",
+    "AIcd": "AOac",
+    "AIcf": "AIcf",
+    "AIcl": "AOcl",
+    "AIcm": "Acmg",
+    "AIco": "AIco",
+    "AIcs": "AOcr",
+    "AIct": "AIct",
+    "AIcy": "Acyc",
+    "AId0": "AIde",
+    "AId1": "AIde",
+    "AId2": "AIde",
+    "AId3": "AIde",
+    "AId4": "AIde",
+    "AId5": "AIde",
+    "AId7": "AIde",
+    "AId8": "AIde",
+    "AIda": "AIda",
+    "AIdb": "AIda",
+    "AIdc": "AIdc",
+    "AIdd": "AIdd",
+    "AIdf": "AIsb",
+    "AIdg": "AIdg",
+    "AIdi": "AIdi",
+    "AIdm": "AIdm",
+    "AIdn": "AIfb",
+    "AIdp": "AUdp",
+    "AIds": "AIdi",
+    "AIdv": "AHds",
+    "AIe2": "AIem",
+    "AIem": "AIem",
+    "AIes": "AIfs",
+    "AIev": "AEev",
+    "AIf2": "AIhu",
+    "AIfa": "AIfa",
+    "AIfb": "AIfb",
+    "AIfd": "AIfs",
+    "AIfe": "AIfe",
+    "AIff": "AIfs",
+    "AIfg": "Aclf",
+    "AIfh": "AIfs",
+    "AIfl": "AIfl",
+    "AIfm": "AIfm",
+    "AIfn": "AIfn",
+    "AIfo": "AIfo",
+    "AIfr": "AIfs",
+    "AIfs": "AIfs",
+    "AIft": "AIob",
+    "AIfu": "AIfs",
+    "AIfw": "AIfb",
+    "AIfx": "AIfl",
+    "AIfz": "ANfd",
+    "AIg2": "AIdg",
+    "AIgd": "AIfb",
+    "AIgf": "AIgl",
+    "AIgm": "AIam",
+    "AIgo": "AIgo",
+    "AIgu": "AIgl",
+    "AIgx": "Aoar",
+    "AIh1": "AIhe",
+    "AIh2": "AIhe",
+    "AIh3": "AIhe",
+    "AIha": "AIha",
+    "AIhb": "AIha",
+    "AIhl": "AHhb",
+    "AIhm": "Ashm",
+    "AIhw": "Ahwd",
+    "AIhx": "AIhe",
+    "AIi1": "AIab",
+    "AIi3": "AIab",
+    "AIi4": "AIab",
+    "AIi6": "AIab",
+    "AIil": "AIil",
+    "AIim": "AIim",
+    "AIin": "AUin",
+    "AIir": "AIfs",
+    "AIl1": "AIml",
+    "AIl2": "AIml",
+    "AIlb": "AIlb",
+    "AIlf": "AIml",
+    "AIll": "AIsb",
+    "AIlm": "AIlm",
+    "AIlp": "AIlp",
+    "AIls": "Alsh",
+    "AIlu": "AIlu",
+    "AIlx": "AIsb",
+    "AIlz": "AIml",
+    "AIm1": "AIma",
+    "AIm2": "AIma",
+    "AImb": "AImm",
+    "AImh": "AImi",
+    "AImo": "AImo",
+    "AImr": "AImr",
+    "AIms": "AIms",
+    "AImt": "AHmt",
+    "AImv": "AImm",
+    "AImx": "Amim",
+    "AImz": "AImm",
+    "AInd": "ACad",
+    "AInm": "AIsm",
+    "AInv": "AInv",
+    "AIob": "AIob",
+    "AIos": "Aslo",
+    "AIp1": "AIrg",
+    "AIp2": "AIrg",
+    "AIp3": "AIrg",
+    "AIp4": "AIrg",
+    "AIp5": "AIrg",
+    "AIp6": "AIrg",
+    "AIpb": "AIpb",
+    "AIpg": "Aprg",
+    "AIpl": "AIrg",
+    "AIpm": "AIpm",
+    "AIpr": "AIrg",
+    "AIps": "Aprg",
+    "AIpv": "AIpv",
+    "AIpx": "AImi",
+    "AIpz": "AIha",
+    "AIra": "AIra",
+    "AIrb": "AIrb",
+    "AIrc": "AIrc",
+    "AIrd": "AIrd",
+    "AIre": "AIre",
+    "AIri": "AIri",
+    "AIrl": "AIrg",
+    "AIrm": "AIrm",
+    "AIrn": "AIrm",
+    "AIrr": "Aroa",
+    "AIrs": "AIrs",
+    "AIrt": "AIrt",
+    "AIrv": "AIrv",
+    "AIrx": "AHre",
+    "AIs1": "AIab",
+    "AIs2": "AIas",
+    "AIs3": "AIab",
+    "AIs4": "AIab",
+    "AIs6": "AIab",
+    "AIsa": "AIsa",
+    "AIsb": "AIsb",
+    "AIse": "ANsi",
+    "AIsh": "AIsh",
+    "AIsi": "AIsi",
+    "AIsl": "AIrg",
+    "AIsm": "AIsm",
+    "AIso": "AIso",
+    "AIsp": "AIsp",
+    "AIsr": "AIsr",
+    "AIsw": "Aeye",
+    "AIsx": "AIas",
+    "AIsz": "Aspo",
+    "AIt6": "AIat",
+    "AIt9": "AIat",
+    "AIta": "AIta",
+    "AItb": "AItb",
+    "AItc": "AIat",
+    "AItf": "AIat",
+    "AItg": "AIat",
+    "AIth": "AIat",
+    "AIti": "AIat",
+    "AItj": "AIat",
+    "AItk": "AIat",
+    "AItl": "AIat",
+    "AItm": "AIim",
+    "AItn": "AIat",
+    "AItp": "AItp",
+    "AIts": "ANtm",
+    "AItx": "AIat",
+    "AIuf": "Auhf",
+    "AIut": "AIfs",
+    "AIuv": "Ault",
+    "AIuw": "AIfs",
+    "AIv1": "AIvi",
+    "AIv2": "AIvi",
+    "AIva": "AIva",
+    "AIvg": "AIvu",
+    "AIvl": "AIvu",
+    "AIvu": "AIvu",
+    "AIwb": "AIwb",
+    "AIwd": "Aakb",
+    "AIwm": "ANwm",
+    "AIx1": "AIab",
+    "AIx2": "AIab",
+    "AIx3": "AIab",
+    "AIx4": "AIab",
+    "AIx5": "AIab",
+    "AIxk": "Absk",
+    "AIxm": "AIxm",
+    "AIxs": "Aami",
+    "AIzb": "AIzb",
+    "ANab": "ANab",
+    "ANak": "Afak",
+    "ANav": "AHav",
+    "ANb2": "AHbh",
+    "ANba": "ANba",
+    "ANbf": "ANbf",
+    "ANbh": "AHbh",
+    "ANbl": "AEbl",
+    "ANbr": "ANbr",
+    "ANbs": "ANbs",
+    "ANbu": "ANbu",
+    "ANc1": "ANcs",
+    "ANc2": "ANcs",
+    "ANc3": "ANcs",
+    "ANca": "ANca",
+    "ANcf": "ANbf",
+    "ANch": "ANch",
+    "ANcl": "ANcl",
+    "ANcr": "ANcr",
+    "ANcs": "ANcs",
+    "ANd1": "ANde",
+    "ANd2": "ANde",
+    "ANd3": "ANde",
+    "ANdb": "ANdb",
+    "ANdc": "ANdc",
+    "ANde": "ANde",
+    "ANdh": "ANdh",
+    "ANdo": "ANdo",
+    "ANdp": "ANdp",
+    "ANdr": "AHdr",
+    "ANef": "ANef",
+    "ANeg": "ANeg",
+    "ANen": "Aens",
+    "ANfa": "AHca",
+    "ANfb": "ANfb",
+    "ANfd": "ANfd",
+    "ANfl": "ANfl",
+    "ANfs": "AHfs",
+    "ANfy": "ANfy",
+    "ANg1": "ANrg",
+    "ANg2": "ANrg",
+    "ANg3": "ANrg",
+    "ANha": "Ahar",
+    "ANhs": "ANhs",
+    "ANht": "ANht",
+    "ANhw": "AOhw",
+    "ANhx": "AOhx",
+    "ANia": "ANia",
+    "ANic": "ANic",
+    "ANin": "ANin",
+    "ANlm": "ANlm",
+    "ANmo": "ANmo",
+    "ANmr": "ANmr",
+    "ANms": "ANms",
+    "ANpa": "ANpa",
+    "ANpi": "ANpi",
+    "ANpr": "ANpr",
+    "ANr2": "AOre",
+    "ANr3": "ANrc",
+    "ANrc": "ANrc",
+    "ANre": "Aarm",
+    "ANrf": "ANrf",
+    "ANrg": "ANrg",
+    "ANrn": "AOre",
+    "ANs1": "ANsy",
+    "ANs2": "ANsy",
+    "ANs3": "ANsy",
+    "ANsa": "ANsa",
+    "ANsb": "AHtb",
+    "ANse": "ANse",
+    "ANsg": "ANsg",
+    "ANsh": "AOsh",
+    "ANsi": "ANsi",
+    "ANsl": "ANsl",
+    "ANso": "ANso",
+    "ANsq": "ANsq",
+    "ANss": "ANss",
+    "ANst": "ANst",
+    "ANsw": "ANsw",
+    "ANsy": "ANsy",
+    "ANt2": "AUts",
+    "ANta": "Atau",
+    "ANth": "AUts",
+    "ANtm": "ANtm",
+    "ANto": "ANto",
+    "ANtr": "Atru",
+    "ANvc": "ANvc",
+    "ANwk": "AOwk",
+    "ANwm": "ANwm",
+    "AOae": "AOae",
+    "AObu": "AObu",
+    "AOcl": "AOcl",
+    "AOcr": "AOcr",
+    "AOeq": "AOeq",
+    "AOfs": "AOfs",
+    "AOhw": "AOhw",
+    "AOhx": "AOhx",
+    "AOls": "AUls",
+    "AOmi": "AOmi",
+    "AOr2": "AOae",
+    "AOr3": "AOre",
+    "AOre": "AOre",
+    "AOs2": "AOsh",
+    "AOsf": "AOsf",
+    "AOsh": "AOsh",
+    "AOsw": "AOwd",
+    "AOvd": "AOvd",
+    "AOw2": "AOws",
+    "AOwk": "AOwk",
+    "AOws": "AOws",
+    "AOww": "AOww",
+    "APai": "APai",
+    "APdi": "AIdi",
+    "APh1": "AIha",
+    "APh2": "AIha",
+    "APh3": "AIha",
+    "APmg": "AImr",
+    "APmr": "AImr",
+    "APra": "AIra",
+    "APrl": "AHre",
+    "APrr": "AHre",
+    "APsa": "AIsa",
+    "APwt": "Aeye",
+    "ARal": "ARal",
+    "AUan": "AUan",
+    "AUau": "AUau",
+    "AUav": "AUav",
+    "AUbu": "AUbu",
+    "AUcb": "AUcb",
+    "AUcs": "AUcs",
+    "AUdc": "AUdc",
+    "AUdd": "AUdd",
+    "AUdp": "AUdp",
+    "AUdr": "AUdr",
+    "AUds": "AUds",
+    "AUfa": "AUfa",
+    "AUfn": "AUfn",
+    "AUfu": "AUfu",
+    "AUim": "AUim",
+    "AUin": "AUin",
+    "AUls": "AUls",
+    "AUsl": "AUsl",
+    "AUts": "AUts",
+    "Aabr": "Aabr",
+    "Aabs": "Aabs",
+    "Aadm": "Aadm",
+    "Aaha": "Aaha",
+    "Aakb": "Aakb",
+    "Aall": "Aall",
+    "Aalr": "Aalr",
+    "Aam2": "Aams",
+    "Aamk": "Aamk",
+    "Aams": "Aams",
+    "Aap1": "Aapl",
+    "Aap2": "Aapl",
+    "Aap3": "Aapl",
+    "Aap4": "Aapl",
+    "Aasl": "Aasl",
+    "Aast": "Aast",
+    "Aatk": "Aatk",
+    "Aave": "Aave",
+    "Aawa": "Aawa",
+    "Abdl": "Abli",
+    "Abds": "Abli",
+    "Abdt": "Abdt",
+    "Abgl": "Abli",
+    "Abgm": "Abgm",
+    "Abgs": "Abli",
+    "Ablo": "Ablo",
+    "Ablp": "Ablp",
+    "Abof": "Abof",
+    "Abrf": "Abrf",
+    "Absk": "Absk",
+    "Abtl": "Abtl",
+    "Abu2": "Abur",
+    "Abu3": "Abur",
+    "Abu5": "Abur",
+    "Abun": "Abun",
+    "Abur": "Abur",
+    "Acan": "Acan",
+    "Acdb": "ANdb",
+    "Acdh": "ANdh",
+    "Acef": "ANef",
+    "Achd": "Achd",
+    "Ache": "AIdc",
+    "Achl": "Achl",
+    "Acht": "ANht",
+    "Aclf": "Aclf",
+    "Acmg": "Acmg",
+    "Acn2": "Acan",
+    "Acny": "Acyc",
+    "Aco2": "Acoi",
+    "Aco3": "Acoi",
+    "Acoa": "Acoa",
+    "Acoh": "Acoh",
+    "Acor": "Acor",
+    "Acpf": "Acpf",
+    "Acri": "Acri",
+    "Acrs": "Acrs",
+    "Acyc": "Acyc",
+    "Adch": "Adch",
+    "Adcn": "Adis",
+    "Adda": "Adda",
+    "Adec": "Adec",
+    "Adef": "Adef",
+    "Adev": "Adev",
+    "Adis": "Adis",
+    "Adri": "Adri",
+    "Adro": "Adro",
+    "Adsm": "Adis",
+    "Adt1": "Adet",
+    "Adtg": "Atru",
+    "Adtn": "Adtn",
+    "Adts": "Adts",
+    "Advc": "Advc",
+    "Advm": "Advm",
+    "Aeat": "Aeat",
+    "Aegm": "Aegm",
+    "Aegr": "AIdd",
+    "Aeib": "APai",
+    "Aemk": "APai",
+    "Aenc": "Aenc",
+    "Aenr": "AEer",
+    "Aens": "Aens",
+    "Aent": "Aent",
+    "Aenw": "AEer",
+    "Aesn": "Aesn",
+    "Aesr": "Aesn",
+    "Aetf": "Aetf",
+    "Aeth": "Aeth",
+    "Aetl": "Aetl",
+    "Aews": "APai",
+    "Aexh": "Aexh",
+    "Aeye": "Aeye",
+    "Afa2": "Afae",
+    "Afae": "Afae",
+    "Afak": "Afak",
+    "Afbb": "Afbk",
+    "Afbk": "Afbk",
+    "Afbt": "Afbk",
+    "Afih": "Afih",
+    "Afin": "Afin",
+    "Afio": "Afio",
+    "Afir": "Afir",
+    "Afiu": "Afiu",
+    "Afla": "Afla",
+    "Aflk": "Aflk",
+    "Afod": "ANfd",
+    "Afr2": "Afra",
+    "Afra": "Afra",
+    "Afrb": "Afrb",
+    "Afrc": "Afra",
+    "Afrz": "Afrz",
+    "Afsh": "Afsh",
+    "Afzy": "Afzy",
+    "Agho": "Agho",
+    "Agld": "Agld",
+    "Agra": "Agra",
+    "Agyb": "Agyb",
+    "Agyd": "Agyd",
+    "Agyv": "Agyv",
+    "Ahan": "APai",
+    "Ahar": "Ahar",
+    "Ahea": "Ahea",
+    "Ahid": "Ahid",
+    "Ahlh": "APai",
+    "Ahnl": "Aroa",
+    "Ahpe": "APai",
+    "Ahr2": "Ahrl",
+    "Ahr3": "Ahrl",
+    "Ahri": "APai",
+    "Ahrl": "Ahrl",
+    "Ahrp": "Arep",
+    "Ahsb": "Aaab",
+    "Ahwd": "Ahwd",
+    "Aien": "AInv",
+    "Aihn": "AInv",
+    "Aimp": "Aimp",
+    "Ainf": "Ainf",
+    "Aion": "AInv",
+    "Aiun": "AInv",
+    "Aivs": "Aivs",
+    "Alam": "Alam",
+    "Aliq": "Aliq",
+    "Alit": "Alit",
+    "Aloa": "Aloa",
+    "Aloc": "Aloc",
+    "Alsh": "Alsh",
+    "Amb2": "Ambt",
+    "Ambb": "AEmb",
+    "Ambd": "AEmb",
+    "Ambt": "Ambt",
+    "Amdf": "Amdf",
+    "Amec": "Amec",
+    "Amed": "Amed",
+    "Amel": "Amel",
+    "Amfl": "Amfl",
+    "Amgl": "Amgl",
+    "Amgr": "Amgl",
+    "Amic": "Amic",
+    "Amil": "Amil",
+    "Amim": "Amim",
+    "Amin": "Amin",
+    "Amls": "Amls",
+    "Amnb": "AEmb",
+    "Amnx": "Adda",
+    "Amnz": "Adda",
+    "Amov": "Amov",
+    "Amrf": "Arav",
+    "Andm": "Aadm",
+    "Andt": "Andt",
+    "Ane2": "Aneu",
+    "Aneu": "Aneu",
+    "Anh1": "Anhe",
+    "Anh2": "Anhe",
+    "Anhe": "Anhe",
+    "Ansk": "Assk",
+    "Ansp": "Ansp",
+    "Aoar": "Aoar",
+    "Aobk": "APai",
+    "Aobs": "APai",
+    "Aorb": "APai",
+    "Aosp": "APai",
+    "Aoth": "APai",
+    "Aotr": "APai",
+    "Apak": "AInv",
+    "Apg2": "Aprg",
+    "Aphx": "Aphx",
+    "Apig": "Apig",
+    "Apit": "Apit",
+    "Apiv": "Apiv",
+    "Aply": "Aply",
+    "Apmf": "ANpi",
+    "Apo2": "Apo2",
+    "Apoi": "Apoi",
+    "Apos": "Apos",
+    "Aprg": "Aprg",
+    "Aps2": "Aps2",
+    "Apsh": "Apsh",
+    "Apts": "Apts",
+    "Apxf": "Apxf",
+    "Ara2": "Aroa",
+    "Arai": "Arai",
+    "Arav": "Arav",
+    "Arbr": "Arbr",
+    "Arej": "Arej",
+    "Arel": "Arel",
+    "Aren": "Aren",
+    "Arep": "Arep",
+    "Aret": "Aret",
+    "Arev": "Arev",
+    "Argd": "Artn",
+    "Argl": "Artn",
+    "Arll": "Arel",
+    "Arlm": "Artn",
+    "Arng": "Arng",
+    "Aro1": "Aroo",
+    "Aro2": "Aroo",
+    "Aroa": "Aroa",
+    "Aroc": "Aroc",
+    "Arpb": "Arpb",
+    "Arpl": "Arpl",
+    "Arpm": "Arpm",
+    "Arsg": "AOsf",
+    "Arsk": "Arsk",
+    "Arsp": "ANst",
+    "Arsq": "ANsq",
+    "Arst": "Arst",
+    "Arsw": "AOwd",
+    "Asa2": "Asal",
+    "Asac": "Asac",
+    "Asal": "Asal",
+    "Asb1": "ANsu",
+    "Asb2": "ANsu",
+    "Asb3": "ANsu",
+    "Asd2": "Asds",
+    "Asd3": "Asds",
+    "Asdg": "Asds",
+    "Asds": "Asds",
+    "Ashm": "Ashm",
+    "Ashs": "Ashs",
+    "Asid": "Asid",
+    "Asla": "Asla",
+    "Aslo": "Aslo",
+    "Aslp": "ANwm",
+    "Asod": "Asod",
+    "Asou": "Asou",
+    "Asp1": "Asph",
+    "Asp2": "Asph",
+    "Asp3": "Asph",
+    "Asp4": "Asph",
+    "Asp5": "Asph",
+    "Asp6": "Asph",
+    "Aspa": "Aspa",
+    "Aspb": "Aspb",
+    "Aspd": "Aspd",
+    "Asph": "Asph",
+    "Aspi": "Aspi",
+    "Aspl": "Aspl",
+    "Aspo": "Aspo",
+    "Aspp": "Aspl",
+    "Asps": "Asps",
+    "Aspt": "Aspd",
+    "Aspy": "Aspd",
+    "Assk": "Assk",
+    "Assp": "Assp",
+    "Asta": "Asta",
+    "Astd": "Astd",
+    "Aste": "Aste",
+    "Asth": "Asth",
+    "Astn": "Astn",
+    "Asud": "Asud",
+    "Atau": "Atau",
+    "Atdg": "Atdg",
+    "Atdp": "Atdp",
+    "Atlp": "Atlp",
+    "Atol": "Atol",
+    "Atru": "Atru",
+    "Atsp": "Atsp",
+    "Attu": "Attu",
+    "Atwa": "Atwa",
+    "Auco": "Auco",
+    "Augf": "APai",
+    "Augh": "APai",
+    "Auhf": "Auhf",
+    "Ault": "Ault",
+    "Auns": "Auns",
+    "Ausm": "APai",
+    "Auuf": "Auuf",
+    "Aven": "Aven",
+    "Avng": "Avng",
+    "Avul": "Avul",
+    "Awan": "Awan",
+    "Awar": "Awar",
+    "Aweb": "Aweb",
+    "Awfb": "ANfb",
+    "Awh2": "Awha",
+    "Awha": "Awha",
+    "Awrg": "AOws",
+    "Awrh": "AOws",
+    "Awrp": "Awrp",
+    "Awrs": "AOws",
+    "SCae": "AOae",
+    "SCc1": "Acyc",
+    "SCva": "AIva",
+    "SNdc": "ANdc",
+    "SNdd": "AUdd",
+    "SNeq": "AOeq",
+    "SNin": "AUin",
+    "Sbsk": "Acha",
+    "Sbtl": "Abtl",
+    "Sca1": "Acha",
+    "Sca2": "Acha",
+    "Sca3": "Acha",
+    "Sca4": "Acha",
+    "Sca5": "Acha",
+    "Sca6": "Acha",
+    "Sch2": "Amtc",
+    "Sch3": "Acar",
+    "Sch4": "Acar",
+    "Sch5": "Acar",
+    "Scri": "Acri",
+    "Sdro": "Adro",
+    "Slo2": "Aloa",
+    "Slo3": "Aloa",
+    "Sloa": "Aloa",
+    "Srtt": "Acha",
+    "Sshm": "Ashm",
+    "Suhf": "Auhf"
+  },
+  "unmapped_bases": {
+    "AIno": {
+      "reason": "Orb of Slow added in Warcraft2.0.2; pointer/type/level metadata is checked by field ID, but base-specific compatibility is not covered by the1.32.8 snapshot.",
+      "source": "https://kr.forums.blizzard.com/ko/warcraft3/t/%EC%9B%8C%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8-iii-%EB%A6%AC%ED%8F%AC%EC%A7%80%EB%93%9C-%ED%8C%A8%EC%B9%98-%EB%85%B8%ED%8A%B8-%EB%B2%84%EC%A0%84-202/1499"
+    }
+  }
+}

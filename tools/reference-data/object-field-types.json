@@ -1,0 +1,1531 @@
+{
+  "source": {
+    "url": "https://github.com/sumneko/w3x2lni/blob/master/data/zhCN-1.32.8/prebuilt/metadata.ini",
+    "git_blob": "b7a6fd39d2ba8ac360371e84d498016e6876aaa5",
+    "sha256": "f6f35d1372e3102928f6e8a47881b93ecb13b261515a7f28357774ca7f187d94"
+  },
+  "fields": {
+    "units": {
+      "uabi": {
+        "type": "String"
+      },
+      "uabs": {
+        "type": "String"
+      },
+      "uacq": {
+        "type": "Unreal"
+      },
+      "uagi": {
+        "type": "Int"
+      },
+      "uagp": {
+        "type": "Unreal"
+      },
+      "uani": {
+        "type": "String"
+      },
+      "zani": {
+        "type": "String"
+      },
+      "zan1": {
+        "type": "String"
+      },
+      "uarm": {
+        "type": "String"
+      },
+      "uico": {
+        "type": "String"
+      },
+      "zico": {
+        "type": "String"
+      },
+      "zic1": {
+        "type": "String"
+      },
+      "ua1t": {
+        "type": "String"
+      },
+      "ua2t": {
+        "type": "String"
+      },
+      "uaap": {
+        "type": "String"
+      },
+      "zaap": {
+        "type": "String"
+      },
+      "zaa1": {
+        "type": "String"
+      },
+      "ualp": {
+        "type": "String"
+      },
+      "zalp": {
+        "type": "String"
+      },
+      "zal1": {
+        "type": "String"
+      },
+      "udaa": {
+        "type": "String"
+      },
+      "uawt": {
+        "type": "String"
+      },
+      "ubs1": {
+        "type": "Unreal"
+      },
+      "ubs2": {
+        "type": "Unreal"
+      },
+      "ubld": {
+        "type": "Int"
+      },
+      "uble": {
+        "type": "Real"
+      },
+      "zble": {
+        "type": "Real"
+      },
+      "zbl1": {
+        "type": "Real"
+      },
+      "uclb": {
+        "type": "Int"
+      },
+      "zclb": {
+        "type": "Int"
+      },
+      "zcl1": {
+        "type": "Int"
+      },
+      "ubpr": {
+        "type": "String"
+      },
+      "zbpr": {
+        "type": "String"
+      },
+      "zbp1": {
+        "type": "String"
+      },
+      "ubdi": {
+        "type": "Int"
+      },
+      "ubba": {
+        "type": "Int"
+      },
+      "ubsi": {
+        "type": "Int"
+      },
+      "uabr": {
+        "type": "Unreal"
+      },
+      "uabt": {
+        "type": "String"
+      },
+      "ushb": {
+        "type": "String"
+      },
+      "zshb": {
+        "type": "String"
+      },
+      "zsh1": {
+        "type": "String"
+      },
+      "ubsl": {
+        "type": "String"
+      },
+      "ubui": {
+        "type": "String"
+      },
+      "ubpx": {
+        "type": "Int"
+      },
+      "zbpx": {
+        "type": "Int"
+      },
+      "zbp2": {
+        "type": "Int"
+      },
+      "ubpy": {
+        "type": "Int"
+      },
+      "zbpy": {
+        "type": "Int"
+      },
+      "zbp3": {
+        "type": "Int"
+      },
+      "ucam": {
+        "type": "Int"
+      },
+      "ucbo": {
+        "type": "Int"
+      },
+      "ufle": {
+        "type": "Int"
+      },
+      "usle": {
+        "type": "Int"
+      },
+      "ucar": {
+        "type": "Int"
+      },
+      "ucbs": {
+        "type": "Unreal"
+      },
+      "ucua": {
+        "type": "String"
+      },
+      "zcua": {
+        "type": "String"
+      },
+      "zcu1": {
+        "type": "String"
+      },
+      "ucun": {
+        "type": "String"
+      },
+      "ucut": {
+        "type": "String"
+      },
+      "ucpt": {
+        "type": "Unreal"
+      },
+      "ucol": {
+        "type": "Unreal"
+      },
+      "ua1c": {
+        "type": "Unreal"
+      },
+      "ua2c": {
+        "type": "Unreal"
+      },
+      "utcc": {
+        "type": "Int"
+      },
+      "udl1": {
+        "type": "Unreal"
+      },
+      "udl2": {
+        "type": "Unreal"
+      },
+      "udtm": {
+        "type": "Unreal"
+      },
+      "udea": {
+        "type": "Int"
+      },
+      "udef": {
+        "type": "Int"
+      },
+      "udty": {
+        "type": "String"
+      },
+      "udup": {
+        "type": "Int"
+      },
+      "udep": {
+        "type": "String"
+      },
+      "ides": {
+        "type": "String"
+      },
+      "ua1d": {
+        "type": "Int"
+      },
+      "ua2d": {
+        "type": "Int"
+      },
+      "ua1b": {
+        "type": "Int"
+      },
+      "ua2b": {
+        "type": "Int"
+      },
+      "udp1": {
+        "type": "Unreal"
+      },
+      "udp2": {
+        "type": "Unreal"
+      },
+      "udu1": {
+        "type": "Int"
+      },
+      "udu2": {
+        "type": "Int"
+      },
+      "udro": {
+        "type": "Int"
+      },
+      "unsf": {
+        "type": "String"
+      },
+      "uept": {
+        "type": "Int"
+      },
+      "zept": {
+        "type": "Int"
+      },
+      "zep1": {
+        "type": "Int"
+      },
+      "uerd": {
+        "type": "Real"
+      },
+      "zerd": {
+        "type": "Real"
+      },
+      "zer1": {
+        "type": "Real"
+      },
+      "ua1f": {
+        "type": "Int"
+      },
+      "ua2f": {
+        "type": "Int"
+      },
+      "ulos": {
+        "type": "Int"
+      },
+      "umdl": {
+        "type": "String"
+      },
+      "zmdl": {
+        "type": "String"
+      },
+      "zmd1": {
+        "type": "String"
+      },
+      "uver": {
+        "type": "Int"
+      },
+      "zver": {
+        "type": "Int"
+      },
+      "zve1": {
+        "type": "Int"
+      },
+      "ufma": {
+        "type": "Int"
+      },
+      "ufrd": {
+        "type": "Real"
+      },
+      "zfrd": {
+        "type": "Real"
+      },
+      "zfr1": {
+        "type": "Real"
+      },
+      "ufor": {
+        "type": "Int"
+      },
+      "ufoo": {
+        "type": "Int"
+      },
+      "ugol": {
+        "type": "Int"
+      },
+      "ugor": {
+        "type": "Int"
+      },
+      "uclg": {
+        "type": "Int"
+      },
+      "zclg": {
+        "type": "Int"
+      },
+      "zcl2": {
+        "type": "Int"
+      },
+      "ua1h": {
+        "type": "Int"
+      },
+      "ua2h": {
+        "type": "Int"
+      },
+      "uhab": {
+        "type": "String"
+      },
+      "uhas": {
+        "type": "String"
+      },
+      "uhd1": {
+        "type": "Unreal"
+      },
+      "uhd2": {
+        "type": "Unreal"
+      },
+      "uhhb": {
+        "type": "Int"
+      },
+      "uhhd": {
+        "type": "Int"
+      },
+      "uhhm": {
+        "type": "Int"
+      },
+      "uhom": {
+        "type": "Int"
+      },
+      "uhos": {
+        "type": "Int"
+      },
+      "uhot": {
+        "type": "String"
+      },
+      "uhpm": {
+        "type": "Int"
+      },
+      "uisz": {
+        "type": "Unreal"
+      },
+      "zisz": {
+        "type": "Unreal"
+      },
+      "zis1": {
+        "type": "Unreal"
+      },
+      "uimz": {
+        "type": "Unreal"
+      },
+      "zimz": {
+        "type": "Unreal"
+      },
+      "zim1": {
+        "type": "Unreal"
+      },
+      "uine": {
+        "type": "Int"
+      },
+      "uint": {
+        "type": "Int"
+      },
+      "uinp": {
+        "type": "Unreal"
+      },
+      "ubdg": {
+        "type": "Int"
+      },
+      "uibo": {
+        "type": "Int"
+      },
+      "ulsz": {
+        "type": "Unreal"
+      },
+      "zlsz": {
+        "type": "Unreal"
+      },
+      "zls1": {
+        "type": "Unreal"
+      },
+      "ulpx": {
+        "type": "Unreal"
+      },
+      "zlpx": {
+        "type": "Unreal"
+      },
+      "zlp1": {
+        "type": "Unreal"
+      },
+      "ulpy": {
+        "type": "Unreal"
+      },
+      "zlpy": {
+        "type": "Unreal"
+      },
+      "zlp2": {
+        "type": "Unreal"
+      },
+      "ulpz": {
+        "type": "Unreal"
+      },
+      "zlpz": {
+        "type": "Unreal"
+      },
+      "zlp3": {
+        "type": "Unreal"
+      },
+      "ulev": {
+        "type": "Int"
+      },
+      "ulfi": {
+        "type": "Int"
+      },
+      "ulfo": {
+        "type": "Int"
+      },
+      "ulbd": {
+        "type": "Int"
+      },
+      "ulba": {
+        "type": "Int"
+      },
+      "ulbs": {
+        "type": "Int"
+      },
+      "ulum": {
+        "type": "Int"
+      },
+      "ulur": {
+        "type": "Int"
+      },
+      "umki": {
+        "type": "String"
+      },
+      "umpi": {
+        "type": "Int"
+      },
+      "umpm": {
+        "type": "Int"
+      },
+      "umxp": {
+        "type": "Real"
+      },
+      "zmxp": {
+        "type": "Real"
+      },
+      "zmx1": {
+        "type": "Real"
+      },
+      "umxr": {
+        "type": "Real"
+      },
+      "zmxr": {
+        "type": "Real"
+      },
+      "zmx2": {
+        "type": "Real"
+      },
+      "umas": {
+        "type": "Int"
+      },
+      "uamn": {
+        "type": "Int"
+      },
+      "umis": {
+        "type": "Int"
+      },
+      "uma1": {
+        "type": "Unreal"
+      },
+      "uma2": {
+        "type": "Unreal"
+      },
+      "ua1m": {
+        "type": "String"
+      },
+      "ua2m": {
+        "type": "String"
+      },
+      "umh1": {
+        "type": "Int"
+      },
+      "umh2": {
+        "type": "Int"
+      },
+      "ua1z": {
+        "type": "Int"
+      },
+      "ua2z": {
+        "type": "Int"
+      },
+      "usca": {
+        "type": "Real"
+      },
+      "zsca": {
+        "type": "Real"
+      },
+      "zsc1": {
+        "type": "Real"
+      },
+      "umvf": {
+        "type": "Unreal"
+      },
+      "umvh": {
+        "type": "Unreal"
+      },
+      "umsl": {
+        "type": "String"
+      },
+      "umvt": {
+        "type": "String"
+      },
+      "unam": {
+        "type": "String"
+      },
+      "upru": {
+        "type": "Int"
+      },
+      "unbm": {
+        "type": "Int"
+      },
+      "unbr": {
+        "type": "Int"
+      },
+      "usin": {
+        "type": "Int"
+      },
+      "uocc": {
+        "type": "Unreal"
+      },
+      "uori": {
+        "type": "Int"
+      },
+      "upat": {
+        "type": "String"
+      },
+      "upoi": {
+        "type": "Int"
+      },
+      "upap": {
+        "type": "String"
+      },
+      "upra": {
+        "type": "String"
+      },
+      "upri": {
+        "type": "Int"
+      },
+      "upro": {
+        "type": "String"
+      },
+      "uprw": {
+        "type": "Unreal"
+      },
+      "ua1q": {
+        "type": "Int"
+      },
+      "ua2q": {
+        "type": "Int"
+      },
+      "uqd1": {
+        "type": "Unreal"
+      },
+      "uqd2": {
+        "type": "Unreal"
+      },
+      "urac": {
+        "type": "String"
+      },
+      "ursl": {
+        "type": "String"
+      },
+      "ua1r": {
+        "type": "Int"
+      },
+      "ua2r": {
+        "type": "Int"
+      },
+      "uclr": {
+        "type": "Int"
+      },
+      "zclr": {
+        "type": "Int"
+      },
+      "zcl3": {
+        "type": "Int"
+      },
+      "uhpr": {
+        "type": "Unreal"
+      },
+      "umpr": {
+        "type": "Unreal"
+      },
+      "uhrt": {
+        "type": "String"
+      },
+      "urtm": {
+        "type": "Int"
+      },
+      "urpo": {
+        "type": "Int"
+      },
+      "urpg": {
+        "type": "Int"
+      },
+      "urpp": {
+        "type": "Int"
+      },
+      "urpr": {
+        "type": "Int"
+      },
+      "upar": {
+        "type": "String"
+      },
+      "ureq": {
+        "type": "String"
+      },
+      "urq1": {
+        "type": "String"
+      },
+      "urq2": {
+        "type": "String"
+      },
+      "urq3": {
+        "type": "String"
+      },
+      "urq4": {
+        "type": "String"
+      },
+      "urq5": {
+        "type": "String"
+      },
+      "urq6": {
+        "type": "String"
+      },
+      "urq7": {
+        "type": "String"
+      },
+      "urq8": {
+        "type": "String"
+      },
+      "urqa": {
+        "type": "String"
+      },
+      "urqc": {
+        "type": "Int"
+      },
+      "upaw": {
+        "type": "Unreal"
+      },
+      "ures": {
+        "type": "String"
+      },
+      "urev": {
+        "type": "Int"
+      },
+      "urva": {
+        "type": "String"
+      },
+      "utpr": {
+        "type": "String"
+      },
+      "urb1": {
+        "type": "Unreal"
+      },
+      "urb2": {
+        "type": "Unreal"
+      },
+      "urun": {
+        "type": "Real"
+      },
+      "zrun": {
+        "type": "Real"
+      },
+      "zru1": {
+        "type": "Real"
+      },
+      "ussc": {
+        "type": "Real"
+      },
+      "zssc": {
+        "type": "Real"
+      },
+      "zss1": {
+        "type": "Real"
+      },
+      "uscb": {
+        "type": "Int"
+      },
+      "zscb": {
+        "type": "Int"
+      },
+      "zsc2": {
+        "type": "Int"
+      },
+      "ussi": {
+        "type": "String"
+      },
+      "zssi": {
+        "type": "String"
+      },
+      "zss2": {
+        "type": "String"
+      },
+      "usew": {
+        "type": "Int"
+      },
+      "zsew": {
+        "type": "Int"
+      },
+      "zse1": {
+        "type": "Int"
+      },
+      "usei": {
+        "type": "String"
+      },
+      "useu": {
+        "type": "String"
+      },
+      "uslz": {
+        "type": "Real"
+      },
+      "zslz": {
+        "type": "Real"
+      },
+      "zsl1": {
+        "type": "Real"
+      },
+      "ushh": {
+        "type": "Real"
+      },
+      "zshh": {
+        "type": "Real"
+      },
+      "zsh2": {
+        "type": "Real"
+      },
+      "ushr": {
+        "type": "Int"
+      },
+      "zshr": {
+        "type": "Int"
+      },
+      "zsh3": {
+        "type": "Int"
+      },
+      "ushw": {
+        "type": "Real"
+      },
+      "zshw": {
+        "type": "Real"
+      },
+      "zsh4": {
+        "type": "Real"
+      },
+      "ushx": {
+        "type": "Real"
+      },
+      "zshx": {
+        "type": "Real"
+      },
+      "zsh5": {
+        "type": "Real"
+      },
+      "ushy": {
+        "type": "Real"
+      },
+      "zshy": {
+        "type": "Real"
+      },
+      "zsh6": {
+        "type": "Real"
+      },
+      "uwu1": {
+        "type": "Int"
+      },
+      "uwu2": {
+        "type": "Int"
+      },
+      "ua1s": {
+        "type": "Int"
+      },
+      "ua2s": {
+        "type": "Int"
+      },
+      "usid": {
+        "type": "Int"
+      },
+      "umvs": {
+        "type": "Int"
+      },
+      "uspe": {
+        "type": "Int"
+      },
+      "uspa": {
+        "type": "String"
+      },
+      "zspa": {
+        "type": "String"
+      },
+      "zsp1": {
+        "type": "String"
+      },
+      "usd1": {
+        "type": "Unreal"
+      },
+      "usd2": {
+        "type": "Unreal"
+      },
+      "usr1": {
+        "type": "Unreal"
+      },
+      "usr2": {
+        "type": "Unreal"
+      },
+      "ua1p": {
+        "type": "String"
+      },
+      "ua2p": {
+        "type": "String"
+      },
+      "usit": {
+        "type": "Int"
+      },
+      "usma": {
+        "type": "Int"
+      },
+      "usrg": {
+        "type": "Int"
+      },
+      "usst": {
+        "type": "Int"
+      },
+      "ustr": {
+        "type": "Int"
+      },
+      "ustp": {
+        "type": "Unreal"
+      },
+      "utc1": {
+        "type": "Int"
+      },
+      "utc2": {
+        "type": "Int"
+      },
+      "utaa": {
+        "type": "String"
+      },
+      "ztaa": {
+        "type": "String"
+      },
+      "zta1": {
+        "type": "String"
+      },
+      "ua1g": {
+        "type": "String"
+      },
+      "ua2g": {
+        "type": "String"
+      },
+      "utar": {
+        "type": "String"
+      },
+      "utco": {
+        "type": "Int"
+      },
+      "util": {
+        "type": "String"
+      },
+      "utss": {
+        "type": "Int"
+      },
+      "utip": {
+        "type": "String"
+      },
+      "utra": {
+        "type": "String"
+      },
+      "umvr": {
+        "type": "Unreal"
+      },
+      "utyp": {
+        "type": "String"
+      },
+      "uubs": {
+        "type": "String"
+      },
+      "zubs": {
+        "type": "String"
+      },
+      "zub1": {
+        "type": "String"
+      },
+      "utub": {
+        "type": "String"
+      },
+      "ushu": {
+        "type": "String"
+      },
+      "zshu": {
+        "type": "String"
+      },
+      "zsh7": {
+        "type": "String"
+      },
+      "usnd": {
+        "type": "String"
+      },
+      "uupt": {
+        "type": "String"
+      },
+      "upgr": {
+        "type": "String"
+      },
+      "uuch": {
+        "type": "Int"
+      },
+      "W2lo": {
+        "type": "String"
+      },
+      "uwal": {
+        "type": "Real"
+      },
+      "zwal": {
+        "type": "Real"
+      },
+      "zwa1": {
+        "type": "Real"
+      },
+      "uaen": {
+        "type": "Int"
+      },
+      "ua1w": {
+        "type": "String"
+      },
+      "ua2w": {
+        "type": "String"
+      },
+      "ucs1": {
+        "type": "String"
+      },
+      "ucs2": {
+        "type": "String"
+      }
+    },
+    "items": {
+      "iabi": {
+        "type": "String"
+      },
+      "iarm": {
+        "type": "String"
+      },
+      "iico": {
+        "type": "String"
+      },
+      "zico": {
+        "type": "String"
+      },
+      "zic1": {
+        "type": "String"
+      },
+      "ubpx": {
+        "type": "Int"
+      },
+      "zbpx": {
+        "type": "Int"
+      },
+      "zbp1": {
+        "type": "Int"
+      },
+      "ubpy": {
+        "type": "Int"
+      },
+      "zbpy": {
+        "type": "Int"
+      },
+      "zbp2": {
+        "type": "Int"
+      },
+      "icla": {
+        "type": "String"
+      },
+      "iclb": {
+        "type": "Int"
+      },
+      "zclb": {
+        "type": "Int"
+      },
+      "zcl1": {
+        "type": "Int"
+      },
+      "iclg": {
+        "type": "Int"
+      },
+      "zclg": {
+        "type": "Int"
+      },
+      "zcl2": {
+        "type": "Int"
+      },
+      "iclr": {
+        "type": "Int"
+      },
+      "zclr": {
+        "type": "Int"
+      },
+      "zcl3": {
+        "type": "Int"
+      },
+      "icid": {
+        "type": "String"
+      },
+      "ides": {
+        "type": "String"
+      },
+      "idrp": {
+        "type": "Int"
+      },
+      "idro": {
+        "type": "Int"
+      },
+      "ifil": {
+        "type": "String"
+      },
+      "zfil": {
+        "type": "String"
+      },
+      "zfi1": {
+        "type": "String"
+      },
+      "igol": {
+        "type": "Int"
+      },
+      "uhot": {
+        "type": "String"
+      },
+      "ihtp": {
+        "type": "Int"
+      },
+      "iicd": {
+        "type": "Int"
+      },
+      "ilev": {
+        "type": "Int"
+      },
+      "ilum": {
+        "type": "Int"
+      },
+      "imor": {
+        "type": "Int"
+      },
+      "unam": {
+        "type": "String"
+      },
+      "ilvo": {
+        "type": "Int"
+      },
+      "ipaw": {
+        "type": "Int"
+      },
+      "iper": {
+        "type": "Int"
+      },
+      "iprn": {
+        "type": "Int"
+      },
+      "ipow": {
+        "type": "Int"
+      },
+      "ipri": {
+        "type": "Int"
+      },
+      "ureq": {
+        "type": "String"
+      },
+      "urqa": {
+        "type": "String"
+      },
+      "isca": {
+        "type": "Real"
+      },
+      "zsca": {
+        "type": "Real"
+      },
+      "zsc1": {
+        "type": "Real"
+      },
+      "isel": {
+        "type": "Int"
+      },
+      "issc": {
+        "type": "Real"
+      },
+      "zssc": {
+        "type": "Real"
+      },
+      "zss1": {
+        "type": "Real"
+      },
+      "ista": {
+        "type": "Int"
+      },
+      "isit": {
+        "type": "Int"
+      },
+      "isto": {
+        "type": "Int"
+      },
+      "istr": {
+        "type": "Int"
+      },
+      "isst": {
+        "type": "Int"
+      },
+      "utip": {
+        "type": "String"
+      },
+      "utub": {
+        "type": "String"
+      },
+      "iusa": {
+        "type": "Int"
+      },
+      "iuse": {
+        "type": "Int"
+      },
+      "W2lo": {
+        "type": "String"
+      }
+    },
+    "buffs": {
+      "fart": {
+        "type": "String"
+      },
+      "zart": {
+        "type": "String"
+      },
+      "zar1": {
+        "type": "String"
+      },
+      "ftip": {
+        "type": "String"
+      },
+      "fube": {
+        "type": "String"
+      },
+      "fnam": {
+        "type": "String"
+      },
+      "fnsf": {
+        "type": "String"
+      },
+      "feat": {
+        "type": "String"
+      },
+      "zeat": {
+        "type": "String"
+      },
+      "zea1": {
+        "type": "String"
+      },
+      "feft": {
+        "type": "String"
+      },
+      "zeft": {
+        "type": "String"
+      },
+      "zef1": {
+        "type": "String"
+      },
+      "fefs": {
+        "type": "String"
+      },
+      "fefl": {
+        "type": "String"
+      },
+      "feff": {
+        "type": "Int"
+      },
+      "flig": {
+        "type": "String"
+      },
+      "zlig": {
+        "type": "String"
+      },
+      "zli1": {
+        "type": "String"
+      },
+      "fmac": {
+        "type": "Unreal"
+      },
+      "zmac": {
+        "type": "Unreal"
+      },
+      "zma1": {
+        "type": "Unreal"
+      },
+      "fmat": {
+        "type": "String"
+      },
+      "zmat": {
+        "type": "String"
+      },
+      "zma2": {
+        "type": "String"
+      },
+      "fmho": {
+        "type": "Int"
+      },
+      "zmho": {
+        "type": "Int"
+      },
+      "zmh1": {
+        "type": "Int"
+      },
+      "fmsp": {
+        "type": "Int"
+      },
+      "zmsp": {
+        "type": "Int"
+      },
+      "zms1": {
+        "type": "Int"
+      },
+      "frac": {
+        "type": "String"
+      },
+      "fsat": {
+        "type": "String"
+      },
+      "zsat": {
+        "type": "String"
+      },
+      "zsa1": {
+        "type": "String"
+      },
+      "fspt": {
+        "type": "String"
+      },
+      "zspt": {
+        "type": "String"
+      },
+      "zsp1": {
+        "type": "String"
+      },
+      "fspd": {
+        "type": "Int"
+      },
+      "zspd": {
+        "type": "Int"
+      },
+      "zsp2": {
+        "type": "Int"
+      },
+      "ftat": {
+        "type": "String"
+      },
+      "ztat": {
+        "type": "String"
+      },
+      "zta1": {
+        "type": "String"
+      },
+      "fta0": {
+        "type": "String"
+      },
+      "fta1": {
+        "type": "String"
+      },
+      "zta3": {
+        "type": "String"
+      },
+      "zta4": {
+        "type": "String"
+      },
+      "fta2": {
+        "type": "String"
+      },
+      "zta5": {
+        "type": "String"
+      },
+      "zta6": {
+        "type": "String"
+      },
+      "fta3": {
+        "type": "String"
+      },
+      "zta7": {
+        "type": "String"
+      },
+      "zta8": {
+        "type": "String"
+      },
+      "fta4": {
+        "type": "String"
+      },
+      "zta9": {
+        "type": "String"
+      },
+      "zta_": {
+        "type": "String"
+      },
+      "fta5": {
+        "type": "String"
+      },
+      "ztaa": {
+        "type": "String"
+      },
+      "ztab": {
+        "type": "String"
+      },
+      "zta0": {
+        "type": "String"
+      },
+      "zta2": {
+        "type": "String"
+      },
+      "ftac": {
+        "type": "Int"
+      },
+      "ztac": {
+        "type": "Int"
+      },
+      "ztad": {
+        "type": "Int"
+      },
+      "W2lo": {
+        "type": "String"
+      }
+    },
+    "upgrades": {
+      "gar1": {
+        "type": "String"
+      },
+      "zar1": {
+        "type": "String"
+      },
+      "zar2": {
+        "type": "String"
+      },
+      "gba1": {
+        "type": "Unreal"
+      },
+      "gba2": {
+        "type": "Unreal"
+      },
+      "gba3": {
+        "type": "Unreal"
+      },
+      "gba4": {
+        "type": "Unreal"
+      },
+      "gbpx": {
+        "type": "Int"
+      },
+      "zbpx": {
+        "type": "Int"
+      },
+      "zbp1": {
+        "type": "Int"
+      },
+      "gbpy": {
+        "type": "Int"
+      },
+      "zbpy": {
+        "type": "Int"
+      },
+      "zbp2": {
+        "type": "Int"
+      },
+      "gcls": {
+        "type": "String"
+      },
+      "gco1": {
+        "type": "String"
+      },
+      "gco2": {
+        "type": "String"
+      },
+      "gco3": {
+        "type": "String"
+      },
+      "gco4": {
+        "type": "String"
+      },
+      "gnsf": {
+        "type": "String"
+      },
+      "gef1": {
+        "type": "String"
+      },
+      "gef2": {
+        "type": "String"
+      },
+      "gef3": {
+        "type": "String"
+      },
+      "gef4": {
+        "type": "String"
+      },
+      "glob": {
+        "type": "Int"
+      },
+      "gglb": {
+        "type": "Int"
+      },
+      "gglm": {
+        "type": "Int"
+      },
+      "ghk1": {
+        "type": "String"
+      },
+      "ginh": {
+        "type": "Int"
+      },
+      "glmb": {
+        "type": "Int"
+      },
+      "glmm": {
+        "type": "Int"
+      },
+      "glvl": {
+        "type": "Int"
+      },
+      "gmo1": {
+        "type": "Unreal"
+      },
+      "gmo2": {
+        "type": "Unreal"
+      },
+      "gmo3": {
+        "type": "Unreal"
+      },
+      "gmo4": {
+        "type": "Unreal"
+      },
+      "gnam": {
+        "type": "String"
+      },
+      "grac": {
+        "type": "String"
+      },
+      "greq": {
+        "type": "String"
+      },
+      "grqc": {
+        "type": "String"
+      },
+      "gtib": {
+        "type": "Int"
+      },
+      "gtim": {
+        "type": "Int"
+      },
+      "gtp1": {
+        "type": "String"
+      },
+      "gub1": {
+        "type": "String"
+      },
+      "W2lo": {
+        "type": "String"
+      }
+    }
+  },
+  "unsupported_fields": {
+    "units": {
+      "upor": "Modern portrait field outside the 1.32.8 metadata snapshot; retained by the actual 3.0.1.24371 editor save."
+    }
+  },
+  "compatibility_exceptions": [
+    {
+      "kind": "units",
+      "rawcode": "h063",
+      "field": "ua1z",
+      "type": "Unreal",
+      "value": 900.0,
+      "reason": "1.32.8 metadata calls missile speed Int, but 3.0.1.24371 editor retains this Unreal gameplay record; common.j exposes ua1z as a unit weapon real field. Preserve this exact observed record."
+    },
+    {
+      "kind": "units_skin",
+      "rawcode": "h063",
+      "field": "ua1z",
+      "type": "Unreal",
+      "value": 900.0,
+      "reason": "Matching skin override for the current-editor-retained gameplay projectile speed; editor removes this redundant skin copy."
+    }
+  ]
+}

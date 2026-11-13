@@ -43,7 +43,7 @@
     {
       "Id": 1953723241,
       "Type": "Int",
-      "Value": 20,
+      "Value": 0,
       "SanityCheck": 0,
       "_field": "isst"
     }

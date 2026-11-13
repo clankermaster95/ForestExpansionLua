@@ -212,23 +212,29 @@ def main():
     from cleanup_syntax import main as validate_cleanup_syntax
     validate_source_spans()
     mechanical=validate_cleanup_syntax()
+    from picker_objects import prepare as prepare_picker_objects
+    prepare_picker_objects()
     results=[]; files=[ROOT/x for x in modules]+[mapdir/'war3map.lua',simulated]
     for kind in ('lua-5.3.6','lua-5.3.6-32'):
         runtime=ROOT/'.tools'/kind/'src'
         for path in files:subprocess.run([str(runtime/'luac'),'-p',str(path)],check=True,capture_output=True)
-        for suite in ('shopping','solo_startup','gameplay_patch','selection_bans','native_initialization','timer_lifetime','transient_timer_lifetime','freeze_timer','cosmic_context'):
+        for suite in ('shopping','solo_startup','gameplay_patch','selection_bans','native_initialization','timer_lifetime','transient_timer_lifetime','freeze_timer','cosmic_context','base_flags','runtime_audit'):
             result=subprocess.run([str(runtime/'lua'),'tests/'+suite+'.lua'],cwd=ROOT,check=True,capture_output=True,text=True)
             print(result.stdout.strip()); results.append({'runtime':kind,'suite':suite,'result':result.stdout.strip()})
     from costs import validate as validate_costs
     costs=validate_costs()
     from gameplay_objects import validate as validate_gameplay_objects
     gameplay_objects=validate_gameplay_objects()
+    from picker_objects import validate as validate_picker_objects
+    picker_objects=validate_picker_objects()
+    object_metadata=runpy.run_path(str(ROOT/'tests/object_metadata.py'))['validate']()
     from tooltips import validate as validate_tooltips
     tooltips=validate_tooltips()
     report={'result':'passed','version':cfg['version'],'revision':cfg['revision'],'archive_sha256':ds.digest((ROOT/cfg['output']).read_bytes()),
         'unchanged_original_payload_files':preserved,'intentional_noncode_payload_changes':list(payloads.values()),'source_modules':len(modules),
         'lua_chunks_per_numeric_configuration':len(files),'event_initializers_tested':len(event_initializers),
         'regressions':results,'historical_r8_regressions':historical,'gameplay_objects':gameplay_objects,'tooltips':tooltips,
+        'picker_objects':picker_objects,'native_object_metadata':object_metadata,
         'gameplay_patch':patch,'ancient_slot':slot_report,'editor_save_safety':editor_safety_report,'editor_layout':editor_layout_report,'costs':costs,'synchronization_review':audit,'editor_categories':len(categories),'archive_roundtrip':True,
         'source_editor_synchronized':True,'initialization_order_preserved':True,
         'legacy_sections_preserved':len(indexed),'consolidated_gameplay_modules':len(cfg['triggers']),

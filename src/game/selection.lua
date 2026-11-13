@@ -59,6 +59,13 @@ function FE_Factions.available(entry)
     return FE_Test ~= nil and FE_Test.initialized == true and FE_Test.player ~= nil
 end
 
+-- Random items use the same phase gate as the units. Native stock start delays
+-- cannot be skipped, so their object data is immediate and this owns the cap.
+FE_Factions.randomStock = {
+    expanders = {raw="I00W", shop="gg_unit_nmer_0000"},
+    ancients = {raw="I00X", shop="gg_unit_nmr2_0001"},
+}
+
 function FE_Factions.stock(kind)
     FE_Factions.stocked = FE_Factions.stocked or {}
     local unlocked = kind == "expanders" and FE_Factions.pickingUnlocked or
@@ -76,6 +83,28 @@ function FE_Factions.stock(kind)
             -- do not gate ordinary mercenary purchases.
             AddUnitToStockBJ(raw, shop, unlocked and entry.stock or 0,
                 unlocked and entry.maximum or 0)
+        end
+    end
+    local random = FE_Factions.randomStock[kind]
+    local raw, shop = FourCC(random.raw), _G[random.shop]
+    if hadStock then RemoveItemFromStock(shop, raw) end
+    AddItemToStock(shop, raw, unlocked and 10 or 0, unlocked and 10 or 0)
+end
+
+function FE_Factions.restoreRandomStock()
+    local shop, raw = GetSellingUnit(), GetItemTypeId(GetSoldItem())
+    -- Blizzard's neutral-passive purchase trigger removes dynamic item stock.
+    -- Restore only these zero-refill Random entries, after that trigger runs.
+    -- An Ancient purchase can remove its selector during item pickup.
+    if GetUnitTypeId(shop) == 0 then return end
+    for _, kind in ipairs({"expanders", "ancients"}) do
+        local entry = FE_Factions.randomStock[kind]
+        -- Pickup consumes the Random item. Its later sale notification may
+        -- therefore have type zero; each exact selector sells only this item.
+        local expected = FourCC(entry.raw)
+        if shop == _G[entry.shop] and (raw == expected or raw == 0) and FE_Factions.stocked and FE_Factions.stocked[kind] == "open" then
+            AddItemToStock(shop, expected, 10, 10)
+            return
         end
     end
 end
@@ -199,7 +228,9 @@ end
 
 -- BEGIN FOREST SECTION 257 Give_orb
 function Trig_Give_orb_Actions()
-    CreateItemLoc(FourCC("I000"), GetRectCenter(GetPlayableMapRect()))
+    local point = GetRectCenter(GetPlayableMapRect())
+    CreateItemLoc(FourCC("I000"), point)
+    RemoveLocation(point)
     UnitAddItemSwapped(GetLastCreatedItem(), GetSoldUnit())
 end
 
@@ -229,9 +260,9 @@ end
 function Trig_RandomExpander2_Actions()
     local raw = FE_Factions.randomUnit(udg_Units, "randomExpanders")
     if raw == nil then return end
-    udg_Point1 = GetUnitLoc(GetTriggerUnit())
-    CreateNUnitsAtLocFacingLocBJ(1, raw, GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_E), GetRectCenter(gg_rct_Tele_out_E))
-    RemoveLocation(udg_Point1)
+    local point = GetRectCenter(gg_rct_Tele_out_E)
+    CreateNUnitsAtLocFacingLocBJ(1, raw, GetOwningPlayer(GetTriggerUnit()), point, point)
+    RemoveLocation(point)
     RemoveItem(GetManipulatedItem())
     DisplayTextToForce(GetPlayersAll(), (__jconcat(GetPlayerName(GetTriggerPlayer()), " has randomed.")))
     SetPlayerName(GetOwningPlayer(GetTriggerUnit()), (__jconcat(GetUnitName(GetLastCreatedUnit()), (__jconcat(udg_PlayerColorHex[GetConvertedPlayerId(GetOwningPlayer(GetLastCreatedUnit()))], GetPlayerNameWithoutTag(GetOwningPlayer(GetLastCreatedUnit())))))))
@@ -258,15 +289,20 @@ end
 function Trig_Random_Ancient_Actions()
     local raw = FE_Factions.randomUnit(udg_Ancients, "randomAncients")
     if raw == nil then return end
-    udg_Point1 = GetUnitLoc(GetTriggerUnit())
-    CreateNUnitsAtLocFacingLocBJ(1, raw, GetOwningPlayer(GetTriggerUnit()), GetRectCenter(gg_rct_Tele_out_D), GetRectCenter(gg_rct_Tele_out_E))
+    local point, facing = GetRectCenter(gg_rct_Tele_out_D), GetRectCenter(gg_rct_Tele_out_E)
+    CreateNUnitsAtLocFacingLocBJ(1, raw, GetOwningPlayer(GetTriggerUnit()), point, facing)
     udg_AncientUnit = GetLastCreatedUnit()
-    RemoveLocation(udg_Point1)
+    RemoveLocation(point)
+    RemoveLocation(facing)
     RemoveItem(GetManipulatedItem())
     DisplayTextToForce(GetPlayersAll(), (__jconcat(GetPlayerName(GetTriggerPlayer()), " has randomed.")))
     KillUnit(GetTriggerUnit())
-    ForGroupBJ(GetUnitsInRectAll(gg_rct_SpawnDefender), Trig_Random_Ancient_Func041002)
-    CreateItemLoc(FourCC("I000"), GetRectCenter(GetPlayableMapRect()))
+    local selectors = GetUnitsInRectAll(gg_rct_SpawnDefender)
+    ForGroup(selectors, Trig_Random_Ancient_Func041002)
+    DestroyGroup(selectors)
+    point = GetRectCenter(GetPlayableMapRect())
+    CreateItemLoc(FourCC("I000"), point)
+    RemoveLocation(point)
     UnitAddItemSwapped(GetLastCreatedItem(), GetLastCreatedUnit())
     FE_Factions.grantSpellbringerAbilities(GetLastCreatedUnit)
 end
@@ -324,6 +360,9 @@ function InitTrig_Spawn_Races()
     gg_trg_Spawn_Races = CreateTrigger()
     TriggerRegisterTimerEventSingle(gg_trg_Spawn_Races, __jreal(20.00))
     TriggerAddAction(gg_trg_Spawn_Races, Trig_Spawn_Races_Actions)
+    local purchases = CreateTrigger()
+    TriggerRegisterAnyUnitEventBJ(purchases, EVENT_PLAYER_UNIT_SELL_ITEM)
+    TriggerAddAction(purchases, FE_Factions.restoreRandomStock)
     udg_BannedCultist = 0
     FE_Factions.registerBan("Cultist", function() FE_Factions.ban("Cultist") end)
     local timer = CreateTimer()
@@ -361,7 +400,9 @@ end
 -- BEGIN FOREST SECTION 313 Camera_Copy
 function Trig_Camera_Copy_Actions()
     SetCameraBoundsToRectForPlayerBJ(GetOwningPlayer(GetTriggerUnit()), GetEntireMapRect())
-    PanCameraToTimedLocForPlayer(GetOwningPlayer(GetTriggerUnit()), GetUnitLoc(GetTriggerUnit()), __jreal(0))
+    local point = GetUnitLoc(GetTriggerUnit())
+    PanCameraToTimedLocForPlayer(GetOwningPlayer(GetTriggerUnit()), point, __jreal(0))
+    RemoveLocation(point)
 end
 
 function InitTrig_Camera_Copy()
@@ -459,7 +500,9 @@ end
 
 -- BEGIN FOREST SECTION 315 AncientSpawnTele
 function Trig_AncientSpawnTele_Actions()
-    SetUnitPositionLoc(GetTriggerUnit(), GetRectCenter(gg_rct_Spawn_all))
+    local point = GetRectCenter(gg_rct_Spawn_all)
+    SetUnitPositionLoc(GetTriggerUnit(), point)
+    RemoveLocation(point)
 end
 
 function InitTrig_AncientSpawnTele()

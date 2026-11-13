@@ -891,7 +891,7 @@
       "Id": 846423624,
       "Type": "Unreal",
       "Level": 1,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.33,
       "SanityCheck": 0,
       "_field": "Hfs2"
@@ -900,7 +900,7 @@
       "Id": 846423624,
       "Type": "Unreal",
       "Level": 2,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.33,
       "SanityCheck": 0,
       "_field": "Hfs2"
@@ -909,7 +909,7 @@
       "Id": 846423624,
       "Type": "Unreal",
       "Level": 3,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.33,
       "SanityCheck": 0,
       "_field": "Hfs2"
@@ -918,7 +918,7 @@
       "Id": 846423624,
       "Type": "Unreal",
       "Level": 4,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.33,
       "SanityCheck": 0,
       "_field": "Hfs2"
@@ -927,7 +927,7 @@
       "Id": 846423624,
       "Type": "Unreal",
       "Level": 5,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.33,
       "SanityCheck": 0,
       "_field": "Hfs2"
@@ -936,7 +936,7 @@
       "Id": 846423624,
       "Type": "Unreal",
       "Level": 6,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.33,
       "SanityCheck": 0,
       "_field": "Hfs2"
@@ -945,7 +945,7 @@
       "Id": 846423624,
       "Type": "Unreal",
       "Level": 7,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.33,
       "SanityCheck": 0,
       "_field": "Hfs2"

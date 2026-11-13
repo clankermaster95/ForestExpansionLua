@@ -408,7 +408,7 @@ end
 function Trig_Basic_Bounty_Hit_Actions()
     AdjustPlayerStateBJ(35, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_LUMBER)
     AdjustPlayerStateBJ(1, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_GOLD)
-    CreateTextTagUnitBJ("TRIGSTR_124", GetEventDamageSource(), __jreal(0), __jreal(9.00), __jreal(100), __jreal(100), __jreal(100), __jreal(0.35))
+    CreateTextTagUnitBJ("TRIGSTR_124", udg_DamageEventSource, __jreal(0), __jreal(9.00), __jreal(100), __jreal(100), __jreal(100), __jreal(0.35))
     SetTextTagPermanentBJ(GetLastCreatedTextTag(), false)
     SetTextTagLifespanBJ(GetLastCreatedTextTag(), __jreal(0.80))
     SetTextTagVelocityBJ(GetLastCreatedTextTag(), __jreal(42.00), __jreal(90))
@@ -451,7 +451,7 @@ end
 function Trig_Improved_Bounty_Hit_Actions()
     AdjustPlayerStateBJ(75, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_LUMBER)
     AdjustPlayerStateBJ(2, GetOwningPlayer(udg_DamageEventSource), PLAYER_STATE_RESOURCE_GOLD)
-    CreateTextTagUnitBJ("TRIGSTR_1382", GetEventDamageSource(), __jreal(0), __jreal(9.00), __jreal(100), __jreal(100), __jreal(100), __jreal(0.35))
+    CreateTextTagUnitBJ("TRIGSTR_1382", udg_DamageEventSource, __jreal(0), __jreal(9.00), __jreal(100), __jreal(100), __jreal(100), __jreal(0.35))
     SetTextTagPermanentBJ(GetLastCreatedTextTag(), false)
     SetTextTagLifespanBJ(GetLastCreatedTextTag(), __jreal(0.80))
     SetTextTagVelocityBJ(GetLastCreatedTextTag(), __jreal(42.00), __jreal(90))
@@ -472,8 +472,9 @@ function Trig_Harvest_Grapes_Conditions()
 end
 
 function Trig_Harvest_Grapes_Actions()
-    CreateItemLoc(FourCC("I027"), GetUnitLoc(GetSpellAbilityUnit()))
-    IssueTargetItemOrder(GetSpellAbilityUnit(), "smart", GetLastCreatedItem())
+    local caster = GetSpellAbilityUnit()
+    local item = CreateItem(FourCC("I027"), GetUnitX(caster), GetUnitY(caster))
+    IssueTargetItemOrder(caster, "smart", item)
 end
 
 function InitTrig_Harvest_Grapes()

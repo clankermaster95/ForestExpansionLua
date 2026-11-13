@@ -1,0 +1,3757 @@
+{
+  "baseline_commit": "3908a135c7733444aca1c0a85cf9a1e9236a21bd",
+  "objects": [
+    {
+      "path": "data/objects/abilities/NewAbilities/A03S.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Hfs2",
+          "level": 1,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 2,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 3,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 4,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 5,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 6,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 7,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Iatt",
+          "level": 1,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 2,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 2,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 2,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 3,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 3,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 3,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 4,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 4,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 4,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 5,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 5,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 5,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 6,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 6,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 6,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 7,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 7,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 7,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 8,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 8,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 8,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 9,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 9,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 9,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 10,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 10,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 10,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 11,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 11,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 11,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 12,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 12,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 12,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 13,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 13,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 13,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 14,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 14,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 14,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 15,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 15,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 15,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 16,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 16,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 16,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 17,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 17,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 17,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 18,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 18,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 18,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 19,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 19,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 19,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 20,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 20,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 20,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 21,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 21,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 21,
+            "Pointer": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A0CO.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Iatt",
+          "level": 1,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 2,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 2,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 2,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 3,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 3,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 3,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 4,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 4,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 4,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 5,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 5,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 5,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Iatt",
+          "level": 6,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 6,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 6,
+            "Pointer": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Oae1",
+          "level": 1,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": 0.05,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 1,
+            "Value": 0.05,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 1,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": 0.05,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 2,
+            "Value": 0.05,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 2,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 0,
+            "Value": 0.1,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 1,
+            "Value": 0.1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 2,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 0,
+            "Value": 0.1,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 2,
+            "Value": 0.1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 3,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 0,
+            "Value": 0.15,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 1,
+            "Value": 0.15,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 3,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 0,
+            "Value": 0.15,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 2,
+            "Value": 0.15,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 4,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 0,
+            "Value": 0.2,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 1,
+            "Value": 0.2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 4,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 0,
+            "Value": 0.2,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 2,
+            "Value": 0.2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 5,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 0,
+            "Value": 0.25,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 1,
+            "Value": 0.25,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 5,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 0,
+            "Value": 0.25,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 2,
+            "Value": 0.25,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 6,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 0,
+            "Value": 0.3,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 1,
+            "Value": 0.3,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 6,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 0,
+            "Value": 0.3,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 2,
+            "Value": 0.3,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 7,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 0,
+            "Value": 0.35,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 1,
+            "Value": 0.35,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 7,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 0,
+            "Value": 0.35,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 2,
+            "Value": 0.35,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 8,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 8,
+            "Pointer": 0,
+            "Value": 0.4,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 8,
+            "Pointer": 1,
+            "Value": 0.4,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 8,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 8,
+            "Pointer": 0,
+            "Value": 0.4,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 8,
+            "Pointer": 2,
+            "Value": 0.4,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 9,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 9,
+            "Pointer": 0,
+            "Value": 0.45,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 9,
+            "Pointer": 1,
+            "Value": 0.45,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 9,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 9,
+            "Pointer": 0,
+            "Value": 0.45,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 9,
+            "Pointer": 2,
+            "Value": 0.45,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Oae1",
+          "level": 1,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": -0.1,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 1,
+            "Value": -0.1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 1,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": -0.1,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 2,
+            "Value": -0.1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 2,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 0,
+            "Value": -0.12000000000000001,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 1,
+            "Value": -0.12000000000000001,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 2,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 0,
+            "Value": -0.12000000000000001,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 2,
+            "Value": -0.12000000000000001,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 3,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 0,
+            "Value": -0.14,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 1,
+            "Value": -0.14,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 3,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 0,
+            "Value": -0.14,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 2,
+            "Value": -0.14,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 4,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 0,
+            "Value": -0.16,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 1,
+            "Value": -0.16,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 4,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 0,
+            "Value": -0.16,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 2,
+            "Value": -0.16,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 5,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 0,
+            "Value": -0.18,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 1,
+            "Value": -0.18,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 5,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 0,
+            "Value": -0.18,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 2,
+            "Value": -0.18,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 6,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 0,
+            "Value": -0.2,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 1,
+            "Value": -0.2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 6,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 0,
+            "Value": -0.2,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 2,
+            "Value": -0.2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 7,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 0,
+            "Value": -0.22,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 1,
+            "Value": -0.22,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 7,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 0,
+            "Value": -0.22,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 2,
+            "Value": -0.22,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 8,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 8,
+            "Pointer": 0,
+            "Value": -0.24000000000000002,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 8,
+            "Pointer": 1,
+            "Value": -0.24000000000000002,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 8,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 8,
+            "Pointer": 0,
+            "Value": -0.24000000000000002,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 8,
+            "Pointer": 2,
+            "Value": -0.24000000000000002,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 9,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 9,
+            "Pointer": 0,
+            "Value": -0.26,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 9,
+            "Pointer": 1,
+            "Value": -0.26,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 9,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 9,
+            "Pointer": 0,
+            "Value": -0.26,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 9,
+            "Pointer": 2,
+            "Value": -0.26,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 10,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 10,
+            "Pointer": 0,
+            "Value": -0.28,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 10,
+            "Pointer": 1,
+            "Value": -0.28,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 10,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 10,
+            "Pointer": 0,
+            "Value": -0.28,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 10,
+            "Pointer": 2,
+            "Value": -0.28,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 11,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 11,
+            "Pointer": 0,
+            "Value": -0.30000000000000004,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 11,
+            "Pointer": 1,
+            "Value": -0.30000000000000004,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 11,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 11,
+            "Pointer": 0,
+            "Value": -0.30000000000000004,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 11,
+            "Pointer": 2,
+            "Value": -0.30000000000000004,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 12,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 12,
+            "Pointer": 0,
+            "Value": -0.32,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 12,
+            "Pointer": 1,
+            "Value": -0.32,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 12,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 12,
+            "Pointer": 0,
+            "Value": -0.32,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 12,
+            "Pointer": 2,
+            "Value": -0.32,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 13,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 13,
+            "Pointer": 0,
+            "Value": -0.33999999999999997,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 13,
+            "Pointer": 1,
+            "Value": -0.33999999999999997,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 13,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 13,
+            "Pointer": 0,
+            "Value": -0.33999999999999997,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 13,
+            "Pointer": 2,
+            "Value": -0.33999999999999997,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 14,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 14,
+            "Pointer": 0,
+            "Value": -0.36,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 14,
+            "Pointer": 1,
+            "Value": -0.36,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 14,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 14,
+            "Pointer": 0,
+            "Value": -0.36,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 14,
+            "Pointer": 2,
+            "Value": -0.36,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 15,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 15,
+            "Pointer": 0,
+            "Value": -0.38,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 15,
+            "Pointer": 1,
+            "Value": -0.38,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 15,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 15,
+            "Pointer": 0,
+            "Value": -0.38,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 15,
+            "Pointer": 2,
+            "Value": -0.38,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 16,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 16,
+            "Pointer": 0,
+            "Value": -0.4,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 16,
+            "Pointer": 1,
+            "Value": -0.4,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 16,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 16,
+            "Pointer": 0,
+            "Value": -0.4,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 16,
+            "Pointer": 2,
+            "Value": -0.4,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 17,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 17,
+            "Pointer": 0,
+            "Value": -0.42000000000000004,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 17,
+            "Pointer": 1,
+            "Value": -0.42000000000000004,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 17,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 17,
+            "Pointer": 0,
+            "Value": -0.42000000000000004,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 17,
+            "Pointer": 2,
+            "Value": -0.42000000000000004,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 18,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 18,
+            "Pointer": 0,
+            "Value": -0.44000000000000006,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 18,
+            "Pointer": 1,
+            "Value": -0.44000000000000006,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 18,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 18,
+            "Pointer": 0,
+            "Value": -0.44000000000000006,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 18,
+            "Pointer": 2,
+            "Value": -0.44000000000000006,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 19,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 19,
+            "Pointer": 0,
+            "Value": -0.45999999999999996,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 19,
+            "Pointer": 1,
+            "Value": -0.45999999999999996,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 19,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 19,
+            "Pointer": 0,
+            "Value": -0.45999999999999996,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 19,
+            "Pointer": 2,
+            "Value": -0.45999999999999996,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 20,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 20,
+            "Pointer": 0,
+            "Value": -0.48,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 20,
+            "Pointer": 1,
+            "Value": -0.48,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 20,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 20,
+            "Pointer": 0,
+            "Value": -0.48,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 20,
+            "Pointer": 2,
+            "Value": -0.48,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 21,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 21,
+            "Pointer": 0,
+            "Value": -0.5,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 21,
+            "Pointer": 1,
+            "Value": -0.5,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 21,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 21,
+            "Pointer": 0,
+            "Value": -0.5,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 21,
+            "Pointer": 2,
+            "Value": -0.5,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCA.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Iatt",
+          "level": 1,
+          "before": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 1953784137,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCB.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Hfa1",
+          "level": 1,
+          "before": {
+            "Id": 828466760,
+            "Type": "Unreal",
+            "Value": 0.0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 828466760,
+            "Type": "Unreal",
+            "Value": 0.0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCS.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Eim1",
+          "level": 1,
+          "before": {
+            "Id": 829253957,
+            "Type": "Unreal",
+            "Value": 0.0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 829253957,
+            "Type": "Unreal",
+            "Value": 0.0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 1
+          }
+        },
+        {
+          "field": "Eim2",
+          "level": 1,
+          "before": {
+            "Id": 846031173,
+            "Type": "Unreal",
+            "Value": 0.0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 846031173,
+            "Type": "Unreal",
+            "Value": 0.0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 2
+          }
+        },
+        {
+          "field": "Eim3",
+          "level": 1,
+          "before": {
+            "Id": 862808389,
+            "Type": "Unreal",
+            "Value": 0.0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 862808389,
+            "Type": "Unreal",
+            "Value": 0.0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 3
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCT.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "spb1",
+          "level": 1,
+          "before": {
+            "Id": 828534899,
+            "Type": "String",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": "AFCA,AFCS,AFCB,A0E4,A0EJ",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828534899,
+            "Type": "String",
+            "Level": 1,
+            "Pointer": 1,
+            "Value": "AFCA,AFCS,AFCB,A0E4,A0EJ",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "spb3",
+          "level": 1,
+          "before": {
+            "Id": 862089331,
+            "Type": "Int",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": 5,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 862089331,
+            "Type": "Int",
+            "Level": 1,
+            "Pointer": 3,
+            "Value": 5,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "spb4",
+          "level": 1,
+          "before": {
+            "Id": 878866547,
+            "Type": "Int",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": 5,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 878866547,
+            "Type": "Int",
+            "Level": 1,
+            "Pointer": 4,
+            "Value": 5,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "spb5",
+          "level": 1,
+          "before": {
+            "Id": 895643763,
+            "Type": "String",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": "spellbook",
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 895643763,
+            "Type": "String",
+            "Level": 1,
+            "Pointer": 5,
+            "Value": "spellbook",
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "spb2",
+          "level": 1,
+          "before": {
+            "Id": 845312115,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 845312115,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 2
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFIS.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Oae1",
+          "level": 1,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": -0.2,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 1,
+            "Value": -0.2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 1,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Value": 0.0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Value": 0.0,
+            "SanityCheck": 0,
+            "Level": 1,
+            "Pointer": 2
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFLT.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Hfs2",
+          "level": 1,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 2,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 3,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 4,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 5,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 6,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Hfs2",
+          "level": 7,
+          "before": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 0,
+            "Value": 0.33,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 846423624,
+            "Type": "Unreal",
+            "Level": 7,
+            "Pointer": 2,
+            "Value": 0.33,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Oae1",
+          "level": 1,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": -0.04,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 1,
+            "Value": -0.04,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 1,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": 0.0,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 1,
+            "Pointer": 2,
+            "Value": 0.0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 2,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 0,
+            "Value": -0.08,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 1,
+            "Value": -0.08,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 2,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 0,
+            "Value": 0.0,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 2,
+            "Pointer": 2,
+            "Value": 0.0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 3,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 0,
+            "Value": -0.12,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 1,
+            "Value": -0.12,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 3,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 0,
+            "Value": 0.0,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 3,
+            "Pointer": 2,
+            "Value": 0.0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 4,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 0,
+            "Value": -0.16,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 1,
+            "Value": -0.16,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 4,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 0,
+            "Value": 0.0,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 4,
+            "Pointer": 2,
+            "Value": 0.0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 5,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 0,
+            "Value": -0.2,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 1,
+            "Value": -0.2,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 5,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 0,
+            "Value": 0.0,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 5,
+            "Pointer": 2,
+            "Value": 0.0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae1",
+          "level": 6,
+          "before": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 0,
+            "Value": -0.24,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 828727631,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 1,
+            "Value": -0.24,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Oae2",
+          "level": 6,
+          "before": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 0,
+            "Value": 0.0,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 845504847,
+            "Type": "Unreal",
+            "Level": 6,
+            "Pointer": 2,
+            "Value": 0.0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFVA.json",
+      "reason": "Correct native ability data-slot encoding; keep intended values, types, levels and base ability unchanged.",
+      "changes": [
+        {
+          "field": "Idef",
+          "level": 1,
+          "before": {
+            "Id": 1717920841,
+            "Type": "Int",
+            "Level": 1,
+            "Pointer": 0,
+            "Value": 15,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1717920841,
+            "Type": "Int",
+            "Level": 1,
+            "Pointer": 1,
+            "Value": 15,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Idef",
+          "level": 2,
+          "before": {
+            "Id": 1717920841,
+            "Type": "Int",
+            "Level": 2,
+            "Pointer": 0,
+            "Value": 20,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1717920841,
+            "Type": "Int",
+            "Level": 2,
+            "Pointer": 1,
+            "Value": 20,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Idef",
+          "level": 3,
+          "before": {
+            "Id": 1717920841,
+            "Type": "Int",
+            "Level": 3,
+            "Pointer": 0,
+            "Value": 25,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1717920841,
+            "Type": "Int",
+            "Level": 3,
+            "Pointer": 1,
+            "Value": 25,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "Idef",
+          "level": 4,
+          "before": {
+            "Id": 1717920841,
+            "Type": "Int",
+            "Level": 4,
+            "Pointer": 0,
+            "Value": 30,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1717920841,
+            "Type": "Int",
+            "Level": 4,
+            "Pointer": 1,
+            "Value": 30,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/abilities_skin/NewAbilities/AFBL.json",
+      "reason": "Match the empty skin record native base to its gameplay Endurance Aura base, as independently normalized by World Editor during the actual r13 save. No modifiers or values change.",
+      "base_change": {
+        "before": 1869378369,
+        "after": 1700876097
+      },
+      "changes": []
+    },
+    {
+      "path": "data/objects/abilities_skin/NewAbilities/AFPB.json",
+      "reason": "Match the empty skin record native base to its gameplay Endurance Aura base, as independently normalized by World Editor during the actual r13 save. No modifiers or values change.",
+      "base_change": {
+        "before": 1869378369,
+        "after": 1700876097
+      },
+      "changes": []
+    },
+    {
+      "path": "data/objects/items/NewItems/I00W.json",
+      "reason": "Random purchases follow script-owned pick phases and solo skip.",
+      "changes": [
+        {
+          "field": "isst",
+          "level": 0,
+          "before": {
+            "Id": 1953723241,
+            "Type": "Int",
+            "Value": 20,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723241,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/items/NewItems/I00X.json",
+      "reason": "Random purchases follow script-owned pick phases and solo skip.",
+      "changes": [
+        {
+          "field": "isst",
+          "level": 0,
+          "before": {
+            "Id": 1953723241,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723241,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/BaseUnits/nmer.json",
+      "reason": "Give dynamic Random stock its required Sell Items capability; remove unmanaged native item stock.",
+      "changes": [
+        {
+          "field": "usei",
+          "level": 0,
+          "before": {
+            "Id": 1768256373,
+            "Type": "String",
+            "Value": "I00W",
+            "SanityCheck": 1919249774
+          },
+          "after": {
+            "Id": 1768256373,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 1919249774
+          }
+        },
+        {
+          "field": "uabi",
+          "level": 0,
+          "before": {
+            "Id": 1768055157,
+            "Type": "String",
+            "Value": "Ane2,Asud,Avul",
+            "SanityCheck": 1919249774
+          },
+          "after": {
+            "Id": 1768055157,
+            "Type": "String",
+            "Value": "Ane2,Asud,Avul,Asid",
+            "SanityCheck": 1919249774
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/BaseUnits/nmr2.json",
+      "reason": "Give dynamic Random stock its required Sell Items capability; remove unmanaged native item stock.",
+      "changes": [
+        {
+          "field": "uabi",
+          "level": 0,
+          "before": {
+            "Id": 1768055157,
+            "Type": "String",
+            "Value": "Ane2,Asud,Avul",
+            "SanityCheck": 846359918
+          },
+          "after": {
+            "Id": 1768055157,
+            "Type": "String",
+            "Value": "Ane2,Asud,Avul,Asid",
+            "SanityCheck": 846359918
+          }
+        },
+        {
+          "field": "usei",
+          "level": 0,
+          "before": {
+            "Id": 1768256373,
+            "Type": "String",
+            "Value": "I00X",
+            "SanityCheck": 846359918
+          },
+          "after": {
+            "Id": 1768256373,
+            "Type": "String",
+            "Value": "",
+            "SanityCheck": 846359918
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O004.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O008.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O00A.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O00D.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O00L.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O00S.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O016.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O01D.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O01V.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O01X.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/O01Z.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 60,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 40,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h000.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h00F.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h00R.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 3600,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h010.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h016.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h01K.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h01X.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h02L.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h02U.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h03D.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h03Q.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h03S.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h05C.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h05W.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usrg",
+          "level": 0,
+          "before": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1735553909,
+            "Type": "Int",
+            "Value": 1,
+            "SanityCheck": 0
+          }
+        },
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/h063.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/hFDM.json",
+      "reason": "Encode the native dummy visual field using its metadata value type; preserve numeric zero. Actual World Editor dropped the incorrectly typed integer record.",
+      "changes": [
+        {
+          "field": "usca",
+          "level": 0,
+          "before": {
+            "Id": 1633907573,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1633907573,
+            "Type": "Real",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/n00M.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/o000.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/o005.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/o01E.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/o026.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units/NewUnits/u007.json",
+      "reason": "Script-owned phase gates permit immediate solo skip; normalize native picker delay/refill.",
+      "changes": [
+        {
+          "field": "usst",
+          "level": 0,
+          "before": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 10,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 1953723253,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "data/objects/units_skin/NewUnits/hFDM.json",
+      "reason": "Encode the native dummy visual field using its metadata value type; preserve numeric zero. Actual World Editor dropped the incorrectly typed integer record.",
+      "changes": [
+        {
+          "field": "uimz",
+          "level": 0,
+          "before": {
+            "Id": 2053990773,
+            "Type": "Int",
+            "Value": 0,
+            "SanityCheck": 0
+          },
+          "after": {
+            "Id": 2053990773,
+            "Type": "Unreal",
+            "Value": 0,
+            "SanityCheck": 0
+          }
+        }
+      ]
+    }
+  ]
+}

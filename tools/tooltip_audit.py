@@ -111,6 +111,9 @@ def gameplay_projection(obj):
 
 def inspect():
     catalog=Catalog(); issues,coverage=catalog.issues()
+    from revision_audit import baseline_objects, validate_objects
+    r12_objects=baseline_objects()
+    gameplay_fixes=validate_objects()
     fixture=ROOT/FIXTURE
     assert ds.digest(fixture.read_bytes())==FIXTURE_SHA,'Tooltip baseline changed'
     changes=[]
@@ -119,7 +122,7 @@ def inspect():
         assert expected=={p.relative_to(ROOT).as_posix() for p,_ in catalog.records.values()}
         for path in sorted(expected):
             old=json.loads(archive.read(path)); new=ds.read(ROOT/path)
-            assert gameplay_projection(old)==gameplay_projection(new),'Non-tooltip object change: '+path
+            assert gameplay_projection(old)==gameplay_projection(r12_objects[path]),'Historical r12 tooltip-only claim changed: '+path
             def values(obj):
                 return {(m['_field'],m.get('Level',0),m.get('Pointer',0)):m['Value']
                         for m in obj['Modifications'] if m['_field'] in TEXT_FIELDS}
@@ -131,7 +134,9 @@ def inspect():
                                 'after':ds.resolve(after.get(key),catalog.strings)})
     return {'baseline':FIXTURE,'baseline_sha256':FIXTURE_SHA,'coverage':coverage,
             'changed_objects':len({c['path'] for c in changes}),'changed_fields':len(changes),
-            'gameplay_object_fields_unchanged':True,'issues':issues,'changes':changes,
+            'gameplay_object_fields_unchanged':False,
+            'r12_tooltip_pass_gameplay_unchanged':True,'subsequent_gameplay_fixes':gameplay_fixes,
+            'issues':issues,'changes':changes,
             'limits':'Authored text, explicit data and documented native research-time defaults; hidden blank fields preserved. Other inherited engine defaults, live rendering and all scripted interactions require in-game verification.'}
 
 def validate():

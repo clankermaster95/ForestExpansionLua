@@ -1,19 +1,19 @@
 {
   "result": "passed",
   "version": "3.2.0",
-  "revision": "r12",
-  "archive_sha256": "bf1ab5e4e6037fc2dd26b79d54527c2f8847c647121f3ea5003313080da25acd",
+  "revision": "r13",
+  "archive_sha256": "58e1cde8c2b9654c90fb029d237c77172aef6d85db5c1c0d8261d07508db55dd",
   "unchanged_original_payload_files": 496,
   "intentional_noncode_payload_changes": [
     {
       "file": "war3map.wts",
       "before_sha256": "e09e20c1f9c9908daae0f5169963630a65a6f1f70e2fc5a9a61629747d57f05e",
-      "after_sha256": "52979797b0340f490b8d27fa713fe36bf418a64ddfff4b72da64ec9e38dd7bf0"
+      "after_sha256": "92d522c16084eaeb7307787ae2f66ccb2bb28de28ed6b8f3dba92a227667f90c"
     },
     {
       "file": "war3map.w3t",
       "before_sha256": "64472c951e1958b2eb40dc319ba0477f55e1bc64f6269159efde1a49d885285e",
-      "after_sha256": "da0e5c71de4ca7271f0ceb2fec7af476f1ec570afe5f242a446e7ca3278f6b97"
+      "after_sha256": "484a6ea48d5f0bc64f7dbf9e4823a7dcf4fb52d1c26e1755f35a95654a6a4319"
     },
     {
       "file": "war3mapSkin.w3t",
@@ -28,7 +28,7 @@
     {
       "file": "war3map.w3u",
       "before_sha256": "5f62d69ff7b85ec722c04721e6eedd5b6dc066cb80e7a15bc06db5f66f322fe0",
-      "after_sha256": "735a20ef8b988fe6744a23b579caf26a5647e692c1c4c8362647e382ea2d38be"
+      "after_sha256": "57312827684fafeb0b88adbaf9461caedb6e328de250f5a9cf83941cf88c1f41"
     },
     {
       "file": "war3map.doo",
@@ -48,7 +48,7 @@
     {
       "file": "war3map.w3a",
       "before_sha256": "20577a87d73b5039be915c282d1e45bddb6caae2f1fd2407775aa52106185057",
-      "after_sha256": "c163848ac05b51dfdb609078b3e16ba37c8ba30b3e88978dc90cfc608b81b0f9"
+      "after_sha256": "93b1c519c9e8203ac6b68eb68077f99849f992c30b541dc41a104f9f695acf0f"
     },
     {
       "file": "war3map.w3c",
@@ -78,7 +78,7 @@
     {
       "file": "war3mapSkin.w3a",
       "before_sha256": "bb231dc998ea9cfe253b7339be90f147569dff2a3d5eed7d5a2d1eb97bb16309",
-      "after_sha256": "11254690112c2cc6643a85cd12af68d5a6df16fab1f8b4a3c2d4f3e3684ed97a"
+      "after_sha256": "debd4d2cc5d78da4a0fdcabd99b650faa9ff6ee1ead56612626a16605e1eec01"
     },
     {
       "file": "war3mapSkin.w3h",
@@ -93,7 +93,7 @@
     {
       "file": "war3mapSkin.w3u",
       "before_sha256": "9bae2f4195a198e264ccc4cbf21eeca3c76817194dfe7ccacef9c8abcb3189e7",
-      "after_sha256": "479832d98c13c669c1c9fa81ff387256bd5df0e178c2350418a64f907695a194"
+      "after_sha256": "ad183ab229c73b95e3f96d62607c654af268d85d37d70e7721fae53312174ada"
     },
     {
       "file": "war3mapUnits.doo",
@@ -113,7 +113,7 @@
     {
       "runtime": "lua-5.3.6",
       "suite": "solo_startup",
-      "result": "Solo startup integration passed: 3260 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+      "result": "Solo startup integration passed: 25386 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
     },
     {
       "runtime": "lua-5.3.6",
@@ -123,7 +123,7 @@
     {
       "runtime": "lua-5.3.6",
       "suite": "selection_bans",
-      "result": "Selection bans passed: 9502 assertions; every random draw, all bans, and full ban budget"
+      "result": "Selection bans passed: 29288 assertions; every random draw, all bans, and full ban budget"
     },
     {
       "runtime": "lua-5.3.6",
@@ -149,6 +149,16 @@
       "runtime": "lua-5.3.6",
       "suite": "cosmic_context",
       "result": "Cosmic Strike context passed: 38 assertions; stale/absent native context and unchanged charge handling"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "base_flags",
+      "result": "Base flags passed: 103729 checks; all ten types/eleven owners; 50,000 rejections with no resource growth or retained handles"
+    },
+    {
+      "runtime": "lua-5.3.6",
+      "suite": "runtime_audit",
+      "result": "runtime audit: 203 behavioral assertions passed"
     },
     {
       "runtime": "lua-5.3.6-32",
@@ -158,7 +168,7 @@
     {
       "runtime": "lua-5.3.6-32",
       "suite": "solo_startup",
-      "result": "Solo startup integration passed: 3260 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
+      "result": "Solo startup integration passed: 25386 assertions; real bootstrap/picking/result callbacks, simulated 400 seconds, both roles and multiplayer gate"
     },
     {
       "runtime": "lua-5.3.6-32",
@@ -168,7 +178,7 @@
     {
       "runtime": "lua-5.3.6-32",
       "suite": "selection_bans",
-      "result": "Selection bans passed: 9502 assertions; every random draw, all bans, and full ban budget"
+      "result": "Selection bans passed: 29288 assertions; every random draw, all bans, and full ban budget"
     },
     {
       "runtime": "lua-5.3.6-32",
@@ -194,6 +204,16 @@
       "runtime": "lua-5.3.6-32",
       "suite": "cosmic_context",
       "result": "Cosmic Strike context passed: 38 assertions; stale/absent native context and unchanged charge handling"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "base_flags",
+      "result": "Base flags passed: 103729 checks; all ten types/eleven owners; 50,000 rejections with no resource growth or retained handles"
+    },
+    {
+      "runtime": "lua-5.3.6-32",
+      "suite": "runtime_audit",
+      "result": "runtime audit: 203 behavioral assertions passed"
     }
   ],
   "historical_r8_regressions": [
@@ -307,7 +327,7 @@
     }
   ],
   "gameplay_objects": {
-    "assertions": 6734,
+    "assertions": 6757,
     "result": "passed"
   },
   "tooltips": {
@@ -315,7 +335,17 @@
     "changed_objects": 653,
     "changed_text_fields": 1037,
     "negative_checks": 9,
-    "gameplay_object_fields_unchanged": true,
+    "gameplay_object_fields_unchanged": false,
+    "r12_tooltip_pass_gameplay_unchanged": true,
+    "subsequent_gameplay_fixes": {
+      "baseline": "tests/fixtures/gameplay-r12.zip",
+      "baseline_sha256": "faeb1a46bd99d0d558917cf9e25a661394a20b38b3b598f870fc9d3b56a1bfa5",
+      "manifest": "data/migrations/r13-object-fixes.json",
+      "changed_objects": 53,
+      "serialized_field_changes": 182,
+      "native_base_changes": 2,
+      "other_object_fields_unchanged": true
+    },
     "coverage": {
       "abilities_skin": 2410,
       "explicit_cooldowns": 369,
@@ -327,6 +357,67 @@
       "upgrades_skin": 3660,
       "research_times": 1081
     }
+  },
+  "picker_objects": {
+    "picker_types": 32,
+    "random_items": 2,
+    "stock_start_delay": 0,
+    "stock_interval": 1,
+    "packed_picker_types_checked": 32,
+    "negative_checks": 10
+  },
+  "native_object_metadata": {
+    "issues": [],
+    "counts": {
+      "abilities_objects": 587,
+      "modifications": 10842,
+      "abilities_skin_objects": 587
+    },
+    "legacy_fields_preserved": [
+      {
+        "kind": "abilities",
+        "rawcode": "A0CC",
+        "base": "AIpb",
+        "field": "Idam",
+        "level": 1,
+        "reason": "Original-map Orb of Venom field needs current-engine verification"
+      }
+    ],
+    "base_families_outside_reference": [
+      "AIno"
+    ],
+    "reference": "tools/reference-data/ability-metadata.json",
+    "scope": "Ability objects and skins: field IDs, value types, native data pointers, level indices, duplicates and base-family compatibility. No live-engine or multiplayer claim.",
+    "other_object_types": {
+      "issues": [],
+      "modifications_checked": 22948,
+      "fields_outside_reference": {
+        "units/upor": 238
+      },
+      "compatibility_exceptions": [
+        {
+          "kind": "units",
+          "rawcode": "h063",
+          "field": "ua1z",
+          "type": "Unreal",
+          "value": 900.0,
+          "reason": "1.32.8 metadata calls missile speed Int, but 3.0.1.24371 editor retains this Unreal gameplay record; common.j exposes ua1z as a unit weapon real field. Preserve this exact observed record."
+        },
+        {
+          "kind": "units_skin",
+          "rawcode": "h063",
+          "field": "ua1z",
+          "type": "Unreal",
+          "value": 900.0,
+          "reason": "Matching skin override for the current-editor-retained gameplay projectile speed; editor removes this redundant skin copy."
+        }
+      ]
+    },
+    "other_object_types_reference": "tools/reference-data/object-field-types.json",
+    "packed_modifications_checked": 10842,
+    "other_packed_modifications_checked": 22948,
+    "negative_checks": 14,
+    "historical_bad_pointers_detected": 129
   },
   "gameplay_patch": {
     "baseline_commit": "a775b1dde3bd65a5e50909b7996c9f222fec7750",
@@ -350,8 +441,8 @@
       {
         "module": "src/players/roles.lua",
         "before_sha256": "934c9e0097e71b24559f58aefa4e2aa1035cd1bbe4e0af1ef67353d2ebbaf7e6",
-        "after_sha256": "7b328ba72a5d6ffb10cabe38130ef879901ad518626865ff37600aaf30b3c330",
-        "reason": "Ancient lobby slot 11 after synchronized editor regeneration."
+        "after_sha256": "cde4117aa6001ecc2fe285a12a59d53b471646bb64f4b6603d8445760c936b45",
+        "reason": "Ancient lobby slot 11 after synchronized editor regeneration; resolve Expander ordinals from current Ancient ownership for legacy research trigger families."
       },
       {
         "module": "src/items/shops.lua",
@@ -368,14 +459,14 @@
       {
         "module": "src/commands/test_data.lua",
         "before_sha256": "d39ab098d8f6b697cc3896024bbfeda099807a22f0db309df58712795d332df6",
-        "after_sha256": "d26d71c68b8ea660a1a7356add09c4c224ebf3ce89d09f58f09834c10b395c8f",
+        "after_sha256": "dcf7d2005590cab8b96a653e182c6c91ed2e36f2fedbb8ca8cd9474c7b285ba9",
         "reason": "Generated current release and object catalog."
       },
       {
         "module": "src/commands/solo_test.lua",
         "before_sha256": "127c6103f831d8d633614c5cadbf739b0de504f5594c53662ee0e4feb89cdc72",
-        "after_sha256": "e36fa1cdea805429244f9e31222d2b83192ef1385e12b60e64150814f5dfd42c",
-        "reason": "Solo skip also unlocks the native picking prerequisite."
+        "after_sha256": "ef1e94823582b49df53e1ba3afc0d5d084723f02cc330de5192b24866029dbc9",
+        "reason": "Solo skip unlocks native picking prerequisites through the phase owners without rebuilding stock a second time or refilling purchased choices."
       },
       {
         "module": "src/effects/timed.lua",
@@ -398,8 +489,8 @@
       {
         "module": "src/game/selection.lua",
         "before_sha256": "60fd7b1175a07a8fe67b9af5db7d9d746956e8305ec14c9fdfda0aec7ab8027d",
-        "after_sha256": "5c8e82707a17ec4362b3ae0e22918578333275b248e4236bf54c75a7730ae5e2",
-        "reason": "Visible zero-cap stock until phase unlock, permanent ban removal, ban-filtered random draws with preserved relative weights, Cultist restricted to start-captured solo test mode."
+        "after_sha256": "e0e9d187e96f09f65685bc4324bce3620d6d4c24cb066ef9f29f61dda3546ff0",
+        "reason": "Visible zero-cap unit and Random-item stock until phase unlock, permanent ban removal, ban-filtered random draws with preserved relative weights, Cultist restricted to start-captured solo test mode; Random stock survives native neutral-shop removal and either pickup/sale event order; scoped picker/camera/teleport handle cleanup."
       },
       {
         "module": "src/combat/common.lua",
@@ -410,14 +501,14 @@
       {
         "module": "src/economy/feed.lua",
         "before_sha256": "3048885853b4d67309b95f3e67d6251f42b3e01dfbc60838eddd823426103e6f",
-        "after_sha256": "e7cd1d3f93f3b440b2c59758b2b206071c82ec3302ccf41592a788b3e25ac73f",
-        "reason": "Equivalent Lua hex escapes preserve feed command patterns and displayed percentages; explicit ownership for delayed load/process/dialog timers."
+        "after_sha256": "cb9a5c94db486051f0fde44cd5489ba7388087b7d120c7f57b8036b9d1626aca",
+        "reason": "Equivalent Lua hex escapes preserve feed patterns/percentages; explicit delayed timer ownership; repeated lethal callbacks scale captured original bounty fields and restore them on an owned zero-delay timer, preserving intervening type/field edits. Native bounty-before-timer ordering still requires gameplay verification."
       },
       {
         "module": "src/races/bounty_hunter.lua",
         "before_sha256": "8de8c3ce70d8e56250e009a4642d4aa6d9221de61ba9269d5b8046dc04ff2e5d",
-        "after_sha256": "a1ed9785617abadee8b8e1ac990983ce81e4113366a6b047e967af05ed86197c",
-        "reason": "Explicit Lua ownership for Snipe and Dash timers until normal cleanup."
+        "after_sha256": "5948aa92fede5936c079263da896fded31561527ed85fc5484c8000eaa150171",
+        "reason": "Explicit Lua ownership for Snipe and Dash timers; bounty feedback uses the matched Damage Engine source; Harvest Grapes uses explicit caster/item handles without a temporary location."
       },
       {
         "module": "src/races/cultist.lua",
@@ -426,22 +517,58 @@
         "reason": "Research-gated aura, sacrifice toggle and pure-damage autocast; hide duplicate resistance icon; retain recurring timer; remove stray Limb Throw diagnostic."
       },
       {
+        "module": "src/races/night_elf.lua",
+        "before_sha256": "9551c2fe080c8c35cfca2cb64adf32a4658b0240ef9b12ac0a7de205f3914f02",
+        "after_sha256": "947113378334612e11628d1777cb045c6f3988a5be2b21974bdb95b8b984ed8b",
+        "reason": "Persist Deepwater research even when no well exists yet and release the temporary enumeration group."
+      },
+      {
+        "module": "src/races/night_elf/shadow_dancer.lua",
+        "before_sha256": "9ee3bef53a0c051508d840774f9e39bee737f5d221f3e7d4324cfc2238ac79d0",
+        "after_sha256": "8372cc5ca7f2cff1120a1a11e56dc97ffcba883caac2b52b281a5d6293df48bc",
+        "reason": "Mage mana restoration identifies the Damage Engine source rather than a native trigger unit from another event context."
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "before_sha256": "4456b1f0f1b0e791355de80f94daa3845d84c59e4976a93e2e76daae3c8a7fd7",
+        "after_sha256": "b79567af1b8cfbf20469a9f128457bb471adc7b214b871a6c2cbacc39c8442be",
+        "reason": "Focused Anger resolves current Expander ownership and checks current research on attacks, including research copied during takeover; legacy trigger handles remain."
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "before_sha256": "c12f7585ab428918a3745ddc60ba31551ec23b9557b2f2bfcb76c4c6ed9fa16b",
+        "after_sha256": "50864a66b777e32da4f126fd6119e1b58ee6f016b7cc849e4bbdd2a7c9045e05",
+        "reason": "Research wrappers cover every current Expander rather than omit the former Ancient slot; temporary groups are released and existing manually leveled abilities can be restored after rebirth."
+      },
+      {
+        "module": "src/races/nerubian.lua",
+        "before_sha256": "2224c239fd09684f05cd6ce83a80c8558c25b47d9dc9355840fcfa7d33417a41",
+        "after_sha256": "77f99e075cfcfe45eb0c1a5f828a12bc27366f48b40b94b9ef072db9a88c33f7",
+        "reason": "Remove tracked spires on death or scripted RemoveUnit through one idempotent native wrapper, ignore duplicate/untracked count events, and require a separate living nearby unit for upgrade blocking. Existing global aura-count rules remain."
+      },
+      {
         "module": "src/races/ratling.lua",
         "before_sha256": "f859a996778affd8816e4e91681e20c89b4b9aaa87fbe0247ed71387a89c62af",
-        "after_sha256": "ad34a12b96b4fff9f13c86b3566cbb8a55a1da897727e8bc08dbd90d9f429451",
-        "reason": "Move poison stacking from attack-start/global buff checks to landed hits."
+        "after_sha256": "778649ad9fd8753e4d177e789c9e0ce22727cd0dc31ef7e4c0368a6a4480f1e3",
+        "reason": "Move poison stacking to landed hits; retain corrosion reduction until its buff expires; record invisibility research without requiring an existing unit and apply it to the actual entering unit."
       },
       {
         "module": "src/races/wisp.lua",
         "before_sha256": "6901fa76144bc528dcbe05b927ec2908dcd478629ab90c530507e59efb339ffa",
-        "after_sha256": "b2170fe193f507729e34e3ef9b4001f9b388074fb458ebc697cc0ba13a462216",
-        "reason": "Apply Wildkin research to the reborn unit."
+        "after_sha256": "3066cadbe0ba36451906c6c8369a74a4844bad8b4d3a04ddcb8dbac95e064c9c",
+        "reason": "Restore existing manually leveled Wildkin, Worgen and Bloodmage abilities from player research after rebirth."
       },
       {
         "module": "src/races/wildkin.lua",
         "before_sha256": "cc2eb273d7b729497f531f78ba17ec8e3e985cc68d0c9f2858f47e5c2f5436d3",
         "after_sha256": "c501b694659a54ece4b10cee7efaa0f6ac530d5aba00ae284d39ecfec54ba707",
         "reason": "Restore researched Wildkin ability levels after recreation; explicitly retain Moonblast timers until cleanup."
+      },
+      {
+        "module": "src/races/worgen.lua",
+        "before_sha256": "ad37d27419699101d5c048992885ebdb87d02468f15623e2003378008526d84f",
+        "after_sha256": "7cf7007954fc15e8d2a468d7a37e3222289eb7d6e2cd67fdd2866787b3f97078",
+        "reason": "Remove the unearned harvest-order gold reward; real world-tree hits retain their reward. Restore existing manually leveled abilities after rebirth."
       },
       {
         "module": "src/ancients/zalxon.lua",
@@ -476,8 +603,14 @@
       {
         "module": "src/ui/hints.lua",
         "before_sha256": "93ad0a7df0ae6fd05cf7fa063e0340f790d399b0c157c3ac63dac701f24d8edd",
-        "after_sha256": "d1cbdb0fe6eb116088ddea9ab628eadea2811a8aeb514f061fcf7e0539545964",
-        "reason": "Equivalent Lua hex escape preserves displayed percentage text during editor saves."
+        "after_sha256": "ee46f4d3046ccff24bd7f60a95c8f4c48e869a3826891425bf5500e78fab9257",
+        "reason": "Equivalent Lua hex escape preserves percentage text; Ancient hints and mutually exclusive gold-ping registrations resolve the current role instead of the former slot."
+      },
+      {
+        "module": "src/ai/behavior.lua",
+        "before_sha256": "86951a7feb6b528f49f5e5abf887c65442ade602f9e381ab9782ed54fb70a847",
+        "after_sha256": "b200e36521de64115c3ab4354e9ee9a83f621b108970fd9977a54c2ec6939a2b",
+        "reason": "Replace unbounded recursive target retries with uniform selection from the same eligible owners; handle empty pools and timer event context, use the chosen target location, and release temporary groups/locations. Rejected-draw RNG consumption deliberately changes."
       },
       {
         "module": "src/items/effects.lua",
@@ -488,8 +621,8 @@
       {
         "module": "src/economy/income.lua",
         "before_sha256": "90791abfc6b069be4a2608a4aa55d38e9e241c955118746e4feafad761b66374",
-        "after_sha256": "7425a00e40ac6877a698606f5c9968524711cd64b08d4540264423b2d3ae182c",
-        "reason": "Red-authorized non-stacking passive-income multiplier."
+        "after_sha256": "74b81372b4651fabcd6329830b8e27d2dfbfbc04c205bb744d25394593ecb7f3",
+        "reason": "Red-authorized non-stacking passive-income multiplier; world-tree payouts read the Damage Engine source and release their visual effect without allocating a location."
       },
       {
         "module": "src/game/startup.lua",
@@ -514,6 +647,18 @@
         "before_sha256": "99d29c0dbe343ef72ec87c628542dd634d19c37dc9ab337a0525839af9688c38",
         "after_sha256": "2a22b7e4c557dc6ae5b98fa4c7a30390ec8409be55f3c929c9512887939ab85f",
         "reason": "Pending leaver armies keep the match open for takeover."
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "before_sha256": "054c04db480aa65d8e665c907baf63d4e2fe7bddb7eb185876f39bdec78226a2",
+        "after_sha256": "f6c9ff80bea8d06195ffff64581bffd699970af13b6c7e49a1473cb1b27ad621",
+        "reason": "Validate paid construction through one refund path; remove rejected structures without corpses, release effects and temporary handles, initialize base rectangles before early skip, reserve pending flags, and derive one income stream per current owner from surviving completed flags after takeover/removal."
+      },
+      {
+        "module": "src/items/mech_blaster.lua",
+        "before_sha256": "33354c166f24aa2ecd686dae02ef5863c2597423abdf01efb1487b67e6934a75",
+        "after_sha256": "fdd392b1957c17db3407cd3bebcd02bf41417c7624688ab29ef3225e75e6b637",
+        "reason": "Melee/ranged ability-level selection reads the actual Damage Engine source instead of its cleared configuration field."
       },
       {
         "module": "src/bootstrap.lua",
@@ -548,27 +693,45 @@
         "module": "src/commands/player.lua"
       },
       {
+        "id": 257,
+        "before_sha256": "de3c4f61923b6e636b90adddfc37d4c284c5536835bdb894dc9b8512c1fc4992",
+        "after_sha256": "cdd1931bcec3aae2cf366bce04432a2b4cdb0adc164ad8f0b91f5086431ff8fc",
+        "module": "src/game/selection.lua"
+      },
+      {
         "id": 262,
         "before_sha256": "8a37dd95ba35aa7082d758d98a04368ef9a39b7396345a262e056274c0782480",
-        "after_sha256": "4f0ccd7f06f205e3af83bd87971082b4cdb7309649a4bb9a855b45c2a02f7be0",
+        "after_sha256": "de06701e589106cc261cccec2cf2c5b75d6c7c14382675324ad754000486d6e4",
         "module": "src/game/selection.lua"
       },
       {
         "id": 263,
         "before_sha256": "f67bfc6fdd3d5c1da86ea29311b5e156e4b1903d97b238cd49db701ac8a19ed6",
-        "after_sha256": "88ba91b22d9b8aed69b2fbcbf0e78e82feab5208257ddc6a18ca8084eccc3dff",
+        "after_sha256": "45c3b0395af9f3d46ec926a3e768447c0fb685b854ffd75958b1e42c242d8578",
         "module": "src/game/selection.lua"
       },
       {
         "id": 269,
         "before_sha256": "58c698e474a89dfd9a0faa0444633fab636b341dcd77d8f8b87a9754226f25d5",
-        "after_sha256": "78d87572cf44bc4189edf0cc038fd01a9eb6ecb0dd92ccee08d045ecd9834016",
+        "after_sha256": "e33e1559365fd38bb32fabc010e3c24d45466e0bfd0e21a8218140be9c507f89",
         "module": "src/game/selection.lua"
       },
       {
         "id": 270,
         "before_sha256": "38a281f81e15abadbf79f7d0d611b8fe0759e3db2e23ba9d14d1dd1764ae7ff7",
         "after_sha256": "7a9cf0699c4998d729c15243ac156e57170d8f8e7328c1c58184c35fec4d65f0",
+        "module": "src/game/selection.lua"
+      },
+      {
+        "id": 313,
+        "before_sha256": "fb890fe3ff12b986219326c1bacf30882c1490d6dc51a02610bef6fdbfa2c540",
+        "after_sha256": "ee2fb782d8b08524c9d1758b17cf090911c301ec045ce5864d9824e97c21c52f",
+        "module": "src/game/selection.lua"
+      },
+      {
+        "id": 315,
+        "before_sha256": "a40a4ac3756302dc349aaf07f071e599e99173abccf2b888192457bfb9da0edc",
+        "after_sha256": "66f68fa337168c1a1ee3a108cec8fe72f9c1358b77a713a8ec22fbc43930aca4",
         "module": "src/game/selection.lua"
       },
       {
@@ -590,6 +753,12 @@
         "module": "src/economy/feed.lua"
       },
       {
+        "id": 24,
+        "before_sha256": "1e3f630c6f2d747c3c4df329c328714db817d5d71f4b49cfdbb92ea8afc100d8",
+        "after_sha256": "e378d2ef320c6687539f6c418bbe294b6d4853b4da68dfa607db9308e56f7f75",
+        "module": "src/economy/feed.lua"
+      },
+      {
         "id": 26,
         "before_sha256": "a529d3453fbc36b36dc4f78e9e3b8cdafb59e4d15afde441b5ae5e42e78f30f6",
         "after_sha256": "408c7034accb75bb8a5aeac43155dc9c136ee0ee05d1a73203d29a202d12d70d",
@@ -608,6 +777,24 @@
         "module": "src/races/bounty_hunter.lua"
       },
       {
+        "id": 32,
+        "before_sha256": "fd212ceb85e220d2674114c32be71892ce42d91ac9b8cdb82ba1439f46904b7e",
+        "after_sha256": "c88675c46a3450e830196a25be1d0228a1dddde637fc23b257fd0c797c7904c4",
+        "module": "src/races/bounty_hunter.lua"
+      },
+      {
+        "id": 33,
+        "before_sha256": "195cdb1bc59fa0b1a20d85630f1ef9809cc5b3b776efa1f3b8dec8c01243047e",
+        "after_sha256": "3fe5e646ce832541fc65d77663d653784a1968ddcc572a2f455fe199684fdf2c",
+        "module": "src/races/bounty_hunter.lua"
+      },
+      {
+        "id": 34,
+        "before_sha256": "6bda241f11ecd545567db3d61deffbc9216552f16d0d3e227796f4b4f5a6a8d5",
+        "after_sha256": "88c78151182590a4fb22596936ed1c0a8ef6524afd9188ad6773a2cc89fb6b20",
+        "module": "src/races/bounty_hunter.lua"
+      },
+      {
         "id": 36,
         "before_sha256": "f5309a9a62527cc0c230020ed4d4ab11a6be9f4338234834ac4a3fa802de55f8",
         "after_sha256": "9190469b484af5a4906de48abbc3ab17a2dfbdc2ae46ff034519e53f1b37f2be",
@@ -618,6 +805,150 @@
         "before_sha256": "4223bda52a880a6cec0a3e0781656220268d7b26c152bf607656ad87c54dd688",
         "after_sha256": "439b6f67f79800776273ad21e313e67ae59fe8c22dbd2e94f20e4a0cb5c13552",
         "module": "src/races/cultist.lua"
+      },
+      {
+        "id": 49,
+        "before_sha256": "04752ce140ed5939116e693d7076a3fb12bd93f1390bfa900faba7afdc97f23a",
+        "after_sha256": "df1d1a872482a885f66102fdc49dd2d086852a1f22d2e7119ab7bcd923c7afbb",
+        "module": "src/races/night_elf.lua"
+      },
+      {
+        "id": 56,
+        "before_sha256": "b02fd6eb46735d91d4c5794ee9a9d20057996081fb657de976b9dfcec83baf78",
+        "after_sha256": "127aa70cbd70422a2a33615bb76eabe4ba8fb3c16096c38de5ddd7f58368bb74",
+        "module": "src/races/night_elf/shadow_dancer.lua"
+      },
+      {
+        "id": 65,
+        "before_sha256": "9ca7931e12407839eed480cd9b674743ec306dfee5c8aa14a87f5139479d6ef1",
+        "after_sha256": "9b9c04d81b65662149416df37eddef666895cbaf84c0f9d181162c05af1ab14f",
+        "module": "src/races/forgotten/executioner.lua"
+      },
+      {
+        "id": 73,
+        "before_sha256": "23702b2732b2f8bff6487ee5a64caeb4b252f2b773844521ae82ebc7aa342493",
+        "after_sha256": "edccd67b23a71475ff178fcc5a7cbb2f385d285a87607f7ca10f3d0520863eac",
+        "module": "src/races/forgotten/executioner.lua"
+      },
+      {
+        "id": 74,
+        "before_sha256": "46156eaf752fa1e25b5bd876570b0de313e25d7f6226b2382154937b2c7172f6",
+        "after_sha256": "129050cc8ab7612b568883b8bb52a6166d2f13975dc49329db08fd9a17b0432c",
+        "module": "src/races/forgotten/executioner.lua"
+      },
+      {
+        "id": 75,
+        "before_sha256": "bbd2d8e6cde89e7d7f94c64b49e7ff44e2cb22f0a2162cdcadcccc3eb53a8047",
+        "after_sha256": "34b044b1e7177afff16def5595502f18e5b115f1273f4151b42ac0ea52449799",
+        "module": "src/races/forgotten/executioner.lua"
+      },
+      {
+        "id": 76,
+        "before_sha256": "2831e0ed622193ada2d4133966efb7b11b2371a044894127b6196d2bb34882e6",
+        "after_sha256": "b3714a3aa08e8c74bc281f04caaee89fecf94ece36f3dc5425b219ed9c208710",
+        "module": "src/races/forgotten/executioner.lua"
+      },
+      {
+        "id": 83,
+        "before_sha256": "9d73a948c4c4cc095ba2f5f43c39b4986e13022456cc3b8e6716b35357e05b01",
+        "after_sha256": "5e9da4d6ac4d6ef9f2bc7104202e251f046d5df554237f71b5c8cae635f81a86",
+        "module": "src/races/forgotten/executioner.lua"
+      },
+      {
+        "id": 84,
+        "before_sha256": "01d1c584aca7b0c3cd5b448098e26e6b2f9dc3cf235565eca955598ca5424bfb",
+        "after_sha256": "4d89e66307d96a4d8eb1574260f59e2f6f3f06efb7c3cf339bd7b1eb6fb504a6",
+        "module": "src/races/forgotten/executioner.lua"
+      },
+      {
+        "id": 85,
+        "before_sha256": "a2e34e64b5a701ab57fa8238e2b467a89511aac117e1d38dde52bfff0cce45fb",
+        "after_sha256": "7b95df3cf5001648b8f0520cde1e3d565557763e8d2fa233f3923f1df0ccb8b1",
+        "module": "src/races/forgotten/executioner.lua"
+      },
+      {
+        "id": 86,
+        "before_sha256": "63c60854dfe297c64f9f162e231a8e964c27528a3ba74899f0a2b7f0c9b20615",
+        "after_sha256": "092efe58d985e8e618e4340b7d5f946b9356a6e88f0e3666d5d25169fb3f2282",
+        "module": "src/races/forgotten/executioner.lua"
+      },
+      {
+        "id": 90,
+        "before_sha256": "499e0578f79d9beccf636c90be5299cb0fc997f514c9eee353d8a1fed3aca470",
+        "after_sha256": "690404a7ba3d5e8ea6320603444fad0093dcac460a742ae3b58a550ef5abf6b3",
+        "module": "src/races/forgotten/bloodmage.lua"
+      },
+      {
+        "id": 104,
+        "before_sha256": "96868987a451b3c1518a856fcf2ca831d9872996818d6451ffde8f3ee35fad85",
+        "after_sha256": "cbe73a71faf22430bb5a857fdfb21cf7ed5225f752db8e538bbc4a2a8d2f19c6",
+        "module": "src/races/forgotten/bloodmage.lua"
+      },
+      {
+        "id": 105,
+        "before_sha256": "e28a45c0dfdc68c88c2eb3a0af736d89eac815f4c62eaa33f368056cd6c4b6d5",
+        "after_sha256": "7f2b27c7f0749a9762e5f69d9f26176a81beace75e1e45ab9fbc33d0bf222cfe",
+        "module": "src/races/forgotten/bloodmage.lua"
+      },
+      {
+        "id": 106,
+        "before_sha256": "d4c092e81eb934f10196a9e77ff917cb94272c36761f0c7ec1ecf1a360f9d8c9",
+        "after_sha256": "cd893cc4cc2a6b2d390bb6c8e6d137661d88aa6e1e64f2cdd0faed0b5e701d67",
+        "module": "src/races/forgotten/bloodmage.lua"
+      },
+      {
+        "id": 107,
+        "before_sha256": "5d0da5d95e5632e55317603935a7bc47b49c6feccc9b3c9593bb7b9d5ee862e7",
+        "after_sha256": "8a6e6a76703efc254c38b4b918ac2a3fa4c7383eb6c6430dcbb3b525aba6c4d2",
+        "module": "src/races/forgotten/bloodmage.lua"
+      },
+      {
+        "id": 117,
+        "before_sha256": "a7bd44efb88f63e4cfcd4a7ef1b06f85e68fb8ac23709cdb62f65276fdce9915",
+        "after_sha256": "1f4e0079c6d67226de1616d2596d0099d445290ee2da0306c346ff3e9b5cd86c",
+        "module": "src/races/forgotten/bloodmage.lua"
+      },
+      {
+        "id": 118,
+        "before_sha256": "17d196905ad7f5c6f2025c62df17721636c4856b831f81849c08335638c2c493",
+        "after_sha256": "25a541f2b21e06322361cdbd3e0edf3e5bb7a1a508868750eafb470603f14401",
+        "module": "src/races/forgotten/bloodmage.lua"
+      },
+      {
+        "id": 119,
+        "before_sha256": "57578d162e53b1bdb0efbdf70ada3bbeb9c2d78f5f04e42bc439de994398db4b",
+        "after_sha256": "9d6428bc4ace8cfa7e6a2e71ccd4ef73b380bc8d74da7deb24e4e62511e1348d",
+        "module": "src/races/forgotten/bloodmage.lua"
+      },
+      {
+        "id": 120,
+        "before_sha256": "b197c0fc31392572c3e02e2363c5d60d0cb59c4ac5d34023da68746d1828c133",
+        "after_sha256": "15fb96f361a4a42f8fc58e04c4f5e91a9da97d860aad0b4646cd41bae990f1fc",
+        "module": "src/races/forgotten/bloodmage.lua"
+      },
+      {
+        "id": 121,
+        "before_sha256": "0617924757a8a366dea74e07cc939533761e0307cd3441acdfd0984c235457b7",
+        "after_sha256": "f173f6c1c2ac0fb410d906f3dc15e6868946a4b939c3a06d38af477771ec8ee9",
+        "module": "src/races/nerubian.lua"
+      },
+      {
+        "id": 122,
+        "before_sha256": "0fe4b7e63bc61d9fc35267748d7036f1eddc80d941cb15c2c7daf4399b3648aa",
+        "after_sha256": "864849a74a8c0ee7ad8df41508e068183582b911b09c05af70cb68a41b2eba16",
+        "module": "src/races/nerubian.lua"
+      },
+      {
+        "id": 123,
+        "before_sha256": "e957c1febecb6a46c0dbb8ebaba5eca1506f8a61fddaa264f22f1dc634ee114b",
+        "after_sha256": "6db37dd341f5663be7e403141df5c8f7ce0ffacf99c69d5189b0e24d42a36539",
+        "module": "src/races/nerubian.lua"
+      },
+      {
+        "id": 127,
+        "before_sha256": "2216f7c6e8839b3d9a14a8cc470cf043d0dfcffb4e65128671810f9758b9e6d6",
+        "after_sha256": "f42c399589e7768a59efaf1731fdc35e796dd7df86f4e4702d530b43d96e8025",
+        "module": "src/races/ratling.lua"
       },
       {
         "id": 129,
@@ -632,9 +963,21 @@
         "module": "src/races/ratling.lua"
       },
       {
+        "id": 131,
+        "before_sha256": "0e444deb47189001e1e2566fd7c4208f58182ba6495dc79757e22055f31d5360",
+        "after_sha256": "2ef0359e09ffb3bc67e3477034f26b67fc79aa5c9a9a80eb1b7dee2d80e7d6be",
+        "module": "src/races/ratling.lua"
+      },
+      {
+        "id": 132,
+        "before_sha256": "222723a512829632c4f793858832bc6b6197b4487cd1af559a51d152afca39ff",
+        "after_sha256": "277a74e4c8b8481b4ddb111e26b21c90909c426b717f228aab12f3d10d0f5119",
+        "module": "src/races/ratling.lua"
+      },
+      {
         "id": 136,
         "before_sha256": "a80518e4290ad933df1881a722d23bb968cd48f240f10343b60ae8eb84a7c399",
-        "after_sha256": "e6b620ba2b58f802ea0977395a63e68f6e600af835de1d8e01959fa25d62b05d",
+        "after_sha256": "8e74e4ce022013da6e06425c468f7c5cf41ad1b0a2a760d362555e73f0ca5b4c",
         "module": "src/races/wisp.lua"
       },
       {
@@ -642,6 +985,12 @@
         "before_sha256": "19cb749c542f33e6286f56955f8d12bd4f7fd7b93af00fa730b7fca61230a966",
         "after_sha256": "301835dad65b7785bfed3a5d1f5a557f80222bd5f969341bb6f4dedcc3813b3d",
         "module": "src/races/wildkin.lua"
+      },
+      {
+        "id": 151,
+        "before_sha256": "541bc10da7f1efd4ca072eb282bb91bb95bb0d7afea9aa0c48e597da6c5addf7",
+        "after_sha256": "aa37034b376cbacc71e0cdd2fd4e050df9918f7c4ccd6e3656afd43604a9aaae",
+        "module": "src/races/worgen.lua"
       },
       {
         "id": 158,
@@ -704,10 +1053,52 @@
         "module": "src/ui/hints.lua"
       },
       {
+        "id": 196,
+        "before_sha256": "00dd85dce808f160c3bb476660f9404b2743b84826cfb8218eddf96e7d4eb09b",
+        "after_sha256": "cb5c1a911f4570897bb9c8dc4f1ed95249b4cc4140781ebbdc0b68ad5ef11f99",
+        "module": "src/ui/hints.lua"
+      },
+      {
+        "id": 197,
+        "before_sha256": "df1494c6ce8257e434226070ab4ee2259a684883e736047c5ad1556bc5a7e0bd",
+        "after_sha256": "9ef16c14a45ac345055f6c5f1de48310592cdfbfb27c7ae6367d7087ba4ac259",
+        "module": "src/ui/hints.lua"
+      },
+      {
+        "id": 203,
+        "before_sha256": "27830d305c9aff7d60c9c0ac5fc208fa625956d6a984198c238ed2214d0029fe",
+        "after_sha256": "a1e60da7200a652c06c18aca5d994410324014502ab20e179e6bf36439ec3b35",
+        "module": "src/ui/hints.lua"
+      },
+      {
+        "id": 206,
+        "before_sha256": "f30930eb2112c746a2e7d04d2f9153e91182e33a9e3e904716c79e449ee7db51",
+        "after_sha256": "4d01dfa176109a12e8fb8b54748f86c547476e7af427a76176670760bb519744",
+        "module": "src/ai/behavior.lua"
+      },
+      {
+        "id": 208,
+        "before_sha256": "4e3d7b7824316d1bbb13a73f9edbec441e5cc0be9ea69cfca03e61abfeb9fb23",
+        "after_sha256": "dcb2b0e07f118d8ce4a408ff178365b531bcb87838b4e145b229d37b059ccc77",
+        "module": "src/ai/behavior.lua"
+      },
+      {
+        "id": 210,
+        "before_sha256": "0c37a48e48cde8e63b3137dee78903972bef644ef770298b08ae6e96952b8a25",
+        "after_sha256": "04d2ceef47e88629f8380bd1414dc63ec2f728f98349579a441afe42039c98e8",
+        "module": "src/ai/behavior.lua"
+      },
+      {
         "id": 223,
         "before_sha256": "b592d64293e6e1f22bbcbea4420582b8bf825660553df5c94ce30b75ab634467",
         "after_sha256": "d50dcecd4f0b3a99719461bd1ef0368f8d093431648330d64bdc565d098325d7",
         "module": "src/items/effects.lua"
+      },
+      {
+        "id": 247,
+        "before_sha256": "b3f9ced8aa64a91755fa9cb8e7b73183df0d6218b8fa89b44554088b0398201c",
+        "after_sha256": "d83a31385d6886d27e4641bb90cd3d01e87147650aa0dab1ead4911261c87e3d",
+        "module": "src/economy/income.lua"
       },
       {
         "id": 250,
@@ -762,6 +1153,54 @@
         "before_sha256": "df60d367dd40e300d16fc692b70a27bbd836513a1fb2d8bd06123aaca05ca5d2",
         "after_sha256": "b5a02c9fdbc3ffaa6beaa312dd18bd2163dc180889e7d654e9a88dfd95db7299",
         "module": "src/game/victory.lua"
+      },
+      {
+        "id": 366,
+        "before_sha256": "cd1c7e9be459909debdc3addedaf806102276ee87f24510e907f9e00f61eed7b",
+        "after_sha256": "8d7ffbe18eed5dc2bc7f09cde8d4eced019231446ea4e9a99938c9f131d2cf14",
+        "module": "src/economy/base_flags.lua"
+      },
+      {
+        "id": 367,
+        "before_sha256": "e732e0bb6bcaa1226dff7f21e7fba4ec66f967c9151a530b4c9eea397c51dd69",
+        "after_sha256": "27b71169e78a4d89bd8c7f6440f174f3ee4e69992699b19299123a72526a384d",
+        "module": "src/economy/base_flags.lua"
+      },
+      {
+        "id": 368,
+        "before_sha256": "1fa05854f590eca81d302ee1829fc311544ffc224f48871bdf43a17bf5d021e8",
+        "after_sha256": "11e928473a85fcf017cdaca327a9e005e3ce953dff6ffae93153022b47aa1d42",
+        "module": "src/economy/base_flags.lua"
+      },
+      {
+        "id": 369,
+        "before_sha256": "f6bbf894e95d547427872b006b4177034fc3ffed916e38a41f7abf5d7cdc1ef2",
+        "after_sha256": "e880cd7189783befb5d165a92f14a33cd549a5a2c3266349e1b4bc3bf8c51d2a",
+        "module": "src/economy/base_flags.lua"
+      },
+      {
+        "id": 370,
+        "before_sha256": "6101453448f781833b0e36ab41ade9abce8e0b513b5db420b37096393e406b22",
+        "after_sha256": "373a15acde28a42e2b75b7c9e4d55e8f863fb6e876a67a8b60f78d47fe33751c",
+        "module": "src/economy/base_flags.lua"
+      },
+      {
+        "id": 371,
+        "before_sha256": "46e30aae7ba31d124ac9b4a1b6ae65c4bf446a9c8573e2a9ee7727df2de2520a",
+        "after_sha256": "b78ca39511bfe84b6cf09bde90441c7b93391e0ee4d907d709640f9eec967086",
+        "module": "src/economy/base_flags.lua"
+      },
+      {
+        "id": 372,
+        "before_sha256": "304f7512b30f3a8e9dd70b92073cf100a58c7142c7f7f42c373f06ef78f80ea2",
+        "after_sha256": "35c29662695508e1f9765519bdd3b1537ea5fe6e990bead76351e756bb09e0b9",
+        "module": "src/economy/base_flags.lua"
+      },
+      {
+        "id": 375,
+        "before_sha256": "746a1deb7f5cb8e5505ff3e06b1affada775756236a8004982da4afeddf79930",
+        "after_sha256": "5abe228b8e28ac70e476cfcc236779d050296e3612cdad7d6d833320f6428ae2",
+        "module": "src/items/mech_blaster.lua"
       }
     ],
     "changed_existing_functions": [
@@ -847,6 +1286,10 @@
       },
       {
         "module": "src/game/selection.lua",
+        "function": "Trig_Give_orb_Actions"
+      },
+      {
+        "module": "src/game/selection.lua",
         "function": "Trig_RandomExpander2_Actions"
       },
       {
@@ -868,6 +1311,14 @@
       {
         "module": "src/game/selection.lua",
         "function": "InitTrig_Spawn_Ancients"
+      },
+      {
+        "module": "src/game/selection.lua",
+        "function": "Trig_Camera_Copy_Actions"
+      },
+      {
+        "module": "src/game/selection.lua",
+        "function": "Trig_AncientSpawnTele_Actions"
       },
       {
         "module": "src/combat/common.lua",
@@ -899,6 +1350,10 @@
       },
       {
         "module": "src/economy/feed.lua",
+        "function": "FR_ApplyGoldBountyRate"
+      },
+      {
+        "module": "src/economy/feed.lua",
         "function": "Trig_CheckFeedRates_Actions"
       },
       {
@@ -918,6 +1373,18 @@
         "function": "StartDash"
       },
       {
+        "module": "src/races/bounty_hunter.lua",
+        "function": "Trig_Basic_Bounty_Hit_Actions"
+      },
+      {
+        "module": "src/races/bounty_hunter.lua",
+        "function": "Trig_Improved_Bounty_Hit_Actions"
+      },
+      {
+        "module": "src/races/bounty_hunter.lua",
+        "function": "Trig_Harvest_Grapes_Actions"
+      },
+      {
         "module": "src/races/cultist.lua",
         "function": "Trig_Limb_Throw_Actions"
       },
@@ -926,12 +1393,172 @@
         "function": "InitTrig_Map_Start"
       },
       {
+        "module": "src/races/night_elf.lua",
+        "function": "Trig_Deepwater_1_Func001A"
+      },
+      {
+        "module": "src/races/night_elf.lua",
+        "function": "Trig_Deepwater_1_Actions"
+      },
+      {
+        "module": "src/races/night_elf/shadow_dancer.lua",
+        "function": "Trig_Mana_Steal_Mages_Conditions"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "FocusedAngerOwnerCondition"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "FocusedAngerAttackEvent"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "FocusedAngerResearchEvent"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "Trig_Focused_Anger_7_Conditions"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "Trig_Focused_Anger_8_Conditions"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "Trig_Focused_Anger_9_Conditions"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "Trig_Focused_Anger_10_Conditions"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "InitTrig_Focused_Anger_Trigger_Copy_6"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "InitTrig_Focused_Anger_Trigger_Copy_7"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "InitTrig_Focused_Anger_Trigger_Copy_8"
+      },
+      {
+        "module": "src/races/forgotten/executioner.lua",
+        "function": "InitTrig_Focused_Anger_Trigger_Copy_9"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "BloodmageUpgradeUnits"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "BloodmageResearchEvent"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "Trig_Levelled_Drain_Copy_6_Actions"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "InitTrig_Levelled_Drain_Copy_6"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "Trig_Levelled_Drain_Copy_7_Actions"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "InitTrig_Levelled_Drain_Copy_7"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "Trig_Levelled_Drain_Copy_8_Actions"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "InitTrig_Levelled_Drain_Copy_8"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "Trig_Levelled_Drain_Copy_9_Actions"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "InitTrig_Levelled_Drain_Copy_9"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "Trig_Levelled_Slam_Copy_6_Actions"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "InitTrig_Levelled_Slam_Copy_6"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "Trig_Levelled_Slam_Copy_7_Actions"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "InitTrig_Levelled_Slam_Copy_7"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "Trig_Levelled_Slam_Copy_8_Actions"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "InitTrig_Levelled_Slam_Copy_8"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "Trig_Levelled_Slam_Copy_9_Actions"
+      },
+      {
+        "module": "src/races/forgotten/bloodmage.lua",
+        "function": "InitTrig_Levelled_Slam_Copy_9"
+      },
+      {
+        "module": "src/races/nerubian.lua",
+        "function": "Trig_LevelUpAura_Actions"
+      },
+      {
+        "module": "src/races/nerubian.lua",
+        "function": "InitTrig_LevelUpAura"
+      },
+      {
+        "module": "src/races/nerubian.lua",
+        "function": "Trig_DowngradeAura_Actions"
+      },
+      {
+        "module": "src/races/nerubian.lua",
+        "function": "CheckNearbyUpgrades"
+      },
+      {
+        "module": "src/races/ratling.lua",
+        "function": "Trig_ReduceMagicResist2_Func001A"
+      },
+      {
         "module": "src/races/ratling.lua",
         "function": "Trig_Poisoned_Bullets2_Actions"
       },
       {
         "module": "src/races/ratling.lua",
         "function": "Trig_Poisoned_Bullets_Actions"
+      },
+      {
+        "module": "src/races/ratling.lua",
+        "function": "Trig_Permanent_Invisibility_Func001A"
+      },
+      {
+        "module": "src/races/ratling.lua",
+        "function": "Trig_Permanent_Invisibility_Actions"
+      },
+      {
+        "module": "src/races/ratling.lua",
+        "function": "Trig_Permanent_Invisibility_2_Actions"
       },
       {
         "module": "src/races/wisp.lua",
@@ -944,6 +1571,10 @@
       {
         "module": "src/races/wildkin.lua",
         "function": "Trig_Moonblast_Actions"
+      },
+      {
+        "module": "src/races/worgen.lua",
+        "function": "Trig_Return_lumber_Actions"
       },
       {
         "module": "src/ancients/zalxon.lua",
@@ -1010,6 +1641,34 @@
         "function": "Trig_InitialText_Actions"
       },
       {
+        "module": "src/ui/hints.lua",
+        "function": "Trig_Info_Copy_Actions"
+      },
+      {
+        "module": "src/ui/hints.lua",
+        "function": "Trig_Info_Actions"
+      },
+      {
+        "module": "src/ui/hints.lua",
+        "function": "InitTrig_Ping"
+      },
+      {
+        "module": "src/ai/behavior.lua",
+        "function": "HardAIChooseCandidate"
+      },
+      {
+        "module": "src/ai/behavior.lua",
+        "function": "HardAISelectAndOrder"
+      },
+      {
+        "module": "src/ai/behavior.lua",
+        "function": "Trig_Hard_Attack_Conditions"
+      },
+      {
+        "module": "src/ai/behavior.lua",
+        "function": "Trig_Hard_attack_2_Func002002"
+      },
+      {
         "module": "src/items/effects.lua",
         "function": "DAS_StopTracking"
       },
@@ -1020,6 +1679,10 @@
       {
         "module": "src/items/effects.lua",
         "function": "DAS_StartTracking"
+      },
+      {
+        "module": "src/economy/income.lua",
+        "function": "Trig_Worgens_gold_Actions"
       },
       {
         "module": "src/economy/income.lua",
@@ -1074,6 +1737,54 @@
         "function": "Trig_Extermination_Conditions"
       },
       {
+        "module": "src/economy/base_flags.lua",
+        "function": "Trig_Flagstack_Deny_Actions"
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "InitTrig_Flagstack_Deny"
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "Trig_Flag_no_base_Deny_Func002C"
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "Trig_Flag_no_base_Deny_Actions"
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "Trig_NewFlag_Actions"
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "Trig_NewFlag2_Func001A"
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "Trig_NewFlag2_Actions"
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "Trig_NewFlag3_Conditions"
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "Trig_NewFlag3_Actions"
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "Trig_NewFlag4_Actions"
+      },
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "InitTrig_NewFlag4"
+      },
+      {
+        "module": "src/items/mech_blaster.lua",
+        "function": "Trig_Gobo_Mech_Blaster_attack_check_Func001C"
+      },
+      {
         "module": "src/bootstrap.lua",
         "function": "InitTrig_FE_Bootstrap"
       }
@@ -1083,13 +1794,13 @@
         "path": "data/objects/abilities/NewAbilities/A03S.json",
         "rawcode": "A03S",
         "before_sha256": "b44461ceed5c89e5eeb8444bc05fe8011dc77287eaf83d769df62e1731dfefc7",
-        "after_sha256": "949832629046a944bbce4318aa4961fe675d37a34a6be229d6dd1e9aa1833da6"
+        "after_sha256": "9b251ae44f7e043fc418052ea59a07da8836d97edc38bd6c882defebf3a8f68a"
       },
       {
         "path": "data/objects/abilities/NewAbilities/A04C.json",
         "rawcode": "A04C",
         "before_sha256": "7137cfc98d1dac27f4a84f7d4cd501416a25c9fe0eff8a223344ac8b1c769ff4",
-        "after_sha256": "6ea4941afd648e68e787b5af7a6a6879ccf399e58c90a597daf27e853b6ecf4a"
+        "after_sha256": "1153a4ac485fbf327015f2bbddb18d25baf52ed2a75a58c45e956d37980eeac2"
       },
       {
         "path": "data/objects/abilities/NewAbilities/A06U.json",
@@ -1113,67 +1824,67 @@
         "path": "data/objects/abilities/NewAbilities/A0CO.json",
         "rawcode": "A0CO",
         "before_sha256": "81b92e04bfb19f5e628fa47036b449d252e6d298fbf70fdab97ec82d4894e6dc",
-        "after_sha256": "91db8b7d37766314f7ac14c962d2f105eb815c585311b15cbb2b1c76dec991f9"
+        "after_sha256": "9a730e40aa84f69d7e62c3dc9e279bf03248a9f4f6f07c0f76f3cef18bcd1f83"
       },
       {
         "path": "data/objects/abilities/NewAbilities/AFAS.json",
         "rawcode": "AFAS",
         "before_sha256": null,
-        "after_sha256": "f907cda655251d95e6bf1caf65cf3f3e0a88d106da93b9faa9aaadd8de329156"
+        "after_sha256": "f0db8363046b36650dc5d1579ee67ef5bb7c9009c7e5d0e6ccac039d5732b585"
       },
       {
         "path": "data/objects/abilities/NewAbilities/AFBL.json",
         "rawcode": "AFBL",
         "before_sha256": null,
-        "after_sha256": "bc36b1b1b6e483fdfe59ad7237985efbff27717833c87ceb780f790861a2159b"
+        "after_sha256": "cf00aae0298b02b0ee0b2de3a1874965ebc60ae19e2c044a112fa4e56741bb5a"
       },
       {
         "path": "data/objects/abilities/NewAbilities/AFCA.json",
         "rawcode": "AFCA",
         "before_sha256": null,
-        "after_sha256": "05d5ac72d2c3c5f501870e2f092f5006bcb9f89e40fce818d086f9543473396d"
+        "after_sha256": "83f5878367c2efcfb1fc6714af31e74beeffcffe02db996153e51027fa7e88c3"
       },
       {
         "path": "data/objects/abilities/NewAbilities/AFCB.json",
         "rawcode": "AFCB",
         "before_sha256": null,
-        "after_sha256": "037dcb1eeda324d7d47ecbfc335556841a18ef7e2e843d5eeb9b09f33991f2ee"
+        "after_sha256": "6652ef99a4297bb07e5353b566187862ee0f23153271279996fe4a0d2642fbd2"
       },
       {
         "path": "data/objects/abilities/NewAbilities/AFCS.json",
         "rawcode": "AFCS",
         "before_sha256": null,
-        "after_sha256": "1a5f6c406a2ee64787903d2bac4cadcb676a089ffe2a811dd89bec58b9a66dae"
+        "after_sha256": "940a803f6e6c7ccad5c31b54dba39a5d905e9ad95cb26a9247d628e47e3c1925"
       },
       {
         "path": "data/objects/abilities/NewAbilities/AFCT.json",
         "rawcode": "AFCT",
         "before_sha256": null,
-        "after_sha256": "0a0c68fe0fed816be25f86c819923ecd194d7353b0a621b8ecf6e8c229ffef75"
+        "after_sha256": "f0dbea3702da35998b544fd5ecda7ab29157fce03a7c195fa687d2e490fd7ce4"
       },
       {
         "path": "data/objects/abilities/NewAbilities/AFIS.json",
         "rawcode": "AFIS",
         "before_sha256": null,
-        "after_sha256": "79d7c59e95c9fdde1be5444ee977b5a504fd77ef2e657d620aa9be08e39439c6"
+        "after_sha256": "d59e553feec6cf8c98a2c6911ba9babe260e9f16d351fa347e077eab2617059f"
       },
       {
         "path": "data/objects/abilities/NewAbilities/AFLT.json",
         "rawcode": "AFLT",
         "before_sha256": null,
-        "after_sha256": "b49a6488e82d83920d33b8066a2845e9eaa62d1890418a78adaf26db7e0fd98b"
+        "after_sha256": "c9311a2b78bd9f5c1935ce2e6860f482dbb32d646d308d70754ffb45912219ba"
       },
       {
         "path": "data/objects/abilities/NewAbilities/AFPB.json",
         "rawcode": "AFPB",
         "before_sha256": null,
-        "after_sha256": "8d8fb7d66bf5732cbd114442809cef096f9b6774e78308993a0f83ad29e52ee3"
+        "after_sha256": "3c480cc94c66f13e158f2c6d096c8fdc6d550d6a94ac1f76ddad8c3a9b0dfdde"
       },
       {
         "path": "data/objects/abilities/NewAbilities/AFVA.json",
         "rawcode": "AFVA",
         "before_sha256": null,
-        "after_sha256": "e650608f78bbc95b82e466ecaeb888f9f3a9ba8021d7f5ba2f3dc825d1aed9a2"
+        "after_sha256": "1863e707f1c988cb480ced4caa13ab9562fbe2051e0a32a62a0e8725b95a1815"
       },
       {
         "path": "data/objects/abilities_skin/BaseAbilities/Abu5.json",
@@ -2079,7 +2790,7 @@
         "path": "data/objects/abilities_skin/NewAbilities/AFBL.json",
         "rawcode": "AFBL",
         "before_sha256": null,
-        "after_sha256": "cfd8f158565c25f3c18013bd35d6e989470195d11a3470b26f0d7e4531f7a73d"
+        "after_sha256": "7b526cd6964d5a32721de0ad55a1357596d8ead57a6e429fa077fee6fffabb2f"
       },
       {
         "path": "data/objects/abilities_skin/NewAbilities/AFCA.json",
@@ -2121,7 +2832,7 @@
         "path": "data/objects/abilities_skin/NewAbilities/AFPB.json",
         "rawcode": "AFPB",
         "before_sha256": null,
-        "after_sha256": "4f3b840731d5d0b4082180783be8f919c058dd272bfdb723e324a13d424eab33"
+        "after_sha256": "6220e3ef0afdce2a243e710b9ed83875c9ebe85a4dd937400f44a461fb2211bb"
       },
       {
         "path": "data/objects/abilities_skin/NewAbilities/AFVA.json",
@@ -2344,6 +3055,18 @@
         "rawcode": "BFSC",
         "before_sha256": null,
         "after_sha256": "f15299e56d59fe85ddf6e290a894f4e82f0c7b5e58998a6b13ce8403425a7ef8"
+      },
+      {
+        "path": "data/objects/items/NewItems/I00W.json",
+        "rawcode": "I00W",
+        "before_sha256": "8da485bbd3de10d7a2faa723f4fcb1b42e16a0a83ce4f14a8b2090d1dc1cb92f",
+        "after_sha256": "71775761baa5b6923dca9012ad0795ff46ad8bd1e38c1ce696aac130051a4f49"
+      },
+      {
+        "path": "data/objects/items/NewItems/I00X.json",
+        "rawcode": "I00X",
+        "before_sha256": "2305ae979ed20180007bea65f82a9655c061f75f48cfc0c4f6b999a1692460f2",
+        "after_sha256": "2c4f6e032d4ff2f7df09ef889cdfb96414bee75207a062c54c57fc7d6be46ad7"
       },
       {
         "path": "data/objects/items_skin/NewItems/I001.json",
@@ -2688,46 +3411,58 @@
         "after_sha256": "97d3b2428dd855cce3df4917e498098e8c859b04c4ce925de58b31ba9b914960"
       },
       {
+        "path": "data/objects/units/BaseUnits/nmer.json",
+        "rawcode": "nmer",
+        "before_sha256": "b450c1cb46ad609c2de66a4cd514e0d492805d558d1878f2d730ddda2848c285",
+        "after_sha256": "5ab53aeaf2e3eddcc04057a94c257cad7716e97c68431dce5773e415eab43330"
+      },
+      {
+        "path": "data/objects/units/BaseUnits/nmr2.json",
+        "rawcode": "nmr2",
+        "before_sha256": "571378514de05c9b8a8d9951c6616821bb60d0061f904a5aed4af31a1a26deb6",
+        "after_sha256": "543d35e0a46c7dd4baf191bfa0bd3c532eb2d3e0092ac4935b5d6f54b7fcbc5a"
+      },
+      {
         "path": "data/objects/units/NewUnits/h000.json",
         "rawcode": "h000",
         "before_sha256": "7b84be0d182f741342e9476cb25f852ab8c29c705ca33fceef25ae046eeead98",
-        "after_sha256": "ec8d07e76b6827e4b794b4dd01dfca9c59f561253a5d5171712b21a15e3a852a"
+        "after_sha256": "45f5bc3babe7f424c1d42fda3a13fec6f6e947939d172f8b76f8ef211797fdea"
       },
       {
         "path": "data/objects/units/NewUnits/h00F.json",
         "rawcode": "h00F",
         "before_sha256": "cec4ab131c2e473984a936d2efc59b814ff6f6f070837c53dea6624b7fe174f3",
-        "after_sha256": "2e0c4eec37b64f6bc4ce66f19bc587ba319b84757e501be191c71c3e8bc79575"
+        "after_sha256": "5f572473e42d62881b02a30114873aa05bbb767779a6ffc9edf5074091eb6817"
       },
       {
         "path": "data/objects/units/NewUnits/h00R.json",
         "rawcode": "h00R",
         "before_sha256": "70ea4fd04ce8490e6192c053061d429538d8e79ac5c0e37927eef597ce635e97",
-        "after_sha256": "04ae3b556b4081e4f23ea6b2de2cd132d1c5680871b0640ee55a66c56118c85a"
+        "after_sha256": "f1e3764d9bae94e3300bc3d48f1923254b80a58e093bf1cdd17b6ae048820945"
       },
       {
         "path": "data/objects/units/NewUnits/h010.json",
         "rawcode": "h010",
         "before_sha256": "a919e485b26caca4865abb26c1d21fdd843bcc224237391e0a340ec6431140ab",
-        "after_sha256": "c12fee039556595098c8a8fad5ddc861fc41b989557feaeb02e6e1f855283bce"
+        "after_sha256": "b2042264cac72fb9fdbe54b0c433714e3a4a855b632db89ce4cd7f6092d19634"
       },
       {
         "path": "data/objects/units/NewUnits/h016.json",
         "rawcode": "h016",
         "before_sha256": "315a838b83e9264661bd238d39a249b6a7a30ea87d9eb59e7283a4f0b1e4aac1",
-        "after_sha256": "bcaf778f71732bb4547a24bde8b0699fdb177e66ac2a2582868536d021f5dcb9"
+        "after_sha256": "e59dc14459ae035650418b0a93f137b1322809041cee049af107a66ee234d5b7"
       },
       {
         "path": "data/objects/units/NewUnits/h01K.json",
         "rawcode": "h01K",
         "before_sha256": "4d8c0a92c0b810804928e54506d9f8c0eea5808a3098228a5fca3b51177b8948",
-        "after_sha256": "43c6713a0a930cd901d70bc4074a2ff92aad92bac9478c590222d56c909ad502"
+        "after_sha256": "f137254b1b6aaa04ec5b73cf4b7d53a8070f2bc7f8e82925a80986bb068a7aa1"
       },
       {
         "path": "data/objects/units/NewUnits/h01X.json",
         "rawcode": "h01X",
         "before_sha256": "bc72b59fc187cfad196bfb6c804192bc7208760e7e7400d801b6a3c15e9acef2",
-        "after_sha256": "677b520fb672483c7ca0f4daba8e1f5276f6d550698ac38e494c30eb8682c823"
+        "after_sha256": "64e407d2347828b255194bb188e81b30efadd34bab0cebef3780d99f4dffc79d"
       },
       {
         "path": "data/objects/units/NewUnits/h02B.json",
@@ -2739,31 +3474,31 @@
         "path": "data/objects/units/NewUnits/h02L.json",
         "rawcode": "h02L",
         "before_sha256": "0a47fce81922f98b45940219d1040a78520ad915b0b82fa5e1a00d6e55b392d4",
-        "after_sha256": "2ea2d3ed1bbc249d0690d2effa41e67f26443389ecd3f09f02a6b2e6061b8c32"
+        "after_sha256": "e10b4a77e81cdee75ea42957dbac5004a84eec2f74ecdb8789d24b25fb0017ae"
       },
       {
         "path": "data/objects/units/NewUnits/h02U.json",
         "rawcode": "h02U",
         "before_sha256": "5a033891d2654ea1b19455a6d2192bebe5a9238da449b091ca0d5085cd701eee",
-        "after_sha256": "184d415f476650ac9f1f7cd89ca39c5a467c3b3711c620e36176b6965efc4874"
+        "after_sha256": "5412dc3230dac91e3098f94bbd73d325ca1c213ff8b6fb340678a9882d3bb72e"
       },
       {
         "path": "data/objects/units/NewUnits/h03D.json",
         "rawcode": "h03D",
         "before_sha256": "ca9d3cd0e8d50d2c26f946b98e5c82440aa1d7121c99b50b9d922cfa01a550e5",
-        "after_sha256": "08e4b47beee1d80839fccb05700001ace725b6c451f2b27ad17b73f9ce7b50a0"
+        "after_sha256": "449faf6963e5484d602fc8037283af09a6bc503a50f25979dae529e74bdfc525"
       },
       {
         "path": "data/objects/units/NewUnits/h03Q.json",
         "rawcode": "h03Q",
         "before_sha256": "e30c1a62030339b0f97a7b41e7ef6129cf924cc72d32afdef580bebb0cb359e9",
-        "after_sha256": "385222a88d6834c458e38c0972af800364fb41dafe326d5a53f0f22fb6759200"
+        "after_sha256": "a9d3facc85df1562bda0e6f0c8619c9d19d365a004a66b95ee83bfca30c9ff2b"
       },
       {
         "path": "data/objects/units/NewUnits/h03S.json",
         "rawcode": "h03S",
         "before_sha256": "cbad87132fc5820d49c153a7dc4917d85fdc8ee0a04cb3454c685e95e5ecbfb9",
-        "after_sha256": "22a8b99add8b9cc8a9fab05b99679cbaaea6f6a2ddf06f463e579ab42dc4aa18"
+        "after_sha256": "83bd76d4dc90d6ba16d0687fdc0a0dff754cc54aaa30a46b65e124a86133219f"
       },
       {
         "path": "data/objects/units/NewUnits/h03X.json",
@@ -2775,19 +3510,19 @@
         "path": "data/objects/units/NewUnits/h05C.json",
         "rawcode": "h05C",
         "before_sha256": "ab4cd4327b5bb33b45fd038ca3032cedc319f47947ce7796c3eb52f8f5c843c0",
-        "after_sha256": "7d226670287b04753bafefff6a4da331b606b9d3d30b8d9c9075d1eab9071aab"
+        "after_sha256": "f4b4fce327f9bb2c89cd3aadcd7fc937dbef2378d0da73176059735b93912efd"
       },
       {
         "path": "data/objects/units/NewUnits/h05W.json",
         "rawcode": "h05W",
         "before_sha256": "59fbbaa9b8d2abf719c5e4d28519a8e1dd0f3117dfbf8e30e7da742c858bb66a",
-        "after_sha256": "65364b98c8d57b543f3809515dc6c23ac372c749b375702f508a5fc8275e8ba6"
+        "after_sha256": "91cbd9949e40b5c5c8595e2e98060104418081103632e55262f3416bb4468524"
       },
       {
         "path": "data/objects/units/NewUnits/h063.json",
         "rawcode": "h063",
         "before_sha256": "c09b7154672d5f94284a86341147f9ea178a4944113858b434466bd85fedd318",
-        "after_sha256": "50efd3d7377aa5f1c36199f7c126dc83a3346ce06ea6acfec7f761fe40699a88"
+        "after_sha256": "7d5ee25a72cfe34eb7ea8b9f26902d0d57dcdf52571e4416addad4ae3c82bbcf"
       },
       {
         "path": "data/objects/units/NewUnits/h06D.json",
@@ -2799,7 +3534,7 @@
         "path": "data/objects/units/NewUnits/hFDM.json",
         "rawcode": "hFDM",
         "before_sha256": null,
-        "after_sha256": "44868d09940c7d192c3ac5cd2773f4696b1e85022a1b09cdce2fd95d4b2037f8"
+        "after_sha256": "322e1c4bb8439664dd351776c828cd13156049419e70b08d7be9e0d8c25dc310"
       },
       {
         "path": "data/objects/units/NewUnits/n00G.json",
@@ -2811,103 +3546,103 @@
         "path": "data/objects/units/NewUnits/n00M.json",
         "rawcode": "n00M",
         "before_sha256": "386e4441b036635639b59edbc8eb28b380dc4d7009ce86aec03cfab074f93e5c",
-        "after_sha256": "77352eabee347f7274cf8104b24286e9bf4dd83e3213d1293120f12c0ff0af39"
+        "after_sha256": "f8451ca1de862cdef198ad3bf9bc95cb1ec24864c58367b4104a263a4ed2fd33"
       },
       {
         "path": "data/objects/units/NewUnits/o000.json",
         "rawcode": "o000",
         "before_sha256": "d26571c41552b1c0c0e54702c530e67ac8a2c2fa35bd04fbcc58d6458a1b2b55",
-        "after_sha256": "81a1af2df088ed26febff509ead32abbdcb707d2f329719e64cc20397303be6e"
+        "after_sha256": "72d0870355a7b1b916038a02f5b126431f06932fe0c0a5a755f88fcb5dc3138d"
       },
       {
         "path": "data/objects/units/NewUnits/O004.json",
         "rawcode": "O004",
         "before_sha256": "db1d1dcba4c770d1c3b8dc05b5d3548e23a8b1fc91a6b60247069c1298a1db2d",
-        "after_sha256": "cf2cbd7506e2d34b2a9ee2ef6678a87f622413308cb2f85989578df9ff8dc2a6"
+        "after_sha256": "f22f61de1def66097f310e09eef41bfddc791766612ebddd2fa2a0b120fd06d0"
       },
       {
         "path": "data/objects/units/NewUnits/o005.json",
         "rawcode": "o005",
         "before_sha256": "b324629aba4b9779841cf591652bf5654a669b25392dc460074286027382d72c",
-        "after_sha256": "d5c7240436f7f12366bd95e12b7044888dc7edee2446104d438a7277e2b969e7"
+        "after_sha256": "17d9ca426e671331e1ea32aa20b1a21817a501ae4cdd5cce7638cfb1c8a3b6aa"
       },
       {
         "path": "data/objects/units/NewUnits/O008.json",
         "rawcode": "O008",
         "before_sha256": "89337f86f0dfd045674b847cb0a610492ce5c738f9bd6ddcc2ea1ea41582853e",
-        "after_sha256": "aaab8c8f88a488cf3a322cbeb470d82d99b97c85562779bf0bd7200d7d765ade"
+        "after_sha256": "382bcb1a72ce325863137cf65875eb64992277ea4569ffdef25737e2112dfc5d"
       },
       {
         "path": "data/objects/units/NewUnits/O00A.json",
         "rawcode": "O00A",
         "before_sha256": "4c27aa49cb2bbd7a5c3c5717b597f34faefb6e355e3295fb667cae4bfff0211e",
-        "after_sha256": "bb5bab3b7a000846470b3a9fa632ad5e30bce77c7f1b919181fac3596963a95f"
+        "after_sha256": "1ab6e694b43acde559621d1f30bf709345d541c64dadfe83a9e1451c2f251891"
       },
       {
         "path": "data/objects/units/NewUnits/O00D.json",
         "rawcode": "O00D",
         "before_sha256": "af606a84d04f1bb16b245196e13a0f2b2554466a0515935e5bb604488002d5c8",
-        "after_sha256": "5c9987546cd5421a9fa5a17abb70465a351dca271640af35e195afdee40c86b8"
+        "after_sha256": "d3ceeadda3274ebc69f045ea107fab6df54a44206feb8a06dae861edfbe97e93"
       },
       {
         "path": "data/objects/units/NewUnits/O00L.json",
         "rawcode": "O00L",
         "before_sha256": "55196f66070db65669411a780a7ee37f7976c955f16537242864ee7505cfd561",
-        "after_sha256": "db6f477d05078130a645dfa59ace7a2ea9771387c17affbcec0960701908e452"
+        "after_sha256": "95e1ff0579d9d03f6a520f040d64c46a6962909c83f7257132a8b0a94e29d31a"
       },
       {
         "path": "data/objects/units/NewUnits/O00S.json",
         "rawcode": "O00S",
         "before_sha256": "8a0b52dd6ac4fe71838b595f56adcd0f52ba64a38f54d11c548c85a223f79ae5",
-        "after_sha256": "e88448b24510ea0ea65663be146606ea090df159382e9db439921401f608d4fd"
+        "after_sha256": "352e31d8ccb7ceb09d97d3ef8e7087b3d4005380313d7f0370deff7fa33362f1"
       },
       {
         "path": "data/objects/units/NewUnits/O016.json",
         "rawcode": "O016",
         "before_sha256": "8adfd3a87f1b00ef4671ce83cd6dba3dc437cb15fd73a8628774b198d73a9a19",
-        "after_sha256": "a8a8463ce87a4043de3b80f211068717e831506fc96f7013b192627c79397245"
+        "after_sha256": "66608451d83130b097ad9d9f6c955b0819664153a672e1aa2e4d18cf8477ced7"
       },
       {
         "path": "data/objects/units/NewUnits/O01D.json",
         "rawcode": "O01D",
         "before_sha256": "9f18a8d930bc0bc849802a28e17572232ff1afe3b59c7294092f8249ef4f1e52",
-        "after_sha256": "90802207bd1081eed61fa552343b92b832d09ebb2cabe2df4af9c00542d43ace"
+        "after_sha256": "bc9fb7849612c68d817d7c5a86a31a38ff3c9a1ba7d97e24ed8029740ccd60a4"
       },
       {
         "path": "data/objects/units/NewUnits/o01E.json",
         "rawcode": "o01E",
         "before_sha256": "64e20faa9ab6e8d8db4309556567f5ab1e62a137ecaa63dc1e97ed104a4a7b1e",
-        "after_sha256": "4dfc4fab3950390b6afe3a3f0cea6b0bdfadceb51b30a7877f4b297e0f7b06af"
+        "after_sha256": "451ad65bfa60cba5c7305324e14e9717d6c620323d16d658fe7de1ada14087d3"
       },
       {
         "path": "data/objects/units/NewUnits/O01V.json",
         "rawcode": "O01V",
         "before_sha256": "b7869b74962849a069b9b326b43bece896b1092aa7435d1956b87fe6a382ef00",
-        "after_sha256": "5d496d8c971580aaf9544b0f6cee3032fdf3758f1200339193c3cf26577870d0"
+        "after_sha256": "f25e66a84d5b6f77fd19a60d6b79a6a9e4f889ddcb426065aedb2b88327633b2"
       },
       {
         "path": "data/objects/units/NewUnits/O01X.json",
         "rawcode": "O01X",
         "before_sha256": "afef17ca12110f3da07befbccee8fc169cf169933be1b8bf5a729731aae552a9",
-        "after_sha256": "9869882ae84996a68e96908b274c1cd3e6be43fec3c014b806bd3bb3451ae60d"
+        "after_sha256": "6bfdd2342f5050c0b42e40c36d0ceead8b3aaac141ccca3ba2b42b2d40dffc17"
       },
       {
         "path": "data/objects/units/NewUnits/O01Z.json",
         "rawcode": "O01Z",
         "before_sha256": "fc54943b8acf96cb59422704aa6188bace08d10042e819f8750f2931242a97fe",
-        "after_sha256": "a176eb18f52f395a3ef447c2d81cf56acce7cee12bd9d0e59e67ef776a908573"
+        "after_sha256": "9e09589451ac9a303deec4e9146b6838989dd67f6ee5c3a7c7df06097abcb1be"
       },
       {
         "path": "data/objects/units/NewUnits/o026.json",
         "rawcode": "o026",
         "before_sha256": "a2fb400a9da5c707367a7c6c95aeea837c9883649f100c938a5145ed3c6dfb1a",
-        "after_sha256": "c9c249f6e3dd1231d46d9c4332d0548045d8145cffe7efedb3482158658cbd35"
+        "after_sha256": "63236e9d14be0c7db73dc3be663121dbbf76056a20818c9438303c43a77afa9f"
       },
       {
         "path": "data/objects/units/NewUnits/u007.json",
         "rawcode": "u007",
         "before_sha256": "c1782b57f933a9872ee2f15ded872915b2b765ddd9851b71693aae8997d5817c",
-        "after_sha256": "1c78b5f04f1fa55ed71a5e9bcf974ebcbed0e64a532a67eed06153b501157fbc"
+        "after_sha256": "cb0391e4ab2eb51f0c9aa1830aebb6862f8a73edac2776dfa2a9b8ae7315ac67"
       },
       {
         "path": "data/objects/units_skin/NewUnits/E000.json",
@@ -4209,7 +4944,7 @@
         "path": "data/objects/units_skin/NewUnits/hFDM.json",
         "rawcode": "hFDM",
         "before_sha256": null,
-        "after_sha256": "6b0c46ef0810b677fa689a7d4371d7ffa45ca832be683b4dd2fe3110a81c62f4"
+        "after_sha256": "2140d52d9cb47954bd6b4f45e11f5d84d5dfe00b67afcc4071cdf50e7e4b4f14"
       },
       {
         "path": "data/objects/units_skin/NewUnits/n002.json",
@@ -5725,7 +6460,7 @@
       {
         "file": "war3map.w3a",
         "before_sha256": "20577a87d73b5039be915c282d1e45bddb6caae2f1fd2407775aa52106185057",
-        "after_sha256": "c163848ac05b51dfdb609078b3e16ba37c8ba30b3e88978dc90cfc608b81b0f9"
+        "after_sha256": "93b1c519c9e8203ac6b68eb68077f99849f992c30b541dc41a104f9f695acf0f"
       },
       {
         "file": "war3map.w3c",
@@ -5753,9 +6488,14 @@
         "after_sha256": "936418d98b0b5fef6105ad7d01d8fc211dd986166b2bc298ecb2d275b3124c81"
       },
       {
+        "file": "war3map.w3t",
+        "before_sha256": "da0e5c71de4ca7271f0ceb2fec7af476f1ec570afe5f242a446e7ca3278f6b97",
+        "after_sha256": "484a6ea48d5f0bc64f7dbf9e4823a7dcf4fb52d1c26e1755f35a95654a6a4319"
+      },
+      {
         "file": "war3map.w3u",
         "before_sha256": "5a13fce2f35102be1bc527c55db73e58065cdf5f2e99f928d0aee06b641d9927",
-        "after_sha256": "735a20ef8b988fe6744a23b579caf26a5647e692c1c4c8362647e382ea2d38be"
+        "after_sha256": "57312827684fafeb0b88adbaf9461caedb6e328de250f5a9cf83941cf88c1f41"
       },
       {
         "file": "war3map.wpm",
@@ -5765,7 +6505,7 @@
       {
         "file": "war3mapSkin.w3a",
         "before_sha256": "bb231dc998ea9cfe253b7339be90f147569dff2a3d5eed7d5a2d1eb97bb16309",
-        "after_sha256": "11254690112c2cc6643a85cd12af68d5a6df16fab1f8b4a3c2d4f3e3684ed97a"
+        "after_sha256": "debd4d2cc5d78da4a0fdcabd99b650faa9ff6ee1ead56612626a16605e1eec01"
       },
       {
         "file": "war3mapSkin.w3h",
@@ -5785,7 +6525,7 @@
       {
         "file": "war3mapSkin.w3u",
         "before_sha256": "9bae2f4195a198e264ccc4cbf21eeca3c76817194dfe7ccacef9c8abcb3189e7",
-        "after_sha256": "479832d98c13c669c1c9fa81ff387256bd5df0e178c2350418a64f907695a194"
+        "after_sha256": "ad183ab229c73b95e3f96d62607c654af268d85d37d70e7721fae53312174ada"
       },
       {
         "file": "war3mapUnits.doo",
@@ -5795,11 +6535,11 @@
       {
         "file": "war3map.wts",
         "before_sha256": "b9bf979001f372ff5f88ead0b2c7bac9fd61a965ad59097c2c9fed8cdad6b8ef",
-        "after_sha256": "52979797b0340f490b8d27fa713fe36bf418a64ddfff4b72da64ec9e38dd7bf0"
+        "after_sha256": "92d522c16084eaeb7307787ae2f66ccb2bb28de28ed6b8f3dba92a227667f90c"
       }
     ],
-    "verification": "tests/gameplay_patch.lua and tests/gameplay_objects.py; immutable r8 suites remain independently executable.",
-    "limits": "No live Warcraft/editor, native crash reproduction or multiplayer validation."
+    "verification": "Offline tests/gameplay_patch.lua, tests/runtime_audit.lua, tests/base_flags.lua, tests/selection_bans.lua, tests/solo_startup.lua, tests/gameplay_objects.py, tests/picker_objects.py and tests/object_metadata.py cover reviewed behavior and native record structure; immutable r8 suites remain independently executable. Current packed-map checks run through tests/refactor.py.",
+    "limits": "This report records source/data evidence and offline checks, not native editor open/save verification, live gameplay crash reproduction or multiplayer testing. Any actual editor check is documented separately. Known unresolved runtime paths are listed in reports/runtime-review-r13.md."
   },
   "ancient_slot": {
     "result": "passed",
@@ -5850,10 +6590,10 @@
   },
   "costs": {
     "manual_recipe_totals": 12,
-    "packed_item_prices_checked": 76,
+    "packed_item_prices_checked": 74,
     "generated_scroll_tooltips_checked": 11,
-    "all_shop_item_count": 64,
-    "shops_checked": 20,
+    "all_shop_item_count": 62,
+    "shops_checked": 18,
     "ancient_native_shop_profiles_checked": 3,
     "ai_purchase_prices_from_catalog": 7,
     "map_version_strings": "3.2.0"
@@ -5894,6 +6634,13 @@
         "review": "Timer/dialog allocation and timer start are synchronized; only visibility is local."
       }
     },
+    "unordered_traversals": [
+      {
+        "module": "src/economy/base_flags.lua",
+        "function": "FE_BaseFlags.refreshOwners",
+        "review": "Read-only unit queries form a boolean owner set and prune stale references; no native mutation or random draw occurs in this traversal. Owner flags are then written in FE_Roles player order. Reversed traversal is tested."
+      }
+    ],
     "wait_functions_checked": 26,
     "unit_index_single_writer": true,
     "native_lifetime_guards": "No direct chunk-scope allocations or GUI timer-global helpers; perpetual timer reachability tested separately.",
@@ -5906,7 +6653,10 @@
       "result": "passed",
       "modules": 9,
       "native_calls_replaced": 34,
-      "other_callback_logic": "byte-identical after newline normalization; separate Cosmic Strike fix excluded and behavior-tested"
+      "historical_target": "tests/fixtures/gameplay-r12.zip",
+      "historical_target_sha256": "faeb1a46bd99d0d558917cf9e25a661394a20b38b3b598f870fc9d3b56a1bfa5",
+      "other_callback_logic": "Frozen r12 is byte-identical to r10 after timer substitution and newline normalization; separate Cosmic Strike fix excluded and behavior-tested.",
+      "current_scope": "Historical timer operations retained in each owning callback; current lifetime suites test behavior. Later gameplay changes and new timer sites are audited separately."
     }
   },
   "editor_categories": 19,

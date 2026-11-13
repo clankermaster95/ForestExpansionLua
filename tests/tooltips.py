@@ -8,9 +8,10 @@ from tooltip_audit import Catalog, TEXT_FIELDS, validate as audit
 
 def validate():
     report=audit(); c=Catalog(); checked=0
-    # This baseline compares every object, not just a selected sample. Only
-    # presentation strings may differ from the tested r11 gameplay data.
-    assert report['gameplay_object_fields_unchanged'] and not report['issues']
+    # Preserve r12's historical tooltip-only claim; r13's independent migration
+    # audit permits only its explicitly reviewed serialized gameplay corrections.
+    assert report['r12_tooltip_pass_gameplay_unchanged'] and not report['issues']
+    assert report['subsequent_gameplay_fixes']['other_object_fields_unchanged']
     decoded={}
     for path in (ROOT/'build/refactor-readback').glob('*.json'):
         ext=Path(path.stem).suffix
@@ -73,6 +74,8 @@ def validate():
         finally:mod['Value']=saved
     return {'packed_text_fields_checked':checked,'changed_objects':report['changed_objects'],
             'changed_text_fields':report['changed_fields'],'negative_checks':len(probes),
-            'gameplay_object_fields_unchanged':True,'coverage':report['coverage']}
+            'gameplay_object_fields_unchanged':False,
+            'r12_tooltip_pass_gameplay_unchanged':True,
+            'subsequent_gameplay_fixes':report['subsequent_gameplay_fixes'],'coverage':report['coverage']}
 
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

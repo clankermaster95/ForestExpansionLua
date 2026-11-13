@@ -1,0 +1,1169 @@
+{
+  "baseline_commit": "3908a135c7733444aca1c0a85cf9a1e9236a21bd",
+  "reason": "Correct invalid ability data pointers so Warcraft reads the already-authored values. Numeric/string gameplay values, levels, types and base abilities are unchanged.",
+  "changes": [
+    {
+      "path": "data/objects/abilities/NewAbilities/A03S.json",
+      "rawcode": "A03S",
+      "field": "Hfs2",
+      "level": 1,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A03S.json",
+      "rawcode": "A03S",
+      "field": "Hfs2",
+      "level": 2,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A03S.json",
+      "rawcode": "A03S",
+      "field": "Hfs2",
+      "level": 3,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A03S.json",
+      "rawcode": "A03S",
+      "field": "Hfs2",
+      "level": 4,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A03S.json",
+      "rawcode": "A03S",
+      "field": "Hfs2",
+      "level": 5,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A03S.json",
+      "rawcode": "A03S",
+      "field": "Hfs2",
+      "level": 6,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A03S.json",
+      "rawcode": "A03S",
+      "field": "Hfs2",
+      "level": 7,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 2,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 3,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 4,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 5,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 6,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 7,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 8,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 9,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 10,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 11,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 12,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 13,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 14,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 15,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 16,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 17,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 18,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 19,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 20,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A04C.json",
+      "rawcode": "A04C",
+      "field": "Iatt",
+      "level": 21,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A0CO.json",
+      "rawcode": "A0CO",
+      "field": "Iatt",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A0CO.json",
+      "rawcode": "A0CO",
+      "field": "Iatt",
+      "level": 2,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A0CO.json",
+      "rawcode": "A0CO",
+      "field": "Iatt",
+      "level": 3,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A0CO.json",
+      "rawcode": "A0CO",
+      "field": "Iatt",
+      "level": 4,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A0CO.json",
+      "rawcode": "A0CO",
+      "field": "Iatt",
+      "level": 5,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/A0CO.json",
+      "rawcode": "A0CO",
+      "field": "Iatt",
+      "level": 6,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae1",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": 0.05
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae2",
+      "level": 1,
+      "before": 0,
+      "after": 2,
+      "value": 0.05
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae1",
+      "level": 2,
+      "before": 0,
+      "after": 1,
+      "value": 0.1
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae2",
+      "level": 2,
+      "before": 0,
+      "after": 2,
+      "value": 0.1
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae1",
+      "level": 3,
+      "before": 0,
+      "after": 1,
+      "value": 0.15
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae2",
+      "level": 3,
+      "before": 0,
+      "after": 2,
+      "value": 0.15
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae1",
+      "level": 4,
+      "before": 0,
+      "after": 1,
+      "value": 0.2
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae2",
+      "level": 4,
+      "before": 0,
+      "after": 2,
+      "value": 0.2
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae1",
+      "level": 5,
+      "before": 0,
+      "after": 1,
+      "value": 0.25
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae2",
+      "level": 5,
+      "before": 0,
+      "after": 2,
+      "value": 0.25
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae1",
+      "level": 6,
+      "before": 0,
+      "after": 1,
+      "value": 0.3
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae2",
+      "level": 6,
+      "before": 0,
+      "after": 2,
+      "value": 0.3
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae1",
+      "level": 7,
+      "before": 0,
+      "after": 1,
+      "value": 0.35
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae2",
+      "level": 7,
+      "before": 0,
+      "after": 2,
+      "value": 0.35
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae1",
+      "level": 8,
+      "before": 0,
+      "after": 1,
+      "value": 0.4
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae2",
+      "level": 8,
+      "before": 0,
+      "after": 2,
+      "value": 0.4
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae1",
+      "level": 9,
+      "before": 0,
+      "after": 1,
+      "value": 0.45
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFAS.json",
+      "rawcode": "AFAS",
+      "field": "Oae2",
+      "level": 9,
+      "before": 0,
+      "after": 2,
+      "value": 0.45
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": -0.1
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 1,
+      "before": 0,
+      "after": 2,
+      "value": -0.1
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 2,
+      "before": 0,
+      "after": 1,
+      "value": -0.12000000000000001
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 2,
+      "before": 0,
+      "after": 2,
+      "value": -0.12000000000000001
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 3,
+      "before": 0,
+      "after": 1,
+      "value": -0.14
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 3,
+      "before": 0,
+      "after": 2,
+      "value": -0.14
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 4,
+      "before": 0,
+      "after": 1,
+      "value": -0.16
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 4,
+      "before": 0,
+      "after": 2,
+      "value": -0.16
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 5,
+      "before": 0,
+      "after": 1,
+      "value": -0.18
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 5,
+      "before": 0,
+      "after": 2,
+      "value": -0.18
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 6,
+      "before": 0,
+      "after": 1,
+      "value": -0.2
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 6,
+      "before": 0,
+      "after": 2,
+      "value": -0.2
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 7,
+      "before": 0,
+      "after": 1,
+      "value": -0.22
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 7,
+      "before": 0,
+      "after": 2,
+      "value": -0.22
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 8,
+      "before": 0,
+      "after": 1,
+      "value": -0.24000000000000002
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 8,
+      "before": 0,
+      "after": 2,
+      "value": -0.24000000000000002
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 9,
+      "before": 0,
+      "after": 1,
+      "value": -0.26
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 9,
+      "before": 0,
+      "after": 2,
+      "value": -0.26
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 10,
+      "before": 0,
+      "after": 1,
+      "value": -0.28
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 10,
+      "before": 0,
+      "after": 2,
+      "value": -0.28
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 11,
+      "before": 0,
+      "after": 1,
+      "value": -0.30000000000000004
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 11,
+      "before": 0,
+      "after": 2,
+      "value": -0.30000000000000004
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 12,
+      "before": 0,
+      "after": 1,
+      "value": -0.32
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 12,
+      "before": 0,
+      "after": 2,
+      "value": -0.32
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 13,
+      "before": 0,
+      "after": 1,
+      "value": -0.33999999999999997
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 13,
+      "before": 0,
+      "after": 2,
+      "value": -0.33999999999999997
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 14,
+      "before": 0,
+      "after": 1,
+      "value": -0.36
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 14,
+      "before": 0,
+      "after": 2,
+      "value": -0.36
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 15,
+      "before": 0,
+      "after": 1,
+      "value": -0.38
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 15,
+      "before": 0,
+      "after": 2,
+      "value": -0.38
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 16,
+      "before": 0,
+      "after": 1,
+      "value": -0.4
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 16,
+      "before": 0,
+      "after": 2,
+      "value": -0.4
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 17,
+      "before": 0,
+      "after": 1,
+      "value": -0.42000000000000004
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 17,
+      "before": 0,
+      "after": 2,
+      "value": -0.42000000000000004
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 18,
+      "before": 0,
+      "after": 1,
+      "value": -0.44000000000000006
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 18,
+      "before": 0,
+      "after": 2,
+      "value": -0.44000000000000006
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 19,
+      "before": 0,
+      "after": 1,
+      "value": -0.45999999999999996
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 19,
+      "before": 0,
+      "after": 2,
+      "value": -0.45999999999999996
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 20,
+      "before": 0,
+      "after": 1,
+      "value": -0.48
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 20,
+      "before": 0,
+      "after": 2,
+      "value": -0.48
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae1",
+      "level": 21,
+      "before": 0,
+      "after": 1,
+      "value": -0.5
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFBL.json",
+      "rawcode": "AFBL",
+      "field": "Oae2",
+      "level": 21,
+      "before": 0,
+      "after": 2,
+      "value": -0.5
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCA.json",
+      "rawcode": "AFCA",
+      "field": "Iatt",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCB.json",
+      "rawcode": "AFCB",
+      "field": "Hfa1",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCS.json",
+      "rawcode": "AFCS",
+      "field": "Eim1",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCS.json",
+      "rawcode": "AFCS",
+      "field": "Eim2",
+      "level": 1,
+      "before": 0,
+      "after": 2,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCS.json",
+      "rawcode": "AFCS",
+      "field": "Eim3",
+      "level": 1,
+      "before": 0,
+      "after": 3,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCT.json",
+      "rawcode": "AFCT",
+      "field": "spb1",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": "AFCA,AFCS,AFCB,A0E4,A0EJ"
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCT.json",
+      "rawcode": "AFCT",
+      "field": "spb3",
+      "level": 1,
+      "before": 0,
+      "after": 3,
+      "value": 5
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCT.json",
+      "rawcode": "AFCT",
+      "field": "spb4",
+      "level": 1,
+      "before": 0,
+      "after": 4,
+      "value": 5
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCT.json",
+      "rawcode": "AFCT",
+      "field": "spb5",
+      "level": 1,
+      "before": 0,
+      "after": 5,
+      "value": "spellbook"
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFCT.json",
+      "rawcode": "AFCT",
+      "field": "spb2",
+      "level": 1,
+      "before": 0,
+      "after": 2,
+      "value": 0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFIS.json",
+      "rawcode": "AFIS",
+      "field": "Oae1",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": -0.2
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFIS.json",
+      "rawcode": "AFIS",
+      "field": "Oae2",
+      "level": 1,
+      "before": 0,
+      "after": 2,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFLT.json",
+      "rawcode": "AFLT",
+      "field": "Hfs2",
+      "level": 1,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFLT.json",
+      "rawcode": "AFLT",
+      "field": "Hfs2",
+      "level": 2,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFLT.json",
+      "rawcode": "AFLT",
+      "field": "Hfs2",
+      "level": 3,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFLT.json",
+      "rawcode": "AFLT",
+      "field": "Hfs2",
+      "level": 4,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFLT.json",
+      "rawcode": "AFLT",
+      "field": "Hfs2",
+      "level": 5,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFLT.json",
+      "rawcode": "AFLT",
+      "field": "Hfs2",
+      "level": 6,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFLT.json",
+      "rawcode": "AFLT",
+      "field": "Hfs2",
+      "level": 7,
+      "before": 0,
+      "after": 2,
+      "value": 0.33
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae1",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": -0.04
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae2",
+      "level": 1,
+      "before": 0,
+      "after": 2,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae1",
+      "level": 2,
+      "before": 0,
+      "after": 1,
+      "value": -0.08
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae2",
+      "level": 2,
+      "before": 0,
+      "after": 2,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae1",
+      "level": 3,
+      "before": 0,
+      "after": 1,
+      "value": -0.12
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae2",
+      "level": 3,
+      "before": 0,
+      "after": 2,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae1",
+      "level": 4,
+      "before": 0,
+      "after": 1,
+      "value": -0.16
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae2",
+      "level": 4,
+      "before": 0,
+      "after": 2,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae1",
+      "level": 5,
+      "before": 0,
+      "after": 1,
+      "value": -0.2
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae2",
+      "level": 5,
+      "before": 0,
+      "after": 2,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae1",
+      "level": 6,
+      "before": 0,
+      "after": 1,
+      "value": -0.24
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFPB.json",
+      "rawcode": "AFPB",
+      "field": "Oae2",
+      "level": 6,
+      "before": 0,
+      "after": 2,
+      "value": 0.0
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFVA.json",
+      "rawcode": "AFVA",
+      "field": "Idef",
+      "level": 1,
+      "before": 0,
+      "after": 1,
+      "value": 15
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFVA.json",
+      "rawcode": "AFVA",
+      "field": "Idef",
+      "level": 2,
+      "before": 0,
+      "after": 1,
+      "value": 20
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFVA.json",
+      "rawcode": "AFVA",
+      "field": "Idef",
+      "level": 3,
+      "before": 0,
+      "after": 1,
+      "value": 25
+    },
+    {
+      "path": "data/objects/abilities/NewAbilities/AFVA.json",
+      "rawcode": "AFVA",
+      "field": "Idef",
+      "level": 4,
+      "before": 0,
+      "after": 1,
+      "value": 30
+    }
+  ],
+  "reference": "tools/reference-data/ability-metadata.json",
+  "live_engine_test": false
+}

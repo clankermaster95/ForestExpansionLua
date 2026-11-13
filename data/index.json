@@ -18,8 +18,8 @@
     "path": "editor/war3map.mmp.json"
   },
   "war3map.w3a": {
-    "binary_sha256": "c163848ac05b51dfdb609078b3e16ba37c8ba30b3e88978dc90cfc608b81b0f9",
-    "content_sha256": "ea1acb50e3dff6c99964780d055728519469a20ea57cac50f7a7d58018bd66f3",
+    "binary_sha256": "93b1c519c9e8203ac6b68eb68077f99849f992c30b541dc41a104f9f695acf0f",
+    "content_sha256": "b72b128adb129fcfbeecc31284234611ac2289e07899787c7a067d429c667ac6",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -1310,8 +1310,8 @@
     "path": "editor/war3map.w3s.json"
   },
   "war3map.w3t": {
-    "binary_sha256": "da0e5c71de4ca7271f0ceb2fec7af476f1ec570afe5f242a446e7ca3278f6b97",
-    "content_sha256": "579a9777bd0cf86798d793db77f8a2be49ebdc3a63369120e2353d33c6284f23",
+    "binary_sha256": "484a6ea48d5f0bc64f7dbf9e4823a7dcf4fb52d1c26e1755f35a95654a6a4319",
+    "content_sha256": "d5747e925540d0e9c72cd6d10ff87be4d18a6b7731c8d8868692baed9df54e3d",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -1412,8 +1412,8 @@
     }
   },
   "war3map.w3u": {
-    "binary_sha256": "735a20ef8b988fe6744a23b579caf26a5647e692c1c4c8362647e382ea2d38be",
-    "content_sha256": "986df2f0f9c940ec16579e426e49412dcb0807854ef4d9973bda9f7999d3ead6",
+    "binary_sha256": "57312827684fafeb0b88adbaf9461caedb6e328de250f5a9cf83941cf88c1f41",
+    "content_sha256": "14ed971fbb3f6f08792f910a044c466907fb8e5a924d8a87b84bc10b04421159",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -1868,8 +1868,8 @@
     "path": "editor/war3map.wpm.json"
   },
   "war3mapSkin.w3a": {
-    "binary_sha256": "11254690112c2cc6643a85cd12af68d5a6df16fab1f8b4a3c2d4f3e3684ed97a",
-    "content_sha256": "07f4f21f45f052beeece9f9ef10699188a8f95f856be2a8cc0269b97a5c069df",
+    "binary_sha256": "debd4d2cc5d78da4a0fdcabd99b650faa9ff6ee1ead56612626a16605e1eec01",
+    "content_sha256": "dda3c1f96d7a17fecce7f5e3db36854ca09c9be374026a16d95b8581a58d534e",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"
@@ -3101,8 +3101,8 @@
     }
   },
   "war3mapSkin.w3u": {
-    "binary_sha256": "479832d98c13c669c1c9fa81ff387256bd5df0e178c2350418a64f907695a194",
-    "content_sha256": "71950e35896523715a14160aafe1141f71e0d48139143bcc5c9de2ade872e79c",
+    "binary_sha256": "ad183ab229c73b95e3f96d62607c654af268d85d37d70e7721fae53312174ada",
+    "content_sha256": "1e27284132356df40dd47402e3aae867741ae234918bdc172d6dd1c84a2aea78",
     "kind": "objects",
     "meta": {
       "FormatVersion": "v3"

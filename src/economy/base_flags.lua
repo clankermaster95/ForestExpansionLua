@@ -14,6 +14,79 @@ local function IsBaseFlagType(unitType)
     return false
 end
 
+FE_BaseFlags = { lumberCost = 2000, completed = {} }
+
+function FE_BaseFlags.refreshOwners()
+    local owners = {}
+    for flag in pairs(FE_BaseFlags.completed) do
+        if IsBaseFlagType(GetUnitTypeId(flag)) and GetWidgetLife(flag) > 0.405 and
+            not IsUnitType(flag, UNIT_TYPE_DEAD) then
+            owners[GetConvertedPlayerId(GetOwningPlayer(flag))] = true
+        else
+            -- RemoveUnit has no death event. Prune its retained reference before
+            -- the next income payment; only completed flags enter this table.
+            FE_BaseFlags.completed[flag] = nil
+        end
+    end
+    FE_Roles.forEachPlayer(function(player)
+        local index = GetConvertedPlayerId(player)
+        udg_Flags[index] = owners[index] == true
+    end)
+end
+
+function FE_BaseFlags.baseFor(flag)
+    -- Solo skip can start construction before the old five-second setup timer.
+    if udg_GARATHORbaseList[1] == nil then Trig_Base_List_Init_Actions() end
+    for i = 1, 10 do
+        if RectContainsUnit(udg_GARATHORbaseList[i], flag) then
+            return udg_GARATHORbaseList[i]
+        end
+    end
+    return nil
+end
+
+function FE_BaseFlags.ownerHasOtherFlag(owner, newFlag)
+    local group = CreateGroup()
+    GroupEnumUnitsOfPlayer(group, owner, nil)
+    local found = false
+    while true do
+        local unit = FirstOfGroup(group)
+        if unit == nil then break end
+        GroupRemoveUnit(group, unit)
+        if unit ~= newFlag and IsBaseFlagType(GetUnitTypeId(unit)) and
+            GetWidgetLife(unit) > 0.405 and not IsUnitType(unit, UNIT_TYPE_DEAD) then
+            found = true
+            break
+        end
+    end
+    DestroyGroup(group)
+    return found
+end
+
+function FE_BaseFlags.reject(flag, message)
+    local owner, x, y = GetOwningPlayer(flag), GetUnitX(flag), GetUnitY(flag)
+    -- This is the only rejection/refund path and runs only for paid construction.
+    -- Remove directly: stop/cancel orders can generate a separate native refund,
+    -- and killing leaves a corpse and dispatches unrelated death/bounty events.
+    RemoveUnit(flag)
+    AdjustPlayerStateBJ(FE_BaseFlags.lumberCost, owner, PLAYER_STATE_RESOURCE_LUMBER)
+    local effect = AddSpecialEffect("Abilities\\Spells\\Human\\ThunderClap\\ThunderClapCaster.mdl", x, y)
+    DestroyEffect(effect)
+    DisplayTimedTextToPlayer(owner, 0, 0, 2, message)
+end
+
+function FE_BaseFlags.validateConstruction(flag)
+    if flag == nil or not IsBaseFlagType(GetUnitTypeId(flag)) then return end
+    local base = FE_BaseFlags.baseFor(flag)
+    if base == nil then
+        FE_BaseFlags.reject(flag, "TRIGSTR_6233")
+    elseif FE_BaseFlags.ownerHasOtherFlag(GetOwningPlayer(flag), flag) then
+        FE_BaseFlags.reject(flag, "You have already constructed a base flag!")
+    elseif Trig_Flagstack_Deny_BaseHasOtherFlag(base, flag) then
+        FE_BaseFlags.reject(flag, "TRIGSTR_6274")
+    end
+end
+
 function Trig_Base_List_Init_Actions()
     udg_GARATHORbaseList[1] = gg_rct_Base_1
     udg_GARATHORbaseList[2] = gg_rct_Base_2
@@ -64,34 +137,13 @@ function Trig_Flagstack_Deny_BaseHasOtherFlag(r, newFlag)
 end
 
 function Trig_Flagstack_Deny_Actions()
-    local newFlag = GetTriggerUnit()
-    local i = 1
-    local e = nil
-    while true do
-        if (i > 10) then break end
-        if RectContainsUnit(udg_GARATHORbaseList[i], newFlag) then
-            if Trig_Flagstack_Deny_BaseHasOtherFlag(udg_GARATHORbaseList[i], newFlag) then
-                e = AddSpecialEffect("Abilities\\Spells\\Human\\ThunderClap\\ThunderClapCaster.mdl", GetUnitX(newFlag), GetUnitY(newFlag))
-                DestroyEffect(e)
-                KillUnit(newFlag)
-                AdjustPlayerStateBJ(2000, GetOwningPlayer(newFlag), PLAYER_STATE_RESOURCE_LUMBER)
-                DisplayTimedTextToForce(GetForceOfPlayer(GetOwningPlayer(newFlag)), __jreal(2.00), "TRIGSTR_6274")
-            end
-            e = nil
-            newFlag = nil
-            return
-        end
-        i = __jint(i + 1)
-    end
-    e = nil
-    newFlag = nil
+    -- Validation moved to the single construction-start handler below.
 end
 
 function InitTrig_Flagstack_Deny()
+    -- Retain the named handle for editor compatibility, without an enter event.
+    -- A spawned/loaded flag is not a paid construction and must never refund.
     gg_trg_Flagstack_Deny = CreateTrigger()
-    TriggerRegisterEnterRectSimple(gg_trg_Flagstack_Deny, GetPlayableMapRect())
-    TriggerAddCondition(gg_trg_Flagstack_Deny, Condition(Trig_Flagstack_Deny_Conditions))
-    TriggerAddAction(gg_trg_Flagstack_Deny, Trig_Flagstack_Deny_Actions)
 end
 -- END FOREST SECTION 367
 
@@ -105,46 +157,11 @@ function Trig_Flag_no_base_Deny_Conditions()
 end
 
 function Trig_Flag_no_base_Deny_Func002C()
-    if (not (RectContainsUnit(udg_GARATHORbaseList[1], GetConstructingStructure()) == false)) then
-        return false
-    end
-    if (not (RectContainsUnit(udg_GARATHORbaseList[2], GetConstructingStructure()) == false)) then
-        return false
-    end
-    if (not (RectContainsUnit(udg_GARATHORbaseList[3], GetConstructingStructure()) == false)) then
-        return false
-    end
-    if (not (RectContainsUnit(udg_GARATHORbaseList[4], GetConstructingStructure()) == false)) then
-        return false
-    end
-    if (not (RectContainsUnit(udg_GARATHORbaseList[5], GetConstructingStructure()) == false)) then
-        return false
-    end
-    if (not (RectContainsUnit(udg_GARATHORbaseList[6], GetConstructingStructure()) == false)) then
-        return false
-    end
-    if (not (RectContainsUnit(udg_GARATHORbaseList[7], GetConstructingStructure()) == false)) then
-        return false
-    end
-    if (not (RectContainsUnit(udg_GARATHORbaseList[8], GetConstructingStructure()) == false)) then
-        return false
-    end
-    if (not (RectContainsUnit(udg_GARATHORbaseList[9], GetConstructingStructure()) == false)) then
-        return false
-    end
-    if (not (RectContainsUnit(udg_GARATHORbaseList[10], GetConstructingStructure()) == false)) then
-        return false
-    end
-    return true
+    return FE_BaseFlags.baseFor(GetConstructingStructure()) == nil
 end
 
 function Trig_Flag_no_base_Deny_Actions()
-    if (Trig_Flag_no_base_Deny_Func002C()) then
-        AddSpecialEffectLocBJ(GetUnitLoc(GetConstructingStructure()), "Abilities\\Spells\\Human\\ThunderClap\\ThunderClapCaster.mdl")
-        SetPlayerStateBJ(GetOwningPlayer(GetTriggerUnit()), PLAYER_STATE_RESOURCE_LUMBER, (__jint(GetPlayerState(Player(0), PLAYER_STATE_RESOURCE_LUMBER) + 2000)))
-        DisplayTextToForce(GetForceOfPlayer(GetOwningPlayer(GetTriggerUnit())), "TRIGSTR_6233")
-        RemoveUnit(GetConstructingStructure())
-    end
+    FE_BaseFlags.validateConstruction(GetConstructingStructure())
 end
 
 function InitTrig_Flag_no_base_Deny()
@@ -165,10 +182,17 @@ function Trig_NewFlag_Conditions()
 end
 
 function Trig_NewFlag_Actions()
-    PingMinimapLocForForce(GetPlayersAll(), GetUnitLoc(GetConstructedStructure()), __jreal(5.00))
-    DisplayTextToForce(GetPlayersEnemies(FE_Roles.ancient()), "A base flag has been constructed! You will receive 1 gold and 50 lumber every 6 seconds. However, should the base fall, the Ancient will receive 1000 gold!")
-    DisplayTextToForce(GetPlayersAllies(FE_Roles.ancient()), "A base flag has been constructed! The enemy expanders will recieve 1 gold and 50 lumber every 6 seconds. However, should you destroy this base, you will recieve 1000 gold! Destroy the base before the expanders get too strong.")
-    udg_Flags[GetConvertedPlayerId(GetTriggerPlayer())] = true
+    FE_BaseFlags.completed[GetConstructedStructure()] = true
+    FE_BaseFlags.refreshOwners()
+    local point = GetUnitLoc(GetConstructedStructure())
+    PingMinimapLocForForce(GetPlayersAll(), point, __jreal(5.00))
+    RemoveLocation(point)
+    local enemies = GetPlayersEnemies(FE_Roles.ancient())
+    local allies = GetPlayersAllies(FE_Roles.ancient())
+    DisplayTextToForce(enemies, "A base flag has been constructed! You will receive 1 gold and 50 lumber every 6 seconds. However, should the base fall, the Ancient will receive 1000 gold!")
+    DisplayTextToForce(allies, "A base flag has been constructed! The enemy expanders will receive 1 gold and 50 lumber every 6 seconds. However, should you destroy this base, you will receive 1000 gold! Destroy the base before the expanders get too strong.")
+    DestroyForce(enemies)
+    DestroyForce(allies)
 end
 
 function InitTrig_NewFlag()
@@ -191,11 +215,16 @@ end
 
 function Trig_NewFlag2_Func001A()
     if (Trig_NewFlag2_Func001Func001C()) then
-        ForForce(GetPlayersAllies(GetEnumPlayer()), Trig_NewFlag2_Func001Func001Func001A)
+        local allies = GetPlayersAllies(GetEnumPlayer())
+        ForForce(allies, Trig_NewFlag2_Func001Func001Func001A)
+        DestroyForce(allies)
     end
 end
 
 function Trig_NewFlag2_Actions()
+    -- Takeover can preserve multiple flags under one owner. Pay one stream for
+    -- that owner while any completed flag survives, using current ownership.
+    FE_BaseFlags.refreshOwners()
     ForForce(GetPlayersAll(), Trig_NewFlag2_Func001A)
 end
 
@@ -208,21 +237,24 @@ end
 
 -- BEGIN FOREST SECTION 371 NewFlag3
 function Trig_NewFlag3_Conditions()
-    local unitId = GetUnitTypeId(GetDyingUnit())
-    if not IsBaseFlagType(unitId) then
-        return false
-    end
-    if (not (GetUnitTypeId(GetKillingUnitBJ()) ~= 0)) then
-        return false
-    end
-    return true
+    return IsBaseFlagType(GetUnitTypeId(GetDyingUnit()))
 end
 
 function Trig_NewFlag3_Actions()
-    PingMinimapLocForForce(GetPlayersAll(), GetUnitLoc(GetDyingUnit()), __jreal(5.00))
-    DisplayTextToForce(GetPlayersEnemies(FE_Roles.ancient()), "TRIGSTR_1774")
-    DisplayTextToForce(GetPlayersAllies(FE_Roles.ancient()), "TRIGSTR_1824")
-    udg_Flags[GetConvertedPlayerId(GetOwningPlayer(GetDyingUnit()))] = false
+    local flag = GetDyingUnit()
+    local completed = FE_BaseFlags.completed[flag]
+    FE_BaseFlags.completed[flag] = nil
+    FE_BaseFlags.refreshOwners()
+    if not completed or GetUnitTypeId(GetKillingUnitBJ()) == 0 then return end
+    local point = GetUnitLoc(GetDyingUnit())
+    PingMinimapLocForForce(GetPlayersAll(), point, __jreal(5.00))
+    RemoveLocation(point)
+    local enemies = GetPlayersEnemies(FE_Roles.ancient())
+    local allies = GetPlayersAllies(FE_Roles.ancient())
+    DisplayTextToForce(enemies, "TRIGSTR_1774")
+    DisplayTextToForce(allies, "TRIGSTR_1824")
+    DestroyForce(enemies)
+    DestroyForce(allies)
 end
 
 function InitTrig_NewFlag3()
@@ -246,18 +278,11 @@ function Trig_NewFlag4_Conditions()
 end
 
 function Trig_NewFlag4_Actions()
-    udg_Flag = GetOwningPlayer(GetTriggerUnit())
-    IssueImmediateOrderBJ(GetTriggerUnit(), "stop")
-    KillUnit(GetConstructingStructure())
-    SetPlayerStateBJ(udg_Flag, PLAYER_STATE_RESOURCE_LUMBER, (__jint(GetPlayerState(udg_Flag, PLAYER_STATE_RESOURCE_LUMBER) + 2000)))
-    DisplayTextToForce(GetForceOfPlayer(udg_Flag), "You have already constructed a base flag!")
+    -- Owner and region limits share the single construction-start handler.
 end
 
 function InitTrig_NewFlag4()
     gg_trg_NewFlag4 = CreateTrigger()
-    TriggerRegisterAnyUnitEventBJ(gg_trg_NewFlag4, EVENT_PLAYER_UNIT_CONSTRUCT_START)
-    TriggerAddCondition(gg_trg_NewFlag4, Condition(Trig_NewFlag4_Conditions))
-    TriggerAddAction(gg_trg_NewFlag4, Trig_NewFlag4_Actions)
 end
 -- END FOREST SECTION 372
 

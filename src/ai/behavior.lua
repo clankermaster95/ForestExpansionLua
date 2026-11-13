@@ -2,27 +2,41 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 206 Start
--- This preserves rejected random draws, recursive trigger retries and the
--- original order callback for each entry point. Do not prefilter the pool here.
+-- Choose uniformly among the same eligible owners without recursive retries.
+-- A map containing only Ancient/neutral units must produce no attack order.
 local function HardAIChooseCandidate()
     if (GetOwningPlayer(GetEnumUnit()) ~= FE_Roles.ancient()) then
         if (GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_PASSIVE)) then
             if (GetOwningPlayer(GetEnumUnit()) ~= Player(PLAYER_NEUTRAL_AGGRESSIVE)) then
                 udg_Hardunit = GetUnitLoc(GetEnumUnit())
-            else
-                TriggerExecute(gg_trg_Hard_attack_2)
             end
-        else
-            TriggerExecute(gg_trg_Hard_attack_2)
         end
-    else
-        TriggerExecute(gg_trg_Hard_attack_2)
     end
 end
 
 local function HardAISelectAndOrder(candidate, order)
-    ForGroupBJ(GetRandomSubGroup(1, GetUnitsInRectAll(GetPlayableMapRect())), candidate)
-    ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), order)
+    local candidates = GetUnitsInRectAll(GetPlayableMapRect())
+    local count = 0
+    ForGroupBJ(candidates, function()
+        local unit = GetEnumUnit()
+        local owner = GetOwningPlayer(unit)
+        if owner == FE_Roles.ancient() or owner == Player(PLAYER_NEUTRAL_PASSIVE) or owner == Player(PLAYER_NEUTRAL_AGGRESSIVE) then
+            GroupRemoveUnitSimple(unit, candidates)
+        else
+            count = count + 1
+        end
+    end)
+    if count == 0 then DestroyGroup(candidates); return end
+    local chosen = GetRandomSubGroup(1, candidates)
+    ForGroupBJ(chosen, candidate)
+    DestroyGroup(chosen)
+    DestroyGroup(candidates)
+    if not udg_Hardunit then return end
+    local army = GetUnitsOfPlayerAll(FE_Roles.ancient())
+    ForGroupBJ(army, order)
+    DestroyGroup(army)
+    RemoveLocation(udg_Hardunit)
+    udg_Hardunit = nil
 end
 
 function Trig_Start_Func001C()
@@ -63,7 +77,9 @@ end
 
 -- BEGIN FOREST SECTION 208 Hard_Attack
 function Trig_Hard_Attack_Conditions()
-    return IsUnitEnemy(GetTriggerUnit(), FE_Roles.ancient()) == true
+    -- Timer events have no triggering unit; death events retain their filter.
+    local unit = GetTriggerUnit()
+    return unit == nil or IsUnitEnemy(unit, FE_Roles.ancient()) == true
 end
 
 function Trig_Hard_Attack_Func002002()
@@ -122,7 +138,7 @@ function Trig_Hard_attack_2_Func001002()
 end
 
 function Trig_Hard_attack_2_Func002002()
-    IssuePointOrderLocBJ(GetEnumUnit(), "attack", GetUnitLoc(GetFilterUnit()))
+    IssuePointOrderLocBJ(GetEnumUnit(), "attack", udg_Hardunit)
 end
 
 function Trig_Hard_attack_2_Actions()

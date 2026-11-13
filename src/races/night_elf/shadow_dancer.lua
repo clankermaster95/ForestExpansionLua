@@ -113,7 +113,7 @@ end
 
 -- BEGIN FOREST SECTION 56 Mana_Steal_Mages
 function Trig_Mana_Steal_Mages_Conditions()
-    if (not (GetUnitTypeId(GetTriggerUnit()) == FourCC("o023"))) then
+    if (not (GetUnitTypeId(udg_DamageEventSource) == FourCC("o023"))) then
         return false
     end
     if (not (IsPlayerAlly(GetOwningPlayer(udg_DamageEventTarget), GetOwningPlayer(udg_DamageEventSource)) == false)) then

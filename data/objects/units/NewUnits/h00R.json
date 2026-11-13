@@ -141,14 +141,14 @@
     {
       "Id": 1953723253,
       "Type": "Int",
-      "Value": 10,
+      "Value": 0,
       "SanityCheck": 0,
       "_field": "usst"
     },
     {
       "Id": 1735553909,
       "Type": "Int",
-      "Value": 3600,
+      "Value": 1,
       "SanityCheck": 0,
       "_field": "usrg"
     },

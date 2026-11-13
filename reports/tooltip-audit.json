@@ -14,7 +14,17 @@
   },
   "changed_objects": 653,
   "changed_fields": 1037,
-  "gameplay_object_fields_unchanged": true,
+  "gameplay_object_fields_unchanged": false,
+  "r12_tooltip_pass_gameplay_unchanged": true,
+  "subsequent_gameplay_fixes": {
+    "baseline": "tests/fixtures/gameplay-r12.zip",
+    "baseline_sha256": "faeb1a46bd99d0d558917cf9e25a661394a20b38b3b598f870fc9d3b56a1bfa5",
+    "manifest": "data/migrations/r13-object-fixes.json",
+    "changed_objects": 53,
+    "serialized_field_changes": 182,
+    "native_base_changes": 2,
+    "other_object_fields_unchanged": true
+  },
   "issues": [],
   "changes": [
     {

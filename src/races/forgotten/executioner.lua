@@ -2,22 +2,33 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 65 Coup_de_grace
--- Keep separate trigger handles and research enablement for the ten original
--- owner slots; only the duplicated bodies are shared.
-local function FocusedAngerOwnerCondition(slot)
-    return GetUnitTypeId(GetAttacker()) == FourCC("u00B") and
-        GetOwningPlayer(GetAttacker()) == Player(slot)
+-- Preserve the original trigger handles, but resolve Expander positions from
+-- the current role. Neither the old green slot nor the lobby color is identity.
+local function FocusedAngerPlayerAt(index)
+    return FE_Roles.expanderAt(index)
+end
+
+local function FocusedAngerOwnerCondition(index)
+    local attacker = GetAttacker()
+    local owner = GetOwningPlayer(attacker)
+    return GetUnitTypeId(attacker) == FourCC("u00B") and
+        owner == FocusedAngerPlayerAt(index) and
+        GetPlayerTechCount(owner, FourCC("R04T"), true) > 0
 end
 
 local function FocusedAngerAttackEvent(trigger, condition, action)
-    DisableTrigger(trigger)
+    -- Query research on the attack, including research copied during takeover.
+    -- A research-finish-only enable flag misses transferred armies.
     FE_Roles.registerAncientUnitEvent(trigger, EVENT_PLAYER_UNIT_ATTACKED)
     TriggerAddCondition(trigger, Condition(condition))
     TriggerAddAction(trigger, action)
 end
 
-local function FocusedAngerResearchEvent(trigger, slot, condition, action)
-    TriggerRegisterPlayerUnitEventSimple(trigger, Player(slot), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
+local function FocusedAngerResearchEvent(trigger, index, condition, action)
+    FE_Roles.forEachPlayer(function(player)
+        TriggerRegisterPlayerUnitEventSimple(trigger, player, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
+    end)
+    TriggerAddCondition(trigger, Condition(function() return GetTriggerPlayer() == FocusedAngerPlayerAt(index) end))
     TriggerAddCondition(trigger, Condition(condition))
     TriggerAddAction(trigger, action)
 end
@@ -149,7 +160,7 @@ end
 
 -- BEGIN FOREST SECTION 73 Focused_Anger_7
 function Trig_Focused_Anger_7_Conditions()
-    return FocusedAngerOwnerCondition(7)
+    return FocusedAngerOwnerCondition(6)
 end
 
 function Trig_Focused_Anger_7_Actions()
@@ -164,7 +175,7 @@ end
 
 -- BEGIN FOREST SECTION 74 Focused_Anger_8
 function Trig_Focused_Anger_8_Conditions()
-    return FocusedAngerOwnerCondition(8)
+    return FocusedAngerOwnerCondition(7)
 end
 
 function Trig_Focused_Anger_8_Actions()
@@ -179,7 +190,7 @@ end
 
 -- BEGIN FOREST SECTION 75 Focused_Anger_9
 function Trig_Focused_Anger_9_Conditions()
-    return FocusedAngerOwnerCondition(9)
+    return FocusedAngerOwnerCondition(8)
 end
 
 function Trig_Focused_Anger_9_Actions()
@@ -194,7 +205,7 @@ end
 
 -- BEGIN FOREST SECTION 76 Focused_Anger_10
 function Trig_Focused_Anger_10_Conditions()
-    return FocusedAngerOwnerCondition(10)
+    return FocusedAngerOwnerCondition(9)
 end
 
 function Trig_Focused_Anger_10_Actions()
@@ -308,7 +319,7 @@ end
 
 function InitTrig_Focused_Anger_Trigger_Copy_6()
     gg_trg_Focused_Anger_Trigger_Copy_6 = CreateTrigger()
-    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_6, 7, Trig_Focused_Anger_Trigger_Copy_6_Conditions, Trig_Focused_Anger_Trigger_Copy_6_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_6, 6, Trig_Focused_Anger_Trigger_Copy_6_Conditions, Trig_Focused_Anger_Trigger_Copy_6_Actions)
 end
 -- END FOREST SECTION 83
 
@@ -323,7 +334,7 @@ end
 
 function InitTrig_Focused_Anger_Trigger_Copy_7()
     gg_trg_Focused_Anger_Trigger_Copy_7 = CreateTrigger()
-    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_7, 8, Trig_Focused_Anger_Trigger_Copy_7_Conditions, Trig_Focused_Anger_Trigger_Copy_7_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_7, 7, Trig_Focused_Anger_Trigger_Copy_7_Conditions, Trig_Focused_Anger_Trigger_Copy_7_Actions)
 end
 -- END FOREST SECTION 84
 
@@ -338,7 +349,7 @@ end
 
 function InitTrig_Focused_Anger_Trigger_Copy_8()
     gg_trg_Focused_Anger_Trigger_Copy_8 = CreateTrigger()
-    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_8, 9, Trig_Focused_Anger_Trigger_Copy_8_Conditions, Trig_Focused_Anger_Trigger_Copy_8_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_8, 8, Trig_Focused_Anger_Trigger_Copy_8_Conditions, Trig_Focused_Anger_Trigger_Copy_8_Actions)
 end
 -- END FOREST SECTION 85
 
@@ -353,6 +364,6 @@ end
 
 function InitTrig_Focused_Anger_Trigger_Copy_9()
     gg_trg_Focused_Anger_Trigger_Copy_9 = CreateTrigger()
-    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_9, 10, Trig_Focused_Anger_Trigger_Copy_9_Conditions, Trig_Focused_Anger_Trigger_Copy_9_Actions)
+    FocusedAngerResearchEvent(gg_trg_Focused_Anger_Trigger_Copy_9, 9, Trig_Focused_Anger_Trigger_Copy_9_Conditions, Trig_Focused_Anger_Trigger_Copy_9_Actions)
 end
 -- END FOREST SECTION 86

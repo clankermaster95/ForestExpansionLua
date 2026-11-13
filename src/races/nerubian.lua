@@ -1,6 +1,15 @@
 -- races / nerubian
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
+FE_Nerubian = { removalHooked = false }
+
+function FE_Nerubian.untrack(unit)
+    if unit == nil or udg_Ziggurats == nil or not IsUnitInGroup(unit, udg_Ziggurats) then return end
+    GroupRemoveUnitSimple(unit, udg_Ziggurats)
+    udg_Ziggurats_Count = math.max(0, __jint(udg_Ziggurats_Count - 1))
+    ForGroupBJ(udg_Ziggurats, Trig_DowngradeAura_Func003A)
+end
+
 -- BEGIN FOREST SECTION 121 LevelUpAura
 function Trig_LevelUpAura_Conditions()
     return GetUnitTypeId(GetTriggerUnit()) == FourCC("h059")
@@ -12,12 +21,23 @@ function Trig_LevelUpAura_Func003A()
 end
 
 function Trig_LevelUpAura_Actions()
+    if IsUnitInGroup(GetTriggerUnit(), udg_Ziggurats) then return end
     GroupAddUnitSimple(GetTriggerUnit(), udg_Ziggurats)
     udg_Ziggurats_Count = (__jint(udg_Ziggurats_Count + 1))
     ForGroupBJ(udg_Ziggurats, Trig_LevelUpAura_Func003A)
 end
 
 function InitTrig_LevelUpAura()
+    if not FE_Nerubian.removalHooked then
+        FE_Nerubian.removalHooked = true
+        local remove = RemoveUnit
+        -- Defeat and unclaimed-leaver cleanup remove units without a death event.
+        -- Untrack before the native invalidates the unit/group membership.
+        RemoveUnit = function(unit)
+            FE_Nerubian.untrack(unit)
+            return remove(unit)
+        end
+    end
     gg_trg_LevelUpAura = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_LevelUpAura, EVENT_PLAYER_UNIT_UPGRADE_FINISH)
     TriggerAddCondition(gg_trg_LevelUpAura, Condition(Trig_LevelUpAura_Conditions))
@@ -36,9 +56,7 @@ function Trig_DowngradeAura_Func003A()
 end
 
 function Trig_DowngradeAura_Actions()
-    GroupAddUnitSimple(GetTriggerUnit(), udg_Ziggurats)
-    udg_Ziggurats_Count = (__jint(udg_Ziggurats_Count - 1))
-    ForGroupBJ(udg_Ziggurats, Trig_DowngradeAura_Func003A)
+    FE_Nerubian.untrack(GetTriggerUnit())
 end
 
 function InitTrig_DowngradeAura()
@@ -68,7 +86,8 @@ function CheckNearbyUpgrades(u)
     while true do
         b = FirstOfGroup(g)
         if (b == nil) then break end
-        if ((GetUnitTypeId(b) == newBuildingId) and (not ((GetUnitX(u) == GetUnitX(b)) and (GetUnitY(u) == GetUnitY(b))))) then
+        if b ~= u and GetUnitTypeId(b) == newBuildingId and
+            GetWidgetLife(b) > __jreal(0.405) and not IsUnitType(b, UNIT_TYPE_DEAD) then
             result = true
             if true then break end
         end

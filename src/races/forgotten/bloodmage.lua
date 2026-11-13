@@ -1,17 +1,33 @@
 -- races / forgotten / bloodmage
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
--- BEGIN FOREST SECTION 90 Acidic_Blood
--- Shared bodies retain the original per-slot trigger wrappers below. Slot 6
--- remains absent from the research families, as in the preserved r7 behavior.
-local function BloodmageUpgradeUnits(slot, abilityId)
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(Player(slot), FourCC("u009")), function()
-        IncUnitAbilityLevelSwapped(FourCC(abilityId), GetEnumUnit())
-    end)
+FE_Bloodmage = {}
+
+function FE_Bloodmage.restoreResearch(unit)
+    if GetUnitTypeId(unit) ~= FourCC("u009") then return end
+    local level = 1 + GetPlayerTechCount(GetOwningPlayer(unit), FourCC("R043"), true)
+    for _, raw in ipairs({"A065", "A063"}) do
+        local ability = FourCC(raw)
+        if GetUnitAbilityLevel(unit, ability) > 0 then SetUnitAbilityLevel(unit, ability, level) end
+    end
 end
 
-local function BloodmageResearchEvent(trigger, slot, condition, action)
-    TriggerRegisterPlayerUnitEventSimple(trigger, Player(slot), EVENT_PLAYER_UNIT_RESEARCH_FINISH)
+-- BEGIN FOREST SECTION 90 Acidic_Blood
+-- Shared bodies retain the original wrappers, resolving current Expander
+-- positions through FE_Roles instead of excluding a historical Ancient slot.
+local function BloodmageUpgradeUnits(index, abilityId)
+    local units = GetUnitsOfPlayerAndTypeId(FE_Roles.expanderAt(index), FourCC("u009"))
+    ForGroupBJ(units, function()
+        IncUnitAbilityLevelSwapped(FourCC(abilityId), GetEnumUnit())
+    end)
+    DestroyGroup(units)
+end
+
+local function BloodmageResearchEvent(trigger, index, condition, action)
+    FE_Roles.forEachPlayer(function(player)
+        TriggerRegisterPlayerUnitEventSimple(trigger, player, EVENT_PLAYER_UNIT_RESEARCH_FINISH)
+    end)
+    TriggerAddCondition(trigger, Condition(function() return GetTriggerPlayer() == FE_Roles.expanderAt(index) end))
     TriggerAddCondition(trigger, Condition(condition))
     TriggerAddAction(trigger, action)
 end
@@ -278,12 +294,12 @@ function Trig_Levelled_Drain_Copy_6_Conditions()
 end
 
 function Trig_Levelled_Drain_Copy_6_Actions()
-    BloodmageUpgradeUnits(7, "A065")
+    BloodmageUpgradeUnits(6, "A065")
 end
 
 function InitTrig_Levelled_Drain_Copy_6()
     gg_trg_Levelled_Drain_Copy_6 = CreateTrigger()
-    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_6, 7, Trig_Levelled_Drain_Copy_6_Conditions, Trig_Levelled_Drain_Copy_6_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_6, 6, Trig_Levelled_Drain_Copy_6_Conditions, Trig_Levelled_Drain_Copy_6_Actions)
 end
 -- END FOREST SECTION 104
 
@@ -293,12 +309,12 @@ function Trig_Levelled_Drain_Copy_7_Conditions()
 end
 
 function Trig_Levelled_Drain_Copy_7_Actions()
-    BloodmageUpgradeUnits(8, "A065")
+    BloodmageUpgradeUnits(7, "A065")
 end
 
 function InitTrig_Levelled_Drain_Copy_7()
     gg_trg_Levelled_Drain_Copy_7 = CreateTrigger()
-    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_7, 8, Trig_Levelled_Drain_Copy_7_Conditions, Trig_Levelled_Drain_Copy_7_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_7, 7, Trig_Levelled_Drain_Copy_7_Conditions, Trig_Levelled_Drain_Copy_7_Actions)
 end
 -- END FOREST SECTION 105
 
@@ -308,12 +324,12 @@ function Trig_Levelled_Drain_Copy_8_Conditions()
 end
 
 function Trig_Levelled_Drain_Copy_8_Actions()
-    BloodmageUpgradeUnits(9, "A065")
+    BloodmageUpgradeUnits(8, "A065")
 end
 
 function InitTrig_Levelled_Drain_Copy_8()
     gg_trg_Levelled_Drain_Copy_8 = CreateTrigger()
-    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_8, 9, Trig_Levelled_Drain_Copy_8_Conditions, Trig_Levelled_Drain_Copy_8_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_8, 8, Trig_Levelled_Drain_Copy_8_Conditions, Trig_Levelled_Drain_Copy_8_Actions)
 end
 -- END FOREST SECTION 106
 
@@ -323,12 +339,12 @@ function Trig_Levelled_Drain_Copy_9_Conditions()
 end
 
 function Trig_Levelled_Drain_Copy_9_Actions()
-    BloodmageUpgradeUnits(10, "A065")
+    BloodmageUpgradeUnits(9, "A065")
 end
 
 function InitTrig_Levelled_Drain_Copy_9()
     gg_trg_Levelled_Drain_Copy_9 = CreateTrigger()
-    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_9, 10, Trig_Levelled_Drain_Copy_9_Conditions, Trig_Levelled_Drain_Copy_9_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Drain_Copy_9, 9, Trig_Levelled_Drain_Copy_9_Conditions, Trig_Levelled_Drain_Copy_9_Actions)
 end
 -- END FOREST SECTION 107
 
@@ -671,12 +687,12 @@ function Trig_Levelled_Slam_Copy_6_Conditions()
 end
 
 function Trig_Levelled_Slam_Copy_6_Actions()
-    BloodmageUpgradeUnits(7, "A063")
+    BloodmageUpgradeUnits(6, "A063")
 end
 
 function InitTrig_Levelled_Slam_Copy_6()
     gg_trg_Levelled_Slam_Copy_6 = CreateTrigger()
-    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_6, 7, Trig_Levelled_Slam_Copy_6_Conditions, Trig_Levelled_Slam_Copy_6_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_6, 6, Trig_Levelled_Slam_Copy_6_Conditions, Trig_Levelled_Slam_Copy_6_Actions)
 end
 -- END FOREST SECTION 117
 
@@ -686,12 +702,12 @@ function Trig_Levelled_Slam_Copy_7_Conditions()
 end
 
 function Trig_Levelled_Slam_Copy_7_Actions()
-    BloodmageUpgradeUnits(8, "A063")
+    BloodmageUpgradeUnits(7, "A063")
 end
 
 function InitTrig_Levelled_Slam_Copy_7()
     gg_trg_Levelled_Slam_Copy_7 = CreateTrigger()
-    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_7, 8, Trig_Levelled_Slam_Copy_7_Conditions, Trig_Levelled_Slam_Copy_7_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_7, 7, Trig_Levelled_Slam_Copy_7_Conditions, Trig_Levelled_Slam_Copy_7_Actions)
 end
 -- END FOREST SECTION 118
 
@@ -701,12 +717,12 @@ function Trig_Levelled_Slam_Copy_8_Conditions()
 end
 
 function Trig_Levelled_Slam_Copy_8_Actions()
-    BloodmageUpgradeUnits(9, "A063")
+    BloodmageUpgradeUnits(8, "A063")
 end
 
 function InitTrig_Levelled_Slam_Copy_8()
     gg_trg_Levelled_Slam_Copy_8 = CreateTrigger()
-    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_8, 9, Trig_Levelled_Slam_Copy_8_Conditions, Trig_Levelled_Slam_Copy_8_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_8, 8, Trig_Levelled_Slam_Copy_8_Conditions, Trig_Levelled_Slam_Copy_8_Actions)
 end
 -- END FOREST SECTION 119
 
@@ -716,11 +732,11 @@ function Trig_Levelled_Slam_Copy_9_Conditions()
 end
 
 function Trig_Levelled_Slam_Copy_9_Actions()
-    BloodmageUpgradeUnits(10, "A063")
+    BloodmageUpgradeUnits(9, "A063")
 end
 
 function InitTrig_Levelled_Slam_Copy_9()
     gg_trg_Levelled_Slam_Copy_9 = CreateTrigger()
-    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_9, 10, Trig_Levelled_Slam_Copy_9_Conditions, Trig_Levelled_Slam_Copy_9_Actions)
+    BloodmageResearchEvent(gg_trg_Levelled_Slam_Copy_9, 9, Trig_Levelled_Slam_Copy_9_Conditions, Trig_Levelled_Slam_Copy_9_Actions)
 end
 -- END FOREST SECTION 120

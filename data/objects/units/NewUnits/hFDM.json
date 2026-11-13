@@ -140,7 +140,7 @@
     },
     {
       "Id": 1633907573,
-      "Type": "Int",
+      "Type": "Real",
       "Value": 0,
       "SanityCheck": 0,
       "_field": "usca"

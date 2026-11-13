@@ -1,0 +1,654 @@
+{
+  "scope": "r13 runtime subagent review; excludes root/picker/native-data ownership",
+  "baseline": "3908a135c7733444aca1c0a85cf9a1e9236a21bd",
+  "live_warcraft_or_editor_run": false,
+  "behavioral_assertions": 203,
+  "numeric_runtimes": [
+    "Lua5.3.6 default",
+    "Lua5.3.6 binary32/int32"
+  ],
+  "changed_modules": [
+    {
+      "path": "src/ai/behavior.lua",
+      "changed_existing_functions": [
+        "HardAIChooseCandidate",
+        "HardAISelectAndOrder",
+        "Trig_Hard_Attack_Conditions",
+        "Trig_Hard_attack_2_Func002002"
+      ],
+      "new_functions": [],
+      "removed_functions": []
+    },
+    {
+      "path": "src/economy/feed.lua",
+      "changed_existing_functions": [
+        "FR_ApplyGoldBountyRate"
+      ],
+      "new_functions": [
+        "FR_BountyFields",
+        "FR_RestoreGoldBounty"
+      ],
+      "removed_functions": []
+    },
+    {
+      "path": "src/economy/income.lua",
+      "changed_existing_functions": [
+        "Trig_Worgens_gold_Actions"
+      ],
+      "new_functions": [],
+      "removed_functions": []
+    },
+    {
+      "path": "src/items/mech_blaster.lua",
+      "changed_existing_functions": [
+        "Trig_Gobo_Mech_Blaster_attack_check_Func001C"
+      ],
+      "new_functions": [],
+      "removed_functions": []
+    },
+    {
+      "path": "src/players/roles.lua",
+      "changed_existing_functions": [],
+      "new_functions": [
+        "FE_Roles.expanderAt"
+      ],
+      "removed_functions": []
+    },
+    {
+      "path": "src/races/bounty_hunter.lua",
+      "changed_existing_functions": [
+        "Trig_Basic_Bounty_Hit_Actions",
+        "Trig_Improved_Bounty_Hit_Actions",
+        "Trig_Harvest_Grapes_Actions"
+      ],
+      "new_functions": [],
+      "removed_functions": []
+    },
+    {
+      "path": "src/races/forgotten/bloodmage.lua",
+      "changed_existing_functions": [
+        "BloodmageUpgradeUnits",
+        "BloodmageResearchEvent",
+        "Trig_Levelled_Drain_Copy_6_Actions",
+        "InitTrig_Levelled_Drain_Copy_6",
+        "Trig_Levelled_Drain_Copy_7_Actions",
+        "InitTrig_Levelled_Drain_Copy_7",
+        "Trig_Levelled_Drain_Copy_8_Actions",
+        "InitTrig_Levelled_Drain_Copy_8",
+        "Trig_Levelled_Drain_Copy_9_Actions",
+        "InitTrig_Levelled_Drain_Copy_9",
+        "Trig_Levelled_Slam_Copy_6_Actions",
+        "InitTrig_Levelled_Slam_Copy_6",
+        "Trig_Levelled_Slam_Copy_7_Actions",
+        "InitTrig_Levelled_Slam_Copy_7",
+        "Trig_Levelled_Slam_Copy_8_Actions",
+        "InitTrig_Levelled_Slam_Copy_8",
+        "Trig_Levelled_Slam_Copy_9_Actions",
+        "InitTrig_Levelled_Slam_Copy_9"
+      ],
+      "new_functions": [
+        "FE_Bloodmage.restoreResearch"
+      ],
+      "removed_functions": []
+    },
+    {
+      "path": "src/races/forgotten/executioner.lua",
+      "changed_existing_functions": [
+        "FocusedAngerOwnerCondition",
+        "FocusedAngerAttackEvent",
+        "FocusedAngerResearchEvent",
+        "Trig_Focused_Anger_7_Conditions",
+        "Trig_Focused_Anger_8_Conditions",
+        "Trig_Focused_Anger_9_Conditions",
+        "Trig_Focused_Anger_10_Conditions",
+        "InitTrig_Focused_Anger_Trigger_Copy_6",
+        "InitTrig_Focused_Anger_Trigger_Copy_7",
+        "InitTrig_Focused_Anger_Trigger_Copy_8",
+        "InitTrig_Focused_Anger_Trigger_Copy_9"
+      ],
+      "new_functions": [
+        "FocusedAngerPlayerAt"
+      ],
+      "removed_functions": []
+    },
+    {
+      "path": "src/races/nerubian.lua",
+      "changed_existing_functions": [
+        "Trig_LevelUpAura_Actions",
+        "InitTrig_LevelUpAura",
+        "Trig_DowngradeAura_Actions",
+        "CheckNearbyUpgrades"
+      ],
+      "new_functions": [
+        "FE_Nerubian.untrack"
+      ],
+      "removed_functions": []
+    },
+    {
+      "path": "src/races/night_elf.lua",
+      "changed_existing_functions": [
+        "Trig_Deepwater_1_Func001A",
+        "Trig_Deepwater_1_Actions"
+      ],
+      "new_functions": [],
+      "removed_functions": []
+    },
+    {
+      "path": "src/races/night_elf/shadow_dancer.lua",
+      "changed_existing_functions": [
+        "Trig_Mana_Steal_Mages_Conditions"
+      ],
+      "new_functions": [],
+      "removed_functions": []
+    },
+    {
+      "path": "src/races/ratling.lua",
+      "changed_existing_functions": [
+        "Trig_ReduceMagicResist2_Func001A",
+        "Trig_Permanent_Invisibility_Func001A",
+        "Trig_Permanent_Invisibility_Actions",
+        "Trig_Permanent_Invisibility_2_Actions"
+      ],
+      "new_functions": [],
+      "removed_functions": []
+    },
+    {
+      "path": "src/races/wisp.lua",
+      "changed_existing_functions": [
+        "Trig_SeedOfRebirth_Actions"
+      ],
+      "new_functions": [],
+      "removed_functions": []
+    },
+    {
+      "path": "src/races/worgen.lua",
+      "changed_existing_functions": [
+        "Trig_Return_lumber_Actions"
+      ],
+      "new_functions": [
+        "FE_Worgen.restoreResearch"
+      ],
+      "removed_functions": []
+    },
+    {
+      "path": "src/ui/hints.lua",
+      "changed_existing_functions": [
+        "Trig_Info_Copy_Actions",
+        "Trig_Info_Actions",
+        "InitTrig_Ping"
+      ],
+      "new_functions": [],
+      "removed_functions": []
+    }
+  ],
+  "coverage": [
+    {
+      "path": "src/runtime.lua",
+      "lines": 52,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/globals.lua",
+      "lines": 1211,
+      "coverage": "declarations/generated-data inventory",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/players/roles.lua",
+      "lines": 83,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/players/roster.lua",
+      "lines": 50,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/items/recipe_data.lua",
+      "lines": 60,
+      "coverage": "declarations/generated-data inventory",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/items/recipes.lua",
+      "lines": 210,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/items/shops.lua",
+      "lines": 189,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/items/ledgers.lua",
+      "lines": 26,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/combat/focused_anger.lua",
+      "lines": 19,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/libraries/damage_engine.lua",
+      "lines": 1053,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/libraries/passive_missiles.lua",
+      "lines": 339,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/libraries/prelude.lua",
+      "lines": 9,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/libraries/spell_leech.lua",
+      "lines": 115,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/commands/test_data.lua",
+      "lines": 1084,
+      "coverage": "declarations/generated-data inventory",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/commands/solo_test.lua",
+      "lines": 299,
+      "coverage": "delegated",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/initialization.lua",
+      "lines": 841,
+      "coverage": "declarations/generated-data inventory",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/combat/damage.lua",
+      "lines": 25,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/effects/timed.lua",
+      "lines": 351,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/game/clock.lua",
+      "lines": 103,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/commands/trade.lua",
+      "lines": 54,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/game/tree_chopper.lua",
+      "lines": 16,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/players/participation.lua",
+      "lines": 289,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/game/overdrive.lua",
+      "lines": 74,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/commands/player.lua",
+      "lines": 472,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/game/selection.lua",
+      "lines": 514,
+      "coverage": "delegated",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/game/fountain.lua",
+      "lines": 45,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/combat/common.lua",
+      "lines": 204,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/economy/feed.lua",
+      "lines": 721,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/races/bounty_hunter.lua",
+      "lines": 515,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/races/cultist.lua",
+      "lines": 458,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/centaur.lua",
+      "lines": 62,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/elf_engineer.lua",
+      "lines": 43,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/kobold.lua",
+      "lines": 23,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/night_elf.lua",
+      "lines": 52,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/races/night_elf/arch_druid.lua",
+      "lines": 49,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/night_elf/shadow_dancer.lua",
+      "lines": 186,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/races/ghoul.lua",
+      "lines": 80,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/kraken.lua",
+      "lines": 35,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/aethyr.lua",
+      "lines": 32,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/forgotten.lua",
+      "lines": 47,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/forgotten/executioner.lua",
+      "lines": 369,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/races/forgotten/soulreaper.lua",
+      "lines": 58,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/forgotten/bloodmage.lua",
+      "lines": 742,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/races/nerubian.lua",
+      "lines": 136,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/races/ratling.lua",
+      "lines": 255,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/races/razormane.lua",
+      "lines": 35,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/wisp.lua",
+      "lines": 55,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/races/wildkin.lua",
+      "lines": 398,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/races/worgen.lua",
+      "lines": 99,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/combat/spells.lua",
+      "lines": 221,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ancients/paranoia.lua",
+      "lines": 62,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ancients/zalxon.lua",
+      "lines": 70,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ancients/nebula.lua",
+      "lines": 252,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ancients/tremor.lua",
+      "lines": 52,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ancients/pharaoh.lua",
+      "lines": 82,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ancients/avalanche.lua",
+      "lines": 255,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ancients/divinity.lua",
+      "lines": 217,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ancients/wispari.lua",
+      "lines": 303,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ui/hints.lua",
+      "lines": 195,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/ai/behavior.lua",
+      "lines": 470,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/items/effects.lua",
+      "lines": 560,
+      "coverage": "active effect/lifecycle paths reviewed; recipe wrapper inventory",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/economy/income.lua",
+      "lines": 115,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/game/startup.lua",
+      "lines": 184,
+      "coverage": "delegated",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ui/names.lua",
+      "lines": 70,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/game/bans/expanders.lua",
+      "lines": 214,
+      "coverage": "delegated",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/game/bans/ancients.lua",
+      "lines": 112,
+      "coverage": "delegated",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/combat/shop_protection.lua",
+      "lines": 110,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/players/alliances.lua",
+      "lines": 24,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ui/animations.lua",
+      "lines": 14,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/ui/quests.lua",
+      "lines": 21,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/players/lackeys.lua",
+      "lines": 377,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/players/leaving.lua",
+      "lines": 41,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/players/deaths.lua",
+      "lines": 549,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/game/victory.lua",
+      "lines": 289,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/economy/base_flags.lua",
+      "lines": 315,
+      "coverage": "delegated",
+      "new_regression_suite": false
+    },
+    {
+      "path": "src/items/mech_blaster.lua",
+      "lines": 52,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": true
+    },
+    {
+      "path": "src/bootstrap.lua",
+      "lines": 13,
+      "coverage": "source paths reviewed",
+      "new_regression_suite": false
+    }
+  ],
+  "limitations": [
+    "Source review and engine doubles are not complete gameplay coverage or multiplayer desync proof.",
+    "No Warcraft or World Editor UI launched.",
+    "Native renderer, object-field semantics and multiplayer timing require the parent integration/live-testing workflow."
+  ],
+  "scenario_groups": 18
+}

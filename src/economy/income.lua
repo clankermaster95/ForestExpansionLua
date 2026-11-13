@@ -40,11 +40,12 @@ function Trig_Worgens_gold_Func004C()
 end
 
 function Trig_Worgens_gold_Actions()
-    AdjustPlayerStateBJ(1, GetOwningPlayer(GetEventDamageSource()), PLAYER_STATE_RESOURCE_GOLD)
-    AddSpecialEffectLocBJ(GetUnitLoc(gg_unit_h00Q_0026), "UI\\Feedback\\GoldCredit\\GoldCredit.mdl")
-    DestroyEffectBJ(GetLastCreatedEffectBJ())
-    if (Trig_Worgens_gold_Func004C()) then
-        AdjustPlayerStateBJ(1, GetOwningPlayer(GetEventDamageSource()), PLAYER_STATE_RESOURCE_GOLD)
+    local source = udg_DamageEventSource
+    local player = GetOwningPlayer(source)
+    AdjustPlayerStateBJ(1, player, PLAYER_STATE_RESOURCE_GOLD)
+    DestroyEffect(AddSpecialEffect("UI\\Feedback\\GoldCredit\\GoldCredit.mdl", GetUnitX(gg_unit_h00Q_0026), GetUnitY(gg_unit_h00Q_0026)))
+    if GetUnitTypeId(source) == FourCC("h00R") then
+        AdjustPlayerStateBJ(1, player, PLAYER_STATE_RESOURCE_GOLD)
     end
 end
 

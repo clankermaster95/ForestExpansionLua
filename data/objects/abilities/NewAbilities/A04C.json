@@ -786,7 +786,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 1,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -795,7 +795,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 2,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -804,7 +804,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 3,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -813,7 +813,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 4,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -822,7 +822,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 5,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -831,7 +831,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 6,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -840,7 +840,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 7,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -849,7 +849,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 8,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -858,7 +858,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 9,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -867,7 +867,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 10,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -876,7 +876,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 11,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -885,7 +885,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 12,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -894,7 +894,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 13,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -903,7 +903,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 14,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -912,7 +912,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 15,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -921,7 +921,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 16,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -930,7 +930,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 17,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -939,7 +939,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 18,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -948,7 +948,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 19,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -957,7 +957,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 20,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -966,7 +966,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 21,
-      "Pointer": 0
+      "Pointer": 1
     }
   ],
   "_rawcode": "A04C",

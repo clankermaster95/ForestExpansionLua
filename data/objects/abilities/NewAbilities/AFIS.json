@@ -36,7 +36,7 @@
       "Id": 828727631,
       "Type": "Unreal",
       "Level": 1,
-      "Pointer": 0,
+      "Pointer": 1,
       "Value": -0.2,
       "SanityCheck": 0,
       "_field": "Oae1"
@@ -102,7 +102,7 @@
       "SanityCheck": 0,
       "_field": "Oae2",
       "Level": 1,
-      "Pointer": 0
+      "Pointer": 2
     },
     {
       "Id": 1920296033,

@@ -9,11 +9,14 @@ end
 function Trig_Deepwater_1_Func001A()
     UnitRemoveAbilityBJ(FourCC("A0A4"), GetEnumUnit())
     UnitAddAbilityBJ(FourCC("A0BB"), GetEnumUnit())
-    udg_DeepWater1[GetConvertedPlayerId(GetOwningPlayer(GetResearchingUnit()))] = true
 end
 
 function Trig_Deepwater_1_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("e00R")), Trig_Deepwater_1_Func001A)
+    local player = GetOwningPlayer(GetResearchingUnit())
+    udg_DeepWater1[GetConvertedPlayerId(player)] = true
+    local units = GetUnitsOfPlayerAndTypeId(player, FourCC("e00R"))
+    ForGroupBJ(units, Trig_Deepwater_1_Func001A)
+    DestroyGroup(units)
 end
 
 function InitTrig_Deepwater_1()

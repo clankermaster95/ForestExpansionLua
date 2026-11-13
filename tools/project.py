@@ -182,6 +182,9 @@ def build():
     text_validation=validate_strings(source/'war3map.wts')
     from release_info import validate as validate_release
     validate_release(source,cfg)
+    if cfg.get('native_object_validation'):
+        from object_metadata import validate as validate_native_objects
+        validate_native_objects(ROOT)
     if cfg.get('tooltip_validation'):
         from tooltip_audit import Catalog as TooltipCatalog
         tooltip_issues, _ = TooltipCatalog().issues()

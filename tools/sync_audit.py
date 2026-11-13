@@ -17,6 +17,12 @@ LOCAL_REVIEW={
     'FeedRate_SaveForPlayer':'Local file output only, escaped JASS payload. No local gameplay mutation.',
     'FeedRate_TryLoadForPlayer':'Local Preloader sends sync payloads; only synchronized receivers apply feed settings.',
 }
+UNORDERED_REVIEW={
+    ('src/economy/base_flags.lua','FE_BaseFlags.refreshOwners'):
+        'Read-only unit queries form a boolean owner set and prune stale references; '
+        'no native mutation or random draw occurs in this traversal. Owner flags '
+        'are then written in FE_Roles player order. Reversed traversal is tested.',
+}
 def review_native_lifetimes(source, path):
     code=code_only(source)
     assert not re.search(r'\b(?:StartTimerBJ|CreateTimerBJ|GetLastCreatedTimerBJ)\s*\(',code), \
@@ -57,7 +63,7 @@ def review_functions(source, path):
     return found,waits
 
 def inspect(cfg):
-    found={}; waits=[]; indexing=[]
+    found={}; waits=[]; indexing=[]; unordered=[]
     sources=cfg['header']+cfg['triggers']+[cfg['bootstrap']]
     for path in sources:
         source=(ROOT/path).read_text(encoding='utf-8')
@@ -65,7 +71,12 @@ def inspect(cfg):
         review_native_lifetimes(source,path)
         # Disallow new unsynchronized random/time/I/O paths in gameplay.
         assert not re.search(r'\b(?:math\.random(?:seed)?|os\.\w+|io\.\w+)\s*\(',code),path
-        assert not re.search(r'(?<!i)\bpairs\s*\(',code),'unordered traversal requires review: '+path
+        for match in re.finditer(r'(?<!i)\bpairs\s*\(',code):
+            owners=[entry for entry in functions(source) if entry['start']<=match.start()<entry['end']]
+            reviewed=next((entry for entry in owners if (path,entry['name']) in UNORDERED_REVIEW),None)
+            assert reviewed is not None,'unordered traversal requires review: '+path
+            unordered.append({'module':path,'function':reviewed['name'],
+                              'review':UNORDERED_REVIEW[(path,reviewed['name'])]})
         if 'SetUnitUserData(' in code:indexing.append(path)
         reviewed,delayed=review_functions(source,path)
         found.update(reviewed);waits.extend(delayed)
@@ -76,6 +87,7 @@ def inspect(cfg):
         if path!='src/libraries/damage_engine.lua':
             assert 'bj_FORCE_PLAYER[0]' not in (ROOT/path).read_text(),path
     return {'active_modules_scanned':len(sources),'local_player_functions':found,
+            'unordered_traversals':unordered,
             'wait_functions_checked':len(waits),'unit_index_single_writer':True,
             'native_lifetime_guards':'No direct chunk-scope allocations or GUI timer-global helpers; perpetual timer reachability tested separately.',
             'limit':'Static review guards, not proof of multiplayer synchronization. Native shop UI, preload and gameplay still require live testing.'}

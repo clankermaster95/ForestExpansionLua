@@ -246,7 +246,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 1,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -255,7 +255,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 2,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -264,7 +264,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 3,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -273,7 +273,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 4,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -282,7 +282,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 5,
-      "Pointer": 0
+      "Pointer": 1
     },
     {
       "Id": 1953784137,
@@ -291,7 +291,7 @@
       "SanityCheck": 0,
       "_field": "Iatt",
       "Level": 6,
-      "Pointer": 0
+      "Pointer": 1
     }
   ],
   "_rawcode": "A0CO",

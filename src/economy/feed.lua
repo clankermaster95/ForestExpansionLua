@@ -578,6 +578,34 @@ end
 -- END FOREST SECTION 23
 
 -- BEGIN FOREST SECTION 24 FeedReduction
+-- Strong ownership lasts only through the current damage/death turn. A later
+-- lethal event (including a revived unit) must read unscaled native values.
+local bountyPending, bountyTimers = {}, {}
+
+local function FR_BountyFields()
+    return { UNIT_IF_GOLD_BOUNTY_AWARDED_BASE, UNIT_IF_GOLD_BOUNTY_AWARDED_NUMBER_OF_DICE,
+        UNIT_IF_GOLD_BOUNTY_AWARDED_SIDES_PER_DIE }
+end
+
+function FR_RestoreGoldBounty()
+    local timer = GetExpiredTimer()
+    local state = bountyTimers[timer]
+    if state then
+        local target = state.target
+        -- Do not overwrite a morph/upgrade or another system's intervening edits.
+        if GetUnitTypeId(target) == state.type then
+            for index, field in ipairs(FR_BountyFields()) do
+                if BlzGetUnitIntegerField(target, field) == state.applied[index] then
+                    BlzSetUnitIntegerField(target, field, state.original[index])
+                end
+            end
+        end
+        bountyPending[target] = nil
+        bountyTimers[timer] = nil
+    end
+    FE_Timers.destroy(timer)
+end
+
 function FR_ScaledInt(value, percent)
     if ((value <= 0) or (percent <= __jreal(0.00))) then
         return 0
@@ -586,19 +614,31 @@ function FR_ScaledInt(value, percent)
 end
 
 function FR_ApplyGoldBountyRate(target, percent)
-    local base = BlzGetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_BASE)
-    local dice = BlzGetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_NUMBER_OF_DICE)
-    local sides = BlzGetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_SIDES_PER_DIE)
-    local newBase = FR_ScaledInt(base, percent)
-    local newSides = FR_ScaledInt(sides, percent)
-    if (percent <= __jreal(0.00)) then
-        BlzSetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_BASE, 0)
-        BlzSetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_NUMBER_OF_DICE, 0)
-        BlzSetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_SIDES_PER_DIE, 0)
-    else
-        BlzSetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_BASE, newBase)
-        BlzSetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_NUMBER_OF_DICE, dice)
-        BlzSetUnitIntegerField(target, UNIT_IF_GOLD_BOUNTY_AWARDED_SIDES_PER_DIE, newSides)
+    if target == nil or GetUnitTypeId(target) == 0 then return end
+    local state = bountyPending[target]
+    local fresh = state == nil
+    if fresh then
+        state = { target=target, original={}, applied={}, timer=FE_Timers.create() }
+        bountyPending[target], bountyTimers[state.timer] = state, state
+    end
+    local unitType = GetUnitTypeId(target)
+    for index, field in ipairs(FR_BountyFields()) do
+        local current = BlzGetUnitIntegerField(target, field)
+        if state.type ~= unitType or current ~= state.applied[index] then
+            state.original[index] = current
+        end
+        local value = 0
+        if percent > __jreal(0.00) then
+            value = index == 2 and state.original[index] or FR_ScaledInt(state.original[index], percent)
+        end
+        state.applied[index] = value
+        BlzSetUnitIntegerField(target, field, value)
+    end
+    state.type = unitType
+    if fresh then
+        -- Native bounty uses the scaled fields in this death turn; restore on
+        -- the next timer turn even if another lethal callback prevented death.
+        TimerStart(state.timer, 0, false, FR_RestoreGoldBounty)
     end
 end
 

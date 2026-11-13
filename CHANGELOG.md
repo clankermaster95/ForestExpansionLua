@@ -1,6 +1,6 @@
 # Forest Expansion 3.2.0 — Lua edition
 
-Cumulative **3.1.2a → 3.2.0** patch notes, through r12.
+Cumulative **3.1.2a → 3.2.0** patch notes, through r13.
 
 ## General
 
@@ -8,6 +8,7 @@ Cumulative **3.1.2a → 3.2.0** patch notes, through r12.
 - Moved Ancient to slot 11 (Dark Green); removed fixed-color ownership checks.
 - Selectors show choices immediately; picking unlocks at 20 seconds for Expanders, 60 for Ancient.
 - Bans apply to selectors and random picks, including after unlock/skip. Added Random to the first race selector.
+- Fixed Worgen becoming unavailable after skipping and Random disappearing after a purchase. Skipping unlocks all eligible choices immediately.
 - All leavers' armies remain for 60 seconds. Dead/unpicked Expanders can use `-takeover [slot]` to inherit units, resources and research without losing their surviving units.
 - Added `-bringiton`: Red can double Ancient passive income to 20 gold/10 seconds, once per match.
 
@@ -46,18 +47,24 @@ Cumulative **3.1.2a → 3.2.0** patch notes, through r12.
 ## Other gameplay fixes
 
 - Bleed and Poisoned Bullets no longer conflict with orb effects. Poison stacks up to six times per target; both damage-over-time effects remain nonlethal and undispellable.
+- Removed the unintended +1 attack from Worgen's Bleed and Ratling's Poisoned Bullets.
+- Fixed duplicate base-flag refunds, refunds using another player's lumber, and rejected flags leaving corpses/effects behind. Flag income follows surviving completed flags through ownership changes.
+- Fixed Worgen gaining gold from harvest orders without harvesting; world-tree hits still award two gold.
 - Upgraded Aethyr walls now feed 20 gold.
-- Wildkin retains researched ability levels after Wisp revival.
+- Wildkin, Worgen and Bloodmage retain researched ability levels after Wisp revival. Executioner and Bloodmage upgrades now work in every Expander slot and after takeover.
 - Fixed Shadow Dancer mana theft and restoration creating mana or failing to remove it.
+- Fixed Ratling corrosion expiry and invisibility on replacement units, Deepwater on wells built after research, and dead Nerubian spires blocking nearby upgrades. Spire aura counts update when defeat or leaver cleanup removes units.
+- Fixed Mech Blaster's melee scaling and mage mana restoration selecting the wrong attacker.
 - Fixed Focused Anger corrupting unit tracking and misassigning stacks.
 - Fixed delayed spell data for Conjure Mana, Ancient Grasp, Chill, Sadism, Vanguard, Worgen's strike and Shadowlings.
 - Fixed Lightning Strike, Sandstorm and Freeze Zone interfering with other countdowns.
 - Fixed Cosmic Strike using the wrong mana source and Realm of Darkness targeting the wrong units.
 - Fixed living-player counts, rebirth ownership/type, environmental-death lackeys and stale respawns after revival/takeover.
 - Fixed late-pick targets, unrelated purchases removing selectors and Fire ignoring the ban window.
-- Fixed saved feed settings arriving late or out of order and overwriting manual choices.
+- Fixed saved feed settings arriving late or out of order and overwriting manual choices. Bounties no longer compound after prevented deaths or revival.
 - Corrected Nature's Grasp formatting, Spirit Tree's 5-armor description and missing Moon Well statistics.
 - Fixed blank map names/descriptions and the first picking timer's label and early disappearance.
+- Corrected Ancient hint and gold-ping recipients. Fixed Hard AI targeting loops and missed periodic attacks.
 - Corrected unit/building stats, spell cooldowns, research-time labels, learn-menu descriptions, summon references, item effects, spelling, colors and duplicate hotkeys across tooltips; unit stat blocks now identify values before upgrades. Updated Sadism, Vanguard, Nuke, Bleed and Poisoned Bullets descriptions to match their current effects.
 
 ## Solo testing
@@ -69,7 +76,8 @@ Cumulative **3.1.2a → 3.2.0** patch notes, through r12.
 ## Code and stability
 
 - Consolidated 375 scripts into 60 named gameplay modules with shared data/handlers; removed redundant helpers.
-- Corrected native initialization, timer ownership, GUI timer conflicts, shared player-group corruption and temporary-resource leaks in Drain, Genesis, fountains and gold pings. Corrected a zero damage interval in the unused Arcane Strike definition.
+- Corrected native initialization, timer ownership, GUI timer conflicts, shared player-group corruption and temporary-resource leaks in spells, research, picking, flags, income effects and AI targeting. Corrected a zero damage interval in the unused Arcane Strike definition.
+- Corrected ability data fields so Warcraft reads the intended values for Bleed, Poisoned Bullets, Cultist abilities, Ice's slow, Vanguard and Lightning Strike.
 - Added editor-save, gameplay/data and map-package checks. Build/LLM instructions: [LLM_GUIDE.md](https://github.com/clankermaster95/ForestExpansionLua/blob/main/LLM_GUIDE.md). Configured builds install the latest map and prune older managed copies.
 
-**Testing:** Offline checks pass. Reported desyncs remain unreproduced; multiplayer testing is still needed.
+**Testing:** Offline checks and World Editor load/save/reopen validation pass. Reported desyncs remain unreproduced; multiplayer gameplay testing is still needed.

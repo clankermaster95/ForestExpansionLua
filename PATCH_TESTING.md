@@ -1,6 +1,10 @@
 # Gameplay patch testing
 
-The maintainer runs Warcraft and World Editor. The agent must not launch either.
+The maintainer runs Warcraft gameplay tests. The agent must not launch the game or Test Map. The user explicitly authorized World Editor validation on a separate copy for this revision.
+
+## World Editor validation — passed
+
+World Editor **3.0.1.24371** loaded, saved and reopened the integrated r13 map successfully. [Recorded evidence](reports/editor-validation-r13.json) confirms 103 unchanged modules, 1,649 unchanged named function bodies, the 520-payload inventory and 3,178 preserved object identities. Terrain, placements, imports and map metadata are byte-identical; [object normalization](reports/editor-object-roundtrip-r13.json) was reviewed separately. The full offline suite passes in both Lua numeric modes. No Warcraft game or Test Map was launched. This verifies the editor round trip, not combat, native rendering or multiplayer synchronization.
 
 ## Quick solo setup
 
@@ -11,6 +15,7 @@ Select your owned unit before using a test command. Full codes remain in
 | Check | Setup and expected result |
 |---|---|
 | Picking | Without skipping, eligible choices are visible but have no purchasable stock. Cultist appears only in solo test mode; in multiplayer it stays absent, including after other players leave. An unavailable Cultist ban must not spend a ban. Try clicking races at 1, 10 and 19 seconds: no race spawns and no gold is spent. The countdown stays until 20 seconds, when Expanders unlock; Ancients stay locked until 60. Red can ban Cultist or another choice on each selector; only that choice disappears and stays gone after unlock or solo skip. Unbanned choices must still work. Random is on the first selector and must never select a banned faction; check the Ancient random option too. |
+| Skip and Random | In separate solo matches as Red and Ancient, use both `-skip` and `-test skip` before 20 seconds. Worgen and every unbanned choice must be available immediately, including Random. Repeat skip after a purchase: it must not reset stock. In multiplayer, have two Expanders buy Random consecutively; both receive a race. Random stays locked before its normal phase and never selects a banned faction. |
 | Lobby | Ancient is slot 11 / Dark Green; its shops and starting selector belong to that slot. Slot 7 is an Expander. |
 | Cultist | In a match started with one human, pick Cultist, or use `-spawn h063`. Use `-spawn h06D` for the Altar. Research the three abilities and five Profane Reach levels. Open **Blood Rites** for the abilities. Base range is 200; fully researched range is 575, with +375 damage. |
 | Cultist projectile | Before upgrades, the attack panel should show 100 damage. Attack from maximum range: a green projectile should travel from the Cultist to its target, then show its impact. Repeat with Chaotic Burst on and off, and after range upgrades. |
@@ -20,11 +25,19 @@ Select your owned unit before using a test command. Full codes remain in
 | Chaotic Burst | Right-click autocast. Each successful hit converts normal attack damage to pure damage and costs 4% of current HP. A single manual cast empowers one hit; autocast off restores ordinary damage. |
 | Amalgamation | Use two Altars and try queueing two `H064` units. Only one should be allowed. |
 | Bleed / poison | Research Bleed on Worgen and Poisoned Bullets on Ratling. Confirm they work alongside another orb/item attack effect. Poison grows to six stacks, refreshes on a landed hit, and resets after expiry. Dispel must not stop either debuff; damage over time alone leaves at least 2 HP. |
+| Unintended attack bonus | Check Worgen and Ratling before and after learning Bleed/Poisoned Bullets: neither passive should add an unexplained +1 attack. Repeat without items or attack research. |
 | Wildkin | Research Lunar Power, die, then revive through Wisp's Seed of Rebirth. Check all researched ability levels. |
 | Ice | Use `-spawn O008`, select it and use `-level 20`. Sadism retains its 40% initial HP cost, heals 400 each second for 25 seconds, slows enemies within 2000 by 20% movement only, and blocks enemy healing. Check regeneration, a healing item and a triggered heal; allies must still heal. |
 | Light | Use `-spawn O01V`. Cast Vanguard, dispel it, and check armor still lasts six seconds. During Nuke, normal attacks must damage targets in addition to the spin damage. |
 | Lightning | Use `-spawn O016`, learn Lightning Strike through all seven levels and take repeated attacks. Check retaliation and normal casts. The reported native crash has not been reproduced by the offline tests. |
 | Income | Red types `-bringiton`. Ancient passive income becomes 20 gold every 10 seconds. Repeating the command must not multiply it again. |
+| Worgen income | Repeated harvest orders without a completed world-tree hit give no gold. A qualifying Worgen hit still gives two gold; another eligible worker gets one. |
+| Flag refunds | Give Red and a different Expander different lumber totals. Try a flag outside a base, a second flag for the same owner and a flag in an occupied base. Each paid rejected construction refunds exactly its own 2000 lumber, once. Repeat after completing a valid flag; neither player gains extra lumber. Rejected flags leave no corpse or persistent effect, including when panning back to the area. |
+| Flag income | Complete a flag, transfer its owner through takeover, then destroy it. Income follows the current owner and stops when their last completed flag is gone. With multiple inherited flags, losing one must not stop income while another survives. An unfinished flag grants no income. |
+| Retained research | Research Ratling invisibility and Night Elf Deepwater before creating the affected units/wells. Replacements receive the abilities. Research Worgen/Bloodmage abilities, revive via Wisp and compare levels. Repeat Executioner/Bloodmage research from the former Ancient slot and after takeover. |
+| Combat cleanup | Ratling corrosion remains while its buff exists and clears on expiry. Destroy a Nerubian spire: its corpse must not block nearby upgrades. Repeat with spires removed by defeat or an unclaimed leaver; surviving aura levels must update. Compare melee and ranged Mech Blaster holders; test a researched mage attacking an enemy versus being attacked. |
+| Feed bounty | Compare actual gold from a normal kill, a prevented lethal hit followed by a kill, and a revived target killed again. Change the feed rate between deaths: each payout must use the original bounty and current rate, without compounding. Native payout before the zero-delay restoration still needs gameplay confirmation. |
+| AI and role UI | Hard AI continues periodic attacks and handles no valid target without hanging. Ancient hints follow the current Ancient after takeover. Each player receives one set of gold pings per timer event. |
 
 ## Multiplayer takeover
 

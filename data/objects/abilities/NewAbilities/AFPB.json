@@ -63,7 +63,7 @@
       "Id": 828727631,
       "Type": "Unreal",
       "Level": 1,
-      "Pointer": 0,
+      "Pointer": 1,
       "Value": -0.04,
       "SanityCheck": 0,
       "_field": "Oae1"
@@ -72,7 +72,7 @@
       "Id": 845504847,
       "Type": "Unreal",
       "Level": 1,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.0,
       "SanityCheck": 0,
       "_field": "Oae2"
@@ -126,7 +126,7 @@
       "Id": 828727631,
       "Type": "Unreal",
       "Level": 2,
-      "Pointer": 0,
+      "Pointer": 1,
       "Value": -0.08,
       "SanityCheck": 0,
       "_field": "Oae1"
@@ -135,7 +135,7 @@
       "Id": 845504847,
       "Type": "Unreal",
       "Level": 2,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.0,
       "SanityCheck": 0,
       "_field": "Oae2"
@@ -189,7 +189,7 @@
       "Id": 828727631,
       "Type": "Unreal",
       "Level": 3,
-      "Pointer": 0,
+      "Pointer": 1,
       "Value": -0.12,
       "SanityCheck": 0,
       "_field": "Oae1"
@@ -198,7 +198,7 @@
       "Id": 845504847,
       "Type": "Unreal",
       "Level": 3,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.0,
       "SanityCheck": 0,
       "_field": "Oae2"
@@ -252,7 +252,7 @@
       "Id": 828727631,
       "Type": "Unreal",
       "Level": 4,
-      "Pointer": 0,
+      "Pointer": 1,
       "Value": -0.16,
       "SanityCheck": 0,
       "_field": "Oae1"
@@ -261,7 +261,7 @@
       "Id": 845504847,
       "Type": "Unreal",
       "Level": 4,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.0,
       "SanityCheck": 0,
       "_field": "Oae2"
@@ -315,7 +315,7 @@
       "Id": 828727631,
       "Type": "Unreal",
       "Level": 5,
-      "Pointer": 0,
+      "Pointer": 1,
       "Value": -0.2,
       "SanityCheck": 0,
       "_field": "Oae1"
@@ -324,7 +324,7 @@
       "Id": 845504847,
       "Type": "Unreal",
       "Level": 5,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.0,
       "SanityCheck": 0,
       "_field": "Oae2"
@@ -378,7 +378,7 @@
       "Id": 828727631,
       "Type": "Unreal",
       "Level": 6,
-      "Pointer": 0,
+      "Pointer": 1,
       "Value": -0.24,
       "SanityCheck": 0,
       "_field": "Oae1"
@@ -387,7 +387,7 @@
       "Id": 845504847,
       "Type": "Unreal",
       "Level": 6,
-      "Pointer": 0,
+      "Pointer": 2,
       "Value": 0.0,
       "SanityCheck": 0,
       "_field": "Oae2"

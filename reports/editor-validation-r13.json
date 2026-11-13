@@ -1,0 +1,5525 @@
+{
+  "revision": "r13",
+  "editor_version": "3.0.1.24371",
+  "built_map_sha256": "58e1cde8c2b9654c90fb029d237c77172aef6d85db5c1c0d8261d07508db55dd",
+  "saved_map_sha256": "6329b24b2ea96d96b3f34acc13b2f8b05b3ebfc77e0df15b3b630ffe2c195c8b",
+  "native_save_observed_by_operator": true,
+  "native_reopen_observed_by_operator": true,
+  "modules_unchanged": 103,
+  "named_functions_unchanged": 1649,
+  "lua_syntax": "passed in both numeric builds",
+  "script_language": "Lua",
+  "map_name": "|cff08BD5AForest Expansion|r 3.2.0 Lua r13",
+  "map_description_present": true,
+  "archive_payloads": 520,
+  "objects_preserved": 3178,
+  "changed_payloads": [
+    "war3map.lua",
+    "war3map.w3a",
+    "war3map.w3h",
+    "war3map.w3q",
+    "war3map.w3t",
+    "war3map.w3u",
+    "war3map.wts",
+    "war3mapSkin.w3a",
+    "war3mapSkin.w3h",
+    "war3mapSkin.w3q",
+    "war3mapSkin.w3t",
+    "war3mapSkin.w3u"
+  ],
+  "terrain_placements_imports_metadata_unchanged": true,
+  "object_record_deltas": [
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A03S"
+      ],
+      "field": [
+        "Hfs2",
+        1,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A03S"
+      ],
+      "field": [
+        "Hfs2",
+        2,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A03S"
+      ],
+      "field": [
+        "Hfs2",
+        3,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A03S"
+      ],
+      "field": [
+        "Hfs2",
+        4,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A03S"
+      ],
+      "field": [
+        "Hfs2",
+        5,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A03S"
+      ],
+      "field": [
+        "Hfs2",
+        6,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A03S"
+      ],
+      "field": [
+        "Hfs2",
+        7,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A03S"
+      ],
+      "field": [
+        "aare",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00004843",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        2,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        3,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        4,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        5,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        6,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        7,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        8,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        9,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        10,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        11,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        12,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        13,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        14,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        15,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        16,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        17,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        18,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        19,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        20,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A04C"
+      ],
+      "field": [
+        "Iatt",
+        21,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A0AW"
+      ],
+      "field": [
+        "Hfs4",
+        1,
+        4
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "0000803f",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A0CO"
+      ],
+      "field": [
+        "Iatt",
+        2,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A0CO"
+      ],
+      "field": [
+        "Iatt",
+        3,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A0CO"
+      ],
+      "field": [
+        "Iatt",
+        4,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A0CO"
+      ],
+      "field": [
+        "Iatt",
+        5,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "A0CO"
+      ],
+      "field": [
+        "Iatt",
+        6,
+        1
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFLT"
+      ],
+      "field": [
+        "Hfs2",
+        1,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFLT"
+      ],
+      "field": [
+        "Hfs2",
+        2,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFLT"
+      ],
+      "field": [
+        "Hfs2",
+        3,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFLT"
+      ],
+      "field": [
+        "Hfs2",
+        4,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFLT"
+      ],
+      "field": [
+        "Hfs2",
+        5,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFLT"
+      ],
+      "field": [
+        "Hfs2",
+        6,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFLT"
+      ],
+      "field": [
+        "Hfs2",
+        7,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "c3f5a83e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFLT"
+      ],
+      "field": [
+        "aare",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00004843",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFLT"
+      ],
+      "field": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFLT"
+      ],
+      "field": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        2,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        3,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        4,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        5,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        6,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        7,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        8,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        9,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        10,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        11,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        12,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        13,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        14,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        15,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        16,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        17,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        18,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        19,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        20,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "adur",
+        21,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        2,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        3,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        4,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        5,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        6,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        7,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        8,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        9,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        10,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        11,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        12,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        13,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        14,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        15,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        16,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        17,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        18,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        19,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        20,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "ahdu",
+        21,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFBL"
+      ],
+      "field": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "adur",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "adur",
+        2,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "adur",
+        3,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "adur",
+        4,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "adur",
+        5,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "adur",
+        6,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "ahdu",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "ahdu",
+        2,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "ahdu",
+        3,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "ahdu",
+        4,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "ahdu",
+        5,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "ahdu",
+        6,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFPB"
+      ],
+      "field": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCA"
+      ],
+      "field": [
+        "aher",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCA"
+      ],
+      "field": [
+        "alev",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 1,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCA"
+      ],
+      "field": [
+        "arac",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "other",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCA"
+      ],
+      "field": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCS"
+      ],
+      "field": [
+        "acdn",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCS"
+      ],
+      "field": [
+        "adur",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "0000803f",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCS"
+      ],
+      "field": [
+        "ahdu",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "0000803f",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCS"
+      ],
+      "field": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCS"
+      ],
+      "field": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCB"
+      ],
+      "field": [
+        "abuf",
+        1,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCB"
+      ],
+      "field": [
+        "acdn",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCB"
+      ],
+      "field": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCB"
+      ],
+      "field": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "Oae1",
+        6,
+        1
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "9a99993e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "Oae2",
+        1,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "cdcc4c3d",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "Oae2",
+        3,
+        2
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "9a99193e",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "adur",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "adur",
+        2,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "adur",
+        3,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "adur",
+        4,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "adur",
+        5,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "adur",
+        6,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "adur",
+        7,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "adur",
+        8,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "adur",
+        9,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "ahdu",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "ahdu",
+        2,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "ahdu",
+        3,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "ahdu",
+        4,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "ahdu",
+        5,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "ahdu",
+        6,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "ahdu",
+        7,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "ahdu",
+        8,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "ahdu",
+        9,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFAS"
+      ],
+      "field": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFIS"
+      ],
+      "field": [
+        "adur",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFIS"
+      ],
+      "field": [
+        "ahdu",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFIS"
+      ],
+      "field": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFIS"
+      ],
+      "field": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFIS"
+      ],
+      "field": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFVA"
+      ],
+      "field": [
+        "aher",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFVA"
+      ],
+      "field": [
+        "arac",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "other",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFVA"
+      ],
+      "field": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFVA"
+      ],
+      "field": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCT"
+      ],
+      "field": [
+        "acdn",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCT"
+      ],
+      "field": [
+        "aher",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCT"
+      ],
+      "field": [
+        "alev",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 1,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCT"
+      ],
+      "field": [
+        "amcs",
+        1,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCT"
+      ],
+      "field": [
+        "arac",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "other",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCT"
+      ],
+      "field": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCT"
+      ],
+      "field": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3h",
+      "object": [
+        "NewBuffs",
+        "BFAS"
+      ],
+      "field": [
+        "fnam",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "Sacrificial Aura bonus",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3h",
+      "object": [
+        "NewBuffs",
+        "BFAS"
+      ],
+      "field": [
+        "ftip",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "Sacrificial Aura bonus",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3h",
+      "object": [
+        "NewBuffs",
+        "BFAS"
+      ],
+      "field": [
+        "fube",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "Attack and movement speed increased.",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3h",
+      "object": [
+        "NewBuffs",
+        "BFIS"
+      ],
+      "field": [
+        "fnam",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "Frozen by Sadism",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3h",
+      "object": [
+        "NewBuffs",
+        "BFIS"
+      ],
+      "field": [
+        "ftip",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "Frozen by Sadism",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3h",
+      "object": [
+        "NewBuffs",
+        "BFIS"
+      ],
+      "field": [
+        "fube",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "Movement speed reduced by 20%. Healing prevented.",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3h",
+      "object": [
+        "NewBuffs",
+        "BFSC"
+      ],
+      "field": [
+        "fnam",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "Bloody Sacrifice",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3h",
+      "object": [
+        "NewBuffs",
+        "BFSC"
+      ],
+      "field": [
+        "ftip",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "Bloody Sacrifice",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3h",
+      "object": [
+        "NewBuffs",
+        "BFSC"
+      ],
+      "field": [
+        "fube",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "Healing nearby allies at the cost of your own health.",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFPK"
+      ],
+      "field": [
+        "gef2",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFPK"
+      ],
+      "field": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFPK"
+      ],
+      "field": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCA"
+      ],
+      "field": [
+        "gef2",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCA"
+      ],
+      "field": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCA"
+      ],
+      "field": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCA"
+      ],
+      "field": [
+        "grac",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "human",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCA"
+      ],
+      "field": [
+        "greq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCA"
+      ],
+      "field": [
+        "greq",
+        1,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCA"
+      ],
+      "field": [
+        "grqc",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCA"
+      ],
+      "field": [
+        "grqc",
+        1,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCS"
+      ],
+      "field": [
+        "gef2",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCS"
+      ],
+      "field": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCS"
+      ],
+      "field": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCS"
+      ],
+      "field": [
+        "grac",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "human",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCS"
+      ],
+      "field": [
+        "greq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCS"
+      ],
+      "field": [
+        "greq",
+        1,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCS"
+      ],
+      "field": [
+        "grqc",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCS"
+      ],
+      "field": [
+        "grqc",
+        1,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCB"
+      ],
+      "field": [
+        "gef2",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCB"
+      ],
+      "field": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCB"
+      ],
+      "field": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCB"
+      ],
+      "field": [
+        "grac",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "human",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCB"
+      ],
+      "field": [
+        "greq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCB"
+      ],
+      "field": [
+        "greq",
+        1,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCB"
+      ],
+      "field": [
+        "grqc",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCB"
+      ],
+      "field": [
+        "grqc",
+        1,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "grac",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "human",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "greq",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "greq",
+        1,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "greq",
+        4,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "greq",
+        5,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "grqc",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "grqc",
+        1,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "grqc",
+        2,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "grqc",
+        3,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "grqc",
+        4,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFAT"
+      ],
+      "field": [
+        "grqc",
+        5,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFPA"
+      ],
+      "field": [
+        "gef2",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFPA"
+      ],
+      "field": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFPA"
+      ],
+      "field": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I00F"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I00I"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I00W"
+      ],
+      "field": [
+        "isst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I00X"
+      ],
+      "field": [
+        "isst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I012"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I015"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I017"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I01C"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I019"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I01L"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I01N"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I01P"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I01R"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3t",
+      "object": [
+        "NewItems",
+        "I01T"
+      ],
+      "field": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "BaseUnits",
+        "nmer"
+      ],
+      "field": [
+        "usei",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 1919249774
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "BaseUnits",
+        "nmr2"
+      ],
+      "field": [
+        "usei",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 846359918
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h000"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "o000"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O004"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "o005"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h00F"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O008"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O00A"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h00R"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O00D"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h016"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O00L"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h01X"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h02B"
+      ],
+      "field": [
+        "usei",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O00S"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h02L"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h02U"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h01K"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h03D"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O016"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h03Q"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "n00G"
+      ],
+      "field": [
+        "usei",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h03S"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h03X"
+      ],
+      "field": [
+        "ubdi",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h03X"
+      ],
+      "field": [
+        "ubsi",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O01D"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "o01E"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "u007"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O01V"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h010"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O01X"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "O01Z"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h05C"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "n00M"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "o026"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h05W"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h063"
+      ],
+      "field": [
+        "ua1d",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 1,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "h063"
+      ],
+      "field": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "hFDM"
+      ],
+      "field": [
+        "ufma",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "hFDM"
+      ],
+      "field": [
+        "umpi",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "hFDM"
+      ],
+      "field": [
+        "umpm",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3map.w3u",
+      "object": [
+        "NewUnits",
+        "hFDM"
+      ],
+      "field": [
+        "usca",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Real",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "A0CO"
+      ],
+      "field": [
+        "abpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "A0CO"
+      ],
+      "field": [
+        "abpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "A0EG"
+      ],
+      "field": [
+        "abpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 1,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "A0EG"
+      ],
+      "field": [
+        "abpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 2,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "A0EH"
+      ],
+      "field": [
+        "abpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 2,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "A0EJ"
+      ],
+      "field": [
+        "abpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCA"
+      ],
+      "field": [
+        "abpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCA"
+      ],
+      "field": [
+        "abpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCA"
+      ],
+      "field": [
+        "ahky",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCS"
+      ],
+      "field": [
+        "abpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 1,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "object": [
+        "NewAbilities",
+        "AFCS"
+      ],
+      "field": [
+        "aubx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 1,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R07N"
+      ],
+      "field": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R07P"
+      ],
+      "field": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R07T"
+      ],
+      "field": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R07U"
+      ],
+      "field": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R07U"
+      ],
+      "field": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R07V"
+      ],
+      "field": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 1,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R07V"
+      ],
+      "field": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R07W"
+      ],
+      "field": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R07Z"
+      ],
+      "field": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R080"
+      ],
+      "field": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R081"
+      ],
+      "field": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R082"
+      ],
+      "field": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R082"
+      ],
+      "field": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "R083"
+      ],
+      "field": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "object": [
+        "NewUpgrades",
+        "RFCA"
+      ],
+      "field": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "h063"
+      ],
+      "field": [
+        "ua1s",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 1,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "h063"
+      ],
+      "field": [
+        "ua1z",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00006144",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "h063"
+      ],
+      "field": [
+        "ulpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00000000",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "h063"
+      ],
+      "field": [
+        "ulpz",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Unreal",
+        "value": "00007042",
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "H064"
+      ],
+      "field": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 2,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "h06B"
+      ],
+      "field": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "h06B"
+      ],
+      "field": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "u00I"
+      ],
+      "field": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "u00I"
+      ],
+      "field": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "u00J"
+      ],
+      "field": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "u00K"
+      ],
+      "field": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "type": "Int",
+        "value": 0,
+        "sanity": 0
+      },
+      "after": null
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "hFDM"
+      ],
+      "field": [
+        "usca",
+        0,
+        0
+      ],
+      "before": null,
+      "after": {
+        "type": "Real",
+        "value": "00000000",
+        "sanity": 0
+      }
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "object": [
+        "NewUnits",
+        "hFDM"
+      ],
+      "field": [
+        "ushb",
+        0,
+        0
+      ],
+      "before": {
+        "type": "String",
+        "value": "",
+        "sanity": 0
+      },
+      "after": null
+    }
+  ],
+  "object_review": "See reports/editor-object-roundtrip-r13.json for reviewed default/serialization normalization; this script does not infer inherited native defaults.",
+  "limits": "Native editor load/save and Lua storage checks only. No game/Test Map launch, multiplayer, native rendering, save/load gameplay or desync proof."
+}

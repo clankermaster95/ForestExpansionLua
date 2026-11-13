@@ -36,7 +36,7 @@
     },
     {
       "Id": 2053990773,
-      "Type": "Int",
+      "Type": "Unreal",
       "Value": 0,
       "SanityCheck": 0,
       "_field": "uimz"
