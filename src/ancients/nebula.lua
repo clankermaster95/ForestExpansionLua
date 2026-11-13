@@ -2,19 +2,40 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 160 RecallStart
+local recallTargets = {}
+local recallRemovalHooked = false
+
+local function ClearRecallTarget()
+    if GetTriggerEventId() == EVENT_PLAYER_UNIT_DEATH or GetSpellAbilityId() == FourCC("A0AL") then
+        recallTargets[GetTriggerUnit()] = nil
+    end
+end
+
 function Trig_RecallStart_Conditions()
     return GetSpellAbilityId() == FourCC("A0AL")
 end
 
 function Trig_RecallStart_Actions()
-    udg_RecallTarget = GetSpellTargetUnit()
+    recallTargets[GetSpellAbilityUnit()] = GetSpellTargetUnit()
 end
 
 function InitTrig_RecallStart()
+    if not recallRemovalHooked then
+        recallRemovalHooked = true
+        local removeUnit = RemoveUnit
+        RemoveUnit = function(unit)
+            if unit ~= nil then recallTargets[unit] = nil end
+            return removeUnit(unit)
+        end
+    end
     gg_trg_RecallStart = CreateTrigger()
     TriggerRegisterAnyUnitEventBJ(gg_trg_RecallStart, EVENT_PLAYER_UNIT_SPELL_CAST)
     TriggerAddCondition(gg_trg_RecallStart, Condition(Trig_RecallStart_Conditions))
     TriggerAddAction(gg_trg_RecallStart, Trig_RecallStart_Actions)
+    local cleanup = CreateTrigger()
+    TriggerRegisterAnyUnitEventBJ(cleanup, EVENT_PLAYER_UNIT_SPELL_ENDCAST)
+    TriggerRegisterAnyUnitEventBJ(cleanup, EVENT_PLAYER_UNIT_DEATH)
+    TriggerAddAction(cleanup, ClearRecallTarget)
 end
 -- END FOREST SECTION 160
 
@@ -24,7 +45,12 @@ function Trig_Recall_Conditions()
 end
 
 function Trig_Recall_Actions()
-    SetUnitPositionLoc(udg_RecallTarget, GetRectCenter(gg_rct_Fountain))
+    local caster = GetSpellAbilityUnit()
+    local target = recallTargets[caster]
+    recallTargets[caster] = nil
+    if target and GetUnitTypeId(target) ~= 0 and GetWidgetLife(target) > 0.405 then
+        SetUnitPosition(target, GetRectCenterX(gg_rct_Fountain), GetRectCenterY(gg_rct_Fountain))
+    end
 end
 
 function InitTrig_Recall()
@@ -47,10 +73,15 @@ function Trig_Time_warp_Func004A()
 end
 
 function Trig_Time_warp_Actions()
-    udg_TimeWarpCaster = GetSpellAbilityUnit()
-    udg_TimeWarp = GetSpellTargetLoc()
-    UnitDamagePointLoc(udg_AncientUnit, __jreal(0), __jreal(500), GetUnitLoc(udg_TimeWarpCaster), __jreal(300.00), ATTACK_TYPE_NORMAL, DAMAGE_TYPE_NORMAL)
-    ForGroupBJ(GetUnitsInRangeOfLocAll(__jreal(512), OffsetLocation(udg_TimeWarp, __jreal(0), __jreal(0))), Trig_Time_warp_Func004A)
+    local caster = GetSpellAbilityUnit()
+    local destination = GetSpellTargetLoc()
+    local origin = GetUnitLoc(caster)
+    UnitDamagePointLoc(caster, __jreal(0), __jreal(500), origin, __jreal(300.00), ATTACK_TYPE_NORMAL, DAMAGE_TYPE_NORMAL)
+    RemoveLocation(origin)
+    local targets = GetUnitsInRangeOfLocAll(__jreal(512), destination)
+    ForGroupBJ(targets, Trig_Time_warp_Func004A)
+    DestroyGroup(targets)
+    RemoveLocation(destination)
 end
 
 function InitTrig_Time_warp()
@@ -67,7 +98,7 @@ function Trig_Galactic_Fury_Conditions()
 end
 
 function Trig_Galactic_Fury_Actions()
-    udg_GalacticFuryCaster = GetSpellAbilityUnit()
+    -- Completion uses its own spell-event caster; simultaneous casts share no state.
 end
 
 function InitTrig_Galactic_Fury()
@@ -84,7 +115,10 @@ function Trig_Galactic_Fury_2_Conditions()
 end
 
 function Trig_Galactic_Fury_2_Actions()
-    SetUnitLifePercentBJ(udg_GalacticFuryCaster, (__jreal(GetUnitLifePercent(udg_GalacticFuryCaster) + __jreal(25.00))))
+    local caster = GetSpellAbilityUnit()
+    if GetUnitTypeId(caster) ~= 0 and GetWidgetLife(caster) > 0.405 then
+        SetUnitLifePercentBJ(caster, (__jreal(GetUnitLifePercent(caster) + __jreal(25.00))))
+    end
 end
 
 function InitTrig_Galactic_Fury_2()

@@ -47,7 +47,9 @@ function Trig_Slash_Leveled_Func001002()
 end
 
 function Trig_Slash_Leveled_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h00R")), Trig_Slash_Leveled_Func001002)
+    local units = GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h00R"))
+    ForGroupBJ(units, Trig_Slash_Leveled_Func001002)
+    DestroyGroup(units)
 end
 
 function InitTrig_Slash_Leveled()
@@ -68,7 +70,9 @@ function Trig_Bleed_Leveled_Func001002()
 end
 
 function Trig_Bleed_Leveled_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h00R")), Trig_Bleed_Leveled_Func001002)
+    local units = GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h00R"))
+    ForGroupBJ(units, Trig_Bleed_Leveled_Func001002)
+    DestroyGroup(units)
 end
 
 function InitTrig_Bleed_Leveled()

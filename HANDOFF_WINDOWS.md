@@ -1,6 +1,10 @@
 # Resume Forest Expansion Lua on Windows
 
-Current revision: **3.2.0 r14**. Read `AGENTS.md`, `LLM_GUIDE.md` and `project.json` before editing. Continue the existing source; do not restart the JASS conversion.
+Current revision: **3.2.0 r15**. Read `AGENTS.md`, `LLM_GUIDE.md` and `project.json` before editing. Continue the existing source; do not restart the JASS conversion.
+
+## Latest proactive review
+
+The r15 pass fixes spell overlap, wrong Nebula targets/heals, Chemical Rage expiry on corpses, Kobold revival research, takeover ability refresh and temporary-resource leaks. See [review](reports/poke-r15.md) and [evidence](reports/poke-r15.json). `tests/poke.lua` adds 34 repeated-use/overlap scenarios; the resource guard runs through the existing synchronization audit. World Editor evidence is recorded separately for r15. No Warcraft game or Test Map is authorized.
 
 ## Permissions and delivery
 
@@ -17,7 +21,7 @@ The code/data review repairs picker stock timing, Random purchases, flag refunds
 
 Native ability fields are checked by `tools/object_metadata.py` against `tools/reference-data/ability-metadata.json`, including data pointers that ordinary JSON/binary round trips cannot validate. Unit/item/buff/upgrade field types are checked separately against `tools/reference-data/object-field-types.json`. The guard covers 10,842 ability and 23,022 other object modifications, with 14 negative cases. The r13 migration also corrects two skin base IDs and two Lightning dummy field types. `reports/native-data-fixes-r13.json` records those corrections. The immutable `tests/fixtures/gameplay-r12.zip` and exact manifest `data/migrations/r13-object-fixes.json` feed `tools/revision_audit.py`; never replace a fixture to absorb new behavior. The earlier r12 tooltip-only claim remains historical evidence.
 
-Read `reports/refactor-validation.json`, `reports/build.json` and `reports/workflow-validation.json` for the actual completed checks and delivered artifact. Offline doubles do not reproduce Warcraft rendering, all native event ordering or multiplayer synchronization. The full offline suite passes in both Lua numeric modes. The recorded editor save/reopen preserves 103 modules, 1,649 named function bodies, the 520-payload inventory and all 3,178 object identities; terrain, placements, imports and map metadata are byte-identical. Editor object normalization is reviewed separately in `reports/editor-object-roundtrip-r13.json`. Multiplayer gameplay validation is still needed; the editor check is not native combat/rendering or desync proof.
+Read `reports/refactor-validation.json`, `reports/build.json` and `reports/workflow-validation.json` for the actual completed checks and delivered artifact. Offline doubles do not reproduce Warcraft rendering, all native event ordering or multiplayer synchronization. The full offline suite passes in both Lua numeric modes. The recorded editor save/reopen preserves 103 modules, 1,652 named function bodies, the 520-payload inventory and all 3,178 object identities; terrain, placements, imports and map metadata are byte-identical. Editor object normalization is reviewed separately in `reports/editor-object-roundtrip-r15.json`. Multiplayer gameplay validation is still needed; the editor check is not native combat/rendering or desync proof.
 
 The November 8 editor save established Ancient slot 11 / Dark Green and native format v39 / game metadata 3.0.1.24371. Do not rerun the slot permutation. `reports/editor-roundtrip-repair.json` records that historical save and the trigger/text association repair. Preserve depth-first WTG/WCT ordering and use `\x25` in Lua strings where a percent character is needed.
 

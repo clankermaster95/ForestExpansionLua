@@ -50,14 +50,22 @@ end
 -- END FOREST SECTION 65
 
 -- BEGIN FOREST SECTION 66 Surge_of_Darkness
+local surgeCasts = {}
+
 function Trig_Surge_of_Darkness_Conditions()
     return GetSpellAbilityId() == FourCC("A060")
 end
 
 function Trig_Surge_of_Darkness_Actions()
-    UnitAddAbilityBJ(FourCC("A079"), GetTriggerUnit())
+    local caster = GetTriggerUnit()
+    local cast = {}
+    surgeCasts[caster] = cast
+    UnitAddAbilityBJ(FourCC("A079"), caster)
     TriggerSleepAction(__jreal(5.00))
-    UnitRemoveAbilityBJ(FourCC("A079"), GetTriggerUnit())
+    if surgeCasts[caster] == cast then
+        surgeCasts[caster] = nil
+        if GetUnitTypeId(caster) ~= 0 then UnitRemoveAbilityBJ(FourCC("A079"), caster) end
+    end
 end
 
 function InitTrig_Surge_of_Darkness()

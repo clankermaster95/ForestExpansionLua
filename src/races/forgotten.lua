@@ -31,7 +31,9 @@ function Trig_Soul_Hammer_Actions()
             else
                 if (Trig_Soul_Hammer_Func002Func002Func001Func001C()) then
                 else
-                    UnitDropItemPointLoc(GetTriggerUnit(), GetManipulatedItem(), GetUnitLoc(GetTriggerUnit()))
+                    local point = GetUnitLoc(GetTriggerUnit())
+                    UnitDropItemPointLoc(GetTriggerUnit(), GetManipulatedItem(), point)
+                    RemoveLocation(point)
                 end
             end
         end

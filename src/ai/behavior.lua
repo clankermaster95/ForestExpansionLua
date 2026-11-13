@@ -183,9 +183,13 @@ function Trig_Select_Actions()
     udg_Ancients[23] = FourCC("O01V")
     udg_Ancients[24] = FourCC("O01V")
     udg_Ancients[25] = FourCC("O01V")
-    ForGroupBJ(GetUnitsInRectAll(gg_rct_SpawnDefender), Trig_Select_Func026002)
+    local selectors = GetUnitsInRectAll(gg_rct_SpawnDefender)
+    ForGroupBJ(selectors, Trig_Select_Func026002)
+    DestroyGroup(selectors)
     AdjustPlayerStateBJ(__jint(-(1000)), FE_Roles.ancient(), PLAYER_STATE_RESOURCE_GOLD)
-    CreateNUnitsAtLoc(1, udg_Ancients[GetRandomInt(1, 8)], FE_Roles.ancient(), GetRectCenter(gg_rct_Spawner), bj_UNIT_FACING)
+    local point = GetRectCenter(gg_rct_Spawner)
+    CreateNUnitsAtLoc(1, udg_Ancients[GetRandomInt(1, 8)], FE_Roles.ancient(), point, bj_UNIT_FACING)
+    RemoveLocation(point)
     udg_AncientUnit = GetLastCreatedUnit()
     EnableTrigger(gg_trg_Slot1_Righteous_Armor)
 end
@@ -200,7 +204,9 @@ end
 
 -- BEGIN FOREST SECTION 212 Attack
 function Trig_Attack_Func017002()
-    IssuePointOrderLocBJ(GetEnumUnit(), "attack", GetRectCenter(udg_Moveto[GetRandomInt(1, 16)]))
+    local point = GetRectCenter(udg_Moveto[GetRandomInt(1, 16)])
+    IssuePointOrderLocBJ(GetEnumUnit(), "attack", point)
+    RemoveLocation(point)
 end
 
 function Trig_Attack_Actions()
@@ -220,7 +226,9 @@ function Trig_Attack_Actions()
     udg_Moveto[14] = gg_rct_AI_Move_7
     udg_Moveto[15] = gg_rct_AI_Move_8
     udg_Moveto[16] = gg_rct_AI_Move_9
-    ForGroupBJ(GetUnitsOfPlayerAll(FE_Roles.ancient()), Trig_Attack_Func017002)
+    local army = GetUnitsOfPlayerAll(FE_Roles.ancient())
+    ForGroupBJ(army, Trig_Attack_Func017002)
+    DestroyGroup(army)
 end
 
 function InitTrig_Attack()

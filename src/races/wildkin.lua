@@ -66,7 +66,9 @@ function Trig_Moonstrike_Leveled_Func001002()
 end
 
 function Trig_Moonstrike_Leveled_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Moonstrike_Leveled_Func001002)
+    local units = GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010"))
+    ForGroupBJ(units, Trig_Moonstrike_Leveled_Func001002)
+    DestroyGroup(units)
 end
 
 function InitTrig_Moonstrike_Leveled()
@@ -193,7 +195,9 @@ function Trig_Moonblast_Leveled_Func001002()
 end
 
 function Trig_Moonblast_Leveled_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Moonblast_Leveled_Func001002)
+    local units = GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010"))
+    ForGroupBJ(units, Trig_Moonblast_Leveled_Func001002)
+    DestroyGroup(units)
 end
 
 function InitTrig_Moonblast_Leveled()
@@ -240,7 +244,9 @@ function Trig_Lunar_Assault_Leveled_Func001002()
 end
 
 function Trig_Lunar_Assault_Leveled_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Lunar_Assault_Leveled_Func001002)
+    local units = GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010"))
+    ForGroupBJ(units, Trig_Lunar_Assault_Leveled_Func001002)
+    DestroyGroup(units)
 end
 
 function InitTrig_Lunar_Assault_Leveled()
@@ -261,7 +267,9 @@ function Trig_Cascade_Leveled_Func001002()
 end
 
 function Trig_Cascade_Leveled_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Cascade_Leveled_Func001002)
+    local units = GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010"))
+    ForGroupBJ(units, Trig_Cascade_Leveled_Func001002)
+    DestroyGroup(units)
 end
 
 function InitTrig_Cascade_Leveled()
@@ -299,7 +307,9 @@ function Trig_Nourish_Leveled_Func001002()
 end
 
 function Trig_Nourish_Leveled_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Nourish_Leveled_Func001002)
+    local units = GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010"))
+    ForGroupBJ(units, Trig_Nourish_Leveled_Func001002)
+    DestroyGroup(units)
 end
 
 function InitTrig_Nourish_Leveled()
@@ -348,7 +358,9 @@ function Trig_Natural_Vigil_Leveled_Func001002()
 end
 
 function Trig_Natural_Vigil_Leveled_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Natural_Vigil_Leveled_Func001002)
+    local units = GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010"))
+    ForGroupBJ(units, Trig_Natural_Vigil_Leveled_Func001002)
+    DestroyGroup(units)
 end
 
 function InitTrig_Natural_Vigil_Leveled()
@@ -369,7 +381,9 @@ function Trig_Lifebloom_Leveled_Func001002()
 end
 
 function Trig_Lifebloom_Leveled_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010")), Trig_Lifebloom_Leveled_Func001002)
+    local units = GetUnitsOfPlayerAndTypeId(GetTriggerPlayer(), FourCC("h010"))
+    ForGroupBJ(units, Trig_Lifebloom_Leveled_Func001002)
+    DestroyGroup(units)
 end
 
 function InitTrig_Lifebloom_Leveled()

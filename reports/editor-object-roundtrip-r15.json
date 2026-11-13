@@ -1,0 +1,7786 @@
+{
+  "revision": "r15",
+  "editor_version": "3.0.1.24371",
+  "built_map_sha256": "ee7f914d70d8f8a7003876f97c0d98a3155971af077c42f91540358ab5af8e57",
+  "saved_map_sha256": "5a0b9f2509679754c77a81bd8815c71d4ffa9f3bb078d8fccf9b9805f152342b",
+  "result": "All native saved picker positions, distinct hotkeys and tooltip labels verified; all object deltas classified.",
+  "serialized_object_differences": 326,
+  "categories": {
+    "matches-native-reference-default": 276,
+    "empty-profile-default": 27,
+    "same-binary32-value": 14,
+    "same-field-retained-in-other-payload": 12,
+    "empty-indexed-profile-default": 10,
+    "field-relocated-from-other-payload": 1
+  },
+  "sources": [
+    {
+      "kind": "metadata",
+      "url": "https://github.com/sumneko/w3x2lni/blob/master/data/zhCN-1.32.8/prebuilt/metadata.ini",
+      "sha256": "f6f35d1372e3102928f6e8a47881b93ecb13b261515a7f28357774ca7f187d94",
+      "git_blob_from_content": "b7a6fd39d2ba8ac360371e84d498016e6876aaa5"
+    },
+    {
+      "kind": "ability",
+      "url": "https://github.com/sumneko/w3x2lni/blob/master/data/zhCN-1.32.8/prebuilt/Custom/ability.ini",
+      "sha256": "4512f2295d8c6968c3efc2987f20d1b002998b4a8813196cc356eb8d4aae8b5c",
+      "git_blob_from_content": "9f4005416dcdb1e21e14e49c0bf92b8a9e11b098"
+    },
+    {
+      "kind": "unit",
+      "url": "https://github.com/sumneko/w3x2lni/blob/master/data/zhCN-1.32.8/prebuilt/Custom/unit.ini",
+      "sha256": "7bc6f669ea1ab15e15f23d2d4a08eb3757017eaaf5f689f6c93f9f0d78aa4a05",
+      "git_blob_from_content": "4c4e51ae9a34a215b26dd32bbe345d3e9afb7968"
+    },
+    {
+      "kind": "item",
+      "url": "https://github.com/sumneko/w3x2lni/blob/master/data/zhCN-1.32.8/prebuilt/Custom/item.ini",
+      "sha256": "0738b5e29221580588c909477043d27cf367834514fa04ccd4457b49e8dfda87",
+      "git_blob_from_content": "e8706638051f6eda81d861b6ddb2f8783cdb7fe1"
+    },
+    {
+      "kind": "buff",
+      "url": "https://github.com/sumneko/w3x2lni/blob/master/data/zhCN-1.32.8/prebuilt/Custom/buff.ini",
+      "sha256": "1362a7a084b64223d83da851f422a9a650f34724937c76f12a3ac0f826203bbb",
+      "git_blob_from_content": "228495f5ef4854094e229c48a06695658bed456c"
+    },
+    {
+      "kind": "upgrade",
+      "url": "https://github.com/sumneko/w3x2lni/blob/master/data/zhCN-1.32.8/prebuilt/Custom/upgrade.ini",
+      "sha256": "19c5f63fe3c9a5ec0e76a19f183d1f36fb4cd77d4c6084f6645321d1c0f93215",
+      "git_blob_from_content": "77789e1600df167d2bf96215abf7eccc1f045f51"
+    }
+  ],
+  "method": [
+    "Compare object inventory, base IDs and field/level/data-pointer keys; resolve WTS references and compare floating values as binary32.",
+    "Verify removed fields against the unchanged complementary gameplay/skin record or the native base metadata/default reference.",
+    "Numeric SLK level arrays use the last reference column for extended levels; indexed profile prerequisites use independently named keys and absent higher-level entries are empty. The actual current editor save corroborates the corresponding omission patterns."
+  ],
+  "picker_layout": {
+    "cards": [
+      {
+        "shop": "gg_unit_nmer_0000",
+        "kind": "expanders",
+        "buttons": [
+          {
+            "category": "items",
+            "raw": "I00W",
+            "name": "Random",
+            "hotkey": "Q",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "h00R",
+            "name": "Worgen",
+            "hotkey": "W",
+            "x": 1,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "h01X",
+            "name": "Centaur",
+            "hotkey": "E",
+            "x": 2,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "h010",
+            "name": "Wildkin",
+            "hotkey": "R",
+            "x": 3,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "h01K",
+            "name": "Nerubian",
+            "hotkey": "A",
+            "x": 0,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "h03D",
+            "name": "Human",
+            "hotkey": "S",
+            "x": 1,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "h02L",
+            "name": "Wisp",
+            "hotkey": "D",
+            "x": 2,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "h03Q",
+            "name": "Kobold",
+            "hotkey": "F",
+            "x": 3,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "o005",
+            "name": "Ghoul",
+            "hotkey": "Z",
+            "x": 0,
+            "y": 2
+          },
+          {
+            "category": "units",
+            "raw": "h000",
+            "name": "Kraken",
+            "hotkey": "X",
+            "x": 1,
+            "y": 2
+          },
+          {
+            "category": "units",
+            "raw": "o026",
+            "name": "Ratling",
+            "hotkey": "C",
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "shop": "gg_unit_n00G_0035",
+        "kind": "expanders",
+        "buttons": [
+          {
+            "category": "items",
+            "raw": "I00W",
+            "name": "Random",
+            "hotkey": "Q",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "u007",
+            "name": "Forgotten",
+            "hotkey": "W",
+            "x": 1,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "h03S",
+            "name": "Aethyr",
+            "hotkey": "E",
+            "x": 2,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "h016",
+            "name": "Goblin",
+            "hotkey": "R",
+            "x": 3,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "h00F",
+            "name": "Ogre",
+            "hotkey": "A",
+            "x": 0,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "o000",
+            "name": "Magmide",
+            "hotkey": "S",
+            "x": 1,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "h02U",
+            "name": "Furbolg",
+            "hotkey": "D",
+            "x": 2,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "o01E",
+            "name": "Razormane",
+            "hotkey": "F",
+            "x": 3,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "h05C",
+            "name": "Elf",
+            "hotkey": "Z",
+            "x": 0,
+            "y": 2
+          },
+          {
+            "category": "units",
+            "raw": "n00M",
+            "name": "HighElf",
+            "hotkey": "X",
+            "x": 1,
+            "y": 2
+          },
+          {
+            "category": "units",
+            "raw": "h05W",
+            "name": "Hunter",
+            "hotkey": "C",
+            "x": 2,
+            "y": 2
+          },
+          {
+            "category": "units",
+            "raw": "h063",
+            "name": "Cultist",
+            "hotkey": "V",
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "shop": "gg_unit_nmr2_0001",
+        "kind": "ancients",
+        "buttons": [
+          {
+            "category": "items",
+            "raw": "I00X",
+            "name": "Random",
+            "hotkey": "Q",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "O01V",
+            "name": "AncientLight",
+            "hotkey": "W",
+            "x": 1,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "O016",
+            "name": "AncientLightning",
+            "hotkey": "E",
+            "x": 2,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "O00S",
+            "name": "AncientDragon",
+            "hotkey": "R",
+            "x": 3,
+            "y": 0
+          },
+          {
+            "category": "units",
+            "raw": "O00L",
+            "name": "AncientEarth",
+            "hotkey": "A",
+            "x": 0,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "O00A",
+            "name": "AncientDarkness",
+            "hotkey": "S",
+            "x": 1,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "O008",
+            "name": "AncientIce",
+            "hotkey": "D",
+            "x": 2,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "O004",
+            "name": "AncientFire",
+            "hotkey": "F",
+            "x": 3,
+            "y": 1
+          },
+          {
+            "category": "units",
+            "raw": "O00D",
+            "name": "AncientNature",
+            "hotkey": "Z",
+            "x": 0,
+            "y": 2
+          },
+          {
+            "category": "units",
+            "raw": "O01X",
+            "name": "AncientSand",
+            "hotkey": "X",
+            "x": 1,
+            "y": 2
+          },
+          {
+            "category": "units",
+            "raw": "O01Z",
+            "name": "AncientSpace",
+            "hotkey": "C",
+            "x": 2,
+            "y": 2
+          },
+          {
+            "category": "units",
+            "raw": "O01D",
+            "name": "AncientWind",
+            "hotkey": "V",
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "button_checks": 35,
+    "result": "passed",
+    "scope": "Explicit native positions/hotkeys and tooltip labels, not a running-game input test."
+  },
+  "details": [
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A03S",
+      "key": [
+        "Hfs2",
+        1,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A03S",
+      "key": [
+        "Hfs2",
+        2,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A03S",
+      "key": [
+        "Hfs2",
+        3,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A03S",
+      "key": [
+        "Hfs2",
+        4,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A03S",
+      "key": [
+        "Hfs2",
+        5,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A03S",
+      "key": [
+        "Hfs2",
+        6,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A03S",
+      "key": [
+        "Hfs2",
+        7,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A03S",
+      "key": [
+        "aare",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 200.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "area",
+      "native_value": [
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "effective_reference_value": 200.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        2,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        3,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        4,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        5,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        6,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        7,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        8,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        9,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        10,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        11,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        12,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        13,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        14,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        15,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        16,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        17,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        18,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        19,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        20,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A04C",
+      "key": [
+        "Iatt",
+        21,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A0AW",
+      "key": [
+        "Hfs4",
+        1,
+        4
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 1.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datad",
+      "native_value": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "effective_reference_value": 1.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A0CO",
+      "key": [
+        "Iatt",
+        2,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A0CO",
+      "key": [
+        "Iatt",
+        3,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A0CO",
+      "key": [
+        "Iatt",
+        4,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A0CO",
+      "key": [
+        "Iatt",
+        5,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "A0CO",
+      "key": [
+        "Iatt",
+        6,
+        1
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "dataa",
+      "native_value": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "Oae1",
+        6,
+        1
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.3,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dataa",
+      "native_value": [
+        0.1,
+        0.2,
+        0.3,
+        0.3
+      ],
+      "effective_reference_value": 0.3,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "Oae2",
+        1,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.05,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "datab",
+      "native_value": [
+        0.05,
+        0.1,
+        0.15,
+        0.15
+      ],
+      "effective_reference_value": 0.05,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "Oae2",
+        3,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.15,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "datab",
+      "native_value": [
+        0.05,
+        0.1,
+        0.15,
+        0.15
+      ],
+      "effective_reference_value": 0.15,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "adur",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "adur",
+        2,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "adur",
+        3,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "adur",
+        4,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "adur",
+        5,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "adur",
+        6,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "adur",
+        7,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "adur",
+        8,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "adur",
+        9,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "ahdu",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "ahdu",
+        2,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "ahdu",
+        3,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "ahdu",
+        4,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "ahdu",
+        5,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "ahdu",
+        6,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "ahdu",
+        7,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "ahdu",
+        8,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "ahdu",
+        9,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "item",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "requires",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFAS",
+      "key": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "requiresamount",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae1",
+        2,
+        1
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.12000000000000001,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.12,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae1",
+        8,
+        1
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.24000000000000002,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.24,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae1",
+        11,
+        1
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.30000000000000004,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.3,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae1",
+        13,
+        1
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.33999999999999997,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.34,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae1",
+        17,
+        1
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.42000000000000004,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.42,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae1",
+        18,
+        1
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.44000000000000006,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.44,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae1",
+        19,
+        1
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.45999999999999996,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.46,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae2",
+        2,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.12000000000000001,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.12,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae2",
+        8,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.24000000000000002,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.24,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae2",
+        11,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.30000000000000004,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.3,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae2",
+        13,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.33999999999999997,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.34,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae2",
+        17,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.42000000000000004,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.42,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae2",
+        18,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.44000000000000006,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.44,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "Oae2",
+        19,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": -0.45999999999999996,
+        "SanityCheck": 0
+      },
+      "after": {
+        "Type": "Unreal",
+        "Value": -0.46,
+        "SanityCheck": 0
+      },
+      "category": "same-binary32-value"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        2,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        3,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        4,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        5,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        6,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        7,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        8,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        9,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        10,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        11,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        12,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        13,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        14,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        15,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        16,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        17,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        18,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        19,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        20,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "adur",
+        21,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        2,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        3,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        4,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        5,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        6,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        7,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        8,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        9,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        10,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        11,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        12,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        13,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        14,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        15,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        16,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        17,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        18,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        19,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        20,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "ahdu",
+        21,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "item",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "requires",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFBL",
+      "key": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "requiresamount",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCA",
+      "key": [
+        "aher",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "hero",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCA",
+      "key": [
+        "alev",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 1,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "levels",
+      "native_value": 1,
+      "effective_reference_value": 1,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCA",
+      "key": [
+        "arac",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "other",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "race",
+      "native_value": "other",
+      "effective_reference_value": "other",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCA",
+      "key": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "requiresamount",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCB",
+      "key": [
+        "abuf",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfa",
+      "native_key": "buffid",
+      "native_value": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCB",
+      "key": [
+        "acdn",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfa",
+      "native_key": "cool",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCB",
+      "key": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfa",
+      "native_key": "item",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCB",
+      "key": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfa",
+      "native_key": "requiresamount",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCS",
+      "key": [
+        "acdn",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AEim",
+      "native_key": "cool",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCS",
+      "key": [
+        "adur",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 1.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AEim",
+      "native_key": "dur",
+      "native_value": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "effective_reference_value": 1.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCS",
+      "key": [
+        "ahdu",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 1.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AEim",
+      "native_key": "herodur",
+      "native_value": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "effective_reference_value": 1.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCS",
+      "key": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AEim",
+      "native_key": "item",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCS",
+      "key": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AEim",
+      "native_key": "requiresamount",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCT",
+      "key": [
+        "acdn",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Aspb",
+      "native_key": "cool",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCT",
+      "key": [
+        "aher",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Aspb",
+      "native_key": "hero",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCT",
+      "key": [
+        "alev",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 1,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Aspb",
+      "native_key": "levels",
+      "native_value": 1,
+      "effective_reference_value": 1,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCT",
+      "key": [
+        "amcs",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Aspb",
+      "native_key": "cost",
+      "native_value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCT",
+      "key": [
+        "arac",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "other",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Aspb",
+      "native_key": "race",
+      "native_value": "other",
+      "effective_reference_value": "other",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCT",
+      "key": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Aspb",
+      "native_key": "requires",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFCT",
+      "key": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Aspb",
+      "native_key": "requiresamount",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFIS",
+      "key": [
+        "adur",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFIS",
+      "key": [
+        "ahdu",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFIS",
+      "key": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "item",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFIS",
+      "key": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "requires",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFIS",
+      "key": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "requiresamount",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFLT",
+      "key": [
+        "Hfs2",
+        1,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFLT",
+      "key": [
+        "Hfs2",
+        2,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFLT",
+      "key": [
+        "Hfs2",
+        3,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFLT",
+      "key": [
+        "Hfs2",
+        4,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFLT",
+      "key": [
+        "Hfs2",
+        5,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFLT",
+      "key": [
+        "Hfs2",
+        6,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFLT",
+      "key": [
+        "Hfs2",
+        7,
+        2
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.33,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "datab",
+      "native_value": [
+        0.33,
+        0.33,
+        0.33,
+        0.33
+      ],
+      "effective_reference_value": 0.33,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFLT",
+      "key": [
+        "aare",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 200.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "area",
+      "native_value": [
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "effective_reference_value": 200.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFLT",
+      "key": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "requires",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFLT",
+      "key": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AHfs",
+      "native_key": "requiresamount",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "adur",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "adur",
+        2,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "adur",
+        3,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "adur",
+        4,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "adur",
+        5,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "adur",
+        6,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "dur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "ahdu",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "ahdu",
+        2,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "ahdu",
+        3,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "ahdu",
+        4,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "ahdu",
+        5,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "ahdu",
+        6,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "herodur",
+      "native_value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "aite",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "item",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "requires",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFPB",
+      "key": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AOae",
+      "native_key": "requiresamount",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFVA",
+      "key": [
+        "aher",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AId1",
+      "native_key": "hero",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFVA",
+      "key": [
+        "arac",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "other",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AId1",
+      "native_key": "race",
+      "native_value": "other",
+      "effective_reference_value": "other",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFVA",
+      "key": [
+        "areq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AId1",
+      "native_key": "requires",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3a",
+      "rawcode": "AFVA",
+      "key": [
+        "arqa",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AId1",
+      "native_key": "requiresamount",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3h",
+      "rawcode": "BFAS",
+      "key": [
+        "fnam",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "Sacrificial Aura bonus",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3map.w3h",
+      "rawcode": "BFAS",
+      "key": [
+        "ftip",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "Sacrificial Aura bonus",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3map.w3h",
+      "rawcode": "BFAS",
+      "key": [
+        "fube",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "Attack and movement speed increased.",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3map.w3h",
+      "rawcode": "BFIS",
+      "key": [
+        "fnam",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "Frozen by Sadism",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3map.w3h",
+      "rawcode": "BFIS",
+      "key": [
+        "ftip",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "Frozen by Sadism",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3map.w3h",
+      "rawcode": "BFIS",
+      "key": [
+        "fube",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "Movement speed reduced by 20%. Healing prevented.",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3map.w3h",
+      "rawcode": "BFSC",
+      "key": [
+        "fnam",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "Bloody Sacrifice",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3map.w3h",
+      "rawcode": "BFSC",
+      "key": [
+        "ftip",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "Bloody Sacrifice",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3map.w3h",
+      "rawcode": "BFSC",
+      "key": [
+        "fube",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "Healing nearby allies at the cost of your own health.",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect3",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect4",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "grac",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "human",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "race",
+      "native_value": "human",
+      "effective_reference_value": "human",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "greq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requires",
+      "native_value": [
+        "",
+        "hkee",
+        "hcas"
+      ],
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "greq",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requires",
+      "native_value": [
+        "",
+        "hkee",
+        "hcas"
+      ],
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "greq",
+        4,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requires",
+      "native_value": [
+        "",
+        "hkee",
+        "hcas"
+      ],
+      "category": "empty-indexed-profile-default",
+      "reason": "Requires uses separate profile keys per level; absent higher-level keys are empty, not repetition of the last listed prerequisite."
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "greq",
+        5,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requires",
+      "native_value": [
+        "",
+        "hkee",
+        "hcas"
+      ],
+      "category": "empty-indexed-profile-default",
+      "reason": "Requires uses separate profile keys per level; absent higher-level keys are empty, not repetition of the last listed prerequisite."
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "grqc",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "effective_reference_value": "__EMPTY_ARRAY__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "grqc",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "category": "empty-indexed-profile-default",
+      "reason": "Requires uses separate profile keys per level; absent higher-level keys are empty, not repetition of the last listed prerequisite."
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "grqc",
+        2,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "category": "empty-indexed-profile-default",
+      "reason": "Requires uses separate profile keys per level; absent higher-level keys are empty, not repetition of the last listed prerequisite."
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "grqc",
+        3,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "category": "empty-indexed-profile-default",
+      "reason": "Requires uses separate profile keys per level; absent higher-level keys are empty, not repetition of the last listed prerequisite."
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "grqc",
+        4,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "category": "empty-indexed-profile-default",
+      "reason": "Requires uses separate profile keys per level; absent higher-level keys are empty, not repetition of the last listed prerequisite."
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFAT",
+      "key": [
+        "grqc",
+        5,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "category": "empty-indexed-profile-default",
+      "reason": "Requires uses separate profile keys per level; absent higher-level keys are empty, not repetition of the last listed prerequisite."
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCA",
+      "key": [
+        "gef2",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect2",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCA",
+      "key": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect3",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCA",
+      "key": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect4",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCA",
+      "key": [
+        "grac",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "human",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "race",
+      "native_value": "human",
+      "effective_reference_value": "human",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCA",
+      "key": [
+        "greq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requires",
+      "native_value": [
+        "",
+        "hkee",
+        "hcas"
+      ],
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCA",
+      "key": [
+        "greq",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requires",
+      "native_value": [
+        "",
+        "hkee",
+        "hcas"
+      ],
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCA",
+      "key": [
+        "grqc",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "effective_reference_value": "__EMPTY_ARRAY__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCA",
+      "key": [
+        "grqc",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "category": "empty-indexed-profile-default",
+      "reason": "Requires uses separate profile keys per level; absent higher-level keys are empty, not repetition of the last listed prerequisite."
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCB",
+      "key": [
+        "gef2",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect2",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCB",
+      "key": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect3",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCB",
+      "key": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect4",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCB",
+      "key": [
+        "grac",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "human",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "race",
+      "native_value": "human",
+      "effective_reference_value": "human",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCB",
+      "key": [
+        "greq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requires",
+      "native_value": [
+        "",
+        "hkee",
+        "hcas"
+      ],
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCB",
+      "key": [
+        "greq",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requires",
+      "native_value": [
+        "",
+        "hkee",
+        "hcas"
+      ],
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCB",
+      "key": [
+        "grqc",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "effective_reference_value": "__EMPTY_ARRAY__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCB",
+      "key": [
+        "grqc",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "category": "empty-indexed-profile-default",
+      "reason": "Requires uses separate profile keys per level; absent higher-level keys are empty, not repetition of the last listed prerequisite."
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCS",
+      "key": [
+        "gef2",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect2",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCS",
+      "key": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect3",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCS",
+      "key": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect4",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCS",
+      "key": [
+        "grac",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "human",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "race",
+      "native_value": "human",
+      "effective_reference_value": "human",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCS",
+      "key": [
+        "greq",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requires",
+      "native_value": [
+        "",
+        "hkee",
+        "hcas"
+      ],
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCS",
+      "key": [
+        "greq",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requires",
+      "native_value": [
+        "",
+        "hkee",
+        "hcas"
+      ],
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCS",
+      "key": [
+        "grqc",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "effective_reference_value": "__EMPTY_ARRAY__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFCS",
+      "key": [
+        "grqc",
+        1,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "requiresamount",
+      "native_value": [],
+      "category": "empty-indexed-profile-default",
+      "reason": "Requires uses separate profile keys per level; absent higher-level keys are empty, not repetition of the last listed prerequisite."
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFPA",
+      "key": [
+        "gef2",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect2",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFPA",
+      "key": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect3",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFPA",
+      "key": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect4",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFPK",
+      "key": [
+        "gef2",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect2",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFPK",
+      "key": [
+        "gef3",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect3",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3q",
+      "rawcode": "RFPK",
+      "key": [
+        "gef4",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "effect4",
+      "native_value": "",
+      "effective_reference_value": "",
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I00F",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I00I",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ckng",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I00W",
+      "key": [
+        "isst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I00X",
+      "key": [
+        "isst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I012",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I015",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "clfm",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I017",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratc",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I019",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "crys",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I01C",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ckng",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I01L",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "mlst",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I01N",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "gemt",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I01P",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I01R",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3t",
+      "rawcode": "I01T",
+      "key": [
+        "ilum",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "lumbercost",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "nmer",
+      "key": [
+        "usei",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 1919249774
+      },
+      "after": null,
+      "base": "nmer",
+      "native_key": "sellitems",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "nmr2",
+      "key": [
+        "usei",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 846359918
+      },
+      "after": null,
+      "base": "nmr2",
+      "native_key": "sellitems",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O004",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O008",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O00A",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O00D",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O00L",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O00S",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O016",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O01D",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O01V",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O01X",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "O01Z",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h000",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h00F",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h00R",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h010",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h016",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h01K",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h01X",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h02B",
+      "key": [
+        "usei",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hvlt",
+      "native_key": "sellitems",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h02L",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h02U",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h03D",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h03Q",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h03S",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h03X",
+      "key": [
+        "ubdi",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hwtw",
+      "native_key": "bountydice",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h03X",
+      "key": [
+        "ubsi",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hwtw",
+      "native_key": "bountysides",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h05C",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h05W",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hrif",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h063",
+      "key": [
+        "ua1d",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 1,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "dice1",
+      "native_value": 1,
+      "effective_reference_value": 1,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "h063",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "hFDM",
+      "key": [
+        "ufma",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hfoo",
+      "native_key": "fmade",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "hFDM",
+      "key": [
+        "umpi",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hfoo",
+      "native_key": "mana0",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "hFDM",
+      "key": [
+        "umpm",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hfoo",
+      "native_key": "manan",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "hFDM",
+      "key": [
+        "usca",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Real",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "n00G",
+      "key": [
+        "usei",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "nmer",
+      "native_key": "sellitems",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "n00M",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "nbee",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "o000",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "opeo",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "o005",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "opeo",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "o01E",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "opeo",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "o026",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "opeo",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3map.w3u",
+      "rawcode": "u007",
+      "key": [
+        "usst",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "uaco",
+      "native_key": "stockstart",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "A0CO",
+      "key": [
+        "abpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "A0CO",
+      "key": [
+        "abpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "A0EG",
+      "key": [
+        "abpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 1,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AEbl",
+      "native_key": "buttonpos_1",
+      "native_value": 1,
+      "effective_reference_value": 1,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "A0EG",
+      "key": [
+        "abpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 2,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AEbl",
+      "native_key": "buttonpos_2",
+      "native_value": 2,
+      "effective_reference_value": 2,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "A0EH",
+      "key": [
+        "abpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 2,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ACwe",
+      "native_key": "buttonpos_2",
+      "native_value": 2,
+      "effective_reference_value": 2,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "A0EJ",
+      "key": [
+        "abpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Ahri",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "AFCA",
+      "key": [
+        "abpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "AFCA",
+      "key": [
+        "abpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "AFCA",
+      "key": [
+        "ahky",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AItg",
+      "native_key": "hotkey",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "AFCS",
+      "key": [
+        "abpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 1,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AEim",
+      "native_key": "buttonpos_1",
+      "native_value": 1,
+      "effective_reference_value": 1,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3a",
+      "rawcode": "AFCS",
+      "key": [
+        "aubx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 1,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "AEim",
+      "native_key": "unbuttonpos_1",
+      "native_value": 1,
+      "effective_reference_value": 1,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R07N",
+      "key": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rume",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R07P",
+      "key": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R07T",
+      "key": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rura",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R07U",
+      "key": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rume",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R07U",
+      "key": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rume",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R07V",
+      "key": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 1,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rura",
+      "native_key": "buttonpos_1",
+      "native_value": 1,
+      "effective_reference_value": 1,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R07V",
+      "key": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rura",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R07W",
+      "key": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rume",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R07Z",
+      "key": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhlh",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R080",
+      "key": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhlh",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R081",
+      "key": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhlh",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R082",
+      "key": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Roch",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R082",
+      "key": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Roch",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "R083",
+      "key": [
+        "gbpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhlh",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3q",
+      "rawcode": "RFCA",
+      "key": [
+        "gbpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Rhme",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3t",
+      "rawcode": "I00W",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3t",
+      "rawcode": "I00W",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3t",
+      "rawcode": "I00X",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3t",
+      "rawcode": "I00X",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ratf",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "H064",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 2,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Hpal",
+      "native_key": "buttonpos_2",
+      "native_value": 2,
+      "effective_reference_value": 2,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "O008",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 2,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "buttonpos_1",
+      "native_value": 2,
+      "effective_reference_value": 2,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "O00D",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 2,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "buttonpos_2",
+      "native_value": 2,
+      "effective_reference_value": 2,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "O016",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 2,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "buttonpos_1",
+      "native_value": 2,
+      "effective_reference_value": 2,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "O01D",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 2,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "buttonpos_2",
+      "native_value": 2,
+      "effective_reference_value": 2,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "O01X",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 2,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "buttonpos_2",
+      "native_value": 2,
+      "effective_reference_value": 2,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "O01Z",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 2,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "buttonpos_1",
+      "native_value": 2,
+      "effective_reference_value": 2,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "O01Z",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 2,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "Otch",
+      "native_key": "buttonpos_2",
+      "native_value": 2,
+      "effective_reference_value": 2,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h00F",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h00R",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h010",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h016",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h01K",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h01X",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h03S",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h05C",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h063",
+      "key": [
+        "ua1s",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 1,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h063",
+      "key": [
+        "ua1z",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 900.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "category": "same-field-retained-in-other-payload"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h063",
+      "key": [
+        "ulpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 0.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "launchy",
+      "native_value": 0.0,
+      "effective_reference_value": 0.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h063",
+      "key": [
+        "ulpz",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Unreal",
+        "Value": 60.0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "launchz",
+      "native_value": 60.0,
+      "effective_reference_value": 60.0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h06B",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "h06B",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hpea",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "hFDM",
+      "key": [
+        "usca",
+        0,
+        0
+      ],
+      "before": null,
+      "after": {
+        "Type": "Real",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "category": "field-relocated-from-other-payload",
+      "source_file": "war3map.w3u"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "hFDM",
+      "key": [
+        "ushb",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "String",
+        "Value": "",
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "hfoo",
+      "native_key": "buildingshadow",
+      "native_value": "__MISSING__",
+      "effective_reference_value": "__MISSING__",
+      "category": "empty-profile-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "o005",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "opeo",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "u007",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "uaco",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "u00I",
+      "key": [
+        "ubpx",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ugho",
+      "native_key": "buttonpos_1",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "u00I",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ugho",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "u00J",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ugho",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    },
+    {
+      "file": "war3mapSkin.w3u",
+      "rawcode": "u00K",
+      "key": [
+        "ubpy",
+        0,
+        0
+      ],
+      "before": {
+        "Type": "Int",
+        "Value": 0,
+        "SanityCheck": 0
+      },
+      "after": null,
+      "base": "ugho",
+      "native_key": "buttonpos_2",
+      "native_value": 0,
+      "effective_reference_value": 0,
+      "category": "matches-native-reference-default"
+    }
+  ],
+  "limits": "Native editor round trip and metadata/default comparison. The 1.32.8 reference is older than the installed editor; current save retention corroborates these values. No running-game keyboard/UI or multiplayer test."
+}

@@ -192,6 +192,22 @@ function FE_Takeover.copyResearch(from, to)
     end
 end
 
+function FE_Takeover.refreshUnitResearch(unit)
+    -- Copying native technology does not fire RESEARCH_FINISH. Reconcile the
+    -- manually leveled abilities on both inherited units and existing survivors.
+    if FE_Wildkin then FE_Wildkin.restoreResearch(unit) end
+    if FE_Worgen then FE_Worgen.restoreResearch(unit) end
+    if FE_Bloodmage then FE_Bloodmage.restoreResearch(unit) end
+    if FE_Kobold then FE_Kobold.restoreResearch(unit) end
+    local id, owner = GetUnitTypeId(unit), GetConvertedPlayerId(GetOwningPlayer(unit))
+    if id == FourCC("o026") and udg_SilentStrider[owner] then
+        UnitAddAbility(unit, FourCC("A0CK"))
+    elseif id == FourCC("e00R") and udg_DeepWater1[owner] then
+        UnitRemoveAbility(unit, FourCC("A0A4"))
+        UnitAddAbility(unit, FourCC("A0BB"))
+    end
+end
+
 function FE_Takeover.claim(taker, slot)
     local record = FE_Takeover.pending[slot]
     if not record or not FE_Takeover.eligible(taker) or record.player == taker then
@@ -239,6 +255,7 @@ function FE_Takeover.claim(taker, slot)
     if record.ancient then FE_Roles.setAncient(taker)
     elseif record.alive then FE_Roster.revive(taker) end
     Trig_Takeover_TransferAllUnits(oldOwner, taker)
+    FE_Takeover.forUnits(taker, FE_Takeover.refreshUnitResearch)
     DisplayTimedTextToForce(GetPlayersAll(), 20, GetPlayerName(taker) .. " has taken over " .. GetPlayerName(oldOwner) .. ". The game continues.")
     return true
 end

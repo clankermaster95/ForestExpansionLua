@@ -2,6 +2,8 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 125 Chemical_Rage
+local chemicalRageCasts = {}
+
 function CHEMICAL_RAGE_ABILITY()
     return FourCC("A0CU")
 end
@@ -20,6 +22,9 @@ end
 
 function ChemicalRageActions()
     local caster = GetTriggerUnit()
+    local previous = chemicalRageCasts[caster]
+    local cast = {baseCooldown = previous and previous.baseCooldown or BlzGetUnitWeaponRealField(caster, UNIT_WEAPON_RF_ATTACK_BASE_COOLDOWN, 0)}
+    chemicalRageCasts[caster] = cast
     local p = GetOwningPlayer(caster)
     local dummy = nil
     local i = 0
@@ -30,13 +35,12 @@ function ChemicalRageActions()
     TriggerSleepAction(__jreal(20.0))
     RemoveUnit(dummy)
     dummy = nil
-    if ((caster == nil) or IsUnitType(caster, UNIT_TYPE_DEAD)) then
-        caster = nil
-        p = nil
-        return
-    end
-    if ((caster ~= nil) and (not IsUnitType(caster, UNIT_TYPE_DEAD))) then
-        BlzSetUnitWeaponRealField(caster, UNIT_WEAPON_RF_ATTACK_BASE_COOLDOWN, 0, __jreal(1.75))
+    if chemicalRageCasts[caster] == cast then
+        chemicalRageCasts[caster] = nil
+        -- Corpses can revive. Restore their attack speed as well.
+        if GetUnitTypeId(caster) ~= 0 then
+            BlzSetUnitWeaponRealField(caster, UNIT_WEAPON_RF_ATTACK_BASE_COOLDOWN, 0, cast.baseCooldown)
+        end
     end
     caster = nil
     p = nil
@@ -242,7 +246,9 @@ function Trig_Sticky_Glue_Conditions()
 end
 
 function Trig_Sticky_Glue_Actions()
-    CreateNUnitsAtLoc(1, FourCC("n010"), GetOwningPlayer(GetSpellAbilityUnit()), GetSpellTargetLoc(), bj_UNIT_FACING)
+    local point = GetSpellTargetLoc()
+    CreateNUnitsAtLoc(1, FourCC("n010"), GetOwningPlayer(GetSpellAbilityUnit()), point, bj_UNIT_FACING)
+    RemoveLocation(point)
     UnitApplyTimedLifeBJ(__jreal(6.00), FourCC("BTLF"), GetLastCreatedUnit())
 end
 

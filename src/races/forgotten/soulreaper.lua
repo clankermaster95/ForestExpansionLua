@@ -36,17 +36,27 @@ end
 -- END FOREST SECTION 88
 
 -- BEGIN FOREST SECTION 89 Avatar
+local avatarCasts = {}
+
 function Trig_Avatar_Conditions()
     return GetSpellAbilityId() == FourCC("A078")
 end
 
 function Trig_Avatar_Actions()
-    CreateNUnitsAtLoc(1, FourCC("h04L"), GetOwningPlayer(GetTriggerUnit()), GetUnitLoc(GetTriggerUnit()), bj_UNIT_FACING)
-    IssueTargetOrderBJ(GetLastCreatedUnit(), "bloodlust", GetSpellAbilityUnit())
+    local caster = GetTriggerUnit()
+    local cast = {}
+    avatarCasts[caster] = cast
+    local point = GetUnitLoc(caster)
+    CreateNUnitsAtLoc(1, FourCC("h04L"), GetOwningPlayer(caster), point, bj_UNIT_FACING)
+    RemoveLocation(point)
+    IssueTargetOrderBJ(GetLastCreatedUnit(), "bloodlust", caster)
     UnitApplyTimedLifeBJ(__jreal(1.00), FourCC("BTLF"), GetLastCreatedUnit())
-    SetUnitAbilityLevelSwapped(FourCC("A067"), GetTriggerUnit(), 2)
+    SetUnitAbilityLevelSwapped(FourCC("A067"), caster, 2)
     TriggerSleepAction(__jreal(10.00))
-    SetUnitAbilityLevelSwapped(FourCC("A067"), GetTriggerUnit(), 1)
+    if avatarCasts[caster] == cast then
+        avatarCasts[caster] = nil
+        if GetUnitTypeId(caster) ~= 0 then SetUnitAbilityLevelSwapped(FourCC("A067"), caster, 1) end
+    end
 end
 
 function InitTrig_Avatar()

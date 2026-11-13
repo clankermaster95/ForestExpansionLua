@@ -4,7 +4,7 @@ The maintainer runs Warcraft gameplay tests. The agent must not launch the game 
 
 ## World Editor validation — passed
 
-World Editor **3.0.1.24371** loaded, saved and reopened the integrated r14 map successfully. [Recorded evidence](reports/editor-validation-r14.json) confirms 103 unchanged modules, 1,649 unchanged named function bodies, the 520-payload inventory and 3,178 preserved object identities. Terrain, placements, imports and map metadata are byte-identical; [object normalization](reports/editor-object-roundtrip-r14.json) was reviewed separately. The full offline suite passes in both Lua numeric modes. No Warcraft game or Test Map was launched. This verifies the editor round trip, not combat, native rendering or multiplayer synchronization.
+World Editor **3.0.1.24371** loaded, saved and reopened the integrated r15 map successfully. [Recorded evidence](reports/editor-validation-r15.json) confirms 103 unchanged modules, the unchanged named function bodies, the 520-payload inventory and 3,178 preserved object identities. Terrain, placements, imports and map metadata are byte-identical; [object normalization](reports/editor-object-roundtrip-r15.json) was reviewed separately. The full offline suite passes in both Lua numeric modes. No Warcraft game or Test Map was launched. This verifies the editor round trip, not combat, native rendering or multiplayer synchronization.
 
 ## Quick solo setup
 
@@ -40,19 +40,29 @@ Select your owned unit before using a test command. Full codes remain in
 | Feed bounty | Compare actual gold from a normal kill, a prevented lethal hit followed by a kill, and a revived target killed again. Change the feed rate between deaths: each payout must use the original bounty and current rate, without compounding. Native payout before the zero-delay restoration still needs gameplay confirmation. |
 | AI and role UI | Hard AI continues periodic attacks and handles no valid target without hanging. Ancient hints follow the current Ancient after takeover. Each player receives one set of gold pings per timer event. |
 
+## Spell and cleanup stress checks
+
+- With solo cooldown resets, recast Avatar, Chemical Rage, Blur, Surge of Darkness, Conjure Mana and Realm of Darkness before the earlier effect expires. The newer effect should last its full duration.
+- Let Chemical Rage expire while Ratling is dead, then revive it. Its original attack cooldown should return.
+- Use two Nebulas: overlap Recall and Galactic Fury, finish in either order, and cancel Recall. Targets and heals must stay with their respective casters.
+- Kill/remove a Recall target or caster during the channel. No stale teleport should occur.
+- While Realm of Darkness is active, change an affected unit's ownership. Its debuff should still clear when the effect ends.
+- Research Kobold's Shovel Strike upgrades, revive via Wisp and confirm the level persists.
+- Repeat spells, research, AI roaming and lackey kills during a long game; watch for abnormal slowdown. Offline handle counts do not measure native frame rate.
+
 ## Multiplayer takeover
 
 Have an Expander leave and confirm their units remain. A dead or unpicked
 Expander can type `-takeover`; if several players left, choose `-takeover <slot>`.
 Repeat with the Ancient. Both windows last 60 seconds. Check that inherited
-research works and that neither the transferred army nor the taker's previous
+research works on both inherited units and existing survivors, particularly Wildkin, Worgen, Bloodmage, Kobold, Ratling invisibility and Deepwater wells. Confirm that neither the transferred army nor the taker's previous
 units disappear at the old deadline. The old race-selection token is removed
 to prevent buying an extra race. If nobody takes over, remaining leaver units
 are removed after 60 seconds.
 
 ## Multiplayer desync retest
 
-Use the same fresh r11 archive for every player. Verify the opening build label;
+Use the same fresh r15 archive for every player. Verify the opening build label;
 record the SHA-256 from the release checksum file. A running match cannot adopt
 an updated archive. Play beyond the previous failure time with the same races
 and Ancient, using shops, Cultist abilities, Ice, damage-over-time attacks and

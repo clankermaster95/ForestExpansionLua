@@ -2,6 +2,8 @@
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
 -- BEGIN FOREST SECTION 156 Realm_of_darkness
+local darknessCast, darknessTargets
+
 function Trig_Realm_of_darkness_Conditions()
     return GetSpellAbilityId() == FourCC("A0B7")
 end
@@ -12,6 +14,7 @@ end
 
 function Trig_Realm_of_darkness_Func002A()
     UnitAddAbilityBJ(FourCC("A0B6"), GetEnumUnit())
+    GroupAddUnit(darknessTargets, GetEnumUnit())
 end
 
 function Trig_Realm_of_darkness_Func005001002()
@@ -19,19 +22,25 @@ function Trig_Realm_of_darkness_Func005001002()
 end
 
 function Trig_Realm_of_darkness_Func005A()
-    UnitRemoveAbilityBJ(FourCC("A0B6"), GetEnumUnit())
+    if GetUnitTypeId(GetEnumUnit()) ~= 0 then UnitRemoveAbilityBJ(FourCC("A0B6"), GetEnumUnit()) end
 end
 
 function Trig_Realm_of_darkness_Actions()
+    local cast = {}
+    darknessCast = cast
+    if not darknessTargets then darknessTargets = CreateGroup() end
     EnableTrigger(gg_trg_Realm_of_darkness_2)
     local group002 = GetUnitsInRectMatching(GetPlayableMapRect(), Condition(Trig_Realm_of_darkness_Func002001002))
     ForGroupBJ(group002, Trig_Realm_of_darkness_Func002A)
     DestroyGroup(group002)
     TriggerSleepAction(__jreal(60.00))
+    if darknessCast ~= cast then return end
+    darknessCast = nil
     DisableTrigger(gg_trg_Realm_of_darkness_2)
-    local group005 = GetUnitsInRectMatching(GetPlayableMapRect(), Condition(Trig_Realm_of_darkness_Func005001002))
-    ForGroupBJ(group005, Trig_Realm_of_darkness_Func005A)
-    DestroyGroup(group005)
+    -- Ownership/alliance changes must not leave the applied debuff behind.
+    ForGroupBJ(darknessTargets, Trig_Realm_of_darkness_Func005A)
+    DestroyGroup(darknessTargets)
+    darknessTargets = nil
 end
 
 function InitTrig_Realm_of_darkness()
@@ -48,7 +57,10 @@ function Trig_Realm_of_darkness_2_Conditions()
 end
 
 function Trig_Realm_of_darkness_2_Actions()
-    UnitAddAbilityBJ(FourCC("A0B6"), GetTriggerUnit())
+    if darknessTargets then
+        UnitAddAbilityBJ(FourCC("A0B6"), GetTriggerUnit())
+        GroupAddUnit(darknessTargets, GetTriggerUnit())
+    end
 end
 
 function InitTrig_Realm_of_darkness_2()

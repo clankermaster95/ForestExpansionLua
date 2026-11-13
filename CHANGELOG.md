@@ -1,6 +1,6 @@
 # Forest Expansion 3.2.0 — Lua edition
 
-Cumulative **3.1.2a → 3.2.0** patch notes, through r14.
+Cumulative **3.1.2a → 3.2.0** patch notes, through r15.
 
 ## General
 
@@ -52,14 +52,16 @@ Cumulative **3.1.2a → 3.2.0** patch notes, through r14.
 - Fixed duplicate base-flag refunds, refunds using another player's lumber, and rejected flags leaving corpses/effects behind. Flag income follows surviving completed flags through ownership changes.
 - Fixed Worgen gaining gold from harvest orders without harvesting; world-tree hits still award two gold.
 - Upgraded Aethyr walls now feed 20 gold.
-- Wildkin, Worgen and Bloodmage retain researched ability levels after Wisp revival. Executioner and Bloodmage upgrades now work in every Expander slot and after takeover.
+- Wildkin, Worgen, Bloodmage and Kobold retain researched ability levels after Wisp revival. Takeover refreshes scripted upgrades on inherited units and survivors, including Silent Strider and Deepwater. Executioner and Bloodmage upgrades work in every Expander slot.
 - Fixed Shadow Dancer mana theft and restoration creating mana or failing to remove it.
 - Fixed Ratling corrosion expiry and invisibility on replacement units, Deepwater on wells built after research, and dead Nerubian spires blocking nearby upgrades. Spire aura counts update when defeat or leaver cleanup removes units.
 - Fixed Mech Blaster's melee scaling and mage mana restoration selecting the wrong attacker.
 - Fixed Focused Anger corrupting unit tracking and misassigning stacks.
 - Fixed delayed spell data for Conjure Mana, Ancient Grasp, Chill, Sadism, Vanguard, Worgen's strike and Shadowlings.
 - Fixed Lightning Strike, Sandstorm and Freeze Zone interfering with other countdowns.
-- Fixed Cosmic Strike using the wrong mana source and Realm of Darkness targeting the wrong units.
+- Fixed Cosmic Strike using the wrong mana source and Time Warp attributing damage to the wrong caster.
+- Fixed overlapping Recall and Galactic Fury casts affecting the wrong units. Cancelled Recall casts now clear their targets.
+- Fixed recasts of Avatar, Chemical Rage, Blur, Surge of Darkness, Conjure Mana and Realm of Darkness ending early. Chemical Rage restores attack speed after death; Realm of Darkness clears debuffs after ownership changes.
 - Fixed living-player counts, rebirth ownership/type, environmental-death lackeys and stale respawns after revival/takeover.
 - Fixed late-pick targets, unrelated purchases removing selectors and Fire ignoring the ban window.
 - Fixed saved feed settings arriving late or out of order and overwriting manual choices. Bounties no longer compound after prevented deaths or revival.
@@ -77,7 +79,7 @@ Cumulative **3.1.2a → 3.2.0** patch notes, through r14.
 ## Code and stability
 
 - Consolidated 375 scripts into 60 named gameplay modules with shared data/handlers; removed redundant helpers.
-- Corrected native initialization, timer ownership, GUI timer conflicts, shared player-group corruption and temporary-resource leaks in spells, research, picking, flags, income effects and AI targeting. Corrected a zero damage interval in the unused Arcane Strike definition.
+- Corrected native initialization, timer ownership, GUI timer conflicts, shared player-group corruption and temporary-resource leaks in spells, research, picking, flags, income effects, lackey spawns, death checks and AI. Corrected a zero damage interval in the unused Arcane Strike definition.
 - Corrected ability data fields so Warcraft reads the intended values for Bleed, Poisoned Bullets, Cultist abilities, Ice's slow, Vanguard and Lightning Strike.
 - Added editor-save, gameplay/data and map-package checks. Build/LLM instructions: [LLM_GUIDE.md](https://github.com/clankermaster95/ForestExpansionLua/blob/main/LLM_GUIDE.md). Configured builds install the latest map and prune older managed copies.
 

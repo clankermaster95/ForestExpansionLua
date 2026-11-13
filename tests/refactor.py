@@ -103,6 +103,8 @@ def main():
     assert (ROOT/'DEBUG_REFERENCE.md').read_text(encoding='utf-8')==debug_reference.render()
     import sync_audit
     audit=sync_audit.inspect(cfg)
+    from resource_audit import regression_checks as resource_regressions
+    audit['resource_guard_negative_and_positive_cases']=resource_regressions()
     audit['lifetime_guard_regressions']=runpy.run_path(str(ROOT/'tests/sync_guards.py'))['validate']()
     audit['transient_timer_migration']=runpy.run_path(str(ROOT/'tests/transient_timer_migration.py'))['validate']()
     allowed_slots={42,43,44,248}
@@ -218,7 +220,7 @@ def main():
     for kind in ('lua-5.3.6','lua-5.3.6-32'):
         runtime=ROOT/'.tools'/kind/'src'
         for path in files:subprocess.run([str(runtime/'luac'),'-p',str(path)],check=True,capture_output=True)
-        for suite in ('shopping','solo_startup','gameplay_patch','selection_bans','native_initialization','timer_lifetime','transient_timer_lifetime','freeze_timer','cosmic_context','base_flags','runtime_audit'):
+        for suite in ('shopping','solo_startup','gameplay_patch','selection_bans','native_initialization','timer_lifetime','transient_timer_lifetime','freeze_timer','cosmic_context','base_flags','runtime_audit','poke'):
             result=subprocess.run([str(runtime/'lua'),'tests/'+suite+'.lua'],cwd=ROOT,check=True,capture_output=True,text=True)
             print(result.stdout.strip()); results.append({'runtime':kind,'suite':suite,'result':result.stdout.strip()})
     from costs import validate as validate_costs

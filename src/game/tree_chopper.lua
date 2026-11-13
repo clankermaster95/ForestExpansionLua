@@ -3,7 +3,9 @@
 
 -- BEGIN FOREST SECTION 12 TreeChopper_Detection
 function Trig_TreeChopper_Detection_Actions()
-    CreateNUnitsAtLoc(1, FourCC("h060"), FE_Roles.ancient(), GetRectCenter(gg_rct_ChopChop), bj_UNIT_FACING)
+    local point = GetRectCenter(gg_rct_ChopChop)
+    CreateNUnitsAtLoc(1, FourCC("h060"), FE_Roles.ancient(), point, bj_UNIT_FACING)
+    RemoveLocation(point)
     udg_TreeChopper = "|cffb79419-chopoff|r"
     DisplayTextToForce(GetPlayersAll(), "TRIGSTR_5530")
 end

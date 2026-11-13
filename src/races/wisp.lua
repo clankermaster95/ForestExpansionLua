@@ -31,6 +31,7 @@ function Trig_SeedOfRebirth_Actions()
     if FE_Wildkin then FE_Wildkin.restoreResearch(reborn) end
     if FE_Worgen then FE_Worgen.restoreResearch(reborn) end
     if FE_Bloodmage then FE_Bloodmage.restoreResearch(reborn) end
+    if FE_Kobold then FE_Kobold.restoreResearch(reborn) end
     ForGroupBJ(units, Trig_SeedOfRebirth_Func001Func006002)
     DestroyGroup(units)
     SetPlayerStateBJ(player, PLAYER_STATE_RESOURCE_GOLD, 0)

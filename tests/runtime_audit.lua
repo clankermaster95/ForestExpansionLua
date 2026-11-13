@@ -458,9 +458,10 @@ test("hard AI selection is bounded and timer/event contexts are valid", function
         "repeated AI attacks must release search, chosen, army and location handles")
 end)
 
-test("Seed of Rebirth restores Worgen and Bloodmage research by owner", function()
+test("Seed of Rebirth restores Worgen, Bloodmage and Kobold research by owner", function()
     reset(); udg_AncientPlayer=Player(10)
     dofile(root .. "/src/races/wisp.lua")
+    dofile(root .. "/src/races/kobold.lua")
     local target, created, alive = nil, nil, {}
     function GetSpellAbilityUnit() return event.unit end
     function GetSpellTargetUnit() return target end
@@ -469,7 +470,8 @@ test("Seed of Rebirth restores Worgen and Bloodmage research by owner", function
     function CreateUnit(player, kind, x, y)
         created=unit(kind,player,x,y)
         if kind == "h00R" then created.abilities={A042=1,A04C=1,unrelated=7}
-        elseif kind == "u009" then created.abilities={A065=1,A063=1,unrelated=7} end
+        elseif kind == "u009" then created.abilities={A065=1,A063=1,unrelated=7}
+        elseif kind == "h03Q" then created.abilities={A086=1,unrelated=7} end
         return created
     end
     function IssueImmediateOrderBJ() end
@@ -482,7 +484,9 @@ test("Seed of Rebirth restores Worgen and Bloodmage research by owner", function
     for _, scenario in ipairs({{owner=0,kind="h00R",research="R030",upgrades=20,first="A042",second="A04C"},
         {owner=1,kind="h00R",research="R030",upgrades=0,first="A042",second="A04C"},
         {owner=3,kind="u009",research="R043",upgrades=10,first="A065",second="A063"},
-        {owner=4,kind="u009",research="R043",upgrades=0,first="A065",second="A063"}}) do
+        {owner=4,kind="u009",research="R043",upgrades=0,first="A065",second="A063"},
+        {owner=5,kind="h03Q",research="R004",upgrades=10,first="A086",second="A086"},
+        {owner=6,kind="h03Q",research="R004",upgrades=0,first="A086",second="A086"}}) do
         local owner=Player(scenario.owner); owner.research[scenario.research]=scenario.upgrades
         udg_SeedOfRebirth[scenario.owner+1]=scenario.kind
         target=unit("e00E",owner,12,34); event={unit=caster}
@@ -499,6 +503,8 @@ test("Seed of Rebirth restores Worgen and Bloodmage research by owner", function
     check(wrong.abilities.A042 == 4 and wrong.abilities.A065 == 6, "restoration must ignore other races")
     local missing=unit("h00R",Player(0)); FE_Worgen.restoreResearch(missing)
     check(not missing.abilities.A042 and not missing.abilities.A04C, "restoration must not grant absent abilities")
+    local absent=unit("h03Q",Player(5)); FE_Kobold.restoreResearch(absent)
+    check(not absent.abilities.A086, "Kobold restoration must not grant an absent spellbook ability")
     check(counts.groups == 0, "rebirth must release its temporary old-unit group")
 end)
 

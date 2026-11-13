@@ -1,6 +1,13 @@
 -- races / kobold
 -- Related gameplay callbacks; original initialization order is in src/initialization.lua.
 
+FE_Kobold = {}
+
+function FE_Kobold.restoreResearch(unit)
+    if GetUnitTypeId(unit) ~= FourCC("h03Q") or GetUnitAbilityLevel(unit, FourCC("A086")) == 0 then return end
+    SetUnitAbilityLevel(unit, FourCC("A086"), 1 + GetPlayerTechCount(GetOwningPlayer(unit), FourCC("R004"), true))
+end
+
 -- BEGIN FOREST SECTION 48 ShovelStrikelevelup
 function Trig_ShovelStrikelevelup_Conditions()
     return GetResearched() == FourCC("R004")
@@ -11,7 +18,9 @@ function Trig_ShovelStrikelevelup_Func003002()
 end
 
 function Trig_ShovelStrikelevelup_Actions()
-    ForGroupBJ(GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("h03Q")), Trig_ShovelStrikelevelup_Func003002)
+    local units = GetUnitsOfPlayerAndTypeId(GetOwningPlayer(GetResearchingUnit()), FourCC("h03Q"))
+    ForGroupBJ(units, Trig_ShovelStrikelevelup_Func003002)
+    DestroyGroup(units)
 end
 
 function InitTrig_ShovelStrikelevelup()

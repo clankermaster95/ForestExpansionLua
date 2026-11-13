@@ -121,7 +121,9 @@ function Trig_Frenzy_Conditions()
 end
 
 function Trig_Frenzy_Actions()
-    CreateNUnitsAtLoc(1, FourCC("h04L"), GetOwningPlayer(GetTriggerUnit()), GetUnitLoc(GetTriggerUnit()), bj_UNIT_FACING)
+    local point = GetUnitLoc(GetTriggerUnit())
+    CreateNUnitsAtLoc(1, FourCC("h04L"), GetOwningPlayer(GetTriggerUnit()), point, bj_UNIT_FACING)
+    RemoveLocation(point)
     UnitAddAbilityBJ(FourCC("A09Y"), GetLastCreatedUnit())
     UnitApplyTimedLifeBJ(__jreal(2.00), FourCC("BTLF"), GetLastCreatedUnit())
     IssueTargetOrderBJ(GetLastCreatedUnit(), "unholyfrenzy", GetSpellAbilityUnit())

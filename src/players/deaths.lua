@@ -43,7 +43,10 @@ function Trig_Human_Dies_Conditions()
 end
 
 function Trig_Human_Dies_Func001C()
-    return IsUnitInGroup(udg_HumanFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
+    local units = GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))
+    local present = IsUnitInGroup(udg_HumanFlag, units) == true
+    DestroyGroup(units)
+    return present
 end
 
 function Trig_Human_Dies_Actions()
@@ -65,7 +68,10 @@ function Trig_Wisp_Dies_Conditions()
 end
 
 function Trig_Wisp_Dies_Func001C()
-    return IsUnitInGroup(udg_WispFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
+    local units = GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))
+    local present = IsUnitInGroup(udg_WispFlag, units) == true
+    DestroyGroup(units)
+    return present
 end
 
 function Trig_Wisp_Dies_Actions()
@@ -87,7 +93,10 @@ function Trig_Centaur_Dies_Conditions()
 end
 
 function Trig_Centaur_Dies_Func001C()
-    return IsUnitInGroup(udg_CentaurFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
+    local units = GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))
+    local present = IsUnitInGroup(udg_CentaurFlag, units) == true
+    DestroyGroup(units)
+    return present
 end
 
 function Trig_Centaur_Dies_Actions()
@@ -109,7 +118,10 @@ function Trig_Ogre_Dies_Conditions()
 end
 
 function Trig_Ogre_Dies_Func001C()
-    return IsUnitInGroup(udg_OgreFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
+    local units = GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))
+    local present = IsUnitInGroup(udg_OgreFlag, units) == true
+    DestroyGroup(units)
+    return present
 end
 
 function Trig_Ogre_Dies_Actions()
@@ -386,7 +398,10 @@ function Trig_Kraken_Dies_Conditions()
 end
 
 function Trig_Kraken_Dies_Func001C()
-    return IsUnitInGroup(udg_KrakenFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
+    local units = GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))
+    local present = IsUnitInGroup(udg_KrakenFlag, units) == true
+    DestroyGroup(units)
+    return present
 end
 
 function Trig_Kraken_Dies_Actions()
@@ -408,7 +423,10 @@ function Trig_Aethyr_Warp_Dies_Conditions()
 end
 
 function Trig_Aethyr_Warp_Dies_Func001C()
-    return IsUnitInGroup(udg_AethyrFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
+    local units = GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))
+    local present = IsUnitInGroup(udg_AethyrFlag, units) == true
+    DestroyGroup(units)
+    return present
 end
 
 function Trig_Aethyr_Warp_Dies_Actions()
@@ -447,7 +465,10 @@ function Trig_Razormane_Dies_Conditions()
 end
 
 function Trig_Razormane_Dies_Func001C()
-    return IsUnitInGroup(udg_RazormaneFlag, GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))) == true
+    local units = GetUnitsInRectOfPlayer(GetPlayableMapRect(), GetOwningPlayer(GetDyingUnit()))
+    local present = IsUnitInGroup(udg_RazormaneFlag, units) == true
+    DestroyGroup(units)
+    return present
 end
 
 function Trig_Razormane_Dies_Actions()

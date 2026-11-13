@@ -38,7 +38,7 @@
     {
       "module": "src/commands/test_data.lua",
       "before_sha256": "d39ab098d8f6b697cc3896024bbfeda099807a22f0db309df58712795d332df6",
-      "after_sha256": "ba5eabd91c29fa187686f5598183d6648a0b2cf2798ebadecb19e36b9bae34ae",
+      "after_sha256": "aa81a73ac779a71f41b209297f6d3c0c01be290acebf7d9265b5abc96f724b16",
       "reason": "Generated current release and object catalog."
     },
     {
@@ -54,10 +54,16 @@
       "reason": "Start the explicitly owned timer directly without replacing the loading-time Blizzard timer reference."
     },
     {
+      "module": "src/game/tree_chopper.lua",
+      "before_sha256": "a17f49002b352aad09d14cfa3422126d0eec62af801396203e058c55fc4e4632",
+      "after_sha256": "eaaf8f523fea77eec5daf12254f49c1c73f18e644398d6324dec105aa6e44bab",
+      "reason": "Release the Tree Chopper spawn location."
+    },
+    {
       "module": "src/players/participation.lua",
       "before_sha256": "ab6bb5721f524a5ad00184774eb866483dafdbfea553cc1b2a5ef0a882ab289f",
-      "after_sha256": "9a175576519ab19455b67607b6b13fa6f60b5e463053311d8a8029eaae4b5766",
-      "reason": "Eligibility, research/resources/ownership transfer and cancellation of leaver expiry."
+      "after_sha256": "b20246bd05c126bb08e169fa8e82a81b479d4a7a1b2ef21d65ec2f0f79accf8b",
+      "reason": "Eligibility, research/resources/ownership transfer and cancellation of leaver expiry. Reconcile manually leveled spells, Silent Strider and Deepwater on both inherited and surviving units after merging technology."
     },
     {
       "module": "src/commands/player.lua",
@@ -96,6 +102,12 @@
       "reason": "Research-gated aura, sacrifice toggle and pure-damage autocast; hide duplicate resistance icon; retain recurring timer; remove stray Limb Throw diagnostic."
     },
     {
+      "module": "src/races/kobold.lua",
+      "before_sha256": "3e22f7b9e086ec874c1dedb211641239bee16e83a0e496407d0d259e177df1bb",
+      "after_sha256": "9e46fb57377420136942e452efc54c083bf415ca245862c820aaeeb9311bac6d",
+      "reason": "Release Shovel Strike research groups; restore the existing spellbook ability to its owner research level after rebirth/takeover."
+    },
+    {
       "module": "src/races/night_elf.lua",
       "before_sha256": "9551c2fe080c8c35cfca2cb64adf32a4658b0240ef9b12ac0a7de205f3914f02",
       "after_sha256": "947113378334612e11628d1777cb045c6f3988a5be2b21974bdb95b8b984ed8b",
@@ -104,14 +116,26 @@
     {
       "module": "src/races/night_elf/shadow_dancer.lua",
       "before_sha256": "9ee3bef53a0c051508d840774f9e39bee737f5d221f3e7d4324cfc2238ac79d0",
-      "after_sha256": "8372cc5ca7f2cff1120a1a11e56dc97ffcba883caac2b52b281a5d6293df48bc",
-      "reason": "Mage mana restoration identifies the Damage Engine source rather than a native trigger unit from another event context."
+      "after_sha256": "184dcef526924894d657d356327b7f7027bb394440e9bb901df4a80e91b801a5",
+      "reason": "Mage mana restoration identifies the Damage Engine source rather than a native trigger unit from another event context. Release Conjure Refreshment/Mana Burn locations; Conjure Mana and Blur expiration is scoped to the latest cast per unit."
+    },
+    {
+      "module": "src/races/forgotten.lua",
+      "before_sha256": "cd4f657c3ed6ca44020426c068815a9264dd6508f79f674d5974deb0909f9521",
+      "after_sha256": "86a55d1f7bf29071969b3bcce5aaeb693596757fa4a044fa9026da9aca43f248",
+      "reason": "Release rejected Soul Hammer drop locations without changing carrier restrictions."
     },
     {
       "module": "src/races/forgotten/executioner.lua",
       "before_sha256": "4456b1f0f1b0e791355de80f94daa3845d84c59e4976a93e2e76daae3c8a7fd7",
-      "after_sha256": "b79567af1b8cfbf20469a9f128457bb471adc7b214b871a6c2cbacc39c8442be",
-      "reason": "Focused Anger resolves current Expander ownership and checks current research on attacks, including research copied during takeover; legacy trigger handles remain."
+      "after_sha256": "af84d17d5c7d7f962e199c5039913964d15a22bc25612301f981cc7104676f7a",
+      "reason": "Focused Anger resolves current Expander ownership and checks current research on attacks, including research copied during takeover; legacy trigger handles remain. Surge of Darkness expiration is scoped to the latest cast per unit."
+    },
+    {
+      "module": "src/races/forgotten/soulreaper.lua",
+      "before_sha256": "3d8b344949e2f1c2e7e7868c04ff9fab5bd66ee97e92181ef68d96ed13f168cf",
+      "after_sha256": "5b618bcc10a3ed90e9e226bb84e0947fb4ddacbb7d6a93331986c682222fe45e",
+      "reason": "Release Avatar locations; earlier cast expirations cannot reset a newer Avatar bonus."
     },
     {
       "module": "src/races/forgotten/bloodmage.lua",
@@ -122,32 +146,38 @@
     {
       "module": "src/races/nerubian.lua",
       "before_sha256": "2224c239fd09684f05cd6ce83a80c8558c25b47d9dc9355840fcfa7d33417a41",
-      "after_sha256": "77f99e075cfcfe45eb0c1a5f828a12bc27366f48b40b94b9ef072db9a88c33f7",
-      "reason": "Remove tracked spires on death or scripted RemoveUnit through one idempotent native wrapper, ignore duplicate/untracked count events, and require a separate living nearby unit for upgrade blocking. Existing global aura-count rules remain."
+      "after_sha256": "230fb8af9e4ae54dd3dd4e0804bbdc05e123b8a53b59c37c8a794b612912f250",
+      "reason": "Remove tracked spires on death or scripted RemoveUnit through one idempotent native wrapper, ignore duplicate/untracked count events, and require a separate living nearby unit for upgrade blocking. Existing global aura-count rules remain. Release Frenzy dummy-spawn locations."
     },
     {
       "module": "src/races/ratling.lua",
       "before_sha256": "f859a996778affd8816e4e91681e20c89b4b9aaa87fbe0247ed71387a89c62af",
-      "after_sha256": "778649ad9fd8753e4d177e789c9e0ce22727cd0dc31ef7e4c0368a6a4480f1e3",
-      "reason": "Move poison stacking to landed hits; retain corrosion reduction until its buff expires; record invisibility research without requiring an existing unit and apply it to the actual entering unit."
+      "after_sha256": "efb1e8abbe6110209560eeceb1b5b171677e35401ed99b1a1012fc59a4e09e46",
+      "reason": "Move poison stacking to landed hits; retain corrosion reduction until its buff expires; record invisibility research without requiring an existing unit and apply it to the actual entering unit. Release Sticky Glue locations. Chemical Rage restores its original attack cooldown on corpses and only after the latest cast."
     },
     {
       "module": "src/races/wisp.lua",
       "before_sha256": "6901fa76144bc528dcbe05b927ec2908dcd478629ab90c530507e59efb339ffa",
-      "after_sha256": "3066cadbe0ba36451906c6c8369a74a4844bad8b4d3a04ddcb8dbac95e064c9c",
-      "reason": "Restore existing manually leveled Wildkin, Worgen and Bloodmage abilities from player research after rebirth."
+      "after_sha256": "121085e0a54d3084239ad96bd889beb4fd696542f9d8d1085c8475341cee75c7",
+      "reason": "Restore existing manually leveled Wildkin, Worgen and Bloodmage abilities from player research after rebirth. Restore Kobold spellbook Shovel Strike research after rebirth."
     },
     {
       "module": "src/races/wildkin.lua",
       "before_sha256": "cc2eb273d7b729497f531f78ba17ec8e3e985cc68d0c9f2858f47e5c2f5436d3",
-      "after_sha256": "c501b694659a54ece4b10cee7efaa0f6ac530d5aba00ae284d39ecfec54ba707",
-      "reason": "Restore researched Wildkin ability levels after recreation; explicitly retain Moonblast timers until cleanup."
+      "after_sha256": "d85f25d176a8b422095fbefd1c60481fb6ce45d05743f91e79fe62c319593ad9",
+      "reason": "Restore researched Wildkin ability levels after recreation; explicitly retain Moonblast timers until cleanup. Release all seven research-enumeration groups."
     },
     {
       "module": "src/races/worgen.lua",
       "before_sha256": "ad37d27419699101d5c048992885ebdb87d02468f15623e2003378008526d84f",
-      "after_sha256": "7cf7007954fc15e8d2a468d7a37e3222289eb7d6e2cd67fdd2866787b3f97078",
-      "reason": "Remove the unearned harvest-order gold reward; real world-tree hits retain their reward. Restore existing manually leveled abilities after rebirth."
+      "after_sha256": "7e5c2214f8b38332c9923fd06e84b85a982e50ca5116d099660f66b3d71b7924",
+      "reason": "Remove the unearned harvest-order gold reward; real world-tree hits retain their reward. Restore existing manually leveled abilities after rebirth. Release both research-enumeration groups."
+    },
+    {
+      "module": "src/ancients/paranoia.lua",
+      "before_sha256": "adf4f05fdb94817640d9a38aa34da1b6dcbebddf7e5024506665abcbe245190b",
+      "after_sha256": "89c3e293500d7b98a924839e14f508ae7997145584f577b15ee33d641ca448f0",
+      "reason": " Track Realm of Darkness recipients through ownership changes and retain the global effect until the latest cast expires."
     },
     {
       "module": "src/ancients/zalxon.lua",
@@ -158,8 +188,8 @@
     {
       "module": "src/ancients/nebula.lua",
       "before_sha256": "6f39f9c7fef9d1cceaa43293141d3dbb458245cc54509c03bc26c37c40f1d01e",
-      "after_sha256": "a5a0c80c1668d9a65a54414846a08ea81d79cd2e8bae12d54c276316ec69defa",
-      "reason": "Explicit Lua ownership for slow timers; Cosmic Strike mana reads its captured caster instead of unrelated native damage context."
+      "after_sha256": "f61fa911f138de44d0aae53f7cff83ce5bd6a8f728bd535da642934c6d387e60",
+      "reason": "Explicit Lua ownership for slow timers; Cosmic Strike mana reads its captured caster instead of unrelated native damage context. Capture Recall targets per caster and clear on completion/cancellation/death/removal; heal the completing Galactic Fury caster; Time Warp uses its caster and releases temporary handles."
     },
     {
       "module": "src/ancients/avalanche.lua",
@@ -188,8 +218,8 @@
     {
       "module": "src/ai/behavior.lua",
       "before_sha256": "86951a7feb6b528f49f5e5abf887c65442ade602f9e381ab9782ed54fb70a847",
-      "after_sha256": "b200e36521de64115c3ab4354e9ee9a83f621b108970fd9977a54c2ec6939a2b",
-      "reason": "Replace unbounded recursive target retries with uniform selection from the same eligible owners; handle empty pools and timer event context, use the chosen target location, and release temporary groups/locations. Rejected-draw RNG consumption deliberately changes."
+      "after_sha256": "94960970f923772e8432612d7b2eca30fce392119defe52e3b83f29938d369ea",
+      "reason": "Replace unbounded recursive target retries with uniform selection from the same eligible owners; handle empty pools and timer event context, use the chosen target location, and release temporary groups/locations. Rejected-draw RNG consumption deliberately changes. Release regular-AI selection and roaming groups/locations; preserve original random bounds and draw order."
     },
     {
       "module": "src/items/effects.lua",
@@ -212,14 +242,20 @@
     {
       "module": "src/players/lackeys.lua",
       "before_sha256": "fbc397fc02e5f4ca5253ca10ec20c8543a51f569376c1fe414f07d58c73ff7fd",
-      "after_sha256": "d5c03e3d26eef04cffb5432915283a18bdce8d235cc7a00597f3a4fe553b8d47",
-      "reason": "Explicit Lua ownership for respawn and game-clock timers; native timing and visibility unchanged."
+      "after_sha256": "a1c6735745e3087a0989a2559f38705bfe163b8523bd5e184904837d246e5e96",
+      "reason": "Explicit Lua ownership for respawn and game-clock timers; native timing and visibility unchanged. Release MiniMini spawn locations and the Dark Ritual effect across all eight offspring types."
     },
     {
       "module": "src/players/leaving.lua",
       "before_sha256": "65d9d5b7ccd1c4306328f18c5aee5d3025c5bbb815fe8a497a8e05301117cae7",
       "after_sha256": "323cd4c366ad6600efe65832a75cfa3d479d9abcab79dba411065727ab2d2ab2",
       "reason": "Uniform 60-second takeover window."
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "before_sha256": "87d4dad9992eebe97685c10320c2fda3625098aff46729b88470c39292e9fee7",
+      "after_sha256": "89f112f8968ec03671a5e951e7bf57708b664cbb4472f5a243e90005ca494fde",
+      "reason": "Release the seven temporary flag-query groups without changing query results or death sounds."
     },
     {
       "module": "src/game/victory.lua",
@@ -254,9 +290,15 @@
       "module": "src/effects/timed.lua"
     },
     {
+      "id": 12,
+      "before_sha256": "fb1ff2b340a2db0023167c0e5bf1fe5fce919f89f85c2094cf0ccc335f703df7",
+      "after_sha256": "033f9584ea37906ed85a20b658cf8a6567e7381786021fbfc413a7fb20b3d23e",
+      "module": "src/game/tree_chopper.lua"
+    },
+    {
       "id": 13,
       "before_sha256": "cd7800fed032b8a497042b83659b5b2c9869e792af0126dbe87c8d0ac907ff3b",
-      "after_sha256": "c0e06e70285dbe100ef4ddca41814f7fff5866e93c2834595bea9f2a7a9db680",
+      "after_sha256": "4c57a25768ccf231339c1aee711858226d2f2a95d3b289ba448f4fa735cbd882",
       "module": "src/players/participation.lua"
     },
     {
@@ -386,10 +428,28 @@
       "module": "src/races/cultist.lua"
     },
     {
+      "id": 48,
+      "before_sha256": "d2df2db8d63ccae36dfd6c217e173b3fa1bf3f747f72d193f6966760eb1b6588",
+      "after_sha256": "543c2afd8f067a76881472bd45aa756a2e0441ddd292cfcf60b98e6288ef1e09",
+      "module": "src/races/kobold.lua"
+    },
+    {
       "id": 49,
       "before_sha256": "04752ce140ed5939116e693d7076a3fb12bd93f1390bfa900faba7afdc97f23a",
       "after_sha256": "df1d1a872482a885f66102fdc49dd2d086852a1f22d2e7119ab7bcd923c7afbb",
       "module": "src/races/night_elf.lua"
+    },
+    {
+      "id": 52,
+      "before_sha256": "83ee25088208812409fab35212327796ad0bc4790f26cf888821274f154f4a9c",
+      "after_sha256": "dfb57c8cad92ddbf6275a86a45373894ad1d0c6934a40d8b71695bab5b723f5b",
+      "module": "src/races/night_elf/shadow_dancer.lua"
+    },
+    {
+      "id": 54,
+      "before_sha256": "7f6059a33c5f8445ece5e5c9c96b09527bfc0e5d8f93498b4d01f349d1c887ad",
+      "after_sha256": "8a5b49aac7b7ceef9e000e78df3c62314020d3d262d029e5830cdaf46371db30",
+      "module": "src/races/night_elf/shadow_dancer.lua"
     },
     {
       "id": 56,
@@ -398,9 +458,33 @@
       "module": "src/races/night_elf/shadow_dancer.lua"
     },
     {
+      "id": 57,
+      "before_sha256": "5e0261df6efa6b40cbc716f66740446918e51af41e9cfe831424364bc8af9950",
+      "after_sha256": "4d5603af6d9bc501fd93c6b8c53de0713ada4978bee839a8427ce402e237e189",
+      "module": "src/races/night_elf/shadow_dancer.lua"
+    },
+    {
+      "id": 58,
+      "before_sha256": "f5b58070a1162c3f9eae6fb8170a46be894f58982dc07da121dece74ac22020c",
+      "after_sha256": "9e2d86d72f43cbbc4fc259beafcb8cc76e389db977980653098b36106b2830ea",
+      "module": "src/races/night_elf/shadow_dancer.lua"
+    },
+    {
+      "id": 64,
+      "before_sha256": "b064dbc9dee502e7eea9cd414c208fb90c8c59d5d0c03de4be192085d3cd5366",
+      "after_sha256": "4b76e611e69933b7fbbf8180dde24ac454a2cbb58066430e272828aeac710379",
+      "module": "src/races/forgotten.lua"
+    },
+    {
       "id": 65,
       "before_sha256": "9ca7931e12407839eed480cd9b674743ec306dfee5c8aa14a87f5139479d6ef1",
       "after_sha256": "9b9c04d81b65662149416df37eddef666895cbaf84c0f9d181162c05af1ab14f",
+      "module": "src/races/forgotten/executioner.lua"
+    },
+    {
+      "id": 66,
+      "before_sha256": "cc6047fbe5f2add5bbb65f2dabc3f1381d175dd804d6bedfc05a9ca8a1a81df2",
+      "after_sha256": "addcdd32a9dc558438cfdf6d29e5754ee41c34d3e48a617d27f53777aa5fc5b8",
       "module": "src/races/forgotten/executioner.lua"
     },
     {
@@ -450,6 +534,12 @@
       "before_sha256": "63c60854dfe297c64f9f162e231a8e964c27528a3ba74899f0a2b7f0c9b20615",
       "after_sha256": "092efe58d985e8e618e4340b7d5f946b9356a6e88f0e3666d5d25169fb3f2282",
       "module": "src/races/forgotten/executioner.lua"
+    },
+    {
+      "id": 89,
+      "before_sha256": "34dd47f6c8213650cd0939ec1ad5b87109a6850449bfc5e0ef989698b747e40d",
+      "after_sha256": "0f4053adea8e46a59ecad4b890cfdc4b23c0b54a57bca3f042bf5dd9c802ba0f",
+      "module": "src/races/forgotten/soulreaper.lua"
     },
     {
       "id": 90,
@@ -524,6 +614,18 @@
       "module": "src/races/nerubian.lua"
     },
     {
+      "id": 124,
+      "before_sha256": "0700eccc1b604514386daa263a403ff7f6dc1f50e4cd271c5b08f8652179cd34",
+      "after_sha256": "64b545c4b1277a029c395ea540addf310315bd174a95d5bcdcfa33feb21bb232",
+      "module": "src/races/nerubian.lua"
+    },
+    {
+      "id": 125,
+      "before_sha256": "77b01fb5950af4022537b637af3946d0f1bf35275018d6eb9764e2a628130467",
+      "after_sha256": "0cbc3cc9af941eab04ce812a57fbc2d60c08de8022381651f01b643182b02007",
+      "module": "src/races/ratling.lua"
+    },
+    {
       "id": 127,
       "before_sha256": "2216f7c6e8839b3d9a14a8cc470cf043d0dfcffb4e65128671810f9758b9e6d6",
       "after_sha256": "f42c399589e7768a59efaf1731fdc35e796dd7df86f4e4702d530b43d96e8025",
@@ -554,15 +656,63 @@
       "module": "src/races/ratling.lua"
     },
     {
+      "id": 133,
+      "before_sha256": "2f735a0d3e89f57ab1fcce1bd39b04b545085d7f0a2c391a6081309e768fa259",
+      "after_sha256": "639742d6e3309342ede129c06682ebc3e70ccd2ab4f60a1d54e89325c6f9592d",
+      "module": "src/races/ratling.lua"
+    },
+    {
       "id": 136,
       "before_sha256": "a80518e4290ad933df1881a722d23bb968cd48f240f10343b60ae8eb84a7c399",
-      "after_sha256": "8e74e4ce022013da6e06425c468f7c5cf41ad1b0a2a760d362555e73f0ca5b4c",
+      "after_sha256": "a5095f88550dc6320bd6f00229b9402dcf27906536bff5cab70bb18a83b1d09a",
       "module": "src/races/wisp.lua"
+    },
+    {
+      "id": 139,
+      "before_sha256": "9e0ef71454eae7399838e306362c9b72c24dc7c4c6e6aa4c4747bcbb6a2bcce9",
+      "after_sha256": "007ce01d3fb349c67d2a8cd05bb56610337972cf3dc958172c154cfd0741028c",
+      "module": "src/races/wildkin.lua"
     },
     {
       "id": 140,
       "before_sha256": "19cb749c542f33e6286f56955f8d12bd4f7fd7b93af00fa730b7fca61230a966",
       "after_sha256": "301835dad65b7785bfed3a5d1f5a557f80222bd5f969341bb6f4dedcc3813b3d",
+      "module": "src/races/wildkin.lua"
+    },
+    {
+      "id": 141,
+      "before_sha256": "ae66e7cea3c0678844d6bafdf142a723d20944978cc7dbd0662c674f4c2d2bdc",
+      "after_sha256": "9fa169809a90768c2823562f4ea69aa1a17d5f39e11a9f5546ea50c0a7845363",
+      "module": "src/races/wildkin.lua"
+    },
+    {
+      "id": 143,
+      "before_sha256": "15a7a8ad6bafcb027897e832751345de21f598dd9fe1543d56a20b76f1efd7bc",
+      "after_sha256": "20aa32edaa0fa8c7f89d9ad63c7d708b886893c9326851fb24f880b022e6b4b0",
+      "module": "src/races/wildkin.lua"
+    },
+    {
+      "id": 144,
+      "before_sha256": "e5b2a054e257a3968e389cbdb1d0cfe47e3f39d55c043c69ddab7df00e2dd241",
+      "after_sha256": "902daed73029b20ff2b5ed0c177548fc4d4d9961d804875a094a67e515d74934",
+      "module": "src/races/wildkin.lua"
+    },
+    {
+      "id": 146,
+      "before_sha256": "c4177e006fa2f8022e11493a0b037643c93b9301572e6f763a1fafa9fdf2e1eb",
+      "after_sha256": "06c1fcaa057bcee404903836360d0d72ccbc0033eb33e8ee463af52c5982ddc1",
+      "module": "src/races/wildkin.lua"
+    },
+    {
+      "id": 148,
+      "before_sha256": "72a1db8dcf8f3b50f9d5a25bb92cfc1cf95acff31bb45dc97c299af490677890",
+      "after_sha256": "8675933a6cb8608e24b413083046641cce573fd54c615fdd7284546d5eaf3a3b",
+      "module": "src/races/wildkin.lua"
+    },
+    {
+      "id": 149,
+      "before_sha256": "d6faafb2b22c14fff0379d380fdc1f9c86462d92c2d19dec0522b7781ed14311",
+      "after_sha256": "ee27d6af05444c060c7ef1c68b1624af1cd2367f9205c917d6e23f0411e1aaa6",
       "module": "src/races/wildkin.lua"
     },
     {
@@ -572,10 +722,64 @@
       "module": "src/races/worgen.lua"
     },
     {
+      "id": 152,
+      "before_sha256": "34d0dbf1a085ef0522f95e3f5d9b0f01b7336897bee7f937e5316825f3cbcaa4",
+      "after_sha256": "2ad54f01071440d8656359d72f52578559ba5eb2b2fc3832ee581f9d7a628769",
+      "module": "src/races/worgen.lua"
+    },
+    {
+      "id": 153,
+      "before_sha256": "2e245558d1a17c70c8f5b459265aeea088769132e859140ecdeda0c5ce97084d",
+      "after_sha256": "6200850184ca9cb4062fb339ca2bd75220ee014a7ce86971adead6cf6615ff35",
+      "module": "src/races/worgen.lua"
+    },
+    {
+      "id": 156,
+      "before_sha256": "7f66d85b518b40f0f25df4d7d85b8365c2b7318cc4def504204d0f233ed4ff98",
+      "after_sha256": "72d7c522e2a7bc959baa3648158138e151b9ef697b405c8e15ba96e079961c6b",
+      "module": "src/ancients/paranoia.lua"
+    },
+    {
+      "id": 157,
+      "before_sha256": "766dba9191b6b62ab48a5ee08a6a8357b390979ce1886a63af4692ba63d0ffaa",
+      "after_sha256": "df112efd7406b783c512fab97f90bada290e03ee5d48ddae0eab2eb68f88202f",
+      "module": "src/ancients/paranoia.lua"
+    },
+    {
       "id": 158,
       "before_sha256": "1e345d1a26c5862eed2d69cdaafa37f5149ef688a15c902c0a50ca36878aa1ce",
       "after_sha256": "87cff707bac8853a3d0165a5ad232c50c0f3d4af6d6f8d144020e1f763221793",
       "module": "src/ancients/zalxon.lua"
+    },
+    {
+      "id": 160,
+      "before_sha256": "edb97f27aea3e8f81a05455c5c2365c8ff58653d5c5297db5998f5e552d2f747",
+      "after_sha256": "8ad4f304d5877dc0f081b3d4cc9a6c66c13b5a4e7c4617b987f90ac1fc3c94ee",
+      "module": "src/ancients/nebula.lua"
+    },
+    {
+      "id": 161,
+      "before_sha256": "d48be1a39293fb4f5276d132f13bc3ee34fd59c7c80bfb5646c979502e552610",
+      "after_sha256": "60a956aebb51ce65c02cd2124ed59d50abb6650cb17d99d86ae0b23ed0e15b35",
+      "module": "src/ancients/nebula.lua"
+    },
+    {
+      "id": 162,
+      "before_sha256": "5e4df4883f9c98b48a9b9a503ef48d7c301391f25b731dcd73f81e12b7c54914",
+      "after_sha256": "4b65b08d4ca9e1c69bf957fc9a0fe60ee448ab48c4e889d5e8b61187e8884350",
+      "module": "src/ancients/nebula.lua"
+    },
+    {
+      "id": 163,
+      "before_sha256": "c9296c4cfb07738cd61552a73e93a8634244cbc198199850f2068d42dd7cbe6e",
+      "after_sha256": "50e1567e5a6da2a9e3c03a58950799ed6c033df293c7a2ae2da74d91e8363293",
+      "module": "src/ancients/nebula.lua"
+    },
+    {
+      "id": 164,
+      "before_sha256": "58b6dbda4e2f18e7fdf136b233fab960921e31b1c55414600d9fabd17f4fe035",
+      "after_sha256": "3f82c148173a824d0afcee4af1fba81c4acb3e519acafa08a97de24234b1d54a",
+      "module": "src/ancients/nebula.lua"
     },
     {
       "id": 165,
@@ -668,6 +872,18 @@
       "module": "src/ai/behavior.lua"
     },
     {
+      "id": 211,
+      "before_sha256": "2b6d3e0b827ee9932747baa4d410a4dd7e24eb12d2e0309d951182bda4998c2c",
+      "after_sha256": "02b91486b4cc259f6d64378e1b3ae3fbfaa1cd59cbb67c4ce5f5f15738eba164",
+      "module": "src/ai/behavior.lua"
+    },
+    {
+      "id": 212,
+      "before_sha256": "57f890f711b38d5c9039f6f5250dc37b44686d52c2db218e796309afd0bb2008",
+      "after_sha256": "c8ae2491337ba11534cd24fc17f7de596b658ec2e5305a6c9ef5098bd07f9841",
+      "module": "src/ai/behavior.lua"
+    },
+    {
       "id": 223,
       "before_sha256": "b592d64293e6e1f22bbcbea4420582b8bf825660553df5c94ce30b75ab634467",
       "after_sha256": "d50dcecd4f0b3a99719461bd1ef0368f8d093431648330d64bdc565d098325d7",
@@ -716,6 +932,12 @@
       "module": "src/players/lackeys.lua"
     },
     {
+      "id": 320,
+      "before_sha256": "200e5c6f4b0fef6a513179a7501d4a04501bbdd861f8f59b4b1d5d614e178823",
+      "after_sha256": "17b5b380ab575e0d70997982c424df35f3dbb41151a1e9f5580172c74120854e",
+      "module": "src/players/lackeys.lua"
+    },
+    {
       "id": 321,
       "before_sha256": "db6a96ffc44473652fd6e1b33264533b30c97f886ba0684ee1b39f53b01c47b2",
       "after_sha256": "77c1d3514ab5bd5c7398c67e9bc46a780318316c29da66f59ada9acabdbf17a1",
@@ -726,6 +948,48 @@
       "before_sha256": "5d07d75d42849a494b9749ba4e67cc565e747f813775621df288cffaaf3d953d",
       "after_sha256": "72e514944a66f34244dd1f275f0bef4b93229356ede829ff0ff4f46759f1bd29",
       "module": "src/players/leaving.lua"
+    },
+    {
+      "id": 323,
+      "before_sha256": "f850ffb94f21a889ed2dbe0833392296defc25ddcedd445a9a7748a4a4845a8b",
+      "after_sha256": "3cd9c8d7482caa36d6d47866d8d24e2123da93ba6cbdfd04fb0b9523c5b6de44",
+      "module": "src/players/deaths.lua"
+    },
+    {
+      "id": 324,
+      "before_sha256": "6346a6593124bc3886e40fc55d7b58493bd4bf551e6e87691288c83d1604b22f",
+      "after_sha256": "fffb767bff821b7d117c83ac4d6ef80abf6c4ce91dce960fbffe38a8867f449c",
+      "module": "src/players/deaths.lua"
+    },
+    {
+      "id": 325,
+      "before_sha256": "0ce4f658c0c8b800f0d0b0a0aec172ecaa47575f54667595767b8e2a7c326857",
+      "after_sha256": "1d7ab16a5efa165ae84958380a2d318811d037f5abd63ee6509f7942ff2bd5f1",
+      "module": "src/players/deaths.lua"
+    },
+    {
+      "id": 326,
+      "before_sha256": "3b88e566cb1a81e9b1a355991632c0877dd19706c0483d4bb479a6dcd47a9302",
+      "after_sha256": "fad7574c28418603f0f13b1d1c029627e94930f1bafd244adc6c35c30efceb84",
+      "module": "src/players/deaths.lua"
+    },
+    {
+      "id": 342,
+      "before_sha256": "ec46e0818828939dc734169af396a539787d8f4ec1e4241dfc2ebdcf9e046261",
+      "after_sha256": "c9086dbc7efdb4931180e9c1f06c51b078ab8117313d2dc525268a754e0ebce7",
+      "module": "src/players/deaths.lua"
+    },
+    {
+      "id": 343,
+      "before_sha256": "49a6cbfe63d2b941ede414e83dabecd5b0ae0641eb595bab52f3c7762c728385",
+      "after_sha256": "5ecd0fc244116c082d39b23009069d697ba01ccbde6a7da360c3950e5829273d",
+      "module": "src/players/deaths.lua"
+    },
+    {
+      "id": 345,
+      "before_sha256": "a5560d6faa99fc47e164c368d515d6ada9f263eed25eb25164953a99b6b27658",
+      "after_sha256": "8da03da2fe93e77770014ed8ffbf02df8b57cbd5af092a82eb9dd21e55369666",
+      "module": "src/players/deaths.lua"
     },
     {
       "id": 365,
@@ -822,6 +1086,10 @@
     {
       "module": "src/effects/timed.lua",
       "function": "Trig_TSERegister_Actions"
+    },
+    {
+      "module": "src/game/tree_chopper.lua",
+      "function": "Trig_TreeChopper_Detection_Actions"
     },
     {
       "module": "src/players/participation.lua",
@@ -972,6 +1240,10 @@
       "function": "InitTrig_Map_Start"
     },
     {
+      "module": "src/races/kobold.lua",
+      "function": "Trig_ShovelStrikelevelup_Actions"
+    },
+    {
       "module": "src/races/night_elf.lua",
       "function": "Trig_Deepwater_1_Func001A"
     },
@@ -981,7 +1253,27 @@
     },
     {
       "module": "src/races/night_elf/shadow_dancer.lua",
+      "function": "Trig_ConjureRefreshment_Actions"
+    },
+    {
+      "module": "src/races/night_elf/shadow_dancer.lua",
+      "function": "Trig_Mana_Burn_Actions"
+    },
+    {
+      "module": "src/races/night_elf/shadow_dancer.lua",
       "function": "Trig_Mana_Steal_Mages_Conditions"
+    },
+    {
+      "module": "src/races/night_elf/shadow_dancer.lua",
+      "function": "Trig_ConjureMana_Actions"
+    },
+    {
+      "module": "src/races/night_elf/shadow_dancer.lua",
+      "function": "Trig_Blur_Actions"
+    },
+    {
+      "module": "src/races/forgotten.lua",
+      "function": "Trig_Soul_Hammer_Actions"
     },
     {
       "module": "src/races/forgotten/executioner.lua",
@@ -994,6 +1286,10 @@
     {
       "module": "src/races/forgotten/executioner.lua",
       "function": "FocusedAngerResearchEvent"
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "function": "Trig_Surge_of_Darkness_Actions"
     },
     {
       "module": "src/races/forgotten/executioner.lua",
@@ -1026,6 +1322,10 @@
     {
       "module": "src/races/forgotten/executioner.lua",
       "function": "InitTrig_Focused_Anger_Trigger_Copy_9"
+    },
+    {
+      "module": "src/races/forgotten/soulreaper.lua",
+      "function": "Trig_Avatar_Actions"
     },
     {
       "module": "src/races/forgotten/bloodmage.lua",
@@ -1116,6 +1416,14 @@
       "function": "CheckNearbyUpgrades"
     },
     {
+      "module": "src/races/nerubian.lua",
+      "function": "Trig_Frenzy_Actions"
+    },
+    {
+      "module": "src/races/ratling.lua",
+      "function": "ChemicalRageActions"
+    },
+    {
       "module": "src/races/ratling.lua",
       "function": "Trig_ReduceMagicResist2_Func001A"
     },
@@ -1140,8 +1448,16 @@
       "function": "Trig_Permanent_Invisibility_2_Actions"
     },
     {
+      "module": "src/races/ratling.lua",
+      "function": "Trig_Sticky_Glue_Actions"
+    },
+    {
       "module": "src/races/wisp.lua",
       "function": "Trig_SeedOfRebirth_Actions"
+    },
+    {
+      "module": "src/races/wildkin.lua",
+      "function": "Trig_Moonstrike_Leveled_Actions"
     },
     {
       "module": "src/races/wildkin.lua",
@@ -1152,12 +1468,84 @@
       "function": "Trig_Moonblast_Actions"
     },
     {
+      "module": "src/races/wildkin.lua",
+      "function": "Trig_Moonblast_Leveled_Actions"
+    },
+    {
+      "module": "src/races/wildkin.lua",
+      "function": "Trig_Lunar_Assault_Leveled_Actions"
+    },
+    {
+      "module": "src/races/wildkin.lua",
+      "function": "Trig_Cascade_Leveled_Actions"
+    },
+    {
+      "module": "src/races/wildkin.lua",
+      "function": "Trig_Nourish_Leveled_Actions"
+    },
+    {
+      "module": "src/races/wildkin.lua",
+      "function": "Trig_Natural_Vigil_Leveled_Actions"
+    },
+    {
+      "module": "src/races/wildkin.lua",
+      "function": "Trig_Lifebloom_Leveled_Actions"
+    },
+    {
       "module": "src/races/worgen.lua",
       "function": "Trig_Return_lumber_Actions"
     },
     {
+      "module": "src/races/worgen.lua",
+      "function": "Trig_Slash_Leveled_Actions"
+    },
+    {
+      "module": "src/races/worgen.lua",
+      "function": "Trig_Bleed_Leveled_Actions"
+    },
+    {
+      "module": "src/ancients/paranoia.lua",
+      "function": "Trig_Realm_of_darkness_Func002A"
+    },
+    {
+      "module": "src/ancients/paranoia.lua",
+      "function": "Trig_Realm_of_darkness_Func005A"
+    },
+    {
+      "module": "src/ancients/paranoia.lua",
+      "function": "Trig_Realm_of_darkness_Actions"
+    },
+    {
+      "module": "src/ancients/paranoia.lua",
+      "function": "Trig_Realm_of_darkness_2_Actions"
+    },
+    {
       "module": "src/ancients/zalxon.lua",
       "function": "Trig_Thunderstruck_Actions"
+    },
+    {
+      "module": "src/ancients/nebula.lua",
+      "function": "Trig_RecallStart_Actions"
+    },
+    {
+      "module": "src/ancients/nebula.lua",
+      "function": "InitTrig_RecallStart"
+    },
+    {
+      "module": "src/ancients/nebula.lua",
+      "function": "Trig_Recall_Actions"
+    },
+    {
+      "module": "src/ancients/nebula.lua",
+      "function": "Trig_Time_warp_Actions"
+    },
+    {
+      "module": "src/ancients/nebula.lua",
+      "function": "Trig_Galactic_Fury_Actions"
+    },
+    {
+      "module": "src/ancients/nebula.lua",
+      "function": "Trig_Galactic_Fury_2_Actions"
     },
     {
       "module": "src/ancients/nebula.lua",
@@ -1248,6 +1636,18 @@
       "function": "Trig_Hard_attack_2_Func002002"
     },
     {
+      "module": "src/ai/behavior.lua",
+      "function": "Trig_Select_Actions"
+    },
+    {
+      "module": "src/ai/behavior.lua",
+      "function": "Trig_Attack_Func017002"
+    },
+    {
+      "module": "src/ai/behavior.lua",
+      "function": "Trig_Attack_Actions"
+    },
+    {
       "module": "src/items/effects.lua",
       "function": "DAS_StopTracking"
     },
@@ -1304,12 +1704,44 @@
       "function": "SpawnLackey_StartDelayedTimer"
     },
     {
+      "module": "src/players/lackeys.lua",
+      "function": "Trig_MiniMinis_Actions"
+    },
+    {
       "module": "src/players/leaving.lua",
       "function": "Trig_Player_Leaves_Actions"
     },
     {
       "module": "src/players/leaving.lua",
       "function": "Trig_Ancient_Leaves_Actions"
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "function": "Trig_Human_Dies_Func001C"
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "function": "Trig_Wisp_Dies_Func001C"
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "function": "Trig_Centaur_Dies_Func001C"
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "function": "Trig_Ogre_Dies_Func001C"
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "function": "Trig_Kraken_Dies_Func001C"
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "function": "Trig_Aethyr_Warp_Dies_Func001C"
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "function": "Trig_Razormane_Dies_Func001C"
     },
     {
       "module": "src/game/victory.lua",
@@ -6114,7 +6546,7 @@
     {
       "file": "war3map.wts",
       "before_sha256": "b9bf979001f372ff5f88ead0b2c7bac9fd61a965ad59097c2c9fed8cdad6b8ef",
-      "after_sha256": "1e9003ee2f6585dc8f3c25aab803623a8fdfee9bee45db5b8dd275ca6bc47666"
+      "after_sha256": "b8c7747a5a011587eb2e817a812efa3e7af6d454d75b2dfab1019ad01826897d"
     }
   ],
   "verification": "Offline tests/gameplay_patch.lua, tests/runtime_audit.lua, tests/base_flags.lua, tests/selection_bans.lua, tests/solo_startup.lua, tests/gameplay_objects.py, tests/picker_objects.py and tests/object_metadata.py cover reviewed behavior and native record structure; immutable r8 suites remain independently executable. Current packed-map checks run through tests/refactor.py.",

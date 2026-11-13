@@ -7,7 +7,9 @@ function Trig_ConjureRefreshment_Conditions()
 end
 
 function Trig_ConjureRefreshment_Actions()
-    CreateItemLoc(FourCC("I021"), GetSpellTargetLoc())
+    local point = GetSpellTargetLoc()
+    CreateItemLoc(FourCC("I021"), point)
+    RemoveLocation(point)
 end
 
 function InitTrig_ConjureRefreshment()
@@ -48,7 +50,9 @@ function Trig_Mana_Burn_Actions()
     BlzSetUnitRealFieldBJ(GetSpellTargetUnit(), UNIT_RF_MANA, (__jreal(BlzGetUnitRealField(GetSpellTargetUnit(), UNIT_RF_MANA) - (__jreal(GetUnitStateSwap(UNIT_STATE_MANA, GetSpellAbilityUnit()) * __jreal(0.40))))))
     BlzSetUnitRealFieldBJ(GetSpellAbilityUnit(), UNIT_RF_MANA, (__jreal(GetUnitStateSwap(UNIT_STATE_MANA, GetSpellAbilityUnit()) * __jreal(0.80))))
     if (Trig_Mana_Burn_Func003C()) then
-        CreateNUnitsAtLoc(1, FourCC("h04L"), GetOwningPlayer(GetSpellAbilityUnit()), GetUnitLoc(GetSpellTargetUnit()), bj_UNIT_FACING)
+        local point = GetUnitLoc(GetSpellTargetUnit())
+        CreateNUnitsAtLoc(1, FourCC("h04L"), GetOwningPlayer(GetSpellAbilityUnit()), point, bj_UNIT_FACING)
+        RemoveLocation(point)
         UnitAddAbilityBJ(FourCC("A0CW"), GetLastCreatedUnit())
         UnitApplyTimedLifeBJ(__jreal(2.00), FourCC("BTLF"), GetLastCreatedUnit())
         IssueTargetOrderBJ(GetLastCreatedUnit(), "thunderbolt", GetSpellTargetUnit())
@@ -144,17 +148,26 @@ end
 -- END FOREST SECTION 56
 
 -- BEGIN FOREST SECTION 57 ConjureMana
+local conjureManaCasts = {}
+
 function Trig_ConjureMana_Conditions()
     return GetSpellAbilityId() == FourCC("A0AQ")
 end
 
 function Trig_ConjureMana_Actions()
     local caster = GetSpellAbilityUnit()
+    local cast = {}
+    conjureManaCasts[caster] = cast
     BlzSetUnitBaseDamage(GetTriggerUnit(), (__jint(199 + R2I(GetUnitStateSwap(UNIT_STATE_MANA, GetTriggerUnit())))), 0)
     TriggerSleepAction(__jreal(1.00))
-    SetUnitManaBJ(caster, (__jreal(GetUnitStateSwap(UNIT_STATE_MANA, caster) / __jreal(2.00))))
+    if GetUnitTypeId(caster) ~= 0 then
+        SetUnitManaBJ(caster, (__jreal(GetUnitStateSwap(UNIT_STATE_MANA, caster) / __jreal(2.00))))
+    end
     TriggerSleepAction(__jreal(60.00))
-    BlzSetUnitBaseDamage(GetTriggerUnit(), 199, 0)
+    if conjureManaCasts[caster] == cast then
+        conjureManaCasts[caster] = nil
+        if GetUnitTypeId(caster) ~= 0 then BlzSetUnitBaseDamage(caster, 199, 0) end
+    end
 end
 
 function InitTrig_ConjureMana()
@@ -166,15 +179,25 @@ end
 -- END FOREST SECTION 57
 
 -- BEGIN FOREST SECTION 58 Blur
+local blurCasts = {}
+
 function Trig_Blur_Conditions()
     return GetSpellAbilityId() == FourCC("A0BG")
 end
 
 function Trig_Blur_Actions()
-    UnitAddAbilityBJ(FourCC("A0AS"), GetSpellAbilityUnit())
-    TriggerSleepAction(__jreal(GetUnitStateSwap(UNIT_STATE_MAX_MANA, GetTriggerUnit()) * __jreal(0.001)))
-    UnitRemoveAbilityBJ(FourCC("A0AS"), GetTriggerUnit())
-    UnitRemoveBuffBJ(FourCC("B03G"), GetTriggerUnit())
+    local caster = GetSpellAbilityUnit()
+    local cast = {}
+    blurCasts[caster] = cast
+    UnitAddAbilityBJ(FourCC("A0AS"), caster)
+    TriggerSleepAction(__jreal(GetUnitStateSwap(UNIT_STATE_MAX_MANA, caster) * __jreal(0.001)))
+    if blurCasts[caster] == cast then
+        blurCasts[caster] = nil
+        if GetUnitTypeId(caster) ~= 0 then
+            UnitRemoveAbilityBJ(FourCC("A0AS"), caster)
+            UnitRemoveBuffBJ(FourCC("B03G"), caster)
+        end
+    end
 end
 
 function InitTrig_Blur()

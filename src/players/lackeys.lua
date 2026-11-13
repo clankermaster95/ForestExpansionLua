@@ -341,31 +341,34 @@ function Trig_MiniMinis_Func017C()
 end
 
 function Trig_MiniMinis_Actions()
+    local point = GetUnitLoc(GetDyingUnit())
     if (Trig_MiniMinis_Func003C()) then
-        AddSpecialEffectLocBJ(GetUnitLoc(GetDyingUnit()), "Abilities\\Spells\\Undead\\DarkRitual\\DarkRitualTarget.mdl")
-        CreateNUnitsAtLoc(1, FourCC("e00D"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
+        AddSpecialEffectLocBJ(point, "Abilities\\Spells\\Undead\\DarkRitual\\DarkRitualTarget.mdl")
+        DestroyEffect(GetLastCreatedEffectBJ())
+        CreateNUnitsAtLoc(1, FourCC("e00D"), GetOwningPlayer(GetKillingUnitBJ()), point, bj_UNIT_FACING)
     end
     if (Trig_MiniMinis_Func005C()) then
-        CreateNUnitsAtLoc(1, FourCC("e00F"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
+        CreateNUnitsAtLoc(1, FourCC("e00F"), GetOwningPlayer(GetKillingUnitBJ()), point, bj_UNIT_FACING)
     end
     if (Trig_MiniMinis_Func007C()) then
-        CreateNUnitsAtLoc(1, FourCC("e00B"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
+        CreateNUnitsAtLoc(1, FourCC("e00B"), GetOwningPlayer(GetKillingUnitBJ()), point, bj_UNIT_FACING)
     end
     if (Trig_MiniMinis_Func009C()) then
-        CreateNUnitsAtLoc(1, FourCC("e00P"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
+        CreateNUnitsAtLoc(1, FourCC("e00P"), GetOwningPlayer(GetKillingUnitBJ()), point, bj_UNIT_FACING)
     end
     if (Trig_MiniMinis_Func011C()) then
-        CreateNUnitsAtLoc(1, FourCC("e008"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
+        CreateNUnitsAtLoc(1, FourCC("e008"), GetOwningPlayer(GetKillingUnitBJ()), point, bj_UNIT_FACING)
     end
     if (Trig_MiniMinis_Func013C()) then
-        CreateNUnitsAtLoc(1, FourCC("e00K"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
+        CreateNUnitsAtLoc(1, FourCC("e00K"), GetOwningPlayer(GetKillingUnitBJ()), point, bj_UNIT_FACING)
     end
     if (Trig_MiniMinis_Func015C()) then
-        CreateNUnitsAtLoc(1, FourCC("e00M"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
+        CreateNUnitsAtLoc(1, FourCC("e00M"), GetOwningPlayer(GetKillingUnitBJ()), point, bj_UNIT_FACING)
     end
     if (Trig_MiniMinis_Func017C()) then
-        CreateNUnitsAtLoc(1, FourCC("e00I"), GetOwningPlayer(GetKillingUnitBJ()), GetUnitLoc(GetDyingUnit()), bj_UNIT_FACING)
+        CreateNUnitsAtLoc(1, FourCC("e00I"), GetOwningPlayer(GetKillingUnitBJ()), point, bj_UNIT_FACING)
     end
+    RemoveLocation(point)
 end
 
 function InitTrig_MiniMinis()

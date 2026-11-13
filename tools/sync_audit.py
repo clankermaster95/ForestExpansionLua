@@ -24,6 +24,8 @@ UNORDERED_REVIEW={
         'are then written in FE_Roles player order. Reversed traversal is tested.',
 }
 def review_native_lifetimes(source, path):
+    from resource_audit import inspect as inspect_resources
+    inspect_resources(source, path)
     code=code_only(source)
     assert not re.search(r'\b(?:StartTimerBJ|CreateTimerBJ|GetLastCreatedTimerBJ)\s*\(',code), \
         'GUI timer global may release a loading-time handle: '+path

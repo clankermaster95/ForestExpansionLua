@@ -1,0 +1,968 @@
+{
+  "baseline_commit": "f4c7aa392c49909497200c8223ac9b62abd7836c",
+  "baseline_tag": "v3.2.0-r14",
+  "changed_source": [
+    {
+      "module": "src/ai/behavior.lua",
+      "before_sha256": "b200e36521de64115c3ab4354e9ee9a83f621b108970fd9977a54c2ec6939a2b",
+      "after_sha256": "94960970f923772e8432612d7b2eca30fce392119defe52e3b83f29938d369ea",
+      "changed_functions": [
+        "Trig_Select_Actions",
+        "Trig_Attack_Func017002",
+        "Trig_Attack_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/ancients/nebula.lua",
+      "before_sha256": "a5a0c80c1668d9a65a54414846a08ea81d79cd2e8bae12d54c276316ec69defa",
+      "after_sha256": "f61fa911f138de44d0aae53f7cff83ce5bd6a8f728bd535da642934c6d387e60",
+      "changed_functions": [
+        "Trig_RecallStart_Actions",
+        "InitTrig_RecallStart",
+        "Trig_Recall_Actions",
+        "Trig_Time_warp_Actions",
+        "Trig_Galactic_Fury_Actions",
+        "Trig_Galactic_Fury_2_Actions"
+      ],
+      "added_functions": [
+        "ClearRecallTarget"
+      ]
+    },
+    {
+      "module": "src/ancients/paranoia.lua",
+      "before_sha256": "adf4f05fdb94817640d9a38aa34da1b6dcbebddf7e5024506665abcbe245190b",
+      "after_sha256": "89c3e293500d7b98a924839e14f508ae7997145584f577b15ee33d641ca448f0",
+      "changed_functions": [
+        "Trig_Realm_of_darkness_Func002A",
+        "Trig_Realm_of_darkness_Func005A",
+        "Trig_Realm_of_darkness_Actions",
+        "Trig_Realm_of_darkness_2_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/game/tree_chopper.lua",
+      "before_sha256": "a17f49002b352aad09d14cfa3422126d0eec62af801396203e058c55fc4e4632",
+      "after_sha256": "eaaf8f523fea77eec5daf12254f49c1c73f18e644398d6324dec105aa6e44bab",
+      "changed_functions": [
+        "Trig_TreeChopper_Detection_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "before_sha256": "87d4dad9992eebe97685c10320c2fda3625098aff46729b88470c39292e9fee7",
+      "after_sha256": "89f112f8968ec03671a5e951e7bf57708b664cbb4472f5a243e90005ca494fde",
+      "changed_functions": [
+        "Trig_Human_Dies_Func001C",
+        "Trig_Wisp_Dies_Func001C",
+        "Trig_Centaur_Dies_Func001C",
+        "Trig_Ogre_Dies_Func001C",
+        "Trig_Kraken_Dies_Func001C",
+        "Trig_Aethyr_Warp_Dies_Func001C",
+        "Trig_Razormane_Dies_Func001C"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/players/lackeys.lua",
+      "before_sha256": "d5c03e3d26eef04cffb5432915283a18bdce8d235cc7a00597f3a4fe553b8d47",
+      "after_sha256": "a1c6735745e3087a0989a2559f38705bfe163b8523bd5e184904837d246e5e96",
+      "changed_functions": [
+        "Trig_MiniMinis_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/players/participation.lua",
+      "before_sha256": "9a175576519ab19455b67607b6b13fa6f60b5e463053311d8a8029eaae4b5766",
+      "after_sha256": "b20246bd05c126bb08e169fa8e82a81b479d4a7a1b2ef21d65ec2f0f79accf8b",
+      "changed_functions": [
+        "FE_Takeover.claim"
+      ],
+      "added_functions": [
+        "FE_Takeover.refreshUnitResearch"
+      ]
+    },
+    {
+      "module": "src/races/forgotten.lua",
+      "before_sha256": "cd4f657c3ed6ca44020426c068815a9264dd6508f79f674d5974deb0909f9521",
+      "after_sha256": "86a55d1f7bf29071969b3bcce5aaeb693596757fa4a044fa9026da9aca43f248",
+      "changed_functions": [
+        "Trig_Soul_Hammer_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "before_sha256": "b79567af1b8cfbf20469a9f128457bb471adc7b214b871a6c2cbacc39c8442be",
+      "after_sha256": "af84d17d5c7d7f962e199c5039913964d15a22bc25612301f981cc7104676f7a",
+      "changed_functions": [
+        "Trig_Surge_of_Darkness_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/races/forgotten/soulreaper.lua",
+      "before_sha256": "3d8b344949e2f1c2e7e7868c04ff9fab5bd66ee97e92181ef68d96ed13f168cf",
+      "after_sha256": "5b618bcc10a3ed90e9e226bb84e0947fb4ddacbb7d6a93331986c682222fe45e",
+      "changed_functions": [
+        "Trig_Avatar_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/races/kobold.lua",
+      "before_sha256": "3e22f7b9e086ec874c1dedb211641239bee16e83a0e496407d0d259e177df1bb",
+      "after_sha256": "9e46fb57377420136942e452efc54c083bf415ca245862c820aaeeb9311bac6d",
+      "changed_functions": [
+        "Trig_ShovelStrikelevelup_Actions"
+      ],
+      "added_functions": [
+        "FE_Kobold.restoreResearch"
+      ]
+    },
+    {
+      "module": "src/races/nerubian.lua",
+      "before_sha256": "77f99e075cfcfe45eb0c1a5f828a12bc27366f48b40b94b9ef072db9a88c33f7",
+      "after_sha256": "230fb8af9e4ae54dd3dd4e0804bbdc05e123b8a53b59c37c8a794b612912f250",
+      "changed_functions": [
+        "Trig_Frenzy_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/races/night_elf/shadow_dancer.lua",
+      "before_sha256": "8372cc5ca7f2cff1120a1a11e56dc97ffcba883caac2b52b281a5d6293df48bc",
+      "after_sha256": "184dcef526924894d657d356327b7f7027bb394440e9bb901df4a80e91b801a5",
+      "changed_functions": [
+        "Trig_ConjureRefreshment_Actions",
+        "Trig_Mana_Burn_Actions",
+        "Trig_ConjureMana_Actions",
+        "Trig_Blur_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/races/ratling.lua",
+      "before_sha256": "778649ad9fd8753e4d177e789c9e0ce22727cd0dc31ef7e4c0368a6a4480f1e3",
+      "after_sha256": "efb1e8abbe6110209560eeceb1b5b171677e35401ed99b1a1012fc59a4e09e46",
+      "changed_functions": [
+        "ChemicalRageActions",
+        "Trig_Sticky_Glue_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/races/wildkin.lua",
+      "before_sha256": "c501b694659a54ece4b10cee7efaa0f6ac530d5aba00ae284d39ecfec54ba707",
+      "after_sha256": "d85f25d176a8b422095fbefd1c60481fb6ce45d05743f91e79fe62c319593ad9",
+      "changed_functions": [
+        "Trig_Moonstrike_Leveled_Actions",
+        "Trig_Moonblast_Leveled_Actions",
+        "Trig_Lunar_Assault_Leveled_Actions",
+        "Trig_Cascade_Leveled_Actions",
+        "Trig_Nourish_Leveled_Actions",
+        "Trig_Natural_Vigil_Leveled_Actions",
+        "Trig_Lifebloom_Leveled_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/races/wisp.lua",
+      "before_sha256": "3066cadbe0ba36451906c6c8369a74a4844bad8b4d3a04ddcb8dbac95e064c9c",
+      "after_sha256": "121085e0a54d3084239ad96bd889beb4fd696542f9d8d1085c8475341cee75c7",
+      "changed_functions": [
+        "Trig_SeedOfRebirth_Actions"
+      ],
+      "added_functions": []
+    },
+    {
+      "module": "src/races/worgen.lua",
+      "before_sha256": "7cf7007954fc15e8d2a468d7a37e3222289eb7d6e2cd67fdd2866787b3f97078",
+      "after_sha256": "7e5c2214f8b38332c9923fd06e84b85a982e50ca5116d099660f66b3d71b7924",
+      "changed_functions": [
+        "Trig_Slash_Leveled_Actions",
+        "Trig_Bleed_Leveled_Actions"
+      ],
+      "added_functions": []
+    }
+  ],
+  "static_resource_inventory": [
+    {
+      "module": "src/runtime.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/globals.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 1194,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 1195,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 1202,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 1204,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 1205,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 1209,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/players/roles.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/players/roster.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/items/recipe_data.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/items/recipes.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/items/shops.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 171,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/items/ledgers.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/combat/focused_anger.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/libraries/damage_engine.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 797,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 798,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/libraries/passive_missiles.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 307,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/libraries/prelude.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/libraries/spell_leech.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/commands/test_data.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/commands/solo_test.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/initialization.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 55,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 96,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 146,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 310,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 320,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 324,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 420,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/combat/damage.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/effects/timed.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/game/clock.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/commands/trade.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/game/tree_chopper.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 6,
+          "allocator": "GetRectCenter"
+        }
+      ]
+    },
+    {
+      "module": "src/players/participation.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 26,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 41,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 120,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/game/overdrive.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/commands/player.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/game/selection.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 232,
+          "allocator": "GetRectCenter"
+        },
+        {
+          "line": 264,
+          "allocator": "GetRectCenter"
+        },
+        {
+          "line": 293,
+          "allocator": "GetRectCenter"
+        },
+        {
+          "line": 293,
+          "allocator": "GetRectCenter"
+        },
+        {
+          "line": 301,
+          "allocator": "GetUnitsInRectAll"
+        },
+        {
+          "line": 304,
+          "allocator": "GetRectCenter"
+        },
+        {
+          "line": 404,
+          "allocator": "GetUnitLoc"
+        },
+        {
+          "line": 426,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 427,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 504,
+          "allocator": "GetRectCenter"
+        }
+      ]
+    },
+    {
+      "module": "src/game/fountain.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 32,
+          "allocator": "GetUnitsInRectAll"
+        }
+      ]
+    },
+    {
+      "module": "src/combat/common.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 14,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/economy/feed.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/races/bounty_hunter.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/races/cultist.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 238,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/races/centaur.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/races/elf_engineer.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/races/kobold.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 21,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        }
+      ]
+    },
+    {
+      "module": "src/races/night_elf.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 17,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        }
+      ]
+    },
+    {
+      "module": "src/races/night_elf/arch_druid.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 10,
+          "allocator": "GetSpellTargetLoc"
+        },
+        {
+          "line": 26,
+          "allocator": "GetDestructableLoc"
+        }
+      ]
+    },
+    {
+      "module": "src/races/night_elf/shadow_dancer.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 10,
+          "allocator": "GetSpellTargetLoc"
+        },
+        {
+          "line": 53,
+          "allocator": "GetUnitLoc"
+        }
+      ]
+    },
+    {
+      "module": "src/races/ghoul.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 48,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/races/kraken.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/races/aethyr.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/races/forgotten.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 34,
+          "allocator": "GetUnitLoc"
+        }
+      ]
+    },
+    {
+      "module": "src/races/forgotten/executioner.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/races/forgotten/soulreaper.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 49,
+          "allocator": "GetUnitLoc"
+        }
+      ]
+    },
+    {
+      "module": "src/races/forgotten/bloodmage.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 19,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        },
+        {
+          "line": 405,
+          "allocator": "GetUnitLoc"
+        },
+        {
+          "line": 410,
+          "allocator": "GetUnitLoc"
+        },
+        {
+          "line": 509,
+          "allocator": "GetUnitLoc"
+        },
+        {
+          "line": 510,
+          "allocator": "GetUnitLoc"
+        }
+      ]
+    },
+    {
+      "module": "src/races/nerubian.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 81,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 124,
+          "allocator": "GetUnitLoc"
+        }
+      ]
+    },
+    {
+      "module": "src/races/ratling.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 202,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        },
+        {
+          "line": 249,
+          "allocator": "GetSpellTargetLoc"
+        }
+      ]
+    },
+    {
+      "module": "src/races/razormane.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/races/wisp.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 28,
+          "allocator": "GetUnitsOfPlayerAll"
+        }
+      ]
+    },
+    {
+      "module": "src/races/wildkin.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 69,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        },
+        {
+          "line": 198,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        },
+        {
+          "line": 247,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        },
+        {
+          "line": 270,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        },
+        {
+          "line": 310,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        },
+        {
+          "line": 361,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        },
+        {
+          "line": 384,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        }
+      ]
+    },
+    {
+      "module": "src/races/worgen.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 50,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        },
+        {
+          "line": 73,
+          "allocator": "GetUnitsOfPlayerAndTypeId"
+        }
+      ]
+    },
+    {
+      "module": "src/combat/spells.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/ancients/paranoia.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 31,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 33,
+          "allocator": "GetUnitsInRectMatching"
+        }
+      ]
+    },
+    {
+      "module": "src/ancients/zalxon.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/ancients/nebula.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 77,
+          "allocator": "GetSpellTargetLoc"
+        },
+        {
+          "line": 78,
+          "allocator": "GetUnitLoc"
+        },
+        {
+          "line": 81,
+          "allocator": "GetUnitsInRangeOfLocAll"
+        },
+        {
+          "line": 171,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/ancients/tremor.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/ancients/pharaoh.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/ancients/avalanche.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 212,
+          "allocator": "CreateGroup"
+        }
+      ]
+    },
+    {
+      "module": "src/ancients/divinity.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/ancients/wispari.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/ui/hints.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 164,
+          "allocator": "GetRectCenter"
+        }
+      ]
+    },
+    {
+      "module": "src/ai/behavior.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 11,
+          "allocator": "GetUnitLoc"
+        },
+        {
+          "line": 18,
+          "allocator": "GetUnitsInRectAll"
+        },
+        {
+          "line": 30,
+          "allocator": "GetRandomSubGroup"
+        },
+        {
+          "line": 35,
+          "allocator": "GetUnitsOfPlayerAll"
+        },
+        {
+          "line": 186,
+          "allocator": "GetUnitsInRectAll"
+        },
+        {
+          "line": 190,
+          "allocator": "GetRectCenter"
+        },
+        {
+          "line": 207,
+          "allocator": "GetRectCenter"
+        },
+        {
+          "line": 229,
+          "allocator": "GetUnitsOfPlayerAll"
+        }
+      ]
+    },
+    {
+      "module": "src/items/effects.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 265,
+          "allocator": "GetUnitLoc"
+        }
+      ]
+    },
+    {
+      "module": "src/economy/income.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/game/startup.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/ui/names.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/game/bans/expanders.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/game/bans/ancients.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/combat/shop_protection.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/players/alliances.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/ui/animations.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/ui/quests.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/players/lackeys.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 117,
+          "allocator": "GetUnitLoc"
+        },
+        {
+          "line": 123,
+          "allocator": "GetUnitsOfPlayerAll"
+        },
+        {
+          "line": 344,
+          "allocator": "GetUnitLoc"
+        }
+      ]
+    },
+    {
+      "module": "src/players/leaving.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/players/deaths.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 46,
+          "allocator": "GetUnitsInRectOfPlayer"
+        },
+        {
+          "line": 71,
+          "allocator": "GetUnitsInRectOfPlayer"
+        },
+        {
+          "line": 96,
+          "allocator": "GetUnitsInRectOfPlayer"
+        },
+        {
+          "line": 121,
+          "allocator": "GetUnitsInRectOfPlayer"
+        },
+        {
+          "line": 401,
+          "allocator": "GetUnitsInRectOfPlayer"
+        },
+        {
+          "line": 426,
+          "allocator": "GetUnitsInRectOfPlayer"
+        },
+        {
+          "line": 468,
+          "allocator": "GetUnitsInRectOfPlayer"
+        }
+      ]
+    },
+    {
+      "module": "src/game/victory.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/economy/base_flags.lua",
+      "temporary_allocation_sites": [
+        {
+          "line": 49,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 120,
+          "allocator": "CreateGroup"
+        },
+        {
+          "line": 187,
+          "allocator": "GetUnitLoc"
+        },
+        {
+          "line": 249,
+          "allocator": "GetUnitLoc"
+        }
+      ]
+    },
+    {
+      "module": "src/items/mech_blaster.lua",
+      "temporary_allocation_sites": []
+    },
+    {
+      "module": "src/bootstrap.lua",
+      "temporary_allocation_sites": []
+    }
+  ],
+  "negative_baseline_regressions": [
+    {
+      "vm": "lua-5.3.6",
+      "suite": "poke",
+      "published_r14_exit": 1,
+      "failure_output": "Slash_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nBleed_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nMoonstrike_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nMoonblast_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nLunar_Assault_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nCascade_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nNourish_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nNatural_Vigil_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nLifebloom_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nShovelStrikelevelup research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nHuman death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nWisp death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nCentaur death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nOgre death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nKraken death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nAethyr death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nRazormane death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nSticky_Glue repeated casts: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nFrenzy repeated casts: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nConjureRefreshment repeated casts: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nTreeChopper_Detection repeated casts: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nSoul Hammer drop restrictions: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nMana Burn stun dummy cleanup: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nall eight MiniMini families release spawn effects: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=2, groups=0, effects=1\nregular AI selection and roaming cleanup: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=1, effects=0\nRecall simultaneous, cancelled, dead and removed targets: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: first Recall teleported the other caster target\nGalactic Fury heals its finishing caster only: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: wrong Fury caster healed\nTime Warp cleanup, source and destination filters: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: origin damage source/radius changed\nAvatar recast and independent casters: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nChemical Rage recast, corpse expiry and original attack cooldown: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: old rage ended newer cast\nBlur recast and separate casters: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: old cast removed newer buff\nSurge_of_Darkness recast and separate casters: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: old cast removed newer buff\nConjure Mana recasts retain the latest damage bonus: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: old cast reset newer damage bonus\nRealm of Darkness overlap and ownership-change cleanup: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: old darkness prematurely ended newer cast\n$REPO\\.tools\\lua-5.3.6\\src\\lua.exe: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:346: 34 / 34 poke scenarios failed\nstack traceback:\n\t[C]: in function 'error'\n\t...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:346: in main chunk\n\t[C]: in ?\n"
+    },
+    {
+      "vm": "lua-5.3.6",
+      "suite": "gameplay_patch",
+      "published_r14_exit": 1,
+      "failure_output": "$REPO\\.tools\\lua-5.3.6\\src\\lua.exe: ...outputs\\ForestExpansionLua-main\\tests\\gameplay_patch.lua:5: takeover must reconcile manual research on inherited and surviving builders\nstack traceback:\n\t[C]: in function 'assert'\n\t...outputs\\ForestExpansionLua-main\\tests\\gameplay_patch.lua:5: in local 'check'\n\t...outputs\\ForestExpansionLua-main\\tests\\gameplay_patch.lua:210: in main chunk\n\t[C]: in ?\n"
+    },
+    {
+      "vm": "lua-5.3.6",
+      "suite": "runtime_audit",
+      "published_r14_exit": 1,
+      "failure_output": "$REPO\\.tools\\lua-5.3.6\\src\\lua.exe: ...\\outputs\\ForestExpansionLua-main\\tests\\runtime_audit.lua:589: Seed of Rebirth restores Worgen, Bloodmage and Kobold research by owner: ...\\outputs\\ForestExpansionLua-main\\tests\\runtime_audit.lua:6: rebirth must restore each owner's complete manual research levels\nstack traceback:\n\t[C]: in function 'error'\n\t...\\outputs\\ForestExpansionLua-main\\tests\\runtime_audit.lua:589: in main chunk\n\t[C]: in ?\n"
+    },
+    {
+      "vm": "lua-5.3.6-32",
+      "suite": "poke",
+      "published_r14_exit": 1,
+      "failure_output": "Slash_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nBleed_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nMoonstrike_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nMoonblast_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nLunar_Assault_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nCascade_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nNourish_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nNatural_Vigil_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nLifebloom_Leveled research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nShovelStrikelevelup research/empty enumeration: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nHuman death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nWisp death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nCentaur death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nOgre death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nKraken death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nAethyr death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nRazormane death query: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=0, groups=1, effects=0\nSticky_Glue repeated casts: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nFrenzy repeated casts: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nConjureRefreshment repeated casts: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nTreeChopper_Detection repeated casts: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nSoul Hammer drop restrictions: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nMana Burn stun dummy cleanup: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nall eight MiniMini families release spawn effects: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=2, groups=0, effects=1\nregular AI selection and roaming cleanup: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=1, effects=0\nRecall simultaneous, cancelled, dead and removed targets: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: first Recall teleported the other caster target\nGalactic Fury heals its finishing caster only: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: wrong Fury caster healed\nTime Warp cleanup, source and destination filters: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: origin damage source/radius changed\nAvatar recast and independent casters: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: temporary handles remain: locations=1, groups=0, effects=0\nChemical Rage recast, corpse expiry and original attack cooldown: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: old rage ended newer cast\nBlur recast and separate casters: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: old cast removed newer buff\nSurge_of_Darkness recast and separate casters: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: old cast removed newer buff\nConjure Mana recasts retain the latest damage bonus: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: old cast reset newer damage bonus\nRealm of Darkness overlap and ownership-change cleanup: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:7: old darkness prematurely ended newer cast\n$REPO\\.tools\\lua-5.3.6-32\\src\\lua.exe: ...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:346: 34 / 34 poke scenarios failed\nstack traceback:\n\t[C]: in function 'error'\n\t...11-01\\i-h\\outputs\\ForestExpansionLua-main\\tests\\poke.lua:346: in main chunk\n\t[C]: in ?\n"
+    },
+    {
+      "vm": "lua-5.3.6-32",
+      "suite": "gameplay_patch",
+      "published_r14_exit": 1,
+      "failure_output": "$REPO\\.tools\\lua-5.3.6-32\\src\\lua.exe: ...outputs\\ForestExpansionLua-main\\tests\\gameplay_patch.lua:5: takeover must reconcile manual research on inherited and surviving builders\nstack traceback:\n\t[C]: in function 'assert'\n\t...outputs\\ForestExpansionLua-main\\tests\\gameplay_patch.lua:5: in local 'check'\n\t...outputs\\ForestExpansionLua-main\\tests\\gameplay_patch.lua:210: in main chunk\n\t[C]: in ?\n"
+    },
+    {
+      "vm": "lua-5.3.6-32",
+      "suite": "runtime_audit",
+      "published_r14_exit": 1,
+      "failure_output": "$REPO\\.tools\\lua-5.3.6-32\\src\\lua.exe: ...\\outputs\\ForestExpansionLua-main\\tests\\runtime_audit.lua:589: Seed of Rebirth restores Worgen, Bloodmage and Kobold research by owner: ...\\outputs\\ForestExpansionLua-main\\tests\\runtime_audit.lua:6: rebirth must restore each owner's complete manual research levels\nstack traceback:\n\t[C]: in function 'error'\n\t...\\outputs\\ForestExpansionLua-main\\tests\\runtime_audit.lua:589: in main chunk\n\t[C]: in ?\n"
+    }
+  ],
+  "guard_cases": 8,
+  "limits": [
+    "Native doubles do not simulate client synchronization, rendering, pathing, or native spell event timing.",
+    "Inventory is a static scan, not manual proof of every active gameplay path."
+  ],
+  "test_source_sha256": {
+    "tests/poke.lua": "a5c6cfc9121c3175fb0a5d964abe75294f030d1b6c6d3728ffce4538b3ca5a6c",
+    "tests/gameplay_patch.lua": "0e3f4704cea58b412f25813c2e0f8e935ecdfbdfe74955d61daf8ef434854bec",
+    "tests/runtime_audit.lua": "71dc57d606d87d22db55a7c73d6156f907c5b437bd54fec86320d193b74af9ee",
+    "tools/resource_audit.py": "9e1238bc21bdfb751fa66c61f01b2f7ddf817737f6ef6685114a8d80be902d14"
+  },
+  "current_results": {
+    "poke_assertions_per_vm": 8714,
+    "poke_scenarios": 34,
+    "runtime_assertions_per_vm": 212,
+    "gameplay_patch_assertions_per_vm": 77,
+    "all_34_poke_scenarios_fail_on_published_r14": true
+  },
+  "native_editor": {
+    "version": "3.0.1.24371",
+    "report": "reports/editor-validation-r15.json",
+    "object_review": "reports/editor-object-roundtrip-r15.json"
+  }
+}

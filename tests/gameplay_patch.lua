@@ -184,6 +184,20 @@ Trig_Ancient_Gold_income_Actions();eq(Player(6).gold-oldGold,20,'Ancient income 
 
 -- Claimed units and pre-existing units survive the old 60-second deadline.
 local leaver,taker=Player(2),Player(3)
+dofile('src/races/worgen.lua');dofile('src/races/kobold.lua');dofile('src/races/forgotten/bloodmage.lua')
+local inheritedResearch, survivingResearch = {}, {}
+for _,spec in ipairs({{'h010','R051','A07F'}, {'h00R','R030','A042'}, {'u009','R043','A065'}, {'h03Q','R004','A086'}}) do
+    leaver.tech[spec[2]]=4;taker.tech[spec[2]]=2
+    local inherited=CreateUnit(leaver,spec[1]);inherited.abilities[spec[3]]=5
+    local existing=CreateUnit(taker,spec[1]);existing.abilities[spec[3]]=3
+    inheritedResearch[#inheritedResearch+1]={unit=inherited,ability=spec[3]}
+    survivingResearch[#survivingResearch+1]={unit=existing,ability=spec[3]}
+end
+-- Taker can also have the higher level; inherited spells need that level too.
+taker.tech.R004=7;survivingResearch[4].unit.abilities.A086=8
+local inheritedRat=CreateUnit(leaver,'o026');local survivingWell=CreateUnit(taker,'e00R');survivingWell.abilities.A0A4=1
+udg_SilentStrider={};udg_DeepWater1={}
+udg_SilentStrider[4]=true;udg_DeepWater1[3]=true
 local building=CreateUnit(leaver,'tower');local survivor=CreateUnit(taker,'lackey')
 CreateUnit(leaver,'h063').ancient=true
 leaver.tech.R051=4;taker.tech.R051=2
@@ -192,6 +206,11 @@ advance(59);check(not building.removed,'leaver army survives 59 seconds')
 check(FE_Takeover.claim(taker,2),'dead player can take over')
 advance(2);check(building.owner==taker and not building.removed and not survivor.removed,'expiry canceled without deleting either army')
 check(taker.tech.R051==4 and FE_Roster.isAlive(taker),'research and expander membership transferred')
+for _,list in ipairs({inheritedResearch,survivingResearch}) do for i,entry in ipairs(list) do
+    check(entry.unit.abilities[entry.ability]==(i==4 and 8 or 5),'takeover must reconcile manual research on inherited and surviving builders')
+end end
+check(inheritedRat.abilities.A0CK==1 and survivingWell.abilities.A0BB==1 and not survivingWell.abilities.A0A4,
+    'takeover must reconcile Silent Strider and Deepwater across both armies')
 local living=Player(4);local another=Player(5);another.playing=false
 local abandoned=CreateUnit(another,'tower');FE_Takeover.begin(another)
 CreateUnit(another,'h063').ancient=true
